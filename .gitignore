@@ -11,6 +11,7 @@ exploration/raw/*/
 exploration/normalized/*/
 exploration/review/*/
 exploration/coverage/*/
+exploration/cache/
 memory/durable/*/
 !exploration/raw/.gitkeep
 !exploration/raw/artifacts/.gitkeep
