@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/hook-event.schema.json",
+  "title": "HookEvent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_name", "run_id", "occurred_at", "payload", "status"],
+  "properties": {
+    "event_name": {
+      "type": "string",
+      "enum": ["pre-search", "post-fetch", "post-extract", "pre-normalize", "pre-load", "on-failure"]
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["received", "processed", "failed"]
+    }
+  }
+}

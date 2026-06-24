@@ -1,0 +1,1682 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Etymology",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Uses",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Food",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 4,
+      "heading": "Nutrition",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 4,
+      "heading": "Storage",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Fiber",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Building material",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 4,
+      "heading": "Sustainability",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 4,
+      "heading": "Insulation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 4,
+      "heading": "Hempcrete",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 4,
+      "heading": "Oils and varnishes",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 4,
+      "heading": "Plaster",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 4,
+      "heading": "Ropes and strands",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 4,
+      "heading": "Plastics",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 4,
+      "heading": "Wood",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Composite materials",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Paper",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Jewelry",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Cordage",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Animal bedding",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Water and soil purification",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Weed control",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Biofuels",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "Processing",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "Cultivation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Cultivars",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Harvesting",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Pests",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Diseases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Environmental impact",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "Producers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Australia",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Canada",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "France",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Russia and Ukraine",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "United Kingdom",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "United States",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "United States",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "Historical cultivation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 4,
+      "heading": "Japan",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 4,
+      "heading": "Portugal",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Part of a series on"
+      ],
+      "rows": [
+        [
+          "Cannabis"
+        ],
+        [
+          "Arts Culture 420 ( chan ) Books Magu (deity) Names Religion Judaism Latter-day Saints Sikhism Smoke-in Spiritual use Sports Stoner film Stoner rock Terms"
+        ],
+        [
+          "Chemistry Phytocannabinoids Main THC Dronabinol (INN) CBD Minor delta -3-THC delta -4-THC delta -7-THC delta -8-THC delta -10-THC delta -11-THC THCB THCH THCP CBDH CBDP Semi-synthetic cannabinoids THC-O-acetate Synthetic cannabinoids AM AM-2201 CP CP-55940 Nabilone Dimethylheptylpyran HU HU-210 HU-331 JWH JWH-018 JWH-073 JWH-133 Levonantradol MDMB-CHMICA SR144528 WIN 55,212-2"
+        ],
+        [
+          "Pharmacology Cannabinoid receptors Cannabinoid receptor 1 Cannabinoid receptor 2 Endocannabinoids (activate cannabinoid receptors) 2-AG Anandamide NADA Virodhamine"
+        ],
+        [
+          "Consumption Drinks Edibles Smoking Tea Conversion of CBD to THC Vaping Adult lifetime cannabis use by country Annual cannabis use by country"
+        ],
+        [
+          "Economics Coffeeshop Cultivation Dispensary Employment Grow house Grow shop Head shop Restaurants Social Club Vending machine"
+        ],
+        [
+          "Effects Dependence Driving Drug testing Effects of legalized cannabis Gateway drug theory Long term effects Medicine Memory Pregnancy Time perception"
+        ],
+        [
+          "Forms Bhang Blunt Charas Flower essential oil Hashish Oil Hemp Beer Milk Oil Protein Hempcrete Joint Kief Roach Synthetic cannabis Tincture"
+        ],
+        [
+          "Law Cannabis rights Legality of cannabis Timeline of cannabis law Cannabis and international law Centenary of Cannabis prohibition UN 2020 descheduling Single Convention on adult use Cannabis in the United States Legality Legal history Medical Non-medical Rescheduling Timeline Amnesty bin Cannabis in Canada Cannabis Act Cannabis laws of Canada by province or territory Legal history of cannabis in Canada Elsewhere Cannabis by country Cannabis in Malta Cannabis in Spain Cannabis in South Africa Cannabis in Thailand Cannabis in the Netherlands Drug policy of Portugal Structural scheduling of synthetic cannabinoids"
+        ],
+        [
+          "Variants Autoflowering cannabis Genus Cannabis Species Cannabis sativa Cannabis indica Cannabis ruderalis Strains Acapulco Gold Charlotte's web Kush Malawi Gold Sour Diesel"
+        ],
+        [
+          "Related Drug culture Drug liberalization Illegal drug trade Psychedelia"
+        ],
+        [
+          "Cannabis portal Medicine portal Agriculture portal"
+        ],
+        [
+          "v t e"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "Hemp seed, hulled",
+      "headers": [
+        "Nutritional value per 100 g (3.5 oz)"
+      ],
+      "rows": [
+        [
+          "Energy",
+          "2,451 kJ (586 kcal)"
+        ],
+        [
+          "Carbohydrates",
+          "4.67 g"
+        ],
+        [
+          "Sugars lactose",
+          "1.50 g 0.07 g"
+        ],
+        [
+          "Dietary fiber",
+          "4.0 g"
+        ],
+        [
+          "Fat",
+          "48.75 g"
+        ],
+        [
+          "Saturated",
+          "4.600 g"
+        ],
+        [
+          "Monounsaturated",
+          "5.400 g"
+        ],
+        [
+          "Polyunsaturated omega\u22123 omega\u22126",
+          "38.100 g 9.301 g 28.698 g"
+        ],
+        [
+          "Protein",
+          "31.56 g"
+        ],
+        [
+          "Amino acids Tryptophan 0.369 g Threonine 1.269 g Isoleucine 1.286 g Leucine 2.163 g Lysine 1.276 g Methionine 0.933 g Cystine 0.672 g Phenylalanine 1.447 g Tyrosine 1.263 g Valine 1.777 g Arginine 4.550 g Histidine 0.969 g Alanine 1.528 g Aspartic acid 3.662 g Glutamic acid 6.269 g Glycine 1.611 g Proline 1.597 g Serine 1.713 g",
+          "Amino acids",
+          "",
+          "",
+          "Tryptophan",
+          "0.369 g",
+          "Threonine",
+          "1.269 g",
+          "Isoleucine",
+          "1.286 g",
+          "Leucine",
+          "2.163 g",
+          "Lysine",
+          "1.276 g",
+          "Methionine",
+          "0.933 g",
+          "Cystine",
+          "0.672 g",
+          "Phenylalanine",
+          "1.447 g",
+          "Tyrosine",
+          "1.263 g",
+          "Valine",
+          "1.777 g",
+          "Arginine",
+          "4.550 g",
+          "Histidine",
+          "0.969 g",
+          "Alanine",
+          "1.528 g",
+          "Aspartic acid",
+          "3.662 g",
+          "Glutamic acid",
+          "6.269 g",
+          "Glycine",
+          "1.611 g",
+          "Proline",
+          "1.597 g",
+          "Serine",
+          "1.713 g"
+        ],
+        [
+          "Amino acids"
+        ],
+        [
+          "Tryptophan",
+          "0.369 g"
+        ],
+        [
+          "Threonine",
+          "1.269 g"
+        ],
+        [
+          "Isoleucine",
+          "1.286 g"
+        ],
+        [
+          "Leucine",
+          "2.163 g"
+        ],
+        [
+          "Lysine",
+          "1.276 g"
+        ],
+        [
+          "Methionine",
+          "0.933 g"
+        ],
+        [
+          "Cystine",
+          "0.672 g"
+        ],
+        [
+          "Phenylalanine",
+          "1.447 g"
+        ],
+        [
+          "Tyrosine",
+          "1.263 g"
+        ],
+        [
+          "Valine",
+          "1.777 g"
+        ],
+        [
+          "Arginine",
+          "4.550 g"
+        ],
+        [
+          "Histidine",
+          "0.969 g"
+        ],
+        [
+          "Alanine",
+          "1.528 g"
+        ],
+        [
+          "Aspartic acid",
+          "3.662 g"
+        ],
+        [
+          "Glutamic acid",
+          "6.269 g"
+        ],
+        [
+          "Glycine",
+          "1.611 g"
+        ],
+        [
+          "Proline",
+          "1.597 g"
+        ],
+        [
+          "Serine",
+          "1.713 g"
+        ],
+        [
+          "Vitamins and minerals Vitamins Quantity %DV \u2020 Vitamin A equiv. beta-Carotene 0% 1 \u03bcg 0% 7 \u03bcg Thiamine (B 1 ) 106% 1.275 mg Riboflavin (B 2 ) 22% 0.285 mg Niacin (B 3 ) 58% 9.200 mg Vitamin B 6 35% 0.600 mg Folate (B 9 ) 28% 110 \u03bcg Vitamin C 1% 0.5 mg Vitamin E 5% 0.80 mg Minerals Quantity %DV \u2020 Calcium 5% 70 mg Copper 178% 1.600 mg Iron 44% 7.95 mg Magnesium 167% 700 mg Manganese 330% 7.600 mg Phosphorus 132% 1650 mg Potassium 40% 1200 mg Sodium 0% 5 mg Zinc 90% 9.90 mg",
+          "Vitamins and minerals",
+          "",
+          "",
+          "Vitamins",
+          "Quantity %DV \u2020",
+          "Vitamin A equiv. beta-Carotene",
+          "0% 1 \u03bcg 0% 7 \u03bcg",
+          "Thiamine (B 1 )",
+          "106% 1.275 mg",
+          "Riboflavin (B 2 )",
+          "22% 0.285 mg",
+          "Niacin (B 3 )",
+          "58% 9.200 mg",
+          "Vitamin B 6",
+          "35% 0.600 mg",
+          "Folate (B 9 )",
+          "28% 110 \u03bcg",
+          "Vitamin C",
+          "1% 0.5 mg",
+          "Vitamin E",
+          "5% 0.80 mg",
+          "",
+          "",
+          "",
+          "Minerals",
+          "Quantity %DV \u2020",
+          "Calcium",
+          "5% 70 mg",
+          "Copper",
+          "178% 1.600 mg",
+          "Iron",
+          "44% 7.95 mg",
+          "Magnesium",
+          "167% 700 mg",
+          "Manganese",
+          "330% 7.600 mg",
+          "Phosphorus",
+          "132% 1650 mg",
+          "Potassium",
+          "40% 1200 mg",
+          "Sodium",
+          "0% 5 mg",
+          "Zinc",
+          "90% 9.90 mg"
+        ],
+        [
+          "Vitamins and minerals"
+        ],
+        [
+          "Vitamins",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Vitamin A equiv. beta-Carotene",
+          "0% 1 \u03bcg 0% 7 \u03bcg"
+        ],
+        [
+          "Thiamine (B 1 )",
+          "106% 1.275 mg"
+        ],
+        [
+          "Riboflavin (B 2 )",
+          "22% 0.285 mg"
+        ],
+        [
+          "Niacin (B 3 )",
+          "58% 9.200 mg"
+        ],
+        [
+          "Vitamin B 6",
+          "35% 0.600 mg"
+        ],
+        [
+          "Folate (B 9 )",
+          "28% 110 \u03bcg"
+        ],
+        [
+          "Vitamin C",
+          "1% 0.5 mg"
+        ],
+        [
+          "Vitamin E",
+          "5% 0.80 mg"
+        ],
+        [
+          "Minerals",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Calcium",
+          "5% 70 mg"
+        ],
+        [
+          "Copper",
+          "178% 1.600 mg"
+        ],
+        [
+          "Iron",
+          "44% 7.95 mg"
+        ],
+        [
+          "Magnesium",
+          "167% 700 mg"
+        ],
+        [
+          "Manganese",
+          "330% 7.600 mg"
+        ],
+        [
+          "Phosphorus",
+          "132% 1650 mg"
+        ],
+        [
+          "Potassium",
+          "40% 1200 mg"
+        ],
+        [
+          "Sodium",
+          "0% 5 mg"
+        ],
+        [
+          "Zinc",
+          "90% 9.90 mg"
+        ],
+        [
+          "Other constituents",
+          "Quantity"
+        ],
+        [
+          "Water",
+          "4.96 g"
+        ],
+        [
+          "Link to USDA FoodData Central Entry"
+        ],
+        [
+          "\u2020 Percentages estimated using US recommendations for adults, [ 21 ] except for potassium, which is estimated based on expert recommendation from the National Academies . [ 22 ]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "Amino acids"
+      ],
+      "rows": [
+        [
+          "Tryptophan",
+          "0.369 g"
+        ],
+        [
+          "Threonine",
+          "1.269 g"
+        ],
+        [
+          "Isoleucine",
+          "1.286 g"
+        ],
+        [
+          "Leucine",
+          "2.163 g"
+        ],
+        [
+          "Lysine",
+          "1.276 g"
+        ],
+        [
+          "Methionine",
+          "0.933 g"
+        ],
+        [
+          "Cystine",
+          "0.672 g"
+        ],
+        [
+          "Phenylalanine",
+          "1.447 g"
+        ],
+        [
+          "Tyrosine",
+          "1.263 g"
+        ],
+        [
+          "Valine",
+          "1.777 g"
+        ],
+        [
+          "Arginine",
+          "4.550 g"
+        ],
+        [
+          "Histidine",
+          "0.969 g"
+        ],
+        [
+          "Alanine",
+          "1.528 g"
+        ],
+        [
+          "Aspartic acid",
+          "3.662 g"
+        ],
+        [
+          "Glutamic acid",
+          "6.269 g"
+        ],
+        [
+          "Glycine",
+          "1.611 g"
+        ],
+        [
+          "Proline",
+          "1.597 g"
+        ],
+        [
+          "Serine",
+          "1.713 g"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "Vitamins and minerals"
+      ],
+      "rows": [
+        [
+          "Vitamins",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Vitamin A equiv. beta-Carotene",
+          "0% 1 \u03bcg 0% 7 \u03bcg"
+        ],
+        [
+          "Thiamine (B 1 )",
+          "106% 1.275 mg"
+        ],
+        [
+          "Riboflavin (B 2 )",
+          "22% 0.285 mg"
+        ],
+        [
+          "Niacin (B 3 )",
+          "58% 9.200 mg"
+        ],
+        [
+          "Vitamin B 6",
+          "35% 0.600 mg"
+        ],
+        [
+          "Folate (B 9 )",
+          "28% 110 \u03bcg"
+        ],
+        [
+          "Vitamin C",
+          "1% 0.5 mg"
+        ],
+        [
+          "Vitamin E",
+          "5% 0.80 mg"
+        ],
+        [
+          "Minerals",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Calcium",
+          "5% 70 mg"
+        ],
+        [
+          "Copper",
+          "178% 1.600 mg"
+        ],
+        [
+          "Iron",
+          "44% 7.95 mg"
+        ],
+        [
+          "Magnesium",
+          "167% 700 mg"
+        ],
+        [
+          "Manganese",
+          "330% 7.600 mg"
+        ],
+        [
+          "Phosphorus",
+          "132% 1650 mg"
+        ],
+        [
+          "Potassium",
+          "40% 1200 mg"
+        ],
+        [
+          "Sodium",
+          "0% 5 mg"
+        ],
+        [
+          "Zinc",
+          "90% 9.90 mg"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "v t e Cannabis"
+      ],
+      "rows": [
+        [
+          "Outline of cannabis Recreational and medical applications Industrial applications"
+        ],
+        [
+          "General",
+          "Autoflowering cannabis Cannabis indica ruderalis sativa Chemical defenses in Cannabis Consumption Conversion of CBD to THC Cultivation Glossary Names ( cannabis , dagga , ganja , marijuana , slang ) Strains Synthetic cannabis"
+        ],
+        [
+          "Usage",
+          "General Cannabis use and trauma Medical cannabis Cannabis product testing History In the US Medical cannabis card Religious and spiritual use Chalice Drug testing Marijuana Anonymous Hemp Hanfparade List of hemp diseases List of hemp products hempcrete jewelry milk oil paper rolling paper List of hemp varieties Hemp for Victory Hemp Industries Association The Emperor Wears No Clothes",
+          "General",
+          "Cannabis use and trauma Medical cannabis Cannabis product testing History In the US Medical cannabis card Religious and spiritual use Chalice Drug testing Marijuana Anonymous",
+          "Hemp",
+          "Hanfparade List of hemp diseases List of hemp products hempcrete jewelry milk oil paper rolling paper List of hemp varieties Hemp for Victory Hemp Industries Association The Emperor Wears No Clothes"
+        ],
+        [
+          "General",
+          "Cannabis use and trauma Medical cannabis Cannabis product testing History In the US Medical cannabis card Religious and spiritual use Chalice Drug testing Marijuana Anonymous"
+        ],
+        [
+          "Hemp",
+          "Hanfparade List of hemp diseases List of hemp products hempcrete jewelry milk oil paper rolling paper List of hemp varieties Hemp for Victory Hemp Industries Association The Emperor Wears No Clothes"
+        ],
+        [
+          "Variants",
+          "Cannabis edible Bhang Cannabis tea Cannabis smoking Joint Vaporizing Cannabis concentrate Essential oil Charas Hashish Hash oil Kief Tincture Marihuana prensada Phytocannabinoids Quasi-psychedelic delta -3-THC delta -4-THC delta -7-THC delta -8-THC delta -10-THC delta -11-THC THC THCB THCH THCP Other CBD CBDH CBDP"
+        ],
+        [
+          "Effects",
+          "Amotivational syndrome Cannabis in pregnancy Cannabis use disorder (CUD) Cannabinoid hyperemesis syndrome (CHS) Clinical endocannabinoid deficiency syndrome Entourage effect Endocannabinoid system Impaired driving Time perception Long-term effects Occupational health concerns Medical cannabis research"
+        ],
+        [
+          "Culture",
+          "420 Budtender Cannabis by country Cookbooks Etiquette Cannabis Social Club Head shop Books Cannabis Culture Columns Competitions List of cannabis hoaxes Films ( Stoner film ) High Times Music Religion Restaurants Sports Smoke-in Stoner TV Video games"
+        ],
+        [
+          "Organizations",
+          "Cannabis rights ACT ALCP AMMA ASA CAN CBN CLEAR CRC Dagga Couple DFCR DPA ENCOD FAAAT FCA GLM India GMM LEAP MAPS MPP NCIA NORML France NZ UK SAFER SCC SSDP VMCA Science IACM ICRS ICEERS",
+          "Cannabis rights",
+          "ACT ALCP AMMA ASA CAN CBN CLEAR CRC Dagga Couple DFCR DPA ENCOD FAAAT FCA GLM India GMM LEAP MAPS MPP NCIA NORML France NZ UK SAFER SCC SSDP VMCA",
+          "Science",
+          "IACM ICRS ICEERS"
+        ],
+        [
+          "Cannabis rights",
+          "ACT ALCP AMMA ASA CAN CBN CLEAR CRC Dagga Couple DFCR DPA ENCOD FAAAT FCA GLM India GMM LEAP MAPS MPP NCIA NORML France NZ UK SAFER SCC SSDP VMCA"
+        ],
+        [
+          "Science",
+          "IACM ICRS ICEERS"
+        ],
+        [
+          "Demographics",
+          "Adult lifetime use by country Annual use by country"
+        ],
+        [
+          "Politics",
+          "General Activists Bootleggers and Baptists Cannabis rights Capital punishment for cannabis trafficking Centenary of Cannabis prohibition Effects of legalized cannabis Global Marijuana March Juvenile trafficking penalties Legality of cannabis Internationally Regulatory agencies 1961 Single Convention on Narcotic Drugs Article 2 paragraph 9 on non-medical uses 1971 Vienna Convention on Psychotropic Substances 1998 UN Convention on Illicit Trafficking In the U.S. Legal history in the United States Marihuana Tax Act of 1937 Timeline of cannabis law Major legal reforms Treaty law: Rescheduling of cannabis in 2020 Canada: 2018 Cannabis Act Germany: German cannabis control bill UK: Return to class B Uruguay: Law No. 19172 US: Legalization of non-medical cannabis in the US Rescheduling per the Controlled Substances Act Hemp Farming Act of 2018 Politicians and parties Cannabis political parties of the US of Minnesota of Spain List of British politicians who have acknowledged cannabis use List of American politicians who have acknowledged cannabis use Legal cases Ker v. California (1963) Leary v. United States (1969) Kyllo v. United States (2001) Gonzales v. Raich (2005) ADPF 187 (2011)",
+          "General",
+          "Activists Bootleggers and Baptists Cannabis rights Capital punishment for cannabis trafficking Centenary of Cannabis prohibition Effects of legalized cannabis Global Marijuana March Juvenile trafficking penalties Legality of cannabis Internationally Regulatory agencies 1961 Single Convention on Narcotic Drugs Article 2 paragraph 9 on non-medical uses 1971 Vienna Convention on Psychotropic Substances 1998 UN Convention on Illicit Trafficking In the U.S. Legal history in the United States Marihuana Tax Act of 1937 Timeline of cannabis law",
+          "Major legal reforms",
+          "Treaty law: Rescheduling of cannabis in 2020 Canada: 2018 Cannabis Act Germany: German cannabis control bill UK: Return to class B Uruguay: Law No. 19172 US: Legalization of non-medical cannabis in the US Rescheduling per the Controlled Substances Act Hemp Farming Act of 2018",
+          "Politicians and parties",
+          "Cannabis political parties of the US of Minnesota of Spain List of British politicians who have acknowledged cannabis use List of American politicians who have acknowledged cannabis use",
+          "Legal cases",
+          "Ker v. California (1963) Leary v. United States (1969) Kyllo v. United States (2001) Gonzales v. Raich (2005) ADPF 187 (2011)"
+        ],
+        [
+          "General",
+          "Activists Bootleggers and Baptists Cannabis rights Capital punishment for cannabis trafficking Centenary of Cannabis prohibition Effects of legalized cannabis Global Marijuana March Juvenile trafficking penalties Legality of cannabis Internationally Regulatory agencies 1961 Single Convention on Narcotic Drugs Article 2 paragraph 9 on non-medical uses 1971 Vienna Convention on Psychotropic Substances 1998 UN Convention on Illicit Trafficking In the U.S. Legal history in the United States Marihuana Tax Act of 1937 Timeline of cannabis law"
+        ],
+        [
+          "Major legal reforms",
+          "Treaty law: Rescheduling of cannabis in 2020 Canada: 2018 Cannabis Act Germany: German cannabis control bill UK: Return to class B Uruguay: Law No. 19172 US: Legalization of non-medical cannabis in the US Rescheduling per the Controlled Substances Act Hemp Farming Act of 2018"
+        ],
+        [
+          "Politicians and parties",
+          "Cannabis political parties of the US of Minnesota of Spain List of British politicians who have acknowledged cannabis use List of American politicians who have acknowledged cannabis use"
+        ],
+        [
+          "Legal cases",
+          "Ker v. California (1963) Leary v. United States (1969) Kyllo v. United States (2001) Gonzales v. Raich (2005) ADPF 187 (2011)"
+        ],
+        [
+          "Related",
+          "Drug liberalization Impact of the COVID-19 pandemic on the cannabis industry Substances Cannabinoid receptor antagonist Endocannabinoid enhancer Endocannabinoid reuptake inhibitor"
+        ],
+        [
+          "Cannabis portal Category"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-7",
+      "caption": "",
+      "headers": [
+        "General",
+        "Cannabis use and trauma Medical cannabis Cannabis product testing History In the US Medical cannabis card Religious and spiritual use Chalice Drug testing Marijuana Anonymous"
+      ],
+      "rows": [
+        [
+          "Hemp",
+          "Hanfparade List of hemp diseases List of hemp products hempcrete jewelry milk oil paper rolling paper List of hemp varieties Hemp for Victory Hemp Industries Association The Emperor Wears No Clothes"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-8",
+      "caption": "",
+      "headers": [
+        "Cannabis rights",
+        "ACT ALCP AMMA ASA CAN CBN CLEAR CRC Dagga Couple DFCR DPA ENCOD FAAAT FCA GLM India GMM LEAP MAPS MPP NCIA NORML France NZ UK SAFER SCC SSDP VMCA"
+      ],
+      "rows": [
+        [
+          "Science",
+          "IACM ICRS ICEERS"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-9",
+      "caption": "",
+      "headers": [
+        "General",
+        "Activists Bootleggers and Baptists Cannabis rights Capital punishment for cannabis trafficking Centenary of Cannabis prohibition Effects of legalized cannabis Global Marijuana March Juvenile trafficking penalties Legality of cannabis Internationally Regulatory agencies 1961 Single Convention on Narcotic Drugs Article 2 paragraph 9 on non-medical uses 1971 Vienna Convention on Psychotropic Substances 1998 UN Convention on Illicit Trafficking In the U.S. Legal history in the United States Marihuana Tax Act of 1937 Timeline of cannabis law"
+      ],
+      "rows": [
+        [
+          "Major legal reforms",
+          "Treaty law: Rescheduling of cannabis in 2020 Canada: 2018 Cannabis Act Germany: German cannabis control bill UK: Return to class B Uruguay: Law No. 19172 US: Legalization of non-medical cannabis in the US Rescheduling per the Controlled Substances Act Hemp Farming Act of 2018"
+        ],
+        [
+          "Politicians and parties",
+          "Cannabis political parties of the US of Minnesota of Spain List of British politicians who have acknowledged cannabis use List of American politicians who have acknowledged cannabis use"
+        ],
+        [
+          "Legal cases",
+          "Ker v. California (1963) Leary v. United States (1969) Kyllo v. United States (2001) Gonzales v. Raich (2005) ADPF 187 (2011)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-10",
+      "caption": "",
+      "headers": [
+        "v t e Fibers"
+      ],
+      "rows": [
+        [
+          "Natural",
+          "Plant Abac\u00e1 Bagasse Bamboo Bash\u014d Coir Cotton Fique Flax Linen Hemp Jute Kapok Kenaf Lotus silk Pi\u00f1a Pine Raffia Ramie Rattan Sisal Wood Animal Alpaca Angora Byssus Camel hair Cashmere Catgut Chiengora Guanaco Hair Llama Mohair Pashmina Qiviut Rabbit Silk Tendon Spider silk Wool Vicu\u00f1a Yak Mineral Asbestos",
+          "Plant",
+          "Abac\u00e1 Bagasse Bamboo Bash\u014d Coir Cotton Fique Flax Linen Hemp Jute Kapok Kenaf Lotus silk Pi\u00f1a Pine Raffia Ramie Rattan Sisal Wood",
+          "Animal",
+          "Alpaca Angora Byssus Camel hair Cashmere Catgut Chiengora Guanaco Hair Llama Mohair Pashmina Qiviut Rabbit Silk Tendon Spider silk Wool Vicu\u00f1a Yak",
+          "Mineral",
+          "Asbestos"
+        ],
+        [
+          "Plant",
+          "Abac\u00e1 Bagasse Bamboo Bash\u014d Coir Cotton Fique Flax Linen Hemp Jute Kapok Kenaf Lotus silk Pi\u00f1a Pine Raffia Ramie Rattan Sisal Wood"
+        ],
+        [
+          "Animal",
+          "Alpaca Angora Byssus Camel hair Cashmere Catgut Chiengora Guanaco Hair Llama Mohair Pashmina Qiviut Rabbit Silk Tendon Spider silk Wool Vicu\u00f1a Yak"
+        ],
+        [
+          "Mineral",
+          "Asbestos"
+        ],
+        [
+          "Synthetic",
+          "Regenerated Artificial silk Milk fiber Semi-synthetic Acetate Diacetate Lyocell Modal Pi\u00f1atex Rayon Triacetate Mineral Boron Basalt Carbon Glass Wool Metallic Mineral wool Polymer Acrylic Aramid Twaron Kevlar Technora Nomex Microfiber Modacrylic Nylon Olefin Polyester Polyethylene UHMWPE Spandex Vectran Vinylon Vinyon Zylon",
+          "Regenerated",
+          "Artificial silk Milk fiber",
+          "Semi-synthetic",
+          "Acetate Diacetate Lyocell Modal Pi\u00f1atex Rayon Triacetate",
+          "Mineral",
+          "Boron Basalt Carbon Glass Wool Metallic Mineral wool",
+          "Polymer",
+          "Acrylic Aramid Twaron Kevlar Technora Nomex Microfiber Modacrylic Nylon Olefin Polyester Polyethylene UHMWPE Spandex Vectran Vinylon Vinyon Zylon"
+        ],
+        [
+          "Regenerated",
+          "Artificial silk Milk fiber"
+        ],
+        [
+          "Semi-synthetic",
+          "Acetate Diacetate Lyocell Modal Pi\u00f1atex Rayon Triacetate"
+        ],
+        [
+          "Mineral",
+          "Boron Basalt Carbon Glass Wool Metallic Mineral wool"
+        ],
+        [
+          "Polymer",
+          "Acrylic Aramid Twaron Kevlar Technora Nomex Microfiber Modacrylic Nylon Olefin Polyester Polyethylene UHMWPE Spandex Vectran Vinylon Vinyon Zylon"
+        ],
+        [
+          "Category Commons"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-11",
+      "caption": "",
+      "headers": [
+        "Plant",
+        "Abac\u00e1 Bagasse Bamboo Bash\u014d Coir Cotton Fique Flax Linen Hemp Jute Kapok Kenaf Lotus silk Pi\u00f1a Pine Raffia Ramie Rattan Sisal Wood"
+      ],
+      "rows": [
+        [
+          "Animal",
+          "Alpaca Angora Byssus Camel hair Cashmere Catgut Chiengora Guanaco Hair Llama Mohair Pashmina Qiviut Rabbit Silk Tendon Spider silk Wool Vicu\u00f1a Yak"
+        ],
+        [
+          "Mineral",
+          "Asbestos"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-12",
+      "caption": "",
+      "headers": [
+        "Regenerated",
+        "Artificial silk Milk fiber"
+      ],
+      "rows": [
+        [
+          "Semi-synthetic",
+          "Acetate Diacetate Lyocell Modal Pi\u00f1atex Rayon Triacetate"
+        ],
+        [
+          "Mineral",
+          "Boron Basalt Carbon Glass Wool Metallic Mineral wool"
+        ],
+        [
+          "Polymer",
+          "Acrylic Aramid Twaron Kevlar Technora Nomex Microfiber Modacrylic Nylon Olefin Polyester Polyethylene UHMWPE Spandex Vectran Vinylon Vinyon Zylon"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-13",
+      "caption": "",
+      "headers": [
+        "v t e Bioenergy"
+      ],
+      "rows": [
+        [
+          "Biofuels",
+          "Alcohol Algae Babassu oil Bagasse Biobutanol Biodiesel Biogas Biogasoline Bioliquids Biomass Cooking oil vegetable oil Ethanol cellulosic mixtures Methanol Stover corn Straw Water hyacinth Wood gas"
+        ],
+        [
+          "Energy from foodstock",
+          "Camelina sativa Cassava Coconut oil Grape Hemp Maize Oat Palm oil Potato Rapeseed Rice Sorghum Soybean Sugar beet Sugarcane Sunflower Wheat Yam"
+        ],
+        [
+          "Non-food energy crops",
+          "Arundo Big bluestem Camelina Chinese tallow Duckweed Jatropha curcas Miscanthus \u00d7 giganteus Pongamia pinnata Salicornia Switchgrass Wood"
+        ],
+        [
+          "Technology",
+          "Bioconversion of biomass to mixed alcohol fuels Bioenergy with carbon capture and storage Biomass heating systems Biorefinery Fischer\u2013Tropsch process Industrial biotechnology Pellet fuel mill stove Sabatier reaction Thermal depolymerization"
+        ],
+        [
+          "Concepts",
+          "Agflation Cellulosic ethanol commercialization Energy content of biofuel Energy crop Energy forestry Energy return on investment Food vs. fuel Issues relating to biofuels Sustainable biofuel"
+        ],
+        [
+          "Category"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-14",
+      "caption": "",
+      "headers": [
+        "v t e Culinary herbs and spices"
+      ],
+      "rows": [
+        [
+          "Herbs",
+          "Angelica Basil Holy Thai Lemon Bay leaf Indian bay leaf ( tejpat ) Boldo Borage Chervil Chives garlic / Chinese Cicely Coriander leaf / Cilantro Bolivian Vietnamese ( rau r\u0103m ) Culantro Cress Curry leaf Dill Epazote Hemp Hoja santa Houttuynia cordata ( gi\u1ea5p c\u00e1 ) Hyssop Jimbu Kinh gioi (Vietnamese balm) Kkaennip Lavender Lemon balm Lemon grass Lemon myrtle Lemon verbena Limnophila aromatica (rice-paddy herb) Lovage Marjoram Mint Mugwort Mitsuba Oregano Parsley Perilla Rosemary Rue Sage Savory Sansh\u014d leaf Shiso Sorrel Tarragon Thyme Woodruff"
+        ],
+        [
+          "Spices",
+          "Aonori Ajwain Alligator pepper Allspice Amchoor Anise Asafoetida Black pepper Brazilian pepper Camphor Caraway Cardamom black Cassia Celery powder Celery seed Charoli Chenpi Chili Chili powder Cayenne Chipotle Crushed red pepper Jalape\u00f1o New Mexico Tabasco Cultivars Cinnamon Clove Coriander seed Cubeb Cumin Nigella sativa Bunium persicum Deulkkae Dill / Dill seed Fennel Fenugreek blue Fingerroot Galangal greater lesser Garlic Ginger Aromatic ginger Golpar Grains of paradise Grains of Selim Horseradish Japanese pricklyash Juniper berry Kokum Korarima Dried lime Liquorice Litsea cubeba Long pepper Mango-ginger Mastic Mahleb Mustard black brown white Nigella Njangsa Nutmeg Onion powder Paprika Peruvian pepper Pomegranate seed Poppy seed Radhuni Rose Saffron Sarsaparilla Sassafras Sesame Shiso Sichuan pepper ( hu\u0101ji\u0101o ) Star anise Sumac Tamarind Tasmanian pepper Tonka bean Turmeric Uzazi Vanilla Voatsiperifery Wasabi Yuzu zest Zedoary Zereshk Zest"
+        ],
+        [
+          "Blends",
+          "Adjika Advieh Baharat Beau monde seasoning Berbere Bouquet garni Buknu Chaat masala Chaunk Cinnamon sugar Crab boil Curry powder Doubanjiang Douchi Duqqa Fines herbes Five-spice powder Garam masala Garlic powder Garlic salt Gochujang Harissa Hawaij Herbes de Provence H\u00fang l\u00ecu Idli podi Italian seasoning Jamaican jerk spice Khmeli suneli Lemon pepper Mitmita Mixed spice Montreal steak seasoning Mulling spices Old Bay Seasoning Panch phoron Persillade Powder-douce Pumpkin pie spice Q\u00e2lat daqqa Quatre \u00e9pices Ras el hanout Recado rojo Sharena sol Shichimi Tabil Tajin Tandoori masala Thuna paha Vadouvan Yuzu kosh\u014d Za'atar"
+        ],
+        [
+          "Lists",
+          "Culinary By region Australian Bangladeshi Indian Pakistani"
+        ],
+        [
+          "Related topics",
+          "Chinese herbology Herbal tea Marination Seasoning Spice rub"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Hemp , or industrial hemp , is a plant in the botanical class of Cannabis sativa cultivars grown specifically for industrial and consumable use. It can be used to make a wide range of products. [ 1 ] Along with bamboo , hemp is among the fastest growing plants on Earth. [ 2 ] It was also one of the first plants to be spun into usable fiber 50,000 years ago. [ 3 ] It can be refined into a variety of commercial items, including paper , rope , textiles , clothing , biodegradable plastics , paint , insulation , biofuel , food , and animal feed . [ 4 ] [ 5 ]",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Although chemotype I cannabis and hemp (types II, III, IV, V) are both Cannabis sativa and contain the psychoactive component tetrahydrocannabinol (THC), they represent distinct cultivar groups, typically with unique phytochemical compositions and uses. [ 6 ] Hemp typically has lower concentrations of total THC and may have higher concentrations of cannabidiol (CBD), which potentially mitigates the psychoactive effects of THC. [ 7 ] The legality of hemp varies widely among countries. Some governments regulate the concentration of THC and permit only hemp that is bred with an especially low THC content into commercial production. [ 8 ] [ 9 ]",
+      "char_offset": 561
+    },
+    {
+      "type": "paragraph",
+      "text": "The etymology is uncertain but there appears to be no common Proto-Indo-European source for the various forms of the word; the Greek term \u03ba\u03ac\u03bd\u03bd\u03b1\u03b2\u03b9\u03c2 ( k\u00e1nnabis ) is the oldest attested form, which may have been borrowed from an earlier Scythian or Thracian word. [ 10 ] [ 11 ] Then it appears to have been borrowed into Latin , and separately into Slavic and from there into Baltic , Finnish , and Germanic languages . [ 12 ]",
+      "char_offset": 1211
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Germanic languages, following Grimm's law , the \"k\" would have changed to \"h\" with the first Germanic sound shift, [ 10 ] [ 13 ] giving Proto-Germanic * hanapiz , which developed into the Old English form, h\u00e6nep , henep . [ 10 ] Barber (1991) however, argued that the spread of the name \"kannabis\" was due to its historically more recent plant use, starting from the south, around Iran, whereas non-THC varieties of hemp are older and prehistoric. [ 12 ] Another possible source of origin is Assyrian qunnabu , which was the name for a source of oil, fiber , and medicine in the 1st millennium BC. [ 12 ]",
+      "char_offset": 1636
+    },
+    {
+      "type": "paragraph",
+      "text": "Cognates of hemp in other Germanic languages include Dutch hennep , Danish and Norwegian hamp , Saterland Frisian Hoamp , German Hanf , Icelandic hampur and Swedish hampa . In those languages, \"hemp\" can refer to either industrial fiber hemp or narcotic cannabis strains. [ 10 ]",
+      "char_offset": 2249
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp is used to make a wide range of commercial and industrial products. Hemp seeds are consumed directly as food and are also pressed into oil used for cooking, nutritional supplements, cosmetics, and as a drying oil in paints and varnishes. [ 14 ] Hemp seed meal, a by-product of oil extraction, is increasingly evaluated for use in animal feed, including poultry, swine, cattle, fish, and companion animals, due to its favorable protein and fatty acid profile. [ 15 ]",
+      "char_offset": 2529
+    },
+    {
+      "type": "paragraph",
+      "text": "The bast fibers are applied in textiles and blended fabrics, furnishings, and specialty papers. [ 16 ] They are also processed into composites for construction materials such as hempcrete , fiber-reinforced insulation panels, and biocomposites for furniture and automotive parts. [ 17 ] Hemp fiber is additionally used in specialty products such as musical instruments, including guitars and amplifiers, and in pulp for paper and biodegradable packaging. [ 18 ]",
+      "char_offset": 3001
+    },
+    {
+      "type": "paragraph",
+      "text": "The inner woody core (hurds or shives) is employed in animal bedding, garden mulch, litter, and as a component in lightweight building blocks and particle boards. [ 19 ] Hemp oil and extracts are also used for non-intoxicating cannabinoid products, such as cannabidiol (CBD), in dietary supplements, cosmetics, and wellness formulations. [ 20 ]",
+      "char_offset": 3464
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp seeds can be eaten raw, ground into hemp meal, sprouted , or made into dried sprout powder. Hemp seeds can also be made into a slurry used for baking or beverages, such as hemp milk and tisanes . [ 23 ] Hemp oil is cold-pressed from the seed and is high in unsaturated fatty acids . [ 24 ]",
+      "char_offset": 3810
+    },
+    {
+      "type": "paragraph",
+      "text": "In the UK, the Department for Environment, Food and Rural Affairs treats hemp as a purely non-food crop , but with proper licensing and proof of less than 0.3% THC concentration, hemp seeds can be imported for sowing or for sale as a food or food ingredient. [ 25 ] In the US, hemp can be used legally in food products and, as of 2026 [update] , was typically sold in health food stores or through mail order . [ 24 ]",
+      "char_offset": 4106
+    },
+    {
+      "type": "paragraph",
+      "text": "Hulled hemp seeds are 5% water, 5% carbohydrates , 49% fat , and 32% protein (table). In a reference amount of 100 grams (3.5 oz), hulled hemp seeds supply 533 calories of food energy , and are a rich source (20% or more of the Daily Value , DV) of several B vitamins and dietary minerals (table).",
+      "char_offset": 4525
+    },
+    {
+      "type": "paragraph",
+      "text": "The share of protein obtained from hemp seeds can be increased by processing the seeds, such as by dehulling the seeds, or by using the meal or press cake (also called hemp seed flour) \u2013 the remaining fraction of hemp seed obtained after expelling its oil fraction. [ 26 ] [ 27 ] The proteins are mostly located in the inner layer of the seed, whereas the hull is poor in proteins, as it mostly contains the fiber. [ 28 ]",
+      "char_offset": 4824
+    },
+    {
+      "type": "paragraph",
+      "text": "The three main proteins in hemp seeds are edestin (83% of total protein content), albumin (13%), and beta-conglycinin (up to 5%). [ 28 ] Hemp seed proteins are highly digestible compared to soy proteins when untreated (unheated). [ 29 ] The amino acid profile of hemp seeds is comparable to the profiles of other protein-rich foods, such as meat, milk, eggs, and soy. [ 30 ] The most abundant amino acid in hemp seed is glutamic acid (3.74\u20134.58% of whole seed) followed by arginine (2.28\u20133.10% of whole seed). [ 27 ] Hemp seed protein has a profile of essential amino acids inferior to that of soy or casein. [ 31 ]",
+      "char_offset": 5247
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite the rich nutrient content of hemp seeds, the seeds contain antinutritional compounds , including phytic acid , [ 32 ] trypsin inhibitors, and tannins , in statistically significant concentrations. [ 29 ] [ 33 ]",
+      "char_offset": 5864
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp oil oxidizes and turns rancid within a short period if not stored properly; [ 24 ] its shelf life is extended when it is stored in a dark airtight container and refrigerated. Both light and heat can degrade hemp oil.",
+      "char_offset": 6084
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp fiber has been used extensively throughout history, with production peaking soon after being introduced to the New World. For centuries, items ranging from rope to fabrics to industrial materials were made from hemp fiber. Hemp was also commonly used to make sail canvas . The word \"canvas\" is derived from the word cannabis . [ 34 ] [ 35 ] Pure hemp has a texture similar to linen . [ 36 ] Because of its versatility for use in a variety of products, today hemp is used in a number of consumer goods, including clothing, shoes, accessories, dog collars, and home wares. For clothing, in some instances, hemp is mixed with lyocell . [ 37 ] Its benefits in terms of sustainability also increase its appeal in industries, such as the clothing industry. [ 38 ] [ 39 ]",
+      "char_offset": 6307
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp as a building construction material provides solutions to various issues facing current building standards. Its light weight, mold resistance, breathability, etc., make hemp products versatile in a multitude of uses. [ 40 ] Following the co-heating tests of NNFCC Renewable House at the Building Research Establishment (BRE), hemp is reported to be a more sustainable material of construction than most building methods used today. [ 41 ] In addition, its practical use in building construction could result in the reduction of both energy consumption costs and the creation of secondary pollutants. [ 41 ]",
+      "char_offset": 7078
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2022, hemp-lime, also known as hempcrete , was accepted as a building material, along with methodologies for its use, by the International Code Council , [ 42 ] and was included in the 2024 edition of the International Residential Code as an appendix: \"Appendix BL Hemp-Lime (Hempcrete) Construction\". [ 43 ] This inclusion in the IRC model code is expected to promote expansion of the use and legitimacy of hemp-lime in construction in the United States. [ 44 ]",
+      "char_offset": 7691
+    },
+    {
+      "type": "paragraph",
+      "text": "The hemp market was at its largest during the 17th century. In the 19th century and onward, the market saw a decline during its rapid illegalization in many countries . [ 45 ] Hemp has resurfaced in green building construction, primarily in Europe. [ 46 ] The modern-day disputes regarding the legality of hemp lead to its main disadvantages: importing and regulating costs. Final Report on the Construction of the Hemp Houses at Haverhill , UK concludes that hemp construction exceeds the cost of traditional building materials by \u00a348 per square meter. [ 46 ]",
+      "char_offset": 8158
+    },
+    {
+      "type": "paragraph",
+      "text": "Currently, the University of Bath researches the use of hemp-lime panel systems for construction. Funded by the European Union , the research tests panel design within its use in high-quality construction, on-site assembly, humidity and moisture penetration, temperature change, daily performance, and energy-saving documentation. [ 47 ] The program, focusing on Britain, France, and Spain markets aims to perfect protocols of use and application, manufacturing, data gathering, certification for market use, as well as warranty and insurance. [ 47 ]",
+      "char_offset": 8720
+    },
+    {
+      "type": "paragraph",
+      "text": "The most common use of hemp-lime in building is by casting the hemp-hurd and lime mix while wet around a timber frame with temporary shuttering and tamping the mix to form a firm mass. After the removal of the temporary shuttering, the solidified hemp mix is then ready to be plastered with lime plaster. [ 48 ]",
+      "char_offset": 9272
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp is classified under the green category of building design, primarily due to its positive effects on the environment. [ 49 ] A few of its benefits include but are not limited to the suppression of weed growth, anti-erosion, reclamation properties, and the ability to remove poisonous substances and heavy metals from soil. [ 49 ]",
+      "char_offset": 9585
+    },
+    {
+      "type": "paragraph",
+      "text": "The use of hemp is beginning to gain popularity alongside other natural materials. This is because cannabis processing is done mechanically with minimal harmful effects on the environment. A part of what makes hemp sustainable is its minimal water usage and non-reliance on pesticides for proper growth. It is recyclable, non- toxic , and biodegradable , making hemp a popular choice in green building construction. [ 49 ]",
+      "char_offset": 9920
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp fiber is known to have high strength and durability, and has been known to be a good protector against vermin . The fiber can reinforce structures by embossing threads and cannabis shavers. Hemp has been involved more recently in the building industry, producing building construction materials including insulation , hempcrete , and varnishes. [ 40 ] [ 50 ] [ 51 ] [ 52 ] [ 53 ] [ 54 ]",
+      "char_offset": 10344
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp-made materials have low embodied energy. The plant can absorb large amounts of CO 2 , providing air quality, thermal balance, and creating a positive environmental impact. [ 50 ]",
+      "char_offset": 10737
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp's properties allow mold resistance, and its porous materiality makes the building materials made of it breathable. In addition, hemp possesses the ability to absorb and release moisture without deteriorating. Hemp can be non-flammable if mixed with lime and could be applied to numerous aspects of the building (walls, roofs, etc.) due to its lightweight properties. [ 49 ] [ 50 ]",
+      "char_offset": 10922
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp is commonly used as an insulation material. Its flexibility and toughness during compression allow for easier implementation within structural framing systems. The insulation material could also be easily adjusted to different sizes and shapes by being cut during the installation process. The ability to not settle and therefore avoid cavity developments lowers its need for maintenance. [ 54 ]",
+      "char_offset": 11309
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp insulation is naturally lightweight and non- toxic , allowing for an exposed installation in a variety of spaces, including flooring, walling, and roofing. Compared to mineral insulation, hemp absorbs roughly double the amount of heat and could be compared to wood, in some cases, even surpassing some of its types. [ 54 ]",
+      "char_offset": 11711
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp insulation's porous materiality allows for air and moisture penetration, with a bulk density going up to 20% without losing any thermal properties. In contrast, the commonly used mineral insulation starts to fail after 2%. The insulation evenly distributes vapor and allows for air circulation, constantly carrying out used air and replacing it with fresh air. Its use on the exterior of the structure, overlaid with breathable water-resistive barriers, eases the withdrawal of moisture from within the wall structure. [ 54 ]",
+      "char_offset": 12040
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition, the insulation doubles as a sound barrier, weakening airborne sound waves passing through it. [ 54 ]",
+      "char_offset": 12572
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to the CO 2 absorbed during its growth period, hemp-lime, also known as hempcrete, continues to absorb during the curing process. The mixture hardens when the silica contained in hemp shives mixes with hydraulic lime , resulting in the mineralization process called \"carbonation\". [ dubious \u2013 discuss ] [ 53 ] [ 55 ]",
+      "char_offset": 12687
+    },
+    {
+      "type": "paragraph",
+      "text": "Though not a load-bearing material, [ 56 ] hempcrete is most commonly used as infill in building construction due to its light weight (roughly seven times lighter than common concrete) and vapor permeability. [ 57 ] The building material is made of hemp hurds (shiv or shives), hydraulic lime , and water mixed in varying ratios. [ 52 ] The mix depends on the use of the material within the structure and could differ in physical properties. Surfaces such as flooring interact with a multitude of loads and would have to be more resistive, while walls and roofs are required to be more lightweight. [ 52 ] The application of this material in construction requires minimal skill. [ 52 ]",
+      "char_offset": 13017
+    },
+    {
+      "type": "paragraph",
+      "text": "Hempcrete can be formed in situ or formed into blocks. Such blocks are not strong enough to be used for structural elements and must be supported by brick, wood, or steel framing. [ 41 ] At the end of the twentieth century, during his renovation of Maison de la Turquie in Nogent-sur-Seine, France , Charles Rasetti first invented and applied the use of hempcrete in construction. [ 58 ] Shortly after, in the 2000s, Modece Architects used hemp-lime for test designs in Haverhill . [ 59 ] The dwellings were studied and monitored for comparison with other building performances by BRE . Completed in 2009, the Center for the Built Environment's Renewable House was found to be among the most technologically advanced structures made of hemp-based material. A year later the first home made of hemp-based materials was completed in Asheville, North Carolina, US. [ 60 ]",
+      "char_offset": 13704
+    },
+    {
+      "type": "paragraph",
+      "text": "Cannabis seeds have high-fat content and contain 30-35% of fatty acids. The extracted oil is suited for a variety of construction applications. [ 50 ] The biodegradable hemp oil acts as a wood varnish, protecting flooring from mold, pests, and wear. Its use prevents the water from penetrating the wood while still allowing air and vapor to pass through. [ 40 ] Its most common use can be seen in wood framing construction, one of the most common construction methods in the world. Because of its low UV-resistant rating, the finish is most often used indoors, on surfaces such as flooring and wood paneling. [ 54 ] [ 40 ]",
+      "char_offset": 14574
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp-based insulating plaster is created by combining hemp fibers with calcium lime and sand . This material, when applied to internal walls, ceilings, and flooring, can be layered up to ten centimeters in thickness. Its porous materiality allows the created plaster to regulate air humidity and evenly distribute it. [ 40 ] The gradual absorption and release of water prevent the material from cracking and breaking apart. [ 61 ] [ 40 ] Similar to high-density fiber cement, hemp plaster can naturally vary in color and be manually pigmented. [ 62 ]",
+      "char_offset": 15198
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp ropes can be woven in various diameters, possessing high amounts of strength, making them suitable for a variety of uses for building construction purposes. [ 53 ] Some of these uses include the installation of frames in building openings and connection of joints. The ropes also used in bridge construction, tunnels, traditional homes, etc. [ 53 ] One of the earliest examples of hemp rope and other textile use can be traced back to 1500 BC Egypt . [ 63 ]",
+      "char_offset": 15750
+    },
+    {
+      "type": "paragraph",
+      "text": "Cannabis geotextiles could be put in both wet and dry conditions. Hemp-based bioplastic is a biodegradable alternative to regular plastic and can potentially replace polyvinyl chloride (PVC), a material used for plumbing pipes. [ 53 ]",
+      "char_offset": 16214
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp growth lasts roughly 100 days, a much faster period than an average tree used for construction purposes. While dry, the fibers could be pressed into tight wood alternatives to wood-frame construction, wall/ceiling paneling, and flooring. As an addition, hemp is flexible and versatile, allowing it to be used in a greater number of ways than wood. [ 40 ] Similarly, hemp wood could also be made of recycled hemp-based paper. [ 64 ]",
+      "char_offset": 16450
+    },
+    {
+      "type": "paragraph",
+      "text": "A mixture of fiberglass , hemp fiber, kenaf , and flax has been used since 2002 to make composite panels for automobiles. [ 65 ] The choice of which bast fiber to use is primarily based on cost and availability. Various car makers are beginning to use hemp in their cars, including Audi , BMW , Ford , GM , Chrysler , Honda , Iveco , Lotus , Mercedes , Mitsubishi , Porsche , Saturn , Volkswagen [ 66 ] and Volvo. For example, the Lotus Eco Elise [ 67 ] and the Mercedes C-Class both contain hemp (up to 20 kg in each car in the case of the latter). [ 68 ]",
+      "char_offset": 16888
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp paper is a paper consisting exclusively or to a large extent of pulp obtained from fibers of industrial hemp . The products are mainly specialty papers such as cigarette paper , [ 69 ] banknotes and technical filter papers . [ 70 ] Compared to wood pulp, hemp pulp offers a four to five times longer fiber, a significantly lower lignin fraction as well as a higher tear resistance and tensile strength . However, production costs are about four times higher than for paper from wood, [ 71 ] since the infrastructure for using hemp is underdeveloped. If the paper industry were to switch from wood to hemp for sourcing its cellulose fibers, the following benefits could be utilized:",
+      "char_offset": 17446
+    },
+    {
+      "type": "paragraph",
+      "text": "However, hemp has had a hard time competing with paper from trees or recycled newsprint. Only the outer part of the stem consists mainly of fibers, which are suitable for the production of paper. Numerous attempts have been made to develop machines that efficiently and inexpensively separate useful fibers from less useful fibers, but none have been completely successful. This has meant that paper from hemp is still expensive compared to paper from trees.",
+      "char_offset": 18134
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp jewelry is the product of knotting hemp twine through the practice of macram\u00e9 . Hemp jewelry includes bracelets, necklaces, anklets, rings, watches, and other adornments. Some jewelry features beads made from crystals, glass, stone , wood, and bone . The hemp twine varies in thickness and comes in a variety of colors. There are many different stitches used to create hemp jewelry; however, the half knot and full knot stitches are most common.",
+      "char_offset": 18594
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp rope was used in the age of sailing ships , though the rope had to be protected by tarring , since hemp rope has a propensity for breaking from rot , as the capillary effect of the rope-woven fibers tended to hold liquid at the interior, while seeming dry from the outside. [ 77 ] Tarring was a labor-intensive process, and earned sailors the nickname \" Jack Tar \". Hemp rope was generally superseded by the lighter manila rope which does not require tarring. [ 78 ] Manila is sometimes referred to as Manila hemp , but is not related to hemp; it is abac\u00e1 , a species of banana.",
+      "char_offset": 19046
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp shives are the core of the stem, hemp hurds are broken parts of the core. In the EU, they are used for animal bedding (horses, for instance), or for horticultural mulch. [ 79 ] Industrial hemp is much more profitable if both fibers and shives (or even seeds) can be used.",
+      "char_offset": 19631
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp can be used as a \"mop crop\" to clear impurities out of wastewater, such as sewage effluent, excessive phosphorus from chicken litter, or other unwanted substances or chemicals. Additionally, hemp is being used to clean contaminants at the Chernobyl nuclear disaster site, by way of a process which is known as phytoremediation \u2013 the process of clearing radioisotopes and a variety of other toxins from the soil, water, and air. [ 80 ]",
+      "char_offset": 19909
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp crops are tall, have thick foliage, and can be planted densely, and thus can be grown as a smother crop to kill tough weeds. [ 81 ] Using hemp this way can help farmers avoid the use of herbicides, gain organic certification , and gain the benefits of crop rotation . However, due to the plant's rapid and dense growth characteristics, some jurisdictions consider hemp a prohibited and noxious weed, much like Scotch Broom . [ 82 ]",
+      "char_offset": 20350
+    },
+    {
+      "type": "paragraph",
+      "text": "Biodiesel can be made from the oils in hemp seeds and stalks; this product is sometimes called \"hempoline\". [ 83 ] Alcohol fuel (ethanol or, less commonly, methanol) can be made by fermenting the whole plant.",
+      "char_offset": 20788
+    },
+    {
+      "type": "paragraph",
+      "text": "Filtered hemp oil can be used directly to power diesel engines . In 1892, Rudolf Diesel invented the diesel engine, which he intended to power \"by a variety of fuels, especially vegetable and seed oils, which earlier were used for oil lamps , i.e. the Argand lamp \". [ 84 ] [ 85 ] [ 86 ]",
+      "char_offset": 20998
+    },
+    {
+      "type": "paragraph",
+      "text": "Production of vehicle fuel from hemp is very small. Commercial biodiesel and biogas is typically produced from cereals, coconuts, palm seeds, and cheaper raw materials like garbage, wastewater, dead plant and animal material, animal feces and kitchen waste. [ 87 ]",
+      "char_offset": 21287
+    },
+    {
+      "type": "paragraph",
+      "text": "Separation of hurd and bast fiber is known as decortication . Traditionally, hemp stalks would be water- retted first before the fibers were beaten off the inner hurd by hand, a process known as scutching . As mechanical technology evolved, separating the fiber from the core was accomplished by crushing rollers and brush rollers, or by hammer-milling, wherein a mechanical hammer mechanism beats the hemp against a screen until hurd, smaller bast fibers, and dust fall through the screen. After the Marijuana Tax Act was implemented in 1938, the technology for separating the fibers from the core remained \"frozen in time\". Recently, new high-speed kinematic decortication has come about, capable of separating hemp into three streams: bast fiber, hurd, and green microfiber. [ citation needed ]",
+      "char_offset": 21553
+    },
+    {
+      "type": "paragraph",
+      "text": "Only in the 1990s did Ireland, parts of the Commonwealth, and other countries begin to legally grow industrial hemp again, pointing to the potential economic and environmental opportunities, including hemp's use for carbon sequestration . [ 88 ] Iterations of the 1930s decorticator have been met with limited success, along with steam explosion and chemical processing known as thermomechanical pulping . [ citation needed ]",
+      "char_offset": 22352
+    },
+    {
+      "type": "paragraph",
+      "text": "Between 2015 and 2025, hemp decortication advanced with larger, integrated facilities and broader regional deployment. In 2023, South Dakota's first hemp decortication plant began operating in Winfred, adding regional processing capacity. [ 89 ] In April 2024, Panda Biotech began commercial operations at its Wichita Falls \"Hemp Gin,\" reporting capacity of about 10 metric tons per hour with integrated decortication, refining, and mechanical cottonization lines. [ 90 ] A 2024 U.S. techno-economic analysis that explicitly modeled decortication found fiber processing costs (including decortication) in the interquartile range of USD 1,155\u20131,505 per megagram and identified facility capital and labor as the dominant processing cost drivers. [ 91 ] In parallel, peer-reviewed work showed routes to nanocellulose from mechanically decorticated short bast fibers, underscoring value-added pathways from decortication streams. [ 92 ] Remaining scale-up constraints include feedstock variability, dust control, and supply-chain integration noted in recent technical reviews. [ 93 ]",
+      "char_offset": 22779
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp is usually planted between March and May in the northern hemisphere, between September and November in the southern hemisphere. [ 94 ] It matures in about three to four months, depending on various conditions.",
+      "char_offset": 23860
+    },
+    {
+      "type": "paragraph",
+      "text": "Millennia of selective breeding have resulted in varieties that display a wide range of traits; e.g. suited for particular environments/latitudes, producing different ratios and compositions of terpenoids and cannabinoids (CBD, THC, CBG, CBC, CBN...etc.), fiber quality, oil/seed yield, etc. Hemp grown for fiber is planted closely, resulting in tall, slender plants with long fibers. [ 95 ]",
+      "char_offset": 24076
+    },
+    {
+      "type": "paragraph",
+      "text": "The use of the industrial hemp plant and its cultivation was commonplace until the 1900s, when it was associated with its genetic sibling, a.k.a. Drug-Type Cannabis species (which contain higher levels of psychoactive THC). Influential groups misconstrued hemp as a dangerous \"drug\", [ 96 ] even though hemp is not a recreational drug and has the potential to be a sustainable and profitable crop for many farmers due to hemp's medical, structural and dietary uses. [ 97 ] [ 98 ] In the United States, the public's perception of hemp as marijuana has blocked hemp from becoming a useful crop and product,\" [ 97 ] despite its vital importance before World War II. [ 98 ]",
+      "char_offset": 24469
+    },
+    {
+      "type": "paragraph",
+      "text": "Ideally, according to Britain's Department for Environment, Food and Rural Affairs , the herb should be desiccated and harvested toward the end of flowering. This early cropping reduces the seed yield but improves the fiber yield and quality. [ 99 ]",
+      "char_offset": 25140
+    },
+    {
+      "type": "paragraph",
+      "text": "The seeds are sown with grain drills or other conventional seeding equipment to a depth of 13 to 25 mm ( 1 \u2044 2 to 1 in). Greater seeding depths result in increased weed competition. Nitrogen should not be placed with the seed, but phosphate may be tolerated. The soil should have available 89 to 135 kg/ha of nitrogen, 46 kg/ha phosphorus, 67 kg/ha potassium, and 17 kg/ha sulfur. Organic fertilizers such as manure are one of the best methods of weed control. [ 100 ]",
+      "char_offset": 25391
+    },
+    {
+      "type": "paragraph",
+      "text": "In contrast to cannabis for medical use, varieties grown for fiber and seed have less than 0.3% THC and are unsuitable for producing hashish and marijuana. [ 101 ] Present in industrial hemp, cannabidiol is a major constituent among some 560 compounds found in hemp. [ 102 ]",
+      "char_offset": 25861
+    },
+    {
+      "type": "paragraph",
+      "text": "Cannabis sativa L. subsp. sativa var. sativa is the variety grown for industrial use, while C. Sativa subsp. indica generally has poor fiber quality, and female buds from this variety are primarily used for recreational and medicinal purposes. The major differences between the two types of plants are the appearance, and the amount of \u0394 9 - tetrahydrocannabinol (THC) secreted in a resinous mixture by epidermal hairs called glandular trichomes , although they can also be distinguished genetically. [ 101 ] [ 103 ] Oilseed and fiber varieties of Cannabis approved for industrial hemp production produce only minute amounts of this psychoactive drug, not enough for any physical or psychological effects. Typically, hemp contains below 0.3% THC, while cultivars of Cannabis grown for medicinal or recreational use can contain anywhere from 2% to over 20%. [ 104 ]",
+      "char_offset": 26137
+    },
+    {
+      "type": "paragraph",
+      "text": "Smallholder plots are usually harvested by hand. The plants are cut at 2 to 3 cm above the soil and left on the ground to dry. Mechanical harvesting is now common, using specially adapted cutter-binders or simpler cutters.",
+      "char_offset": 27003
+    },
+    {
+      "type": "paragraph",
+      "text": "The cut hemp is laid in swathes to dry for up to four days. This was traditionally followed by retting , either water retting (the bundled hemp floats in water) or dew retting (the hemp remains on the ground and is affected by the moisture in dew and by molds and bacterial action).",
+      "char_offset": 27227
+    },
+    {
+      "type": "paragraph",
+      "text": "Several arthropods can cause damage or injury to hemp plants, but the most serious species are associated with the Insecta class. The most problematic for outdoor crops are the voracious stem-boring caterpillars, which include the European corn borer , Ostrinia nubilalis, and the Eurasian hemp borer, Grapholita delineana. [ 105 ] A s the names imply, they target the stems reducing the structural integrity of the plant. [ 105 ] Another lepidopteran, the corn earworm, Helicoverpa zea , is known to damage flowering parts and can be challenging to control. [ 106 ] Other foliar pests, found in both indoor and outdoor crops, include the hemp russet mite, Aculops cannibicola, and cannabis aphid, Phorodon cannabis. [ 106 ] They cause injury by reducing plant vigor because they feed on the phloem of the plant. Root feeders can be difficult to detect and control because of their below surface habitat. A number of beetle grubs and chafers are known to cause damage to hemp roots, including the flea beetle and Japanese beetle , Popillia Japonica . [ 105 ] The rice root aphid , Rhopalosiphum rufiabdominale, has also been reported but primarily affects indoor growing facilities. [ 106 ] Integrated pest management strategies should be employed to manage these pests with prevention and early detection being the foundation of a resilient program. Cultural and physical controls should be employed in conjunction with biological pest controls , chemical applications should only be used as a last resort.",
+      "char_offset": 27511
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp plants can be vulnerable to various pathogens , including bacteria, fungi, nematodes , viruses and other miscellaneous pathogens. Such diseases often lead to reduced fiber quality, stunted growth, and death of the plant. These diseases rarely affect the yield of a hemp field, so hemp production is not traditionally dependent on the use of pesticides.",
+      "char_offset": 29020
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp is considered by a 1998 study in Environmental Economics to be environmentally friendly due to a decrease of land use and other environmental impacts, indicating a possible decrease of ecological footprint in a US context compared to typical benchmarks. [ 107 ] A 2010 study, however, that compared the production of paper specifically from hemp and eucalyptus concluded that \"industrial hemp presents higher environmental impacts than eucalyptus paper\"; however, the article also highlights that \"there is scope for improving industrial hemp paper production\". [ 108 ] Hemp is also claimed to require few pesticides and no herbicides, and it has been called a carbon negative raw material. [ 109 ] [ 110 ] Results indicate that high yield of hemp may require high total nutrient levels (field plus fertilizer nutrients) similar to a high yielding wheat crop. [ 111 ] A United Nations report endorses the versatility and sustainability of hemp and its productive potential in developing countries. Hemp uses a quarter of the water required by cotton, and absorbs more carbon dioxide than other crops and most trees. [ 112 ]",
+      "char_offset": 29379
+    },
+    {
+      "type": "paragraph",
+      "text": "The world-leading producer of hemp is China, which produces more than 70% of the world output. France ranks second with about a quarter of the world production. Smaller production occurs in the rest of Europe, Chile, and North Korea . Over 30 countries produce industrial hemp, including Australia, Austria , Canada, Chile, China, Denmark , Egypt , Finland , Germany, Greece , [ 113 ] Hungary , India, Italy, Japan, Korea , Netherlands , New Zealand, Poland , Portugal , Romania , Russia, Slovenia , Spain, Sweden, Switzerland , Thailand , Turkey , the United Kingdom and Ukraine . [ 114 ] [ 115 ]",
+      "char_offset": 30509
+    },
+    {
+      "type": "paragraph",
+      "text": "The United Kingdom and Germany resumed commercial production in the 1990s. British production is mostly used as bedding for horses; other uses are under development. Companies in Canada, the UK, the United States, and Germany, among many others, process hemp seed into a growing range of food products and cosmetics; many traditional growing countries continue to produce textile-grade fiber.",
+      "char_offset": 31108
+    },
+    {
+      "type": "paragraph",
+      "text": "Air-dried stem yields in Ontario have from 1998 and onward ranged from 2.6 to 14.0 tons of dry, retted stalks per hectare (1\u20135.5 t/ac) at 12% moisture. Yields in Kent County, have averaged 8.75 t/ha (3.5 t/ac). Northern Ontario crops averaged 6.1 t/ha (2.5 t/ac) in 1998. Statistic for the European Union for 2008 to 2010 say that the average yield of hemp straw has varied between 6.3 and 7.3 ton per ha. [ 116 ] [ 117 ] Only a part of that is bast fiber. Around one ton of bast fiber and 2\u20133 tons of core material can be decorticated from 3\u20134 tons of good-quality, dry-retted straw. For an annual yield of this level is it in Ontario recommended to add nitrogen (N):70\u2013110 kg/ha, phosphate (P 2 O 5 ): up to 80 kg/ha and potash (K 2 O): 40\u201390 kg/ha. [ 118 ] The average yield of dry hemp stalks in Europe was 6 ton/ha (2.4 ton/ac) in 2001 and 2002. [ 119 ]",
+      "char_offset": 31502
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO argue that an optimum yield of hemp fiber is more than 2 tons per ha, while average yields are around 650 kg/ha. [ 120 ]",
+      "char_offset": 32362
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp is legal to grow in all Australian states, and state governments regulate this through issuing licenses to grow hemp for industrial use. The first to initiate modern research into the potential of cannabis was the state of Tasmania, which pioneered the licensing of hemp during the early 1990s. The state of Victoria was an early adopter in 1998, and recently proposed stand-alone industrial hemp legislation. [ 121 ]",
+      "char_offset": 32488
+    },
+    {
+      "type": "paragraph",
+      "text": "Queensland has allowed industrial production under license since 2002, [ 122 ] where the issuance is controlled under the Drugs Misuse Act 1986. [ 123 ] Western Australia enabled the cultivation, harvest and processing of hemp under its Industrial Hemp Act 2004, [ 124 ] New South Wales now issues licenses [ 125 ] under a law, the Hemp Industry Regulations Act 2008 (No 58), that came into effect as of 6 November 2008. [ 126 ] Most recently, South Australia legalised industrial hemp under South Australia's Industrial Hemp Act 2017, which commenced on 12 November 2017. [ 127 ]",
+      "char_offset": 32912
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial production (including cultivation) of industrial hemp has been permitted in Canada since 1998 under licenses and authorization issued by Health Canada. [ 128 ]",
+      "char_offset": 33494
+    },
+    {
+      "type": "paragraph",
+      "text": "In the early 1990s, industrial hemp agriculture in North America began with the Hemp Awareness Committee at the University of Manitoba . The Committee worked with the provincial government to get research and development assistance and was able to obtain test plot permits from the Canadian government . Their efforts led to the legalization of industrial hemp (hemp with only minute amounts of tetrahydrocannabinol ) in Canada and the first harvest in 1998. [ 129 ] [ 130 ]",
+      "char_offset": 33666
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2017, the cultivated area for hemp in the Prairie provinces include Saskatchewan with more than 56,000 acres (23,000 ha), Alberta with 45,000 acres (18,000 ha), and Manitoba with 30,000 acres (12,000 ha). [ 131 ] Canadian hemp is cultivated mostly for its food value as hulled hemp seeds, hemp oils, and hemp protein powders, with only a small fraction devoted to production of hemp fiber used for construction and insulation. [ 131 ]",
+      "char_offset": 34142
+    },
+    {
+      "type": "paragraph",
+      "text": "France is Europe's biggest producer (and the world's second largest producer) with 8,000 hectares (20,000 acres) cultivated. [ 132 ] 70\u201380% of the hemp fiber produced in 2003 was used for specialty pulp for cigarette papers and technical applications. About 15% was used in the automotive sector, and 5\u20136% was used for insulation mats. About 95% of hurds were used as animal bedding, while almost 5% was used in the building sector. [ 119 ] In 2010\u20132011, a total of 11,000 hectares (27,000 acres) was cultivated with hemp in the EU, a decline compared with previous year. [ 117 ] [ 133 ]",
+      "char_offset": 34581
+    },
+    {
+      "type": "paragraph",
+      "text": "From the 1950s to the 1980s, the Soviet Union was the world's largest producer of hemp (3,000 square kilometres (1,200 sq mi) in 1970). The main production areas were in Ukraine , [ 134 ] the Kursk and Orel regions of Russia, and near the Polish border. Since its inception in 1931, the Hemp Breeding Department at the Institute of Bast Crops in Hlukhiv (Glukhov), Ukraine, has been one of the world's largest centers for developing new hemp varieties, focusing on improving fiber quality, per-hectare yields, and low THC content. [ 135 ]",
+      "char_offset": 35170
+    },
+    {
+      "type": "paragraph",
+      "text": "After the collapse of the Soviet Union , the commercial cultivation of hemp declined sharply. However, at least an estimated 2.5 million acres of hemp grow wild in the Russian Far East and the Black Sea regions. [ 136 ]",
+      "char_offset": 35710
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United Kingdom, cultivation licenses are issued by the Home Office under the Misuse of Drugs Act 1971 . When grown for nondrug purposes, hemp is referred to as industrial hemp, and a common product is fiber for use in a wide variety of products, as well as the seed for nutritional aspects and the oil. Feral hemp or ditch weed is usually a naturalized fiber or oilseed strain of Cannabis that has escaped from cultivation and is self-seeding. [ 137 ]",
+      "char_offset": 35931
+    },
+    {
+      "type": "paragraph",
+      "text": "In October 2019, hemp became legal to grow in 46 U.S. states under federal law. As of 2019, 47 states have enacted legislation to make hemp legal to grow at the state level, with several states implementing medical provisions regarding the growing of plants specifically for non-psychoactive CBD. [ 138 ]",
+      "char_offset": 36391
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2018 Farm Bill , which incorporated the Hemp Farming Act of 2018 , removed hemp as a Schedule I drug and instead made it an agricultural commodity. This legalized hemp at the federal level, which made it easier for hemp farmers to get production licenses, acquire loans, and receive federal crop insurance. [ 139 ]",
+      "char_offset": 36697
+    },
+    {
+      "type": "paragraph",
+      "text": "The process to legalize hemp cultivation began in 2009, when Oregon began approving licenses for industrial hemp. [ 141 ] Then, in 2013, after the legalization of marijuana, several farmers in Colorado planted and harvested several acres of hemp, bringing in the first hemp crop in the United States in over half a century. [ 142 ] After that, the federal government created a Hemp Farming Pilot Program as a part of the Agricultural Act of 2014. [ 143 ] This program allowed institutions of higher education and state agricultural departments to begin growing hemp without the consent of the Drug Enforcement Administration (DEA). Hemp production in Kentucky , formerly the United States' leading producer, resumed in 2014. [ 144 ] Hemp production in North Carolina resumed in 2017, [ 145 ] and in Washington State the same year. [ 146 ] By the end of 2017, at least 34 U.S. states had industrial hemp programs. In 2018, New York began taking strides in industrial hemp production, along with hemp research pilot programs at Cornell University , Binghamton University and SUNY Morrisville . [ 147 ]",
+      "char_offset": 37017
+    },
+    {
+      "type": "paragraph",
+      "text": "As of 2017, the hemp industry estimated that annual sales of hemp products were around $820 million annually; hemp-derived CBD have been the major force driving this growth. [ 148 ]",
+      "char_offset": 38118
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite this progress, hemp businesses in the US have had difficulties expanding as they have faced challenges in traditional marketing and sales approaches. According to a case study done by Forbes , hemp businesses and startups have had difficulty marketing and selling non-psychoactive hemp products, as the majority of online advertising platforms and financial institutions do not distinguish between hemp and marijuana. [ 149 ]",
+      "char_offset": 38301
+    },
+    {
+      "type": "paragraph",
+      "text": "Gathered hemp fiber was used to make cloth long before agriculture, nine to fifty thousand years ago. [ 3 ] It may also be one of the earliest plants to have been cultivated. [ 151 ] [ 152 ] An archeological site in the Oki Islands of Japan contained cannabis achenes from about 8000 BC, probably signifying use of the plant. [ 153 ] Hemp use archaeologically dates back to the Neolithic Age in China, with hemp fiber imprints found on Yangshao culture pottery dating from the 5th millennium BC . [ 150 ] [ 154 ] The Chinese later used hemp to make clothes, shoes, ropes, and an early form of paper. [ 150 ] The classical Greek historian Herodotus (ca. 480 BC) reported that the inhabitants of Scythia would often inhale the vapors of hemp-seed smoke, both as ritual and for their own pleasurable recreation. [ 155 ]",
+      "char_offset": 38736
+    },
+    {
+      "type": "paragraph",
+      "text": "Textile expert Elizabeth Wayland Barber summarizes the historical evidence that Cannabis sativa , \"grew and was known in the Neolithic period all across the northern latitudes, from Europe (Germany, Switzerland, Austria, Romania, Ukraine) to East Asia (Tibet and China),\" but, \"textile use of Cannabis sativa does not surface for certain in the West until relatively late, namely the Iron Age.\" [ 156 ] \"I strongly suspect, however, that what catapulted hemp to sudden fame and fortune as a cultigen and caused it to spread rapidly westwards in the first millennium B.C. was the spread of the habit of pot-smoking from somewhere in south-central Asia, where the drug-bearing variety of the plant originally occurred. The linguistic evidence strongly supports this theory, both as to time and direction of spread and as to cause.\" [ 157 ]",
+      "char_offset": 39554
+    },
+    {
+      "type": "paragraph",
+      "text": "Jews living in Palestine in the 2nd century were familiar with the cultivation of hemp, as witnessed by a reference to it in the Mishna ( Kil'ayim 2:5) as a variety of plant, along with arum , that sometimes takes as many as three years to grow from a seedling. In late medieval Holy Roman Empire (Germany) and Italy , hemp was employed in cooked dishes, as filling in pies and tortes , or boiled in a soup. [ 158 ] Hemp in later Europe was mainly cultivated for its fibers and was used for ropes on many ships, including those of Christopher Columbus . The use of hemp as a cloth was centered largely in the countryside, with higher quality textiles being available in the towns.",
+      "char_offset": 40393
+    },
+    {
+      "type": "paragraph",
+      "text": "The Spaniards brought hemp to the Americas and cultivated it in Chile starting about 1545. [ 159 ] Similar attempts were made in Peru, Colombia, and Mexico, but only in Chile did the crop find success. [ 160 ] In July 1605, Samuel Champlain reported the use of grass and hemp clothing by the (Wampanoag) people of Cape Cod and the (Nauset) people of Plymouth Bay told him they harvested hemp in their region where it grew wild to a height of 4 to 5 ft. [ 161 ] In May 1607, \"hempe\" was among the crops Gabriel Archer observed being cultivated by the natives at the main Powhatan village, where Richmond, Virginia , is now situated; [ 162 ] and in 1613, Samuell Argall reported wild hemp \"better than that in England\" growing along the shores of the upper Potomac . As early as 1619, the first Virginia House of Burgesses passed an Act requiring all planters in Virginia to sow \"both English and Indian\" hemp on their plantations. [ 163 ] The Puritans are first known to have cultivated hemp in New England in 1645. [ 159 ]",
+      "char_offset": 41075
+    },
+    {
+      "type": "paragraph",
+      "text": "George Washington pushed for the growth of hemp as it was a cash crop commonly used to make rope and fabric. In May 1765 he noted in his diary about the sowing of seeds each day until mid-April. Then he recounts the harvest in October which he grew 27 bushels that year.",
+      "char_offset": 42099
+    },
+    {
+      "type": "paragraph",
+      "text": "It is sometimes supposed that an excerpt from Washington's diary, which reads \"Began to separate the Male from the Female hemp at Do.&\u2014rather too late\" is evidence that he was trying to grow female plants for the THC found in the flowers. However, the editorial remark accompanying the diary states that \"This may arise from their [the male] being coarser, and the stalks larger\" [ 164 ] In subsequent days, he describes soaking the hemp [ 165 ] (to make the fibers usable) and harvesting the seeds, [ 166 ] suggesting that he was growing hemp for industrial purposes, not recreational.",
+      "char_offset": 42371
+    },
+    {
+      "type": "paragraph",
+      "text": "George Washington also imported the Indian hemp plant from Asia, which was used for fiber and, by some growers, for intoxicating resin production. In a 1796 letter to William Pearce who managed the plants for him, Washington says, \"What was done with the Indian Hemp plant from last summer? It ought, all of it, to be sown again; that not only a stock of seed sufficient for my own purposes might have been raised, but to have disseminated seed to others; as it is more valuable than common hemp.\" [ 167 ] [ 168 ]",
+      "char_offset": 42959
+    },
+    {
+      "type": "paragraph",
+      "text": "Other presidents known to have farmed hemp for alternative purposes include Thomas Jefferson , [ 169 ] James Madison , James Monroe , Andrew Jackson , Zachary Taylor , and Franklin Pierce . [ 170 ]",
+      "char_offset": 43474
+    },
+    {
+      "type": "paragraph",
+      "text": "Historically, hemp production had made up a significant portion of antebellum Kentucky's economy. Before the American Civil War , many slaves worked on plantations producing hemp. [ 171 ]",
+      "char_offset": 43673
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1937, the Marihuana Tax Act of 1937 was passed in the United States, levying a tax on anyone who dealt commercially in cannabis, hemp, or marijuana. The passing of the Act to destroy the U.S. hemp industry has been reputed to involve businessmen Andrew Mellon , Randolph Hearst and the Du Pont family . [ 172 ] [ 173 ] [ 174 ]",
+      "char_offset": 43862
+    },
+    {
+      "type": "paragraph",
+      "text": "One claim is that Hearst believed [ dubious \u2013 discuss ] that his extensive timber holdings were threatened by the invention of the decorticator that he feared would allow hemp to become a cheap substitute for the paper pulp used for newspaper. [ 172 ] [ 175 ] Historical research indicates this fear was unfounded because improvements of the decorticators in the 1930s \u2013 machines that separated the fibers from the hemp stem \u2013 could not make hemp fiber a cheaper substitute for fibers from other sources. Further, decorticators did not perform satisfactorily in commercial production. [ 176 ] [ 172 ]",
+      "char_offset": 44193
+    },
+    {
+      "type": "paragraph",
+      "text": "Another claim is that Mellon, Secretary of the Treasury and the wealthiest man in America at that time, had invested heavily in DuPont 's new synthetic fiber, nylon , and believed [ dubious \u2013 discuss ] that the replacement of the traditional resource, hemp, was integral to the new product's success. [ 172 ] [ 177 ] [ 178 ] [ 179 ] [ 180 ] [ 181 ] [ 182 ] [ 183 ] DuPont and many industrial historians dispute a link between nylon and hemp, nylon became immediately a scarce commodity. [ clarification needed ] Nylon had characteristics that could be used for toothbrushes (sold from 1938) and very thin nylon fiber could compete with silk and rayon in various textiles normally not produced from hemp fiber, such as very thin stockings for women. [ 176 ] [ 184 ] [ 185 ] [ 186 ] [ 187 ]",
+      "char_offset": 44795
+    },
+    {
+      "type": "paragraph",
+      "text": "While the Marijuana Tax Act of 1937 had just been signed into law, the United States Department of Agriculture lifted the tax on hemp cultivation during WWII. [ 188 ] Before WWII, the U.S. Navy used Jute and Manila Hemp from the Philippines and Indonesia for the cordage on their ships. During the war, Japan cut off those supply lines. [ 189 ] America was forced to turn inward and revitalize the cultivation of Hemp on U.S. soils.",
+      "char_offset": 45585
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp was used extensively by the United States during World War II to make uniforms, canvas, and rope. [ 190 ] Much of the hemp used was cultivated in Kentucky and the Midwest . During World War II, the U.S. produced a short 1942 film, Hemp for Victory , promoting hemp as a necessary crop to win the war. [ 189 ] By the 1980s the film was largely forgotten, and the U.S. government even denied its existence. [ 191 ] The film, and the important historical role of hemp in U.S. agriculture and commerce was brought to light by hemp activist Jack Herer in the book The Emperor Wears No Clothes .",
+      "char_offset": 46019
+    },
+    {
+      "type": "paragraph",
+      "text": "U.S. farmers participated in the campaign to increase U.S. hemp production to 36,000 acres in 1942. [ 192 ] This increase amounted to more than 20 times the production in 1941 before the war effort. [ 192 ]",
+      "char_offset": 46615
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, Executive Order 12919 (1994) identified hemp as a strategic national product that should be stockpiled. [ 193 ]",
+      "char_offset": 46823
+    },
+    {
+      "type": "paragraph",
+      "text": "Hemp has been grown for millennia in Asia and the Middle East for its fiber. Commercial production of hemp in the West took off in the eighteenth century, but was grown in the sixteenth century in eastern England. [ 196 ] Because of colonial and naval expansion of the era, economies needed large quantities of hemp for rope and oakum . In the early 1940s, world production of hemp fiber ranged from 250,000 to 350,000 metric tons, Russia was the biggest producer. [ 176 ]",
+      "char_offset": 46958
+    },
+    {
+      "type": "paragraph",
+      "text": "In Western Europe, the cultivation of hemp was not legally banned by the 1930s, but the commercial cultivation stopped by then, due to decreased demand compared to increasingly popular artificial fibers. [ 197 ] Speculation about the potential for commercial cultivation of hemp in large quantities has been criticized due to successful competition from other fibers for many products. The world production of hemp fiber fell from over 300,000 metric tons by 1961 to about 75,000 metric tons in the early 1990s and has after that been stable at that level. [ 198 ]",
+      "char_offset": 47432
+    },
+    {
+      "type": "paragraph",
+      "text": "In Japan, hemp was historically used as paper and a fiber crop. There is archaeological evidence cannabis was used for clothing and the seeds were eaten in Japan back to the J\u014dmon period (10,000 to 300 BC). Many kimono designs portray hemp, or asa ( Japanese : \u9ebb ), as a beautiful plant. In 1948, marijuana was restricted as a narcotic drug. The ban on marijuana imposed by the United States authorities was alien to Japanese culture, as the drug had never been widely used in Japan before. Though these laws against marijuana are some of the world's strictest, allowing five years imprisonment for possession of the drug, they exempt hemp growers, whose crop is used to make robes for Buddhist monks and loincloths for Sumo wrestlers . Because marijuana use in Japan has doubled in the past decade, these exemptions have recently been called into question. [ 199 ]",
+      "char_offset": 47998
+    },
+    {
+      "type": "paragraph",
+      "text": "The cultivation of hemp in Portuguese lands began around the fourteenth century. [ citation needed ] The raw material was used for the preparation of rope and plugs for the Portuguese ships. Portugal also utilized its colonies to support its hemp supply, including in certain parts of Brazil. [ 200 ]",
+      "char_offset": 48865
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to recover the ailing Portuguese naval fleet after the Restoration of Independence in 1640, King John IV put a renewed emphasis on the growing of hemp. He ordered the creation of the Royal Linen and Hemp Factory in the town of Torre de Moncorvo to increase production and support the effort. [ 201 ]",
+      "char_offset": 49167
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1971, the cultivation of hemp became illegal, and the production was substantially reduced. Because of EU regulations 1308\u201370, 619/71 and 1164\u201389, this law was revoked (for some certified seed varieties). [ 202 ]",
+      "char_offset": 49477
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-7297a1b181e85427"
+}

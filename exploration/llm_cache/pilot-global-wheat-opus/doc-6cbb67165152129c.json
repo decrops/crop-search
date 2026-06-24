@@ -1,0 +1,54 @@
+{"claims": [
+  {
+    "parameter_id": "stress.drought_tolerance",
+    "value_type": "numeric",
+    "numeric_value": 20.6,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "yield reduction varied with species, with wheat having lower yield reduction (20.6%) compared to maize (39.3%) at approximately 40% water reduction",
+    "claim_summary": "Wheat yield reduced ~20.6% at ~40% water reduction (meta-analysis), substantially less than maize (39.3%); wheat is relatively drought-tolerant.",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "water.drought_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Wheat seemed to have similar sensitivity to drought, whether it occurred during the vegetative or reproductive phase... Early-season drought that happened four weeks before anthesis was also found to reduce yield significantly by lowering the number of grains per ear",
+    "claim_summary": "Wheat shows similar drought sensitivity in vegetative and reproductive phases; drought ~4 weeks before anthesis reduces grains per ear; mid-season drought (jointing-anthesis) can cause irreversible loss.",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "range",
+    "range_min": 375,
+    "range_max": 875,
+    "unit": "mm",
+    "qualifier": "typical",
+    "evidence_text": "While 75% of the land area where wheat is grown receives between 375 and 875 mm of annual precipitation with mean temperature of 25 C, wheat can tolerate precipitation ranging between 250 and 1750 mm and temperature from 3 to 32 C",
+    "claim_summary": "75% of wheat-growing land receives 375-875 mm annual precipitation; wheat tolerates 250-1750 mm precipitation.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.optimum_growth_temperature",
+    "value_type": "range",
+    "range_min": 3,
+    "range_max": 32,
+    "unit": "celsius",
+    "qualifier": "observed",
+    "evidence_text": "wheat can tolerate precipitation ranging between 250 and 1750 mm and temperature from 3 to 32 C",
+    "claim_summary": "Wheat tolerates a mean temperature range of 3-32 C, with ~25 C typical of most wheat-growing land.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "root.maximum_rooting_depth",
+    "value_type": "numeric",
+    "numeric_value": 113,
+    "unit": "text",
+    "qualifier": "typical",
+    "evidence_text": "Wheat, for example, was able to extend their roots to an average 113 cm and had less than 50% of their total root length in the top 20 cm",
+    "claim_summary": "Wheat roots extend to an average depth of ~113 cm, with less than 50% of root length in the top 20 cm (deep-root drought-avoidance trait).",
+    "extraction_confidence": "high"
+  }
+]}

@@ -1,0 +1,21 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "In France, the recommendation for the first nitrogen application on wheat is 6 weeks before Z30, with the second application on Z30.",
+    "claim_summary": "In France, first N application on wheat is recommended 6 weeks before Zadoks 30, second at Z30.",
+    "extraction_confidence": "high",
+    "methods": ["nitrogen fertilization"],
+    "bbch_min": 30,
+    "bbch_max": 30
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "The crop is also more sensitive to heat or frost at some stages than others (for example, during the meiosis stage the crop is very sensitive to low temperature).",
+    "claim_summary": "Wheat is very sensitive to low temperature (frost) during the meiosis stage.",
+    "extraction_confidence": "medium"
+  }
+]}

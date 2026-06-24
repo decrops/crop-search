@@ -1,0 +1,273 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "range",
+      "range_min": 5,
+      "range_max": 7,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "The coleoptile, or second leaf, penetrates the soil and results in emergence of the seedling, usually within 5 to 7 days after planting.",
+      "claim_summary": "Wheat seedlings typically emerge 5 to 7 days after planting.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "range",
+      "range_min": 1,
+      "range_max": 2,
+      "unit": "inches",
+      "qualifier": "optimum",
+      "evidence_text": "Wheat can emerge from various depths, but a planting depth of 1 to 2 inches is optimal.",
+      "claim_summary": "Optimal wheat planting depth is 1 to 2 inches.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 40,
+      "range_max": 90,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Seeding rates in western Kansas range from 600,000 to 900,000 seeds per acre planted (40 to 60 pounds per acre...). With irrigation, seeding rates may range from 900,000 to 1,350,000 seeds per acre (60 to 90 pounds per acre...)",
+      "claim_summary": "Recommended wheat seeding rates range from 40 lb/acre (dryland western) to 90 lb/acre (irrigated).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 450000,
+      "range_max": 1080000,
+      "unit": "plants/acre",
+      "qualifier": "recommended",
+      "evidence_text": "the plant population may vary from 450,000 to 750,000 plants per acre... With irrigation... final stands of 720,000 to 1,080,000 plants per acre.",
+      "claim_summary": "Target final wheat plant density ranges from ~450,000 (dryland) to ~1,080,000 (irrigated) plants per acre.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "optimum",
+      "evidence_text": "Figure 1. Optimum planting dates in Kansas Zone 1.............September 10-30 Zone 2.............September 15-October 20 Zone 3.............September 25-October 20 Zone 4.............October 5-October 25",
+      "claim_summary": "Optimum winter wheat planting in Kansas spans early September to late October depending on zone.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "range",
+      "range_min": 3,
+      "range_max": 6,
+      "unit": "tillers/plant",
+      "qualifier": "typical",
+      "evidence_text": "A winter wheat plant grown under usual conditions will have three to six tillers.",
+      "claim_summary": "A winter wheat plant typically produces 3 to 6 tillers under usual conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 12,
+      "range_max": 13,
+      "unit": "percent",
+      "qualifier": "recommended",
+      "evidence_text": "The most important change is the loss of moisture from 30 to 35 percent in mature grain to 12 to 13 percent in combine-ripe grain.",
+      "claim_summary": "Wheat is combine-ripe / ready to harvest at 12 to 13 percent grain moisture.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 35,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "Physiological maturity occurs when the kernel has accumulated its highest content of dry matter... The kernel contains 30 to 35 percent water at physiological maturity.",
+      "claim_summary": "Wheat kernels contain 30 to 35 percent water at physiological maturity.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 12,
+      "unit": "weeks",
+      "qualifier": "observed",
+      "evidence_text": "The maximum weight occurs about 4 weeks after flowering in Kansas. This period is determined largely by temperature and can extend up to 12 weeks in areas where the weather is cool.",
+      "claim_summary": "Grain fill to maximum kernel weight takes ~4 weeks in Kansas, extending up to 12 weeks in cool climates.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.test_weight",
+      "value_type": "numeric",
+      "numeric_value": 56,
+      "unit": "lb/bu",
+      "qualifier": "minimum",
+      "evidence_text": "Seed should have at least 85 percent germination and 56 pounds per bushel test weight... The official minimum test weight for certified seed is 56 pounds per bushel.",
+      "claim_summary": "Minimum acceptable wheat test weight is 56 lb/bu (certified seed standard).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "grams",
+      "qualifier": "minimum",
+      "evidence_text": "A 30 gram TKW, which translates to 15,200 seeds per pound is an appropriate minimum TKW for a seedlot.",
+      "claim_summary": "A minimum thousand kernel weight of 30 g is appropriate for a wheat seedlot.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 11,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "In recent years, the average grain protein in Kansas wheat has been slightly over 11 percent, which is below the optimum for domestic flour production.",
+      "claim_summary": "Average Kansas wheat grain protein is slightly over 11 percent, below the optimum for flour production.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 1.75,
+      "unit": "lb/bu",
+      "qualifier": "recommended",
+      "evidence_text": "N Rec (lbs/a) = [YG x 1.75]... a realistic yield goal in bushels per acre... (40 bu/a x 1.75 lbs/bu)",
+      "claim_summary": "Wheat nitrogen requirement is estimated at 1.75 lb N per bushel of yield goal.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Summer preplant and spring topdressing are the recommended times of nitrogen application... Spring applications of nitrogen should be completed by jointing, which normally occurs in early to mid-March.",
+      "claim_summary": "Wheat nitrogen is recommended preplant and as spring topdress, with spring N completed by jointing.",
+      "extraction_confidence": "high",
+      "methods": ["topdress", "preplant", "fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat is known to respond well to applications of phosphorus on soils testing low or very low in available phosphorus. Wheat plants do not tiller well under severe phosphorus deficiency and often are more subject to winterkill.",
+      "claim_summary": "Wheat responds well to phosphorus on low-P soils; P deficiency reduces tillering and winter survival.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "numeric",
+      "numeric_value": 0.08,
+      "unit": "lb/bu",
+      "qualifier": "observed",
+      "evidence_text": "Table 1. Nutrient removal by wheat in the grain ... Sulfur, S 0.08 lb/bu",
+      "claim_summary": "Wheat grain removes about 0.08 lb sulfur per bushel.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 0.28,
+      "unit": "lb/bu",
+      "qualifier": "observed",
+      "evidence_text": "Table 1. Nutrient removal by wheat in the grain ... Potash, K2 O 0.28 lb/bu",
+      "claim_summary": "Wheat grain removes about 0.28 lb K2O (potash) per bushel.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Acidic (low pH) soils have more free aluminum, which can burn root tips and lead to poor vigor... Wheat varieties do differ in their ability to tolerate low pH soils.",
+      "claim_summary": "Wheat is sensitive to low (acidic) soil pH, which raises free aluminum and damages root tips; liming recommended.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "This wheat-summer crop-fallow system produces two crops in 3 years and has been shown to be more profitable than the wheat-fallow system.",
+      "claim_summary": "A wheat-summer crop-fallow rotation (two crops in 3 years) is recommended over wheat-fallow for profitability and water use.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "A 30 percent surface residue cover for water erosion control or 1,000 pounds of flat, small grain residue or its equivalent for wind erosion control after planting is usually adequate in Kansas.",
+      "claim_summary": "About 30% surface residue cover (or 1,000 lb/acre flat residue) is adequate for erosion control in wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "No-till planting reduced soil erosion by 90 to 95 percent... Standing residue is more effective than flat residue in controlling wind erosion.",
+      "claim_summary": "No-till wheat planting reduces soil erosion by 90-95% versus clean tillage; conservation tillage conserves moisture.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Lodging is most common after heading and when growth has been overstimulated by excess nitrogen fertilizer or moisture, high temperatures, or overplanting.",
+      "claim_summary": "Wheat lodging risk increases after heading with excess nitrogen, moisture, heat, or overplanting; semidwarfs stand better.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Preharvest sprouting of ripened grain occurs occasionally... Frequent rains, high humidity, and heavy dews cause kernels in the spike to absorb moisture and start germinating. Severe sprouting reduces the test weight and breadmaking quality.",
+      "claim_summary": "Preharvest sprouting occurs when ripe wheat is exposed to rain/humidity, reducing test weight and breadmaking quality.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The growing point is the most susceptible of all plant parts to frost at this stage [jointing]... Temperatures only slightly below freezing quickly kill the male flower parts, sterilizing the florets so no grain is formed [flowering].",
+      "claim_summary": "Wheat is most frost-sensitive at jointing (growing point) and flowering (slight frost sterilizes florets).",
+      "extraction_confidence": "high",
+      "bbch_min": 30,
+      "bbch_max": 65
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "numeric",
+      "numeric_value": 7,
+      "unit": "feet",
+      "qualifier": "maximum",
+      "evidence_text": "Most of the roots are in the plow layer, or top 6 inches of soil, but some penetrate as far as 7 feet into the soil.",
+      "claim_summary": "Wheat roots are concentrated in the top 6 inches but can penetrate as far as 7 feet deep.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Exposure to low winter temperatures is necessary to induce jointing in winter wheat; without it, the plants would continue to produce more leaves.",
+      "claim_summary": "Winter wheat requires exposure to low winter temperatures (vernalization) to induce jointing/flowering.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Wheat is classified as a long day plant because it will flower only when days are long and nights, the important times, are short.",
+      "claim_summary": "Wheat is a long-day plant, flowering only under long days / short nights.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

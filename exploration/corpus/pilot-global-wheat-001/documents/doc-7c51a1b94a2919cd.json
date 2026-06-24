@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-7c51a1b94a2919cd",
+  "canonical_url": "https://en.wikipedia.org/wiki/Grow_light",
+  "source_url": "https://en.wikipedia.org/wiki/Grow_light",
+  "doi": "",
+  "title": "Grow light - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "7c51a1b94a2919cd1080b06cf8927769bbe062b3cd0f3709778e264b24f26788",
+  "content_hash": "4d6229c3c5f8ec2a5da90ca3b1f3fc01520c94c6626be606f644c2f1cffb1454",
+  "text_length": 26066,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 8969693
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/344-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,20 @@
+{"claims": [
+  {
+    "parameter_id": "water.drought_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Water stress at critical growth stages diminishes wheat production... Grain yield was higher under stress imposition at grain filling stage than the rest of the stages, though severe water stress decreased yield significantly.",
+    "claim_summary": "Wheat water stress at critical stages reduces production; among stages tested, water deficit at grain filling was least damaging while severe stress at any stage cut yield significantly.",
+    "extraction_confidence": "medium",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "nutrients.potassium_requirement",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Potassium (K) foliar spray (1%) from potassium sulfate (K2SO4) was applied... It is concluded that application of foliar potassium decreases the adverse effects of water stress at any growth stage",
+    "claim_summary": "Foliar potassium (1% K2SO4) spray mitigates adverse effects of water stress on wheat at any growth stage.",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization", "irrigation"]
+  }
+]}

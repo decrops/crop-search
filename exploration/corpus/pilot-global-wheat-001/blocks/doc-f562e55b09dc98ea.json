@@ -1,0 +1,1236 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 1,
+      "heading": "Optimizing Agronomic Management Practices for Enhanced Radiation Capture and Improved Radiation Use Efficiency in Winter Wheat",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Haicheng Xu",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Conceptualization, Investigation, Data curation, Writing \u2013 original draft, Funding acquisition Find articles by Haicheng Xu"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Mei Liu",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Investigation, Data curation Find articles by Mei Liu"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Chuanxing Li",
+      "text": "2 Shouguang Vegetable Industry Development Center, Weifang 262700, China; lichuanxing413@163.com Investigation Find articles by Chuanxing Li"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Yuhai Tang",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Writing \u2013 review & editing Find articles by Yuhai Tang"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Qiqin Xue",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Writing \u2013 review & editing Find articles by Qiqin Xue"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Wanli Xiao",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Writing \u2013 review & editing Find articles by Wanli Xiao"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Dongyao Gao",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Writing \u2013 review & editing Find articles by Dongyao Gao"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Dianliang Peng",
+      "text": "1 Shandong Provincial University Laboratory for Protected Horticulture, Weifang University of Science and Technology, Weifang 262700, China; xuhaich@126.com (H.X.); sdaulm@126.com (M.L.); tangyh209@163.com (Y.T.); xueqiqin@163.com (Q.X.); xiaowanli1818@163.com (W.X.); dongyaogao@163.com (D.G.) Conceptualization, Supervision, Project administration, Funding acquisition Find articles by Dianliang Peng"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Xinglong Dai",
+      "text": "3 State Key Laboratory of Crop Biology, Agronomy College, Shandong Agricultural University, Tai\u2019an 271018, China Conceptualization, Supervision, Project administration, Funding acquisition Find articles by Xinglong Dai"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 4,
+      "heading": "Roles",
+      "text": "Haicheng Xu : Conceptualization, Investigation, Data curation, Writing \u2013 original draft, Funding acquisition Mei Liu : Investigation, Data curation Chuanxing Li : Investigation Yuhai Tang : Writing \u2013 review & editing Qiqin Xue : Writing \u2013 review & editing Wanli Xiao : Writing \u2013 review & editing Dongyao Gao : Writing \u2013 review & editing Dianliang Peng : Conceptualization, Supervision, Project administration, Funding acquisition Xinglong Dai : Conceptualization, Supervision, Project administration, Funding acquisition Ivan Kreft : Academic Editor"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Increased aboveground biomass is contingent on enhanced photosynthetically active radiation intercepted by the canopy (IPAR), improved radiation use efficiency (RUE), or both. We investigated whether and how optimized agronomic management practices promote IPAR and RUE. Four integrated agronomic management treatments, i.e., local traditional practice (LP), improved local traditional practice (ILP), high-yield agronomic management (HY), and improved high-yield agronomic management (IHY), were compared over two wheat ( Triticum aestivum L.) growing seasons. The average grain yield obtained with IHY was 96% relative to that of HY and was 7% and 23% higher than that with ILP and LP, respectively. Both HY and IHY consistently supported large values of the leaf area index and IPAR fraction, thereby increasing total IPAR. Treatment HY showed increased pre-anthesis RUE, manifested as a higher specific leaf nitrogen content and whole-plant N nutrition index at anthesis. The highest pre-anthesis aboveground biomass was obtained with HY due to the highest pre-anthesis IPAR and RUE. Along with a higher canopy apparent photosynthetic rate, IHY produced higher post-anthesis aboveground biomass due to its higher post-anthesis IPAR and RUE. Treatment IHY had a slightly lower total IPAR but a similar total RUE and harvest index, thus producing a slightly lower grain yield relative to HY. These results demonstrate that the optimized agronomic management practice used under IHY effectively enhances radiation capture and improves radiation utilization. Additionally, the net profit for IHY was higher than that for HY, ILP, and LP by 8%, 11%, and 88%, respectively. Considering the high grain yield, high RUE and high economic benefits, we recommend IHY as the agronomic management practice in the target region, although further study of improvements in pre-anthesis RUE is required."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "1. Introduction",
+      "text": "In the Huang-Huai-Hai Plain of China, the winter wheat ( Triticum aestivum L.)\u2013summer maize ( Zea mays L.) rotation is the most popular cropping system. Over decades, local farmers have developed a fertilization strategy emphasizing nitrogen (N) fertilizers while neglecting phosphorous (P) and potassium (K) fertilizers, leading to a very small increasing trend in yield per unit area, low fertilizer utilization efficiency, and low production benefits. Moreover, the conventional planting patterns of these farmers, including low plant density [ 1 ], early harvesting of summer maize, and early sowing of wheat [ 2 ], result in the waste of heat and solar radiation [ 3 ]. In addition, high temperatures in autumn and winter, combined with early sowing, can easily increase the risk of early spring frost damage to winter wheat [ 4 ]. Therefore, we have proposed an integrated management strategy that includes delaying sowing dates, increasing plant densities, and reducing N fertilizer inputs; here, we verify whether this approach can synergistically enhance both the yield and resource utilization efficiency of winter wheat. Wheat production hinges on a combination of agronomic practices. Grain yield and resource efficiency are related to tillage method [ 5 ], sowing date [ 6 , 7 ], plant density [ 8 ], and fertilization and irrigation management [ 9 , 10 ]. Although research has shown that agronomic practices have significantly affected wheat yields and resource efficiencies, few studies have explored wheat yield formation and resource utilization under the deployment of integrated agronomic management practices. Bearing this in mind, an integrated agronomic management strategy including different sowing dates, plant densities, and fertilization managements was proposed [ 11 , 12 ]; applying this strategy has resulted in improved crop yields and resource use efficiencies [ 13 , 14 , 15 ]. In recent studies, we have clarified the differences in the yield formation and N efficiency of wheat [ 16 ], as well as N balance and water productivity [ 17 ], using four integrated agronomic management practices. However, the impact of integrated management on radiation capture and radiation utilization remains little understood. The grain yields of wheat depend on both the total aboveground biomass and the harvest index [ 18 , 19 ]. These factors vary due to genetic and agronomic factors [ 20 , 21 ]. It is difficult to increase the harvest index for modern wheat cultivars, despite the fact that this could markedly enhance grain yield [ 22 , 23 , 24 ]. Aboveground biomass plays a leading role in light energy utilization and is expressed as the product of the photosynthetically active radiation intercepted by the canopy (IPAR) and the radiation use efficiency (RUE) [ 25 ]. Differences in sowing dates, plant densities, and N fertilization management can directly affect the canopy leaf area index (LAI), the IPAR fraction, and the photosynthetic rate, producing differences in IPAR, RUE, or both, which ultimately influence the total aboveground biomass and grain yield [ 23 ]. In general, delayed sowing reduces aboveground N uptake, N accumulation [ 26 ], and biomass production [ 27 , 28 ]. An appropriate increase in plant density could significantly improve the tiller number [ 8 ], canopy LAI, and aboveground biomass [ 29 , 30 ]. Increased plant density has been reported to compensate for a reduction in aboveground biomass and grain yield in response to delayed sowing [ 28 ]. Recent studies have suggested that delayed sowing maintains similar aboveground biomass at anthesis and maturity as normal sowing [ 31 ], and can dramatically improve N utilization efficiency and assimilate partitioning without impacting wheat yield [ 6 , 7 ]. Generally, winter wheat reacts to an increase in the N application rate by increasing the canopy IPAR [ 32 , 33 , 34 ]. To maximize photosynthetic capacity and growth potential, crops undergo a change in N allocation. At the l"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "2. Results",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "2.1. Tiller Number and Ear-Bearing Tiller Percentage",
+      "text": "The integrated management treatments significantly affected the tiller number per unit area and the ear-bearing tiller percentage. The tiller number increased with the time course of growth, reaching a peak value at jointing followed by a rapid decline ( Figure 1 A,B). Over the 2-year period, no marked difference in tiller number at the wintering stage was found in any integrated treatment. The tiller number at jointing differed remarkably across all integrated treatments, with a ranking of high-yield agronomic management (HY) \u2248 improved high-yield agronomic management (IHY) > local traditional practice (LP) \u2265 improved local traditional practice (ILP). The tiller number obtained with ILP was significantly lower than that with LP in 2021\u20132022, but no remarkable difference was observed between LP and ILP in 2022\u20132023. The tiller number at booting was the highest for HY and IHY, followed by ILP, and was lowest for LP. The number at maturity followed the ranking IHY > HY > ILP \u2265 LP. With regard to ear-bearing tiller percentages, the rank order was ILP \u2248 IHY > LP \u2248 HY ( Figure 1 C,D). No significant differences were observed between LP and HY or between ILP and IHY. These results indicate that IHY achieved the highest spike number per unit area at maturity by producing the highest ear-bearing tiller percentage and highest tiller number at jointing."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 4,
+      "heading": "Figure 1.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "2.2. LAI and Fraction of Intercepted PAR",
+      "text": "Integrated management had a large effect on LAI. The LAI values increased with growth, peaked at booting, and gradually decreased thereafter ( Figure 2 A,B). Over the 2 years, HY consistently achieved the largest LAI throughout the growth period. The LAIs obtained with ILP in the pre-anthesis stages were the smallest among the integrated treatments. No significant differences were seen in LAI at the anthesis and mid-filling stages between ILP and LP. Compared to LP and ILP, IHY always produced a high LAI at the booting, anthesis, and mid-filling stages; however, it was notably lower than that with HY before anthesis and at anthesis. The effects of management on IPAR fraction were significant. This fraction increased with growth, peaked at booting, and showed a gradual decline thereafter ( Figure 2 C,D). Throughout the 2 years, relative to LP and ILP, both HY and IHY consistently maintained a higher fraction. For IHY, it was slightly lower than that for HY before the jointing stage, while no marked differences were found between the two after booting. The fraction obtained with ILP was marginally lower than that obtained with LP before booting. Additionally, no marked difference in the fraction was observed between LP and ILP at the anthesis and mid-filling stages, except in 2021\u20132022, where the fraction at mid-filling for LP was slightly lower than that for ILP. These results show that both HY and IHY achieved a large fraction of IPAR by producing larger LAIs."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 4,
+      "heading": "Figure 2.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "2.3. Leaf N, SLN, and NNI",
+      "text": "The effects of integrated management treatments on leaf N accumulation and SLN were significant. As seen in the LAI trend, the value of leaf N increased with growth, peaked at booting, and showed a rapid decline thereafter ( Figure 3 A,B). Over the 2 years, leaf N was the highest for HY, followed by IHY and then LP (at the anthesis and mid-filling stages) and ILP (from wintering to booting). No significant differences in leaf N were observed between LP and ILP after anthesis, except in 2021\u20132022, where that obtained via LP at mid-filling was slightly lower than that obtained with ILP. The SLN reached its peak value at jointing and rapidly decreased thereafter ( Figure 3 C,D). Over the 2 years, the SLN at wintering for ILP was higher than that for other integrated treatments. After wintering, it was the highest for HY, followed by IHY and then LP. No remarkable differences in SLN at the anthesis and mid-filling stages were seen between IHY and ILP. Meanwhile, after the booting stage, no remarkable differences in SLN were found between ILP and LP. The average SLN for IHY was 95% of that for HY and 2% and 7% higher than that for ILP and LP, respectively. Integrated management treatments significantly affected the NNI ( Figure 4 ). Over the 2 years, the values of NNI at jointing among all integrated treatments followed the ranking HY > LP > IHY > ILP. Except for ILP, the values for all integrated treatments were >1, implying luxury N consumption. At anthesis, whole-plant NNI values for all treatments were also >1 and followed the ranking HY > IHY > ILP > LP. At mid-filling, whole-spike NNI values for all treatments were <1 and followed a ranking of HY > IHY > ILP > LP, which was similar to the ranking observed for whole-plant NNI at anthesis."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 4,
+      "heading": "Figure 3.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 4,
+      "heading": "Figure 4.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "2.4. Intercepted PAR and RUE",
+      "text": "The management treatments significantly affected IPAR ( Table 1 ). Over the 2 years, pre-anthesis IPAR among all treatments showed the following rank order: HY > IHY \u2248 LP > ILP. The average pre-anthesis IPAR for IHY was 95% of that for HY and 4% higher than that for ILP. The post-anthesis IPAR was highest for IHY and HY, followed by ILP and then LP. The average post-anthesis IPAR for IHY was remarkably higher than that for ILP and LP, by 5% and 8%, respectively. For all treatments, the IPAR followed the ranking HY > IHY > LP > ILP. The average total IPAR for IHY was 97% of that for HY and 3% and 5% higher than that for LP and ILP, respectively. The effects of treatments on RUE were also significant ( Table 1 ). Over the 2 years, pre-anthesis RUE followed the ranking HY > IHY \u2248 ILP > LP. The average pre-anthesis RUE for IHY was 97% of that for HY and 4% higher than that for LP. For post-anthesis RUE, the order was IHY \u2265 HY > ILP > LP. The average post-anthesis RUE for IHY was higher than that for HY, ILP, and LP by 2%, 10%, and 29%, respectively. The RUE over the whole period followed the ranking IHY \u2248 HY > ILP > LP. The average total RUE for IHY was 3% and 13% higher than that for ILP and LP, respectively. Correlation analysis showed that total RUE was positively related to the average SLN ( Figure 5 A). Further, a linear relation was found between pre-anthesis RUE and whole-plant NNI at anthesis, while a curvilinear relationship was observed between post-anthesis RUE and whole-spike NNI in the mid-filling stage ( Figure 5 B)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 4,
+      "heading": "Table 1.",
+      "text": "Intercepted PAR (IPAR) and radiation use efficiency (RUE) at pre-anthesis, post-anthesis, and whole growth stages under different integrated treatments in 2021\u20132022 and 2022\u20132023. Year Treatment (1) Pre-Anthesis Post-Anthesis Whole Growth Stage IPAR (MJ m \u22122 ) RUE (g MJ \u22121 ) IPAR (MJ m \u22122 ) RUE (g MJ \u22121 ) IPAR (MJ m \u22122 ) RUE (g MJ \u22121 ) 2021\u20132022 LP 446.06 b 2.18 c 330.01 c 1.81 d 776.07 c 2.02 c ILP 427.69 c 2.29 b 337.94 b 2.14 c 765.63 d 2.22 b HY 472.47 a 2.34 a 350.62 a 2.28 b 823.08 a 2.31 a IHY 451.23 b 2.27 b 353.28 a 2.34 a 804.51 b 2.30 a 2022\u20132023 LP 573.50 b 1.95 c 283.58 c 1.76 c 857.08 c 1.89 c ILP 552.83 c 2.03 b 292.22 b 2.04 b 845.05 d 2.03 b HY 603.21 a 2.06 a 304.97 a 2.27 a 908.18 a 2.13 a IHY 573.10 b 2.01 b 306.43 a 2.28 a 879.54 b 2.11 a p -value Year (Y) 0.0001 0.0001 0.0001 0.0016 0.0001 0.0001 Treatment (T) 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 Y \u00d7 T 0.5072 0.5076 0.9430 0.3422 0.0017 0.0146 Open in a new tab (1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Values followed by different letters within a column in the same year are significantly different at p < 0.05."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 4,
+      "heading": "Figure 5.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "2.5. Apparent Photosynthetic Rate of the Canopy",
+      "text": "The treatments had a significant effect on the apparent photosynthetic rate in the canopy ( Figure 6 ). The values decreased gradually during the grain-filling period. Over the 2 years, it was consistently the highest for HY or IHY, followed by ILP and then LP. The rate for IHY was slightly lower than that of HY in the early filling stage, roughly the same in the mid-filling stage, and markedly higher in the late-filling stage. These results indicate that the optimized agronomic practices used under IHY support high photosynthetic capacity during grain filling, promoting post-anthesis biomass production."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 4,
+      "heading": "Figure 6.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "2.6. Aboveground Biomass, Harvest Index, and Grain Yield",
+      "text": "The treatments significantly affected the aboveground biomass, harvest index, and grain yield ( Table 2 ). Over the 2 years, the pre-anthesis aboveground biomass differed remarkably among all treatments, with a ranking of HY > IHY > ILP \u2248 LP. The average value for IHY was 93% of that for HY and 4% higher than that for LP. For the post-anthesis aboveground biomass, the rank order was IHY \u2265 HY > ILP > LP. The average value for IHY was 2%, 15%, and 39% higher than that for HY, ILP, and LP, respectively. The aboveground biomass at maturity followed a ranking of HY > IHY > ILP > LP. The average value for IHY was 96% of that for HY and was markedly higher than that for ILP and LP, by 8% and 16%, respectively. Over the 2 years, the lowest harvest index was obtained with LP. No significant differences in the harvest index were found among ILP, HY, and IHY. The grain yield followed the same ranking among all treatments as the total aboveground biomass at maturity. The average yield obtained with IHY was 96% of that with HY and was 7% and 23% higher than that with ILP and LP, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 4,
+      "heading": "Table 2.",
+      "text": "Aboveground biomass at the pre-anthesis, post-anthesis, and maturity stages, harvest index, and grain yield under different integrated treatments in 2021\u20132022 and 2022\u20132023. Year Treatment (1) Aboveground Biomass (kg ha \u22121 ) Harvest Index Grain Yield (kg ha \u22121 ) Pre-Anthesis Post-Anthesis At Maturity 2021\u20132022 LP 9705.18 c 5984.21 d 15,689.39 d 0.46 b 7295.24 d ILP 9785.65 c 7234.35 c 17,020.00 c 0.49 a 8357.35 c HY 11,033.17 a 7985.08 b 19,018.25 a 0.49 a 9409.29 a IHY 10,229.71 b 8262.07 a 18,491.78 b 0.49 a 9010.58 b 2022\u20132023 LP 11,169.64 c 4986.64 c 16,156.29 d 0.46 b 7418.22 d ILP 11,224.76 c 5964.68 b 17,189.43 c 0.49 a 8485.64 c HY 12,439.87 a 6908.11 a 19,347.98 a 0.49 a 9489.69 a IHY 11,544.28 b 6975.12 a 18,519.40 b 0.49 a 9086.09 b p -value Year (Y) 0.0001 0.0001 0.0001 0.3070 0.0004 Treatment (T) 0.0001 0.0001 0.0001 0.0001 0.0001 Y \u00d7 T 0.7745 0.1493 0.0320 0.1354 0.8159 Open in a new tab (1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Values followed by different letters within a column in the same year are significantly different at p < 0.05."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "2.7. Relative Contributions",
+      "text": "We analyzed the aboveground biomass responses according to integrated agronomic management practices in terms of IPAR and RUE. The relative contributions of IPAR or RUE to the reduction in aboveground biomass obtained with LP differed significantly among the other three treatments ( Figure 7 ). We compared the relative contributions of reduced IPAR or RUE for ILP, HY, and IHY relative to LP. The closer a data point is to the y = x line, the more important it was in determining the aboveground biomass loss. The reduction in RUE was a far more important determinant of the aboveground biomass than the reduction in IPAR. Decreases in either RUE or IPAR were a more important determinant of the aboveground biomass for ILP than for both HY and IHY. The relative contribution of RUE was slightly more important for IHY than for HY; however, no marked differences in the relative contribution of IPAR were found between IHY and HY."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 4,
+      "heading": "Figure 7.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "2.8. Economic Benefits",
+      "text": "Table 3 shows the differences in the input costs, outputs, and net profits between the four integrated management treatments. The input costs were the highest for HY, followed IHY, and then LP and ILP. The output among all treatments followed the same rank order as the grain yield due to the same unit wheat price. The net profit for IHY was higher than that for HY, ILP, and LP by 8%, 11%, and 88%, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 4,
+      "heading": "Table 3.",
+      "text": "The input cost, output, and net profit under different integrated treatments averaged across 2021\u20132023. Treatment (1) Input (CNY) Output (CNY) Net Profit (CNY) Fertilizers Seeds Irrigation Mechanical Operation Pesticide Labor Total LP 3160.27 450.00 600.00 3300.00 450.00 6000.00 13,960.27 18,391.82 4431.55 ILP 2576.49 600.00 600.00 3300.00 450.00 6000.00 13,526.49 21,053.73 7527.24 HY 4808.97 750.00 600.00 3300.00 450.00 6000.00 15,908.97 23,623.72 7714.76 IHY 3027.80 900.00 600.00 3300.00 450.00 6000.00 14,277.80 22,620.85 8343.05 Open in a new tab (1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "3. Discussion",
+      "text": "The HY treatment consistently achieved the highest total aboveground biomass and grain yield. The optimized agronomic management practice adopted under IHY also produced a high amount of aboveground biomass and a high harvest index, ultimately achieving a high level of grain yield. The lowest harvest index was obtained using LP, while no marked difference was seen among the other three integrated treatments. That is, the grain yields differed remarkably among practices, mainly due to the notable differences in the total aboveground biomass. Carbohydrates synthesized in the post-anthesis stage can contribute 60\u201390% of the final grain yield in wheat [ 41 , 42 ]. On average, in our study, the aboveground post-anthesis biomass contributed 75\u201384% of the grain yield. Over the 2 years, the highest post-anthesis aboveground biomass was obtained with IHY, which had the highest post-anthesis IPAR and RUE. The lowest biomass was obtained with LP due to its low IPAR and RUE values. Generally, IPAR yields decreased gradually with delayed sowing [ 43 ] but increased notably with increased N input [ 34 ] and plant density [ 30 , 44 ]. In the final analysis, enhanced radiation capture was achieved by improving the tiller number, canopy LAI, and the IPAR fraction. Taken together, our results demonstrate that increased plant density combined with optimized N management practices can compensate for reductions in canopy IPAR caused by delayed sowing. RUE is calculated as the slope of the linear relationship between the aboveground biomass and IPAR [ 30 ]. Improvements in RUE are made possible by enhancing the photosynthetic capacity of the canopy. The photosynthetic capacity is commonly determined by the leaf N content. High levels of N accumulation enhance the photosynthetic capacity of the canopy and delay leaf senescence [ 7 ]. In this study, the leaf N was the highest for HY, followed by IHY and then LP and ILP, over the entire growth period. Along with high levels of leaf N and high LAI, both the HY and IHY treatments consistently maintained a higher apparent photosynthetic rate in the canopy during the grain filling period compared to LP and ILP. However, both LAI and leaf N obtained with HY decreased faster than that for IHY after anthesis. The photosynthetic capacity is closely related to SLN [ 35 ]. In our study, a strong linear relationship was observed between RUE and SLN over the whole growth period, in agreement with previous studies [ 38 , 45 ]. In addition, the pre-anthesis RUE was strongly synchronized with the average SLN in the pre-anthesis stage, following the same ranking of HY > IHY \u2248 ILP > LP. The pre-anthesis RUE was slightly lower for IHY than for HY. Moreover, the average SLN in the post-anthesis stage exhibited the same trend as the average SLN in the pre-anthesis stage. However, the rank order for post-anthesis RUE was not exactly the same as that for the average SLN in the post-anthesis stage, which followed the ranking IHY \u2265 HY > ILP > LP. Interestingly, despite the lower SLN post-anthesis, IHY achieved a similar or higher post-anthesis RUE than did HY. This may be attributable to its slower leaf senescence and better within-leaf N allocation post-anthesis. Further research is required to elucidate this. The NNI is a widely used diagnostic tool for describing the N nutritional status of crops [ 46 ]. It is easily affected by soil tillage, the sowing date, and nutrient management [ 6 , 40 , 47 ]. Both the higher NNI at jointing and the lowest NNI at anthesis for LP were mainly due to the higher basal N input, earlier N topdressing date, and lower plant density. Similarly, the highest NNI was obtained with HY over the whole growth period, resulting from the high N input and optimized N topdressing date and ratio. The wheat grown under IHY obtained a lower NNI than that grown under HY due to the lower N input and higher plant density. Recent studies have suggested that the relationship between the NNI and RUE is linear f"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "4. Materials and Methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "4.1. Site Description",
+      "text": "Field experiments were conducted during the winter wheat growing season in 2021\u20132022 and 2022\u20132023 at the experimental station of Weifang University of Science and Technology in Weifang, Shandong Province, China (36\u00b055\u2032 N, 118\u00b046\u2032 E). The region has a temperate continental monsoon climate, with an annual average temperature, solar duration, total solar radiation, and total precipitation of 12.7 \u00b0C, 2548 h, 5190 MJ m \u22122 , and 593.8 mm, respectively; the cumulative temperature above 10 \u00b0C is 4303 \u00b0C. The frost-free period over 1 year is 199 days. The soil is a sandy loam with 17.10 g kg \u22121 organic matter, 1.13 g kg \u22121 total N, 29.35 mg kg \u22121 available P, and 87.67 mg kg \u22121 available K in the upper 0.20 m of the soil before seeding in October 2021. Daily mean temperature, precipitation, and solar radiation during the two growing seasons are shown in Figure 8 . All meteorological data used in the analysis were obtained from a local automatic weather station located <1000 m from the experimental field. The preceding crop grown in the experimental field was summer maize. Following harvest, all straw was plowed back into the soil every year."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 4,
+      "heading": "Figure 8.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "4.2. Experimental Design",
+      "text": "We used the widely planted winter wheat cultivar \u201cTainong 18\u201d (with low tillering capacity and large ears) as the experimental material. Four integrated agronomic management treatments were conducted in a randomized complete block design with four replications: local traditional practice (LP), improved local traditional practice (ILP), high-yield agronomic management (HY), and improved high-yield agronomic management (IHY). The LP treatment followed the conventional planting pattern of local farmers. ILP treatment, based on LP, was designed to improve wheat yields and resource efficiency by delaying the sowing date, increasing the planting density, and decreasing fertilizer input. The HY treatment was designed to test the yield potential by adjusting agronomic management practices regardless of the resource input cost, mostly through increased plant density and fertilizer application rate, along with revised fertilization timing. The IHY treatment redesigned the local wheat production system, drawing on further delayed sowing dates, higher plant densities, and lower fertilizer application relative to HY treatment. The combination details of sowing date, plant density, and nutrients management used for each treatment are given in Table 4 . Plant densities increased by 75 seeds m \u22122 with each integrated agronomic management treatment from LP (225 seeds m \u22122 ) to IHY (450 seeds m \u22122 ). Sowing dates for the treatments were 5, 10, 10, and 15 October, respectively. Urea (46% w / w N), calcium superphosphate (12% w / w P 2 O 5 ), and potassium chloride (60% w / w K 2 O) were used as the N, P, and K fertilizers, respectively. Basal fertilizers were applied prior to planting, and additional fertilizers were applied at 5 cm soil depth in bands between rows. The basal and additional ratios of N fertilizer for the treatments were 6:4, 5:5, 4:6, and 4:6, respectively. N topdressing for LP was applied at regreening stage and that for ILP, HY, and IHY were applied at jointing stage. P fertilizers were applied as basal fertilizers for all treatments. K fertilizers for both LP and ILP were applied as basal fertilizers. The basal and additional ratios of K fertilizer for HY and IHY were 6:4. K topdressing for both HY and IHY were applied at jointing stage. Irrigation (75 mm each time) was performed after sowing, before wintering, at jointing, and at anthesis. Each experimental plot (3 \u00d7 10 m) contained 12 rows of wheat (positioned 0.25 m apart). Diseases and pests were controlled chemically every year. No significant incidence of diseases, weeds, or pests occurred in any experimental plot."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 4,
+      "heading": "Table 4.",
+      "text": "The sowing date, plant density, and nutrients management used in the different integrated treatments. Treatment (1) Sowing Date (m/d) Plant Density (Seeds m \u22122 ) The Stage and Amount of Fertilizer Application (kg ha \u22121 ) Fertilizer Before Seeding Regreening Jointing LP 10/5 225 N 189 126 \u2013 P 2 O 5 120 \u2013 \u2013 K 2 O 30 \u2013 \u2013 ILP 10/10 300 N 105 \u2013 105 P 2 O 5 90 \u2013 \u2013 K 2 O 75 \u2013 \u2013 HY 10/10 375 N 126 \u2013 189 P 2 O 5 210 \u2013 \u2013 K 2 O 90 \u2013 60 IHY 10/15 450 N 96 \u2013 144 P 2 O 5 120 \u2013 \u2013 K 2 O 45 \u2013 30 Open in a new tab (1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. \u2013, no data."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "4.3. Sampling and Measurements",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 4,
+      "heading": "4.3.1. Tiller Number and Ear-Bearing Tiller Percentage",
+      "text": "Tiller number was counted at the three-leaf, wintering, jointing, booting, and maturity stages, respectively, in 1.5 m 2 quadrats (six rows, 1 m apart) in each experimental plot, normalized according to the number per square meter. The ear-bearing tiller percentage was calculated by dividing the effective spike number by the maximum tiller number."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 4,
+      "heading": "4.3.2. LAI, Leaf N, SLN, and Aboveground Biomass",
+      "text": "Plants from a 0.2 m 2 quadrat (two rows, 0.4 m apart) were taken as samples for each plot at the wintering, jointing, booting, anthesis, mid-filling, and maturity stages. The plant samples were divided into three fractions (stems + sheaths, leaves, and spikes). The green area of the leaves was measured using a green area meter (Li-Cor 3100; Li-Cor, Lincoln, NE, USA). The dry matter of each plant component was weighed after oven drying to a constant mass at 75 \u00b0C for 48 h. Aboveground biomass (kg ha \u22121 ) was calculated as the summed dry weight of the measured plant components. N concentration was determined using the Kjeldahl method [ 55 ]. N accumulation in leaves (kg ha \u22121 ) was calculated by obtaining the dry mass and N concentration of the leaf. LAI, SLN (N m \u22122 ), and post-anthesis aboveground biomass (kg ha \u22121 ) was also calculated."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 4,
+      "heading": "4.3.3. NNI",
+      "text": "The NNI was estimated in accordance with the ratio of actual N concentration (N A ; %) and critical N concentration (N C ; %). Based on the dilution curve for winter wheat described by Justes et al. [ 56 ], whole-plant N C at pre-anthesis was calculated as follows: We focused on the N nutritional status of spikes instead of whole plants post-anthesis, following the dilution curve described by Zhao et al. [ 50 ]. Whole-spike N C in the mid-filling stage was calculated as follows: where W P (t ha \u22121 ) is the total aboveground dry weight per unit area pre-anthesis, and W S is (t ha \u22121 ) the spike dry weight per unit area in the mid-filling stage."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 4,
+      "heading": "4.3.4. Intercepted PAR and RUE",
+      "text": "At all stages, incident and transmitted photosynthetically active radiation (PAR) were measured on clear, cloudless days around noon (\u00b11 h) utilizing a SunScan Canopy Analysis System (Delta-T, Cambridge, UK). The PAR above the canopy and at the ground level was measured at the same time using a portable probe placed at right angles to the rows and parallel to the surface at three locations in each plot. After anthesis, the transmitted PAR was determined as described by Sanda\u00f1a et al. [ 57 ]. The fraction of IPAR was calculated as the ratio of the difference between incident and transmitted PAR to incident PAR. Stage IPAR (MJ m \u22122 ) was calculated as the product of the averaged fraction of IPAR of two consecutive sampling stages and the incident PAR between them [ 58 ]. The conversion factor for solar radiation to incident PAR was 0.5 [ 59 ]. RUE (g MJ \u22121 ) was calculated by dividing accumulated aboveground biomass by IPAR, pre- and post-anthesis and over the whole growth period."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 4,
+      "heading": "4.3.5. Canopy Apparent Photosynthetic Rate",
+      "text": "Following the method described by Garrity et al. [ 60 ], the apparent photosynthetic rate in the canopy in the early filling stage (anthesis + 5 days), mid-filling stage (anthesis + 15 days), and late-filling stage (anthesis + 25 days) was measured using a portable infrared gas analysis system (GXH-3052L; Junfang Institute of Physics and Chemistry, Beijing, China). The assimilation chamber was constructed from polyester film (allowing >95% light transmittance) and was 0.70 m long \u00d7 0.60 m wide \u00d7 1.20 m high. Air in the assimilation chamber was mixed using a built-in fan 0.30 m in diameter. Changes in CO 2 concentrations in the assimilation chamber were measured between 9:30 and 11:30 a.m. on clear, cloudless days. The assimilation chamber was opened before measurements to keep the CO 2 concentration in the assimilation chamber equal to atmospheric CO 2 concentrations. Two-row wheat plants were subsequently enclosed in the assimilation chamber and fully exposed to sunlight. The rapid decline in CO 2 concentration was recorded until there was a steady decrease between 380 and 280 \u00b5mol mol \u22121 for at least 60 s [ 61 ]. The apparent photosynthetic rate of the canopy was calculated as described by Chen et al. [ 62 ]."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 4,
+      "heading": "4.3.6. Grain Yield and Harvest Index",
+      "text": "At maturity, all spikes from a 3.0 m 2 quadrat (six rows, 2 m apart) in each experimental plot were collected and threshed. The grains were naturally air-dried, weighed, and adjusted to the standard 13% moisture content. Harvest index was defined as the ratio of grain yield to total aboveground biomass."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 3,
+      "heading": "4.4. Statistical Analysis",
+      "text": "The statistical analyses were performed with DPS ver. 7.05 software (Hangzhou Ruifeng Information Technology Co., Ltd., Hangzhou, China). Multiple comparisons were performed after a preliminary F-test. Differences between means were evaluated based on the least significant difference at p < 0.05. Figures were drawn using SigmaPlot 12.5 (Systat Software, San Jose, CA, USA)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "5. Conclusions",
+      "text": "This study investigated whether and how integrated agronomic management practices affect aboveground biomass production and grain yield in wheat. Both HY and IHY consistently supported a large LAI and fraction of IPAR values, thereby increasing the total IPAR. HY had increased pre-anthesis RUE with higher SLN and whole-plant NNI. The highest pre-anthesis aboveground biomass was obtained with HY, which had the highest pre-anthesis IPAR and RUE. Along with a high photosynthetic rate in the canopy, IHY produced higher aboveground biomass post-anthesis due to its higher post-anthesis IPAR and RUE. It also achieved a slightly lower total IPAR but a similar total RUE and harvest index, thus producing a slightly lower grain yield than HY. In conclusion, the optimized agronomic management practices (appropriately delayed sowing date, increased plant density, and optimized fertilization management) used under IHY effectively enhanced the radiation captured and improved radiation utilization. Considering the high grain yield, high RUE, and high economic benefits, IHY can be recommended as an optimal agronomic management practice in the target region, although further research on improvements in pre-anthesis RUE are required."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "Author Contributions",
+      "text": "Conceptualization, H.X., D.P. and X.D.; investigation, H.X., M.L. and C.L.; data curation, H.X. and M.L.; writing\u2014original draft preparation, H.X.; writing\u2014review and editing, Y.T., Q.X., W.X. and D.G.; supervision, D.P. and X.D.; project administration, D.P. and X.D.; funding acquisition, H.X., D.P. and X.D. All authors have read and agreed to the published version of the manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 2,
+      "heading": "Data Availability Statement",
+      "text": "The original contributions presented in the study are included in the article and further inquiries can be directed to the corresponding authors."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 2,
+      "heading": "Conflicts of Interest",
+      "text": "The authors declare no conflicts of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 2,
+      "heading": "Funding Statement",
+      "text": "This research was funded by the Initial Scientific Research Fund for High Level Talent of Weifang University of Science and Technology (KJRC2022004; KJRC2021001), Project of Central Government Guiding Local Science and Technology Development (YDZX2022130), and Weifang Science and Technology Development Program (2021GX050)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 2,
+      "heading": "Footnotes",
+      "text": "Disclaimer/Publisher\u2019s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-53",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 2,
+      "heading": "Associated Data",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 3,
+      "heading": "Data Availability Statement",
+      "text": "The original contributions presented in the study are included in the article and further inquiries can be directed to the corresponding authors."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 2,
+      "heading": "ACTIONS",
+      "text": "View on publisher site PDF (1.7 MB) Cite Collections Permalink PERMALINK Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "RESOURCES",
+      "text": "Similar articles Cited by other articles Links to NCBI Databases"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-59",
+      "level": 3,
+      "heading": "Similar articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-60",
+      "level": 3,
+      "heading": "Cited by other articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-61",
+      "level": 3,
+      "heading": "Links to NCBI Databases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-62",
+      "level": 2,
+      "heading": "Cite",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-63",
+      "level": 2,
+      "heading": "Add to Collections",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Year",
+        "Treatment (1)",
+        "Pre-Anthesis",
+        "Post-Anthesis",
+        "Whole Growth Stage"
+      ],
+      "rows": [
+        [
+          "IPAR (MJ m \u22122 )",
+          "RUE (g MJ \u22121 )",
+          "IPAR (MJ m \u22122 )",
+          "RUE (g MJ \u22121 )",
+          "IPAR (MJ m \u22122 )",
+          "RUE (g MJ \u22121 )"
+        ],
+        [
+          "2021\u20132022",
+          "LP",
+          "446.06 b",
+          "2.18 c",
+          "330.01 c",
+          "1.81 d",
+          "776.07 c",
+          "2.02 c"
+        ],
+        [
+          "",
+          "ILP",
+          "427.69 c",
+          "2.29 b",
+          "337.94 b",
+          "2.14 c",
+          "765.63 d",
+          "2.22 b"
+        ],
+        [
+          "",
+          "HY",
+          "472.47 a",
+          "2.34 a",
+          "350.62 a",
+          "2.28 b",
+          "823.08 a",
+          "2.31 a"
+        ],
+        [
+          "",
+          "IHY",
+          "451.23 b",
+          "2.27 b",
+          "353.28 a",
+          "2.34 a",
+          "804.51 b",
+          "2.30 a"
+        ],
+        [
+          "2022\u20132023",
+          "LP",
+          "573.50 b",
+          "1.95 c",
+          "283.58 c",
+          "1.76 c",
+          "857.08 c",
+          "1.89 c"
+        ],
+        [
+          "",
+          "ILP",
+          "552.83 c",
+          "2.03 b",
+          "292.22 b",
+          "2.04 b",
+          "845.05 d",
+          "2.03 b"
+        ],
+        [
+          "",
+          "HY",
+          "603.21 a",
+          "2.06 a",
+          "304.97 a",
+          "2.27 a",
+          "908.18 a",
+          "2.13 a"
+        ],
+        [
+          "",
+          "IHY",
+          "573.10 b",
+          "2.01 b",
+          "306.43 a",
+          "2.28 a",
+          "879.54 b",
+          "2.11 a"
+        ],
+        [
+          "p -value",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Year (Y)",
+          "",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.0016",
+          "0.0001",
+          "0.0001"
+        ],
+        [
+          "Treatment (T)",
+          "",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.0001"
+        ],
+        [
+          "Y \u00d7 T",
+          "",
+          "0.5072",
+          "0.5076",
+          "0.9430",
+          "0.3422",
+          "0.0017",
+          "0.0146"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Year",
+        "Treatment (1)",
+        "Aboveground Biomass (kg ha \u22121 )",
+        "Harvest Index",
+        "Grain Yield (kg ha \u22121 )"
+      ],
+      "rows": [
+        [
+          "Pre-Anthesis",
+          "Post-Anthesis",
+          "At Maturity"
+        ],
+        [
+          "2021\u20132022",
+          "LP",
+          "9705.18 c",
+          "5984.21 d",
+          "15,689.39 d",
+          "0.46 b",
+          "7295.24 d"
+        ],
+        [
+          "",
+          "ILP",
+          "9785.65 c",
+          "7234.35 c",
+          "17,020.00 c",
+          "0.49 a",
+          "8357.35 c"
+        ],
+        [
+          "",
+          "HY",
+          "11,033.17 a",
+          "7985.08 b",
+          "19,018.25 a",
+          "0.49 a",
+          "9409.29 a"
+        ],
+        [
+          "",
+          "IHY",
+          "10,229.71 b",
+          "8262.07 a",
+          "18,491.78 b",
+          "0.49 a",
+          "9010.58 b"
+        ],
+        [
+          "2022\u20132023",
+          "LP",
+          "11,169.64 c",
+          "4986.64 c",
+          "16,156.29 d",
+          "0.46 b",
+          "7418.22 d"
+        ],
+        [
+          "",
+          "ILP",
+          "11,224.76 c",
+          "5964.68 b",
+          "17,189.43 c",
+          "0.49 a",
+          "8485.64 c"
+        ],
+        [
+          "",
+          "HY",
+          "12,439.87 a",
+          "6908.11 a",
+          "19,347.98 a",
+          "0.49 a",
+          "9489.69 a"
+        ],
+        [
+          "",
+          "IHY",
+          "11,544.28 b",
+          "6975.12 a",
+          "18,519.40 b",
+          "0.49 a",
+          "9086.09 b"
+        ],
+        [
+          "p -value",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Year (Y)",
+          "",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.3070",
+          "0.0004"
+        ],
+        [
+          "Treatment (T)",
+          "",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.0001",
+          "0.0001"
+        ],
+        [
+          "Y \u00d7 T",
+          "",
+          "0.7745",
+          "0.1493",
+          "0.0320",
+          "0.1354",
+          "0.8159"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "Treatment (1)",
+        "Input (CNY)",
+        "",
+        "Output (CNY)",
+        "Net Profit (CNY)"
+      ],
+      "rows": [
+        [
+          "Fertilizers",
+          "Seeds",
+          "Irrigation",
+          "Mechanical Operation",
+          "Pesticide",
+          "Labor",
+          "Total"
+        ],
+        [
+          "LP",
+          "3160.27",
+          "450.00",
+          "600.00",
+          "3300.00",
+          "450.00",
+          "6000.00",
+          "13,960.27",
+          "18,391.82",
+          "4431.55"
+        ],
+        [
+          "ILP",
+          "2576.49",
+          "600.00",
+          "600.00",
+          "3300.00",
+          "450.00",
+          "6000.00",
+          "13,526.49",
+          "21,053.73",
+          "7527.24"
+        ],
+        [
+          "HY",
+          "4808.97",
+          "750.00",
+          "600.00",
+          "3300.00",
+          "450.00",
+          "6000.00",
+          "15,908.97",
+          "23,623.72",
+          "7714.76"
+        ],
+        [
+          "IHY",
+          "3027.80",
+          "900.00",
+          "600.00",
+          "3300.00",
+          "450.00",
+          "6000.00",
+          "14,277.80",
+          "22,620.85",
+          "8343.05"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "Treatment (1)",
+        "Sowing Date (m/d)",
+        "Plant Density (Seeds m \u22122 )",
+        "The Stage and Amount of Fertilizer Application (kg ha \u22121 )"
+      ],
+      "rows": [
+        [
+          "Fertilizer",
+          "Before Seeding",
+          "Regreening",
+          "Jointing"
+        ],
+        [
+          "LP",
+          "10/5",
+          "225",
+          "N",
+          "189",
+          "126",
+          "\u2013"
+        ],
+        [
+          "",
+          "",
+          "",
+          "P 2 O 5",
+          "120",
+          "\u2013",
+          "\u2013"
+        ],
+        [
+          "",
+          "",
+          "",
+          "K 2 O",
+          "30",
+          "\u2013",
+          "\u2013"
+        ],
+        [
+          "ILP",
+          "10/10",
+          "300",
+          "N",
+          "105",
+          "\u2013",
+          "105"
+        ],
+        [
+          "",
+          "",
+          "",
+          "P 2 O 5",
+          "90",
+          "\u2013",
+          "\u2013"
+        ],
+        [
+          "",
+          "",
+          "",
+          "K 2 O",
+          "75",
+          "\u2013",
+          "\u2013"
+        ],
+        [
+          "HY",
+          "10/10",
+          "375",
+          "N",
+          "126",
+          "\u2013",
+          "189"
+        ],
+        [
+          "",
+          "",
+          "",
+          "P 2 O 5",
+          "210",
+          "\u2013",
+          "\u2013"
+        ],
+        [
+          "",
+          "",
+          "",
+          "K 2 O",
+          "90",
+          "\u2013",
+          "60"
+        ],
+        [
+          "IHY",
+          "10/15",
+          "450",
+          "N",
+          "96",
+          "\u2013",
+          "144"
+        ],
+        [
+          "",
+          "",
+          "",
+          "P 2 O 5",
+          "120",
+          "\u2013",
+          "\u2013"
+        ],
+        [
+          "",
+          "",
+          "",
+          "K 2 O",
+          "45",
+          "\u2013",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Correspondence: pdlpdl2009@126.com (D.P.); adaisdny@163.com (X.D.)",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Received 2024 Jun 9; Revised 2024 Jul 16; Accepted 2024 Jul 23; Collection date 2024 Aug.",
+      "char_offset": 68
+    },
+    {
+      "type": "paragraph",
+      "text": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ).",
+      "char_offset": 159
+    },
+    {
+      "type": "paragraph",
+      "text": "Increased aboveground biomass is contingent on enhanced photosynthetically active radiation intercepted by the canopy (IPAR), improved radiation use efficiency (RUE), or both. We investigated whether and how optimized agronomic management practices promote IPAR and RUE. Four integrated agronomic management treatments, i.e., local traditional practice (LP), improved local traditional practice (ILP), high-yield agronomic management (HY), and improved high-yield agronomic management (IHY), were compared over two wheat ( Triticum aestivum L.) growing seasons. The average grain yield obtained with IHY was 96% relative to that of HY and was 7% and 23% higher than that with ILP and LP, respectively. Both HY and IHY consistently supported large values of the leaf area index and IPAR fraction, thereby increasing total IPAR. Treatment HY showed increased pre-anthesis RUE, manifested as a higher specific leaf nitrogen content and whole-plant N nutrition index at anthesis. The highest pre-anthesis aboveground biomass was obtained with HY due to the highest pre-anthesis IPAR and RUE. Along with a higher canopy apparent photosynthetic rate, IHY produced higher post-anthesis aboveground biomass due to its higher post-anthesis IPAR and RUE. Treatment IHY had a slightly lower total IPAR but a similar total RUE and harvest index, thus producing a slightly lower grain yield relative to HY. These results demonstrate that the optimized agronomic management practice used under IHY effectively enhances radiation capture and improves radiation utilization. Additionally, the net profit for IHY was higher than that for HY, ILP, and LP by 8%, 11%, and 88%, respectively. Considering the high grain yield, high RUE and high economic benefits, we recommend IHY as the agronomic management practice in the target region, although further study of improvements in pre-anthesis RUE is required.",
+      "char_offset": 379
+    },
+    {
+      "type": "paragraph",
+      "text": "Keywords: winter wheat, agronomic practice, aboveground biomass, radiation capture, radiation use efficiency, grain yield",
+      "char_offset": 2271
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Huang-Huai-Hai Plain of China, the winter wheat ( Triticum aestivum L.)\u2013summer maize ( Zea mays L.) rotation is the most popular cropping system. Over decades, local farmers have developed a fertilization strategy emphasizing nitrogen (N) fertilizers while neglecting phosphorous (P) and potassium (K) fertilizers, leading to a very small increasing trend in yield per unit area, low fertilizer utilization efficiency, and low production benefits. Moreover, the conventional planting patterns of these farmers, including low plant density [ 1 ], early harvesting of summer maize, and early sowing of wheat [ 2 ], result in the waste of heat and solar radiation [ 3 ]. In addition, high temperatures in autumn and winter, combined with early sowing, can easily increase the risk of early spring frost damage to winter wheat [ 4 ]. Therefore, we have proposed an integrated management strategy that includes delaying sowing dates, increasing plant densities, and reducing N fertilizer inputs; here, we verify whether this approach can synergistically enhance both the yield and resource utilization efficiency of winter wheat.",
+      "char_offset": 2394
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat production hinges on a combination of agronomic practices. Grain yield and resource efficiency are related to tillage method [ 5 ], sowing date [ 6 , 7 ], plant density [ 8 ], and fertilization and irrigation management [ 9 , 10 ]. Although research has shown that agronomic practices have significantly affected wheat yields and resource efficiencies, few studies have explored wheat yield formation and resource utilization under the deployment of integrated agronomic management practices. Bearing this in mind, an integrated agronomic management strategy including different sowing dates, plant densities, and fertilization managements was proposed [ 11 , 12 ]; applying this strategy has resulted in improved crop yields and resource use efficiencies [ 13 , 14 , 15 ]. In recent studies, we have clarified the differences in the yield formation and N efficiency of wheat [ 16 ], as well as N balance and water productivity [ 17 ], using four integrated agronomic management practices. However, the impact of integrated management on radiation capture and radiation utilization remains little understood.",
+      "char_offset": 3527
+    },
+    {
+      "type": "paragraph",
+      "text": "The grain yields of wheat depend on both the total aboveground biomass and the harvest index [ 18 , 19 ]. These factors vary due to genetic and agronomic factors [ 20 , 21 ]. It is difficult to increase the harvest index for modern wheat cultivars, despite the fact that this could markedly enhance grain yield [ 22 , 23 , 24 ]. Aboveground biomass plays a leading role in light energy utilization and is expressed as the product of the photosynthetically active radiation intercepted by the canopy (IPAR) and the radiation use efficiency (RUE) [ 25 ]. Differences in sowing dates, plant densities, and N fertilization management can directly affect the canopy leaf area index (LAI), the IPAR fraction, and the photosynthetic rate, producing differences in IPAR, RUE, or both, which ultimately influence the total aboveground biomass and grain yield [ 23 ].",
+      "char_offset": 4643
+    },
+    {
+      "type": "paragraph",
+      "text": "In general, delayed sowing reduces aboveground N uptake, N accumulation [ 26 ], and biomass production [ 27 , 28 ]. An appropriate increase in plant density could significantly improve the tiller number [ 8 ], canopy LAI, and aboveground biomass [ 29 , 30 ]. Increased plant density has been reported to compensate for a reduction in aboveground biomass and grain yield in response to delayed sowing [ 28 ]. Recent studies have suggested that delayed sowing maintains similar aboveground biomass at anthesis and maturity as normal sowing [ 31 ], and can dramatically improve N utilization efficiency and assimilate partitioning without impacting wheat yield [ 6 , 7 ]. Generally, winter wheat reacts to an increase in the N application rate by increasing the canopy IPAR [ 32 , 33 , 34 ]. To maximize photosynthetic capacity and growth potential, crops undergo a change in N allocation. At the leaf level, crops possess the ability to modulate leaf area per unit N invested by modifying the specific leaf N content (SLN) [ 35 , 36 ]. At the crop level, the expression of the photosynthetic response is denoted as RUE and decreases when the canopy SLN drops beneath a critical threshold [ 37 , 38 ]. The N nutrition index (NNI), a key indicator, can be used to describe the canopy N nutritional status, in particular during the pre-anthesis stages [ 39 ]. Significant linear relationships have been found between LAI and SLN and NNI in the pre-anthesis period [ 40 ].",
+      "char_offset": 5502
+    },
+    {
+      "type": "paragraph",
+      "text": "In the present study, we applied four integrated agronomic management treatments, investigating the tiller number, LAI, fraction of IPAR, leaf N, SLN, NNI, and harvest index. We assessed whether and how optimized agronomic management practices may enhance IPAR and improve RUE, evaluating their relative contributions to aboveground biomass. We believe that our results provide valuable insight for the further improvement of agronomic management strategies to improve wheat yield and resource efficiency in target regions.",
+      "char_offset": 6970
+    },
+    {
+      "type": "paragraph",
+      "text": "The integrated management treatments significantly affected the tiller number per unit area and the ear-bearing tiller percentage. The tiller number increased with the time course of growth, reaching a peak value at jointing followed by a rapid decline ( Figure 1 A,B). Over the 2-year period, no marked difference in tiller number at the wintering stage was found in any integrated treatment. The tiller number at jointing differed remarkably across all integrated treatments, with a ranking of high-yield agronomic management (HY) \u2248 improved high-yield agronomic management (IHY) > local traditional practice (LP) \u2265 improved local traditional practice (ILP). The tiller number obtained with ILP was significantly lower than that with LP in 2021\u20132022, but no remarkable difference was observed between LP and ILP in 2022\u20132023. The tiller number at booting was the highest for HY and IHY, followed by ILP, and was lowest for LP. The number at maturity followed the ranking IHY > HY > ILP \u2265 LP. With regard to ear-bearing tiller percentages, the rank order was ILP \u2248 IHY > LP \u2248 HY ( Figure 1 C,D). No significant differences were observed between LP and HY or between ILP and IHY. These results indicate that IHY achieved the highest spike number per unit area at maturity by producing the highest ear-bearing tiller percentage and highest tiller number at jointing.",
+      "char_offset": 7495
+    },
+    {
+      "type": "paragraph",
+      "text": "The dynamic of tiller number per unit area and ear-bearing tiller percentage under different integrated treatments in 2021\u20132022 and 2022\u20132023. ( A , B ), tiller number per unit area; ( C , D ), ear-bearing tiller percentage. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Error bars represent the standard deviation of the mean. Different lowercase letters indicate significant differences ( p < 0.05). Dotted lines are measurement periods.",
+      "char_offset": 8862
+    },
+    {
+      "type": "paragraph",
+      "text": "Integrated management had a large effect on LAI. The LAI values increased with growth, peaked at booting, and gradually decreased thereafter ( Figure 2 A,B). Over the 2 years, HY consistently achieved the largest LAI throughout the growth period. The LAIs obtained with ILP in the pre-anthesis stages were the smallest among the integrated treatments. No significant differences were seen in LAI at the anthesis and mid-filling stages between ILP and LP. Compared to LP and ILP, IHY always produced a high LAI at the booting, anthesis, and mid-filling stages; however, it was notably lower than that with HY before anthesis and at anthesis.",
+      "char_offset": 9415
+    },
+    {
+      "type": "paragraph",
+      "text": "The dynamic of leaf area index (LAI) and fraction of IPAR under different integrated treatments in 2021\u20132022 and 2022\u20132023. ( A , B ), LAI; ( C , D ), fraction of IPAR. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Error bars represent the standard deviation of the mean. Dotted lines are measurement periods.",
+      "char_offset": 10057
+    },
+    {
+      "type": "paragraph",
+      "text": "The effects of management on IPAR fraction were significant. This fraction increased with growth, peaked at booting, and showed a gradual decline thereafter ( Figure 2 C,D). Throughout the 2 years, relative to LP and ILP, both HY and IHY consistently maintained a higher fraction. For IHY, it was slightly lower than that for HY before the jointing stage, while no marked differences were found between the two after booting. The fraction obtained with ILP was marginally lower than that obtained with LP before booting. Additionally, no marked difference in the fraction was observed between LP and ILP at the anthesis and mid-filling stages, except in 2021\u20132022, where the fraction at mid-filling for LP was slightly lower than that for ILP. These results show that both HY and IHY achieved a large fraction of IPAR by producing larger LAIs.",
+      "char_offset": 10480
+    },
+    {
+      "type": "paragraph",
+      "text": "The effects of integrated management treatments on leaf N accumulation and SLN were significant. As seen in the LAI trend, the value of leaf N increased with growth, peaked at booting, and showed a rapid decline thereafter ( Figure 3 A,B). Over the 2 years, leaf N was the highest for HY, followed by IHY and then LP (at the anthesis and mid-filling stages) and ILP (from wintering to booting). No significant differences in leaf N were observed between LP and ILP after anthesis, except in 2021\u20132022, where that obtained via LP at mid-filling was slightly lower than that obtained with ILP. The SLN reached its peak value at jointing and rapidly decreased thereafter ( Figure 3 C,D). Over the 2 years, the SLN at wintering for ILP was higher than that for other integrated treatments. After wintering, it was the highest for HY, followed by IHY and then LP. No remarkable differences in SLN at the anthesis and mid-filling stages were seen between IHY and ILP. Meanwhile, after the booting stage, no remarkable differences in SLN were found between ILP and LP. The average SLN for IHY was 95% of that for HY and 2% and 7% higher than that for ILP and LP, respectively.",
+      "char_offset": 11325
+    },
+    {
+      "type": "paragraph",
+      "text": "The dynamic of leaf N accumulation and specific leaf N content (SLN) under different integrated treatments in 2021\u20132022 and 2022\u20132023. ( A , B ), leaf N; ( C , D ), SLN. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Error bars represent the standard deviation of the mean. Dotted lines are measurement periods.",
+      "char_offset": 12496
+    },
+    {
+      "type": "paragraph",
+      "text": "Integrated management treatments significantly affected the NNI ( Figure 4 ). Over the 2 years, the values of NNI at jointing among all integrated treatments followed the ranking HY > LP > IHY > ILP. Except for ILP, the values for all integrated treatments were >1, implying luxury N consumption. At anthesis, whole-plant NNI values for all treatments were also >1 and followed the ranking HY > IHY > ILP > LP. At mid-filling, whole-spike NNI values for all treatments were <1 and followed a ranking of HY > IHY > ILP > LP, which was similar to the ranking observed for whole-plant NNI at anthesis.",
+      "char_offset": 12920
+    },
+    {
+      "type": "paragraph",
+      "text": "N nutrition index (NNI) under different integrated treatments in 2021\u20132022 and 2022\u20132023. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Error bars represent the standard deviation of the mean. Different lowercase letters indicate significant differences ( p < 0.05).",
+      "char_offset": 13520
+    },
+    {
+      "type": "paragraph",
+      "text": "The management treatments significantly affected IPAR ( Table 1 ). Over the 2 years, pre-anthesis IPAR among all treatments showed the following rank order: HY > IHY \u2248 LP > ILP. The average pre-anthesis IPAR for IHY was 95% of that for HY and 4% higher than that for ILP. The post-anthesis IPAR was highest for IHY and HY, followed by ILP and then LP. The average post-anthesis IPAR for IHY was remarkably higher than that for ILP and LP, by 5% and 8%, respectively. For all treatments, the IPAR followed the ranking HY > IHY > LP > ILP. The average total IPAR for IHY was 97% of that for HY and 3% and 5% higher than that for LP and ILP, respectively.",
+      "char_offset": 13900
+    },
+    {
+      "type": "paragraph",
+      "text": "Intercepted PAR (IPAR) and radiation use efficiency (RUE) at pre-anthesis, post-anthesis, and whole growth stages under different integrated treatments in 2021\u20132022 and 2022\u20132023.",
+      "char_offset": 14554
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Values followed by different letters within a column in the same year are significantly different at p < 0.05.",
+      "char_offset": 14735
+    },
+    {
+      "type": "paragraph",
+      "text": "The effects of treatments on RUE were also significant ( Table 1 ). Over the 2 years, pre-anthesis RUE followed the ranking HY > IHY \u2248 ILP > LP. The average pre-anthesis RUE for IHY was 97% of that for HY and 4% higher than that for LP. For post-anthesis RUE, the order was IHY \u2265 HY > ILP > LP. The average post-anthesis RUE for IHY was higher than that for HY, ILP, and LP by 2%, 10%, and 29%, respectively. The RUE over the whole period followed the ranking IHY \u2248 HY > ILP > LP. The average total RUE for IHY was 3% and 13% higher than that for ILP and LP, respectively. Correlation analysis showed that total RUE was positively related to the average SLN ( Figure 5 A). Further, a linear relation was found between pre-anthesis RUE and whole-plant NNI at anthesis, while a curvilinear relationship was observed between post-anthesis RUE and whole-spike NNI in the mid-filling stage ( Figure 5 B).",
+      "char_offset": 15009
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiation use efficiency (RUE) in relation to average specific leaf N content (SLN) and N nutrition index (NNI) in 2021\u20132022 and 2022\u20132023. ( A ), total RUE against average SLN; ( B ), pre-anthesis RUE against whole-plant NNI at anthesis and post-anthesis RUE against whole-spike NNI at mid-filling. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management.",
+      "char_offset": 15910
+    },
+    {
+      "type": "paragraph",
+      "text": "The treatments had a significant effect on the apparent photosynthetic rate in the canopy ( Figure 6 ). The values decreased gradually during the grain-filling period. Over the 2 years, it was consistently the highest for HY or IHY, followed by ILP and then LP. The rate for IHY was slightly lower than that of HY in the early filling stage, roughly the same in the mid-filling stage, and markedly higher in the late-filling stage. These results indicate that the optimized agronomic practices used under IHY support high photosynthetic capacity during grain filling, promoting post-anthesis biomass production.",
+      "char_offset": 16369
+    },
+    {
+      "type": "paragraph",
+      "text": "Canopy apparent photosynthetic rate under different integrated treatments in 2021\u20132022 and 2022\u20132023. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Error bars represent the standard deviation of the mean. Different lowercase letters indicate significant differences ( p < 0.05).",
+      "char_offset": 16982
+    },
+    {
+      "type": "paragraph",
+      "text": "The treatments significantly affected the aboveground biomass, harvest index, and grain yield ( Table 2 ). Over the 2 years, the pre-anthesis aboveground biomass differed remarkably among all treatments, with a ranking of HY > IHY > ILP \u2248 LP. The average value for IHY was 93% of that for HY and 4% higher than that for LP. For the post-anthesis aboveground biomass, the rank order was IHY \u2265 HY > ILP > LP. The average value for IHY was 2%, 15%, and 39% higher than that for HY, ILP, and LP, respectively. The aboveground biomass at maturity followed a ranking of HY > IHY > ILP > LP. The average value for IHY was 96% of that for HY and was markedly higher than that for ILP and LP, by 8% and 16%, respectively. Over the 2 years, the lowest harvest index was obtained with LP. No significant differences in the harvest index were found among ILP, HY, and IHY. The grain yield followed the same ranking among all treatments as the total aboveground biomass at maturity. The average yield obtained with IHY was 96% of that with HY and was 7% and 23% higher than that with ILP and LP, respectively.",
+      "char_offset": 17374
+    },
+    {
+      "type": "paragraph",
+      "text": "Aboveground biomass at the pre-anthesis, post-anthesis, and maturity stages, harvest index, and grain yield under different integrated treatments in 2021\u20132022 and 2022\u20132023.",
+      "char_offset": 18472
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. Values followed by different letters within a column in the same year are significantly different at p < 0.05.",
+      "char_offset": 18647
+    },
+    {
+      "type": "paragraph",
+      "text": "We analyzed the aboveground biomass responses according to integrated agronomic management practices in terms of IPAR and RUE. The relative contributions of IPAR or RUE to the reduction in aboveground biomass obtained with LP differed significantly among the other three treatments ( Figure 7 ). We compared the relative contributions of reduced IPAR or RUE for ILP, HY, and IHY relative to LP. The closer a data point is to the y = x line, the more important it was in determining the aboveground biomass loss. The reduction in RUE was a far more important determinant of the aboveground biomass than the reduction in IPAR. Decreases in either RUE or IPAR were a more important determinant of the aboveground biomass for ILP than for both HY and IHY. The relative contribution of RUE was slightly more important for IHY than for HY; however, no marked differences in the relative contribution of IPAR were found between IHY and HY.",
+      "char_offset": 18921
+    },
+    {
+      "type": "paragraph",
+      "text": "Relative aboveground biomass (LP cf. ILP, HY, and IHY) at maturity against either relative radiation use efficiency (RUE) or intercepted PAR (IPAR) across the two growing seasons. The line is y = x, which is provided for comparison. LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management.",
+      "char_offset": 19855
+    },
+    {
+      "type": "paragraph",
+      "text": "Table 3 shows the differences in the input costs, outputs, and net profits between the four integrated management treatments. The input costs were the highest for HY, followed IHY, and then LP and ILP. The output among all treatments followed the same rank order as the grain yield due to the same unit wheat price. The net profit for IHY was higher than that for HY, ILP, and LP by 8%, 11%, and 88%, respectively.",
+      "char_offset": 20247
+    },
+    {
+      "type": "paragraph",
+      "text": "The input cost, output, and net profit under different integrated treatments averaged across 2021\u20132023.",
+      "char_offset": 20663
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management.",
+      "char_offset": 20768
+    },
+    {
+      "type": "paragraph",
+      "text": "The HY treatment consistently achieved the highest total aboveground biomass and grain yield. The optimized agronomic management practice adopted under IHY also produced a high amount of aboveground biomass and a high harvest index, ultimately achieving a high level of grain yield. The lowest harvest index was obtained using LP, while no marked difference was seen among the other three integrated treatments. That is, the grain yields differed remarkably among practices, mainly due to the notable differences in the total aboveground biomass. Carbohydrates synthesized in the post-anthesis stage can contribute 60\u201390% of the final grain yield in wheat [ 41 , 42 ]. On average, in our study, the aboveground post-anthesis biomass contributed 75\u201384% of the grain yield. Over the 2 years, the highest post-anthesis aboveground biomass was obtained with IHY, which had the highest post-anthesis IPAR and RUE. The lowest biomass was obtained with LP due to its low IPAR and RUE values. Generally, IPAR yields decreased gradually with delayed sowing [ 43 ] but increased notably with increased N input [ 34 ] and plant density [ 30 , 44 ]. In the final analysis, enhanced radiation capture was achieved by improving the tiller number, canopy LAI, and the IPAR fraction. Taken together, our results demonstrate that increased plant density combined with optimized N management practices can compensate for reductions in canopy IPAR caused by delayed sowing.",
+      "char_offset": 20931
+    },
+    {
+      "type": "paragraph",
+      "text": "RUE is calculated as the slope of the linear relationship between the aboveground biomass and IPAR [ 30 ]. Improvements in RUE are made possible by enhancing the photosynthetic capacity of the canopy. The photosynthetic capacity is commonly determined by the leaf N content. High levels of N accumulation enhance the photosynthetic capacity of the canopy and delay leaf senescence [ 7 ]. In this study, the leaf N was the highest for HY, followed by IHY and then LP and ILP, over the entire growth period. Along with high levels of leaf N and high LAI, both the HY and IHY treatments consistently maintained a higher apparent photosynthetic rate in the canopy during the grain filling period compared to LP and ILP. However, both LAI and leaf N obtained with HY decreased faster than that for IHY after anthesis. The photosynthetic capacity is closely related to SLN [ 35 ]. In our study, a strong linear relationship was observed between RUE and SLN over the whole growth period, in agreement with previous studies [ 38 , 45 ]. In addition, the pre-anthesis RUE was strongly synchronized with the average SLN in the pre-anthesis stage, following the same ranking of HY > IHY \u2248 ILP > LP. The pre-anthesis RUE was slightly lower for IHY than for HY. Moreover, the average SLN in the post-anthesis stage exhibited the same trend as the average SLN in the pre-anthesis stage. However, the rank order for post-anthesis RUE was not exactly the same as that for the average SLN in the post-anthesis stage, which followed the ranking IHY \u2265 HY > ILP > LP. Interestingly, despite the lower SLN post-anthesis, IHY achieved a similar or higher post-anthesis RUE than did HY. This may be attributable to its slower leaf senescence and better within-leaf N allocation post-anthesis. Further research is required to elucidate this.",
+      "char_offset": 22387
+    },
+    {
+      "type": "paragraph",
+      "text": "The NNI is a widely used diagnostic tool for describing the N nutritional status of crops [ 46 ]. It is easily affected by soil tillage, the sowing date, and nutrient management [ 6 , 40 , 47 ]. Both the higher NNI at jointing and the lowest NNI at anthesis for LP were mainly due to the higher basal N input, earlier N topdressing date, and lower plant density. Similarly, the highest NNI was obtained with HY over the whole growth period, resulting from the high N input and optimized N topdressing date and ratio. The wheat grown under IHY obtained a lower NNI than that grown under HY due to the lower N input and higher plant density. Recent studies have suggested that the relationship between the NNI and RUE is linear from tillering to booting but becomes curvilinear at anthesis [ 40 ]. Considering the entire pre-anthesis period, the response of RUE to NNI is better described by a curvilinear or a segmented function [ 48 ]. In this study, a linear relation was found between the whole-plant NNI at anthesis and pre-anthesis RUE, whereas the response of the post-anthesis RUE to whole-spike NNI in the mid-filling stage was curvilinear, with a tendency for saturation at high NNI values. It is well established that spike N accumulation post-anthesis plays a crucial role in wheat yield. The whole-spike NNI is stable throughout the growth period [ 49 , 50 ]. However, an excessively high NNI may result in a small reduction in the RUE due to the greater energetic cost to build biomass [ 34 , 51 ]. Ultimately, despite a higher whole-spike NNI, the wheat grown under HY obtained a lower or similar post-anthesis RUE relative to IHY. In addition, whole-plant NNI values at anthesis were all > 1, implying that luxury N accumulated in whole plants. These results indicate that further improvements are possible in all integrated agronomic practices applied in our study, especially ILP and IHY.",
+      "char_offset": 24206
+    },
+    {
+      "type": "paragraph",
+      "text": "Clearly, the lowest aboveground biomass and grain yield were obtained with LP, mainly due to poor agronomic management following the traditional planting practices of local farmers. By contrast, the highest total biomass and yield were obtained with HY due to the modified agronomic practices, regardless of the cost of resource inputs. In addition to N, P is also an essential crop nutrient which is critical for enhancing grain yield. Studies have shown that the total aboveground biomass and grain yield of wheat initially increased and then plateaued with the increase in P application [ 52 ]. Excessive P application did not enhance wheat yields but instead increased the negative environmental impacts through soil P leaching and runoff [ 53 , 54 ]. In this study, the wheat grown under HY obtained a higher P application compared to other treatments. However, IHY achieved 96% of the grain yield of HY under relatively low-input conditions. It appears that the integrated management practices used under HY produces surplus levels of soil P. Further study is still needed to assess the impacts of integrated management practices on P use efficiency and surpluses in future research.",
+      "char_offset": 26112
+    },
+    {
+      "type": "paragraph",
+      "text": "Overall, the enhanced biomass for ILP, HY, and IHY is attributable to the increased IPAR or improved RUE relative to LP. However, the relative contributions of each to the reduction in aboveground biomass obtained with LP differed between integrated treatments. We found that decreases in the RUE were a far more important determinant of biomass than decreases in IPAR. Moreover, the relative contribution of the RUE was slightly more important for IHY than for HY and no notable difference was seen in the relative contribution of IPAR between IHY and HY. Indeed, the wheat grown under IHY achieved a slightly lower total IPAR but a similar total RUE as that grown under HY. These results imply that there may exist potential for the further enhancement of aboveground biomass production for IHY through the improvement or optimization of RUE.",
+      "char_offset": 27303
+    },
+    {
+      "type": "paragraph",
+      "text": "Field experiments were conducted during the winter wheat growing season in 2021\u20132022 and 2022\u20132023 at the experimental station of Weifang University of Science and Technology in Weifang, Shandong Province, China (36\u00b055\u2032 N, 118\u00b046\u2032 E). The region has a temperate continental monsoon climate, with an annual average temperature, solar duration, total solar radiation, and total precipitation of 12.7 \u00b0C, 2548 h, 5190 MJ m \u22122 , and 593.8 mm, respectively; the cumulative temperature above 10 \u00b0C is 4303 \u00b0C. The frost-free period over 1 year is 199 days. The soil is a sandy loam with 17.10 g kg \u22121 organic matter, 1.13 g kg \u22121 total N, 29.35 mg kg \u22121 available P, and 87.67 mg kg \u22121 available K in the upper 0.20 m of the soil before seeding in October 2021. Daily mean temperature, precipitation, and solar radiation during the two growing seasons are shown in Figure 8 . All meteorological data used in the analysis were obtained from a local automatic weather station located <1000 m from the experimental field. The preceding crop grown in the experimental field was summer maize. Following harvest, all straw was plowed back into the soil every year.",
+      "char_offset": 28149
+    },
+    {
+      "type": "paragraph",
+      "text": "The mean temperature, precipitation, and solar radiation recorded during the winter wheat growing seasons in 2021\u20132022 and 2022\u20132023 in experimental fields.",
+      "char_offset": 29303
+    },
+    {
+      "type": "paragraph",
+      "text": "We used the widely planted winter wheat cultivar \u201cTainong 18\u201d (with low tillering capacity and large ears) as the experimental material. Four integrated agronomic management treatments were conducted in a randomized complete block design with four replications: local traditional practice (LP), improved local traditional practice (ILP), high-yield agronomic management (HY), and improved high-yield agronomic management (IHY). The LP treatment followed the conventional planting pattern of local farmers. ILP treatment, based on LP, was designed to improve wheat yields and resource efficiency by delaying the sowing date, increasing the planting density, and decreasing fertilizer input. The HY treatment was designed to test the yield potential by adjusting agronomic management practices regardless of the resource input cost, mostly through increased plant density and fertilizer application rate, along with revised fertilization timing. The IHY treatment redesigned the local wheat production system, drawing on further delayed sowing dates, higher plant densities, and lower fertilizer application relative to HY treatment. The combination details of sowing date, plant density, and nutrients management used for each treatment are given in Table 4 . Plant densities increased by 75 seeds m \u22122 with each integrated agronomic management treatment from LP (225 seeds m \u22122 ) to IHY (450 seeds m \u22122 ). Sowing dates for the treatments were 5, 10, 10, and 15 October, respectively. Urea (46% w / w N), calcium superphosphate (12% w / w P 2 O 5 ), and potassium chloride (60% w / w K 2 O) were used as the N, P, and K fertilizers, respectively. Basal fertilizers were applied prior to planting, and additional fertilizers were applied at 5 cm soil depth in bands between rows. The basal and additional ratios of N fertilizer for the treatments were 6:4, 5:5, 4:6, and 4:6, respectively. N topdressing for LP was applied at regreening stage and that for ILP, HY, and IHY were applied at jointing stage. P fertilizers were applied as basal fertilizers for all treatments. K fertilizers for both LP and ILP were applied as basal fertilizers. The basal and additional ratios of K fertilizer for HY and IHY were 6:4. K topdressing for both HY and IHY were applied at jointing stage. Irrigation (75 mm each time) was performed after sowing, before wintering, at jointing, and at anthesis. Each experimental plot (3 \u00d7 10 m) contained 12 rows of wheat (positioned 0.25 m apart). Diseases and pests were controlled chemically every year. No significant incidence of diseases, weeds, or pests occurred in any experimental plot.",
+      "char_offset": 29461
+    },
+    {
+      "type": "paragraph",
+      "text": "The sowing date, plant density, and nutrients management used in the different integrated treatments.",
+      "char_offset": 32081
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) LP, local traditional practice; ILP, improved local traditional practice; HY, high-yield agronomic management; IHY, improved high-yield agronomic management. \u2013, no data.",
+      "char_offset": 32184
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiller number was counted at the three-leaf, wintering, jointing, booting, and maturity stages, respectively, in 1.5 m 2 quadrats (six rows, 1 m apart) in each experimental plot, normalized according to the number per square meter. The ear-bearing tiller percentage was calculated by dividing the effective spike number by the maximum tiller number.",
+      "char_offset": 32359
+    },
+    {
+      "type": "paragraph",
+      "text": "Plants from a 0.2 m 2 quadrat (two rows, 0.4 m apart) were taken as samples for each plot at the wintering, jointing, booting, anthesis, mid-filling, and maturity stages. The plant samples were divided into three fractions (stems + sheaths, leaves, and spikes). The green area of the leaves was measured using a green area meter (Li-Cor 3100; Li-Cor, Lincoln, NE, USA). The dry matter of each plant component was weighed after oven drying to a constant mass at 75 \u00b0C for 48 h. Aboveground biomass (kg ha \u22121 ) was calculated as the summed dry weight of the measured plant components. N concentration was determined using the Kjeldahl method [ 55 ]. N accumulation in leaves (kg ha \u22121 ) was calculated by obtaining the dry mass and N concentration of the leaf. LAI, SLN (N m \u22122 ), and post-anthesis aboveground biomass (kg ha \u22121 ) was also calculated.",
+      "char_offset": 32710
+    },
+    {
+      "type": "paragraph",
+      "text": "The NNI was estimated in accordance with the ratio of actual N concentration (N A ; %) and critical N concentration (N C ; %). Based on the dilution curve for winter wheat described by Justes et al. [ 56 ], whole-plant N C at pre-anthesis was calculated as follows:",
+      "char_offset": 33561
+    },
+    {
+      "type": "paragraph",
+      "text": "We focused on the N nutritional status of spikes instead of whole plants post-anthesis, following the dilution curve described by Zhao et al. [ 50 ]. Whole-spike N C in the mid-filling stage was calculated as follows:",
+      "char_offset": 33828
+    },
+    {
+      "type": "paragraph",
+      "text": "where W P (t ha \u22121 ) is the total aboveground dry weight per unit area pre-anthesis, and W S is (t ha \u22121 ) the spike dry weight per unit area in the mid-filling stage.",
+      "char_offset": 34047
+    },
+    {
+      "type": "paragraph",
+      "text": "At all stages, incident and transmitted photosynthetically active radiation (PAR) were measured on clear, cloudless days around noon (\u00b11 h) utilizing a SunScan Canopy Analysis System (Delta-T, Cambridge, UK). The PAR above the canopy and at the ground level was measured at the same time using a portable probe placed at right angles to the rows and parallel to the surface at three locations in each plot. After anthesis, the transmitted PAR was determined as described by Sanda\u00f1a et al. [ 57 ]. The fraction of IPAR was calculated as the ratio of the difference between incident and transmitted PAR to incident PAR. Stage IPAR (MJ m \u22122 ) was calculated as the product of the averaged fraction of IPAR of two consecutive sampling stages and the incident PAR between them [ 58 ]. The conversion factor for solar radiation to incident PAR was 0.5 [ 59 ]. RUE (g MJ \u22121 ) was calculated by dividing accumulated aboveground biomass by IPAR, pre- and post-anthesis and over the whole growth period.",
+      "char_offset": 34216
+    },
+    {
+      "type": "paragraph",
+      "text": "Following the method described by Garrity et al. [ 60 ], the apparent photosynthetic rate in the canopy in the early filling stage (anthesis + 5 days), mid-filling stage (anthesis + 15 days), and late-filling stage (anthesis + 25 days) was measured using a portable infrared gas analysis system (GXH-3052L; Junfang Institute of Physics and Chemistry, Beijing, China). The assimilation chamber was constructed from polyester film (allowing >95% light transmittance) and was 0.70 m long \u00d7 0.60 m wide \u00d7 1.20 m high. Air in the assimilation chamber was mixed using a built-in fan 0.30 m in diameter. Changes in CO 2 concentrations in the assimilation chamber were measured between 9:30 and 11:30 a.m. on clear, cloudless days. The assimilation chamber was opened before measurements to keep the CO 2 concentration in the assimilation chamber equal to atmospheric CO 2 concentrations. Two-row wheat plants were subsequently enclosed in the assimilation chamber and fully exposed to sunlight. The rapid decline in CO 2 concentration was recorded until there was a steady decrease between 380 and 280 \u00b5mol mol \u22121 for at least 60 s [ 61 ]. The apparent photosynthetic rate of the canopy was calculated as described by Chen et al. [ 62 ].",
+      "char_offset": 35211
+    },
+    {
+      "type": "paragraph",
+      "text": "At maturity, all spikes from a 3.0 m 2 quadrat (six rows, 2 m apart) in each experimental plot were collected and threshed. The grains were naturally air-dried, weighed, and adjusted to the standard 13% moisture content. Harvest index was defined as the ratio of grain yield to total aboveground biomass.",
+      "char_offset": 36443
+    },
+    {
+      "type": "paragraph",
+      "text": "The statistical analyses were performed with DPS ver. 7.05 software (Hangzhou Ruifeng Information Technology Co., Ltd., Hangzhou, China). Multiple comparisons were performed after a preliminary F-test. Differences between means were evaluated based on the least significant difference at p < 0.05. Figures were drawn using SigmaPlot 12.5 (Systat Software, San Jose, CA, USA).",
+      "char_offset": 36749
+    },
+    {
+      "type": "paragraph",
+      "text": "This study investigated whether and how integrated agronomic management practices affect aboveground biomass production and grain yield in wheat. Both HY and IHY consistently supported a large LAI and fraction of IPAR values, thereby increasing the total IPAR. HY had increased pre-anthesis RUE with higher SLN and whole-plant NNI. The highest pre-anthesis aboveground biomass was obtained with HY, which had the highest pre-anthesis IPAR and RUE. Along with a high photosynthetic rate in the canopy, IHY produced higher aboveground biomass post-anthesis due to its higher post-anthesis IPAR and RUE. It also achieved a slightly lower total IPAR but a similar total RUE and harvest index, thus producing a slightly lower grain yield than HY. In conclusion, the optimized agronomic management practices (appropriately delayed sowing date, increased plant density, and optimized fertilization management) used under IHY effectively enhanced the radiation captured and improved radiation utilization. Considering the high grain yield, high RUE, and high economic benefits, IHY can be recommended as an optimal agronomic management practice in the target region, although further research on improvements in pre-anthesis RUE are required.",
+      "char_offset": 37126
+    },
+    {
+      "type": "paragraph",
+      "text": "Conceptualization, H.X., D.P. and X.D.; investigation, H.X., M.L. and C.L.; data curation, H.X. and M.L.; writing\u2014original draft preparation, H.X.; writing\u2014review and editing, Y.T., Q.X., W.X. and D.G.; supervision, D.P. and X.D.; project administration, D.P. and X.D.; funding acquisition, H.X., D.P. and X.D. All authors have read and agreed to the published version of the manuscript.",
+      "char_offset": 38362
+    },
+    {
+      "type": "paragraph",
+      "text": "The original contributions presented in the study are included in the article and further inquiries can be directed to the corresponding authors.",
+      "char_offset": 38751
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no conflicts of interest.",
+      "char_offset": 38898
+    },
+    {
+      "type": "paragraph",
+      "text": "This research was funded by the Initial Scientific Research Fund for High Level Talent of Weifang University of Science and Technology (KJRC2022004; KJRC2021001), Project of Central Government Guiding Local Science and Technology Development (YDZX2022130), and Weifang Science and Technology Development Program (2021GX050).",
+      "char_offset": 38945
+    },
+    {
+      "type": "paragraph",
+      "text": "Disclaimer/Publisher\u2019s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "char_offset": 39271
+    },
+    {
+      "type": "paragraph",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article.",
+      "char_offset": 39642
+    },
+    {
+      "type": "paragraph",
+      "text": "The original contributions presented in the study are included in the article and further inquiries can be directed to the corresponding authors.",
+      "char_offset": 39768
+    }
+  ],
+  "labels": [
+    "growth_stage_table",
+    "has_table",
+    "nutrient_table",
+    "yield_table"
+  ],
+  "document_id": "doc-f562e55b09dc98ea"
+}

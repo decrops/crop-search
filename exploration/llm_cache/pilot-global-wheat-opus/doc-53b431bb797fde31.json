@@ -1,0 +1,103 @@
+{
+  "claims": [
+    {
+      "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+      "value_type": "range",
+      "range_min": 1.063,
+      "range_max": 1.072,
+      "unit": "kPa",
+      "qualifier": "threshold",
+      "evidence_text": "the transpiration started to decrease in both segmented transpiration subgroups at similar VPD break points (STR+: 1.063 and STR-: 1.072 kPa)",
+      "claim_summary": "In segmented-transpiration durum wheat lines, whole-plant transpiration begins to be limited (breakpoint) at a VPD of roughly 1.06-1.07 kPa.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "photosynthesis.transpiration_efficiency",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "limited (or segmented) whole-plant transpiration under high atmospheric VPD has resulted in advantageous water conservation and crop yield increase under the particular Mediterranean conditions",
+      "claim_summary": "Limiting whole-plant transpiration at high VPD improves water conservation and transpiration efficiency, benefiting yield under water-limited Mediterranean conditions.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "LTR lines generally exhibited better water status (stomatal conductance) and larger green biomass... The LTR lines also exhibited slightly higher gs than the STR lines",
+      "claim_summary": "Linear-transpiration durum wheat lines maintain higher flag-leaf stomatal conductance (gs) than segmented lines, associated with higher yield under good conditions; gs increased as growing conditions improved.",
+      "extraction_confidence": "medium",
+      "methods": ["leaf porometer measurement"]
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "water scarcity that usually develops during spring, which in the case of durum wheat (and other small grain cereals) coincides with the grain filling period",
+      "claim_summary": "Durum wheat is sensitive to terminal drought during the grain-filling period, when Mediterranean water scarcity typically develops.",
+      "extraction_confidence": "high",
+      "bbch_min": 71,
+      "bbch_max": 89
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 250,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "Each plot consisted of six rows 7m long and 0.2m apart, with a planting density of 250 seeds m-2.",
+      "claim_summary": "Durum wheat field trials were sown at a planting density of 250 seeds per square metre.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 0.2,
+      "unit": "m",
+      "qualifier": "observed",
+      "evidence_text": "Each plot consisted of six rows 7m long and 0.2m apart, with a planting density of 250 seeds m-2.",
+      "claim_summary": "Durum wheat was sown in rows spaced 0.2 m (20 cm) apart.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 162,
+      "range_max": 258,
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "Rainfall 212mm 203mm ... Rainfall 258mm 206mm 162 mm Supplemented irrigation 125mm 180mm",
+      "claim_summary": "Across Spanish durum wheat field trials, growing-season rainfall ranged about 162-258 mm, with supplemental irrigation of 125-180 mm added in irrigated treatments.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "the fertilization was applied in two steps, a first basal application and then a second top dressing application... Prior sowing 8:15:15 NPK ... Top dressing Calcium ammonium nitrate / Diluted urea (46%)",
+      "claim_summary": "Wheat nitrogen fertilization was split into two applications: a basal NPK application prior to sowing and a later top dressing (calcium ammonium nitrate or diluted urea).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "the N content in grains, which is an indicator of the capacity of the grains to accumulate nitrogen, decreased as growing conditions improved",
+      "claim_summary": "Grain nitrogen content (proxy for grain protein) in durum wheat decreased as growing/yield conditions improved (dilution effect).",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "LTR lines exhibit higher grain yield, biomass and greenness under good to optimal agronomical conditions, whereas the STR lines perform better under the most water-limiting trials",
+      "claim_summary": "Linear-transpiration durum wheat lines accumulate higher biomass and green canopy (NDVI) under good conditions, while segmented lines accumulate more under severe water stress.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

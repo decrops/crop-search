@@ -1,0 +1,66 @@
+{"claims": [
+  {
+    "parameter_id": "temperature.optimum_growth_temperature",
+    "value_type": "numeric",
+    "numeric_value": 15,
+    "unit": "degC",
+    "qualifier": "optimum",
+    "evidence_text": "wheat loses 3-4 % of yield per °C above the optimum daytime temperature of 15 °C (Wardlaw et al. 1989)",
+    "claim_summary": "Optimum daytime temperature for wheat is about 15 degC; yield declines above this.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "temperature.heat_stress_threshold",
+    "value_type": "numeric",
+    "numeric_value": 15,
+    "unit": "degC",
+    "qualifier": "threshold",
+    "evidence_text": "wheat loses 3-4 % of yield per °C above the optimum daytime temperature of 15 °C (Wardlaw et al. 1989)",
+    "claim_summary": "Above 15 degC daytime temperature wheat loses ~3-4% yield per degC, indicating a heat-stress threshold.",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "Winter wheat carries vernalization genes, usually vrn1... Exposure to prolonged cold winter temperature triggers flowering in the spring. Winter wheat will therefore not flower and produce grain if grown in areas where temperature is constantly high.",
+    "claim_summary": "Winter wheat requires vernalization (prolonged cold) to flower; spring wheats require little or none.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "stress.drought_tolerance",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "since among the major staple crops it is the most drought tolerant and water use efficient (Ortiz et al. 2008)",
+    "claim_summary": "Wheat is the most drought-tolerant and water-use-efficient of the major staple cereals.",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "water.water_productivity",
+    "value_type": "range",
+    "range_min": 700,
+    "range_max": 5000,
+    "unit": "L per kg grain",
+    "qualifier": "observed",
+    "evidence_text": "the variation in water use efficiency in wheat ranges from 700 to 5,000 l to produce 1 kg of grain (Dixon et al. 2009)",
+    "claim_summary": "Water use to produce 1 kg of wheat grain ranges from 700 to 5,000 L.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "stress.heat_sensitive_stage",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "high temperature stress can also lead directly to sterility by impairing meiosis, gametogenesis, and fertilization... Extreme day-time temperatures at anthesis... represent particular threats",
+    "claim_summary": "Anthesis/reproductive stage is heat sensitive in wheat; high temperature causes floret sterility.",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum"]
+  }
+]}

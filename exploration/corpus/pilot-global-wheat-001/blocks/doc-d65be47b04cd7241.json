@@ -1,0 +1,106 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Thousand kernel weight",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "Recent Articles",
+      "text": "Agronomy Quiz - June 2026 Maximize the benefits of top-dress nitrogen Plant stand counts in cereals"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 4,
+      "heading": "Subscribe to our mailing list",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "By Jeremy Boychyn MSc. P.Ag., Agronomy Research Extension Specialist | Alberta Wheat and Barley Commissions",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Thousand kernel weight (TKW) is a measurement of seed size. It is, as its name suggests, the weight of 1,000 seeds. Knowledge of this seed characteristic is fundamental to seeding management decisions, crop establishment, and thus, yield potential.",
+      "char_offset": 109
+    },
+    {
+      "type": "paragraph",
+      "text": "A seed lot with large seeds has a higher TKW. A seed lot with small seeds has lower TKW. This is because, with large seeds, each seed attributes a greater weight than a smaller seed. For example, if each seed weighs on average, 0.03g, then one thousand seeds will equal 30g TKW. If each seed weighs 0.045g, the TWK is 45g.",
+      "char_offset": 359
+    },
+    {
+      "type": "paragraph",
+      "text": "TKW will vary between varieties, crop type, growing environment and year. Some varieties will, due to genetics, have larger or smaller seeds. A seed lot\u2019s TKW is also impacted by environmental factors during crop growth. In-season growing conditions such as rainfall and temperature will impact overall seed size. Biotic factors such as pests and diseases can impact plant health and subsequently TKW. The take-home concept to remember is that TKW will vary year to year, crop to crop, and variety to variety.",
+      "char_offset": 683
+    },
+    {
+      "type": "paragraph",
+      "text": "A seed lot TKW can be determined through at-home measurements or seed testing at an accredited lab.",
+      "char_offset": 1194
+    },
+    {
+      "type": "paragraph",
+      "text": "Measuring TKW is a component of basic seed characteristics measurements within accredited seed lab testing packages. When submitting a seed lot for testing, ensure TKW measurement is part of the package you receive.",
+      "char_offset": 1295
+    },
+    {
+      "type": "paragraph",
+      "text": "Assessing TKW at home is relatively simple. To assess TKW, collect a representative sample of your seed lot. Portion out ten groups of 100 seeds. Weigh the 100 seeds using a calibrated scale. Complete this process with each set of 100 seeds. Add all the weights to obtain the TKW value.",
+      "char_offset": 1512
+    },
+    {
+      "type": "paragraph",
+      "text": "The Alberta Seed Guide also lists the TKW of each variety. However, this is the least accurate way of determining TKW of a specific seed lot. The seed guide should mainly be used to compare potential TKW variations between varieties or crops.",
+      "char_offset": 1800
+    },
+    {
+      "type": "paragraph",
+      "text": "TKW for seeding rates and calculating seeding rates",
+      "char_offset": 2044
+    },
+    {
+      "type": "paragraph",
+      "text": "The seed lot TKW is a key element for determining seeding rate calculations. When growing a wheat or barley crop, targeting specific seeding rates and plant stands increases the crop's yield potential as well as yield stability .",
+      "char_offset": 2097
+    },
+    {
+      "type": "paragraph",
+      "text": "Accurate seeding rates require a calculation using TKW. Knowing that TKW can vary year to year and variety to variety, an accurate TKW allows for accurate seeding rates. For example, in the seed guide it is not abnormal to encounter hard red spring varieties ranging from 34 to 44g TKW. This demonstrates a 30 per cent change in TKW. When switching to a new variety and TKW differences are not accounted for, a huge variance in seeding rate can occur year over year.",
+      "char_offset": 2328
+    },
+    {
+      "type": "paragraph",
+      "text": "Variety B requires a seeding rate of 130.7lbs/ac to reach the desired seeding rate of 35 seeds/sqft. If variety B was seeded at the same rate as variety A (169.2 lbs/ac) due to TKW not being accounted for, the seeding rate would be much higher than desired to reach 35 seeds/sqft. Therefore, unnecessary seed costs would be incurred.",
+      "char_offset": 2796
+    },
+    {
+      "type": "paragraph",
+      "text": "If both varieties were seeded at an arbitrary rate of 2 bushels per acre (120 lbs/ac) and TKW was not considered, neither variety would be optimized for target seeding rate and plant stand variability would be seen year to year.",
+      "char_offset": 3131
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike rainfall, consistent seeding rates are a controllable variable. Seeding based on TKW removes a variable that will impact the yield and quality of your wheat and barley crops. Seeding based on bushels per acre is highly discouraged.",
+      "char_offset": 3361
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding seed lot TKW and seeding based on TKW is a controllable factor that each farm should be managing every year.",
+      "char_offset": 3601
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-d65be47b04cd7241"
+}

@@ -1,0 +1,28 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Vernalization has significant effects at typically 2–10 °C, with dramatic decline at temperatures above 11 °C and an apparent loss of effects above 18 °C (Brooking 1996).",
+      "claim_summary": "Wheat vernalization is effective at typically 2-10 C, declines above 11 C, and is lost above 18 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "a weak winter type that is stimulated to flower by brief exposure to low temperature, a semi-winter type that requires 2–4 weeks of cold exposure for flowering, and a strong winter type that needs 4–6 weeks of cold exposure. The winter wheat cultivar Yeoman reportedly requires up to 12 weeks at low temperature to attain a vernalization saturation point.",
+      "claim_summary": "Winter wheat vernalization duration: weak winter brief, semi-winter 2-4 weeks, strong winter 4-6 weeks cold exposure (up to 12 weeks in cv. Yeoman).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.vernalization_units",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Jagger required 3 weeks to reach the maximum vernalization effect on flowering, whereas 2174 required 6 weeks to reach the maximum vernalization effect on flowering under the same condition",
+      "claim_summary": "Vernalization saturation varies by cultivar/Vrn-A1 allele: Jagger 3 weeks, 2174 6 weeks cold to maximum vernalization effect.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "doc-6b86b273ff34fce1",
+  "canonical_url": "https://europepmc.org/article/PMC/12987450",
+  "source_url": "https://europepmc.org/articles/PMC12987450",
+  "doi": "10.1371/journal.pone.0342401",
+  "title": "Europe PMC",
+  "source_domain": "europepmc.org",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "europe_pmc",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html;charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+  "content_hash": "bce226a4cc1d28716b783be74f784717549e17d540b45bd2f14426e270aacfe4",
+  "text_length": 1,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "europe_pmc",
+    "doi": "10.1371/journal.pone.0342401",
+    "publication_year": "2026",
+    "pmid": "41824433",
+    "pmcid": "PMC12987450",
+    "is_open_access": true,
+    "source_db": "MED"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/002-europepmc.org.html",
+  "parser_version": "corpus-blocks-1"
+}

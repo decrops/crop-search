@@ -1,0 +1,12 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "With fall-planted grains (e.g. winter wheat), fall N fertilization followed by spring topdressing is likely the best combination of fertilization practices to optimize yield.",
+    "claim_summary": "For winter wheat, fall nitrogen fertilization followed by spring topdressing is the recommended timing to optimize yield.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  }
+]
+}

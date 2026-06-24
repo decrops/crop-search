@@ -1,0 +1,194 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Salt-Affected Soils and their Management",
+      "text": "Table of Contents by I.P. Abrol Director and J.S.P. Yadav Central Soil Salinity Research Institute Karnal, India and F.I. Massoud FAO Soil Resources Management and Conservation Service Soil Resources, Management and Conservation Service FAO Land and Water Development Division FAO SOILS BULLETIN 39 FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS Rome, 1988 Cover photo: A bed and ridge method of planting trees in auger holes made mechanically with a tractor-operated auger, and for storage of rain water in sodic soils. M-53 ISBN 92-5-102686-6 All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying or otherwise, without the prior permission of the copyright owner. Applications for such permission, with a statement of the purpose and extent of the reproduction, should be addressed to the Director, Publications Division, Food and Agriculture Organization of the United Nations, Via delle Terme di Caracalla, 00100 Rome, Italy. \u00a9 FAO 1988 This electronic document has been scanned using optical character recognition (OCR) software and careful manual recorrection. Even if the quality of digitalisation is high, the FAO declines all responsibility for any discrepancies that may exist between the present document and its original printed version."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Table of Contents",
+      "text": "Preface 1. INTRODUCTION 2. ORIGIN, CLASSIFICATION AND DISTRIBUTION OF SALT-AFFECTED SOILS 3. SALINE SOILS AND THEIR MANAGEMENT 4. SODIC SOILS AND THEIR MANAGEMENT 5. SALINITY PROBLEMS OF THE DRYLAND REGIONS 6. WATER QUALITY AND CROP PRODUCTION 7. SOCIO-ECONOMIC CONSIDERATIONS IN RECLAMATION AND MANAGEMENT OF SALT-AFFECTED SOILS REFERENCES"
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "J.S.P. Yadav Central Soil Salinity Research Institute Karnal, India",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "F.I. Massoud FAO Soil Resources Management and Conservation Service",
+      "char_offset": 69
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil Resources, Management and Conservation Service FAO Land and Water Development Division",
+      "char_offset": 138
+    },
+    {
+      "type": "paragraph",
+      "text": "FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS Rome, 1988",
+      "char_offset": 231
+    },
+    {
+      "type": "paragraph",
+      "text": "Cover photo: A bed and ridge method of planting trees in auger holes made mechanically with a tractor-operated auger, and for storage of rain water in sodic soils.",
+      "char_offset": 299
+    },
+    {
+      "type": "paragraph",
+      "text": "The designations employed and the presentation of material in this publication do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+      "char_offset": 464
+    },
+    {
+      "type": "paragraph",
+      "text": "All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying or otherwise, without the prior permission of the copyright owner. Applications for such permission, with a statement of the purpose and extent of the reproduction, should be addressed to the Director, Publications Division, Food and Agriculture Organization of the United Nations, Via delle Terme di Caracalla, 00100 Rome, Italy.",
+      "char_offset": 827
+    },
+    {
+      "type": "paragraph",
+      "text": "This electronic document has been scanned using optical character recognition (OCR) software and careful manual recorrection. Even if the quality of digitalisation is high, the FAO declines all responsibility for any discrepancies that may exist between the present document and its original printed version.",
+      "char_offset": 1338
+    },
+    {
+      "type": "paragraph",
+      "text": "2. ORIGIN, CLASSIFICATION AND DISTRIBUTION OF SALT-AFFECTED SOILS",
+      "char_offset": 1648
+    },
+    {
+      "type": "paragraph",
+      "text": "2.1 Origin of salts 2.2 Classification 2.3 Mode of formation",
+      "char_offset": 1715
+    },
+    {
+      "type": "paragraph",
+      "text": "3.1.1 Measuring salinity status 3.1.2 Salinity and plant growth",
+      "char_offset": 1777
+    },
+    {
+      "type": "paragraph",
+      "text": "3.3.1 Rice in saline soils 3.3.2 Factors influencing tolerance of crops to salinity 3.3.3 Water management 3.3.4 Nutrient availability and uptake by plants",
+      "char_offset": 1842
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1 Characteristics 4.2 Measuring sodicity/alkali status of soils",
+      "char_offset": 1999
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.1 pH measurement 4.2.2 Evaluating ESP 4.2.3 SAR as an index of sodicity hazards",
+      "char_offset": 2066
+    },
+    {
+      "type": "paragraph",
+      "text": "4.3 Sodic soils and plant growth 4.4 Reclamation and management",
+      "char_offset": 2151
+    },
+    {
+      "type": "paragraph",
+      "text": "4.5.1 Rice as a reclamative crop 4.5.2 Grasses 4.5.3 Trees",
+      "char_offset": 2216
+    },
+    {
+      "type": "paragraph",
+      "text": "4.6 Factors influencing tolerance of crops to exchangeable sodium",
+      "char_offset": 2276
+    },
+    {
+      "type": "paragraph",
+      "text": "4.6.1 Growth stage 4.6.2 Environmental factors 4.6.3 Crop varieties",
+      "char_offset": 2343
+    },
+    {
+      "type": "paragraph",
+      "text": "4.7 Nutrient requirements of crops 4.8 Water management",
+      "char_offset": 2412
+    },
+    {
+      "type": "paragraph",
+      "text": "4.8.1 Drainage 4.8.2 Irrigation 4.8.3 Cultural practices",
+      "char_offset": 2469
+    },
+    {
+      "type": "paragraph",
+      "text": "5. SALINITY PROBLEMS OF THE DRYLAND REGIONS",
+      "char_offset": 2527
+    },
+    {
+      "type": "paragraph",
+      "text": "5.1 Mode of formation 5.2 Factors influencing formation of saline seeps",
+      "char_offset": 2572
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2.1 Excess water 5.2.2 Soil characteristics",
+      "char_offset": 2645
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3 Prevention and management of saline seeps",
+      "char_offset": 2692
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.1 Practices for the recharge area 5.3.2 Practices for the discharge areas",
+      "char_offset": 2739
+    },
+    {
+      "type": "paragraph",
+      "text": "6.1 Hazards associated with water quality",
+      "char_offset": 2818
+    },
+    {
+      "type": "paragraph",
+      "text": "6.1.1 Salinity hazard 6.1.2 Sodicity (alkali) hazard 6.1.3 Toxicity hazard",
+      "char_offset": 2861
+    },
+    {
+      "type": "paragraph",
+      "text": "6.2 Salinity problems 6.3 Management practices for efficient use of high salinity water",
+      "char_offset": 2937
+    },
+    {
+      "type": "paragraph",
+      "text": "6.3.1 More frequent irrigation 6.3.2 Selection of salt tolerant crops and varieties 6.3.3 Use of extra water for leaching 6.3.4 Conjunctive use of fresh and saline waters 6.3.5 Cultural practices",
+      "char_offset": 3026
+    },
+    {
+      "type": "paragraph",
+      "text": "6.4.1 Role of magnesium 6.4.2 Management practices for efficient use of water with sodicity hazard",
+      "char_offset": 3223
+    },
+    {
+      "type": "paragraph",
+      "text": "6.5 The toxicity problem 6.6 Management practices",
+      "char_offset": 3323
+    },
+    {
+      "type": "paragraph",
+      "text": "7. SOCIO-ECONOMIC CONSIDERATIONS IN RECLAMATION AND MANAGEMENT OF SALT-AFFECTED SOILS",
+      "char_offset": 3374
+    },
+    {
+      "type": "paragraph",
+      "text": "7.1 Faulty irrigation schemes 7.2 Extensive vs. intensive irrigation 7.3 Deforestation 7.4 Water pricing 7.5 Size of holding and land consolidation 7.6 Land tenure system 7.7 Role of appropriate technology",
+      "char_offset": 3461
+    },
+    {
+      "type": "paragraph",
+      "text": "7.8 Extension and farmers\u0092 education programmes",
+      "char_offset": 3668
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-20c15b395f792d9e"
+}

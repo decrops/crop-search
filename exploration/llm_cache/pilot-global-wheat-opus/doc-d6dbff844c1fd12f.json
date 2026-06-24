@@ -1,0 +1,64 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 2.5,
+    "unit": "lb/bu",
+    "qualifier": "recommended",
+    "evidence_text": "The South Dakota State University (SDSU) current recommendation is 2.5 lbs of N per bushel, which is reduced by accounting for the various credits",
+    "claim_summary": "SDSU N rate recommendation for wheat is 2.5 lb N per bushel of yield goal, before credits.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 150,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "N recommendation = 150 lbs N acre - 30 lbs NO3-N acre - 40 lbs acre - 0 lbs acre = 80 lbs N acre",
+    "claim_summary": "Example: 60 bu/a yield goal x 2.5 = 150 lb N/acre total required before credits (net 80 lb N/acre after soil N and legume credits).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "The first application can be made at planting, while the second should be applied prior to jointing or stem elongation (Feekes 4-5). It needs to be pointed out that N fertilizer should not be applied over snow.",
+    "claim_summary": "Split N for wheat: first at planting, second prior to jointing/stem elongation (Feekes 4-5); winter wheat needs low N in fall with rapid uptake in spring.",
+    "extraction_confidence": "high",
+    "bbch_min": 30,
+    "bbch_max": 32
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "N applied too early can increase lodging and excessive tillering, while N applied too late can result in lower yields... Late season N applications do not impact yield and may only increase protein.",
+    "claim_summary": "N applied too early increases lodging and excessive tillering; too late lowers yield; late-season N raises grain protein without yield gain.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.lodging_susceptibility",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "N applied too early can increase lodging and excessive tillering... some varieties are very susceptible to lodging",
+    "claim_summary": "Early/excessive N application increases wheat lodging; some varieties are highly lodging-susceptible.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Late season N applications do not impact yield and may only increase protein... The market basis for high-protein wheat will also warrant consideration of in-season N applications.",
+    "claim_summary": "Late-season/in-season N applications increase wheat grain protein without affecting yield.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Post-plant winter wheat Delay until soil temperature < 50 F. Avoid UAN, if leaching is possibility. Subsurface applications are more efficient.",
+    "claim_summary": "Fall post-plant winter wheat N should be delayed until soil temperature is below 50 F; subsurface placement is more efficient than surface.",
+    "extraction_confidence": "medium"
+  }
+]}

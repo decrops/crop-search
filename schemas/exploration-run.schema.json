@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/exploration-run.schema.json",
+  "title": "ExplorationRun",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "version",
+    "crop",
+    "region_scope",
+    "max_results_per_query",
+    "tool_bindings"
+  ],
+  "anyOf": [
+    {
+      "required": ["queries"]
+    },
+    {
+      "required": ["parameter_manifest_path", "crop_profile_path"]
+    }
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "crop": {
+      "type": "string",
+      "minLength": 2
+    },
+    "region_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "name"],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": ["global", "country", "region", "state", "county", "farm"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 2
+        }
+      }
+    },
+    "queries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "max_results_per_query": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "parameter_manifest_path": {
+      "type": "string"
+    },
+    "crop_profile_path": {
+      "type": "string"
+    },
+    "parameter_families": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "parameter_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "queries_per_parameter": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_tier_policy_path": {
+      "type": "string"
+    },
+    "source_tier_policy_id": {
+      "type": "string"
+    },
+    "source_tier_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "query_terms_per_source_tier": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "max_parameters": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "use_source_seeds": {
+      "type": "boolean"
+    },
+    "seed_registry_path": {
+      "type": "string",
+      "description": "Path to a curated seed registry (config/seeds/<crop>.json). Used when source_seeds is absent."
+    },
+    "seed_selector": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Filter applied to registry seeds (crop, region, source_tier_id, source_tier_ids)."
+    },
+    "query_template_path": {
+      "type": "string",
+      "description": "Path to parameter-aware query templates (WS-5)."
+    },
+    "discovery_max_results": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Over-collect cap per query for the discovery ledger (WS-1)."
+    },
+    "seed_mode": {
+      "type": "string",
+      "enum": ["fallback", "augment"],
+      "description": "fallback: seeds used only when live search returns nothing (default). augment: matching seeds always merged alongside live search results."
+    },
+    "source_seeds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_url"],
+        "properties": {
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "snippet": {
+            "type": "string"
+          },
+          "document_type": {
+            "type": "string",
+            "enum": ["html", "pdf", "csv", "json", "other"]
+          },
+          "source_tier_id": {
+            "type": "string"
+          },
+          "parameter_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parameter_families": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "tool_bindings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["search", "fetch", "parse"],
+      "properties": {
+        "search": {
+          "type": "string"
+        },
+        "fetch": {
+          "type": "string"
+        },
+        "parse": {
+          "type": "string"
+        }
+      }
+    },
+    "context_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

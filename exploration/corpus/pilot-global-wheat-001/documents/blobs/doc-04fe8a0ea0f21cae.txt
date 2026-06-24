@@ -1,0 +1,179 @@
+Optimizing water use requires a comprehensive understanding of crop evapotranspiration (ET). Stomatal conductance, soil moisture, and weather greatly influence ET. However, there are a few studies, if any, that have studied the spatial variation of ET derived from on-field conductance observations. The present study utilizes the Penman-Monteith equation along with the conductance observations to account for the spatial variation in ET. These conductance-based ET estimates (ET a−Con ) are compared with the ET values (ET c−PM ) estimated using the dual crop coefficient-based FAO Penman-Monteith (FAO P-M). Also, ET values are derived from a straightforward but novel method using the soil moisture depletion (ET a−SMD ) data and used for comparison. These methods estimate ET for five irrigation treatments. The study examines wheat crops under varying irrigation treatments at an experimental site in western Uttar Pradesh, India. The irrigation treatments are drip (fully irrigated), drip (50% maximum allowable deficit (MAD)), flood (50% MAD), farmers’ field replication, and rainfed treatment, with each treatment having four replications. ET a−SMD values compared well with the ET c−PM estimates for all the treatments except the rainfed treatment. This confirms the potential of using the proposed methodology to accurately capture the spatial variation of ET using soil moisture data. Spatially varied ET a−Con values closely align with ET a−SMD estimates. The lowest mean absolute error occurs for (0.10 mm/day) for ET a-Con is found in the drip (fully irrigated) treatment, followed by flood (50% MAD) (0.20 mm/day), drip (50% MAD) (0.26 mm/day), rainfed (0.30 mm/day), and farmers’ field replication (0.37 mm/day), respectively. ET a−Con estimates are most precise under low water stress. Results suggest that the spatial variation of ET can be accurately assessed using observed conductance data, and conductance-based ET estimates may be a suitable tool for irrigation scheduling.
+
+This is a preview of subscription content, log in via an institution to check access.
+
+No datasets were generated or analysed during the current study.
+
+Allen RG, Pereira LS, Raes D, Smith M (1998) Crop evapotranspiration-Guidelines for computing crop water requirements-FAO Irrigation and drainage paper 56
+
+Allen RG, Pereira LS, Raes D, Smith M, Raes D, Wright JL (2005) Fao-56 dual crop coefficient method for estimating evaporation from soil and application extensions. J Irrig Drain Eng 131(1):2–13
+
+Allen R, Irmak A, Trezza R, Hendrickx JM, Bastiaanssen W, Kjaersgaard J (2011) Satellite-based ET estimation in agriculture using SEBAL and METRIC. Hydrol Process 25(26):4011–4027. https://doi.org/10.1002/hyp.8408
+
+Aphalo PJ, Jarvis PG (1991) Do stomata respond to relative humidity? Plant Cell Environ 14(1):127–132. https://doi.org/10.1111/j.1365-3040.1991.tb01379.x
+
+Asseng S, Ritchie JT, Smucker AJM, Robertson MJ (1998) Root growth and water uptake during water deficit and recovering in wheat. Plant Soil 201:265–273. https://doi.org/10.1023/A:1004317523264
+
+Bahar B, Yildirim M, Barutcular C (2009) Relationships between stomatal conductance and yield components in spring durum wheat under mediterranean conditions. Not Bot Horti Agrobot Cluj-Napoca 37(2):45–48. https://doi.org/10.15835/nbha3723084
+
+BALL J (1987) A model predicting stomatal conductance and its contribution to the control of photosynthesis under different environmental condition. Progress Photosynthesis Res 221–224
+
+Beck HE, Zimmermann NE, McVicar TR, Vergopolan N, Berg A, Wood EF (2018) Present and future Köppen-Geiger climate classification maps at 1-km resolution. Sci Data 5(1):1–12. https://doi.org/10.1007/978-94-017-0519-6_48
+
+Blaney HF, Criddle WD (1950) Determining water requirements in irrigated areas from climatological irrigation data. Technical Paper No. 96. Washington, DC: US Dept. of Agriculture, Soil Conservation Service
+
+Buckley TN, Mott KA (2013) Modelling stomatal conductance in response to environmental factors. Plant Cell Environ 36(9):1691–1699
+
+Carsel RF, Parrish RS (1988) Developing joint probability distributions of soil water retention characteristics. Water Resour Res 24(5):755–769. https://doi.org/10.1029/WR024i005p00755
+
+Chen JM, Liu J (2020) Evolution of evapotranspiration models using thermal and shortwave remote sensing data. Remote Sens Environ 237:111594. https://doi.org/10.1016/j.rse.2019.111594
+
+Chen D, Gao G, Xu CY, Guo J, Ren G (2005) Comparison of the thornthwaite method and pan data with the standard penman-monteith estimates of reference evapotranspiration in China. Clim Res 28(2):123–132
+
+Condon AG, Richards RA, Rebetzke GJ, Farquhar GD (2002) Improving intrinsic water-use efficiency and crop yield. Crop Sci 42(1):122–131. https://doi.org/10.2135/cropsci2002.1220
+
+Dar EA, Brar AS, Singh KB (2017) Water use and productivity of drip irrigated wheat under variable climatic and soil moisture regimes in North-West, India. Agric Ecosyst Environ 248:9–19. https://doi.org/10.1016/j.agee.2017.07.019
+
+Del Pozo A, Pérez P, Morcuende R, Alonso A, Martínez-Carrasco R (2005) Acclimatory responses of stomatal conductance and photosynthesis to elevated CO2 and temperature in wheat crops grown at varying levels of N supply in a mediterranean environment. Plant Sci 169(5):908–916. https://doi.org/10.1016/j.plantsci.2005.06.009
+
+Devi MJ, Sinclair TR, Vadez V, Krishnamurthy L (2009) Peanut genotypic variation in transpiration efficiency and decreased transpiration during progressive soil drying. Field Crops Res 114(2):280–285. https://doi.org/10.1016/j.fcr.2009.08.012
+
+Devitt DA, Sala A, Smith SD, Cleverly J, Shaulis LK, Hammett R (1998) Bowen ratio estimates of evapotranspiration for tamarix ramosissima stands on the Virgin River in southern Nevada. Water Resour Res 34(9):2407–2414. https://doi.org/10.1029/98WR01551
+
+Eamus D, Taylor DT, MACINNIS-NG CM, Shanahan S, De Silva L (2008) Comparing model predictions and experimental data for the response of stomatal conductance and guard cell turgor to manipulations of cuticular conductance, leaf‐to‐air vapour pressure difference and temperature: feedback mechanisms are able to account for all observations. Plant Cell Environ 31(3):269–277. https://doi.org/10.1111/j.1365-3040.2007.01771.x
+
+Ewaid SH, Abed SA, Al-Ansari N (2019) Water footprint of wheat in Iraq. Water 11(3):535. https://doi.org/10.3390/w11030535
+
+Fazackerley S, Lawrence R (2012) Automatic in situ determination of field capacity using soil moisture sensors. Irrig Sci 61(3):416–424. https://doi.org/10.1002/ird.646
+
+Feng Z, Wang L, Pleijel H, Zhu J, Kobayashi K (2016) Differential effects of ozone on photosynthesis of winter wheat among cultivars depend on antioxidative enzymes rather than stomatal conductance. Sci Total Environ 572:404–411. https://doi.org/10.1016/j.scitotenv.2016.08.083
+
+Feng X, Liu H, Feng D, Tang X, Li L, Chang J, Liu R (2023) Quantifying winter wheat evapotranspiration and crop coefficients under sprinkler irrigation using eddy covariance technology in the North China plain. Agric Water Manage 277:108131. https://doi.org/10.1016/j.agwat.2022.108131
+
+Giri G, Upreti H, Singhal GD (2025) Soil moisture extraction patterns for wheat crop under different drip and flood irrigated treatments. ISH J Hydraul Eng 31(2):203–216. https://doi.org/10.1080/09715010.2025.2471338
+
+Hansen JB, Holm PE, Hansen EA, Hjelmar O (2000) Use of lysimeters for characterization of leaching from soil and mainly inorganic waste materials. Nordtest Tech Rep 473
+
+Hargreaves GH, Samani ZA (1982) Estimating potential evapotranspiration. J Irrig Drain Div 108:225–230. https://doi.org/10.1061/JRCEA4.0001390
+
+Hargreaves GH, Samani ZA (1985) Reference crop evapotranspiration from temperature. Appl Eng Agric 1(2):96–99
+
+Hatiye SD, Hari Prasad KS, Ojha CSP (2018) Deep percolation under irrigated water-intensive crops. J Irrig Drain Eng 144(8):04018018
+
+Hetherington AM, Woodward FI (2003) The role of stomata in sensing and driving environmental change. Nature 424(6951):901–908. https://doi.org/10.1038/nature01843
+
+Hua D, Hao X, Zhang Y, Qin J (2020) Uncertainty assessment of potential evapotranspiration in arid areas, as estimated by the Penman-Monteith method. J Arid Land 12:166–180. https://doi.org/10.1007/s40333-020-0093-7
+
+Jin XL, Feng HK, Zhu XK, Li ZH, Song SN, Song XY, Yang GJ, Xu XG, Guo WS (2014) Assessment of the aquacrop model for use in simulation of irrigated winter wheat canopy cover, biomass, and grain yield in the North China Plain. PLoS One 9(1):e86938. https://doi.org/10.1371/journal.pone.0086938
+
+Kottek M, Grieser J, Beck C, Rudolf B, Rubel F (2006) World map of the Köppen-Geiger climate classification updated. Meteorol Z. https://doi.org/10.1127/0941-2948/2006/0130
+
+Lang D, Zheng J, Shi J, Liao F, Ma X, Wang W, Chen X, Zhang M (2017) A comparative study of potential evapotranspiration estimation by eight methods with FAO penman–monteith method in Southwestern China. Water 9(10):734. https://doi.org/10.3390/w9100734
+
+Leuning R (1995) A critical appraisal of a combined stomatal-photosynthesis model for C3 plants. Plant Cell Environ 18(4):339–355. https://doi.org/10.1111/j.1365-3040.1995.tb00370.x
+
+Leuning R, Zhang YQ, Rajaud A, Cleugh H, Tu K (2008) A simple surface conductance model to estimate regional evaporation using MODIS leaf area index and the Penman-Monteith equation. Water Resour Res. https://doi.org/10.1029/2007WR006562
+
+Li S, Kang S, Li F, Zhang L (2008) Evapotranspiration and crop coefficient of spring maize with plastic mulch using eddy covariance in Northwest China. Agric Water Manage 95(11):1214–1222. https://doi.org/10.1016/j.agwat.2008.04.014
+
+Lin JD, Sun SE (1983) Moisture and heat flow in soil and theirs effects on bare soil evaporation. Water Conserv 7:1–7 (in Chinese)
+
+Lopez-Urrea R, de Santa Olalla FM, Fabeiro C, Moratalla A (2006) An evaluation of two hourly reference evapotranspiration equations for semiarid conditions. Agric Water Manage 86(3):277–282. https://doi.org/10.1016/j.agwat.2006.05.017
+
+Mei XR, Zhong XL, Vincent V, Liu XY (2013) Improving water use efficiency of wheat crop varieties in the North China Plain: review and analysis. J Integr Agric 12(7):1243–1250. https://doi.org/10.1016/S2095-3119(13)60437-2
+
+Mohan S, Arumugam N (1994) Irrigation crop coefficients for lowland rice. Irrigat Drain Syst 8:159–176. https://doi.org/10.1007/BF00881016
+
+Monteith JL (1973) Principles of environmental physics. American Elsevier, New York, p 241
+
+Mott KA, Parkhurst DF (1991) Stomatal responses to humidity in air and helox. Plant Cell Environ 14(5):509–515. https://doi.org/10.1111/j.1365-3040.1991.tb01521.x
+
+Mukherjee S, Dash PK, Das D, Das S (2023) Growth, yield and water productivity of tomato as influenced by deficit irrigation water management. Environ Processes 10(1):10. https://doi.org/10.1007/s40710-023-00624-z
+
+Nagler PL, Scott RL, Westenburg C, Cleverly JR, Glenn EP, Huete AR (2005) Evapotranspiration on Western US rivers estimated using the enhanced vegetation index from MODIS and data from eddy covariance and Bowen ratio flux towers. Remote Sens Environ 97(3):337–351. https://doi.org/10.1016/j.rse.2005.05.011
+
+Nema MK, Thakur HP, Upreti H, Jain SK, Mishra PK, Thayyen RJ, Jain SK (2022) Estimation of evapotranspiration in lesser Himalayas using remote sensing based surface energy balance algorithm. Geocarto Int 37(3):841–859. https://doi.org/10.1080/10106049.2020.1745300
+
+Nyolei D, Diels J, Mbilinyi B, Mbungu W, van Griensven A (2021) Evapotranspiration simulation from a sparsely vegetated agricultural field in a semi-arid agro-ecosystem using penman-monteith models. Agric for Meteorol 303:108370. https://doi.org/10.1016/j.agrformet.2021.108370
+
+Ortega-Farias S, Olioso A, Antonioletti R, Brisson N (2004) Evaluation of the penman-monteith model for estimating soybean evapotranspiration. Irrig Sci 23:1–9. https://doi.org/10.1007/s00271-003-0087-1
+
+Panda RK, Behera SK, Kashyap PS (2003) Effective management of irrigation water for wheat under stressed conditions. Agric Water Manage 63(1):37–56. https://doi.org/10.1016/S0378-3774(03)00099-4
+
+Penman HL (1948) Natural evaporation from open water, bare soil and grass. Proc R Soc Lond Ser Math Phys Sci 193(1032):120–145. https://doi.org/10.1098/rspa.1948.0037
+
+Pereira LS, Cai LG, Hann MJ (2003) Farm water and soil management for improved water use in the North China Plain. Irrig Drainage J Int Comm Irrig Drain 52(4):299–317. https://doi.org/10.1002/ird.98
+
+Pereira LS, Paredes P, Hunsaker DJ, López-Urrea R, Shad ZM (2021) Standard single and basal crop coefficients for field crops. Updates and advances to the FAO56 crop water requirements method. Agric Water Manage 243:106466. https://doi.org/10.1016/j.agwat.2020.106466
+
+Philip JR (1966) Plant water relations: some physical aspects. Annu Rev Plant Physiol 17(1):245–268. https://doi.org/10.1146/annurev.pp.17.060166.001333
+
+Pietragalla J, Pask A (2012) In: Pask A, Pietragalla J, Mullan D, Reynolds M (eds) Stomatal conductance. Physiological breeding II: a field guide to wheat phenotyping. CIMMYT, México, pp 15–17
+
+Pleijel H, Eriksen AB, Danielsson H, Bondesson N, Selldén G (2006) Differential ozone sensitivity in an old and a modern Swedish wheat cultivar—grain yield and quality, leaf chlorophyll and stomatal conductance. Environ Exp Bot 56(1):63–71. https://doi.org/10.1016/j.envexpbot.2005.01.004
+
+Rafi Z, Merlin O, Le Dantec V, Khabba S, Mordelet P, Er-Raki S, Ferrer F (2019) Partitioning evapotranspiration of a drip-irrigated wheat crop: Inter-comparing eddy covariance-, Sap flow-, lysimeter-and FAO-based methods. Agric for Meteorol 265:310–326. https://doi.org/10.1016/j.agrformet.2018.11.031
+
+Rai RK, Singh VP, Upadhyay A (2017) Planning and evaluation of irrigation projects: methods and implementation. Academic
+
+Schmidt CDS, Pereira FDC, Oliveira AS, Júnior JFG, Vellame LM (2013) Design, installation and calibration of a weighing lysimeter for crop evapotranspiration studies. Water Resour Irrig Manage 2(2):77–85
+
+Sentelhas PC, Gillespie TJ, Santos EA (2010) Evaluation of FAO penman–monteith and alternative methods for estimating reference evapotranspiration with missing data in Southern Ontario. Can Agricultural Water Manage 97(5):635–644. https://doi.org/10.1016/j.agwat.2009.12.001
+
+Shankar V (2007) Modelling of moisture uptake by plants (Doctoral dissertation, Department of Civil Engineering, IIT Roorkee)
+
+Shekar NCS, Nandagiri L (2020) A penman-monteith evapotranspiration model with bulk surface conductance derived from remotely sensed spatial contextual information. Int J Remote Sens 41(4):1486–1511. https://doi.org/10.1080/01431161.2019.1668074
+
+Sinha I, Buttar GS, Brar AS (2017) Drip irrigation and fertigation improve economics, water and energy productivity of spring sunflower ( Helianthus annuus L.) in Indian Punjab. Agric Water Manage 185:58–64. https://doi.org/10.1016/j.agwat.2017.02.008
+
+Talebmorad H, Ahmadnejad A, Eslamian S, Ostad-Ali-Askari K, Singh VP (2020) Evaluation of uncertainty in evapotranspiration values by FAO56-Penman-Monteith and Hargreaves-Samani methods. Int J Hydrology Sci Technol 10(2):135–147. https://doi.org/10.1504/IJHST.2020.106481
+
+Thornthwaite CW (1948) An approach toward a rational classification of climate. Geogr Rev 38(1):55–94
+
+Thornthwaite CW, Mather JR (1955) The water budget and its use in irrigation Water, the Yearbook of Agriculture. U.S. Dept. of Agriculture, Washington, DC 346–358
+
+Tyagi NK, Sharma DK, Luthra SK (2000) Determination of evapotranspiration and crop coefficients of rice and sunflower with lysimeter. Agric Water Manage 45(1):41–54. https://doi.org/10.1016/S0378-3774(99)00071-2
+
+Upreti H, Ojha CSP, Prasad KH (2015) Estimation of deep percolation in sandy loam soil using water balance approach. Irrig Drain Syst Eng S1:1–4
+
+Ventura F, Spano D, Duce P, Snyder RL (1999) An evaluation of common evapotranspiration equations. Irrig Sci 18:163–170. https://doi.org/10.1007/s002710050058
+
+Vu SH, Watanabe H, Takagi K (2005) Application of FAO-56 for evaluating evapotranspiration in simulation of pollutant runoff from paddy rice field in Japan. Agric Water Manage 76(3):195–210. https://doi.org/10.1016/j.agwat.2005.01.012
+
+Watson DJ (1947) Comparative physiological studies on the growth of field crops: I. Variation in net assimilation rate and leaf area between species and varieties, and within and between years. Ann Botany 11(41):41–76. https://www.jstor.org/stable/42907002
+
+World Bank (2023) Water in Agriculture. https://www.worldbank.org/en/topic/water-in-agriculture- (Oct-2023)
+
+Yadav A, Upreti H, Singhal GD (2024a) Crop water stress index and its sensitivity to meteorological parameters and canopy temperature. Theor Appl Climatol 155(4):2903–2915. https://doi.org/10.1007/s00704-023-04768-8
+
+Yadav A, Upreti H, Singhal GD (2024b) Crop water stress index and yield relationships for winter wheat ( Triticum aestivum ) crops grown under different drip and flood irrigated treatments. J Agron Crop Sci. https://doi.org/10.1111/jac.12775
+
+Yang Y, Shang S, Guan H, Jiang L (2013) A novel algorithm to assess gross primary production for terrestrial ecosystems from MODIS imagery. J Geophys Res Biogeosci 118(2):590–605. https://doi.org/10.1002/jgrg.20056
+
+Zhang YJ, Meinzer FC, Qi JH, Goldstein G, Cao KF (2013) Midday stomatal conductance is more related to stem rather than leaf water status in subtropical deciduous and evergreen broadleaf trees. Plant Cell Environ 36(1):149–158
+
+Zhao J, Sun S, Yin Y, Tang Y, Li C, Liang Y, Wang Y, Winkler A, Jiang S (2025) Advancing evapotranspiration modeling with optimized soil and canopy resistance combinations. Water Resour Res 61(6):e2024WR039252. https://doi.org/10.1029/2024WR039252
+
+Zotarelli L, Dukes MD, Romero CC, Migliaccio KW, Morgan KT (2010) Step by step calculation of the Penman-Monteith Evapotranspiration (FAO-56 Method). Institute of Food and Agricultural Sciences. University of Florida 8
+
+The authors express their gratitude for the financial support provided by the research project titled “ Development of AI-Based DSS for Improved Crop Water Use Efficiency under Regulated Deficit Drip Irrigation Regime in the Backdrop of Climate Change (DST/TMD-EWO/WTI/2K19/EWFH/2019/277) .” This project, funded by the Department of Science and Technology, Government of India, played a crucial role in successfully completing this work.
+
+Water Management Field Laboratory, Department of Civil Engineering, Shiv Nadar Institution of Eminence, Greater Noida, Uttar Pradesh, 201314, India
+
+***Manoj Yadav*** : Conceptualization, Methodology, investigation, Data curation, Formal analysis, Validation, Writing – review & editing. ***Hitesh Upreti*** **:** Data curation, Formal analysis, validation. Conceptualization, Validation, Writing – review & editing, Resources, Supervision.
+
+The authors declare no competing interests.
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+
+Yadav, M., Upreti, H. Conductance-based evapotranspiration estimates for wheat crops grown under different irrigation treatments. Theor Appl Climatol 156 , 508 (2025). https://doi.org/10.1007/s00704-025-05738-y
+
+DOI : https://doi.org/10.1007/s00704-025-05738-y
+
+Anyone you share the following link with will be able to read this content:
+
+Sorry, a shareable link is not currently available for this article.
+
+Provided by the Springer Nature SharedIt content-sharing initiative

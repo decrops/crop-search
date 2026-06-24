@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "parameter_id": "soil.drainage_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The drainage system should be designed to remove excess water from the active root zone to prevent crop damage within 24 to 48 hours of excess precipitation.",
+      "claim_summary": "Subsurface drainage should remove excess water from the wheat root zone within 24-48 hours of excess precipitation to prevent crop damage; drains placed 2.5-4 ft deep.",
+      "extraction_confidence": "high",
+      "methods": ["drainage", "tillage"]
+    },
+    {
+      "parameter_id": "water.waterlogging_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "data based on 20 years of yield records from Ontario showed yield increases of 17 bushels per acre (38% increase) for winter wheat and 11 bushels per acre (33% increase) for spring wheat",
+      "claim_summary": "Wheat is sensitive to high water tables/waterlogging; subsurface drainage raised winter wheat yield 38% and spring wheat yield 33% over 20 years.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Over time, the seep area becomes too wet and too saline, either reducing crop performance or preventing crop growth... The salts interfere with water uptake and reduce or even prevent plant growth.",
+      "claim_summary": "Saline seeps reduce or prevent wheat growth; salts interfere with water uptake. Reclamation via intensified cropping in the recharge area.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Some strategies for increasing the cropping intensity include annual cropping instead of fallow. Another strategy is planting alfalfa in the recharge area... planting one-third of the recharge area to alfalfa has been shown to reduce water movement to a seep by one-half",
+      "claim_summary": "To control saline seeps affecting wheat, increase cropping intensity (annual cropping vs fallow) and plant deep-rooted alfalfa in the recharge area.",
+      "extraction_confidence": "medium",
+      "methods": ["crop rotation", "fallow"]
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Since soils with subsurface drainage will dry out and warm up faster in the spring than undrained soils, subsurface drainage can enhance the ability to implement no till and minimum tillage.",
+      "claim_summary": "Subsurface drainage helps wheat soils dry and warm faster in spring, enabling no-till and minimum tillage and reducing compaction risk.",
+      "extraction_confidence": "medium",
+      "methods": ["no-till", "tillage", "drainage"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-6f7c6645fd9da488",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s10668-019-00414-4.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s10668-019-00414-4.pdf",
+  "doi": "https://doi.org/10.1007/s10668-019-00414-4",
+  "title": "Climate change and agriculture in South Asia: adaptation options in smallholder production systems",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "6f7c6645fd9da4884df49189a015b987694948d7788c4c086037e92531a6cc84",
+  "content_hash": "32c0f88af5b3c84c0f0a3c19a8675e2a0b093c13855295a1ed76a7ed416fc860",
+  "text_length": 72489,
+  "publication_date_hint": "2020",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2960778279",
+    "doi": "https://doi.org/10.1007/s10668-019-00414-4",
+    "publication_year": 2019,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/138-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

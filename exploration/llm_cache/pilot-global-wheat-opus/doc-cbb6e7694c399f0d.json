@@ -1,0 +1,15 @@
+{
+  "claims": [
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 3,
+      "range_max": 7,
+      "unit": "percent",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat seeds store well in cold (0°C to 10°C) and dry (3–7% seed moisture).",
+      "claim_summary": "Wheat seed stores well at 3-7% seed moisture content.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

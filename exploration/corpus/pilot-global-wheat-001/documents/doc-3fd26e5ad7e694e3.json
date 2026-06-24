@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-3fd26e5ad7e694e3",
+  "canonical_url": "https://linkinghub.elsevier.com/retrieve/pii/S2351989420304790",
+  "source_url": "https://doi.org/10.1016/j.gecco.2020.e01118",
+  "doi": "https://doi.org/10.1016/j.gecco.2020.e01118",
+  "title": "Redirecting",
+  "source_domain": "doi.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html;charset=UTF-8",
+  "is_metadata_only": true,
+  "text_hash": "",
+  "content_hash": "596e7215c63830d4a107c01eb33052d7f1e39629779a186037da152d7c669b2c",
+  "text_length": 0,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W3031712651",
+    "doi": "https://doi.org/10.1016/j.gecco.2020.e01118",
+    "publication_year": 2020,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/156-linkinghub.elsevier.com.html",
+  "parser_version": "corpus-blocks-1"
+}

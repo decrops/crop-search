@@ -1,0 +1,146 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 141,
+      "range_max": 397,
+      "unit": "plants/m2",
+      "qualifier": "optimum",
+      "evidence_text": "the synthesis-analysis portrayed new insights of differences in AOPD at varying YEs, reducing the AOPD as the attainable yield increases (with AOPD moving from 397 pl m -2 for the low YE to 191 pl m -2 for the high YE)",
+      "claim_summary": "Agronomic optimum plant density for winter wheat ranges ~141-397 plants/m2, decreasing as yield environment increases (397 low YE, 297 medium, 141 high YE).",
+      "extraction_confidence": "high",
+      "methods": ["synthesis-analysis", "field experiment", "quantile regression"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 150,
+      "range_max": 494,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "five winter wheat genotypes sown at five target seeding rates (150, 235, 321, 408, 494 seeds m -2 )",
+      "claim_summary": "Winter wheat field trials used target seeding rates of 150-494 seeds/m2; producers advised 300-350 seeds/m2 for low-medium yield environments.",
+      "extraction_confidence": "high",
+      "methods": ["field experiment"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "range",
+      "range_min": 0.19,
+      "range_max": 0.25,
+      "unit": "m",
+      "qualifier": "typical",
+      "evidence_text": "Each experimental unit was 10 m long by seven rows (0.19-m spaced) except for two site-years (Hutchinson 2015-2016 and Hays 2017-2018) that consisted of six rows (0.25-m spaced).",
+      "claim_summary": "Winter wheat rows spaced 0.19-0.25 m apart in Kansas field trials.",
+      "extraction_confidence": "high",
+      "methods": ["field experiment"]
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 11.8,
+      "range_max": 36,
+      "unit": "g",
+      "qualifier": "observed",
+      "evidence_text": "The thousand-kernel weight was not significantly affected by any of the explanatory variables and varied from 11.8 to 36 g",
+      "claim_summary": "Thousand-kernel weight in winter wheat ranged 11.8-36 g, not significantly affected by plant density, yield environment or tillering potential.",
+      "extraction_confidence": "high",
+      "methods": ["field experiment"]
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "range",
+      "range_min": 20.7,
+      "range_max": 26.4,
+      "unit": "count",
+      "qualifier": "observed",
+      "evidence_text": "kernels per head was greatest at the <100 PD group (c.a., 26.4), and lowest when PD group >300 (c.a., 20.7 to 21.2)",
+      "claim_summary": "Kernels per head (grains per spike) in winter wheat ranged ~20.7-26.4, decreasing with increasing plant density.",
+      "extraction_confidence": "high",
+      "methods": ["field experiment"]
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "range",
+      "range_min": 680,
+      "range_max": 893,
+      "unit": "count",
+      "qualifier": "observed",
+      "evidence_text": "Averaged across YE and TP, heads m -2 increased from 680 to 893 as PD group increased from <100 to >400, respectively.",
+      "claim_summary": "Head (spike) density in winter wheat ranged 680-893 heads/m2, increasing with plant density.",
+      "extraction_confidence": "high",
+      "methods": ["field experiment"]
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "numeric",
+      "numeric_value": 0.4,
+      "unit": "ratio",
+      "qualifier": "typical",
+      "evidence_text": "Considering a radiation use efficiency of 1.4 g MJ -1 and a harvest index of 0.4 ( Lollato and Edwards, 2015 )",
+      "claim_summary": "Typical winter wheat harvest index of 0.4 used for yield potential calculations.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 1.4,
+      "unit": "g/MJ",
+      "qualifier": "typical",
+      "evidence_text": "Considering a radiation use efficiency of 1.4 g MJ -1 and a harvest index of 0.4 ( Lollato and Edwards, 2015 )",
+      "claim_summary": "Winter wheat radiation use efficiency of 1.4 g/MJ used for yield potential estimation.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.canopy_cover",
+      "value_type": "range",
+      "range_min": 67,
+      "range_max": 82,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "fractional green canopy cover was as high as 82% in the medium YE but never surpassed 67% in the low YE",
+      "claim_summary": "Fractional green canopy cover in winter wheat peaked at 67% (low YE) to 82% (medium YE).",
+      "extraction_confidence": "high",
+      "methods": ["canopy imaging"]
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 13,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "Grain moisture content was measured at harvest time and yields corrected for 130 g kg -1 moisture content.",
+      "claim_summary": "Winter wheat grain yields corrected to 130 g/kg (13%) moisture content at harvest.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 55,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Diammonium phosphate (18-46-0) was applied in-furrow at sowing at a rate of 55 kg ha -1 .",
+      "claim_summary": "Diammonium phosphate (18-46-0) applied in-furrow at 55 kg/ha at sowing for winter wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Nitrogen fertilizer was applied as urea (46-0-0) during early spring in rates sufficient to meet a yield goal of 4.7 Mg ha -1",
+      "claim_summary": "Nitrogen applied as urea in early spring for winter wheat to meet yield goal.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "while lodging is recognized as a reoccurring issue in wheat grown under high populations ... it ranged from non-existing to moderate in most of the site-years studied",
+      "claim_summary": "Lodging is a recurring issue in wheat grown under high plant populations.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

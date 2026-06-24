@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Combining nitrogen and sulphur together increases nitrogen use efficiency so means more for your money with less wastage",
+      "claim_summary": "Applying nitrogen together with sulphur increases wheat nitrogen use efficiency and reduces N wastage.",
+      "extraction_confidence": "medium",
+      "methods": ["fertilization"]
+    }
+  ]
+}

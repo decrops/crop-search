@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-6b4b619e457172a7",
+  "canonical_url": "https://en.wikipedia.org/wiki/Fertilizer",
+  "source_url": "https://en.wikipedia.org/wiki/Fertilizer",
+  "doi": "",
+  "title": "Fertilizer - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "6b4b619e457172a7f9ece8b5d2aa7fd5784f1db5b4304049494b373db32ba788",
+  "content_hash": "88a028b21aa11cfb380fe633c3e4fc7a8e5e864354cb8a177d1674f16e6f60e0",
+  "text_length": 46968,
+  "publication_date_hint": "1961",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 37401
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/153-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

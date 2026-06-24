@@ -1,0 +1,11 @@
+{
+  "id": "source-policy-default",
+  "version": "0.1.0",
+  "pack_type": "source-policy",
+  "title": "Source policy",
+  "content": "Every extracted claim must include source URLs, access dates, extraction notes, and a confidence rating. Search should consider all legally accessible evidence tiers: peer-reviewed science, open textbook/reference material, international institutions, extension/public agronomy publications, and industry/grower guides. Paywalled scientific papers or books may be used for metadata discovery, but claim extraction requires accessible text. Unsupported claims must remain in staging.",
+  "references": [
+    "SEARCH_EXPLORATION_SUMMARY.md"
+  ],
+  "updated_at": "2026-05-30T00:00:00Z"
+}

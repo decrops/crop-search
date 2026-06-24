@@ -1,0 +1,2 @@
+[console_scripts]
+crop-framework = crop_search_framework.cli:main

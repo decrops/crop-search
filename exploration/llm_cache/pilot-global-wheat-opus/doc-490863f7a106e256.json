@@ -1,0 +1,34 @@
+{"claims": [
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "range",
+    "range_min": 7,
+    "range_max": 22,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "The protein content of wheat may range from 7 to 22%, but mostly lies between 10 and 15% (53).",
+    "claim_summary": "Wheat grain protein content ranges from 7 to 22%, most commonly 10-15%.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "range",
+    "range_min": 10,
+    "range_max": 15,
+    "unit": "percent",
+    "qualifier": "typical",
+    "evidence_text": "The protein content of wheat may range from 7 to 22%, but mostly lies between 10 and 15% (53).",
+    "claim_summary": "Typical wheat grain protein content is 10-15%.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "numeric",
+    "numeric_value": 12.5,
+    "unit": "percent",
+    "qualifier": "maximum",
+    "evidence_text": "Dry (moisture content <12.5%), cool (<10°C), and pest-free storage of wheat grains protects against crop failure by providing a buffer to ensure nutrition security worldwide.",
+    "claim_summary": "Wheat grains should be stored at a moisture content below 12.5% (with cool temperature) to protect against spoilage.",
+    "extraction_confidence": "medium"
+  }
+]}

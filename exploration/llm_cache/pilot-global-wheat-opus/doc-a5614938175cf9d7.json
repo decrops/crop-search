@@ -1,0 +1,114 @@
+{"claims": [
+  {
+    "parameter_id": "temperature.germination_temperature",
+    "value_type": "range",
+    "range_min": 54,
+    "range_max": 77,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Temperatures between 54 and 77 degrees Fahrenheit are optimal for germination.",
+    "claim_summary": "Optimal wheat germination temperature is 54-77 F (12-25 C). NOTE: values reported in Fahrenheit.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "range",
+    "range_min": 3,
+    "range_max": 8,
+    "unit": "days",
+    "qualifier": "threshold",
+    "evidence_text": "Vernalization requirements range from three to eight weeks of temperatures below 50 degrees Fahrenheit.",
+    "claim_summary": "Winter wheat vernalization requires 3-8 weeks below 50 F (10 C). NOTE: unit is weeks.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "range",
+    "range_min": 15,
+    "range_max": 25,
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "Scout for proper emergence with a targeted stand of 15 to 25 plants per square foot, depending on annual precipitation.",
+    "claim_summary": "Target wheat stand of 15-25 plants per square foot. NOTE: unit is plants/ft2.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Ideal time to make single spring nitrogen applications based on yield goal (Feekes 4) ... Ideal time for second nitrogen application if split applying in the spring (Feekes 5) ... Nitrogen application can increase grain protein levels (Feekes 9)",
+    "claim_summary": "Spring N best applied at Feekes 4 (single) or Feekes 4-5 (split); late N at flag leaf raises grain protein.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"],
+    "bbch_min": 30,
+    "bbch_max": 37
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "At this stage [flowering], wheat is extremely susceptible to freeze injury at temperatures below 32 degrees Fahrenheit ... Temperatures below 28 degrees Fahrenheit may cause damage to the developing head [boot]",
+    "claim_summary": "Wheat freeze damage: <24F jointing, <28F boot, <30F heading, <32F flowering (most sensitive). NOTE: F.",
+    "extraction_confidence": "high",
+    "bbch_min": 31,
+    "bbch_max": 65
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "numeric",
+    "numeric_value": 15,
+    "unit": "percent",
+    "qualifier": "recommended",
+    "evidence_text": "Harvest as soon as grain moisture reaches 15 percent to avoid losses in test weight and grain quality.",
+    "claim_summary": "Harvest wheat as soon as grain moisture reaches 15%.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "harvest.physiological_maturity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Kernel moisture decreases from 40 to 30 percent during ripening. Kernels achieve maximum dry weight and are physiologically mature [Feekes 11.3 hard dough].",
+    "claim_summary": "Wheat reaches physiological maturity (max dry weight) at hard dough, grain moisture 40-30%.",
+    "extraction_confidence": "high",
+    "bbch_min": 87,
+    "bbch_max": 87
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Crop water use is about 0.1 inch per day [Feekes 5] ... demand increases to about 0.25 inch per day [Feekes 6] ... about 0.3 inch per day [Feekes 8] ... can exceed 0.3 inch per day during heading through the soft dough stage",
+    "claim_summary": "Wheat crop water use rises from ~0.1 in/day (Feekes 5) to >0.3 in/day (heading-soft dough). NOTE: in/day.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 40,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "Soil test and ensure 30 to 40 pounds of nitrogen per acre are available for fall growth.",
+    "claim_summary": "Ensure 30-40 lb N/acre available for wheat fall growth.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "If fewer than 70 tillers per square foot are present, an early nitrogen application can increase spring tillering and help compensate for thin stands.",
+    "claim_summary": "Below 70 tillers/ft2, early N application recommended to boost wheat tillering.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "canopy.canopy_cover",
+    "value_type": "numeric",
+    "numeric_value": 60,
+    "unit": "percent",
+    "qualifier": "recommended",
+    "evidence_text": "Manage stocking density in dual-purpose wheat systems and try to maintain 60 percent canopy coverage.",
+    "claim_summary": "Maintain 60% canopy coverage in dual-purpose (grazed) wheat.",
+    "extraction_confidence": "medium"
+  }
+]}

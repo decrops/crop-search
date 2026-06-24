@@ -1,0 +1,100 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Air and soil growing degree days were calculated according to Method 1 of McMaster and Wilhelm (1997): ... and T base is equal to 0 °C (Baker et al., 1986; McMaster and Smika, 1988).",
+      "claim_summary": "Base temperature for wheat GDD calculation is 0 °C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 30,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "wheat leaves should appear faster as soil temperature near the shoot apex increases, at least up to some optimum temperature (usually about 25–30 °C).",
+      "claim_summary": "Optimum temperature for wheat leaf appearance is about 25–30 °C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "range",
+      "range_min": 68,
+      "range_max": 77,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "the pooled phyllochrons for both temperature treatments within a planting date ranged from 68 (PD1, 1998) to 77 (PD1, 1999) air GDD",
+      "claim_summary": "Spring wheat phyllochron (air-GDD leaf appearance interval) ranged 68–77 GDD across planting dates.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "numeric",
+      "numeric_value": 74,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "A mean phyllochron of 74 air growing degree days (Table) would suggest about 2·7 (PD1), 2·3 (PD2) and 1·8 (PD3) more leaves appearing in the +3C treatments.",
+      "claim_summary": "Mean spring wheat phyllochron about 74 air GDD per leaf.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "numeric",
+      "numeric_value": 2,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Two centimetres of soil were placed on top of the seeds and thermocouples, resulting in a 2 cm seed depth.",
+      "claim_summary": "Spring wheat sown at 2 cm seed depth.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 250,
+      "unit": "plants/m2",
+      "qualifier": "observed",
+      "evidence_text": "Seed spacing was 2 cm, giving a density of 250 seeds m –2.",
+      "claim_summary": "Seeding density of 250 seeds per m2.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 39,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "fertilizer was broadcast at a rate of 39 kg N ha –1 and 22 kg P ha –1.",
+      "claim_summary": "Nitrogen applied at 39 kg N/ha (broadcast).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization", "broadcasting"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 22,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "fertilizer was broadcast at a rate of 39 kg N ha –1 and 22 kg P ha –1.",
+      "claim_summary": "Phosphorus applied at 22 kg P/ha (broadcast).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization", "broadcasting"]
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "value_type": "numeric",
+      "numeric_value": 90,
+      "unit": "percent",
+      "qualifier": "minimum",
+      "evidence_text": "Emergence was greater than 90 % for all treatments.",
+      "claim_summary": "Seedling emergence exceeded 90% across treatments.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

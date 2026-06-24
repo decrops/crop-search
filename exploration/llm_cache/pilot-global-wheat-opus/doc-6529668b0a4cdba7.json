@@ -1,0 +1,48 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 120,
+      "range_max": 180,
+      "unit": "kg/ha",
+      "qualifier": "optimum",
+      "evidence_text": "a 96% relative yield in wheat can be obtained by maintaining an NNI value of 0.93 at the jointing stage by increasing the N dose from 120 to 180 kg N ha −1",
+      "claim_summary": "Optimal N dose for spring wheat (cv HD-3086) to achieve 96% relative yield is 180 kg N/ha (raised from 120), keeping NNI 0.93 at jointing.",
+      "extraction_confidence": "high",
+      "bbch_min": 31,
+      "bbch_max": 33
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "a 96% relative yield in wheat can be obtained by maintaining an NNI value of 0.93 at the jointing stage by increasing the N dose from 120 to 180 kg N ha −1",
+      "claim_summary": "In-season N management based on NNI/CNDC; N applied at the jointing stage to maintain target nitrogen nutrition index.",
+      "extraction_confidence": "medium",
+      "bbch_min": 31,
+      "bbch_max": 33
+    },
+    {
+      "parameter_id": "nutrients.critical_tissue_nitrogen",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "the CNDC(G) developed in this study is: Nc = 3.74W −0.431 for a biomass range of 0.96–10.57 tons ha −1",
+      "claim_summary": "Critical N dilution curve for spring wheat: Nc = 3.74 W^-0.431 (%N vs aboveground biomass W in t/ha) for biomass 0.96-10.57 t/ha.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "range",
+      "range_min": 0.96,
+      "range_max": 10.57,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "Nc = 3.74W −0.431 for a biomass range of 0.96–10.57 tons ha −1",
+      "claim_summary": "Aboveground biomass range over which the critical N dilution curve applies for spring wheat: 0.96-10.57 t/ha.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "claims": [
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "numeric",
+      "numeric_value": 8.0,
+      "unit": "pH",
+      "qualifier": "observed",
+      "evidence_text": "The soil of the experimental plot was sandy loam in texture, nearly neutral in soil reaction (pH 8.0), organic carbon (0.62%), available N (225 kg/ha), available P (38.2 kg/ha), and available K (240.7 kg/ha).",
+      "claim_summary": "Experimental wheat field soil pH was 8.0 (moderately alkaline sandy loam).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The experimental soil was sandy loam, moderately alkaline (pH 8.0), containing 0.62% organic carbon, with available 225 kg N, 38.2 kg P, and 240.7 kg K per hectare.",
+      "claim_summary": "Wheat was grown successfully on a sandy loam textured soil.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 120,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "the recommended fertilizer doses of nitrogen, phosphorus, and potassium (120:80:60 N:P:K kg/ha) were uniformly applied across all plots.",
+      "claim_summary": "Recommended nitrogen rate for wheat was 120 kg N/ha (NPK 120:80:60).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 80,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "the recommended fertilizer doses of nitrogen, phosphorus, and potassium (120:80:60 N:P:K kg/ha) were uniformly applied across all plots.",
+      "claim_summary": "Recommended phosphorus rate for wheat was 80 kg/ha (as P in NPK 120:80:60).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 60,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "the recommended fertilizer doses of nitrogen, phosphorus, and potassium (120:80:60 N:P:K kg/ha) were uniformly applied across all plots.",
+      "claim_summary": "Recommended potassium rate for wheat was 60 kg/ha (as K in NPK 120:80:60).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 20,
+      "unit": "cm",
+      "qualifier": "recommended",
+      "evidence_text": "closer spacing of 20 x 10 cm with variety HD-2967 (T1) performed superiorly over other treatments... it may be concluded that the 20 x 10 cm spacing with variety HD-2967 proved most effective for achieving higher yield and economic returns",
+      "claim_summary": "20 cm row spacing (20x10 cm) gave the best wheat growth and yield.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 104.37,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "the combination of 20 cm x 10 cm spacing with variety HD-2967 (T1) resulted in the greatest plant height, reaching 104.37 cm.",
+      "claim_summary": "Maximum wheat plant height observed was 104.37 cm (HD-2967, 20x10 cm).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "numeric",
+      "numeric_value": 101.93,
+      "unit": "tillers/m2",
+      "qualifier": "observed",
+      "evidence_text": "The maximum number of tillers per square meter (101.93) was recorded under the treatment combining 20 cm x 10 cm spacing with variety HD-2967 (T1), which was significantly higher than all other treatments.",
+      "claim_summary": "Maximum wheat tiller density observed was 101.93 tillers/m2.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "numeric",
+      "numeric_value": 84.94,
+      "unit": "spikes/m2",
+      "qualifier": "observed",
+      "evidence_text": "At harvest, the highest number of spikes per square meter (84.94) was observed under the treatment comprising 20 cm x 10 cm spacing with variety HD-2967 (T1), which was significantly superior to all other treatments.",
+      "claim_summary": "Maximum wheat spike density observed was 84.94 spikes/m2.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "numeric",
+      "numeric_value": 41.23,
+      "unit": "g",
+      "qualifier": "observed",
+      "evidence_text": "At harvest, the highest test weight (41.23 g) was recorded under the treatment comprising 20 cm x 10 cm spacing with variety HD-2967 (T1), which was significantly superior to all other treatments.",
+      "claim_summary": "Highest 1000-grain (test) weight observed was 41.23 g (HD-2967, 20x10 cm).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "numeric",
+      "numeric_value": 38.97,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "the highest harvest index (38.97%) was recorded under the 20 cm x 10 cm spacing in combination with the HD-2967 variety (T1).",
+      "claim_summary": "Highest wheat harvest index observed was 38.97%.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

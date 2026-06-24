@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-67724dfb05cd2162",
+  "canonical_url": "https://ageconsearch.umn.edu/nanna/record/281822/files/Water-wise.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1",
+  "source_url": "https://ageconsearch.umn.edu/record/281822/files/Water-wise.pdf",
+  "doi": "https://doi.org/10.22004/ag.econ.281822",
+  "title": "Water-wise Rice Production",
+  "source_domain": "ageconsearch.umn.edu",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "67724dfb05cd2162607fc0f0895add0afe03e105d91f9be01a8949ceb56d4647",
+  "content_hash": "07aa31d1649bb72eba57f3695bb4f3eb3a4e741bbb9bfcd6c8eddbc98d998d56",
+  "text_length": 28830,
+  "publication_date_hint": "1960",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W112874940",
+    "doi": "https://doi.org/10.22004/ag.econ.281822",
+    "publication_year": 2002,
+    "is_open_access": true,
+    "open_access_status": "green"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/094-ageconsearch.umn.edu.pdf",
+  "parser_version": "corpus-blocks-1"
+}

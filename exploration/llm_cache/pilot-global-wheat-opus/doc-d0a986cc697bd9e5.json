@@ -1,0 +1,152 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "range",
+    "range_min": 80,
+    "range_max": 100,
+    "unit": "tillers/sq ft",
+    "qualifier": "recommended",
+    "evidence_text": "Fall counts of 80-100 tillers/sq ft indicate a strong stand and good potential for winter survival and yield.",
+    "claim_summary": "Fall tiller counts of 80-100 tillers per square foot indicate a strong wheat stand with good winter survival and yield potential.",
+    "extraction_confidence": "high",
+    "bbch_min": 22,
+    "bbch_max": 26
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "range",
+    "range_min": 50,
+    "range_max": 80,
+    "unit": "tillers/sq ft",
+    "qualifier": "threshold",
+    "evidence_text": "Fields with tillers between 80 and 50 may respond to nitrogen fall applications, but responses will be more variable and less predictable",
+    "claim_summary": "Wheat fields with 50-80 tillers per square foot in fall may respond variably to fall nitrogen applications.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "numeric",
+    "numeric_value": 50,
+    "unit": "tillers/sq ft",
+    "qualifier": "threshold",
+    "evidence_text": "If less than 50 tillers per sq foot, a nitrogen application of 15-30 lbs/acre will encourage fall tillering.",
+    "claim_summary": "Below 50 tillers per square foot in fall, a nitrogen application is recommended to encourage tillering.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 15,
+    "range_max": 30,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "If less than 50 tillers per sq foot, a nitrogen application of 15-30 lbs/acre will encourage fall tillering.",
+    "claim_summary": "A fall nitrogen application of 15-30 lb/acre is recommended for low-tiller wheat stands to encourage tillering.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "most wheat varieties benefit much more from spring nitrogen than fall nitrogen",
+    "claim_summary": "Most wheat varieties benefit more from spring nitrogen than fall nitrogen application.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "For fields with a yield potential of 75 to 90%, a first top-dressing application close to green-up, Feeks 3-4 to promote tillering... and a second top-dressing application around Feeks 6-8 to apply the remainder.",
+    "claim_summary": "For 75-90% yield potential wheat fields, split nitrogen: first top-dress at Feekes 3-4 (green-up), second at Feekes 6-8.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization", "top-dressing"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "For fields with a potential of 90% or greater, nitrogen should be applied between Feeks 3 and 6, with potential for a second application around Feeks 8",
+    "claim_summary": "For wheat fields with 90%+ yield potential, apply nitrogen between Feekes 3 and 6, with a possible second application near Feekes 8.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 1.0,
+    "unit": "lb/bu",
+    "qualifier": "recommended",
+    "evidence_text": "the Pennsylvania Agronomy Guide recommends 1.0 lbs of nitrogen per bushel of expected wheat. A 100-bu/acre field needs 100 total nitrogen units.",
+    "claim_summary": "Wheat nitrogen requirement is recommended at 1.0 lb N per bushel of expected yield (total fertilizer plus soil N).",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "numeric",
+    "numeric_value": 19,
+    "unit": "plants/sq ft",
+    "qualifier": "observed",
+    "evidence_text": "If the field is averaging 19 plants per square foot, the yield potential is 90-95%. If the average is 10 plants per square foot, the yield potential will be closer to 55%.",
+    "claim_summary": "A wheat spring stand averaging 19 plants/sq ft gives 90-95% yield potential; 10 plants/sq ft gives ~55%.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 35,
+    "unit": "plants/sq ft",
+    "qualifier": "optimum",
+    "evidence_text": "Table 2: ... Final Stand (%) 100 | Plants per sq. ft. 30-35 | Plants per sq. yd. 270-315 | Potential Yield 100",
+    "claim_summary": "A full (100%) wheat stand corresponds to 30-35 plants per square foot for 100% yield potential.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "numeric",
+    "numeric_value": 15,
+    "unit": "plants/sq ft",
+    "qualifier": "threshold",
+    "evidence_text": "Fields with stand counts below 15 plants per square foot have yield potential below 75 percent (Table 2) and should not be kept; instead, they should be rotated into corn or soybeans.",
+    "claim_summary": "Wheat fields below 15 plants/sq ft have under 75% yield potential and should be rotated out rather than kept.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "management.rotation_recommendation",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Fields with stand counts below 15 plants per square foot ... should not be kept; instead, they should be rotated into corn or soybeans.",
+    "claim_summary": "Poor wheat stands (<15 plants/sq ft) should be rotated into corn or soybeans.",
+    "extraction_confidence": "high",
+    "methods": ["crop rotation"]
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Consider drowned out in low-lying spots, heaving or the pushing of the plant out of the soil, and exposed roots. These problems are more prevalent in low areas and areas of high clay content.",
+    "claim_summary": "Winter frost heaving pushes wheat plants out of the soil exposing roots, more prevalent in low-lying, high-clay areas.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "water.waterlogging_sensitivity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Consider drowned out in low-lying spots... These problems are more prevalent in low areas and areas of high clay content.",
+    "claim_summary": "Wheat is subject to drowning out in low-lying waterlogged spots, especially in high-clay soils.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 7.5,
+    "unit": "inches",
+    "qualifier": "observed",
+    "evidence_text": "if you count 80 plants in 2 feet, on 7.5-inch spacing, that equals 64 plants/sq foot.",
+    "claim_summary": "Example wheat row spacing of 7.5 inches used for converting row counts to plants per square foot.",
+    "extraction_confidence": "medium"
+  }
+]}

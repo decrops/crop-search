@@ -1,0 +1,108 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "range",
+    "range_min": 60,
+    "range_max": 70,
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "A harvest objective with current varieties grown in Virginia should be 60-70 heads/sq. ft. with at least 30 kernels/head.",
+    "claim_summary": "Wheat harvest objective in Virginia is 60-70 heads per square foot (unit as stated: heads/sq ft).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.grains_per_spike",
+    "value_type": "numeric",
+    "numeric_value": 30,
+    "unit": "count",
+    "qualifier": "minimum",
+    "evidence_text": "A harvest objective with current varieties grown in Virginia should be 60-70 heads/sq. ft. with at least 30 kernels/head.",
+    "claim_summary": "Wheat harvest objective is at least 30 kernels per head.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 15,
+    "range_max": 30,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "a moderate amount (15-30 lbs. of N/acre) is all that is needed for establishing a timely planted winter wheat crop.",
+    "claim_summary": "Autumn N for timely-planted winter wheat: a moderate 15-30 lb N/acre to establish the crop and promote fall tillers.",
+    "extraction_confidence": "high",
+    "bbch_min": 10,
+    "bbch_max": 29
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Apply 15 to 30 lbs. N/acre just before planting to stimulate tillering and root development in those situations where residual N availability is less than desired. The N fertilizer should be incorporated in the surface 2 to 4 inches for conventional tillage systems.",
+    "claim_summary": "Apply 15-30 lb N/acre just before planting where residual N is low; incorporate into surface 2-4 inches for conventional tillage, surface application adequate for no-till.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "maximum",
+    "evidence_text": "Nitrogen applications during this period should not exceed 60 lbs. N/acre if split-spring N applications are planned. Applications greater than 60 lbs. N/acre during late winter have not increased yields",
+    "claim_summary": "Late-winter/early-spring N should not exceed 60 lb N/acre when split-spring applications are planned; higher rates did not increase yield.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "lb/acre",
+    "qualifier": "maximum",
+    "evidence_text": "Total spring N applications (growth stage 25 plus growth stage 30) should not exceed a total of 120 lbs. N/acre in order to avoid problems with lodging and yield loss.",
+    "claim_summary": "Total spring N (GS25 + GS30) should not exceed 120 lb N/acre to avoid lodging and yield loss; up to 120 lb/acre at GS30 if none applied at GS25.",
+    "extraction_confidence": "high",
+    "bbch_min": 25,
+    "bbch_max": 30
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "If tiller numbers are low, 50/sq. ft. or less, N fertilization at this time is critical... If tiller numbers are high, 100/sq. ft. or more, no N application is needed at this time.",
+    "claim_summary": "Tiller density thresholds at spring greenup (GS25): <=50 tillers/sq ft is low (N critical), >=100 tillers/sq ft is high (no N needed); 90/sq ft delays single application to GS30.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.lodging_susceptibility",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "a single early application will result in too many tillers, leading to spindly shoots, too many leaves, and increased probability of disease and lodging.",
+    "claim_summary": "Excessive/early spring N produces too many tillers and spindly shoots, increasing disease and lodging probability in wheat.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Foliar applications (10 to 20 lbs. N/acre) of urea at this growth stage have been shown to increase grain protein but not yield.",
+    "claim_summary": "Foliar urea (10-20 lb N/acre) at/after flowering increases wheat grain protein but not yield.",
+    "extraction_confidence": "high",
+    "bbch_min": 60,
+    "bbch_max": 69
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "if soil nitrate levels are less than 10 ppm NO3--N in the top 6 inches of soil, the emerging seedlings are likely to exhibit N deficiency symptoms. Extractable nitrate levels of 30 ppm NO3--N in the surface 6 inches... indicate a high level of N availability and no fertilizer N application is required.",
+    "claim_summary": "Soil nitrate <10 ppm NO3-N in top 6 in causes wheat seedling N deficiency; 30 ppm indicates high availability and no fall N needed.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.minimum_growth_temperature",
+    "value_type": "numeric",
+    "numeric_value": 50,
+    "unit": "fahrenheit",
+    "qualifier": "threshold",
+    "evidence_text": "an expectation for the specific site that several growing days (temperatures of 50 degrees F or greater) will occur in January and early February.",
+    "claim_summary": "Wheat growing days require temperatures of 50 F or greater; used to judge whether January N application will be utilized.",
+    "extraction_confidence": "medium"
+  }
+]}

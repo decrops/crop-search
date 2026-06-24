@@ -1,0 +1,130 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "range",
+      "range_min": 0.05,
+      "range_max": 0.21,
+      "unit": "g/mm",
+      "qualifier": "observed",
+      "evidence_text": "Among the F 3 wheat populations, the WUE gy ranged from 0.05 g mm −1 (LM47 X LM70) to 0.21 g mm −1 (BW141 X LM71) under DS conditions",
+      "claim_summary": "Grain-yield water productivity (WUEgy) of F3 wheat populations ranged 0.05-0.21 g/mm under drought-stressed conditions",
+      "extraction_confidence": "high",
+      "methods": ["drip irrigation", "rainout shelter", "drought stress"]
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "numeric",
+      "numeric_value": 0.11,
+      "unit": "g/mm",
+      "qualifier": "typical",
+      "evidence_text": "the WUE gy was lower under drought-stressed (0.11 g mm −1 ) than non-stressed conditions (0.13 g mm −1 )",
+      "claim_summary": "Mean grain-yield water productivity of wheat was 0.11 g/mm under drought stress vs 0.13 g/mm non-stressed",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 94.0,
+      "range_max": 95.67,
+      "unit": "days",
+      "qualifier": "minimum",
+      "evidence_text": "the earliest maturing genotypes under drought stress included LM26 X BW140 and LM48 X BW141 and reached DTM at 95.00 and 95.25 days... under non-stressed, the genotypes LM47 X LM70 and BW152 X LM70 reached DTM at 94.00 and 95.67 days",
+      "claim_summary": "Earliest-maturing wheat genotypes reached 50% maturity at about 94-95.7 days after sowing",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 81.09,
+      "unit": "cm",
+      "qualifier": "typical",
+      "evidence_text": "The overall mean for plant height (PH) was higher under drought stress (81.09 cm) than non-stressed (80.43 cm).",
+      "claim_summary": "Mean wheat plant height was ~81 cm (80.4-81.1 cm across water regimes)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.root_shoot_ratio",
+      "value_type": "range",
+      "range_min": 0.09,
+      "range_max": 0.29,
+      "unit": "ratio",
+      "qualifier": "observed",
+      "evidence_text": "The R:S varied from 0.11 (LM26) to 0.29 (BW152 X LM47) under a drought-stressed environment, whilst under non-stressed conditions, it ranged between 0.09 (LM75 X LM48) to 0.29 (LM47)",
+      "claim_summary": "Wheat root-to-shoot ratio ranged 0.09-0.29 across genotypes and water regimes (mean ~0.18-0.19)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 18.32,
+      "range_max": 20.92,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "the mean HI under drought-stressed conditions was 18.32%, which was lower than the HI under non-stressed conditions, which was 20.92%.",
+      "claim_summary": "Mean wheat harvest index was 18.3% under drought stress and 20.9% non-stressed",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 120.0,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Basal fertilizer was applied at 120, 30, and 30 kg ha −1 of nitrogen, phosphorous, and potassium, respectively.",
+      "claim_summary": "Basal nitrogen applied to wheat at 120 kg/ha",
+      "extraction_confidence": "high",
+      "methods": ["basal fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 30.0,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Basal fertilizer was applied at 120, 30, and 30 kg ha −1 of nitrogen, phosphorous, and potassium, respectively.",
+      "claim_summary": "Basal phosphorus applied to wheat at 30 kg/ha",
+      "extraction_confidence": "high",
+      "methods": ["basal fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 30.0,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Basal fertilizer was applied at 120, 30, and 30 kg ha −1 of nitrogen, phosphorous, and potassium, respectively.",
+      "claim_summary": "Basal potassium applied to wheat at 30 kg/ha",
+      "extraction_confidence": "high",
+      "methods": ["basal fertilization"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 30.0,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "The plot size was a 1 m-long plot with an inter-row spacing of 30 cm and intra-row spacing of 20 cm.",
+      "claim_summary": "Wheat inter-row spacing of 30 cm (intra-row 20 cm) used in the trial",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Limited and variable rainfall conditions during flowering and grain filling stages remain the leading cause of poor yields and quality... water stress was imposed... by withholding irrigation to 35% field capacity from 50% heading to physiological maturity.",
+      "claim_summary": "Wheat flowering and grain-filling stages (heading to physiological maturity) are the drought-sensitive period for yield and quality",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Drought stress significantly reduce grain yield production of wheat genotypes... The mean grain yield value of the F 3 families was higher by 29.42% and WUE by 25.00% than the parental lines under DS conditions.",
+      "claim_summary": "Drought stress significantly reduces wheat grain yield; drought-tolerant water-use-efficient families recommended for water-limited agro-ecologies",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

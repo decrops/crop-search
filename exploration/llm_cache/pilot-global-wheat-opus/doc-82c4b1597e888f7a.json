@@ -1,0 +1,110 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "numeric",
+    "numeric_value": 45,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Application of sulfur fertilizers at 45 kg S ha-1 proved to be efficient in maximizing many parameters like plant height, tiller count, chlorophyll, LAI, dry matter accumulation and yield",
+    "claim_summary": "Sulfur applied at 45 kg S/ha maximized wheat growth parameters and yield (best of 0/15/30/45 levels tested).",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "range",
+    "range_min": 1,
+    "range_max": 6,
+    "unit": "kg/ha",
+    "qualifier": "typical",
+    "evidence_text": "Sulfur requirements for one tonne of seeds range from 1-6 kg for cereals, 5-13 kg for legumes and 5-20 kg for oilseed crops.",
+    "claim_summary": "Cereals (incl. wheat) require 1-6 kg sulfur per tonne of seed produced.",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 125,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Recommended dose of nitrogen, phosphorus and potassium (N:P:K-125:62.5:0) kg ha-1 in the form of urea, di-ammonium phosphate was applied. Half dose of nitrogen... applied as basal dose and the other half... at the time of 1st irrigation.",
+    "claim_summary": "Wheat received 125 kg N/ha (urea/DAP), split half basal and half at first irrigation.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.phosphorus_requirement",
+    "value_type": "numeric",
+    "numeric_value": 62.5,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Recommended dose of nitrogen, phosphorus and potassium (N:P:K-125:62.5:0) kg ha-1... full dose of phosphorus were applied as basal dose",
+    "claim_summary": "Wheat received 62.5 kg P/ha applied as basal dose.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Half dose of nitrogen, full dose of phosphorus were applied as basal dose and the other half of nitrogen was applied at the time of 1st irrigation.",
+    "claim_summary": "Nitrogen on wheat split: half basal at sowing, half at first irrigation.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization", "irrigation"]
+  },
+  {
+    "parameter_id": "quality.test_weight",
+    "value_type": "numeric",
+    "numeric_value": 45.06,
+    "unit": "text",
+    "qualifier": "observed",
+    "evidence_text": "45 kg S ha-1 reported to show the maximum test weight (45.06 g) and grains per ear (44.8) at harvest. The magnitude of increase in test weight... were 12.28 and 15.83 % in L4 (45 kg S ha-1) when compared to L1 (0 kg S ha-1)",
+    "claim_summary": "Wheat 1000-grain test weight reached 45.06 g (g per 1000 kernels) at 45 kg S/ha, a 12.3% increase over no sulfur.",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "morphology.grains_per_spike",
+    "value_type": "numeric",
+    "numeric_value": 44.8,
+    "unit": "text",
+    "qualifier": "observed",
+    "evidence_text": "45 kg S ha-1 reported to show the maximum test weight (45.06 g) and grains per ear (44.8) at harvest",
+    "claim_summary": "Wheat grains per ear reached 44.8 at 45 kg S/ha (15.8% increase over zero-sulfur control).",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 22.5,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "Spacing of 22.5 cm row to row was followed.",
+    "claim_summary": "Wheat sown at 22.5 cm row spacing.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.plant_height",
+    "value_type": "numeric",
+    "numeric_value": 83.7,
+    "unit": "text",
+    "qualifier": "observed",
+    "evidence_text": "Significantly the highest plant height (55.2, 83.7 cm) was obtained in 45 kg S ha-1 at 60 and 90 DAS",
+    "claim_summary": "Wheat plant height reached 83.7 cm at 90 DAS with 45 kg S/ha (vs 76.8 cm at zero sulfur).",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "canopy.leaf_area_index",
+    "value_type": "numeric",
+    "numeric_value": 2.67,
+    "unit": "text",
+    "qualifier": "observed",
+    "evidence_text": "Significant results in LAI were seen at 60 DAS with Bentonite showing the highest LAI (2.67) at 60 DAS",
+    "claim_summary": "Wheat leaf area index reached ~2.67 at 60 DAS under sulfur (Bentonite source).",
+    "extraction_confidence": "low",
+    "methods": ["fertilization"]
+  }
+]}

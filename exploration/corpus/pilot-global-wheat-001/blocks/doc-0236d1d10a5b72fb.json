@@ -1,0 +1,688 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 1,
+      "heading": "Spring Wheat Leaf Appearance and Temperature: Extending the Paradigm?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "GREGORY S MCMASTER",
+      "text": "1 USDA\u2010ARS, Great Plains Systems Research, 301 S. Howes St, Room 353, Fort Collins, CO 80521, USA Find articles by GREGORY S MCMASTER"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "W W WILHELM",
+      "text": "2 USDA\u2010ARS, Soil and Water Conservation Research, 120 Keim Hall, University of Nebraska, Lincoln, NE 68583\u20100934, USA Find articles by W W WILHELM"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "D B PALIC",
+      "text": "1 USDA\u2010ARS, Great Plains Systems Research, 301 S. Howes St, Room 353, Fort Collins, CO 80521, USA Find articles by D B PALIC"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "JOHN R PORTER",
+      "text": "3 KVL, Denmark, Department of Agriculture Services, H\u00f8jbakkerg\u00e5rd All\u00e9\u20102, DK\u20102630 Taastrup, Denmark Find articles by JOHN R PORTER"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "P D JAMIESON",
+      "text": "4 New Zealand Institute for Crop and Food Research, Private Bag 4704, Christchurch, New Zealand Find articles by P D JAMIESON"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Extensive research shows temperature to be the primary environmental factor controlling the phyllochron, or rate of leaf appearance, of wheat ( Triticum aestivum L.). Experimental results suggest that soil temperature at crown depth, rather than air temperature above the canopy, would better predict wheat leaf appearance rates. To test this hypothesis, leaf appearance in spring wheat (\u2018Nordic\u2019) was measured in a 2\u2010year field experiment (Nunn clay loam soil; fine, smectitic, mesic Aridic, Argiustoll) with three planting dates and two soil temperature treatments. One temperature treatment (denoted +3C) consisted of heating the soil at crown depth to 3 \u00b0C above the ambient soil temperature (denoted +0C). Main stem cumulative leaf number was measured at least weekly until flag leaf emergence. Leaf appearance was essentially linear with both air and soil growing degree\u2010days (GDD), although there was a stronger linear relationship with soil GDD in the +0C plants than in +3C plants. A weak positive relationship between planting date and the phyllochron was observed. Unexpectedly, we found that heating the soil did not increase the rate of leaf appearance, as the paradigm would predict. To explain these results, we propose extending the paradigm in two ways. First, three processes are involved in leaf appearance: (1) cell division at the shoot apex forms the primordium; (2) cell division in the intercalary meristem forms the cells that then (3) expand to produce the leaf. Cell division is predominately controlled by temperature, but cell expansion is considerably more affected by factors other than temperature, explaining the influence of other factors on the phyllochron. Secondly, the vertical distribution of the two meristems and region of cell expansion occur over a significant distance, where temperature varies considerably, and temperature at a specific point (e.g. crown depth) does not account for the entire temperature regime under which leaves are developing."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 2,
+      "heading": "INTRODUCTION",
+      "text": "The role played by environmental factors in determining the phyllochron, or rate of leaf appearance, in grass crops such as wheat, barley ( Hordeum vulgare L.), corn ( Zea mays L.) and rice ( Oryza sativa L.) has been the subject of extensive research. It is widely accepted that temperature primarily controls the phyllochron, with light (photoperiod, and to a lesser degree, quality and intensity) being a secondary factor in certain cultivars (e.g. Porter and Delecolle, 1989 ; Kirby, 1995 ; Wilhelm and McMaster, 1995 ; McMaster, 1997 ). Less important are factors such as water, CO 2 , nutrient availability and salinity, and these factors must usually reach a threshold before reduced rates of leaf appearance are observed (e.g. Maas and Grieve, 1990 ; Longnecker et al ., 1993 ; McMaster et al ., 1999 ). Effects of temperature on leaf appearance rates are usually quantified using some form of thermal time. Air temperature above the canopy has most frequently been used to calculate thermal time (in growing degree\u2010days, GDD). When describing the phyllochron as a function of air thermal time, the relationship under field conditions is viewed as linear, particularly for temperatures near 20 \u00b0C (e.g. Hay and Wilson, 1982 ; Klepper et al ., 1982 ; Hunt and Chapleau, 1986 ; Frank and Bauer, 1995 ; Kirby, 1995 ; Porter and Gawith, 1999 ). However, growth chamber experiments and some field experiments have shown that under closely controlled conditions the phyllochron has a curvilinear response to temperature (e.g. Friend et al ., 1962 ; Peacock, 1975 a , b ; Cao and Moss, 1989 ; Hay and Delecolle, 1989 ; Slafer and Rawson, 1997 ; Van Esbroeck, 1997 ). Occasional changes (either an increase or decrease) in the phyllochron near the developmental growth stage of double ridge have been reported (e.g. Baker et al ., 1986 ; Hay and Delecolle, 1989 ; Boone et al ., 1990 ; Hay and Kemp, 1990 ; Cao and Moss, 1991 ; Rickman and Klepper, 1995 ), but predicting the conditions that cause these shifts, as well as the degree and direction of the shift, is currently impossible. A number of equations to predict the phyllochron have been evaluated ( Bindi et al ., 1994 ; McMaster and Wilhelm, 1995 ), but it is clear that the mechanisms controlling the phyllochron are not well understood, and predicting the phyllochron using simple quantifications of thermal time are unsatisfactory. Studies have shown that the shoot apex, where leaf primordia are produced and initial leaf growth occurs, perceives temperature directly ( Purvis, 1961 ; Kleinendorst and Brouwer, 1970 ; Watts, 1972 ; Peacock, 1975 b ). Therefore, measuring or estimating the shoot apex temperature may improve predictions of the phyllochron. Unfortunately, few data on shoot apex temperature are available and it is difficult to measure. A reasonable hypothesis is that soil temperature near the crown would better reflect shoot apex temperature than air temperature above the canopy, at least while the shoot apex is still located in the crown of the plant. For annual grass crops, the shoot apex is in the crown until the developmental growth stage of jointing, when internode elongation raises the shoot apex out of the crown and into the canopy. In wheat, all leaf primordia have been initiated prior to jointing, and most leaves have already appeared ( McMaster, 1997 ). Support for the idea that soil temperature exerts greater control over shoot apex functioning than air temperature when the apex is located in the soil has been shown experimentally; this has been demonstrated indirectly through the long history of root/shoot temperature experiments in growth chambers and glasshouses. It has also been determined more directly through field studies on a wide variety of species where temperature controls were inserted near the shoot apex under closely controlled conditions, or the soil temperature was altered independently of the air temperature by using mulches, altering reflectance/albedo and changing ti"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 2,
+      "heading": "MATERIALS AND METHODS",
+      "text": "The 2\u2010year study, which began in spring 1998, was conducted north\u2010east of Fort Collins, Colorado, USA, at the Colorado State University Horticulture Farm (40\u00b036\u203245 54\u201dN, 104\u00b059\u203241 96\u201dW) on a Nunn clay loam soil (fine, smectitic, mesic Aridic, Argiustoll). Spring wheat ( Triticum aestivum L. \u2018Nordic\u2019, reported to be photoperiod sensitive), was grown in a randomized complete block design with four blocks. Treatments were planting date and soil temperature. Planting dates were 24 March, 13 April and 5 May in 1998, and 16 March, 13 April and 14 May in 1999. The first planting date in a year is denoted as PD1, the second as PD2 and the third as PD3. The two levels of soil temperature at 2\u20133 cm depth were ambient soil temperature (denoted as +0C) and +3 \u00b0C above ambient (denoted as +3C). Plot size was 1 m 2 , with five rows of wheat per plot. Each year before the first planting date, the soil was rototilled to a depth of approx. 15 cm. For each row, a trench was dug to a depth of 6 cm, and then layered with 1 cm of soil, a 1\u00b725\u2010cm\u2010wide strip of heat tape (in the +3C treatment) or duct tape folded to the thickness and width of the heat tape (in the +0C treatment), and 3 cm of soil layered on top of the tape. Next, seeds were placed into the trench along with three thermocouples (in the middle row). Two centimetres of soil were placed on top of the seeds and thermocouples, resulting in a 2 cm seed depth. Seed spacing was 2 cm, giving a density of 250 seeds m \u20132 . Plots were immediately irrigated following planting to ensure uniform germination, and fertilizer was broadcast at a rate of 39 kg N ha \u20131 and 22 kg P ha \u20131 . Plot management consisted of hand weeding and twice monthly (first year) and weekly (second year) irrigations of 19 l water per plot beginning within 2 weeks after planting. Soil temperature at a depth of 2 cm (approximate crown depth) was obtained using copper constantine thermocouples. Three thermocouples were connected in parallel to give a mean output. A Campbell data logger was used to collect soil temperature each minute; daily maximum, minimum and average temperatures were calculated from these data. For each block, when the difference in temperature within a planting date between the +0C and +3C treatments became less than 3 \u00b0C, power was supplied to the heat tape raising the temperature difference to 3 \u00b0C. Temperature differences between soil temperature treatments were maintained within 0\u00b71 \u00b0C of the target ambient 3 \u00b0C. In the second year only, weekly estimates of soil water content were made in plots immediately adjacent to the study area using neutron probe measurements for 0\u201315, 15\u201330, 30\u201360, 60\u201390, 90\u2013120 and 120\u2013150 cm depths using one sampling tube per planting date. Daily weather data were collected, and air temperature was measured at 1\u00b75 m. Seedling emergence for 50 cm of the middle row was observed daily, unless weather conditions did not permit access to the plots or if snow covered the plots. Measurements were made repeatedly on ten plants in the middle row of the plot. Cumulative leaf number ( Haun, 1973 ) was recorded at least weekly for the main stem, and occasionally for primary tillers T0, T1, T2 and T3, and secondary tillers T10 and T11. The culm\u2010naming scheme developed by Klepper et al . (1983 ) was used throughout this study. In the first year only, cumulative leaf number measurements for the second and third planting dates were stopped once the flag leaf had appeared for plants planted on the first planting date. Phyllochrons were calculated by dividing the main stem cumulative leaf number immediately prior to completion of flag leaf growth (determined by formation of the collar) by the accumulated growing degree days from 50 % seedling emergence. Air and soil growing degree days were calculated according to Method 1 of McMaster and Wilhelm (1997 ): where G DD is growing degree days, and T is temperature. and T base is equal to 0 \u00b0C ( Baker et al ., 1986 ; McMaster and Smika, 1988 ). Soil"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "RESULTS",
+      "text": "Temperature and precipitation varied in the 2 years of the study. In 1998, the amount of precipitation that fell between 1 March and 31 August was 43 mm less than the 13\u2010year mean for the site (237 mm), and monthly temperatures varied around the 13\u2010year mean with a difference of only 40 fewer GDD accumulating than the 13\u2010year mean (2536 GDD). In 1999, precipitation was 59 mm greater than the 13\u2010year mean, but this was primarily due to 14 d of rain in late April totalling 141 mm, well above the 13\u2010year mean of 24 mm. If the 13\u2010year April mean is used, then precipitation over the entire period was 178 mm, or 59 mm below the 13\u2010year mean. Monthly temperatures in 1999 varied around the 13\u2010year mean with a difference of only 85 fewer GDD accumulating than the 13\u2010year mean. Heating the soil resulted in significantly earlier seedling emergence ( P < 0\u00b701), regardless of planting date (Figs 1 and 2 ). Seedlings emerged sooner after planting as planting date was delayed, probably because ambient soil temperature increased with later planting dates. However, even though seedling emergence began sooner after planting in the +3C treatment, the final number of seedlings that emerged was similar for all treatments in all years, except for PD1 in 1999, where one plot in the +3C had very low seedling emergence for unknown reasons. Emergence was greater than 90 % for all treatments. Importantly, the results clearly indicate that for all planting dates in each year there were differences in the soil temperature among the treatments. For both years and all planting dates, slightly more leaves were produced on the main stem based on day of the year in the +3C than the +0C treatment (Fig. 3 ; Table ). However, when the earlier seedling emergence in the +3C treatment was taken into account by plotting Haun stage as a function of days after emergence (data not shown), no significant difference was found among treatments. If elevated soil temperature increases the rate of leaf appearance, as the paradigm predicts, then the +3C treatment should increasingly diverge from the +0C curve over time; this did not occur. We can calculate the expected divergence as follows: the pooled phyllochrons for both temperature treatments within a planting date ranged from 68 (PD1, 1998) to 77 (PD1, 1999) air GDD (Fig. 3 ). Leaves appeared over 65 d in PD1 to 55 d in PD2 to 45 d in PD3. Elevating the soil temperature by 3 \u00b0C would result in an additional accumulation from 195 (PD1) to 165 (PD2) to 135 (PD3) soil growing degree days before flag leaf appearance. A mean phyllochron of 74 air growing degree days (Table ) would suggest about 2\u00b77 (PD1), 2\u00b73 (PD2) and 1\u00b78 (PD3) more leaves appearing in the +3C treatments. Alternatively, for a constant final leaf number, the flag leaf would have appeared about 65, 55 or 45 d earlier in the three successive planting date treatments; this was not observed. The Haun stage is often viewed as a function of either air or soil thermal time after emergence, measured in GDD (Figs 4 and 5 ). Little difference in the Haun stage would be expected between treatments when viewed as a function of thermal time, and this expectation was confirmed. When using air thermal time, the Haun stage of plants in the +0C treatment was always slightly less than that of plants in the +3C treatment (Fig. 4 ; and similar results for 1998, data not shown), but the reverse was found when using soil thermal time (Fig. 5 ; and similar results for 1998, data not shown). If the data are analysed in phyllochron form rather than on a leaf number basis, we should expect similar results because these are merely different representations of the same measure. ANOVA showed no interactions between temperature treatments and planting date in either year (Table ). While statistical significance of the temperature and planting date treatments was mixed between years (Tables and ), viewing the results in phyllochron form (Table ) supports the conclusions observed from the Ha"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Table 1.",
+      "text": "ANOVA results for phyllochrons presented in Table 2 1998 1999 Sources d.f. P LSD P LSD Air Block 3 Temperature 1 0\u00b70679 0\u00b71879 Planting date 2 0\u00b70124 4\u00b79 0\u00b70580 3\u00b78 Temp \u00d7 planting date 2 0\u00b76735 0\u00b74335 Soil Block 3 Temperature 1 <0\u00b70001 5\u00b78 <0\u00b70001 6\u00b71 Planting date 2 0\u00b71656 <0\u00b70001 7\u00b74 Temp \u00d7 planting date 2 0\u00b73405 0\u00b77968 Open in a new tab LSD values are for \u03b1 = 0\u00b705."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Table 2.",
+      "text": "Phyllochron (based on air or soil temperature) by planting date and soil temperature treatment Phyllochron (\u00b0C days) Planting Soil temperature Air Soil date treatment 1998 1999 1998 1999 PD1 +0C 69\u00b76 (2\u00b72) 79\u00b78 (1\u00b75) 88\u00b74 (2\u00b79) 111\u00b73 (2\u00b78) +3C 67\u00b71 (2\u00b73) 75\u00b70 (3\u00b73) 106\u00b74 (3\u00b77) 128\u00b79 (6\u00b78) Mean 68\u00b74 (1\u00b75) 77\u00b74 (1\u00b79) 97\u00b74 (4\u00b70) 120\u00b71 (4\u00b77) PD2 +0C 76\u00b74 (3\u00b70) 73\u00b70 (0\u00b77) 94\u00b72 (4\u00b70) 93\u00b73 (1\u00b75) +3C 73\u00b78 (4\u00b79) 72\u00b74 (1\u00b73) 109\u00b79 (7\u00b75) 111\u00b79 (2\u00b70) Mean 75\u00b71 (2\u00b77) 72\u00b77 (0\u00b77) 102\u00b71 (4\u00b79) 102\u00b76 (3\u00b77) PD3 +0C 78\u00b76 (2\u00b78) 74\u00b76 (1\u00b70) 99\u00b79 (3\u00b74) 93\u00b78 (1\u00b73) +3C 72\u00b74 (2\u00b72) 73\u00b79 (1\u00b70) 108\u00b71 (3\u00b71) 108\u00b70 (1\u00b79) Mean 75\u00b75 (2\u00b70) 74\u00b73 (0\u00b77) 104\u00b70 (2\u00b76) 100\u00b79 (2\u00b79) All +0C 74\u00b78 (1\u00b78) 75\u00b78 (1\u00b70) 94\u00b72 (2\u00b73) 99\u00b75 (2\u00b77) All +3C 71\u00b71 (2\u00b70) 73\u00b78 (1\u00b72) 108\u00b71 (2\u00b77) 116\u00b73 (3\u00b75) All Both 73\u00b70 (1\u00b74) 74\u00b78 (0\u00b78) 101\u00b72 (2\u00b73) 107\u00b79 (2\u00b78) Open in a new tab Data are means (s.e.)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "DISCUSSION",
+      "text": "In contrast to the prediction of the paradigm, heating the soil near crown depth did not increase the rate of leaf appearance of spring wheat (\u2018Nordic\u2019) under field conditions. However, the present results could be an artefact of the experimental methods. We have identified six possible explanations for our results and discuss reasons for rejecting them below. (1) The most serious possibility is that the heat tape did not raise the soil temperature by the amount assumed (+3 \u00b0C). For PD3 in 1999 (Fig. 7 ) and 1 week in Oct 1998 (data not shown), we measured the temperature gradient above the heat tape. Even at a depth of 1 cm there was a significant increase in temperature for the +3C treatment (ANOVA, P < 0\u00b7001). Further evidence that the soil temperature was elevated is the earlier seedling emergence that occurred in the +3C treatment (Figs 1 and 2 ). (2) Perhaps the shoot apex was shallower than 2 cm (in the crown) and its temperature was therefore not elevated by 3 \u00b0C. However, the crown appeared to be approx. 2 cm deep based on casual inspection, and we would not expect the crown to be shallower than 2 cm given our planting depth ( McMaster, 1997 ; unpubl. res. for 12 winter wheat cultivars in Colorado). Also, when occasionally pulling and inspecting plants in the field, we observed no elongation of the coleoptilar internode pushing the shoot apex above the seed (thus the shoot apex should be in the crown at the seed depth). Even if the shoot apex was at a depth of 1 cm it would have experienced a significant temperature increase (Fig. 7 ). (3) Only leaves that appear before jointing, when the shoot apex is in the crown, should be observed. In our experiment, jointing (when the shoot apex was 2\u00b75 cm above the soil) occurred at about Haun stage 7 (Fig. 3 ). At most, a very slight increase in main stem Haun stage can be observed in plants in the +3C treatment compared with those in the +0C treatment up until Haun stage 4 or 5 (Fig. 3 ). However, the extra thermal time in the +3C treatment from emergence to leaf 4 (L4) is approx. 97 (PD1) to 82 (PD2) to 67 (PD3) GDD, based on halving the GDD accumulated until the appearance of the flag leaf (approx. L8) reported in the Results. This would still indicate that a difference of at least one leaf should be expected. Furthermore, no shift in temperature response was observed near Haun stage 4 or 5 (Figs 3 \u20135). (4) The +3C treatment may have been drier than the +0C treatment, and therefore had greater soil strength. Phyllochron has been positively correlated with soil strength ( Masle and Passioura, 1987 ). The phyllochron was always lower in the +3C treatment than in the +0C treatment, so it cannot be due to greater soil strength in the +3C treatment. (5) Environmental factors, such as light, water and N, could compensate for the expected temperature responses. However, no factor explained our results. For instance, slightly slower leaf appearance is correlated with later seedling emergence based on the change in photoperiod ( Baker et al ., 1980 ; Kirby and Perry, 1987 ; Kirby, 1995 ). In the present study, plants in the +0C treatment did emerge later than those in the +3C treatment, albeit only a few days later, and they had greater phyllochrons when these were calculated using air temperature, but the reverse was true when phyllochrons were calculated using soil temperature (Fig. 5 ). The slightly greater biomass/leaf area index of plants in the +3C treatment (data not shown) could increase the far\u2010red : red light ratio within the canopy, leading to leaves appearing faster ( Barnes and Bugbee, 1991 ), but then we should have observed even greater leaf appearance rates in the +3C treatment. Water stress can increase the rate of leaf appearance, but plots were irrigated. It is well known that soil temperature can alter root functioning, particularly nutrient uptake (e.g. Taylor and McCall, 1936 ; Willis et al ., 1957 ; Kleinendorst and Brouwer, 1970 ; Power et al ., 1970 ; Addae a"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "CONCLUSIONS",
+      "text": "If we extend the phyllochron paradigm in several ways, we can explain why heating the soil at crown depth failed to increase wheat leaf appearance rates. Because the three component processes of the phyllochron, namely cell initiation, cell division and cell growth, occur over a significant vertical distance varying in temperature, cell expansion is strongly influenced by factors other than temperature, and intraplant signals from the entire plant impact the shoot apex, it is not surprising that the phyllochron was not controlled by heating a small area near the shoot apex."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 2,
+      "heading": "ACKNOWLEDGEMENTS",
+      "text": "We appreciate the technical assistance of Mr B. Riebau. We thank E. J. M. Kirby, R. K. M. Hay, L. A. Hunt, R. H. Skinner, A. Frank, J. T. Ritchie, I. Brooking, W. Jame and A. Weiss for helpful discussions. Mention of products and equipment are for information only and do not imply endorsement of products by the authors or USDA\u2010ARS."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 2,
+      "heading": "Supplementary Material",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 2,
+      "heading": "Associated Data",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Supplementary Materials",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "ACTIONS",
+      "text": "View on publisher site PDF (376.5 KB) Cite Collections Permalink PERMALINK Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "RESOURCES",
+      "text": "Similar articles Cited by other articles Links to NCBI Databases"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Similar articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Cited by other articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Links to NCBI Databases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "Cite",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Add to Collections",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "",
+        "",
+        "1998",
+        "1999"
+      ],
+      "rows": [
+        [
+          "Sources",
+          "d.f.",
+          "P",
+          "LSD",
+          "P",
+          "LSD"
+        ],
+        [
+          "Air",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Block",
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Temperature",
+          "1",
+          "0\u00b70679",
+          "",
+          "0\u00b71879",
+          ""
+        ],
+        [
+          "Planting date",
+          "2",
+          "0\u00b70124",
+          "4\u00b79",
+          "0\u00b70580",
+          "3\u00b78"
+        ],
+        [
+          "Temp \u00d7 planting date",
+          "2",
+          "0\u00b76735",
+          "",
+          "0\u00b74335",
+          ""
+        ],
+        [
+          "Soil",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Block",
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Temperature",
+          "1",
+          "<0\u00b70001",
+          "5\u00b78",
+          "<0\u00b70001",
+          "6\u00b71"
+        ],
+        [
+          "Planting date",
+          "2",
+          "0\u00b71656",
+          "",
+          "<0\u00b70001",
+          "7\u00b74"
+        ],
+        [
+          "Temp \u00d7 planting date",
+          "2",
+          "0\u00b73405",
+          "",
+          "0\u00b77968",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "",
+        "",
+        "Phyllochron (\u00b0C days)"
+      ],
+      "rows": [
+        [
+          "Planting",
+          "Soil temperature",
+          "Air",
+          "Soil"
+        ],
+        [
+          "date",
+          "treatment",
+          "1998",
+          "1999",
+          "1998",
+          "1999"
+        ],
+        [
+          "PD1",
+          "+0C",
+          "69\u00b76 (2\u00b72)",
+          "79\u00b78 (1\u00b75)",
+          "88\u00b74 (2\u00b79)",
+          "111\u00b73 (2\u00b78)"
+        ],
+        [
+          "",
+          "+3C",
+          "67\u00b71 (2\u00b73)",
+          "75\u00b70 (3\u00b73)",
+          "106\u00b74 (3\u00b77)",
+          "128\u00b79 (6\u00b78)"
+        ],
+        [
+          "",
+          "Mean",
+          "68\u00b74 (1\u00b75)",
+          "77\u00b74 (1\u00b79)",
+          "97\u00b74 (4\u00b70)",
+          "120\u00b71 (4\u00b77)"
+        ],
+        [
+          "PD2",
+          "+0C",
+          "76\u00b74 (3\u00b70)",
+          "73\u00b70 (0\u00b77)",
+          "94\u00b72 (4\u00b70)",
+          "93\u00b73 (1\u00b75)"
+        ],
+        [
+          "",
+          "+3C",
+          "73\u00b78 (4\u00b79)",
+          "72\u00b74 (1\u00b73)",
+          "109\u00b79 (7\u00b75)",
+          "111\u00b79 (2\u00b70)"
+        ],
+        [
+          "",
+          "Mean",
+          "75\u00b71 (2\u00b77)",
+          "72\u00b77 (0\u00b77)",
+          "102\u00b71 (4\u00b79)",
+          "102\u00b76 (3\u00b77)"
+        ],
+        [
+          "PD3",
+          "+0C",
+          "78\u00b76 (2\u00b78)",
+          "74\u00b76 (1\u00b70)",
+          "99\u00b79 (3\u00b74)",
+          "93\u00b78 (1\u00b73)"
+        ],
+        [
+          "",
+          "+3C",
+          "72\u00b74 (2\u00b72)",
+          "73\u00b79 (1\u00b70)",
+          "108\u00b71 (3\u00b71)",
+          "108\u00b70 (1\u00b79)"
+        ],
+        [
+          "",
+          "Mean",
+          "75\u00b75 (2\u00b70)",
+          "74\u00b73 (0\u00b77)",
+          "104\u00b70 (2\u00b76)",
+          "100\u00b79 (2\u00b79)"
+        ],
+        [
+          "All",
+          "+0C",
+          "74\u00b78 (1\u00b78)",
+          "75\u00b78 (1\u00b70)",
+          "94\u00b72 (2\u00b73)",
+          "99\u00b75 (2\u00b77)"
+        ],
+        [
+          "All",
+          "+3C",
+          "71\u00b71 (2\u00b70)",
+          "73\u00b78 (1\u00b72)",
+          "108\u00b71 (2\u00b77)",
+          "116\u00b73 (3\u00b75)"
+        ],
+        [
+          "All",
+          "Both",
+          "73\u00b70 (1\u00b74)",
+          "74\u00b78 (0\u00b78)",
+          "101\u00b72 (2\u00b73)",
+          "107\u00b79 (2\u00b78)"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "* For correspondence. Fax +970 490 8340, e\u2010mail Greg.McMaster@ars.usda.gov",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Extensive research shows temperature to be the primary environmental factor controlling the phyllochron, or rate of leaf appearance, of wheat ( Triticum aestivum L.). Experimental results suggest that soil temperature at crown depth, rather than air temperature above the canopy, would better predict wheat leaf appearance rates. To test this hypothesis, leaf appearance in spring wheat (\u2018Nordic\u2019) was measured in a 2\u2010year field experiment (Nunn clay loam soil; fine, smectitic, mesic Aridic, Argiustoll) with three planting dates and two soil temperature treatments. One temperature treatment (denoted +3C) consisted of heating the soil at crown depth to 3 \u00b0C above the ambient soil temperature (denoted +0C). Main stem cumulative leaf number was measured at least weekly until flag leaf emergence. Leaf appearance was essentially linear with both air and soil growing degree\u2010days (GDD), although there was a stronger linear relationship with soil GDD in the +0C plants than in +3C plants. A weak positive relationship between planting date and the phyllochron was observed. Unexpectedly, we found that heating the soil did not increase the rate of leaf appearance, as the paradigm would predict. To explain these results, we propose extending the paradigm in two ways. First, three processes are involved in leaf appearance: (1) cell division at the shoot apex forms the primordium; (2) cell division in the intercalary meristem forms the cells that then (3) expand to produce the leaf. Cell division is predominately controlled by temperature, but cell expansion is considerably more affected by factors other than temperature, explaining the influence of other factors on the phyllochron. Secondly, the vertical distribution of the two meristems and region of cell expansion occur over a significant distance, where temperature varies considerably, and temperature at a specific point (e.g. crown depth) does not account for the entire temperature regime under which leaves are developing.",
+      "char_offset": 76
+    },
+    {
+      "type": "paragraph",
+      "text": "Key words: Wheat, Triticum aestivum L., soil temperature, air temperature, phyllochron, leaf appearance, thermal time, growing degree days, shoot apex",
+      "char_offset": 2071
+    },
+    {
+      "type": "paragraph",
+      "text": "The role played by environmental factors in determining the phyllochron, or rate of leaf appearance, in grass crops such as wheat, barley ( Hordeum vulgare L.), corn ( Zea mays L.) and rice ( Oryza sativa L.) has been the subject of extensive research. It is widely accepted that temperature primarily controls the phyllochron, with light (photoperiod, and to a lesser degree, quality and intensity) being a secondary factor in certain cultivars (e.g. Porter and Delecolle, 1989 ; Kirby, 1995 ; Wilhelm and McMaster, 1995 ; McMaster, 1997 ). Less important are factors such as water, CO 2 , nutrient availability and salinity, and these factors must usually reach a threshold before reduced rates of leaf appearance are observed (e.g. Maas and Grieve, 1990 ; Longnecker et al ., 1993 ; McMaster et al ., 1999 ).",
+      "char_offset": 2223
+    },
+    {
+      "type": "paragraph",
+      "text": "Effects of temperature on leaf appearance rates are usually quantified using some form of thermal time. Air temperature above the canopy has most frequently been used to calculate thermal time (in growing degree\u2010days, GDD). When describing the phyllochron as a function of air thermal time, the relationship under field conditions is viewed as linear, particularly for temperatures near 20 \u00b0C (e.g. Hay and Wilson, 1982 ; Klepper et al ., 1982 ; Hunt and Chapleau, 1986 ; Frank and Bauer, 1995 ; Kirby, 1995 ; Porter and Gawith, 1999 ). However, growth chamber experiments and some field experiments have shown that under closely controlled conditions the phyllochron has a curvilinear response to temperature (e.g. Friend et al ., 1962 ; Peacock, 1975 a , b ; Cao and Moss, 1989 ; Hay and Delecolle, 1989 ; Slafer and Rawson, 1997 ; Van Esbroeck, 1997 ). Occasional changes (either an increase or decrease) in the phyllochron near the developmental growth stage of double ridge have been reported (e.g. Baker et al ., 1986 ; Hay and Delecolle, 1989 ; Boone et al ., 1990 ; Hay and Kemp, 1990 ; Cao and Moss, 1991 ; Rickman and Klepper, 1995 ), but predicting the conditions that cause these shifts, as well as the degree and direction of the shift, is currently impossible. A number of equations to predict the phyllochron have been evaluated ( Bindi et al ., 1994 ; McMaster and Wilhelm, 1995 ), but it is clear that the mechanisms controlling the phyllochron are not well understood, and predicting the phyllochron using simple quantifications of thermal time are unsatisfactory.",
+      "char_offset": 3036
+    },
+    {
+      "type": "paragraph",
+      "text": "Studies have shown that the shoot apex, where leaf primordia are produced and initial leaf growth occurs, perceives temperature directly ( Purvis, 1961 ; Kleinendorst and Brouwer, 1970 ; Watts, 1972 ; Peacock, 1975 b ). Therefore, measuring or estimating the shoot apex temperature may improve predictions of the phyllochron. Unfortunately, few data on shoot apex temperature are available and it is difficult to measure.",
+      "char_offset": 4620
+    },
+    {
+      "type": "paragraph",
+      "text": "A reasonable hypothesis is that soil temperature near the crown would better reflect shoot apex temperature than air temperature above the canopy, at least while the shoot apex is still located in the crown of the plant. For annual grass crops, the shoot apex is in the crown until the developmental growth stage of jointing, when internode elongation raises the shoot apex out of the crown and into the canopy. In wheat, all leaf primordia have been initiated prior to jointing, and most leaves have already appeared ( McMaster, 1997 ). Support for the idea that soil temperature exerts greater control over shoot apex functioning than air temperature when the apex is located in the soil has been shown experimentally; this has been demonstrated indirectly through the long history of root/shoot temperature experiments in growth chambers and glasshouses. It has also been determined more directly through field studies on a wide variety of species where temperature controls were inserted near the shoot apex under closely controlled conditions, or the soil temperature was altered independently of the air temperature by using mulches, altering reflectance/albedo and changing tillage/residue cover (e.g. Taylor and McCall, 1936 ; Willis et al ., 1957 ; Kleinendorst and Brouwer, 1970 ; Power et al ., 1970 ; Watts, 1972 ; Adams and Thompson, 1973 ; Peacock, 1975 b ; Hay and Wilson, 1982 ; Jeppson and Crookston, 1986 ; Fortin and Pierce, 1991 ; Bollero et al ., 1996 ; Stone et al ., 1999 ; McMaster et al ., 2002 ). Extending this concept through simulation modelling for predicting phyllochron, Jamieson et al . (1995 ) found that using soil temperature near the wheat shoot apex more closely predicted the phyllochron than using air temperature. Vinocur and Ritchie (2001 ) showed that using measured soil temperature rather than air temperature resulted in better maize phyllochron predictions. Hay and Wilson (1982 ) reported that wheat leaf extension rates were best predicted using soil temperature at a depth of 5 cm. Peacock (1975 a ) found that leaf extension rates in perennial ryegrass ( Lolium perenne \u2018S24\u2019) were best predicted using temperatures at the soil surface or at a depth of 2 cm, although soil and air/canopy temperature effects could not be separated.",
+      "char_offset": 5043
+    },
+    {
+      "type": "paragraph",
+      "text": "Most previously cited studies clearly suggest that wheat leaves should appear faster as soil temperature near the shoot apex increases, at least up to some optimum temperature (usually about 25\u201330 \u00b0C). However, studies examining photoperiod and planting date (presumably related to photoperiod) obscured this relationship, but Jamieson et al . (1995 ) showed that most of the apparent change in the thermal rate of leaf appearance came about because the relationship between soil and air temperature changed with planting date, so the apparent change in the phyllochron was an artefact.",
+      "char_offset": 7327
+    },
+    {
+      "type": "paragraph",
+      "text": "Yet, limited indirect reports and some reasoning suggest caution in the view that using a point measurement of soil temperature near the shoot apex will necessarily better predict the phyllochron than using air temperature above the canopy. For instance, McMaster and Wilhelm (1998 ) reported that using soil temperature near crown depth rather than air temperature did not improve the prediction of winter wheat developmental growth stages for a variety of sites, cultivars and management practices in the Central Great Plains. They cited similar unpublished results for the Pacific Northwest and England. Four possible reasons were cited for the deviation from the expected results: (1) in many systems there is little difference between soil temperature at crown depth and air temperature; (2) when slight differences between soil and air temperature exist, the differences are consistent; (3) normal calculations of thermal time using GDD for field conditions, while working remarkably well for such a simple model, are too simplistic to capture the slight theoretical improvements expected by using soil temperature. Temperatures vary considerably, both diurnally and between days; the temperature response is not linear as assumed, and using only daily maximum and minimum temperatures is an extremely simplistic characterization of daily temperature. In effect, the method of GDD calculation obscures any real differences between soil and air temperatures; and (4) neither soil nor air temperature necessarily equals shoot apex temperature.",
+      "char_offset": 7915
+    },
+    {
+      "type": "paragraph",
+      "text": "Although there is considerable experimental evidence and theoretical reasoning that soil temperature at crown depth better reflects shoot apex temperature than does air temperature above the canopy, and heating the soil near the crown will increase the rate of leaf appearance, some limited evidence suggests that this hypothesis may be too simplistic. Therefore, a 2\u2010year field experiment was conducted in which the relationship between air and soil temperature was shifted artificially across several planting dates. The objectives were to test whether elevating soil temperature near the crown, and thus shifting the soil/air relationship, resulted in increased rates of leaf appearance as predicted by the hypothesis, and to propose some extensions to the paradigm to explain our results.",
+      "char_offset": 9464
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2\u2010year study, which began in spring 1998, was conducted north\u2010east of Fort Collins, Colorado, USA, at the Colorado State University Horticulture Farm (40\u00b036\u203245 54\u201dN, 104\u00b059\u203241 96\u201dW) on a Nunn clay loam soil (fine, smectitic, mesic Aridic, Argiustoll). Spring wheat ( Triticum aestivum L. \u2018Nordic\u2019, reported to be photoperiod sensitive), was grown in a randomized complete block design with four blocks. Treatments were planting date and soil temperature. Planting dates were 24 March, 13 April and 5 May in 1998, and 16 March, 13 April and 14 May in 1999. The first planting date in a year is denoted as PD1, the second as PD2 and the third as PD3. The two levels of soil temperature at 2\u20133 cm depth were ambient soil temperature (denoted as +0C) and +3 \u00b0C above ambient (denoted as +3C).",
+      "char_offset": 10258
+    },
+    {
+      "type": "paragraph",
+      "text": "Plot size was 1 m 2 , with five rows of wheat per plot. Each year before the first planting date, the soil was rototilled to a depth of approx. 15 cm. For each row, a trench was dug to a depth of 6 cm, and then layered with 1 cm of soil, a 1\u00b725\u2010cm\u2010wide strip of heat tape (in the +3C treatment) or duct tape folded to the thickness and width of the heat tape (in the +0C treatment), and 3 cm of soil layered on top of the tape. Next, seeds were placed into the trench along with three thermocouples (in the middle row). Two centimetres of soil were placed on top of the seeds and thermocouples, resulting in a 2 cm seed depth. Seed spacing was 2 cm, giving a density of 250 seeds m \u20132 . Plots were immediately irrigated following planting to ensure uniform germination, and fertilizer was broadcast at a rate of 39 kg N ha \u20131 and 22 kg P ha \u20131 . Plot management consisted of hand weeding and twice monthly (first year) and weekly (second year) irrigations of 19 l water per plot beginning within 2 weeks after planting.",
+      "char_offset": 11052
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil temperature at a depth of 2 cm (approximate crown depth) was obtained using copper constantine thermocouples. Three thermocouples were connected in parallel to give a mean output. A Campbell data logger was used to collect soil temperature each minute; daily maximum, minimum and average temperatures were calculated from these data. For each block, when the difference in temperature within a planting date between the +0C and +3C treatments became less than 3 \u00b0C, power was supplied to the heat tape raising the temperature difference to 3 \u00b0C. Temperature differences between soil temperature treatments were maintained within 0\u00b71 \u00b0C of the target ambient 3 \u00b0C.",
+      "char_offset": 12073
+    },
+    {
+      "type": "paragraph",
+      "text": "In the second year only, weekly estimates of soil water content were made in plots immediately adjacent to the study area using neutron probe measurements for 0\u201315, 15\u201330, 30\u201360, 60\u201390, 90\u2013120 and 120\u2013150 cm depths using one sampling tube per planting date. Daily weather data were collected, and air temperature was measured at 1\u00b75 m.",
+      "char_offset": 12743
+    },
+    {
+      "type": "paragraph",
+      "text": "Seedling emergence for 50 cm of the middle row was observed daily, unless weather conditions did not permit access to the plots or if snow covered the plots. Measurements were made repeatedly on ten plants in the middle row of the plot. Cumulative leaf number ( Haun, 1973 ) was recorded at least weekly for the main stem, and occasionally for primary tillers T0, T1, T2 and T3, and secondary tillers T10 and T11. The culm\u2010naming scheme developed by Klepper et al . (1983 ) was used throughout this study. In the first year only, cumulative leaf number measurements for the second and third planting dates were stopped once the flag leaf had appeared for plants planted on the first planting date. Phyllochrons were calculated by dividing the main stem cumulative leaf number immediately prior to completion of flag leaf growth (determined by formation of the collar) by the accumulated growing degree days from 50 % seedling emergence.",
+      "char_offset": 13080
+    },
+    {
+      "type": "paragraph",
+      "text": "Air and soil growing degree days were calculated according to Method 1 of McMaster and Wilhelm (1997 ):",
+      "char_offset": 14018
+    },
+    {
+      "type": "paragraph",
+      "text": "where G DD is growing degree days, and T is temperature.",
+      "char_offset": 14123
+    },
+    {
+      "type": "paragraph",
+      "text": "and T base is equal to 0 \u00b0C ( Baker et al ., 1986 ; McMaster and Smika, 1988 ). Soil temperature was measured using thermocouples for each plot.",
+      "char_offset": 14181
+    },
+    {
+      "type": "paragraph",
+      "text": "The SAS statistical package ( SAS Institute, 1991 ) was used for data analysis. ANOVA was computed using the general linear model (PROC GLM). Mean separation tests consisted of the Fisher\u2019s protected least significant difference test (LSD, \u03b1 = 0\u00b705).",
+      "char_offset": 14327
+    },
+    {
+      "type": "paragraph",
+      "text": "Temperature and precipitation varied in the 2 years of the study. In 1998, the amount of precipitation that fell between 1 March and 31 August was 43 mm less than the 13\u2010year mean for the site (237 mm), and monthly temperatures varied around the 13\u2010year mean with a difference of only 40 fewer GDD accumulating than the 13\u2010year mean (2536 GDD). In 1999, precipitation was 59 mm greater than the 13\u2010year mean, but this was primarily due to 14 d of rain in late April totalling 141 mm, well above the 13\u2010year mean of 24 mm. If the 13\u2010year April mean is used, then precipitation over the entire period was 178 mm, or 59 mm below the 13\u2010year mean. Monthly temperatures in 1999 varied around the 13\u2010year mean with a difference of only 85 fewer GDD accumulating than the 13\u2010year mean.",
+      "char_offset": 14579
+    },
+    {
+      "type": "paragraph",
+      "text": "Heating the soil resulted in significantly earlier seedling emergence ( P < 0\u00b701), regardless of planting date (Figs 1 and 2 ). Seedlings emerged sooner after planting as planting date was delayed, probably because ambient soil temperature increased with later planting dates. However, even though seedling emergence began sooner after planting in the +3C treatment, the final number of seedlings that emerged was similar for all treatments in all years, except for PD1 in 1999, where one plot in the +3C had very low seedling emergence for unknown reasons. Emergence was greater than 90 % for all treatments. Importantly, the results clearly indicate that for all planting dates in each year there were differences in the soil temperature among the treatments.",
+      "char_offset": 15359
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 1. Number of seedlings that emerged in 1998. Bars represent s.e.m. +0C and +3C refer to treatments involving ambient soil temperature or raising the soil temperature by 3 \u00b0C, respectively.",
+      "char_offset": 16122
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 2. Number of seedlings that emerged in 1999. Bars represent s.e.m. +0C and +3C refer to treatments involving ambient soil temperature or raising the soil temperature by 3 \u00b0C, respectively.",
+      "char_offset": 16317
+    },
+    {
+      "type": "paragraph",
+      "text": "For both years and all planting dates, slightly more leaves were produced on the main stem based on day of the year in the +3C than the +0C treatment (Fig. 3 ; Table ). However, when the earlier seedling emergence in the +3C treatment was taken into account by plotting Haun stage as a function of days after emergence (data not shown), no significant difference was found among treatments. If elevated soil temperature increases the rate of leaf appearance, as the paradigm predicts, then the +3C treatment should increasingly diverge from the +0C curve over time; this did not occur. We can calculate the expected divergence as follows: the pooled phyllochrons for both temperature treatments within a planting date ranged from 68 (PD1, 1998) to 77 (PD1, 1999) air GDD (Fig. 3 ). Leaves appeared over 65 d in PD1 to 55 d in PD2 to 45 d in PD3. Elevating the soil temperature by 3 \u00b0C would result in an additional accumulation from 195 (PD1) to 165 (PD2) to 135 (PD3) soil growing degree days before flag leaf appearance. A mean phyllochron of 74 air growing degree days (Table ) would suggest about 2\u00b77 (PD1), 2\u00b73 (PD2) and 1\u00b78 (PD3) more leaves appearing in the +3C treatments. Alternatively, for a constant final leaf number, the flag leaf would have appeared about 65, 55 or 45 d earlier in the three successive planting date treatments; this was not observed.",
+      "char_offset": 16512
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 3. Main stem (MS) Haun stage and day of year for data collected in 1998 and 1999. Phyllochrons (GDD, using air temperature and 0 \u00b0C base temperature) are means of both treatments for a planting date. The approximate date of jointing for each planting date is denoted by a \u2018J\u2019. Letters denote significance at \u03b1 = 0\u00b705 level using the LSD test (see Table 2). Dashed lines/open circles represent +0, ambient soil temperature, solid lines/closed circles represent raising temperature by 3 \u00b0C.",
+      "char_offset": 17879
+    },
+    {
+      "type": "paragraph",
+      "text": "ANOVA results for phyllochrons presented in Table 2",
+      "char_offset": 18374
+    },
+    {
+      "type": "paragraph",
+      "text": "Phyllochron (based on air or soil temperature) by planting date and soil temperature treatment",
+      "char_offset": 18427
+    },
+    {
+      "type": "paragraph",
+      "text": "The Haun stage is often viewed as a function of either air or soil thermal time after emergence, measured in GDD (Figs 4 and 5 ). Little difference in the Haun stage would be expected between treatments when viewed as a function of thermal time, and this expectation was confirmed. When using air thermal time, the Haun stage of plants in the +0C treatment was always slightly less than that of plants in the +3C treatment (Fig. 4 ; and similar results for 1998, data not shown), but the reverse was found when using soil thermal time (Fig. 5 ; and similar results for 1998, data not shown).",
+      "char_offset": 18523
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 4. Main stem Haun stage and air growing degree days after emergence in 1999. Phyllochrons listed combine both +0C and +3C treatments and are calculated using air temperature.",
+      "char_offset": 19116
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 5. Main stem Haun Stage and soil growing degree days after emergence in 1999. Phyllochrons listed combine both +0C and +3C treatments and use soil temperature.",
+      "char_offset": 19297
+    },
+    {
+      "type": "paragraph",
+      "text": "If the data are analysed in phyllochron form rather than on a leaf number basis, we should expect similar results because these are merely different representations of the same measure. ANOVA showed no interactions between temperature treatments and planting date in either year (Table ). While statistical significance of the temperature and planting date treatments was mixed between years (Tables and ), viewing the results in phyllochron form (Table ) supports the conclusions observed from the Haun stage representation when using air temperature, as discussed above. There was no statistical difference in the phyllochrons between temperature treatments using air temperature, although results for 1998 were nearly significant at the 5 % level ( P = 0\u00b707). A slower rate of leaf appearance was observed in the +3C treatment in both years when using soil temperature (Table ); this result was highly significant ( P < 0\u00b70001). A significant planting date effect was found in half of the cases (Table ); the phyllochron response to temperature treatment could not be explained by a planting date effect.",
+      "char_offset": 19463
+    },
+    {
+      "type": "paragraph",
+      "text": "While growth chamber experiments have shown that the phyllochron is curvilinear with temperature, most published work has suggested that the phyllochron in the field is practically linear when using GDD. Figure 4 shows a nearly linear relationship of leaf appearance with air GDD, but if one\u2019s preference leans towards expecting curvilinear relationships, this can also be detected. Interestingly, the +0C treatment seemed to be more linear with soil GDD than did the +3C treatment, suggesting that factors other than temperature might influence leaf appearance (Fig. 5 ).",
+      "char_offset": 20572
+    },
+    {
+      "type": "paragraph",
+      "text": "Numerous studies have related the phyllochron to planting and emergence dates (e.g. Baker et al ., 1980 ; Kirby and Perry, 1987 ; Cao and Moss, 1991 ; McMaster, 1997 ). In the present study, there was an almost significant relationship between phyllochron and planting date when phyllochron was calculated using air temperature ( P = 0\u00b706 for 1999). However, when soil temperature was used to calculate the phyllochron, only the 1999 data were significant (Table ). The equations presented by Baker et al . (1980 ) and Kirby and Perry (1987 ) predict a very slight concave upward, or positive, relationship between our emergence dates and the phyllochron (Fig. 6 ). Using either air or soil temperature, we found that the phyllochron showed this relationship better in 1998 than in 1999 (Fig. 6 ). The observed phyllochrons were relatively similar between years for PD2 when using soil or air temperature; to a lesser extent this was also the case for PD3. However for PD1, phyllochrons estimated using soil temperature differed greatly between years. As found by McMaster and Wilhelm (1995 ), the Baker et al. (1980) equation (developed for an English winter wheat) predicted the phyllochron better using air temperature than the Kirby and Perry (1987 ) equation (developed for an Australian spring wheat), but neither equation predicted the phyllochron particularly well (Fig. 6 ).",
+      "char_offset": 21146
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 6. Phyllochrons calculated using either air or soil temperature for each treatment and emergence date compared with two equations for predicting the phyllochron. The Baker et al . (1980) equation was developed originally for an English winter wheat variety; the Kirby and Perry (1987) equation was developed for an Australian spring wheat.",
+      "char_offset": 22531
+    },
+    {
+      "type": "paragraph",
+      "text": "In contrast to the prediction of the paradigm, heating the soil near crown depth did not increase the rate of leaf appearance of spring wheat (\u2018Nordic\u2019) under field conditions.",
+      "char_offset": 22877
+    },
+    {
+      "type": "paragraph",
+      "text": "However, the present results could be an artefact of the experimental methods. We have identified six possible explanations for our results and discuss reasons for rejecting them below.",
+      "char_offset": 23055
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) The most serious possibility is that the heat tape did not raise the soil temperature by the amount assumed (+3 \u00b0C). For PD3 in 1999 (Fig. 7 ) and 1 week in Oct 1998 (data not shown), we measured the temperature gradient above the heat tape. Even at a depth of 1 cm there was a significant increase in temperature for the +3C treatment (ANOVA, P < 0\u00b7001). Further evidence that the soil temperature was elevated is the earlier seedling emergence that occurred in the +3C treatment (Figs 1 and 2 ).",
+      "char_offset": 23242
+    },
+    {
+      "type": "paragraph",
+      "text": "Fig. 7. Soil temperature gradient for planting date 3 in 1999. The heat tape was at a depth of 6 cm.",
+      "char_offset": 23745
+    },
+    {
+      "type": "paragraph",
+      "text": "(2) Perhaps the shoot apex was shallower than 2 cm (in the crown) and its temperature was therefore not elevated by 3 \u00b0C. However, the crown appeared to be approx. 2 cm deep based on casual inspection, and we would not expect the crown to be shallower than 2 cm given our planting depth ( McMaster, 1997 ; unpubl. res. for 12 winter wheat cultivars in Colorado). Also, when occasionally pulling and inspecting plants in the field, we observed no elongation of the coleoptilar internode pushing the shoot apex above the seed (thus the shoot apex should be in the crown at the seed depth). Even if the shoot apex was at a depth of 1 cm it would have experienced a significant temperature increase (Fig. 7 ).",
+      "char_offset": 23847
+    },
+    {
+      "type": "paragraph",
+      "text": "(3) Only leaves that appear before jointing, when the shoot apex is in the crown, should be observed. In our experiment, jointing (when the shoot apex was 2\u00b75 cm above the soil) occurred at about Haun stage 7 (Fig. 3 ). At most, a very slight increase in main stem Haun stage can be observed in plants in the +3C treatment compared with those in the +0C treatment up until Haun stage 4 or 5 (Fig. 3 ). However, the extra thermal time in the +3C treatment from emergence to leaf 4 (L4) is approx. 97 (PD1) to 82 (PD2) to 67 (PD3) GDD, based on halving the GDD accumulated until the appearance of the flag leaf (approx. L8) reported in the Results. This would still indicate that a difference of at least one leaf should be expected. Furthermore, no shift in temperature response was observed near Haun stage 4 or 5 (Figs 3 \u20135).",
+      "char_offset": 24554
+    },
+    {
+      "type": "paragraph",
+      "text": "(4) The +3C treatment may have been drier than the +0C treatment, and therefore had greater soil strength. Phyllochron has been positively correlated with soil strength ( Masle and Passioura, 1987 ). The phyllochron was always lower in the +3C treatment than in the +0C treatment, so it cannot be due to greater soil strength in the +3C treatment.",
+      "char_offset": 25382
+    },
+    {
+      "type": "paragraph",
+      "text": "(5) Environmental factors, such as light, water and N, could compensate for the expected temperature responses. However, no factor explained our results. For instance, slightly slower leaf appearance is correlated with later seedling emergence based on the change in photoperiod ( Baker et al ., 1980 ; Kirby and Perry, 1987 ; Kirby, 1995 ). In the present study, plants in the +0C treatment did emerge later than those in the +3C treatment, albeit only a few days later, and they had greater phyllochrons when these were calculated using air temperature, but the reverse was true when phyllochrons were calculated using soil temperature (Fig. 5 ). The slightly greater biomass/leaf area index of plants in the +3C treatment (data not shown) could increase the far\u2010red : red light ratio within the canopy, leading to leaves appearing faster ( Barnes and Bugbee, 1991 ), but then we should have observed even greater leaf appearance rates in the +3C treatment. Water stress can increase the rate of leaf appearance, but plots were irrigated. It is well known that soil temperature can alter root functioning, particularly nutrient uptake (e.g. Taylor and McCall, 1936 ; Willis et al ., 1957 ; Kleinendorst and Brouwer, 1970 ; Power et al ., 1970 ; Addae and Pearson, 1992 ), but we have no data to assess this, nor is there any reason to suppose that plants in the +3C treatment are more affected than those in the +0C treatment.",
+      "char_offset": 25731
+    },
+    {
+      "type": "paragraph",
+      "text": "(6) The transpiration water stream near the shoot apex may alter the relationship between the shoot apex and soil temperature. This hypothesis was discarded for three reasons. First, water must still pass through the heated zone of the soil. Secondly, a great amount of water would be required to offset the increased temperature. Thirdly, the vascular tissue in the youngest leaf primordia in the shoot apex is not well developed (if present at all), and any cooling effect of the transpiration stream could only affect leaves after the primordia have grown a substantial amount ( Esau, 1977 )",
+      "char_offset": 27161
+    },
+    {
+      "type": "paragraph",
+      "text": "Since we cannot explain the present results as an anomaly, then the paradigm must be modified or extended to encompass these unexpected results. Extending the paradigm involves a more integrated perspective of the shoot apex, and leaf development and growth. The main stem shoot apex is one of many shoot apices functioning within the whole plant. Shoot apices are integrated ( Hay and Kirby, 1991 ), with intraplant signals and resources moving throughout the entire plant. Each process of the leaf life cycle (primordium initiation, primordium expansion/growth, functioning and senescence) has tended to be viewed as independently controlled by the environment, particularly temperature, rather than as coordinated processes ( Hay and Kemp, 1990 ). The three processes comprising the phyllochron should also be viewed as integrated: (1) cell division that forms the leaf primordium; (2) cell division of the intercalary meristem of the expanding leaf primordium; and (3) growth of cells derived from the intercalary meristem resulting in the leaf lamina and sheath.",
+      "char_offset": 27757
+    },
+    {
+      "type": "paragraph",
+      "text": "The three processes of the phyllochron are clearly influenced by temperature, but to varying degrees. The first two processes are primarily a function of cell cycling time, which is predominately controlled by temperature. However, cell expansion is much more dependent on other resources, such as carbohydrates, water, nutrients and light (quality, photoperiod and intensity). Environmental conditions, including temperature (which normally varies greatly across location, time and conditions, e.g. Linacre, 1964 ; Tanner, 1963 ), at locations other than the shoot apex, influence the availability of these resources regardless of the shoot apex temperature. We hypothesize that environmental factors other than temperature exert a major influence on the cell expansion component of the phyllochron, explaining why the plastochron, or leaf primordia initiation, is more strongly related to temperature than is the phyllochron ( Wilhelm and McMaster, 1995 ; McMaster, 1997 ). Since both cell cycling time and cell expansion are influenced by intraplant signals and resources from other parts of the plant, considering the phyllochron in isolation to the individual shoot apex ignores the fact that a plant is an integrated, synchronized system. Furthermore, if leaf appearance were responding solely to apex temperature, then a shift in the phyllochron should commonly be observed near jointing. Since this is rarely seen, other factors must play an important role.",
+      "char_offset": 28826
+    },
+    {
+      "type": "paragraph",
+      "text": "We also propose extending the paradigm to recognize that the processes comprising the phyllochron cover a much greater vertical distance than a \u2018point\u2019 location of the shoot apex. The current paradigm assumes that soil temperature at the point where the shoot apex is located better reflects the shoot apex temperature, and thus more accurately predicts the phyllochron. In fact, the three processes contributing to leaf appearance occur over a significant vertical distance. The shoot apical meristem that produces the leaf primordium is relatively short, generally less than 1 cm (barley and wheat, Kirby and Appleyard, 1984 ; tall fescue, Festuca arundinacea Schreber, Skinner and Nelson, 1995 ). How ever, the intercalary meristem is considerably longer when considering the leaf extension zone. Skinner and Nelson (1995 ) delineate the leaf extension zone of tall fescue into different sections, such as cell division, cell expansion, secondary cell wall growth, carbohydrate and N deposition, etc. These sections overlap for a total distance of up to 70 mm. Because cell expansion pushes older leaf tissues up through the whorl of subtending leaves, much of this zone occurs vertically from the leaf primordium. Depending on shoot apex depth and the length of the leaf extension zone, some leaf growth could occur above the soil surface, and certainly across a temperature gradient in the soil.",
+      "char_offset": 30293
+    },
+    {
+      "type": "paragraph",
+      "text": "One fundamental difference between the present experiment and most others, such as that by Stone et al . (1999 ), is that other studies involved one\u2010dimensional alterations in temperature of much larger volumes of soil, whereas in the present study alterations were two\u2010dimensional and focused on a \u2018point\u2019 heating of the shoot apex. Perhaps only in instances such as seed germination, where all relevant processes are included within the small area that is heated, should we expect a consistent response to heat treatments at a limited point such as ours. As the amount of soil volume altered in temperature increases, such as more of the root system via mulches, altering reflectance/albedo and changing tillage/residue cover, then we might expect the phyllochron to show greater response to altered temperature because more of the processes of leaf production will take place within the zone of altered temperature.",
+      "char_offset": 31695
+    },
+    {
+      "type": "paragraph",
+      "text": "If we extend the phyllochron paradigm in several ways, we can explain why heating the soil at crown depth failed to increase wheat leaf appearance rates. Because the three component processes of the phyllochron, namely cell initiation, cell division and cell growth, occur over a significant vertical distance varying in temperature, cell expansion is strongly influenced by factors other than temperature, and intraplant signals from the entire plant impact the shoot apex, it is not surprising that the phyllochron was not controlled by heating a small area near the shoot apex.",
+      "char_offset": 32615
+    },
+    {
+      "type": "paragraph",
+      "text": "We appreciate the technical assistance of Mr B. Riebau. We thank E. J. M. Kirby, R. K. M. Hay, L. A. Hunt, R. H. Skinner, A. Frank, J. T. Ritchie, I. Brooking, W. Jame and A. Weiss for helpful discussions. Mention of products and equipment are for information only and do not imply endorsement of products by the authors or USDA\u2010ARS.",
+      "char_offset": 33197
+    },
+    {
+      "type": "paragraph",
+      "text": "Received: 10 October 2002; Returned for revision: 23 November 2002; Accepted: 28 January 2003",
+      "char_offset": 33532
+    },
+    {
+      "type": "paragraph",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article.",
+      "char_offset": 33627
+    }
+  ],
+  "labels": [
+    "has_table",
+    "temperature_table"
+  ],
+  "document_id": "doc-0236d1d10a5b72fb"
+}

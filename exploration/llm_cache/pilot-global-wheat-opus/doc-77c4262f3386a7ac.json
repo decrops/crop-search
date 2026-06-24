@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "numeric",
+      "numeric_value": 180,
+      "unit": "mm",
+      "qualifier": "typical",
+      "evidence_text": "the gross irrigation requirement of MBD is 59.8 and net irrigation is 41.9 mm less than CWR which is 180 mm",
+      "claim_summary": "Total seasonal crop water requirement (evapotranspiration) of wheat is about 180 mm in the Mandibahauddin zone of Punjab.",
+      "extraction_confidence": "high",
+      "organisms": ["wheat"],
+      "methods": ["CROPWAT 8.0", "FAO Penman-Monteith"]
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 44.7,
+      "range_max": 184.2,
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "The total irrigation water requirement of wheat in MBD, FSD, TTS, BWN, BWP, and KNP is 44.7, 102.2, 103.1, 119.1, 179, and 184.2 mm, respectively.",
+      "claim_summary": "Seasonal net irrigation water requirement of wheat across six Punjab agro-climatic zones ranged from 44.7 to 184.2 mm.",
+      "extraction_confidence": "high",
+      "organisms": ["wheat"],
+      "methods": ["CROPWAT 8.0"]
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "the lowest water requirement is in the initial stage, and the highest water requirement is in the mid-stage during crop development... This study shows that the wheat crop requires more water during the growing stage than the other three stages.",
+      "claim_summary": "Wheat water demand is lowest at the initial stage and highest at the mid (development/growing) stage of the crop cycle.",
+      "extraction_confidence": "medium",
+      "organisms": ["wheat"]
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The soil type of the study area ranges from sandy loam to loam. ... Punjab soil is favorable for wheat production",
+      "claim_summary": "Wheat in the Punjab study zones is grown on soils ranging from sandy loam to loam, considered favorable for wheat.",
+      "extraction_confidence": "medium",
+      "organisms": ["wheat"]
+    }
+  ]
+}

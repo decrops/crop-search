@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "High temperature at anthesis is particularly detrimental to yield because of the narrow optimum temperature range of fertilization. High temperature disrupts fertilization... Anthesis ~Z41 30 °C for 3 d Greatly decreased grain set, reduced female fertility",
+      "claim_summary": "High temperature at anthesis (e.g., 30 C for 3 d) greatly decreases grain set and female fertility in wheat.",
+      "extraction_confidence": "high",
+      "bbch_min": 61,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Around reproduction and flowering, high temperature reduces the number of grains per spikelet... High temperature at anthesis is particularly detrimental to yield because of the narrow optimum temperature range of fertilization.",
+      "claim_summary": "Anthesis/flowering is the most heat-sensitive stage in wheat; post-anthesis heat reduces grain weight.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Post-anthesis ~Z69–83 3 d, max temp 40 °C Reduced individual grain mass... ~Z69–91 24/19 °C or 30/25 °C from anthesis to maturity Reduced grain mass at maturity",
+      "claim_summary": "Post-anthesis high temperatures (e.g., 40 C for 3 d, or 30/25 C to maturity) reduce individual grain mass in wheat.",
+      "extraction_confidence": "high",
+      "bbch_min": 69,
+      "bbch_max": 91
+    },
+    {
+      "parameter_id": "photosynthesis.photosynthetic_rate",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Net photosynthesis (Anet) increases as leaf temperature rises, peaking at an optimum temperature (Topt) and then declining... Temperatures significantly higher than Topt can result in a reduction in photosynthesis in both wheat leaves and ears, which in turn impairs grain fill",
+      "claim_summary": "Wheat net photosynthesis peaks at an optimum temperature (Topt) and declines above it; supra-optimal temperatures reduce photosynthesis and impair grain fill.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "leaf respiration... generally doubling with every 10 °C increase in temperature... The general R/A ratio in whole plants probably ranges between 0.35 and 0.80... For wheat, maize, and rice, the R/A ratio generally falls between 0.3 and 0.6",
+      "claim_summary": "Wheat whole-plant respiration to assimilation (R/A) ratio generally falls between 0.3 and 0.6; respiration roughly doubles per 10 C (Q10~2).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "wheat whole plant growth respiration... increased with temperature from 10 °C, before reaching a maximal rate (Tmax) at just beyond 30 °C. Following this peak, growth respiration decreased sharply in those plants experiencing long-term exposure to temperatures above 30 °C",
+      "claim_summary": "Wheat whole-plant growth respiration peaks just beyond 30 C, then declines sharply with sustained exposure above 30 C.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The plants that acclimated to high temperature pre-anthesis had smaller decreases in net photosynthesis, transpiration rate, and stomatal conductance in comparison with those that had not experienced pre-anthesis heat exposure",
+      "claim_summary": "High temperature reduces wheat stomatal conductance, transpiration and net photosynthesis; pre-anthesis acclimation lessens the decrease.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

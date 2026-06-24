@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-552e8fc877e9fa44",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s00122-016-2691-5.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007%2Fs00122-016-2691-5.pdf",
+  "doi": "https://doi.org/10.1007/s00122-016-2691-5",
+  "title": "Envirotyping for deciphering environmental impacts on crop plants",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "552e8fc877e9fa4455b9402a97c1cd8e0c3a02d7f81b539bf86b40f3cef0a6ae",
+  "content_hash": "e8a92a2ff688d486b5e6e8830ebad12b99afd5def18d490388a556741ba50ce8",
+  "text_length": 90693,
+  "publication_date_hint": "2015",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2290369781",
+    "doi": "https://doi.org/10.1007/s00122-016-2691-5",
+    "publication_year": 2016,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/050-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,141 @@
+{"claims": [
+  {
+    "parameter_id": "temperature.germination_temperature",
+    "value_type": "range",
+    "range_min": 12,
+    "range_max": 30,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Germination and emergence (E) >4 and <40 C | 12-30 C | 3.5-10 d (depending on soil moisture)",
+    "claim_summary": "Optimum wheat germination/emergence temperature is 12-30 C, with tolerable limits >4 and <40 C.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.minimum_growth_temperature",
+    "value_type": "numeric",
+    "numeric_value": 4,
+    "unit": "celsius",
+    "qualifier": "minimum",
+    "evidence_text": "Germination and emergence (E) >4 and <40 C",
+    "claim_summary": "Minimum temperature limit for wheat germination/emergence is ~4 C.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.maximum_growth_temperature",
+    "value_type": "numeric",
+    "numeric_value": 40,
+    "unit": "celsius",
+    "qualifier": "maximum",
+    "evidence_text": "Germination and emergence (E) >4 and <40 C",
+    "claim_summary": "Maximum temperature limit for wheat germination/emergence is ~40 C.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.emergence_duration",
+    "value_type": "range",
+    "range_min": 3.5,
+    "range_max": 10,
+    "unit": "days",
+    "qualifier": "typical",
+    "evidence_text": "Germination and emergence (E)... 3.5-10 d (depending on soil moisture)",
+    "claim_summary": "Wheat germination-to-emergence takes 3.5-10 days depending on soil moisture.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "thermal_time.vernalization_units",
+    "value_type": "range",
+    "range_min": 0,
+    "range_max": 7,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Floral Initiation (GS1-Vernalization) 7 and 18 C (Spring) 0 and 7 C (Winter) | 4-10 C | 5-15 d (Spring) 30-60 d (Winter)",
+    "claim_summary": "Vernalization temperature range for winter wheat is 0-7 C (spring 7-18 C); optimum 4-10 C, requiring 30-60 d (winter) or 5-15 d (spring).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 60,
+    "unit": "days",
+    "qualifier": "typical",
+    "evidence_text": "Floral Initiation (GS1-Vernalization)... 4-10 C | 5-15 d (Spring) 30-60 d (Winter)",
+    "claim_summary": "Winter wheat vernalization requires 30-60 days at 4-10 C (spring wheat 5-15 days).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.optimum_growth_temperature",
+    "value_type": "numeric",
+    "numeric_value": 12,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Heading to Anthesis (GS2) >4.5 and <31 C | 12 C | 100 d (Spring) 130 d (Winter)",
+    "claim_summary": "Optimum temperature for wheat heading-to-anthesis (GS2) is 12 C, tolerable limits >4.5 and <31 C.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.grain_fill_temperature",
+    "value_type": "numeric",
+    "numeric_value": 21,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Anthesis to Physiological Maturity (GS3) >6 and <35.4 C | 21 C | 140 d (Spring) 170 d (Winter)",
+    "claim_summary": "Optimum temperature for wheat anthesis-to-physiological-maturity (grain fill, GS3) is 21 C, tolerable limits >6 and <35.4 C.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.grain_fill_duration",
+    "value_type": "range",
+    "range_min": 140,
+    "range_max": 170,
+    "unit": "days",
+    "qualifier": "typical",
+    "evidence_text": "Anthesis to Physiological Maturity (GS3)... 140 d (Spring) 170 d (Winter)",
+    "claim_summary": "Wheat anthesis-to-physiological-maturity duration is 140 d (spring) to 170 d (winter).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.cold_tolerance",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "In the spring season, when wheat canopy temperature falls 0 C or below, severe frost damage occurs... frost devastation begins at -3 C and complete burning of flag leaf and ears occurred at -7 C",
+    "claim_summary": "Wheat suffers severe frost damage when canopy temperature falls to 0 C or below; frost devastation begins at -3 C with complete flag leaf/ear burning at -7 C.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Every year, 85% of the wheat sown area in the world is affected by spring frost, and it usually takes place during March and April at the early booting stage... The reproductive growth phase is more sensitive to cold stress than the vegetative phase in wheat",
+    "claim_summary": "Wheat is most frost-sensitive at the reproductive stage (early booting/anthesis); spring frost in March-April affects 85% of global wheat sown area.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "During the reproductive stage, a 1 C decrease in temperature below the threshold level may result in a 10-90% wheat crop damage",
+    "claim_summary": "At the reproductive stage, a 1 C drop below threshold can cause 10-90% wheat crop damage.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "temperature.survival_temperature",
+    "value_type": "numeric",
+    "numeric_value": -20,
+    "unit": "celsius",
+    "qualifier": "minimum",
+    "evidence_text": "Floral Initiation (GS1- Prior Vernalization) -20 C*, >20 ... *Only for winter wheat, while spring wheat shows mild to no response to frost",
+    "claim_summary": "Winter wheat can survive down to about -20 C at floral initiation (prior to vernalization).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "photosynthesis.photosynthetic_rate",
+    "value_type": "numeric",
+    "numeric_value": 45,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "imposing low-temperature stress (day:night, 5 C:5 C) at the seedling stage resulted in a 45% decrease in the photosynthetic rate of primary leaves as compared with control (day:night, 20 C:16 C)",
+    "claim_summary": "Cold stress (5 C day/night) at seedling stage reduced wheat photosynthetic rate by 45% versus 20/16 C control.",
+    "extraction_confidence": "medium"
+  }
+]}

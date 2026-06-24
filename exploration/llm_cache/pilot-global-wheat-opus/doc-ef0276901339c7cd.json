@@ -1,0 +1,80 @@
+{
+  "claims": [
+    {
+      "parameter_id": "soil.water_table_depth",
+      "value_type": "numeric",
+      "numeric_value": 90,
+      "unit": "cm",
+      "qualifier": "optimum",
+      "evidence_text": "Overall, results from yield and growth parameters showed that 90 cm water table depth is the optimum depth for low water consumption with a high yield and high root development.",
+      "claim_summary": "For hard red spring wheat in lysimeters, 90 cm water table depth was optimum (highest yield, WUE, root development) among 30/60/90 cm tested.",
+      "extraction_confidence": "high",
+      "methods": ["lysimeter study"]
+    },
+    {
+      "parameter_id": "water.waterlogging_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "When the water table was below 70 cm from the surface, soil aeration in the root zones was reduced, which also reduced the root growth and consequently grain yields ... crops grown at 30 cm water table depth were affected by waterlogging in the soil profile, resulting in poor root development and low crop yields",
+      "claim_summary": "Hard red spring wheat suffers waterlogging stress, reduced root growth and lower yield at shallow water tables (<70 cm; worst at 30 cm).",
+      "extraction_confidence": "high",
+      "methods": ["lysimeter study"]
+    },
+    {
+      "parameter_id": "soil.water_table_depth",
+      "value_type": "range",
+      "range_min": 70,
+      "range_max": 165,
+      "unit": "cm",
+      "qualifier": "optimum",
+      "evidence_text": "Nosetto et al. (2009) found that crop yields were the highest at the water table depths of 70-165 cm for hard wheat",
+      "claim_summary": "Highest hard wheat yields reported at water table depths of 70-165 cm (Nosetto et al. 2009); winter wheat optimum 110-150 cm (Liu and Luo 2011).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 23,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Hard red spring wheat grows best in warm temperatures between 15 and 23 C and requires precipitation ranging between 12 and 18 inches.",
+      "claim_summary": "Hard red spring wheat grows best at 15-23 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "numeric",
+      "numeric_value": 591.53,
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "The cumulative ET0 during the experiments (92 days from seeding to harvesting) was calculated as 591.53 mm.",
+      "claim_summary": "Cumulative reference ET0 over 92-day HRSW greenhouse growing season was 591.53 mm; daily ET0 ranged 3.9 (germination) to 7.6 mm (anthesis).",
+      "extraction_confidence": "high",
+      "methods": ["lysimeter study", "atmometer"]
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "numeric",
+      "numeric_value": 90,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Hard red spring wheat root development was estimated to be 30 cm depth in the first 30 days after sowing, 6 cm depth between 30 and 60 days, and 90 cm depth after 60 days until harvesting",
+      "claim_summary": "Hard red spring wheat roots reach ~90 cm depth after 60 days; most root biomass concentrated in upper 0-40 cm.",
+      "extraction_confidence": "medium",
+      "methods": ["lysimeter study"]
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "numeric",
+      "numeric_value": 92,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "from September 24, 2020 (seeding), to December 24, 2020 (harvest) ... 92 days from seeding to harvesting",
+      "claim_summary": "Hard red spring wheat reached physiological maturity ~92 days after seeding in greenhouse (21 C day / 15 C night).",
+      "extraction_confidence": "medium",
+      "methods": ["lysimeter study"]
+    }
+  ]
+}

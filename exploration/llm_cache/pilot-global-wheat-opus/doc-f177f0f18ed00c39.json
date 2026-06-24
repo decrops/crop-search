@@ -1,0 +1,24 @@
+{"claims": [
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "range",
+    "range_min": 6.9,
+    "range_max": 22.0,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "such as wheat may have protein content between 6.9% and 22.00% (Vogel et al., 1973).",
+    "claim_summary": "Wheat grain protein content can range from 6.9% to 22.0% across genotypes and growing conditions.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "range",
+    "range_min": 13.5,
+    "range_max": 15.0,
+    "unit": "percent",
+    "qualifier": "typical",
+    "evidence_text": "The majority of DH lines were grouped in ranges of 13.5% 15% protein, interval in falling and the Izvor parent, 13.7%. The other parent, F00628G-34 line, has lower protein content, 12.2%.",
+    "claim_summary": "Most wheat DH lines studied grouped at 13.5-15% grain protein; parent cultivar Izvor 13.7%, parent line F00628G-34 12.2%.",
+    "extraction_confidence": "high"
+  }
+]}

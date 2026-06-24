@@ -1,0 +1,26 @@
+{
+  "claims": [
+    {
+      "parameter_id": "canopy.light_extinction_coefficient",
+      "value_type": "range",
+      "range_min": 0.28,
+      "range_max": 0.9,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The reported values of K vary between 0.28 and 0.90 with a median value of 0.59 (Table 1).",
+      "claim_summary": "Field-measured wheat canopy light extinction coefficient K ranges 0.28-0.90 (median 0.59)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.light_extinction_coefficient",
+      "value_type": "range",
+      "range_min": 0.44,
+      "range_max": 0.8,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "The values of Kcst used in wheat GCMs range from 0.44 to 0.80 (Table 2), with a median value of 0.52, that is, close to that calculated from field measurements.",
+      "claim_summary": "Constant light extinction coefficient used in wheat crop models ranges 0.44-0.80 (median 0.52)",
+      "extraction_confidence": "high"
+    }
+  ]
+}

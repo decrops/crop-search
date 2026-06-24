@@ -1,0 +1,125 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.harvest_index",
+    "value_type": "range",
+    "range_min": 0.29,
+    "range_max": 0.47,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Site mean HI ranged from 0.29 at Temora 2014 and Yarrawonga 2018 to 0.47 at Loxton in 2018.",
+    "claim_summary": "Site-mean harvest index of early-sown winter wheat ranged from 0.29 to 0.47 across environments.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "canopy.harvest_index",
+    "value_type": "numeric",
+    "numeric_value": 0.56,
+    "unit": "percent",
+    "qualifier": "maximum",
+    "evidence_text": "the maximum of 0.56 reported by Unkovich et al. (2010)",
+    "claim_summary": "Maximum wheat harvest index reported is about 0.56; well-managed spring cultivars commonly reach ~0.45.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "morphology.thousand_kernel_weight",
+    "value_type": "range",
+    "range_min": 27.3,
+    "range_max": 39.8,
+    "unit": "g",
+    "qualifier": "observed",
+    "evidence_text": "KW(mg) ... DS Bennett 27.3 c ... Kittyhawk 39.8 a ... (individual grain weight measured by weighing 200 grains)",
+    "claim_summary": "Individual (thousand) kernel weight of winter wheat cultivars ranged from ~27.3 to ~39.8 mg per grain across genotypes and environments.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.plant_height",
+    "value_type": "range",
+    "range_min": 58,
+    "range_max": 98,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "Hght(cm) ... DS Bennett ... 58 b ... Yarrawonga 2017 DS Bennett ... 98 a",
+    "claim_summary": "Winter wheat plant height ranged from about 58 cm to 98 cm across cultivars and environments.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "numeric",
+    "numeric_value": -4,
+    "unit": "celsius",
+    "qualifier": "threshold",
+    "evidence_text": "Temperatures below −4°C are likely to cause stem frost damage and occurred at these sites during stem elongation.",
+    "claim_summary": "Wheat stem frost damage during stem elongation is likely when temperatures fall below -4 C; pre-heading stem damage can occur approaching -6 C.",
+    "extraction_confidence": "high",
+    "bbch_min": 30,
+    "bbch_max": 39
+  },
+  {
+    "parameter_id": "temperature.heat_stress_threshold",
+    "value_type": "numeric",
+    "numeric_value": 32,
+    "unit": "celsius",
+    "qualifier": "threshold",
+    "evidence_text": "Heat stress events no. of days temperature > 32°C (Max Temperature) ... temperatures above 32°C were common at Loxton",
+    "claim_summary": "Days above 32 C were used to define heat-stress events for wheat around heading/flowering.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "numeric",
+    "numeric_value": 12.5,
+    "unit": "percent",
+    "qualifier": "typical",
+    "evidence_text": "GYs were measured by machine harvest of the inside four rows of six row plots and are reported at 12.5% moisture content.",
+    "claim_summary": "Wheat grain yield reported at 12.5% grain moisture content.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "range",
+    "range_min": 50,
+    "range_max": 150,
+    "unit": "plants/m2",
+    "qualifier": "observed",
+    "evidence_text": "two plant density treatments (low and high) targeting 50 and 150 plants/m 2 , respectively.",
+    "claim_summary": "Winter wheat plant density treatments targeted 50 (low) and 150 (high) plants/m2.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "two nitrogen timings (seedbed N and deferred N) ensuring either adequate N supply at sowing or deferred until early stem elongation (development stage 30–31)",
+    "claim_summary": "Nitrogen applied either at seedbed (sowing) or deferred to early stem elongation (DC30-31); deferred N reduced stem frost damage by ~7%.",
+    "extraction_confidence": "high",
+    "bbch_min": 30,
+    "bbch_max": 31
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "All cultivars have an obligate requirement for vernalization (winter wheat) and weak photoperiod sensitivity.",
+    "claim_summary": "The winter wheat cultivars studied have an obligate vernalization requirement and weak photoperiod sensitivity.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.photoperiod_sensitivity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "All cultivars have an obligate requirement for vernalization (winter wheat) and weak photoperiod sensitivity.",
+    "claim_summary": "The winter wheat cultivars studied showed weak photoperiod sensitivity.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "canopy.biomass_accumulation",
+    "value_type": "range",
+    "range_min": 2.7,
+    "range_max": 12.3,
+    "unit": "kg/ha",
+    "qualifier": "observed",
+    "evidence_text": "DM ranged from 2.7t/ha at Yarrawonga 2018 to 12.3t/ha at Temora in 2015.",
+    "claim_summary": "Above-ground dry matter (biomass) at maturity ranged from 2.7 to 12.3 t/ha across environments.",
+    "extraction_confidence": "high"
+  }
+]}

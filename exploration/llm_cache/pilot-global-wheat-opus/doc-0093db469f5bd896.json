@@ -1,0 +1,30 @@
+{
+  "claims": [
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 15,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat is considered ready to harvest when grain moisture content is below 15% or spikelets are yellowing.",
+      "claim_summary": "Wheat is ready to harvest when grain moisture content is below 15% (or spikelets yellowing); grain typically standardized to 12% moisture for yield reporting.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Physiological maturity is the point at which grain reaches hard dough stage, i.e. when spikes completely lose their green color; it typically occurs a few days before harvestable maturity.",
+      "claim_summary": "Wheat physiological maturity is reached at hard dough stage when spikes completely lose green color, a few days before harvestable maturity.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Harvest index = Dry weight of grain (kg/ha) / Total aboveground biomass (kg/ha)",
+      "claim_summary": "Wheat harvest index is defined as grain dry weight divided by total aboveground biomass (both kg/ha).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

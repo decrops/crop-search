@@ -1,0 +1,121 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "range",
+      "range_min": 12,
+      "range_max": 18,
+      "unit": "cm",
+      "qualifier": "typical",
+      "evidence_text": "In conventionally grown wheat crops, row spacing varies from 12 to 18 cm, whereas it can vary from 35 to 50 cm in organic or no-till farming conditions.",
+      "claim_summary": "Conventional wheat row spacing is 12-18 cm (35-50 cm under organic/no-till).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "range",
+      "range_min": 35,
+      "range_max": 50,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "it can vary from 35 to 50 cm in organic or no-till farming conditions.",
+      "claim_summary": "Wide wheat row spacing in organic/no-till systems is 35-50 cm.",
+      "extraction_confidence": "high",
+      "methods": ["no-till", "organic"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 170,
+      "unit": "plants/m2",
+      "qualifier": "observed",
+      "evidence_text": "grown under narrow (NI, 17.5 cm) or wide interrows (WI, 35 cm) at the same population density (170 seeds/m 2 ).",
+      "claim_summary": "Field experiment sowing density of 170 seeds/m2 for winter wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 170,
+      "range_max": 250,
+      "unit": "plants/m2",
+      "qualifier": "typical",
+      "evidence_text": "The usual sowing density (170–250 plants/m 2 ) is higher than the value of 70 plants/m 2 mentioned above, which can be thought of as insurance against the risk of winter mortality and as a means to control weed development",
+      "claim_summary": "Usual wheat sowing density is 170-250 plants/m2.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 70,
+      "range_max": 400,
+      "unit": "plants/m2",
+      "qualifier": "observed",
+      "evidence_text": "there is little impact on yield for plant densities ranging from 70 to 400 plants/m 2 , or between 16 and 400 plants/m 2 when square planting arrangements are used",
+      "claim_summary": "Wheat yield is little affected by plant density from 70 to 400 plants/m2 (plasticity).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "observed",
+      "evidence_text": "used to compute the thermal time from plant emergence on an hourly basis, assuming a linear response to temperature with a base temperature of 0°C.",
+      "claim_summary": "Base temperature of 0 C used for wheat thermal time accumulation.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.maturity_gdd",
+      "value_type": "numeric",
+      "numeric_value": 2451,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "The harvest was conducted mechanically on August 2 (∼2451°Cd after sowing)",
+      "claim_summary": "Winter wheat reached harvest at ~2451 degree-days (Tbase 0C) after sowing.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "text",
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "the number of ears in WI treatments ranged by 3% (Caphorn) to 15% (Renan) below those in NI treatments",
+      "claim_summary": "Wide row spacing reduced wheat ear (spike) density by 3-15% vs narrow spacing.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Wide row spacing generally results in a lower density of ears, but this is compensated by a higher number of kernels per ear and higher individual kernel weights.",
+      "claim_summary": "Wide row spacing yields lower ear density but compensating higher kernels-per-ear and kernel weight.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Hiltbrunner et al. (2005) also reported higher concentrations of grain protein under wide row spacing.",
+      "claim_summary": "Wide row spacing associated with higher wheat grain protein concentration.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "At flowering, no significant differences in PAIg were observed between WI and NI treatments... the larger size of upper leaves blades in WI treatments... fully compensated for the difference in the number of ear-bearing shoots.",
+      "claim_summary": "Wheat leaf area index at flowering showed little difference between wide and narrow row spacing.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "allowing space between rows for the mechanical control of weeds in organic farming, or use of seeders adapted to no-till practices.",
+      "claim_summary": "Wider wheat row spacing used in no-till and organic systems to enable mechanical weed control.",
+      "extraction_confidence": "low",
+      "methods": ["no-till", "organic", "weeding"]
+    }
+  ]
+}

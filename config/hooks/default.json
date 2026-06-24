@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "hooks": {
+    "pre-search": [
+      {
+        "name": "log-pre-search",
+        "action": "log"
+      },
+      {
+        "name": "archive-pre-search",
+        "action": "write_artifact",
+        "output_dir": "exploration/raw/artifacts"
+      }
+    ],
+    "post-fetch": [
+      {
+        "name": "log-post-fetch",
+        "action": "log"
+      },
+      {
+        "name": "archive-post-fetch",
+        "action": "write_artifact",
+        "output_dir": "exploration/raw/artifacts"
+      }
+    ],
+    "post-extract": [
+      {
+        "name": "validate-raw-capture",
+        "action": "validate_schema",
+        "schema": "raw-capture.schema.json"
+      }
+    ],
+    "pre-normalize": [
+      {
+        "name": "log-pre-normalize",
+        "action": "log"
+      }
+    ],
+    "pre-load": [
+      {
+        "name": "validate-normalized-claim",
+        "action": "validate_schema",
+        "schema": "normalized-claim.schema.json"
+      },
+      {
+        "name": "archive-load-ready-claim",
+        "action": "write_artifact",
+        "output_dir": "exploration/normalized/artifacts"
+      }
+    ],
+    "on-failure": [
+      {
+        "name": "log-failure",
+        "action": "log"
+      },
+      {
+        "name": "archive-failure",
+        "action": "write_artifact",
+        "output_dir": "exploration/raw/artifacts"
+      }
+    ]
+  }
+}

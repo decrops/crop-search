@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Taub (2010) shows that elevated CO2 levels cause a decrease in protein concentrations of wheat and rice by 5–14%.",
+      "claim_summary": "Elevated CO2 decreases wheat grain protein concentration by 5-14%.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

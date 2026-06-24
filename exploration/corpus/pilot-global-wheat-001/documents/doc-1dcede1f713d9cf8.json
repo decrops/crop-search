@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-1dcede1f713d9cf8",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s13593-018-0490-x.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s13593-018-0490-x.pdf",
+  "doi": "https://doi.org/10.1007/s13593-018-0490-x",
+  "title": "Sustainability of sugarcane production in Brazil. A review",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "1dcede1f713d9cf8bbcdc1176b1d59bd5d9b30d948a0f4dd21c742e4c064ac3b",
+  "content_hash": "48076b459f75b2139a8fc696d0d824f2fb96aaca858e3fea7ddd5be30e40ff38",
+  "text_length": 2961,
+  "publication_date_hint": "2018",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2792040353",
+    "doi": "https://doi.org/10.1007/s13593-018-0490-x",
+    "publication_year": 2018,
+    "is_open_access": true,
+    "open_access_status": "bronze"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/093-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

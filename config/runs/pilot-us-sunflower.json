@@ -1,0 +1,68 @@
+{
+  "run_id": "pilot-us-sunflower-001",
+  "version": "0.1.0",
+  "crop": "sunflower",
+  "region_scope": {
+    "level": "country",
+    "name": "United States"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/sunflower.json",
+  "parameter_families": [
+    "temperature",
+    "thermal_time",
+    "water",
+    "soil",
+    "phenology",
+    "planting"
+  ],
+  "queries_per_parameter": 1,
+  "max_parameters": 12,
+  "source_seeds": [
+    {
+      "source_url": "https://www.ndsu.edu/agriculture/extension/publications/sunflower-production-guide",
+      "title": "Sunflower Production Guide - NDSU Extension",
+      "snippet": "NDSU Extension sunflower production guide with soil temperature near 50 F, water requirements, pH, and frost guidance.",
+      "document_type": "html",
+      "parameter_ids": [
+        "temperature.germination_temperature",
+        "temperature.soil_emergence_temperature",
+        "temperature.survival_temperature",
+        "water.evapotranspiration_requirement",
+        "soil.ph_range"
+      ]
+    },
+    {
+      "source_url": "https://www.ndsu.edu/agriculture/extension/publications/sunflower-production-guide",
+      "title": "Sunflower Production Guide - NDSU Extension",
+      "snippet": "NDSU Extension sunflower production guide with growth stages, temperature, water, soil, and harvest guidance.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "thermal_time", "water", "soil"]
+    },
+    {
+      "source_url": "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sunflower-production-guide/",
+      "title": "Sunflower Production Guide - Texas A&M AgriLife",
+      "snippet": "Texas A&M AgriLife sunflower production guide with soil temperature, germination, water, and soil recommendations.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "water", "soil"]
+    },
+    {
+      "source_url": "https://mbcropalliance.ca/wp-content/uploads/2023/03/Sunflower_Production_Guide.pdf",
+      "title": "The Sunflower Production Guide",
+      "snippet": "Sunflower production guide with field selection, pH, growth stages, and management recommendations.",
+      "document_type": "pdf",
+      "parameter_families": ["temperature", "water", "soil"]
+    }
+  ],
+  "max_results_per_query": 2,
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

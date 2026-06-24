@@ -1,0 +1,249 @@
+Producing more food with reduced environmental impact remains a critical challenge. Previous agricultural management strategies have predominantly emphasized crop varieties, fertilization and irrigation, often requiring substantial resource inputs and technical expertise. However, the role of crop canopy architecture, which remarkably influences plant growth and ecosystem processes, has been largely overlooked. Here we integrate satellite-based and field observations to assess the global impacts of canopy architecture on crop yield and nitrous oxide (N 2 O) emissions for rice, wheat, maize and soybean during the past two decades. Our findings reveal that crops with clumped canopy architectures achieve higher yields and lower N 2 O emissions, a pattern consistently observed across all four major crops, even though soil properties also critically regulate N 2 O emissions. This effect is possibly driven by enhanced light interception and gross primary production, along with increased canopy nitrogen demand. Aligning crop canopy architecture with the global average can potentially increase crop production by 336 million tons annually, generating economic benefits of US$108 billion per year while simultaneously reducing N 2 O emissions by 41.6% globally. These results highlight the critical role of canopy architecture in global food security and present a novel strategy for enhancing agricultural productivity and sustainability on a global scale.
+
+This is a preview of subscription content, access via your institution
+
+Access Nature and 54 other Nature Portfolio journals
+
+Get Nature+, our best-value online-access subscription
+
+Receive 12 digital issues and online access to articles
+
+Prices may be subject to local taxes which are calculated during checkout
+
+The MODIS CI are available at https://doi.pangaea.de/10.1594/PANGAEA.884994 ; the global crop yield data from the Global Dataset of Historical Yield (GDHY) are available at https://doi.org/10.20783/DIAS.564 ; the global crop yield from M3Crops dataset are available at http://www.earthstat.org/harvested-area-yield-175-crops/ ; the global crop yield from Spatial Production Allocation Model dataset are available at https://doi.org/10.7910/DVN/PRFF8V ; the country-level crop yield statistics from the FAO are available at https://www.fao.org/faostat ; the filed N 2 O observations data are available from the link in ref. 9 ; the climatic data from the TerraClimate product are available at https://www.climatologylab.org/ ; the global soil properties are available at https://data.isric.org/ ; the global field application rates of N, P and K fertilizers are available at https://doi.org/10.11888/Terre.tpdc.300446 ; the global satellite-based APAR and GPP product are available via Dryad at https://doi.org/10.5061/dryad.dfn2z352k (ref. 75 ); the global canopy N demand dataset are available from the link in ref. 33 .
+
+The codes used in this study are publicly available via Figshare at https://figshare.com/s/4f4170369c238cb0b694 (ref. 76 ).
+
+Wheeler, T. & Von Braun, J. Climate change impacts on global food security. Science 341 , 508–513 (2013).
+
+Zhang, X. et al. Managing nitrogen for sustainable development. Nature 528 , 51–59 (2015).
+
+Van Dijk, M., Morley, T., Rau, M. L. & Saghai, Y. A meta-analysis of projected global food demand and population at risk of hunger for the period 2010–2050. Nat. Food 2 , 494–501 (2021).
+
+Ray, D. K., Mueller, N. D., West, P. C. & Foley, J. A. Yield trends are insufficient to double global crop production by 2050. PLoS ONE 8 , e66428 (2013).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Leff, B., Ramankutty, N. & Foley, J. A. Geographic distribution of major crops across the world. Global Biogeochem. Cycles 18 , GB1009 (2004).
+
+Adalibieke, W., Cui, X., Cai, H., You, L. & Zhou, F. Global crop-specific nitrogen fertilization dataset in 1961–2020. Sci. Data 10 , 617 (2023).
+
+Article PubMed PubMed Central Google Scholar
+
+Tian, H. et al. Global nitrous oxide budget 1980–2020. Earth Syst. Sci. Data Discuss. 2023 , 1–98 (2023).
+
+Tian, H. et al. A comprehensive quantification of global nitrous oxide sources and sinks. Nature 586 , 248–256 (2020).
+
+Cui, X. et al. Global mapping of crop-specific emission factors highlights hotspots of nitrous oxide mitigation. Nat. Food 2 , 886–893 (2021).
+
+Summary for policymakers. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC, 2021).
+
+Murchie, E. H. & Burgess, A. J. Casting light on the architecture of crop yield. Crop Environ. 1 , 74–85 (2022).
+
+Valladares, F. & Niinemets, Ü. The architecture of plant crowns: from design rules to light capture and performance. In Functional Plant Ecology (eds Pugnaire, F. & Valladares, F.) 101–149 (CRC Press, 2007).
+
+Richards, R. Selectable traits to increase crop photosynthesis and yield of grain crops. J. Exp. Bot. 51 , 447–458 (2000).
+
+Cheng, Y. et al. High canopy photosynthesis before anthesis explains the outstanding yield performance of rice cultivars with ideal plant architecture. Field Crops Res. 306 , 109223 (2024).
+
+Evans, J. R. & Clarke, V. C. The nitrogen cost of photosynthesis. J. Exp. Bot. 70 , 7–15 (2019).
+
+Jiang, Y. et al. Optimizing rice plant photosynthate allocation reduces N 2 O emissions from paddy fields. Sci. Rep. 6 , 29333 (2016).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Schützenmeister, K. et al. N 2 O emissions from plants are reduced under photosynthetic activity. Plant-Environ. Interact. 1 , 48–56 (2020).
+
+Article PubMed PubMed Central Google Scholar
+
+Ort, D. R. et al. Redesigning photosynthesis to sustainably meet global food and bioenergy demand. Proc. Natl Acad. Sci. USA 112 , 8529–8536 (2015).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Tian, J. et al. Maize smart-canopy architecture enhances yield at high densities. Nature 632 , 576–584 (2025).
+
+Fang, H. Canopy clumping index (CI): A review of methods, characteristics, and applications. Agric. For. Meteorol. 303 , 108374 (2021).
+
+Chen, J. M. et al. Effects of foliage clumping on the estimation of global terrestrial gross primary productivity. Global Biogeochem. Cycles 26 , GB1019 (2012).
+
+Li, F. et al. Vegetation clumping modulates global photosynthesis through adjusting canopy light environment. Glob. Chang. Biol. 29 , 731–746 (2023).
+
+Wei, S., Fang, H., Schaaf, C. B., He, L. & Chen, J. M. Global 500 m clumping index product derived from MODIS BRDF data (2001–2017). Remote Sens. Environ. 232 , 111296 (2019).
+
+Iizumi, T. & Sakai, T. The global dataset of historical yields for major crops 1981–2016. Sci. Data 7 , 97 (2020).
+
+Article PubMed PubMed Central Google Scholar
+
+Yu, Q. et al. A cultivated planet in 2010–part 2: the global gridded agricultural-production maps. Earth Syst. Sci. Data 12 , 3545–3572 (2020).
+
+Monfreda, C., Ramankutty, N. & Foley, J. A. Farming the planet: 2. Geographic distribution of crop areas, yields, physiological types, and net primary production in the year 2000. Global Biogeochem. Cycles 22 , GB1022 (2008).
+
+Yang, Y. et al. Soil nitrous oxide emissions by atmospheric nitrogen deposition over global agricultural systems. Environ. Sci. Technol. 55 , 4420–4429 (2021).
+
+Chen, J. M., Liu, J., Leblanc, S. G., Lacaze, R. & Roujean, J.-L. Multi-angular optical remote sensing for assessing vegetation structure and carbon absorption. Remote Sens. Environ. 84 , 516–525 (2003).
+
+Chen, W., Pan, W. & Xu, Z. Current situation and trends in production of Japonica rice in China. J. Shenyang Agric. Univ. 37 , 801–805 (2006).
+
+Grogan, D., Frolking, S., Wisser, D., Prusevich, A. & Glidden, S. Global gridded crop harvested area, production, yield, and monthly physical area data circa 2015. Sci. Data 9 , 15 (2022).
+
+Article PubMed PubMed Central Google Scholar
+
+He, L., Chen, J. M., Pisek, J., Schaaf, C. B. & Strahler, A. H. Global clumping index map derived from the MODIS BRDF product. Remote Sens. Environ. 119 , 118–130 (2012).
+
+Jiao, Z. et al. An algorithm for the retrieval of the clumping index (CI) from the MODIS BRDF product using an adjusted version of the kernel-driven BRDF model. Remote Sens. Environ. 209 , 594–611 (2018).
+
+Dong, N. et al. Rising CO 2 and warming reduce global canopy demand for nitrogen. New Phytol. 235 , 1692–1700 (2022).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Dong, N. et al. Leaf nitrogen from first principles: field evidence for adaptive variation with climate. Biogeosciences 14 , 481–495 (2017).
+
+Luo, X. et al. Global variation in the fraction of leaf nitrogen allocated to photosynthesis. Nat. Commun. 12 , 4866 (2021).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Dreccer, M. F. Nitrogen use at the leaf and canopy level: a framework to improve crop N use efficiency. J. Crop Improv. 15 , 97–125 (2006).
+
+Gu, J. et al. Canopy light and nitrogen distributions are related to grain yield and nitrogen use efficiency in rice. Field Crops Res. 206 , 74–85 (2017).
+
+Braghiere, R. K., Quaife, T., Black, E., He, L. & Chen, J. Underestimation of global photosynthesis in Earth system models due to representation of vegetation structure. Global Biogeochem. Cycles 33 , 1358–1369 (2019).
+
+Chen, J., Menges, C. & Leblanc, S. Global mapping of foliage clumping index using multi-angular satellite data. Remote Sens. Environ. 97 , 447–457 (2005).
+
+Béland, M. & Baldocchi, D. D. Vertical structure heterogeneity in broadleaf forests: effects on light interception and canopy photosynthesis. Agric. For. Meteorol. 307 , 108525 (2021).
+
+Chen, S., Shao, B., Impens, I. & Ceulemans, R. Effects of plant canopy structure on light interception and photosynthesis. J. Quant. Spectrosc. Radiat. Transf. 52 , 115–123 (1994).
+
+Nilson, T. A theoretical analysis of the frequency of gaps in plant stands. Agric. Meteorol. 8 , 25–38 (1971).
+
+Baldocchi, D. D., Wilson, K. B. & Gu, L. How the environment, canopy structure and canopy physiological functioning influence carbon, water and energy fluxes of a temperate broad-leaved deciduous forest—an assessment with the biophysical model CANOAK. Tree Physiol. 22 , 1065–1077 (2002).
+
+Stewart, D. et al. Canopy structure, light interception, and photosynthesis in maize. Agron. J. 95 , 1465–1474 (2003).
+
+Mathur, S., Jain, L. & Jajoo, A. Photosynthetic efficiency in sun and shade plants. Photosynthetica 56 , 354–365 (2018).
+
+Williams, I. N., Riley, W. J., Kueppers, L. M., Biraud, S. C. & Torn, M. S. Separating the effects of phenology and diffuse radiation on gross primary productivity in winter wheat. J. Geophys. Res. Biogeosci. 121 , 1903–1915 (2016).
+
+Braghiere, R. K. et al. Characterization of the radiative impact of aerosols on CO 2 and energy fluxes in the Amazon deforestation arch using artificial neural networks. Atmos. Chem. Phys. 20 , 3439–3458 (2020).
+
+Niinemets, U. Photosynthesis and resource distribution through plant canopies. Plant Cell Environ. 30 , 1052–1071 (2007).
+
+Reay, D. S. et al. Global agriculture and nitrous oxide emissions. Nat. Clim. Change 2 , 410–416 (2012).
+
+Liu, Y. et al. Localized nitrogen management strategies can halve fertilizer use in Chinese staple crop production. Nat. Food 5 , 825–835 (2024).
+
+You, L., Ros, G. H., Chen, Y., Zhang, F. & de Vries, W. Optimized agricultural management reduces global cropland nitrogen losses to air and water. Nat. Food 5 , 995–1004 (2024).
+
+Gu, B. et al. Cost-effective mitigation of nitrogen pollution from global croplands. Nature 613 , 77–84 (2023).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Duan, J. et al. Agricultural management practices in China enhance nitrogen sustainability and benefit human health. Nat. Food 5 , 378–389 (2024).
+
+Food and Agriculture Organization, International Fund for Agricultural Development, UNICEF, World Food Programme. The State of Food Security and Nutrition in the World 2024 . (WHO).
+
+Food Price Monitoring and Analysis (Food and Agriculture Organization).
+
+Li, J.-Y., Wang, J. & Zeigler, R. S. The 3,000 rice genomes project: new opportunities and challenges for future rice research. Gigascience 3 , 2047–217X (2014).
+
+Zhao, H. et al. An inferred functional impact map of genetic variants in rice. Mol. Plant 14 , 1584–1599 (2021).
+
+Wang, Z., Schaaf, C. B., Sun, Q., Shuai, Y. & Román, M. O. Capturing rapid land surface dynamics with Collection V006 MODIS BRDF/NBAR/Albedo (MCD43) products. Remote Sens. Environ. 207 , 50–64 (2018).
+
+Kim, K.-H., Doi, Y., Ramankutty, N. & Iizumi, T. A review of global gridded cropping system data products. Environ. Res. Lett. 16 , 093005 (2021).
+
+Yang, Y. et al. Enhanced nitrous oxide emissions caused by atmospheric nitrogen deposition in agroecosystems over China. Environ. Sci. Pollut. Res. 28 , 15350–15360 (2021).
+
+Laborte, A. G. et al. RiceAtlas, a spatial database of global rice calendars and production. Sci. Data 4 , 1–10 (2017).
+
+Abatzoglou, J. T., Dobrowski, S. Z., Parks, S. A. & Hegewisch, K. C. TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958–2015. Sci. Data 5 , 1–12 (2018).
+
+Batjes, N. H. ISRIC-WISE Global Data Set of Derived Soil Properties on a 0.5 by 0.5 Degree Grid (ver. 3.0) (ISRIC, 2005).
+
+Zhang, K., Li, X., Zheng, D., Zhang, L. & Zhu, G. Estimation of global irrigation water use by the integration of multiple satellite observations. Water Resour. Res. 58 , e2021WR030031 (2022).
+
+Bi, W. et al. A global 0.05 dataset for gross primary production of sunlit and shaded vegetation canopies from 1992 to 2020. Sci. Data 9 , 213 (2022).
+
+Article PubMed PubMed Central Google Scholar
+
+Wang, S., Zhang, Y., Ju, W., Qiu, B. & Zhang, Z. Tracking the seasonal and inter-annual variations of global gross primary production during last four decades using satellite near-infrared reflectance data. Sci. Total Environ. 755 , 142569 (2021).
+
+Stocker, B. D. et al. P-model v1. 0: an optimality-based light use efficiency model for simulating ecosystem gross primary production. Geosci. Model Dev. 13 , 1545–1581 (2020).
+
+Shen, R., Peng, Q., Li, X., Chen, X. & Yuan, W. CCD-Rice: a long-term paddy rice distribution dataset in China at 30 m resolution. Earth Syst. Sci. Data 17 , 2193–2216 (2025).
+
+USDA National Agricultural Statistics Service Cropland Data Layer . Published crop-specific data layer [Online]. Available at https://nassgeodata.gmu.edu/CropScape/ (USDA-NASS).
+
+Ploton, P. et al. Spatial validation reveals poor predictive performance of large-scale ecological mapping models. Nat. Commun. 11 , 4540 (2020).
+
+Article CAS PubMed PubMed Central Google Scholar
+
+Braghiere, R. K., Gérard, F., Evers, J. B., Pradal, C. & Pagès, L. Simulating the effects of water limitation on plant biomass using a 3D functional–structural plant model of shoot and root driven by soil hydraulics. Ann. Bot. 126 , 713–728 (2020).
+
+Article PubMed PubMed Central Google Scholar
+
+Walters, D. et al. The Met Office Unified Model global atmosphere 4.0 and JULES global land 4.0 configurations. Geosci. Model Dev. 7 , 361–386 (2014).
+
+Slevin, D., Tett, S. F., Exbrayat, J.-F., Bloom, A. A. & Williams, M. Global evaluation of gross primary productivity in the JULES land surface model v3. 4.1. Geoscientific Model Dev. 10 , 2651–2670 (2017).
+
+Sellers, P. J. Canopy reflectance, photosynthesis and transpiration. Int. J. Remote Sens. 6 , 1335–1372 (1985).
+
+Bi, W. & Zhou, Y. A global 0.05° dataset for gross primary production of sunlit and shaded vegetation canopies (1992–2020). Dryad https://doi.org/10.5061/dryad.dfn2z352k (2022).
+
+Yan, Y. & Wang, S. Code for CI-crop manuscript. Figshare https://figshare.com/s/4f4170369c238cb0b694 (2025).
+
+This research was supported by the National Natural Science Foundation of China (32322064 and 32471675), the Fundamental Research Funds for the Central Universities (KYCXJC2025006), the National Key R&D Program of China (2022YFF0803100), the Jiangsu Provincial Natural Science Foundation for Distinguished Young Scholars (BK20220083) and the Nanjing U35 Project. C.D. was supported by the Postdoctoral Fellowship Program of CPSF under grant GZC20252644 and Jiangsu Province Outstanding Postdoctoral Program under grant 2025ZB155. J.P. was supported by the Spanish government grants PID2022-140808NB-I00 funded by MICIU/AEI/10.13039/501100011033 and FEDER, EU, the Catalan Government grants SGR 2021–1333 and AGAUR2023 CLIMA 00118, and the EU grant CONCERTO (HORIZON-CL5-2024-D1-01). L.L. was supported by the National Natural Science Foundation of China (42125103). Y.K. thanks the RUDN University Strategic Academic Leadership Program. We also extend our sincere thanks to all data providers for their continuous efforts and for sharing their data.
+
+These authors contributed equally: Yuli Yan, Chaoya Dang, Lei Liu.
+
+College of Agriculture, Academy for Advanced Interdisciplinary Studies, Nanjing Agricultural University, Nanjing, China
+
+Yuli Yan, Chaoya Dang, Zihao Wang, Liyuan Chen, Yu Jiang, Yanfeng Ding & Songhan Wang
+
+Jiangsu Collaborative Innovation Center for Modern Crop Production/Key Laboratory of Crop Physiology and Ecology in Southern China, Nanjing Agricultural University, Nanjing, China
+
+Yuli Yan, Chaoya Dang, Zihao Wang, Liyuan Chen, Yu Jiang, Yanfeng Ding & Songhan Wang
+
+State Key Laboratory of Lake and Watershed Science for Water Security, Nanjing Institute of Geography and Limnology, Chinese Academy of Sciences, Nanjing, China
+
+College of Urban and Environmental Sciences, Peking University, Beijing, China
+
+Department of Soil Science of Temperate Ecosystems, Department of Agricultural Soil Science, University of Gottingen, Gottingen, Germany
+
+Peoples Friendship University of Russia (RUDN University), Moscow, Russia
+
+Department of Geography and Planning, University of Toronto, Toronto, Ontario, Canada
+
+International Institute for Earth System Sciences, Nanjing University, Nanjing, China
+
+Center for Earth System Science and Global Sustainability, Schiller Institute for Integrated Science and Society, Department of Earth and Environmental Sciences, Boston College, Chestnut Hill, MA, USA
+
+State Key Laboratory of Nutrient Use and Management, Beijing Key Laboratory of Farmland Soil Pollution Prevention and Remediation, College of Resources and Environmental Sciences, National Academy of Agriculture Green Development, China Agricultural University, Beijing, China
+
+Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China
+
+College of Environmental and Resource Sciences, Zhejiang University, Hangzhou, China
+
+CSIC, Global ecology Unit CREAF-CSIC-UAB, Bellaterra, Spain
+
+S.W. designed the research; Y.Y., C.D., Z.W. and L.C. performed the analysis and conducted the field experiment; S.W., B.G. and Y.D. drafted the paper; L.L., J.P., Z.J., Y.K., J.M.C., F.Z., Y.Z., H.T., X.L., Q.Z., Y.J. and Z.S. provided the data and contributed to the interpretation of the results and to the writing.
+
+Correspondence to Baojing Gu , Yanfeng Ding or Songhan Wang .
+
+The authors declare no competing interests.
+
+Nature Plants thanks Renato Braghiere, Susan Ustin and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+
+Yan, Y., Dang, C., Liu, L. et al. Clumped canopy architecture raises global crop yield and reduces N 2 O emissions. Nat. Plants 12 , 49–61 (2026). https://doi.org/10.1038/s41477-025-02172-w
+
+DOI : https://doi.org/10.1038/s41477-025-02172-w
+
+Anyone you share the following link with will be able to read this content:
+
+Sorry, a shareable link is not currently available for this article.
+
+Provided by the Springer Nature SharedIt content-sharing initiative

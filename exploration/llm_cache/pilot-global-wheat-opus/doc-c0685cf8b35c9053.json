@@ -1,0 +1,263 @@
+{
+  "claims": [
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 13,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "it is the leading source of vegetable proteins in human food, having a protein content of about 13%",
+      "claim_summary": "Wheat grain has a protein content of about 13%.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 13,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "Raw red winter wheat is 13% water, 71% carbohydrates including 12% dietary fibre , 13% protein , and 2% fat (table).",
+      "claim_summary": "Raw red winter wheat is 13% protein.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.gluten_strength",
+      "value_type": "range",
+      "range_min": 75,
+      "range_max": 80,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "Some 75–80% of the protein content is as gluten .",
+      "claim_summary": "75-80% of wheat grain protein content is gluten.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 100,
+      "unit": "count",
+      "qualifier": "observed",
+      "evidence_text": "At the top of the stem is the flower head, containing some 20 to 100 flowers.",
+      "claim_summary": "Wheat flower head contains some 20 to 100 flowers (florets).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "count",
+      "qualifier": "maximum",
+      "evidence_text": "winter crops may have up to 35 tillers (shoots) per plant (depending on cultivar).",
+      "claim_summary": "Winter wheat may have up to 35 tillers per plant depending on cultivar.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "numeric",
+      "numeric_value": 15,
+      "unit": "count",
+      "qualifier": "maximum",
+      "evidence_text": "Winter wheat generally produces up to 15 leaves per shoot, and spring wheat up to 9;",
+      "claim_summary": "Winter wheat produces up to 15 leaves per shoot, spring wheat up to 9.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "numeric",
+      "numeric_value": 200,
+      "unit": "cm",
+      "qualifier": "maximum",
+      "evidence_text": "Wheat roots are among the deepest of arable crops, extending as far down as 2 metres (6 ft 7 in).",
+      "claim_summary": "Wheat roots can extend as deep as 2 metres.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "the plant accumulates an energy store in its stem, in the form of fructans, which helps the plant to yield under drought and disease pressure... Root growth is likely to be prioritised in drought-adapted crops",
+      "claim_summary": "Stem fructan reserves and prioritised root growth help wheat yield under drought.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.survival_temperature",
+      "value_type": "numeric",
+      "numeric_value": 4,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "Winter wheat lies dormant during a winter freeze; it requires a long period below 4°C",
+      "claim_summary": "Winter wheat requires a long period below 4 C (dormancy/vernalization).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "numeric",
+      "numeric_value": 32,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "it requires a long period below 4°C, and suffers heat stress and low yield if temperatures rise above 32°C.",
+      "claim_summary": "Winter wheat suffers heat stress and low yield above 32 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 10,
+      "range_max": 15,
+      "unit": "cm",
+      "qualifier": "minimum",
+      "evidence_text": "Winter wheat needs to develop to a height of 10 to 15 cm before the cold intervenes, so as to be able to survive the winter",
+      "claim_summary": "Winter wheat needs to reach 10-15 cm height before cold to survive winter.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 21,
+      "range_max": 24,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Spring wheat does not undergo dormancy. It grows best at between 21 and 24°C, but can tolerate a range between 4°C and 35°C.",
+      "claim_summary": "Spring wheat grows best at 21-24 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.minimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 4,
+      "unit": "celsius",
+      "qualifier": "minimum",
+      "evidence_text": "It grows best at between 21 and 24°C, but can tolerate a range between 4°C and 35°C. Germination below 4°C or maturation above 35°C reduce crop yield.",
+      "claim_summary": "Spring wheat tolerates down to 4 C; germination below 4 C reduces yield.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.maximum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "but can tolerate a range between 4°C and 35°C. Germination below 4°C or maturation above 35°C reduce crop yield.",
+      "claim_summary": "Spring wheat tolerates up to 35 C; maturation above 35 C reduces yield.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat requires a deep soil , preferably a loam with organic matter, and available minerals including soil nitrogen, phosphorus, and potassium. An acid and peaty soil is not suitable.",
+      "claim_summary": "Wheat prefers deep loam with organic matter; acid and peaty soils unsuitable.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 300,
+      "range_max": 380,
+      "unit": "mm",
+      "qualifier": "recommended",
+      "evidence_text": "It needs some 30 to 38 cm of rain in the growing season to form a good crop of grain.",
+      "claim_summary": "Wheat needs some 30-38 cm of rain in the growing season for a good crop.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 110,
+      "range_max": 130,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "Wheat normally needs between 110 and 130 days between sowing and harvest, depending upon climate, seed type, and soil conditions.",
+      "claim_summary": "Wheat normally needs 110-130 days between sowing and harvest.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "it is currently recommended that the second application of nitrogen is made when the ear (not visible at this stage) is about 1 cm in size (Z31 on Zadoks scale ).",
+      "claim_summary": "Second N application recommended when ear is about 1 cm (Zadoks Z31).",
+      "extraction_confidence": "high",
+      "bbch_min": 31,
+      "bbch_max": 31
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "the stage of pollen formation from the mother cell, and the stages between anthesis and maturity, are vulnerable to high temperatures, made worse by water stress.",
+      "claim_summary": "Pollen formation and anthesis-to-maturity stages are vulnerable to high temperatures, worsened by water stress.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Dwarfing genes enable the carbon that is fixed in the plant during photosynthesis to be diverted towards seed production, and reduce lodging, when a tall ear stalk falls over in the wind.",
+      "claim_summary": "Dwarfing genes reduce lodging (tall ear stalk falling over in wind).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Dwarfing genes enable the carbon that is fixed in the plant during photosynthesis to be diverted towards seed production",
+      "claim_summary": "Dwarfing genes divert fixed carbon toward seed production (higher harvest index).",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "photosynthesis.transpiration_efficiency",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Basic physiological investigation of these gas exchange processes has yielded carbon isotope based method used for breeding wheat varieties with improved water-use efficiency. These varieties can improve crop productivity in rain-fed dry-land wheat farms.",
+      "claim_summary": "Carbon-isotope methods enable breeding wheat with improved water-use efficiency for rain-fed dry-land farms.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "photosynthesis.photosynthetic_rate",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The last leaf produced by a wheat plant is known as the flag leaf. It is denser and has a higher photosynthetic rate than other leaves, to supply carbohydrate to the developing ear.",
+      "claim_summary": "The flag leaf has a higher photosynthetic rate than other leaves, supplying carbohydrate to the ear.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "In these low rainfall areas, better use of available soil-water (and better control of soil erosion) is achieved by retaining the stubble after harvesting and by minimising tillage.",
+      "claim_summary": "In low-rainfall areas, retaining stubble and minimising tillage improves soil-water use and erosion control.",
+      "extraction_confidence": "medium",
+      "methods": ["tillage", "residue retention"]
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "wheat cropping is successful even with relatively little use of nitrogenous fertiliser. This is achieved by crop rotation with leguminous pastures. The inclusion of a canola crop in the rotations has boosted wheat yields by a further 25%.",
+      "claim_summary": "Crop rotation with legumes sustains wheat with little N; adding canola boosts yields 25%.",
+      "extraction_confidence": "medium",
+      "methods": ["crop rotation"]
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The grain is then dried so that it can be stored safe from mould fungi.",
+      "claim_summary": "Harvested grain is dried for safe storage from mould fungi.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

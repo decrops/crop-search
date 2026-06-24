@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-874cce94d4fe6d51",
+  "canonical_url": "https://en.wikipedia.org/wiki/Cereal",
+  "source_url": "https://en.wikipedia.org/wiki/Cereal",
+  "doi": "",
+  "title": "Cereal - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "international_institution",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "874cce94d4fe6d51cb544e34ecbc6d4c8f8c05cdd0e8d19ac3b0d404b3a56abe",
+  "content_hash": "e9ac4b26ac02d24a08fcb881ba552902dddc068d8a4d179ceef8ed79f4a64a50",
+  "text_length": 17807,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 6700
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/021-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

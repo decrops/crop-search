@@ -1,0 +1,687 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Hyperspectral estimation on the photosynthetic phenotype of winter wheat under drought stress using machine learning algorithms",
+      "text": "Published: 31 January 2026 Volume 27 , article number 22 ( 2026 ) Cite this article Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Purpose Photosynthesis is a fundamental process in plants that directly contributes to net primary productivity. High-throughput estimation of photosynthesis is crucial for assessing crop growth and predicting yield. This study aims to establish an effective framework for high-throughput estimation of canopy-scale photosynthesis in winter wheat under drought stress by optimizing spectral resolution, screening spectral indices, and comparing machine learning algorithms. Methods Photosynthetic phenotypic parameters and hyperspectral reflectance data of winter wheat at different growth stages under drought stress were collected. Spectral characteristics of the photosynthetic parameters were analyzed to identify the optimal spectral resolution, followed by extraction of hyperspectral bands sensitive to key photosynthetic parameters (canopy chlorophyll content, CCC; net photosynthetic rate, Pn; maximum photochemical efficiency, Fv/Fm). Estimation models for the three parameters were subsequently constructed using partial least squares (PLS), support vector machine (SVM), random forest (RF), and back propagation neural network (BPNN) algorithms, respectively, with their performances evaluated. Results The optimal spectral resolution for estimating photosynthetic phenotypic parameters was determined as 10 nm. At this resolution, CCC was highly sensitive to hyperspectral reflectance in the ranges of 725\u2013835 nm, 995\u20131095 nm, 1145\u20131175 nm, and 1245\u20131295 nm. Pn was associated with bands of 795\u2013945 nm and 1035\u20131135 nm, while 615\u2013695 nm was identified as the characteristic band for Fv/Fm. Model performance evaluation results indicated that the best model for CCC estimation was BPNN-NDSI-CCC (R 2 = 0.639, RMSE = 0.461, RPD = 1.672); for Pn, BPNN-RSI-Pn (R 2 = 0.883, RMSE = 4.757, RPD = 2.933) performed the best; and the PLS-RSI-Fv/Fm model (R 2 = 0.406, RMSE = 0.028, RPD = 1.286) was significant for Fv/Fm. Compared to baseline models (Raw-PLS), the R 2 values improved by 7.9%, 6.8%, and 9.7%, respectively. Conclusion This study established an integrated framework combining spectral resolution optimization, multi-type spectral index screening, and multi-machine learning algorithm comparison to achieve high-throughput estimation of canopy-scale photosynthesis in winter wheat under drought stress."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Purpose",
+      "text": "Photosynthesis is a fundamental process in plants that directly contributes to net primary productivity. High-throughput estimation of photosynthesis is crucial for assessing crop growth and predicting yield. This study aims to establish an effective framework for high-throughput estimation of canopy-scale photosynthesis in winter wheat under drought stress by optimizing spectral resolution, screening spectral indices, and comparing machine learning algorithms."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Methods",
+      "text": "Photosynthetic phenotypic parameters and hyperspectral reflectance data of winter wheat at different growth stages under drought stress were collected. Spectral characteristics of the photosynthetic parameters were analyzed to identify the optimal spectral resolution, followed by extraction of hyperspectral bands sensitive to key photosynthetic parameters (canopy chlorophyll content, CCC; net photosynthetic rate, Pn; maximum photochemical efficiency, Fv/Fm). Estimation models for the three parameters were subsequently constructed using partial least squares (PLS), support vector machine (SVM), random forest (RF), and back propagation neural network (BPNN) algorithms, respectively, with their performances evaluated."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Results",
+      "text": "The optimal spectral resolution for estimating photosynthetic phenotypic parameters was determined as 10 nm. At this resolution, CCC was highly sensitive to hyperspectral reflectance in the ranges of 725\u2013835 nm, 995\u20131095 nm, 1145\u20131175 nm, and 1245\u20131295 nm. Pn was associated with bands of 795\u2013945 nm and 1035\u20131135 nm, while 615\u2013695 nm was identified as the characteristic band for Fv/Fm. Model performance evaluation results indicated that the best model for CCC estimation was BPNN-NDSI-CCC (R 2 = 0.639, RMSE = 0.461, RPD = 1.672); for Pn, BPNN-RSI-Pn (R 2 = 0.883, RMSE = 4.757, RPD = 2.933) performed the best; and the PLS-RSI-Fv/Fm model (R 2 = 0.406, RMSE = 0.028, RPD = 1.286) was significant for Fv/Fm. Compared to baseline models (Raw-PLS), the R 2 values improved by 7.9%, 6.8%, and 9.7%, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Conclusion",
+      "text": "This study established an integrated framework combining spectral resolution optimization, multi-type spectral index screening, and multi-machine learning algorithm comparison to achieve high-throughput estimation of canopy-scale photosynthesis in winter wheat under drought stress."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Key Points",
+      "text": "Relationships between photosynthetic phenotypic parameters were analyzed. The optimal spectral resolution for studying photosynthetic phenotypic parameters was analyzed. Hyperspectral characterization of photosynthetic phenotypic parameters was clarified. The potential of machine learning algorithms for monitoring photosynthetic phenotypic parameters were compared."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "A spatio temporal spectral framework for plant stress phenotyping Article Open access 06 February 2019 Automatic Plant Water Stress Phenotyping for Genotype Classification Using Lightweight CNN Chapter \u00a9 2024 The different patterns of post-heat stress responses in wheat genotypes: the role of the transthylakoid proton gradient in efficient recovery of leaf photosynthetic capacity Article 03 January 2021"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "A spatio temporal spectral framework for plant stress phenotyping",
+      "text": "Article Open access 06 February 2019"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Automatic Plant Water Stress Phenotyping for Genotype Classification Using Lightweight CNN",
+      "text": "Chapter \u00a9 2024"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "The different patterns of post-heat stress responses in wheat genotypes: the role of the transthylakoid proton gradient in efficient recovery of leaf photosynthetic capacity",
+      "text": "Article 03 January 2021"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Agronomy C4 photosynthesis Plant Biochemistry Plant Science Plant Physiology Spectrophotometry"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 2,
+      "heading": "Data availability",
+      "text": "Data will be made available on request."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 2,
+      "heading": "Abbreviations",
+      "text": "CCC: Canopy chlorophyll content Pn: Net photosynthetic rate Fv/Fm: Maximum photochemical efficiency PLS: Partial least squares RF: Random forest BPNN: Back Propagation Neural Network SVM: Support vector machine LAI: Leaf area index RSI: Ratio spectral index NDSI: Normalized difference spectral index DSI: Difference spectral index Fw: Fresh biomass ChI: Leaf pigment content SIs: Spectral indices R 2 : Coefficient of determination RMSE: Root mean square error RPD: Relative percent deviation VIP: Variable importance in projection"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 2,
+      "heading": "References",
+      "text": "Adeline, K. R. M., Gomez, C., Gorretta, N., & Roger, J. M. (2017). Predictive ability of soil properties to spectral degradation from laboratory Vis-NIR spectroscopy data. Geoderma, 288 , 143\u2013153. https://doi.org/10.1016/j.geoderma.2016.11.010 Article CAS Google Scholar Ai, J. Q., Chen, W. H., Chen, L. J., Zhang, Y. H., Zhou, Y. J., Guo, X. H., & Chu, W. D. (2015). Hyperspectral remote sensing estimation models for foliar photosynthetic pigment contents at canopy level in an invasive species, Spartina alterniflora . Acta Ecologica Sinica, 35 (4), 1175\u20131186. https://doi.org/10.5846/stxb201304270834 Article CAS Google Scholar Ainsworth, E. A., Serbin, S. P., Skoneczka, J. A., & Townsend, P. A. (2014). Using leaf optical properties to detect ozone effects on foliar biochemistry. Photosynthesis Research, 119 , 65\u201376. https://doi.org/10.1007/s11120-013-9837-y Article CAS PubMed Google Scholar Badr, A., & Br\u00fcggemann, W. (2020). Comparative analysis of drought stress response of maize genotypes using chlorophyll fluorescence measurements and leaf relative water content. Photosynthetica, 58 (2), 638\u2013645. https://doi.org/10.32615/ps.2020.014 Article CAS Google Scholar Breiman, L. (2001). Random forests. Machine Learning, 45 , 5\u201332. https://doi.org/10.1023/A:1010933404324 Article Google Scholar Brown, M. P., Grundy, W. N., Lin, D., Cristianini, N., Sugnet, C. W., Furey, T. S., Jr Ares, M., & Haussler, D. (2000). Knowledge-based analysis of microarray gene expression data by using support vector machines. Proceedings of the National Academy of Sciences, 97 (1), 262\u2013267. https://doi.org/10.1073/pnas.97.1.262 Article CAS Google Scholar Buschmann, C. (2007). Variability and application of the chlorophyll fluorescence emission ratio red/far-red of leaves. Photosynthesis Research, 92 , 261\u2013271. https://doi.org/10.1007/s11120-007-9187-8 Article CAS PubMed Google Scholar Cao, Z. D. Y., Wen, S. Y., & Gao, Z. Q. (2023). Prediction of chlorophyll fluorescence parameter of Brassica napus L. based on hyperspectral techniques. Jiangsu Agricultural Sciences, 51 (18), 185\u2013190. https://doi.org/10.15889/j.issn.1002-1302.2023.18.027 Article Google Scholar Chang, C. W., Laird, D. A., Mausbach, M. J., & Hurburgh, C. R. (2001). Near\u2010infrared reflectance spectroscopy\u2013principal components regression analyses of soil properties. Soil Science Society of America Journal, 65 (2), 480\u2013490. https://doi.org/10.2136/sssaj2001.652480x Article CAS Google Scholar Cui, J., Sawut, M., Hu, X., Rouzi, A., Liang, J., Xue, Z., Manlike, A., Aimaier, A., Kasim, N. (2025). Exploring the influence of coupling diverse spectral resolutions and feature selection approaches on the estimate of equivalent water thickness in fruit tree leaves. Computers and Electronics in Agriculture, 239 , 110983. https://doi.org/10.1016/j.compag.2025.110983 Dietrich, B., Walther, J., Weigold, M., & Abele, E. (2020). Machine learning based very short term load forecasting of machine tools. Applied Energy, 276 , Article 115440. https://doi.org/10.1016/j.apenergy.2020.115440 Article Google Scholar Du, H.,Jiang, H., Zhang, L., Mao, D., Wang, Z. (2016). Evaluation of spectral scale effects in estimation of vegetation leaf area index using spectral indices methods. Chinese Geographical Science, 26 (6), 731\u2013744. https://doi.org/10.1007/s11769-016-0833-y Feng, Z., Guan, H., Yang, T., He, L., Duan, J., Song, L., Wang, C., & Feng, W. (2023). Estimating the canopy chlorophyll content of winter wheat under nitrogen deficiency and powdery mildew stress using machine learning. Computers and Electronics in Agriculture, 211 , Article 107989. https://doi.org/10.1016/j.compag.2023.107989 Article Google Scholar Flynn, K. C., Baath, G., Lee, T. O., Gowda, P., & Northup, B. (2023). Hyperspectral reflectance and machine learning to monitor legume biomass and nitrogen accumulation. Computers and Electronics in Agriculture, 211 , Article 107991. https://doi.org/10.1016/j.compag.2023.107991 Article Google Scholar Flynn, K. C.,"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "This work was supported by Basic Research Program of Shanxi Province (202303021212090, 202203021211275, 20210302123411), Graduate Student Research Innovation Program in Shanxi Province (2025XS088), The earmarked fund for Modern Agro-industry Technology Research System (2023CYJSTX02-23), and The National Natural Science Foundation of China (31871571, 31371572)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 2,
+      "heading": "Funding",
+      "text": "This work was supported by Basic Research Program of Shanxi Province (Grant nos. 202303021212090, 202203021211275); Graduate Student Research Innovation Program in Shanxi Province (Grant no. 2025XS088); Modern Agro-industry Technology Research System (Grant no. 2023CYJSTX02-23); National Foreign Experts Program (Grant nos. 31871571, 31371572)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations College of Agriculture, Shanxi Agricultural University, Taigu, 030801, China Yanxia Chen, Xiaobin Yan, Tingyue Huo, Yuchao Yang, Bei Tie, Chenhao Qin, Meichen Feng, Xingxing Qiao, Guangxin Li, Chao Wang & Wude Yang College of Natural Resources and Environment, Northwest A&F University, Yangling, 712100, China Xiaokai Chen Authors Yanxia Chen View author publications Search author on: PubMed Google Scholar Xiaobin Yan View author publications Search author on: PubMed Google Scholar Tingyue Huo View author publications Search author on: PubMed Google Scholar Yuchao Yang View author publications Search author on: PubMed Google Scholar Bei Tie View author publications Search author on: PubMed Google Scholar Chenhao Qin View author publications Search author on: PubMed Google Scholar Meichen Feng View author publications Search author on: PubMed Google Scholar Xingxing Qiao View author publications Search author on: PubMed Google Scholar Xiaokai Chen View author publications Search author on: PubMed Google Scholar Guangxin Li View author publications Search author on: PubMed Google Scholar Chao Wang View author publications Search author on: PubMed Google Scholar Wude Yang View author publications Search author on: PubMed Google Scholar Contributions Yanxia Chen: Conceptualization, Writing\u2014original draft. Xiaobin Yan: Methodology, Investigation. Tingyue Huo: Investigation. Yuchao Yang: Data curation. Bei Tie: Data curation. Chenhao Qin: Data curation. Meichen Feng: Supervision. Xingxing Qiao: Data curation. Xiaokai Chen: Resources. Guangxin Li: Supervision. Chao Wang: Resources, Project administration. Wude Yang: Funding acquisition, Validation. Corresponding authors Correspondence to Chao Wang or Wude Yang ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "College of Agriculture, Shanxi Agricultural University, Taigu, 030801, China Yanxia Chen, Xiaobin Yan, Tingyue Huo, Yuchao Yang, Bei Tie, Chenhao Qin, Meichen Feng, Xingxing Qiao, Guangxin Li, Chao Wang & Wude Yang College of Natural Resources and Environment, Northwest A&F University, Yangling, 712100, China Xiaokai Chen Authors Yanxia Chen View author publications Search author on: PubMed Google Scholar Xiaobin Yan View author publications Search author on: PubMed Google Scholar Tingyue Huo View author publications Search author on: PubMed Google Scholar Yuchao Yang View author publications Search author on: PubMed Google Scholar Bei Tie View author publications Search author on: PubMed Google Scholar Chenhao Qin View author publications Search author on: PubMed Google Scholar Meichen Feng View author publications Search author on: PubMed Google Scholar Xingxing Qiao View author publications Search author on: PubMed Google Scholar Xiaokai Chen View author publications Search author on: PubMed Google Scholar Guangxin Li View author publications Search author on: PubMed Google Scholar Chao Wang View author publications Search author on: PubMed Google Scholar Wude Yang View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "Yanxia Chen: Conceptualization, Writing\u2014original draft. Xiaobin Yan: Methodology, Investigation. Tingyue Huo: Investigation. Yuchao Yang: Data curation. Bei Tie: Data curation. Chenhao Qin: Data curation. Meichen Feng: Supervision. Xingxing Qiao: Data curation. Xiaokai Chen: Resources. Guangxin Li: Supervision. Chao Wang: Resources, Project administration. Wude Yang: Funding acquisition, Validation."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Corresponding authors",
+      "text": "Correspondence to Chao Wang or Wude Yang ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Conflict of interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Publisher's Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law. Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Chen, Y., Yan, X., Huo, T. et al. Hyperspectral estimation on the photosynthetic phenotype of winter wheat under drought stress using machine learning algorithms. Precision Agric 27 , 22 (2026). https://doi.org/10.1007/s11119-026-10325-w Download citation Received : 03 July 2025 Accepted : 19 January 2026 Published : 31 January 2026 Version of record : 31 January 2026 DOI : https://doi.org/10.1007/s11119-026-10325-w Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords Winter wheat Photosynthesis Hyperspectral Machine learning Spectral index"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Chen, Y., Yan, X., Huo, T. et al. Hyperspectral estimation on the photosynthetic phenotype of winter wheat under drought stress using machine learning algorithms. Precision Agric 27 , 22 (2026). https://doi.org/10.1007/s11119-026-10325-w Download citation Received : 03 July 2025 Accepted : 19 January 2026 Published : 31 January 2026 Version of record : 31 January 2026 DOI : https://doi.org/10.1007/s11119-026-10325-w Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "Winter wheat Photosynthesis Hyperspectral Machine learning Spectral index"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Photosynthesis is a fundamental process in plants that directly contributes to net primary productivity. High-throughput estimation of photosynthesis is crucial for assessing crop growth and predicting yield. This study aims to establish an effective framework for high-throughput estimation of canopy-scale photosynthesis in winter wheat under drought stress by optimizing spectral resolution, screening spectral indices, and comparing machine learning algorithms.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Photosynthetic phenotypic parameters and hyperspectral reflectance data of winter wheat at different growth stages under drought stress were collected. Spectral characteristics of the photosynthetic parameters were analyzed to identify the optimal spectral resolution, followed by extraction of hyperspectral bands sensitive to key photosynthetic parameters (canopy chlorophyll content, CCC; net photosynthetic rate, Pn; maximum photochemical efficiency, Fv/Fm). Estimation models for the three parameters were subsequently constructed using partial least squares (PLS), support vector machine (SVM), random forest (RF), and back propagation neural network (BPNN) algorithms, respectively, with their performances evaluated.",
+      "char_offset": 467
+    },
+    {
+      "type": "paragraph",
+      "text": "The optimal spectral resolution for estimating photosynthetic phenotypic parameters was determined as 10 nm. At this resolution, CCC was highly sensitive to hyperspectral reflectance in the ranges of 725\u2013835 nm, 995\u20131095 nm, 1145\u20131175 nm, and 1245\u20131295 nm. Pn was associated with bands of 795\u2013945 nm and 1035\u20131135 nm, while 615\u2013695 nm was identified as the characteristic band for Fv/Fm. Model performance evaluation results indicated that the best model for CCC estimation was BPNN-NDSI-CCC (R 2 = 0.639, RMSE = 0.461, RPD = 1.672); for Pn, BPNN-RSI-Pn (R 2 = 0.883, RMSE = 4.757, RPD = 2.933) performed the best; and the PLS-RSI-Fv/Fm model (R 2 = 0.406, RMSE = 0.028, RPD = 1.286) was significant for Fv/Fm. Compared to baseline models (Raw-PLS), the R 2 values improved by 7.9%, 6.8%, and 9.7%, respectively.",
+      "char_offset": 1193
+    },
+    {
+      "type": "paragraph",
+      "text": "This study established an integrated framework combining spectral resolution optimization, multi-type spectral index screening, and multi-machine learning algorithm comparison to achieve high-throughput estimation of canopy-scale photosynthesis in winter wheat under drought stress.",
+      "char_offset": 2007
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationships between photosynthetic phenotypic parameters were analyzed.",
+      "char_offset": 2291
+    },
+    {
+      "type": "paragraph",
+      "text": "The optimal spectral resolution for studying photosynthetic phenotypic parameters was analyzed.",
+      "char_offset": 2366
+    },
+    {
+      "type": "paragraph",
+      "text": "Hyperspectral characterization of photosynthetic phenotypic parameters was clarified.",
+      "char_offset": 2463
+    },
+    {
+      "type": "paragraph",
+      "text": "The potential of machine learning algorithms for monitoring photosynthetic phenotypic parameters were compared.",
+      "char_offset": 2550
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a preview of subscription content, log in via an institution to check access.",
+      "char_offset": 2663
+    },
+    {
+      "type": "paragraph",
+      "text": "Adeline, K. R. M., Gomez, C., Gorretta, N., & Roger, J. M. (2017). Predictive ability of soil properties to spectral degradation from laboratory Vis-NIR spectroscopy data. Geoderma, 288 , 143\u2013153. https://doi.org/10.1016/j.geoderma.2016.11.010",
+      "char_offset": 2750
+    },
+    {
+      "type": "paragraph",
+      "text": "Ai, J. Q., Chen, W. H., Chen, L. J., Zhang, Y. H., Zhou, Y. J., Guo, X. H., & Chu, W. D. (2015). Hyperspectral remote sensing estimation models for foliar photosynthetic pigment contents at canopy level in an invasive species, Spartina alterniflora . Acta Ecologica Sinica, 35 (4), 1175\u20131186. https://doi.org/10.5846/stxb201304270834",
+      "char_offset": 2995
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsworth, E. A., Serbin, S. P., Skoneczka, J. A., & Townsend, P. A. (2014). Using leaf optical properties to detect ozone effects on foliar biochemistry. Photosynthesis Research, 119 , 65\u201376. https://doi.org/10.1007/s11120-013-9837-y",
+      "char_offset": 3330
+    },
+    {
+      "type": "paragraph",
+      "text": "Badr, A., & Br\u00fcggemann, W. (2020). Comparative analysis of drought stress response of maize genotypes using chlorophyll fluorescence measurements and leaf relative water content. Photosynthetica, 58 (2), 638\u2013645. https://doi.org/10.32615/ps.2020.014",
+      "char_offset": 3566
+    },
+    {
+      "type": "paragraph",
+      "text": "Breiman, L. (2001). Random forests. Machine Learning, 45 , 5\u201332. https://doi.org/10.1023/A:1010933404324",
+      "char_offset": 3817
+    },
+    {
+      "type": "paragraph",
+      "text": "Brown, M. P., Grundy, W. N., Lin, D., Cristianini, N., Sugnet, C. W., Furey, T. S., Jr Ares, M., & Haussler, D. (2000). Knowledge-based analysis of microarray gene expression data by using support vector machines. Proceedings of the National Academy of Sciences, 97 (1), 262\u2013267. https://doi.org/10.1073/pnas.97.1.262",
+      "char_offset": 3923
+    },
+    {
+      "type": "paragraph",
+      "text": "Buschmann, C. (2007). Variability and application of the chlorophyll fluorescence emission ratio red/far-red of leaves. Photosynthesis Research, 92 , 261\u2013271. https://doi.org/10.1007/s11120-007-9187-8",
+      "char_offset": 4242
+    },
+    {
+      "type": "paragraph",
+      "text": "Cao, Z. D. Y., Wen, S. Y., & Gao, Z. Q. (2023). Prediction of chlorophyll fluorescence parameter of Brassica napus L. based on hyperspectral techniques. Jiangsu Agricultural Sciences, 51 (18), 185\u2013190. https://doi.org/10.15889/j.issn.1002-1302.2023.18.027",
+      "char_offset": 4444
+    },
+    {
+      "type": "paragraph",
+      "text": "Chang, C. W., Laird, D. A., Mausbach, M. J., & Hurburgh, C. R. (2001). Near\u2010infrared reflectance spectroscopy\u2013principal components regression analyses of soil properties. Soil Science Society of America Journal, 65 (2), 480\u2013490. https://doi.org/10.2136/sssaj2001.652480x",
+      "char_offset": 4701
+    },
+    {
+      "type": "paragraph",
+      "text": "Cui, J., Sawut, M., Hu, X., Rouzi, A., Liang, J., Xue, Z., Manlike, A., Aimaier, A., Kasim, N. (2025). Exploring the influence of coupling diverse spectral resolutions and feature selection approaches on the estimate of equivalent water thickness in fruit tree leaves. Computers and Electronics in Agriculture, 239 , 110983. https://doi.org/10.1016/j.compag.2025.110983",
+      "char_offset": 4973
+    },
+    {
+      "type": "paragraph",
+      "text": "Dietrich, B., Walther, J., Weigold, M., & Abele, E. (2020). Machine learning based very short term load forecasting of machine tools. Applied Energy, 276 , Article 115440. https://doi.org/10.1016/j.apenergy.2020.115440",
+      "char_offset": 5344
+    },
+    {
+      "type": "paragraph",
+      "text": "Du, H.,Jiang, H., Zhang, L., Mao, D., Wang, Z. (2016). Evaluation of spectral scale effects in estimation of vegetation leaf area index using spectral indices methods. Chinese Geographical Science, 26 (6), 731\u2013744. https://doi.org/10.1007/s11769-016-0833-y",
+      "char_offset": 5564
+    },
+    {
+      "type": "paragraph",
+      "text": "Feng, Z., Guan, H., Yang, T., He, L., Duan, J., Song, L., Wang, C., & Feng, W. (2023). Estimating the canopy chlorophyll content of winter wheat under nitrogen deficiency and powdery mildew stress using machine learning. Computers and Electronics in Agriculture, 211 , Article 107989. https://doi.org/10.1016/j.compag.2023.107989",
+      "char_offset": 5822
+    },
+    {
+      "type": "paragraph",
+      "text": "Flynn, K. C., Baath, G., Lee, T. O., Gowda, P., & Northup, B. (2023). Hyperspectral reflectance and machine learning to monitor legume biomass and nitrogen accumulation. Computers and Electronics in Agriculture, 211 , Article 107991. https://doi.org/10.1016/j.compag.2023.107991",
+      "char_offset": 6153
+    },
+    {
+      "type": "paragraph",
+      "text": "Flynn, K. C., Frazier, A. E., & Admas, S. (2020). Nutrient prediction for tef ( Eragrostis tef ) plant and grain with hyperspectral data and partial least squares regression: Replicating methods and results across environments. Remote Sensing, 12 (18), Article 2867. https://doi.org/10.3390/rs12182867",
+      "char_offset": 6433
+    },
+    {
+      "type": "paragraph",
+      "text": "Fu, P., Meacham-Hensold, K., Guan, K., Wu, J., & Bernacchi, C. (2020). Estimating photosynthetic traits from reflectance spectra: A synthesis of spectral indices, numerical inversion, and partial least square regression. Plant, Cell & Environment, 43 (5), 1241\u20131258. https://doi.org/10.1111/pce.13718",
+      "char_offset": 6736
+    },
+    {
+      "type": "paragraph",
+      "text": "Fu, P., Montes, C. M., Siebers, M. H., Gomez-Casanovas, N., McGrath, J. M., Ainsworth, E. A., & Bernacchi, C. J. (2022). Advances in field-based high-throughput photosynthetic phenotyping. Journal of Experimental Botany, 73 (10), 3157\u20133172. https://doi.org/10.1093/jxb/erac077",
+      "char_offset": 7038
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 7316
+    },
+    {
+      "type": "paragraph",
+      "text": "Furbank, R. T., & Tester, M. (2011). Phenomics\u2013technologies to relieve the phenotyping bottleneck. Trends in Plant Science, 16 (12), 635\u2013644. https://doi.org/10.1016/j.tplants.2011.09.005",
+      "char_offset": 7366
+    },
+    {
+      "type": "paragraph",
+      "text": "Gu, X. B., Chen, Z. K., Zhou, Z. H., Chang, T., Li, W. L., & Du, Y. D. (2023). Remote Sensing inversion of leaf Area index of mulched winter wheat based on feature downscaling and machine learning. Transactions of the Chinese Society for Agricultural Machinery . https://doi.org/10.6041/j.issn.1000-1298.2023.06.015",
+      "char_offset": 7555
+    },
+    {
+      "type": "paragraph",
+      "text": "Jia, M., Li, D., Colombo, R., Wang, Y., Wang, X., Cheng, T., Zhu, Y., Yao, X., Xu, C., Ouer, G., Li, H., & Zhang, C. (2019). Quantifying chlorophyll fluorescence parameters from hyperspectral reflectance at the leaf scale under various nitrogen treatment regimes in winter wheat. Remote Sensing, 11 (23), 2838. https://doi.org/10.3390/rs11232838",
+      "char_offset": 7872
+    },
+    {
+      "type": "paragraph",
+      "text": "Jin, B., & Xu, X. (2025). China commodity price index (CCPI) forecasting via the neural network. International Journal of Financial Engineering . https://doi.org/10.1142/S2424786325500033",
+      "char_offset": 8219
+    },
+    {
+      "type": "paragraph",
+      "text": "Jin, B., Xu, X., & Zhang, Y. (2025). Thermal coal futures trading volume predictions through the neural network. Journal of Modelling in Management, 20 (2), 585\u2013619. https://doi.org/10.1108/JM2-09-2023-0207",
+      "char_offset": 8408
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumagai, E., Burroughs, C. H., Pederson, T. L., Montes, C. M., Peng, B., Kimm, H., Guan, K., Ainsworth, E. A., & Bernacchi, C. J. (2022). Predicting biochemical acclimation of leaf photosynthesis in soybean under in\u2010field canopy warming using hyperspectral reflectance. Plant, Cell & Environment, 45 (1), 80\u201394. https://doi.org/10.1111/pce.14204",
+      "char_offset": 8616
+    },
+    {
+      "type": "paragraph",
+      "text": "Landi, M., Zivcak, M., Sytar, O., Brestic, M., & Allakhverdiev, S. I. (2020). Plasticity of photosynthetic processes and the accumulation of secondary metabolites in plants in response to monochromatic light environments: A review. Biochimica Et Biophysica Acta (BBA) - Bioenergetics, 1861 (2), Article 148131. https://doi.org/10.1016/j.bbabio.2019.148131",
+      "char_offset": 8963
+    },
+    {
+      "type": "paragraph",
+      "text": "Li, D., Cheng, T., Zhou, K., Zheng, H., Yao, X., Tian, Y., Zhu, Y., & Cao, W. (2017). WREP: A wavelet-based technique for extracting the red edge position from reflectance spectra for estimating leaf and canopy chlorophyll contents of cereal crops. ISPRS Journal of Photogrammetry and Remote Sensing, 129 , 103\u2013117. https://doi.org/10.1016/j.isprsjprs.2017.04.024",
+      "char_offset": 9320
+    },
+    {
+      "type": "paragraph",
+      "text": "Liang, L., Di, L., Huang, T., Wang, J., Lin, L., Wang, L., & Yang, M. (2018). Estimation of leaf nitrogen content in wheat using new hyperspectral indices and a random forest regression algorithm. Remote Sensing, 10 (12), Article 1940. https://doi.org/10.3390/rs10121940",
+      "char_offset": 9685
+    },
+    {
+      "type": "paragraph",
+      "text": "Lv, W., Li, Y. H., Mao, W. B., Gong, X., & Chen, S. G. (2017). Comparison of estimation methods for net photosynthetic rate of wheat\u2019s flag leaves based on hyperspectrum. Journal of Agricultural Resources and Environment, 34 (6), 582\u2013586. https://doi.org/10.13254/j.jare.2017.0173",
+      "char_offset": 9957
+    },
+    {
+      "type": "paragraph",
+      "text": "Mulero, G., Bonfil, D. J., & Helman, D. (2025). Wheat leaf area index retrieval from drone-derived hyperspectral and LiDAR imagery using machine learning algorithms. Agricultural and Forest Meteorology, 372 , Article 110648. https://doi.org/10.1016/j.agrformet.2025.110648",
+      "char_offset": 10239
+    },
+    {
+      "type": "paragraph",
+      "text": "Parida, P. K., Eagan, S., Ramanujam, K., Sengodan, R., Uthandi, S., Ettiyagounder, P., & Rajagounder, R. (2024). Machine learning approaches for estimation of the fraction of absorbed photosynthetically active radiation and net photosynthesis rate of maize using multi-spectral sensor. Heliyon . https://doi.org/10.1016/j.heliyon.2024.e34117",
+      "char_offset": 10513
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 10856
+    },
+    {
+      "type": "paragraph",
+      "text": "Silva-Perez, V., Molero, G., Serbin, S. P., Condon, A. G., Reynolds, M. P., Furbank, R. T., & Evans, J. R. (2018). Hyperspectral reflectance as a tool to measure biochemical and physiological traits in wheat. Journal of Experimental Botany, 69 (3), 483\u2013496. https://doi.org/10.1093/jxb/erx421",
+      "char_offset": 10902
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 11196
+    },
+    {
+      "type": "paragraph",
+      "text": "Song, G., Wang, Q., & Jin, J. (2023). Estimation of leaf photosynthetic capacity parameters using spectral indices developed from fractional-order derivatives. Computers and Electronics in Agriculture, 212 , Article 108068. https://doi.org/10.1016/j.compag.2023.108068",
+      "char_offset": 11246
+    },
+    {
+      "type": "paragraph",
+      "text": "Sui, Y. Y., Yu, H. Y., Zhang, L., Luo, H., Ren, S., & Zhao, G. G. (2012). Chlorophyll fluorescence spectrum analysis of greenhouse cucumber disease and insect damage. Spectroscopy and Spectral Analysis, 32 (5), 1292\u20131295. https://doi.org/10.3964/j.issn.1000-0593(2012)05-1292-04",
+      "char_offset": 11516
+    },
+    {
+      "type": "paragraph",
+      "text": "Tian, Z. W., Chai, H. M., Guo, H., Lu, Y. H., Yang, S. K., Liu, X. X., Jiang, D., Cao, W. X., & Dai, T. B. (2024). Genetic improvement of photosynthetic nitrogen use efficiency of winter wheat in the Yangtze River Basin of China. Field Crops Research, 305 , Article 109199. https://doi.org/10.1016/j.fcr.2023.109199",
+      "char_offset": 11796
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang, G., Zeng, F., Song, P., Sun, B., Wang, Q., & Wang, J. Y. (2022). Effects of reduced chlorophyll content on photosystem functions and photosynthetic electron transport rate in rice leaves. Journal of Plant Physiology, 272 , Article 153669. https://doi.org/10.1016/j.jplph.2022.153669",
+      "char_offset": 12113
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang, H., Prentice, I. C., Keenan, T. F., Davis, T. W., Wright, I. J., Cornwell, W. K., Evans, B. J., & Peng, C. (2017). Towards a universal model for carbon dioxide uptake by plants. Nature Plants, 3 (9), 734\u2013741. https://doi.org/10.1038/s41477-017-0006-8",
+      "char_offset": 12403
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang, Q., Chen, L. S., Zhao, W., Chen, J. L., Zhang, J. S., Yan, X. T., & Zhang, Y. (2019). Temperature index of Quercus variabilis leaf PSII activity damage under high temperature combined with drought. Chinese Journal of Agrometeorology, 40 (05), 308. https://doi.org/10.3969/j.issn.1000-6362.2019.05.005",
+      "char_offset": 12661
+    },
+    {
+      "type": "paragraph",
+      "text": "Wu, A., Hammer, G. L., Doherty, A., von Caemmerer, S., & Farquhar, G. D. (2019). Quantifying impacts of enhancing photosynthesis on crop yield. Nature Plants, 5 (4), 380\u2013388. https://doi.org/10.1038/s41477-019-0398-8",
+      "char_offset": 12969
+    },
+    {
+      "type": "paragraph",
+      "text": "Xiao, B., Li, S., Dou, S., He, H., Fu, B., Zhang, T., Sun, W., Yang, Y., Xiong, Y., Shi, J., & Zhang, J. (2024). Comparison of leaf chlorophyll content retrieval performance of citrus using FOD and CWT methods with field-based full-spectrum hyperspectral reflectance data. Computers and Electronics in Agriculture, 217 , Article 108559. https://doi.org/10.1016/j.compag.2023.108559",
+      "char_offset": 13187
+    },
+    {
+      "type": "paragraph",
+      "text": "Xiao, Y., Zhao, W., Zhou, D., & Gong, H. (2013). Sensitivity analysis of vegetation reflectance to biochemical and biophysical variables at leaf, canopy, and regional scales. IEEE Transactions on Geoscience and Remote Sensing, 52 (7), 4014\u20134024. https://doi.org/10.1109/TGRS.2013.2278838",
+      "char_offset": 13570
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu, X. (2020). Corn cash price forecasting. American Journal of Agricultural Economics, 102 (4), 1297\u20131320. https://doi.org/10.1002/ajae.12041",
+      "char_offset": 13859
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu, X., & Zhang, Y. (2021). Individual time series and composite forecasting of the Chinese stock index. Machine Learning with Applications, 5 , Article 100035. https://doi.org/10.1016/j.mlwa.2021.100035",
+      "char_offset": 14003
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan, X. B., Wang, Y. X., Zhang, X., Wang, Z. G., Yang, S., Li, Y., Yang, C. B., Feng, M. C., Song, X. Y., Zhang, M. J., Xiao, L. J., Fahand, S., Yang, W. D., & Wang, C. (2022). Performance of pretreatments and multivariate method on the hyperspectral estimation of soil moisture content. Applied Ecology and Environmental Research, 20 (3), 2717\u20132732. https://doi.org/10.15666/aeer/2003_27172732",
+      "char_offset": 14208
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, C., Xu, J., Feng, M., Bai, J., Sun, H., Song, L., Wang, C., Yang, W., Xiao, L., Zhang, M., & Song, X. (2023). Evaluation of hyperspectral monitoring model for aboveground dry biomass of winter wheat by using multiple factors. Agronomy, 13 (4), 983. https://doi.org/10.3390/agronomy13040983",
+      "char_offset": 14604
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, F., Huang, S., Gao, R. C., Liu, W. G., Yang, T. W., Wang, X. C., Wu, X. L., & Yang, W. Y. (2014). Growth of soybean seedlings in relay strip intercropping systems in relation to light quantity and red: Far-red ratio. Field Crops Research, 155 , 245\u2013253. https://doi.org/10.1016/j.fcr.2013.08.011",
+      "char_offset": 14901
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, N., Zhang, Z., Zhang, J., Yang, X., Liu, H., Chen, J., Ning, J., Sun, S., & Shi, L. (2025). Accurate estimation of winter-wheat leaf water content using continuous wavelet transform-based hyperspectral combined with thermal infrared on a UAV platform. European Journal of Agronomy, 168 , Article 127624. https://doi.org/10.1016/j.eja.2025.127624",
+      "char_offset": 15204
+    },
+    {
+      "type": "paragraph",
+      "text": "Yendrek, C. R., Tomaz, T., Montes, C. M., Cao, Y., Morse, A. M., Brown, P. J., McIntyre, L. M., Leakey, A. D. B., & Ainsworth, E. A. (2017). High-throughput phenotyping of maize leaf physiological and biochemical traits using hyperspectral reflectance. Plant Physiology, 173 (1), 614\u2013626. https://doi.org/10.1104/pp.16.01447",
+      "char_offset": 15557
+    },
+    {
+      "type": "paragraph",
+      "text": "Yu, K., Lenz-Wiedemann, V., Chen, X., & Bareth, G. (2014). Estimating leaf chlorophyll of barley at different growth stages using spectral indices to reduce soil background and canopy structure effects. ISPRS Journal of Photogrammetry and Remote Sensing, 97 , 58\u201377. https://doi.org/10.1016/j.isprsjprs.2014.08.005",
+      "char_offset": 15883
+    },
+    {
+      "type": "paragraph",
+      "text": "Zarco-Tejada, P. J., Hornero, A., Beck, P. S. A., Kattenborn, T., Kempeneers, P., & Hern\u00e1ndez-Clemente, R. (2019). Chlorophyll content estimation in an open-canopy conifer forest with Sentinel-2A and hyperspectral imagery in the context of forest decline. Remote Sensing of Environment, 223 , 320\u2013335. https://doi.org/10.1016/j.rse.2019.01.031",
+      "char_offset": 16199
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 16544
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, H. Y., Ren, X. X., Zhou, Y., Wu, Y. P., He, L., Heng, Y. R., Feng, W., & Wang, C. Y. (2018). Remotely assessing photosynthetic nitrogen use efficiency with in situ hyperspectral remote sensing in winter wheat. European Journal of Agronomy, 101 , 90\u2013100. https://doi.org/10.1016/j.eja.2018.08.010",
+      "char_offset": 16594
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, H., Hu, H., Zhang, X., Wang, K., Song, T., & Zeng, F. (2012). Detecting Suaeda salsa L. chlorophyll fluorescence response to salinity stress by using hyperspectral reflectance. Acta Physiologiae Plantarum, 34 , 581\u2013588. https://doi.org/10.1007/s11738-011-0857-y",
+      "char_offset": 16898
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, X., Sun, H., Qiao, X., Yan, X., Feng, M., Xiao, L., Song, X., Zhangm, M., Shafiq, F., Yang, W., & Wang, C. (2022). Hyperspectral estimation of canopy chlorophyll of winter wheat by using the optimized vegetation indices. Computers and Electronics in Agriculture, 193 , Article 106654. https://doi.org/10.1016/j.compag.2021.106654",
+      "char_offset": 17168
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao, S., Li, X., Zheng, X., Yu, R. F., Wu, Y. J., & Yang, Z. C. (2024). Effects of different intensities of far-red and green light on the growth and photosynthetic characteristics of melon seedlings. Scientia Horticulturae, 338 , Article 113746. https://doi.org/10.1016/j.scienta.2024.113746",
+      "char_offset": 17506
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhi, X., Massey-Reed, S. R., Wu, A., Potgieter, A., Borrell, A., Hunt, C., Jordan, D., Zhao, Y., Chapman, S., Hammen, G., & George-Jaeggli, B. (2022). Estimating photosynthetic attributes from high-throughput canopy hyperspectral sensing in sorghum. Plant Phenomics . https://doi.org/10.34133/2022/9768502",
+      "char_offset": 17801
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 18108
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhou, Y., Ju, W., Sun, X., Hu, Z., Han, S., Black, T. A., Jassal, R. S., & Wu, X. (2014). Close relationship between spectral vegetation indices and V cmax in deciduous and mixed forests. Tellus B: Chemical and Physical Meteorology, 66 (1), Article 23279. https://doi.org/10.3402/tellusb.v66.23279",
+      "char_offset": 18154
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu, W., Sun, Z., Yang, T., Li, J., Peng, J., Zhu, K., Li, S., Gong, H., Lyu, Y., Li, B., & Liao, X. (2020). Estimating leaf chlorophyll content of crops via optimal unmanned aerial vehicle hyperspectral data at multi-scales. Computers and Electronics in Agriculture, 178 , Article 105786. https://doi.org/10.1016/j.compag.2020.105786",
+      "char_offset": 18453
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu, X. G., Long, S. P., & Ort, D. R. (2010). Improving photosynthetic efficiency for greater yield. Annual Review of Plant Biology, 61 , 235\u2013261. https://doi.org/10.1146/annurev-arplant-042809-112206",
+      "char_offset": 18789
+    },
+    {
+      "type": "paragraph",
+      "text": "This work was supported by Basic Research Program of Shanxi Province (202303021212090, 202203021211275, 20210302123411), Graduate Student Research Innovation Program in Shanxi Province (2025XS088), The earmarked fund for Modern Agro-industry Technology Research System (2023CYJSTX02-23), and The National Natural Science Foundation of China (31871571, 31371572).",
+      "char_offset": 18991
+    },
+    {
+      "type": "paragraph",
+      "text": "This work was supported by Basic Research Program of Shanxi Province (Grant nos. 202303021212090, 202203021211275); Graduate Student Research Innovation Program in Shanxi Province (Grant no. 2025XS088); Modern Agro-industry Technology Research System (Grant no. 2023CYJSTX02-23); National Foreign Experts Program (Grant nos. 31871571, 31371572).",
+      "char_offset": 19355
+    },
+    {
+      "type": "paragraph",
+      "text": "College of Agriculture, Shanxi Agricultural University, Taigu, 030801, China",
+      "char_offset": 19702
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanxia Chen, Xiaobin Yan, Tingyue Huo, Yuchao Yang, Bei Tie, Chenhao Qin, Meichen Feng, Xingxing Qiao, Guangxin Li, Chao Wang & Wude Yang",
+      "char_offset": 19780
+    },
+    {
+      "type": "paragraph",
+      "text": "College of Natural Resources and Environment, Northwest A&F University, Yangling, 712100, China",
+      "char_offset": 19919
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanxia Chen: Conceptualization, Writing\u2014original draft. Xiaobin Yan: Methodology, Investigation. Tingyue Huo: Investigation. Yuchao Yang: Data curation. Bei Tie: Data curation. Chenhao Qin: Data curation. Meichen Feng: Supervision. Xingxing Qiao: Data curation. Xiaokai Chen: Resources. Guangxin Li: Supervision. Chao Wang: Resources, Project administration. Wude Yang: Funding acquisition, Validation.",
+      "char_offset": 20016
+    },
+    {
+      "type": "paragraph",
+      "text": "Correspondence to Chao Wang or Wude Yang .",
+      "char_offset": 20420
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "char_offset": 20464
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 20636
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+      "char_offset": 20756
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen, Y., Yan, X., Huo, T. et al. Hyperspectral estimation on the photosynthetic phenotype of winter wheat under drought stress using machine learning algorithms. Precision Agric 27 , 22 (2026). https://doi.org/10.1007/s11119-026-10325-w",
+      "char_offset": 21090
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s11119-026-10325-w",
+      "char_offset": 21329
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 21379
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 21456
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 21526
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-a833359df589a45d"
+}

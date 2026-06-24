@@ -1,0 +1,306 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 37,
+      "unit": "celsius",
+      "qualifier": "observed",
+      "evidence_text": "Wheat seeds can germinate across a wide temperature range – from as low as 4°C to as high as 37°C.",
+      "claim_summary": "Wheat germinates over a range of 4 to 37 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "range",
+      "range_min": 12,
+      "range_max": 25,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "However, the optimal germination temperature falls between 12°C and 25°C . Temperatures of 20-25°C produce the fastest germination, while slightly cooler temperatures of 12-17°C tend to produce the most seedlings.",
+      "claim_summary": "Optimal wheat germination temperature is 12 to 25 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 16,
+      "range_max": 25,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "During the vegetative phase – which includes tillering, leaf production, and root development – wheat performs best at temperatures between 16°C and 25°C .",
+      "claim_summary": "Optimum vegetative-phase temperature for wheat is 16 to 25 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 20,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "According to the FAO’s crop information database , the mean daily temperature for optimum growth and tillering is between 15°C and 20°C.",
+      "claim_summary": "FAO: mean daily temperature for optimum growth and tillering is 15 to 20 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "numeric",
+      "numeric_value": 14,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "As wheat transitions from vegetative growth to flowering and grain filling, it actually prefers cooler temperatures – around 14°C . Cooler conditions during this stage allow better starch accumulation in the grains",
+      "claim_summary": "Wheat prefers cooler temperatures around 14 C during flowering and grain filling.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 7,
+      "range_max": 24,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Research from NC State Extension shows that temperatures between approximately 7°C and 24°C (45°F to 75°F) during the jointing-to-bloom period support optimal growth and kernel development.",
+      "claim_summary": "Temperatures of 7 to 24 C during jointing-to-bloom support optimal growth and kernel development.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Temperatures above 30°C during grain filling can reduce starch deposition and grain weight significantly. Prolonged exposure to canopy temperatures above 30°C causes early plant senescence and ends grain growth prematurely.",
+      "claim_summary": "Temperatures above 30 C during grain filling reduce starch and grain weight and cause early senescence.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Temperatures above 30°C during grain filling can reduce starch deposition and grain weight significantly. Prolonged exposure to canopy temperatures above 30°C causes early plant senescence and ends grain growth prematurely.",
+      "claim_summary": "Grain filling is heat-sensitive; canopy temperatures above 30 C end grain growth prematurely.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "range",
+      "range_min": 0,
+      "range_max": 5,
+      "unit": "celsius",
+      "qualifier": "recommended",
+      "evidence_text": "Winter wheat requires a period of cold exposure (known as vernalization ) at temperatures between 0°C and 5°C for normal heading and flowering.",
+      "claim_summary": "Winter wheat requires vernalization at 0 to 5 C for normal heading and flowering.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "numeric",
+      "numeric_value": -20,
+      "unit": "celsius",
+      "qualifier": "minimum",
+      "evidence_text": "In their early stages, winter wheat varieties can tolerate extreme cold down to -20°C, but this frost resistance is gradually lost as the plant approaches heading.",
+      "claim_summary": "Winter wheat tolerates cold down to -20 C in early stages, losing frost resistance toward heading.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 21,
+      "range_max": 24,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Spring wheat does not need vernalization and can be planted in spring.",
+      "claim_summary": "Spring wheat does not require vernalization.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 375,
+      "range_max": 875,
+      "unit": "mm",
+      "qualifier": "typical",
+      "evidence_text": "According to FAO data , about three-fourths of the world’s wheat-growing areas receive between 375 mm and 875 mm (roughly 37.5 cm to 87.5 cm) of annual precipitation.",
+      "claim_summary": "Three-fourths of wheat-growing areas receive 375-875 mm annual precipitation.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 250,
+      "range_max": 1750,
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "However, the crop can technically be grown in areas receiving anywhere from 250 mm to 1,750 mm of annual rainfall.",
+      "claim_summary": "Wheat can be grown in areas receiving 250-1750 mm annual rainfall.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 250,
+      "range_max": 1500,
+      "unit": "mm",
+      "qualifier": "optimum",
+      "evidence_text": "The commonly cited optimal range for wheat is 25 cm to 150 cm of annual rainfall . Within this range, the crop receives enough moisture without the risk of waterlogging.",
+      "claim_summary": "Optimal annual rainfall range for wheat is 25-150 cm (250-1500 mm).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 300,
+      "range_max": 380,
+      "unit": "mm",
+      "qualifier": "recommended",
+      "evidence_text": "During the growing season specifically, wheat needs about 30-38 cm (12-15 inches) of water for a successful harvest.",
+      "claim_summary": "Wheat needs about 30-38 cm of water during the growing season for a successful harvest.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "numeric",
+      "numeric_value": 18,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "A dry, warm ripening period with temperatures of 18°C or more is considered optimal for the final maturity stage.",
+      "claim_summary": "A dry, warm ripening period of 18 C or more is optimal for final maturity.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The best soil for wheat is a fertile, deep, well-drained loam . According to Bayer Crop Science , wheat grows most successfully on loam and clay loam soils.",
+      "claim_summary": "Best soils for wheat are fertile, deep, well-drained loam and clay loam.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 6.0,
+      "range_max": 7.5,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "Wheat requires a soil pH between 6.0 and 7.5 for optimal nutrient availability.",
+      "claim_summary": "Optimal soil pH for wheat is 6.0 to 7.5.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 6,
+      "range_max": 8,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "According to the FAO, the broader optimum range extends from pH 6 to 8 .",
+      "claim_summary": "FAO broader optimum soil pH range for wheat is 6 to 8.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "numeric",
+      "numeric_value": 5.5,
+      "unit": "pH",
+      "qualifier": "threshold",
+      "evidence_text": "Growing wheat in acidic soils below pH 5.5 leads to increased solubility of aluminium, manganese, and iron, which can become toxic and reduce plant growth.",
+      "claim_summary": "Below pH 5.5, aluminium/manganese/iron toxicity reduces wheat growth.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.drainage_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Proper drainage is non-negotiable for wheat. Waterlogged soil suffocates roots, promotes fungal diseases, and leads to nutrient losses. Well-drained soils allow excess water to move away from the root zone",
+      "claim_summary": "Wheat requires well-drained soil; waterlogging suffocates roots and promotes disease.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.water_table_depth",
+      "value_type": "range",
+      "range_min": 0.6,
+      "range_max": 1.0,
+      "unit": "cm",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat can tolerate a relatively high groundwater table – about 0.6 to 0.8 metres for sandy loam and silt loam soils, and 0.8 to 1 metre for clay soils – but prolonged shallow water tables significantly reduce yields.",
+      "claim_summary": "Tolerable groundwater table is 0.6-0.8 m (sandy/silt loam) and 0.8-1 m (clay soils).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 150,
+      "unit": "kg/ha",
+      "qualifier": "maximum",
+      "evidence_text": "For good yields, the FAO recommends fertiliser inputs of up to 150 kg/ha nitrogen, 35-45 kg/ha phosphorus, and 25-50 kg/ha potassium.",
+      "claim_summary": "FAO recommends up to 150 kg/ha nitrogen for wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "range",
+      "range_min": 35,
+      "range_max": 45,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For good yields, the FAO recommends fertiliser inputs of up to 150 kg/ha nitrogen, 35-45 kg/ha phosphorus, and 25-50 kg/ha potassium.",
+      "claim_summary": "FAO recommends 35-45 kg/ha phosphorus for wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 50,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For good yields, the FAO recommends fertiliser inputs of up to 150 kg/ha nitrogen, 35-45 kg/ha phosphorus, and 25-50 kg/ha potassium.",
+      "claim_summary": "FAO recommends 25-50 kg/ha potassium for wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Rotating wheat with leguminous crops like chickpeas, lentils, or soybeans helps replenish soil nitrogen through biological fixation . Including non-cereal crops in the rotation also breaks pest and disease cycles",
+      "claim_summary": "Rotate wheat with legumes to replenish soil N and break pest/disease cycles.",
+      "extraction_confidence": "high",
+      "methods": ["crop rotation"]
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Reduced tillage or no-till practices help preserve soil aggregates and pore spaces, promoting better root growth and water movement.",
+      "claim_summary": "Reduced/no-till preserves soil aggregates and improves root growth and water movement.",
+      "extraction_confidence": "high",
+      "methods": ["tillage", "no-till"]
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Leaving crop residues on the surface increases organic matter content and reduces erosion. However, in no-till systems, surface-applied nitrogen fertiliser can get tied up in crop residue and become temporarily unavailable",
+      "claim_summary": "Crop residues raise organic matter and cut erosion, but tie up surface-applied N in no-till.",
+      "extraction_confidence": "high",
+      "methods": ["residue retention"]
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat requires a deep soil... The best soil for wheat is a fertile, deep, well-drained loam.",
+      "claim_summary": "Wheat requires deep soil for rooting.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

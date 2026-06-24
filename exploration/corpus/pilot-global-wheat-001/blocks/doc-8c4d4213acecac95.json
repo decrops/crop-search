@@ -1,0 +1,44 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Falling number in wheat - How is it calculated and what does it mean to producers? January 28th, 2010 Meera Kweon USDA, ARS, Soft Wheat Quality Lab., Wooster, OH, USAWeather is always a challenge beyond our controlPre-harvest sprouting (PHS) \uf0d8 Wheat germinates within the grain head prior to harvest. \uf0d8 Occurs when wet conditions delay harvest. \uf0d8 White varieties are more susceptible to PHS than red ones under similar environmental conditions. \uf0d8 Higher PHS risks for genotypes with a short dormancy period. \uf0d8 Increased hydrolytic enzyme activities such as \u03b1-amylase, \u03b2 amylase, and protease - starch and protein breakdown. \uf0d8 Reduced grain yield and quality \u2013 economic losses and down graded wheat.PHS resistance \uf0d8 Abscisic acid (ABA) is essential for seed maturation and enforces a period of seed dormancy. \uf0d8 ABA levels decline as grain matures and after ripening. \uf0d8 Red seed pigments slow the decline of ABA. \uf0d8 Temperature during grain fill affects ABA levels. PHS resistance decreased from left to right (Cornell Univ.)Effect of moisture and temperature during grain filling Drier/cooler conditions generally produce seed with lower sprouting tendency. (Thomason et al. 2009)Measurements for PHS \uf0d8 Visual scoring \u2013 official grade in FGIS \uf0d8 Falling number \uf0d8 Stirring number using Rapid ViscoAnalyzer (RVA) \uf0d8 \u03b1-Amylase analysis \uf0d8 Viscosity analysis with RVA or AmylographHistory of falling number method \uf0d8 1960 Sven Hagberg developed a rapid, original method for determining \u03b1-amylase activity in sprout-damaged grain. \uf0d8 1961 Sven Hagberg named the method \u201cfalling-number\u201d with a simple modification. \uf0d8 1962 Harald Perten founded Perten Instruments and commercialized falling number apparatus. \uf0d8 1968 International Association of Cereal Science and Technology approved the method as ICC Standard No. 107/1 \uf0d8 1972 The method was implemented as an Official AACC Method 56-81B. \uf0d8 1982 The International Organization for Standardization approved the method as ISO 3093.A kernel of wheat Water 13 \u2013 14 % Starch 70 \u2013 75 % Protein 9 \u2013 14 % Pentosans < 2 % Fat < 1% Ash < 1 % (83%) (2.5%) (14.5%)Germination process of seed (http://plantphys.info/seedg)Starch hydrolysis by \u03b1-amylase www.indiana.edu/~oso/animations/An6.html Amylose (20-30%) Amylopectin (70-80%)Effect of \u03b1-amylase addition on viscosity (8% wheat starch paste at 37oC measured in the RVA) (Ferry et al. 2004)Time (min)",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Viscosity (cP) 0 1000 2000 3000 4000 Temperature ( o C) 0 20 40 60 80 100 FN- 344 FN- 211 FN- 88 Starch pasting profiles of flour samples (8% flour slurry by RVA, Chelsea, SWW wheat)What is the falling number method? \uf0d8 Measures the effect of the enzymes on wheat quality in flour or meal. \uf0d8 Does not measure \u03b1-amylase activity directly, but measures the activity indirectly by quantifying the rheological properties of starch hydrolyzed by the enzymes during the test. \uf0d8 Uses the starch in flour or meal as a substrate, gelatinizes the suspension rapidly in a boiling water bath, and measures the liquefaction of the starch by \u03b1-amylase. \uf0d8 Measures the time in seconds required for a viscometer stirrer to fall a given distance through hot, aqueous flour gel undergoing liquefaction.The relationship between FN and \u03b1-amylase 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7",
+      "char_offset": 2380
+    },
+    {
+      "type": "paragraph",
+      "text": "Alpha amylase (% abs) FallingNumber (Seconds) (Used with permission from Edward Souza)How is a falling number test performed? 7 \u00b1 0.05g meal or flour 25 \u00b1 0.2 mL distilled water Particle size <0.8 mm meal or flour Weigh Shake Dispense Grind sample & measure moisture. Insert a stirrer Immerse Stir & measure Add flourHow is a falling number calculated? 5 sec stand 55 sec stirring time taken to fall in sec + = + Falling Number Example: 300 FN = 5 + 55 + 240Falling time and viscosity Clear & watery soup Creamy & thick soup Faster falling = low FN = high \u03b1-amylase activity Slower falling = high FN = low \u03b1-amylase activity Drop a penny?Factors affected falling number \uf0d8 Altitude \u2013FN increases as elevation increases. \uf0d8 Nitrogen fertilization rate \u2013 increase or decrease in FN \uf0d8 Temperature \u2013 higher FN in summer \uf0d8 Late Maturity \u03b1-Amylase \u2013 lower FN \uf0d8 Fungicide treatment \u2013 decrease in FN, cultivar dependent \uf0d8 Fusarium infection \u2013 minor decrease in FN \uf0d8 Waxy wheat \u2013 lower FNTips for reducing variations in FN result \uf0d8 Prepare representative sample. - at least 300g of grain should be ground \uf0d8 Use a hammer type grinder with a 0.8 mm sieve for preparing wheat meal. - particle size depends on grinder types and sieves \uf0d8 Correct amount of sample - adjust moisture content, 7g \u00b1 0.05 (14% moisture basis) \uf0d8 Shaking method - uniform shaking by hand or automatic shaker (Shakematic\u00ae) \uf0d8 Routinely check a reference sample. - use lower falling number sample (<300) as a referenceWhole meal FN vs Flour FN (12 SWW & SRW cultivars, 3 harvest times) Wheat Meal FN (sec)",
+      "char_offset": 3238
+    },
+    {
+      "type": "paragraph",
+      "text": "Flour FN (sec) 0 100 200 300 400 500 r2=0.91 Wheat meal Falling Number (FN) was significantly correlated with flour FNInterpretation of falling numbers Falling Number (sec) Sprouting indication FN>300 No sprout damage 300>FN>200 Some sprouting 200>FN Severe sprout damageBread quality (hard wheat) Some \u03b1-amylase activity in flour is beneficial due to enhancing yeast fermentation. But, too much \u03b1-amylase activity in low falling number flour generates too much sugar which results in sticky dough, dark crumb and crust color, coarser crumb, and sticky and gummy texture. (Perten Instruments)Pasta/noodle quality High FN Low FN Pasta/noodle made with low FN flour is fragile, soft and mushy. More starch is lost to cooking water, making the water cloudy. Production problems with low FN flour - uneven extrusion, strand stretching, and irregularities in drying. (Perten Instruments)Japanese-type sponge cake quality Wheat with a falling number of 140 resulted in a sponge cake volume equal to that of the control. As falling number decreased below 140, cake volume decreased sharply. (Finney et al. 1981) (Western Wheat Quality Lab.)Chelsea (SWW) Test weight (lb/bu) 58.8 54.1 50.3 Break flour (%) 35.6 37.8 37.5",
+      "char_offset": 4802
+    },
+    {
+      "type": "paragraph",
+      "text": "Falling number (sec) 344 211 88 Cookie dia. (cm) 8.2 8.3 8.5 Pat (SRW) Test weight (lb/bu) 61.9 57.1 54.9 Break flour (%) 33.6 37.6 38.7",
+      "char_offset": 6016
+    },
+    {
+      "type": "paragraph",
+      "text": "Falling number (sec) 376 247 99 Cookie dia. (cm) 8.3 8.1 8.3 1st harvest 2nd harvest 3rd harvest Milling and baking quality of sprouted soft wheatWrap-up \uf0d8 Falling number test is simple and practical. \uf0d8 Visual scoring is generally correlated to falling number, but is not the same. \uf0d8 For reliable FN results, consistent sample preparation and consistent test operation are necessary. \uf0d8 Further questions on falling number, please contact edward.souza@ars.usda.gov or",
+      "char_offset": 6154
+    },
+    {
+      "type": "paragraph",
+      "text": "\uf0d8 Anne Sturbaum \uf0d8 Edward Souza \uf0d8 Sharon Croskey \uf0d8 Tom Donelson \uf0d8 Lonnie Andrews \uf0d8 Ron Fioritto Outside SWQL SWQLI can measure falling number now!!!",
+      "char_offset": 6622
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-8c4d4213acecac95"
+}

@@ -1,0 +1,1954 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 1,
+      "heading": "Importance of the description of light interception in crop growth models",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Shouyang Liu",
+      "text": "1 LEPSE, Univ Montpellier, INRAE, Institut Agro Montpellier, Montpellier, France 2 CAPTE-EMMAH, Universit\u00e9 d'Avignon et des Pays de Vaucluse, INRAE, Avignon, France 3 PheniX, Plant Phenomics Research Centre, Nanjing Agricultural University, Nanjing, China Find articles by Shouyang Liu"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Fr\u00e9d\u00e9ric Baret",
+      "text": "2 CAPTE-EMMAH, Universit\u00e9 d'Avignon et des Pays de Vaucluse, INRAE, Avignon, France Find articles by Fr\u00e9d\u00e9ric Baret"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Mariem Abichou",
+      "text": "4 EcoSys, INRAE, AgroParisTech, Thiverval-Grignon, France Find articles by Mariem Abichou"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Lo\u00efc Manceau",
+      "text": "1 LEPSE, Univ Montpellier, INRAE, Institut Agro Montpellier, Montpellier, France Find articles by Lo\u00efc Manceau"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Bruno Andrieu",
+      "text": "4 EcoSys, INRAE, AgroParisTech, Thiverval-Grignon, France Find articles by Bruno Andrieu"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Marie Weiss",
+      "text": "2 CAPTE-EMMAH, Universit\u00e9 d'Avignon et des Pays de Vaucluse, INRAE, Avignon, France Find articles by Marie Weiss"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Pierre Martre",
+      "text": "1 LEPSE, Univ Montpellier, INRAE, Institut Agro Montpellier, Montpellier, France Find articles by Pierre Martre"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Canopy light interception determines the amount of energy captured by a crop, and is thus critical to modeling crop growth and yield, and may substantially contribute to the prediction uncertainty of crop growth models (CGMs). We thus analyzed the canopy light interception models of the 26 wheat ( Triticum aestivum ) CGMs used by the Agricultural Model Intercomparison and Improvement Project (AgMIP). Twenty-one CGMs assume that the light extinction coefficient ( K ) is constant, varying from 0.37 to 0.80 depending on the model. The other models take into account the illumination conditions and assume either that all green surfaces in the canopy have the same inclination angle ( \u03b8 ) or that \u03b8 distribution follows a spherical distribution. These assumptions have not yet been evaluated due to a lack of experimental data. Therefore, we conducted a field experiment with five cultivars with contrasting leaf stature sown at normal and double row spacing, and analyzed \u03b8 distribution in the canopies from three-dimensional canopy reconstructions. In all the canopies, \u03b8 distribution was well represented by an ellipsoidal distribution. We thus carried out an intercomparison between the light interception models of the AgMIP\u2013Wheat CGMs ensemble and a physically based K model with ellipsoidal leaf angle distribution and canopy clumping ( K ell C ). Results showed that the K ell C model outperformed current approaches under most illumination conditions and that the uncertainty in simulated wheat growth and final grain yield due to light models could be as high as 45%. Therefore, our results call for an overhaul of light interception models in CGMs."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Crop growth models (CGMs) are popular tools used to optimize crop management, assess the impact of climate change on crop production ( Liu et al., 2016) , or assist plant breeders (e.g. Martre et al., 2015 a, 2015 b, 2015c; Chenu et al., 2017 ). To meet this need, CGMs should be capable of predicting the response of genotypes to various environments ( Yin et al., 2003 ; Parent and Tardieu, 2014 ; Messina et al., 2018 ). This requires improved CGMs to reconcile biological realism and parsimony in the description of eco-physiological processes ( Hammer et al., 2019 ) while considering feedbacks between key processes ( Tardieu and Parent, 2017 ). Model parameters should also have sound biological meaning and if possible, be measurable using modern high-through phenotyping methods ( Tardieu et al., 2017 ), be less dependent on the environmental conditions, and allow for more genetic dependency ( Hammer et al., 2006 , 2016 ). This means that CGMs should predict complex traits such as yield with fewer compensations for errors ( Muller and Martre, 2019 ). Among the several processes that need to be described in CGMs, canopy light absorption is very important since it drives the energy available for photosynthesis and transpiration. In the many CGMs that use the classical light use efficiency (LUE) approach to model biomass production ( Monteith, 1977 ), errors in light absorption can easily be compensated for by changes in the LUE or the green area index (GAI). Canopy light absorption in most CGMs is described using the simple big-leaf approach originally proposed by Monsi and Saeki (2005) . However, this approach may be too simplistic to accurately account for the impact of illumination conditions (fraction of diffuse incoming radiation and sun position) and canopy structure (primarily GAI, surface inclination angle, and planting arrangement) on light absorption by the canopy ( Pury and Farquhar, 1997 ). Several alternative approaches to the big-leaf approach have been developed to model canopy light absorption. The most popular ones include the single-layered ( Pury and Farquhar, 1997 ) and multi-layered ( Sellers et al., 1992 ; Wang and Leuning, 1998 ) sun/shade approach, the three-dimensional (3D) voxel-based canopy description ( Sinoquet et al., 2001 ), and the 3D canopy architecture description ( Chelle and Andrieu, 1998 ). They differ mainly in the level of details with which canopy architecture is described and the approximations in the radiative transfer. The photosynthetic pigments absorb the incoming radiation in the 400\u2013700 nm spectral domain called the photosynthetically active radiation (PAR; McCree, 1972 ). The fraction of incoming PAR absorbed by the photosynthetically active elements of canopies (FAPAR) quantifies the PAR absorption efficiency ( Monteith, 1977 ; Sinclair and Muchow, 1999 ). FAPAR results from complex interactions between the incident radiation, characterized by its spectral and its directional distribution, and the structure and biochemical composition of canopies ( Hanan and Begue, 1995 ; Weiss and Baret, 2011 ). Canopy structure plays a key role in canopy light interception, whereas there is substantial structural difference among crops. Our focus in this study was on wheat ( Triticum aestivum ), the most surface-grown crop in the world and which contributes \u223c20% of the total calories and protein in the human diet ( Shiferaw et al., 2013 ). Because of the strong absorption of PAR radiation by the photosynthetic pigments, multiple scattering contributes only marginally to the radiative transfer, and FAPAR can be closely approximated by the fraction of PAR intercepted by the photosynthetically active radiation (FIPAR) elements of canopies. This approximation is well verified for wheat that does not present glossy or hairy leaves ( Andrieu and Baret, 1993 ; M\u00f5ttus et al., 2013 ). The Monsi and Saeki (2005) model assume that all elements in the canopy are the same and are randomly distributed in the ca"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Review of light extinction coefficient values reported for wheat",
+      "text": "The approach usually used to estimate K is to invert Equation 1 using concurrent measurements of FIPAR and GAI. In most studies, several replicates of FIPAR and GAI measured at several dates along the growth cycle, or across modalities, are used to get robust estimates at the expense of a more limited capacity to describe the possible changes of K with time or modalities ( Table 1 ). Alternatively, measuring the vertical profile of FIPAR and GAI was used to invert Equation 1 ( Moreau et al., 2012 ). However, in this case, the possible variation of leaf orientation and clumping with canopy depth may also confound the estimated value of K . GAI is used in Equation 1 since it accounts for all the green area of leaves, stems, and ears. When K is estimated using green leaf area index (GLAI; Calderini et al., 1997 ; Muurinen and Peltonen-Sainio, 2006 ) or LAI ( Green, 1989 ; Dreccer, 2000 ; Carretero et al., 2010 ), the green stem or ear contribution is not explicitly accounted for. Further, in the case of LAI, the senescent leaves are taken into account although they have no potentials to transform the intercepted radiation into assimilates. Therefore, the use of GLAI or LAI in place of GAI may cause biased estimates of K . However, Table 1 does not show apparent bias in the reported K values, probably because the other factors of variability mask this expected effect. The reported values of K vary between 0.28 and 0.90 with a median value of 0.59 ( Table 1 ). For a given cultivar, K was reported to change between cultivation practices ( Asrar et al., 1984 ; Dreccer, 2000 ) or with growth stages ( Yunusa et al., 1993 ). Other studies show substantial genotypic differences ( Green, 1989 ; Miralles and Slafer, 1997 ; Shearman et al., 2005 ) and strong genotype by environment effect was found in some cases ( Moreau et al., 2012 ) while no substantial cultivar effect was observed in other studies ( Yunusa et al., 1993 ; Calderini et al., 1997 ; Shearman et al., 2005 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 4,
+      "heading": "Table 1.",
+      "text": "Summary of extinction coefficient K reported for wheat GLAI, GAI or LAI Clear Sky Hour (solar) Latitude (\u00b0) Longitude (\u00b0) Factors Growth Stages Light Extinction Coefficient (unitless) Reference NS NS 11\u201313 39 \u221296 2 cultivars 3 densities From booting to soft dough 0.65\u20130.89 Asrar et al. (1984) LAI Yes NS 39 \u221296 2 cultivars 3 densities From emergence to maturity 0.33\u20130.84 Fuchs et al. (1984) LAI NS 8\u201316 53 \u22121 5 cultivars Before anthesis 0.28\u20130.44 Green (1989) LAI NS 12 52 5 2 nitrogen 2 densities From emergence to maturity 0.30\u20130.90 Dreccer et al. (2000) LAI NS 11\u201313 \u221234 \u221258 2 nitrogen 2 disease Heading to anthesis 0.56\u20130.68 Carretero et al. (2010) LAI Yes 11\u201313 \u221234 \u221258 Tall, semi-dwarf, and dwarf isogenic lines From 30 days after sowing to the time when the canopy reached the maximum LAI 0.48\u20130.78 Miralles and Slafer (1997) GLAI Yes 12 \u221231 \u221258 7 cultivars From emergence to anthesis 0.37\u20130.46 Calderini et al. (1997) GLAI NS 11\u201313 60 23 3 cultivars 2 nitrogen From leaf 3 to maturity 0.62\u20130.79 Muurinen and Peltonen-Sainio (2006) GAI NS 10\u201314 52 0 Growth stage Between leaf 3 and heading Between heading and anthesis During grain filling 0.46 0.61 0.56 Thorne et al. (1988) GAI NS 12 \u221232 116 3 cultivars Before heading After heading 0.31\u20130.60 0.60\u20130.77 Yunusa et al. (1993) GAI NS 12 \u221235 141 2 years From emergence to maturity 0.82 O'Connell et al. (2004) GAI NS NS 53 \u22121 8 cultivars Beginning of stem extension Anthesis 0.48\u20130.58 0.53\u20130.63 Shearman et al. (2005) GAI NS 10\u201314 45\u201352 3 to \u22121 16 cultivars 2 nitrogen Anthesis 0.33\u20130.54 Moreau et al. (2012) Open in a new tab NS, not specified."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Review of light interception models in wheat CGMs",
+      "text": "We reviewed the canopy light interception models in 26 of the 28 different wheat CGMs used in the AgMIP ( Table 2 ) ( Asseng et al., 2013 , 2015 ; Martre et al., 2015a , 2015b , 2015c; Asseng et al., 2019) . Two CGMs were not considered (AQUACROP and OLEARY) because they calculate biomass accumulation using a transpiration efficiency approach and thus PAR interception is not calculated per se in these CGMs. The AgMIP\u2013Wheat multi-model ensemble comprises >80% of the wheat CGMs currently used ( Asseng et al., 2019) . We considered FIPAR rather than FAPAR to focus on the way models describe canopy architecture and account for the illumination conditions while not considering the impact of leaf and soil optical properties as required for FAPAR computation. Except for those with a very bright background (white sandy soil or snow), most arable soils have relatively low reflectance values in the PAR spectral domain ( Jacquemoud et al., 1992 ). Further, the green elements strongly absorb light in the PAR domain, resulting in very low reflectance and transmittance values ( Jacquemoud and Baret, 1990 ). In most cases, FIPAR is therefore a close approximation of FAPAR ( B\u00e9gu\u00e9 et al., 1996 ; Widlowski, 2010 ). For the models that describe FAPAR, we, therefore, assumed that the leaves absorb all the radiation (i.e. reflectance and transmittance equal zero) and the soil background is black. This assumption is supported by a sensitivity analysis of the differences between FIPAR and FAPAR ( Jacquemoud et al., 2009 ) in soil reflectance, leaf chlorophyll concentration, GAI, average surface inclination angle, fraction of diffuse radiation, and sun elevation angle (see Supplemental Methods S1 ; Supplemental Results S1 ; Supplemental Table S1 ; Supplemental Figures S1 and S2 ). The FIPAR models can be grouped into several categories mainly depending on the assumptions used to model K ( Eq. 2 ). Below, we first review the models used for direct illumination conditions. Description of variables and parameters of the FIPAR models is listed in Table 3 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 4,
+      "heading": "Table 2.",
+      "text": "Summary of the light extinction coefficient, light interception models, and biomass production models of the wheat CGMs of the AgMIP\u2013Wheat multi-model ensemble Models Extinction Coefficient Element Area FIPAR FAPAR Clumping Biomass Production Time Step Reference Type Name Total Direct Diffuse Sheath Spike Light Utilization a Light interception b Daily Hourly PGI c Constant APSIM-Wheat (v7.5) 0.50 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE/TE BLC Yes \u2013 \u2013 Meinke et al. (1998) APSIM-Wheat 2018 0.50\u20130.60 d \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Brown et al. (2018a , 2018b ) AFRCWHEAT2 0.44 \u2013 \u2013 Yes \u2013 Yes \u2013 \u2013 P-R BLL \u2013 Yes \u2013 Weir et al. (1984) CropSyst 0.45 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE/TE BLC Yes \u2013 \u2013 Stockle et al. (1994) DAISY 0.60 \u2013 \u2013 Yes \u2013 Yes \u2013 \u2013 GP BLL \u2013 Yes \u2013 Hansen et al. (1991) DSSAT-CERES-Wheat 0.59 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Ritchie and Otter (1985) DSSAT-CROPSIM 0.65 \u2013 \u2013 Yes Yes Yes \u2013 \u2013 RUE(PAR) BLC Yes \u2013 \u2013 Hunt and Pararajasingham (1995) EPIC 0.65 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Williams et al. (1989) FASSET 0.44 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Olesen et al. (2002) GLAM 0.50 \u2013 \u2013 Yes \u2013 Yes \u2013 \u2013 TE BLC Yes \u2013 \u2013 Challinor et al. (2004) HERMES / MONICA 0.80 \u2013 \u2013 \u2013 Yes \u2013 \u2013 P-R BLC Yes \u2013 \u2013 Kersebaum (2011) InfoCrop 0.60 \u2013 \u2013 Yes Yes Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Aggarwal et al. (2006) LINTUL 0.60 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 van Oijen et al. (2004) LPjML 0.50 \u2013 \u2013 \u2013 \u2013 \u2013 Yes \u2013 P-R BLC Yes \u2013 \u2013 Bondeau et al. (2007) MCWLA 0.50 \u2013 \u2013 Yes \u2013 Yes \u2013 \u2013 P-R BLC Yes \u2013 \u2013 Tao et al. (2009) NWheat 0.60\u20130.7 e \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Keating et al. (2003) SALUS 0.37\u20130.67 f \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Dzotsi et al. (2013) Sirius (v99) 0.45 \u2013 \u2013 \u2713 \u2013 Yes \u2013 \u2013 RUE( f ) BLC Yes \u2013 \u2013 Jamieson et al. (1998) SiriusQuality 0.45 \u2013 \u2013 \u2713 \u2013 Yes \u2013 \u2013 RUE( f ) BLL Yes \u2013 \u2013 Martre et al. (2006) SSM-Wheat 0.65 \u2013 \u2013 \u2013 \u2013 Yes \u2013 \u2013 RUE BLC Yes \u2013 \u2013 Soltani et al. (2013) STICS (v9) 0.50 \u2013 \u2013 Yes \u2013 Yes \u2013 \u2013 RUE(PAR) BLC Yes \u2013 \u2013 Brisson et al. (1998) Spherical SUCROS97 \u2013 Eq. 10 0.6 \u2013 \u2013 \u2013 Yes Yes P-R SSPGI \u2013 \u2013 3 Goudriaan and Van Laar (1994) SPASS \u2013 Eq. 8 0.8 Yes Yes Yes \u2013 \u2013 P-R SSPGI \u2013 Yes \u2013 Wang (1997) WOFOST \u2013 Eq. 10 0.6 \u2013 \u2013 \u2013 Yes Yes P-R SSPGI \u2013 \u2013 3 Supit et al. (1994) WHEATGROW \u2013 Eq. 10 0.67 \u2013 \u2013 \u2013 Yes Yes P-R BLC \u2013 Yes \u2013 Liu (2000) ; Liu et al. (2001) Average GECROS \u2013 Eq. 7 Eq. 23 Yes Yes \u2013 Yes \u2013 P-R SSPGI \u2013 \u2013 5 Yin and van Laar (2005) Open in a new tab a GP, gross photosynthesis; P-R, gross photosynthesis\u2013respiration; RUE( f ), radiation use efficiency approach modified by the fraction of diffuse irradiance; RUE(PAR), radiation use efficiency approach modified by the amount of PAR; TE, transpiration use efficiency approach. b BLL, big-leaf layer; BLC; big-leaf canopy; SSPGI, sun/shade spatial gaussian integration. c Three-points (3) or five-points (5) Gaussian integration. d The light extinction coefficient increases after the beginning of stem extension and until flag leaf ligule following Equation 4 . e The light extinction coefficient increases after anthesis from 0.6 to 0.7. f The light extinction coefficient is a function of sowing density and row spacing ( Eq. 3 ). The range reported here is for sowing density varying from 100 to 400 seed m \u22122 and row spacing varying from 0.15 to 0.35 m."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 4,
+      "heading": "Table 3.",
+      "text": "Name, unit, and definition of variables and parameters of the FIPAR models Name Unit Definition C GAI \u2013 Clumping factor estimated using GAI C sph \u2013 Clumping factor with spherical distribution d m \u22122 Plant density f \u2013 Fraction of diffuse PAR to the total incident PAR FIPAR \u2013 Fraction of incident PAR intercepted by the canopy FIPAR dir \u2013 Fraction of intercepted direct PAR FIPAR dif \u2013 Fraction of intercepted diffuse PAR FIPAR day \u2013 Daily value of the fraction of IPAR FLN Leaf number Final number of leaves on the main stem g \u2013 Inclination angle distribution function G \u2013 Projection function G avr \u2013 Projection function assuming that all the green surfaces (leaves, stem and ears) have the same inclination angle and a uniform azimuthal distribution GAI m 2 (leaf) m \u22122 (ground) GAI GAI eff m 2 (leaf) m \u22122 (ground) Effective GAI GAI mes m 2 (leaf) m \u22122 (ground) Measured GAI HS leaf number Haun stage (decimal mainstem leaf number) K avr dir \u2013 Extinction coefficient with average distribution for direct PAR K cst \u2013 Constant extinction coefficient K cst ds \u2013 Constant extinction coefficient accounting for plant density and row spacing K cst HS \u2013 Constant extinction coefficient accounting for the increment after stem elongation K ell dir \u2013 Extinction coefficient with ellipsoidal distribution for direct PAR K ell C \u2013 Extinction coefficient with spherical distribution and considering clumping effect K mes dif \u2013 Measured extinction coefficient for the diffuse incoming PAR K sph dir \u2013 Extinction coefficient with spherical distribution for direct PAR K sph C \u2013 Extinction coefficient with spherical distribution and considering clumping effect PAR W m \u22122 Incoming photosynthetically active radiation s m Row spacing \u03b2 b Radian Half azimuth range for which the upper side of a leaf is illuminated \u03b2 Radian Sun elevation angle \u03c4 \u2013 Fraction of PAR transmitted to the ground level \u039b \u2013 Normalized ellipse area \u03c3 \u2013 Scattering coefficient of leaves for PAR \u03b8 Radian Inclination angle of the green surfaces in the canopy \u03b8 \u00af Radian Average inclination angle of the green surfaces in the canopy \u03c9 Leaf number Haun stage at which K cst HS starts to increases in the K cst HS model \u03c7 \u2013 Eccentricity of the ellipsoidal leaf inclination distribution Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Models of light interception for direct illumination conditions",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 4,
+      "heading": "Constant light extinction coefficient",
+      "text": "The simplest and most popular FIPAR model in wheat CGMs ( Table 2 ) assumes a constant light extinction coefficient ( K cst ) and FIPAR is calculated using Equation 1 . By definition, K cst is assumed to be valid for any light direction and therefore applies to both direct and diffuse incident PAR. The values of K cst used in wheat GCMs range from 0.44 to 0.80 ( Table 2 ), with a median value of 0.52, that is, close to that calculated from field measurements ( Table 1 ). Some adaptations have been proposed to account for the impact of plant arrangement or ontogenic changes in canopy structure on K cst . In the System Approach to Land Use Sustainability (SALUS), the sowing pattern is accounted for by using an empirical relationship derived from experimental observations ( Dzotsi et al., 2013 ): where d is the plant density (plants m \u22122 ) and s is the row spacing (m). K cst ds varies between 0.37 and 0.67 for d ranging between 100 and 400 plants m \u22122 and s ranging from 0.15 to 0.35 m, with K cst ds decreasing with increasing row spacing and plant density. In the latest version of APSIM Wheat ( Brown et al., 2018a , 2018b ), K cst increases during the stem extension period because of the change in leaf inclination, but probably also because the stem and ear area were not explicitly accounted for: where HS is the Haun stage ( Haun, 1973 ) of the main stem, FLN is the final number of leaves on the main stem, and \u03c9 is the Haun stage at which K cst HS starts to increase. \u03c9 is given by: For the same reasons as for APSIM Wheat, in Nwheat model, K cst changes from 0.6 before anthesis to 0.7 after anthesis ( Keating et al., 2003) ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Average surface inclination",
+      "text": "The average surface inclination angle over the whole canopy ( \u03b8 ) can be calculated as the average zenith angle of all the green surface elements weighted by their area. This includes green leaves, visible green sheath parts, internodes, and ears. At the canopy level, assuming that all the green surfaces have the same inclination angle and a uniform azimuthal distribution, the projection function, G avr \u03b2 , \u03b8 is given by ( Goudriaan, 1988 ): K can then be calculated as: This formulation of the projection function is used in GECROS ( Yin and van Laar, 2005 ) with a default value of \u03b8 for wheat of 50\u00b0."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Spherical surface inclination distribution",
+      "text": "In the simple case where the surfaces of all green organs are distributed as the facets around a sphere, G = 0.5 ( Goudriaan, 1977 , 1988 ). In this case, K is given by: In the SPASS model, K is calculated using Equation 8 ( Wang, 1997 ). Goudriaan and Van Laar (1994) proposed an adaptation of the spherical model to better match field observations. They proposed to account for the departure between observed FAPAR and the one computed assuming a spherical surface angle distribution by using a correction factor ( C sph ), calculated as the measured K for diffuse PAR ( K meas diff ) relative to the theoretical value for spherical surface angle distribution. C sph is given by: where \u03c3 is the scattering coefficient of leaves in the PAR domain. This approach is used in SUCROS ( Goudriaan and Van Laar, 1994 ), WOFOST ( Goudriaan and Van Laar, 1994 ), and WheatGrow ( Liu, 2000 ). In these GCMs, K for direct light is thus given by: In SUCROS and WOFOST, K sph dif is considered as constant and is set equal to 0.6 for wheat ( Goudriaan and Van Laar, 1994 ). Thus C sph = 0.75 and K sph C = 0.375 / sin \u2061 \u03b2 . In WheatGrow, K sph dif =0.67, and thus K sph C = 0.42 / sin \u2061 \u03b2 ( Liu, 2000 ). Here, we used the value of C sph proposed by Goudriaan and Van Laar (1994) ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Ellipsoidal surface inclination distribution",
+      "text": "The spherical distribution can be generalized by considering that the orientation of the surfaces of the green organs is distributed as the facets around an ellipsoid of revolution with a vertical rotation axis ( Campbell, 1986 ). The ellipsoid is characterized by its eccentricity, \u03c7 , that is, the ratio between its vertical and horizontal diameters. By varying \u03c7 , the distribution of angles simulates planophile up to erectophile leaf stature, as well as the spherical distribution when \u03c7 = 1.0 . The ellipsoidal function is a good trade-off between simplicity and flexibility in characterizing the distribution of surface inclination at the canopy scale ( Weiss et al., 2004 ; Wang et al., 2007 ). Nevertheless, it has never been evaluated over wheat canopies due to the lack of leaf curvature measurements, which require considerable field work. The analytical expression of the ellipsoidal inclination distribution function, g \u03b8 , is given by ( Campbell, 1990 ): where \u039b is a normalized ellipse area, approximated by: \u03c7 is related to the average inclination angle at the canopy scale ( \u03b8 \u00af ) through an empirical equation: Following the approach proposed by Verhoef (1998) , K of any leaf angle distribution is computed as the integral over the whole range of leaf inclination ( 0 < \u03b8 < \u03c0 / 2 ) of K \u03b2 , \u03b8 weighted by the corresponding frequency, g \u03b8 . Since the analytical solution is not straightforward, a discrete approximation was proposed by Verhoef (1998) for a sample of n inclination angles: According to Verhoef (1998) , it is sufficient if the inclination angle is discretized into 13 classes (5\u00b0, 15\u00b0, 25\u00b0, 35\u00b0, 45\u00b0, 55\u00b0, 65\u00b0, 75\u00b0, 81\u00b0, 83\u00b0, 85\u00b0, 87\u00b0, and 89\u00b0), expressed in radians in Equations 14 and 15 . K ell ( \u03b2 , \u03b8 i ) for inclination angle \u03b8 i writes: with, where \u03b2 b (radian) is the transition angle, which is half of the azimuth range for which the upper side of a leaf is illuminated. Alternatively, K ell can be approximated by ( Campbell and Norman, 2012 ): In this work, we used Equation 17 to calculate K ell dir . The calculation of C sph using Equation 9 is an approximation since FIPAR for diffuse radiation calculated from Equation 21 cannot be analytically put in the form of Equation 1 to derive K sph dif . Therefore, Baret et al. (2010) proposed to estimate the clumping factor as the ratio of the effective GAI, estimated from the directional variation of FIPAR ( GAI eff ), to the actual GAI from destructive measurement ( GAI mes ): Where GAI eff is calculated following Miller (1967) : We use the approach of Baret et al. (2010) to take into account leaf clumping in the ellipsoidal surface inclination distribution model. The extinction coefficient for an ellipsoidal surface inclination distribution accounting for leaf clumping ( K ell C ) is then given by:"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Accounting for diffuse radiation",
+      "text": "At a given time of the day, the incident radiation is coming both from the sun direction and from the light scattered in the atmosphere, which is generally assumed to be isotropic. The total amount of radiation intercepted at a given time t of the day is thus given by: where f t is the fraction of diffuse radiation in the PAR domain, and FIPAR dir and FIPAR dif are the FIPAR for direct and diffuse radiation, respectively. The daily value of FIPAR ( FIPAR day ) can then be calculated by integrating the instantaneous values as follows: When FIPAR does not depend on \u03b2 , as for the K cst model, the instantaneous value of FIPAR is independent of the diffuse fraction since FIPAR = FIPAR dif = FIPAR dir . The spherical inclination distribution and average inclination models use a different value of K for FIPAR dif and FIPAR dir . The CGMs that use a spherical inclination distribution model use a constant value of K for diffuse PAR ( Table 2 ). Here we used the value of 0.6 proposed by Goudriaan and Van Laar (1994) . In GECROS, which uses an average inclination model at the canopy scale, K for diffuse radiation ( K avr dif ) is calculated following Goudriaan (1988) and is given by: where K b 15 , K b 45 , and K b 75 are the extinction coefficients calculated using Equation (7) for \u03b2 equals 15\u00b0, 45\u00b0, and 75\u00b0, respectively. The weights 0.178, 0.514, and 0.308 represent the contributions from the 30\u00b0 classes (0\u201330\u00b0, 30\u201360\u00b0, and 60\u201390\u00b0) of a standard overcast sky. For the ellipsoidal inclination distribution model, we calculated FIPAR dif as the integral over the hemisphere of the directional FIPAR dir :"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Canopy elements considered as intercepting area",
+      "text": "As already discussed, GAI should be considered in Equation 1 , including both one-sided area of flat green organs (leaves) and half the developed area of nonflat green organs (stems or ears) ( Lang, 1991 ; Chen and Black, 1992 ). However, K is often estimated using measurements of FIPAR and the corresponding area of some of the crop elements ( Table 1 ). All the models consider the leaf lamina, but only few consider the area of stems and ears ( Table 2 ), although this may represent a substantial fraction of GAI ( Weiss et al., 2001 ). Some models such as APSIM wheat and Nwheat compensate for the fact that the stems and ears are not explicitly accounted for by increasing K after the onset of stem extension (APSIM wheat) or after anthesis (Nwheat). However, for the other models, no obvious trend is observed between the value of the extinction coefficient and the elements accounted for in the GAI ( Table 2 ), similarly to what was found from the ground measurements ( Table 1 ). In the case of the SUCROS, WOFOST, and WheatGrow, which do not account for stems and ears area ( Table 2 ), the empirically adjusted clumping factor may partly compensate for this approximation."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "Results",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "The ellipsoidal inclination distribution faithfully represents the actual distribution of surface inclination in wheat",
+      "text": "The 3D canopies reconstructed from the digitalization of the field-grown plants were used to extract the inclination angle distribution, corresponding to the distribution of the zenith angle of all green elements in the canopy. The variance of \u03b8 \u00af over treatments was much larger at GS31 than at GS39 ( Supplemental Table S2 ). At both growth stages, \u03b8 \u00af varied more between cultivars than with row spacing. However, both cultivar and row spacing effects on \u03b8 \u00af were not statistically significant ( P > 0.01; Supplemental Table S3 ). The canopies were more erectophile at GS39 as compared to GS31, mostly because \u03b8 \u00af of leaf elements increased from 39\u00b0 at GS31 to 63\u00b0 at GS39 ( Supplemental Table S2 ; Supplemental Figure S3 ). Stems were also more erectophile at GS39 ( \u03b8 \u00af = 84\u00b0) than at GS31 ( \u03b8 \u00af = 75\u00b0). According to Equation 13 (solving the equation with \u03c7 = 1 ), \u03b8 \u00af equals 56\u00b0 for spherical leaf angle distribution. At GS31, Caphorn, the most erectophile of the five studied cultivars, was the cultivar with \u03b8 \u00af closest to that of a spherical distribution ( \u03c7 = 1.14; Table 4 ). For the four other cultivars, \u03b8 \u00af was lower than 56\u00b0 ( Table 4 ) and \u03c7 ranged from 1.40 (for Apache) to 2.07 (for Maxwell). At GS39, \u03b8 \u00af was close to 70\u00b0 (i.e. \u03c7 = 0.50) for the four cultivars ( Table 4 ) and was thus much higher than the value corresponding to a spherical distribution. For all the cultivars, growth stages, and row spacing treatments, the distribution of inclination was not significantly different from an ellipsoidal distribution (all P > 0.01). Conversely, in all cases the distribution of inclination was significantly different from a spherical distribution (all P < 0.01). When \u03b8 \u00af is \u02c380 \u00b0 , the ellipsoidal distribution tended to underestimate the corresponding probability at GS31, while overestimating it at GS39 ( Figure 1 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 4,
+      "heading": "Table 4.",
+      "text": "Average inclination angle of green elements in the canopy measured at the beginning of stem extension (GS31) and flag leaf ligulation (GS39) for five winter wheat cultivars grown in the field with standard (17.5 cm, SS) and double (35 cm, DS) row spacing Growth Stage Average inclination angle of green elements (\u00b0) Apache Caphorn Maxwell Renan Soissons SS DS SS DS SS DS SS DS SS DS 31 48 \u00b1 16 51 \u00b1 16 53 \u00b1 16 52 \u00b1 16 38 \u00b1 16 41 \u00b1 14 39 \u00b1 16 49 \u00b1 17 43 \u00b1 16 48 \u00b1 16 39 69 \u00b1 12 65 \u00b1 15 73 \u00b1 9 72 \u00b1 9 69 \u00b1 11 72 \u00b1 11 70 \u00b1 12 69 \u00b1 13 71 \u00b1 11 67 \u00b1 12 Open in a new tab Data are mean \u00b1 1 sd ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 4,
+      "heading": "Figure 1.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Increasing row spacing decreases the clumping factor",
+      "text": "The clumping factor ( C GAI ) was computed over the reconstructed 3D wheat canopies by using Equation 18 . At GS31, for the five cultivars C GAI was on average 18% higher for the standard ( C GAI = 0.79) than for the double row spacing treatment ( C GAI = 0.67, Figure 2 ). At GS39, C GAI was always slightly lower for the double spacing as compared to the standard spacing. For standard row spacing, C GAI values were similar for the two growth stages. Conversely, for double-row spacing, C GAI was on average 17% higher at GS39 than at GS31, except for Maxwell."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 4,
+      "heading": "Figure 2.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Comparison between FIPAR models",
+      "text": "For FIPAR dir , at both GS31 and GS39 the ellipsoidal model outperformed the other models over all solar angles ( Figure 3 ). At GS31, the root mean squared error (RMSE) for FIPAR dir was reduced by 37% when leaf clumping was accounted for in the ellipsoidal model ( Figure 3A ). The spherical models ( K sph and K sph C ) and average leaf inclination angle ( K avr ) provided reasonable performances, while the models with constant light extinction coefficients ( K cst ) substantially degraded the accuracy of FIPAR dir calculation, with 0.013 < RMSE < 0.23 ( K cst 0.6 > K cst 0.9 > K cst 0.3 ). For FIPAR dir , the differences between the models were larger for low solar elevation angles at GS31 ( Figure 3A ) and for high solar elevation angels at GS39 ( Figure 3B ). For both growth stages, the differences between the models were the lowest for solar elevation between 40\u00b0 and 55\u00b0. Under diffuse illumination conditions, K ell C also performed the best at GS31 ( Figure 3A ), while at GS39 the RMSE was low for several models and K ell C was not the best model ( Figure 3B )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 4,
+      "heading": "Figure 3.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Sensitivity of FIPAR to canopy structure and illumination conditions",
+      "text": "Since we found that K ell C was the best model for FIPAR, we used it to explore the sensitivity of FIPAR with respect to changes in canopy structure, GAI and \u03b8 \u00af ( Figure 4 ). Results show that FIPAR increased rapidly with GAI, as expected from the exponential form of Equation 1 . FIPAR dir was insensitive to \u03b8 \u00af when the sun was at 32.5\u00b0 elevation ( Figure 4B ). FIPAR dir increased with \u03b8 \u00af for \u03b2 < 32.5\u00b0 ( Figure 4C ), and decreased with \u03b8 \u00af for \u03b2 > 32.5\u00b0. The influence of \u03b8 \u00af on FIPAR dif was low ( Figure 4D ) because FIPAR dif was computed by integrating FIPAR dir over all directions, which put maximum weight on elevations close to 45\u00b0, that is, not too far from 32.5\u00b0. Since most CGMs have a daily time step ( Table 2 ), it is necessary to integrate FIPAR dir and FIPAR dif over the day, according to Equation 22 to get FIPAR day . Simulations showed that, for a given canopy structure, the value of FIPAR day may change largely, depending on the illumination conditions during the day ( Figure 5 ). At GS31, under clear sky conditions, the solar elevation at solar noon is \u223c45\u00b0 at this period of the year and latitude, and FIPAR day equals 0.25, while under overcast sky conditions FIPAR day is very close to FIPAR dif and is 32% lower than under clear sky conditions."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 4,
+      "heading": "Figure 4.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 4,
+      "heading": "Figure 5.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Differences between light extinction models over longer time periods",
+      "text": "The comparison of FIPAR day simulated with the different FIPAR models in Grignon for Caphorn and Maxwell cultivars with standard row spacing showed that most differences between models appeared during the early vegetative growth period ( Figure 6, A and B ). The models that considered solar elevation and diffuse and direct PAR (all models except K cst ) showed day-to-day FIPAR day variations, demonstrating their sensitivity to the illumination conditions. Compared with K ell , K sph underestimated FIPAR day by \u223c12% and 13% for Maxwell and Caphorn, respectively. FIPAR day was \u223c13% and 6% relatively lower when leaf clumping was accounted for in the K ell and K sph models, respectively. The uncertainty in FIPAR day between the CGMs that use the K cst model was \u223c15% on average (gray banding in Figure 6 ). The K cst med model underestimated FIPAR day by 28% and 29% for Maxwell and Caphorn compared with the K ell C model. The performance of the K avr model was close to the K ell model, with a relative difference of 2% and 3% for Maxwell and Caphorn, respectively. Compared with the K ell C model, the K cst med model underestimated the cumulative intercepted PAR (IPAR) by 35% and 10% at GS31 and GS39, respectively ( Figure 6, C and D ), while the K sph and K avr models overestimated it by 2% and 16% at GS31 and by 2% and 5% at GS39, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 4,
+      "heading": "Figure 6.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Uncertainty in crop growth and grain yield simulations due to light extinction models",
+      "text": "To quantify the uncertainty in crop growth and grain yield simulations due to light extinction models, we implemented the FIPAR models we analyzed in this study in the CGM SiriusQuality , and then simulated total biomass production and yield at five sites with contrasted illumination conditions. The K cst model underestimated by 16% (in Wad Medani, The Sudan) to 50% (in Jokiolinen, Finland) the cumulative IPAR at maturity compared with the K ell C model ( Figure 7A ). The K cst HS model performs similarly to K cst model, with a slight improvement. As expected, the differences were higher at high latitudes where on average the solar elevation angle is lower and f is higher. The other four models ( K avr , K sph , K sph C , and K ell ) overestimated the cumulative FIPAR at maturity for all the sites compared with the K ell C model. The K sph C model was the closest to the K ell C model; on average it overestimated cumulative IPAR by 5%. The relative differences in simulated total above ground biomass ( Figure 7B ) and grain yield ( Figure 7C ) between the K ell C model and the other models were similar to those for the cumulative IPAR. On average, simulated grain yield was 26% and 17% lower for the K cst and K cst HS models compared with the K ell C model, while it was 17%, 17%, 6%, and 11% higher for the K avr , K sph , K sph C , and K ell models compared with the K ell C model ( Figure 7C ). Some CGMs that use the K cst model and the LUE approach ( Monteith, 1977 ) to simulate biomass production increase LUE on cloudy days to account for the greater contribution to biomass accumulation by the leaves that are shaded under clear sky conditions. We, therefore, performed simulations with SiriusQuality that considered the increase of LUE on days with high f value for the K cst and K cst HS models that do not separate the diffuse and direct components of the incoming PAR ( Supplemental Figure S4 ). Results showed that the relative differences in grain yield between the K cst or K cst HS model and the K ell C model were halved for Jokiolinen when considering the increase of LUE as f increased. In Schleswig and Vantas Huelma, the relative difference in grain yield was then smaller than 5%. In Wad Medani, the K cst and K cst HS models overestimated grain yield compared with the K ell C model when the response of LUE to f was considered."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 4,
+      "heading": "Figure 7.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "The review of measured K values reported in the literature showed a large variability. Measurements were achieved under specific illumination conditions that varied among studies. Further, the inconsistency of area index, including or not including the stems and ears, and which was used to derive K from Equation 1 , makes the reported K values difficult to compare. Considering the diversity of growth conditions and cultivars used in the studies reported in the literature, no clear conclusions could be drawn to explain the wide range of variability of K and the possible drivers. The lack of common protocol for field measurements of K also contributes to the diversity of values reported. A more physically based approach is necessary to better understand the limitations associated with these reported K values estimated from field measurements. The compilation of light interception models used in wheat CGMs shows that most of them use a simplified formulation with a constant K . The median value of K = 0.52 used in wheat CGM is close to the median value calculated from measurements of FIPAR and GAI in the field ( K = 0.59). However, very few models provide justifications for these values. Further, the use of K cst does not account for the illumination conditions experienced by canopies or differences in canopy structure observed between growth stages and cultivars. Some empirical models were proposed to drive K values depending on growth stages ( Brown et al., 2018 a, 2018 b) or sowing patterns ( Dzotsi et al., 2013 ). The two other FIPAR models used in CGMs are physically based, assuming the distribution of canopy element inclination is equal to a single average value ( K avr ) or follows a spherical distribution accounting ( K sph C ) or not ( K sph ) for leaf clumping. However, these three models are limited by their lack of flexibility as well as realism when compared to reference FIPAR values. Therefore, we proposed a physically based model ( K sph C ) assuming that the surface inclination distribution follows an ellipsoidal distribution with some possible leaf clumping. We demonstrated that the distribution of surface inclination of green elements in wheat canopies is well represented by an ellipsoidal distribution with an average inclination angle that depends on the growth stage and cultivars. Further sensitivity analysis using the K sph C model illustrated the importance of taking into account the illumination conditions, particularly for the vegetative growth stages with low to medium GAI values, when FIPAR day is very sensitive to the illumination conditions. A clumping factor was required to better describe FIPAR as a function of GAI. It varies mostly with row spacing, with a value close to 0.79 for 17.5 cm row spacing and 0.67 for 35 cm row spacing. These values are lower than the value of 0.9 previously reported for single-row spacing wheat canopies ( Baret et al., 2010 ). This difference may be partly explained by the error in GAI measurements, which is usually \u02c310%. The 3D reconstruction of the canopies did not account for the twisting of leaves, which may also contribute to the difference in C GAI between our study and previous ones. It should also be noted that C GAI was assumed here to be independent from the row and solar directions, while the clumping factor may vary by almost 30% as reported by ( Peng et al., 2018 ). We showed that the ellipsoidal model outperformed the other models for most illumination conditions, but the differences between the models decreased for medium to high GAI values because of the saturation of FIPAR as a function of GAI. This explains why at GS39 the differences in cumulative IPAR between models were only 2\u201310% when all models used the same GAI trajectory. This conclusion is supported by several sensitivity analyses of CGMs that use the K cst model, which shows that variations of K of 20% around it is nominal value (i.e. about two-third of uncertainty of K reported for wheat CGMs)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "We reviewed the light interception models used in CGM for wheat crops. The fraction of intercepted radiation is always related to the area of green elements per unit ground area through an exponential law characterized by an extinction coefficient, K . Experimental observations of K show that it ranges between 0.28 and 0.90 with a median value of 0.59. This wide variability is explained by the wide range of FIPAR measurement methods, illumination and growth conditions as well as genotype variability. Further, while GAI that accounts for all the green surfaces should be considered, some studies do not account for the stems and ears that may represent a large fraction of the green surfaces. Most of the CGMs use a constant K with a median value of K = 0.52 with, however, a large variability between CGMs. To explicitly account for the changes in illumination conditions, few models use a physically based model assuming either that the surfaces are inclined at a single angle, or that the distribution of the inclination of the green surfaces follows a spherical distribution. However, our experimental observations demonstrate that the distribution of the inclination of leaf and stem surfaces is well described by an ellipsoidal distribution characterized by \u03b8 \u00af . Further, \u03b8 \u00af may change with cultivar, growth stages and conditions. Additionally, a clumping factor should be accounted for to describe the non-perfectly random spatial distribution of green elements in the canopy volume. We, therefore, propose this physically based model using an ellipsoidal distribution of surface inclination with a clumping factor. This light interception model was compared to the other models used in CGMs based on 3D wheat canopy scenes reconstructed from detailed field measurements. Results show that it outperforms all the other models to describe the variation of FIPAR due to illumination conditions, genotype effects due to variations of surface inclination distribution, and canopy structure effects due to variation in row spacing. These differences are enhanced for the earlier stages. We then simulated the time course of FIPAR with these several light interception models using the measured time course of GAI at Grignon, France. Results show that the differences in terms of cumulated IPAR are not very large between light interception models, with most differences appearing during the early stages. We finally evaluated the impact of the light interception model used in the SiriusQuality CGM on biomass production and yield. This was done over five sites spanning from 14\u00b0 to 60\u00b0 latitude, representing a wide range of illumination and growth conditions. Results show clearly the large influence of the light interception model, particularly for the high latitude sites with particular illumination conditions. These large differences are explained by the fact that a change in FIPAR impacts the biomass production and GAI dynamics. This expresses mostly during the early growth stages. However, these early differences impact the whole fate of the crop. It is finally concluded that the light interception model is critical for realistic simulations in CGMs. We proposed a physically based model that represents the surface inclination distribution by an ellipsoidal distribution with a clumping factor. However, this poses the problem of describing the average surface inclination angle that characterizes the ellipsoidal distribution and the clumping factor, along with their possible variation with genotypes, stages, and environmental conditions. Further work should, therefore, be directed to the development of high-throughput methods to measure the average surface inclination angle and clumping factor to better understand and model their variability."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 2,
+      "heading": "Materials and methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Crop growth conditions",
+      "text": "Experiments were conducted during the 2012\u20132013 growing season at Thiverval-Grignon, France (48\u00b051\u2032 N, 1\u00b058\u2032 E). The experimental design and growth conditions are described in detail in Abichou et al. (2019) . Five winter wheat ( T. aestivum ) cultivars with contrasting leaf inclination (Apache, Caphorn, Maxwell, Renan, and Soissons) were sown on October 2, 2012 in a deep loamy soil at a density of 170 seeds m \u22122 with either standard (SS, 0.175 m) or double (DS, 0.350 m) row spacing. The mean plant spacing on the row were 2.9 and 1.4 cm for SS and DS, respectively, ensuring similar plant density. The experimental design included two blocks (15 \u00d7 1.75 m) per treatment. Crops were grown under nonlimiting water and nitrogen conditions and kept free of weeds and diseases. N fertilization followed the recommended scheme for the area, with one dose at tillering and one dose applied shortly before stem extension. Air temperature at 2 m and global and diffuse PAR were recorded by a meteorological station located next to the experimental field. Thermal time was calculated from plant emergence on an hourly basis, assuming a linear response of plant development to temperature, with a base temperature of 0\u00b0C."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 3,
+      "heading": "Plant digitalization and 3D canopy reconstruction",
+      "text": "Canopies of each cultivar for the two row-spacing treatments were digitized at the beginning of stem elongation (GS31) ( Zadoks et al., 1974 ) and the ligulation of the flag leaf (GS39). In each plot, two 0.4-m long segments of one row were collected, including the soil and the roots down to 15-cm depth. Row segments were put intact in plastic containers and then brought to the laboratory where the plant structure was digitized ( Figure 8A ). Great care was paid in this process to preserve the original canopy structure. Each row segment was photographed ( Figure 8A ), then the coordinates of points along leaves midribs and stems were recorded with a magnetic digitizer (3SpaceE Fastrak, Polhemus Inc., Colchester, VT, USA) using the 3A software ( Adam et al., 1999 ). Apart from the skeleton information, the maximum width and length of the lamina of the individual mature leaves of the main stem, and the stem diameter and leaf collar height of each individual leaf were measured with a ruler on 30 tagged plants. The corresponding lamina width and shape were derived using empirical parametric models ( Dornbusch et al., 2011 ; Abichou, 2016 ). The 3D canopy architecture was then reconstructed as a 3D mesh composed of triangles using the 3D plant structure modeling library PlantGL ( Pradal et al., 2009 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 4,
+      "heading": "Figure 8.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 3,
+      "heading": "Calculation of GAI, average surface inclination, clumping factor, and FIPAR from 3D digitalized canopies",
+      "text": "All the green triangles in the reconstructed 3D canopies were labeled as lamina or stem. GAI mes was calculated as the sum of the area of all the triangles for the leaves, and only half the sum of the area of the stem triangles ( Lang, 1991 ; Chen and Black, 1992 ). GAI eff was calculated as ( Chen and Black, 1991 ; Weiss et al., 2004 ): C GAI was then calculated as the ratio of GAI mes to GAI eff ( Eq. 18 ). \u03b8 \u00af was calculated as the average of inclination angles of all lamina and stem triangles weighted by their corresponding areas ( Figure 8B ). FIPAR dir and FIPAR dif were calculated from the 3D reconstructed canopies using the Digital Plant Phenotyping Platform (D3P; Liu et al., 2019 ). The virtual 3D plants were duplicated to create 5 \u00d7 5 m scenes with row spacing consistent with the experiment. Then the RGB camera simulator in D3P was used to render hemispherical photos over the virtual scenes. Photographs were taken 30 cm above the top of the reconstructed 3D canopies with a 160 \u00b0 field of view and a 25 million pixel resolution. The camera was moved 7 times in a diagonal pattern between the two central rows to account for the row effect. The camera was maintained horizontal and parallel to the row direction. Thus, the directional green fraction was symmetric along and across the row direction. No azimuthal effect was considered, and images were processed by rings of 10\u00b0 elevation angle ( \u03b2 i - 5 \u00b0 < \u03b2 < \u03b2 i + 5 \u00b0 ) to compute FIPAR dir ( Figure 8C ). FIPAR dif was then calculated by using Equation 24 . These FIPAR dir and FIPAR dif values were used as references to evaluate the performance of the FIPAR models reviewed above."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 3,
+      "heading": "Calculation of FIPAR dynamics",
+      "text": "The different FIPAR models were first intercompared at Grignon, France. Calculations were done using \u03b8 \u00af and GAI mes values for the cultivars Maxwell and Caphorn and the single row-spacing treatment at Grignon. GAI mes was measured weekly from the ligulation of the fourth leaf to GS39 from down-looking RGB photographs ( Supplemental Methods S2). The measured GAI mes values were interpolated linearly as a function of thermal time. For the ellipsoidal models, we assumed that \u03b8 \u00af was constant between crop emergence and GS31 and then increased linearly between GS31 and GS39. These assumptions are consistent with the ontogenic changes in lamina insertion angles reported by Abichou et al. (2019) . We further assumed that the clumping factor did not change between crop emergence and GS39. Calculations were done for the 2012\u20132013 growing season at Grignon, France. The hourly PAR intercepted by canopies ( IPAR ) was calculated as the incident PAR times FIPAR. The daily IPAR was then calculated as the sum of hourly IPAR, assuming f PAR dif was constant hourly."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 3,
+      "heading": "Evaluation of the impact of light extinction coefficient models on simulated total above-ground biomass and grain yield",
+      "text": "To quantify the impact of light extinction coefficient models on simulated wheat crop growth and grain yield uncertainty, we created a model component in the BioMA software framework that implements the light extinction coefficient and FIPAR models analyzed in this study ( Manceau et al., 2020 ) and integrated it in the wheat CGM SiriusQuality ( Martre et al., 2006 ). In SiriusQuality , biomass production is modeled using the LUE approach ( Monteith, 1977 ). LUE (and biomass production) is calculated for each leaf cohort ( Martre and Dambreville, 2018 ) and is modified by the specific leaf N mass of the leaf cohort ( Sinclair and Horie, 1989 ), canopy temperature ( Wang et al., 2017) , soil water deficit ( Jamieson et al., 1998 ), atmospheric CO 2 concentration ( Jamieson et al., 2000 ), and the fraction of diffuse radiation. However, LUE was assumed as constant, except for special simulations to assess whether the LUE response to the fraction of diffuse radiation considered in some CGMs that use a constant K and the LUE approach to model biomass production can account for the higher FIPAR by the canopy on a cloudy day (see Supplemental Methods S3 ). SiriusQuality was executed for a large range of illumination conditions at five sites spanning the latitudes at which wheat is grown ( Supplemental Table S4 ): Wad Medani, The Sudan (14\u00b0 24\u2032 N), Ventas Huelma, Spain (37\u00b0 9\u2032 N), Grignon, France (48\u00b051\u2032 N), Schleswig, Germany (54\u00b0 31\u2032 N), and Jokioinen, Finland (60\u00b0 48\u2032 N). At all sites but Grignon, simulations were set up using the observed local mean sowing dates, initial soil N and water contents, crop management, daily weather data, soil characteristics, and cultivars reported by Asseng et al. (2019) . In Grignon, simulations were set up using similar information provided in ( Jeuffroy and Bouchard, 1999 ) and ( Jeuffroy and Recous, 1999 ), and daily weather data from the local INRAE weather station. The fraction of diffuse PAR ( f ) was calculated with the approach proposed by Spitters et al. (1986) used in SiriusQuality . Simulations were done with each of the seven light extinction coefficients and FIPAR models for 30 consecutive years (1981\u20132010), with initial conditions reset each year and using the same parameters and inputs at each site for all the light extinction models. Cultivar parameters were previously calibrated against the observed anthesis and maturity dates by considering information on vernalization requirements and photoperiod sensitivity ( Supplemental Table S4 ). For the ellipsoidal models, \u03b8 \u00af values were from the five cultivars for the single row spacing treatment at Grignon. As above, we assumed that \u03b8 \u00af was constant between crop emergence and GS31 and then increased linearly between GS31 and GS39, and that the clumping factor did not change between crop emergence and maturity. Using the K ell C model as a reference, the relative difference from the other six models was calculated for cumulative IPAR, total above ground biomass, and grain yield."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 3,
+      "heading": "Statistical analyses",
+      "text": "The distributions of the tilt angle of all the triangles from the digitalized canopies were compartmented with an ellipsoidal or spherical distribution using two-sample Kolmogorov\u2013Smirnov tests. Differences in \u03b8 \u00af and C GAI due to the growth stage and row spacing were analyzed using two-way analysis of variance after verifying that the treatment effects were normally distributed with equal variance. The accuracy of FIPAR dir and FIPAR dif calculated using the different approaches reviewed above was assessed with the RMSE: where y i and y i ^ are the predicted values and the measured values, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "Code availability",
+      "text": "All K and FIPAR models presented here were coded in Matlab and we also developed an independent executable component in the BioMA software framework ( http://www.biomamodelling.org ), which can easily be extended and coupled with CGMs. The source code and the standalone executable of the BioMA component are freely available at https://zenodo.org/record/3820386 . The SiriusQuality model can be downloaded from https://github.com/SiriusQuality ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 2,
+      "heading": "Supplemental data",
+      "text": "The following supplemental materials are available. Supplemental Method S1 . Sensitivity analysis of PROSAIL model. Supplemental Method S2 . Measurements of effective GAI. Supplemental Method S3 . Modeling the response of LUE to the fraction of diffuse light. Supplemental Results Validity of the FIPAR approximation. Supplemental Figure S1 . Relationship between sampled average inclination angle of green elements in the canopy ( \u03b8 \u00af ) and GAI. Supplemental Figure S2 . Comparison between FIPAR and FAPAR for different leaf chlorophyll concentrations ( Cab ) and soil reflectance ( r s l ). Supplemental Figure S3 . Distributions of inclination angle of canopies\u2019 green elements. Supplemental Figure S4 . Differences between among light extinction models. Supplemental Table S1 . Parameters sampling to build the dataset for FIPAR and FAPAR comparison using the PROSAIL model. Supplemental Table S2 . Average inclination angle of green leaf and stem elements measured in the canopy at the beginning of stem extension (GS 31) and flag leaf ligule (GS 39) for five winter wheat cultivars grown in the field with standard (17.5 cm, SS) and double (35 cm, DS) row spacing. Supplemental Table S3 . Two-way analysis of variance (ANOVA) for average inclination angle at canopy scale at the beginning of stem extension (GS 31) and flag leaf ligule (GS 39). Supplemental Table S4 . Location, cultivar, and phenology information at the five sites used to simulate wheat crop growth and grain yield with the wheat crop model SiriusQuality ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 2,
+      "heading": "Supplementary Material",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 2,
+      "heading": "Acknowledgments",
+      "text": "We are grateful to Christian Fournier and Christophe Pradal for their help in the use of the ADEL\u2013Wheat model and the OpenAlea platform."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 3,
+      "heading": "Funding",
+      "text": "This work was supported by the \u201cInfrastructure Biologie Sant\u00e9\u201d Phenome funded by the National Research Agency (ANR-11INBS0012), and the EU Project Horizon 2020 Solutions for Improving Agroecosystem and Crop Efficiency (grant no. 727247 to L.M. and P.M.). Conflict of interest statement . None Declared."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 2,
+      "heading": "Associated Data",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 3,
+      "heading": "Supplementary Materials",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 2,
+      "heading": "ACTIONS",
+      "text": "View on publisher site PDF (1.4 MB) Cite Collections Permalink PERMALINK Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-59",
+      "level": 2,
+      "heading": "RESOURCES",
+      "text": "Similar articles Cited by other articles Links to NCBI Databases"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-60",
+      "level": 3,
+      "heading": "Similar articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-61",
+      "level": 3,
+      "heading": "Cited by other articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-62",
+      "level": 3,
+      "heading": "Links to NCBI Databases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-63",
+      "level": 2,
+      "heading": "Cite",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-64",
+      "level": 2,
+      "heading": "Add to Collections",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "GLAI, GAI or LAI",
+        "Clear Sky",
+        "Hour (solar)",
+        "Latitude (\u00b0)",
+        "Longitude (\u00b0)",
+        "Factors",
+        "Growth Stages",
+        "Light Extinction Coefficient (unitless)",
+        "Reference"
+      ],
+      "rows": [
+        [
+          "NS",
+          "NS",
+          "11\u201313",
+          "39",
+          "\u221296",
+          "2 cultivars 3 densities",
+          "From booting to soft dough",
+          "0.65\u20130.89",
+          "Asrar et al. (1984)"
+        ],
+        [
+          "LAI",
+          "Yes",
+          "NS",
+          "39",
+          "\u221296",
+          "2 cultivars 3 densities",
+          "From emergence to maturity",
+          "0.33\u20130.84",
+          "Fuchs et al. (1984)"
+        ],
+        [
+          "LAI",
+          "NS",
+          "8\u201316",
+          "53",
+          "\u22121",
+          "5 cultivars",
+          "Before anthesis",
+          "0.28\u20130.44",
+          "Green (1989)"
+        ],
+        [
+          "LAI",
+          "NS",
+          "12",
+          "52",
+          "5",
+          "2 nitrogen 2 densities",
+          "From emergence to maturity",
+          "0.30\u20130.90",
+          "Dreccer et al. (2000)"
+        ],
+        [
+          "LAI",
+          "NS",
+          "11\u201313",
+          "\u221234",
+          "\u221258",
+          "2 nitrogen 2 disease",
+          "Heading to anthesis",
+          "0.56\u20130.68",
+          "Carretero et al. (2010)"
+        ],
+        [
+          "LAI",
+          "Yes",
+          "11\u201313",
+          "\u221234",
+          "\u221258",
+          "Tall, semi-dwarf, and dwarf isogenic lines",
+          "From 30 days after sowing to the time when the canopy reached the maximum LAI",
+          "0.48\u20130.78",
+          "Miralles and Slafer (1997)"
+        ],
+        [
+          "GLAI",
+          "Yes",
+          "12",
+          "\u221231",
+          "\u221258",
+          "7 cultivars",
+          "From emergence to anthesis",
+          "0.37\u20130.46",
+          "Calderini et al. (1997)"
+        ],
+        [
+          "GLAI",
+          "NS",
+          "11\u201313",
+          "60",
+          "23",
+          "3 cultivars 2 nitrogen",
+          "From leaf 3 to maturity",
+          "0.62\u20130.79",
+          "Muurinen and Peltonen-Sainio (2006)"
+        ],
+        [
+          "GAI",
+          "NS",
+          "10\u201314",
+          "52",
+          "0",
+          "Growth stage",
+          "Between leaf 3 and heading Between heading and anthesis During grain filling",
+          "0.46 0.61 0.56",
+          "Thorne et al. (1988)"
+        ],
+        [
+          "GAI",
+          "NS",
+          "12",
+          "\u221232",
+          "116",
+          "3 cultivars",
+          "Before heading After heading",
+          "0.31\u20130.60 0.60\u20130.77",
+          "Yunusa et al. (1993)"
+        ],
+        [
+          "GAI",
+          "NS",
+          "12",
+          "\u221235",
+          "141",
+          "2 years",
+          "From emergence to maturity",
+          "0.82",
+          "O'Connell et al. (2004)"
+        ],
+        [
+          "GAI",
+          "NS",
+          "NS",
+          "53",
+          "\u22121",
+          "8 cultivars",
+          "Beginning of stem extension Anthesis",
+          "0.48\u20130.58 0.53\u20130.63",
+          "Shearman et al. (2005)"
+        ],
+        [
+          "GAI",
+          "NS",
+          "10\u201314",
+          "45\u201352",
+          "3 to \u22121",
+          "16 cultivars 2 nitrogen",
+          "Anthesis",
+          "0.33\u20130.54",
+          "Moreau et al. (2012)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "Models",
+        "Extinction Coefficient",
+        "Element Area",
+        "FIPAR",
+        "FAPAR",
+        "Clumping",
+        "Biomass Production",
+        "Time Step",
+        "Reference"
+      ],
+      "rows": [
+        [
+          "Type",
+          "Name",
+          "Total",
+          "Direct",
+          "Diffuse",
+          "Sheath",
+          "Spike",
+          "Light Utilization a",
+          "Light interception b",
+          "Daily",
+          "Hourly",
+          "PGI c"
+        ],
+        [
+          "Constant",
+          "APSIM-Wheat (v7.5)",
+          "0.50",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE/TE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Meinke et al. (1998)"
+        ],
+        [
+          "APSIM-Wheat 2018",
+          "0.50\u20130.60 d",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Brown et al. (2018a , 2018b )"
+        ],
+        [
+          "AFRCWHEAT2",
+          "0.44",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "P-R",
+          "BLL",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Weir et al. (1984)"
+        ],
+        [
+          "CropSyst",
+          "0.45",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE/TE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Stockle et al. (1994)"
+        ],
+        [
+          "DAISY",
+          "0.60",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "GP",
+          "BLL",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Hansen et al. (1991)"
+        ],
+        [
+          "DSSAT-CERES-Wheat",
+          "0.59",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Ritchie and Otter (1985)"
+        ],
+        [
+          "DSSAT-CROPSIM",
+          "0.65",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "Yes",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE(PAR)",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Hunt and Pararajasingham (1995)"
+        ],
+        [
+          "EPIC",
+          "0.65",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Williams et al. (1989)"
+        ],
+        [
+          "FASSET",
+          "0.44",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Olesen et al. (2002)"
+        ],
+        [
+          "GLAM",
+          "0.50",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "TE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Challinor et al. (2004)"
+        ],
+        [
+          "HERMES / MONICA",
+          "0.80",
+          "\u2013",
+          "\u2013",
+          "",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "P-R",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Kersebaum (2011)"
+        ],
+        [
+          "InfoCrop",
+          "0.60",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "Yes",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Aggarwal et al. (2006)"
+        ],
+        [
+          "LINTUL",
+          "0.60",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "van Oijen et al. (2004)"
+        ],
+        [
+          "LPjML",
+          "0.50",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "P-R",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Bondeau et al. (2007)"
+        ],
+        [
+          "MCWLA",
+          "0.50",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "P-R",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Tao et al. (2009)"
+        ],
+        [
+          "NWheat",
+          "0.60\u20130.7 e",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Keating et al. (2003)"
+        ],
+        [
+          "SALUS",
+          "0.37\u20130.67 f",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Dzotsi et al. (2013)"
+        ],
+        [
+          "Sirius (v99)",
+          "0.45",
+          "\u2013",
+          "\u2013",
+          "\u2713",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE( f )",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Jamieson et al. (1998)"
+        ],
+        [
+          "SiriusQuality",
+          "0.45",
+          "\u2013",
+          "\u2013",
+          "\u2713",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE( f )",
+          "BLL",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Martre et al. (2006)"
+        ],
+        [
+          "SSM-Wheat",
+          "0.65",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Soltani et al. (2013)"
+        ],
+        [
+          "STICS (v9)",
+          "0.50",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "RUE(PAR)",
+          "BLC",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "Brisson et al. (1998)"
+        ],
+        [
+          "Spherical",
+          "SUCROS97",
+          "\u2013",
+          "Eq. 10",
+          "0.6",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "Yes",
+          "P-R",
+          "SSPGI",
+          "\u2013",
+          "\u2013",
+          "3",
+          "Goudriaan and Van Laar (1994)"
+        ],
+        [
+          "SPASS",
+          "\u2013",
+          "Eq. 8",
+          "0.8",
+          "Yes",
+          "Yes",
+          "Yes",
+          "\u2013",
+          "\u2013",
+          "P-R",
+          "SSPGI",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Wang (1997)"
+        ],
+        [
+          "WOFOST",
+          "\u2013",
+          "Eq. 10",
+          "0.6",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "Yes",
+          "P-R",
+          "SSPGI",
+          "\u2013",
+          "\u2013",
+          "3",
+          "Supit et al. (1994)"
+        ],
+        [
+          "WHEATGROW",
+          "\u2013",
+          "Eq. 10",
+          "0.67",
+          "\u2013",
+          "\u2013",
+          "\u2013",
+          "Yes",
+          "Yes",
+          "P-R",
+          "BLC",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "Liu (2000) ; Liu et al. (2001)"
+        ],
+        [
+          "Average",
+          "GECROS",
+          "\u2013",
+          "Eq. 7",
+          "Eq. 23",
+          "Yes",
+          "Yes",
+          "\u2013",
+          "Yes",
+          "\u2013",
+          "P-R",
+          "SSPGI",
+          "\u2013",
+          "\u2013",
+          "5",
+          "Yin and van Laar (2005)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "Name",
+        "Unit",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "C GAI",
+          "\u2013",
+          "Clumping factor estimated using GAI"
+        ],
+        [
+          "C sph",
+          "\u2013",
+          "Clumping factor with spherical distribution"
+        ],
+        [
+          "d",
+          "m \u22122",
+          "Plant density"
+        ],
+        [
+          "f",
+          "\u2013",
+          "Fraction of diffuse PAR to the total incident PAR"
+        ],
+        [
+          "FIPAR",
+          "\u2013",
+          "Fraction of incident PAR intercepted by the canopy"
+        ],
+        [
+          "FIPAR dir",
+          "\u2013",
+          "Fraction of intercepted direct PAR"
+        ],
+        [
+          "FIPAR dif",
+          "\u2013",
+          "Fraction of intercepted diffuse PAR"
+        ],
+        [
+          "FIPAR day",
+          "\u2013",
+          "Daily value of the fraction of IPAR"
+        ],
+        [
+          "FLN",
+          "Leaf number",
+          "Final number of leaves on the main stem"
+        ],
+        [
+          "g",
+          "\u2013",
+          "Inclination angle distribution function"
+        ],
+        [
+          "G",
+          "\u2013",
+          "Projection function"
+        ],
+        [
+          "G avr",
+          "\u2013",
+          "Projection function assuming that all the green surfaces (leaves, stem and ears) have the same inclination angle and a uniform azimuthal distribution"
+        ],
+        [
+          "GAI",
+          "m 2 (leaf) m \u22122 (ground)",
+          "GAI"
+        ],
+        [
+          "GAI eff",
+          "m 2 (leaf) m \u22122 (ground)",
+          "Effective GAI"
+        ],
+        [
+          "GAI mes",
+          "m 2 (leaf) m \u22122 (ground)",
+          "Measured GAI"
+        ],
+        [
+          "HS",
+          "leaf number",
+          "Haun stage (decimal mainstem leaf number)"
+        ],
+        [
+          "K avr dir",
+          "\u2013",
+          "Extinction coefficient with average distribution for direct PAR"
+        ],
+        [
+          "K cst",
+          "\u2013",
+          "Constant extinction coefficient"
+        ],
+        [
+          "K cst ds",
+          "\u2013",
+          "Constant extinction coefficient accounting for plant density and row spacing"
+        ],
+        [
+          "K cst HS",
+          "\u2013",
+          "Constant extinction coefficient accounting for the increment after stem elongation"
+        ],
+        [
+          "K ell dir",
+          "\u2013",
+          "Extinction coefficient with ellipsoidal distribution for direct PAR"
+        ],
+        [
+          "K ell C",
+          "\u2013",
+          "Extinction coefficient with spherical distribution and considering clumping effect"
+        ],
+        [
+          "K mes dif",
+          "\u2013",
+          "Measured extinction coefficient for the diffuse incoming PAR"
+        ],
+        [
+          "K sph dir",
+          "\u2013",
+          "Extinction coefficient with spherical distribution for direct PAR"
+        ],
+        [
+          "K sph C",
+          "\u2013",
+          "Extinction coefficient with spherical distribution and considering clumping effect"
+        ],
+        [
+          "PAR",
+          "W m \u22122",
+          "Incoming photosynthetically active radiation"
+        ],
+        [
+          "s",
+          "m",
+          "Row spacing"
+        ],
+        [
+          "\u03b2 b",
+          "Radian",
+          "Half azimuth range for which the upper side of a leaf is illuminated"
+        ],
+        [
+          "\u03b2",
+          "Radian",
+          "Sun elevation angle"
+        ],
+        [
+          "\u03c4",
+          "\u2013",
+          "Fraction of PAR transmitted to the ground level"
+        ],
+        [
+          "\u039b",
+          "\u2013",
+          "Normalized ellipse area"
+        ],
+        [
+          "\u03c3",
+          "\u2013",
+          "Scattering coefficient of leaves for PAR"
+        ],
+        [
+          "\u03b8",
+          "Radian",
+          "Inclination angle of the green surfaces in the canopy"
+        ],
+        [
+          "\u03b8 \u00af",
+          "Radian",
+          "Average inclination angle of the green surfaces in the canopy"
+        ],
+        [
+          "\u03c9",
+          "Leaf number",
+          "Haun stage at which K cst HS starts to increases in the K cst HS model"
+        ],
+        [
+          "\u03c7",
+          "\u2013",
+          "Eccentricity of the ellipsoidal leaf inclination distribution"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-27",
+      "caption": "",
+      "headers": [
+        "Growth Stage",
+        "Average inclination angle of green elements (\u00b0)"
+      ],
+      "rows": [
+        [
+          "Apache",
+          "Caphorn",
+          "Maxwell",
+          "Renan",
+          "Soissons"
+        ],
+        [
+          "SS",
+          "DS",
+          "SS",
+          "DS",
+          "SS",
+          "DS",
+          "SS",
+          "DS",
+          "SS",
+          "DS"
+        ],
+        [
+          "31",
+          "48 \u00b1 16",
+          "51 \u00b1 16",
+          "53 \u00b1 16",
+          "52 \u00b1 16",
+          "38 \u00b1 16",
+          "41 \u00b1 14",
+          "39 \u00b1 16",
+          "49 \u00b1 17",
+          "43 \u00b1 16",
+          "48 \u00b1 16"
+        ],
+        [
+          "39",
+          "69 \u00b1 12",
+          "65 \u00b1 15",
+          "73 \u00b1 9",
+          "72 \u00b1 9",
+          "69 \u00b1 11",
+          "72 \u00b1 11",
+          "70 \u00b1 12",
+          "69 \u00b1 13",
+          "71 \u00b1 11",
+          "67 \u00b1 12"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Author for communication: pierre.martre@inrae.fr",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Present address: Plant Phenomics Research Centre, Nanjing Agricultural University, Nanjing, China.",
+      "char_offset": 50
+    },
+    {
+      "type": "paragraph",
+      "text": "Accepted 2021 Feb 11; Received 2020 Dec 2; Collection date 2021 Jun.",
+      "char_offset": 150
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "char_offset": 220
+    },
+    {
+      "type": "paragraph",
+      "text": "Describing wheat canopy structure with an ellipsoidal leaf angle distribution improves the prediction accuracy of light interception by wheat canopies.",
+      "char_offset": 499
+    },
+    {
+      "type": "paragraph",
+      "text": "Canopy light interception determines the amount of energy captured by a crop, and is thus critical to modeling crop growth and yield, and may substantially contribute to the prediction uncertainty of crop growth models (CGMs). We thus analyzed the canopy light interception models of the 26 wheat ( Triticum aestivum ) CGMs used by the Agricultural Model Intercomparison and Improvement Project (AgMIP). Twenty-one CGMs assume that the light extinction coefficient ( K ) is constant, varying from 0.37 to 0.80 depending on the model. The other models take into account the illumination conditions and assume either that all green surfaces in the canopy have the same inclination angle ( \u03b8 ) or that \u03b8 distribution follows a spherical distribution. These assumptions have not yet been evaluated due to a lack of experimental data. Therefore, we conducted a field experiment with five cultivars with contrasting leaf stature sown at normal and double row spacing, and analyzed \u03b8 distribution in the canopies from three-dimensional canopy reconstructions. In all the canopies, \u03b8 distribution was well represented by an ellipsoidal distribution. We thus carried out an intercomparison between the light interception models of the AgMIP\u2013Wheat CGMs ensemble and a physically based K model with ellipsoidal leaf angle distribution and canopy clumping ( K ell C ). Results showed that the K ell C model outperformed current approaches under most illumination conditions and that the uncertainty in simulated wheat growth and final grain yield due to light models could be as high as 45%. Therefore, our results call for an overhaul of light interception models in CGMs.",
+      "char_offset": 652
+    },
+    {
+      "type": "paragraph",
+      "text": "Crop growth models (CGMs) are popular tools used to optimize crop management, assess the impact of climate change on crop production ( Liu et al., 2016) , or assist plant breeders (e.g. Martre et al., 2015 a, 2015 b, 2015c; Chenu et al., 2017 ). To meet this need, CGMs should be capable of predicting the response of genotypes to various environments ( Yin et al., 2003 ; Parent and Tardieu, 2014 ; Messina et al., 2018 ). This requires improved CGMs to reconcile biological realism and parsimony in the description of eco-physiological processes ( Hammer et al., 2019 ) while considering feedbacks between key processes ( Tardieu and Parent, 2017 ). Model parameters should also have sound biological meaning and if possible, be measurable using modern high-through phenotyping methods ( Tardieu et al., 2017 ), be less dependent on the environmental conditions, and allow for more genetic dependency ( Hammer et al., 2006 , 2016 ).",
+      "char_offset": 2315
+    },
+    {
+      "type": "paragraph",
+      "text": "This means that CGMs should predict complex traits such as yield with fewer compensations for errors ( Muller and Martre, 2019 ). Among the several processes that need to be described in CGMs, canopy light absorption is very important since it drives the energy available for photosynthesis and transpiration. In the many CGMs that use the classical light use efficiency (LUE) approach to model biomass production ( Monteith, 1977 ), errors in light absorption can easily be compensated for by changes in the LUE or the green area index (GAI). Canopy light absorption in most CGMs is described using the simple big-leaf approach originally proposed by Monsi and Saeki (2005) . However, this approach may be too simplistic to accurately account for the impact of illumination conditions (fraction of diffuse incoming radiation and sun position) and canopy structure (primarily GAI, surface inclination angle, and planting arrangement) on light absorption by the canopy ( Pury and Farquhar, 1997 ).",
+      "char_offset": 3251
+    },
+    {
+      "type": "paragraph",
+      "text": "Several alternative approaches to the big-leaf approach have been developed to model canopy light absorption. The most popular ones include the single-layered ( Pury and Farquhar, 1997 ) and multi-layered ( Sellers et al., 1992 ; Wang and Leuning, 1998 ) sun/shade approach, the three-dimensional (3D) voxel-based canopy description ( Sinoquet et al., 2001 ), and the 3D canopy architecture description ( Chelle and Andrieu, 1998 ). They differ mainly in the level of details with which canopy architecture is described and the approximations in the radiative transfer. The photosynthetic pigments absorb the incoming radiation in the 400\u2013700 nm spectral domain called the photosynthetically active radiation (PAR; McCree, 1972 ). The fraction of incoming PAR absorbed by the photosynthetically active elements of canopies (FAPAR) quantifies the PAR absorption efficiency ( Monteith, 1977 ; Sinclair and Muchow, 1999 ). FAPAR results from complex interactions between the incident radiation, characterized by its spectral and its directional distribution, and the structure and biochemical composition of canopies ( Hanan and Begue, 1995 ; Weiss and Baret, 2011 ).",
+      "char_offset": 4249
+    },
+    {
+      "type": "paragraph",
+      "text": "Canopy structure plays a key role in canopy light interception, whereas there is substantial structural difference among crops. Our focus in this study was on wheat ( Triticum aestivum ), the most surface-grown crop in the world and which contributes \u223c20% of the total calories and protein in the human diet ( Shiferaw et al., 2013 ). Because of the strong absorption of PAR radiation by the photosynthetic pigments, multiple scattering contributes only marginally to the radiative transfer, and FAPAR can be closely approximated by the fraction of PAR intercepted by the photosynthetically active radiation (FIPAR) elements of canopies. This approximation is well verified for wheat that does not present glossy or hairy leaves ( Andrieu and Baret, 1993 ; M\u00f5ttus et al., 2013 ).",
+      "char_offset": 5415
+    },
+    {
+      "type": "paragraph",
+      "text": "The Monsi and Saeki (2005) model assume that all elements in the canopy are the same and are randomly distributed in the canopy volume. In these conditions, the incremental change of transmitted PAR, d PAR , due to an incremental increase of canopy leaf area, d L , is proportional to an extinction coefficient K : d PAR = - KdL . The fraction of PAR transmitted to the ground level ( \u03c4 ) is computed by integrating the previous differential equation over canopy depth: \u03c4 = e - K \u00d7 L . L corresponds to the GAI , which describes the area of the green elements per unit horizontal ground area. Therefore, according to the Monsi and Saeki (2005) model, FIPAR is given by:",
+      "char_offset": 6196
+    },
+    {
+      "type": "paragraph",
+      "text": "A projection function ( G ) is introduced to account for the actual effective cross section of the elements, which depends on the orientation of the green elements approximated as small flat surfaces and on the direction of the incident light W = \u03b2 , \u03c6 , with \u03b2 and \u03c6 being the sun elevation and azimuth angles, respectively ( Campbell and Norman, 2012 ). G is the projected area of a unit GAI onto a surface perpendicular to the incident radiation direction. K is therefore given by:",
+      "char_offset": 6867
+    },
+    {
+      "type": "paragraph",
+      "text": "where sin \u2061 \u03b2 accounts for the optical path that depends on the direction of the incident light and C ( W ) is a clumping factor that describes the spatial dependency of the positions of the leaves in the canopy ( Weiss et al., 2004 ). It depends on the incident angle W ( Andrieu and Sinoquet, 1993 ). Clumped leaves with C W < 1 tend to overlap in the W direction, while regularly distributed leaves with C W > 1 tend to avoid themselves. However, for the sake of simplicity, C W is frequently assumed to be independent of direction W . Besides, C ( W ) depends both on the plant structure, that is, the location of foliage along the plant stems, and on the canopy structure, that is, the distribution of the plants within the canopy ( Weiss et al., 2004 ).",
+      "char_offset": 7353
+    },
+    {
+      "type": "paragraph",
+      "text": "Therefore, modeling light interception requires knowing the distribution of leaf orientation and leaf clumping. Further, the directionality of the incident radiation that governs the interception efficiency at the instantaneous time scale should also be described, including its variation during the day and the growing season. Most CGMs do not account for these additional factors and a thorough quantitative evaluation of the errors of FIPAR estimation in CGMs is still lacking. Therefore, the objective of this study was to analyze the main approaches used in CGMs for computing FIPAR for wheat crops. More than 40 CGMs ( White et al., 2011 ) have been proposed to describe wheat productivity and yield as a function of the environmental conditions. We first reviewed the values of light extinction coefficient reported for wheat and the FIPAR models used in wheat CGMs that are considered in the Agricultural Model Intercomparison and Improvement Project (AgMIP) ( Rosenzweig et al., 2013) . We then investigated the actual distribution of the inclination of wheat elements (leaves, stems, and ears) and generated a reference dataset using the 3D ADEL\u2013Wheat architectural model ( Fournier et al., 2003 ). We evaluated the accuracy of the FIPAR models in the AgMIP\u2013wheat CGM ensemble at five locations spanning the range of latitudes at which wheat is grown globally. Finally, we discussed our results by highlighting the main factors that drive wheat canopy PAR interception efficiency, with emphasis on the time scale.",
+      "char_offset": 8114
+    },
+    {
+      "type": "paragraph",
+      "text": "The approach usually used to estimate K is to invert Equation 1 using concurrent measurements of FIPAR and GAI. In most studies, several replicates of FIPAR and GAI measured at several dates along the growth cycle, or across modalities, are used to get robust estimates at the expense of a more limited capacity to describe the possible changes of K with time or modalities ( Table 1 ). Alternatively, measuring the vertical profile of FIPAR and GAI was used to invert Equation 1 ( Moreau et al., 2012 ). However, in this case, the possible variation of leaf orientation and clumping with canopy depth may also confound the estimated value of K .",
+      "char_offset": 9639
+    },
+    {
+      "type": "paragraph",
+      "text": "Summary of extinction coefficient K reported for wheat",
+      "char_offset": 10287
+    },
+    {
+      "type": "paragraph",
+      "text": "GAI is used in Equation 1 since it accounts for all the green area of leaves, stems, and ears. When K is estimated using green leaf area index (GLAI; Calderini et al., 1997 ; Muurinen and Peltonen-Sainio, 2006 ) or LAI ( Green, 1989 ; Dreccer, 2000 ; Carretero et al., 2010 ), the green stem or ear contribution is not explicitly accounted for. Further, in the case of LAI, the senescent leaves are taken into account although they have no potentials to transform the intercepted radiation into assimilates. Therefore, the use of GLAI or LAI in place of GAI may cause biased estimates of K . However, Table 1 does not show apparent bias in the reported K values, probably because the other factors of variability mask this expected effect.",
+      "char_offset": 10343
+    },
+    {
+      "type": "paragraph",
+      "text": "The reported values of K vary between 0.28 and 0.90 with a median value of 0.59 ( Table 1 ). For a given cultivar, K was reported to change between cultivation practices ( Asrar et al., 1984 ; Dreccer, 2000 ) or with growth stages ( Yunusa et al., 1993 ). Other studies show substantial genotypic differences ( Green, 1989 ; Miralles and Slafer, 1997 ; Shearman et al., 2005 ) and strong genotype by environment effect was found in some cases ( Moreau et al., 2012 ) while no substantial cultivar effect was observed in other studies ( Yunusa et al., 1993 ; Calderini et al., 1997 ; Shearman et al., 2005 ).",
+      "char_offset": 11084
+    },
+    {
+      "type": "paragraph",
+      "text": "We reviewed the canopy light interception models in 26 of the 28 different wheat CGMs used in the AgMIP ( Table 2 ) ( Asseng et al., 2013 , 2015 ; Martre et al., 2015a , 2015b , 2015c; Asseng et al., 2019) . Two CGMs were not considered (AQUACROP and OLEARY) because they calculate biomass accumulation using a transpiration efficiency approach and thus PAR interception is not calculated per se in these CGMs. The AgMIP\u2013Wheat multi-model ensemble comprises >80% of the wheat CGMs currently used ( Asseng et al., 2019) . We considered FIPAR rather than FAPAR to focus on the way models describe canopy architecture and account for the illumination conditions while not considering the impact of leaf and soil optical properties as required for FAPAR computation. Except for those with a very bright background (white sandy soil or snow), most arable soils have relatively low reflectance values in the PAR spectral domain ( Jacquemoud et al., 1992 ). Further, the green elements strongly absorb light in the PAR domain, resulting in very low reflectance and transmittance values ( Jacquemoud and Baret, 1990 ). In most cases, FIPAR is therefore a close approximation of FAPAR ( B\u00e9gu\u00e9 et al., 1996 ; Widlowski, 2010 ). For the models that describe FAPAR, we, therefore, assumed that the leaves absorb all the radiation (i.e. reflectance and transmittance equal zero) and the soil background is black. This assumption is supported by a sensitivity analysis of the differences between FIPAR and FAPAR ( Jacquemoud et al., 2009 ) in soil reflectance, leaf chlorophyll concentration, GAI, average surface inclination angle, fraction of diffuse radiation, and sun elevation angle (see Supplemental Methods S1 ; Supplemental Results S1 ; Supplemental Table S1 ; Supplemental Figures S1 and S2 ).",
+      "char_offset": 11693
+    },
+    {
+      "type": "paragraph",
+      "text": "Summary of the light extinction coefficient, light interception models, and biomass production models of the wheat CGMs of the AgMIP\u2013Wheat multi-model ensemble",
+      "char_offset": 13483
+    },
+    {
+      "type": "paragraph",
+      "text": "GP, gross photosynthesis; P-R, gross photosynthesis\u2013respiration; RUE( f ), radiation use efficiency approach modified by the fraction of diffuse irradiance; RUE(PAR), radiation use efficiency approach modified by the amount of PAR; TE, transpiration use efficiency approach.",
+      "char_offset": 13644
+    },
+    {
+      "type": "paragraph",
+      "text": "BLL, big-leaf layer; BLC; big-leaf canopy; SSPGI, sun/shade spatial gaussian integration.",
+      "char_offset": 13920
+    },
+    {
+      "type": "paragraph",
+      "text": "Three-points (3) or five-points (5) Gaussian integration.",
+      "char_offset": 14011
+    },
+    {
+      "type": "paragraph",
+      "text": "The light extinction coefficient increases after the beginning of stem extension and until flag leaf ligule following Equation 4 .",
+      "char_offset": 14070
+    },
+    {
+      "type": "paragraph",
+      "text": "The light extinction coefficient increases after anthesis from 0.6 to 0.7.",
+      "char_offset": 14202
+    },
+    {
+      "type": "paragraph",
+      "text": "The light extinction coefficient is a function of sowing density and row spacing ( Eq. 3 ). The range reported here is for sowing density varying from 100 to 400 seed m \u22122 and row spacing varying from 0.15 to 0.35 m.",
+      "char_offset": 14278
+    },
+    {
+      "type": "paragraph",
+      "text": "The FIPAR models can be grouped into several categories mainly depending on the assumptions used to model K ( Eq. 2 ). Below, we first review the models used for direct illumination conditions. Description of variables and parameters of the FIPAR models is listed in Table 3 .",
+      "char_offset": 14496
+    },
+    {
+      "type": "paragraph",
+      "text": "Name, unit, and definition of variables and parameters of the FIPAR models",
+      "char_offset": 14774
+    },
+    {
+      "type": "paragraph",
+      "text": "The simplest and most popular FIPAR model in wheat CGMs ( Table 2 ) assumes a constant light extinction coefficient ( K cst ) and FIPAR is calculated using Equation 1 . By definition, K cst is assumed to be valid for any light direction and therefore applies to both direct and diffuse incident PAR. The values of K cst used in wheat GCMs range from 0.44 to 0.80 ( Table 2 ), with a median value of 0.52, that is, close to that calculated from field measurements ( Table 1 ).",
+      "char_offset": 14850
+    },
+    {
+      "type": "paragraph",
+      "text": "Some adaptations have been proposed to account for the impact of plant arrangement or ontogenic changes in canopy structure on K cst . In the System Approach to Land Use Sustainability (SALUS), the sowing pattern is accounted for by using an empirical relationship derived from experimental observations ( Dzotsi et al., 2013 ):",
+      "char_offset": 15327
+    },
+    {
+      "type": "paragraph",
+      "text": "where d is the plant density (plants m \u22122 ) and s is the row spacing (m). K cst ds varies between 0.37 and 0.67 for d ranging between 100 and 400 plants m \u22122 and s ranging from 0.15 to 0.35 m, with K cst ds decreasing with increasing row spacing and plant density.",
+      "char_offset": 15657
+    },
+    {
+      "type": "paragraph",
+      "text": "In the latest version of APSIM Wheat ( Brown et al., 2018a , 2018b ), K cst increases during the stem extension period because of the change in leaf inclination, but probably also because the stem and ear area were not explicitly accounted for:",
+      "char_offset": 15923
+    },
+    {
+      "type": "paragraph",
+      "text": "where HS is the Haun stage ( Haun, 1973 ) of the main stem, FLN is the final number of leaves on the main stem, and \u03c9 is the Haun stage at which K cst HS starts to increase. \u03c9 is given by:",
+      "char_offset": 16169
+    },
+    {
+      "type": "paragraph",
+      "text": "For the same reasons as for APSIM Wheat, in Nwheat model, K cst changes from 0.6 before anthesis to 0.7 after anthesis ( Keating et al., 2003) .",
+      "char_offset": 16359
+    },
+    {
+      "type": "paragraph",
+      "text": "The average surface inclination angle over the whole canopy ( \u03b8 ) can be calculated as the average zenith angle of all the green surface elements weighted by their area. This includes green leaves, visible green sheath parts, internodes, and ears. At the canopy level, assuming that all the green surfaces have the same inclination angle and a uniform azimuthal distribution, the projection function, G avr \u03b2 , \u03b8 is given by ( Goudriaan, 1988 ):",
+      "char_offset": 16505
+    },
+    {
+      "type": "paragraph",
+      "text": "This formulation of the projection function is used in GECROS ( Yin and van Laar, 2005 ) with a default value of \u03b8 for wheat of 50\u00b0.",
+      "char_offset": 16952
+    },
+    {
+      "type": "paragraph",
+      "text": "In the simple case where the surfaces of all green organs are distributed as the facets around a sphere, G = 0.5 ( Goudriaan, 1977 , 1988 ). In this case, K is given by:",
+      "char_offset": 17086
+    },
+    {
+      "type": "paragraph",
+      "text": "In the SPASS model, K is calculated using Equation 8 ( Wang, 1997 ).",
+      "char_offset": 17257
+    },
+    {
+      "type": "paragraph",
+      "text": "Goudriaan and Van Laar (1994) proposed an adaptation of the spherical model to better match field observations. They proposed to account for the departure between observed FAPAR and the one computed assuming a spherical surface angle distribution by using a correction factor ( C sph ), calculated as the measured K for diffuse PAR ( K meas diff ) relative to the theoretical value for spherical surface angle distribution. C sph is given by:",
+      "char_offset": 17327
+    },
+    {
+      "type": "paragraph",
+      "text": "where \u03c3 is the scattering coefficient of leaves in the PAR domain. This approach is used in SUCROS ( Goudriaan and Van Laar, 1994 ), WOFOST ( Goudriaan and Van Laar, 1994 ), and WheatGrow ( Liu, 2000 ). In these GCMs, K for direct light is thus given by:",
+      "char_offset": 17771
+    },
+    {
+      "type": "paragraph",
+      "text": "In SUCROS and WOFOST, K sph dif is considered as constant and is set equal to 0.6 for wheat ( Goudriaan and Van Laar, 1994 ). Thus C sph = 0.75 and K sph C = 0.375 / sin \u2061 \u03b2 . In WheatGrow, K sph dif =0.67, and thus K sph C = 0.42 / sin \u2061 \u03b2 ( Liu, 2000 ). Here, we used the value of C sph proposed by Goudriaan and Van Laar (1994) .",
+      "char_offset": 18027
+    },
+    {
+      "type": "paragraph",
+      "text": "The spherical distribution can be generalized by considering that the orientation of the surfaces of the green organs is distributed as the facets around an ellipsoid of revolution with a vertical rotation axis ( Campbell, 1986 ). The ellipsoid is characterized by its eccentricity, \u03c7 , that is, the ratio between its vertical and horizontal diameters. By varying \u03c7 , the distribution of angles simulates planophile up to erectophile leaf stature, as well as the spherical distribution when \u03c7 = 1.0 . The ellipsoidal function is a good trade-off between simplicity and flexibility in characterizing the distribution of surface inclination at the canopy scale ( Weiss et al., 2004 ; Wang et al., 2007 ). Nevertheless, it has never been evaluated over wheat canopies due to the lack of leaf curvature measurements, which require considerable field work.",
+      "char_offset": 18361
+    },
+    {
+      "type": "paragraph",
+      "text": "The analytical expression of the ellipsoidal inclination distribution function, g \u03b8 , is given by ( Campbell, 1990 ):",
+      "char_offset": 19214
+    },
+    {
+      "type": "paragraph",
+      "text": "where \u039b is a normalized ellipse area, approximated by:",
+      "char_offset": 19333
+    },
+    {
+      "type": "paragraph",
+      "text": "\u03c7 is related to the average inclination angle at the canopy scale ( \u03b8 \u00af ) through an empirical equation:",
+      "char_offset": 19389
+    },
+    {
+      "type": "paragraph",
+      "text": "Following the approach proposed by Verhoef (1998) , K of any leaf angle distribution is computed as the integral over the whole range of leaf inclination ( 0 < \u03b8 < \u03c0 / 2 ) of K \u03b2 , \u03b8 weighted by the corresponding frequency, g \u03b8 . Since the analytical solution is not straightforward, a discrete approximation was proposed by Verhoef (1998) for a sample of n inclination angles:",
+      "char_offset": 19495
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Verhoef (1998) , it is sufficient if the inclination angle is discretized into 13 classes (5\u00b0, 15\u00b0, 25\u00b0, 35\u00b0, 45\u00b0, 55\u00b0, 65\u00b0, 75\u00b0, 81\u00b0, 83\u00b0, 85\u00b0, 87\u00b0, and 89\u00b0), expressed in radians in Equations 14 and 15 . K ell ( \u03b2 , \u03b8 i ) for inclination angle \u03b8 i writes:",
+      "char_offset": 19874
+    },
+    {
+      "type": "paragraph",
+      "text": "where \u03b2 b (radian) is the transition angle, which is half of the azimuth range for which the upper side of a leaf is illuminated.",
+      "char_offset": 20146
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternatively, K ell can be approximated by ( Campbell and Norman, 2012 ):",
+      "char_offset": 20277
+    },
+    {
+      "type": "paragraph",
+      "text": "In this work, we used Equation 17 to calculate K ell dir .",
+      "char_offset": 20353
+    },
+    {
+      "type": "paragraph",
+      "text": "The calculation of C sph using Equation 9 is an approximation since FIPAR for diffuse radiation calculated from Equation 21 cannot be analytically put in the form of Equation 1 to derive K sph dif . Therefore, Baret et al. (2010) proposed to estimate the clumping factor as the ratio of the effective GAI, estimated from the directional variation of FIPAR ( GAI eff ), to the actual GAI from destructive measurement ( GAI mes ):",
+      "char_offset": 20413
+    },
+    {
+      "type": "paragraph",
+      "text": "Where GAI eff is calculated following Miller (1967) :",
+      "char_offset": 20843
+    },
+    {
+      "type": "paragraph",
+      "text": "We use the approach of Baret et al. (2010) to take into account leaf clumping in the ellipsoidal surface inclination distribution model. The extinction coefficient for an ellipsoidal surface inclination distribution accounting for leaf clumping ( K ell C ) is then given by:",
+      "char_offset": 20898
+    },
+    {
+      "type": "paragraph",
+      "text": "At a given time of the day, the incident radiation is coming both from the sun direction and from the light scattered in the atmosphere, which is generally assumed to be isotropic. The total amount of radiation intercepted at a given time t of the day is thus given by:",
+      "char_offset": 21174
+    },
+    {
+      "type": "paragraph",
+      "text": "where f t is the fraction of diffuse radiation in the PAR domain, and FIPAR dir and FIPAR dif are the FIPAR for direct and diffuse radiation, respectively. The daily value of FIPAR ( FIPAR day ) can then be calculated by integrating the instantaneous values as follows:",
+      "char_offset": 21445
+    },
+    {
+      "type": "paragraph",
+      "text": "When FIPAR does not depend on \u03b2 , as for the K cst model, the instantaneous value of FIPAR is independent of the diffuse fraction since FIPAR = FIPAR dif = FIPAR dir . The spherical inclination distribution and average inclination models use a different value of K for FIPAR dif and FIPAR dir . The CGMs that use a spherical inclination distribution model use a constant value of K for diffuse PAR ( Table 2 ). Here we used the value of 0.6 proposed by Goudriaan and Van Laar (1994) . In GECROS, which uses an average inclination model at the canopy scale, K for diffuse radiation ( K avr dif ) is calculated following Goudriaan (1988) and is given by:",
+      "char_offset": 21716
+    },
+    {
+      "type": "paragraph",
+      "text": "where K b 15 , K b 45 , and K b 75 are the extinction coefficients calculated using Equation (7) for \u03b2 equals 15\u00b0, 45\u00b0, and 75\u00b0, respectively. The weights 0.178, 0.514, and 0.308 represent the contributions from the 30\u00b0 classes (0\u201330\u00b0, 30\u201360\u00b0, and 60\u201390\u00b0) of a standard overcast sky.",
+      "char_offset": 22370
+    },
+    {
+      "type": "paragraph",
+      "text": "For the ellipsoidal inclination distribution model, we calculated FIPAR dif as the integral over the hemisphere of the directional FIPAR dir :",
+      "char_offset": 22655
+    },
+    {
+      "type": "paragraph",
+      "text": "As already discussed, GAI should be considered in Equation 1 , including both one-sided area of flat green organs (leaves) and half the developed area of nonflat green organs (stems or ears) ( Lang, 1991 ; Chen and Black, 1992 ). However, K is often estimated using measurements of FIPAR and the corresponding area of some of the crop elements ( Table 1 ). All the models consider the leaf lamina, but only few consider the area of stems and ears ( Table 2 ), although this may represent a substantial fraction of GAI ( Weiss et al., 2001 ). Some models such as APSIM wheat and Nwheat compensate for the fact that the stems and ears are not explicitly accounted for by increasing K after the onset of stem extension (APSIM wheat) or after anthesis (Nwheat). However, for the other models, no obvious trend is observed between the value of the extinction coefficient and the elements accounted for in the GAI ( Table 2 ), similarly to what was found from the ground measurements ( Table 1 ). In the case of the SUCROS, WOFOST, and WheatGrow, which do not account for stems and ears area ( Table 2 ), the empirically adjusted clumping factor may partly compensate for this approximation.",
+      "char_offset": 22799
+    },
+    {
+      "type": "paragraph",
+      "text": "The 3D canopies reconstructed from the digitalization of the field-grown plants were used to extract the inclination angle distribution, corresponding to the distribution of the zenith angle of all green elements in the canopy. The variance of \u03b8 \u00af over treatments was much larger at GS31 than at GS39 ( Supplemental Table S2 ). At both growth stages, \u03b8 \u00af varied more between cultivars than with row spacing. However, both cultivar and row spacing effects on \u03b8 \u00af were not statistically significant ( P > 0.01; Supplemental Table S3 ). The canopies were more erectophile at GS39 as compared to GS31, mostly because \u03b8 \u00af of leaf elements increased from 39\u00b0 at GS31 to 63\u00b0 at GS39 ( Supplemental Table S2 ; Supplemental Figure S3 ). Stems were also more erectophile at GS39 ( \u03b8 \u00af = 84\u00b0) than at GS31 ( \u03b8 \u00af = 75\u00b0).",
+      "char_offset": 23986
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Equation 13 (solving the equation with \u03c7 = 1 ), \u03b8 \u00af equals 56\u00b0 for spherical leaf angle distribution. At GS31, Caphorn, the most erectophile of the five studied cultivars, was the cultivar with \u03b8 \u00af closest to that of a spherical distribution ( \u03c7 = 1.14; Table 4 ). For the four other cultivars, \u03b8 \u00af was lower than 56\u00b0 ( Table 4 ) and \u03c7 ranged from 1.40 (for Apache) to 2.07 (for Maxwell). At GS39, \u03b8 \u00af was close to 70\u00b0 (i.e. \u03c7 = 0.50) for the four cultivars ( Table 4 ) and was thus much higher than the value corresponding to a spherical distribution.",
+      "char_offset": 24796
+    },
+    {
+      "type": "paragraph",
+      "text": "Average inclination angle of green elements in the canopy measured at the beginning of stem extension (GS31) and flag leaf ligulation (GS39) for five winter wheat cultivars grown in the field with standard (17.5 cm, SS) and double (35 cm, DS) row spacing",
+      "char_offset": 25363
+    },
+    {
+      "type": "paragraph",
+      "text": "For all the cultivars, growth stages, and row spacing treatments, the distribution of inclination was not significantly different from an ellipsoidal distribution (all P > 0.01). Conversely, in all cases the distribution of inclination was significantly different from a spherical distribution (all P < 0.01). When \u03b8 \u00af is \u02c380 \u00b0 , the ellipsoidal distribution tended to underestimate the corresponding probability at GS31, while overestimating it at GS39 ( Figure 1 ).",
+      "char_offset": 25619
+    },
+    {
+      "type": "paragraph",
+      "text": "Distributions of inclination angle of canopies\u2019 green elements. Measured (bars) distributions of inclination angle of canopies\u2019 green elements at the beginning of stem extension (GS31, A) and flag leaf ligulation (GS39, B) for the winter wheat cultivars Caphorn (light blue) and Maxwell (dark blue) grown in the field with standard row spacing. Solid and dashed blue lines are the distributions of canopy inclination angles calculated with the ellipsoidal model for Caphorn and Maxwell, respectively. Dot-dashed red lines are the distributions of canopy inclination angles calculated with the spherical model. Vertical arrows indicate the average angle for each growth stage and cultivar.",
+      "char_offset": 26088
+    },
+    {
+      "type": "paragraph",
+      "text": "The clumping factor ( C GAI ) was computed over the reconstructed 3D wheat canopies by using Equation 18 . At GS31, for the five cultivars C GAI was on average 18% higher for the standard ( C GAI = 0.79) than for the double row spacing treatment ( C GAI = 0.67, Figure 2 ). At GS39, C GAI was always slightly lower for the double spacing as compared to the standard spacing. For standard row spacing, C GAI values were similar for the two growth stages. Conversely, for double-row spacing, C GAI was on average 17% higher at GS39 than at GS31, except for Maxwell.",
+      "char_offset": 26778
+    },
+    {
+      "type": "paragraph",
+      "text": "Clumping factor versus measured GAI GAI mes . The clumping factor was calculated using Equation 18 and the 3D reconstructions of canopy structures at the beginning of stem extension (GS31) and flag leaf ligule (GS39) for five winter wheat cultivars grown in the field with SS (open symbols) and DS (closed symbols) row spacing. The two red dashed circles indicate points from stage GS31 and GS39, respectively.",
+      "char_offset": 27343
+    },
+    {
+      "type": "paragraph",
+      "text": "For FIPAR dir , at both GS31 and GS39 the ellipsoidal model outperformed the other models over all solar angles ( Figure 3 ). At GS31, the root mean squared error (RMSE) for FIPAR dir was reduced by 37% when leaf clumping was accounted for in the ellipsoidal model ( Figure 3A ). The spherical models ( K sph and K sph C ) and average leaf inclination angle ( K avr ) provided reasonable performances, while the models with constant light extinction coefficients ( K cst ) substantially degraded the accuracy of FIPAR dir calculation, with 0.013 < RMSE < 0.23 ( K cst 0.6 > K cst 0.9 > K cst 0.3 ). For FIPAR dir , the differences between the models were larger for low solar elevation angles at GS31 ( Figure 3A ) and for high solar elevation angels at GS39 ( Figure 3B ). For both growth stages, the differences between the models were the lowest for solar elevation between 40\u00b0 and 55\u00b0. Under diffuse illumination conditions, K ell C also performed the best at GS31 ( Figure 3A ), while at GS39 the RMSE was low for several models and K ell C was not the best model ( Figure 3B ).",
+      "char_offset": 27755
+    },
+    {
+      "type": "paragraph",
+      "text": "Comparison among light extinction coefficient models. RMSE for the fraction of intercepted diffuse ( FIPAR dif ) and direct ( FIPAR dir ) PAR, calculated with different light extinction coefficient models at the beginning of stem extension (GS31, A) and at flag leaf ligulation (GS39, B). FIPAR dif and FIPAR dir were calculated from the 3D reconstructed canopies and illumination conditions measured in Grignon in 2013. The RMSE for FIPAR dir was calculated for solar elevations varying from 10\u00b0 to 85\u00b0. Light extinction models are: constant values ( K cst 0.3 , K cst 0.6 , K cst 0.9 ), constant values increased during the stem extension period ( K cst HS ), average leaf inclination angle ( K avr ), spherical leaf inclination angle distribution ( K sph ), spherical leaf inclination angle distribution accounting for clumping ( K sph C ), ellipsoidal leaf inclination angle distribution ( K ell ), and ellipsoidal leaf inclination angle distribution accounting for clumping ( K ell C ). Data are RMSE calculated for the five cultivars and two-row spacing treatments. The greenness of the background color increases with the corresponding RMSE value.",
+      "char_offset": 28840
+    },
+    {
+      "type": "paragraph",
+      "text": "Since we found that K ell C was the best model for FIPAR, we used it to explore the sensitivity of FIPAR with respect to changes in canopy structure, GAI and \u03b8 \u00af ( Figure 4 ). Results show that FIPAR increased rapidly with GAI, as expected from the exponential form of Equation 1 . FIPAR dir was insensitive to \u03b8 \u00af when the sun was at 32.5\u00b0 elevation ( Figure 4B ). FIPAR dir increased with \u03b8 \u00af for \u03b2 < 32.5\u00b0 ( Figure 4C ), and decreased with \u03b8 \u00af for \u03b2 > 32.5\u00b0. The influence of \u03b8 \u00af on FIPAR dif was low ( Figure 4D ) because FIPAR dif was computed by integrating FIPAR dir over all directions, which put maximum weight on elevations close to 45\u00b0, that is, not too far from 32.5\u00b0.",
+      "char_offset": 29996
+    },
+    {
+      "type": "paragraph",
+      "text": "Sensitivity of the fraction of IPAR to various canopy structure. Sensitivity of the fraction of intercepted directs ( FIPAR dir ; A\u2013C) and diffuse ( FIPAR dif ; D) PAR to GAI. FIPAR dir was calculated for 80 \u00b0 (A), 32.5 \u00b0 (B), and 15 \u00b0 (C) solar elevations. FIPAR dif and FIPAR dir were calculated with the ellipsoidal model accounting for clumping (with C GAI = 0.79). GAI is plotted on a logarithmic scale. The background color varies from dark green to yellow indicates the increase of FIPAR value.",
+      "char_offset": 30678
+    },
+    {
+      "type": "paragraph",
+      "text": "Since most CGMs have a daily time step ( Table 2 ), it is necessary to integrate FIPAR dir and FIPAR dif over the day, according to Equation 22 to get FIPAR day . Simulations showed that, for a given canopy structure, the value of FIPAR day may change largely, depending on the illumination conditions during the day ( Figure 5 ). At GS31, under clear sky conditions, the solar elevation at solar noon is \u223c45\u00b0 at this period of the year and latitude, and FIPAR day equals 0.25, while under overcast sky conditions FIPAR day is very close to FIPAR dif and is 32% lower than under clear sky conditions.",
+      "char_offset": 31181
+    },
+    {
+      "type": "paragraph",
+      "text": "Diurnal course of the fraction of diffuse PAR ( f ) and the fraction of IPAR (FIPAR). A, C demonstrate under clear while (B) and (D) shows under overcast sky conditions at Grignon, France, calculated using the ellipsoidal model accounting for clumping (with C GAI = 0.79). The canopy structure corresponds to the cultivar Caphorn at the beginning of stem extension (A and B) and flag leaf ligule (C and D) with standard row spacing.",
+      "char_offset": 31783
+    },
+    {
+      "type": "paragraph",
+      "text": "The comparison of FIPAR day simulated with the different FIPAR models in Grignon for Caphorn and Maxwell cultivars with standard row spacing showed that most differences between models appeared during the early vegetative growth period ( Figure 6, A and B ). The models that considered solar elevation and diffuse and direct PAR (all models except K cst ) showed day-to-day FIPAR day variations, demonstrating their sensitivity to the illumination conditions. Compared with K ell , K sph underestimated FIPAR day by \u223c12% and 13% for Maxwell and Caphorn, respectively. FIPAR day was \u223c13% and 6% relatively lower when leaf clumping was accounted for in the K ell and K sph models, respectively. The uncertainty in FIPAR day between the CGMs that use the K cst model was \u223c15% on average (gray banding in Figure 6 ). The K cst med model underestimated FIPAR day by 28% and 29% for Maxwell and Caphorn compared with the K ell C model. The performance of the K avr model was close to the K ell model, with a relative difference of 2% and 3% for Maxwell and Caphorn, respectively. Compared with the K ell C model, the K cst med model underestimated the cumulative intercepted PAR (IPAR) by 35% and 10% at GS31 and GS39, respectively ( Figure 6, C and D ), while the K sph and K avr models overestimated it by 2% and 16% at GS31 and by 2% and 5% at GS39, respectively.",
+      "char_offset": 32217
+    },
+    {
+      "type": "paragraph",
+      "text": "Dynamic of daily fraction of IPAR (FIPAR day ) and cumulative IPAR. The change of FIPAR day (A and B) and IPAR (C and D) versus thermal time after crop emergence for the winter wheat cultivars Maxwell (A and C) and Caphorn (B and D), calculated with different light extinction models. Light extinction models are: constant values ( K cst med ), constant values increased during the stem extension period ( K cst HS ), average leaf inclination angle ( K avr ), spherical leaf inclination angle distribution ( K sph ), spherical leaf inclination angle distribution accounting for clumping ( K sph C ), ellipsoidal leaf inclination angle distribution ( K ell ), and ellipsoidal leaf inclination angle distribution accounting for clumping ( K ell C ). K cst med is the median value for the 22 models that use a constant K value ( Table 2 ), and the gray banding shows the 5% and 95% percentile. The canopy structure and weather data correspond to the 2012\u20132013 experiment in Grignon, France with standard row spacing. Vertical arrows indicate the beginning of stem extension (GS31) and flag leaf ligule (GS39).",
+      "char_offset": 33579
+    },
+    {
+      "type": "paragraph",
+      "text": "To quantify the uncertainty in crop growth and grain yield simulations due to light extinction models, we implemented the FIPAR models we analyzed in this study in the CGM SiriusQuality , and then simulated total biomass production and yield at five sites with contrasted illumination conditions. The K cst model underestimated by 16% (in Wad Medani, The Sudan) to 50% (in Jokiolinen, Finland) the cumulative IPAR at maturity compared with the K ell C model ( Figure 7A ). The K cst HS model performs similarly to K cst model, with a slight improvement. As expected, the differences were higher at high latitudes where on average the solar elevation angle is lower and f is higher. The other four models ( K avr , K sph , K sph C , and K ell ) overestimated the cumulative FIPAR at maturity for all the sites compared with the K ell C model. The K sph C model was the closest to the K ell C model; on average it overestimated cumulative IPAR by 5%. The relative differences in simulated total above ground biomass ( Figure 7B ) and grain yield ( Figure 7C ) between the K ell C model and the other models were similar to those for the cumulative IPAR. On average, simulated grain yield was 26% and 17% lower for the K cst and K cst HS models compared with the K ell C model, while it was 17%, 17%, 6%, and 11% higher for the K avr , K sph , K sph C , and K ell models compared with the K ell C model ( Figure 7C ).",
+      "char_offset": 34687
+    },
+    {
+      "type": "paragraph",
+      "text": "Uncertainty in simulated cumulative IPAR, total above-ground biomass, and grain yield at harvest due to different light extinction models at five sites spanning the range of latitudes at which wheat is grown. Relative differences in the three variables between the different models and the model with ellipsoidal leaf inclination angle distribution accounting for clumping ( K ell C ) considered as reference are shown. Light extinction models are: constant light extinction coefficient ( K cst med ), constant values increased during the stem extension period ( K cst HS ), average leaf inclination angle ( K avr ), spherical leaf inclination angle distribution ( K sph ), spherical leaf inclination angle distribution accounting for clumping ( K sph C ), ellipsoidal leaf inclination angle distribution ( K ell ). K cst med is the median value for the 22 wheat CGM models that use a constant K value ( Table 2 ). Simulations were performed using the wheat CGM SiriusQuality . Data are mean \u00b1 1 sd for 30 growing seasons by 5 cultivars.",
+      "char_offset": 36103
+    },
+    {
+      "type": "paragraph",
+      "text": "Some CGMs that use the K cst model and the LUE approach ( Monteith, 1977 ) to simulate biomass production increase LUE on cloudy days to account for the greater contribution to biomass accumulation by the leaves that are shaded under clear sky conditions. We, therefore, performed simulations with SiriusQuality that considered the increase of LUE on days with high f value for the K cst and K cst HS models that do not separate the diffuse and direct components of the incoming PAR ( Supplemental Figure S4 ). Results showed that the relative differences in grain yield between the K cst or K cst HS model and the K ell C model were halved for Jokiolinen when considering the increase of LUE as f increased. In Schleswig and Vantas Huelma, the relative difference in grain yield was then smaller than 5%. In Wad Medani, the K cst and K cst HS models overestimated grain yield compared with the K ell C model when the response of LUE to f was considered.",
+      "char_offset": 37142
+    },
+    {
+      "type": "paragraph",
+      "text": "The review of measured K values reported in the literature showed a large variability. Measurements were achieved under specific illumination conditions that varied among studies. Further, the inconsistency of area index, including or not including the stems and ears, and which was used to derive K from Equation 1 , makes the reported K values difficult to compare. Considering the diversity of growth conditions and cultivars used in the studies reported in the literature, no clear conclusions could be drawn to explain the wide range of variability of K and the possible drivers. The lack of common protocol for field measurements of K also contributes to the diversity of values reported. A more physically based approach is necessary to better understand the limitations associated with these reported K values estimated from field measurements.",
+      "char_offset": 38098
+    },
+    {
+      "type": "paragraph",
+      "text": "The compilation of light interception models used in wheat CGMs shows that most of them use a simplified formulation with a constant K . The median value of K = 0.52 used in wheat CGM is close to the median value calculated from measurements of FIPAR and GAI in the field ( K = 0.59). However, very few models provide justifications for these values. Further, the use of K cst does not account for the illumination conditions experienced by canopies or differences in canopy structure observed between growth stages and cultivars. Some empirical models were proposed to drive K values depending on growth stages ( Brown et al., 2018 a, 2018 b) or sowing patterns ( Dzotsi et al., 2013 ). The two other FIPAR models used in CGMs are physically based, assuming the distribution of canopy element inclination is equal to a single average value ( K avr ) or follows a spherical distribution accounting ( K sph C ) or not ( K sph ) for leaf clumping. However, these three models are limited by their lack of flexibility as well as realism when compared to reference FIPAR values.",
+      "char_offset": 38952
+    },
+    {
+      "type": "paragraph",
+      "text": "Therefore, we proposed a physically based model ( K sph C ) assuming that the surface inclination distribution follows an ellipsoidal distribution with some possible leaf clumping. We demonstrated that the distribution of surface inclination of green elements in wheat canopies is well represented by an ellipsoidal distribution with an average inclination angle that depends on the growth stage and cultivars. Further sensitivity analysis using the K sph C model illustrated the importance of taking into account the illumination conditions, particularly for the vegetative growth stages with low to medium GAI values, when FIPAR day is very sensitive to the illumination conditions.",
+      "char_offset": 40028
+    },
+    {
+      "type": "paragraph",
+      "text": "A clumping factor was required to better describe FIPAR as a function of GAI. It varies mostly with row spacing, with a value close to 0.79 for 17.5 cm row spacing and 0.67 for 35 cm row spacing. These values are lower than the value of 0.9 previously reported for single-row spacing wheat canopies ( Baret et al., 2010 ). This difference may be partly explained by the error in GAI measurements, which is usually \u02c310%. The 3D reconstruction of the canopies did not account for the twisting of leaves, which may also contribute to the difference in C GAI between our study and previous ones. It should also be noted that C GAI was assumed here to be independent from the row and solar directions, while the clumping factor may vary by almost 30% as reported by ( Peng et al., 2018 ).",
+      "char_offset": 40714
+    },
+    {
+      "type": "paragraph",
+      "text": "We showed that the ellipsoidal model outperformed the other models for most illumination conditions, but the differences between the models decreased for medium to high GAI values because of the saturation of FIPAR as a function of GAI. This explains why at GS39 the differences in cumulative IPAR between models were only 2\u201310% when all models used the same GAI trajectory. This conclusion is supported by several sensitivity analyses of CGMs that use the K cst model, which shows that variations of K of 20% around it is nominal value (i.e. about two-third of uncertainty of K reported for wheat CGMs) alone explain <5% of the yield variance ( Makowski et al., 2006 ; Martre et al., 2015 a, 2015 b, 2015c; Casadebaig et al., 2016 ). However, small differences in FIPAR during the early growth stages may have large effects on crop growth and final biomass and yield ( Asseng et al., 2003 ; Bassu et al., 2011 ; Wilson et al., 2015 ). Our simulations with the wheat CGM SiriusQuality confirmed that, integrated over the growing season, the differences in FIPAR simulated by the different light interception models used in wheat CGMs may cause large uncertainty in simulated wheat growth and final grain yield. We showed that considering the response of LUE to f in models that use a constant K and the LUE approach may partly compensate for the underestimation of light interception by the canopy, in particular at high latitudes where the solar elevation angle is lower or when f is high.",
+      "char_offset": 41499
+    },
+    {
+      "type": "paragraph",
+      "text": "Our results are supported by detailed 3D canopy architecture reconstructions achieved under specific conditions. We considered contrasting cultivars, growth stages, and sowing density that represent a large variability of wheat canopy structure. However, we focused on the growth stages between the beginning of stem extension and flag leaf ligule. Similar efforts should therefore be taken to describe the periods after heading. In wheat canopies, ears intercept 10\u201330% of the incident PAR at the top of the canopy ( Thorne et al., 1988 ; Bertheloot et al., 2008 ). Future work should also consider the post-flowering period where GAI decreases because of leaf senescence, when the ear layer may contribute even more to intercept PAR.",
+      "char_offset": 42991
+    },
+    {
+      "type": "paragraph",
+      "text": "One main advantage of using a realistic physically based FIPAR model is to provide more accurate values of radiation use efficiency (RUE). When LUE is calibrated from biomass measurements and estimates of IPAR using a too simple model, errors in FIPAR computation will induce biases in LUE estimated values, particularly for the early growth stages. The proposed physically based light interception model may reduce uncertainties in yield prediction from CGMs based on calibrated RUE values ( Sinclair and Muchow, 1999 ).",
+      "char_offset": 43728
+    },
+    {
+      "type": "paragraph",
+      "text": "The engineering of photosynthetic process has been considered as promising to increase the genetic yield potential of crops ( Long et al., 2015 ; Wu et al., 2019 ). The use of a realistic FIPAR model appears thus very important when exploiting RUE or leaf photosynthesis traits as functional traits that characterize genotypes for plant breeding. This requires the light interception model to be established physically on realistic representations of the canopy, and also its interaction with the incident radiation. The proposed ellipsoidal model offers the possibility to compute the fraction of sun lit and shaded green elements in canopies ( Pury and Farquhar, 1997 ) and to consider several layers in the canopy ( Sellers et al., 1992 ; Wang and Leuning, 1998 ). Such a model is described and the source code is provided in Manceau et al. (2020) .",
+      "char_offset": 44251
+    },
+    {
+      "type": "paragraph",
+      "text": "The rapid progress of high-throughput phenotyping technology offers affordable and operational systems based on very high-resolution imagery. It allows measuring accurately the green fraction in several directions from which the two key parameters of the K ell C model, namely C GAI and \u03b8 \u00af , can be estimated as a function of the genotype and growth stage ( Liu et al., 2019 ). This would be of great interest for breeders to design ideotypes better adapted to given scenarios.",
+      "char_offset": 45105
+    },
+    {
+      "type": "paragraph",
+      "text": "We reviewed the light interception models used in CGM for wheat crops. The fraction of intercepted radiation is always related to the area of green elements per unit ground area through an exponential law characterized by an extinction coefficient, K . Experimental observations of K show that it ranges between 0.28 and 0.90 with a median value of 0.59. This wide variability is explained by the wide range of FIPAR measurement methods, illumination and growth conditions as well as genotype variability. Further, while GAI that accounts for all the green surfaces should be considered, some studies do not account for the stems and ears that may represent a large fraction of the green surfaces. Most of the CGMs use a constant K with a median value of K = 0.52 with, however, a large variability between CGMs. To explicitly account for the changes in illumination conditions, few models use a physically based model assuming either that the surfaces are inclined at a single angle, or that the distribution of the inclination of the green surfaces follows a spherical distribution. However, our experimental observations demonstrate that the distribution of the inclination of leaf and stem surfaces is well described by an ellipsoidal distribution characterized by \u03b8 \u00af . Further, \u03b8 \u00af may change with cultivar, growth stages and conditions. Additionally, a clumping factor should be accounted for to describe the non-perfectly random spatial distribution of green elements in the canopy volume. We, therefore, propose this physically based model using an ellipsoidal distribution of surface inclination with a clumping factor. This light interception model was compared to the other models used in CGMs based on 3D wheat canopy scenes reconstructed from detailed field measurements. Results show that it outperforms all the other models to describe the variation of FIPAR due to illumination conditions, genotype effects due to variations of surface inclination distribution, and canopy structure effects due to variation in row spacing. These differences are enhanced for the earlier stages. We then simulated the time course of FIPAR with these several light interception models using the measured time course of GAI at Grignon, France. Results show that the differences in terms of cumulated IPAR are not very large between light interception models, with most differences appearing during the early stages. We finally evaluated the impact of the light interception model used in the SiriusQuality CGM on biomass production and yield. This was done over five sites spanning from 14\u00b0 to 60\u00b0 latitude, representing a wide range of illumination and growth conditions. Results show clearly the large influence of the light interception model, particularly for the high latitude sites with particular illumination conditions. These large differences are explained by the fact that a change in FIPAR impacts the biomass production and GAI dynamics. This expresses mostly during the early growth stages. However, these early differences impact the whole fate of the crop.",
+      "char_offset": 45585
+    },
+    {
+      "type": "paragraph",
+      "text": "It is finally concluded that the light interception model is critical for realistic simulations in CGMs. We proposed a physically based model that represents the surface inclination distribution by an ellipsoidal distribution with a clumping factor. However, this poses the problem of describing the average surface inclination angle that characterizes the ellipsoidal distribution and the clumping factor, along with their possible variation with genotypes, stages, and environmental conditions. Further work should, therefore, be directed to the development of high-throughput methods to measure the average surface inclination angle and clumping factor to better understand and model their variability.",
+      "char_offset": 48657
+    },
+    {
+      "type": "paragraph",
+      "text": "Experiments were conducted during the 2012\u20132013 growing season at Thiverval-Grignon, France (48\u00b051\u2032 N, 1\u00b058\u2032 E). The experimental design and growth conditions are described in detail in Abichou et al. (2019) . Five winter wheat ( T. aestivum ) cultivars with contrasting leaf inclination (Apache, Caphorn, Maxwell, Renan, and Soissons) were sown on October 2, 2012 in a deep loamy soil at a density of 170 seeds m \u22122 with either standard (SS, 0.175 m) or double (DS, 0.350 m) row spacing. The mean plant spacing on the row were 2.9 and 1.4 cm for SS and DS, respectively, ensuring similar plant density. The experimental design included two blocks (15 \u00d7 1.75 m) per treatment. Crops were grown under nonlimiting water and nitrogen conditions and kept free of weeds and diseases. N fertilization followed the recommended scheme for the area, with one dose at tillering and one dose applied shortly before stem extension. Air temperature at 2 m and global and diffuse PAR were recorded by a meteorological station located next to the experimental field. Thermal time was calculated from plant emergence on an hourly basis, assuming a linear response of plant development to temperature, with a base temperature of 0\u00b0C.",
+      "char_offset": 49364
+    },
+    {
+      "type": "paragraph",
+      "text": "Canopies of each cultivar for the two row-spacing treatments were digitized at the beginning of stem elongation (GS31) ( Zadoks et al., 1974 ) and the ligulation of the flag leaf (GS39). In each plot, two 0.4-m long segments of one row were collected, including the soil and the roots down to 15-cm depth. Row segments were put intact in plastic containers and then brought to the laboratory where the plant structure was digitized ( Figure 8A ). Great care was paid in this process to preserve the original canopy structure. Each row segment was photographed ( Figure 8A ), then the coordinates of points along leaves midribs and stems were recorded with a magnetic digitizer (3SpaceE Fastrak, Polhemus Inc., Colchester, VT, USA) using the 3A software ( Adam et al., 1999 ). Apart from the skeleton information, the maximum width and length of the lamina of the individual mature leaves of the main stem, and the stem diameter and leaf collar height of each individual leaf were measured with a ruler on 30 tagged plants. The corresponding lamina width and shape were derived using empirical parametric models ( Dornbusch et al., 2011 ; Abichou, 2016 ). The 3D canopy architecture was then reconstructed as a 3D mesh composed of triangles using the 3D plant structure modeling library PlantGL ( Pradal et al., 2009 ).",
+      "char_offset": 50582
+    },
+    {
+      "type": "paragraph",
+      "text": "Input and output of D3P to estimate FIPAR, GAI, C GAI and \u03b8 \u00af : (A) photo of a row of transplants from the field (a-1 and a-2) and 3D reconstructed images (a-3 and a-4) of the winter wheat cultivar Maxwell at growth stages 31 (a-1 and a-3) and 39 (a-2 and a-4). (B) Nadir view of the reconstructed 3D wheat canopy where the inclination angle of each triangle is color coded; (C) Hemispherical image with a 160 \u00b0 field of view over the simulated canopy.",
+      "char_offset": 51902
+    },
+    {
+      "type": "paragraph",
+      "text": "All the green triangles in the reconstructed 3D canopies were labeled as lamina or stem. GAI mes was calculated as the sum of the area of all the triangles for the leaves, and only half the sum of the area of the stem triangles ( Lang, 1991 ; Chen and Black, 1992 ). GAI eff was calculated as ( Chen and Black, 1991 ; Weiss et al., 2004 ):",
+      "char_offset": 52356
+    },
+    {
+      "type": "paragraph",
+      "text": "C GAI was then calculated as the ratio of GAI mes to GAI eff ( Eq. 18 ). \u03b8 \u00af was calculated as the average of inclination angles of all lamina and stem triangles weighted by their corresponding areas ( Figure 8B ).",
+      "char_offset": 52697
+    },
+    {
+      "type": "paragraph",
+      "text": "FIPAR dir and FIPAR dif were calculated from the 3D reconstructed canopies using the Digital Plant Phenotyping Platform (D3P; Liu et al., 2019 ). The virtual 3D plants were duplicated to create 5 \u00d7 5 m scenes with row spacing consistent with the experiment. Then the RGB camera simulator in D3P was used to render hemispherical photos over the virtual scenes. Photographs were taken 30 cm above the top of the reconstructed 3D canopies with a 160 \u00b0 field of view and a 25 million pixel resolution. The camera was moved 7 times in a diagonal pattern between the two central rows to account for the row effect. The camera was maintained horizontal and parallel to the row direction. Thus, the directional green fraction was symmetric along and across the row direction. No azimuthal effect was considered, and images were processed by rings of 10\u00b0 elevation angle ( \u03b2 i - 5 \u00b0 < \u03b2 < \u03b2 i + 5 \u00b0 ) to compute FIPAR dir ( Figure 8C ). FIPAR dif was then calculated by using Equation 24 . These FIPAR dir and FIPAR dif values were used as references to evaluate the performance of the FIPAR models reviewed above.",
+      "char_offset": 52913
+    },
+    {
+      "type": "paragraph",
+      "text": "The different FIPAR models were first intercompared at Grignon, France. Calculations were done using \u03b8 \u00af and GAI mes values for the cultivars Maxwell and Caphorn and the single row-spacing treatment at Grignon. GAI mes was measured weekly from the ligulation of the fourth leaf to GS39 from down-looking RGB photographs ( Supplemental Methods S2). The measured GAI mes values were interpolated linearly as a function of thermal time. For the ellipsoidal models, we assumed that \u03b8 \u00af was constant between crop emergence and GS31 and then increased linearly between GS31 and GS39. These assumptions are consistent with the ontogenic changes in lamina insertion angles reported by Abichou et al. (2019) . We further assumed that the clumping factor did not change between crop emergence and GS39. Calculations were done for the 2012\u20132013 growing season at Grignon, France. The hourly PAR intercepted by canopies ( IPAR ) was calculated as the incident PAR times FIPAR. The daily IPAR was then calculated as the sum of hourly IPAR, assuming f PAR dif was constant hourly.",
+      "char_offset": 54020
+    },
+    {
+      "type": "paragraph",
+      "text": "To quantify the impact of light extinction coefficient models on simulated wheat crop growth and grain yield uncertainty, we created a model component in the BioMA software framework that implements the light extinction coefficient and FIPAR models analyzed in this study ( Manceau et al., 2020 ) and integrated it in the wheat CGM SiriusQuality ( Martre et al., 2006 ). In SiriusQuality , biomass production is modeled using the LUE approach ( Monteith, 1977 ). LUE (and biomass production) is calculated for each leaf cohort ( Martre and Dambreville, 2018 ) and is modified by the specific leaf N mass of the leaf cohort ( Sinclair and Horie, 1989 ), canopy temperature ( Wang et al., 2017) , soil water deficit ( Jamieson et al., 1998 ), atmospheric CO 2 concentration ( Jamieson et al., 2000 ), and the fraction of diffuse radiation. However, LUE was assumed as constant, except for special simulations to assess whether the LUE response to the fraction of diffuse radiation considered in some CGMs that use a constant K and the LUE approach to model biomass production can account for the higher FIPAR by the canopy on a cloudy day (see Supplemental Methods S3 ).",
+      "char_offset": 55088
+    },
+    {
+      "type": "paragraph",
+      "text": "SiriusQuality was executed for a large range of illumination conditions at five sites spanning the latitudes at which wheat is grown ( Supplemental Table S4 ): Wad Medani, The Sudan (14\u00b0 24\u2032 N), Ventas Huelma, Spain (37\u00b0 9\u2032 N), Grignon, France (48\u00b051\u2032 N), Schleswig, Germany (54\u00b0 31\u2032 N), and Jokioinen, Finland (60\u00b0 48\u2032 N). At all sites but Grignon, simulations were set up using the observed local mean sowing dates, initial soil N and water contents, crop management, daily weather data, soil characteristics, and cultivars reported by Asseng et al. (2019) . In Grignon, simulations were set up using similar information provided in ( Jeuffroy and Bouchard, 1999 ) and ( Jeuffroy and Recous, 1999 ), and daily weather data from the local INRAE weather station. The fraction of diffuse PAR ( f ) was calculated with the approach proposed by Spitters et al. (1986) used in SiriusQuality .",
+      "char_offset": 56258
+    },
+    {
+      "type": "paragraph",
+      "text": "Simulations were done with each of the seven light extinction coefficients and FIPAR models for 30 consecutive years (1981\u20132010), with initial conditions reset each year and using the same parameters and inputs at each site for all the light extinction models. Cultivar parameters were previously calibrated against the observed anthesis and maturity dates by considering information on vernalization requirements and photoperiod sensitivity ( Supplemental Table S4 ). For the ellipsoidal models, \u03b8 \u00af values were from the five cultivars for the single row spacing treatment at Grignon. As above, we assumed that \u03b8 \u00af was constant between crop emergence and GS31 and then increased linearly between GS31 and GS39, and that the clumping factor did not change between crop emergence and maturity. Using the K ell C model as a reference, the relative difference from the other six models was calculated for cumulative IPAR, total above ground biomass, and grain yield.",
+      "char_offset": 57148
+    },
+    {
+      "type": "paragraph",
+      "text": "The distributions of the tilt angle of all the triangles from the digitalized canopies were compartmented with an ellipsoidal or spherical distribution using two-sample Kolmogorov\u2013Smirnov tests. Differences in \u03b8 \u00af and C GAI due to the growth stage and row spacing were analyzed using two-way analysis of variance after verifying that the treatment effects were normally distributed with equal variance.",
+      "char_offset": 58113
+    },
+    {
+      "type": "paragraph",
+      "text": "The accuracy of FIPAR dir and FIPAR dif calculated using the different approaches reviewed above was assessed with the RMSE:",
+      "char_offset": 58517
+    },
+    {
+      "type": "paragraph",
+      "text": "where y i and y i ^ are the predicted values and the measured values, respectively.",
+      "char_offset": 58643
+    },
+    {
+      "type": "paragraph",
+      "text": "All K and FIPAR models presented here were coded in Matlab and we also developed an independent executable component in the BioMA software framework ( http://www.biomamodelling.org ), which can easily be extended and coupled with CGMs. The source code and the standalone executable of the BioMA component are freely available at https://zenodo.org/record/3820386 . The SiriusQuality model can be downloaded from https://github.com/SiriusQuality .",
+      "char_offset": 58728
+    },
+    {
+      "type": "paragraph",
+      "text": "The following supplemental materials are available.",
+      "char_offset": 59176
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Method S1 . Sensitivity analysis of PROSAIL model.",
+      "char_offset": 59229
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Method S2 . Measurements of effective GAI.",
+      "char_offset": 59294
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Method S3 . Modeling the response of LUE to the fraction of diffuse light.",
+      "char_offset": 59351
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Results Validity of the FIPAR approximation.",
+      "char_offset": 59440
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Figure S1 . Relationship between sampled average inclination angle of green elements in the canopy ( \u03b8 \u00af ) and GAI.",
+      "char_offset": 59499
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Figure S2 . Comparison between FIPAR and FAPAR for different leaf chlorophyll concentrations ( Cab ) and soil reflectance ( r s l ).",
+      "char_offset": 59629
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Figure S3 . Distributions of inclination angle of canopies\u2019 green elements.",
+      "char_offset": 59776
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Figure S4 . Differences between among light extinction models.",
+      "char_offset": 59866
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Table S1 . Parameters sampling to build the dataset for FIPAR and FAPAR comparison using the PROSAIL model.",
+      "char_offset": 59943
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Table S2 . Average inclination angle of green leaf and stem elements measured in the canopy at the beginning of stem extension (GS 31) and flag leaf ligule (GS 39) for five winter wheat cultivars grown in the field with standard (17.5 cm, SS) and double (35 cm, DS) row spacing.",
+      "char_offset": 60065
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Table S3 . Two-way analysis of variance (ANOVA) for average inclination angle at canopy scale at the beginning of stem extension (GS 31) and flag leaf ligule (GS 39).",
+      "char_offset": 60358
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplemental Table S4 . Location, cultivar, and phenology information at the five sites used to simulate wheat crop growth and grain yield with the wheat crop model SiriusQuality .",
+      "char_offset": 60539
+    },
+    {
+      "type": "paragraph",
+      "text": "We are grateful to Christian Fournier and Christophe Pradal for their help in the use of the ADEL\u2013Wheat model and the OpenAlea platform.",
+      "char_offset": 60721
+    },
+    {
+      "type": "paragraph",
+      "text": "This work was supported by the \u201cInfrastructure Biologie Sant\u00e9\u201d Phenome funded by the National Research Agency (ANR-11INBS0012), and the EU Project Horizon 2020 Solutions for Improving Agroecosystem and Crop Efficiency (grant no. 727247 to L.M. and P.M.).",
+      "char_offset": 60859
+    },
+    {
+      "type": "paragraph",
+      "text": "Conflict of interest statement . None Declared.",
+      "char_offset": 61115
+    },
+    {
+      "type": "paragraph",
+      "text": "S.L., F.B., M.W., and P.M. planned and designed the research; MA. and B.A. designed and performed the field experiments; L.M. wrote the BioMA model component and performed the simulations; S.L. analyzed the data and wrote the first draft; P.M. supervised and completed the writing with contributions of all the authors.",
+      "char_offset": 61164
+    },
+    {
+      "type": "paragraph",
+      "text": "The author responsible for distribution of materials integral to the findings presented in this article in accordance with the policy described in the Instructions for Authors ( https://academic.oup.com/plphys/pages/general-instructions ) is: Pierre Martre ( pierre.martre@inrae.fr ).",
+      "char_offset": 61485
+    },
+    {
+      "type": "paragraph",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article.",
+      "char_offset": 61771
+    }
+  ],
+  "labels": [
+    "growth_stage_table",
+    "has_table",
+    "yield_table"
+  ],
+  "document_id": "doc-12b1f8b42611b23b"
+}

@@ -1,0 +1,21 @@
+{"claims": [
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "In grain crops (wheat, barley, oats), uniformly dried crops do not have to be windrowed ... but can easily be straight-cut and harvested ... it enhances grain storage when the grain has a lower and more uniform moisture content.",
+    "claim_summary": "Pre-harvest glyphosate desiccation of wheat produces a lower, more uniform grain moisture content, enabling straight-cut harvest and improved grain storage.",
+    "extraction_confidence": "medium",
+    "methods": ["desiccation", "harvest"]
+  },
+  {
+    "parameter_id": "harvest.drydown_rate",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "crop desiccants are so named because application just before harvest kills the crop plants so that the food crop dries from normal environmental conditions (\"dry-down\") more quickly and evenly.",
+    "claim_summary": "Pre-harvest desiccant application to grain crops including wheat accelerates and evens out crop dry-down before harvest.",
+    "extraction_confidence": "medium",
+    "methods": ["desiccation"]
+  }
+]
+}

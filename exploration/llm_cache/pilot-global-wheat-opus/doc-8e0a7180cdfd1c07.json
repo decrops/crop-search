@@ -1,0 +1,27 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "range",
+    "range_min": 235,
+    "range_max": 275,
+    "unit": "tillers/m2",
+    "qualifier": "observed",
+    "evidence_text": "Most of the estimated values are in the range of 235–275 tillers/m2; values of 240–270 tillers/m2 correspond to about 160,000–180,000 tillers per acre",
+    "claim_summary": "Estimated winter wheat overwintering tiller density mostly 235–275 tillers/m2 at the Xiongan site.",
+    "extraction_confidence": "high",
+    "methods": "Remote sensing (UAV hyperspectral and Sentinel-2 multispectral) with machine-learning (RF/GBRT) regression on vegetation indices; ground truth from manual counting in 0.5 m x 0.5 m quadrats",
+    "organisms": "winter wheat (Triticum aestivum)"
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "range",
+    "range_min": 120000,
+    "range_max": 180000,
+    "unit": "tillers/acre",
+    "qualifier": "typical",
+    "evidence_text": "values of 240–270 tillers/m2 correspond to about 160,000–180,000 tillers per acre, which is in agreement with the 120,000–180,000 tillers per acre used when sowing",
+    "claim_summary": "Target/sowing winter wheat tiller density is 120,000–180,000 tillers per acre.",
+    "extraction_confidence": "medium",
+    "organisms": "winter wheat (Triticum aestivum)"
+  }
+]}

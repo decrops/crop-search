@@ -1,0 +1,39 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 34,
+      "range_max": 44,
+      "unit": "grams",
+      "qualifier": "typical",
+      "evidence_text": "in the seed guide it is not abnormal to encounter hard red spring varieties ranging from 34 to 44g TKW. This demonstrates a 30 per cent change in TKW.",
+      "claim_summary": "Hard red spring wheat varieties commonly range from 34 to 44 g thousand kernel weight.",
+      "extraction_confidence": "high",
+      "organisms": ["hard red spring wheat"]
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 45,
+      "unit": "grams",
+      "qualifier": "observed",
+      "evidence_text": "if each seed weighs on average, 0.03g, then one thousand seeds will equal 30g TKW. If each seed weighs 0.045g, the TWK is 45g.",
+      "claim_summary": "Illustrative wheat TKW values ranging from about 30 g (0.03 g/seed) to 45 g (0.045 g/seed).",
+      "extraction_confidence": "medium",
+      "organisms": ["wheat"]
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "seeds/sqft",
+      "qualifier": "recommended",
+      "evidence_text": "Variety B requires a seeding rate of 130.7lbs/ac to reach the desired seeding rate of 35 seeds/sqft.",
+      "claim_summary": "A target plant stand of 35 seeds per square foot is used as a desired seeding density for wheat.",
+      "extraction_confidence": "medium",
+      "organisms": ["wheat"]
+    }
+  ]
+}

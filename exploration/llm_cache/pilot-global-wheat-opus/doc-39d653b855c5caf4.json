@@ -1,0 +1,24 @@
+{
+  "claims": [
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 13.1,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "common bread wheat cultivars such as “Seri M82” with average protein value of 13.1%",
+      "claim_summary": "Bread wheat cultivar Seri M82 has an average grain protein content of about 13.1%.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 15.5,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "synthetic hexaploids have on average 15.5% protein as compared to the common bread wheat cultivars such as “Seri M82” with average protein value of 13.1%",
+      "claim_summary": "Synthetic hexaploid wheats average about 15.5% grain protein, higher than common bread wheat cultivars.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

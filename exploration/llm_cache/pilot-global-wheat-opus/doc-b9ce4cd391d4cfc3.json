@@ -1,0 +1,21 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.waterlogging_sensitivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Waterlogging causes multiple problems for wheat growth and yield, including restricted gas exchange, nutrient deficiencies, and microelement toxicities... Waterlogging reduces tiller number, spike number, grains per spike, and grain weight, leading to significant yield loss. The situation worsens when waterlogging occurs... particularly around heading or later stages.",
+      "claim_summary": "Wheat is highly sensitive to waterlogging; it reduces tillers, spikes, grains per spike and grain weight, with worst effects around heading and later stages.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Practices such as raised-bed cultivation, laser land levelling, and nutrient management have proven effective... Raised bed planting reduces waterlogging and increases yield in wheat following rice.",
+      "claim_summary": "Raised-bed cultivation, laser land levelling and nutrient management mitigate waterlogging stress and raise wheat yield.",
+      "extraction_confidence": "medium",
+      "methods": ["tillage"]
+    }
+  ]
+}

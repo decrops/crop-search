@@ -1,0 +1,70 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "range",
+    "range_min": 10,
+    "range_max": 25,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "So when you look at A2809 for Wisconsin, it suggests 10 to 25 lbs of per acre of sulfur application for small grains if there is medium or low potential for holding sulfur in the rooting zone.",
+    "claim_summary": "Wisconsin A2809 recommends 10-25 lb/acre sulfur for small grains (incl. wheat) on medium/low sulfur-holding soils.",
+    "extraction_confidence": "high",
+    "methods": ["sulfur fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "numeric",
+    "numeric_value": 24,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "They say sulfur should not be necessary, but then for their own wheat trials they add 24 lbs.",
+    "claim_summary": "Michigan State Extension applies 24 lb/acre sulfur in their own wheat trials.",
+    "extraction_confidence": "medium",
+    "methods": ["sulfur fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "numeric",
+    "numeric_value": 25,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "Fertilizing wheat in Minnesota or other neighbor but not real close here, says to apply 25 lbs per acre on sandy soils, 10 to 15 on medium if they have less than 3% organic matter.",
+    "claim_summary": "Minnesota wheat guidance: apply 25 lb/acre sulfur on sandy soils, 10-15 on medium soils with <3% OM.",
+    "extraction_confidence": "high",
+    "methods": ["sulfur fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "range",
+    "range_min": 10,
+    "range_max": 15,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "Fertilizing wheat in Minnesota or other neighbor but not real close here, says to apply 25 lbs per acre on sandy soils, 10 to 15 on medium if they have less than 3% organic matter.",
+    "claim_summary": "Minnesota wheat guidance: 10-15 lb/acre sulfur on medium soils with <3% organic matter.",
+    "extraction_confidence": "high",
+    "methods": ["sulfur fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "numeric",
+    "numeric_value": 20,
+    "unit": "lb/acre",
+    "qualifier": "optimum",
+    "evidence_text": "But we did see a very positive response to sulfur rate and the 20 LB sulfur per acre was definitely the optimum economic sulfur rate as we had both the highest straw yield on the left and grain yield on the right.",
+    "claim_summary": "Field trial: 20 lb/acre sulfur was the economic optimum rate for winter wheat at a lower-yielding NE Wisconsin site (2023 harvest).",
+    "extraction_confidence": "high",
+    "methods": ["sulfur fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "numeric",
+    "numeric_value": 30,
+    "unit": "lb/acre",
+    "qualifier": "optimum",
+    "evidence_text": "you can see that the 30 lb rate in 2024 was pretty obviously the best economic response. And it was very straightforward, especially at the one site where we improved the economic return by over $100 per acre",
+    "claim_summary": "Field trials: 30 lb/acre sulfur was the best economic response for winter wheat averaged across three NE Wisconsin sites (2024 harvest).",
+    "extraction_confidence": "high",
+    "methods": ["sulfur fertilization"]
+  }
+]}

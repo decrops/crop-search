@@ -1,0 +1,80 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 4.4,
+      "unit": "celsius",
+      "qualifier": "recommended",
+      "evidence_text": "GDD = (Tmax + Tmin)/2 - Tbase  T base is 40F or 4.4C for Winter Wheat",
+      "claim_summary": "Base temperature for winter wheat GDD calculation is 40F (4.4C).",
+      "extraction_confidence": "high",
+      "methods": ["growing degree day calculation"]
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "range",
+      "range_min": 56,
+      "range_max": 96,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "Regional Wheat Stage / GDD Feekes Stage 3 Min 56 Max 96 Average 73",
+      "claim_summary": "Winter wheat Feekes growth stage 3 occurs at 56-96 GDD (mean 73), base 40F.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "range",
+      "range_min": 67,
+      "range_max": 102,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "Regional Wheat Stage / GDD Feekes Stage 4 Min 67 Max 102 Average 81",
+      "claim_summary": "Winter wheat Feekes growth stage 4 occurs at 67-102 GDD (mean 81), base 40F.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "range",
+      "range_min": 74,
+      "range_max": 110,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "Regional Wheat Stage / GDD Feekes Stage 5 Min 74 Max 110 Average 90",
+      "claim_summary": "Winter wheat Feekes growth stage 5 occurs at 74-110 GDD (mean 90), base 40F.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "range",
+      "range_min": 92,
+      "range_max": 125,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "Regional Wheat Stage / GDD Feekes Stage 6 Min 92 Max 125 Average 105",
+      "claim_summary": "Winter wheat Feekes growth stage 6 occurs at 92-125 GDD (mean 105), base 40F.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "range",
+      "range_min": 87,
+      "range_max": 126,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "Regional Wheat Stage / GDD Feekes Stage 7 Min 87 Max 126 Average 106",
+      "claim_summary": "Winter wheat Feekes growth stage 7 occurs at 87-126 GDD (mean 106), base 40F.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 33,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "World Nitrogen Use Efficiency for Cereal Production is 33%, Agronomy Journal 91:357",
+      "claim_summary": "World nitrogen use efficiency for cereal (wheat) production is 33%.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

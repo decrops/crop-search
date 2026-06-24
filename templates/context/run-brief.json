@@ -1,0 +1,12 @@
+{
+  "id": "run-brief-pilot-us-corn",
+  "version": "0.1.0",
+  "pack_type": "run-brief",
+  "title": "Pilot run brief",
+  "content": "Collect representative sources for corn growing conditions across a small US geography sample. Record heterogeneity, failures, and candidate normalization patterns.",
+  "references": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json"
+  ],
+  "updated_at": "2026-05-28T12:00:00Z"
+}

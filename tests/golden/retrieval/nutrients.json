@@ -1,0 +1,20 @@
+{
+  "domain": "nutrients",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "expected_domain": "bookstore.ksre.ksu.edu",
+      "expected_url": "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf",
+      "doi": "",
+      "rationale": "K-State wheat production handbook covers N/P fertility rates with verified scope."
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "expected_domain": "extensionpubs.unl.edu",
+      "expected_url": "https://extensionpubs.unl.edu/publication/g2122/na/pdf/view",
+      "doi": "",
+      "rationale": "Nebraska Extension G2122 is N/P/S specific (see seed-registry caveat)."
+    }
+  ]
+}

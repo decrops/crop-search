@@ -1,0 +1,53 @@
+{"claims": [
+  {
+    "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+    "value_type": "range",
+    "range_min": 2.75,
+    "range_max": 4.1,
+    "unit": "kPa",
+    "qualifier": "threshold",
+    "evidence_text": "Adjusted genotype means for the VPD breakpoints ranged from 2.75 kPa to 4.1 kPa. A lower breakpoint might suggest a more conservative use of water.",
+    "claim_summary": "In 79 winter wheat lines, the VPD breakpoint above which transpiration is restricted ranged from 2.75 to 4.1 kPa.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+    "value_type": "range",
+    "range_min": 2.4,
+    "range_max": 3.9,
+    "unit": "kPa",
+    "qualifier": "threshold",
+    "evidence_text": "For bread wheat ( Triticum aestivum L.), differences in the VPD breakpoint between various wheat lines were detected in a range of 2.4–3.9 kPa",
+    "claim_summary": "Reported bread wheat VPD breakpoints for transpiration restriction range 2.4-3.9 kPa; durum wheat much lower (~1 kPa).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "photosynthesis.transpiration_efficiency",
+    "value_type": "range",
+    "range_min": 2.12,
+    "range_max": 3.0,
+    "unit": "g/kg",
+    "qualifier": "observed",
+    "evidence_text": "analysis of variance (ANOVA) revealed highly significant genotype effects on cumulative transpiration ( p = 0.002) and TE ( p = < 0.001), ranging between 62.11 and 89.86 kg and 2.12–3.00 g kg − 1 , respectively",
+    "claim_summary": "Winter wheat transpiration efficiency (biomass/grain per water transpired) ranged from 2.12 to 3.00 g/kg across genotypes.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "numeric",
+    "numeric_value": 300,
+    "unit": "plants/m2",
+    "qualifier": "typical",
+    "evidence_text": "48 plants per container are equivalent to 300 plants m − 2",
+    "claim_summary": "Field-like winter wheat plant density of 300 plants/m2 was used in the study.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "photosynthesis.stomatal_conductance",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "the limitation of transpiration rate in response to increasing VPD ... To prevent excessive water loss ... the plant is able to close its stomata, which in turn causes a decrease in photosynthetic rate.",
+    "claim_summary": "Wheat restricts transpiration by closing stomata at high VPD (above the breakpoint), conserving soil water but reducing photosynthetic rate; a water-conservation strategy beneficial under drought.",
+    "extraction_confidence": "medium"
+  }
+]}

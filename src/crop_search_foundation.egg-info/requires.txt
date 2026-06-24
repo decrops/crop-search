@@ -1,0 +1,7 @@
+jsonschema<5,>=4.23
+requests<3,>=2.31
+beautifulsoup4<5,>=4.12
+lxml<6,>=5
+
+[pg]
+psycopg[binary]<4,>=3.2

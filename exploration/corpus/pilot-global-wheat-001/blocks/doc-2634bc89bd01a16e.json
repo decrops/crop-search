@@ -1,0 +1,1825 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Description",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Evolution",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Phylogeny",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Domestication",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Spread",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Cultivation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Agronomy",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Pests and diseases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Genetics and genomics",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Production",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "International trade",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Nutrition",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Use",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Food and drink",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Biofuel",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Other uses",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 2,
+      "heading": "In human culture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "External links",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Sorghum"
+      ],
+      "rows": [
+        [
+          "Scientific classification"
+        ],
+        [
+          "Kingdom:",
+          "Plantae"
+        ],
+        [
+          "Clade :",
+          "Embryophytes"
+        ],
+        [
+          "Clade :",
+          "Tracheophytes"
+        ],
+        [
+          "Clade :",
+          "Spermatophytes"
+        ],
+        [
+          "Clade :",
+          "Angiosperms"
+        ],
+        [
+          "Clade :",
+          "Monocots"
+        ],
+        [
+          "Clade :",
+          "Commelinids"
+        ],
+        [
+          "Order:",
+          "Poales"
+        ],
+        [
+          "Family:",
+          "Poaceae"
+        ],
+        [
+          "Subfamily:",
+          "Panicoideae"
+        ],
+        [
+          "Genus:",
+          "Sorghum"
+        ],
+        [
+          "Species:",
+          "S. bicolor"
+        ],
+        [
+          "Binomial name"
+        ],
+        [
+          "Sorghum bicolor ( L. ) Moench"
+        ],
+        [
+          "Synonyms [ 1 ]"
+        ],
+        [
+          "List Agrostis nigricans (Ruiz & Pav.) Poir. Andropogon besseri Kunth Andropogon bicolor (L.) Roxb. Andropogon caffrorum (Thunb.) Kunth Andropogon compactus Brot. Andropogon dulcis Burm.f. Andropogon niger (Ard.) Kunth Andropogon saccharatrus Kunth Andropogon saccharatus (L.) Raspail Andropogon sorghum (L.) Brot. Andropogon subglabrescens Steud. Andropogon truchmenorum Walp. Andropogon usorum Steud. Andropogon vulgare (Pers.) Balansa Andropogon vulgaris Raspail Holcus arduinii J.F.Gmel. Holcus bicolor L. Holcus cafer Ard. Holcus caffrorum (Retz.) Thunb. Holcus cernuus Ard. Holcus cernuus Muhl. nom. illeg. Holcus cernuus Willd. nom. illeg. Holcus compactus Lam. Holcus dochna Forssk. Holcus dora Mieg Holcus duna J.F.Gmel. Holcus durra Forssk. Holcus niger Ard. Holcus nigerrimus Ard. Holcus rubens Gaertn. Holcus saccharatus var. technicus (K\u00f6rn.) Farw. Holcus sorghum L. Holcus sorghum Brot. nom. illeg. Milium bicolor (L.) Cav. Milium compactum (Lam.) Cav. Milium maximum Cav. Milium nigricans Ruiz & Pav. Milium sorghum (L.) Cav. Panicum caffrorum Retz. Panicum frumentaceum Salisb. nom. illeg. Rhaphis sorghum (L.) Roberty Sorghum abyssinicum (Hack.) Chiov. nom. illeg. Sorghum ankolib (Hack.) Stapf Sorghum anomalum Desv. Sorghum arduinii (Gmel.) J.Jacq. Sorghum basiplicatum Chiov. Sorghum basutorum Snowden Sorghum caffrorum (Retz.) P.Beauv. Sorghum campanum Ten. & Guss. Sorghum caudatum (Hack.) Stapf Sorghum centroplicatum Chiov. Sorghum cernuum (Ard.) Host Sorghum compactum Lag. Sorghum conspicuum Snowden Sorghum coriaceum Snowden Sorghum dochna (Forssk.) Snowden Sorghum dora (Mieg) Cuoco Sorghum dulcicaule Snowden Sorghum dura Griseb. Sorghum durra (Forssk.) Batt. & Trab. Sorghum elegans (K\u00f6rn.) Snowden Sorghum eplicatum Chiov. Sorghum exsertum Snowden Sorghum gambicum Snowden Sorghum giganteum Edgew. Sorghum glabrescens (Steud.) Schweinf. & Asch. Sorghum glycychylum Pass. Sorghum guineense Stapf Sorghum japonicum (Hack.) Roshev. Sorghum margaritiferum Stapf Sorghum medioplicatum Chiov. Sorghum melaleucum Stapf Sorghum melanocarpum Huber Sorghum mellitum Snowden Sorghum membranaceum Chiov. Sorghum miliiforme (Hack.) Snowden Sorghum nankinense Huber Sorghum nervosum Besser ex Schult. & Schult.f. Sorghum nervosum Chiov. nom. illeg. Sorghum nigricans (Ruiz & Pav.) Snowden Sorghum nigrum (Ard.) Roem. & Schult. Sorghum notabile Snowden Sorghum pallidum Chiov. nom. illeg. Sorghum papyrascens Stapf Sorghum rigidum Snowden Sorghum rollii Chiov. Sorghum roxburghii var. hians (Hook.f.) Stapf Sorghum saccharatum Host nom. illeg. Sorghum saccharatum (L.) Pers. nom. illeg. Sorghum sativum (Hack.) Batt. & Trab. Sorghum schimperi (Hack.) Chiov. nom. illeg. Sorghum simulans Snowden Sorghum splendidum (Hack.) Snowden Sorghum subglabrescens (Steud.) Schweinf. & Asch. Sorghum tataricum Huber Sorghum technicum (K\u00f6rn.) Batt. & Trab. Sorghum technicum (K\u00f6rn.) Roshev. Sorghum truchmenorum K.Koch Sorghum usorum Nees Sorghum vulgare Pers. nom. illeg."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "(Part of Poaceae )",
+        "BOP clade Bambusoideae (bamboos) Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice) PACMAD clade Pennisetum (fountaingrasses, pearl millet ) Millets Sorghum (sorghum) Zea (maize)",
+        "BOP clade",
+        "Bambusoideae (bamboos) Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+        "",
+        "Bambusoideae (bamboos)",
+        "",
+        "",
+        "Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+        "Pooideae",
+        "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+        "other grasses",
+        "( fescue , ryegrass )",
+        "",
+        "Triticeae",
+        "Hordeum (barley) Triticum (wheat) Secale (rye)",
+        "",
+        "Hordeum (barley)",
+        "",
+        "",
+        "Triticum (wheat) Secale (rye)",
+        "",
+        "Triticum (wheat)",
+        "",
+        "",
+        "Secale (rye)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Oryza (rice)",
+        "",
+        "",
+        "",
+        "PACMAD clade",
+        "Pennisetum (fountaingrasses, pearl millet ) Millets Sorghum (sorghum) Zea (maize)",
+        "",
+        "Pennisetum (fountaingrasses, pearl millet )",
+        "",
+        "",
+        "Millets Sorghum (sorghum) Zea (maize)",
+        "",
+        "Millets",
+        "",
+        "",
+        "Sorghum (sorghum) Zea (maize)",
+        "",
+        "Sorghum (sorghum)",
+        "",
+        "",
+        "Zea (maize)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "BOP clade",
+          "Bambusoideae (bamboos) Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+          "",
+          "Bambusoideae (bamboos)",
+          "",
+          "",
+          "Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Oryza (rice)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Bambusoideae (bamboos)"
+        ],
+        [
+          "",
+          "Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Oryza (rice)",
+          ""
+        ],
+        [
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "other grasses",
+          "( fescue , ryegrass )"
+        ],
+        [
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Hordeum (barley)"
+        ],
+        [
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          ""
+        ],
+        [
+          "",
+          "Triticum (wheat)"
+        ],
+        [
+          "",
+          "Secale (rye)"
+        ],
+        [
+          "",
+          "Oryza (rice)"
+        ],
+        [
+          "PACMAD clade",
+          "Pennisetum (fountaingrasses, pearl millet ) Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Pennisetum (fountaingrasses, pearl millet )",
+          "",
+          "",
+          "Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Millets",
+          "",
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Pennisetum (fountaingrasses, pearl millet )"
+        ],
+        [
+          "",
+          "Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Millets",
+          "",
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Millets"
+        ],
+        [
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          ""
+        ],
+        [
+          "",
+          "Sorghum (sorghum)"
+        ],
+        [
+          "",
+          "Zea (maize)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "BOP clade",
+        "Bambusoideae (bamboos) Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+        "",
+        "Bambusoideae (bamboos)",
+        "",
+        "",
+        "Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+        "Pooideae",
+        "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+        "other grasses",
+        "( fescue , ryegrass )",
+        "",
+        "Triticeae",
+        "Hordeum (barley) Triticum (wheat) Secale (rye)",
+        "",
+        "Hordeum (barley)",
+        "",
+        "",
+        "Triticum (wheat) Secale (rye)",
+        "",
+        "Triticum (wheat)",
+        "",
+        "",
+        "Secale (rye)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Oryza (rice)",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Bambusoideae (bamboos)"
+        ],
+        [
+          "",
+          "Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Oryza (rice)",
+          ""
+        ],
+        [
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "other grasses",
+          "( fescue , ryegrass )"
+        ],
+        [
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Hordeum (barley)"
+        ],
+        [
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          ""
+        ],
+        [
+          "",
+          "Triticum (wheat)"
+        ],
+        [
+          "",
+          "Secale (rye)"
+        ],
+        [
+          "",
+          "Oryza (rice)"
+        ],
+        [
+          "PACMAD clade",
+          "Pennisetum (fountaingrasses, pearl millet ) Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Pennisetum (fountaingrasses, pearl millet )",
+          "",
+          "",
+          "Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Millets",
+          "",
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Pennisetum (fountaingrasses, pearl millet )"
+        ],
+        [
+          "",
+          "Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Millets",
+          "",
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Millets"
+        ],
+        [
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          ""
+        ],
+        [
+          "",
+          "Sorghum (sorghum)"
+        ],
+        [
+          "",
+          "Zea (maize)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "",
+        "Bambusoideae (bamboos)"
+      ],
+      "rows": [
+        [
+          "",
+          "Pooideae other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye) Oryza (rice)",
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Oryza (rice)",
+          ""
+        ],
+        [
+          "Pooideae",
+          "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "other grasses",
+          "( fescue , ryegrass )",
+          "",
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "other grasses",
+          "( fescue , ryegrass )"
+        ],
+        [
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Hordeum (barley)"
+        ],
+        [
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          ""
+        ],
+        [
+          "",
+          "Triticum (wheat)"
+        ],
+        [
+          "",
+          "Secale (rye)"
+        ],
+        [
+          "",
+          "Oryza (rice)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "Pooideae",
+        "other grasses ( fescue , ryegrass ) Triticeae Hordeum (barley) Triticum (wheat) Secale (rye)",
+        "other grasses",
+        "( fescue , ryegrass )",
+        "",
+        "Triticeae",
+        "Hordeum (barley) Triticum (wheat) Secale (rye)",
+        "",
+        "Hordeum (barley)",
+        "",
+        "",
+        "Triticum (wheat) Secale (rye)",
+        "",
+        "Triticum (wheat)",
+        "",
+        "",
+        "Secale (rye)",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "other grasses",
+          "( fescue , ryegrass )"
+        ],
+        [
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Hordeum (barley)"
+        ],
+        [
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          ""
+        ],
+        [
+          "",
+          "Triticum (wheat)"
+        ],
+        [
+          "",
+          "Secale (rye)"
+        ],
+        [
+          "",
+          "Oryza (rice)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-5",
+      "caption": "",
+      "headers": [
+        "other grasses",
+        "( fescue , ryegrass )"
+      ],
+      "rows": [
+        [
+          "Triticeae",
+          "Hordeum (barley) Triticum (wheat) Secale (rye)",
+          "",
+          "Hordeum (barley)",
+          "",
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Hordeum (barley)"
+        ],
+        [
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          ""
+        ],
+        [
+          "",
+          "Triticum (wheat)"
+        ],
+        [
+          "",
+          "Secale (rye)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "",
+        "Hordeum (barley)"
+      ],
+      "rows": [
+        [
+          "",
+          "Triticum (wheat) Secale (rye)",
+          "",
+          "Triticum (wheat)",
+          "",
+          "",
+          "Secale (rye)",
+          ""
+        ],
+        [
+          "",
+          "Triticum (wheat)"
+        ],
+        [
+          "",
+          "Secale (rye)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-7",
+      "caption": "",
+      "headers": [
+        "",
+        "Triticum (wheat)"
+      ],
+      "rows": [
+        [
+          "",
+          "Secale (rye)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-8",
+      "caption": "",
+      "headers": [
+        "",
+        "Pennisetum (fountaingrasses, pearl millet )"
+      ],
+      "rows": [
+        [
+          "",
+          "Millets Sorghum (sorghum) Zea (maize)",
+          "",
+          "Millets",
+          "",
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Millets"
+        ],
+        [
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          ""
+        ],
+        [
+          "",
+          "Sorghum (sorghum)"
+        ],
+        [
+          "",
+          "Zea (maize)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-9",
+      "caption": "",
+      "headers": [
+        "",
+        "Millets"
+      ],
+      "rows": [
+        [
+          "",
+          "Sorghum (sorghum) Zea (maize)",
+          "",
+          "Sorghum (sorghum)",
+          "",
+          "",
+          "Zea (maize)",
+          ""
+        ],
+        [
+          "",
+          "Sorghum (sorghum)"
+        ],
+        [
+          "",
+          "Zea (maize)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-10",
+      "caption": "",
+      "headers": [
+        "",
+        "Sorghum (sorghum)"
+      ],
+      "rows": [
+        [
+          "",
+          "Zea (maize)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-11",
+      "caption": "Sorghum production 2023, million tonnes",
+      "headers": [
+        "Country",
+        "Volume"
+      ],
+      "rows": [
+        [
+          "United States",
+          "8.1"
+        ],
+        [
+          "Mexico",
+          "4.8"
+        ],
+        [
+          "Ethiopia",
+          "4.0"
+        ],
+        [
+          "India",
+          "3.8"
+        ],
+        [
+          "China",
+          "3.0"
+        ],
+        [
+          "Argentina",
+          "1.6"
+        ],
+        [
+          "World",
+          "57.3"
+        ],
+        [
+          "Source: FAOSTAT , United Nations [ 64 ]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-12",
+      "caption": "Sorghum grain",
+      "headers": [
+        "Nutritional value per 100 g (3.5 oz)"
+      ],
+      "rows": [
+        [
+          "Energy",
+          "1,380 kJ (330 kcal)"
+        ],
+        [
+          "Carbohydrates",
+          "72.1 g"
+        ],
+        [
+          "Sugars",
+          "2.53 g"
+        ],
+        [
+          "Dietary fiber",
+          "6.7 g"
+        ],
+        [
+          "Fat",
+          "3.46 g"
+        ],
+        [
+          "Saturated",
+          "0.61 g"
+        ],
+        [
+          "Monounsaturated",
+          "1.13 g"
+        ],
+        [
+          "Polyunsaturated",
+          "1.56 g"
+        ],
+        [
+          "Protein",
+          "10.6 g"
+        ],
+        [
+          "Vitamins and minerals Vitamins Quantity %DV \u2020 Vitamin A equiv. 0% 0 \u03bcg Thiamine (B 1 ) 28% 0.332 mg Riboflavin (B 2 ) 7% 0.096 mg Niacin (B 3 ) 23% 3.69 mg Pantothenic acid (B 5 ) 7% 0.367 mg Vitamin B 6 26% 0.443 mg Folate (B 9 ) 5% 20 \u03bcg Vitamin C 0% 0 mg Vitamin E 3% 0.5 mg Minerals Quantity %DV \u2020 Calcium 1% 13 mg Copper 32% 0.284 mg Iron 19% 3.36 mg Magnesium 39% 165 mg Manganese 70% 1.6 mg Phosphorus 23% 289 mg Potassium 12% 363 mg Selenium 22% 12.2 \u03bcg Sodium 0% 2 mg Zinc 15% 1.67 mg",
+          "Vitamins and minerals",
+          "",
+          "",
+          "Vitamins",
+          "Quantity %DV \u2020",
+          "Vitamin A equiv.",
+          "0% 0 \u03bcg",
+          "Thiamine (B 1 )",
+          "28% 0.332 mg",
+          "Riboflavin (B 2 )",
+          "7% 0.096 mg",
+          "Niacin (B 3 )",
+          "23% 3.69 mg",
+          "Pantothenic acid (B 5 )",
+          "7% 0.367 mg",
+          "Vitamin B 6",
+          "26% 0.443 mg",
+          "Folate (B 9 )",
+          "5% 20 \u03bcg",
+          "Vitamin C",
+          "0% 0 mg",
+          "Vitamin E",
+          "3% 0.5 mg",
+          "",
+          "",
+          "",
+          "Minerals",
+          "Quantity %DV \u2020",
+          "Calcium",
+          "1% 13 mg",
+          "Copper",
+          "32% 0.284 mg",
+          "Iron",
+          "19% 3.36 mg",
+          "Magnesium",
+          "39% 165 mg",
+          "Manganese",
+          "70% 1.6 mg",
+          "Phosphorus",
+          "23% 289 mg",
+          "Potassium",
+          "12% 363 mg",
+          "Selenium",
+          "22% 12.2 \u03bcg",
+          "Sodium",
+          "0% 2 mg",
+          "Zinc",
+          "15% 1.67 mg"
+        ],
+        [
+          "Vitamins and minerals"
+        ],
+        [
+          "Vitamins",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Vitamin A equiv.",
+          "0% 0 \u03bcg"
+        ],
+        [
+          "Thiamine (B 1 )",
+          "28% 0.332 mg"
+        ],
+        [
+          "Riboflavin (B 2 )",
+          "7% 0.096 mg"
+        ],
+        [
+          "Niacin (B 3 )",
+          "23% 3.69 mg"
+        ],
+        [
+          "Pantothenic acid (B 5 )",
+          "7% 0.367 mg"
+        ],
+        [
+          "Vitamin B 6",
+          "26% 0.443 mg"
+        ],
+        [
+          "Folate (B 9 )",
+          "5% 20 \u03bcg"
+        ],
+        [
+          "Vitamin C",
+          "0% 0 mg"
+        ],
+        [
+          "Vitamin E",
+          "3% 0.5 mg"
+        ],
+        [
+          "Minerals",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Calcium",
+          "1% 13 mg"
+        ],
+        [
+          "Copper",
+          "32% 0.284 mg"
+        ],
+        [
+          "Iron",
+          "19% 3.36 mg"
+        ],
+        [
+          "Magnesium",
+          "39% 165 mg"
+        ],
+        [
+          "Manganese",
+          "70% 1.6 mg"
+        ],
+        [
+          "Phosphorus",
+          "23% 289 mg"
+        ],
+        [
+          "Potassium",
+          "12% 363 mg"
+        ],
+        [
+          "Selenium",
+          "22% 12.2 \u03bcg"
+        ],
+        [
+          "Sodium",
+          "0% 2 mg"
+        ],
+        [
+          "Zinc",
+          "15% 1.67 mg"
+        ],
+        [
+          "Other constituents",
+          "Quantity"
+        ],
+        [
+          "Water",
+          "12.4 g"
+        ],
+        [
+          "Link to USDA Database entry"
+        ],
+        [
+          "\u2020 Percentages estimated using US recommendations for adults, [ 70 ] except for potassium, which is estimated based on expert recommendation from the National Academies . [ 71 ]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-13",
+      "caption": "",
+      "headers": [
+        "Vitamins and minerals"
+      ],
+      "rows": [
+        [
+          "Vitamins",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Vitamin A equiv.",
+          "0% 0 \u03bcg"
+        ],
+        [
+          "Thiamine (B 1 )",
+          "28% 0.332 mg"
+        ],
+        [
+          "Riboflavin (B 2 )",
+          "7% 0.096 mg"
+        ],
+        [
+          "Niacin (B 3 )",
+          "23% 3.69 mg"
+        ],
+        [
+          "Pantothenic acid (B 5 )",
+          "7% 0.367 mg"
+        ],
+        [
+          "Vitamin B 6",
+          "26% 0.443 mg"
+        ],
+        [
+          "Folate (B 9 )",
+          "5% 20 \u03bcg"
+        ],
+        [
+          "Vitamin C",
+          "0% 0 mg"
+        ],
+        [
+          "Vitamin E",
+          "3% 0.5 mg"
+        ],
+        [
+          "Minerals",
+          "Quantity %DV \u2020"
+        ],
+        [
+          "Calcium",
+          "1% 13 mg"
+        ],
+        [
+          "Copper",
+          "32% 0.284 mg"
+        ],
+        [
+          "Iron",
+          "19% 3.36 mg"
+        ],
+        [
+          "Magnesium",
+          "39% 165 mg"
+        ],
+        [
+          "Manganese",
+          "70% 1.6 mg"
+        ],
+        [
+          "Phosphorus",
+          "23% 289 mg"
+        ],
+        [
+          "Potassium",
+          "12% 363 mg"
+        ],
+        [
+          "Selenium",
+          "22% 12.2 \u03bcg"
+        ],
+        [
+          "Sodium",
+          "0% 2 mg"
+        ],
+        [
+          "Zinc",
+          "15% 1.67 mg"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-14",
+      "caption": "",
+      "headers": [
+        "v t e Cereals and pseudocereals"
+      ],
+      "rows": [
+        [
+          "Cereals",
+          "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice",
+          "Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice"
+        ],
+        [
+          "Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Bread Durum Khorasan Red Fife Norin 10 Winter"
+        ],
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Pseudocereals",
+          "Polygonaceae Buckwheat Tartary buckwheat Amaranthaceae Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis Lamiaceae Chia",
+          "Polygonaceae",
+          "Buckwheat Tartary buckwheat",
+          "Amaranthaceae",
+          "Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Lamiaceae",
+          "Chia"
+        ],
+        [
+          "Polygonaceae",
+          "Buckwheat Tartary buckwheat"
+        ],
+        [
+          "Amaranthaceae",
+          "Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Lamiaceae",
+          "Chia"
+        ],
+        [
+          "Emerging grain crops",
+          "Canary grass Drinn Indian ricegrass Intermediate wheatgrass Kangaroo grass Nipa grass Oryza coarctata"
+        ],
+        [
+          "See also Triticeae Founder crops Neolithic Revolution History of agriculture Natufian culture Fertile Crescent Tell Abu Hureyra Tell Aswad Domestication Green Revolution Genetic engineering Selective breeding Crop wild relative"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-15",
+      "caption": "",
+      "headers": [
+        "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice"
+      ],
+      "rows": [
+        [
+          "Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Bread Durum Khorasan Red Fife Norin 10 Winter"
+        ],
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-16",
+      "caption": "",
+      "headers": [
+        "Wheat (Triticum)",
+        "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+        "Bread Durum Khorasan Red Fife Norin 10 Winter",
+        "Farro",
+        "Einkorn Emmer Spelt"
+      ],
+      "rows": [
+        [
+          "Bread Durum Khorasan Red Fife Norin 10 Winter"
+        ],
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-17",
+      "caption": "",
+      "headers": [
+        "Bread Durum Khorasan Red Fife Norin 10 Winter"
+      ],
+      "rows": [
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-18",
+      "caption": "",
+      "headers": [
+        "Polygonaceae",
+        "Buckwheat Tartary buckwheat"
+      ],
+      "rows": [
+        [
+          "Amaranthaceae",
+          "Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Lamiaceae",
+          "Chia"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-20",
+      "caption": "",
+      "headers": [
+        "v t e Bioenergy"
+      ],
+      "rows": [
+        [
+          "Biofuels",
+          "Alcohol Algae Babassu oil Bagasse Biobutanol Biodiesel Biogas Biogasoline Bioliquids Biomass Cooking oil vegetable oil Ethanol cellulosic mixtures Methanol Stover corn Straw Water hyacinth Wood gas"
+        ],
+        [
+          "Energy from foodstock",
+          "Camelina sativa Cassava Coconut oil Grape Hemp Maize Oat Palm oil Potato Rapeseed Rice Sorghum Soybean Sugar beet Sugarcane Sunflower Wheat Yam"
+        ],
+        [
+          "Non-food energy crops",
+          "Arundo Big bluestem Camelina Chinese tallow Duckweed Jatropha curcas Miscanthus \u00d7 giganteus Pongamia pinnata Salicornia Switchgrass Wood"
+        ],
+        [
+          "Technology",
+          "Bioconversion of biomass to mixed alcohol fuels Bioenergy with carbon capture and storage Biomass heating systems Biorefinery Fischer\u2013Tropsch process Industrial biotechnology Pellet fuel mill stove Sabatier reaction Thermal depolymerization"
+        ],
+        [
+          "Concepts",
+          "Agflation Cellulosic ethanol commercialization Energy content of biofuel Energy crop Energy forestry Energy return on investment Food vs. fuel Issues relating to biofuels Sustainable biofuel"
+        ],
+        [
+          "Category"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-21",
+      "caption": "",
+      "headers": [
+        "Taxon identifiers"
+      ],
+      "rows": [
+        [
+          "Sorghum bicolor",
+          "Wikidata : Q332062 Wikispecies : Sorghum bicolor APDB: 126716 APNI : 64510 BioLib: 42731 BOLD : 121138 Calflora: 7690 CoL : 4YC6L Ecocrop : 48747 eFloraSA : Sorghum_bicolor EoL : 1115166 EPPO : SORVU EUNIS : 193458 FloraBase : 616 FNA : 200026333 FoC : 200026333 GBIF : 2705181 GrassBase : imp09507 GRIN : 35092 iNaturalist : 58389 IPA: 6435 IPNI : 422090-1 IRMNG : 10913159 ITIS : 42108 MichiganFlora: 2223 MoBotPF : 285310 NatureServe : 2.158986 NBN : NBNSYS0000034177 NCBI : 4558 NSWFlora : Sorghum~bicolor NTFlora : 4770 NZOR: 279fafa7-9220-4c84-9add-7be47cb91dee NZPCN : 2802 Open Tree of Life : 552986 Plant List : kew-443283 PLANTS : SOBI2 POWO : urn:lsid:ipni.org:names:422090-1 RHS : 161315 TaiCOL : t0058272 Tropicos : 25513454 VASCAN: 7957 WoI: 1976 WFO : wfo-0000900184"
+        ],
+        [
+          "Sorghum bicolor subsp. bicolor",
+          "Wikidata : Q15637225 AoFP: 1888 APDB: 52520 APNI : 141279 BOLD : 672053 Calflora: 9417 GBIF : 6430935 GRIN : 454806 iNaturalist : 181685 ITIS : 524713 NZOR: f40bc65d-39b3-455c-b013-1e6431fa7343 PFI: 7820 PLANTS : SOBIB Tropicos : 25538548 VASCAN: 7956 WisFlora: 6887 WFO : wfo-0001097801"
+        ],
+        [
+          "Holcus bicolor",
+          "Wikidata : Q39584634 APDB: 51972 APNI : 209341 CoL : 3M7Y9 GBIF : 4150327 GRIN : 311959 IPNI : 320040-2 IRMNG : 10202094 ITIS : 514800 NZOR: 063137fd-8ad9-4706-9b3a-29458908221a POWO : urn:lsid:ipni.org:names:320040-2 Tropicos : 25518070 WFO : wfo-0000874467"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-22",
+      "caption": "",
+      "headers": [
+        "Authority control databases"
+      ],
+      "rows": [
+        [
+          "International",
+          "GND"
+        ],
+        [
+          "National",
+          "United States France BnF data Czech Republic Israel"
+        ],
+        [
+          "Other",
+          "Yale LUX"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Sorghum bicolor , commonly called sorghum [ 2 ] ( / \u02c8 s \u0254\u02d0r \u0261 \u0259 m / ) and also known as broomcorn , [ 3 ] great millet , [ 4 ] Indian millet , [ 5 ] Guinea corn , [ 6 ] jowar , [ 7 ] or milo , [ 8 ] is a species in the grass genus Sorghum . It is typically an annual , but some cultivars are perennial . It grows in clumps that may reach over 4 metres (13 ft) high. The grain is 2 to 4 millimetres (0.08 to 0.2 in) in diameter.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "The species originated and was domesticated in Sudan . Native to Africa and the Indian subcontinent , it is cultivated in tropical and subtropical regions for its grain . It is the world's fifth-most important cereal crop. The grain is used as food by humans, while the plant is used for animal feed and ethanol production.",
+      "char_offset": 429
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum is a large stout grass that grows up to 2.4 metres (8 ft) tall. It has large bushy flowerheads or panicles that provide an edible starchy grain with up to 3,000 seeds in each flowerhead. It grows in warm climates worldwide for food and forage. [ 9 ] [ 10 ] [ 11 ] Sorghum is native to Africa and to the Indian Subcontinent, with many cultivated forms. [ 12 ] [ 13 ] [ 14 ] Most production uses annual cultivars, but some wild species of Sorghum are perennial ; the Land Institute is attempting to develop a perennial cultivar for \"repeated, sufficient grain harvests without resowing\". [ 15 ] [ 16 ] The name sorghum derives from Italian sorgo , which in turn most likely comes from 12th century Medieval Latin surgum or suricum . This in turn may be from Latin syricum , meaning \"[grass] of Syria\". [ 17 ]",
+      "char_offset": 754
+    },
+    {
+      "type": "paragraph",
+      "text": "Types include milo, [ 18 ] durra, [ 19 ] imphee, [ 20 ] hegari, [ 21 ] kaffir, feterita, shallu, and kaoliang. [ 22 ]",
+      "char_offset": 1570
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum is closely related to maize and the millets within the PACMAD clade of grasses, and more distantly to the cereals of the BOP clade such as wheat and barley . [ 23 ]",
+      "char_offset": 1689
+    },
+    {
+      "type": "paragraph",
+      "text": "Pennisetum (fountaingrasses, pearl millet )",
+      "char_offset": 1863
+    },
+    {
+      "type": "paragraph",
+      "text": "S. bicolor was domesticated from its wild ancestor more than 5,000 years ago in Eastern Sudan in the area of the Rivers Atbara and Gash . [ 25 ] [ 26 ] [ 27 ] It has been found at an archaeological site near Kassala in eastern Sudan, dating from 3500 to 3000 BCE , and is associated with the Neolithic Butana Group culture. [ 28 ] Sorghum bread from graves in Predynastic Egypt , some 5,100 years ago, is displayed in the Egyptian Museum, Turin , Italy. [ 24 ]",
+      "char_offset": 1908
+    },
+    {
+      "type": "paragraph",
+      "text": "The first species to be domesticated was bicolor ; it had tight husks that had to be removed forcibly. Around 4,000 years ago, this spread to the Indian subcontinent; around 3,000 years ago it reached West Africa. [ 25 ] Four other species evolved through cultivation to have larger grains and to become free-threshing, making harvests easier and more productive. These were caudatum in the Sahel ; durra , most likely in India; guinea in West Africa (later reaching India), and from that race magentiferum that gave rise to the varieties of Southern Africa. [ 25 ] Wetter conditions in parts of the Horn of Africa between about 2,500 and 1,000 years ago supported the expansion of sorghum cultivation and contributed to the development of complex agricultural societies such as Aksum . [ 29 ]",
+      "char_offset": 2370
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Middle Ages, the Arab Agricultural Revolution spread sorghum and other crops from Africa and Asia across the Arab world as far as Al-Andalus in Spain. [ 30 ] Sorghum remained the staple food of the medieval kingdom of Alodia and most Sub-Saharan cultures prior to European colonialism. [ 31 ]",
+      "char_offset": 3165
+    },
+    {
+      "type": "paragraph",
+      "text": "Tall varieties of sorghum with a high sugar content are called sweet sorghum ; these are useful for producing a sugar-rich syrup and as forage. [ 32 ] [ 33 ] Sweet sorghum was important to the sugar trade in the 19th century. [ 34 ] The price of sugar was rising because of decreased production in the British West Indies and more demand for confectionery and fruit preserves , and the United States was actively searching for a sugar plant that could be produced in northern states. The \"Chinese sugar-cane\", sweet sorghum, was viewed as a plant that would be productive in the West Indies. [ 35 ]",
+      "char_offset": 3466
+    },
+    {
+      "type": "paragraph",
+      "text": "Most varieties of sorghum are drought - and heat-tolerant, nitrogen -efficient, [ 36 ] and are grown particularly in arid and semi-arid regions where the grain is one of the staples for poor and rural people. These varieties provide forage in many tropical regions. S. bicolor is a food crop in Africa, Central America , and South Asia , and is the fifth most common cereal crop grown in the world. [ 37 ] [ 38 ] It is usually grown without fertilizers or other inputs by small-holder farmers in developing countries. [ 39 ] They benefit from sorghum's ability to compete effectively with weeds, especially when planted in narrow rows. Sorghum actively suppresses weeds by producing sorgoleone, an alkylresorcinol . [ 40 ]",
+      "char_offset": 4066
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum grows in a wide range of temperatures. It can tolerate high altitude and toxic soils, and can recover growth after some drought. [ 32 ] Optimum growth temperature range is 12\u201334 \u00b0C (54\u201393 \u00b0F), and the growing season lasts for around 115\u2013140 days. [ 41 ] It can grow in a wide range of soils, such as heavy clay to sandy soils with the pH tolerance ranging from 5.0 to 8.5. [ 42 ] It requires an arable field that has been left fallow for at least two years or where crop rotation with legumes has taken place in the previous year. [ 43 ] Diversified 2- or 4-year crop rotation can improve sorghum yield, making it more resilient to inconsistent growth conditions. [ 44 ] Nutrients required by sorghum are comparable to other cereal grain crops with nitrogen, phosphorus, and potassium needed for growth. [ 45 ]",
+      "char_offset": 4790
+    },
+    {
+      "type": "paragraph",
+      "text": "The International Crops Research Institute for the Semi-Arid Tropics has improved sorghum using traditional genetic improvement and integrated genetic and natural resources management practices. [ 46 ] Some 194 improved cultivars are planted worldwide. [ 47 ] In India , increases in sorghum productivity resulting from improved cultivars have freed up 7 million hectares (17 million acres) of land, enabling farmers to diversify into high-income cash crops and boost their livelihoods. [ 48 ] Sorghum is used primarily as poultry feed, and also as cattle feed and in brewing. [ 49 ]",
+      "char_offset": 5610
+    },
+    {
+      "type": "paragraph",
+      "text": "Insect damage is a major threat to sorghum plants. Over 150 species damage crop plants at different stages of development, resulting in significant biomass loss. [ 50 ] Stored sorghum grain is attacked by insect pests such as the lesser grain borer beetle. [ 51 ] Sorghum is a host of the parasitic plant Striga hermonthica , purple witchweed that can reduce production. [ 52 ] Sorghum is subject to a variety of plant pathogens . The fungus Colletotrichum sublineolum causes anthracnose . [ 53 ] The toxic ergot fungus attacks the grain, risking harm to humans and livestock. [ 54 ] Sorghum produces chitinases as defensive compounds against fungal diseases . Transgenesis of additional chitinases increases the crop's disease resistance. [ 55 ]",
+      "char_offset": 6195
+    },
+    {
+      "type": "paragraph",
+      "text": "The genome of S. bicolor was sequenced between 2005 and 2007. [ 56 ] [ 57 ] It is generally considered diploid and contains 20 chromosomes, [ 58 ] however, there is evidence to suggest a tetraploid origin for S. bicolor . [ 59 ] The genome size is approximately 800 Mbp . [ 60 ]",
+      "char_offset": 6943
+    },
+    {
+      "type": "paragraph",
+      "text": "Paterson et al. , 2009 provides a genome assembly of 739 megabase . The most commonly used genome database is SorGSD maintained by Luo et al. , 2016. A gene expression atlas is available from Shakoor et al. , 2014 with 27,577 genes . For molecular breeding (or other purposes) an SNP array has been created by Bekele et al. , 2013, a 3K SNP Infinium from Illumina, Inc. [ 61 ]",
+      "char_offset": 7223
+    },
+    {
+      "type": "paragraph",
+      "text": "Agrobacterium transformation can be used on sorghum, as shown in a 2018 report of such a transformation system. [ 62 ] A 2013 study developed and validated an SNP array for molecular breeding . [ 61 ] [ 63 ]",
+      "char_offset": 7601
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2023, world production of sorghum was 57 million tonnes , led by the United States with 14% of the total (table). Mexico, Ethiopia , and India were secondary producers. [ 64 ]",
+      "char_offset": 7810
+    },
+    {
+      "type": "paragraph",
+      "text": "It is the world's fifth-most important cereal crop after rice , wheat, maize, and barley. [ 65 ]",
+      "char_offset": 7990
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2013, China began purchasing American sorghum as a complementary livestock feed to its domestically grown maize. It imported around $1 billion worth per year until April 2018, when it imposed retaliatory tariffs as part of a trade war . [ 66 ] By 2020, the tariffs had been waived, and trade volumes increased [ 67 ] before declining again as China began buying sorghum from other countries. [ 68 ] As of 2020, China is the world's largest sorghum importer, importing more than all other countries combined. [ 67 ] Mexico also accounts for 7% of global sorghum production. [ 69 ]",
+      "char_offset": 8088
+    },
+    {
+      "type": "paragraph",
+      "text": "The grain is edible and nutritious. It can be eaten raw when young and milky, but has to be boiled or ground into flour when mature. [ 72 ]",
+      "char_offset": 8672
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum grain is 72% carbohydrates including 7% dietary fiber, 11% protein, 3% fat , and 12% water (table). In a reference amount of 100 grams (3.5 oz), sorghum grain supplies 329 calories and rich contents (20% or more of the Daily Value , DV) of several B vitamins and dietary minerals (table). [ 73 ]",
+      "char_offset": 8813
+    },
+    {
+      "type": "paragraph",
+      "text": "In the early stages of plant growth, some sorghum species may contain levels of hydrogen cyanide , hordenine , and nitrates lethal to grazing animals. [ 74 ] Plants stressed by drought or heat can also contain toxic levels of cyanide and nitrates at later stages in growth. [ 75 ]",
+      "char_offset": 9118
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum is widely used for food and animal fodder. It is also used to make alcoholic beverages . [ 10 ] It can be made into couscous , porridge, or flatbreads such as Indian j\u014d\u1e37ada ro\u1e6d\u1e6di or tortillas; and it can be burst in hot oil to make a popcorn smaller than that of maize. Since it does not contain gluten, it can be used in gluten-free diets . [ 76 ]",
+      "char_offset": 9400
+    },
+    {
+      "type": "paragraph",
+      "text": "In South Africa, characteristically sour malwa beer is made from sorghum or millet. The process involves souring the mashed grain with lactic acid bacteria , followed by fermenting by the wild yeasts that were on the grain. [ 77 ] In China and Taiwan, sorghum is one of the main materials of Kaoliang liquor , a type of the colourless distilled alcoholic drink baijiu . [ 78 ] [ 79 ] In Uganda , sorghum is an ingredient used in angodic , which is a traditional food of the Karamojong people . [ 80 ]",
+      "char_offset": 9758
+    },
+    {
+      "type": "paragraph",
+      "text": "In countries including the US, the stalks of sweet sorghum varieties are crushed in a cane juicer to extract the sweet molasses -like juice. The juice is sold as syrup, [ 81 ] [ 82 ] [ 83 ] and used as a feedstock to make biofuel. [ 84 ]",
+      "char_offset": 10260
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum can be used to produce fuel ethanol as an alternative to maize . The energy ratio for the production of ethanol is similar to that of sugarcane , and much higher than that of maize. [ 85 ] Extracted carbohydrates can readily be fermented into ethanol because of their simple sugar structure. Residuals contain enough energy to be burned to power the ethanol processing facilities used to produce the fuel. [ 86 ] As of 2018, production costs (including price of produce, [ 87 ] transport and processing costs) are competitive with maize, [ 88 ] while sorghum has a lower nitrogen fertilizer requirement than maize. [ 89 ] To turn it into fuel ethanol, sorghum juice is concentrated into syrup for long term storage, then fermented in a batch fermentation process. [ 90 ]",
+      "char_offset": 10499
+    },
+    {
+      "type": "paragraph",
+      "text": "The stalk of sweet sorghum varieties, called sorgo or sorgho and taller than those grown for grain, can be used as forage or silage and to produce ethanol. [ 91 ]",
+      "char_offset": 11279
+    },
+    {
+      "type": "paragraph",
+      "text": "In Nigeria , the pulverized red leaf-sheaths of sorghum have been used to dye leather, while in Algeria , sorghum has been used to dye wool. [ 92 ]",
+      "char_offset": 11443
+    },
+    {
+      "type": "paragraph",
+      "text": "In India, the panicle stalks are used as bristles for brooms . [ 93 ]",
+      "char_offset": 11592
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorghum seeds and bagasse have the potential to produce lactic acid via fermentation which can be used to make polylactic acid , a biodegradable thermoplastic resin. [ 94 ]",
+      "char_offset": 11663
+    },
+    {
+      "type": "paragraph",
+      "text": "In Australia, sorghum is personified as a spirit among the Dagoman people of Northern Territory , as well as being used for food; the local species are S. intrans and S. plumosum . [ 95 ]",
+      "char_offset": 11837
+    },
+    {
+      "type": "paragraph",
+      "text": "In Korea, the origin tale \" Brother and sister who became the Sun and Moon \" is also called \"The reason sorghum is red\". [ 96 ] In the tale, a tiger who is chasing a brother and sister follows them up a rotten rope as they climb into the sky, and become the sun and moon. The rope breaks, and the tiger falls to its death, impaling itself on a sorghum stalk, which becomes red with its blood. [ 97 ]",
+      "char_offset": 12026
+    },
+    {
+      "type": "paragraph",
+      "text": "In Northeastern Italy in the early modern period , stalks of fennel were used by Benandanti visionaries, or out-of-body travelers, of the Friuli district to fight off Maledanti, who fought with sticks of sorghum, and were thought to threaten crops and people. [ 98 ]",
+      "char_offset": 12427
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-2634bc89bd01a16e"
+}

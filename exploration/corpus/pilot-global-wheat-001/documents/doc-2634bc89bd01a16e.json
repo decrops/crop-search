@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-2634bc89bd01a16e",
+  "canonical_url": "https://en.wikipedia.org/wiki/Sorghum",
+  "source_url": "https://en.wikipedia.org/wiki/Sorghum",
+  "doi": "",
+  "title": "Sorghum - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "2634bc89bd01a16e2d233fa325c291fae56e5b5e5424d791ec5710af8e71b1e8",
+  "content_hash": "18d5d8826c5caf62be75e08a90e996cc38d87e2882d73d591d365241125ed159",
+  "text_length": 12660,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 6647231
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/028-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

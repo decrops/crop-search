@@ -1,0 +1,1359 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Discovery",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Chemistry",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Synthesis",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Impurities",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Formulations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Mode of action",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Uses",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Genetically modified crops",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 2,
+      "heading": "Environmental fate",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Residues in food products",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Toxicity",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Glyphosate alone",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 4,
+      "heading": "Humans",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 4,
+      "heading": "Cancer",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 4,
+      "heading": "Other mammals",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 4,
+      "heading": "Aquatic and marine animals",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 4,
+      "heading": "Antimicrobial activity",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 4,
+      "heading": "Soil biota",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 4,
+      "heading": "Endocrine disruption",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 4,
+      "heading": "Effect on plant health",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Glyphosate-based formulations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 4,
+      "heading": "Human",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 4,
+      "heading": "Aquatic fauna",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 4,
+      "heading": "Genetic damage",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Government and organization positions",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 4,
+      "heading": "European Food Safety Authority",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 4,
+      "heading": "International Agency for Research on Cancer",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 4,
+      "heading": "US Environmental Protection Agency",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 4,
+      "heading": "California Office of Environmental Health Hazard Assessment",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 4,
+      "heading": "European Chemicals Agency",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "Effects of use",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Emergence of resistant weeds",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 4,
+      "heading": "Palmer amaranth",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 4,
+      "heading": "Conyza species",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 4,
+      "heading": "Ryegrass",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 4,
+      "heading": "Johnson grass",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Monarch butterfly populations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "Legal status",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Europe",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 4,
+      "heading": "European Union",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 4,
+      "heading": "National level regulation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Other countries",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "Legal cases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 3,
+      "heading": "Lawsuits claiming liability for cancer",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 3,
+      "heading": "Advertising controversies",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 3,
+      "heading": "Trade dumping allegations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 2,
+      "heading": "Misinformation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 2,
+      "heading": "External links",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "Glyphosate",
+      "headers": [
+        "Idealised skeletal formula of the uncharged molecule"
+      ],
+      "rows": [
+        [
+          "Ball-and-stick model of the zwitterion (charged form), based on the crystal structure [ 1 ] [ 2 ]"
+        ],
+        [
+          "Names"
+        ],
+        [
+          "Pronunciation",
+          "/ \u02c8 \u0261 l \u026a f \u0259 s e\u026a t , \u02c8 \u0261 l a\u026a f \u0259 -/ , [ 3 ] / \u0261 l a\u026a \u02c8 f \u0252 s e\u026a t / [ 4 ] [ 5 ]"
+        ],
+        [
+          "IUPAC name N -(Phosphonomethyl)glycine"
+        ],
+        [
+          "Systematic IUPAC name [(Phosphonomethyl)amino]acetic acid"
+        ],
+        [
+          "Identifiers"
+        ],
+        [
+          "CAS Number",
+          "1071-83-6 (free acid) Y 38641-94-0 (isopropylammonium salt) N 70393-85-0 (sesquisodium salt) N 81591-81-3 ( trimethylsulfonium salt) N"
+        ],
+        [
+          "3D model ( JSmol )",
+          "Interactive image"
+        ],
+        [
+          "Beilstein Reference",
+          "2045054"
+        ],
+        [
+          "ChEBI",
+          "CHEBI:27744 Y"
+        ],
+        [
+          "ChEMBL",
+          "ChEMBL95764 Y"
+        ],
+        [
+          "ChemSpider",
+          "3376 Y"
+        ],
+        [
+          "DrugBank",
+          "DB04539"
+        ],
+        [
+          "ECHA InfoCard",
+          "100.012.726"
+        ],
+        [
+          "EC Number",
+          "213-997-4"
+        ],
+        [
+          "Gmelin Reference",
+          "279222"
+        ],
+        [
+          "KEGG",
+          "C01705 Y"
+        ],
+        [
+          "PubChem CID",
+          "3496"
+        ],
+        [
+          "RTECS number",
+          "MC1075000"
+        ],
+        [
+          "UNII",
+          "4632WW1X5A Y"
+        ],
+        [
+          "UN number",
+          "3077 2783"
+        ],
+        [
+          "CompTox Dashboard ( EPA )",
+          "DTXSID1024122"
+        ],
+        [
+          "InChI InChI=1S/C3H8NO5P/c5-3(6)1-4-2-10(7,8)9/h4H,1-2H2,(H,5,6)(H2,7,8,9) Y Key: XDDAORKBJWWYJS-UHFFFAOYSA-N Y InChI=1/C3H8NO5P/c5-3(6)1-4-2-10(7,8)9/h4H,1-2H2,(H,5,6)(H2,7,8,9) Key: XDDAORKBJWWYJS-UHFFFAOYAE"
+        ],
+        [
+          "SMILES O=C(O)CNCP(=O)(O)O"
+        ],
+        [
+          "Properties [ 6 ]"
+        ],
+        [
+          "Chemical formula",
+          "C 3 H 8 N O 5 P"
+        ],
+        [
+          "Molar mass",
+          "169.073 g\u00b7mol \u22121"
+        ],
+        [
+          "Appearance",
+          "white crystalline powder"
+        ],
+        [
+          "Density",
+          "1.704 (20 \u00b0C)"
+        ],
+        [
+          "Melting point",
+          "184.5 \u00b0C (364.1 \u00b0F; 457.6 K)"
+        ],
+        [
+          "Boiling point",
+          "187 \u00b0C (369 \u00b0F; 460 K) decomposes"
+        ],
+        [
+          "Solubility in water",
+          "1.01 g/100 mL (20 \u00b0C)"
+        ],
+        [
+          "log P",
+          "\u22122.8"
+        ],
+        [
+          "Acidity (p K a )",
+          "<2, 2.6, 5.6, 10.6"
+        ],
+        [
+          "Hazards [ 6 ] [ 7 ]"
+        ],
+        [
+          "GHS labelling :"
+        ],
+        [
+          "Pictograms",
+          ""
+        ],
+        [
+          "Signal word",
+          "Danger"
+        ],
+        [
+          "Hazard statements",
+          "H318 , H411"
+        ],
+        [
+          "Precautionary statements",
+          "P273 , P280 , P305+P351+P338 , P310 , P501"
+        ],
+        [
+          "Flash point",
+          "Non-flammable"
+        ],
+        [
+          "Safety data sheet (SDS)",
+          "InChem MSDS"
+        ],
+        [
+          "Except where otherwise noted, data are given for materials in their standard state (at 25 \u00b0C [77 \u00b0F], 100 kPa). N verify ( what is Y N ?) Infobox references"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "v t e Pest control : herbicides"
+      ],
+      "rows": [
+        [
+          "Anilides / anilines",
+          "acetochlor alachlor asulam benfluralin butachlor diethatyl diflufenican dimethenamid flamprop metazachlor metolachlor oryzalin pendimethalin pretilachlor propachlor propanil trifluralin"
+        ],
+        [
+          "Aromatic acids",
+          "aminopyralid chloramben clopyralid dicamba picloram pyrithiobac quinclorac quinmerac"
+        ],
+        [
+          "Arsenicals",
+          "cacodylic acid copper arsenate DSMA MSMA"
+        ],
+        [
+          "HPPD inhbitors",
+          "flurochloridone isoxaflutole leptospermone mesotrione nitisinone sethoxydim sulcotrione"
+        ],
+        [
+          "Nitriles",
+          "DCBN bromoxynil ioxynil"
+        ],
+        [
+          "Organophosphorus",
+          "bensulide bialaphos ethephon fosamine glufosinate glyphosate piperophos"
+        ],
+        [
+          "Phenoxy",
+          "Auxins 2,4-D 2,4-DB dichlorprop fenoprop MCPA MCPB mecoprop 2,4,5-T ACCase inhibitors FOP herbicides chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop DIM herbicides alloxydim clethodim cycloxydim butroxydim sethoxydim",
+          "Auxins",
+          "2,4-D 2,4-DB dichlorprop fenoprop MCPA MCPB mecoprop 2,4,5-T",
+          "ACCase inhibitors",
+          "FOP herbicides chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop DIM herbicides alloxydim clethodim cycloxydim butroxydim sethoxydim",
+          "FOP herbicides",
+          "chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop",
+          "DIM herbicides",
+          "alloxydim clethodim cycloxydim butroxydim sethoxydim"
+        ],
+        [
+          "Auxins",
+          "2,4-D 2,4-DB dichlorprop fenoprop MCPA MCPB mecoprop 2,4,5-T"
+        ],
+        [
+          "ACCase inhibitors",
+          "FOP herbicides chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop DIM herbicides alloxydim clethodim cycloxydim butroxydim sethoxydim",
+          "FOP herbicides",
+          "chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop",
+          "DIM herbicides",
+          "alloxydim clethodim cycloxydim butroxydim sethoxydim"
+        ],
+        [
+          "FOP herbicides",
+          "chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop"
+        ],
+        [
+          "DIM herbicides",
+          "alloxydim clethodim cycloxydim butroxydim sethoxydim"
+        ],
+        [
+          "Protox inhibitors",
+          "Nitrophenyl ethers acifluorfen aclonifen bifenox fluorodifen fomesafen lactofen nitrofen oxyfluorfen Pyrimidinediones butafenacil saflufenacil Triazolinones carfentrazone sulfentrazone",
+          "Nitrophenyl ethers",
+          "acifluorfen aclonifen bifenox fluorodifen fomesafen lactofen nitrofen oxyfluorfen",
+          "Pyrimidinediones",
+          "butafenacil saflufenacil",
+          "Triazolinones",
+          "carfentrazone sulfentrazone"
+        ],
+        [
+          "Nitrophenyl ethers",
+          "acifluorfen aclonifen bifenox fluorodifen fomesafen lactofen nitrofen oxyfluorfen"
+        ],
+        [
+          "Pyrimidinediones",
+          "butafenacil saflufenacil"
+        ],
+        [
+          "Triazolinones",
+          "carfentrazone sulfentrazone"
+        ],
+        [
+          "Pyridines",
+          "dithiopyr fluroxypyr imazapyr thiazopyr triclopyr"
+        ],
+        [
+          "Quaternary",
+          "Photosystem I inhibitors cyperquat diquat paraquat",
+          "Photosystem I inhibitors",
+          "cyperquat diquat paraquat"
+        ],
+        [
+          "Photosystem I inhibitors",
+          "cyperquat diquat paraquat"
+        ],
+        [
+          "Thiocarbamates",
+          "Benthiocarb Butylate S-Ethyl dipropylthiocarbamate prosulfocarb"
+        ],
+        [
+          "Triazines",
+          "cellulose biosynthesis inhibitors indaziflam Photosystem II inhibitors ametryn atrazine cyanazine hexazinone metamitron metribuzin prometon prometryn propazine simazine simetryn terbuthylazine terbutryn",
+          "cellulose biosynthesis inhibitors",
+          "indaziflam",
+          "Photosystem II inhibitors",
+          "ametryn atrazine cyanazine hexazinone metamitron metribuzin prometon prometryn propazine simazine simetryn terbuthylazine terbutryn"
+        ],
+        [
+          "cellulose biosynthesis inhibitors",
+          "indaziflam"
+        ],
+        [
+          "Photosystem II inhibitors",
+          "ametryn atrazine cyanazine hexazinone metamitron metribuzin prometon prometryn propazine simazine simetryn terbuthylazine terbutryn"
+        ],
+        [
+          "Ureas",
+          "Photosystem II inhibitors chlortoluron DCMU difenoxuron isoproturon linuron monuron monolinuron tebuthiuron ALS inhibitors chlorsulfuron flazasulfuron metsulfuron-methyl sulfometuron methyl tribenuron",
+          "Photosystem II inhibitors",
+          "chlortoluron DCMU difenoxuron isoproturon linuron monuron monolinuron tebuthiuron",
+          "ALS inhibitors",
+          "chlorsulfuron flazasulfuron metsulfuron-methyl sulfometuron methyl tribenuron"
+        ],
+        [
+          "Photosystem II inhibitors",
+          "chlortoluron DCMU difenoxuron isoproturon linuron monuron monolinuron tebuthiuron"
+        ],
+        [
+          "ALS inhibitors",
+          "chlorsulfuron flazasulfuron metsulfuron-methyl sulfometuron methyl tribenuron"
+        ],
+        [
+          "Others",
+          "3-AT aminocyclopyrachlor Bentazon clomazone dinoseb dinoterb juglone methazole metam sodium pyribenzoxim"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "Auxins",
+        "2,4-D 2,4-DB dichlorprop fenoprop MCPA MCPB mecoprop 2,4,5-T"
+      ],
+      "rows": [
+        [
+          "ACCase inhibitors",
+          "FOP herbicides chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop DIM herbicides alloxydim clethodim cycloxydim butroxydim sethoxydim",
+          "FOP herbicides",
+          "chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop",
+          "DIM herbicides",
+          "alloxydim clethodim cycloxydim butroxydim sethoxydim"
+        ],
+        [
+          "FOP herbicides",
+          "chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop"
+        ],
+        [
+          "DIM herbicides",
+          "alloxydim clethodim cycloxydim butroxydim sethoxydim"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "FOP herbicides",
+        "chlorazifop cyhalofop diclofop fenoxaprop fluazifop haloxyfop quizalofop"
+      ],
+      "rows": [
+        [
+          "DIM herbicides",
+          "alloxydim clethodim cycloxydim butroxydim sethoxydim"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "Nitrophenyl ethers",
+        "acifluorfen aclonifen bifenox fluorodifen fomesafen lactofen nitrofen oxyfluorfen"
+      ],
+      "rows": [
+        [
+          "Pyrimidinediones",
+          "butafenacil saflufenacil"
+        ],
+        [
+          "Triazolinones",
+          "carfentrazone sulfentrazone"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "cellulose biosynthesis inhibitors",
+        "indaziflam"
+      ],
+      "rows": [
+        [
+          "Photosystem II inhibitors",
+          "ametryn atrazine cyanazine hexazinone metamitron metribuzin prometon prometryn propazine simazine simetryn terbuthylazine terbutryn"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-7",
+      "caption": "",
+      "headers": [
+        "Photosystem II inhibitors",
+        "chlortoluron DCMU difenoxuron isoproturon linuron monuron monolinuron tebuthiuron"
+      ],
+      "rows": [
+        [
+          "ALS inhibitors",
+          "chlorsulfuron flazasulfuron metsulfuron-methyl sulfometuron methyl tribenuron"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-8",
+      "caption": "",
+      "headers": [
+        "Authority control databases"
+      ],
+      "rows": [
+        [
+          "International",
+          "GND"
+        ],
+        [
+          "National",
+          "United States France BnF data Spain Israel"
+        ],
+        [
+          "Other",
+          "IdRef Yale LUX"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Glyphosate ( IUPAC name : N -(phosphonomethyl)glycine ) is a broad-spectrum systemic herbicide and crop desiccant . It is an organophosphorus compound , specifically a phosphonate , which acts by inhibiting the plant enzyme 5-enolpyruvylshikimate-3-phosphate synthase (EPSP). Glyphosate-based herbicides (GBHs) are used to kill weeds , especially annual broadleaf weeds and grasses that compete with crops . American agricultural company Monsanto brought it to market for agricultural use in 1974 under the trade name Roundup . Monsanto's last commercially relevant United States patent expired in 2000.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Farmers quickly adopted glyphosate for agricultural weed control, especially after Monsanto introduced glyphosate-resistant Roundup Ready crops , enabling farmers to kill weeds without killing their crops. In 2007, glyphosate was the most used herbicide in the United States' agricultural sector and the second-most used (after 2,4-D ) in home and garden, government and industry, and commercial applications. [ 8 ] From the late 1970s to 2016, there was a 100-fold increase in the frequency and volume of application of GBHs worldwide, with further increases expected in the future.",
+      "char_offset": 605
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is absorbed through foliage, and minimally through roots, and from there translocated to growing points. It inhibits EPSP synthase , a plant enzyme involved in the synthesis of three aromatic amino acids : tyrosine , tryptophan , and phenylalanine . It is therefore effective only on actively growing plants and is not effective as a pre-emergence herbicide . Crops have been genetically engineered to be tolerant of glyphosate (e.g. Roundup Ready soybean , the first Roundup Ready crop, also created by Monsanto), which allows farmers to use glyphosate as a post-emergence herbicide against weeds.",
+      "char_offset": 1190
+    },
+    {
+      "type": "paragraph",
+      "text": "While glyphosate and formulations such as Roundup have been approved by regulatory bodies worldwide, concerns about their effects on humans and the environment have persisted. [ 9 ] [ 10 ] A number of regulatory and scholarly reviews have evaluated the relative toxicity of glyphosate as an herbicide. The WHO and FAO Joint committee on pesticide residues issued a report in 2016 stating the use of glyphosate formulations does not necessarily constitute a health risk, giving an acceptable daily intake limit of 1 milligram per kilogram of body weight per day for chronic toxicity. [ 11 ]",
+      "char_offset": 1801
+    },
+    {
+      "type": "paragraph",
+      "text": "The consensus among national pesticide regulatory agencies is that labeled uses of glyphosate are unlikely to be carcinogenic to humans. [ 12 ] [ 13 ] In March 2015, the World Health Organization 's International Agency for Research on Cancer (IARC) classified glyphosate as \"probably carcinogenic in humans\" ( category 2A ) based on epidemiological studies, animal studies, and in vitro studies. [ 10 ] [ 14 ] [ 15 ] [ 16 ] In contrast, the European Food Safety Authority concluded in November 2015 that \"the substance is unlikely to be genotoxic (i.e. damaging to DNA ) or to pose a carcinogenic threat to humans\", later clarifying that while carcinogenic glyphosate-containing formulations may exist, studies that \"look solely at the active substance glyphosate do not show this effect\". [ 17 ] [ 18 ] In 2017, the European Chemicals Agency (ECHA) classified glyphosate as causing serious eye damage and as toxic to aquatic life but did not find evidence implicating it as a carcinogen, a mutagen, toxic to reproduction, nor toxic to specific organs. [ 19 ]",
+      "char_offset": 2392
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate was first synthesized in 1950 by Swiss chemist Henry Martin, who worked for the Swiss company Cilag . The work was never published. [ 20 ] : 1 Early studies found it to be a weak chemical chelating agent . [ 21 ] [ 22 ]",
+      "char_offset": 3454
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate was independently discovered in the United States at Monsanto in 1970. About 100 derivatives of aminomethylphosphonic acid had been prepared as potential water-softening agents. Two were found to have weak herbicidal activity, and John E. Franz , a chemist at Monsanto, was asked to try to make analogs with stronger herbicidal activity. Glyphosate was the third analog he made. [ 20 ] : 1\u20132 [ 23 ] [ 24 ] Franz received the National Medal of Technology of the United States in 1987 and the Perkin Medal for Applied Chemistry in 1990 for his discoveries. [ 25 ] [ 26 ] [ 27 ]",
+      "char_offset": 3686
+    },
+    {
+      "type": "paragraph",
+      "text": "Monsanto developed and patented the use of glyphosate to kill weeds in the early 1970s and first brought it to market in 1974 under the Roundup brandname. [ 28 ] [ 29 ] While its initial patent [ 30 ] expired in 1991, Monsanto retained exclusive rights in the United States until its patent [ 31 ] on the isopropylamine salt expired in September 2000. [ 32 ]",
+      "char_offset": 4274
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2008, scientists at the United States Department of Agriculture Agricultural Research Service (USDA ARS) described glyphosate as a \"virtually ideal\" herbicide. [ 28 ] In 2010 Powles stated: \"glyphosate is a one in a 100-year discovery that is as important for reliable global food production as penicillin is for battling disease.\" [ 33 ]",
+      "char_offset": 4634
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is a derivative of aminophosphonic acid and the amino acid glycine . Both the phosphonic acid and carboxylic acid moieties can be ionised (deprotonated) and the amine group can be protonated. Consequently the substance exists as a series of rapidly interchanging zwitterions . It was originally synthesized by the reaction of chloromethyl phosphonate with glycine. Its name is a contraction of its constituents: gly cine and a phos phon ate . [ 34 ]",
+      "char_offset": 4977
+    },
+    {
+      "type": "paragraph",
+      "text": "The main degradation path for glyphosate is hydrolysis to aminomethylphosphonic acid . [ 35 ]",
+      "char_offset": 5439
+    },
+    {
+      "type": "paragraph",
+      "text": "Two main approaches are used to synthesize glyphosate industrially, both of which proceed via the Kabachnik\u2013Fields reaction . The first is to react iminodiacetic acid and formaldehyde with phosphorous acid (sometimes formed in situ from phosphorus trichloride using the water generated by the Mannich reaction of the first two reagents). Decarboxylation of the hydrophosphonylation product gives the desired glyphosate product. Iminodiacetic acid is usually prepared on-site by various methods depending on reagent availability. [ 20 ]",
+      "char_offset": 5534
+    },
+    {
+      "type": "paragraph",
+      "text": "The second uses glycine in place of iminodiacetic acid. This avoids the need for decarboxylation but requires more careful control of stoichiometry , as the primary amine can react with any excess formaldehyde to form bishydroxymethylglycine, which must be hydrolysed during the work-up to give the desired product. [ 20 ]",
+      "char_offset": 6071
+    },
+    {
+      "type": "paragraph",
+      "text": "This synthetic approach is responsible for a substantial portion of the production of glyphosate in China, with considerable work having gone into recycling the triethylamine and methanol solvents. [ 20 ] Progress has also been made in attempting to eliminate the need for triethylamine altogether. [ 36 ]",
+      "char_offset": 6395
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical grade glyphosate is a white powder that, according to FAO specification, should contain not less than 95% glyphosate. Formaldehyde , classified as a known human carcinogen, [ 37 ] [ 38 ] and N -nitrosoglyphosate , have been identified as toxicologically relevant impurities. [ 39 ] The FAO specification limits the formaldehyde concentration to a maximum of 1.3 g/kg glyphosate. N -Nitrosoglyphosate, \"belonging to a group of impurities of particular concern as they can be activated to genotoxic carcinogens\", [ 40 ] should not exceed 1 ppm. [ 39 ]",
+      "char_offset": 6702
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is marketed in the United States and worldwide by many agrochemical companies in diverse strengths and with diverse adjuvants , under dozens of tradenames. [ 41 ] [ 42 ] [ 43 ] [ 44 ] As of 2010, more than 750 glyphosate products were on the market. [ 45 ] In 2012, about half of the total global consumption of glyphosate by volume was for agricultural crops, [ 46 ] with forestry comprising another important market. [ 47 ] Asia and the Pacific was the largest and fastest growing regional market. [ 46 ] As of 2014, Chinese manufacturers collectively are the world's largest producers of glyphosate and its precursors [ 48 ] and account for about 30% of global exports. [ 46 ] Key manufacturers include Anhui Huaxing Chemical Industry Company, BASF , Bayer CropScience (which also acquired the maker of glyphosate, Monsanto ), Dow AgroSciences , DuPont , Jiangsu Good Harvest-Weien Agrochemical Company, Nantong Jiangshan Agrochemical & Chemicals Co., Nufarm , SinoHarvest, Syngenta , and Zhejiang Xinan Chemical Industrial Group Company. [ 46 ]",
+      "char_offset": 7263
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is an acid molecule, so it is formulated as a salt for packaging and handling. Various salt formulations include isopropylamine, diammonium, monoammonium, or potassium as the counterion . The active ingredient of the Monsanto herbicides is the isopropylamine salt of glyphosate. Another important ingredient in some formulations is the surfactant polyethoxylated tallow amine (POEA) . Some brands include more than one salt. Some companies report their product as acid equivalent (ae) of glyphosate acid, or some report it as active ingredient (ai) of glyphosate plus the salt, and others report both. Given that each salt has its own molecular weight, the acid equivalent is a more accurate method of expressing and comparing concentrations.",
+      "char_offset": 8324
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate itself is not easily absorbed into plant leaves, and requires a \"wetter\" for proper absorption, by making sure the herbicide spreads out in evenly sized droplets. The most common wetter is tallow amine ethoxylate , typically 10\u201312% of a concentrated glyphosate formulation by weight. An Australian study also found alkyl amine ethoxylate being used, in amounts as low as 3%. Where comparable 12% tallow formulations achieved 87% weed control, the alkyl formulations achieved only 76%, and a formulation with 14% tallow achieved 97% control. All were applied at the same amount of glyphosate per acre on ryegrass weeds, and similar results were obtained on wild radish . [ 49 ]",
+      "char_offset": 9079
+    },
+    {
+      "type": "paragraph",
+      "text": "Adjuvant loading refers to the amount of adjuvant [ 50 ] [ 51 ] already added to the glyphosate product. Fully loaded products contain all the necessary adjuvants, including surfactant ; some contain no adjuvant system, while other products contain only a limited amount of adjuvant (minimal or partial loading) and additional surfactants must be added to the spray tank before application. [ 52 ]",
+      "char_offset": 9768
+    },
+    {
+      "type": "paragraph",
+      "text": "Products are supplied most commonly in formulations of 120, 240, 360, 480, and 680 g/L of active ingredient. The most common formulation in agriculture is 360 g/L, either alone or with added cationic surfactants . [ 42 ]",
+      "char_offset": 10167
+    },
+    {
+      "type": "paragraph",
+      "text": "For 360 grams per litre (0.013 lb/cu in) formulations, European regulations allow applications of up to 12 litres per hectare (1.1 imp gal/acre) for control of perennial weeds such as couch grass . More commonly, rates of 3 litres per hectare (0.27 imp gal/acre) are practiced for control of annual weeds between crops. [ 53 ]",
+      "char_offset": 10389
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate interferes with the shikimate pathway , which produces the aromatic amino acids phenylalanine , tyrosine and tryptophan in plants and microorganisms [ 54 ] \u2013 but does not exist in the genome of animals, including humans. [ 55 ] [ 21 ] It blocks this pathway by inhibiting the enzyme 5-enolpyruvylshikimate-3-phosphate synthase (EPSPS), which catalyzes the reaction of shikimate -3-phosphate (S3P) and phosphoenolpyruvate to form 5-enolpyruvyl-shikimate-3-phosphate (EPSP). [ 56 ] Glyphosate is absorbed through foliage and minimally through roots, meaning that it is only effective on actively growing plants and cannot prevent seeds from germinating. [ 57 ] [ 58 ] After application, glyphosate is readily transported around the plant to growing roots and leaves and this systemic activity is important for its effectiveness. [ 28 ] [ 20 ] Inhibiting the enzyme causes shikimate to accumulate in plant tissues and diverts energy and resources away from other processes, eventually killing the plant. While growth stops within hours of application, it takes several days for the leaves to begin turning yellow . [ 59 ] Glyphosate may chelate Co 2+ , which contributes to its mode of action. [ 60 ] [ 61 ] [ 62 ]",
+      "char_offset": 10717
+    },
+    {
+      "type": "paragraph",
+      "text": "Under normal circumstances, EPSP is dephosphorylated to chorismate , an essential precursor for the amino acids mentioned above. [ 63 ] These amino acids are used in protein synthesis and to produce secondary metabolites such as folates , ubiquinones , and naphthoquinone .",
+      "char_offset": 11941
+    },
+    {
+      "type": "paragraph",
+      "text": "X-ray crystallographic studies of glyphosate and EPSPS show that glyphosate functions by occupying the binding site of the phosphoenolpyruvate, mimicking an intermediate state of the ternary enzyme\u2013substrate complex. [ 64 ] [ 65 ] Glyphosate inhibits the EPSPS enzymes of diverse species of plants and microbes, although rates vary. [ 66 ] [ 67 ]",
+      "char_offset": 12216
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is effective in killing a wide variety of plants, including grasses and broadleaf and woody plants . By volume, it is one of the most widely used herbicides. [ 57 ] In 2007, glyphosate was the most used herbicide in the United States agricultural sector, with 180 to 185 million pounds (82,000 to 84,000 tonnes) applied, the second-most used in home and garden with 5 to 8 million pounds (2,300 to 3,600 tonnes) and 13 to 15 million pounds (5,900 to 6,800 tonnes) in non-agricultural settings. [ 8 ] It is commonly used for agriculture , horticulture , viticulture , and silviculture purposes, as well as garden maintenance (including home use). It has a relatively small effect on some clover species and morning glory . [ 68 ]",
+      "char_offset": 12564
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate and related herbicides are often used in invasive species eradication and habitat restoration , especially to enhance native plant establishment in prairie ecosystems. The controlled application is usually combined with a selective herbicide and traditional methods of weed eradication such as mulching to achieve an optimal effect. [ 69 ]",
+      "char_offset": 13305
+    },
+    {
+      "type": "paragraph",
+      "text": "In many cities, glyphosate is sprayed along the sidewalks and streets, as well as crevices in between pavement where weeds often grow. However, up to 24% of glyphosate applied to hard surfaces can be run off by water. [ 70 ] Glyphosate contamination of surface water is attributed to urban and agricultural use. [ 71 ] Glyphosate is used to clear railroad tracks and get rid of unwanted aquatic vegetation. [ 58 ] Since 1994, glyphosate has been used in aerial spraying in Colombia in coca eradication programs; Colombia announced in May 2015 that by October, it would cease using glyphosate in these programs due to concerns about human toxicity of the chemical. [ 72 ]",
+      "char_offset": 13657
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is also used for crop desiccation to increase harvest yield and uniformity. [ 58 ] Glyphosate itself is not a chemical desiccant ; rather crop desiccants are so named because application just before harvest kills the crop plants so that the food crop dries from normal environmental conditions (\"dry-down\") more quickly and evenly. [ 73 ] [ 74 ] Because glyphosate is systemic, excess residue levels can persist in plants due to incorrect application and this may render the crop unfit for sale. [ 75 ] When applied appropriately, it can promote useful effects. In sugarcane, for example, glyphosate application increases sucrose concentration before harvest. [ 76 ] In grain crops (wheat, barley, oats), uniformly dried crops do not have to be windrowed (swathed and dried) prior to harvest, but can easily be straight-cut and harvested. This saves the farmer time and money, which is important in northern regions where the growing season is short, and it enhances grain storage when the grain has a lower and more uniform moisture content. [ 58 ] [ 77 ] [ 78 ]",
+      "char_offset": 14329
+    },
+    {
+      "type": "paragraph",
+      "text": "Some micro-organisms have a version of 5-enolpyruvylshikimate-3-phosphate synthase (EPSPS) resistant to glyphosate inhibition. A version of the enzyme that was both resistant to glyphosate and that was still efficient enough to drive adequate plant growth was identified by Monsanto scientists after much trial and error in an Agrobacterium strain called CP4, which was found surviving in a waste-fed column at a glyphosate production facility. [ 67 ] [ 79 ] [ 80 ] : 56 This CP4 EPSPS gene was cloned and transfected into soybeans. In 1996, genetically modified soybeans were made commercially available. [ 81 ] Current glyphosate-resistant crops include soy, maize (corn), canola , alfalfa , sugar beets , and cotton , with wheat still under development.",
+      "char_offset": 15405
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2023, 91% of corn, 95% of soybeans, and 94% of cotton produced in the United States were from strains that were genetically modified to be tolerant to multiple herbicides, including dicamba , glufosinate , and glyphosate. [ 82 ]",
+      "char_offset": 16163
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate has four ionizable sites, with pKa values of 2.0, 2.6, 5.6 and 10.6. [ 83 ] Therefore, it is a zwitterion in aqueous solutions and is expected to exist almost entirely in zwitterionic forms in the environment. Zwitterions generally adsorb more strongly to soils containing organic carbon and clay than their neutral counterparts. [ 84 ] Glyphosate strongly sorbs onto soil minerals, and, with the exception of colloid-facilitated transport , its soluble residues are expected to be poorly mobile in the free porewater of soils. The spatial extent of ground and surface water pollution is therefore considered to be relatively limited. [ 85 ] Glyphosate is readily degraded by soil microbes to aminomethylphosphonic acid (AMPA, which like glyphosate strongly adsorbs to soil solids and is thus unlikely to leach to groundwater). Though both glyphosate and AMPA are commonly detected in water bodies, a portion of the AMPA detected may actually be the result of degradation of detergents and other aminophosphonates rather than degradation of glyphosate. [ 86 ] The proportion of AMPA from non-glyphosate sources is claimed to be higher in Europe compared to USA. [ 87 ] Glyphosate does have the potential to contaminate surface waters due to its aquatic use patterns and through erosion, as it adsorbs to colloidal soil particles suspended in runoff . Detection in surface waters (particularly downstream from agricultural uses) has been reported as both broad and frequent by the United States Geological Survey (USGS) researchers, [ 88 ] although other similar research found equal frequencies of detection in urban-dominated small streams. [ 89 ] Rain events can trigger dissolved glyphosate loss in transport-prone soils. [ 90 ] The mechanism of glyphosate sorption to soil is similar to that of phosphate fertilizers, the presence of which can reduce glyphosate sorption. [ 91 ] Phosphate fertilizers are subject to release from sediments into water bodies under anaerobic conditions, and similar release can also occur with glyphosate, though significant impact of glyphosate release from sediments has not been established. [ 92 ] Limited leaching can occur after high rainfall after application. If glyphosate reaches surface water, it is not broken down readily by water or sunlight. [ 93 ] [ 85 ]",
+      "char_offset": 16396
+    },
+    {
+      "type": "paragraph",
+      "text": "The reported half-life of glyphosate in soil varies from two to 197 days with a typical field half-life of 47 days being suggested. [ 57 ] Soil and climate conditions affect glyphosate's persistence in soil. The median half-life of glyphosate in water varies from a few days to 91 days. [ 57 ] At a site in Texas, half-life was as little as three days. A site in Iowa had a half-life of 141.9 days. [ 94 ] The glyphosate metabolite AMPA has been found in Swedish forest soils up to two years after a glyphosate application. In this case, the persistence of AMPA was attributed to the soil being frozen for most of the year. [ 95 ] Glyphosate adsorption to soil, and later release from soil, varies depending on the kind of soil. [ 96 ] [ 97 ] Glyphosate is generally less persistent in water than in soil, with 12- to 60-day persistence observed in Canadian ponds, although persistence of over a year has been recorded in the sediments of American ponds. [ 93 ] The half-life of glyphosate in water is between 12 days and 10 weeks. [ 98 ]",
+      "char_offset": 18714
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the National Pesticide Information Center fact sheet, glyphosate is not included in compounds tested for by the Food and Drug Administration's Pesticide Residue Monitoring Program, nor in the United States Department of Agriculture's Pesticide Data Program. [ 57 ] The U.S. has determined the acceptable daily intake of glyphosate at 1.75 milligrams per kilogram of body weight per day (mg/kg/bw/day) while the European Union has set it at 0.5. [ 99 ]",
+      "char_offset": 19754
+    },
+    {
+      "type": "paragraph",
+      "text": "Pesticide residue controls carried out by EU Member States in 2016 analysed 6,761 samples of food products for glyphosate residues. 3.6% of the samples contained quantifiable glyphosate residue levels with 19 samples (0.28%) exceeding the European maximum residue levels (MRLs), which included six samples of honey and other apicultural products (MRL=0.05 mg/kg) and eleven samples of buckwheat and other pseudo\u2010cereals (MRL=0.1 mg/kg). Glyphosate residues below the European MRLs were most frequently found in dry lentils, linseeds, soya beans, dry peas, tea, buckwheat, barley, wheat and rye. [ 100 ] In Canada, a survey of 7,955 samples of food found that 42.3% contained detectable quantities of glyphosate and only 0.6% contained a level higher than the Canadian MRL of 0.1 mg/kg for most foods and 4 mg/kg for beans and chickpeas. Of the products that exceeded MRLs, one third were organic products. Health Canada concluded based on the analysis \"that there was no long-term health risk to Canadian consumers from exposure to the levels of glyphosate\". [ 101 ]",
+      "char_offset": 20220
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate is the active ingredient in herbicide formulations containing it. However, in addition to glyphosate salts, commercial formulations of glyphosate contain additives (known as adjuvants) such as surfactants , which vary in nature and concentration. Surfactants such as polyethoxylated tallow amine (POEA) are added to glyphosate to enable it to wet the leaves and penetrate the cuticle of the plants. The presence of surfactants can significantly alter the toxicity of glyphosate-based herbicides. [ 102 ]",
+      "char_offset": 21288
+    },
+    {
+      "type": "paragraph",
+      "text": "The acute oral toxicity for mammals is low, [ 103 ] but death has been reported after deliberate overdose of concentrated formulations. [ 104 ] The surfactants in glyphosate formulations can increase the relative acute toxicity of the formulation. [ 105 ] [ 106 ] Glyphosate has less acute toxicity than 94% of herbicides in USDA data, [ 107 ] and less acute toxicity than household chemicals such as table salt and vinegar . [ 108 ]",
+      "char_offset": 21804
+    },
+    {
+      "type": "paragraph",
+      "text": "In a 2017 risk assessment, the European Chemicals Agency (ECHA) wrote: \"There is very limited information on skin irritation in humans. Where skin irritation has been reported, it is unclear whether it is related to glyphosate or co-formulants in glyphosate-containing herbicide formulations.\" The ECHA concluded that available human data was insufficient to support classification for skin corrosion or irritation. [ 109 ] Inhalation is a minor route of exposure, but spray mist may cause oral or nasal discomfort, an unpleasant taste in the mouth, or tingling and irritation in the throat. Eye exposure may lead to mild conjunctivitis. Superficial corneal injury is possible if irrigation is delayed or inadequate. [ 105 ]",
+      "char_offset": 22239
+    },
+    {
+      "type": "paragraph",
+      "text": "There is broad agreement among national pesticide regulatory agencies and scientific organizations that labeled uses of glyphosate have demonstrated no evidence of human carcinogenicity. [ 12 ] [ 110 ] The Joint FAO/WHO Meeting on Pesticide Residues (JMPR), [ 111 ] the European Commission , the Canadian Pest Management Regulatory Agency , the Australian Pesticides and Veterinary Medicines Authority [ 112 ] and the German Federal Institute for Risk Assessment [ 113 ] have concluded that there is no evidence that glyphosate poses a carcinogenic or genotoxic risk to humans. The United States Environmental Protection Agency (EPA) has classified glyphosate as \"not likely to be carcinogenic to humans\" and stated its classification was \"consistent with other international expert panels and regulatory authorities.\" [ 114 ] [ 115 ] [ 116 ] One international scientific organization, the International Agency for Research on Cancer , classified glyphosate in Group 2A , \"probably carcinogenic to humans\" in 2015. [ 16 ] [ 14 ] [ 117 ]",
+      "char_offset": 22965
+    },
+    {
+      "type": "paragraph",
+      "text": "As of 2020 [update] , the evidence for long-term exposure to glyphosate increasing the risk of human cancer remains inconclusive. [ 118 ] There is weak evidence human cancer risk might increase as a result of occupational exposure to large amounts of glyphosate, such as in agricultural work, but no good evidence of such a risk from home use, such as in domestic gardening. [ 119 ] [ 120 ]",
+      "char_offset": 24003
+    },
+    {
+      "type": "paragraph",
+      "text": "Although some small studies have suggested an association between glyphosate and non-Hodgkin lymphoma , subsequent work confirmed the likelihood this work suffered from bias, and the association could not be demonstrated in more robust studies. [ 121 ] [ 122 ] [ 123 ]",
+      "char_offset": 24395
+    },
+    {
+      "type": "paragraph",
+      "text": "Among mammals, glyphosate is considered to have \"low to very low toxicity\". The LD 50 of glyphosate is 5,000 mg/kg for rats, 10,000 mg/kg in mice and 3,530 mg/kg in goats. The acute dermal LD 50 in rabbits is greater than 2,000 mg/kg. Indications of glyphosate toxicity in animals typically appear within 30 to 120 minutes following ingestion of a large enough dose, and include initial excitability and tachycardia , ataxia , depression, and bradycardia , although severe toxicity can develop into collapse and convulsions. [ 57 ]",
+      "char_offset": 24665
+    },
+    {
+      "type": "paragraph",
+      "text": "A review of unpublished short-term rabbit-feeding studies reported severe toxicity effects at 150 mg/kg/day and \" no observed adverse effect level \" doses ranging from 50 to 200 mg/kg/day. [ 124 ] In reproductive toxicity studies performed in rats and rabbits, no adverse maternal or offspring effects were seen at doses below 175\u2013293 mg/kg/day. [ 57 ]",
+      "char_offset": 25198
+    },
+    {
+      "type": "paragraph",
+      "text": "In many freshwater invertebrates, glyphosate has a 48-hour LC 50 ranging from 55 to 780 ppm. The 96-hour LC 50 is 281 ppm for grass shrimp ( Palaemonetas vulgaris ) and 934 ppm for fiddler crabs ( Uca pagilator ). These values make glyphosate \"slightly toxic to practically non-toxic\". [ 57 ] A 2024 meta-analysis of 121 studies determined that glyphosate and glyphosate-based herbicides effects on animals were generally sublethal, with relatively larger effects in aquatic and marine species, though it also found widespread publication bias that may inflate the reported magnitude of these effects. [ 125 ]",
+      "char_offset": 25552
+    },
+    {
+      "type": "paragraph",
+      "text": "The antimicrobial activity of glyphosate has been described in the microbiology literature since its discovery in 1970 and the description of glyphosate's mechanism of action in 1972. Efficacy was described for numerous bacteria and fungi. [ 126 ] Glyphosate can control the growth of apicomplexan parasites, such as Toxoplasma gondii , Plasmodium falciparum (malaria), and Cryptosporidium parvum , and has been considered an antimicrobial agent in mammals. [ 127 ] Inhibition can occur with some Rhizobium species important for soybean nitrogen fixation, especially under moisture stress. [ 128 ]",
+      "char_offset": 26163
+    },
+    {
+      "type": "paragraph",
+      "text": "When glyphosate comes into contact with the soil, it can be bound to soil particles , thereby slowing its degradation. [ 93 ] [ 129 ] Glyphosate and its degradation product, aminomethylphosphonic acid are considered to be much more benign toxicologically and environmentally than most of the herbicides replaced by glyphosate. [ 130 ] A 2016 meta-analysis concluded that at typical application rates glyphosate had no effect on soil microbial biomass or respiration. [ 131 ] Some species of earthworms are affected, some are not. Some avoid treated soil. [ 132 ]",
+      "char_offset": 26762
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2007, the EPA selected glyphosate for further screening through its Endocrine Disruptor Screening Program (EDSP). Selection for this program is based on a compound's prevalence of use and does not imply particular suspicion of endocrine activity. [ 133 ] On June 29, 2015, the EPA released the Weight of Evidence Conclusions of the EDSP Tier 1 screening for glyphosate, recommending that glyphosate not be considered for Tier 2 testing. The Weight of Evidence conclusion stated \"...there was no convincing evidence of potential interaction with the estrogen , androgen or thyroid pathways.\" [ 134 ] A review of the evidence by the European Food Safety Authority published in September 2017 showed conclusions similar to those of the EPA report. [ 135 ]",
+      "char_offset": 27326
+    },
+    {
+      "type": "paragraph",
+      "text": "Some studies have found causal relationships between glyphosate and increased or decreased disease resistance. [ 136 ] Exposure to glyphosate has been shown to change the species composition of endophytic bacteria in plant hosts, which is highly variable. [ 137 ]",
+      "char_offset": 28083
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate-based formulations may contain a number of adjuvants , the identities of which may be proprietary. [ 138 ] Surfactants are used in herbicide formulations as wetting agents, to maximize coverage and aid penetration of the herbicide(s) through plant leaves. As agricultural spray adjuvants, surfactants may be pre-mixed into commercial formulations or they may be purchased separately and mixed on-site. [ 139 ]",
+      "char_offset": 28348
+    },
+    {
+      "type": "paragraph",
+      "text": "Polyethoxylated tallow amine (POEA) is a surfactant used in the original Roundup formulation and was commonly used in 2015. [ 140 ] The percentage of POEA varies. A 1997 US government report said that Roundup is 15% POEA while Roundup Pro is 14.5%. [ 141 ] Since POEA is more toxic to fish and amphibians than glyphosate alone, POEA is not allowed in aquatic formulations. [ 142 ] [ 141 ] [ 143 ] As of 2000, at least 58 studies existed on the effects of Roundup on a range of organisms. [ 94 ] This review concluded that \"...for terrestrial uses of Roundup minimal acute and chronic risk was predicted for potentially exposed non-target organisms\". [ 144 ]",
+      "char_offset": 28770
+    },
+    {
+      "type": "paragraph",
+      "text": "As of April 2017, the Canadian government' Pest Management Regulatory Agency stated that glyphosate was \"the most widely used herbicide in Canada\" and that approved glyphosate formulations in the country contained less than [ 145 ] of 20% polyethoxylated tallow amines (POEA surfactants) by weight. The agency found no risk to humans or the environment at that 20% limit. [ 145 ]",
+      "char_offset": 29429
+    },
+    {
+      "type": "paragraph",
+      "text": "Overall, there is no conclusive evidence on glyphosate's effect on human health. [ 146 ] [ 147 ]",
+      "char_offset": 29810
+    },
+    {
+      "type": "paragraph",
+      "text": "Acute toxicity and chronic toxicity are dose-related. Skin exposure to ready-to-use concentrated glyphosate formulations can cause irritation, and photocontact dermatitis has been occasionally reported. These effects are probably due to the preservative benzisothiazolin-3-one . Severe skin burns are very rare. [ 105 ] Inhalation is a minor route of exposure, but spray mist may cause oral or nasal discomfort, an unpleasant taste in the mouth, or tingling and irritation in the throat. Eye exposure may lead to mild conjunctivitis. Superficial corneal injury is possible if irrigation is delayed or inadequate. [ 105 ] Death has been reported after deliberate overdose. [ 105 ] [ 104 ] Ingestion of Roundup ranging from 85 to 200 ml (of 41% solution) has resulted in death within hours of ingestion, although it has also been ingested in quantities as large as 500 ml with only mild or moderate symptoms. [ 148 ] Adult consumption of more than 85 ml of concentrated product can lead to corrosive esophageal burns and kidney or liver damage. More severe cases cause \"respiratory distress, impaired consciousness, pulmonary edema , infiltration on chest X-ray, shock, arrhythmias, renal failure requiring haemodialysis, metabolic acidosis, and hyperkalaemia\" and death is often preceded by bradycardia and ventricular arrhythmias . [ 105 ] While the surfactants in formulations generally do not increase the toxicity of glyphosate itself, it is likely that they contribute to its acute toxicity. [ 105 ]",
+      "char_offset": 29908
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate products for aquatic use generally do not use surfactants, and aquatic formulations do not use POEA due to aquatic organism toxicity. [ 142 ] Due to the presence of POEA, glyphosate formulations only allowed for terrestrial use are more toxic for amphibians and fish than glyphosate alone. [ 142 ] [ 141 ] [ 143 ] The half-life of POEA (21\u201342 days) is longer than that for glyphosate (7\u201314 days) in aquatic environments. [ 149 ] Aquatic organism exposure risk to terrestrial formulations with POEA is limited to drift or temporary water pockets where concentrations would be much lower than label rates. [ 142 ]",
+      "char_offset": 31413
+    },
+    {
+      "type": "paragraph",
+      "text": "Some researchers have suggested the toxicity effects of pesticides on amphibians may differ from those of other aquatic fauna because of their lifestyle; amphibians may be more susceptible to the toxic effects of pesticides because they often prefer to breed in shallow, lentic , or ephemeral pools. These habitats do not necessarily constitute formal water-bodies and can contain higher concentrations of pesticide compared to larger water-bodies. [ 143 ] [ 150 ] Studies in a variety of amphibians have shown the toxicity of GBFs containing POEA to amphibian larvae. These effects include interference with gill morphology and mortality from either the loss of osmotic stability or asphyxiation . At sub-lethal concentrations, exposure to POEA or glyphosate/POEA formulations have been associated with delayed development, accelerated development, reduced size at metamorphosis , developmental malformations of the tail, mouth, eye and head, histological indications of intersex and symptoms of oxidative stress. [ 143 ] Glyphosate-based formulations can cause oxidative stress in bullfrog tadpoles. [ 16 ]",
+      "char_offset": 32037
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2003 study of various formulations of glyphosate found, \"[the] risk assessments based on estimated and measured concentrations of glyphosate that would result from its use for the control of undesirable plants in wetlands and over-water situations showed that the risk to aquatic organisms is negligible or small at application rates less than 4 kg/ha and only slightly greater at application rates of 8 kg/ha.\" [ 151 ]",
+      "char_offset": 33147
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2013 meta-analysis reviewed the available data related to potential impacts of glyphosate-based herbicides on amphibians. According to the authors, the use of glyphosate-based pesticides cannot be considered the major cause of amphibian decline, the bulk of which occurred prior to the widespread use of glyphosate or in pristine tropical areas with minimal glyphosate exposure. The authors recommended further study of per-species and per-development-stage chronic toxicity, of environmental glyphosate levels, and ongoing analysis of data relevant to determining what if any role glyphosate might be playing in worldwide amphibian decline, and suggest including amphibians in standardized test batteries. [ 152 ]",
+      "char_offset": 33570
+    },
+    {
+      "type": "paragraph",
+      "text": "The IARC monograph noted that glyphosate-based formulations can cause DNA strand breaks in various taxa of animals in vitro . [ 16 ]",
+      "char_offset": 34288
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2013 systematic review by the German Institute for Risk Assessment (BfR) examined more than 1000 [ 153 ] epidemiological studies, animal studies, and in vitro studies. It found that \"no classification and labelling for carcinogenicity is warranted\" and did not recommend a carcinogen classification of either 1A or 1B. [ 154 ] : 34\u201337, 139 It provided the review to EFSA in January 2014, which published it in December 2014. [ 154 ] [ 155 ] [ 156 ] In November 2015, EFSA published its conclusion in the Renewal Assessment Report (RAR), stating it was \"unlikely to pose a carcinogenic hazard to humans\". [ 157 ] The EU was largely informed by this report when it made its decision on the use of glyphosate in November 2017. [ 158 ]",
+      "char_offset": 34422
+    },
+    {
+      "type": "paragraph",
+      "text": "EFSA's decision and the BfR report were criticized in an open letter published by 96 scientists in November 2015 saying that the BfR report failed to adhere to accepted scientific principles of open and transparent procedures. [ 159 ] [ 160 ] The BfR report included unpublished data, lacked authorship, omitted references, and did not disclose conflict-of-interest information. [ 160 ]",
+      "char_offset": 35157
+    },
+    {
+      "type": "paragraph",
+      "text": "In July 2023, EFSA re-evaluated after three years of assessment the putative impact of glyphosate on the health of humans, animals and the environment. As a result, no critical areas of concern were identified that would otherwise prevent glyphosate's registration renewal in the EU . [ 161 ] [ 162 ] [ 163 ]",
+      "char_offset": 35545
+    },
+    {
+      "type": "paragraph",
+      "text": "In March 2015, the International Agency for Research on Cancer (IARC), an intergovernmental agency forming part of the World Health Organization of the United Nations , published a summary of their forthcoming monograph on glyphosate, and classified glyphosate as \"probably carcinogenic in humans\" (category 2A) based on epidemiological studies, animal studies, and in vitro studies. It noted that there was \"limited evidence\" of carcinogenicity in humans for non-Hodgkin lymphoma . [ 10 ] [ 14 ] [ 15 ] [ 16 ] [ 164 ] The IARC classifies substances for their carcinogenic potential, and \"a few positive findings can be enough to declare a hazard, even if there are negative studies, as well.\" Unlike the BfR, it does not conduct a risk assessment , weighing benefits against risk. [ 165 ]",
+      "char_offset": 35855
+    },
+    {
+      "type": "paragraph",
+      "text": "The BfR responded that IARC reviewed only a selection of what the BfR had reviewed earlier, and argued that other studies, including a cohort study called Agricultural Health Study , do not support the classification. [ 166 ] The IARC report did not include unpublished studies, including one completed by the IARC panel leader. [ 167 ] The agency's international protocol dictates that only published studies be used in classifications of carcinogenicity, [ 168 ] since national regulatory agencies including the EPA have allowed agrochemical corporations to conduct their own unpublished research, which may be biased in support of their profit motives. [ 169 ]",
+      "char_offset": 36646
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2017 review done by personnel from EFSA and BfR argued that the differences between the IARC's and EFSA's conclusions regarding glyphosate and cancer were due to differences in their evaluation of the available evidence. The review concluded that \"Two complementary exposure assessments ... suggests that actual exposure levels are below\" the reference values identified by the EFSA \"and do not represent a public concern.\" [ 12 ]",
+      "char_offset": 37311
+    },
+    {
+      "type": "paragraph",
+      "text": "In contrast, a 2016 analysis by Christopher Portier, a scientist advising the IARC in the assessment of glyphosate and advocate for its classification as possibly carcinogenic, concluded that in the EFSA's Renewal Assessment Report , \"almost no weight is given to studies from the published literature and there is an over-reliance on non-publicly available industry-provided studies using a limited set of assays that define the minimum data necessary for the marketing of a pesticide\", arguing that the IARC's evaluation of probably carcinogenic to humans \"accurately reflects the results of published scientific literature on glyphosate\". [ 170 ]",
+      "char_offset": 37745
+    },
+    {
+      "type": "paragraph",
+      "text": "In October 2017, an article in The Times revealed that Portier had received consulting contracts with two law firm associations representing alleged glyphosate cancer victims that included a payment of US$160,000 to Portier. [ 171 ] [ 172 ] The IARC final report was also found to have changed compared to an interim report, through the removal of text saying certain studies had found glyphosate was not carcinogenic in that study's context, and through strengthening a conclusion of \"limited evidence of animal carcinogenicity,\" to \"sufficient evidence of animal carcinogenicity\". [ 173 ]",
+      "char_offset": 38396
+    },
+    {
+      "type": "paragraph",
+      "text": "In a 1993 review, the EPA , considered glyphosate to be noncarcinogenic and relatively low in dermal and oral acute toxicity. [ 93 ] The EPA considered a \"worst case\" dietary risk model of an individual eating a lifetime of food derived entirely from glyphosate-sprayed fields with residues at their maximum levels. This model indicated that no adverse health effects would be expected under such conditions. [ 93 ] In 2015, the EPA initiated a review of glyphosate's toxicity and in 2016 reported that glyphosate is likely not carcinogenic. [ 10 ] [ 174 ] In August 2019, the EPA announced that it no longer allowed labels claiming glyphosate is a carcinogen, as those claims would \"not meet the labeling requirements of the Federal Insecticide, Fungicide, and Rodenticide Act \" and misinform the public. [ 175 ]",
+      "char_offset": 38988
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2017, evidence collected in a lawsuit brought against Monsanto by cancer patients revealed company emails that appeared to show a friendly relationship with a senior EPA official. [ 176 ]",
+      "char_offset": 39803
+    },
+    {
+      "type": "paragraph",
+      "text": "Monsanto called the IARC report biased and said it wanted the report to be retracted. [ 177 ] In 2017, internal documents from Monsanto were made public by lawyers pursuing litigation against the company, [ 178 ] who used the term \"Monsanto papers\" to describe the documents. [ 179 ] The documents indicated Monsanto had planned a public relations effort to discredit the IARC report, and had engaged Henry Miller to write a 2015 opinion piece in Forbes Magazine challenging the report. Miller did not reveal the connection to Forbes, and according to The New York Times , when Monsanto asked him if he was interested in writing such an article, he replied \"I would be if I could start from a high-quality draft\" provided by the company. [ 180 ] Once this became public, Forbes removed his blog from their site.",
+      "char_offset": 39995
+    },
+    {
+      "type": "paragraph",
+      "text": "Two journalists from Le Monde won the 2018 European Press Prize for a series of articles on the documents, also titled Monsanto Papers . Their reporting described, among other things, Monsanto's lawyers' letters demanding that IARC scientists turn over documents relating to Monograph 112 , which contained the IARC finding that glyphosate was a \"probable carcinogen\"; several of the scientists condemned these letters as intimidating. [ 181 ]",
+      "char_offset": 40808
+    },
+    {
+      "type": "paragraph",
+      "text": "In March 2015, the California Office of Environmental Health Hazard Assessment (OEHHA) announced plans to have glyphosate listed as a known carcinogen based on the IARC assessment. In 2016, Monsanto started a case against OEHHA and its acting director, Lauren Zeise, [ 182 ] but lost the suit in March 2017. [ 183 ]",
+      "char_offset": 41253
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate was listed as \"known to the State of California to cause cancer\" in 2017, requiring warning labels under Proposition 65 . [ 184 ] In February 2018, as part of an ongoing case, an injunction was issued prohibiting California from enforcing carcinogenicity labeling requirements for glyphosate until the case was resolved. The injunction stated that arguments by a US District Court Judge for the Eastern District of California \"[do] not change the fact that the overwhelming majority of agencies that that have examined glyphosate have determined it is not a cancer risk.\" [ 185 ] In August 2019, the EPA also said it no longer allowed labels claiming glyphosate is a carcinogen, as those claims would \"not meet the labeling requirements of the Federal Insecticide, Fungicide, and Rodenticide Act \" and misinform the public. [ 175 ]",
+      "char_offset": 41570
+    },
+    {
+      "type": "paragraph",
+      "text": "On March 15, 2017, the European Chemicals Agency (ECHA) announced recommendations proceeding from a risk assessment of glyphosate performed by ECHA's Committee for Risk Assessment (RAC). Their recommendations maintained the current classification of glyphosate as a substance causing serious eye damage and as a substance toxic to aquatic life. However, the RAC did not find evidence implicating glyphosate to be a carcinogen, a mutagen, toxic to reproduction, nor toxic to specific organs. [ 186 ] In 2022, the agency reiterated these findings in a later review and stated on cancer risk that, \"Based on a wide-ranging review of scientific evidence, the committee again concludes that classifying glyphosate as a carcinogen is not justified.\" [ 187 ]",
+      "char_offset": 42414
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 1990s, no glyphosate-resistant weeds were known to exist. [ 188 ] In 2005 a slow upward trend began, resistant weeds appearing rarely around the world. [ 189 ] Another inflection point occurred in 2011 and resistance accelerated globally. [ 189 ] By 2014, glyphosate-resistant weeds dominated herbicide-resistance research. At that time, 23 glyphosate-resistant species were found in 18 countries. [ 190 ] \"Resistance evolves after a weed population has been subjected to intense selection pressure in the form of repeated use of a single herbicide.\" [ 188 ] [ 191 ]",
+      "char_offset": 43167
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Ian Heap, a weed specialist, who completed his PhD on resistance to multiple herbicides in annual ryegrass ( Lolium rigidum ) in 1988 [ 192 ] \u2013 the first case of an herbicide-resistant weed in Australia [ 193 ] \u2013 by 2014 Lolium rigidum was the \"world's worst herbicide-resistant weed\" with instances in \"12 countries, 11 sites of action, 9 cropping regimens\" and affecting \"over 2 million hectares.\" [ 190 ] Annual ryegrass has been known to be resistant to herbicides since 1982. The first documented case of glyphosate-resistant L. rigidum was reported in Australia in 1996 near Orange, New South Wales . [ 194 ] [ 195 ] [ 196 ] In 2006, farmers associations were reporting 107 biotypes of weeds within 63 weed species with herbicide resistance. [ 197 ] In 2009, Canada identified its first resistant weed, giant ragweed , and at that time 15 weed species had been confirmed as resistant to glyphosate. [ 191 ] [ 198 ] As of 2010, in the United States 7 to 10 million acres (2.8 to 4.0 million hectares) of soil were afflicted by herbicide-resistant weeds, or about 5% of the 170 million acres planted with corn, soybeans, and cotton, the crops most affected, in 22 states. [ 199 ] In 2012, Charles Benbrook reported that the Weed Science Society of America listed 22 herbicide-resistant species in the U.S., with over 5.7 \u00d7 10 ^ 6 ha (14 \u00d7 10 ^ 6 acres) infested by GR weeds and that Dow AgroSciences had carried out a survey and reported a figure of around 40 \u00d7 10 ^ 6 ha (100 \u00d7 10 ^ 6 acres). [ 200 ] The International Survey of Herbicide Resistant Weeds database lists species that are resistant to glyphosate. [ 198 ]",
+      "char_offset": 43742
+    },
+    {
+      "type": "paragraph",
+      "text": "In response to resistant weeds, farmers are hand-weeding, using tractors to turn over soil between crops, and using other herbicides in addition to glyphosate.",
+      "char_offset": 45381
+    },
+    {
+      "type": "paragraph",
+      "text": "Monsanto scientists have found that some resistant weeds have as many as 160 extra copies of a gene called EPSPS , the enzyme glyphosate disrupts. [ 201 ]",
+      "char_offset": 45542
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2004, a glyphosate-resistant variation of Palmer amaranth was found in the U.S. state of Georgia. [ 202 ] In 2005, resistance was also found in North Carolina. [ 203 ] The species can quickly become resistant to multiple herbicides and has developed multiple mechanisms for glyphosate resistance due to selection pressure . [ 204 ] [ 203 ]",
+      "char_offset": 45698
+    },
+    {
+      "type": "paragraph",
+      "text": "Conyza bonariensis (also known as hairy fleabane and buva) and C. canadensis (known as horseweed or marestail) are other weed species that have lately developed glyphosate resistance. [ 205 ] [ 206 ] [ 207 ] A 2008 study on the current situation of glyphosate resistance in South America concluded \"resistance evolution followed intense glyphosate use\" and the use of glyphosate-resistant soybean crops is a factor encouraging increases in glyphosate use. [ 208 ] In the 2015 growing season, glyphosate-resistant marestail proved to be especially problematic to control in Nebraska production fields. [ 209 ]",
+      "char_offset": 46042
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate-resistant ryegrass ( Lolium ) has occurred in most of the Australian agricultural areas and other areas of the world. All cases of evolution of resistance to glyphosate in Australia were characterized by intensive use of the herbicide while no other effective weed control practices were used. Studies indicate resistant ryegrass does not compete well against nonresistant plants and their numbers decrease when not grown under conditions of glyphosate application. [ 210 ]",
+      "char_offset": 46652
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate-resistant Johnson grass ( Sorghum halepense ) has been found in Argentina as well as Arkansas, Louisiana, and Mississippi. [ 211 ]",
+      "char_offset": 47138
+    },
+    {
+      "type": "paragraph",
+      "text": "Use of glyphosate and other herbicides like 2,4-D to clear milkweed along roads and fields may have contributed to a decline in monarch butterfly populations in the Midwestern United States. [ 212 ] Along with deforestation and adverse weather conditions, [ 213 ] the decrease in milkweed contributed to an 81% decline in monarchs. [ 214 ] [ 215 ] The Natural Resources Defense Council (NRDC) filed a suit against the EPA in 2015, in which it argued that the agency ignored warnings about the potentially dangerous impacts of glyphosate usage on monarchs. [ 216 ]",
+      "char_offset": 47281
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate was first approved for use in the 1970s, and as of 2010 was labelled for use in 130 countries. [ 20 ] : 2",
+      "char_offset": 47846
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2017 Vandenberg et al. cited a 100-fold increase in the use of glyphosate-based herbicides from 1974 to 2014, the possibility that herbicide mixtures likely have effects that are not predicted by studying glyphosate alone, and reliance of current safety assessments on studies done over 30 years ago. They recommended that current safety standards be updated, writing that the current standards \"may fail to protect public health or the environment.\" [ 217 ]",
+      "char_offset": 47964
+    },
+    {
+      "type": "paragraph",
+      "text": "In February 2026, Bayer announced a proposed $7.25 billion settlement class action to resolve pending and future cancer lawsuits associated with glyphosate exposure. [ 218 ]",
+      "char_offset": 48427
+    },
+    {
+      "type": "paragraph",
+      "text": "A vote on the relicensing of glyphosate in the EU stalled in March 2016. Member states France, Sweden, and the Netherlands objected to the renewal. [ 219 ] A vote to reauthorize on a temporary basis failed in June 2016 [ 220 ] but at the last minute the license was extended for 18 months until the end of 2017. [ 221 ]",
+      "char_offset": 48602
+    },
+    {
+      "type": "paragraph",
+      "text": "On November 27, 2017, in the EU Council a majority of eighteen member states voted in favor of permitting the use of glyphosate for five more years. A qualified majority of sixteen states representing 65% of EU citizens was required to pass the law. [ 222 ] The German Minister of Agriculture, Christian Schmidt , unexpectedly voted in favor while the German coalition government was internally divided on the issue, which usually results in Germany abstaining. [ 223 ]",
+      "char_offset": 48923
+    },
+    {
+      "type": "paragraph",
+      "text": "In December 2018, attempts were made to reopen the decision to license the weed-killer. These were condemned by Conservative MEPs, who said the proposal was politically motivated and flew in the face of scientific evidence. [ 224 ]",
+      "char_offset": 49394
+    },
+    {
+      "type": "paragraph",
+      "text": "In March 2019, the European Court of Justice (ECJ) ordered the European Food Safety Authority (EFSA) to release all carcinogenicity and toxicity pesticide industry studies on glyphosate to the general public. [ 225 ]",
+      "char_offset": 49627
+    },
+    {
+      "type": "paragraph",
+      "text": "The assessment process for an approval of glyphosate in the European Union was scheduled to begin in December 2019. France, Hungary, the Netherlands and Sweden were to jointly assess the application dossiers of the producers. The draft report of the assessment group was then to be peer-reviewed by the EFSA before the then-current approval expired in December 2022. [ 226 ]",
+      "char_offset": 49845
+    },
+    {
+      "type": "paragraph",
+      "text": "The date was subsequently pushed back, partially due to very high interest and input in the participation process, with the European Food Safety Authority (EFSA) even calling it an \"unprecedented number\". [ 227 ] Because the EFSA had to review all these 2400 comments and almost 400 responses, the process was expected to take longer. The created document was under extra review by the specially formed Glyphosate Renewal Group (GRG) and the Assessment Group on Glyphosate (AGG), the panel consisting of the four mentioned member states. With their responses then being scheduled for September 2022, the consultations with member states were supposed to be held by the very end of 2022. [ 228 ] [ 229 ] This would allow to finish the final assessment by mid-2023 and pass it on to further legislature to decide.",
+      "char_offset": 50221
+    },
+    {
+      "type": "paragraph",
+      "text": "In November 2023, glyphosate received a 10 year renewed authorization for use in the EU from the European Commission . [ 230 ] [ 231 ]",
+      "char_offset": 51034
+    },
+    {
+      "type": "paragraph",
+      "text": "In April 2014, the legislature of the Netherlands passed legislation prohibiting sale of glyphosate to individuals for use at home; commercial sales were not affected. [ 232 ]",
+      "char_offset": 51170
+    },
+    {
+      "type": "paragraph",
+      "text": "In June 2015, the French Ecology Minister asked nurseries and garden centers to halt over-the-counter sales of glyphosate in the form of Monsanto's Roundup. This was a nonbinding request and all sales of glyphosate remained legal in France until 2022, when it was planned to ban the substance for home gardening. [ 233 ] However, subsequently the French parliament decided not to impose a definitive date for such a ban. [ 234 ] In January 2019, \"the sale, distribution, and use of Roundup 360 [wa]s banned\" in France. Exemptions for many farmers were later implemented, and a curb of its use by 80% for 2021 is projected. [ 235 ] [ 236 ]",
+      "char_offset": 51347
+    },
+    {
+      "type": "paragraph",
+      "text": "In March 2019, the Austrian state of Carinthia outlawed the private use of glyphosate in residential areas while the commercial application of the herbicide is still permitted for farmers. The use of glyphosate by public authorities and road maintenance crews was already halted a number of years prior to the current ban by local authorities. [ 237 ]",
+      "char_offset": 51987
+    },
+    {
+      "type": "paragraph",
+      "text": "In June 2019, Deutsche Bahn and Swiss Federal Railways announced that glyphosate and other commonly used herbicides for weed eradication along railway tracks will be phased out by 2025, while more environmentally sound methods for vegetation control are implemented. [ 238 ] [ 239 ]",
+      "char_offset": 52340
+    },
+    {
+      "type": "paragraph",
+      "text": "In July 2019, the Austrian parliament voted to ban glyphosate in Austria. [ 240 ] However, the ban was never brought into effect due to a legal defect rendering it unable to be promulgated . [ 241 ]",
+      "char_offset": 52624
+    },
+    {
+      "type": "paragraph",
+      "text": "In September 2019, the German Environment Ministry announced that the use of glyphosate would be banned from the end of 2023. The use of glyphosate-based herbicides would be reduced starting from 2020. [ 242 ] As of April 2024, a partial ban was reported to be in effect. [ 243 ]",
+      "char_offset": 52824
+    },
+    {
+      "type": "paragraph",
+      "text": "A full ban on the use of glyphosate in Luxembourg entered into force on January 1, 2022. The ban was annulled by the Administrative Court of Luxembourg in April 2023. [ 244 ]",
+      "char_offset": 53105
+    },
+    {
+      "type": "paragraph",
+      "text": "The compound is authorised for use in the UK until December 2025 and is likely to continue in use unless banned in the EU. [ 231 ]",
+      "char_offset": 53281
+    },
+    {
+      "type": "paragraph",
+      "text": "In September 2013, the Legislative Assembly of El Salvador approved legislation to ban 53 agrochemicals, including glyphosate; the ban on glyphosate was set to begin in 2015, [ 245 ] [ 246 ] [ 247 ] but was later rescinded. [ 248 ]",
+      "char_offset": 53413
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States , the state of Minnesota preempts local laws that attempt to ban glyphosate. In 2015 there was an attempt to pass legislation at the state level that would repeal that preemption. [ 249 ] As of January 2018, glyphosate is not banned at either the federal or state level in the US. However, numerous local governments in various states have enacted restrictions or bans on the use of glyphosate in their respective jurisdictions. [ 250 ] In addition, the state of California attempted to enforce a requirement for a Prop 65 carcinogen warning label on glyphosate containers, but was permanently enjoined from doing so by a federal court. [ 251 ] On February 18, 2026, President Donald Trump issued an executive order to provide some legal protection to producers of glyphosate, which is deemed critical for national food security. [ 252 ] [ 253 ]",
+      "char_offset": 53646
+    },
+    {
+      "type": "paragraph",
+      "text": "In May 2015, the President of Sri Lanka banned the use and import of glyphosate, effective immediately. [ 254 ] [ 255 ] However, in May 2018 the Sri Lankan government decided to re-authorize its use in the plantation sector. [ 256 ] The ban was fully revoked in August 2022. [ 257 ]",
+      "char_offset": 54514
+    },
+    {
+      "type": "paragraph",
+      "text": "In May 2015, Bermuda blocked importation on all new orders of glyphosate-based herbicides for a temporary suspension awaiting outcomes of research. [ 258 ] In 2016, the Bermudian government banned all glyphosate concentrates with a strength of over 2 per cent. [ 259 ]",
+      "char_offset": 54798
+    },
+    {
+      "type": "paragraph",
+      "text": "In May 2015, Colombia announced that it would stop using glyphosate by October 2015 in the destruction of illegal plantations of coca , the raw ingredient for cocaine . Farmers have complained that the aerial fumigation has destroyed entire fields of coffee and other legal produce. [ 72 ] The glyphosate ban in Colombia was subsequently lifted. [ 248 ]",
+      "char_offset": 55068
+    },
+    {
+      "type": "paragraph",
+      "text": "In April 2019, Vietnam 's Ministry of Agriculture and Rural Development banned the use of glyphosate throughout the country. [ 260 ]",
+      "char_offset": 55423
+    },
+    {
+      "type": "paragraph",
+      "text": "In August 2020, Mexican President Andr\u00e9s Manuel L\u00f3pez Obrador announced that glyphosate would be gradually phased out of use in Mexico by late 2024. [ 261 ] However in March 2024, the Mexican government postponed the ban, and did not set a new date for its implementation. [ 262 ]",
+      "char_offset": 55557
+    },
+    {
+      "type": "paragraph",
+      "text": "Thailand's National Hazardous Substances Committee decided to ban the use of glyphosate in October 2019 [ 263 ] but reversed the decision in November 2019. [ 264 ]",
+      "char_offset": 55839
+    },
+    {
+      "type": "paragraph",
+      "text": "After a court ruling in 2018, glyphosate was temporarily banned in Brazil . This decision was later overturned, causing major criticism by the federal agency of health ( Anvisa ). This comes, as the latest evaluations declared glyphosate as noncarcinogenic. Since all carcinogenic agrichemicals are automatically banned in the country, this allowed the continuous use. [ 265 ]",
+      "char_offset": 56004
+    },
+    {
+      "type": "paragraph",
+      "text": "In New Zealand, glyphosate is an approved herbicide for killing weeds, [ 266 ] with the most popular brand being Roundup . [ 266 ] [ 267 ] Genetically modified crops designed to resist glyphosate are absent in New Zealand. [ 266 ] Crops applied with glyphosate must be regulated under the HSNO Act 1996 and ACVM Act 1997. [ 266 ] [ 268 ] Legal status for glyphosate use in New Zealand is approved for commercial and personal use. [ 267 ] In 2021, exports of New Zealand honey were found to contain traces of glyphosate, causing some concern to Japanese importers. [ 269 ] [ 270 ]",
+      "char_offset": 56382
+    },
+    {
+      "type": "paragraph",
+      "text": "Since 2018, in a number of court cases in the United States, plaintiffs have argued that their cancer was caused by exposure to glyphosate in glyphosate-based herbicides produced by Monsanto/Bayer. Defendant Bayer has paid out over $9.6 billion in judgements and settlements in these cases. Bayer has also won at least 10 cases, successfully arguing that their glyphosate-based herbicides were not responsible for the plaintiff's cancer. [ 271 ]",
+      "char_offset": 56963
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2016, a lawsuit was filed against Quaker Oats in the Federal district courts of both New York and California after trace amounts of glyphosate were found in oatmeal . The lawsuit alleged that the claim of \"100% natural\" was false advertising . [ 272 ] That same year General Mills dropped the label \"Made with 100% Natural Whole Grain Oats\" from their Nature Valley granola bars after a lawsuit was filed that claimed the oats contained trace amounts of glyphosate. [ 273 ]",
+      "char_offset": 57410
+    },
+    {
+      "type": "paragraph",
+      "text": "United States companies have cited trade issues with glyphosate being dumped into western world market areas by Chinese companies, and a formal dispute was filed in 2010. [ 274 ] [ 275 ]",
+      "char_offset": 57888
+    },
+    {
+      "type": "paragraph",
+      "text": "Glyphosate has become a locus of campaigning and misinformation by anti-GMO activists because of its association with genetically modified glyphosate-resistant crops. [ 276 ] [ 277 ]",
+      "char_offset": 58076
+    },
+    {
+      "type": "paragraph",
+      "text": "US politician Robert F. Kennedy Jr. has claimed that the widespread adoption of glyphosate-resistant GM crops is partially responsible for the American obesity epidemic . He has falsely asserted that GM crops are nutrient deficient compared to their unmodified counterparts. [ 278 ] [ 279 ] [ 280 ] Stephanie Seneff , a computer scientist and anti-vaccine activist, has falsely claimed that glyphosate causes autism and is partially responsible for the recent increase in concussions . [ 277 ] [ 279 ]",
+      "char_offset": 58260
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-3ad983d2670090db"
+}

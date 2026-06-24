@@ -1,0 +1,5957 @@
+{
+  "manifest_version": "0.4.0",
+  "scope": "major crop physiology, management, and farmer decision domains",
+  "description": "Expanded generic parameter catalog for web-searching physiological traits, environmental responses, phenology, crop establishment, soil-water-nutrient requirements, yield components, quality traits, and management recommendations across major field crops.",
+  "parameters": [
+    {
+      "parameter_id": "temperature.base_temperature",
+      "label": "Base temperature",
+      "family": "temperature",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "base_temperature",
+      "search_aliases": [
+        "base temperature",
+        "thermal base",
+        "growing degree day base",
+        "lower threshold temperature"
+      ],
+      "evidence_patterns": [
+        "base temperature for {crop}",
+        "{crop} growing degree day base",
+        "{crop} thermal time threshold"
+      ],
+      "management_relevance": [
+        "phenology modeling",
+        "planting timing",
+        "emergence prediction"
+      ],
+      "required_scope": [
+        "crop"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs phenology modeling, planting timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "label": "Optimum growth temperature",
+      "family": "temperature",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "preferred_temperature",
+      "normalized_attribute_subtype": "general_temperature_condition",
+      "search_aliases": [
+        "optimum temperature",
+        "optimal growth temperature",
+        "preferred temperature",
+        "favorable temperature"
+      ],
+      "evidence_patterns": [
+        "optimum temperature for {crop}",
+        "{crop} optimal growth temperature",
+        "{crop} favorable temperature range"
+      ],
+      "management_relevance": [
+        "site suitability",
+        "planting timing",
+        "stress risk"
+      ],
+      "required_scope": [
+        "crop"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs site suitability, planting timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "label": "Germination temperature",
+      "family": "temperature",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "germination_temperature",
+      "search_aliases": [
+        "germination temperature",
+        "minimum germination temperature",
+        "seed germination temperature"
+      ],
+      "evidence_patterns": [
+        "{crop} germination temperature",
+        "{crop} seed germination temperature",
+        "temperature for {crop} germination"
+      ],
+      "management_relevance": [
+        "planting timing",
+        "stand establishment"
+      ],
+      "required_scope": [
+        "crop"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs planting timing, stand establishment",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.soil_emergence_temperature",
+      "label": "Soil emergence temperature",
+      "family": "temperature",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "soil_emergence_temperature",
+      "search_aliases": [
+        "soil temperature for emergence",
+        "planting soil temperature",
+        "soil temperature threshold"
+      ],
+      "evidence_patterns": [
+        "soil temperature for {crop} emergence",
+        "plant {crop} when soil temperature",
+        "{crop} planting soil temperature"
+      ],
+      "management_relevance": [
+        "planting timing",
+        "emergence prediction",
+        "stand establishment"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs planting timing, emergence prediction",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "label": "Heat stress threshold",
+      "family": "temperature",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "stress_temperature",
+      "search_aliases": [
+        "heat stress threshold",
+        "temperature stress",
+        "high temperature stress",
+        "yield loss temperature"
+      ],
+      "evidence_patterns": [
+        "{crop} heat stress threshold",
+        "{crop} temperature stress",
+        "{crop} yield loss high temperature"
+      ],
+      "management_relevance": [
+        "risk assessment",
+        "irrigation timing",
+        "hybrid selection"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs risk assessment, irrigation timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.survival_temperature",
+      "label": "Survival temperature",
+      "family": "temperature",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "survival_temperature",
+      "search_aliases": [
+        "survival temperature",
+        "lethal temperature",
+        "frost tolerance",
+        "cold tolerance"
+      ],
+      "evidence_patterns": [
+        "{crop} survival temperature",
+        "{crop} lethal temperature",
+        "{crop} cold tolerance temperature"
+      ],
+      "management_relevance": [
+        "frost risk",
+        "planting timing",
+        "variety selection"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs frost risk, planting timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "label": "Growing degree unit accumulation",
+      "family": "thermal_time",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gdu",
+        "degree_days"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "heat_unit_requirement",
+      "normalized_attribute_subtype": "gdu_accumulation",
+      "search_aliases": [
+        "growing degree units",
+        "gdd",
+        "heat units",
+        "thermal time"
+      ],
+      "evidence_patterns": [
+        "{crop} growing degree units",
+        "{crop} GDD to maturity",
+        "{crop} heat unit requirement"
+      ],
+      "management_relevance": [
+        "phenology prediction",
+        "maturity planning",
+        "harvest timing"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs phenology prediction, maturity planning",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "label": "Evapotranspiration requirement",
+      "family": "water",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "millimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "water_requirement",
+      "normalized_attribute_subtype": "evapotranspiration_requirement",
+      "search_aliases": [
+        "evapotranspiration requirement",
+        "crop water use",
+        "water requirement",
+        "seasonal ET"
+      ],
+      "evidence_patterns": [
+        "{crop} evapotranspiration requirement",
+        "{crop} crop water use",
+        "{crop} seasonal water requirement"
+      ],
+      "management_relevance": [
+        "irrigation planning",
+        "drought risk",
+        "yield target planning"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "water_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation planning, drought risk",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "label": "Drought-sensitive growth stage",
+      "family": "water",
+      "category": "environmental_response",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "moisture_requirement",
+      "normalized_attribute_subtype": "drought_sensitive_stage",
+      "search_aliases": [
+        "drought sensitive stage",
+        "water stress stage",
+        "critical water stage"
+      ],
+      "evidence_patterns": [
+        "{crop} drought sensitive stage",
+        "{crop} water stress during flowering",
+        "{crop} critical water requirement stage"
+      ],
+      "management_relevance": [
+        "irrigation timing",
+        "risk assessment"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "water_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation timing, risk assessment",
+      "requires_stage_context": true,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.waterlogging_sensitivity",
+      "label": "Waterlogging sensitivity",
+      "family": "water",
+      "category": "environmental_response",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_drainage_requirement",
+      "normalized_attribute_subtype": "waterlogging_sensitivity",
+      "search_aliases": [
+        "waterlogging sensitivity",
+        "standing water tolerance",
+        "saturated soil tolerance"
+      ],
+      "evidence_patterns": [
+        "{crop} waterlogging sensitivity",
+        "{crop} standing water tolerance",
+        "{crop} saturated soil tolerance"
+      ],
+      "management_relevance": [
+        "drainage planning",
+        "field selection"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "water_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs drainage planning, field selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.soil_water_holding_capacity",
+      "label": "Soil water holding capacity",
+      "family": "soil",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "millimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_water_storage",
+      "normalized_attribute_subtype": "soil_water_holding_capacity",
+      "search_aliases": [
+        "soil water holding capacity",
+        "soil profile water",
+        "available water capacity"
+      ],
+      "evidence_patterns": [
+        "{crop} soil water holding capacity",
+        "{crop} soil profile water",
+        "{crop} available water capacity"
+      ],
+      "management_relevance": [
+        "irrigation planning",
+        "drought buffering",
+        "field selection"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation planning, drought buffering",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "label": "Soil pH range",
+      "family": "soil",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "pH"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_chemistry_requirement",
+      "normalized_attribute_subtype": "soil_ph_range",
+      "search_aliases": [
+        "soil pH range",
+        "optimum soil pH",
+        "pH requirement"
+      ],
+      "evidence_patterns": [
+        "{crop} soil pH range",
+        "{crop} optimum soil pH",
+        "{crop} pH requirement"
+      ],
+      "management_relevance": [
+        "liming",
+        "nutrient availability",
+        "field selection"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs liming, nutrient availability",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.drainage_requirement",
+      "label": "Drainage requirement",
+      "family": "soil",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_drainage_requirement",
+      "normalized_attribute_subtype": "soil_drainage_requirement",
+      "search_aliases": [
+        "well drained soil",
+        "soil drainage requirement",
+        "poor drainage tolerance"
+      ],
+      "evidence_patterns": [
+        "{crop} drainage requirement",
+        "{crop} well drained soil",
+        "{crop} poor drainage tolerance"
+      ],
+      "management_relevance": [
+        "field selection",
+        "drainage planning"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs field selection, drainage planning",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "label": "Maturity duration",
+      "family": "phenology",
+      "category": "phenology_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "day"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "phenology_timing",
+      "normalized_attribute_subtype": "maturity_duration",
+      "search_aliases": [
+        "days to maturity",
+        "maturity duration",
+        "crop maturity"
+      ],
+      "evidence_patterns": [
+        "{crop} days to maturity",
+        "{crop} maturity duration",
+        "{crop} full season maturity"
+      ],
+      "management_relevance": [
+        "variety selection",
+        "harvest planning",
+        "planting window"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs variety selection, harvest planning",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "label": "Planting window",
+      "family": "planting",
+      "category": "management_recommendation",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "date"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "planting_window",
+      "normalized_attribute_subtype": "planting_date_window",
+      "search_aliases": [
+        "planting window",
+        "planting date",
+        "recommended planting dates"
+      ],
+      "evidence_patterns": [
+        "{crop} planting window",
+        "{crop} planting date",
+        "recommended planting dates for {crop}"
+      ],
+      "management_relevance": [
+        "stand establishment",
+        "yield optimization",
+        "frost risk"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "planting_establishment",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs stand establishment, yield optimization",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "label": "Seeding depth",
+      "family": "planting",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "centimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "planting_management",
+      "normalized_attribute_subtype": "seeding_depth",
+      "search_aliases": [
+        "seeding depth",
+        "planting depth",
+        "seed depth"
+      ],
+      "evidence_patterns": [
+        "{crop} seeding depth",
+        "{crop} planting depth",
+        "recommended seed depth for {crop}"
+      ],
+      "management_relevance": [
+        "stand establishment",
+        "emergence uniformity"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "planting_establishment",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs stand establishment, emergence uniformity",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "label": "Seeding rate",
+      "family": "planting",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "seeds_per_acre",
+        "plants_per_hectare"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "planting_management",
+      "normalized_attribute_subtype": "seeding_rate",
+      "search_aliases": [
+        "seeding rate",
+        "plant population",
+        "target stand"
+      ],
+      "evidence_patterns": [
+        "{crop} seeding rate",
+        "{crop} plant population",
+        "{crop} target stand"
+      ],
+      "management_relevance": [
+        "yield optimization",
+        "seed cost",
+        "stand establishment"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "planting_establishment",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs yield optimization, seed cost",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "label": "Nitrogen timing",
+      "family": "nutrients",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "oilseed",
+        "fiber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_management",
+      "normalized_attribute_subtype": "nitrogen_timing",
+      "search_aliases": [
+        "nitrogen timing",
+        "nitrogen application timing",
+        "split nitrogen"
+      ],
+      "evidence_patterns": [
+        "{crop} nitrogen timing",
+        "{crop} nitrogen application timing",
+        "{crop} split nitrogen recommendation"
+      ],
+      "management_relevance": [
+        "fertility planning",
+        "loss reduction",
+        "yield optimization"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs fertility planning, loss reduction",
+      "requires_stage_context": true,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "label": "Frost-sensitive stage",
+      "family": "stress",
+      "category": "environmental_response",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "stress_sensitivity",
+      "normalized_attribute_subtype": "frost_sensitive_stage",
+      "search_aliases": [
+        "frost sensitive stage",
+        "frost injury",
+        "freeze damage"
+      ],
+      "evidence_patterns": [
+        "{crop} frost sensitive stage",
+        "{crop} frost injury",
+        "{crop} freeze damage growth stage"
+      ],
+      "management_relevance": [
+        "planting timing",
+        "risk assessment",
+        "replant decision"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs planting timing, risk assessment",
+      "requires_stage_context": true,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "label": "Harvest moisture",
+      "family": "harvest",
+      "category": "quality_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "vegetable"
+      ],
+      "normalized_attribute": "harvest_management",
+      "normalized_attribute_subtype": "harvest_moisture",
+      "search_aliases": [
+        "harvest moisture",
+        "grain moisture at harvest",
+        "safe harvest moisture"
+      ],
+      "evidence_patterns": [
+        "{crop} harvest moisture",
+        "{crop} grain moisture at harvest",
+        "{crop} safe harvest moisture"
+      ],
+      "management_relevance": [
+        "harvest timing",
+        "drying cost",
+        "storage quality"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "harvest",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs harvest timing, drying cost",
+      "requires_stage_context": false,
+      "query_units": [
+        "%",
+        "percent"
+      ],
+      "query_terms": [
+        "grain moisture",
+        "harvest moisture",
+        "safe harvest moisture"
+      ],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": [
+        "crop",
+        "region"
+      ],
+      "extraction_notes": "Extract only explicit harvest moisture thresholds or ranges; ignore storage moisture unless the source ties it to harvest timing.",
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "label": "Rotation recommendation",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "rotation_management",
+      "normalized_attribute_subtype": "rotation_recommendation",
+      "search_aliases": [
+        "crop rotation",
+        "rotation recommendation",
+        "continuous cropping"
+      ],
+      "evidence_patterns": [
+        "{crop} rotation recommendation",
+        "{crop} crop rotation",
+        "continuous {crop} management"
+      ],
+      "management_relevance": [
+        "disease management",
+        "soil health",
+        "yield stability"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs disease management, soil health",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.minimum_growth_temperature",
+      "label": "Minimum growth temperature",
+      "family": "temperature",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "minimum_growth_temperature",
+      "search_aliases": [
+        "minimum growth temperature",
+        "lower growth threshold",
+        "minimum temperature for growth"
+      ],
+      "evidence_patterns": [
+        "{crop} minimum growth temperature",
+        "{crop} lower growth threshold",
+        "minimum temperature for {crop} growth"
+      ],
+      "management_relevance": [
+        "planting timing",
+        "season length",
+        "cold risk"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs planting timing, season length",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.maximum_growth_temperature",
+      "label": "Maximum growth temperature",
+      "family": "temperature",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "maximum_growth_temperature",
+      "search_aliases": [
+        "maximum growth temperature",
+        "upper temperature threshold",
+        "maximum temperature for growth"
+      ],
+      "evidence_patterns": [
+        "{crop} maximum growth temperature",
+        "{crop} upper temperature threshold",
+        "maximum temperature for {crop} growth"
+      ],
+      "management_relevance": [
+        "heat risk",
+        "site suitability",
+        "irrigation timing"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs heat risk, site suitability",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.photosynthesis_optimum_temperature",
+      "label": "Photosynthesis optimum temperature",
+      "family": "temperature",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "photosynthesis_temperature_response",
+      "normalized_attribute_subtype": "photosynthesis_optimum_temperature",
+      "search_aliases": [
+        "photosynthesis optimum temperature",
+        "optimum temperature for photosynthesis",
+        "leaf photosynthesis temperature response"
+      ],
+      "evidence_patterns": [
+        "{crop} photosynthesis optimum temperature",
+        "optimum temperature for {crop} photosynthesis",
+        "{crop} leaf photosynthesis temperature response"
+      ],
+      "management_relevance": [
+        "heat risk",
+        "canopy productivity",
+        "model calibration"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "climate_site",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs heat risk, canopy productivity",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.reproductive_heat_threshold",
+      "label": "Reproductive heat threshold",
+      "family": "temperature",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "stress_temperature",
+      "normalized_attribute_subtype": "reproductive_heat_threshold",
+      "search_aliases": [
+        "reproductive heat threshold",
+        "flowering heat stress",
+        "anthesis heat stress"
+      ],
+      "evidence_patterns": [
+        "{crop} reproductive heat threshold",
+        "{crop} flowering heat stress temperature",
+        "{crop} anthesis heat stress threshold"
+      ],
+      "management_relevance": [
+        "variety selection",
+        "planting timing",
+        "yield risk"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs variety selection, planting timing",
+      "requires_stage_context": true,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "label": "Grain-fill temperature",
+      "family": "temperature",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "vegetable"
+      ],
+      "normalized_attribute": "temperature_requirement",
+      "normalized_attribute_subtype": "grain_fill_temperature",
+      "search_aliases": [
+        "grain fill temperature",
+        "grain filling temperature",
+        "seed filling temperature"
+      ],
+      "evidence_patterns": [
+        "{crop} grain fill temperature",
+        "{crop} grain filling temperature",
+        "{crop} seed filling temperature"
+      ],
+      "management_relevance": [
+        "yield formation",
+        "quality risk",
+        "planting timing"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield formation, quality risk",
+      "requires_stage_context": true,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "thermal_time.emergence_gdd",
+      "label": "GDD to emergence",
+      "family": "thermal_time",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gdu",
+        "degree_days"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "heat_unit_requirement",
+      "normalized_attribute_subtype": "emergence_gdd",
+      "search_aliases": [
+        "GDD to emergence",
+        "degree days to emergence",
+        "thermal time to emergence"
+      ],
+      "evidence_patterns": [
+        "{crop} GDD to emergence",
+        "{crop} degree days to emergence",
+        "{crop} thermal time to emergence"
+      ],
+      "management_relevance": [
+        "emergence prediction",
+        "stand assessment",
+        "planting timing"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs emergence prediction, stand assessment",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "thermal_time.anthesis_gdd",
+      "label": "GDD to anthesis",
+      "family": "thermal_time",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gdu",
+        "degree_days"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "heat_unit_requirement",
+      "normalized_attribute_subtype": "anthesis_gdd",
+      "search_aliases": [
+        "GDD to anthesis",
+        "degree days to flowering",
+        "thermal time to flowering"
+      ],
+      "evidence_patterns": [
+        "{crop} GDD to anthesis",
+        "{crop} degree days to flowering",
+        "{crop} thermal time to flowering"
+      ],
+      "management_relevance": [
+        "flowering prediction",
+        "heat risk timing",
+        "irrigation timing"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs flowering prediction, heat risk timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "thermal_time.maturity_gdd",
+      "label": "GDD to maturity",
+      "family": "thermal_time",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gdu",
+        "degree_days"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "heat_unit_requirement",
+      "normalized_attribute_subtype": "maturity_gdd",
+      "search_aliases": [
+        "GDD to maturity",
+        "heat units to maturity",
+        "thermal time to maturity"
+      ],
+      "evidence_patterns": [
+        "{crop} GDD to maturity",
+        "{crop} heat units to maturity",
+        "{crop} thermal time to maturity"
+      ],
+      "management_relevance": [
+        "harvest timing",
+        "variety selection",
+        "season length"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs harvest timing, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "thermal_time.vernalization_units",
+      "label": "Vernalization units",
+      "family": "thermal_time",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "day",
+        "degree_days"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "oilseed",
+        "forage"
+      ],
+      "normalized_attribute": "vernalization_requirement",
+      "normalized_attribute_subtype": "vernalization_units",
+      "search_aliases": [
+        "vernalization units",
+        "vernalization requirement",
+        "chilling requirement"
+      ],
+      "evidence_patterns": [
+        "{crop} vernalization units",
+        "{crop} vernalization requirement",
+        "{crop} chilling requirement"
+      ],
+      "management_relevance": [
+        "winter crop adaptation",
+        "variety selection",
+        "planting timing"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs winter crop adaptation, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "label": "Emergence duration",
+      "family": "phenology",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "day"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "phenology_timing",
+      "normalized_attribute_subtype": "emergence_duration",
+      "search_aliases": [
+        "days to emergence",
+        "emergence duration",
+        "time to emergence"
+      ],
+      "evidence_patterns": [
+        "{crop} days to emergence",
+        "{crop} emergence duration",
+        "{crop} time to emergence"
+      ],
+      "management_relevance": [
+        "stand establishment",
+        "planting timing",
+        "replant decision"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "season"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "season"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs stand establishment, planting timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.tillering_duration",
+      "label": "Tillering duration",
+      "family": "phenology",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "day"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "forage"
+      ],
+      "normalized_attribute": "phenology_timing",
+      "normalized_attribute_subtype": "tillering_duration",
+      "search_aliases": [
+        "tillering duration",
+        "tillering period",
+        "time to tillering"
+      ],
+      "evidence_patterns": [
+        "{crop} tillering duration",
+        "{crop} tillering period",
+        "{crop} time to tillering"
+      ],
+      "management_relevance": [
+        "nitrogen timing",
+        "grazing timing",
+        "yield component formation"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs nitrogen timing, grazing timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "label": "Grain-fill duration",
+      "family": "phenology",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "day"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "vegetable"
+      ],
+      "normalized_attribute": "phenology_timing",
+      "normalized_attribute_subtype": "grain_fill_duration",
+      "search_aliases": [
+        "grain fill duration",
+        "grain filling period",
+        "seed filling duration"
+      ],
+      "evidence_patterns": [
+        "{crop} grain fill duration",
+        "{crop} grain filling period",
+        "{crop} seed filling duration"
+      ],
+      "management_relevance": [
+        "yield formation",
+        "quality",
+        "heat stress risk"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield formation, quality",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "label": "Leaf appearance rate",
+      "family": "phenology",
+      "category": "phenology_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "leaf_per_day",
+        "leaf_per_degree_day"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "phenology_rate",
+      "normalized_attribute_subtype": "leaf_appearance_rate",
+      "search_aliases": [
+        "leaf appearance rate",
+        "leaf emergence rate",
+        "phyllochron"
+      ],
+      "evidence_patterns": [
+        "{crop} leaf appearance rate",
+        "{crop} leaf emergence rate",
+        "{crop} phyllochron"
+      ],
+      "management_relevance": [
+        "growth staging",
+        "model calibration",
+        "canopy development"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs growth staging, model calibration",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "label": "Photoperiod sensitivity",
+      "family": "phenology",
+      "category": "physiological_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "hour",
+        "daylength"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "photoperiod_response",
+      "normalized_attribute_subtype": "photoperiod_sensitivity",
+      "search_aliases": [
+        "photoperiod sensitivity",
+        "daylength response",
+        "critical photoperiod"
+      ],
+      "evidence_patterns": [
+        "{crop} photoperiod sensitivity",
+        "{crop} daylength response",
+        "{crop} critical photoperiod"
+      ],
+      "management_relevance": [
+        "adaptation zone",
+        "variety selection",
+        "planting date"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs adaptation zone, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "label": "Vernalization requirement",
+      "family": "phenology",
+      "category": "physiological_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "day",
+        "degree_days"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "oilseed",
+        "forage"
+      ],
+      "normalized_attribute": "vernalization_requirement",
+      "normalized_attribute_subtype": "vernalization_requirement",
+      "search_aliases": [
+        "vernalization requirement",
+        "winter habit",
+        "cold requirement"
+      ],
+      "evidence_patterns": [
+        "{crop} vernalization requirement",
+        "{crop} winter habit vernalization",
+        "{crop} cold requirement flowering"
+      ],
+      "management_relevance": [
+        "winter survival",
+        "variety selection",
+        "planting timing"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs winter survival, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "label": "Leaf area index",
+      "family": "canopy",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "lai"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "canopy_structure",
+      "normalized_attribute_subtype": "leaf_area_index",
+      "search_aliases": [
+        "leaf area index",
+        "LAI",
+        "maximum LAI"
+      ],
+      "evidence_patterns": [
+        "{crop} leaf area index",
+        "{crop} LAI",
+        "{crop} maximum leaf area index"
+      ],
+      "management_relevance": [
+        "canopy closure",
+        "radiation capture",
+        "yield modeling"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs canopy closure, radiation capture",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "canopy.canopy_cover",
+      "label": "Canopy cover",
+      "family": "canopy",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "canopy_structure",
+      "normalized_attribute_subtype": "canopy_cover",
+      "search_aliases": [
+        "canopy cover",
+        "ground cover",
+        "canopy closure"
+      ],
+      "evidence_patterns": [
+        "{crop} canopy cover",
+        "{crop} ground cover",
+        "{crop} canopy closure"
+      ],
+      "management_relevance": [
+        "weed suppression",
+        "soil evaporation",
+        "remote sensing"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs weed suppression, soil evaporation",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "label": "Radiation use efficiency",
+      "family": "canopy",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gram_per_megajoule",
+        "kilogram_per_megajoule"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "radiation_capture",
+      "normalized_attribute_subtype": "radiation_use_efficiency",
+      "search_aliases": [
+        "radiation use efficiency",
+        "RUE",
+        "light use efficiency"
+      ],
+      "evidence_patterns": [
+        "{crop} radiation use efficiency",
+        "{crop} RUE",
+        "{crop} light use efficiency"
+      ],
+      "management_relevance": [
+        "yield modeling",
+        "stress diagnosis",
+        "biomass prediction"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs yield modeling, stress diagnosis",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "canopy.light_extinction_coefficient",
+      "label": "Light extinction coefficient",
+      "family": "canopy",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "dimensionless"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "radiation_capture",
+      "normalized_attribute_subtype": "light_extinction_coefficient",
+      "search_aliases": [
+        "light extinction coefficient",
+        "canopy extinction coefficient",
+        "Beer Lambert coefficient"
+      ],
+      "evidence_patterns": [
+        "{crop} light extinction coefficient",
+        "{crop} canopy extinction coefficient",
+        "{crop} Beer Lambert coefficient"
+      ],
+      "management_relevance": [
+        "canopy modeling",
+        "row spacing",
+        "radiation capture"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs canopy modeling, row spacing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "label": "Harvest index",
+      "family": "canopy",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent",
+        "dimensionless"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "vegetable"
+      ],
+      "normalized_attribute": "biomass_partitioning",
+      "normalized_attribute_subtype": "harvest_index",
+      "search_aliases": [
+        "harvest index",
+        "grain harvest index",
+        "biomass partitioning"
+      ],
+      "evidence_patterns": [
+        "{crop} harvest index",
+        "{crop} grain harvest index",
+        "{crop} biomass partitioning"
+      ],
+      "management_relevance": [
+        "yield estimation",
+        "stress response",
+        "variety comparison"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield estimation, stress response",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "label": "Biomass accumulation",
+      "family": "canopy",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "kilogram_per_hectare",
+        "tonne_per_hectare"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "biomass_production",
+      "normalized_attribute_subtype": "biomass_accumulation",
+      "search_aliases": [
+        "biomass accumulation",
+        "dry matter accumulation",
+        "aboveground biomass"
+      ],
+      "evidence_patterns": [
+        "{crop} biomass accumulation",
+        "{crop} dry matter accumulation",
+        "{crop} aboveground biomass"
+      ],
+      "management_relevance": [
+        "yield prediction",
+        "forage value",
+        "nutrient uptake"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs yield prediction, forage value",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "photosynthesis.photosynthetic_rate",
+      "label": "Photosynthetic rate",
+      "family": "photosynthesis",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "micromole_co2_per_square_meter_per_second"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "photosynthesis",
+      "normalized_attribute_subtype": "photosynthetic_rate",
+      "search_aliases": [
+        "photosynthetic rate",
+        "leaf photosynthesis",
+        "net assimilation rate"
+      ],
+      "evidence_patterns": [
+        "{crop} photosynthetic rate",
+        "{crop} leaf photosynthesis",
+        "{crop} net assimilation rate"
+      ],
+      "management_relevance": [
+        "stress response",
+        "productivity",
+        "model calibration"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs stress response, productivity",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "label": "Stomatal conductance",
+      "family": "photosynthesis",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "mole_per_square_meter_per_second"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "gas_exchange",
+      "normalized_attribute_subtype": "stomatal_conductance",
+      "search_aliases": [
+        "stomatal conductance",
+        "leaf conductance",
+        "gas exchange conductance"
+      ],
+      "evidence_patterns": [
+        "{crop} stomatal conductance",
+        "{crop} leaf conductance",
+        "{crop} gas exchange stomatal conductance"
+      ],
+      "management_relevance": [
+        "drought response",
+        "heat response",
+        "water use"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs drought response, heat response",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "photosynthesis.transpiration_efficiency",
+      "label": "Transpiration efficiency",
+      "family": "photosynthesis",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gram_per_kilogram",
+        "kilogram_per_cubic_meter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "water_use_efficiency",
+      "normalized_attribute_subtype": "transpiration_efficiency",
+      "search_aliases": [
+        "transpiration efficiency",
+        "intrinsic water use efficiency",
+        "carbon isotope discrimination"
+      ],
+      "evidence_patterns": [
+        "{crop} transpiration efficiency",
+        "{crop} intrinsic water use efficiency",
+        "{crop} carbon isotope discrimination transpiration efficiency"
+      ],
+      "management_relevance": [
+        "drought adaptation",
+        "variety selection",
+        "water productivity"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs drought adaptation, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+      "label": "VPD response threshold",
+      "family": "photosynthesis",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "kilopascal"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "atmospheric_demand_response",
+      "normalized_attribute_subtype": "vapor_pressure_deficit_threshold",
+      "search_aliases": [
+        "VPD threshold",
+        "vapor pressure deficit response",
+        "stomatal closure VPD"
+      ],
+      "evidence_patterns": [
+        "{crop} VPD threshold",
+        "{crop} vapor pressure deficit response",
+        "{crop} stomatal closure VPD"
+      ],
+      "management_relevance": [
+        "irrigation timing",
+        "heat-drought risk",
+        "greenhouse climate"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation timing, heat-drought risk",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "label": "Maximum rooting depth",
+      "family": "root",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "centimeter",
+        "meter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "root_system",
+      "normalized_attribute_subtype": "maximum_rooting_depth",
+      "search_aliases": [
+        "maximum rooting depth",
+        "rooting depth",
+        "root depth"
+      ],
+      "evidence_patterns": [
+        "{crop} maximum rooting depth",
+        "{crop} rooting depth",
+        "{crop} root depth"
+      ],
+      "management_relevance": [
+        "drought buffering",
+        "irrigation scheduling",
+        "soil constraint diagnosis"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs drought buffering, irrigation scheduling",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "root.root_length_density",
+      "label": "Root length density",
+      "family": "root",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "centimeter_per_cubic_centimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "root_system",
+      "normalized_attribute_subtype": "root_length_density",
+      "search_aliases": [
+        "root length density",
+        "root density",
+        "root distribution"
+      ],
+      "evidence_patterns": [
+        "{crop} root length density",
+        "{crop} root density",
+        "{crop} root distribution soil depth"
+      ],
+      "management_relevance": [
+        "water uptake",
+        "nutrient uptake",
+        "soil constraint diagnosis"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs water uptake, nutrient uptake",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "root.root_shoot_ratio",
+      "label": "Root-shoot ratio",
+      "family": "root",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "dimensionless"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "biomass_partitioning",
+      "normalized_attribute_subtype": "root_shoot_ratio",
+      "search_aliases": [
+        "root shoot ratio",
+        "root to shoot ratio",
+        "belowground biomass allocation"
+      ],
+      "evidence_patterns": [
+        "{crop} root shoot ratio",
+        "{crop} root to shoot ratio",
+        "{crop} belowground biomass allocation"
+      ],
+      "management_relevance": [
+        "drought adaptation",
+        "nutrient uptake",
+        "model calibration"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs drought adaptation, nutrient uptake",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "label": "Crop coefficient",
+      "family": "water",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "dimensionless"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "water_requirement",
+      "normalized_attribute_subtype": "crop_coefficient",
+      "search_aliases": [
+        "crop coefficient",
+        "crop Kc",
+        "FAO crop coefficient"
+      ],
+      "evidence_patterns": [
+        "{crop} crop coefficient",
+        "{crop} crop Kc",
+        "{crop} FAO crop coefficient"
+      ],
+      "management_relevance": [
+        "irrigation scheduling",
+        "ET estimation",
+        "water budgeting"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "water_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation scheduling, ET estimation",
+      "requires_stage_context": true,
+      "query_units": [
+        "Kc",
+        "dimensionless"
+      ],
+      "query_terms": [
+        "crop coefficient",
+        "FAO-56",
+        "initial mid-season late season"
+      ],
+      "stage_terms": [
+        "initial",
+        "development",
+        "mid-season",
+        "late season"
+      ],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "extraction_notes": "Extract crop coefficient values with their growth-stage context whenever the source provides staged Kc values.",
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "label": "Allowable soil-water depletion",
+      "family": "water",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent",
+        "fraction"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "irrigation_management",
+      "normalized_attribute_subtype": "allowable_depletion",
+      "search_aliases": [
+        "allowable depletion",
+        "management allowable depletion",
+        "soil water depletion threshold"
+      ],
+      "evidence_patterns": [
+        "{crop} allowable depletion",
+        "{crop} management allowable depletion",
+        "{crop} soil water depletion threshold"
+      ],
+      "management_relevance": [
+        "irrigation scheduling",
+        "drought risk",
+        "water productivity"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "water_management",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation scheduling, drought risk",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.irrigation_trigger",
+      "label": "Irrigation trigger",
+      "family": "water",
+      "category": "management_recommendation",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "percent",
+        "kilopascal",
+        "inch",
+        "millimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "irrigation_management",
+      "normalized_attribute_subtype": "irrigation_trigger",
+      "search_aliases": [
+        "irrigation trigger",
+        "when to irrigate",
+        "soil moisture threshold"
+      ],
+      "evidence_patterns": [
+        "{crop} irrigation trigger",
+        "when to irrigate {crop}",
+        "{crop} soil moisture threshold irrigation"
+      ],
+      "management_relevance": [
+        "irrigation scheduling",
+        "water stress prevention",
+        "yield protection"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "water_management",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation scheduling, water stress prevention",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "label": "Water productivity",
+      "family": "water",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "kilogram_per_cubic_meter",
+        "bushel_per_inch"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "water_use_efficiency",
+      "normalized_attribute_subtype": "water_productivity",
+      "search_aliases": [
+        "water productivity",
+        "crop water productivity",
+        "yield per unit water"
+      ],
+      "evidence_patterns": [
+        "{crop} water productivity",
+        "{crop} crop water productivity",
+        "{crop} yield per unit water"
+      ],
+      "management_relevance": [
+        "irrigation economics",
+        "drought adaptation",
+        "yield benchmarking"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "water_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs irrigation economics, drought adaptation",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "label": "Soil texture suitability",
+      "family": "soil",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_physical_requirement",
+      "normalized_attribute_subtype": "soil_texture_suitability",
+      "search_aliases": [
+        "soil texture suitability",
+        "best soil texture",
+        "loam clay sandy soil suitability"
+      ],
+      "evidence_patterns": [
+        "{crop} soil texture suitability",
+        "{crop} best soil texture",
+        "{crop} loam clay sandy soil suitability"
+      ],
+      "management_relevance": [
+        "field selection",
+        "irrigation planning",
+        "rooting constraints"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs field selection, irrigation planning",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "label": "Soil salinity threshold",
+      "family": "soil",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "decisiemens_per_meter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "salinity_tolerance",
+      "normalized_attribute_subtype": "soil_salinity_threshold",
+      "search_aliases": [
+        "salinity threshold",
+        "soil salinity tolerance",
+        "ECe threshold"
+      ],
+      "evidence_patterns": [
+        "{crop} salinity threshold",
+        "{crop} soil salinity tolerance",
+        "{crop} ECe threshold"
+      ],
+      "management_relevance": [
+        "field selection",
+        "irrigation water quality",
+        "yield risk"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs field selection, irrigation water quality",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.compaction_sensitivity",
+      "label": "Soil compaction sensitivity",
+      "family": "soil",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "megapascal",
+        "bulk_density"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_physical_requirement",
+      "normalized_attribute_subtype": "compaction_sensitivity",
+      "search_aliases": [
+        "soil compaction sensitivity",
+        "penetration resistance",
+        "bulk density tolerance"
+      ],
+      "evidence_patterns": [
+        "{crop} soil compaction sensitivity",
+        "{crop} penetration resistance root growth",
+        "{crop} bulk density tolerance"
+      ],
+      "management_relevance": [
+        "tillage decisions",
+        "root growth",
+        "traffic management"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs tillage decisions, root growth",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "soil.water_table_depth",
+      "label": "Water-table depth tolerance",
+      "family": "soil",
+      "category": "environmental_response",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "centimeter",
+        "meter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "soil_drainage_requirement",
+      "normalized_attribute_subtype": "water_table_depth",
+      "search_aliases": [
+        "water table depth",
+        "shallow water table tolerance",
+        "high water table"
+      ],
+      "evidence_patterns": [
+        "{crop} water table depth",
+        "{crop} shallow water table tolerance",
+        "{crop} high water table drainage"
+      ],
+      "management_relevance": [
+        "field selection",
+        "drainage planning",
+        "waterlogging risk"
+      ],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "soil_requirements",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs field selection, drainage planning",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "label": "Nitrogen requirement",
+      "family": "nutrients",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "pound_per_acre",
+        "kilogram_per_hectare"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "oilseed",
+        "fiber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_management",
+      "normalized_attribute_subtype": "nitrogen_requirement",
+      "search_aliases": [
+        "nitrogen requirement",
+        "nitrogen fertilizer rate",
+        "N requirement"
+      ],
+      "evidence_patterns": [
+        "{crop} nitrogen requirement",
+        "{crop} nitrogen fertilizer rate",
+        "{crop} N requirement yield"
+      ],
+      "management_relevance": [
+        "fertility planning",
+        "yield target",
+        "protein management"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs fertility planning, yield target",
+      "requires_stage_context": false,
+      "query_units": [
+        "kg/ha",
+        "lb/ac"
+      ],
+      "query_terms": [
+        "N rate",
+        "nitrogen fertilizer rate",
+        "yield goal"
+      ],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "extraction_notes": "Extract only crop-specific nitrogen rate recommendations or ranges; preserve yield target, irrigation, and regional qualifiers when stated.",
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "label": "Nitrogen use efficiency",
+      "family": "nutrients",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "kilogram_grain_per_kilogram_nitrogen",
+        "dimensionless"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_use_efficiency",
+      "normalized_attribute_subtype": "nitrogen_use_efficiency",
+      "search_aliases": [
+        "nitrogen use efficiency",
+        "NUE",
+        "nitrogen uptake efficiency"
+      ],
+      "evidence_patterns": [
+        "{crop} nitrogen use efficiency",
+        "{crop} NUE",
+        "{crop} nitrogen uptake efficiency"
+      ],
+      "management_relevance": [
+        "fertility planning",
+        "environmental loss reduction",
+        "variety selection"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs fertility planning, environmental loss reduction",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.critical_tissue_nitrogen",
+      "label": "Critical tissue nitrogen",
+      "family": "nutrients",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_diagnosis",
+      "normalized_attribute_subtype": "critical_tissue_nitrogen",
+      "search_aliases": [
+        "critical tissue nitrogen",
+        "critical nitrogen concentration",
+        "plant nitrogen concentration"
+      ],
+      "evidence_patterns": [
+        "{crop} critical tissue nitrogen",
+        "{crop} critical nitrogen concentration",
+        "{crop} plant nitrogen concentration sufficiency"
+      ],
+      "management_relevance": [
+        "in-season diagnosis",
+        "fertility timing",
+        "protein management"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": true,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs in-season diagnosis, fertility timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "label": "Phosphorus requirement",
+      "family": "nutrients",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "pound_per_acre",
+        "kilogram_per_hectare",
+        "ppm"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_management",
+      "normalized_attribute_subtype": "phosphorus_requirement",
+      "search_aliases": [
+        "phosphorus requirement",
+        "phosphate fertilizer",
+        "P requirement"
+      ],
+      "evidence_patterns": [
+        "{crop} phosphorus requirement",
+        "{crop} phosphate fertilizer recommendation",
+        "{crop} P requirement soil test"
+      ],
+      "management_relevance": [
+        "fertility planning",
+        "root growth",
+        "stand establishment"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs fertility planning, root growth",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "label": "Potassium requirement",
+      "family": "nutrients",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "pound_per_acre",
+        "kilogram_per_hectare",
+        "ppm"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_management",
+      "normalized_attribute_subtype": "potassium_requirement",
+      "search_aliases": [
+        "potassium requirement",
+        "potash fertilizer",
+        "K requirement"
+      ],
+      "evidence_patterns": [
+        "{crop} potassium requirement",
+        "{crop} potash fertilizer recommendation",
+        "{crop} K requirement soil test"
+      ],
+      "management_relevance": [
+        "fertility planning",
+        "stress tolerance",
+        "lodging risk"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs fertility planning, stress tolerance",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "label": "Sulfur requirement",
+      "family": "nutrients",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "pound_per_acre",
+        "kilogram_per_hectare"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "nutrient_management",
+      "normalized_attribute_subtype": "sulfur_requirement",
+      "search_aliases": [
+        "sulfur requirement",
+        "sulphur requirement",
+        "S fertilizer"
+      ],
+      "evidence_patterns": [
+        "{crop} sulfur requirement",
+        "{crop} sulphur requirement",
+        "{crop} S fertilizer recommendation"
+      ],
+      "management_relevance": [
+        "fertility planning",
+        "grain protein",
+        "yield response"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "nutrient_management",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs fertility planning, grain protein",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "label": "Drought tolerance",
+      "family": "stress",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "dimensionless",
+        "score"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "stress_sensitivity",
+      "normalized_attribute_subtype": "drought_tolerance",
+      "search_aliases": [
+        "drought tolerance",
+        "drought resistance",
+        "water stress tolerance"
+      ],
+      "evidence_patterns": [
+        "{crop} drought tolerance",
+        "{crop} drought resistance",
+        "{crop} water stress tolerance"
+      ],
+      "management_relevance": [
+        "variety selection",
+        "dryland suitability",
+        "risk assessment"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs variety selection, dryland suitability",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "label": "Heat-sensitive growth stage",
+      "family": "stress",
+      "category": "environmental_response",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "stress_sensitivity",
+      "normalized_attribute_subtype": "heat_sensitive_stage",
+      "search_aliases": [
+        "heat sensitive stage",
+        "heat stress growth stage",
+        "critical stage for heat stress"
+      ],
+      "evidence_patterns": [
+        "{crop} heat sensitive stage",
+        "{crop} heat stress growth stage",
+        "{crop} critical stage for heat stress"
+      ],
+      "management_relevance": [
+        "planting timing",
+        "irrigation timing",
+        "yield risk"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs planting timing, irrigation timing",
+      "requires_stage_context": true,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "label": "Cold tolerance",
+      "family": "stress",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "celsius",
+        "fahrenheit",
+        "score"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "stress_sensitivity",
+      "normalized_attribute_subtype": "cold_tolerance",
+      "search_aliases": [
+        "cold tolerance",
+        "freezing tolerance",
+        "winter hardiness"
+      ],
+      "evidence_patterns": [
+        "{crop} cold tolerance",
+        "{crop} freezing tolerance",
+        "{crop} winter hardiness"
+      ],
+      "management_relevance": [
+        "winter survival",
+        "planting timing",
+        "variety selection"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs winter survival, planting timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "label": "Salinity tolerance",
+      "family": "stress",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "decisiemens_per_meter",
+        "score"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "salinity_tolerance",
+      "normalized_attribute_subtype": "salinity_tolerance",
+      "search_aliases": [
+        "salinity tolerance",
+        "salt tolerance",
+        "salt stress tolerance"
+      ],
+      "evidence_patterns": [
+        "{crop} salinity tolerance",
+        "{crop} salt tolerance",
+        "{crop} salt stress tolerance"
+      ],
+      "management_relevance": [
+        "field selection",
+        "irrigation water quality",
+        "variety selection"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs field selection, irrigation water quality",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "label": "Lodging susceptibility",
+      "family": "stress",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "score",
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "oilseed",
+        "fiber",
+        "forage"
+      ],
+      "normalized_attribute": "lodging_risk",
+      "normalized_attribute_subtype": "lodging_susceptibility",
+      "search_aliases": [
+        "lodging susceptibility",
+        "lodging resistance",
+        "stem lodging"
+      ],
+      "evidence_patterns": [
+        "{crop} lodging susceptibility",
+        "{crop} lodging resistance",
+        "{crop} stem lodging risk"
+      ],
+      "management_relevance": [
+        "variety selection",
+        "nitrogen management",
+        "plant density"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "stress_abiotic",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs variety selection, nitrogen management",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "label": "Emergence rate",
+      "family": "planting",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent",
+        "plants_per_area"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "stand_establishment",
+      "normalized_attribute_subtype": "emergence_rate",
+      "search_aliases": [
+        "emergence rate",
+        "field emergence",
+        "stand establishment rate"
+      ],
+      "evidence_patterns": [
+        "{crop} emergence rate",
+        "{crop} field emergence",
+        "{crop} stand establishment rate"
+      ],
+      "management_relevance": [
+        "stand assessment",
+        "seeding rate",
+        "replant decision"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "planting_establishment",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs stand assessment, seeding rate",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "label": "Target plant density",
+      "family": "planting",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "plants_per_acre",
+        "plants_per_hectare"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "planting_management",
+      "normalized_attribute_subtype": "target_plant_density",
+      "search_aliases": [
+        "target plant density",
+        "target stand density",
+        "plant population"
+      ],
+      "evidence_patterns": [
+        "{crop} target plant density",
+        "{crop} target stand density",
+        "{crop} plant population recommendation"
+      ],
+      "management_relevance": [
+        "yield optimization",
+        "seed cost",
+        "lodging risk"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "planting_establishment",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs yield optimization, seed cost",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "label": "Row spacing",
+      "family": "planting",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "centimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "planting_management",
+      "normalized_attribute_subtype": "row_spacing",
+      "search_aliases": [
+        "row spacing",
+        "row width",
+        "plant spacing"
+      ],
+      "evidence_patterns": [
+        "{crop} row spacing",
+        "{crop} row width",
+        "{crop} plant spacing recommendation"
+      ],
+      "management_relevance": [
+        "canopy closure",
+        "weed suppression",
+        "equipment setup"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "planting_establishment",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs canopy closure, weed suppression",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "label": "Plant height",
+      "family": "morphology",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "inch",
+        "centimeter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "plant_morphology",
+      "normalized_attribute_subtype": "plant_height",
+      "search_aliases": [
+        "plant height",
+        "canopy height",
+        "crop height"
+      ],
+      "evidence_patterns": [
+        "{crop} plant height",
+        "{crop} canopy height",
+        "{crop} crop height"
+      ],
+      "management_relevance": [
+        "lodging risk",
+        "variety comparison",
+        "biomass estimation"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs lodging risk, variety comparison",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "label": "Tiller density",
+      "family": "morphology",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "tillers_per_square_meter",
+        "tillers_per_plant"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "forage"
+      ],
+      "normalized_attribute": "yield_component",
+      "normalized_attribute_subtype": "tiller_density",
+      "search_aliases": [
+        "tiller density",
+        "tillers per plant",
+        "tillers per square meter"
+      ],
+      "evidence_patterns": [
+        "{crop} tiller density",
+        "{crop} tillers per plant",
+        "{crop} tillers per square meter"
+      ],
+      "management_relevance": [
+        "yield components",
+        "nitrogen timing",
+        "stand assessment"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield components, nitrogen timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "label": "Spike density",
+      "family": "morphology",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "spikes_per_square_meter",
+        "heads_per_square_meter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal"
+      ],
+      "normalized_attribute": "yield_component",
+      "normalized_attribute_subtype": "spike_density",
+      "search_aliases": [
+        "spike density",
+        "heads per square meter",
+        "ears per square meter"
+      ],
+      "evidence_patterns": [
+        "{crop} spike density",
+        "{crop} heads per square meter",
+        "{crop} ears per square meter"
+      ],
+      "management_relevance": [
+        "yield components",
+        "stand assessment",
+        "nitrogen management"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield components, stand assessment",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "label": "Grains per spike",
+      "family": "morphology",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "count"
+      ],
+      "applies_to_crop_groups": [
+        "cereal"
+      ],
+      "normalized_attribute": "yield_component",
+      "normalized_attribute_subtype": "grains_per_spike",
+      "search_aliases": [
+        "grains per spike",
+        "kernels per spike",
+        "seeds per head"
+      ],
+      "evidence_patterns": [
+        "{crop} grains per spike",
+        "{crop} kernels per spike",
+        "{crop} seeds per head"
+      ],
+      "management_relevance": [
+        "yield components",
+        "stress diagnosis",
+        "variety comparison"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "growth_stage"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield components, stress diagnosis",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "label": "Thousand kernel weight",
+      "family": "morphology",
+      "category": "quality_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "gram"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed"
+      ],
+      "normalized_attribute": "yield_component",
+      "normalized_attribute_subtype": "thousand_kernel_weight",
+      "search_aliases": [
+        "thousand kernel weight",
+        "thousand grain weight",
+        "seed weight"
+      ],
+      "evidence_patterns": [
+        "{crop} thousand kernel weight",
+        "{crop} thousand grain weight",
+        "{crop} seed weight"
+      ],
+      "management_relevance": [
+        "yield components",
+        "seed sizing",
+        "quality"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "growth_monitoring",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs yield components, seed sizing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "label": "Grain protein",
+      "family": "quality",
+      "category": "quality_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed"
+      ],
+      "normalized_attribute": "crop_quality",
+      "normalized_attribute_subtype": "grain_protein",
+      "search_aliases": [
+        "grain protein",
+        "seed protein",
+        "protein content"
+      ],
+      "evidence_patterns": [
+        "{crop} grain protein",
+        "{crop} seed protein",
+        "{crop} protein content"
+      ],
+      "management_relevance": [
+        "market class",
+        "nitrogen management",
+        "variety selection"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "post_harvest_quality",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs market class, nitrogen management",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "quality.test_weight",
+      "label": "Test weight",
+      "family": "quality",
+      "category": "quality_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "pound_per_bushel",
+        "kilogram_per_hectoliter"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "oilseed"
+      ],
+      "normalized_attribute": "crop_quality",
+      "normalized_attribute_subtype": "test_weight",
+      "search_aliases": [
+        "test weight",
+        "hectoliter weight",
+        "grain density"
+      ],
+      "evidence_patterns": [
+        "{crop} test weight",
+        "{crop} hectoliter weight",
+        "{crop} grain density"
+      ],
+      "management_relevance": [
+        "market grade",
+        "harvest timing",
+        "stress diagnosis"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "post_harvest_quality",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs market grade, harvest timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "label": "Falling number",
+      "family": "quality",
+      "category": "quality_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "second"
+      ],
+      "applies_to_crop_groups": [
+        "cereal"
+      ],
+      "normalized_attribute": "crop_quality",
+      "normalized_attribute_subtype": "falling_number",
+      "search_aliases": [
+        "falling number",
+        "preharvest sprouting quality",
+        "alpha amylase activity"
+      ],
+      "evidence_patterns": [
+        "{crop} falling number",
+        "{crop} preharvest sprouting quality",
+        "{crop} alpha amylase activity"
+      ],
+      "management_relevance": [
+        "market grade",
+        "harvest timing",
+        "variety selection"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "post_harvest_quality",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs market grade, harvest timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "quality.gluten_strength",
+      "label": "Gluten strength",
+      "family": "quality",
+      "category": "quality_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "score",
+        "index"
+      ],
+      "applies_to_crop_groups": [
+        "cereal"
+      ],
+      "normalized_attribute": "crop_quality",
+      "normalized_attribute_subtype": "gluten_strength",
+      "search_aliases": [
+        "gluten strength",
+        "dough strength",
+        "baking quality"
+      ],
+      "evidence_patterns": [
+        "{crop} gluten strength",
+        "{crop} dough strength",
+        "{crop} baking quality"
+      ],
+      "management_relevance": [
+        "market class",
+        "variety selection",
+        "nitrogen management"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "post_harvest_quality",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs market class, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "label": "Physiological maturity",
+      "family": "harvest",
+      "category": "phenology_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "day",
+        "growth_stage"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "vegetable"
+      ],
+      "normalized_attribute": "phenology_timing",
+      "normalized_attribute_subtype": "physiological_maturity",
+      "search_aliases": [
+        "physiological maturity",
+        "maturity stage",
+        "black layer"
+      ],
+      "evidence_patterns": [
+        "{crop} physiological maturity",
+        "{crop} maturity stage",
+        "{crop} physiological maturity growth stage"
+      ],
+      "management_relevance": [
+        "harvest timing",
+        "desiccation timing",
+        "quality risk"
+      ],
+      "required_scope": [
+        "crop",
+        "growth_stage",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "growth_stage",
+          "scope"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "harvest",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs harvest timing, desiccation timing",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "harvest.drydown_rate",
+      "label": "Grain drydown rate",
+      "family": "harvest",
+      "category": "physiological_parameter",
+      "value_type": "numeric_or_range",
+      "canonical_units": [
+        "percent_per_day"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed"
+      ],
+      "normalized_attribute": "harvest_management",
+      "normalized_attribute_subtype": "drydown_rate",
+      "search_aliases": [
+        "grain drydown rate",
+        "seed drydown",
+        "field dry down"
+      ],
+      "evidence_patterns": [
+        "{crop} grain drydown rate",
+        "{crop} seed drydown",
+        "{crop} field dry down"
+      ],
+      "management_relevance": [
+        "harvest timing",
+        "drying cost",
+        "weather risk"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "season"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "season"
+        ],
+        "merge_if_values_overlap": true
+      },
+      "domain": "harvest",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs harvest timing, drying cost",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "label": "Preharvest sprouting risk",
+      "family": "harvest",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "score",
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal"
+      ],
+      "normalized_attribute": "harvest_risk",
+      "normalized_attribute_subtype": "preharvest_sprouting_risk",
+      "search_aliases": [
+        "preharvest sprouting risk",
+        "sprouting resistance",
+        "weathering resistance"
+      ],
+      "evidence_patterns": [
+        "{crop} preharvest sprouting risk",
+        "{crop} sprouting resistance",
+        "{crop} weathering resistance grain"
+      ],
+      "management_relevance": [
+        "harvest timing",
+        "variety selection",
+        "grain quality"
+      ],
+      "required_scope": [
+        "crop",
+        "cultivar",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "cultivar",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "harvest",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs harvest timing, variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "label": "Tillage response",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "tillage_management",
+      "normalized_attribute_subtype": "tillage_response",
+      "search_aliases": [
+        "tillage response",
+        "no-till response",
+        "conventional tillage response"
+      ],
+      "evidence_patterns": [
+        "{crop} tillage response",
+        "{crop} no-till response",
+        "{crop} conventional tillage response"
+      ],
+      "management_relevance": [
+        "soil conservation",
+        "yield stability",
+        "establishment"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs soil conservation, yield stability",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "label": "Residue cover response",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text_or_numeric",
+      "canonical_units": [
+        "percent"
+      ],
+      "applies_to_crop_groups": [
+        "cereal",
+        "legume",
+        "oilseed",
+        "fiber",
+        "tuber",
+        "forage",
+        "vegetable"
+      ],
+      "normalized_attribute": "residue_management",
+      "normalized_attribute_subtype": "residue_cover_response",
+      "search_aliases": [
+        "residue cover response",
+        "crop residue effect",
+        "stubble retention"
+      ],
+      "evidence_patterns": [
+        "{crop} residue cover response",
+        "{crop} crop residue effect",
+        "{crop} stubble retention"
+      ],
+      "management_relevance": [
+        "soil moisture",
+        "erosion control",
+        "stand establishment"
+      ],
+      "required_scope": [
+        "crop",
+        "region",
+        "management_system"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope",
+          "management_system"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs soil moisture, erosion control",
+      "requires_stage_context": false,
+      "implementation_status": "active"
+    },
+    {
+      "parameter_id": "variety_cultivar.maturity_class",
+      "label": "Maturity class",
+      "family": "variety",
+      "category": "phenology_parameter",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "fiber",
+        "forage",
+        "legume",
+        "oilseed",
+        "tuber",
+        "vegetable"
+      ],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "maturity_class",
+      "search_aliases": [
+        "maturity class",
+        "maturity group",
+        "days to maturity class"
+      ],
+      "evidence_patterns": [
+        "{crop} maturity class"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "universal",
+      "decision": "Informs variety selection",
+      "requires_stage_context": false,
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.disease_resistance_package",
+      "label": "Disease resistance package",
+      "family": "variety",
+      "category": "quality_parameter",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "disease_resistance_package",
+      "search_aliases": [
+        "disease resistance package",
+        "resistance rating",
+        "tolerance package"
+      ],
+      "evidence_patterns": [
+        "{crop} disease resistance package"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs variety selection, disease management",
+      "requires_stage_context": false,
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.key_disease_pressure",
+      "label": "Key disease pressure and timing",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "key_disease_pressure",
+      "search_aliases": [
+        "key disease pressure",
+        "disease threshold",
+        "fungicide timing"
+      ],
+      "evidence_patterns": [
+        "{crop} key disease pressure"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs fungicide timing, disease management",
+      "requires_stage_context": true,
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.key_pest_threshold",
+      "label": "Key insect pest action threshold",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "key_pest_threshold",
+      "search_aliases": [
+        "insect action threshold",
+        "pest economic threshold",
+        "scouting threshold"
+      ],
+      "evidence_patterns": [
+        "{crop} insect action threshold"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs insecticide timing, pest management",
+      "requires_stage_context": true,
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.weed_management",
+      "label": "Weed management program",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "fiber",
+        "forage",
+        "legume",
+        "oilseed",
+        "tuber",
+        "vegetable"
+      ],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "weed_management",
+      "search_aliases": [
+        "weed management",
+        "herbicide program",
+        "critical weed-free period"
+      ],
+      "evidence_patterns": [
+        "{crop} weed management"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs herbicide program, weed management",
+      "requires_stage_context": false,
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.storage_conditions",
+      "label": "Storage moisture and temperature",
+      "family": "post_harvest",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [
+        "cereal",
+        "fiber",
+        "forage",
+        "legume",
+        "oilseed",
+        "tuber",
+        "vegetable"
+      ],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "storage_conditions",
+      "search_aliases": [
+        "storage moisture",
+        "storage temperature",
+        "safe storage conditions"
+      ],
+      "evidence_patterns": [
+        "{crop} storage moisture"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "post_harvest_quality",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs drying and storage management",
+      "requires_stage_context": false,
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.winter_hardiness",
+      "label": "Winter hardiness",
+      "family": "variety",
+      "category": "quality_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "oilseed", "forage"],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "winter_hardiness",
+      "search_aliases": ["winter hardiness", "winter survival rating", "cold tolerance rating"],
+      "evidence_patterns": ["{crop} winter hardiness", "{crop} winter survival rating"],
+      "management_relevance": ["variety selection", "winter survival", "regional adaptation"],
+      "required_scope": ["crop", "region", "cultivar"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "cultivar", "scope"], "merge_if_values_overlap": false},
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs variety selection and winter survival risk",
+      "requires_stage_context": false,
+      "query_terms": ["winter survival", "hardiness rating", "cold tolerance"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region", "cultivar"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.lodging_resistance",
+      "label": "Lodging resistance",
+      "family": "variety",
+      "category": "quality_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "oilseed", "fiber"],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "lodging_resistance",
+      "search_aliases": ["lodging resistance", "lodging rating", "standability"],
+      "evidence_patterns": ["{crop} lodging resistance", "{crop} lodging rating"],
+      "management_relevance": ["variety selection", "nitrogen management", "harvest risk"],
+      "required_scope": ["crop", "region", "cultivar"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "cultivar", "scope"], "merge_if_values_overlap": false},
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs variety selection and lodging risk management",
+      "requires_stage_context": false,
+      "query_terms": ["lodging rating", "standability", "variety trial"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region", "cultivar"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.quality_class",
+      "label": "Quality class",
+      "family": "variety",
+      "category": "quality_parameter",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "quality_class",
+      "search_aliases": ["quality class", "market class", "end-use class"],
+      "evidence_patterns": ["{crop} quality class", "{crop} market class"],
+      "management_relevance": ["market selection", "variety selection", "end-use planning"],
+      "required_scope": ["crop", "cultivar", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "cultivar", "scope"], "merge_if_values_overlap": false},
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs variety selection and market fit",
+      "requires_stage_context": false,
+      "query_terms": ["market class", "end-use quality", "recommended list"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region", "cultivar"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.photoperiod_response_class",
+      "label": "Photoperiod response class",
+      "family": "variety",
+      "category": "physiological_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": ["hour", "daylength"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber"],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "variety_photoperiod_response_class",
+      "search_aliases": ["photoperiod response class", "daylength sensitivity class", "critical photoperiod class"],
+      "evidence_patterns": ["{crop} photoperiod response class", "{crop} daylength sensitivity variety"],
+      "management_relevance": ["adaptation zone", "planting date", "variety selection"],
+      "required_scope": ["crop", "cultivar", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "cultivar", "scope"], "merge_if_values_overlap": false},
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs adaptation-zone and planting-date decisions",
+      "requires_stage_context": false,
+      "query_terms": ["photoperiod response", "daylength sensitivity", "maturity group"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region", "cultivar"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.vernalization_class",
+      "label": "Vernalization class",
+      "family": "variety",
+      "category": "physiological_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": ["day", "degree_days"],
+      "applies_to_crop_groups": ["cereal", "oilseed", "forage"],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "vernalization_class",
+      "search_aliases": ["vernalization class", "winter habit", "spring habit"],
+      "evidence_patterns": ["{crop} vernalization class", "{crop} winter habit variety"],
+      "management_relevance": ["variety selection", "winter survival", "planting timing"],
+      "required_scope": ["crop", "cultivar", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "cultivar", "scope"], "merge_if_values_overlap": false},
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs winter versus spring variety fit",
+      "requires_stage_context": false,
+      "query_terms": ["winter habit", "spring habit", "vernalization"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region", "cultivar"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "variety_cultivar.herbicide_tolerance_trait",
+      "label": "Herbicide tolerance trait",
+      "family": "variety",
+      "category": "quality_parameter",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber"],
+      "normalized_attribute": "variety",
+      "normalized_attribute_subtype": "herbicide_tolerance_trait",
+      "search_aliases": ["herbicide tolerance trait", "herbicide tolerant variety", "trait package"],
+      "evidence_patterns": ["{crop} herbicide tolerance trait", "{crop} herbicide tolerant variety"],
+      "management_relevance": ["variety selection", "herbicide program", "weed management"],
+      "required_scope": ["crop", "cultivar", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "cultivar", "management_system"], "merge_if_values_overlap": false},
+      "domain": "variety_cultivar",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs herbicide-program compatibility",
+      "requires_stage_context": false,
+      "query_terms": ["trait package", "herbicide tolerant", "technology trait"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "cultivar", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.disease_sensitive_stage",
+      "label": "Disease-sensitive stage",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "disease_sensitive_stage",
+      "search_aliases": ["disease sensitive stage", "disease risk stage", "critical disease timing"],
+      "evidence_patterns": ["{crop} disease sensitive stage", "{crop} disease risk growth stage"],
+      "management_relevance": ["scouting timing", "fungicide timing", "yield protection"],
+      "required_scope": ["crop", "growth_stage", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "growth_stage", "scope"], "merge_if_values_overlap": false},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs scouting and fungicide timing",
+      "requires_stage_context": true,
+      "query_terms": ["disease risk", "growth stage", "fungicide timing"],
+      "expected_value_shape": "stage",
+      "expected_scope": ["crop", "region", "growth_stage", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.fungicide_application_timing",
+      "label": "Fungicide application timing",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "fungicide_application_timing",
+      "search_aliases": ["fungicide timing", "fungicide application timing", "fungicide window"],
+      "evidence_patterns": ["{crop} fungicide timing", "{crop} fungicide application timing"],
+      "management_relevance": ["disease management", "spray timing", "yield protection"],
+      "required_scope": ["crop", "growth_stage", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "growth_stage", "scope"], "merge_if_values_overlap": false},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs fungicide application windows",
+      "requires_stage_context": true,
+      "query_terms": ["fungicide timing", "application window", "growth stage"],
+      "expected_value_shape": "stage",
+      "expected_scope": ["crop", "region", "growth_stage", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.insect_action_threshold",
+      "label": "Insect action threshold",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["insects_per_plant", "insects_per_sweep", "percent"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "insect_action_threshold",
+      "search_aliases": ["insect action threshold", "economic threshold", "scouting threshold"],
+      "evidence_patterns": ["{crop} insect action threshold", "{crop} pest economic threshold"],
+      "management_relevance": ["scouting", "insecticide timing", "economic threshold"],
+      "required_scope": ["crop", "region", "growth_stage"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "organism", "scope"], "merge_if_values_overlap": true},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs insecticide treatment decisions",
+      "requires_stage_context": true,
+      "query_terms": ["economic threshold", "scouting threshold", "insecticide threshold"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "growth_stage", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.pest_sensitive_stage",
+      "label": "Pest-sensitive stage",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "pest_sensitive_stage",
+      "search_aliases": ["pest sensitive stage", "insect damage stage", "critical pest stage"],
+      "evidence_patterns": ["{crop} pest sensitive stage", "{crop} insect damage growth stage"],
+      "management_relevance": ["scouting timing", "insecticide timing", "yield protection"],
+      "required_scope": ["crop", "growth_stage", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "growth_stage", "scope"], "merge_if_values_overlap": false},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs pest scouting timing",
+      "requires_stage_context": true,
+      "query_terms": ["pest stage", "injury timing", "scouting"],
+      "expected_value_shape": "stage",
+      "expected_scope": ["crop", "region", "growth_stage", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.critical_weed_free_period",
+      "label": "Critical weed-free period",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["day", "growth_stage"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "critical_weed_free_period",
+      "search_aliases": ["critical weed-free period", "critical period for weed control", "weed-free period"],
+      "evidence_patterns": ["{crop} critical weed-free period", "{crop} critical period weed control"],
+      "management_relevance": ["herbicide timing", "cultivation timing", "yield protection"],
+      "required_scope": ["crop", "region", "growth_stage"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": true},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs early-season weed control timing",
+      "requires_stage_context": true,
+      "query_units": ["days", "growth stage"],
+      "query_terms": ["critical period weed control", "weed-free period", "crop-weed competition"],
+      "expected_value_shape": "range",
+      "expected_scope": ["crop", "region", "growth_stage", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.herbicide_application_window",
+      "label": "Herbicide application window",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "herbicide_application_window",
+      "search_aliases": ["herbicide application window", "herbicide timing", "postemergence window"],
+      "evidence_patterns": ["{crop} herbicide application window", "{crop} herbicide timing growth stage"],
+      "management_relevance": ["weed management", "spray timing", "crop safety"],
+      "required_scope": ["crop", "growth_stage", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "growth_stage", "management_system"], "merge_if_values_overlap": false},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs herbicide timing and crop-safety constraints",
+      "requires_stage_context": true,
+      "query_terms": ["postemergence", "crop stage", "application window"],
+      "expected_value_shape": "stage",
+      "expected_scope": ["crop", "growth_stage", "management_system", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.seed_treatment_recommendation",
+      "label": "Seed treatment recommendation",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "seed_treatment_recommendation",
+      "search_aliases": ["seed treatment recommendation", "seed treatment", "fungicide seed treatment"],
+      "evidence_patterns": ["{crop} seed treatment recommendation", "{crop} seed treatment guide"],
+      "management_relevance": ["stand establishment", "seedling disease", "early pest control"],
+      "required_scope": ["crop", "region", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": false},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs seed-treatment decisions",
+      "requires_stage_context": false,
+      "query_terms": ["seed treatment", "seedling disease", "treated seed"],
+      "expected_value_shape": "text",
+      "expected_scope": ["crop", "region", "management_system", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.nematode_pressure",
+      "label": "Nematode pressure",
+      "family": "crop_protection",
+      "category": "environmental_response",
+      "value_type": "text_or_numeric",
+      "canonical_units": ["eggs_per_volume", "nematodes_per_volume"],
+      "applies_to_crop_groups": ["legume", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "nematode_pressure",
+      "search_aliases": ["nematode pressure", "nematode threshold", "root-knot nematode"],
+      "evidence_patterns": ["{crop} nematode pressure", "{crop} nematode threshold"],
+      "management_relevance": ["field selection", "rotation", "variety selection"],
+      "required_scope": ["crop", "region", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "organism", "scope"], "merge_if_values_overlap": true},
+      "domain": "crop_protection",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs rotation, resistant variety, and field selection decisions",
+      "requires_stage_context": false,
+      "query_terms": ["nematode threshold", "root-knot", "soil assay"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "crop_protection.disease_severity_threshold",
+      "label": "Disease severity threshold",
+      "family": "crop_protection",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["percent"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "crop_protection",
+      "normalized_attribute_subtype": "disease_severity_threshold",
+      "search_aliases": ["disease severity threshold", "disease action threshold", "severity rating threshold"],
+      "evidence_patterns": ["{crop} disease severity threshold", "{crop} disease action threshold"],
+      "management_relevance": ["scouting", "fungicide decision", "yield protection"],
+      "required_scope": ["crop", "region", "growth_stage"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "organism", "scope"], "merge_if_values_overlap": true},
+      "domain": "crop_protection",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs disease treatment decisions",
+      "requires_stage_context": true,
+      "query_units": ["%", "percent"],
+      "query_terms": ["severity threshold", "action threshold", "fungicide decision"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "growth_stage", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.safe_storage_moisture",
+      "label": "Safe storage moisture",
+      "family": "post_harvest",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["percent"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber"],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "safe_storage_moisture",
+      "search_aliases": ["safe storage moisture", "storage moisture", "maximum storage moisture"],
+      "evidence_patterns": ["{crop} safe storage moisture", "{crop} maximum storage moisture"],
+      "management_relevance": ["drying", "storage quality", "spoilage prevention"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "post_harvest_quality",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs drying target and storage risk",
+      "requires_stage_context": false,
+      "query_units": ["%", "percent"],
+      "query_terms": ["safe storage moisture", "drying target", "grain storage"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.safe_storage_temperature",
+      "label": "Safe storage temperature",
+      "family": "post_harvest",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["celsius", "fahrenheit"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "safe_storage_temperature",
+      "search_aliases": ["safe storage temperature", "grain storage temperature", "storage temperature"],
+      "evidence_patterns": ["{crop} safe storage temperature", "{crop} grain storage temperature"],
+      "management_relevance": ["aeration", "spoilage prevention", "quality preservation"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "post_harvest_quality",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs aeration and storage-temperature management",
+      "requires_stage_context": false,
+      "query_units": ["°C", "°F"],
+      "query_terms": ["storage temperature", "aeration", "grain cooling"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.drying_temperature_limit",
+      "label": "Drying temperature limit",
+      "family": "post_harvest",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["celsius", "fahrenheit"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber"],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "drying_temperature_limit",
+      "search_aliases": ["drying temperature limit", "maximum drying temperature", "grain drying temperature"],
+      "evidence_patterns": ["{crop} drying temperature limit", "{crop} maximum drying temperature"],
+      "management_relevance": ["drying", "seed quality", "grain quality"],
+      "required_scope": ["crop", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "management_system"], "merge_if_values_overlap": true},
+      "domain": "post_harvest_quality",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs dryer setup and quality protection",
+      "requires_stage_context": false,
+      "query_units": ["°C", "°F"],
+      "query_terms": ["maximum drying temperature", "grain dryer", "seed quality"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.storage_duration",
+      "label": "Storage duration",
+      "family": "post_harvest",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["day", "month"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "storage_duration",
+      "search_aliases": ["storage duration", "safe storage period", "maximum storage period"],
+      "evidence_patterns": ["{crop} safe storage period", "{crop} storage duration"],
+      "management_relevance": ["marketing timing", "quality preservation", "inventory management"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "post_harvest_quality",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs storage and marketing timing",
+      "requires_stage_context": false,
+      "query_units": ["days", "months"],
+      "query_terms": ["safe storage period", "storage life", "grain storage"],
+      "expected_value_shape": "range",
+      "expected_scope": ["crop", "region", "season"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.quality_grade_threshold",
+      "label": "Quality grade threshold",
+      "family": "post_harvest",
+      "category": "quality_parameter",
+      "value_type": "text_or_numeric",
+      "canonical_units": ["percent", "grade"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "quality_grade_threshold",
+      "search_aliases": ["quality grade threshold", "grading standard", "market grade threshold"],
+      "evidence_patterns": ["{crop} quality grade threshold", "{crop} grading standard"],
+      "management_relevance": ["marketing", "harvest quality", "storage quality"],
+      "required_scope": ["crop", "region"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope"], "merge_if_values_overlap": false},
+      "domain": "post_harvest_quality",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs quality grading and market destination",
+      "requires_stage_context": false,
+      "query_terms": ["grading standard", "quality grade", "market specification"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "post_harvest_quality.storage_pest_monitoring",
+      "label": "Storage pest monitoring",
+      "family": "post_harvest",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber"],
+      "normalized_attribute": "post_harvest",
+      "normalized_attribute_subtype": "storage_pest_monitoring",
+      "search_aliases": ["storage pest monitoring", "stored grain insects", "grain storage pests"],
+      "evidence_patterns": ["{crop} storage pest monitoring", "{crop} stored grain insects"],
+      "management_relevance": ["storage scouting", "fumigation decision", "quality preservation"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "organism", "scope"], "merge_if_values_overlap": false},
+      "domain": "post_harvest_quality",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs storage pest scouting and treatment decisions",
+      "requires_stage_context": false,
+      "query_terms": ["stored grain insects", "storage pests", "monitoring"],
+      "expected_value_shape": "text",
+      "expected_scope": ["crop", "region", "season", "organism"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "economics.seed_cost",
+      "label": "Seed cost",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["currency_per_area", "currency_per_seed_unit"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "seed_cost",
+      "search_aliases": ["seed cost", "seed expense", "seed budget"],
+      "evidence_patterns": ["{crop} seed cost", "{crop} production budget seed"],
+      "management_relevance": ["budgeting", "seeding rate", "gross margin"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs enterprise budgeting and seeding-rate tradeoffs",
+      "requires_stage_context": false,
+      "query_terms": ["enterprise budget", "seed expense", "cost per acre"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "economics.fertilizer_cost",
+      "label": "Fertilizer cost",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["currency_per_area", "currency_per_nutrient_unit"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "fertilizer_cost",
+      "search_aliases": ["fertilizer cost", "nutrient cost", "fertility budget"],
+      "evidence_patterns": ["{crop} fertilizer cost", "{crop} production budget fertilizer"],
+      "management_relevance": ["budgeting", "fertility planning", "gross margin"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs fertility budgeting and input-cost risk",
+      "requires_stage_context": false,
+      "query_terms": ["enterprise budget", "fertilizer expense", "nutrient cost"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "economics.irrigation_cost",
+      "label": "Irrigation cost",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["currency_per_area", "currency_per_water_unit"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "irrigation_cost",
+      "search_aliases": ["irrigation cost", "water cost", "irrigation budget"],
+      "evidence_patterns": ["{crop} irrigation cost", "{crop} production budget irrigation"],
+      "management_relevance": ["irrigation planning", "budgeting", "water allocation"],
+      "required_scope": ["crop", "region", "season", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season", "management_system"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs irrigation economics and water-allocation decisions",
+      "requires_stage_context": false,
+      "query_terms": ["enterprise budget", "irrigation expense", "water cost"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "management_system", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "economics.pesticide_cost",
+      "label": "Pesticide cost",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["currency_per_area"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "pesticide_cost",
+      "search_aliases": ["pesticide cost", "crop protection cost", "chemical cost"],
+      "evidence_patterns": ["{crop} pesticide cost", "{crop} production budget pesticide"],
+      "management_relevance": ["budgeting", "crop protection planning", "gross margin"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs crop-protection budgeting",
+      "requires_stage_context": false,
+      "query_terms": ["enterprise budget", "chemical cost", "crop protection expense"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "economics.harvest_cost",
+      "label": "Harvest cost",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["currency_per_area", "currency_per_yield_unit"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "harvest_cost",
+      "search_aliases": ["harvest cost", "custom harvest rate", "combining cost"],
+      "evidence_patterns": ["{crop} harvest cost", "{crop} custom harvest rate"],
+      "management_relevance": ["budgeting", "custom operation decision", "gross margin"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs harvest budgeting and custom-hire decisions",
+      "requires_stage_context": false,
+      "query_terms": ["enterprise budget", "custom harvest", "operation cost"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "economics.expected_gross_margin",
+      "label": "Expected gross margin",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["currency_per_area"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "expected_gross_margin",
+      "search_aliases": ["gross margin", "expected gross margin", "enterprise gross margin"],
+      "evidence_patterns": ["{crop} gross margin", "{crop} enterprise budget gross margin"],
+      "management_relevance": ["crop choice", "rotation planning", "enterprise budgeting"],
+      "required_scope": ["crop", "region", "season", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season", "management_system"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs crop choice and enterprise comparison",
+      "requires_stage_context": false,
+      "query_terms": ["enterprise budget", "gross margin", "return above variable cost"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "management_system", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "economics.break_even_yield",
+      "label": "Break-even yield",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["yield_per_area"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "break_even_yield",
+      "search_aliases": ["break-even yield", "breakeven yield", "break even yield"],
+      "evidence_patterns": ["{crop} break-even yield", "{crop} breakeven yield"],
+      "management_relevance": ["pricing", "risk management", "enterprise budgeting"],
+      "required_scope": ["crop", "region", "season", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season", "management_system"], "merge_if_values_overlap": true},
+      "domain": "economics",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs pricing and risk management",
+      "requires_stage_context": false,
+      "query_terms": ["breakeven yield", "enterprise budget", "crop budget"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "season", "management_system", "price_year"],
+      "implementation_status": "deferred"
+    },
+    {
+      "parameter_id": "management.rotation_interval",
+      "label": "Rotation interval",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "numeric_or_range",
+      "canonical_units": ["year", "season"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "rotation_management",
+      "normalized_attribute_subtype": "rotation_interval",
+      "search_aliases": ["rotation interval", "years between crops", "rotation break"],
+      "evidence_patterns": ["{crop} rotation interval", "{crop} years between crops"],
+      "management_relevance": ["disease break", "soil fertility", "rotation planning"],
+      "required_scope": ["crop", "region", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": true},
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs rotation design and disease-break planning",
+      "requires_stage_context": false,
+      "query_units": ["years", "seasons"],
+      "query_terms": ["rotation interval", "disease break", "crop sequence"],
+      "expected_value_shape": "numeric_range",
+      "expected_scope": ["crop", "region", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "management.cover_crop_compatibility",
+      "label": "Cover crop compatibility",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "tuber", "vegetable"],
+      "normalized_attribute": "rotation_management",
+      "normalized_attribute_subtype": "cover_crop_compatibility",
+      "search_aliases": ["cover crop compatibility", "cover crop before", "cover crop after"],
+      "evidence_patterns": ["{crop} cover crop compatibility", "{crop} cover crop before planting"],
+      "management_relevance": ["rotation planning", "soil cover", "planting timing"],
+      "required_scope": ["crop", "region", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": false},
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs cover-crop and rotation compatibility",
+      "requires_stage_context": false,
+      "query_terms": ["cover crop", "termination timing", "planting window"],
+      "expected_value_shape": "text",
+      "expected_scope": ["crop", "region", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "management.residue_management",
+      "label": "Residue management",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage"],
+      "normalized_attribute": "tillage_management",
+      "normalized_attribute_subtype": "residue_management",
+      "search_aliases": ["residue management", "crop residue management", "stubble management"],
+      "evidence_patterns": ["{crop} residue management", "{crop} stubble management"],
+      "management_relevance": ["seedbed preparation", "erosion control", "disease risk"],
+      "required_scope": ["crop", "region", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": false},
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "universal",
+      "decision": "Informs residue, tillage, and seedbed decisions",
+      "requires_stage_context": false,
+      "query_terms": ["stubble management", "residue cover", "seedbed"],
+      "expected_value_shape": "text",
+      "expected_scope": ["crop", "region", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "management.grazing_window",
+      "label": "Grazing window",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text_or_numeric",
+      "canonical_units": ["date", "growth_stage"],
+      "applies_to_crop_groups": ["cereal", "forage"],
+      "normalized_attribute": "grazing_management",
+      "normalized_attribute_subtype": "grazing_window",
+      "search_aliases": ["grazing window", "graze-out window", "dual-purpose grazing"],
+      "evidence_patterns": ["{crop} grazing window", "{crop} dual-purpose grazing"],
+      "management_relevance": ["forage use", "grain yield protection", "livestock integration"],
+      "required_scope": ["crop", "region", "growth_stage", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": false},
+      "domain": "soil_prep_tillage",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs grazing and grain-yield tradeoffs",
+      "requires_stage_context": true,
+      "query_terms": ["dual-purpose", "grazing cutoff", "growth stage"],
+      "expected_value_shape": "date_window",
+      "expected_scope": ["crop", "region", "growth_stage", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "management.double_crop_window",
+      "label": "Double-crop window",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text_or_numeric",
+      "canonical_units": ["date", "day"],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "forage", "vegetable"],
+      "normalized_attribute": "rotation_management",
+      "normalized_attribute_subtype": "double_crop_window",
+      "search_aliases": ["double-crop window", "double cropping window", "planting after harvest"],
+      "evidence_patterns": ["{crop} double-crop window", "{crop} planting after harvest"],
+      "management_relevance": ["rotation planning", "planting timing", "harvest timing"],
+      "required_scope": ["crop", "region", "season"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "season"], "merge_if_values_overlap": false},
+      "domain": "planting_establishment",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs double-crop feasibility and timing",
+      "requires_stage_context": false,
+      "query_terms": ["double crop", "planting window", "harvest date"],
+      "expected_value_shape": "date_window",
+      "expected_scope": ["crop", "region", "season"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "management.irrigation_method",
+      "label": "Irrigation method",
+      "family": "management",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": ["cereal", "legume", "oilseed", "fiber", "forage", "vegetable"],
+      "normalized_attribute": "water_management",
+      "normalized_attribute_subtype": "irrigation_method",
+      "search_aliases": ["irrigation method", "irrigation system", "furrow sprinkler drip"],
+      "evidence_patterns": ["{crop} irrigation method", "{crop} irrigation system"],
+      "management_relevance": ["irrigation planning", "water efficiency", "equipment choice"],
+      "required_scope": ["crop", "region", "management_system"],
+      "review_policy": {"allow_canonical": false, "conflict_key": ["crop", "parameter_id", "scope", "management_system"], "merge_if_values_overlap": false},
+      "domain": "water_management",
+      "parameter_kind": "operation",
+      "concept_scope": "crop_group",
+      "decision": "Informs irrigation-system selection",
+      "requires_stage_context": false,
+      "query_terms": ["irrigation system", "furrow", "sprinkler", "drip"],
+      "expected_value_shape": "category",
+      "expected_scope": ["crop", "region", "management_system"],
+      "implementation_status": "stub"
+    },
+    {
+      "parameter_id": "economics.input_intensity",
+      "label": "Typical input intensity",
+      "family": "economics",
+      "category": "management_recommendation",
+      "value_type": "text",
+      "canonical_units": [],
+      "applies_to_crop_groups": [],
+      "normalized_attribute": "economics",
+      "normalized_attribute_subtype": "input_intensity",
+      "search_aliases": [
+        "input intensity",
+        "typical input cost",
+        "production budget"
+      ],
+      "evidence_patterns": [
+        "{crop} input intensity"
+      ],
+      "management_relevance": [],
+      "required_scope": [
+        "crop",
+        "region"
+      ],
+      "review_policy": {
+        "allow_canonical": false,
+        "conflict_key": [
+          "crop",
+          "parameter_id",
+          "scope"
+        ],
+        "merge_if_values_overlap": false
+      },
+      "domain": "economics",
+      "parameter_kind": "trait",
+      "concept_scope": "crop_group",
+      "decision": "Informs budgeting and rotation fit",
+      "requires_stage_context": false,
+      "implementation_status": "stub"
+    }
+  ]
+}

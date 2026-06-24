@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 6,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "the threshold level of salinity tolerance of wheat is 4–6 dSm/m... saline irrigation water (with EC- 4dSm/m) was mixed with good quality water.",
+      "claim_summary": "Salinity tolerance threshold of wheat is an EC of 4-6 dS/m (unit reported as dS/m, not percent).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Wheat is only moderately tolerant to salinity; the loss in its grain yield exceeds 60% under saline conditions.",
+      "claim_summary": "Wheat is only moderately salt-tolerant; grain yield loss can exceed 60% under saline conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 150,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "the recommended N, P2O5, and K2O were applied at the rate of 150, 60, and 40 kg ha−1 in the form of Urea, Single Super Phosphate (SSP), and Muriate of Potash (MOP), respectively.",
+      "claim_summary": "Recommended nitrogen rate for wheat (India saline trial) was 150 kg N/ha, applied in split doses.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 60,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "the recommended N, P2O5, and K2O were applied at the rate of 150, 60, and 40 kg ha−1",
+      "claim_summary": "Recommended phosphorus (P2O5) rate for wheat (India saline trial) was 60 kg/ha.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 40,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "the recommended N, P2O5, and K2O were applied at the rate of 150, 60, and 40 kg ha−1",
+      "claim_summary": "Recommended potassium (K2O) rate for wheat (India saline trial) was 40 kg/ha.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "value_type": "range",
+      "range_min": 3.62,
+      "range_max": 3.65,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "LAI... was the highest during 69–90 DAS. At 69 and 90 DAS, the highest LAI was observed in genotypes ASN_SAN_17 (3.62) and ASN_SAN_06 (3.65).",
+      "claim_summary": "Peak wheat leaf area index under saline field conditions was 3.62-3.65 (dimensionless) at 69-90 days after sowing.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

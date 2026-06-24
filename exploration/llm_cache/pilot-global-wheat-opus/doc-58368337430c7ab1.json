@@ -1,0 +1,84 @@
+{"claims": [
+  {
+    "parameter_id": "water.crop_coefficient",
+    "value_type": "range",
+    "range_min": 0.28,
+    "range_max": 1.23,
+    "unit": "percent",
+    "qualifier": "recommended",
+    "evidence_text": "The crop coefficient for the initial growth (Kc ini) stage ... was found as 0.28 for drip irrigated, 0.42 for furrow irrigated and 0.7 for flood irrigated wheat, Kc mid and Kc end values were adjusted ... were 1.23 and 0.38",
+    "claim_summary": "Adjusted FAO-56 wheat Kc: ini 0.28-0.7 (by method), mid 1.23, end 0.38.",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "soil.soil_water_holding_capacity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Soil is sandy loam (1-1.5m depth) with volumetric water content at field capacity and permanent wilting point determined at 39 and 15 per cent, respectively.",
+    "claim_summary": "Sandy loam wheat soil: field capacity 39% and wilting point 15% volumetric (AWC ~24%).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 100,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Seed rate was maintained as 100 kg/ha with 22.5 cm row to row spacing.",
+    "claim_summary": "Wheat (GW-366) seed rate 100 kg/ha in Gujarat trial.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 22.5,
+    "unit": "cm",
+    "qualifier": "recommended",
+    "evidence_text": "Seed rate was maintained as 100 kg/ha with 22.5 cm row to row spacing.",
+    "claim_summary": "Wheat row-to-row spacing 22.5 cm in Gujarat trial.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Recommended dose of fertilizer N: P: K (120: 60: 60) was given to wheat crop. First 60 kg nitrogen and whole quantity of phosphorus and potash were applied as basal dose. Another 60 kg nitrogen were applied 21 days after sowing.",
+    "claim_summary": "Recommended N for wheat 120 kg/ha (60 basal + 60 at 21 DAS).",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.phosphorus_requirement",
+    "value_type": "numeric",
+    "numeric_value": 60,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Recommended dose of fertilizer N: P: K (120: 60: 60) was given to wheat crop.",
+    "claim_summary": "Recommended P (as P2O5) for wheat 60 kg/ha, applied basal.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.potassium_requirement",
+    "value_type": "numeric",
+    "numeric_value": 60,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Recommended dose of fertilizer N: P: K (120: 60: 60) was given to wheat crop.",
+    "claim_summary": "Recommended K (as K2O) for wheat 60 kg/ha, applied basal.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "First 60 kg nitrogen and whole quantity of phosphorus and potash were applied as basal dose. Another 60 kg nitrogen were applied 21 days after sowing.",
+    "claim_summary": "Wheat N split: 60 kg basal at sowing, 60 kg at 21 days after sowing.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  }
+]}

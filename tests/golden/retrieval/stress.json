@@ -1,0 +1,13 @@
+{
+  "domain": "stress",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "expected_domain": "cimmyt.org",
+      "expected_url": "https://www.cimmyt.org/work/wheat-research/",
+      "doi": "",
+      "rationale": "CIMMYT wheat research is authoritative for heat/drought tolerance and stress physiology."
+    }
+  ]
+}

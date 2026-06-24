@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-3ad983d2670090db",
+  "canonical_url": "https://en.wikipedia.org/wiki/Glyphosate",
+  "source_url": "https://en.wikipedia.org/wiki/Glyphosate",
+  "doi": "",
+  "title": "Glyphosate - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "3ad983d2670090dbccf7a7c18f4d4c643b92a744628f4d25490d87febd7ab826",
+  "content_hash": "492e5c47885db0dc7dfaff23a274a1d433ea7e5dd627cdd5a527d15f4d2bf359",
+  "text_length": 58648,
+  "publication_date_hint": "1974",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 294295
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/292-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

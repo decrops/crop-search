@@ -1,0 +1,36 @@
+{
+  "claims": [
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 14,
+      "range_max": 20,
+      "unit": "percent",
+      "qualifier": "recommended",
+      "evidence_text": "Always harvest between 20% and 14% moisture.",
+      "claim_summary": "Wheat should be harvested between 20% and 14% grain moisture.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 18,
+      "range_max": 20,
+      "unit": "percent",
+      "qualifier": "recommended",
+      "evidence_text": "Consider harvesting at 18% to 20% moisture and artificially drying the grain.",
+      "claim_summary": "Consider harvesting at 18-20% moisture and artificially drying the grain.",
+      "extraction_confidence": "high",
+      "methods": ["drying", "harvesting"]
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Fields infected with head scab may require additional combine adjustments to remove infected seed. Wheat spikes with symptoms of Fusarium head blight (head scab).",
+      "claim_summary": "Fields with Fusarium head blight (head scab) require combine adjustments to remove infected seed at harvest.",
+      "extraction_confidence": "low",
+      "organisms": [{"name": "Fusarium head blight", "role": "disease"}]
+    }
+  ]
+}

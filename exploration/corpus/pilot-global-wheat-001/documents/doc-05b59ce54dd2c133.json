@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-05b59ce54dd2c133",
+  "canonical_url": "https://en.wikipedia.org/wiki/Agriculture_in_California",
+  "source_url": "https://en.wikipedia.org/wiki/Agriculture_in_California",
+  "doi": "",
+  "title": "Agriculture in California - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "05b59ce54dd2c1332143a0e9193adf70919716c9810134569777d4de72178f7a",
+  "content_hash": "f7dc4398a78611b801d0388b4d5f79bb1a7637f8bcbc1337d00ea2b98f47f34c",
+  "text_length": 110964,
+  "publication_date_hint": "2023",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 57071645
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/869-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

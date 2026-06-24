@@ -1,0 +1,71 @@
+{
+  "claims": [
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 14,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "A protein of 14% or greater is necessary to avoid discounts at the point of sale. Sometimes premiums are available to growers for protein greater than 14%.",
+      "claim_summary": "Hard red spring wheat needs grain protein of 14% or greater to avoid market discounts; premium for 14-15%.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "the best chance of protein enhancement of spring wheat and durum is accomplished by waiting until the end of flowering (post-anthesis) and broadcasting 10 gallons per acre of UAN/28-0-0 (30 pounds of N per acre)",
+      "claim_summary": "Post-anthesis foliar application of 30 lb N/acre (UAN 28-0-0) enhances spring wheat grain protein by ~0.5%.",
+      "extraction_confidence": "high",
+      "bbch_min": 69,
+      "bbch_max": 71
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "numeric",
+      "numeric_value": 10,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "for spring wheat/durum, a base application of 10 pounds of S per acre would be prudent ... Ammonium sulfate at rates of about 10 pounds of S per acre or gypsum (calcium sulfate) at 20 pounds of S per acre",
+      "claim_summary": "Base sulfur application of 10 lb S/acre (spring) recommended for spring wheat/durum; sulfate sources preferred as spring application.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Current K fertilizer recommendations are based on a soil test critical level of 100 ppm. ... Soil test K > 150 ppm, no additional K required. ... Soil test K 150 ppm or less, apply 50 pounds/acre KCl (25 pounds/acre K2O)",
+      "claim_summary": "Spring wheat K fertilizer based on critical soil-test K of 100 ppm; apply 50 lb/acre KCl (25 lb K2O) when soil K below 100-150 ppm depending on clay chemistry.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Higher-than-recommended N rates in the Langdon region results in pre-anthesis lodging.",
+      "claim_summary": "Higher-than-recommended N rates cause pre-anthesis lodging in spring wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "the economic optimal N rate for wheat ... developed using wheat price and protein discount or premium ... Within each region, the optimal available N for three different productivities are defined as low, medium and high.",
+      "claim_summary": "Spring wheat/durum N rate set as economic optimum (greatest net income) based on available N (fertilizer + residual soil nitrate to 2 ft), regional yield/protein response, and wheat/N prices.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Where acceptable, fall application of ammonia is a preferred method of N application. Fall application is acceptable on loam soils or heavier ... Fall application of ammonia should not begin before Oct. 1, and then only after soil temperatures measured at the 4-inch depth fall to 50 degrees Fahrenheit",
+      "claim_summary": "Fall anhydrous ammonia for spring wheat acceptable on loam-or-heavier soils after Oct 1 once 4-inch soil temp falls to 50 F.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

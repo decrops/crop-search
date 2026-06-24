@@ -1,0 +1,41 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Compared with spring wheat cultivars, semi-winter wheat has stronger cold resistance. For example, under low temperature of −2–6 °C for 3 days at the jointing stage, the grain number per spike was lowered by 1.3–4.4% in Yangmai16 (spring wheat), while decreased by 0.6–1.0% in Xumai30 (semi-winter wheat)",
+      "claim_summary": "Semi-winter wheat shows stronger cold resistance than spring wheat at jointing stage; grain number per spike reduced less under -2 to -6 C for 3 days.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The SCS events often occur during the reproductive development in winter wheat... The stages from jointing to flowering are critical to prevent florets from degenerating and increase the grain setting rate",
+      "claim_summary": "Reproductive stages (jointing to flowering, pre-anthesis) are the most frost/cold-sensitive stages in winter wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.survival_temperature",
+      "value_type": "range",
+      "range_min": -7,
+      "range_max": -5,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "With the temperature declined to −5 °C and −7 °C at the vegetative growth stage, the grain yield decreased by 10–100%",
+      "claim_summary": "At vegetative stage, temperatures of -5 to -7 C caused 10-100% grain yield loss in wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 16,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "cold stress (4 °C and −4 °C) increased the activity of SOD by 6.8–68.3%... in a wheat spikelet, compared to optimum temperature (16 °C)",
+      "claim_summary": "16 C referenced as optimum temperature for wheat spikelet (relative to cold stress at 4 and -4 C).",
+      "extraction_confidence": "low"
+    }
+  ]
+}

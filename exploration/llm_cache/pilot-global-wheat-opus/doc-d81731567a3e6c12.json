@@ -1,0 +1,24 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "range",
+      "range_min": 11,
+      "range_max": 22,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Apply 11 – 22 kg S/ha (10 – 20 lbs S/ac) depending on soil fertility and observed S deficiency in previous seasons.",
+      "claim_summary": "Recommended sulfur application for wheat is 11-22 kg S/ha (10-20 lb S/ac) depending on soil fertility.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Apply S fertilizer at seeding or top dress before Feekes 5 (Zadoks 30) growth stage. Available nutrients should be near crop roots during uptake periods.",
+      "claim_summary": "Apply sulfur fertilizer at seeding or top-dress before Feekes 5 / Zadoks 30 (start of stem elongation).",
+      "extraction_confidence": "medium",
+      "bbch_max": 30
+    }
+  ]
+}

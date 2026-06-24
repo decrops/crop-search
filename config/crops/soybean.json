@@ -1,0 +1,84 @@
+{
+  "crop_id": "soybean",
+  "label": "Soybean",
+  "crop_group": "legume",
+  "aliases": [
+    "soybean",
+    "soybeans",
+    "soya bean"
+  ],
+  "scientific_names": [
+    "Glycine max"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "emergence",
+    "vegetative",
+    "flowering",
+    "pod development",
+    "seed fill",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "row crop",
+    "nodulation",
+    "indeterminate",
+    "determinate"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "emergence",
+      "bbch_min": 9,
+      "bbch_max": 11,
+      "confidence": "high",
+      "source_note": "VE"
+    },
+    {
+      "local_term": "vegetative",
+      "bbch_min": 12,
+      "bbch_max": 29,
+      "confidence": "medium",
+      "source_note": "Vn stages"
+    },
+    {
+      "local_term": "flowering",
+      "bbch_min": 60,
+      "bbch_max": 69,
+      "confidence": "high",
+      "source_note": "R1-R2"
+    },
+    {
+      "local_term": "pod development",
+      "bbch_min": 70,
+      "bbch_max": 75,
+      "confidence": "high",
+      "source_note": "R3-R4"
+    },
+    {
+      "local_term": "seed fill",
+      "bbch_min": 75,
+      "bbch_max": 79,
+      "confidence": "high",
+      "source_note": "R5-R6"
+    },
+    {
+      "local_term": "maturity",
+      "bbch_min": 80,
+      "bbch_max": 99,
+      "confidence": "medium",
+      "source_note": "R7-R8"
+    }
+  ]
+}

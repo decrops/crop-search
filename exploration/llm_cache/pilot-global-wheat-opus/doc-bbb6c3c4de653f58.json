@@ -1,0 +1,95 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 3.3,
+      "unit": "lb/bu",
+      "qualifier": "typical",
+      "evidence_text": "On average, dryland spring wheat grown in Montana requires 3.3 lb available N/bu to reach 14 percent protein, where available N = soil N + fertilizer N",
+      "claim_summary": "Dryland spring wheat requires ~3.3 lb available N per bushel to reach 14% grain protein.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 2.3,
+      "unit": "lb/bu",
+      "qualifier": "typical",
+      "evidence_text": "dryland winter wheat requires an average of 2.3 lb N/bu to produce 40 bu/acre with 12.5 percent protein... when soil organic matter is 2 percent",
+      "claim_summary": "Dryland winter wheat requires ~2.3 lb N per bushel to produce 40 bu/acre at 12.5% protein (2% SOM).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.critical_tissue_nitrogen",
+      "value_type": "numeric",
+      "numeric_value": 4.2,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "Grain protein is likely to increase with late-season N if the flag-leaf N concentration is less than 4.2 percent",
+      "claim_summary": "Flag-leaf N concentration below ~4.2% indicates grain protein will likely respond to late-season N.",
+      "extraction_confidence": "high",
+      "methods": ["tissue testing", "fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Most of the N used by wheat for grain protein is taken up before heading or flowering... Late-season N can be applied specifically to boost protein... applied anytime between boot and early-milk stages.",
+      "claim_summary": "N taken up before heading drives yield; late-season N applied between boot and early-milk stages boosts grain protein.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "bbch_min": 45,
+      "bbch_max": 75
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "range",
+      "range_min": 12.5,
+      "range_max": 14.0,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "dryland winter wheat... 40 bu/acre with 12.5 percent protein, and spring wheat requires... 40 bu/acre with 14 percent protein",
+      "claim_summary": "Target grain protein ~12.5% for winter wheat and ~14% for spring wheat in Montana dryland systems.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "A combination of foliar N (27 lb N/acre) and S (10 lb S/acre) applied at flowering was necessary to obtain protein quantity and quality that was not achieved with N or S applied alone",
+      "claim_summary": "Sulfur aids N uptake; combined foliar N (27 lb/acre) + S (10 lb/acre) at flowering improves protein quantity and quality.",
+      "extraction_confidence": "medium",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "An Idaho study found 75 lb/acre of late-season N on irrigated wheat increased lodging and reduced yield",
+      "claim_summary": "Excessive late-season N (75 lb/acre) on irrigated wheat increased lodging and reduced yield.",
+      "extraction_confidence": "medium",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "dryland winter wheat consistently had higher protein when grown after winter and spring pea grown for grain than after fallow or barley... Growing legumes before wheat should boost protein",
+      "claim_summary": "Growing wheat after legumes (pea) in rotation raises grain protein versus fallow or barley.",
+      "extraction_confidence": "high",
+      "methods": ["rotation"]
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "an additional 20 lb N/acre was required under no-till versus conventional till to produce acceptable grain protein in the first six years after conversion",
+      "claim_summary": "No-till on medium/fine soils requires ~20 lb N/acre more than conventional till to maintain grain protein in early years after conversion.",
+      "extraction_confidence": "medium",
+      "methods": ["tillage", "fertilization"]
+    }
+  ]
+}

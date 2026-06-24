@@ -1,0 +1,169 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "To calculate heat units for wheat, subtract the base temperature (which for wheat is 32oF) from the average temperature for the day",
+      "claim_summary": "Base temperature for wheat heat-unit accumulation is 32F (0C).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 7,
+      "range_max": 24,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Temperatures between 45oF and 75oF result in optimal growth and yield. Very warm temperatures reduce cell elongation and number of kernels.",
+      "claim_summary": "Optimal wheat growth/yield occurs between 45-75F (7-24C) during jointing to bloom.",
+      "extraction_confidence": "high",
+      "bbch_min": 30,
+      "bbch_max": 60
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Temperature during this period determines kernel size and grain quality. Temperatures above 86oF reduce starch deposition and grain weight. Continuous daily canopy temperatures above 86oF result in senescence and the end of grain growth.",
+      "claim_summary": "Canopy temperatures above 86F (30C) during grain fill reduce starch deposition/grain weight and trigger senescence.",
+      "extraction_confidence": "high",
+      "bbch_min": 60,
+      "bbch_max": 90
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Continuous daily canopy temperatures above 86oF result in senescence and the end of grain growth. For the largest yield, a grower must maximize the length and efficiency of the grain fill period by preventing canopy temperature above 86oF.",
+      "claim_summary": "Sustained canopy temperatures above 86F (30C) cause heat stress, senescence and end grain growth.",
+      "extraction_confidence": "high",
+      "bbch_min": 60,
+      "bbch_max": 90
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "range",
+      "range_min": 300,
+      "range_max": 400,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "It takes 300 to 400 heat units for the plant to produce three leaves, after which the plant begins to develop tillers.",
+      "claim_summary": "Wheat needs 300-400 heat units (GDD) to produce three leaves and begin tillering.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "numeric",
+      "numeric_value": -4,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Jointing | 24oF (-4oC) | Death of growing point; leaf yellowing or burning; lesions, splitting, or bending of lower stem; odor | Moderate to severe",
+      "claim_summary": "At jointing, ~24F (-4C) for 2 hours causes freeze injury (death of growing point), moderate to severe yield effect.",
+      "extraction_confidence": "high",
+      "bbch_min": 31
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Boot | 28oF (-2oC) | Floret sterility; spike trapped in boot... Heading | 30oF (-1oC) | Floret sterility; white awns or white spikes... Flowering | 30oF (-1oC) | Floret sterility... Severe",
+      "claim_summary": "Reproductive stages (boot 28F/-2C, heading & flowering 30F/-1C) are frost-sensitive, causing floret sterility and severe yield loss.",
+      "extraction_confidence": "high",
+      "bbch_min": 45,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "numeric",
+      "numeric_value": -11,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Tillering | 12oF (-11oC) | Leaf chlorosis; burning of leaf tips; silage odor; blue cast to fields | Slight to moderate",
+      "claim_summary": "At tillering, wheat tolerates down to ~12F (-11C) for 2h with only slight-to-moderate injury (most cold-hardy stage).",
+      "extraction_confidence": "high",
+      "bbch_min": 21,
+      "bbch_max": 29
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "If this pattern predicts a cool fall, you should plant most wheat varieties before Nov. 17 to have enough heat units to produce two tillers by Dec. 25... In a neutral or warm season, optimal planting dates range from the first week in October (late maturing wheat only) to the middle of December (early maturing wheat).",
+      "claim_summary": "Optimal wheat planting window (NC) ranges from early October to mid December depending on variety maturity and NAO-predicted fall warmth; plant before Nov 17 in a cool fall.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "thermal_time.anthesis_gdd",
+      "value_type": "range",
+      "range_min": 1790,
+      "range_max": 1850,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Wheat Maturity (Growing Degree Days to Flowering) | Early (< 1790) ... Medium (1790 to 1849) ... Late (> 1850)",
+      "claim_summary": "Wheat maturity classes by GDD to flowering: early <1790, medium 1790-1849, late >1850 GDD.",
+      "extraction_confidence": "high",
+      "bbch_min": 60
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 12,
+      "range_max": 34,
+      "unit": "seeds/row-foot",
+      "qualifier": "recommended",
+      "evidence_text": "In a neutral or warm season, plant 12 to 15 seeds per row-foot during this period. When the NAO index predicts a cool fall, you can increase seeding rates to 15 to 20 seeds per row-foot... In a cool season, however, you should plant 28 to 34 seeds per row-foot",
+      "claim_summary": "Wheat seeding rates range 12-34 seeds per row-foot, increasing with later planting and cooler predicted fall.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "At planting, apply nitrogen at a rate of 30 lbs per acre when cooler temperatures are expected or when planting later in the fall... apply nitrogen as close to the start of jointing as possible... splitting nitrogen application by applying some nitrogen in early February and the rest at jointing helps improve root development",
+      "claim_summary": "Apply ~30 lb N/acre at planting in cool/late conditions; apply the main N near the start of jointing, splitting between early February and jointing.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "bbch_min": 30
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 120,
+      "range_max": 150,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "When early wheat growth is ideal, the grower should apply up to 120 units of nitrogen at or prior to jointing. When there is excess growth or the wheat has more than three tillers per plant, the grower should apply up to 150 units of nitrogen prior to jointing.",
+      "claim_summary": "Apply up to 120 lb N/acre at/prior to jointing for ideal growth, up to 150 lb N/acre when growth is excessive.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "bbch_min": 30
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "wheat should be planted later to avoid the risk of too much growth at the wrong time, resulting in lodging from plants that are too tall... Too much early growth and dense stands often lead to tall plants that are prone to lodging (bending over or falling down).",
+      "claim_summary": "Excess early growth, dense stands and tall plants increase wheat lodging risk; managed via planting date, seeding rate and growth regulators.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "numeric",
+      "numeric_value": 150,
+      "unit": "tillers/ft2",
+      "qualifier": "maximum",
+      "evidence_text": "Excess plant density: This occurs when a large amount of heat units during the winter have produced plant densities of 150 tillers per square foot or more. In North Carolina we cannot support this many plants per square foot",
+      "claim_summary": "Tiller densities of 150 tillers/ft2 or more are excessive and cause plant loss during jointing-to-heading in North Carolina.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

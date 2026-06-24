@@ -1,0 +1,38 @@
+{
+  "claims": [
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "numeric",
+      "numeric_value": 300,
+      "unit": "seconds",
+      "qualifier": "threshold",
+      "evidence_text": "Grain with a falling number below 300 sec is typically discounted in the Pacific Northwest (PNW). The goal is to keep the falling number of PNW wheat higher in order to compete well in the export market.",
+      "claim_summary": "Wheat grain with a Hagberg-Perten falling number below 300 seconds is discounted; 300 sec is the quality threshold.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "It takes a lot of rainfall to make a seedling visibly sprout out from a wheat spike (about 3 days of constant rain at 70°F)... Cool weather combined with rain increases the likelihood of pre-harvest sprouting. If the temperatures are in the 80s when it rains, then wheat is less likely to sprout than if the temperatures are in the 60s",
+      "claim_summary": "Pre-harvest sprouting in wheat is promoted by cool, wet weather (rain at ~60-70°F, multiple rainy days); visible sprouting needs ~3 days constant rain at 70°F. Harvest quickly after maturity to reduce risk.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Low falling numbers (200–300 sec) can also be caused by what is called late maturity alpha-amylase (also called LMA)... caused by heat shock or cold shock during late grain maturation (26 to 30 days after pollen shedding).",
+      "claim_summary": "Late-maturity alpha-amylase (causing low falling numbers, 200-300 sec) is triggered by heat or cold shock 26-30 days after pollen shedding, independent of rain/sprouting.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Differences in seed dormancy explain 60–80% of the variation in pre-harvest sprouting susceptibility (DePauw and McCaig 1991).",
+      "claim_summary": "Seed dormancy accounts for 60-80% of variation in wheat pre-harvest sprouting susceptibility; planting cultivars with genetic sprouting resistance reduces low-falling-number risk.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

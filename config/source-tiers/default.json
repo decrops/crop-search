@@ -1,0 +1,202 @@
+{
+  "version": "0.1.0",
+  "default_policy_id": "comprehensive_accessible",
+  "policies": [
+    {
+      "policy_id": "comprehensive_accessible",
+      "label": "Comprehensive Accessible Evidence",
+      "include_all_accessible": true,
+      "tier_order": [
+        "peer_reviewed_science",
+        "textbook_reference",
+        "international_institution",
+        "extension_publication",
+        "industry_grower_guide"
+      ],
+      "notes": "Search all accessible source classes. Paywalled science and books may be used for metadata discovery only unless open text is available."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_id": "peer_reviewed_science",
+      "label": "Peer-Reviewed Science",
+      "priority": 1,
+      "evidence_role": "Mechanistic or experimentally measured physiology evidence.",
+      "trust_weight": 1.0,
+      "query_terms": [
+        "scientific publication",
+        "peer reviewed",
+        "DOI",
+        "crop physiology"
+      ],
+      "domain_fragments": [
+        "doi.org",
+        "sciencedirect.com",
+        "springer.com",
+        "springerlink.com",
+        "tandfonline.com",
+        "wiley.com",
+        "onlinelibrary.wiley.com",
+        "frontiersin.org",
+        "mdpi.com",
+        "plos.org",
+        "nature.com",
+        "academic.oup.com",
+        "cambridge.org",
+        "pubmed.ncbi.nlm.nih.gov",
+        "ncbi.nlm.nih.gov",
+        "researchgate.net",
+        "semanticscholar.org",
+        "scholar.google.com"
+      ],
+      "title_terms": [
+        "journal",
+        "doi",
+        "crop physiology",
+        "field experiment",
+        "review",
+        "meta-analysis",
+        "temperature response",
+        "water stress"
+      ],
+      "access_policy": "metadata_or_open_text_only",
+      "notes": "Prefer open-access full text; otherwise retain citation metadata and avoid extracting unavailable paywalled text."
+    },
+    {
+      "tier_id": "textbook_reference",
+      "label": "Textbooks and Reference Books",
+      "priority": 2,
+      "evidence_role": "Canonical physiology and crop-production reference values.",
+      "trust_weight": 0.9,
+      "query_terms": [
+        "textbook",
+        "crop physiology",
+        "crop production",
+        "reference"
+      ],
+      "domain_fragments": [
+        "books.google.com",
+        "archive.org",
+        "openlibrary.org",
+        "nap.nationalacademies.org",
+        "cabidigitallibrary.org",
+        "sciencedirect.com/book",
+        "springer.com/book"
+      ],
+      "title_terms": [
+        "textbook",
+        "handbook",
+        "crop physiology",
+        "crop production",
+        "reference"
+      ],
+      "access_policy": "metadata_or_open_text_only",
+      "notes": "Use open previews, open books, or metadata only unless full text is legally accessible."
+    },
+    {
+      "tier_id": "international_institution",
+      "label": "International Institutions",
+      "priority": 3,
+      "evidence_role": "Global crop guidance from public research and development institutions.",
+      "trust_weight": 0.9,
+      "query_terms": [
+        "FAO",
+        "CGIAR",
+        "crop guide",
+        "production manual"
+      ],
+      "domain_fragments": [
+        "fao.org",
+        "cgiar.org",
+        "cimmyt.org",
+        "irri.org",
+        "icrisat.org",
+        "ciat.cgiar.org",
+        "africarice.org",
+        "worldveg.org",
+        "cabi.org",
+        "knowledgebank.irri.org"
+      ],
+      "title_terms": [
+        "FAO",
+        "CGIAR",
+        "CIMMYT",
+        "IRRI",
+        "ICRISAT",
+        "production manual",
+        "crop calendar",
+        "knowledge bank"
+      ],
+      "access_policy": "open_full_text_preferred",
+      "notes": "Important for avoiding a U.S.-centric evidence base."
+    },
+    {
+      "tier_id": "extension_publication",
+      "label": "Extension and Public Agronomy Guides",
+      "priority": 4,
+      "evidence_role": "Actionable regional production recommendations and thresholds.",
+      "trust_weight": 0.8,
+      "query_terms": [
+        "extension",
+        "agronomy",
+        "production guide",
+        "management guide"
+      ],
+      "domain_fragments": [
+        ".edu",
+        ".gov",
+        "extension",
+        "agriculture",
+        "agronomy",
+        "usda.gov",
+        "ahdb.org.uk",
+        "grdc.com.au",
+        "canolacouncil.org",
+        "gov.uk",
+        "agric.wa.gov.au",
+        "dpi.nsw.gov.au"
+      ],
+      "title_terms": [
+        "extension",
+        "agronomy",
+        "production guide",
+        "management guide",
+        "crop guide",
+        "handbook"
+      ],
+      "access_policy": "open_full_text_preferred",
+      "notes": "High practical value but location-specific; do not over-generalize regional recommendations."
+    },
+    {
+      "tier_id": "industry_grower_guide",
+      "label": "Industry and Grower Guides",
+      "priority": 5,
+      "evidence_role": "Practice-oriented guidance, useful when provenance and bias are tracked.",
+      "trust_weight": 0.55,
+      "query_terms": [
+        "grower guide",
+        "agronomy guide",
+        "crop management",
+        "recommendations"
+      ],
+      "domain_fragments": [
+        "seed",
+        "crop",
+        "agronomy",
+        "grower",
+        "maize.org",
+        "wheat.org",
+        "riceassociation",
+        "commodity"
+      ],
+      "title_terms": [
+        "grower guide",
+        "agronomy guide",
+        "management recommendations",
+        "production recommendations"
+      ],
+      "access_policy": "public_web_only",
+      "notes": "Useful for discovery and management practice; review should account for commercial bias."
+    }
+  ]
+}

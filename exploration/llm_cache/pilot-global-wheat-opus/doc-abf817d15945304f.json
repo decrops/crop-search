@@ -1,0 +1,41 @@
+{"claims": [
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Row spacing had no effect on grain yield (79 bu./acre), test weight (56.7 lb./bu.), or protein content (11.0%). ... 15-inch row spacing did not result in a yield penalty or increased weed pressure in 2025",
+    "claim_summary": "In winter wheat, 15-inch versus 7.5-inch row spacing had no effect on grain yield, test weight, or protein, and no increased weed pressure.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "range",
+    "range_min": 0.75,
+    "range_max": 2.25,
+    "unit": "plants/m2",
+    "qualifier": "observed",
+    "evidence_text": "Increasing seeding rates generally led to higher wheat yields for both varieties, though the response began to plateau at the upper densities. ... Increasing the seeding rate from 0.75 to 2.25 million seeds per acre",
+    "claim_summary": "Winter wheat seeding rates tested 0.75-2.25 million seeds/acre; yield increased with rate but plateaued at upper densities (diminishing returns).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "numeric",
+    "numeric_value": 11.0,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Row spacing had no effect on grain yield (79 bu./acre), test weight (56.7 lb./bu.), or protein content (11.0%). ... Increasing the seeding rate from 0.75 to 2.25 million seeds per acre resulted in a 5.7% reduction in grain protein concentration.",
+    "claim_summary": "Winter wheat grain protein averaged 11.0%; higher seeding rates reduced protein (5.7% reduction from 0.75 to 2.25 million seeds/acre).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "quality.test_weight",
+    "value_type": "numeric",
+    "numeric_value": 56.7,
+    "unit": "lb/bu",
+    "qualifier": "observed",
+    "evidence_text": "Row spacing had no effect on grain yield (79 bu./acre), test weight (56.7 lb./bu.), or protein content (11.0%).",
+    "claim_summary": "Winter wheat test weight averaged 56.7 lb/bu across row spacing treatments.",
+    "extraction_confidence": "high"
+  }
+]}

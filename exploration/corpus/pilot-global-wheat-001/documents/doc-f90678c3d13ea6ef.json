@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-f90678c3d13ea6ef",
+  "canonical_url": "https://en.wikipedia.org/wiki/Agriculture",
+  "source_url": "https://en.wikipedia.org/wiki/Agriculture",
+  "doi": "",
+  "title": "Agriculture - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "f90678c3d13ea6ef51bc8841cd885b464cb1fee522ed35ed9f8960f50065864b",
+  "content_hash": "25e172cc38c97a09ad8fdae7791a4e9c149faa7e14a6b065ec3758299f3523ef",
+  "text_length": 73496,
+  "publication_date_hint": "2021",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 627
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/054-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

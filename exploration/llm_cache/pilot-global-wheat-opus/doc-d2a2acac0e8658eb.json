@@ -1,0 +1,140 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "qualifier": "optimum",
+      "evidence_text": "The optimal planting window for winter wheat in South Dakota is September 10 through October 10",
+      "claim_summary": "Optimal planting window for winter wheat in South Dakota is September 10 - October 10.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "minimum",
+      "evidence_text": "For winter wheat to fully harden, a temperature below 50 F at the crown depth for 4 to 8 weeks is required... Winter wheat also requires a period of exposure to near freezing temperatures (vernalization)",
+      "claim_summary": "Winter wheat requires exposure to near-freezing temperatures (vernalization); full hardening needs temperature below 50 F at crown depth for 4 to 8 weeks.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.vernalization_units",
+      "value_type": "text",
+      "qualifier": "optimum",
+      "evidence_text": "During vernalization, wheat plants are exposed to near-freezing temperatures (near 40 F is optimum).",
+      "claim_summary": "Optimum vernalization temperature for winter wheat is near 40 F (near freezing).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 960000,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "Winter wheat should be planted at a rate of 960,000 pure-live-seeds per acre (22 pure-live-seeds per square foot) between September 10 and October 10.",
+      "claim_summary": "Recommended winter wheat seeding rate is 960,000 pure-live seeds per acre (22 per square foot); increase to ~28/sq ft under dry or late conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "range",
+      "range_min": 1.5,
+      "range_max": 2,
+      "unit": "mm",
+      "qualifier": "optimum",
+      "evidence_text": "Under optimum conditions, growers should plant winter wheat at a depth of 1.5 to 2 inches into a firm seedbed. Planting deeper than two inches delays emergence",
+      "claim_summary": "Optimum winter wheat seeding depth is 1.5 to 2 inches (value in inches); deeper than 2 inches delays emergence.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 28,
+      "unit": "plants/m2",
+      "qualifier": "optimum",
+      "evidence_text": "Depending on seeding rates, optimum plant stands are 20-28 plants per square foot. The general rule is that 50% or more of the optimum stand is adequate.",
+      "claim_summary": "Optimum winter wheat plant stands are 20-28 plants per square foot; 50% or more of optimum stand is adequate.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.survival_temperature",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Even fully hardened wheat plants can suffer winterkill, if temperatures drop below a crown temperature of 50 F.",
+      "claim_summary": "Fully hardened winter wheat can suffer winterkill if crown temperature drops below 50 F (value reported in Fahrenheit; note: likely refers to subfreezing crown temps).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "winter wheat can withstand freezing temperatures for extended periods of time at the seedling phase... Cold acclimation, or hardening, is required before wheat plants can survive subfreezing temperatures",
+      "claim_summary": "Winter wheat tolerates freezing at seedling phase after cold acclimation; 8-12 weeks of fall growth needed for full winter hardiness; hardiness is variety-dependent.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Plants at the reproductive stages (late boot to heading) are most sensitive to freeze injury... temperatures slightly below freezing can severely injure wheat",
+      "claim_summary": "Wheat at reproductive stages (late boot to heading/flowering) is most sensitive to spring freeze injury; flowering/heading injured at ~30 F, boot at ~28 F (2 hr exposure).",
+      "extraction_confidence": "high",
+      "bbch_min": 41,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Heading 30 F Floret sterility; white awns or spikes... Flowering 30 F Floret sterility; white awns or spikes",
+      "claim_summary": "Two hours at 30 F causes floret sterility (severe yield impact) at wheat heading and flowering stages (value reported in Fahrenheit).",
+      "extraction_confidence": "high",
+      "bbch_min": 51,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Seeding winter wheat into broadleaf crop stubble is recommended to reduce insect, disease and weed problems. Even though seeding into wheat stubble is common, disease risks are associated with this practice.",
+      "claim_summary": "Seeding winter wheat into broadleaf crop stubble is recommended to reduce insect, disease, and weed problems; seeding into wheat stubble carries disease risk.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Direct seeding winter wheat into standing stubble is recommended to reduce the risk of winterkill... Plowing, or other deep tillage operations, can reduce seedbed firmness, bury protective residues, and increase the risk of winterkill.",
+      "claim_summary": "Direct seeding/no-till into standing stubble is recommended for winter wheat to reduce winterkill; deep tillage reduces seedbed firmness and increases winterkill risk.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Snow trapped by the stubble insulates wheat seedlings against cold temperatures... soil temperature at crown depth under stubble can be 5 to 7 degrees warmer than under conventional fallow",
+      "claim_summary": "Stubble residue traps snow and keeps soil at crown depth 5-7 F warmer than conventional fallow, reducing winterkill risk for winter wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "In higher yielding environments, straw strength may be important to prevent the wheat crop from lodging.",
+      "claim_summary": "Straw strength is important in high-yielding environments to prevent wheat lodging; lodging resistance is a key variety trait.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "When stands are thin or weakened, consider early nitrogen application to encourage tillering and early control of weeds.",
+      "claim_summary": "Early nitrogen application is recommended for thin or weakened winter wheat stands to encourage tillering.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

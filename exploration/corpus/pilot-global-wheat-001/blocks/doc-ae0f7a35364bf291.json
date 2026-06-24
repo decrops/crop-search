@@ -1,0 +1,969 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Developing a nitrogen fertilizer management model for wheat in calcareous soils using the critical nitrogen dilution curve",
+      "text": "Original Article Open access Published: 07 March 2023 Volume 125 , pages 379\u2013392 ( 2023 ) Cite this article You have full access to this open access article Download PDF Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "The critical nitrogen (N) dilution curve, which expresses whole-plant critical N concentration as a function of shoot biomass, can be used as a N management diagnostic tool for cereals. The objectives of this research were to develop a critical N dilution curve for wheat grown in calcareous soils and to formulate a model for estimating N fertilizer requirement of wheat crop at different growth stages. Six N fertilization rates (0\u2013250 kg N ha \u22121 ) were used to induce variability in plant growth throughout six site-years (three locations at West Delta of Egypt and two seasons [2020/21-2021/22]). Aboveground shoot biomass ( W ; Mg DM [dry matter] ha \u22121 ) and N concentration ( N c ; g kg \u22121 DM) were determined on five sampling dates during the growing season. A critical N dilution curve was developed as: \\({N}_{\\mathrm{c}}=50.141 {\\mathrm{W}}^{-0.424}\\) . The N c dilution curve was then used to develop a N fertilizer topdressing strategy. The study relied on N nutrition index inferred from the N c based on N uptake, and instead of relying on a single N recovery efficiency coefficient, a variable N recovery efficiency was developed. This approach increased the hypothetical N requirements at low N application rates while decreased requirements at high N application rates, implying that the N c dilution curve can be used successfully to estimate the rates of supplemental N application. The developed strategy will provide a solid basis for precisely managing N fertilizer, though challenge ahead at the farm level will be in determining the actual shoot biomass and N concentration."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Development of Nitrogen Fertilizer Topdressing Model for Winter Wheat Based on Critical Nitrogen Dilution Curve Article 18 November 2019 Developing a Critical Nitrogen Concentration Dilution Model and Diagnosing Nitrogen Nutrition of Wheat Article 13 September 2022 A global dataset to parametrize critical nitrogen dilution curves for major crop species Article Open access 07 June 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Development of Nitrogen Fertilizer Topdressing Model for Winter Wheat Based on Critical Nitrogen Dilution Curve",
+      "text": "Article 18 November 2019"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Developing a Critical Nitrogen Concentration Dilution Model and Diagnosing Nitrogen Nutrition of Wheat",
+      "text": "Article 13 September 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "A global dataset to parametrize critical nitrogen dilution curves for major crop species",
+      "text": "Article Open access 07 June 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Agricultural Geography Agriculture Agronomy Model plants Plant Science Soil Science Climate-Resilient Crop Production Systems"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Nitrogen (N) is crucial to crop production since it is required for photosynthesis-driven energy creation and plant growth. High yield levels of wheat ( Triticum aestivum L.) can be achieved only through accumulation of more substantial aboveground dry matter, whereas adequate N absorption is essential for dry matter accumulation (Damisch and Wiberg 1991 ; Song et al. 2016 ). Excessive N applications, on the other hand, result in not only reduced yield and quality, but also a significant loss of N fertilizer, resulting in greater production costs and environmental pollution (Raun and Johnson 1999 ; Fageria and Baligar 2005 ; Bijay-Singh 2018 ; Bijay-Singh and Craswell 2021 ). The global N use efficiency of cereal crops has remained alarmingly low at around 42% (Zhang et al. 2015 ), causing a variety of detrimental effects. Wheat crop used 22.8% of total fertilizer N consumption in Egypt (Heffer et al. 2017 ), indicating that considerable amounts of N are lost from the soil to the environment. The future of N management is unclear (Lemaire et al. 2019 ), since historical patterns show considerable differences in N application and N use efficiency among cropping systems (Dobermann and Cassman 2005 ; Bijay-Singh 2022 ). Because of variances in N application and crop capacity to consume N, some cropping systems have excess N while others have a deficiency of N (Liu et al. 2010 ; Bouwman et al. 2013 ). The critical value approach, diagnosis and recommendation integrated system, and compositional nutrient diagnosis are some diagnostic approaches that have been developed to evaluate the appropriateness of N supply to N demand of a crop (Bates 1971 ; Walworth and Sumner 1987 ; Parent and Dafir 1992 ). However, being focused on estimating N in a specific organ of the plant during a particular growth stage, these approaches are greatly depended upon phenological phases of the crop. Also, these approaches do not account for the dynamics of N in the soil\u2013plant system at various stages of crop growth. Therefore, prediction of N status which can assist farmers in timely altering N fertilizer topdressing strategy is fundamental for improving N management (Cassman et al. 2003 ; Diacono et al. 2013 ; Bijay-Singh and Ali 2020 ; Ali et al. 2020 ). A crop diagnostic approach based on the allometry between the dynamics of N concentration and biomass accumulation in crops is the critical N ( Nc ) dilution curve hypothesis. The Nc is the minimum N concentration required for maximum crop growth rate (Ulrich 1952 ). The concept of the N dilution curve is based on the notion that plant N concentration declines during the course of the growth cycle even when there is an ample supply of N. As illustrated below, Lemaire et al. (1984) described the Nc as a negative power function known as the \"dilution curve\": $${N}_{c}=a{W}^{-b}$$ where N c is the total N concentration in shoot expressed in g kg \u22121 DM (dry matter), W is the total shoot biomass expressed in Mg DM ha \u22121 , and a and b are the model\u2019s coefficients. For most cereal crops including wheat, rice ( Oryza sativa L.), and maize ( Zea mays L.), the Nc dilution curves have been developed in different parts of the world (Justes et al. 1994 ; Colnenne et al. 1998 ; Pl\u00e9net and Lemaire 2000 ; Herrmann and Taube 2004 ; Li et al. 2012 ; Ata-Ul-Karim et al. 2013 ; Zhao et al. 2017 ; Zhang et al. 2020 ). The Nc dilution curve can be utilized to generate its N nutrition index (NNI), a useful function that has been used to successfully assess actual crop yield, quality, and N requirement (NR) (Ziadi et al. 2010 ; Ata-Ul-Karim et al. 2017 ; Wang et al. 2020 ). Greenwood et al. ( 1990 ) suggested two broad Nc -shoot biomass relationships: one for C 3 species ( a = 57.0 and b = \u2013 0.50) and one for C 4 species ( a = 41.0 and b = \u2013 0.50). Nonetheless, according to Lemaire and Gastal ( 1997 ), each species has its own critical N dilution curve. In wheat, the parameters for this allometric function were estimated by L"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 2,
+      "heading": "Materials and methods",
+      "text": "Site description A field experiment in calcareous soils was carried out at three sites in West Delta of Egypt (El-Tahrir, Bangar El-Sokar, and El-Nobaria) over two wheat seasons (2020/21 and 2021/22). The average annual rainfall in this area is about 75 mm and most of it falls during the growing season of wheat in winter. The average temperature fluctuated between 10 and 20 \u00b0C during winter. Before sowing of wheat, soil samples from 0 to 0.15 m depth were collected from all experimental sites and analysed for various properties (Table 1 ). Soil texture was measured using the pipette method (Page et al. 1982 ). Soil pH and electrical conductivity (EC) were determined in saturated soil paste and extract, respectively. The Walkely and Black method, as reported by Page et al. ( 1982 ) was used to assess soil organic carbon. The total calcium carbonate content was determined using a calcimeter (Nelson 1983 ). The cation exchange capacity (CEC) of soil was measured using the ammonium acetate-saturation method (Page et al. 1982 ). According to Dahnke and Johnson ( 1990 ), available N was extracted using a 2 M potassium chloride (KCl) solution and then measured using the micro-Kjeldahl method (Bremner 1965 ). Available phosphorus (P) and potassium (K) were determined by extracting the soil samples with 1 M ammonium bicarbonate (NH 4 HCO 3 ) and 0.005 M DTPA (pH 7.6), respectively (Soltanpour 1991 ). While ascorbic acid and ammonium molybdate were used to estimate P colorimetrically in the soil extracts, K was estimated flamephotometerically. Table 1 Some physical and chemical properties of topsoil (0\u201315 cm) samples from the experimental sites Full size table Treatments and experimental design The treatments included six N application rates of 0, 50, 100, 150, 200, and 250 kg N ha \u22121 in four equal split doses as ammonium nitrate at 0, 30, 45, and 60 days after sowing (DAS). The range of N fertilizer application rates used to cause significant variations in shoot DM and N concentration in shoot. The treatments were applied in randomized complete block design with three replications. Before sowing wheat, the experimental field was ploughed twice and divided into 15 m 2 plots. Spring wheat is the type of wheat cultivated in Egypt. Giza 171 wheat cultivar was manually sowed in early November at a sowing rate of 155 kg ha \u22121 and harvested in mid-April. Phosphorus and K fertilizers, weeds, and diseases were managed following the general recommendations for the region. At maturity, wheat was harvested from an area of 3 m 2 from each plot. Grain and straw yields were recorded at 12% moisture content and on dry weight basis, respectively. Plant sampling and analysis Whole plants were sampled from each plot from a net area of 1 m 2 at 20, 40, 55, 70, and 85 DAS, avoiding the border rows. Whole plants were cut at ground level and weighed fresh in the field. Subsamples were collected for dry matter determination and analysis of total N. At maturity, samples of both grain and straw were collected for N analysis. After drying to a consistent weight in a hot air oven set to 70 \u00b0C, all samples were powdered. After digesting the samples in an H 2 SO 4 \u2014H 2 O 2 mixture, total N was measured using the micro-Kjeldahl method (Kalra 1998 ). Data analysis Fitting a critical N curve requires the selection of data points at which N is neither limiting shoot growth nor it is in excess. These data points represent a N rate at which shoot biomass does not significantly increase. The technique proposed by Greenwood et al. ( 1990 ) and Ata-Ul-Karim et al. ( 2017 ) for identifying these data points was employed. For each site-year and sample date, the significantly highest shoot biomass ( P \u2264 0.05) produced with any rate of N fertilization as well as the related N concentration were identified and selected for further analysis. These data points were used to develop the relationship between critical N concentration and shoot biomass using an allometric function. Dat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Site description",
+      "text": "A field experiment in calcareous soils was carried out at three sites in West Delta of Egypt (El-Tahrir, Bangar El-Sokar, and El-Nobaria) over two wheat seasons (2020/21 and 2021/22). The average annual rainfall in this area is about 75 mm and most of it falls during the growing season of wheat in winter. The average temperature fluctuated between 10 and 20 \u00b0C during winter. Before sowing of wheat, soil samples from 0 to 0.15 m depth were collected from all experimental sites and analysed for various properties (Table 1 ). Soil texture was measured using the pipette method (Page et al. 1982 ). Soil pH and electrical conductivity (EC) were determined in saturated soil paste and extract, respectively. The Walkely and Black method, as reported by Page et al. ( 1982 ) was used to assess soil organic carbon. The total calcium carbonate content was determined using a calcimeter (Nelson 1983 ). The cation exchange capacity (CEC) of soil was measured using the ammonium acetate-saturation method (Page et al. 1982 ). According to Dahnke and Johnson ( 1990 ), available N was extracted using a 2 M potassium chloride (KCl) solution and then measured using the micro-Kjeldahl method (Bremner 1965 ). Available phosphorus (P) and potassium (K) were determined by extracting the soil samples with 1 M ammonium bicarbonate (NH 4 HCO 3 ) and 0.005 M DTPA (pH 7.6), respectively (Soltanpour 1991 ). While ascorbic acid and ammonium molybdate were used to estimate P colorimetrically in the soil extracts, K was estimated flamephotometerically. Table 1 Some physical and chemical properties of topsoil (0\u201315 cm) samples from the experimental sites Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Treatments and experimental design",
+      "text": "The treatments included six N application rates of 0, 50, 100, 150, 200, and 250 kg N ha \u22121 in four equal split doses as ammonium nitrate at 0, 30, 45, and 60 days after sowing (DAS). The range of N fertilizer application rates used to cause significant variations in shoot DM and N concentration in shoot. The treatments were applied in randomized complete block design with three replications. Before sowing wheat, the experimental field was ploughed twice and divided into 15 m 2 plots. Spring wheat is the type of wheat cultivated in Egypt. Giza 171 wheat cultivar was manually sowed in early November at a sowing rate of 155 kg ha \u22121 and harvested in mid-April. Phosphorus and K fertilizers, weeds, and diseases were managed following the general recommendations for the region. At maturity, wheat was harvested from an area of 3 m 2 from each plot. Grain and straw yields were recorded at 12% moisture content and on dry weight basis, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Plant sampling and analysis",
+      "text": "Whole plants were sampled from each plot from a net area of 1 m 2 at 20, 40, 55, 70, and 85 DAS, avoiding the border rows. Whole plants were cut at ground level and weighed fresh in the field. Subsamples were collected for dry matter determination and analysis of total N. At maturity, samples of both grain and straw were collected for N analysis. After drying to a consistent weight in a hot air oven set to 70 \u00b0C, all samples were powdered. After digesting the samples in an H 2 SO 4 \u2014H 2 O 2 mixture, total N was measured using the micro-Kjeldahl method (Kalra 1998 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Data analysis",
+      "text": "Fitting a critical N curve requires the selection of data points at which N is neither limiting shoot growth nor it is in excess. These data points represent a N rate at which shoot biomass does not significantly increase. The technique proposed by Greenwood et al. ( 1990 ) and Ata-Ul-Karim et al. ( 2017 ) for identifying these data points was employed. For each site-year and sample date, the significantly highest shoot biomass ( P \u2264 0.05) produced with any rate of N fertilization as well as the related N concentration were identified and selected for further analysis. These data points were used to develop the relationship between critical N concentration and shoot biomass using an allometric function. Data points not included for defining the allometric function, were used to validate the critical N dilution curve by discriminating between the limiting and non-limiting N conditions (Ata-Ul-Karim et al. 2017 ). For validation, the significant shoot biomass ( P \u2264 0.10) differences higher and lower than the selected critical points were selected. Data points with significantly lower shoot biomass than the selected critical points were regarded as limiting, whereas points with significantly higher shoot biomass than the selected critical points were considered as non-limiting N conditions. For validation of the critical N dilution curve, the NNI was calculated at the Feekes 6 growth stage (55 DAS) as: $$\\mathrm{NNI}=\\frac{Na}{Nc}$$ where Na is the actual N concentration in the shoot biomass and Nc is the critical N concentration. Data from an independent wheat experiment, other than those used to develop the allometric function of this study, was used for this purpose. This experiment was sown in 2021/22 at site #2, using the same treatments, sampling dates, and management practices. The relative grain yield was calculated by dividing the maximum grain yield by the grain yield obtained at a certain N rate. The relationship between NNI and relative grain yield was expressed using a quadratic function. Nitrogen requirements (kg N ha \u22121 ) at different growth stages of wheat in the independent experiment were determined using the equation: $$\\mathrm{NR}=\\frac{\\mathrm{Nac}-\\mathrm{Naa}}{\\mathrm{NRE}}$$ where NR is N requirement, Nac is the plant N accumulation under the Nc, Naa is the actual plant N accumulation at different N rates, and NRE is the N recovery efficiency. The value of NR equal to zero represents an optimal N supply, whereas NR > zero (positive values) and NR < zero (negative values) values represent the surplus and deficit N supply, respectively. Because NRE is not same at different crop stages, a relationship between NRE and growth stage was developed using the difference method and the equation: $$\\mathrm{NRE}=\\frac{{N}_{\\mathrm{uf}}-{N}_{\\mathrm{u}0}}{N\\mathrm{ fertilizer\\, applied}}$$ where N uf is N uptake in the fertilized plot and N u0 is the N uptake in the unfertilized plot. Another approach for determining NR was proposed based on the relationship between NNI and NR. The following equation was used to calculate NNI based on N uptake rather than concentration at different growth stages: $${\\mathrm{NNI}}_{\\mathrm{u}}=\\frac{\\mathrm{Nau}}{\\mathrm{Ncu}}$$ where NNIu is the N nutrition index based on N uptake, Nau is the actual N uptake in the shoot biomass, and Ncu is the critical N uptake as derived from the Nc dilution curve. Excel software (as part of the Microsoft Office program, Pullman, WA) and Statistical Product and Service Solutions (SPSS 18.0 software; SPSS Inc., Chicago, IL) were used for computations, statistical data analysis, and curve fittings."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Results",
+      "text": "Response of wheat grain yield to increasing rate of N fertilizer Figure 1 shows the effect of N fertilizer application rates on relative grain yield of wheat averaged over six site-years. Increasing N fertilizer rate increased relative grain yields steadily until it reached a plateau at which further additions resulted in a slight decrease in grain yield. This relationship was best described by a second-degree polynomial function with an R 2 value of 0.94. By setting the first derivative \\(\\frac{dy}{dx}=0\\) revealed that N fertilizer rate to achieve maximum grain yield of wheat was 207 kg ha \u22121 . Fig. 1 Full size image Relationship between N fertilizer application rate and wheat relative grain yield averaged across the six site-years Influence of N fertilizer rate on shoot dry matter and N concentration The average shoot biomass during the growing season ranged from 1.65 to 16.96 Mg DM ha \u22121 , depending on the N application rate and sampling date (Fig. 2 ). In general, independent of N fertilizer application rate, there was an increase in shoot biomass with time. However, it was apparent that shoot biomass increased gradually from 20 to 55 DAS, following which a sharp increase was observed. The N concentration decreased during the growing season (Fig. 2 ). Depending on the rate of N application and growth stage, N concentrations ranged from 41.0 to 15.7 g kg \u22121 DM. Fig. 2 Full size image Changes in wheat shoot biomass and N concentration of shoot on different sampling timings as affected by different rates of N fertilizer averaged from the six site-years experiments Parameters estimation of a critical N dilution curve for wheat The criterion that shoot N declines as plant biomass increases was fulfilled by 15 points from all site-years experiments (Table 2 ). Each of these points reflects a critical N concentration point for a specific shoot biomass. Using shoot biomass as the independent factor and N concentration as the dependent factor, a scatter plot was formed. When the inverse power function was employed to describe this relationship, the R 2 value was 0.94 (Fig. 3 ). Based on the shoot biomass, following equation was fitted to determine the critical N concentration: $${N}_{c}=50.141 {W}^{-0.424}$$ where N c denotes the critical N concentration in the shoot expressed in g kg \u22121 DM and W denotes total shoot biomass expressed in Mg DM ha \u22121 . Table 2 The data points selected to generate the wheat critical N dilution curve Full size table Fig. 3 Full size image Wheat shoot biomass and N concentration relationship fitted to a power function using the selected data points from the six site-years experiments Differentiation of limiting and non-limiting N conditions Data points that were not used to determine the parameters of the function were used to assess the suitability of the developed critical curve. These points for the various N application rates were categorized as limiting or non-limiting growing N conditions. As shown in Fig. 4 , all the points labelled as limiting N growing conditions were below the developed critical curve, whereas 93% of the points labelled as non-limiting N growing conditions were above it. Although this is a preliminary validation, it indicates that the critical N dilution curve developed in this study effectively differentiates between limiting and non-limiting N growing conditions. More testing in a variety of environmental conditions, particularly with other cultivars or under different growing conditions will be needed. Fig. 4 Full size image Validation of the critical N curve using data from wheat grown in limiting and non-limiting N conditions of the six site-years experiments. The solid line indicates the critical N dilution curve developed in the current study Prediction of grain yield using NNI derived from the Nc dilution curve As Feekes 6 growth stage is considered to be critical for N nutrition of wheat, the Nc from the developed model at this growth stage was used to estimate NNI u"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Response of wheat grain yield to increasing rate of N fertilizer",
+      "text": "Figure 1 shows the effect of N fertilizer application rates on relative grain yield of wheat averaged over six site-years. Increasing N fertilizer rate increased relative grain yields steadily until it reached a plateau at which further additions resulted in a slight decrease in grain yield. This relationship was best described by a second-degree polynomial function with an R 2 value of 0.94. By setting the first derivative \\(\\frac{dy}{dx}=0\\) revealed that N fertilizer rate to achieve maximum grain yield of wheat was 207 kg ha \u22121 . Fig. 1 Full size image Relationship between N fertilizer application rate and wheat relative grain yield averaged across the six site-years"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Influence of N fertilizer rate on shoot dry matter and N concentration",
+      "text": "The average shoot biomass during the growing season ranged from 1.65 to 16.96 Mg DM ha \u22121 , depending on the N application rate and sampling date (Fig. 2 ). In general, independent of N fertilizer application rate, there was an increase in shoot biomass with time. However, it was apparent that shoot biomass increased gradually from 20 to 55 DAS, following which a sharp increase was observed. The N concentration decreased during the growing season (Fig. 2 ). Depending on the rate of N application and growth stage, N concentrations ranged from 41.0 to 15.7 g kg \u22121 DM. Fig. 2 Full size image Changes in wheat shoot biomass and N concentration of shoot on different sampling timings as affected by different rates of N fertilizer averaged from the six site-years experiments"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Parameters estimation of a critical N dilution curve for wheat",
+      "text": "The criterion that shoot N declines as plant biomass increases was fulfilled by 15 points from all site-years experiments (Table 2 ). Each of these points reflects a critical N concentration point for a specific shoot biomass. Using shoot biomass as the independent factor and N concentration as the dependent factor, a scatter plot was formed. When the inverse power function was employed to describe this relationship, the R 2 value was 0.94 (Fig. 3 ). Based on the shoot biomass, following equation was fitted to determine the critical N concentration: $${N}_{c}=50.141 {W}^{-0.424}$$ where N c denotes the critical N concentration in the shoot expressed in g kg \u22121 DM and W denotes total shoot biomass expressed in Mg DM ha \u22121 . Table 2 The data points selected to generate the wheat critical N dilution curve Full size table Fig. 3 Full size image Wheat shoot biomass and N concentration relationship fitted to a power function using the selected data points from the six site-years experiments"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Differentiation of limiting and non-limiting N conditions",
+      "text": "Data points that were not used to determine the parameters of the function were used to assess the suitability of the developed critical curve. These points for the various N application rates were categorized as limiting or non-limiting growing N conditions. As shown in Fig. 4 , all the points labelled as limiting N growing conditions were below the developed critical curve, whereas 93% of the points labelled as non-limiting N growing conditions were above it. Although this is a preliminary validation, it indicates that the critical N dilution curve developed in this study effectively differentiates between limiting and non-limiting N growing conditions. More testing in a variety of environmental conditions, particularly with other cultivars or under different growing conditions will be needed. Fig. 4 Full size image Validation of the critical N curve using data from wheat grown in limiting and non-limiting N conditions of the six site-years experiments. The solid line indicates the critical N dilution curve developed in the current study"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Prediction of grain yield using NNI derived from the Nc dilution curve",
+      "text": "As Feekes 6 growth stage is considered to be critical for N nutrition of wheat, the Nc from the developed model at this growth stage was used to estimate NNI using data from the independent experiment on wheat with comparable N fertilizer rates and sampling dates. Figure 5 shows the relative grain yield from this experiment plotted against the NNI at the Feekes 6 growth stage. Grain yields were gradually increased in relation to NNI until a plateau was reached (relative grain yield close to 1). The NNI at the curve's maximum point was calculated to be 1.06 according to a derivative analysis of the function. The hypothesis suggests that crops are in non-limiting N conditions when NNI values > 1.0, but NNI values < 1.0 suggest N deficiency. According to the relationship, when NNI was close to 1.06, the relative grain yield was close to 1.0, whereas when NNI was considerably lower than 1.06, the relative grain yield was reduced. As a result, the developed Nc model and inferred NNI accurately predicted relative grain yield and can thus be utilized to diagnose deficient and non-deficient N nutrition status in wheat. Fig. 5 Full size image Relationship between N nutrition index (NNI) at Feekes 6 growth stage (55 DAS) and wheat relative grain yield in an independent experiment"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Estimation of N requirements depending on the Nc dilution curve",
+      "text": "Estimating in-season NR during wheat vegetative growth is critical for achieving high production levels as well as for maximizing N fertilizer use efficiency. In the current study, in-season NR at different growth stages was estimated using Nc computed from the dilution curve. To eliminate bias, the Nc was estimated using data from an independent experiment on wheat that was not used to develop the Nc critical curve. Figure 6 represents the highest significant shoot biomass of the independent experiment at different times. Fig. 6 Full size image Highest significant ( P \u2264 0.05) wheat shoot biomass on different sampling timings as affected by different rates of N fertilizer in an independent experiment The difference between actual N accumulation under different fertilizer N application rates and the Nc divided by the N recovery efficiency parameter provides an estimate of the amount of N required to optimize N uptake. Therefore, recovery efficiency of N fertilizer was calculated at 20, 40, 55, and 70 DAS (after the application of N fertilizer at 0, 30, 45, and 60 DAS) by difference method in the six site-years experiments used to develop the Nc model (using the 150 and 200 kg N ha \u22121 treatments). The difference in total N uptake between sampling times was used to calculate N recovery efficiency for a certain interval. Figure 7 shows that the average recovery efficiency at 20, 40, 55, and 70 DAS was 29.4, 39.2, 53.1, and 69.8%, respectively. This relationship was described as a linear function predicting the N recovery efficiency from number of days after sowing representing the crop growth stage using the equation: Fig. 7 Full size image Evolution of recovery efficiency of N fertilizer at different days after wheat sowing from the six site-years experiments using data from N fertilizer treatments of 150 and 200 kg N ha \u22121 $$N\\mathrm{ recovery efficiency }\\left(\\mathrm{\\%}\\right)=0.8078\\times \\mathrm{number of days after sowing}+10.516$$ The N requirements of wheat at various growth stages were estimated hypothetically using the Nc computed from the established equation and predicted N recovery efficiency. Figure 8 demonstrates the evolution of NR in different growth stages under different N fertilizer rates from the independent experiment. Negative values of NR indicate that the actual N accumulation is greater than the Nc accumulation, and so N application is not required. At 20 DAS, the hypothetical NR for treatments of 0, 50, 100, 150, 200, and 250 kg N ha \u22121 were 38.9, 34.3, 18.6, 14.1, 1.7, and -1.2 kg N ha \u22121 , respectively. At 40 DAS, the requirements were 53.5, 44.9, 24.2, 16.8, 3.7, and -2.0 kg N ha \u22121 , respectively. At 55 DAS, the NR were 60.9, 48.6, 25.8, 20.5, 12.1, and -6.0 kg N ha \u22121 , respectively. At 70 DAS, the requirements were 66.7, 50.5, 27.9, 22.9, 22.2, 15.5, and -16.6 kg N ha \u22121 , respectively. In general, wheat response to application of N fertilizer after Feekes 6 growth stage (around 55 DAS) is low (Bijay-Singh et al. 2011 ; Ali 2020 ; Ali et al. 2021 ), although the hypothetical N fertilizer requirement used at 70 DAS was only for comparison. Fig. 8 Full size image Hypothetical N fertilizer requirements based on the N c dilution curve at different growth stages of wheat and N fertilizer application rates in an independent experiment The NNIu (the ratio between actual N uptake in shoot biomass and critical N uptake based on the Nc dilution curve) divided by recovery efficiency can be computed based on N uptake using the target uptake determined from the Nc dilution curve. At different growth stages of wheat, the NR were expressed as a function of NNIu, and scatter plots were created. Inverse linear functions describing the relationships between NR and NNIu, suggested that N requirement increased as NNIu decreased (Fig. 9 ). When NNIu was about 1, the NR were zero, indicating an optimal N supply, and vice versa. The relationships presented in the Fig. 9 between NNIu and NR for 20, 40, 55, and 70 DAS sa"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "Wheat grain yield increased with increasing N fertilizer rate up to a point According to the study, the N fertilizer rate required to attain maximum wheat grain yield was 207 kg ha \u22121 . The general recommendation for N fertilizer for wheat grown on calcareous soils of Egypt is approximately 240 kg ha \u22121 , although studies on wheat in the same region have suggested that lower N fertilizer rates can be used without compromising grain yield (Ali 2020 ; Ali et al. 2021 , 2022 ). Optimal N fertilizer rate for cereals is generally fixed to be 10% less than that to obtain maximum grain yield because when operating in the curvilinear portion of the second-degree response functions it requires application of large amount of N fertilizer to reach the plateau. Increasing N applications above optimum rates will result in minor increases in grain yield along with increased production costs and the possibility of negative environmental implications (Ju et al. 2009 ; Guo et al. 2010 ; Ciampitti and Vyn 2013 ; Bijay-Singh 2018 , Bijay-Singh and Craswell 2021 ). For example, based on ratio of per kg grain price and cost of per kg fertilizer N, Ali and Habib ( 2022 ) calculated the economic optimal rate of N fertilizer for maize on a calcareous soil in Egypt to be 39.9 to 27.8 kg N ha \u22121 lower than the fertilizer N rate at maximum yield but with no significant loss in grain yield. Therefore, the current study paves the way for the development of field-specific N fertilizer management strategies that account for the spatial and temporal variability that governs optimal N fertilizer rates for wheat. Variation in shoot dry matter and N concentration induced by varying N fertilizer rate The finding of a sharp increase in shoot biomass after 55 DAS, which coincides with the Feekes 6 growth stage, suggests that this phase is critical in wheat and requires adequate supply of N fertilizer. Zhang et al. ( 2019 ) observed similar trend in biomass accumulation and reported that leaf dry matter in wheat during Feekes stages 4\u20137 was more variable than other. In fact, several researchers have concluded that the Feekes 6 stage is appropriate for determining the amount of site-specific N fertilizer for wheat in order to achieve high yield while also maximizing N fertilizer use efficiency (Bijay-Singh et al. 2011 ; Varinderpal-Singh et al., 2017; Ali 2020 ; Ali et al. 2021 ). The concept of N dilution curves, which is based on the assumption that shoot N declines as plant biomass increases, supports the decline in N concentrations during the growth stages of wheat. Caloin and Yu ( 1984 ) and Ziadi et al. ( 2010 ) attributed this decline to a decrease in the relationship with a concurrent increase in the N fraction of structural and storage constituents. The parameters of the developed wheat critical N dilution curve differ from those developed in other studies The biomass at the selected points was generally greater than 1 Mg DM ha \u22121 , as lower shoot biomass is unsuitable for developing a critical N dilution curve (Lemaire and Gasal 1997 ; Justes et al. 1994 ; Ziadi et al. 2010 ; Wang et al. 2020 ). Lemaire and Gasal ( 1997 ) explained that during these early growth stages, critical N concentration shows a constant value because of the minimal decline in Nc with increasing shoot biomass and the absence of competition for light among isolated plants. At different locations, researchers estimated the parameters for the function for wheat. These parameters were estimated by Lemaire and Gasal (1997), Ziadi et al. ( 2010 ), and Yue et al. ( 2012 ) to be a = 48 and b = -0.34, a = 38.8 and b = -0.57, and a = 41.5 and b = -0.38, respectively. In the current study, the coefficient \u2018 a \u2019 was found to be higher than that reported in these studies. Higher values of \u2018 a\u2019 may be associated with higher N concentrations in wheat shoots, possibly an attribute of the cultivar used in the present study. Several studies have indicated that N-efficient cultivars have a larger capa"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Wheat grain yield increased with increasing N fertilizer rate up to a point",
+      "text": "According to the study, the N fertilizer rate required to attain maximum wheat grain yield was 207 kg ha \u22121 . The general recommendation for N fertilizer for wheat grown on calcareous soils of Egypt is approximately 240 kg ha \u22121 , although studies on wheat in the same region have suggested that lower N fertilizer rates can be used without compromising grain yield (Ali 2020 ; Ali et al. 2021 , 2022 ). Optimal N fertilizer rate for cereals is generally fixed to be 10% less than that to obtain maximum grain yield because when operating in the curvilinear portion of the second-degree response functions it requires application of large amount of N fertilizer to reach the plateau. Increasing N applications above optimum rates will result in minor increases in grain yield along with increased production costs and the possibility of negative environmental implications (Ju et al. 2009 ; Guo et al. 2010 ; Ciampitti and Vyn 2013 ; Bijay-Singh 2018 , Bijay-Singh and Craswell 2021 ). For example, based on ratio of per kg grain price and cost of per kg fertilizer N, Ali and Habib ( 2022 ) calculated the economic optimal rate of N fertilizer for maize on a calcareous soil in Egypt to be 39.9 to 27.8 kg N ha \u22121 lower than the fertilizer N rate at maximum yield but with no significant loss in grain yield. Therefore, the current study paves the way for the development of field-specific N fertilizer management strategies that account for the spatial and temporal variability that governs optimal N fertilizer rates for wheat."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Variation in shoot dry matter and N concentration induced by varying N fertilizer rate",
+      "text": "The finding of a sharp increase in shoot biomass after 55 DAS, which coincides with the Feekes 6 growth stage, suggests that this phase is critical in wheat and requires adequate supply of N fertilizer. Zhang et al. ( 2019 ) observed similar trend in biomass accumulation and reported that leaf dry matter in wheat during Feekes stages 4\u20137 was more variable than other. In fact, several researchers have concluded that the Feekes 6 stage is appropriate for determining the amount of site-specific N fertilizer for wheat in order to achieve high yield while also maximizing N fertilizer use efficiency (Bijay-Singh et al. 2011 ; Varinderpal-Singh et al., 2017; Ali 2020 ; Ali et al. 2021 ). The concept of N dilution curves, which is based on the assumption that shoot N declines as plant biomass increases, supports the decline in N concentrations during the growth stages of wheat. Caloin and Yu ( 1984 ) and Ziadi et al. ( 2010 ) attributed this decline to a decrease in the relationship with a concurrent increase in the N fraction of structural and storage constituents."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "The parameters of the developed wheat critical N dilution curve differ from those developed in other studies",
+      "text": "The biomass at the selected points was generally greater than 1 Mg DM ha \u22121 , as lower shoot biomass is unsuitable for developing a critical N dilution curve (Lemaire and Gasal 1997 ; Justes et al. 1994 ; Ziadi et al. 2010 ; Wang et al. 2020 ). Lemaire and Gasal ( 1997 ) explained that during these early growth stages, critical N concentration shows a constant value because of the minimal decline in Nc with increasing shoot biomass and the absence of competition for light among isolated plants. At different locations, researchers estimated the parameters for the function for wheat. These parameters were estimated by Lemaire and Gasal (1997), Ziadi et al. ( 2010 ), and Yue et al. ( 2012 ) to be a = 48 and b = -0.34, a = 38.8 and b = -0.57, and a = 41.5 and b = -0.38, respectively. In the current study, the coefficient \u2018 a \u2019 was found to be higher than that reported in these studies. Higher values of \u2018 a\u2019 may be associated with higher N concentrations in wheat shoots, possibly an attribute of the cultivar used in the present study. Several studies have indicated that N-efficient cultivars have a larger capacity to absorb N, resulting in a higher coefficient \u2018 a \u2019 (Wang et al. 2017 ). Furthermore, Entz and Fowler ( 1991 ) found that protein yield, hence N concentration, is often higher in spring wheat (the wheat type cultivated in Egypt) than in winter wheat. The coefficient \u2018 b \u2019, on the other hand, was higher than that reported by Lemaire and Gasal ( 1997 ) and Yue et al. ( 2012 ), but lower than that reported by Ziadi et al. ( 2010 ). Because it represents the decline in shoot N concentration with crop growth, the coefficient \u2018 b \u2019 is dependent on N absorption relative to DM accumulation. The magnitude of \u2018 b \u2019, according to Ma et al. ( 2017 ), is proportional to the ratio of N concentration to dry matter, with higher ratios resulting in higher \u2018 b \u2019 values. The high \u2018 b \u2019 value in the current study suggests that wheat growth was rapid and was strongly influenced by external N applications. Conversely, lower \u2018 b \u2019 values indicate that the plant can extend the decline in N concentration that occurs as the biomass increases, allowing a steadier growth of the plant (Yang et al. 2015 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Wheat N requirements vary with growth stage based on the Nc dilution curve",
+      "text": "Obviously, the variable recovery efficiency developed in this study serves better than using a single value because crop development changes N uptake capacity and consequently N recovery efficiency. Reduced N recovery efficiency at 20 and 40 DAS compared to 55 and 70 DAS should be due to lower N uptake rates caused by a lack of well-developed root and shoot biomass, which obstructs efficient N uptake. The reduced N uptake at these stages prolongs the time it takes for the applied N fertilizer to be absorbed, increasing the possibility for loss through different mechanisms in calcareous soils. Jiang et al. ( 2017 ) demonstrated that during early stages of wheat growth, root expansions are slow and N absorption capacity is limited, resulting in soil retention of applied N or loss of considerable amounts. Ali ( 2022 ) also found that N uptake rate in early growth stages of wheat was significantly lower than that in later stages, and that avoiding N fertilizer application in early growth stages leads to improved N recovery efficiency. In-season NR at different growth stages was estimated using Nc computed from the dilution curve developed in this study. The approach followed in this study in estimating in-season NR during wheat vegetative growth reveals that NR increases at low N application rates and decreases at high N application rates (Fig. 8 ). These findings suggest that the NR across the different growth stages based on the Nc dilution curve successfully detected events of N deficiency and excess N nutrition and could be used to estimate the rates of supplemental N application at important growth stages. The NNI, which is derived from the Nc dilution curve, has emerged as a significant indicator for determining crop N status (Lemaire et al. 2008 ; Ziadi et al. 2010 ; Li et al. 2022 ). The challenge was to estimate the N topdressing rate using this concept. In the present study, a N fertilizer topdressing strategy for wheat based on the Nc dilution curve and the inferred NNI based on N uptake has been demonstrated. By establishing a functional relationship between NNI and NR at key growth stages, the rate of N fertilizer topdressing has been estimated. Although similar concept has been used in different crops and at different locations (Ata-UI-Karim et al. 2017 ; Wang et al. 2020 ; Li et al. 2022 ), but in this study NNI is based on N uptake (NNIu), and instead of depending on a single N recovery efficiency coefficient, a series of N recovery efficiency dependent on growth stage was developed. The relationships between NNIu and NR shown in Fig. 9 for different growth stages successfully explained the variation in wheat NR. Assessing crop NNIu quickly and non-destructively is required before using it to commercial crop production (Ziadi et al. 2008 ; Li et al. 2022 ). Tools such as chlorophyll meters and reflectance sensors may be used to connect their readings with the NNIu to make quick decisions. More research, however, is required to establish these relationships and put them into practice."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "Conclusions",
+      "text": "For wheat grown in calcareous soils, a critical N dilution curve relating above ground biomass ( W ) and N concentration ( N c ) in it ( \\({N}_{\\mathrm{c}}=50.141 {W}^{-0.424}\\) ) was developed. The coefficients in the equation were influenced both by nature of the wheat cultivar and application of fertilizer N. The critical N dilution curve could differentiate between wheat grown under limiting and non-limited N conditions, and the NNI computed from it was found to be related with relative grain yield of wheat. The Nc dilution curve was used to develop a topdressing strategy for N fertilizer. The strategy formulated in the present study considered NNIu inferred from the Nc based on N uptake rather than concentration, and instead of relying on a single efficiency coefficient, a variable N recovery efficiency depending on growth stage. The challenge in using this technique practically at the farm level is in determining the actual shoot biomass and N concentration, which is time consuming. Non-destructive tools including chlorophyll meters and canopy reflectance sensors can be used to address this issue by connecting their readings to NNIu of the Nc dilution curve and it should be next step forward."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "References",
+      "text": "Ali AM, Habib AA (2022) Estimation of the economic optimum rates of nitrogen fertilizer for maize grown in a calcareous soil in combination with organic manure applications. Commun Soil Science Plant Anal 45:1\u201313 Article Google Scholar Ali AM, Ibrahim SM, Singh B (2020) Wheat grain yield and nitrogen uptake prediction using atLeaf and GreenSeeker portable optical sensors at jointing growth stage. Inf Process Agric 7(3):375\u2013383 Google Scholar Ali AM (2020) Development of an algorithm for optimizing nitrogen fertilization in wheat using GreenSeeker proximal optical sensor. Exp Agric 56(5):688\u2013698 Article Google Scholar Ali AM (2022) Inducing nitrogen deficiency at early growth stages of wheat favors high yield and nitrogen recovery efficiency. J Plant Nutr 1:9 Google Scholar Ali AM, Ibrahim SM, Hassany WM, El-Sadek AN, Bijay-Singh, (2021) Fixed-time corrective dose fertilizer nitrogen management in wheat using atLeaf meter and leaf colour chart. Exp Agric 57(4):232\u2013243 Article Google Scholar Ali AM, Ibrahim SM, Salem EM, El-Sadek AN, Salem HM (2022) In-season estimation of wheat response to nitrogen using normalized difference vegetation index. Int J Plant Prod 1:9 Google Scholar Ata-Ul-Karim ST, Liu X, Lu Z, Zheng H, Cao W, Zhu Y (2017) Estimation of nitrogen fertilizer requirement for rice crop using critical nitrogen dilution curve. Field Crop Res 201:32\u201340 Article Google Scholar Ata-Ul-Karim ST, Yao X, Liu X, Cao W, Zhu Y (2013) Development of critical nitrogen dilution curve of Japonica rice in Yangtze River Reaches. Field Crop Res 149:149\u2013158 Article Google Scholar Bates TE (1971) Factors affecting critical nutrient concentrations in plants and their evaluation: a review. Soil Sci 112(2):116\u2013130 Article CAS Google Scholar B\u00e9langer GWJR, Walsh JR, Richards JE, Milburn PH, Ziadi N (2001) Critical nitrogen curve and nitrogen nutrition index for potato in eastern Canada. Am J Potato Res 78(5):355\u2013364 Article Google Scholar Bijay-Singh V-S, Yadvinder-Singh THS, Buttar GS, Kaur S, Kaur S, Bhowmik A (2017) Site-specific fertilizer nitrogen management for timely sown irrigated wheat (Triticum aestivum L and Triticum turgidum L ssp durum) genotypes. Nutr Cycl Agroecosyst 109(1):1\u201316 Article Google Scholar Bijay-Singh AAM (2020) Using hand-held chlorophyll meters and canopy reflectance sensors for fertilizer nitrogen management in cereals in small farms in developing countries. Sensors 20(4):1127 Article CAS PubMed PubMed Central Google Scholar Bijay-Singh CE (2021) Fertilizers and nitrate pollution of surface and ground water: an increasingly pervasive global problem. SN Appl Sci 3(4):1\u201324 Article Google Scholar Bijay-Singh SRK, Jat ML, Martin KL, Chandna P, Choudhary OP, Gupta RK, Thind HS, Uppal HS, Khurana HS, Uppal RK, Vashistha M (2011) Assessment of the nitrogen management strategy using an optical sensor for irrigated wheat. Agron Sustain Dev 31(3):589\u2013603 Article CAS Google Scholar Bouwman L, Goldewijk KK, Van Der Hoek KW, Beusen AH, Van Vuuren DP, Willems J, Rufino MC, Stehfest E (2013) Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900\u20132050 period. Proc Natl Acad Sci 110(52):20882\u201320887 Article CAS PubMed Google Scholar Bremner JT (1965) Inorganic forms of nitrogen. methods of soil analysis: part 2 chemical and microbiological properties, agronomy monographs 9. madison (WI): American society of agronomy, 1179\u20131237. Caloin M, Yu O (1984) Analysis of the time course of change in nitrogen content in Dactylis glomerata L. using a model of plant growth. Annal Botany 54(1):69\u201376 Article CAS Google Scholar Cassman KG, Dobermann A, Walters DT, Yang H (2003) Meeting cereal demand while protecting natural resources and improving environmental quality. Annu Rev Environ Resour 28(1):315\u2013358 Article Google Scholar Ciampitti IA, Vyn TJ (2013) Grain nitrogen source changes over time in maize: a review. Crop Sci 53(2):366\u2013377 Article CAS Google Scholar Colnenne C, Meyna"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "Funding",
+      "text": "Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations Department of Soil Fertility and Microbiology, Desert Research Center, Cairo, 11753, Egypt Ali M. Ali & Ahmed M. Saudi Department of Plant Production, Desert Research Center, Cairo, 11753, Egypt Ashraf N. El-Sadek Department of Soil Science, Punjab Agricultural University, Ludhiana, 141004, India Bijay-Singh Authors Ali M. Ali View author publications Search author on: PubMed Google Scholar Ahmed M. Saudi View author publications Search author on: PubMed Google Scholar Ashraf N. El-Sadek View author publications Search author on: PubMed Google Scholar Bijay-Singh View author publications Search author on: PubMed Google Scholar Contributions Study conception and design: Ali M. Ali; data collection: Ahmed M. Saudi and Ashraf N. El-Sadek; analysis and interpretation of results: Ali M. Ali, Ahmed M. Saudi and Ashraf N. El-Sadek; draft manuscript preparation: Ali M. Ali and Bijay-Singh. Corresponding author Correspondence to Ali M. Ali ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Department of Soil Fertility and Microbiology, Desert Research Center, Cairo, 11753, Egypt Ali M. Ali & Ahmed M. Saudi Department of Plant Production, Desert Research Center, Cairo, 11753, Egypt Ashraf N. El-Sadek Department of Soil Science, Punjab Agricultural University, Ludhiana, 141004, India Bijay-Singh Authors Ali M. Ali View author publications Search author on: PubMed Google Scholar Ahmed M. Saudi View author publications Search author on: PubMed Google Scholar Ashraf N. El-Sadek View author publications Search author on: PubMed Google Scholar Bijay-Singh View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "Study conception and design: Ali M. Ali; data collection: Ahmed M. Saudi and Ashraf N. El-Sadek; analysis and interpretation of results: Ali M. Ali, Ahmed M. Saudi and Ashraf N. El-Sadek; draft manuscript preparation: Ali M. Ali and Bijay-Singh."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Ali M. Ali ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Competing interests The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Competing interests",
+      "text": "The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Publisher's Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ . Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Ali, A.M., Saudi, A.M., El-Sadek, A.N. et al. Developing a nitrogen fertilizer management model for wheat in calcareous soils using the critical nitrogen dilution curve. Nutr Cycl Agroecosyst 125 , 379\u2013392 (2023). https://doi.org/10.1007/s10705-023-10264-2 Download citation Received : 05 October 2022 Accepted : 11 February 2023 Published : 07 March 2023 Version of record : 07 March 2023 Issue date : April 2023 DOI : https://doi.org/10.1007/s10705-023-10264-2 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords Wheat Critical N dilution curve N nutrition index N requirements"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Ali, A.M., Saudi, A.M., El-Sadek, A.N. et al. Developing a nitrogen fertilizer management model for wheat in calcareous soils using the critical nitrogen dilution curve. Nutr Cycl Agroecosyst 125 , 379\u2013392 (2023). https://doi.org/10.1007/s10705-023-10264-2 Download citation Received : 05 October 2022 Accepted : 11 February 2023 Published : 07 March 2023 Version of record : 07 March 2023 Issue date : April 2023 DOI : https://doi.org/10.1007/s10705-023-10264-2 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "Wheat Critical N dilution curve N nutrition index N requirements"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Profiles",
+      "text": "Bijay-Singh View author profile"
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "You have full access to this open access article",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "The critical nitrogen (N) dilution curve, which expresses whole-plant critical N concentration as a function of shoot biomass, can be used as a N management diagnostic tool for cereals. The objectives of this research were to develop a critical N dilution curve for wheat grown in calcareous soils and to formulate a model for estimating N fertilizer requirement of wheat crop at different growth stages. Six N fertilization rates (0\u2013250 kg N ha \u22121 ) were used to induce variability in plant growth throughout six site-years (three locations at West Delta of Egypt and two seasons [2020/21-2021/22]). Aboveground shoot biomass ( W ; Mg DM [dry matter] ha \u22121 ) and N concentration ( N c ; g kg \u22121 DM) were determined on five sampling dates during the growing season. A critical N dilution curve was developed as: \\({N}_{\\mathrm{c}}=50.141 {\\mathrm{W}}^{-0.424}\\) . The N c dilution curve was then used to develop a N fertilizer topdressing strategy. The study relied on N nutrition index inferred from the N c based on N uptake, and instead of relying on a single N recovery efficiency coefficient, a variable N recovery efficiency was developed. This approach increased the hypothetical N requirements at low N application rates while decreased requirements at high N application rates, implying that the N c dilution curve can be used successfully to estimate the rates of supplemental N application. The developed strategy will provide a solid basis for precisely managing N fertilizer, though challenge ahead at the farm level will be in determining the actual shoot biomass and N concentration.",
+      "char_offset": 50
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrogen (N) is crucial to crop production since it is required for photosynthesis-driven energy creation and plant growth. High yield levels of wheat ( Triticum aestivum L.) can be achieved only through accumulation of more substantial aboveground dry matter, whereas adequate N absorption is essential for dry matter accumulation (Damisch and Wiberg 1991 ; Song et al. 2016 ). Excessive N applications, on the other hand, result in not only reduced yield and quality, but also a significant loss of N fertilizer, resulting in greater production costs and environmental pollution (Raun and Johnson 1999 ; Fageria and Baligar 2005 ; Bijay-Singh 2018 ; Bijay-Singh and Craswell 2021 ). The global N use efficiency of cereal crops has remained alarmingly low at around 42% (Zhang et al. 2015 ), causing a variety of detrimental effects. Wheat crop used 22.8% of total fertilizer N consumption in Egypt (Heffer et al. 2017 ), indicating that considerable amounts of N are lost from the soil to the environment.",
+      "char_offset": 1650
+    },
+    {
+      "type": "paragraph",
+      "text": "The future of N management is unclear (Lemaire et al. 2019 ), since historical patterns show considerable differences in N application and N use efficiency among cropping systems (Dobermann and Cassman 2005 ; Bijay-Singh 2022 ). Because of variances in N application and crop capacity to consume N, some cropping systems have excess N while others have a deficiency of N (Liu et al. 2010 ; Bouwman et al. 2013 ). The critical value approach, diagnosis and recommendation integrated system, and compositional nutrient diagnosis are some diagnostic approaches that have been developed to evaluate the appropriateness of N supply to N demand of a crop (Bates 1971 ; Walworth and Sumner 1987 ; Parent and Dafir 1992 ). However, being focused on estimating N in a specific organ of the plant during a particular growth stage, these approaches are greatly depended upon phenological phases of the crop. Also, these approaches do not account for the dynamics of N in the soil\u2013plant system at various stages of crop growth. Therefore, prediction of N status which can assist farmers in timely altering N fertilizer topdressing strategy is fundamental for improving N management (Cassman et al. 2003 ; Diacono et al. 2013 ; Bijay-Singh and Ali 2020 ; Ali et al. 2020 ).",
+      "char_offset": 2659
+    },
+    {
+      "type": "paragraph",
+      "text": "A crop diagnostic approach based on the allometry between the dynamics of N concentration and biomass accumulation in crops is the critical N ( Nc ) dilution curve hypothesis. The Nc is the minimum N concentration required for maximum crop growth rate (Ulrich 1952 ). The concept of the N dilution curve is based on the notion that plant N concentration declines during the course of the growth cycle even when there is an ample supply of N. As illustrated below, Lemaire et al. (1984) described the Nc as a negative power function known as the \"dilution curve\":",
+      "char_offset": 3921
+    },
+    {
+      "type": "paragraph",
+      "text": "where N c is the total N concentration in shoot expressed in g kg \u22121 DM (dry matter), W is the total shoot biomass expressed in Mg DM ha \u22121 , and a and b are the model\u2019s coefficients. For most cereal crops including wheat, rice ( Oryza sativa L.), and maize ( Zea mays L.), the Nc dilution curves have been developed in different parts of the world (Justes et al. 1994 ; Colnenne et al. 1998 ; Pl\u00e9net and Lemaire 2000 ; Herrmann and Taube 2004 ; Li et al. 2012 ; Ata-Ul-Karim et al. 2013 ; Zhao et al. 2017 ; Zhang et al. 2020 ). The Nc dilution curve can be utilized to generate its N nutrition index (NNI), a useful function that has been used to successfully assess actual crop yield, quality, and N requirement (NR) (Ziadi et al. 2010 ; Ata-Ul-Karim et al. 2017 ; Wang et al. 2020 ).",
+      "char_offset": 4485
+    },
+    {
+      "type": "paragraph",
+      "text": "Greenwood et al. ( 1990 ) suggested two broad Nc -shoot biomass relationships: one for C 3 species ( a = 57.0 and b = \u2013 0.50) and one for C 4 species ( a = 41.0 and b = \u2013 0.50). Nonetheless, according to Lemaire and Gastal ( 1997 ), each species has its own critical N dilution curve. In wheat, the parameters for this allometric function were estimated by Lemaire and Gasal ( 1997 ), Ziadi et al. ( 2010 ), and Yue et al. ( 2012 ) to be a = 48 and b = \u2013 0.34, a = 38.8 and b = \u2013 0.57, and a = 41.5 and b = \u2013 0.38, respectively. Numerous studies have demonstrated that due to variable histological, morphological, and eco-physiological traits, the parameters of the dilution curves vary among different crops. In addition, variations in the N c curve across species (Justes et al. 1994 ; B\u00e9langer et al. 2001 ; Du et al. 2020 ; Fabini et al. 2020 ; Wang et al. 2020 ) and between experimental sites have also been frequently observed (Katsura et al. 2010 ; Wang et al. 2020 ). Several recent studies have, in fact, suggested that comparing dilution curves developed at different locations without understanding the uncertainty surrounding the values of the critical parameters of the curves is risky (Makowski et al. 2020 ; Yao et al. 2021 ). To the best of our knowledge, no comparable research to establish or validate these parameters in Egypt have been carried out.",
+      "char_offset": 5274
+    },
+    {
+      "type": "paragraph",
+      "text": "Farmers in the West Delta of Egypt and other comparable places have a tendency to apply more N fertilizer than is necessary for wheat due to the lack of N status diagnostic tools. Farmers would considerably benefit from an efficient indicator capable of identifying deficiency or excess N in order to optimize N fertilization and lower the environmental hazards, especially given the substantial losses of N fertilizer in calcareous soils. The objectives of the present study were: (1) to develop and validate a critical N dilution curve for wheat in calcareous soils of Egypt; (2) to determine whether it would be feasible to estimate the level of NNI in wheat using the established critical N dilution curve; and (3) to assess the possibility of using the curve to estimate NR at different growth stages of wheat.",
+      "char_offset": 6645
+    },
+    {
+      "type": "paragraph",
+      "text": "A field experiment in calcareous soils was carried out at three sites in West Delta of Egypt (El-Tahrir, Bangar El-Sokar, and El-Nobaria) over two wheat seasons (2020/21 and 2021/22). The average annual rainfall in this area is about 75 mm and most of it falls during the growing season of wheat in winter. The average temperature fluctuated between 10 and 20 \u00b0C during winter. Before sowing of wheat, soil samples from 0 to 0.15 m depth were collected from all experimental sites and analysed for various properties (Table 1 ). Soil texture was measured using the pipette method (Page et al. 1982 ). Soil pH and electrical conductivity (EC) were determined in saturated soil paste and extract, respectively. The Walkely and Black method, as reported by Page et al. ( 1982 ) was used to assess soil organic carbon. The total calcium carbonate content was determined using a calcimeter (Nelson 1983 ). The cation exchange capacity (CEC) of soil was measured using the ammonium acetate-saturation method (Page et al. 1982 ). According to Dahnke and Johnson ( 1990 ), available N was extracted using a 2 M potassium chloride (KCl) solution and then measured using the micro-Kjeldahl method (Bremner 1965 ). Available phosphorus (P) and potassium (K) were determined by extracting the soil samples with 1 M ammonium bicarbonate (NH 4 HCO 3 ) and 0.005 M DTPA (pH 7.6), respectively (Soltanpour 1991 ). While ascorbic acid and ammonium molybdate were used to estimate P colorimetrically in the soil extracts, K was estimated flamephotometerically.",
+      "char_offset": 7462
+    },
+    {
+      "type": "paragraph",
+      "text": "The treatments included six N application rates of 0, 50, 100, 150, 200, and 250 kg N ha \u22121 in four equal split doses as ammonium nitrate at 0, 30, 45, and 60 days after sowing (DAS). The range of N fertilizer application rates used to cause significant variations in shoot DM and N concentration in shoot. The treatments were applied in randomized complete block design with three replications. Before sowing wheat, the experimental field was ploughed twice and divided into 15 m 2 plots. Spring wheat is the type of wheat cultivated in Egypt. Giza 171 wheat cultivar was manually sowed in early November at a sowing rate of 155 kg ha \u22121 and harvested in mid-April. Phosphorus and K fertilizers, weeds, and diseases were managed following the general recommendations for the region. At maturity, wheat was harvested from an area of 3 m 2 from each plot. Grain and straw yields were recorded at 12% moisture content and on dry weight basis, respectively.",
+      "char_offset": 9006
+    },
+    {
+      "type": "paragraph",
+      "text": "Whole plants were sampled from each plot from a net area of 1 m 2 at 20, 40, 55, 70, and 85 DAS, avoiding the border rows. Whole plants were cut at ground level and weighed fresh in the field. Subsamples were collected for dry matter determination and analysis of total N. At maturity, samples of both grain and straw were collected for N analysis. After drying to a consistent weight in a hot air oven set to 70 \u00b0C, all samples were powdered. After digesting the samples in an H 2 SO 4 \u2014H 2 O 2 mixture, total N was measured using the micro-Kjeldahl method (Kalra 1998 ).",
+      "char_offset": 9962
+    },
+    {
+      "type": "paragraph",
+      "text": "Fitting a critical N curve requires the selection of data points at which N is neither limiting shoot growth nor it is in excess. These data points represent a N rate at which shoot biomass does not significantly increase. The technique proposed by Greenwood et al. ( 1990 ) and Ata-Ul-Karim et al. ( 2017 ) for identifying these data points was employed. For each site-year and sample date, the significantly highest shoot biomass ( P \u2264 0.05) produced with any rate of N fertilization as well as the related N concentration were identified and selected for further analysis. These data points were used to develop the relationship between critical N concentration and shoot biomass using an allometric function.",
+      "char_offset": 10536
+    },
+    {
+      "type": "paragraph",
+      "text": "Data points not included for defining the allometric function, were used to validate the critical N dilution curve by discriminating between the limiting and non-limiting N conditions (Ata-Ul-Karim et al. 2017 ). For validation, the significant shoot biomass ( P \u2264 0.10) differences higher and lower than the selected critical points were selected. Data points with significantly lower shoot biomass than the selected critical points were regarded as limiting, whereas points with significantly higher shoot biomass than the selected critical points were considered as non-limiting N conditions.",
+      "char_offset": 11250
+    },
+    {
+      "type": "paragraph",
+      "text": "For validation of the critical N dilution curve, the NNI was calculated at the Feekes 6 growth stage (55 DAS) as:",
+      "char_offset": 11847
+    },
+    {
+      "type": "paragraph",
+      "text": "where Na is the actual N concentration in the shoot biomass and Nc is the critical N concentration. Data from an independent wheat experiment, other than those used to develop the allometric function of this study, was used for this purpose. This experiment was sown in 2021/22 at site #2, using the same treatments, sampling dates, and management practices. The relative grain yield was calculated by dividing the maximum grain yield by the grain yield obtained at a certain N rate. The relationship between NNI and relative grain yield was expressed using a quadratic function.",
+      "char_offset": 11962
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrogen requirements (kg N ha \u22121 ) at different growth stages of wheat in the independent experiment were determined using the equation:",
+      "char_offset": 12543
+    },
+    {
+      "type": "paragraph",
+      "text": "where NR is N requirement, Nac is the plant N accumulation under the Nc, Naa is the actual plant N accumulation at different N rates, and NRE is the N recovery efficiency. The value of NR equal to zero represents an optimal N supply, whereas NR > zero (positive values) and NR < zero (negative values) values represent the surplus and deficit N supply, respectively.",
+      "char_offset": 12682
+    },
+    {
+      "type": "paragraph",
+      "text": "Because NRE is not same at different crop stages, a relationship between NRE and growth stage was developed using the difference method and the equation:",
+      "char_offset": 13050
+    },
+    {
+      "type": "paragraph",
+      "text": "where N uf is N uptake in the fertilized plot and N u0 is the N uptake in the unfertilized plot.",
+      "char_offset": 13205
+    },
+    {
+      "type": "paragraph",
+      "text": "Another approach for determining NR was proposed based on the relationship between NNI and NR. The following equation was used to calculate NNI based on N uptake rather than concentration at different growth stages:",
+      "char_offset": 13303
+    },
+    {
+      "type": "paragraph",
+      "text": "where NNIu is the N nutrition index based on N uptake, Nau is the actual N uptake in the shoot biomass, and Ncu is the critical N uptake as derived from the Nc dilution curve.",
+      "char_offset": 13520
+    },
+    {
+      "type": "paragraph",
+      "text": "Excel software (as part of the Microsoft Office program, Pullman, WA) and Statistical Product and Service Solutions (SPSS 18.0 software; SPSS Inc., Chicago, IL) were used for computations, statistical data analysis, and curve fittings.",
+      "char_offset": 13697
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 1 shows the effect of N fertilizer application rates on relative grain yield of wheat averaged over six site-years. Increasing N fertilizer rate increased relative grain yields steadily until it reached a plateau at which further additions resulted in a slight decrease in grain yield. This relationship was best described by a second-degree polynomial function with an R 2 value of 0.94. By setting the first derivative \\(\\frac{dy}{dx}=0\\) revealed that N fertilizer rate to achieve maximum grain yield of wheat was 207 kg ha \u22121 .",
+      "char_offset": 13934
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationship between N fertilizer application rate and wheat relative grain yield averaged across the six site-years",
+      "char_offset": 14474
+    },
+    {
+      "type": "paragraph",
+      "text": "The average shoot biomass during the growing season ranged from 1.65 to 16.96 Mg DM ha \u22121 , depending on the N application rate and sampling date (Fig. 2 ). In general, independent of N fertilizer application rate, there was an increase in shoot biomass with time. However, it was apparent that shoot biomass increased gradually from 20 to 55 DAS, following which a sharp increase was observed. The N concentration decreased during the growing season (Fig. 2 ). Depending on the rate of N application and growth stage, N concentrations ranged from 41.0 to 15.7 g kg \u22121 DM.",
+      "char_offset": 14592
+    },
+    {
+      "type": "paragraph",
+      "text": "Changes in wheat shoot biomass and N concentration of shoot on different sampling timings as affected by different rates of N fertilizer averaged from the six site-years experiments",
+      "char_offset": 15166
+    },
+    {
+      "type": "paragraph",
+      "text": "The criterion that shoot N declines as plant biomass increases was fulfilled by 15 points from all site-years experiments (Table 2 ). Each of these points reflects a critical N concentration point for a specific shoot biomass. Using shoot biomass as the independent factor and N concentration as the dependent factor, a scatter plot was formed. When the inverse power function was employed to describe this relationship, the R 2 value was 0.94 (Fig. 3 ). Based on the shoot biomass, following equation was fitted to determine the critical N concentration:",
+      "char_offset": 15349
+    },
+    {
+      "type": "paragraph",
+      "text": "where N c denotes the critical N concentration in the shoot expressed in g kg \u22121 DM and W denotes total shoot biomass expressed in Mg DM ha \u22121 .",
+      "char_offset": 15906
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat shoot biomass and N concentration relationship fitted to a power function using the selected data points from the six site-years experiments",
+      "char_offset": 16052
+    },
+    {
+      "type": "paragraph",
+      "text": "Data points that were not used to determine the parameters of the function were used to assess the suitability of the developed critical curve. These points for the various N application rates were categorized as limiting or non-limiting growing N conditions. As shown in Fig. 4 , all the points labelled as limiting N growing conditions were below the developed critical curve, whereas 93% of the points labelled as non-limiting N growing conditions were above it. Although this is a preliminary validation, it indicates that the critical N dilution curve developed in this study effectively differentiates between limiting and non-limiting N growing conditions. More testing in a variety of environmental conditions, particularly with other cultivars or under different growing conditions will be needed.",
+      "char_offset": 16200
+    },
+    {
+      "type": "paragraph",
+      "text": "Validation of the critical N curve using data from wheat grown in limiting and non-limiting N conditions of the six site-years experiments. The solid line indicates the critical N dilution curve developed in the current study",
+      "char_offset": 17008
+    },
+    {
+      "type": "paragraph",
+      "text": "As Feekes 6 growth stage is considered to be critical for N nutrition of wheat, the Nc from the developed model at this growth stage was used to estimate NNI using data from the independent experiment on wheat with comparable N fertilizer rates and sampling dates. Figure 5 shows the relative grain yield from this experiment plotted against the NNI at the Feekes 6 growth stage. Grain yields were gradually increased in relation to NNI until a plateau was reached (relative grain yield close to 1). The NNI at the curve's maximum point was calculated to be 1.06 according to a derivative analysis of the function. The hypothesis suggests that crops are in non-limiting N conditions when NNI values > 1.0, but NNI values < 1.0 suggest N deficiency. According to the relationship, when NNI was close to 1.06, the relative grain yield was close to 1.0, whereas when NNI was considerably lower than 1.06, the relative grain yield was reduced. As a result, the developed Nc model and inferred NNI accurately predicted relative grain yield and can thus be utilized to diagnose deficient and non-deficient N nutrition status in wheat.",
+      "char_offset": 17235
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationship between N nutrition index (NNI) at Feekes 6 growth stage (55 DAS) and wheat relative grain yield in an independent experiment",
+      "char_offset": 18365
+    },
+    {
+      "type": "paragraph",
+      "text": "Estimating in-season NR during wheat vegetative growth is critical for achieving high production levels as well as for maximizing N fertilizer use efficiency. In the current study, in-season NR at different growth stages was estimated using Nc computed from the dilution curve. To eliminate bias, the Nc was estimated using data from an independent experiment on wheat that was not used to develop the Nc critical curve. Figure 6 represents the highest significant shoot biomass of the independent experiment at different times.",
+      "char_offset": 18505
+    },
+    {
+      "type": "paragraph",
+      "text": "Highest significant ( P \u2264 0.05) wheat shoot biomass on different sampling timings as affected by different rates of N fertilizer in an independent experiment",
+      "char_offset": 19035
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference between actual N accumulation under different fertilizer N application rates and the Nc divided by the N recovery efficiency parameter provides an estimate of the amount of N required to optimize N uptake. Therefore, recovery efficiency of N fertilizer was calculated at 20, 40, 55, and 70 DAS (after the application of N fertilizer at 0, 30, 45, and 60 DAS) by difference method in the six site-years experiments used to develop the Nc model (using the 150 and 200 kg N ha \u22121 treatments). The difference in total N uptake between sampling times was used to calculate N recovery efficiency for a certain interval. Figure 7 shows that the average recovery efficiency at 20, 40, 55, and 70 DAS was 29.4, 39.2, 53.1, and 69.8%, respectively. This relationship was described as a linear function predicting the N recovery efficiency from number of days after sowing representing the crop growth stage using the equation:",
+      "char_offset": 19194
+    },
+    {
+      "type": "paragraph",
+      "text": "Evolution of recovery efficiency of N fertilizer at different days after wheat sowing from the six site-years experiments using data from N fertilizer treatments of 150 and 200 kg N ha \u22121",
+      "char_offset": 20127
+    },
+    {
+      "type": "paragraph",
+      "text": "The N requirements of wheat at various growth stages were estimated hypothetically using the Nc computed from the established equation and predicted N recovery efficiency. Figure 8 demonstrates the evolution of NR in different growth stages under different N fertilizer rates from the independent experiment. Negative values of NR indicate that the actual N accumulation is greater than the Nc accumulation, and so N application is not required. At 20 DAS, the hypothetical NR for treatments of 0, 50, 100, 150, 200, and 250 kg N ha \u22121 were 38.9, 34.3, 18.6, 14.1, 1.7, and -1.2 kg N ha \u22121 , respectively. At 40 DAS, the requirements were 53.5, 44.9, 24.2, 16.8, 3.7, and -2.0 kg N ha \u22121 , respectively. At 55 DAS, the NR were 60.9, 48.6, 25.8, 20.5, 12.1, and -6.0 kg N ha \u22121 , respectively. At 70 DAS, the requirements were 66.7, 50.5, 27.9, 22.9, 22.2, 15.5, and -16.6 kg N ha \u22121 , respectively. In general, wheat response to application of N fertilizer after Feekes 6 growth stage (around 55 DAS) is low (Bijay-Singh et al. 2011 ; Ali 2020 ; Ali et al. 2021 ), although the hypothetical N fertilizer requirement used at 70 DAS was only for comparison.",
+      "char_offset": 20316
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypothetical N fertilizer requirements based on the N c dilution curve at different growth stages of wheat and N fertilizer application rates in an independent experiment",
+      "char_offset": 21473
+    },
+    {
+      "type": "paragraph",
+      "text": "The NNIu (the ratio between actual N uptake in shoot biomass and critical N uptake based on the Nc dilution curve) divided by recovery efficiency can be computed based on N uptake using the target uptake determined from the Nc dilution curve. At different growth stages of wheat, the NR were expressed as a function of NNIu, and scatter plots were created. Inverse linear functions describing the relationships between NR and NNIu, suggested that N requirement increased as NNIu decreased (Fig. 9 ). When NNIu was about 1, the NR were zero, indicating an optimal N supply, and vice versa. The relationships presented in the Fig. 9 between NNIu and NR for 20, 40, 55, and 70 DAS satisfactorily explained the variation in wheat NR linearly.",
+      "char_offset": 21645
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationships between N nutrition index (NNI) based on N uptake (derived by dividing actual N uptake in shoot biomass by critical N uptake based on the N c dilution curve) during different growth stages (DAS) of wheat under different N fertilizer rates in an independent experiment",
+      "char_offset": 22385
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the study, the N fertilizer rate required to attain maximum wheat grain yield was 207 kg ha \u22121 . The general recommendation for N fertilizer for wheat grown on calcareous soils of Egypt is approximately 240 kg ha \u22121 , although studies on wheat in the same region have suggested that lower N fertilizer rates can be used without compromising grain yield (Ali 2020 ; Ali et al. 2021 , 2022 ). Optimal N fertilizer rate for cereals is generally fixed to be 10% less than that to obtain maximum grain yield because when operating in the curvilinear portion of the second-degree response functions it requires application of large amount of N fertilizer to reach the plateau. Increasing N applications above optimum rates will result in minor increases in grain yield along with increased production costs and the possibility of negative environmental implications (Ju et al. 2009 ; Guo et al. 2010 ; Ciampitti and Vyn 2013 ; Bijay-Singh 2018 , Bijay-Singh and Craswell 2021 ). For example, based on ratio of per kg grain price and cost of per kg fertilizer N, Ali and Habib ( 2022 ) calculated the economic optimal rate of N fertilizer for maize on a calcareous soil in Egypt to be 39.9 to 27.8 kg N ha \u22121 lower than the fertilizer N rate at maximum yield but with no significant loss in grain yield. Therefore, the current study paves the way for the development of field-specific N fertilizer management strategies that account for the spatial and temporal variability that governs optimal N fertilizer rates for wheat.",
+      "char_offset": 22668
+    },
+    {
+      "type": "paragraph",
+      "text": "The finding of a sharp increase in shoot biomass after 55 DAS, which coincides with the Feekes 6 growth stage, suggests that this phase is critical in wheat and requires adequate supply of N fertilizer. Zhang et al. ( 2019 ) observed similar trend in biomass accumulation and reported that leaf dry matter in wheat during Feekes stages 4\u20137 was more variable than other. In fact, several researchers have concluded that the Feekes 6 stage is appropriate for determining the amount of site-specific N fertilizer for wheat in order to achieve high yield while also maximizing N fertilizer use efficiency (Bijay-Singh et al. 2011 ; Varinderpal-Singh et al., 2017; Ali 2020 ; Ali et al. 2021 ). The concept of N dilution curves, which is based on the assumption that shoot N declines as plant biomass increases, supports the decline in N concentrations during the growth stages of wheat. Caloin and Yu ( 1984 ) and Ziadi et al. ( 2010 ) attributed this decline to a decrease in the relationship with a concurrent increase in the N fraction of structural and storage constituents.",
+      "char_offset": 24200
+    },
+    {
+      "type": "paragraph",
+      "text": "The biomass at the selected points was generally greater than 1 Mg DM ha \u22121 , as lower shoot biomass is unsuitable for developing a critical N dilution curve (Lemaire and Gasal 1997 ; Justes et al. 1994 ; Ziadi et al. 2010 ; Wang et al. 2020 ). Lemaire and Gasal ( 1997 ) explained that during these early growth stages, critical N concentration shows a constant value because of the minimal decline in Nc with increasing shoot biomass and the absence of competition for light among isolated plants. At different locations, researchers estimated the parameters for the function for wheat. These parameters were estimated by Lemaire and Gasal (1997), Ziadi et al. ( 2010 ), and Yue et al. ( 2012 ) to be a = 48 and b = -0.34, a = 38.8 and b = -0.57, and a = 41.5 and b = -0.38, respectively. In the current study, the coefficient \u2018 a \u2019 was found to be higher than that reported in these studies. Higher values of \u2018 a\u2019 may be associated with higher N concentrations in wheat shoots, possibly an attribute of the cultivar used in the present study. Several studies have indicated that N-efficient cultivars have a larger capacity to absorb N, resulting in a higher coefficient \u2018 a \u2019 (Wang et al. 2017 ). Furthermore, Entz and Fowler ( 1991 ) found that protein yield, hence N concentration, is often higher in spring wheat (the wheat type cultivated in Egypt) than in winter wheat. The coefficient \u2018 b \u2019, on the other hand, was higher than that reported by Lemaire and Gasal ( 1997 ) and Yue et al. ( 2012 ), but lower than that reported by Ziadi et al. ( 2010 ). Because it represents the decline in shoot N concentration with crop growth, the coefficient \u2018 b \u2019 is dependent on N absorption relative to DM accumulation. The magnitude of \u2018 b \u2019, according to Ma et al. ( 2017 ), is proportional to the ratio of N concentration to dry matter, with higher ratios resulting in higher \u2018 b \u2019 values. The high \u2018 b \u2019 value in the current study suggests that wheat growth was rapid and was strongly influenced by external N applications. Conversely, lower \u2018 b \u2019 values indicate that the plant can extend the decline in N concentration that occurs as the biomass increases, allowing a steadier growth of the plant (Yang et al. 2015 ).",
+      "char_offset": 25276
+    },
+    {
+      "type": "paragraph",
+      "text": "Obviously, the variable recovery efficiency developed in this study serves better than using a single value because crop development changes N uptake capacity and consequently N recovery efficiency. Reduced N recovery efficiency at 20 and 40 DAS compared to 55 and 70 DAS should be due to lower N uptake rates caused by a lack of well-developed root and shoot biomass, which obstructs efficient N uptake. The reduced N uptake at these stages prolongs the time it takes for the applied N fertilizer to be absorbed, increasing the possibility for loss through different mechanisms in calcareous soils. Jiang et al. ( 2017 ) demonstrated that during early stages of wheat growth, root expansions are slow and N absorption capacity is limited, resulting in soil retention of applied N or loss of considerable amounts. Ali ( 2022 ) also found that N uptake rate in early growth stages of wheat was significantly lower than that in later stages, and that avoiding N fertilizer application in early growth stages leads to improved N recovery efficiency.",
+      "char_offset": 27499
+    },
+    {
+      "type": "paragraph",
+      "text": "In-season NR at different growth stages was estimated using Nc computed from the dilution curve developed in this study. The approach followed in this study in estimating in-season NR during wheat vegetative growth reveals that NR increases at low N application rates and decreases at high N application rates (Fig. 8 ). These findings suggest that the NR across the different growth stages based on the Nc dilution curve successfully detected events of N deficiency and excess N nutrition and could be used to estimate the rates of supplemental N application at important growth stages.",
+      "char_offset": 28547
+    },
+    {
+      "type": "paragraph",
+      "text": "The NNI, which is derived from the Nc dilution curve, has emerged as a significant indicator for determining crop N status (Lemaire et al. 2008 ; Ziadi et al. 2010 ; Li et al. 2022 ). The challenge was to estimate the N topdressing rate using this concept. In the present study, a N fertilizer topdressing strategy for wheat based on the Nc dilution curve and the inferred NNI based on N uptake has been demonstrated. By establishing a functional relationship between NNI and NR at key growth stages, the rate of N fertilizer topdressing has been estimated. Although similar concept has been used in different crops and at different locations (Ata-UI-Karim et al. 2017 ; Wang et al. 2020 ; Li et al. 2022 ), but in this study NNI is based on N uptake (NNIu), and instead of depending on a single N recovery efficiency coefficient, a series of N recovery efficiency dependent on growth stage was developed. The relationships between NNIu and NR shown in Fig. 9 for different growth stages successfully explained the variation in wheat NR. Assessing crop NNIu quickly and non-destructively is required before using it to commercial crop production (Ziadi et al. 2008 ; Li et al. 2022 ). Tools such as chlorophyll meters and reflectance sensors may be used to connect their readings with the NNIu to make quick decisions. More research, however, is required to establish these relationships and put them into practice.",
+      "char_offset": 29136
+    },
+    {
+      "type": "paragraph",
+      "text": "For wheat grown in calcareous soils, a critical N dilution curve relating above ground biomass ( W ) and N concentration ( N c ) in it ( \\({N}_{\\mathrm{c}}=50.141 {W}^{-0.424}\\) ) was developed. The coefficients in the equation were influenced both by nature of the wheat cultivar and application of fertilizer N. The critical N dilution curve could differentiate between wheat grown under limiting and non-limited N conditions, and the NNI computed from it was found to be related with relative grain yield of wheat. The Nc dilution curve was used to develop a topdressing strategy for N fertilizer. The strategy formulated in the present study considered NNIu inferred from the Nc based on N uptake rather than concentration, and instead of relying on a single efficiency coefficient, a variable N recovery efficiency depending on growth stage. The challenge in using this technique practically at the farm level is in determining the actual shoot biomass and N concentration, which is time consuming. Non-destructive tools including chlorophyll meters and canopy reflectance sensors can be used to address this issue by connecting their readings to NNIu of the Nc dilution curve and it should be next step forward.",
+      "char_offset": 30553
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali AM, Habib AA (2022) Estimation of the economic optimum rates of nitrogen fertilizer for maize grown in a calcareous soil in combination with organic manure applications. Commun Soil Science Plant Anal 45:1\u201313",
+      "char_offset": 31772
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali AM, Ibrahim SM, Singh B (2020) Wheat grain yield and nitrogen uptake prediction using atLeaf and GreenSeeker portable optical sensors at jointing growth stage. Inf Process Agric 7(3):375\u2013383",
+      "char_offset": 31986
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali AM (2020) Development of an algorithm for optimizing nitrogen fertilization in wheat using GreenSeeker proximal optical sensor. Exp Agric 56(5):688\u2013698",
+      "char_offset": 32182
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali AM (2022) Inducing nitrogen deficiency at early growth stages of wheat favors high yield and nitrogen recovery efficiency. J Plant Nutr 1:9",
+      "char_offset": 32339
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali AM, Ibrahim SM, Hassany WM, El-Sadek AN, Bijay-Singh, (2021) Fixed-time corrective dose fertilizer nitrogen management in wheat using atLeaf meter and leaf colour chart. Exp Agric 57(4):232\u2013243",
+      "char_offset": 32484
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali AM, Ibrahim SM, Salem EM, El-Sadek AN, Salem HM (2022) In-season estimation of wheat response to nitrogen using normalized difference vegetation index. Int J Plant Prod 1:9",
+      "char_offset": 32683
+    },
+    {
+      "type": "paragraph",
+      "text": "Ata-Ul-Karim ST, Liu X, Lu Z, Zheng H, Cao W, Zhu Y (2017) Estimation of nitrogen fertilizer requirement for rice crop using critical nitrogen dilution curve. Field Crop Res 201:32\u201340",
+      "char_offset": 32861
+    },
+    {
+      "type": "paragraph",
+      "text": "Ata-Ul-Karim ST, Yao X, Liu X, Cao W, Zhu Y (2013) Development of critical nitrogen dilution curve of Japonica rice in Yangtze River Reaches. Field Crop Res 149:149\u2013158",
+      "char_offset": 33046
+    },
+    {
+      "type": "paragraph",
+      "text": "Bates TE (1971) Factors affecting critical nutrient concentrations in plants and their evaluation: a review. Soil Sci 112(2):116\u2013130",
+      "char_offset": 33216
+    },
+    {
+      "type": "paragraph",
+      "text": "B\u00e9langer GWJR, Walsh JR, Richards JE, Milburn PH, Ziadi N (2001) Critical nitrogen curve and nitrogen nutrition index for potato in eastern Canada. Am J Potato Res 78(5):355\u2013364",
+      "char_offset": 33350
+    },
+    {
+      "type": "paragraph",
+      "text": "Bijay-Singh V-S, Yadvinder-Singh THS, Buttar GS, Kaur S, Kaur S, Bhowmik A (2017) Site-specific fertilizer nitrogen management for timely sown irrigated wheat (Triticum aestivum L and Triticum turgidum L ssp durum) genotypes. Nutr Cycl Agroecosyst 109(1):1\u201316",
+      "char_offset": 33529
+    },
+    {
+      "type": "paragraph",
+      "text": "Bijay-Singh AAM (2020) Using hand-held chlorophyll meters and canopy reflectance sensors for fertilizer nitrogen management in cereals in small farms in developing countries. Sensors 20(4):1127",
+      "char_offset": 33790
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 33985
+    },
+    {
+      "type": "paragraph",
+      "text": "Bijay-Singh CE (2021) Fertilizers and nitrate pollution of surface and ground water: an increasingly pervasive global problem. SN Appl Sci 3(4):1\u201324",
+      "char_offset": 34035
+    },
+    {
+      "type": "paragraph",
+      "text": "Bijay-Singh SRK, Jat ML, Martin KL, Chandna P, Choudhary OP, Gupta RK, Thind HS, Uppal HS, Khurana HS, Uppal RK, Vashistha M (2011) Assessment of the nitrogen management strategy using an optical sensor for irrigated wheat. Agron Sustain Dev 31(3):589\u2013603",
+      "char_offset": 34185
+    },
+    {
+      "type": "paragraph",
+      "text": "Bouwman L, Goldewijk KK, Van Der Hoek KW, Beusen AH, Van Vuuren DP, Willems J, Rufino MC, Stehfest E (2013) Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900\u20132050 period. Proc Natl Acad Sci 110(52):20882\u201320887",
+      "char_offset": 34442
+    },
+    {
+      "type": "paragraph",
+      "text": "Bremner JT (1965) Inorganic forms of nitrogen. methods of soil analysis: part 2 chemical and microbiological properties, agronomy monographs 9. madison (WI): American society of agronomy, 1179\u20131237.",
+      "char_offset": 34723
+    },
+    {
+      "type": "paragraph",
+      "text": "Caloin M, Yu O (1984) Analysis of the time course of change in nitrogen content in Dactylis glomerata L. using a model of plant growth. Annal Botany 54(1):69\u201376",
+      "char_offset": 34923
+    },
+    {
+      "type": "paragraph",
+      "text": "Cassman KG, Dobermann A, Walters DT, Yang H (2003) Meeting cereal demand while protecting natural resources and improving environmental quality. Annu Rev Environ Resour 28(1):315\u2013358",
+      "char_offset": 35085
+    },
+    {
+      "type": "paragraph",
+      "text": "Ciampitti IA, Vyn TJ (2013) Grain nitrogen source changes over time in maize: a review. Crop Sci 53(2):366\u2013377",
+      "char_offset": 35269
+    },
+    {
+      "type": "paragraph",
+      "text": "Colnenne C, Meynard JM, Reau R, Justes E, Merrien A (1998) Determination of a critical nitrogen dilution curve for winter oilseed rape. Ann Bot 81(2):311\u2013317",
+      "char_offset": 35381
+    },
+    {
+      "type": "paragraph",
+      "text": "Dahnke WC, Johnson GV (1990) Testing soils for 310 available nitrogen. In: Westerman RL, editor. Soils testing and plant analysis. 3rd ed. Madison (WI): SSSA Book Series, Number 3, Soil Science Society of America.",
+      "char_offset": 35540
+    },
+    {
+      "type": "paragraph",
+      "text": "Damisch W, Wiberg A (1991) Biomass yield\u2014A topical issue in modern wheat breeding programmes. Plant Breeding 107(1):11\u201317",
+      "char_offset": 35755
+    },
+    {
+      "type": "paragraph",
+      "text": "Diacono M, Rubino P, Montemurro F (2013) Precision nitrogen management of wheat. A Rev Agronomy Sustain Develop 33(1):219\u2013241",
+      "char_offset": 35878
+    },
+    {
+      "type": "paragraph",
+      "text": "Dobermann A, Cassman KG (2005) Cereal area and nitrogen use efficiency are drivers of future nitrogen fertilizer consumption. Sci China, Ser C Life Sci 48(2):745\u2013758",
+      "char_offset": 36005
+    },
+    {
+      "type": "paragraph",
+      "text": "Du L, Li Q, Li L, Wu Y, Zhou F, Liu B, Zhao B, Li X, Liu Q, Kong F, Yuan J (2020) Construction of a critical nitrogen dilution curve for maize in Southwest China. Sci Rep 10(1):1\u201310",
+      "char_offset": 36172
+    },
+    {
+      "type": "paragraph",
+      "text": "Entz MH, Fowler DB (1991) Agronomic performance of winter versus spring wheat. Agron J 83(3):527\u2013532",
+      "char_offset": 36355
+    },
+    {
+      "type": "paragraph",
+      "text": "Fabini G, Moreira J, Marchesi C, Castillo J (2020) Critical nitrogen-dilution curves for rice in Uruguay. In 7th International Temperate Rice Conference Pelotas (RS)\u2013Brazil\u20132020.",
+      "char_offset": 36457
+    },
+    {
+      "type": "paragraph",
+      "text": "Fageria NK, Baligar VC (2005) Enhancing nitrogen use efficiency in crop plants. Adv Agron 88:97\u2013185",
+      "char_offset": 36637
+    },
+    {
+      "type": "paragraph",
+      "text": "Greenwood DJ, Lemaire G, Gosse G, Cruz P, Draycott A, Neeteson JJ (1990) Decline in percentage N of C3 and C4 crops with increasing plant mass. Ann Bot 66(4):425\u2013436",
+      "char_offset": 36738
+    },
+    {
+      "type": "paragraph",
+      "text": "Guo JH, Liu XJ, Zhang Y, Shen JL, Han WX, Zhang WF, Christie P, Goulding KWT, Vitousek PM, Zhang FS (2010) Significant acidification in major Chinese croplands. Science 327(5968):1008\u20131010",
+      "char_offset": 36905
+    },
+    {
+      "type": "paragraph",
+      "text": "Heffer P, Gru\u00e8re A, Roberts T (2017) Assessment of fertilizer use by crop at the global level 2014\u20132014/15. Paris, France: International Fertilizer Industry Association, 19.",
+      "char_offset": 37095
+    },
+    {
+      "type": "paragraph",
+      "text": "Herrmann A, Taube F (2004) The range of the critical nitrogen dilution curve for maize (Zea mays L.) can be extended until silage maturity. Agronomy J 96(4):1131\u20131138",
+      "char_offset": 37270
+    },
+    {
+      "type": "paragraph",
+      "text": "Jiang S, Sun J, Tian Z, Hu H, Michel EJ, Gao J, Jiang D, Cao W, Dai T (2017) Root extension and nitrate transporter up-regulation induced by nitrogen deficiency improves nitrogen status and plant growth at the seedling stage of winter wheat ( Triticum aestivum L.). Environ Exp Bot 141:28\u201340",
+      "char_offset": 37438
+    },
+    {
+      "type": "paragraph",
+      "text": "Ju XT, Xing GX, Chen XP, Zhang SL, Zhang LJ, Liu XJ, Cui ZL, Yin B, Christie P, Zhu ZL, Zhang FS (2009) Reducing environmental risk by improving N management in intensive Chinese agricultural systems. Proc Natl Acad Sci 106(9):3041\u20133046",
+      "char_offset": 37731
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 37969
+    },
+    {
+      "type": "paragraph",
+      "text": "Justes E, Mary B, Meynard JM, Machet JM, Thelier-Huch\u00e9 L (1994) Determination of a critical nitrogen dilution curve for winter wheat crops. Ann Bot 74(4):397\u2013407",
+      "char_offset": 38019
+    },
+    {
+      "type": "paragraph",
+      "text": "Kalra Y (ed) (1998) Handbook of reference methods for plant analysis. CRC Press",
+      "char_offset": 38182
+    },
+    {
+      "type": "paragraph",
+      "text": "Katsura K, Okami M, Mizunuma H, Kato Y (2010) Radiation use efficiency, N accumulation and biomass production of high-yielding rice in aerobic culture. Field Crop Res 117(1):81\u201389",
+      "char_offset": 38263
+    },
+    {
+      "type": "paragraph",
+      "text": "Lemaire G, Gastal F (1997) N uptake and distribution in plant canopies in diagnosis of the nitrogen status in crops. Springer",
+      "char_offset": 38444
+    },
+    {
+      "type": "paragraph",
+      "text": "Lemaire G, Salette J (1984) Relationship between growth and nitrogen uptake in a pure grass stand: i, environmental effects. Agronomie 4:423\u2013430",
+      "char_offset": 38571
+    },
+    {
+      "type": "paragraph",
+      "text": "Lemaire G, Jeuffroy MH, Gastal F (2008) Diagnosis tool for plant and crop N status in vegetative stage: theory and practices for crop N management. Eur J Agron 28(4):614\u2013624",
+      "char_offset": 38717
+    },
+    {
+      "type": "paragraph",
+      "text": "Lemaire G, Sinclair T, Sadras V, B\u00e9langer G (2019) Allometric approach to crop nutrition and implications for crop diagnosis and phenotyping. Rev Agronomy Sustain Develop 39(2):1\u201317",
+      "char_offset": 38892
+    },
+    {
+      "type": "paragraph",
+      "text": "Li W, He P, Jin J (2012) Critical nitrogen curve and nitrogen nutrition index for spring maize in North-East China. J Plant Nutr 35(11):1747\u20131761",
+      "char_offset": 39075
+    },
+    {
+      "type": "paragraph",
+      "text": "Li X, Ata-UI-Karim ST, Li Y, Yuan F, Miao Y, Yoichiro K, Cheng T, Tang L, Tian X, Liu X, Tian Y (2022) Advances in the estimations and applications of critical nitrogen dilution curve and nitrogen nutrition index of major cereal crops. a review. Computers Electron Agric 197:106998",
+      "char_offset": 39222
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu J, Liu H, Huang S, Yang X, Wang B, Li X, Ma Y (2010) Nitrogen efficiency in long-term wheat\u2013maize cropping systems under diverse field sites in China. Field Crop Res 118(2):145\u2013151",
+      "char_offset": 39505
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma XJ, Zhang XT, Huang YF, Ye YL (2017) Establishment and application of critical nitrogen dilution curve for wheat based on leaf dry matter. Plant Physiol Commun 53(7):1313\u20131321",
+      "char_offset": 39691
+    },
+    {
+      "type": "paragraph",
+      "text": "Makowski D, Zhao B, Ata-Ul-Karim ST, Lemaire G (2020) Analyzing uncertainty in critical nitrogen dilution curves. Eur J Agron 118:126076",
+      "char_offset": 39871
+    },
+    {
+      "type": "paragraph",
+      "text": "Nelson RE (1983) Carbonate and gypsum. Methods of Soil Analysis: Part 2 Chemical and Microbiological Properties. Madison (WI): Agronomy Monographs 9, American Society of Agronomy, 181\u2013197.",
+      "char_offset": 40009
+    },
+    {
+      "type": "paragraph",
+      "text": "Page AL, Miller RH, Keeney DR (1982) Methods of soil analysis, part 2: chemical and microbiological properties, 2nd edn. American Society of Agronomy",
+      "char_offset": 40199
+    },
+    {
+      "type": "paragraph",
+      "text": "Parent LE, Dafir M (1992) A theoretical concept of compositional nutrient diagnosis. J Am Soc Hortic Sci 117(2):239\u2013242",
+      "char_offset": 40350
+    },
+    {
+      "type": "paragraph",
+      "text": "Pl\u00e9net D, Lemaire G (2000) Relationships between dynamics of nitrogen uptake and dry matter accumulation in maize crops. determination of critical N concentration. Plant and Soil 216(1):65\u201382",
+      "char_offset": 40471
+    },
+    {
+      "type": "paragraph",
+      "text": "Raun WR, Johnson GV (1999) Improving nitrogen use efficiency for cereal production. Agron J 91(3):357\u2013363",
+      "char_offset": 40664
+    },
+    {
+      "type": "paragraph",
+      "text": "Soltanpour PN (1991) Determination of nutrient availability and elemental toxicity by AB-DTPA soil test and ICPS in advances in soil science. Springer",
+      "char_offset": 40771
+    },
+    {
+      "type": "paragraph",
+      "text": "Song M, Li Z, Feng H (2016) Effects of irrigation and nitrogen regimes on dry matter dynamic accumulation and yield of winter wheat. Trans Chinese Soc Agric Eng 32(2):119\u2013126",
+      "char_offset": 40923
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh B (2022) Nitrogen use efficiency in crop production in India: Trends, issues, and challenges. Agric Res 1:13. https://doi.org/10.1007/s40003-022-00626-7",
+      "char_offset": 41099
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh B (2018) Are nitrogen fertilizers deleterious to soil health? Agronomy 8(4):48",
+      "char_offset": 41259
+    },
+    {
+      "type": "paragraph",
+      "text": "Ulrich A (1952) Physiological bases for assessing the nutritional requirements of plants. Annu Rev Plant Physiol 3(1):207\u2013228",
+      "char_offset": 41345
+    },
+    {
+      "type": "paragraph",
+      "text": "Walworth JL, Sumner ME (1987) The diagnosis and recommendation integrated system (DRIS) in advances in soil science. Springer, New York",
+      "char_offset": 41472
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang X, Ye T, Ata-Ul-Karim ST, Zhu Y, Liu L, Cao W, Tang L (2017) Development of a critical nitrogen dilution curve based on leaf area duration in wheat. Front Plant Sci 8:1517",
+      "char_offset": 41609
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 41787
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang Y, Ye Y, Huang Y, Zhao Y, Ren N, Fu W, Yue S (2020) Development of nitrogen fertilizer topdressing model for winter wheat based on critical nitrogen dilution curve. Int J Plant Prod 14(1):165\u2013175",
+      "char_offset": 41833
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang H, Cao HX, Liu MY, Liu SH (2015) Simulation of critical nitrogen concentration and nitrogen nutrition index of tomato under different water and nitrogen conditions. Plant Nutr Fertil Sci 21:1234\u20131242",
+      "char_offset": 42035
+    },
+    {
+      "type": "paragraph",
+      "text": "Yao B, Wang X, Lemaire G, Makowski D, Cao Q, Liu X, Liu L, Liu B, Zhu Y, Cao W, Tang L (2021) Uncertainty analysis of critical nitrogen dilution curves for wheat. Eur J Agron 128:126315",
+      "char_offset": 42241
+    },
+    {
+      "type": "paragraph",
+      "text": "Yue S, Meng Q, Zhao R, Li F, Chen X, Zhang F, Cui Z (2012) Critical nitrogen dilution curve for optimizing nitrogen management of winter wheat production in the North China Plain. Agron J 104(2):523\u2013529",
+      "char_offset": 42428
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang J, Liu X, Liang Y, Cao Q, Tian Y, Zhu Y, Cao W, Liu X (2019) Using a portable active sensor to monitor growth parameters and predict grain yield of winter wheat. Sensors 19(5):1108",
+      "char_offset": 42632
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 42820
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang K, Wang X, Wang X, Tahir Ata-Ul-Karim S, Tian Y, Zhu Y, Cao W, Liu X (2020) Does the organ-based N dilution curve improve the predictions of N status in winter wheat? Agriculture 10(11):500",
+      "char_offset": 42870
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang X, Davidson EA, Mauzerall DL, Searchinger TD, Dumas P, Shen Y (2015) Managing nitrogen for sustainable development. Nature 528(7580):51\u201359",
+      "char_offset": 43067
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao B, Ata-Ul-Karim ST, Liu Z, Ning D, Xiao J, Liu Z, Qin A, Nan J, Duan A (2017) Development of a critical nitrogen dilution curve based on leaf dry matter for summer maize. Field Crop Res 208:60\u201368",
+      "char_offset": 43213
+    },
+    {
+      "type": "paragraph",
+      "text": "Ziadi N, Brassard M, B\u00e9langer G, Cambouris AN, Tremblay N, Nolin MC, Claessens A, Parent L\u00c9 (2008) Critical nitrogen curve and nitrogen nutrition index for corn in eastern Canada. Agron J 100(2):271\u2013276",
+      "char_offset": 43415
+    },
+    {
+      "type": "paragraph",
+      "text": "Ziadi N, B\u00e9langer G, Claessens A, Lefebvre L, Cambouris AN, Tremblay N, Nolin MC, Parent L\u00c9 (2010) Determination of a critical nitrogen dilution curve for spring wheat. Agron J 102(1):241\u2013250",
+      "char_offset": 43619
+    },
+    {
+      "type": "paragraph",
+      "text": "Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB).",
+      "char_offset": 43812
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Soil Fertility and Microbiology, Desert Research Center, Cairo, 11753, Egypt",
+      "char_offset": 43962
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Plant Production, Desert Research Center, Cairo, 11753, Egypt",
+      "char_offset": 44054
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Soil Science, Punjab Agricultural University, Ludhiana, 141004, India",
+      "char_offset": 44131
+    },
+    {
+      "type": "paragraph",
+      "text": "Study conception and design: Ali M. Ali; data collection: Ahmed M. Saudi and Ashraf N. El-Sadek; analysis and interpretation of results: Ali M. Ali, Ahmed M. Saudi and Ashraf N. El-Sadek; draft manuscript preparation: Ali M. Ali and Bijay-Singh.",
+      "char_offset": 44216
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no competing interests.",
+      "char_offset": 44463
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 44508
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ .",
+      "char_offset": 44628
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali, A.M., Saudi, A.M., El-Sadek, A.N. et al. Developing a nitrogen fertilizer management model for wheat in calcareous soils using the critical nitrogen dilution curve. Nutr Cycl Agroecosyst 125 , 379\u2013392 (2023). https://doi.org/10.1007/s10705-023-10264-2",
+      "char_offset": 45481
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s10705-023-10264-2",
+      "char_offset": 45739
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 45789
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 45866
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 45936
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-ae0f7a35364bf291"
+}

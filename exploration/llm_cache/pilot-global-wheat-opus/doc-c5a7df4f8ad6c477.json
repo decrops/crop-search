@@ -1,0 +1,98 @@
+{"claims": [
+  {
+    "parameter_id": "management.rotation_recommendation",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Planting wheat into old wheat stubble is not recommended. Several major small-grain diseases (Septoria nodorum blotch, tan spot, and scab) are transmitted by old wheat stubble ... Planting wheat two years in a row is not recommended for conventional or organic systems.",
+    "claim_summary": "Do not plant wheat after wheat; old wheat stubble harbors Septoria, tan spot, scab, take-all, and Hessian fly.",
+    "extraction_confidence": "high",
+    "organisms": [
+      {"name": "Septoria nodorum blotch", "role": "disease"},
+      {"name": "tan spot", "role": "disease"},
+      {"name": "Fusarium head blight (scab)", "role": "disease"},
+      {"name": "take-all", "role": "disease"},
+      {"name": "Hessian fly", "role": "pest"}
+    ]
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 35,
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "When planting on time with high quality seed into conventionally tilled seedbeds, the target seeding rate is 30 to 35 seeds per square foot. Increase this target rate if seed germination is below 90%, or if planting more than two weeks after the dates shown",
+    "claim_summary": "Target wheat seeding rate 30-35 seeds per square foot (timely drill planting); increase 30-35% for broadcast. NOTE: seeds/ft2.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "range",
+    "range_min": 4,
+    "range_max": 8,
+    "unit": "cm",
+    "qualifier": "recommended",
+    "evidence_text": "Most wheat drills are set to plant rows that are 6 to 8 inches apart. Organic producers may want to take advantage of row spacing as narrow as 4 inches to help the wheat outcompete winter annual weeds.",
+    "claim_summary": "Wheat drilled at 6-8 inch rows; as narrow as 4 inches to suppress weeds. NOTE: values in inches.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Seeds may be placed as deep as 3 to 4 inches, where many seeds will germinate but not emerge through the soil surface.",
+    "claim_summary": "Wheat seed placed 3-4 inches deep (too deep) germinates but fails to emerge. NOTE: inches.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 70,
+    "unit": "lb/acre",
+    "qualifier": "typical",
+    "evidence_text": "A wheat crop yielding 65 bushels per acre will take up about 70 pounds of nitrogen per acre.",
+    "claim_summary": "Wheat yielding 65 bu/acre takes up ~70 lb N/acre.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.phosphorus_requirement",
+    "value_type": "numeric",
+    "numeric_value": 45,
+    "unit": "lb/acre",
+    "qualifier": "typical",
+    "evidence_text": "Wheat that yields 65 bushels per acre takes up about 45 pounds of phosphate per acre (most of which is removed with the grain)",
+    "claim_summary": "Wheat yielding 65 bu/acre takes up ~45 lb phosphate/acre.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.potassium_requirement",
+    "value_type": "numeric",
+    "numeric_value": 135,
+    "unit": "lb/acre",
+    "qualifier": "typical",
+    "evidence_text": "and about 135 pounds of potash per acre (of which about 100 pounds is in the straw)",
+    "claim_summary": "Wheat yielding 65 bu/acre takes up ~135 lb potash/acre (~100 lb in straw).",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "an organically approved nitrogen source ... should be added at or before planting and again in the spring ... The application window for spring N is very narrow ... Some of the slower releasing forms of nitrogen ... may be available during grain fill when protein content is set.",
+    "claim_summary": "Apply wheat N at/before planting and again in spring; late N during grain fill sets protein content.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "harvest.preharvest_sprouting_risk",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Wet weather before, during, and soon after small-grain flowering is the main factor determining whether there is a severe head scab epidemic. Warm temperatures (59°F to 86°F) before and during flowering also favor scab ... When DON reaches 2 parts per million (ppm), the grain is no longer fit for human consumption",
+    "claim_summary": "Fusarium head blight (scab) favored by wet weather + warm temps (59-86 F) at flowering; DON >2 ppm makes grain unfit for human consumption. NOTE: this is a scab/quality threshold.",
+    "extraction_confidence": "medium",
+    "organisms": [{"name": "Fusarium graminearum", "role": "disease"}]
+  }
+]}

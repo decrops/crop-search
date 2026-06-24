@@ -1,0 +1,1044 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 1,
+      "heading": "Architectural Response of Wheat Cultivars to Row Spacing Reveals Altered Perception of Plant Density",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Mariem Abichou",
+      "text": "1 UMR ECOSYS, INRA, AgroParisTech, Universit\u00e9 Paris-Saclay, Thiverval-Grignon, France Find articles by Mariem Abichou"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Benoit de Solan",
+      "text": "2 ARVALIS \u2013 Institut du V\u00e9g\u00e9tal, Paris, France 3 UMR EMMAH, INRA, Avignon, France Find articles by Benoit de Solan"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Bruno Andrieu",
+      "text": "1 UMR ECOSYS, INRA, AgroParisTech, Universit\u00e9 Paris-Saclay, Thiverval-Grignon, France Find articles by Bruno Andrieu"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Achieving novel improvements in crop management may require changing interrow distance in cultivated fields. Such changes would benefit from a better understanding of plant responses to the spatial heterogeneity in their environment. Our work investigates the architectural plasticity of wheat plants in response to increasing row spacing and evaluates the hypothesis of a foraging behavior in response to neighboring plants. A field experiment was conducted with five commercial winter wheat cultivars possessing unique architectures, grown under narrow (NI, 17.5 cm) or wide interrows (WI, 35 cm) at the same population density (170 seeds/m 2 ). We characterized the development (leaf emergence, tillering), the morphology (dimension of organs, leaf area index), and the geometry (ground cover, leaf angle, organ spreading, and orientation). All cultivars showed a lower number of emerged tillers in WI compared to NI, which was later partly compensated by lower tiller mortality. Besides, the upper leaf blades were larger in WI. Finally the leaf area index at flowering showed little difference between WI and NI treatments. The rate of leaf emergence and the final leaf number were higher in WI compared to NI, except for one cultivar. Around the start of stem elongation, pseudo-stems were more erect in WI, while around the time of flowering, stems were more inclined and leaves were more planophile. Cultivars differed in their degrees of responses, with one appearing to prospect more specifically within the interrow space in WI treatment. Altogether, our results suggest that altering interrow distance leads to changes in the perceived extent of competition by plants, with responses first mimicking the effect of a higher plant density and later the effect of a lower plant density. Only one cultivar showed responses that suggested a perception of the heterogeneity of the environment. These findings improve our understanding of plant responses to spatial heterogeneity and provide novel information to simulate light capture in plant 3D models, depending on cultivar behavior."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Interrow distance is an important aspect of crop management. Generally, the choice of row spacing reflects a compromise between optimizing resource capture by plants and practical constraints, such as allowing space between rows for the mechanical control of weeds in organic farming, or use of seeders adapted to no-till practices. In conventionally grown wheat crops, row spacing varies from 12 to 18 cm, whereas it can vary from 35 to 50 cm in organic or no-till farming conditions. These choices are largely empirical, and understanding how row spacing modulates plant growth and the possible genotypic variability in the responses would facilitate the design of new cultural practices. Changing row spacing obviously impacts interactions between neighboring plants; such interactions involve competition for resources ( Kirby and Faris, 1972 ; Alzueta et al., 2012 ), as well as active morphogenetic responses triggered by the perception of neighbors. It is widely recognized that red:far-red ratio (R:FR) acts as an early signal promoting plant responses, such as reduction of tillering and faster stem extension ( Ballar\u00e9 and Casal, 2000 ; Evers et al., 2006 ). Touch-signals between neighboring plants can also trigger early responses ( Ballar\u00e9, 1999 ; de Wit et al., 2012 ). The increase of row spacing at constant density results in a non-isotropic change in density with an increase in the distance between plants of different rows and a decrease within a row, possibly altering the relationship between perception of neighbors and competition for resources. Interestingly, some species are able to directionally respond to an anisotropic environment. For instance, horizontal gradients of blue light guide dicot plant shoots toward canopy gaps in patchy vegetation ( Ballar\u00e9, 1999 ), whereas R:FR signals allow maize plants to avoid their closest neighbors by orientating their leaves perpendicularly to the row direction ( Drouet and Moulia, 1997 ; Maddonni et al., 2002 ). The existence of similar behavioral responses has not been documented for wheat. A large amount of work has been dedicated to analyzing the response of wheat yields to sowing density, altered by changing interrow distances and/or interplant distance within a row. They were motivated by a range of questions, including optimizing light capture and competing with weeds, facilitating crop management, and/or dealing with scarcity of water and nutriments. Provided that weeds are efficiently controlled, plasticity allows wheat plants to compensate for large differences in planting density. It has been reported that there is little impact on yield for plant densities ranging from 70 to 400 plants/m 2 , or between 16 and 400 plants/m 2 when square planting arrangements are used ( Darwinkel, 1978 ; Whaley et al., 2000 ; Fischer et al., 2019 ). The usual sowing density (170\u2013250 plants/m 2 ) is higher than the value of 70 plants/m 2 mentioned above, which can be thought of as insurance against the risk of winter mortality and as a means to control weed development ( Lemerle et al., 2001 , 2004 ; Weiner et al., 2001 ; Van Der Meulen and Chauhan, 2017 ). Responses to density are subject to large Genotype \u2217 Environment (G \u2217 E) interactions and the classical work of Donald (1968) defined ideotypes adapted to high density (short stems, few tillers, and erect leaves) or to low density (high tillering and prostrate leaf stature). Donald\u2019s ideotypes, however, appeared to account only partly for cultivar responses to density: indeed it was recognized that the higher yielding cultivars at high density lose their advantage at low density ( Reynolds et al., 1994 ), but a superiority at low density of highly tillering cultivars with a prostrate leaf stature was not clearly confirmed experimentally ( Araus et al., 1993 ; Reynolds et al., 1994 ), except may be for very low density ( Fischer et al., 2019 ). Sadras and Lawson (2011) proposed that performance at low density is more linked to the plasticity o"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Materials and Methods",
+      "text": "The development, architecture, geometry, and yield of five winter wheat cultivars were characterized in field conditions using two contrasting row spacing systems. The five cultivars were chosen to broadly represent a range of characteristics including the ability to cover the soil and the nature of leaf stature (from erectophile to planophile). Data were analyzed to assess differences existing at plant and crop scale between row spacing treatments, and identify possible differences in behavior between cultivars. The data leading to the results presented are provided as Supplementary Data Sheet S2 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Experimental Design and Treatments",
+      "text": "Experiment were conducted in 2012 and 2013 at the INRA campus of Thiverval-Grignon (48\u00b051 N, 1\u00b058 E), with a maritime influenced climate and a deep loamy soil. Five cultivars of winter wheat Triticum aestivum (Caphorn, Apache, Maxwell, Soissons, and Renan) were sown on October 2, 2012. The cultivar Caphorn (issued in 2000) is adapted to conventional practices and characterized by short stems with upright upper leaves, whereas Apache (1998) and Renan (1989) are well adapted to organic farming and have a higher ability to cover ground due to their tillering capacity (Apache) or planophile stature (Renan). Maxwell (2007) and Soissons (1988) represent intermediate types. Field treatments consisted of two blocks (15 m \u00d7 1.75 m) per treatment. The distance between rows was either 17.5 cm, which is the conventional distance in the region (narrow row spacing, NI), or 35 cm (wide row spacing, WI). The mean inter-seed distance along the row was 2.9 cm in NI treatments and 1.4 cm in WI treatments, ensuring a same density of 170 seeds/m 2 in all cases. After emergence, we suppressed some seedlings to compensate for differences in rate of emergence and achieve the same plant density in WI and NI treatments: 151 plants/m 2 for Soissons and Renan, 169 plants/m 2 for Maxwell and Apache, and 164 plant/m 2 for Caphorn. The density of plants was later controlled at three dates (November 14, December 4, and January 14), at which time there were no additional changes. Nitrogen fertilization followed the standard scheme with one dose at the tillering stage and one dose applied shortly before stem elongation. Crops were kept weed-free by herbicide application in March and later by regular survey and manual removing of weeds when necessary. Air temperature at 2 m, recorded from a nearby meteorological station, was used to compute the thermal time from plant emergence on an hourly basis, assuming a linear response to temperature with a base temperature of 0\u00b0C."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Measurements at Crop Level: Ground Cover, PAIg, and Yield",
+      "text": "Vertical ground cover GC (0\u00b0) was monitored weekly from ligulation of the fourth leaf of the main stem to approximately ear emergence (from February 8, 2013 to May 24, 2013). Six downward-looking photographs were taken at constant locations in each treatment. We used a NIKON camera D90, with a focal length of 50 mm which defines a field of view of 26.6\u00b0\u00d7 18.0\u00b0. Photographs were taken from \u223c2.20 m height and each covered an area of 0.73 m 2 . Synchronously with vertical photographs, three oblique photographs with a direction of view at 57.5\u00b0 from the vertical were acquired to monitor oblique ground cover GC (57.5\u00b0) and estimate the green plant area index PAIg (m 2 leaf per m 2 soil) as proposed by Baret et al. (2010) . Oblique photographs each covered 2.03 m 2 . Photographs (0\u00b0 and 57\u00b0) were processed using the SATVA software 1 to determine the ground cover. Additionally, a direct measure of PAIg was made at flowering by dissecting 45 plants (three repetitions of 15 plants) per treatment and scanning all phytoelements. The harvest was conducted mechanically on August 2 (\u223c2451\u00b0Cd after sowing) and grain yield (Mg/hectare) was measured on an area of 10 m 2 per treatment, without replicates."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Measurements at Plant Level: Tillering Dynamic, Rate of Leaf Emergence, and Geometry",
+      "text": "The measurements described below were performed for each treatment (cultivar \u2217 interrow combination); the reader may refer to Figure 1 , which depicts the measured variables. The number of axes per plant was measured five times during the crop cycle, from the emergence of leaf 5 of the main stem to flowering. Measurements were conducted on 10\u201350 plants that were collected in the field and brought to the laboratory where axes having at least one emerged green leaf were recorded. The number and exposed length of individual leaf blades on the main stems were measured six to seven times during the crop cycle on 10 tagged plants to characterize the leaf stage as described in Abichou et al. (2018) . The rate of leaf emergence was estimated by adjusting a linear model between leaf stage and thermal time. The length of the pseudo stem l col (1) (from the base of the plant up to the highest collar) and the length of the shoot l apex (from the base of plant to the summit of the main stem apex) were measured with a ruler on 30 tagged plants at 870\u00b0Cd after emergence (leaf stage \u223c8.5). The final dimensions of upper main stem phytomers were measured on 30 tagged plants after flag leaf ligulation (1278\u00b0Cd) and after completion of stem extension (1565.5\u00b0Cd). The number of elongated internodes \u2013 having lengths \u22650.5 cm \u2013 was recorded and the following traits were calculated for each leaf rank (leaves are numbered basipetally, with i = 1 for the flag leaf): (i) the mean blade length, maximum width, and area ( l blade ( i ), w blade ( i ), a blade ( i ) ) and (ii) the mean length from the base of the plant to each leaf collar ( l col ( i ) ). The lengths were measured with a ruler, then plants were dissected and blade images were obtained with a flat-bed scanner and were processed using the program Lamina2Shape ( Dornbusch and Andrieu, 2010 ) to measure their area and green fraction. To follow the dynamic of the insertion angle of leaf blades i leaf ( i ) , destructive measurements were carried out on 30 tagged main stems, at seven dates from the start of stem elongation to full senescence. Photographs of stems with their attached leaves were analyzed with the POPCORN software (Weiss and de Solan (see footnote 1), to register the coordinates of points along the stem and the leaf midrib. An R routine was developed to compute the angle of insertion i leaf(i) for each leaf rank, considering only leaves having at least 20% green area. Comprehensive characterizations of 3D geometry of plants were conducted at two stages: just before stem extension (722\u00b0Cd; leaf stage\u223c6.9), and around ear emergence (1272\u00b0Cd) (see Figure 2 ). In each treatment, two segments of rows (40 cm length) were collected, including the soil and the roots to a depth of \u223c15 cm and each comprising \u223c15 plants in NI treatments and \u223c30 plants in WI treatments. Row segments were put intact into pots and brought to the laboratory, with great care to preserve the canopy structure as it was in the field. Segments were photographed ( Supplementary Figures S3 , S4 ), then the coordinates of points along leaves midribs and stems were recorded with a magnetic 3D digitizer (3Space Fastrak, Polhemus Inc., Colchester, VT, United States) using the 3A software ( Sinoquet et al., 1997 ; Adam et al., 1999 ). For each treatment, the process yielded the 3D skeleton of all axes and leaves of plants in the row segments in the position they were in the field. From these 3D skeletons, the following traits were calculated (see Figure 1 ): 1. d stem : the mean horizontal spread between the top of the stem and the base of the plant, taking into account all plants axes. The horizontal spread of an axis is the horizontal distance between the collar of the upper leaf and the plant base; 2. \u03b8 stem : the mean azimuth angle of stems, taking into account all plants axes. The azimuth angle of an axis represents the angle between the projection of this axis on the horizontal plane and the row direction; 3. d leaf : t"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 4,
+      "heading": "FIGURE 1.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 4,
+      "heading": "FIGURE 2.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Statistical Analysis",
+      "text": "Mean values and 95% confidence intervals were calculated for the majority of measured traits. The significance of the difference in the mean value of a trait between NI and WI treatments was tested using either the non-parametric test of Mann and Whitney (for samples < 30) or the Student\u2019s t test (for samples \u2265 30) ( Georgin and Gouet, 2000 ), using R software. The results of the detailed analysis of the measured variables are shown in ( Supplementary Table S1 ). For grain yield, there were no replicates, so confidence intervals could not be calculated."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Results",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Tillering and Yield",
+      "text": "Increasing row spacing resulted in a lower rate of tiller emergence and a lower value for the maximum number of emerged tillers. At the end of tillering, the number of axes in WI treatments was below that in NI treatments, with a difference ranging from 12 to 19% depending on the cultivar ( Figure 3A ). We found that a lower rate of tiller emergence occurred in WI despite a higher rate of leaf emergence and a higher final leaf number, compared to NI (see below). Additionally, a reduction of tillering was observed in Caphorn and Soissons from an early stage (LS\u223c5), when mutual shading was still negligible ( Supplementary Figure S1A ). During the tiller mortality phase, the differences between WI and NI decreased and finally the number of ears in WI treatments ranged by 3% (Caphorn) to 15% (Renan) below those in NI treatments ( Figure 3A ). Despite the lower ear density under WI, there was no overall trend for grain yield. Differences calculated for each cultivar were low ( Table 1 ), except for Apache (\u22125% in WI); our protocol did not allow us to calculate confidence intervals."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 4,
+      "heading": "FIGURE 3.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 4,
+      "heading": "TABLE 1.",
+      "text": "The mean values of grain yield and ear number per plant for the 10 treatments. Maxwell Apache Caphorn Soissons Renan NI WI NI WI NI WI NI WI NI WI Grain yield (Mg/ha) 5.4 5.51 5.36 5.09 4.54 4.67 4.34 4.38 3.84 3.81 Ear number 2.5 2.3 3 2.8 2.7 2.6 3.4 3 3.1 2.8 Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Ground Cover and PAIg",
+      "text": "The vertical ground cover GC (0\u00b0) was generally lower in WI compared to NI, as expected from the sowing configuration and the reduction of tillering. For Apache and Renan, differences between WI and NI were not apparent at the end of cycle ( Figure 3B ), meaning that these cultivars fully compensated for the change of sowing configuration. For the other cultivars, ground cover was consistently lower in WI treatments (the dynamics of ground cover are shown in Supplementary Figure S1B ). Increasing row spacing also reduced the plant green area index (PAIg) at the early stages of the crop cycle with a mean difference of 31.3 \u00b1 4.8% ( Figure 3C ). This reduction is consistent with the lower tillering in WI treatments. At flowering, no significant differences in PAIg were observed between WI and NI treatments, despite the slightly lower ear density in WI. This means that the larger size of upper leaves blades in WI treatments (reported below) fully compensated for the difference in the number of ear-bearing shoots."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Plant Development",
+      "text": "Increasing row spacing resulted in a higher rate of leaf emergence for all cultivars except Caphorn ( Figure 4A ). Apache, Renan, Maxwell, and Soissons showed increases ranging from 2 to 5%, while Caphorn showed a decrease of 4% under WI treatments. The changes in leaf emergence rate were associated with parallel changes in the total number of leaves produced by the main stem: +0.4 leaves for Renan and Soissons ( p = 0.04 and 0.08, respectively), +0.3 and +0.5 leaves for Apache and Maxwell ( p = 0.17 and 0.21, respectively), and \u22120.6 leaves for Caphorn ( p = 0.01) ( Figure 4B ). The parallel changes in the rate of leaf emergence and the total number of leaves produced resulted in the ligulation of the flag leaves occurring synchronously in NI and WI (see Supplementary Figure S1C ). For all cultivars, the length of the pseudo stem l col (1) and the length of the shoot l apex measured around the start of stem elongation (875\u00b0Cd; LS\u223c8.5) were significantly higher in WI compared to NI ( Figure 5 ). The higher values of l col (1) and l apex suggest either a faster progress toward the reproductive stage for plants grown under WI treatments or an enhanced sheath and internode extension in response to competition signals."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 4,
+      "heading": "FIGURE 4.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 4,
+      "heading": "FIGURE 5.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Dimensions of Mature Plant Organs",
+      "text": "Increasing row spacing resulted in an increase of the blade area of upper leaves for all cultivars. The cumulative area of the fourth upper blades was 3\u20138% higher in WI compared to NI ( Figure 6A ). This resulted from an increase in both length and width of the upper leaves. After completion of stem extension, the distances from the base of the plant to the collar of the upper leaves l col ( i ) were not impacted by row spacing. This suggests that the vertical distribution of upper leaf insertions was unaffected despite the changes in final leaf number (see Supplementary Figure S2 ). There was, however, an increase (+0.2 to +0.5) in the number of elongated internodes for some cultivars (Caphorn, Soissons, and Maxwell) in WI compared to NI, which, together with the higher values of l apex mentioned above, indicates that stem extension was transitorily enhanced in WI in the early stages."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 4,
+      "heading": "FIGURE 6.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Leaf Angle",
+      "text": "Two indicators of leaf structure were used to evaluate the effect of increasing row spacing: (a) the average inclination angle of all canopy leaves \u03b1 ( Figure 6B ) and (b) the mean insertion angle i leaf , calculated by averaging i leaf ( i ) for the four upper leaves of the main stem ( Figure 7 ). For all cultivars and row spacing treatments, \u03b1 was lower at the early stage (722\u00b0Cd) than around ear emergence (1272\u00b0Cd). This result was somewhat expected as planar leaves increase light interception in a sparse canopy while inclined leaves allow light penetration through a dense canopy. Increasing row spacing had little impacts on \u03b1, but some trends were observed for the different cultivars. For Maxwell and Caphorn, the \u03b1 values were similar in NI and WI, suggesting no changes in leaf posture. Other cultivars showed a trend for the impact of interrow distance on \u03b1. At 722\u00b0Cd, the leaves of cultivars Renan and Soissons were slightly more erect in WI compared to NI, which could be interpreted as an enhanced shade avoidance response. Oppositely, at 1272\u00b0Cd, Apache and Soissons showed a slight trend of a lower inclination angle in WI, consistent with a lower competitive pressure. Differences in \u03b1 between treatments were small, but it is worth mentioning that differences in \u03b1 were small also when comparing between cultivars having different statures. For example, the leaf inclination angle of Renan-NI (dropping stature) and Caphorn-NI (erect stature) were 19.8\u00b0 and 17.4\u00b0, respectively. This means that the widely used mean leaf inclination angle has a low sensitivity to the differences in stature between cultivars. We further analyzed the changes in plant stature by investigating the mean insertion angle of the four uppers leaves of the stem i leaf ( Figure 7 ). Marked differences were observed depending on the cultivar: Apache, Soissons, and Maxwell showed a significantly higher i leaf in WI compared to NI, especially after ear emergence, which could be interpreted as an active response to explore more of the free space. For Maxwell, this behavior started later than it did for Apache and Soissons, so that no difference existed at the time when \u03b1 was estimated. A detailed analysis of the behavior for each leaf ranks showed that the higher i leaf in WI compared to NI resulted from differences in the dynamics of leaf insertion angle with leaf age, but also from the differences in plant development (accelerated growth, slowed senescence, and higher final leaf number in WI). The difference in i leaf between WI and NI increased with time and it is likely that \u03b1 followed the same pattern. On the other hand, Caphorn and Renan did not show any impact of interrow on i leaf . Additionally, despite the noticeable difference in their stature (erect for Caphorn, sagging for Renan), they had similar values of i leaf and were the lowest among the examined cultivars. This suggests that the sagging stature of Renan is not related to a high value of i leaf , but rather in the curvature of blades."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 4,
+      "heading": "FIGURE 7.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Horizontal Spread and Azimuth Orientation of Leaves and Stems",
+      "text": "The geometry of plant axes and leaves showed moderate differences between row spacing treatments. These responses changed during the crop cycle and differed among cultivars. These geometrical responses concern the horizontal spreading and azimuth orientation of leaves and stems ( d stem , d leaf , \u03b8 stem , \u03b8 leaf ). A comparison between WI and NI treatments is presented in Figures 8 , 9 , respectively, for 722\u00b0Cd and 1272\u00b0Cd (photographs are shown in Supplementary Figures S3 , S4 ). Before the start of stem elongation, plants had a lower d stem in WI treatments compared to NI, especially for Maxwell, Renan, and Soissons, for which differences ranged from 15 to 25% ( Figure 8A ). At this stage the pseudo-stems were longer in WI treatments, with higher l col (1) as presented previously, such that the lower d stem means that the pseudo-stems were more erect in WI. For Caphorn and Apache, no significant difference in d stem was observed between WI and NI treatments. Concerning the horizontal spreading of leaves d leaf , only Soissons showed a significant decrease by 8%, meaning that leaves were more erect as observed for pseudo-stems. Renan showed an opposite trend but it was not significant. In the other hand, no trend was observed on the azimuth angle of the pseudo-stems \u03b8 stem and leaves \u03b8 leaf for all cultivars, except Renan, meaning that for the other cultivars there was no preferential orientation of plant axes and leaves relative to row direction ( Figures 8B\u2013D ). Oppositely, Renan, which had a higher d leaf , showed an unexpected response with slightly lower \u03b8 stem and \u03b8 leaf in WI compared to that in NI, which suggested that both stems and leaves were orientated toward the neighbor plants in the same row. Around ear emergence, d stem differed markedly between cultivars ( p < 0.0001) and row spacing ( p = 0.0067), ranging from 5.3 cm for Maxwell-WI to 9 cm for Soissons-WI ( Figure 9A ). The general trend was opposite of that observed at the start of stem extension, as wide interrows resulted in an increase of d stem by 48% for Soissons ( p < 0.001) and by 23% for Apache ( p < 0.1) and Caphorn (ns), while other cultivars showed no marked change. Since plant height was not affected by row spacing (see section above), the difference in d stem indicates that plant stems spread more horizontally in WI compared to NI. The wider spread of axes of Soissons and Caphorn in the WI treatment was not associated with a specific orientation toward the interrow space ( Figure 9B ); by contrast, Apache showed a significant orientation of axes toward the free space. Consistent with the wider spread of axes, the distribution of leaf tips showed a higher scatter in WI treatments, with a significant increase of d leaf by 27, 15, and 14, respectively, for Soissons, Caphorn, and Apache, but without any trend toward an interrow orientation in WI treatments, as the mean leaf azimuth \u03b8 leaf was 45\u00b0 in all cases ( Figure 9D )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 4,
+      "heading": "FIGURE 8.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 4,
+      "heading": "FIGURE 9.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "At the early stages, most of the reactions of plants grown under wide row spacing mimicked the shade avoidance responses usually observed for plants grown at higher density. As summarized in Table 2 , in their first stage, plants in WI showed a reduction in the number of tillers for all cultivars, with a trend of having more erect and grouped pseudo-stems. This association of changes in tiller number and angle is typical of grass responses to density changes as reported by Gibson et al. (1992) . Furthermore, plants in WI showed a trend of having an earlier stem extension, which is also an expected response to higher density. We observed in WI a slightly faster rate of leaf development for all cultivars (except Caphorn), together with a slightly higher final leaf number, while the date of flag leaf ligulation was unchanged. Correlated differences in the rate of leaf production and leaf number without changes in flag leaf ligulation have been reported when comparing density treatments ( Baccar, 2011 ) and when analyzing plant-to-plant variability within the same field ( Abichou et al., 2018 ). However, an increase in leaf number is usually associated with a lower plant density, so the slightly higher leaf number in WI conflicts with the other changes that denote a higher perception of competition in this treatment at the early stages. The exact processes and timing of the determination of the final leaf number are not fully understood and we hypothesize that they may have been impacted by the change from a perception of higher density to a perception of lower density in WI, which may have occurred before leaf stage 7, as discussed below. The higher perception of competition in WI suggests that the distance to the closest neighbors plays a specific role in the perception of competition. Differences in tillering between treatments already existed at LS\u223c5.27 \u00b1 0.36 when ground cover was around 15%, for which resources were likely not limiting. Such behavior may have been triggered by phytochrome, mechanosensing, or volatile signaling as reported for other species ( Ballar\u00e9, 1999 ; de Wit et al., 2012 ). Our work does not allow us to distinguish between these possible triggers, but at the stage when the first responses were observed, there were many contacts between neighboring plants within the same row in the WI treatments; so responses to touch signals would be a simple explanation for the exacerbated perception of competition in the WI. In this early stage, plants did not show any tendency to specifically avoid their closest neighbors in the row or to prospect the interrow space, suggesting they lacked the ability to directionally respond to their anisotropic environment. More surprising, Renan showed a slight trend to orient axes and leaves toward the closest neighbors within a row. After the start of stem elongation, plants grown with wide interrows showed a change in behavior, with a lower regression of tillers and a significant increase in the area of the fourth upper blades, which compensated for the reduction of tillering. This behavior seems to reflect a higher availability of resources per axis and the mature architecture of flowering axes mimicked those of plants grown at lower density. Such a trend was also reported earlier by Hiltbrunner et al. (2005) . Leaf 8 was already significantly larger in WI compared to NI, implying that the changes already existed during the development of leaf 8; that is around leaf stage 7 or earlier. Besides, marked geometrical adaptations according to cultivars were observed: (i) stems grew more obliquely for Soissons, Apache, and Caphorn ( Figure 9A ), (ii) leaves had a higher insertion angle in Soissons, Apache, and Maxwell, leading to a more planophilic stature, especially after ear emergence ( Figure 7 ), (iii) Soissons, Renan, Maxwell, and Caphorn showed no trend for the azimuth angle of leaves and stems, meaning that plants did not orient themselves toward the free space between rows"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "TABLE 2.",
+      "text": "Summary of the effect of increasing row spacing on architecture variables. Traits Sign of response Maxwell Apache Caphorn Soissons Renan Rate of leaf emergence on MS + + \u2212 + + Final leaf number of MS + + \u2212 + + Number of elongated internodes + \u2212 + + \u2212 Maximum number of axes \u2212 \u2212 \u2212 Ear number \u2212 \u2212 \u2212 \u2212 \u2212 Grain yield + \u2212 + + \u2212 PAIg around flowering (1565\u00b0Cd) \u2212 \u2212 \u2212 \u2212 + Blade area of flag leaf + + + + + Blade area of second leaf + + + + + Blade area of third leaf + + + + + Blade area of fourth leaf + + + \u2212 + l apex of MS at 870\u00b0CD + + + + + l col (1) of MS at 870\u00b0CD + + + + + l col (1) of MS at 2287\u00b0CD + + + + + i leaf of the fourth upper leaves at 888\u00b0Cd \u2212 \u2212 \u2212 + + at 1015\u00b0Cd \u2212 \u2212 \u2212 + \u2212 at 1139\u00b0Cd + + \u2212 \u2212 \u2212 at 1191\u00b0Cd \u2212 + + \u2212 \u2212 at 1439\u00b0Cd + + \u2212 + + at 1820\u00b0Cd + + + \u2212 na at 1940\u00b0Cd + + + + + d stem at 722\u00b0Cd \u2212 \u2212 + \u2212 \u2212 \u03b8 stem at 722\u00b0Cd + \u2212 + \u2212 \u2212 d leaf at 722\u00b0Cd \u2212 \u2212 \u2212 \u2212 + \u03b8 leaf at 722\u00b0Cd \u2212 + + + \u2212 d stem at 1272\u00b0Cd \u2212 + + + + \u03b8 stem at 1272\u00b0Cd \u2212 + \u2212 \u2212 + d leaf at 1272\u00b0Cd + + + + + \u03b8 leaf at 1272\u00b0Cd + \u2212 \u2212 \u2212 \u2212 Open in a new tab The (+) symbol refers to an increased effect and the ( \u2212 ) symbol refers to a decreased effect. A gray background means that the effect was significant (p < 0.1) and white background means that effect was not significant (except for the rate of leaf emergence and grain yield for which statistical tests were not possible)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "We found that wheat plants responded to changes in interrow distance by altering tillering, leaf size, and leaf and axes spreading in a manner that corresponded to an altered perception of competition along the cycle. Among the five cultivars tested, only one showed a small tendency to orientate axes so as to forage preferentially the interrow space. These results help to better understand and model the response of wheat plants to specific management techniques and more generally to spatial heterogeneities."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "Data Availability",
+      "text": "All datasets for this study are included in the manuscript and the Supplementary Files ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "Author Contributions",
+      "text": "MA performed the experiments, analyzed the data, and wrote the initial manuscript. BA conceived the study and revised the manuscript. BdS helped to conceive the study and obtained the funding. All authors read and approved the final manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "Conflict of Interest Statement",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 2,
+      "heading": "Acknowledgments",
+      "text": "We express our great appreciation to Marc Bidon, Josiane Jean-Jacques, Maxime Marques, and Julie Renard from UMR ECOSYS, INRA, for their excellent technical assistance. We thank Dr. Shouyang Liu from UMR EMMAH for his help in calculating leaf angle and the two reviewers for their helpful advices."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 2,
+      "heading": "Supplementary Material",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2019.00999/full#supplementary-material"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "Associated Data",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "Supplementary Materials",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "Data Availability Statement",
+      "text": "All datasets for this study are included in the manuscript and the Supplementary Files ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 2,
+      "heading": "ACTIONS",
+      "text": "View on publisher site PDF (2.1 MB) Cite Collections Permalink PERMALINK Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "RESOURCES",
+      "text": "Similar articles Cited by other articles Links to NCBI Databases"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 3,
+      "heading": "Similar articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 3,
+      "heading": "Cited by other articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 3,
+      "heading": "Links to NCBI Databases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "Cite",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "Add to Collections",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "",
+        "Maxwell",
+        "Apache",
+        "Caphorn",
+        "Soissons",
+        "Renan"
+      ],
+      "rows": [
+        [
+          "",
+          "NI",
+          "WI",
+          "NI",
+          "WI",
+          "NI",
+          "WI",
+          "NI",
+          "WI",
+          "NI",
+          "WI"
+        ],
+        [
+          "Grain yield (Mg/ha)",
+          "5.4",
+          "5.51",
+          "5.36",
+          "5.09",
+          "4.54",
+          "4.67",
+          "4.34",
+          "4.38",
+          "3.84",
+          "3.81"
+        ],
+        [
+          "Ear number",
+          "2.5",
+          "2.3",
+          "3",
+          "2.8",
+          "2.7",
+          "2.6",
+          "3.4",
+          "3",
+          "3.1",
+          "2.8"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Traits",
+        "",
+        "",
+        "Sign of response",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Maxwell",
+          "Apache",
+          "Caphorn",
+          "Soissons",
+          "Renan"
+        ],
+        [
+          "Rate of leaf emergence on MS",
+          "+",
+          "+",
+          "\u2212",
+          "+",
+          "+"
+        ],
+        [
+          "Final leaf number of MS",
+          "+",
+          "+",
+          "\u2212",
+          "+",
+          "+"
+        ],
+        [
+          "Number of elongated internodes",
+          "+",
+          "\u2212",
+          "+",
+          "+",
+          "\u2212"
+        ],
+        [
+          "Maximum number of axes",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "",
+          ""
+        ],
+        [
+          "Ear number",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "\u2212"
+        ],
+        [
+          "Grain yield",
+          "+",
+          "\u2212",
+          "+",
+          "+",
+          "\u2212"
+        ],
+        [
+          "PAIg around flowering (1565\u00b0Cd)",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "+"
+        ],
+        [
+          "Blade area of flag leaf",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Blade area of second leaf",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Blade area of third leaf",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Blade area of fourth leaf",
+          "+",
+          "+",
+          "+",
+          "\u2212",
+          "+"
+        ],
+        [
+          "l apex of MS at 870\u00b0CD",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "l col (1) of MS at 870\u00b0CD",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "l col (1) of MS at 2287\u00b0CD",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "i leaf of the fourth upper leaves at 888\u00b0Cd",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "+",
+          "+"
+        ],
+        [
+          "",
+          "at 1015\u00b0Cd",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "+",
+          "\u2212"
+        ],
+        [
+          "",
+          "at 1139\u00b0Cd",
+          "+",
+          "+",
+          "\u2212",
+          "\u2212",
+          "\u2212"
+        ],
+        [
+          "",
+          "at 1191\u00b0Cd",
+          "\u2212",
+          "+",
+          "+",
+          "\u2212",
+          "\u2212"
+        ],
+        [
+          "",
+          "at 1439\u00b0Cd",
+          "+",
+          "+",
+          "\u2212",
+          "+",
+          "+"
+        ],
+        [
+          "",
+          "at 1820\u00b0Cd",
+          "+",
+          "+",
+          "+",
+          "\u2212",
+          "na"
+        ],
+        [
+          "",
+          "at 1940\u00b0Cd",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "d stem",
+          "at 722\u00b0Cd",
+          "\u2212",
+          "\u2212",
+          "+",
+          "\u2212",
+          "\u2212"
+        ],
+        [
+          "\u03b8 stem",
+          "at 722\u00b0Cd",
+          "+",
+          "\u2212",
+          "+",
+          "\u2212",
+          "\u2212"
+        ],
+        [
+          "d leaf",
+          "at 722\u00b0Cd",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "+"
+        ],
+        [
+          "\u03b8 leaf",
+          "at 722\u00b0Cd",
+          "\u2212",
+          "+",
+          "+",
+          "+",
+          "\u2212"
+        ],
+        [
+          "d stem",
+          "at 1272\u00b0Cd",
+          "\u2212",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "\u03b8 stem",
+          "at 1272\u00b0Cd",
+          "\u2212",
+          "+",
+          "\u2212",
+          "\u2212",
+          "+"
+        ],
+        [
+          "d leaf",
+          "at 1272\u00b0Cd",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "\u03b8 leaf",
+          "at 1272\u00b0Cd",
+          "+",
+          "\u2212",
+          "\u2212",
+          "\u2212",
+          "\u2212"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Edited by: Luis A. N. Aguirrezabal, National University of Mar del Plata, Argentina",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Reviewed by: Victor Oscar Sadras, South Australian Research and Development Institute, Australia; Youhong Song, Anhui Agricultural University, China",
+      "char_offset": 85
+    },
+    {
+      "type": "paragraph",
+      "text": "*Correspondence: Bruno Andrieu, bruno.andrieu@inra.fr",
+      "char_offset": 235
+    },
+    {
+      "type": "paragraph",
+      "text": "This article was submitted to Crop and Product Physiology, a section of the journal Frontiers in Plant Science",
+      "char_offset": 290
+    },
+    {
+      "type": "paragraph",
+      "text": "Received 2018 Dec 13; Accepted 2019 Jul 17; Collection date 2019.",
+      "char_offset": 402
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "char_offset": 469
+    },
+    {
+      "type": "paragraph",
+      "text": "Achieving novel improvements in crop management may require changing interrow distance in cultivated fields. Such changes would benefit from a better understanding of plant responses to the spatial heterogeneity in their environment. Our work investigates the architectural plasticity of wheat plants in response to increasing row spacing and evaluates the hypothesis of a foraging behavior in response to neighboring plants. A field experiment was conducted with five commercial winter wheat cultivars possessing unique architectures, grown under narrow (NI, 17.5 cm) or wide interrows (WI, 35 cm) at the same population density (170 seeds/m 2 ). We characterized the development (leaf emergence, tillering), the morphology (dimension of organs, leaf area index), and the geometry (ground cover, leaf angle, organ spreading, and orientation). All cultivars showed a lower number of emerged tillers in WI compared to NI, which was later partly compensated by lower tiller mortality. Besides, the upper leaf blades were larger in WI. Finally the leaf area index at flowering showed little difference between WI and NI treatments. The rate of leaf emergence and the final leaf number were higher in WI compared to NI, except for one cultivar. Around the start of stem elongation, pseudo-stems were more erect in WI, while around the time of flowering, stems were more inclined and leaves were more planophile. Cultivars differed in their degrees of responses, with one appearing to prospect more specifically within the interrow space in WI treatment. Altogether, our results suggest that altering interrow distance leads to changes in the perceived extent of competition by plants, with responses first mimicking the effect of a higher plant density and later the effect of a lower plant density. Only one cultivar showed responses that suggested a perception of the heterogeneity of the environment. These findings improve our understanding of plant responses to spatial heterogeneity and provide novel information to simulate light capture in plant 3D models, depending on cultivar behavior.",
+      "char_offset": 919
+    },
+    {
+      "type": "paragraph",
+      "text": "Keywords: row spacing effect, wheat, architectural response, tillering, stem angle, leaf angle, space prospection, plasticity",
+      "char_offset": 3013
+    },
+    {
+      "type": "paragraph",
+      "text": "Interrow distance is an important aspect of crop management. Generally, the choice of row spacing reflects a compromise between optimizing resource capture by plants and practical constraints, such as allowing space between rows for the mechanical control of weeds in organic farming, or use of seeders adapted to no-till practices. In conventionally grown wheat crops, row spacing varies from 12 to 18 cm, whereas it can vary from 35 to 50 cm in organic or no-till farming conditions. These choices are largely empirical, and understanding how row spacing modulates plant growth and the possible genotypic variability in the responses would facilitate the design of new cultural practices. Changing row spacing obviously impacts interactions between neighboring plants; such interactions involve competition for resources ( Kirby and Faris, 1972 ; Alzueta et al., 2012 ), as well as active morphogenetic responses triggered by the perception of neighbors. It is widely recognized that red:far-red ratio (R:FR) acts as an early signal promoting plant responses, such as reduction of tillering and faster stem extension ( Ballar\u00e9 and Casal, 2000 ; Evers et al., 2006 ). Touch-signals between neighboring plants can also trigger early responses ( Ballar\u00e9, 1999 ; de Wit et al., 2012 ). The increase of row spacing at constant density results in a non-isotropic change in density with an increase in the distance between plants of different rows and a decrease within a row, possibly altering the relationship between perception of neighbors and competition for resources. Interestingly, some species are able to directionally respond to an anisotropic environment. For instance, horizontal gradients of blue light guide dicot plant shoots toward canopy gaps in patchy vegetation ( Ballar\u00e9, 1999 ), whereas R:FR signals allow maize plants to avoid their closest neighbors by orientating their leaves perpendicularly to the row direction ( Drouet and Moulia, 1997 ; Maddonni et al., 2002 ). The existence of similar behavioral responses has not been documented for wheat.",
+      "char_offset": 3140
+    },
+    {
+      "type": "paragraph",
+      "text": "A large amount of work has been dedicated to analyzing the response of wheat yields to sowing density, altered by changing interrow distances and/or interplant distance within a row. They were motivated by a range of questions, including optimizing light capture and competing with weeds, facilitating crop management, and/or dealing with scarcity of water and nutriments. Provided that weeds are efficiently controlled, plasticity allows wheat plants to compensate for large differences in planting density. It has been reported that there is little impact on yield for plant densities ranging from 70 to 400 plants/m 2 , or between 16 and 400 plants/m 2 when square planting arrangements are used ( Darwinkel, 1978 ; Whaley et al., 2000 ; Fischer et al., 2019 ). The usual sowing density (170\u2013250 plants/m 2 ) is higher than the value of 70 plants/m 2 mentioned above, which can be thought of as insurance against the risk of winter mortality and as a means to control weed development ( Lemerle et al., 2001 , 2004 ; Weiner et al., 2001 ; Van Der Meulen and Chauhan, 2017 ). Responses to density are subject to large Genotype \u2217 Environment (G \u2217 E) interactions and the classical work of Donald (1968) defined ideotypes adapted to high density (short stems, few tillers, and erect leaves) or to low density (high tillering and prostrate leaf stature). Donald\u2019s ideotypes, however, appeared to account only partly for cultivar responses to density: indeed it was recognized that the higher yielding cultivars at high density lose their advantage at low density ( Reynolds et al., 1994 ), but a superiority at low density of highly tillering cultivars with a prostrate leaf stature was not clearly confirmed experimentally ( Araus et al., 1993 ; Reynolds et al., 1994 ), except may be for very low density ( Fischer et al., 2019 ). Sadras and Lawson (2011) proposed that performance at low density is more linked to the plasticity of traits than to the value of traits shown at normal density. All of the aforementioned studies report tillering as the major determinant of plasticity, besides \u2013 to a lower degree \u2013 there is also an increase in the size of upper leaves at low density ( Dornbusch et al., 2011 ).",
+      "char_offset": 5209
+    },
+    {
+      "type": "paragraph",
+      "text": "Changing density by increasing interrow distance was reported by several authors (e.g., De Vita et al., 2017 ; Fischer et al., 2019 ) to have a stronger impact than changing the density of plants within a row, as it leads to increased crop spatial heterogeneity. Several studies have specifically investigated the effects of varying row spacing, while maintaining a same plant density, on yield. The potential benefit of reducing the interrow distance below the conventional values has been investigated mostly with the objective of increasing production in conventional agriculture. Most authors reported that narrow interrows allowed for an increase in yield ( M\u00fclle and Heege, 1981 ; Frederick and Marshall, 1985 ; Joseph et al., 1985 ; Marshall and Ohm, 1987 ; Johnson et al., 1988 ; Epplin et al., 1992 ; Deswarte and Gouache, 2011 ; Liu et al., 2016 ). Several reports identified associations linking increases in yield with increases in ear number. The amount of increase is subject to strong G \u2217 E interactions ( Marshall and Ohm, 1987 ). In contrast, there are also a significant number of studies that report a lack of effect ( Freeze and Bacon, 1990 ; Teich et al., 1993 ; Lafond, 1994 ; Lafond and Gan, 1999 ; Chen et al., 2010 ). The impact of wide row spacing has primarily been investigated in the context of no-till or organic farming, in which yield potential is usually below that of conventional practices. In these conditions, most authors report that wide row spacing results in yields similar to those from conventional spacing ( Lafond, 1994 ; Lafond and Gan, 1999 ) or slightly higher ( McLeod et al., 1996 ; Hiltbrunner et al., 2005 ). Wide row spacing generally results in a lower density of ears, but this is compensated by a higher number of kernels per ear and higher individual kernel weights. Hiltbrunner et al. (2005) also reported higher concentrations of grain protein under wide row spacing. In high yielding conditions (7\u201312 tons/hectare), Deswarte and Gouache (2011) reported significant decreases in yield with larger row spacing, with marked differences in the level of decrease depending on the cultivar.",
+      "char_offset": 7422
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, it appears that wheat plasticity largely compensates for differences in interrow distance within the range of 7\u201340 cm, and only in high yielding conditions is there a recognized trend of decreasing yield with increasing interrow distance. The previous studies mentioned above suggest significant Genotype \u2217 Interrow interactions. It would seem logical to expect that genotypes with upright leaves are the most capable of benefiting from narrow row spacing, while a spreading growth phenotype would enhance resource capture under wide row spacing. Deswarte and Gouache (2011) mentioned some observations in support of this idea, but without quantitative assessment. On the other hand, when comparing a range of cultivars, Marshall and Ohm (1987) did not find associations between simple traits and the ability to maintain yield under different interrow spacing. Sadras and Lawson (2011) suggested that characterizing plasticity is more important that the standard value of traits for understanding the response to density. Except for the consistent effect on tillering and ear number, there is little information on the plasticity of shoot architecture in response to interrow distance.",
+      "char_offset": 9568
+    },
+    {
+      "type": "paragraph",
+      "text": "The aim of the present work was to document how wheat plants adapt their development, architecture, and geometry in response to increasing row spacing while maintaining constant population density. We focused on aerial architecture and addressed three principal questions: (i) Could we identify consistent views on how interrow distance impacts tillering dynamics, organ dimensions, and other aspects of shoot development? (ii) Are wheat plants able to modify their shoots to explore the free space between rows? (iii) Are there differences in responses between cultivars? Addressing these questions may help to identify or design cultivars adapted to new crop management regimes and more generally to improve our understanding of the adaptive changes in plant architecture that may exist when growth occurs in anisotropic environments.",
+      "char_offset": 10764
+    },
+    {
+      "type": "paragraph",
+      "text": "The development, architecture, geometry, and yield of five winter wheat cultivars were characterized in field conditions using two contrasting row spacing systems. The five cultivars were chosen to broadly represent a range of characteristics including the ability to cover the soil and the nature of leaf stature (from erectophile to planophile). Data were analyzed to assess differences existing at plant and crop scale between row spacing treatments, and identify possible differences in behavior between cultivars. The data leading to the results presented are provided as Supplementary Data Sheet S2 .",
+      "char_offset": 11602
+    },
+    {
+      "type": "paragraph",
+      "text": "Experiment were conducted in 2012 and 2013 at the INRA campus of Thiverval-Grignon (48\u00b051 N, 1\u00b058 E), with a maritime influenced climate and a deep loamy soil. Five cultivars of winter wheat Triticum aestivum (Caphorn, Apache, Maxwell, Soissons, and Renan) were sown on October 2, 2012. The cultivar Caphorn (issued in 2000) is adapted to conventional practices and characterized by short stems with upright upper leaves, whereas Apache (1998) and Renan (1989) are well adapted to organic farming and have a higher ability to cover ground due to their tillering capacity (Apache) or planophile stature (Renan). Maxwell (2007) and Soissons (1988) represent intermediate types. Field treatments consisted of two blocks (15 m \u00d7 1.75 m) per treatment. The distance between rows was either 17.5 cm, which is the conventional distance in the region (narrow row spacing, NI), or 35 cm (wide row spacing, WI). The mean inter-seed distance along the row was 2.9 cm in NI treatments and 1.4 cm in WI treatments, ensuring a same density of 170 seeds/m 2 in all cases. After emergence, we suppressed some seedlings to compensate for differences in rate of emergence and achieve the same plant density in WI and NI treatments: 151 plants/m 2 for Soissons and Renan, 169 plants/m 2 for Maxwell and Apache, and 164 plant/m 2 for Caphorn. The density of plants was later controlled at three dates (November 14, December 4, and January 14), at which time there were no additional changes. Nitrogen fertilization followed the standard scheme with one dose at the tillering stage and one dose applied shortly before stem elongation. Crops were kept weed-free by herbicide application in March and later by regular survey and manual removing of weeds when necessary. Air temperature at 2 m, recorded from a nearby meteorological station, was used to compute the thermal time from plant emergence on an hourly basis, assuming a linear response to temperature with a base temperature of 0\u00b0C.",
+      "char_offset": 12210
+    },
+    {
+      "type": "paragraph",
+      "text": "Vertical ground cover GC (0\u00b0) was monitored weekly from ligulation of the fourth leaf of the main stem to approximately ear emergence (from February 8, 2013 to May 24, 2013). Six downward-looking photographs were taken at constant locations in each treatment. We used a NIKON camera D90, with a focal length of 50 mm which defines a field of view of 26.6\u00b0\u00d7 18.0\u00b0. Photographs were taken from \u223c2.20 m height and each covered an area of 0.73 m 2 . Synchronously with vertical photographs, three oblique photographs with a direction of view at 57.5\u00b0 from the vertical were acquired to monitor oblique ground cover GC (57.5\u00b0) and estimate the green plant area index PAIg (m 2 leaf per m 2 soil) as proposed by Baret et al. (2010) . Oblique photographs each covered 2.03 m 2 . Photographs (0\u00b0 and 57\u00b0) were processed using the SATVA software 1 to determine the ground cover. Additionally, a direct measure of PAIg was made at flowering by dissecting 45 plants (three repetitions of 15 plants) per treatment and scanning all phytoelements.",
+      "char_offset": 14181
+    },
+    {
+      "type": "paragraph",
+      "text": "The harvest was conducted mechanically on August 2 (\u223c2451\u00b0Cd after sowing) and grain yield (Mg/hectare) was measured on an area of 10 m 2 per treatment, without replicates.",
+      "char_offset": 15216
+    },
+    {
+      "type": "paragraph",
+      "text": "The measurements described below were performed for each treatment (cultivar \u2217 interrow combination); the reader may refer to Figure 1 , which depicts the measured variables.",
+      "char_offset": 15390
+    },
+    {
+      "type": "paragraph",
+      "text": "Scheme illustrating the plant architectural traits analyzed ( A , side view; B , top view). The analyzed traits depended on the plant axis. For both main stems and tillers we analyzed: (i) the horizontal spread of the axis \u201c j ,\u201d which represents the horizontal distance between the higher leaf collar on the axis and the plant base ( d stem ( j ) ); (ii) the horizontal spread of the leaf rank at rank \u201c i \u201d on the axis \u201c j ,\u201d which represents the horizontal distance between the tip of the leaf and the plant base ( d leaf ( ij ) ); (iii) the azimuth angle of the leaf at rank \u201c i \u201d on the axis \u201c j \u201d which represents the angle between the projection of the midrib on the horizontal plane and the row direction (\u03b8 leaf ( ij ) ); and (iv) the azimuth angle of the stem or pseudo-stem of the axis \u201c j ,\u201d which represents the angle between the projection of the stem or pseudo-stem on the horizontal plane and the row direction (\u03b8 stem ( j ) ). Additionally, the following traits were analyzed for the main stems only: (i) the final blade length of the leaf at rank \u201c i \u201d( l blade ( i ) ); (ii) the mature blade area of the leaf at rank \u201c i \u201d ( a blade ( i ) ); (iii) the length between the collar of the leaf at rank \u201c i \u201d and the plant base ( l col ( i ) ); and (vi) the angle of insertion of the leaf at rank \u201c i ,\u201d which represents the basal angle between the blade midrib and the bearing axis ( i leaf ( i ) ).",
+      "char_offset": 15566
+    },
+    {
+      "type": "paragraph",
+      "text": "The number of axes per plant was measured five times during the crop cycle, from the emergence of leaf 5 of the main stem to flowering. Measurements were conducted on 10\u201350 plants that were collected in the field and brought to the laboratory where axes having at least one emerged green leaf were recorded.",
+      "char_offset": 16982
+    },
+    {
+      "type": "paragraph",
+      "text": "The number and exposed length of individual leaf blades on the main stems were measured six to seven times during the crop cycle on 10 tagged plants to characterize the leaf stage as described in Abichou et al. (2018) . The rate of leaf emergence was estimated by adjusting a linear model between leaf stage and thermal time.",
+      "char_offset": 17291
+    },
+    {
+      "type": "paragraph",
+      "text": "The length of the pseudo stem l col (1) (from the base of the plant up to the highest collar) and the length of the shoot l apex (from the base of plant to the summit of the main stem apex) were measured with a ruler on 30 tagged plants at 870\u00b0Cd after emergence (leaf stage \u223c8.5).",
+      "char_offset": 17618
+    },
+    {
+      "type": "paragraph",
+      "text": "The final dimensions of upper main stem phytomers were measured on 30 tagged plants after flag leaf ligulation (1278\u00b0Cd) and after completion of stem extension (1565.5\u00b0Cd). The number of elongated internodes \u2013 having lengths \u22650.5 cm \u2013 was recorded and the following traits were calculated for each leaf rank (leaves are numbered basipetally, with i = 1 for the flag leaf): (i) the mean blade length, maximum width, and area ( l blade ( i ), w blade ( i ), a blade ( i ) ) and (ii) the mean length from the base of the plant to each leaf collar ( l col ( i ) ). The lengths were measured with a ruler, then plants were dissected and blade images were obtained with a flat-bed scanner and were processed using the program Lamina2Shape ( Dornbusch and Andrieu, 2010 ) to measure their area and green fraction.",
+      "char_offset": 17901
+    },
+    {
+      "type": "paragraph",
+      "text": "To follow the dynamic of the insertion angle of leaf blades i leaf ( i ) , destructive measurements were carried out on 30 tagged main stems, at seven dates from the start of stem elongation to full senescence. Photographs of stems with their attached leaves were analyzed with the POPCORN software (Weiss and de Solan (see footnote 1), to register the coordinates of points along the stem and the leaf midrib. An R routine was developed to compute the angle of insertion i leaf(i) for each leaf rank, considering only leaves having at least 20% green area.",
+      "char_offset": 18709
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprehensive characterizations of 3D geometry of plants were conducted at two stages: just before stem extension (722\u00b0Cd; leaf stage\u223c6.9), and around ear emergence (1272\u00b0Cd) (see Figure 2 ). In each treatment, two segments of rows (40 cm length) were collected, including the soil and the roots to a depth of \u223c15 cm and each comprising \u223c15 plants in NI treatments and \u223c30 plants in WI treatments. Row segments were put intact into pots and brought to the laboratory, with great care to preserve the canopy structure as it was in the field. Segments were photographed ( Supplementary Figures S3 , S4 ), then the coordinates of points along leaves midribs and stems were recorded with a magnetic 3D digitizer (3Space Fastrak, Polhemus Inc., Colchester, VT, United States) using the 3A software ( Sinoquet et al., 1997 ; Adam et al., 1999 ). For each treatment, the process yielded the 3D skeleton of all axes and leaves of plants in the row segments in the position they were in the field.",
+      "char_offset": 19268
+    },
+    {
+      "type": "paragraph",
+      "text": "Photographs of segments of rows analyzed. Rows were collected from the field at 722\u00b0Cd (top) and 1272\u00b0Cd (bottom) and transplanted in pots to be digitalized in the laboratory. The treatment shown here is Renan-NI.",
+      "char_offset": 20258
+    },
+    {
+      "type": "paragraph",
+      "text": "From these 3D skeletons, the following traits were calculated (see Figure 1 ):",
+      "char_offset": 20473
+    },
+    {
+      "type": "paragraph",
+      "text": "d stem : the mean horizontal spread between the top of the stem and the base of the plant, taking into account all plants axes. The horizontal spread of an axis is the horizontal distance between the collar of the upper leaf and the plant base;",
+      "char_offset": 20553
+    },
+    {
+      "type": "paragraph",
+      "text": "\u03b8 stem : the mean azimuth angle of stems, taking into account all plants axes. The azimuth angle of an axis represents the angle between the projection of this axis on the horizontal plane and the row direction;",
+      "char_offset": 20799
+    },
+    {
+      "type": "paragraph",
+      "text": "d leaf : the mean horizontal spread of leaves, taking into account all plants leaves. The spread of a leaf is the horizontal distance between the tip of this leaf and the plant base;",
+      "char_offset": 21012
+    },
+    {
+      "type": "paragraph",
+      "text": "\u03b8 leaf : the mean azimuth angle of leaves, taking into account all plants leaves. The azimuth angle of a leaf is the angle between the projection of the leaf midrib on the horizontal plane and the row direction.",
+      "char_offset": 21196
+    },
+    {
+      "type": "paragraph",
+      "text": "For the second date of digitalization, these traits ( d stem , d leaf , \u03b8 stem , \u03b8 leaf ) were calculated considering only well-developed axes (i.e., those \u226510 cm in height).",
+      "char_offset": 21409
+    },
+    {
+      "type": "paragraph",
+      "text": "3D skeletons were also used to calculate the mean inclination angle of blade surfaces (\u03b1), a trait widely used to characterize the canopy structure in light interception models. For this, the 3D skeletons, together with information on the 2D leaf shapes obtained from the leaf scans, were used to simulate the architecture of the canopy as a 3D mesh composed of triangles ( Pradal et al., 2009 ). The inclination angle of a triangle is the angle between the direction perpendicular to the triangle and the vertical direction (only considering the range between 0 and 90\u00b0). The mean inclination angle (\u03b1) was calculated by averaging the inclination angles of all triangles representing blade surfaces, weighted by their corresponding areas.",
+      "char_offset": 21585
+    },
+    {
+      "type": "paragraph",
+      "text": "Mean values and 95% confidence intervals were calculated for the majority of measured traits. The significance of the difference in the mean value of a trait between NI and WI treatments was tested using either the non-parametric test of Mann and Whitney (for samples < 30) or the Student\u2019s t test (for samples \u2265 30) ( Georgin and Gouet, 2000 ), using R software. The results of the detailed analysis of the measured variables are shown in ( Supplementary Table S1 ). For grain yield, there were no replicates, so confidence intervals could not be calculated.",
+      "char_offset": 22326
+    },
+    {
+      "type": "paragraph",
+      "text": "Increasing row spacing resulted in a lower rate of tiller emergence and a lower value for the maximum number of emerged tillers. At the end of tillering, the number of axes in WI treatments was below that in NI treatments, with a difference ranging from 12 to 19% depending on the cultivar ( Figure 3A ). We found that a lower rate of tiller emergence occurred in WI despite a higher rate of leaf emergence and a higher final leaf number, compared to NI (see below). Additionally, a reduction of tillering was observed in Caphorn and Soissons from an early stage (LS\u223c5), when mutual shading was still negligible ( Supplementary Figure S1A ). During the tiller mortality phase, the differences between WI and NI decreased and finally the number of ears in WI treatments ranged by 3% (Caphorn) to 15% (Renan) below those in NI treatments ( Figure 3A ). Despite the lower ear density under WI, there was no overall trend for grain yield. Differences calculated for each cultivar were low ( Table 1 ), except for Apache (\u22125% in WI); our protocol did not allow us to calculate confidence intervals.",
+      "char_offset": 22887
+    },
+    {
+      "type": "paragraph",
+      "text": "The number of axes per plant (A) , the vertical ground cover GC(0\u00b0) (B) , and the green plant area index PAIg (C) , in WI treatments vs. NI treatments. Each color is associated with a cultivar, as indicated in the legend. Error bars represent the 95% confidence intervals of mean estimates and the dotted line represents the line 1:1. In (A) , each symbol represents the mean value of the number of axes measured for 20\u201330 plants per treatment. Empty symbols are for end of tillering (\u223c870\u00b0Cd) and full symbols are for flowering. In (B) , each symbol shows the mean value of GC(0) from analyzing six photographs covering each an area of 0.73 m 2 . Empty symbols represent measurements at 682\u00b0Cd (LS = 5.6) and full symbols represent measurements at 1565\u00b0Cd (after flag ligulation). In (C) , circles show the PAIg estimated from oblique photographs: estimates at early stages are shown with empty circles (520\u00b0Cd, 532\u00b0Cd, 657\u00b0Cd, and 683\u00b0Cd) and estimates at later stages are shown with full circles (952\u00b0Cd, 1222\u00b0Cd, and 1555\u00b0Cd). Each circle shows the mean of values calculated from analyzing three photographs covering each area of 2.03 m 2 . Triangles represent the PAIg measured at flowering (1575\u00b0Cd) from scans of leaves and stems.",
+      "char_offset": 23982
+    },
+    {
+      "type": "paragraph",
+      "text": "The mean values of grain yield and ear number per plant for the 10 treatments.",
+      "char_offset": 25221
+    },
+    {
+      "type": "paragraph",
+      "text": "The vertical ground cover GC (0\u00b0) was generally lower in WI compared to NI, as expected from the sowing configuration and the reduction of tillering. For Apache and Renan, differences between WI and NI were not apparent at the end of cycle ( Figure 3B ), meaning that these cultivars fully compensated for the change of sowing configuration. For the other cultivars, ground cover was consistently lower in WI treatments (the dynamics of ground cover are shown in Supplementary Figure S1B ).",
+      "char_offset": 25301
+    },
+    {
+      "type": "paragraph",
+      "text": "Increasing row spacing also reduced the plant green area index (PAIg) at the early stages of the crop cycle with a mean difference of 31.3 \u00b1 4.8% ( Figure 3C ). This reduction is consistent with the lower tillering in WI treatments. At flowering, no significant differences in PAIg were observed between WI and NI treatments, despite the slightly lower ear density in WI. This means that the larger size of upper leaves blades in WI treatments (reported below) fully compensated for the difference in the number of ear-bearing shoots.",
+      "char_offset": 25793
+    },
+    {
+      "type": "paragraph",
+      "text": "Increasing row spacing resulted in a higher rate of leaf emergence for all cultivars except Caphorn ( Figure 4A ). Apache, Renan, Maxwell, and Soissons showed increases ranging from 2 to 5%, while Caphorn showed a decrease of 4% under WI treatments. The changes in leaf emergence rate were associated with parallel changes in the total number of leaves produced by the main stem: +0.4 leaves for Renan and Soissons ( p = 0.04 and 0.08, respectively), +0.3 and +0.5 leaves for Apache and Maxwell ( p = 0.17 and 0.21, respectively), and \u22120.6 leaves for Caphorn ( p = 0.01) ( Figure 4B ). The parallel changes in the rate of leaf emergence and the total number of leaves produced resulted in the ligulation of the flag leaves occurring synchronously in NI and WI (see Supplementary Figure S1C ).",
+      "char_offset": 26329
+    },
+    {
+      "type": "paragraph",
+      "text": "The rate of leaf emergence and the final leaf number of the main stem in WI treatments vs. NI treatments. Each color is associated with a cultivar, as indicated in the legend. The value of the rate of leaf emergence (A) was estimated from a linear model adjusted on the mean estimates of leaf stage. The data for final leaf number (B) are the mean values measured on 10 tagged plants, with error bars representing 95% confidence intervals of mean estimates. The dotted line represents the line 1:1.",
+      "char_offset": 27123
+    },
+    {
+      "type": "paragraph",
+      "text": "For all cultivars, the length of the pseudo stem l col (1) and the length of the shoot l apex measured around the start of stem elongation (875\u00b0Cd; LS\u223c8.5) were significantly higher in WI compared to NI ( Figure 5 ). The higher values of l col (1) and l apex suggest either a faster progress toward the reproductive stage for plants grown under WI treatments or an enhanced sheath and internode extension in response to competition signals.",
+      "char_offset": 27623
+    },
+    {
+      "type": "paragraph",
+      "text": "Length of the main stem in WI treatments vs. NI treatments at the start of stem extension (870\u00b0Cd). (A) shows l col (1) , which represents the length from the base of the plant up to the highest collar and figure (B) shows l apex , the length from the base of plant to the summit of the apex. Each symbol represents the mean of values measured on 30 stems. Each color is associated with a cultivar, as indicated in the legend. Error bars represent 95% confidence intervals of mean estimates. The dotted line represents the line 1:1.",
+      "char_offset": 28065
+    },
+    {
+      "type": "paragraph",
+      "text": "Increasing row spacing resulted in an increase of the blade area of upper leaves for all cultivars. The cumulative area of the fourth upper blades was 3\u20138% higher in WI compared to NI ( Figure 6A ). This resulted from an increase in both length and width of the upper leaves.",
+      "char_offset": 28599
+    },
+    {
+      "type": "paragraph",
+      "text": "The cumulative area of the four upper blades of the main stem (A) and the mean leaf inclination angle \u03b1 (B) in WI treatments vs. NI treatments. Each color is associated with a cultivar, as indicated in the legend. The dotted line represents the line 1:1. In (A) , symbols represent the mean of values measured on 45 plants per treatment; error bars mark the 95% confidence intervals of the mean estimates. In (B) , empty symbols represent measurements at the start of stem extension (722\u00b0Cd) while full symbols represent measurements close to ear emergence (1272\u00b0Cd); error bars mark the quarter of standard deviation of mean estimates of all triangles representing leaves (to make the figure easier to read).",
+      "char_offset": 28876
+    },
+    {
+      "type": "paragraph",
+      "text": "After completion of stem extension, the distances from the base of the plant to the collar of the upper leaves l col ( i ) were not impacted by row spacing. This suggests that the vertical distribution of upper leaf insertions was unaffected despite the changes in final leaf number (see Supplementary Figure S2 ). There was, however, an increase (+0.2 to +0.5) in the number of elongated internodes for some cultivars (Caphorn, Soissons, and Maxwell) in WI compared to NI, which, together with the higher values of l apex mentioned above, indicates that stem extension was transitorily enhanced in WI in the early stages.",
+      "char_offset": 29587
+    },
+    {
+      "type": "paragraph",
+      "text": "Two indicators of leaf structure were used to evaluate the effect of increasing row spacing: (a) the average inclination angle of all canopy leaves \u03b1 ( Figure 6B ) and (b) the mean insertion angle i leaf , calculated by averaging i leaf ( i ) for the four upper leaves of the main stem ( Figure 7 ).",
+      "char_offset": 30211
+    },
+    {
+      "type": "paragraph",
+      "text": "The insertion angle ( i leaf ) averaged over the four upper leaves of the main stem vs. the thermal time from plant emergence. Each symbol represents the mean of values measured on 30 plants. Squares and solid lines represent the WI treatment, while triangles and dotted lines represent the NI treatment. Only leaf blades, having at least 20% green area, were taken into account. Error bars mark 95% confidence intervals of the mean estimates. The arrow indicates the second date of digitalization (1272\u00b0Cd), which is close to ear emergence date.",
+      "char_offset": 30512
+    },
+    {
+      "type": "paragraph",
+      "text": "For all cultivars and row spacing treatments, \u03b1 was lower at the early stage (722\u00b0Cd) than around ear emergence (1272\u00b0Cd). This result was somewhat expected as planar leaves increase light interception in a sparse canopy while inclined leaves allow light penetration through a dense canopy. Increasing row spacing had little impacts on \u03b1, but some trends were observed for the different cultivars. For Maxwell and Caphorn, the \u03b1 values were similar in NI and WI, suggesting no changes in leaf posture. Other cultivars showed a trend for the impact of interrow distance on \u03b1. At 722\u00b0Cd, the leaves of cultivars Renan and Soissons were slightly more erect in WI compared to NI, which could be interpreted as an enhanced shade avoidance response. Oppositely, at 1272\u00b0Cd, Apache and Soissons showed a slight trend of a lower inclination angle in WI, consistent with a lower competitive pressure. Differences in \u03b1 between treatments were small, but it is worth mentioning that differences in \u03b1 were small also when comparing between cultivars having different statures. For example, the leaf inclination angle of Renan-NI (dropping stature) and Caphorn-NI (erect stature) were 19.8\u00b0 and 17.4\u00b0, respectively. This means that the widely used mean leaf inclination angle has a low sensitivity to the differences in stature between cultivars.",
+      "char_offset": 31060
+    },
+    {
+      "type": "paragraph",
+      "text": "We further analyzed the changes in plant stature by investigating the mean insertion angle of the four uppers leaves of the stem i leaf ( Figure 7 ). Marked differences were observed depending on the cultivar: Apache, Soissons, and Maxwell showed a significantly higher i leaf in WI compared to NI, especially after ear emergence, which could be interpreted as an active response to explore more of the free space. For Maxwell, this behavior started later than it did for Apache and Soissons, so that no difference existed at the time when \u03b1 was estimated. A detailed analysis of the behavior for each leaf ranks showed that the higher i leaf in WI compared to NI resulted from differences in the dynamics of leaf insertion angle with leaf age, but also from the differences in plant development (accelerated growth, slowed senescence, and higher final leaf number in WI). The difference in i leaf between WI and NI increased with time and it is likely that \u03b1 followed the same pattern. On the other hand, Caphorn and Renan did not show any impact of interrow on i leaf . Additionally, despite the noticeable difference in their stature (erect for Caphorn, sagging for Renan), they had similar values of i leaf and were the lowest among the examined cultivars. This suggests that the sagging stature of Renan is not related to a high value of i leaf , but rather in the curvature of blades.",
+      "char_offset": 32395
+    },
+    {
+      "type": "paragraph",
+      "text": "The geometry of plant axes and leaves showed moderate differences between row spacing treatments. These responses changed during the crop cycle and differed among cultivars. These geometrical responses concern the horizontal spreading and azimuth orientation of leaves and stems ( d stem , d leaf , \u03b8 stem , \u03b8 leaf ). A comparison between WI and NI treatments is presented in Figures 8 , 9 , respectively, for 722\u00b0Cd and 1272\u00b0Cd (photographs are shown in Supplementary Figures S3 , S4 ).",
+      "char_offset": 33787
+    },
+    {
+      "type": "paragraph",
+      "text": "Horizontal spacing and azimuth orientation of stems and leaves in WI treatments vs. NI treatments, at 722\u00b0Cd. The stem spread ( d stem ; A ), leaf spread ( d leaf ; C ), stem azimuth angle (\u03b8 stem ; B ), and leaf azimuth angle (\u03b8 leaf ; D ). Symbols represent the mean values taking into account all axes, for 30\u201360 plants per treatment. Error bars represent 95% confidence intervals of the mean estimates. The dotted line represents the line 1:1.",
+      "char_offset": 34276
+    },
+    {
+      "type": "paragraph",
+      "text": "Horizontal spacing and azimuth orientation of stems and leaves in WI treatments vs. NI treatments, at 1272\u00b0Cd. The stem spread ( d stem ; A ), leaf spread ( d leaf ; C ), stem azimuth angle (\u03b8 stem ; B ), and leaf azimuth angle (\u03b8 leaf ; D ). Symbols represent the mean values taking into account only well-developed axes, with h col (1) > 10 cm, for 30\u201360 plants per treatment. Error bars represent 95% confidence intervals of the mean estimates. The dotted line represents the line 1:1.",
+      "char_offset": 34725
+    },
+    {
+      "type": "paragraph",
+      "text": "Before the start of stem elongation, plants had a lower d stem in WI treatments compared to NI, especially for Maxwell, Renan, and Soissons, for which differences ranged from 15 to 25% ( Figure 8A ). At this stage the pseudo-stems were longer in WI treatments, with higher l col (1) as presented previously, such that the lower d stem means that the pseudo-stems were more erect in WI. For Caphorn and Apache, no significant difference in d stem was observed between WI and NI treatments. Concerning the horizontal spreading of leaves d leaf , only Soissons showed a significant decrease by 8%, meaning that leaves were more erect as observed for pseudo-stems. Renan showed an opposite trend but it was not significant. In the other hand, no trend was observed on the azimuth angle of the pseudo-stems \u03b8 stem and leaves \u03b8 leaf for all cultivars, except Renan, meaning that for the other cultivars there was no preferential orientation of plant axes and leaves relative to row direction ( Figures 8B\u2013D ). Oppositely, Renan, which had a higher d leaf , showed an unexpected response with slightly lower \u03b8 stem and \u03b8 leaf in WI compared to that in NI, which suggested that both stems and leaves were orientated toward the neighbor plants in the same row.",
+      "char_offset": 35215
+    },
+    {
+      "type": "paragraph",
+      "text": "Around ear emergence, d stem differed markedly between cultivars ( p < 0.0001) and row spacing ( p = 0.0067), ranging from 5.3 cm for Maxwell-WI to 9 cm for Soissons-WI ( Figure 9A ). The general trend was opposite of that observed at the start of stem extension, as wide interrows resulted in an increase of d stem by 48% for Soissons ( p < 0.001) and by 23% for Apache ( p < 0.1) and Caphorn (ns), while other cultivars showed no marked change. Since plant height was not affected by row spacing (see section above), the difference in d stem indicates that plant stems spread more horizontally in WI compared to NI. The wider spread of axes of Soissons and Caphorn in the WI treatment was not associated with a specific orientation toward the interrow space ( Figure 9B ); by contrast, Apache showed a significant orientation of axes toward the free space. Consistent with the wider spread of axes, the distribution of leaf tips showed a higher scatter in WI treatments, with a significant increase of d leaf by 27, 15, and 14, respectively, for Soissons, Caphorn, and Apache, but without any trend toward an interrow orientation in WI treatments, as the mean leaf azimuth \u03b8 leaf was 45\u00b0 in all cases ( Figure 9D ).",
+      "char_offset": 36468
+    },
+    {
+      "type": "paragraph",
+      "text": "At the early stages, most of the reactions of plants grown under wide row spacing mimicked the shade avoidance responses usually observed for plants grown at higher density. As summarized in Table 2 , in their first stage, plants in WI showed a reduction in the number of tillers for all cultivars, with a trend of having more erect and grouped pseudo-stems. This association of changes in tiller number and angle is typical of grass responses to density changes as reported by Gibson et al. (1992) . Furthermore, plants in WI showed a trend of having an earlier stem extension, which is also an expected response to higher density. We observed in WI a slightly faster rate of leaf development for all cultivars (except Caphorn), together with a slightly higher final leaf number, while the date of flag leaf ligulation was unchanged. Correlated differences in the rate of leaf production and leaf number without changes in flag leaf ligulation have been reported when comparing density treatments ( Baccar, 2011 ) and when analyzing plant-to-plant variability within the same field ( Abichou et al., 2018 ). However, an increase in leaf number is usually associated with a lower plant density, so the slightly higher leaf number in WI conflicts with the other changes that denote a higher perception of competition in this treatment at the early stages. The exact processes and timing of the determination of the final leaf number are not fully understood and we hypothesize that they may have been impacted by the change from a perception of higher density to a perception of lower density in WI, which may have occurred before leaf stage 7, as discussed below. The higher perception of competition in WI suggests that the distance to the closest neighbors plays a specific role in the perception of competition. Differences in tillering between treatments already existed at LS\u223c5.27 \u00b1 0.36 when ground cover was around 15%, for which resources were likely not limiting. Such behavior may have been triggered by phytochrome, mechanosensing, or volatile signaling as reported for other species ( Ballar\u00e9, 1999 ; de Wit et al., 2012 ). Our work does not allow us to distinguish between these possible triggers, but at the stage when the first responses were observed, there were many contacts between neighboring plants within the same row in the WI treatments; so responses to touch signals would be a simple explanation for the exacerbated perception of competition in the WI. In this early stage, plants did not show any tendency to specifically avoid their closest neighbors in the row or to prospect the interrow space, suggesting they lacked the ability to directionally respond to their anisotropic environment. More surprising, Renan showed a slight trend to orient axes and leaves toward the closest neighbors within a row.",
+      "char_offset": 37687
+    },
+    {
+      "type": "paragraph",
+      "text": "Summary of the effect of increasing row spacing on architecture variables.",
+      "char_offset": 40521
+    },
+    {
+      "type": "paragraph",
+      "text": "The (+) symbol refers to an increased effect and the ( \u2212 ) symbol refers to a decreased effect. A gray background means that the effect was significant (p < 0.1) and white background means that effect was not significant (except for the rate of leaf emergence and grain yield for which statistical tests were not possible).",
+      "char_offset": 40597
+    },
+    {
+      "type": "paragraph",
+      "text": "After the start of stem elongation, plants grown with wide interrows showed a change in behavior, with a lower regression of tillers and a significant increase in the area of the fourth upper blades, which compensated for the reduction of tillering. This behavior seems to reflect a higher availability of resources per axis and the mature architecture of flowering axes mimicked those of plants grown at lower density. Such a trend was also reported earlier by Hiltbrunner et al. (2005) . Leaf 8 was already significantly larger in WI compared to NI, implying that the changes already existed during the development of leaf 8; that is around leaf stage 7 or earlier. Besides, marked geometrical adaptations according to cultivars were observed: (i) stems grew more obliquely for Soissons, Apache, and Caphorn ( Figure 9A ), (ii) leaves had a higher insertion angle in Soissons, Apache, and Maxwell, leading to a more planophilic stature, especially after ear emergence ( Figure 7 ), (iii) Soissons, Renan, Maxwell, and Caphorn showed no trend for the azimuth angle of leaves and stems, meaning that plants did not orient themselves toward the free space between rows; oppositely, Apache preferentially oriented the axes toward the free space between rows ( Figure 9B ). Interestingly, the azimuth angle of leaves was not affected ( Figure 9D ), contrary to what is widely reported for maize, in which the plants tend to align their leaves perpendicularly to the row direction to avoid their neighbors in the row ( Drouet and Moulia, 1997 ; Maddonni et al., 2002 ).",
+      "char_offset": 40922
+    },
+    {
+      "type": "paragraph",
+      "text": "Overall, our work demonstrated marked changes in tillering behavior, leaf size, and geometric display of leaves and axes in WI compared to NI. This was accompanied by changes in phyllochron and final leaf number. There were genotypic differences for the aerial traits responding to interrow spacing but differences in yield between NI and WI were small. Our experimental design did not allow us to estimate their statistical significance. Furthermore, other traits that we did not quantify, such as shoot/root ratio, leaf green duration, or harvest index, may be important here. The general picture that emerges is that in WI there was an enhanced perception of competition in the first stage of growth, followed by a response to higher level of resources in the later stage of growth, whereas, with the exception of Apache, there was no sign of a specific avoidance of the region of denser canopy or preferential foraging of the gap areas. The behavior of Apache suggests that genetic variability may exist in wheat for the ability to react to crop heterogeneity by foraging gaps. In maize, Maddonni et al. (2001) distinguished cultivars having \u201cplastic\u201d or \u201crigid\u201d behavior according to their ability to re-orientate their leaves toward interrows. A directional response may provide competitive advantage not only in the case of large interrows, but also in other situations such as competition with weeds or cultures grown in association.",
+      "char_offset": 42489
+    },
+    {
+      "type": "paragraph",
+      "text": "The traits that differed in response to interrow distance evolved dynamically along the whole plant cycle. Accordingly, their impact can hardly be estimated from measurements at a few dates, but rather could be investigated by simulation with dynamic 3D plant models ( Vos et al., 2010 ). Our work provides data that could be used in structural, data-driven 3D models such as Adel-Wheat ( Fournier et al., 2003 ), which allow calculation of plant\u2013environment interactions based on realistic 3D dynamic structures. This would help in defining ideotypes for light capture, and to investigate other consequences of the changes in sowing design and plant architecture, such as the perception of light quality ( Chelle et al., 2007 ), propagation of pathogens ( Robert et al., 2018 ), interception of pesticides ( Dorr et al., 2008 ), or the formation of phenotyping signals ( Liu et al., 2017 ).",
+      "char_offset": 43932
+    },
+    {
+      "type": "paragraph",
+      "text": "Our results also provide hints for the development of functional (process-driven) models. The realistic representation of plant architecture in functional-structural plant models (FSPM) has opened up new possibilities to simulate the behavior of plants in heterogeneous environments, but many questions remain about the signals perceived, how they are integrated over time and space, and what are the quantitative reactions to the signals ( Bongers et al., 2014 ). Progress is needed not only to generate better mechanistic models but also to identify simple proxies that can be used without complex computations. Our work revealed two original results. First, responses appeared to be related to the distance to the closest neighbors rather than to the average foliage density in the plant neighborhood. Second, the responses affected the spreading behavior, but for most cultivars, the responses were not directional.",
+      "char_offset": 44825
+    },
+    {
+      "type": "paragraph",
+      "text": "These observations correspond to a single year-site experiment and involved intrusive methods to characterize the 3D architecture. High throughput phenotyping with 2D and LiDAR imagery ( Liu et al., 2017 ) allows investigating in field conditions and without any contact with the plants, a large number of cultivar traits such as position of individual ears and leaf orientation, which in the present study were measured by digitization. In this context, manipulating interrow distance is a convenient way to create reproducible representations of spatial heterogeneity. If confirmed, the behavior reported here would be an important element to help model the response of wheat plants not only to interrow spacing, but also to a large range of situations of heterogeneity.",
+      "char_offset": 45746
+    },
+    {
+      "type": "paragraph",
+      "text": "We found that wheat plants responded to changes in interrow distance by altering tillering, leaf size, and leaf and axes spreading in a manner that corresponded to an altered perception of competition along the cycle. Among the five cultivars tested, only one showed a small tendency to orientate axes so as to forage preferentially the interrow space. These results help to better understand and model the response of wheat plants to specific management techniques and more generally to spatial heterogeneities.",
+      "char_offset": 46520
+    },
+    {
+      "type": "paragraph",
+      "text": "All datasets for this study are included in the manuscript and the Supplementary Files .",
+      "char_offset": 47034
+    },
+    {
+      "type": "paragraph",
+      "text": "MA performed the experiments, analyzed the data, and wrote the initial manuscript. BA conceived the study and revised the manuscript. BdS helped to conceive the study and obtained the funding. All authors read and approved the final manuscript.",
+      "char_offset": 47124
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+      "char_offset": 47370
+    },
+    {
+      "type": "paragraph",
+      "text": "We express our great appreciation to Marc Bidon, Josiane Jean-Jacques, Maxime Marques, and Julie Renard from UMR ECOSYS, INRA, for their excellent technical assistance. We thank Dr. Shouyang Liu from UMR EMMAH for his help in calculating leaf angle and the two reviewers for their helpful advices.",
+      "char_offset": 47544
+    },
+    {
+      "type": "paragraph",
+      "text": "Funding. MA was funded by a CIFRE convention between ARVALIS \u2013 Institut du V\u00e9g\u00e9tal and ANRT. Research was primarily funded by INRA and ARVALIS \u2013 Institut du V\u00e9g\u00e9tal with complementary support from the Agrobiosphere program of the National Research Agency (Wheatamix project ANR-13-AGRO-0008). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+      "char_offset": 47843
+    },
+    {
+      "type": "paragraph",
+      "text": "https://www6.paca.inra.fr/emmah/Production-Documentation/Outils-et-modeles",
+      "char_offset": 48263
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2019.00999/full#supplementary-material",
+      "char_offset": 48339
+    },
+    {
+      "type": "paragraph",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article.",
+      "char_offset": 48497
+    },
+    {
+      "type": "paragraph",
+      "text": "All datasets for this study are included in the manuscript and the Supplementary Files .",
+      "char_offset": 48623
+    }
+  ],
+  "labels": [
+    "has_table",
+    "yield_table"
+  ],
+  "document_id": "doc-d7bac9d5672ac1dd"
+}

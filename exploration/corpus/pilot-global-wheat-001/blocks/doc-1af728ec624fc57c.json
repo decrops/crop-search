@@ -1,0 +1,72 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 3,
+      "heading": "Grow guide",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "VPD = VP leaf - VP air VP leaf = 610.7 * 10 7.5*Tleaf/(237.3+Tleaf) / 1000 VP air = 610.7 * 10 7.5*Tair/(237.3+Tair) /1000 * RH/100",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "VP leaf - vapor pressure of the leaf (canopy) in kPa VP air - vapor pressure of the air in kPa Tleaf - leaf temperature in Celsius Tair - air temperature in Celsius RH - air relative humidity VPD - vapor pressure deficit in kPa",
+      "char_offset": 133
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideal VPD range varies with the crop species and the stage of growth.",
+      "char_offset": 362
+    },
+    {
+      "type": "paragraph",
+      "text": "What if VPD is too low ? Humidity is high and plants are unable to evapotranspirate enough water to enable the transport of nutrients to cells, even though the stomata may be fully open. Some plants may even exude water through special leaf tip or edge structures (hydathodes or water glands), forming drops, in a process called guttation. In cases where the VPD is extremely low , water may condense onto leaves and other plant parts. This can provide a medium for fungal/mold growth and disease. Plants are unable to evaporate water and turgor pressure within the cells can cause splitting and cracking of fruits.",
+      "char_offset": 437
+    },
+    {
+      "type": "paragraph",
+      "text": "To increase the VPD , moisture must be removed from the air, or the moisture holding capacity of the air must be increased by raising the temperature. Moisture removal can be accomplished by using dehumidifiers (expensive), or by replacing moist air with drier air (typically through ventilation). This is the standard practice for avoiding direct condensation onto crop or greenhouse surfaces.",
+      "char_offset": 1054
+    },
+    {
+      "type": "paragraph",
+      "text": "Shamshiri, R.R., Jones, J.W., Thorp, K.R., Desa, A., Che, M.H. & Sima, T. 2018. Review of optimum temperature, humidity, and vapour pressure deficit for microclimate evaluation and control in greenhouse cultivation of tomato: a review, http://dx.doi.org/10.1515/intag-2017-0005",
+      "char_offset": 1450
+    },
+    {
+      "type": "paragraph",
+      "text": "Jin D., Jin S., Chen J. 2019. Cannabis Indoor Growing Conditions, Management Practices, and Post-Harvest Treatment: A Review, http://dx.doi.org/10.4236/ajps.2019.106067",
+      "char_offset": 1729
+    },
+    {
+      "type": "paragraph",
+      "text": "Amitrano,C.;Rouphael,Y.; Pannico, A.; De Pascale, S.; De Micco, V. Reducing the Evaporative Demand Improves Photosynthesis and Water Use Efficiency of Indoor Cultivated Lettuce. Agronomy 2021, 11, 1396. https://doi.org/10.3390/agronomy11071396",
+      "char_offset": 1899
+    },
+    {
+      "type": "paragraph",
+      "text": "Amitrano,C.;Rouphael,Y.; De Pascale, S.; De Micco, V. Modulating Vapor Pressure Deficit in the Plant Micro-Environment May Enhance the Bioactive Value of Lettuce. Horticulturae 2021, 7, 32. https://doi.org/10.3390/horticulturae7020032",
+      "char_offset": 2144
+    },
+    {
+      "type": "paragraph",
+      "text": "Bakker, J. C. (1991). Analysis of humidity effects on growth and production of glasshouse fruit vegetables. Ph.D. dissertation, Agricultural University, Wageningen, Netherlands, p. 155.",
+      "char_offset": 2380
+    },
+    {
+      "type": "paragraph",
+      "text": "Konopacki, P. J.; Treder, W.; Klamkowski, K. (2018). Comparison of vapour pressure deficit patterns during cucumber cultivation in a traditional high PE tunnel greenhouse and a tunnel greenhouse equipped with a heat accumulator. Spanish Journal of Agricultural Research, Volume 16, Issue 1, e0201. https://doi.org/10.5424/sjar/2018161-11484",
+      "char_offset": 2567
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-1af728ec624fc57c"
+}

@@ -1,0 +1,19 @@
+{"claims": [
+  {
+    "parameter_id": "management.residue_cover_response",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "if farmers incorporate wheat residues into the soil through plowing, applying NIs is recommended to maintain yield and nitrogen use efficiency. ... NIs significantly increased wheat grain and straw yields by approximately 32% and 20%, respectively, at high residue application rate (10 t ha⁻¹).",
+    "claim_summary": "When wheat residues are incorporated into soil (e.g. 10 t/ha), applying nitrification inhibitors is recommended; NIs raised wheat grain and straw yields by ~32% and ~20% at high residue rate.",
+    "extraction_confidence": "high",
+    "methods": ["residue incorporation", "plowing"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_use_efficiency",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Nitrification inhibitor application resulted in increases of approximately 37% and 74% in nitrogen use efficiency from the fertilizer source at residue application rates of 5 and 10 t ha⁻¹, respectively.",
+    "claim_summary": "Nitrification inhibitors increased wheat fertilizer-source nitrogen use efficiency by ~37% (5 t/ha residue) and ~74% (10 t/ha residue).",
+    "extraction_confidence": "medium"
+  }
+]}

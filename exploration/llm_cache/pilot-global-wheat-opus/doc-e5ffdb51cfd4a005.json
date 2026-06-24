@@ -1,0 +1,128 @@
+{"claims": [
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Seed 120kg/ha Spring wheat ... Fertilizer 70kg/(4ha) (10-18-12-5) Bulk blended (N-P-K-Mg)",
+    "claim_summary": "Spring wheat sown at a seed rate of 120 kg/ha.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "soil.ph_range",
+    "value_type": "range",
+    "range_min": 6.0,
+    "range_max": 7.0,
+    "unit": "pH",
+    "qualifier": "optimum",
+    "evidence_text": "The soil pH recorded in this experiment (6.3-6.9) falls within the ideal range for wheat cultivation (6.0 to 7.0), with some studies suggesting an optimum target of around 6.5 for maximum growth and nutrient availability.",
+    "claim_summary": "Ideal soil pH range for wheat is 6.0-7.0, with an optimum around 6.5.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.emergence_duration",
+    "value_type": "range",
+    "range_min": 6,
+    "range_max": 10,
+    "unit": "days",
+    "qualifier": "typical",
+    "evidence_text": "wheat crops in the Hokkaido region take 6 to 10 days to fully emerge (Iwama, 2009; NARO, 2017)",
+    "claim_summary": "Wheat takes 6-10 days to fully emerge in the Hokkaido region.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.plant_height",
+    "value_type": "range",
+    "range_min": 0.60,
+    "range_max": 1.20,
+    "unit": "m",
+    "qualifier": "typical",
+    "evidence_text": "the general mature height range for wheat is 0.60-1.20m (Greg Editorial Team, 2024) ... the maximum average mature height was observed at the Milk formation stage; this height was 0.77m for BD1, 0.764m for the Control",
+    "claim_summary": "General mature wheat plant height ranges 0.60-1.20 m; observed maxima 0.737-0.77 m (height in meters).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.grains_per_spike",
+    "value_type": "range",
+    "range_min": 29.46,
+    "range_max": 32.77,
+    "unit": "count",
+    "qualifier": "observed",
+    "evidence_text": "BD3 also had the highest grains per pod at 32.77, followed by the Control at 31.77 and BD4 at 29.46. The two most compacted ... count in BD2 being 20% lower ... BD1 being 50% lower than that in BD3.",
+    "claim_summary": "Grains per spike (grains per head) ranged ~29.5-32.8 in well-managed subplots, dropping up to 50% under severe compaction (count, not percent).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "morphology.thousand_kernel_weight",
+    "value_type": "range",
+    "range_min": 28.05,
+    "range_max": 35.45,
+    "unit": "g",
+    "qualifier": "observed",
+    "evidence_text": "The average weights of 100 grains recorded for each BD treatment ... range of 2.805g for the hardest subplots to 3.545g for the Control subplots. The average weight of 100 grains of wheat is 3.4g (DEECA, 2024)",
+    "claim_summary": "100-grain weight 2.805-3.545 g (TKW ~28-35.5 g); typical ~34 g (i.e. 3.4 g/100 grains).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "range",
+    "range_min": 177,
+    "range_max": 261,
+    "unit": "plants/m2",
+    "qualifier": "observed",
+    "evidence_text": "The number of pods per m2 area was highest on the BD3 subplots at 261, followed by the BD4 and Control subplots at 235 and 229, respectively ... count in BD1 being 50% lower",
+    "claim_summary": "Number of pods (heads/spikes) per m2 ranged 177 (severe compaction) to 261 (moderate compaction, BD3).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "soil.compaction_sensitivity",
+    "value_type": "range",
+    "range_min": 1.17,
+    "range_max": 1.30,
+    "unit": "Mg/m3",
+    "qualifier": "observed",
+    "evidence_text": "field trials with vibratory plate-compacted subplots (BD: 1.17-1.30Mg/m3). Moderate compaction (BD3: 1.24Mg/m3) optimized nutrient utilization, producing 173.6% more yield than highly compacted soil (BD1). ... soil needs a certain level of SC-about 1.24Mg/m3-to produce an optimum yield.",
+    "claim_summary": "Spring wheat yield optimized at moderate bulk density ~1.24 Mg/m3; severe compaction (1.30 Mg/m3) cut yield drastically (units Mg/m3).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "soil.soil_water_holding_capacity",
+    "value_type": "range",
+    "range_min": 25,
+    "range_max": 35,
+    "unit": "percent",
+    "qualifier": "optimum",
+    "evidence_text": "soil moisture of 50% to 70% of field capacity, which corresponds to about 25% to 35% moisture content on a dry basis, should be maintained for optimal wheat growth",
+    "claim_summary": "Optimal wheat growth requires soil moisture of 50-70% of field capacity (~25-35% gravimetric dry basis).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "numeric",
+    "numeric_value": 70,
+    "unit": "mm",
+    "qualifier": "minimum",
+    "evidence_text": "spring wheat requires at least 70mm of rain in a month under rainfed conditions at the Tillering stage for optimal development (Abayomi et al., 1999)",
+    "claim_summary": "Spring wheat needs at least 70 mm rainfall per month at tillering for optimal development.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "water.drought_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "spring wheat requires at least 70mm of rain in a month ... at the Tillering stage for optimal development ... The most critical stage when it comes to root development is the Panicle stage, about 6 weeks after planting",
+    "claim_summary": "Tillering and panicle (stem elongation) stages are the drought/moisture-critical stages for spring wheat.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "nutrients.critical_tissue_nitrogen",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "More than 70% of the total above-ground N and P accumulate by the end of the heading and flowering stages, while 55% of grain N and P come from the redistribution of these accumulated nutrients.",
+    "claim_summary": ">70% of above-ground N and P accumulate by end of heading/flowering; 55% of grain N/P from remobilization.",
+    "extraction_confidence": "medium",
+    "bbch_min": 51,
+    "bbch_max": 69
+  }
+]}

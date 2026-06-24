@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-6ad43addd3da376f",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s12571-013-0263-y.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s12571-013-0263-y.pdf",
+  "doi": "https://doi.org/10.1007/s12571-013-0263-y",
+  "title": "Crops that feed the world 10. Past successes and future challenges to the role played by wheat in global food security",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "6ad43addd3da376f92cbdb7850e43010836cb992f0f34a61eb24d0322eb6a2ce",
+  "content_hash": "c4960b976d7b0679901f0868b3a5bd62f23b14039ac598bbd21456eae8afe1db",
+  "text_length": 100174,
+  "publication_date_hint": "2012",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W4210980530",
+    "doi": "https://doi.org/10.1007/s12571-013-0263-y",
+    "publication_year": 2013,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/001-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

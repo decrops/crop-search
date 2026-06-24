@@ -1,0 +1,12 @@
+{"claims": [
+  {
+    "parameter_id": "root.root_shoot_ratio",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "In the control variant, the shoot : root ratio was 0.961±0.020 g for fresh weight (S/RFw) and 0.979±0.006 g for dry weight (S/RDw).",
+    "claim_summary": "In wheat seedlings (BBCH 12-13), the untreated control shoot:root mass ratio was ~0.96 (fresh) and ~0.98 (dry), i.e. root and shoot biomass roughly equal.",
+    "extraction_confidence": "medium",
+    "bbch_min": 12,
+    "bbch_max": 13
+  }
+]}

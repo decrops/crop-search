@@ -1,0 +1,37 @@
+{
+  "run_id": "pilot-us-corn-iowa-001",
+  "version": "0.1.0",
+  "crop": "corn",
+  "region_scope": {
+    "level": "state",
+    "name": "Iowa"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/corn.json",
+  "parameter_families": [
+    "temperature",
+    "thermal_time",
+    "water",
+    "soil",
+    "phenology",
+    "planting"
+  ],
+  "queries_per_parameter": 1,
+  "max_parameters": 12,
+  "queries": [
+    "corn growing conditions Iowa extension",
+    "corn temperature requirements Iowa agronomy pdf",
+    "corn soil moisture Iowa crop guide"
+  ],
+  "max_results_per_query": 3,
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

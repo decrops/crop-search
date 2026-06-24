@@ -1,0 +1,21 @@
+{
+  "claims": [
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "The initial amount of residue after harvest (lbs/A) is calculated by multiplying the wheat residue coefficient (100 lbs residue/bushel grain) by the long-term yield (ex. 35 bu/A wheat is equivalent to 3,500 lbs/A residue after harvest). Percent cover after harvest can be assumed at 95",
+      "claim_summary": "Wheat residue after harvest = 100 lbs residue per bushel grain; ~95% percent cover after harvest before tillage operations.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The initial amount of wheat residue in lbs/A or percent cover can be reduced for overwinter weathering, grazing, tillage and planting operations... Moldboard plow [10%]... Chisel plow straight shovel points [75%]... Disk (tandem or offset) 3 inches deep [70%]",
+      "claim_summary": "Wheat residue cover is reduced by tillage operations: moldboard plow leaves ~10%, chisel plow ~60-80%, tandem disk ~70-90% of residue remaining.",
+      "extraction_confidence": "high",
+      "methods": ["tillage", "plowing", "disking"]
+    }
+  ]
+}

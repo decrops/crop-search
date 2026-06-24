@@ -1,0 +1,35 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 96.95,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "The wheat germplasm P3228 has a tall PH (mean 96.95 cm), long SL (mean 10.58 cm), and low SCN (mean 2.20)",
+      "claim_summary": "Wheat germplasm PuBing3228 mean plant height 96.95 cm (tall parent).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 83.66,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "G8901 is a commercial cultivar with a short PH (mean 83.66 cm), short SL (mean 8.22 cm), and high SCN (mean 2.68)",
+      "claim_summary": "Wheat cultivar Gao8901 mean plant height 83.66 cm (short parent).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 25,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Each plot consisted of a 1.5 m row with 0.25 m spacing between rows; 30 seeds were used, and 20 plants per row were retained after the emergence of seedlings",
+      "claim_summary": "Wheat field plots planted at 0.25 m (25 cm) row spacing.",
+      "extraction_confidence": "medium",
+      "methods": ["sowing"]
+    }
+  ]
+}

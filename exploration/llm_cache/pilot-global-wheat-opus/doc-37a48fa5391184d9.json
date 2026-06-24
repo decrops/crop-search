@@ -1,0 +1,710 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 37,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Germination may occur between 4° and 37°C, optimal temperature being from 12° to 25°C.",
+      "claim_summary": "Wheat germination can occur over a temperature range of 4 to 37 degrees C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "range",
+      "range_min": 12,
+      "range_max": 25,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Germination may occur between 4° and 37°C, optimal temperature being from 12° to 25°C.",
+      "claim_summary": "Optimal temperature for wheat germination is 12 to 25 degrees C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "range",
+      "range_min": 0,
+      "range_max": 4,
+      "unit": "celsius",
+      "qualifier": "typical",
+      "evidence_text": "Cereal development is normally expressed in degree-days (GDD), using 0° or 4°C as the base temperature for physiological processes in wheat",
+      "claim_summary": "Base temperature for wheat GDD/development is normally taken as 0 or 4 degrees C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 4.5,
+      "unit": "celsius",
+      "qualifier": "typical",
+      "evidence_text": "the ratio between incoming radiation to the mean temperature above 4.5°C (the photothermal quotient)... where 4.5°C is the base temperature for wheat growth.",
+      "claim_summary": "A base temperature of 4.5 degrees C is used for wheat growth in the photothermal quotient.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.photosynthesis_optimum_temperature",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 25,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "At optimum temperature (20° to 25°C), the maximum light saturation rates of photosynthesis (Amax) at the leaf level in bread wheat are between 15 and 25 µmol CO/m 2 s",
+      "claim_summary": "Optimum leaf photosynthesis temperature for bread wheat is 20 to 25 degrees C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "numeric",
+      "numeric_value": 25,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Leaf photosynthesis is negatively affected as leaf temperature rises above 25°C in cool-grown wheat leaves, but leaves acclimated to warm temperature start to show a similar decline as temperatures exceed 35°C. At 45°C leaf photosynthesis may be halved.",
+      "claim_summary": "Leaf photosynthesis in cool-grown wheat declines above 25 degrees C, with photosynthesis halved at 45 degrees C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.reproductive_heat_threshold",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Temperatures above 30°C during floret formation cause complete sterility (Owen, 1971; Saini and Aspinal, 1982).",
+      "claim_summary": "Temperatures above 30 degrees C during floret formation cause complete wheat sterility.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.soil_emergence_temperature",
+      "value_type": "range",
+      "range_min": 40,
+      "range_max": 45,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "maximum soil temperature may reach 40° to 45°C with serious effects on seedling emergence.",
+      "claim_summary": "Maximum soil temperatures of 40 to 45 degrees C seriously impair wheat seedling emergence.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.vernalization_units",
+      "value_type": "range",
+      "range_min": 0,
+      "range_max": 12,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Vernalization occurs at temperatures between 0° and 12°C (Ahrens and Loomis, 1963; Trione and Metzger, 1970).",
+      "claim_summary": "Wheat vernalization occurs at temperatures between 0 and 12 degrees C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 60,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "winter types require temperatures between 0° and 7°C for 30 to 60 days (Evans et al ., 1975).",
+      "claim_summary": "Winter wheat requires 30 to 60 days at 0 to 7 degrees C for vernalization/floral induction.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "range",
+      "range_min": 5,
+      "range_max": 15,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "Spring genotypes usually require temperatures between 7° and 18°C for 5 to 15 days for floral induction",
+      "claim_summary": "Spring wheat requires 5 to 15 days at 7 to 18 degrees C for floral induction.",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat"]
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "Most cultivated wheats, however, are quantitative long-day plants. They flower faster as the day-length increases, but they do not require a particular length of day to induce flowering",
+      "claim_summary": "Most cultivated wheats are quantitative long-day plants that flower faster with longer days.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "The vernalization requirements of winter types may be fully substituted by short days at nonvernalizing temperatures between 21° and 16°C (Evans, 1987).",
+      "claim_summary": "Winter wheat vernalization can be substituted by short days at 16 to 21 degrees C.",
+      "extraction_confidence": "medium",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "observed",
+      "evidence_text": "When crop emergence occurs, the seed embryo has three to four leaf primordia and almost half of the leaf primordia are already initiated",
+      "claim_summary": "At emergence the wheat seed embryo has three to four leaf primordia initiated.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "phenology.tillering_duration",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "Bud differentiation into tillers and tiller appearance generally end just before stem elongation starts (Baker and Gallagher, 1983b).",
+      "claim_summary": "Wheat tillering generally ends just before stem elongation begins.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.tillering_duration",
+      "value_type": "range",
+      "range_min": 60,
+      "range_max": 150,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "The duration of the vegetative stage (GS1) in wheat may vary from 60 to 150 days depending on sowing date and genotype.",
+      "claim_summary": "Duration of the vegetative stage (GS1) of wheat varies from 60 to 150 days.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "numeric",
+      "numeric_value": 140,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "Physiological maturity | 140 | 170 (Table 3.1, days from emergence to physiological maturity, spring vs winter wheat sown in May at 34°S)",
+      "claim_summary": "Spring wheat reaches physiological maturity about 140 days from emergence (Table 3.1).",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat"]
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "numeric",
+      "numeric_value": 170,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "Physiological maturity | 140 | 170 (Table 3.1, days from emergence to physiological maturity, spring vs winter wheat sown in May at 34°S)",
+      "claim_summary": "Winter wheat reaches physiological maturity about 170 days from emergence (Table 3.1).",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 112,
+      "range_max": 120,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "Days to maturity | 112 | 114.1 | 119.8 (Table 3.4 yield parameters in tall, semidwarf and dwarf isogenic wheat lines)",
+      "claim_summary": "Days to maturity ranged from 112 to about 120 across tall, semidwarf and dwarf wheat lines (Table 3.4).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "range",
+      "range_min": 26.5,
+      "range_max": 30.5,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "Grainfilling duration b (days): 28.5a (17.0°C), 29.4a (24.0°C), 26.5a (25.6°C), 30.5a (27.5°C) (Table 3.9, mean of 24 genotypes)",
+      "claim_summary": "Wheat grainfilling duration ranged about 26.5 to 30.5 days across grainfilling temperatures (Table 3.9).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "range",
+      "range_min": 39.8,
+      "range_max": 44.0,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "Grainfilling da ) | 39.8 | 39.8b | 44.0a (Table 3.4 isogenic wheat lines)",
+      "claim_summary": "Grainfilling duration ranged from about 39.8 to 44 days across isogenic wheat lines (Table 3.4).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "The phyllochron is strongly dependent on temperature (Rickman and Klepper, 1991), but severe water deficits... and strong nitrogen deficiency... retard the leaf emergence rate in spring wheat.",
+      "claim_summary": "Wheat phyllochron (leaf appearance rate) is strongly temperature-dependent and slowed by water and nitrogen deficits.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "threshold",
+      "evidence_text": "The most thermosensitive stage of wheat grain yield is GS2, when KNO is being determined.",
+      "claim_summary": "GS2 (double ridge to anthesis, when kernel number is set) is the most heat-sensitive stage for wheat yield.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "text",
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Over the range of 12° to 26°C increase in mean temperature during grainfilling, grain weight is reduced at a rate of 4 to 8 percent/°C",
+      "claim_summary": "Rising grainfilling temperature from 12 to 26 degrees C reduces wheat grain weight by 4 to 8 percent per degree.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "threshold",
+      "evidence_text": "The most critical phase for water deficit is GS2, when KNO is being determined.",
+      "claim_summary": "GS2 (when kernel number is determined) is the most critical wheat stage for water deficit.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "numeric",
+      "numeric_value": 208,
+      "unit": "mm",
+      "qualifier": "threshold",
+      "evidence_text": "with a regression slope of 1.22 kg grain/m3 ET above the ET threshold of 208 mm required to initiate grain yield (Musick et al ., 1994).",
+      "claim_summary": "About 208 mm of seasonal ET is required before wheat grain yield begins to accumulate.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "numeric",
+      "numeric_value": 1.22,
+      "unit": "kg/m3",
+      "qualifier": "observed",
+      "evidence_text": "An ET-grain yield relationship was determined as linear, with a regression slope of 1.22 kg grain/m3 ET above the ET threshold of 208 mm",
+      "claim_summary": "Wheat grain yield increases at 1.22 kg grain per m3 of ET above the ET threshold.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "range",
+      "range_min": 12.4,
+      "range_max": 16.8,
+      "unit": "kg/ha/mm",
+      "qualifier": "observed",
+      "evidence_text": "WUE (kg grain/ha mm ET ) a | 16.80 | 14.60 | 12.40 | 15.20 (Table 3.5, water-use efficiency by stress period)",
+      "claim_summary": "Wheat water-use efficiency ranged about 12.4 to 16.8 kg grain/ha per mm ET across stress treatments (Table 3.5).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "photosynthesis.transpiration_efficiency",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "The 13 C discrimination provides an indirect measure of TE... There is genetic variability in 13 C discrimination in wheat, hence high-yielding, high-TE lines can be found... TE is largely dependent on vpd",
+      "claim_summary": "Wheat transpiration efficiency varies genetically (estimable via 13C discrimination) and is strongly vpd-dependent.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "text",
+      "unit": "MPa",
+      "qualifier": "threshold",
+      "evidence_text": "Stomata start to close in wheat at leaf water potentials of -1.5 MPa (Kobata et al ., 1992; Palta et al ., 1994).",
+      "claim_summary": "Wheat stomata begin to close at leaf water potentials around -1.5 MPa.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "photosynthesis.photosynthetic_rate",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 25,
+      "unit": "umol CO2/m2/s",
+      "qualifier": "maximum",
+      "evidence_text": "the maximum light saturation rates of photosynthesis (Amax) at the leaf level in bread wheat are between 15 and 25 µmol CO/m 2 s (25 to 40 mg CO 2 /dm 2 h).",
+      "claim_summary": "Maximum light-saturated leaf photosynthesis rate (Amax) in bread wheat is 15 to 25 umol CO2/m2/s.",
+      "extraction_confidence": "high",
+      "organisms": ["bread wheat"]
+    },
+    {
+      "parameter_id": "canopy.light_extinction_coefficient",
+      "value_type": "range",
+      "range_min": 0.3,
+      "range_max": 0.7,
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "The canopy extinction coefficient in wheat crops ranges from 0.3 to 0.7 and is highly dependent on leaf angle (low K for erect leaves).",
+      "claim_summary": "The canopy light extinction coefficient (K) for wheat ranges from 0.3 to 0.7 depending on leaf angle.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "value_type": "range",
+      "range_min": 4.0,
+      "range_max": 7.5,
+      "unit": "",
+      "qualifier": "threshold",
+      "evidence_text": "95 percent PAR interception requires a LAI as high as 7.5 for erect leaves but a LAI of only about 4.0 for more horizontal leaves.",
+      "claim_summary": "Wheat requires LAI of about 4.0 (horizontal leaves) to 7.5 (erect leaves) for 95 percent PAR interception.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "value_type": "range",
+      "range_min": 0.9,
+      "range_max": 5.0,
+      "unit": "",
+      "qualifier": "observed",
+      "evidence_text": "Leaf area index a: 5.0a (12.2°C), 2.7b (20.7°C), 0.9c (27.5°C) (Table 3.7, LAI as related to growing temperature)",
+      "claim_summary": "Wheat LAI ranged from 5.0 at 12.2°C down to 0.9 at 27.5°C mean seasonal temperature (Table 3.7).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 3.0,
+      "unit": "g/MJ",
+      "qualifier": "observed",
+      "evidence_text": "Measured values of RUE in a wheat crop are close to 3.0 g/MJ PAR A when roots are included (Fischer, 1983).",
+      "claim_summary": "Measured wheat radiation use efficiency is about 3.0 g/MJ PAR (roots included).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 3.8,
+      "unit": "g/MJ",
+      "qualifier": "maximum",
+      "evidence_text": "Practical estimates of maximum RUE by these authors were 3.8 g/MJ PAR, which would occur with long cool days and moderate radiation (20 MJ/m 2 d).",
+      "claim_summary": "Practical maximum wheat RUE is about 3.8 g/MJ PAR under long cool days and moderate radiation.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 0.31,
+      "range_max": 0.39,
+      "unit": "",
+      "qualifier": "observed",
+      "evidence_text": "Harvest index | 0.31 | 0.39a | 0.37a (Table 3.4 yield parameters in tall, semidwarf and dwarf isogenic wheat lines)",
+      "claim_summary": "Wheat harvest index ranged 0.31 to 0.39 across tall, semidwarf and dwarf lines (Table 3.4).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 0.50,
+      "range_max": 0.53,
+      "unit": "",
+      "qualifier": "observed",
+      "evidence_text": "Harvest index | 0.52 | 0.50 | 0.53 | 0.53 (Table 3.5, effects of water stress)",
+      "claim_summary": "Wheat harvest index was about 0.50 to 0.53 across water-stress treatments (Table 3.5).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 10,
+      "range_max": 15,
+      "unit": "percent",
+      "qualifier": "minimum",
+      "evidence_text": "If no water is left for transpiration after anthesis, the best attainable yield is in the order of 10 to 15 percent of the biomass at anthesis.",
+      "claim_summary": "With no post-anthesis transpiration, attainable wheat yield is only 10 to 15 percent of anthesis biomass.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 25,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "Around 25 kg of N are usually required as fertilizer to produce 1 tonne of wheat grain.",
+      "claim_summary": "About 25 kg of N fertilizer is required to produce 1 tonne of wheat grain.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "recommended",
+      "evidence_text": "The highest grain yield response to N fertilizer in wheat occurs when it is applied just prior to the initiation of stem extension (DC 30). Delaying N application beyond DC 32 reduces the grain yield response",
+      "claim_summary": "Highest wheat grain yield response to N occurs when applied just prior to stem extension (DC 30); delaying past DC 32 reduces response.",
+      "extraction_confidence": "high",
+      "bbch_min": 30,
+      "bbch_max": 32
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "recommended",
+      "evidence_text": "terminal spikelet has been suggested as the stage at which the second dose of nitrogen fertilizer should be applied (Biscoe, 1988)",
+      "claim_summary": "The terminal spikelet stage is suggested for applying the second dose of nitrogen to wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "In general, genotypes with a higher yield potential have a higher N use efficiency (yield/N supply) as a result of higher N utilization efficiency (yield/N uptake).",
+      "claim_summary": "Higher-yield-potential wheat genotypes generally have higher nitrogen use efficiency.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "numeric",
+      "numeric_value": -20,
+      "unit": "celsius",
+      "qualifier": "observed",
+      "evidence_text": "In the early stages of growth, they are very resistant to frost (-20°C), but frost resistance is gradually lost towards heading and flowering.",
+      "claim_summary": "Early-growth winter wheat is very frost resistant (to about -20 degrees C), losing resistance toward heading.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Frost can be particularly damaging between flag leaf emergence and ten days after anthesis... The damage during this period occurs at minimum screen temperatures below 0°C and tissue temperatures of around -4°C",
+      "claim_summary": "Wheat is most frost-sensitive between flag leaf emergence and 10 days after anthesis, with damage at screen temps below 0°C / tissue around -4°C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "The more advanced the stage of development, the more susceptible the plants are and the greater the effect can be on yield. After stem elongation begins, the growing stems and spikes can be damaged",
+      "claim_summary": "Wheat frost susceptibility increases with development stage, becoming significant after stem elongation.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "numeric",
+      "numeric_value": 13,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat yield is decreased by 50 percent at soil saturation extracts of 13 dS/m (Ayers and Wescot, 1976).",
+      "claim_summary": "Wheat yield is reduced 50 percent at soil saturation extract EC of 13 dS/m.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "numeric",
+      "numeric_value": 8.6,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "The threshold at which grain yield starts to decrease with increasing soil salinity is 5.9 dS/m for durum wheat and 8.6 dS/m for bread wheat",
+      "claim_summary": "Bread wheat yield begins to decline above a soil salinity threshold of 8.6 dS/m.",
+      "extraction_confidence": "high",
+      "organisms": ["bread wheat"]
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "numeric",
+      "numeric_value": 5.9,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "The threshold at which grain yield starts to decrease with increasing soil salinity is 5.9 dS/m for durum wheat and 8.6 dS/m for bread wheat",
+      "claim_summary": "Durum wheat yield begins to decline above a soil salinity threshold of 5.9 dS/m.",
+      "extraction_confidence": "high",
+      "organisms": ["durum wheat"]
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "numeric",
+      "numeric_value": 4.5,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "Soil salinity above 4.5 dS/m electrical conductivity of the saturation extract decreases the percentage of plants established per unit area. At 8.8 dS/m the wheat plants emerged decrease to 50 percent",
+      "claim_summary": "Soil salinity above 4.5 dS/m reduces wheat plant establishment, with 50 percent emergence loss at 8.8 dS/m.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "Wheat has a moderate tolerance to salinity (Shannon, 1997).",
+      "claim_summary": "Wheat has moderate tolerance to soil salinity.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "It has been consistently found that barley and tall bread wheats have higher drought resistance while semidwarf wheats are intermediate and durum wheats are most susceptible (Fischer and Maurer, 1978; Sojka et al ., 1981).",
+      "claim_summary": "Tall bread wheats have higher drought resistance, semidwarf wheats intermediate, and durum wheats most susceptible.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "text",
+      "unit": "cm",
+      "qualifier": "recommended",
+      "evidence_text": "In soil that is dry at the beginning of the season, seeds should be planted at a depth that would not allow germination unless significant rainfall has occurred to wet the first 10 cm of soil.",
+      "claim_summary": "In dry soil, wheat should be sown deep enough that germination requires rain wetting the top 10 cm.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "The length of the coleoptile limits sowing depth, and its length changes with genotype... Genotypes with a long coleoptile allow sowings at greater soil depth",
+      "claim_summary": "Wheat sowing depth is limited by coleoptile length, which varies genetically.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 50,
+      "range_max": 300,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "Seeding density (kg/ha): 50 | 100 | 200 | 300 ... Plants/m 2 | 120.00 | 200.00 | 350.00 | 480.00 (Table 3.2)",
+      "claim_summary": "Wheat seeding densities of 50 to 300 kg/ha gave plant densities of 120 to 480 plants/m2 (Table 3.2).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 100,
+      "unit": "plants/m2",
+      "qualifier": "minimum",
+      "evidence_text": "The initial plant population may fall below 100 plants/m considered to be deleterious to crop yield.",
+      "claim_summary": "Wheat plant populations below about 100 plants/m2 are deleterious to yield.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "text",
+      "unit": "tillers/plant",
+      "qualifier": "typical",
+      "evidence_text": "Under favourable conditions, one and one-half fertile tillers per plant is a usual number.",
+      "claim_summary": "Under favourable conditions wheat typically has about 1.5 fertile tillers per plant.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "range",
+      "range_min": 403,
+      "range_max": 465,
+      "unit": "spikes/m2",
+      "qualifier": "observed",
+      "evidence_text": "Spikes/m 2 | 403.00 | 440.00 | 465.00 | 458.00 (Table 3.2 seeding density effects)",
+      "claim_summary": "Wheat spike density ranged about 403 to 465 spikes/m2 across seeding densities (Table 3.2).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "range",
+      "range_min": 145.6,
+      "range_max": 349.2,
+      "unit": "spikes/m2",
+      "qualifier": "observed",
+      "evidence_text": "Spikes/m a | 349.2a (12.2°C) | 292.9b | 163.2c | 145.6c (27.5°C) (Table 3.8)",
+      "claim_summary": "Wheat spike density fell from 349 to 146 spikes/m2 as mean temperature rose from 12.2 to 27.5°C (Table 3.8).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "range",
+      "range_min": 35.5,
+      "range_max": 46.3,
+      "unit": "grains/spike",
+      "qualifier": "observed",
+      "evidence_text": "Grains/spike | 35.5 | 46.3a | 36.0b (Table 3.4 isogenic wheat lines)",
+      "claim_summary": "Wheat grains per spike ranged about 35.5 to 46.3 across isogenic lines (Table 3.4).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 23.9,
+      "range_max": 32.2,
+      "unit": "g",
+      "qualifier": "observed",
+      "evidence_text": "Weight 1 000 grain g ) | 32.2 | 28.6a | 23.9b (Table 3.4 isogenic wheat lines)",
+      "claim_summary": "Thousand-grain weight ranged about 23.9 to 32.2 g across tall, semidwarf and dwarf wheat lines (Table 3.4).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 27.6,
+      "range_max": 39.5,
+      "unit": "mg",
+      "qualifier": "observed",
+      "evidence_text": "Final grain weight b (mg): 39.5a (17.0°C grainfilling), 28.9b, 30.5b, 27.6c (24.4°C) (Table 3.9, mean of 24 genotypes)",
+      "claim_summary": "Final single-grain weight ranged 39.5 mg (cool) to 27.6 mg (warm grainfilling) across temperatures (Table 3.9).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 48.6,
+      "range_max": 82.9,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Plant height a (cm): 82.9a (12.2°C), 57.6b (20.7°C), 48.6c (23.9°C) (Table 3.7)",
+      "claim_summary": "Wheat plant height fell from 82.9 cm to 48.6 cm as mean seasonal temperature rose from 12.2 to 23.9°C (Table 3.7).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "Physiological maturity is usually defined as the time when the flag leaf and spikes turn yellow (Hanft and Wych, 1982).",
+      "claim_summary": "Wheat physiological maturity is defined as when the flag leaf and spikes turn yellow.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "observed",
+      "evidence_text": "96 | Viable seed giving 50% germination ... 95 | Seed dormant ... 98 | Secondary dormancy induced (Zadoks decimal code, Table 3.3)",
+      "claim_summary": "Late Zadoks stages describe wheat seed dormancy/germinability relevant to preharvest sprouting.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "text",
+      "unit": "",
+      "qualifier": "typical",
+      "evidence_text": "there is a negative association between genotype yield potential and protein content of the grain... Nitrogen applications near anthesis increase the protein content of the grain.",
+      "claim_summary": "Wheat grain protein is negatively associated with yield potential and increased by N applied near anthesis.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "range",
+      "range_min": 8,
+      "range_max": 12,
+      "unit": "florets/spikelet",
+      "qualifier": "typical",
+      "evidence_text": "Each spikelet has from 8 to 12 floret primordia in the central part of the spike. The basal and distal spikelets have from six to eight florets.",
+      "claim_summary": "Central wheat spikelets have 8 to 12 floret primordia; basal/distal spikelets 6 to 8.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "range",
+      "range_min": 1624,
+      "range_max": 1669,
+      "unit": "g/m2",
+      "qualifier": "observed",
+      "evidence_text": "Total dry weight ( g/m 2 ) ... Maturity | 1 624 | 1 627 | 1 669 | 1 643 (Table 3.2)",
+      "claim_summary": "Total wheat dry matter at maturity was about 1624 to 1669 g/m2 across seeding densities (Table 3.2).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "text",
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Cereal development is normally expressed in degree-days (GDD)... The GDD vary with growing stage and allow a rough estimation of when a given growth stage is going to occur at a particular site.",
+      "claim_summary": "Wheat development is expressed in GDD (degree-days) which vary by growth stage to predict stage timing.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

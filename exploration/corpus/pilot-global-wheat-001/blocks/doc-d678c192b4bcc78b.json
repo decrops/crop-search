@@ -1,0 +1,1413 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Regulation of Physiological Attributes in Wheat Crops Under Terminal Drought Stress: A Review",
+      "text": "Review Published: 02 September 2025 Volume 19 , pages 781\u2013797 ( 2025 ) Cite this article Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "The grain yield of wheat is the output of the grain-filling process, which is persistently interconnected with crop physiological processes. Under terminal drought, grain filling is based on remobilization of the stored assimilates as well as current photosynthesis, mainly of the flag leaf. Therefore, the flag leaf is a premier organ of photosynthesis that plays a pivotal role in delivering a substantial amount of carbohydrates for grain filling. However, a substantial gap in knowledge still exists as to which metabolic processes are regulated effectively in remobilizing the stored assimilates from plant leaves, particularly flag leaves, to developing grains under terminal drought. Thus, in the present review, we discuss the existing knowledge on wheat plant remobilization, particularly the flag leaves functions, as well as the control of antioxidant defense systems under terminal drought. Moreover, many hormones play an active role in the maturation of plants under terminal water-limited conditions. Thus, the roles of phytohormones such as ABA, cytokinins, and ethylene in response to terminal drought are also discussed in this review. The results of this review provide guidelines for how efficient and judicious the use of resources could be for improving remobilization and sink capacity to reduce the rate of flag leaf senescence and achieve a relatively high wheat grain yield. The importance of improving root traits and root system architecture (RSA) to increase performance and drought resistance in wheat is also discussed. The role of a variety of state-of-the-art approaches, such as high-throughput genotyping and phenotyping, in identifying drought-resistant genotypes/varieties, as well as a multitude of artificial intelligence tools, such as machine learning (ML) and deep learning (DL) models, which are currently used to predict the impact of drought stress, is also discussed in this review."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Key Points",
+      "text": "\u2022 Terminal drought activates enzymatic and nonenzymatic antioxidant systems. \u2022 Reactive oxygen species (ROS) increase in wheat chloroplasts under water deficit conditions, which impairs the regulation of the mechanism of carbon fixation. \u2022 GABA application could regulate physiological mechanisms, leading to improved grain yield via enhanced remobilization of assimilates."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Drought Stress Tolerance in Wheat: Omics Approaches in Understanding and Enhancing Antioxidant Defense Chapter \u00a9 2018 Effects of Pre-Anthesis Drought, Heat and Their Combination on the Growth, Yield and Physiology of diverse Wheat ( Triticum aestivum L.) Genotypes Varying in Sensitivity to Heat and drought stress Article Open access 06 May 2019 Integrated morpho-physiological, metabolomic and transcriptomic profiling uncovers ethylene-mediated metabolic regulation shaping drought resilience in wheat Article Open access 07 May 2026"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Drought Stress Tolerance in Wheat: Omics Approaches in Understanding and Enhancing Antioxidant Defense",
+      "text": "Chapter \u00a9 2018"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Effects of Pre-Anthesis Drought, Heat and Their Combination on the Growth, Yield and Physiology of diverse Wheat ( Triticum aestivum L.) Genotypes Varying in Sensitivity to Heat and drought stress",
+      "text": "Article Open access 06 May 2019"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Integrated morpho-physiological, metabolomic and transcriptomic profiling uncovers ethylene-mediated metabolic regulation shaping drought resilience in wheat",
+      "text": "Article Open access 07 May 2026"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Plant Biochemistry Plant Science Plant Genetics Plant Signalling Plant Development Plant Physiology Grain Filling Physiology in Cereal Crops"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "Data Availability",
+      "text": "There is no data link for this review."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Code Availability",
+      "text": "Not applicable to this review."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "References",
+      "text": "Adams, W., Stewart, J. J., & Demming-Adams, B. (2018). Photosynthetic modulation in response to plant activity and environment. In: Adams, W. W., Terashima, I. The leaf: a platform for performing photosynthesis . Springer Cham. 493\u2013563. https://doi.org/10.1007/978-3-319-93594-2 Ahmad, P., Sarwat, M., & Sharma, S. (2008). Reactive oxygen species, antioxidants and signaling in plants. Journal of Plant Biology , 51 (3), 167\u2013173. Article CAS Google Scholar Ahmad, Z., Waraich, E., Akhtar, S., Anjum, S., Ahmad, T., & Mahboob, W. (2018). Physiological responses of wheat to drought stress and its mitigation approaches. Acta Physiologiae Plantarum , 40 (80). https://doi.org/10.1007/s11738-018-2651-6 Akram, N., Shafiq, F., & Ashraf, M. (2017). Ascorbic acid-A potential oxidant scavenger and its role in plant development and abiotic stress tolerance. Frontiers in Plant Science , 9 . https://doi.org/10.3389/fpls.2017.00613 Al-Yasi, H., Attia, H., Alamer, K., Hassan, F., Ali, E., Elshazly, S., Siddique, K. H. M., & Hessini, K. (2020). Impact of drought on growth, photosynthesis, osmotic adjustment, and cell wall elasticity in Damask Rose. Plant Physiology and Biochemistry , 150 , 133\u2013139. https://doi.org/10.1016/j.plaphy.2020.02.038 Article PubMed CAS Google Scholar Ali, S., Hayat, K., Iqbal, A., & Xie, L. (2020). Implications of abscisic acid in the drought stress tolerance of plants. Agronomy , 10 , 13\u201323. https://doi.org/10.3390/agronomy10091323 Article CAS Google Scholar Ansari, M. I., Jalil, S., Ansari, S. A., & Hasanuzzaman, M. (2021). GABA shunt: A key\u2013player in mitigation of ROS during stress. Plant Growth Regulation , 94 , 131\u2013149. https://doi.org/10.1007/s10725-021-00710-y Article CAS Google Scholar Arous, A., Adda, A., Belkhodja, M., Bouzid, A., & Merah, O. (2020). The contribution of green plant parts to grain filling of durum wheat under water deficit. Bulgarian Journal of Agricultural Science , 26 , 809\u2013815. https://doi.org/10.1016/j.fcr.2010.06.014 Article Google Scholar Bapela, T., Shimelis, H., Tsilo, T. J., & Mathew, I. (2022). Genetic improvement of wheat for drought tolerance: Progress, challenges and opportunities. Plants (Basel Switzerland) , 11 (10), 1331. https://doi.org/10.3390/plants11101331 Article PubMed CAS Google Scholar Barzegari, M., Emam, Y., & Zamani, A. (2020). Yield components and grain yield responses of four wheat cultivars to growth retardant Cycocel under terminal drought stress conditions. Journal of Crop Production and Processing , 10 (3), 139\u2013156. https://doi.org/10.47176/jcpp.10.3.20124 Article Google Scholar Berger, B., Parent, B., & Tester, M. (2010). High-throughput shoot imaging to study drought responses. Journal of Experimental Botany , 61 (13), 3519\u20133528. Article PubMed CAS Google Scholar Bhat, J. A., Deshmukh, R., Zhao, T., Patil, G., Deokar, A., Shinde, S., & Chaudhary, J. (2020). Harnessing high-throughput phenotyping and genotyping for enhanced drought tolerance in crop plants. Journal of Biotechnology , 324 , 248\u2013260. Article PubMed CAS Google Scholar Bi, H., Kovalchuk, N., Langridge, P., Tricker, P. J., Lopato, S., & Borisjuk, N. (2017). The impact of drought on wheat leaf cuticle properties. BMC Plant Biology , 17 . https://doi.org/10.1186/s12870-017-1033-3 Bijanzadeh, E., & Emam, Y. (2012). Evaluation of assimilate remobilization and yield of wheat cultivars under different irrigation regimes in an arid climate. Archives of Agronomy and Soil Science , 58 , 1243\u20131259. https://doi.org/10.1080/03650340.2011.584215 Article Google Scholar Biswal, A. K., & Kohli, A. (2013). Cereal flag leaf adaptations for grain yield under drought: Knowledge status and gaps. Molecular Breeding , 31 , 749\u2013766. https://doi.org/10.1007/s11032-013-9847-7 Article Google Scholar Blum, A. (2009). Effective use of water (EUW) and not water-use efficiency (WUE) is the target of crop yield improvement under drought stress. Field Crops Research , 112 , 119\u2013123. https://doi.org/10.1016/j.fcr.2009.03.009 Article Goo"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Funding",
+      "text": "Since it is a review paper, funding was not requested from any organization to compile it."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations Department of Plant Production and Genetics, School of Agriculture, Shiraz University, Shiraz, Iran Mohammad Hossein Izadi & Yahya Emam Institute of Molecular Biology and Biotechnology, The University of Lahore, Lahore, Pakistan Muhammad Ashraf Authors Mohammad Hossein Izadi View author publications Search author on: PubMed Google Scholar Muhammad Ashraf View author publications Search author on: PubMed Google Scholar Yahya Emam View author publications Search author on: PubMed Google Scholar Contributions M. H. Izadi wrote the draft of this review paper, and M. Ashraf and Y. Emam reviewed thoroughly, rewrote some parts and completed this review. Corresponding author Correspondence to Yahya Emam ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Department of Plant Production and Genetics, School of Agriculture, Shiraz University, Shiraz, Iran Mohammad Hossein Izadi & Yahya Emam Institute of Molecular Biology and Biotechnology, The University of Lahore, Lahore, Pakistan Muhammad Ashraf Authors Mohammad Hossein Izadi View author publications Search author on: PubMed Google Scholar Muhammad Ashraf View author publications Search author on: PubMed Google Scholar Yahya Emam View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "M. H. Izadi wrote the draft of this review paper, and M. Ashraf and Y. Emam reviewed thoroughly, rewrote some parts and completed this review."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Yahya Emam ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Ethical Approval Not applicable. Consent to Participate Not applicable. Consent for Publication All the authors agree to publish this review article in the International Journal of Plant Production. Competing Interest The authors declare that they have no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Ethical Approval",
+      "text": "Not applicable."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Consent to Participate",
+      "text": "Not applicable."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Consent for Publication",
+      "text": "All the authors agree to publish this review article in the International Journal of Plant Production."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Competing Interest",
+      "text": "The authors declare that they have no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher\u2019s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Publisher\u2019s Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law. Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Izadi, M.H., Ashraf, M. & Emam, Y. Regulation of Physiological Attributes in Wheat Crops Under Terminal Drought Stress: A Review. Int. J. Plant Prod. 19 , 781\u2013797 (2025). https://doi.org/10.1007/s42106-025-00368-w Download citation Received : 03 December 2024 Accepted : 24 August 2025 Published : 02 September 2025 Version of record : 02 September 2025 Issue date : December 2025 DOI : https://doi.org/10.1007/s42106-025-00368-w Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords Antioxidants Cereals Flag leaf Photosynthesis Remobilization"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Izadi, M.H., Ashraf, M. & Emam, Y. Regulation of Physiological Attributes in Wheat Crops Under Terminal Drought Stress: A Review. Int. J. Plant Prod. 19 , 781\u2013797 (2025). https://doi.org/10.1007/s42106-025-00368-w Download citation Received : 03 December 2024 Accepted : 24 August 2025 Published : 02 September 2025 Version of record : 02 September 2025 Issue date : December 2025 DOI : https://doi.org/10.1007/s42106-025-00368-w Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "Antioxidants Cereals Flag leaf Photosynthesis Remobilization"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "The grain yield of wheat is the output of the grain-filling process, which is persistently interconnected with crop physiological processes. Under terminal drought, grain filling is based on remobilization of the stored assimilates as well as current photosynthesis, mainly of the flag leaf. Therefore, the flag leaf is a premier organ of photosynthesis that plays a pivotal role in delivering a substantial amount of carbohydrates for grain filling. However, a substantial gap in knowledge still exists as to which metabolic processes are regulated effectively in remobilizing the stored assimilates from plant leaves, particularly flag leaves, to developing grains under terminal drought. Thus, in the present review, we discuss the existing knowledge on wheat plant remobilization, particularly the flag leaves functions, as well as the control of antioxidant defense systems under terminal drought. Moreover, many hormones play an active role in the maturation of plants under terminal water-limited conditions. Thus, the roles of phytohormones such as ABA, cytokinins, and ethylene in response to terminal drought are also discussed in this review. The results of this review provide guidelines for how efficient and judicious the use of resources could be for improving remobilization and sink capacity to reduce the rate of flag leaf senescence and achieve a relatively high wheat grain yield. The importance of improving root traits and root system architecture (RSA) to increase performance and drought resistance in wheat is also discussed. The role of a variety of state-of-the-art approaches, such as high-throughput genotyping and phenotyping, in identifying drought-resistant genotypes/varieties, as well as a multitude of artificial intelligence tools, such as machine learning (ML) and deep learning (DL) models, which are currently used to predict the impact of drought stress, is also discussed in this review.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "\u2022 Terminal drought activates enzymatic and nonenzymatic antioxidant systems.",
+      "char_offset": 1930
+    },
+    {
+      "type": "paragraph",
+      "text": "\u2022 Reactive oxygen species (ROS) increase in wheat chloroplasts under water deficit conditions, which impairs the regulation of the mechanism of carbon fixation.",
+      "char_offset": 2008
+    },
+    {
+      "type": "paragraph",
+      "text": "\u2022 GABA application could regulate physiological mechanisms, leading to improved grain yield via enhanced remobilization of assimilates.",
+      "char_offset": 2170
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a preview of subscription content, log in via an institution to check access.",
+      "char_offset": 2307
+    },
+    {
+      "type": "paragraph",
+      "text": "Adams, W., Stewart, J. J., & Demming-Adams, B. (2018). Photosynthetic modulation in response to plant activity and environment. In: Adams, W. W., Terashima, I. The leaf: a platform for performing photosynthesis . Springer Cham. 493\u2013563. https://doi.org/10.1007/978-3-319-93594-2",
+      "char_offset": 2394
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahmad, P., Sarwat, M., & Sharma, S. (2008). Reactive oxygen species, antioxidants and signaling in plants. Journal of Plant Biology , 51 (3), 167\u2013173.",
+      "char_offset": 2674
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahmad, Z., Waraich, E., Akhtar, S., Anjum, S., Ahmad, T., & Mahboob, W. (2018). Physiological responses of wheat to drought stress and its mitigation approaches. Acta Physiologiae Plantarum , 40 (80). https://doi.org/10.1007/s11738-018-2651-6",
+      "char_offset": 2826
+    },
+    {
+      "type": "paragraph",
+      "text": "Akram, N., Shafiq, F., & Ashraf, M. (2017). Ascorbic acid-A potential oxidant scavenger and its role in plant development and abiotic stress tolerance. Frontiers in Plant Science , 9 . https://doi.org/10.3389/fpls.2017.00613",
+      "char_offset": 3070
+    },
+    {
+      "type": "paragraph",
+      "text": "Al-Yasi, H., Attia, H., Alamer, K., Hassan, F., Ali, E., Elshazly, S., Siddique, K. H. M., & Hessini, K. (2020). Impact of drought on growth, photosynthesis, osmotic adjustment, and cell wall elasticity in Damask Rose. Plant Physiology and Biochemistry , 150 , 133\u2013139. https://doi.org/10.1016/j.plaphy.2020.02.038",
+      "char_offset": 3296
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali, S., Hayat, K., Iqbal, A., & Xie, L. (2020). Implications of abscisic acid in the drought stress tolerance of plants. Agronomy , 10 , 13\u201323. https://doi.org/10.3390/agronomy10091323",
+      "char_offset": 3612
+    },
+    {
+      "type": "paragraph",
+      "text": "Ansari, M. I., Jalil, S., Ansari, S. A., & Hasanuzzaman, M. (2021). GABA shunt: A key\u2013player in mitigation of ROS during stress. Plant Growth Regulation , 94 , 131\u2013149. https://doi.org/10.1007/s10725-021-00710-y",
+      "char_offset": 3799
+    },
+    {
+      "type": "paragraph",
+      "text": "Arous, A., Adda, A., Belkhodja, M., Bouzid, A., & Merah, O. (2020). The contribution of green plant parts to grain filling of durum wheat under water deficit. Bulgarian Journal of Agricultural Science , 26 , 809\u2013815. https://doi.org/10.1016/j.fcr.2010.06.014",
+      "char_offset": 4012
+    },
+    {
+      "type": "paragraph",
+      "text": "Bapela, T., Shimelis, H., Tsilo, T. J., & Mathew, I. (2022). Genetic improvement of wheat for drought tolerance: Progress, challenges and opportunities. Plants (Basel Switzerland) , 11 (10), 1331. https://doi.org/10.3390/plants11101331",
+      "char_offset": 4272
+    },
+    {
+      "type": "paragraph",
+      "text": "Barzegari, M., Emam, Y., & Zamani, A. (2020). Yield components and grain yield responses of four wheat cultivars to growth retardant Cycocel under terminal drought stress conditions. Journal of Crop Production and Processing , 10 (3), 139\u2013156. https://doi.org/10.47176/jcpp.10.3.20124",
+      "char_offset": 4509
+    },
+    {
+      "type": "paragraph",
+      "text": "Berger, B., Parent, B., & Tester, M. (2010). High-throughput shoot imaging to study drought responses. Journal of Experimental Botany , 61 (13), 3519\u20133528.",
+      "char_offset": 4795
+    },
+    {
+      "type": "paragraph",
+      "text": "Bhat, J. A., Deshmukh, R., Zhao, T., Patil, G., Deokar, A., Shinde, S., & Chaudhary, J. (2020). Harnessing high-throughput phenotyping and genotyping for enhanced drought tolerance in crop plants. Journal of Biotechnology , 324 , 248\u2013260.",
+      "char_offset": 4952
+    },
+    {
+      "type": "paragraph",
+      "text": "Bi, H., Kovalchuk, N., Langridge, P., Tricker, P. J., Lopato, S., & Borisjuk, N. (2017). The impact of drought on wheat leaf cuticle properties. BMC Plant Biology , 17 . https://doi.org/10.1186/s12870-017-1033-3",
+      "char_offset": 5192
+    },
+    {
+      "type": "paragraph",
+      "text": "Bijanzadeh, E., & Emam, Y. (2012). Evaluation of assimilate remobilization and yield of wheat cultivars under different irrigation regimes in an arid climate. Archives of Agronomy and Soil Science , 58 , 1243\u20131259. https://doi.org/10.1080/03650340.2011.584215",
+      "char_offset": 5405
+    },
+    {
+      "type": "paragraph",
+      "text": "Biswal, A. K., & Kohli, A. (2013). Cereal flag leaf adaptations for grain yield under drought: Knowledge status and gaps. Molecular Breeding , 31 , 749\u2013766. https://doi.org/10.1007/s11032-013-9847-7",
+      "char_offset": 5666
+    },
+    {
+      "type": "paragraph",
+      "text": "Blum, A. (2009). Effective use of water (EUW) and not water-use efficiency (WUE) is the target of crop yield improvement under drought stress. Field Crops Research , 112 , 119\u2013123. https://doi.org/10.1016/j.fcr.2009.03.009",
+      "char_offset": 5866
+    },
+    {
+      "type": "paragraph",
+      "text": "Blum, A. (2017). Osmotic adjustment is a prime drought stress adaptive engine in support of plant production. Plant and Cell Environment , 40 , 4\u201310. https://doi.org/10.1111/pce.12800",
+      "char_offset": 6090
+    },
+    {
+      "type": "paragraph",
+      "text": "Blum, A., Zhang, J., & Nguyen, H. T. (1999). Consistent differences among wheat cultivars in osmotic adjustment and their relationship to plant production. Field Crops Research , 64 , 287\u2013291. https://doi.org/10.1016/S0378-4290(99)00064-7",
+      "char_offset": 6275
+    },
+    {
+      "type": "paragraph",
+      "text": "Bown, A. W., & Shelp, B. J. (2016). Plant GABA: Not just a metabolite. Trends in Plant Science , 21 (10), 811\u2013813. https://doi.org/10.1016/j.tplants.2016.08.001",
+      "char_offset": 6515
+    },
+    {
+      "type": "paragraph",
+      "text": "Bukhari, M. A., Ahmad, Z., Ashraf, M., Afzal, M., Nawaz, F., Nafees, M., Jatoi, W., Malghani, M., Shah, A., & Manan, A. (2021). Silicon mitigates drought stress in wheat (Triticum aestivum L.) through improving photosynthetic pigments, biochemical and yield characters. Silicon , 13 , 4757\u20134772. https://doi.org/10.1007/s12633-020-00797-4",
+      "char_offset": 6677
+    },
+    {
+      "type": "paragraph",
+      "text": "Cattivelli, L., Rizza, F., Badeck, F. W., Mazzucotelli, E., Mastrangelo, A. M., Francia, E., & Stanca, M. (2008). Drought tolerance improvement in crop plants: An integrated view from breeding to genomics. Field Crops Research . 105: 1\u201314. https://doi.org/10.1016/j.fcr.2007.07.004",
+      "char_offset": 7017
+    },
+    {
+      "type": "paragraph",
+      "text": "Chachar, Z., Fan, L., Chachar, S., Ahmed, N., Narejo, M. N., Ahmed, N., Lai, R., & Qi, Y. (2024). Genetic and genomic pathways to improved wheat ( Triticum aestivum L.) yields: A review. Agronomy , 14 , 1201. https://doi.org/10.3390/agronomy14061201",
+      "char_offset": 7300
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen, Y., Li, C., Zhang, B., Yi, J., Yang, Y., Kong, C., Lei, C., & Gong, M. (2019). The role of the late embryogenesis-abundant (LEA) protein family in development and the abiotic stress response: A comprehensive expression analysis of potato ( Solanum tuberosum ). Genes (Basel) , 10 (2), 148. https://doi.org/10.3390/genes10020148 PMID: 30781418; PMCID: PMC6410179.",
+      "char_offset": 7551
+    },
+    {
+      "type": "paragraph",
+      "text": "Choudhury, F., Rivero, K., M, R., Blumwald, E., & Mittler, R. (2017). Reactive oxygen species, abiotic stress and stress combination. The Plant Journal , 90 , 856\u2013867. https://doi.org/10.1111/tpj.13299",
+      "char_offset": 7921
+    },
+    {
+      "type": "paragraph",
+      "text": "Citakoglu, H., & Co\u015fkun, \u00d6. (2022). Comparison of hybrid machine learning methods for the prediction of short-term meteorological droughts of Sakarya meteorological station in Turkey. Environmental Science and Pollution Research , 29 , 75487\u201375511.",
+      "char_offset": 8124
+    },
+    {
+      "type": "paragraph",
+      "text": "Clarke, D., Hess, T., Haro-Monteagudo, D., Semenov, D., & Knox, J. (2021). Assessing future drought risks and wheat yield losses in England. Agricultural and Forest Meteorology , 297 , 108248. https://doi.org/10.1016/j.agrformet.2020.108248",
+      "char_offset": 8374
+    },
+    {
+      "type": "paragraph",
+      "text": "Condorelli, G. E., Maccaferri, M., Newcomb, M., Andrade-Sanchez, P., White, J. W., French, A. N., Sciara, G., Ward, R., & Tuberosa, R. (2018). Comparative aerial and ground based high throughput phenotyping for the genetic dissection of NDVI as a proxy for drought adaptive traits in durum wheat. Frontiers in Plant Science , 9 , 1885. https://doi.org/10.3389/fpls.2018.01885",
+      "char_offset": 8616
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 8993
+    },
+    {
+      "type": "paragraph",
+      "text": "Davidson, D., & Chevalier, P. (1992). Storage and remobilization of watersoluble carbohydrates in stems of spring wheat. Crop Science , 32 , 186\u2013190. https://doi.org/10.2135/cropsci1992.0011183X003200010038x",
+      "char_offset": 9039
+    },
+    {
+      "type": "paragraph",
+      "text": "Del Pozo, A., Y\u00e1\u00f1ez, A., Matus, I. A., Tapia, G., Castillo, D., Sanchez-Jard\u00f3n, L., & Araus, J. L. (2016). Physiological traits associated with wheat yield potential and performance under water-stress in a mediterranean environment. Frontiers in Plant Science , 7 , 987. https://doi.org/10.3389/fpls.00987 PMID: 27458470; PMCID: PMC4936474.",
+      "char_offset": 9248
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 9590
+    },
+    {
+      "type": "paragraph",
+      "text": "Deng, X., Liu, Y., Xu, X., Liu, D., Zhu, G., Yan, X., Wang, Z., & Yan, Y. (2018). Comparative proteome analysis of wheat flag leaves and developing grains under water deficit. Frontiers in Plant Science , 9 , 425. https://doi.org/10.3389/fpls.2018.00425",
+      "char_offset": 9636
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 9891
+    },
+    {
+      "type": "paragraph",
+      "text": "Desikan, R., Cheung, M. K., Clarke, A., Golding, S., Sagi, S., Fluhr, R., Rock, C., Hancock, J., & Neill, S. (2004). Hydrogen peroxide is a common signal for darkness- and ABA-induced stomatal closure in Pisum sativum . Functional Plant Biology , 31 , 913\u2013920. https://doi.org/10.1071/FP04035",
+      "char_offset": 9937
+    },
+    {
+      "type": "paragraph",
+      "text": "Dharmappa, P., Doddaraju, P., Malagondanahalli, M. V., Rangappa, R. B., Mallikarjuna, N., Rajendrareddy, S., Ramanjinappa, R., Mavinahalli, R., Prasad, T. G., Udayakumar, M., & Sheshshayee, S. (2019). Introgression of root And water use efficiency traits enhances water productivity: An evidence for physiological breeding in rice ( Oryza sativa L). Rice , 12 , 1\u201314. https://doi.org/10.1186/s12284-019-0268-z",
+      "char_offset": 10231
+    },
+    {
+      "type": "paragraph",
+      "text": "Dias de Oliveira, E., Bramley, H., Siddique, K. H. M., Henty, S., Berger, J., & Palta, J. A. (2013). Can elevated CO2 combined with high temperature ameliorate the effect of terminal drought in wheat? Journal of Agronomy and Crop Science , 40 , 160\u2013171. https://doi.org/10.1111/jac.12330",
+      "char_offset": 10642
+    },
+    {
+      "type": "paragraph",
+      "text": "Dietz, K., Z\u00f6rb, C., & Geilfus, C. (2021). Drought and crop yield. Plant Biology , 23 , 881\u2013893. https://doi.org/10.1111/plb.13304",
+      "char_offset": 10931
+    },
+    {
+      "type": "paragraph",
+      "text": "Docheshmeh Gorgij, A., Alizamir, M., Kisi, O., & Elshafie, A. (2022). Drought modeling by standard precipitation index (SPI) in a semiarid climate using deep learning method: Long short-term memory. Neural Computing and Applications , 34 , 2425\u20132442.",
+      "char_offset": 11063
+    },
+    {
+      "type": "paragraph",
+      "text": "Dodog, D., Rancic, D., Vucelic Radovic, B., Zoric, M., Savic, J., Kandic, J., Pecinar, I., Stanojevic, S., \u0160eslija, A., Vassilev, D., & Pekic-Quarrie, S. (2017). Response of wheat plants under postanthesis stress induced by defoliation: II. Contribution of peduncle morpho-anatomical traits and carbon reserves to grain yield. Journal of Agricultural Science , 15 , 475\u2013493. https://doi.org/10.1017/S0021859616000551",
+      "char_offset": 11315
+    },
+    {
+      "type": "paragraph",
+      "text": "Dolferus, R., Ji, X., & Richard, R. A. (2011). Abiotic stress and control of grain number in cereals. Plant Science , 181 , 331\u2013344. https://doi.org/10.1016/j.plantsci.2011.05.015",
+      "char_offset": 11733
+    },
+    {
+      "type": "paragraph",
+      "text": "Dong, H., Dong, J., Sun, S., Bai, T., Zhao, D., Yin, Y., et al. (2024). Crop water stress detection based on UAV remote sensing systems. Agricultural Water Management , 303 , 109059. https://doi.org/10.1016/j.agwat.2024.109059",
+      "char_offset": 11914
+    },
+    {
+      "type": "paragraph",
+      "text": "Dudziak, K., Zapalska, M., B\u00f6rner, A., Szczerba, H., Kowalczyk, K., & Nowak, M. (2019). Analysis of wheat gene expression related to the oxidative stress response and signal transduction under short-term osmotic stress. Scientific Reports , 9 , 1\u201314. https://doi.org/10.1038/s41598-019-39154-w",
+      "char_offset": 12142
+    },
+    {
+      "type": "paragraph",
+      "text": "Duvnjak, J., Sarcevic, H., Vukovic, R., & Spanic, V. (2024). Effects of drought at anthesis on flag leaf physiology and gene expression in diverse wheat ( Triticum aestivum L.) genotypes. Agronomy , 14 , 1522. https://doi.org/10.3390/agronomy14071522",
+      "char_offset": 12437
+    },
+    {
+      "type": "paragraph",
+      "text": "Ebeed, H., & El-helely, A. (2025). Genomic insights into threonine aldolase genes in wheat: Characterization and expression analysis during grain filling under drought stress. Plant Gene , 41 , 100483. https://doi.org/10.1016/j.plgene.2024.100483",
+      "char_offset": 12689
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sabagh, A., Hossain, A., Barutcular, C., Gormus, O., Ahmad, Z., Hussain, S., Islam, M., Alharby, H., Bamagoos, A., & Kumar, N. (2019). Effects of drought stress on the quality of major oilseed crops: Implications and possible mitigation strategies- A review. Applied Ecology & Environmental Research , 17 , 4019\u20134043. https://doi.org/10.15666/aeer/1702_40194043",
+      "char_offset": 12937
+    },
+    {
+      "type": "paragraph",
+      "text": "Elahi, I., Saeed, U., Wadood, A., Abbas, A., Nawaz, H., & Jabbar, S. (2022). Effect of climate change on wheat productivity. IntechOpen. In: Ansari, M. R., Wheat. Book metrics overview Press. 342 pp. https://doi.org/10.5772/intechopen.103780",
+      "char_offset": 13303
+    },
+    {
+      "type": "paragraph",
+      "text": "Emam, Y. (2011). Cereal production. Shiraz University Press. 199 pp. (in Persian). ISBN:9789640114575.",
+      "char_offset": 13546
+    },
+    {
+      "type": "paragraph",
+      "text": "Faghani, E., Gharechahi, J., Komatsu, S., Mirzaei, M., Khavarinejad, R. A., Najafi, F., Farsad, L. K., & Salekdeh, G. H. (2015). Comparative physiology and proteomic analysis of two wheat genotypes contrasting in drought tolerance. Journal of Proteome , 114 , 1\u201315.",
+      "char_offset": 13650
+    },
+    {
+      "type": "paragraph",
+      "text": "Fahad, S., Ullah, A., Ali, U., Ali, E., Saud, S., Hakeem, K., Alharby, H., Sabagh, E. L., Barutcular, A., Kamran, C., Turan, M., Adnan, V., Arif, M., M., & Amanullah (2019). Drought tolerance in plants role of phytohormones and scavenging system of ROS. In M. Hasanuzzaman, M. Fujita, H. Oku, & M. Islam (Eds.), Plant tolerance to environmental stress (pp. 103\u2013114). CRC. https://doi.org/10.1201/9780203705315",
+      "char_offset": 13917
+    },
+    {
+      "type": "paragraph",
+      "text": "Faraji, J., & Sepehri, A. (2020). Exogenous nitric oxide improves the protective effects of TiO2 nanoparticles on growth, antioxidant system, and photosynthetic performance of wheat seedlings under drought stress. Journal of Soil Science and Plant Nutrition , 12 , 1\u201312. https://doi.org/10.1007/s42729-019-00158-0",
+      "char_offset": 14328
+    },
+    {
+      "type": "paragraph",
+      "text": "Farooq, M., Nawaz, A., Chaudhry, M. A. M., Indrasti, R., & Rehman, A. (2017). Improving resistance against terminal drought in bread wheat by exogenous application of proline and gamma-aminobutyric acid. Journal of Agronomy and Crop Sciences , 203 (6), 464\u2013472. https://doi.org/10.1111/jac.12222",
+      "char_offset": 14643
+    },
+    {
+      "type": "paragraph",
+      "text": "Feng, L., Chen, S., Zhang, C., Zhang, Y., & He, Y. (2021). A comprehensive review on recent applications of unmanned aerial vehicle remote sensing with various sensors for high-throughput plant phenotyping. Computers and Electronics in Agriculture , 182 , 106033. https://doi.org/10.1016/j.compag.2021.106033",
+      "char_offset": 14940
+    },
+    {
+      "type": "paragraph",
+      "text": "Figueroa-Bustos, V., Palta, J. A., Chen, Y., Stefanova, K., & Siddique, K. H. M. (2020). Wheat cultivars with contrasting root system size responded differently to terminal drought. Frontiers in Plant Science , 11 , 1285. https://doi.org/10.3389/fpls.2020.01285",
+      "char_offset": 15250
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 15513
+    },
+    {
+      "type": "paragraph",
+      "text": "Filipovi\u0107, A. (2021). Water plant and soil relation under stress situations. In Meena RS and Datta R Soil Moisture Importance. BoD Press. 154 Pages. https://doi.org/10.5772/intechopen.93528",
+      "char_offset": 15559
+    },
+    {
+      "type": "paragraph",
+      "text": "Finkel, E. (2009). With \u2018phenomics\u2019, plant scientists hope to shift breeding into overdrive. Science , 325 , 380\u2013381.",
+      "char_offset": 15750
+    },
+    {
+      "type": "paragraph",
+      "text": "Food and Agriculture Organization of the United Nations (2022). FAOSTAT. Crops and Livestock Products. Retrieved May 5, 2022, from http://Faostat.fao.org/download/O/OA/E",
+      "char_offset": 15869
+    },
+    {
+      "type": "paragraph",
+      "text": "Foulkes, M. J., Sylvester-Bradley, R., Weightman, R., & Snape, R. (2007). Identifying physiological traits associated with improved drought resistance in winter wheat. Field Crops Research , 103 , 11\u201324. https://doi.org/10.1016/j.fcr.2007.04.007",
+      "char_offset": 16040
+    },
+    {
+      "type": "paragraph",
+      "text": "Foyer, C. H., & Noctor, G. (2003). Redox sensing and signaling associated with reactive oxygen in chloroplasts, peroxisomes and mitochondria. Physiologia Plantarum , 119 (3), 355\u2013364. https://doi.org/10.1034/j.1399-3054.2003.00223.x",
+      "char_offset": 16287
+    },
+    {
+      "type": "paragraph",
+      "text": "Foyer, C. H., & Noctor, G. (2005). Redox homeostasis and antioxidant signaling: A metabolic interface between stress perception and physiological responses. The Plant Cell , 17 (7), 1866\u20131875. https://doi.org/10.1105/tpc.105.033589",
+      "char_offset": 16521
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 16754
+    },
+    {
+      "type": "paragraph",
+      "text": "Furbank, R. T. (2009). Plant phenomics: From gene to form and function. Functional Plant Biology , 36 , 5\u20136.",
+      "char_offset": 16804
+    },
+    {
+      "type": "paragraph",
+      "text": "Gallie, D. R. (2012). The role of L-ascorbic acid recycling in responding to environmental stress and in promoting plant growth. Journal of Experimental Botany , 64 , 433\u2013443. https://doi.org/10.1093/jxb/ers330",
+      "char_offset": 16914
+    },
+    {
+      "type": "paragraph",
+      "text": "Ghodke, P. H., Ramakrishnan, S., Shirsat, D., Vani, G., & Arora, A. (2019). Morphological characterization of wheat genotypes for stay green and physiological traits by multivariate analysis under drought stress. Plant Physiology Reports , 24 , 305\u2013315. https://doi.org/10.1007/s40502-019-00458-8",
+      "char_offset": 17126
+    },
+    {
+      "type": "paragraph",
+      "text": "Goharrizi, K. J., Hamblin, M. R., Karami, S., & Nazari, M. (2021). Physiological, biochemical, and metabolic responses of abiotic plant stress: Salinity and drought. Turkish Journal of Botany , 45 (7). https://doi.org/10.3906/bot-2108-30",
+      "char_offset": 17424
+    },
+    {
+      "type": "paragraph",
+      "text": "Gol, L., Tom\u00e9, F., & von Korff, M. (2017). Floral transitions in wheat and barley: Interactions between photoperiod, abiotic stresses, and nutrient status. Journal of Experimental Botany , 68 , 1399\u20131410. https://doi.org/10.1093/jxb/erx055",
+      "char_offset": 17663
+    },
+    {
+      "type": "paragraph",
+      "text": "Gong, H. J., Chen, M., Zhao, Z. G., Chen, G. C., & Zhou, W. J. (2008). Effects of silicon on defense of wheat against oxidative stress under drought at different developmental stages. Biologia Plantarum , 52 , 592\u2013596. https://doi.org/10.1007/s10535-008-0118-0",
+      "char_offset": 17904
+    },
+    {
+      "type": "paragraph",
+      "text": "Guo, R., Shi, L. X., Jiao, Y., Li, M. X., Zhong, X. L., & Gu, F. X. (2018). Metabolic responses to drought stress in the tissues of drought-tolerant and drought-sensitive wheat genotype seedlings. AoB Plants , 10 , 1\u201313. https://doi.org/10.1093/aobpla/ply016",
+      "char_offset": 18166
+    },
+    {
+      "type": "paragraph",
+      "text": "Gupta, B. B., Gaurav, A., Attar, R. W., Arya, V., Bansal, S., Alhomoud, A., & Chui, K. T. (2024). Advance drought prediction through rainfall forecasting with hybrid deep learning model. Scientific Reports , 14 , 30459. https://doi.org/10.1038/s41598-024-80099-6",
+      "char_offset": 18426
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 18690
+    },
+    {
+      "type": "paragraph",
+      "text": "Halder, T., Choudhary, M., Liu, H., Chen, Y., Yan, G., & Siddique, K. H. M. (2022). Wheat proteomics for abiotic stress tolerance and root system architecture: Current status and future prospects. Proteomes , 10 , 17. https://doi.org/10.3390/proteomes10020017",
+      "char_offset": 18740
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 19001
+    },
+    {
+      "type": "paragraph",
+      "text": "Hancock, R. D., McRae, D., Haupt, S., & Viola, R. (2003). Synthesis of L-ascorbic acid in the phloem. BMC Plant Biology , 3 (1), 7. https://doi.org/10.1186/1471-2229-3-7",
+      "char_offset": 19051
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 19222
+    },
+    {
+      "type": "paragraph",
+      "text": "Hao, P., Zhu, J., Gu, A., Lv, D., Ge, P., Chen, G., Li, X., & Yan, Y. (2015). An integrative proteome analysis of different seedling organs in tolerant and sensitive wheat cultivars under drought stress and recovery. Proteomics , 15 , 1544\u20131563.",
+      "char_offset": 19268
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasan, M., Alabdallah, M. N., Alharbi, B. M., Waseem, M., Yao, G., Liu, X., El-Gawad, A., El-Yazied, H. G., Ibrahim, A., Shah Jahan, M., M., & Fang, X. (2021). GABA: A key player in drought stress resistance in plants. International Journal of Molecular Science , 22 , 10136. https://doi.org/10.3390/ijms221810136",
+      "char_offset": 19515
+    },
+    {
+      "type": "paragraph",
+      "text": "Hatfield, J. L., & Dold, C. (2019). Water-Use efficiency: Advances and challenges in a changing climate. Frontiers in Plant Science , 19 , 10:103. https://doi.org/10.3389/fpls.2019.00103 PMID: 30838006; PMCID: PMC6390371.",
+      "char_offset": 19830
+    },
+    {
+      "type": "paragraph",
+      "text": "Heidari, H. (2022). Source\u2013sink relationship in wheat as affected by defoliation and spikelet removal. Acta Fytotechnica Et Zootechnica , 25 , 40\u201345. https://doi.org/10.15414/afz.2022.25.01.40-45",
+      "char_offset": 20053
+    },
+    {
+      "type": "paragraph",
+      "text": "Hein, N. T., Ciampitti, I. A., & Krishna, S. V., Jagadish (2021). Bottlenecks and opportunities in field-based high-throughput phenotyping for heat and drought stress. Journal of Experimental Botany , 72 (14), 5102\u20135116.",
+      "char_offset": 20250
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 20472
+    },
+    {
+      "type": "paragraph",
+      "text": "Hickey, K., Wood, M., Sexton, T., Sahin, Y., Nazarov, T., Fisher, J., Sanguinet, K., Cousins, A., Kirchhoff, H., & Smertenko, A. (2022). Drought tolerance strategies and autophagy in resilient wheat genotypes. Cells , 11 , 1\u201326. https://doi.org/10.3390/cells11111765",
+      "char_offset": 20522
+    },
+    {
+      "type": "paragraph",
+      "text": "Hopkins, W.G., (2004). In N. Huner (Ed.), Introduction to plant physiology (3rd ed). John Wiley & Sons, Inc. 118 pages. ISBN: 978-0470247662.",
+      "char_offset": 20790
+    },
+    {
+      "type": "paragraph",
+      "text": "Houda, H., Nadia, Y., Bouldjedj, R., & Belbekri, N. (2023). Mitigationvof Peg induces drought stress in wheat ( Triticum durum L.) by exogenous application of proline. Romanian Agricultural Research , 40 , 105\u2013116. https://doi.org/10.59665/rar4010",
+      "char_offset": 20933
+    },
+    {
+      "type": "paragraph",
+      "text": "Itam, M., Mega, R., Tadano, S., Abdelrahman, M., Matsunaga, S., Yamasaki, T., Akashi, K., & Tsujimoto, H. (2020). Metabolic and physiological responses to progressive drought stress in bread wheat. Scientific Reports , 10 , 1\u201314. https://doi.org/10.1038/s41598-020-74303-6",
+      "char_offset": 21182
+    },
+    {
+      "type": "paragraph",
+      "text": "Ji, X., Shiran, B., Wan, J., Lewis, D. C., Jenkins, C. L. D., Condon, A. G., Richards, R. A., & Dolferus, R. (2010). Importance of preanthesis anther sink strength for maintenance of grain number during reproductive stage water stress in wheat. Plant and Cell Environment , 33 , 926\u2013942. https://doi.org/10.1111/j.1365-3040.2010.02130.x",
+      "char_offset": 21456
+    },
+    {
+      "type": "paragraph",
+      "text": "Johnson, D. A., Richards, R. A., & Turner, N. C. (1983). Yield, water relations, gas exchange, and surface reflectance or nearisogenic wheat lines differing in glaucousness. Crop Science , 23 (2), 318\u2013325. https://doi.org/10.2135/cropsci1983.0011183X002300020033x",
+      "char_offset": 21794
+    },
+    {
+      "type": "paragraph",
+      "text": "Kamal, N. M., Gorafi, Y. S. A., Abdelrahman, M., Abdellatef, E., & Tsujimoto, H. (2019). Stay-green trait: A prospective approach for yield potential, and drought and heat stress adaptation in globally important cereals. International Journal of Molecular Sciences , 20 , 37\u201358. https://doi.org/10.3390/ijms20235837",
+      "char_offset": 22059
+    },
+    {
+      "type": "paragraph",
+      "text": "Kang, J., Ding, R., Chen, J., Wu, S., Gao, W., Wen, Z., Tong, L., & Du, T. (2025). Crop root system phenotyping with high water-use efficiency and its targeted precision regulation: Present and prospect. Agricultural Water Management , 309 , 109327. https://doi.org/10.1016/j.agwat.2025.109327",
+      "char_offset": 22376
+    },
+    {
+      "type": "paragraph",
+      "text": "Kanta, P., Amirul, I., Nesar, U., Sabibul, H., & Alamgir, H. (2022). Culm reserves and its remobilization to grain for minimization of grain yield loss in drought-resistant wheat cultivars. Research on Crops , 23 , 26\u201332. https://doi.org/10.31830/2348-7542.2022.005",
+      "char_offset": 22671
+    },
+    {
+      "type": "paragraph",
+      "text": "Kapoor, D., Bhardwaj, S., Landi, M., Sharma, A., Ramakrishnan, M., & Sharma, A. (2020). The impact of drought in plant metabolism: How to exploit tolerance mechanisms to increase crop production. Applied Sciences , 10 , 34\u201351. https://doi.org/10.3390/app10165692",
+      "char_offset": 22938
+    },
+    {
+      "type": "paragraph",
+      "text": "Kim, M., Lee, C., Hong, S., Kim, S. L., Baek, J. H., & Kim, K. H. (2021). High-throughput phenotyping methods for breeding drought-tolerant crops. International Journal of Molecular Sciences , 22 (15), 8266. https://doi.org/10.3390/ijms22158266",
+      "char_offset": 23202
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 23448
+    },
+    {
+      "type": "paragraph",
+      "text": "Kirova, E., Pecheva, D., & Simova-Stoilova, L. (2021). Drought response in winter wheat: Protection from oxidative stress and mutagenesis effect. Acta Physiologiae Plantarum , 43 , 8. https://doi.org/10.1007/s11738-020-03182-1",
+      "char_offset": 23494
+    },
+    {
+      "type": "paragraph",
+      "text": "Koevoets, I. T., Venema, J. H., Elzenga, J. T. M., & Testerink, C. (2016). Roots withstanding their environment: Exploiting root system architecture responses to abiotic stress to improve crop tolerance. Frontiers in Plant Science , 7 , 1335.",
+      "char_offset": 23722
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 23966
+    },
+    {
+      "type": "paragraph",
+      "text": "Kong, H., Zhang, Z., Qin, J., & Akram, N. A. (2021). Iinteractive effects of abscisic acid (ABA) and drought stress on the physiological responses of winter wheat ( Triticum aestivum L). Pakistan Journal of Botany , 53 (5), 1545\u20131551. https://doi.org/10.30848/PJB2021-5(11)",
+      "char_offset": 24012
+    },
+    {
+      "type": "paragraph",
+      "text": "Kong, H., Meng, X., Akram, N., Zhu, F., Hu, J., & Zhang, Z. (2023). Seed priming with fullerol improves seed germination, seedling growth and antioxidant enzyme system of two winter wheat cultivars under drought stress. Plants , 12 , 14\u201324. https://doi.org/10.3390/plants12061417",
+      "char_offset": 24287
+    },
+    {
+      "type": "paragraph",
+      "text": "Koramutla, M., Negi, M., & Ayele, B. (2021). Roles of glutathione in mediating abscisic acid signaling and its regulation of seed dormancy and drought tolerance. Genes , 12 , 1620. https://doi.org/10.3390/genes12101620",
+      "char_offset": 24568
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 24788
+    },
+    {
+      "type": "paragraph",
+      "text": "Koyro, H. W., Ahmad, P., & Geissler, N. (2012). Abiotic stress responses in plants: An overview. In P. Ahmad (Ed.), Prasad MNV environmental adaptations and stress tolerance of plants in the era of climate change (pp. 1\u201328). Springer. https://doi.org/10.1007/978-1-4614-0815-4_1",
+      "char_offset": 24838
+    },
+    {
+      "type": "paragraph",
+      "text": "Krishnan, S., Laskowski, K., Shukla, V., & Merewitz, E. B. (2013). Mitigation of drought stress damage by exogenous application of a nonprotein amino acid c\u2013aminobutyric acid on perennial ryegrass. Journal of the American Society for Horticultural Science , 138 , 358\u2013366. https://doi.org/10.21273/JASHS.138.5.358",
+      "char_offset": 25118
+    },
+    {
+      "type": "paragraph",
+      "text": "Lalika, C., Haq, A. U., Mujahid, James, M., & Lalika, M. C. S. (2024). Machine learning algorithms for the prediction of drought conditions in the Wami river subcatchment, Tanzania. Journal of Hydrology: Regional Studies , 53 , 101794. https://doi.org/10.1016/j.ejrh.2024.101794",
+      "char_offset": 25433
+    },
+    {
+      "type": "paragraph",
+      "text": "Lawlor, D. W., & Cornic, G. (2020). Photosynthetic carbon assimilation and associated metabolism in relation to water deficits in higher plants. Plant and Cell Environment , 25 , 275\u2013294. https://doi.org/10.1046/j.0016-8025.2001.00814.x",
+      "char_offset": 25713
+    },
+    {
+      "type": "paragraph",
+      "text": "Li, P., Chen, J., & Wu, P. (2012). Evaluation of grain yield and three physiological traits in 30 spring wheat genotypes across three irrigation regimes. Crop Science , 52 (1), 110\u2013121. https://doi.org/10.2135/cropsci2011.03.0117",
+      "char_offset": 25951
+    },
+    {
+      "type": "paragraph",
+      "text": "Li, H., Dhital, S., Slade, A. J., Yu, W., Gilbert, R., & Gidley, M. J. (2019). Altering starch branching enzymes in wheat generates high-amylose starch with novel molecular structure and functional properties. Food Hydrocolloids , 92 , 51\u201359. https://doi.org/10.1016/j.foodhyd.2019.01.041",
+      "char_offset": 26182
+    },
+    {
+      "type": "paragraph",
+      "text": "Li, C., Zhang, X., Guo, W., Fu, K., Li, C., & Li, C. (2021). Effects of exogenous regulation of ethylene and abscisic acid on grain-filling and endosperm PCD of wheat under drought stress after anthesis. https://doi.org/10.21203/rs.3.rs-829064/v1",
+      "char_offset": 26472
+    },
+    {
+      "type": "paragraph",
+      "text": "Liang, X., Liu, Y., Chen, J., & Adams, C. (2018). Late-season photosynthetic rate and senescence were associated with grain yield in winter wheat of diverse origins. Journal of Agronomy Crop Science , 204 , 1\u201312. https://doi.org/10.1111/jac.12231",
+      "char_offset": 26720
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu, E. K., Mei, X. R., Yan, C. R., Gong, D. Z., & Zhang, Y. Q. (2016). Effects of water stress on photosynthetic characteristics, dry matter translocation and WUE in two winter wheat genotypes. Agricultural Water Management , 167 , 75\u201385. https://doi.org/10.1016/j.agwat.2015.12.026",
+      "char_offset": 26968
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu, Y., Zhang, P., Li, M., Chang, L., Cheng, H., Chai, S., & Yang, D. (2020). Dynamic responses of accumulation and remobilization of water soluble carbohydrates in wheat stem to drought stress. Plant Physiology and Biochemistry , 155 , 262\u2013270. https://doi.org/10.1016/j.plaphy.2020.07.024",
+      "char_offset": 27253
+    },
+    {
+      "type": "paragraph",
+      "text": "Lou, L., Li, X., Chen, J., Li, Y., Tang, Y., & Lv, J. (2018). Photosynthetic and ascorbate-glutathione metabolism in the flag leaves as compared to spikes under drought stress of winter wheat ( Triticum aestivum L). PLoS One , 13. https://doi.org/10.1371/journal.pone.0194625",
+      "char_offset": 27546
+    },
+    {
+      "type": "paragraph",
+      "text": "Lou, R., Li, D., Li, Y., Bian, Z., & Zhu, Y. (2021). Effect of preanthesis drought hardening on postanthesis physiological characteristics, yield and WUE in winter wheat. Python International Journal of Experimental Botany , 90 , 245\u2013257. https://doi.org/10.32604/phyton.2020.014073",
+      "char_offset": 27823
+    },
+    {
+      "type": "paragraph",
+      "text": "Lynch, J. P. (2022). Harnessing root architecture to address global challenges. The Plant Journal , 109 (2), 415\u2013431.",
+      "char_offset": 28107
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma, C., Xie, P., Zhang, K., Yang, J., Li, X., Liu, F., Lin, L., & Zhang, H. (2021). Contribution of the flag leaf to lead absorption in wheat grain at the grain-filling stage. Ecotoxicology and Environmental Safety , 225 , 22\u201329. https://doi.org/10.1016/j.ecoenv.2021.112722",
+      "char_offset": 28226
+    },
+    {
+      "type": "paragraph",
+      "text": "Maghsoudi, K., Emam, Y., Ashraf, M., & Arvin, M. J. (2019a). Alleviation of field water stress in wheat cultivars by using silicon and Salicylic acid applied separately or in combination. Crop and Pasture Science , 70 , 36\u201343. https://doi.org/10.1071/CP18213",
+      "char_offset": 28502
+    },
+    {
+      "type": "paragraph",
+      "text": "Maghsoudi, K., Emam, Y., Ashraf, M., Pessarakli, M., & Arvin, M. J. (2019b). Silicon application positively alters pollen grain area, osmoregulation and antioxidant enzyme activities in wheat plants under water deficit conditions. Journal of Plant Nutrition , 42 , 1\u201312. https://doi.org/10.1080/01904167.2019.1648677",
+      "char_offset": 28762
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahmood, T., Abdullah, M., Ahmar, S., Yasir, M., Iqbal, M. S., Yasir, M., Rehman, S. U., Ahmed, S., Rana, R. M., Ghafoor, A., Shah, M. K. N., Du, X., & Mora-Poblete, F. (2020). Incredible role of osmotic adjustment in grain yield sustainability under water scarcity conditions in wheat ( Triticum aestivum L). Plants , 9 , 1208. https://doi.org/10.3390/plants9091208",
+      "char_offset": 29080
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 29448
+    },
+    {
+      "type": "paragraph",
+      "text": "Manschadi, A. M., Christopher, J., deVoil, P., & Hammer, G. L. (2006). The role of root architectural traits in adaptation of wheat to water-limited environments. Functional Plant Biology , 33 , 823\u2013837. https://doi.org/10.1071/FP06055",
+      "char_offset": 29498
+    },
+    {
+      "type": "paragraph",
+      "text": "Manschadi, A. M., Hammer, G. L., Christopher, J. T., & DeVoil, P. (2008). Genotypic variation in seedling root architectural traits and implications for drought adaptation in wheat ( Triticum aestivum L). Plant and Soil , 303 , 115\u2013129. https://doi.org/10.1007/s11104-007-9492-1",
+      "char_offset": 29735
+    },
+    {
+      "type": "paragraph",
+      "text": "Maqbool, S., Hassan, M. A., Xia, X., York, L. M., Rasheed, A., & He, Z. (2022). Root system architecture in cereals: Progress, challenges and perspective. The Plant Journal , 110 (1), 23\u201342.",
+      "char_offset": 30015
+    },
+    {
+      "type": "paragraph",
+      "text": "M\u00e1rquez-Grajales, A., Villegas-Vega, R., Salas-Mart\u00ednez, F., Acosta-Mesa, H. G., & Mezura-Montes, E. (2024). Characterizing drought prediction with deep learning: A literature review. MethodsX , 13 , 102800. https://doi.org/10.1016/j.mex.2024.102800",
+      "char_offset": 30207
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 30458
+    },
+    {
+      "type": "paragraph",
+      "text": "Martinez, D. E., Luquez, V. M., Bartoli, C. G., & Guiamet, J. J. (2003). Persistence of photosynthetic components and photochemical efficiency in ears of water-stressed wheat ( Triticum aestivum L). Physiologia Plantarum , 119 (4), 519\u2013525. https://doi.org/10.1046/j.1399-3054.2003.00195.x",
+      "char_offset": 30504
+    },
+    {
+      "type": "paragraph",
+      "text": "Mathur, S., Raikalal, P., & Jajoo, A. (2019). Physiological responses of wheat to environmental stresses. In: Hasanuzzaman, M., Nahar, K., Hossain, A. Wheat production in changing environments . Springer Singapore, pp 31\u201361. https://doi.org/10.1007/978-981-13-6883-7",
+      "char_offset": 30795
+    },
+    {
+      "type": "paragraph",
+      "text": "Merah, O., & Monneveux, P. (2015). Contribution of different organs to grain filling in durum wheat under mediterranean conditions I. contribution of postanthesis photosynthesis and remobilization. Journal Agronomy and Crop Science , 201 , 344\u2013352. https://doi.org/10.1111/jac.12109",
+      "char_offset": 31063
+    },
+    {
+      "type": "paragraph",
+      "text": "Michaletti, A., Naghavi, M. R., Toorchi, M., Zolla, L., & Rinalducci, S. (2018). Metabolomics and proteomics reveal drought-stress responses of leaf tissues from spring-wheat. Scientific Reports , 8 , 5710. https://doi.org/10.1038/s41598-018-24012-y",
+      "char_offset": 31347
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 31598
+    },
+    {
+      "type": "paragraph",
+      "text": "Muller, M. (2021). Foes or friends: ABA and ethylene interaction under abiotic stress. Plants 10 , 448. https://doi.org/10.3390/plants10030448",
+      "char_offset": 31648
+    },
+    {
+      "type": "paragraph",
+      "text": "Myers, P. N., Setter, T. L., Madison, J. T., & Thompson, J. F. (1990). Abscisic acid Inhibition of endosperm cell division in cultured maize kernels. Plant Physiology , 97 , 154\u2013164. https://doi.org/10.1104/pp.94.3.1330",
+      "char_offset": 31792
+    },
+    {
+      "type": "paragraph",
+      "text": "Nandgude, N., Singh, T. P., Nandgude, S., & Tiwari, M. (2023). Drought prediction: A comprehensive review of different drought prediction models and adopted technologies. Sustainability , 15 , 11684. https://doi.org/10.3390/su151511684",
+      "char_offset": 32013
+    },
+    {
+      "type": "paragraph",
+      "text": "Nawaz, F., Ashraf, M., Ahmad, R., & Waraich, E. (2013). Selenium (Se) seed priming induced growth and biochemical changes in wheat under water deficit conditions. Biological Trace Element Research , 151 , 284\u2013293. https://doi.org/10.1007/s12011-012-9556-9",
+      "char_offset": 32250
+    },
+    {
+      "type": "paragraph",
+      "text": "Nayyar, H., & Walia, D. P. (2004). Genotypic variation in wheat in response to water stress and abscisic acid-induced accumulation of osmolytes in developing grains. Journal of Agronomy Crop Science , 190 , 39\u201345. https://doi.org/10.1046/j.0931-2250.2003.00072.x",
+      "char_offset": 32507
+    },
+    {
+      "type": "paragraph",
+      "text": "Nazir, M. F., Sarfraz, Z., Mangi, N., Nawaz Shah, M. K., Mahmood, T., Mahmood, T., Iqbal, M. S., Rehmani, M., El-Sharnouby, M., Shabaan, M., Sorour, S., & Sabagh, A. E. (2021). Postanthesis mobilization of stem assimilates in wheat under induced stress. Sustainability , 13 , 40\u201359. https://doi.org/10.3390/su13115940",
+      "char_offset": 32771
+    },
+    {
+      "type": "paragraph",
+      "text": "Nilsen, E. T., & Orcutt, D. M. (1996). Physiology of plants under stress: Abiotic factors . 689 Pages. New York: John Wiley & Sons, Inc. ISBN:9780471035121.",
+      "char_offset": 33090
+    },
+    {
+      "type": "paragraph",
+      "text": "Nio, S. A., Mantilen Ludong, D. P., & Wade, L. J. (2018). Comparison of leaf osmotic adjustment expression in wheat ( Triticum aestivum L.) under water deficit between the whole plant and tissue levels. Agriculture and Natural Resources , 52 , 33\u201338. https://doi.org/10.1016/j.anres.2018.03.003",
+      "char_offset": 33248
+    },
+    {
+      "type": "paragraph",
+      "text": "Noctor, G., Mhamdi, A., & Foyer, C. H. (2014). The roles of reactive oxygen metabolism in drought: Not so cut and dried. Plant Physiology , 164 , 1636\u20131648. https://doi.org/10.1104/pp.113.233478",
+      "char_offset": 33544
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 33740
+    },
+    {
+      "type": "paragraph",
+      "text": "Nouraei, S., Mia, M. S., Liu, H., Turner, N. C., & Yan, G. (2024). Genome-wide association study of drought tolerance in wheat ( Triticum aestivum L.) identifies SNP markers and candidate genes. Molecular Genetics and Genomics , 299 (1), 22. https://doi.org/10.1007/s00438-024-02104-x",
+      "char_offset": 33790
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 34076
+    },
+    {
+      "type": "paragraph",
+      "text": "Oyounalsoud, M. S., Yilmaz, A. G., Abdallah, M., & Abdeljaber, A. (2024). Drought prediction using artificial intelligence models based on climate data and soil moisture. Scientific Reports , 14 , 19700. https://doi.org/10.1038/s41598-024-70406-6",
+      "char_offset": 34126
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 34374
+    },
+    {
+      "type": "paragraph",
+      "text": "Passioura, J. B. (2007). The drought environment: Physical, biological and agricultural perspectives. Journal of Experimental Botany , 58 , 113\u2013117. https://doi.org/10.1093/jxb/erl212",
+      "char_offset": 34424
+    },
+    {
+      "type": "paragraph",
+      "text": "Pattyn, J., Vaughan-Hirsch, J., & Van de Poel, B. (2020). The regulation of ethylene biosynthesis: A complex multilevel control circuitry. New Phytology , 13 . https://doi.org/10.1111/nph.16873",
+      "char_offset": 34609
+    },
+    {
+      "type": "paragraph",
+      "text": "Pirasteh-Anosheh, H., Emam, Y., & Khaliq, A. (2016). Response of cereals to Cycocel application (Review article). Iran Agricultural Research , 35 , 1\u201312. https://doi.org/10.22099/IAR.2016.3652",
+      "char_offset": 34804
+    },
+    {
+      "type": "paragraph",
+      "text": "Plaut, Z., Butow, B. J., Blumenthal, C. S., & Wrigley, C. W. (2004). Transport of dry matter into developing wheat kernels and its contribution to grain yield under postanthesis water deficit and elevated temperature. Field Crops Research , 86 , 185\u2013198. https://doi.org/10.1016/j.fcr.2003.08.005",
+      "char_offset": 34998
+    },
+    {
+      "type": "paragraph",
+      "text": "Rabieyan, E., Bihamta, M. R., Moghaddam, M. E., Alipour, H., Mohammadi, V., Azizyan, K., & Javid, S. (2023). Analysis of genetic diversity and genome-wide association study for drought tolerance related traits in Iranian bread wheat. BMC Plant Biology , 23 , 431. https://doi.org/10.1186/s12870-023-04416-3",
+      "char_offset": 35296
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 35604
+    },
+    {
+      "type": "paragraph",
+      "text": "Raja, V., Majeed, U., Kang, H., Andrabi, K. I., & John, R. (2017). Abiotic stress: Interplay between ROS, hormones and MAPKs. Environmental Experimental Botany , 137 , 142\u2013157. https://doi.org/10.1016/j.envexpbot.2017.02.010",
+      "char_offset": 35654
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramakrishnan, R. S., Ghodke, P. H., Nagar, S., Vinoth, R., Kumar, B., & Singh, V. P. (2016). Genetic analysis of stay-green trait and its association with morpho-physiological traits under water deficit stress in wheat. Indian Journal of Genetics and Plant Breeding Research , 29 , 177\u2013183. https://doi.org/10.5958/0976-1926.2016.00025.5",
+      "char_offset": 35880
+    },
+    {
+      "type": "paragraph",
+      "text": "Rao, D. S., Raghavendra, M., Gill, P., Madan, S., & Munjal, R. (2020). Oxidative stress and antioxidant metabolites in wheat ( Triticum aestivum L.) varieties during grain development under water deficit conditions. International Journal of Chemical Studies , 8 (5), 2732\u20132739. https://doi.org/10.22271/chemi.2020.v8.i5ak.10734",
+      "char_offset": 36219
+    },
+    {
+      "type": "paragraph",
+      "text": "Rashmi, D., Zanan, R., John, S., Khandagale, K., & Nadaf, A. (2018). \u03b3-aminobutyric acid (GABA): Biosynthesis, role, commercial production, and applications. Studies in Natural Products Chemistry , 57 , 413\u2013452. https://doi.org/10.1016/B978-0-444-64057-4.00013-2",
+      "char_offset": 36548
+    },
+    {
+      "type": "paragraph",
+      "text": "Razik, E. S. A., Alharbi, B. M., Pirzadah, T. B., Alnusairi, G. S. H., Soliman, M. H., & Hakeem, K. R. (2020). \u03b3-Aminobutyric acid (GABA) mitigates drought and heat stress in sunflower ( Helianthus annuus L.) by regulating its physiological, biochemical and molecular pathways. Physiologia Plantarum , 172 , 505\u2013527. https://doi.org/10.1111/ppl.13216",
+      "char_offset": 36812
+    },
+    {
+      "type": "paragraph",
+      "text": "Rezaei, M., Moghaddam, A., Piri, J., Azizyan, G., & Shamsipour, A. A. (2024). Drought prediction using advanced hybrid machine learning for arid and semiarid environments. KSCE Journal of Civil Engineering , 2024:100025 . https://doi.org/10.1016/j.kscej.2024.100025",
+      "char_offset": 37164
+    },
+    {
+      "type": "paragraph",
+      "text": "Richards, R. A., Rawson, H. M., & Johnson, D. A. (1986). Glaucousness in wheat: Its development and effect on water-use efficiency, gas exchange and photosynthetic tissue temperatures. Australian Journal of Plant Physiology , 13 (4), 465\u2013473. https://doi.org/10.1071/PP9860465",
+      "char_offset": 37431
+    },
+    {
+      "type": "paragraph",
+      "text": "Rook, F., Corke, R., Card, R., Munz, G., Smith, C., & Bevan, D. W. (2001). Impaired sucrose-induction mutants reveal the modulation of sugar-induced starch biosynthesis-related gene expression by abscisic acid signaling. The Plant Journal , 26 , 421\u2013433. https://doi.org/10.1046/j.1365-313x.2001.2641043.x",
+      "char_offset": 37709
+    },
+    {
+      "type": "paragraph",
+      "text": "Roy, R., N\u00fa\u00f1ez-Delgado, A., Sultana, S., Wang, J., Munir, A., Battaglia, M. L., Sarker, T., Seleima, M. F., Barmon, M., & Zhang, R. (2021). Additions of optimum water spent mushroom compost and wood Biochar to improve the growth performance of Althaea rosea in drought-prone coal-mined spoils. Journal of Environmental Management , 295 , 113076. https://doi.org/10.1016/j.jenvman.2021.113076",
+      "char_offset": 38016
+    },
+    {
+      "type": "paragraph",
+      "text": "Saeedipour, S., & Moradi, F. (2011). Comparison of the drought stress responses of tolerant and sensitive wheat cultivars during grain filling: Impact of invertase activity on carbon metabolism during kernel development. Journal of Agricultural Science , 3 (2), 32\u201344. https://doi.org/10.5539/jas.v3n2p32",
+      "char_offset": 38409
+    },
+    {
+      "type": "paragraph",
+      "text": "Saini, H. S., & Westgate, M. E. (2000). Reproductive development in grain crops during drought. Advance in Agronomy , 68 , 59\u201396. https://doi.org/10.1016/S0065-2113(08)60843-3",
+      "char_offset": 38715
+    },
+    {
+      "type": "paragraph",
+      "text": "Saradadevi, R., Palta, J. A., & Siddique, K. H. M. (2017). ABA-mediated stomatal response in regulating water use during the development of terminal drought in wheat. Frontiers in Plant Sciences , 8 . https://doi.org/10.3389/fpls.2017.01251",
+      "char_offset": 38892
+    },
+    {
+      "type": "paragraph",
+      "text": "Sareen, S., Budhlakoti, N., Mishra, K. K., Bharad, S., Potdukhe, N. R., Tyagi, B. S., & Singh, G. P. (2023). Resilience to terminal drought, heat, and their combination stress in wheat genotypes. Agronomy , 13 (3), 891. https://doi.org/10.3390/agronomy13030891",
+      "char_offset": 39134
+    },
+    {
+      "type": "paragraph",
+      "text": "Sattar, A., Sher, A., Ijaz, I., Ul-Allah, S., Rizwan, M., Hussain, M., Jabran, K., & Cheema, M. (2020). Terminal drought and heat stress alter physiological and biochemical attributes in flag leaf of bread wheat. PloS One , 15 (5), 1\u201314. https://doi.org/10.1371/journal.pone.0232974",
+      "char_offset": 39396
+    },
+    {
+      "type": "paragraph",
+      "text": "Sehgal, D., Dixon, L., Pequeno, D., Hyles, J., Lacey, I., Crossa, J., Bentley, A., & Dreisigacker, S. (2024). Genomic insights on global journeys of adaptive wheat genes that brought Us to modern wheat. In R. Appels, K. Eversole, C. Feuillet, & D. Gallagher (Eds.), The wheat genome. Compendium of plant genome. . Springer. https://doi.org/10.1007/978-3-031-38294-9_11",
+      "char_offset": 39680
+    },
+    {
+      "type": "paragraph",
+      "text": "Seiler, C., Harshavardhan, V. T., Rajesh, K., Reddy, P. S., Strickert, M., Rolletschek, H., Scholz, U., Wobus, U., & Sreenivasulu, N. (2011). ABA biosynthesis and degradation contributing to ABA homeostasis during barley seed development under control and terminal drought-stress conditions. Journal of Experimental Botany , 62 (8), 2615\u20132632. https://doi.org/10.1093/jxb/erq446",
+      "char_offset": 40050
+    },
+    {
+      "type": "paragraph",
+      "text": "Seleiman, M. F., Al-Suhaibani, N., Ali, N., Akmal, M., Alotaibi, M., Refay, Y., & Dindaroglu, T. (2021). Drought stress impacts on plants and different approaches to alleviate its adverse effects. Plants , 10 (2), 259. https://doi.org/10.3390/plants10020259",
+      "char_offset": 40430
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 40689
+    },
+    {
+      "type": "paragraph",
+      "text": "Shelp, B. J., Bown, A. W., & McLean, M. D. (1999). Metabolism and functions of gamma-aminobutyric acid. Trends in Plant Sciences , 4 (11), 446\u2013452. https://doi.org/10.1016/S1360-1385(99)01486-7",
+      "char_offset": 40739
+    },
+    {
+      "type": "paragraph",
+      "text": "Sheshshayee, S., Vijayaraghavareddy, P., Sreevathsa, R., Rajendrareddy, S., Arakesh, S., Bharti, P., & Soolanayakanahally, R. (2018). Introgression of physiological traits for a comprehensive improvement of drought adaptation in crop plants. Frontiers in Chemistry , 6 , 92\u2013100. https://doi.org/10.3389/fchem.2018.00092",
+      "char_offset": 40934
+    },
+    {
+      "type": "paragraph",
+      "text": "Siddiqui, M. N., L\u00e9on, J., Naz, A. A., & Ballvora, A. (2021). Genetics and genomics of root system variation in adaptation to drought stress in cereal crops. Journal of Experimental Botany , 72 (4), 1007\u20131019.",
+      "char_offset": 41255
+    },
+    {
+      "type": "paragraph",
+      "text": "Smirnoff, N., & Arnaud, D. (2018). Hydrogen peroxide metabolism and functions in plants. New Phytology , 221 , 1197\u20131214. https://doi.org/10.1111/nph.15488",
+      "char_offset": 41466
+    },
+    {
+      "type": "paragraph",
+      "text": "Song, Y., Xiang, F., Zhang, G., Miao, Y., Miao, C., & Song, C. P. (2016). Abscisic acid as an internal integrator of multiple physiological processes modulates leaf senescence onset in Arabidopsis Thaliana . Frontiers in Plant Science , 7 , 181\u2013186. https://doi.org/10.3389/fpls.2016.00181",
+      "char_offset": 41623
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 41914
+    },
+    {
+      "type": "paragraph",
+      "text": "Su, R., Chen, L., Wang, Z., & Hu, Y. (2020). Differential response of cuticular wax and photosynthetic capacity by glaucous and nonglaucous wheat cultivars under mild and severe droughts. Field Crops Research , 147 , 303\u2013312. https://doi.org/10.1016/j.plaphy.2019.12.036",
+      "char_offset": 41960
+    },
+    {
+      "type": "paragraph",
+      "text": "Sun, Z., Li, S., Chen, W., Zhang, J., Zhang, L., Sun, W., & Wang, Z. (2021). Plant dehydrins: Expression, regulatory networks, and protective roles in plants challenged by abiotic stress. International Journal of Molecular Sciences , 22 , 12\u201321. https://doi.org/10.3390/ijms222312619 PMID: 34884426; PMCID: PMC8657568.",
+      "char_offset": 42232
+    },
+    {
+      "type": "paragraph",
+      "text": "Sussmilch, F. C., Schultz, J., Hedrich, R., & Roelfsema, M. R. G. (2019). Acquiring control: The evolution of stomatal signaling pathways. Trends in Plant Science , 24 , 342\u2013351. https://doi.org/10.1016/j.tplants.2019.01.002",
+      "char_offset": 42552
+    },
+    {
+      "type": "paragraph",
+      "text": "Takahashi, H., & Pradal, C. (2021). Root phenotyping: Important and minimum information required for root modeling in crop plants. Breeding Science , 71 (1), 109\u2013116.",
+      "char_offset": 42778
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 42946
+    },
+    {
+      "type": "paragraph",
+      "text": "Talaat, T. (2019). Role of reactive oxygen species signaling in plant growth and development. In M. Hasanuzzaman, V. Fotopoulos, & K. Nahar (Eds.), Masayuki. Reactive oxygen, nitrogen and sulfur species in plants: Production, metabolism, signaling and defense mechanisms (pp. 225\u2013266). Wiley. https://doi.org/10.1002/9781119468677",
+      "char_offset": 42996
+    },
+    {
+      "type": "paragraph",
+      "text": "Tambussi, E. A., Bort, J., & Araus, J. L. (2007). Water use efficiency in C3 cereals under mediterranean conditions: A review of physiological aspects. Annals of Applied Biology , 150 , 307\u2013321. https://doi.org/10.1111/j.1744-7348.2007.00143.x",
+      "char_offset": 43328
+    },
+    {
+      "type": "paragraph",
+      "text": "Thomas, H., & Howarth, C. (2000). Five ways to stay green. Journal of Experimental Botany , 51 , 329\u2013337. https://doi.org/10.1093/jexbot/51.suppl_1.329",
+      "char_offset": 43573
+    },
+    {
+      "type": "paragraph",
+      "text": "Torres-Quezada, E., Fuentes-Pe\u00f1ailillo, F., Gutter, K., Rond\u00f3n, F., Marmolejos, J. M., Maurer, W., & Bisono, A. (2025). Remote sensing and soil moisture sensors for irrigation management in Avocado orchards: A practical approach for water stress assessment in Remote agricultural areas. Remote Sensing , 17 , 708. https://doi.org/10.3390/rs17040708",
+      "char_offset": 43726
+    },
+    {
+      "type": "paragraph",
+      "text": "Travaglia, C., Cohen, A. C., Reinoso, H., Castillo, C., & Bottini, R. (2007). Exogenous abscisic acid increases carbohydrate accumulation and redistribution to the grains in wheat grown under field conditions of soil water restriction. Journal of Plant Growth Regulation , 26 , 285\u2013289. https://doi.org/10.1007/s00344-007-9018-3",
+      "char_offset": 44076
+    },
+    {
+      "type": "paragraph",
+      "text": "Travaglia, C., Balboa, G., Esp\u00f3sito, G., & Reinoso, H. (2012). ABA action on the production and redistribution of field-grown maize carbohydrates in semiarid regions. Journal of Plant Growth Regulation , 67 , 27\u201334. https://doi.org/10.1007/s10725-012-9657-7",
+      "char_offset": 44406
+    },
+    {
+      "type": "paragraph",
+      "text": "Turner, N. C. (1986). Crop water deficits: A decade of progress. Advance in Agronomy , 39 , 1\u201351. https://doi.org/10.1016/S0065-2113(08)60464-2",
+      "char_offset": 44665
+    },
+    {
+      "type": "paragraph",
+      "text": "Tyagi, S., Madhu, S., Singh, K., & Upadhyay, S. K. (2021). Molecular characterization revealed the role of catalases under abiotic and arsenic stress in bread wheat ( Triticum aestivum L). Journal of Hazardous Materials , 403 , 1\u201325. https://doi.org/10.1016/j.jhazmat.2020.123585",
+      "char_offset": 44810
+    },
+    {
+      "type": "paragraph",
+      "text": "Ullah, A., Al-Rajhi, R., Al-Sadi, A., & Farooq, M. (2021). Wheat genotypes with higher intercellular CO2 concentration, rate of photosynthesis, and antioxidant potential can better tolerate drought stress. Journal of Soil Science and Plant Nutrition , 21 , 2378\u20132391. https://doi.org/10.1007/s42729-021-00529-6",
+      "char_offset": 45091
+    },
+    {
+      "type": "paragraph",
+      "text": "Vald\u00e9s, C. V., Campuzano, G. E., L\u00f3pez, A. D., Rueda, C., & Morales-Rosales, E. J. (2020). Variability in soluble carbohydrates of the stem and its contribution to grain yield in wheat. Revista Mexicana De Ciencias Agr\u00edcolas , 10 , 615\u2013627. https://doi.org/10.29312/remexca.v10i3.1540",
+      "char_offset": 45403
+    },
+    {
+      "type": "paragraph",
+      "text": "Valluru, R., Davies, W. J., Reynolds, M. P., & Dodd, I. C. (2016). Foliar abscisic acid-to-ethylene accumulation and response regulate shoot growth sensitivity to mild drought in wheat. Frontiers in Plant Science. 7:461. https://doi.org/10.3389/fpls",
+      "char_offset": 45689
+    },
+    {
+      "type": "paragraph",
+      "text": "Van Doorn, W. G., & Ketsa, S. (2014). Cross reactivity between ascorbate peroxidase and phenol (guaiacol) peroxidase. Postharvest Biology and Technology , 95 , 64\u201369. https://doi.org/10.1016/j.postharvbio.2014.04.002",
+      "char_offset": 45940
+    },
+    {
+      "type": "paragraph",
+      "text": "Varshney, R. K., Barmukh, R., Roorkiwal, M., Qi, Y., Kholova, J., Tuberosa, R., Reynolds, M. P., Tardieu, F., & Siddique, K. H. M (2021). Breeding custom-designed crops for improved drought adaptation. Advanced Genetics (Hoboken N J) , 2 (3), e202100017. https://doi.org/10.1002/ggn2.202100017",
+      "char_offset": 46158
+    },
+    {
+      "type": "paragraph",
+      "text": "Veenstra, L., Santantonio, N., Jannink, J., & Sorrells, M. (2019). Influence of genotype and environment on wheat grain Fructan content. Crop Science , 59 , 190\u2013198. https://doi.org/10.2135/cropsci2018.06.0363",
+      "char_offset": 46453
+    },
+    {
+      "type": "paragraph",
+      "text": "Verbeke, S., Padilla-D\u00edaz, C. M., Haesaert, G., & Steppe, K. (2022). Osmotic adjustment in wheat (Triticum aestivum L.) during pre- and postanthesis drought. Frontiers in Plant Sciences , 13 . https://doi.org/10.3389/fpls.2022.775652",
+      "char_offset": 46664
+    },
+    {
+      "type": "paragraph",
+      "text": "Vijayaraghavareddy, P., Yin, X., Struik, P. C., Makarla, U., & Sreeman, S. (2020). Responses of lowland, upland and aerobic rice genotypes to water limitation during different phases. Rice Science , 27 , 345\u2013354. https://doi.org/10.1016/j.rsci.2020.05.009",
+      "char_offset": 46899
+    },
+    {
+      "type": "paragraph",
+      "text": "Vishwakarma, K., Upadhyay, N., Kumar, N., Yadav, G., Singh, J., Mishra, R. K., Kumar, V., Verma, R., Upadhyay, R. G., & Pandey, M. (2017). Abscisic acid signaling and abiotic stress tolerance in plants: A review on current knowledge and future prospects. Frontiers in Plant Sciences , 8 , 161. https://doi.org/10.3389/fpls.2017.00161",
+      "char_offset": 47156
+    },
+    {
+      "type": "paragraph",
+      "text": "Wahid, A., Gelani, S., Ashraf, M., & Foolad, M. R. (2007). Heat tolerance in plants: An overview. Environmental and Experimantal Botany , 61 , 199\u2013223. https://doi.org/10.1016/j.envexpbot.2007.05.011",
+      "char_offset": 47491
+    },
+    {
+      "type": "paragraph",
+      "text": "Wei, T. M., Chang, X. P., Min, D. H., & Jing, R. L. (2010). Analysis of genetic diversity and trapping elite alleles for plant height in drought-tolerant wheat cultivars. Acta Agronomica Sinica , 36 , 895\u2013904. https://doi.org/10.1016/S1875-2780(09)60053-5",
+      "char_offset": 47692
+    },
+    {
+      "type": "paragraph",
+      "text": "Weyhrich, R. A., Carver, B. F., & Smith, E. L. (1994). Effects of Awn suppression on grain yield and agronomic traits in hard red winter wheat. Crop Science , 34 , 965\u2013969. https://doi.org/10.2135/cropsci1994.0011183X003400040025x",
+      "char_offset": 47949
+    },
+    {
+      "type": "paragraph",
+      "text": "Wilkinson, S., & Davies, W. J. (2010). Drought, ozone, ABA and ethylene: New insights from cell to plant to community. Plant & Cell Environment , 33 , 510\u2013525. https://doi.org/10.1111/j.1365-3040.2009.02052.x",
+      "char_offset": 48181
+    },
+    {
+      "type": "paragraph",
+      "text": "Willenbrink, J., Bonnett, G. D., Willenbrink, S., & Wardlaw, I. F. (1998). Changes of enzyme activities associated with the mobilization of carbohydrate reserves (fructans) from the stem of wheat during kernel filling. New Phytologist , 139 , 471\u2013478. https://doi.org/10.1046/j.1469-8137.1998.00217.x",
+      "char_offset": 48391
+    },
+    {
+      "type": "paragraph",
+      "text": "W\u00fcrschum, T., Langer, S. M., Longin, C. F., Tucker, M., & Leiser, M. (2020). Refining the genetic architecture of flag leaf glaucousness in wheat. Theoretical and Applied Genetics , 133 , 981\u2013991. https://doi.org/10.1007/s00122-019-03522-x",
+      "char_offset": 48693
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu, B., Long, Y., Feng, X., Zhu, X., Sai, N., Chirkova, L., Betts, A., Herrmann, J., Edwards, E. J., & Okamoto, M. (2021). GABA signaling modulates stomatal opening to enhance plant water use efficiency and drought resilience. Nature Communications , 12 , 1952. https://doi.org/10.1038/s41467-021-21694-3",
+      "char_offset": 48934
+    },
+    {
+      "type": "paragraph",
+      "text": "Yadav, G., & Ellis, R. H. (2017). Effects of rain shelter or simulated rain during grain filling and maturation on subsequent wheat grain quality in the UK. Journal of Agricultural Science , 155 , 300\u2013316. https://doi.org/10.1017/S0021859616000411",
+      "char_offset": 49240
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan, S., Wu, Y., Fan, J., Zhang, F., Qiang, S., Zheng, J., Xiang, Y., Guo, J., & Zou, H. (2019). Effects of water and fertilizer management on grain filling characteristics, grain weight and productivity of drip-fertigated winter wheat. Agricultural Water Management , 213 , 983\u2013995. https://doi.org/10.1016/j.agwat.2018.12.019",
+      "char_offset": 49489
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, J. C., Zhang, J. H., Wag, Z. Q., Zhu, Q. S., & Liu, L. J. (2003). Involvement of abscisic acid and cytokinins in the senescence and remobilization of carbon reserves in wheat subjected to water stress during grain filling. Plant Cell & Environment , 26 , 1621\u20131631. https://doi.org/10.1046/j.1365-3040.2003.01081.x",
+      "char_offset": 49818
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, J., Zhang, J., Wang, Z., Xu, G., & Zhu, Q. (2004). Activities of key enzymes in sucrose-to-starch conversion in wheat grains subjected to water deficit during grain filling. Journal of Plant Physiology , 135 , 1621\u20131629. https://doi.org/10.1104/pp.104.041038",
+      "char_offset": 50140
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, J., Zhang, J., Liu, K., Wang, Z., & Liu, L. (2006). Abscisic acid and ethylene interact in wheat grains in response to soil drying during grain filling. New Phytologist , 171 , 293\u2013303. https://doi.org/10.1111/j.1469-8137.2006.01753.x",
+      "char_offset": 50406
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, X., Lu, M., Wang, Y., Wang, Y., Liu, Z., & Chen, S. (2021). Response mechanism of plants to drought stress. Horticulturae , 7 (3), 50. https://doi.org/10.3390/horticulturae7030050",
+      "char_offset": 50648
+    },
+    {
+      "type": "paragraph",
+      "text": "Yao, Y., Guo, W., Gou, J., Hu, Z., Liu, J., Ma, J., Zong, Y., Xin, M., Chen, W., Li, Q., Wang, Z., Zhang, R., Uauy, C., Baloch, F. S., Ni, Z., & Sun, Q. (2025). Wheat2035: Integrating panomics and advanced biotechnology for future wheat design. Molecular Plant , 18 , 272\u2013297.",
+      "char_offset": 50835
+    },
+    {
+      "type": "paragraph",
+      "text": "Yaseen, R., Aziz, O., Saleem, M., Riaz, M., Hye, M., Rehman, M., Ali, S., Rizwan, M., Alyemeni, M., Serehy, M., Misned, F., & Ahmad, P. (2020). Ameliorating the drought stress for wheat growth through application of ACC-deaminase containing rhizobacteria along with biogas slurry. Sustainability , 12 (15), 6022. https://doi.org/10.3390/su12156022",
+      "char_offset": 51113
+    },
+    {
+      "type": "paragraph",
+      "text": "Yong, B., Xie, H., Li, Z., Li, Y. P., Zhang, Y., Nie, G., Zhang, X. Q., Ma, X., Huang, L. K., Yan, Y. H., & Peng, Y. (2017). Exogenous application of GABA improves PEG-induced drought tolerance positively associated with GABA-shunt, polyamines, and proline metabolism in white clover. Frontiers in Physiology , 8 , 1\u201315. https://doi.org/10.3389/fphys.2017.01107",
+      "char_offset": 51462
+    },
+    {
+      "type": "paragraph",
+      "text": "Yuan, H., Song, M., Liu, Y., Xie, Q., Cao, W., Zhu, Y., & Ni, J. (2023). Field phenotyping monitoring systems for high-throughput: A survey of enabling technologies, equipment, and research challenges. Agronomy , 13 , 2832. https://doi.org/10.3390/agronomy13112832",
+      "char_offset": 51825
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, Z., Qu, Y., Ma, F., Lv, Q., Zhu, X., Guo, G., Li, M., Yang, W., Que, B., Zhang, Y., He, T., Qiu, X., Deng, H., Song, J., Liu, Q., Wang, B., Ke, Y., Bai, S., Li, J., Lv, L., & Song, C. P. (2024). Integrating high-throughput phenotyping and genome-wide association studies for enhanced drought resistance and yield prediction in wheat. The New Phytologist , 243 (5), 1758\u20131775. https://doi.org/10.1111/nph.19942",
+      "char_offset": 52091
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, Y., Wu, X., Wang, X., Dai, M., & Peng, Y. (2025). Crop root system architecture in drought response. Journal of Genetics and Genomics , 52 , 4\u201314. https://doi.org/10.1016/j.jgg.2024.05.001",
+      "char_offset": 52509
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao, X. X., Ma, Q. Q., Liang, C., Fang, Y., Wang, Y. Q., & Wang, W. (2007). Effect of Glycinebetaine on function of thylakoid membranes in wheat flag leaves under drought stress. Biologia Plantarum , 51 (3), 584\u2013588. https://doi.org/10.1038/s41598-020-63447-0",
+      "char_offset": 52706
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao, W., Liu, L., Shen, Q., Yang, J., Han, X., Tian, F., & Wu, J. (2020). Effects of water stress on photosynthesis, yield, and water use efficiency in winter wheat. Water , 12 , 21\u201327. https://doi.org/10.3390/w12082127",
+      "char_offset": 52968
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu, G., Ye, N., Yang, J., Peng, X., & Zhang, J. (2011). Regulation of expression of starch synthesis genes by ethylene and ABA in relation to the development of rice inferior and superior spikelets. Jounal of Experimantal Botany , 2 , 3907\u20133916. https://doi.org/10.1093/jxb/err088",
+      "char_offset": 53190
+    },
+    {
+      "type": "paragraph",
+      "text": "Since it is a review paper, funding was not requested from any organization to compile it.",
+      "char_offset": 53473
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Plant Production and Genetics, School of Agriculture, Shiraz University, Shiraz, Iran",
+      "char_offset": 53565
+    },
+    {
+      "type": "paragraph",
+      "text": "Institute of Molecular Biology and Biotechnology, The University of Lahore, Lahore, Pakistan",
+      "char_offset": 53666
+    },
+    {
+      "type": "paragraph",
+      "text": "M. H. Izadi wrote the draft of this review paper, and M. Ashraf and Y. Emam reviewed thoroughly, rewrote some parts and completed this review.",
+      "char_offset": 53760
+    },
+    {
+      "type": "paragraph",
+      "text": "All the authors agree to publish this review article in the International Journal of Plant Production.",
+      "char_offset": 53904
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that they have no competing interests.",
+      "char_offset": 54008
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 54068
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+      "char_offset": 54188
+    },
+    {
+      "type": "paragraph",
+      "text": "Izadi, M.H., Ashraf, M. & Emam, Y. Regulation of Physiological Attributes in Wheat Crops Under Terminal Drought Stress: A Review. Int. J. Plant Prod. 19 , 781\u2013797 (2025). https://doi.org/10.1007/s42106-025-00368-w",
+      "char_offset": 54522
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s42106-025-00368-w",
+      "char_offset": 54737
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 54787
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 54864
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 54934
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-d678c192b4bcc78b"
+}

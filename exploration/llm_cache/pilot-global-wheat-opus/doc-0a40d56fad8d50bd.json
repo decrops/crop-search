@@ -1,0 +1,152 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.70,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) Winter, low grain moisture at harvest ... 0.70 ... 1.15 ... 0.25",
+      "claim_summary": "FAO-56 single initial crop coefficient Kc_ini = 0.70 for winter common wheat.",
+      "extraction_confidence": "high",
+      "bbch_min": 0,
+      "bbch_max": 9
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 1.15,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) ... 1.15 1.15 1.15 1.15 ...",
+      "claim_summary": "FAO-56 single mid-season crop coefficient Kc_mid = 1.15 for common wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.25,
+      "range_max": 0.55,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) ... 0.25 0.55 0.25 0.45 ...",
+      "claim_summary": "FAO-56 single end-season crop coefficient Kc_end = 0.25 (low grain moisture) to 0.55 (high grain moisture) for common wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.30,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Spring, low grain moisture at harvest Spring, high grain moisture at harvest 0.70 0.70 0.30 0.30 ...",
+      "claim_summary": "FAO-56 single initial crop coefficient Kc_ini = 0.30 for spring common wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.15,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) Winter ... 0.15 0.15 0.15 0.15 1.10 1.10 1.10 1.10 0.20 0.45 ...",
+      "claim_summary": "FAO-56 dual basal crop coefficient Kcb_ini = 0.15 for common wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 1.10,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) Winter ... 1.10 1.10 1.10 1.10 ...",
+      "claim_summary": "FAO-56 dual basal mid-season crop coefficient Kcb_mid = 1.10 for common wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.20,
+      "range_max": 0.45,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) Winter ... 0.20 0.45 0.20 0.40 ...",
+      "claim_summary": "FAO-56 dual basal end-season crop coefficient Kcb_end = 0.20 (low grain moisture) to 0.45 (high grain moisture) for common wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "range",
+      "range_min": 0.70,
+      "range_max": 1.10,
+      "unit": "m",
+      "qualifier": "maximum",
+      "evidence_text": "Wheat, common (Triticum aestivum) ... 0.70 – 1.10 0.70 – 1.10 0.70 – 1.10 0.70 – 1.10 1.00 – 1.50 ...",
+      "claim_summary": "FAO-56 maximum effective rooting depth for common wheat is 0.70-1.10 m.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 1.00,
+      "range_max": 1.50,
+      "unit": "m",
+      "qualifier": "maximum",
+      "evidence_text": "Wheat, common (Triticum aestivum) ... 1.00 – 1.50 1.00 – 1.50 1.00 – 1.50 1.00 – 1.50",
+      "claim_summary": "FAO-56 maximum crop height for common wheat is 1.00-1.50 m.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "value_type": "numeric",
+      "numeric_value": 0.50,
+      "unit": "fraction",
+      "qualifier": "typical",
+      "evidence_text": "Wheat, common (Triticum aestivum) 0.50 Wheat, durum (Triticum durum) 0.50",
+      "claim_summary": "FAO-56 soil water depletion fraction p = 0.50 for common and durum wheat (at ETc ~5 mm/day).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "typical",
+      "evidence_text": "Cereals and pseudocereals ... Wheat, common (Triticum aestivum) 0 35 Wheat, durum (Triticum durum) 0 35",
+      "claim_summary": "FAO-56 base temperature Tbase = 0 C for common and durum wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.maximum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "Wheat, common (Triticum aestivum) 0 35 Wheat, durum (Triticum durum) 0 35",
+      "claim_summary": "FAO-56 upper temperature Tupper = 35 C for common and durum wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "range",
+      "range_min": 1.00,
+      "range_max": 1.15,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "Wheat, spring 1.00-1.15 Wheat, winter 0.95-1.05",
+      "claim_summary": "FAO-56 seasonal yield response factor Ky = 1.00-1.15 for spring wheat (sensitivity to water stress).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "range",
+      "range_min": 0.95,
+      "range_max": 1.05,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "Wheat, spring 1.00-1.15 Wheat, winter 0.95-1.05",
+      "claim_summary": "FAO-56 seasonal yield response factor Ky = 0.95-1.05 for winter wheat (sensitivity to water stress).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

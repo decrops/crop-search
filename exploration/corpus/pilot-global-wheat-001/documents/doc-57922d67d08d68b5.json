@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-57922d67d08d68b5",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s00425-019-03129-y.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s00425-019-03129-y.pdf",
+  "doi": "https://doi.org/10.1007/s00425-019-03129-y",
+  "title": "Prospects of orphan crops in climate change",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "57922d67d08d68b5142c03178001d296004879ad4d46d98725ff86f565f855c0",
+  "content_hash": "69d9cc202775bb05fded00c3c6c67b88e28be2c18f2bc1dcecf107f90e5018f5",
+  "text_length": 50082,
+  "publication_date_hint": "2019",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2922341612",
+    "doi": "https://doi.org/10.1007/s00425-019-03129-y",
+    "publication_year": 2019,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/255-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

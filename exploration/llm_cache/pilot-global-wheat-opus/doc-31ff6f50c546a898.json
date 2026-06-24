@@ -1,0 +1,198 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Freezing events that occur after germination cause the winter wheat to go through a vernalization process that is needed to promote flowering in the spring.",
+      "claim_summary": "Winter wheat requires a vernalization process (post-germination freezing) to promote spring flowering.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 1.75,
+      "unit": "lb/bu",
+      "qualifier": "recommended",
+      "evidence_text": "The N requirements for a winter wheat crop roughly starts with 1.75 pounds of N for each bushel of wheat. A 60-bushel wheat crop requires 105 total pounds of N per acre.",
+      "claim_summary": "Winter wheat N requirement is roughly 1.75 lb N per bushel (60-bu crop needs 105 lb N/acre).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 105,
+      "unit": "lb/acre",
+      "qualifier": "typical",
+      "evidence_text": "A 60-bushel wheat crop requires 105 total pounds of N per acre.",
+      "claim_summary": "A 60-bushel winter wheat crop requires 105 lb N per acre.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "lb/acre",
+      "qualifier": "minimum",
+      "evidence_text": "If a soil test is not available... then a minimum of 30 pounds N per acre applied pre-plant or at planting should be enough to supply those early plant needs.",
+      "claim_summary": "A minimum of 30 lb N/acre pre-plant supplies early fall growth and tillering needs.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "A top-dress application, when applied after the crop greens up but before it starts to joint (Feekes 4-5)... N applied after the crop starts to joint (Feekes 6), often has limited yield response unless the crop is severely deficient in N.",
+      "claim_summary": "Top-dress N before jointing (Feekes 4-5); N after jointing (Feekes 6) has limited yield response.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 30,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "In a no-till wheat production system, if liquid N is applied to the soil surface, it can be tied up... a top-dress application of an additional 20 to 30 pounds of N per acre, prior to the rapid plant growth in the spring is often beneficial.",
+      "claim_summary": "No-till wheat benefits from an extra 20-30 lb N/acre to offset residue tie-up of surface N.",
+      "extraction_confidence": "high",
+      "methods": ["no-till", "residue retention"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Phosphorus (P) is essential for root development, tillering and resistance to winterkill. Since it is a very immobile nutrient in the soil it is important to place the P fertilizer in the soil at a depth where wheat roots can reach it.",
+      "claim_summary": "P is essential for root development, tillering, and winterkill resistance; place in soil within root reach.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Potassium (K) should also be applied before planting if soil test levels are low. Many soils have enough K levels in the soil to support a high yielding winter wheat crop.",
+      "claim_summary": "Apply K before planting if soil test is low; many soils have adequate K for high-yield wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "numeric",
+      "numeric_value": 10,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "A crop exhibiting these symptoms as it is breaking dormancy and greening up, can benefit from a base application of ten pounds of S in an early top-dress fertilizer application.",
+      "claim_summary": "Sulfur-deficient wheat benefits from a base application of 10 lb S/acre in early top-dress.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "if the crop is being grown on a sandy or sandy loam soil with less than 3% organic matter, this along with above normal precipitation, can reveal a S deficiency.",
+      "claim_summary": "S deficiency in wheat appears on sandy soils with under 3% organic matter and high precipitation.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "A fertile, deep, loam soil with good internal drainage is often considered the best soil to grow a wheat crop... one soil type, classified as a peat soil, which can have elevated levels of iron, sodium, and manganese, has been identified as unfavorable for wheat production.",
+      "claim_summary": "Best soil for wheat is fertile deep loam with good internal drainage; peat soil is unfavorable.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.drainage_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "A fertile, deep, loam soil with good internal drainage is often considered the best soil to grow a wheat crop.",
+      "claim_summary": "Wheat grows best on soil with good internal drainage.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 5.5,
+      "range_max": 7.5,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "The optimum soil pH for wheat production is between 5.5 and 7.5.",
+      "claim_summary": "Optimum soil pH for wheat production is between 5.5 and 7.5.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "numeric",
+      "numeric_value": 5.5,
+      "unit": "pH",
+      "qualifier": "threshold",
+      "evidence_text": "Growing wheat in acidic soils with a pH of less than 5.5, can lead to increased solubility of aluminum, manganese, and iron which can be toxic to the plant and reduce plant growth and yield potential.",
+      "claim_summary": "Below pH 5.5, aluminum/manganese/iron toxicity reduces wheat growth and yield.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "numeric",
+      "numeric_value": 7.5,
+      "unit": "pH",
+      "qualifier": "threshold",
+      "evidence_text": "Winter wheat produced on alkaline soils, with a pH of 7.5 or higher, can cause a reduced availability of certain micronutrients such as iron, zinc, and manganese.",
+      "claim_summary": "On alkaline soils pH 7.5 or higher, iron/zinc/manganese availability is reduced for wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "numeric",
+      "numeric_value": 6.0,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat has above average soil salinity tolerance. This means that a soil with up to an EC of 6.0 will not have a yield effect on wheat crop",
+      "claim_summary": "Wheat yield is unaffected by soil EC up to 6.0 dS/m.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "numeric",
+      "numeric_value": 13.0,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "When growing a wheat crop in a soil with a salinity of 13.0, an expected relative yield decreases of 50% can be expected.",
+      "claim_summary": "Wheat shows a 50% relative yield decrease at soil salinity (EC) of 13.0 dS/m.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Wheat has above average soil salinity tolerance.",
+      "claim_summary": "Wheat has above-average soil salinity tolerance.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Not taking residual N into consideration can lead to overfertilization which increases production expenses and cause lodging problems prior to harvest, reducing yield potential.",
+      "claim_summary": "Over-fertilization with N can cause wheat lodging prior to harvest, reducing yield.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "In a no-till wheat production system, if liquid N is applied to the soil surface, it can be tied up, or immobilized, on the high amounts of crop residue. This N that is tied up will not be immediately available to the growing crop",
+      "claim_summary": "In no-till wheat, surface-applied N is immobilized on crop residue and not immediately available.",
+      "extraction_confidence": "high",
+      "methods": ["no-till", "residue retention"]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 20,
+    "range_max": 200,
+    "unit": "kg N ha-1",
+    "qualifier": "observed",
+    "evidence_text": "The N input of wheat ranged from 20-200kg N ha−1, and that of maize ranged from 30-400kg N ha−1.",
+    "claim_summary": "Observed N input to wheat across 569 observations ranged 20-200 kg N/ha.",
+    "extraction_confidence": "high",
+    "methods": ["meta-analysis"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_use_efficiency",
+    "value_type": "range",
+    "range_min": 20,
+    "range_max": 50,
+    "unit": "kg kg-1",
+    "qualifier": "observed",
+    "evidence_text": "NUE of wheat ranged from 20 to 50kg kg−1 and NUE of maize from 20 to 80kg kg−1.",
+    "claim_summary": "Wheat nitrogen use efficiency (yield per unit N) ranged 20-50 kg grain per kg N (25th-75th percentile).",
+    "extraction_confidence": "high",
+    "methods": ["meta-analysis"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "water.water_productivity",
+    "value_type": "range",
+    "range_min": 0.5,
+    "range_max": 1.5,
+    "unit": "kg m-3",
+    "qualifier": "observed",
+    "evidence_text": "WUE of wheat ranged from 0.5 to 1.5kg m−3 and WUE of maize ranged from 0.5 to 2.5kg m−3",
+    "claim_summary": "Wheat water use efficiency (yield per unit water) ranged 0.5-1.5 kg/m3 (25th-75th percentile).",
+    "extraction_confidence": "high",
+    "methods": ["meta-analysis"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "range",
+    "range_min": 25,
+    "range_max": 1000,
+    "unit": "mm",
+    "qualifier": "observed",
+    "evidence_text": "The water input of wheat ranged from 25 to 1000mm, and that of maize ranged from 150-2000mm. However, most of the observations were concentrated below 800mm.",
+    "claim_summary": "Seasonal water input (rainfall+irrigation) to wheat ranged 25-1000 mm, mostly below 800 mm.",
+    "extraction_confidence": "medium",
+    "methods": ["meta-analysis"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "range",
+    "range_min": 135,
+    "range_max": 540,
+    "unit": "plants m-2",
+    "qualifier": "typical",
+    "evidence_text": "maize has a much lower planting density (1.5 to 18 plants m−2) than wheat (135 to 540 plants m−2)",
+    "claim_summary": "Typical wheat planting density is 135-540 plants per m2.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "management.residue_cover_response",
+    "value_type": "numeric",
+    "numeric_value": 20,
+    "unit": "%",
+    "qualifier": "observed",
+    "evidence_text": "straw mulching and plastic mulching increased yield, WUE and NUE of wheat by 20%",
+    "claim_summary": "Soil mulching (straw or plastic) increased wheat yield, WUE and NUE by ~20% on average.",
+    "extraction_confidence": "high",
+    "methods": ["meta-analysis"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "numeric",
+    "numeric_value": 28,
+    "unit": "% of ET",
+    "qualifier": "observed",
+    "evidence_text": "in North China Plain... evaporation during the full crop season averaged 28% of total evapotranspiration for winter wheat and 40% of that for summer maize",
+    "claim_summary": "For winter wheat in the North China Plain, soil evaporation averaged 28% of total seasonal evapotranspiration.",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum"]
+  }
+]}

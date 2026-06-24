@@ -1,0 +1,11 @@
+{
+  "event_name": "pre-search",
+  "run_id": "pilot-us-corn-001",
+  "occurred_at": "2026-05-28T12:00:00Z",
+  "payload": {
+    "query": "corn growing conditions Iowa extension site",
+    "crop": "corn",
+    "region_scope": "Iowa"
+  },
+  "status": "received"
+}

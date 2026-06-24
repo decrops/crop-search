@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-0e7d1f1c81862b6f",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s12571-022-01288-7.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s12571-022-01288-7.pdf",
+  "doi": "https://doi.org/10.1007/s12571-022-01288-7",
+  "title": "Global maize production, consumption and trade: trends and R&amp;D implications",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "0e7d1f1c81862b6f85adb2c6fc7294bd042d96eca0db503699b710f2af15429d",
+  "content_hash": "90d98be32ba9382fb241e4352e234e372afba39bed25258da3f55b30b317554d",
+  "text_length": 76276,
+  "publication_date_hint": "2022",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W4280504305",
+    "doi": "https://doi.org/10.1007/s12571-022-01288-7",
+    "publication_year": 2022,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/135-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

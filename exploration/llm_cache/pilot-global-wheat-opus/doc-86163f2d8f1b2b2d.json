@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 300,
+      "unit": "plants/m2",
+      "qualifier": "optimum",
+      "evidence_text": "For the semi-arid region of Eastern Germany with frequent moisture deficit during grain filling, Waloszczyk (1991) reported higher yield stability for lower stand density of winter wheat with 300 plants m-2 at a relatively high average yield level of 8.1 Mg ha-1.",
+      "claim_summary": "Winter wheat showed higher yield stability at 300 plants/m2 under semi-arid grain-fill moisture deficit",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 215,
+      "unit": "plants/m2",
+      "qualifier": "optimum",
+      "evidence_text": "Under dry continental conditions in Montana, USA, at an average yield level of 3.3 Mg ha-1, Chen et al. (2008) found an optimum seeding density of spring wheat at 215 seeds m-2 with highest kernel weight and high number of kernels per spike.",
+      "claim_summary": "Optimum spring wheat seeding density 215 seeds/m2 under dry continental Montana conditions",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "the drier the situation, the lower the optimum stand density. ... under drier conditions, higher seeding rates resulted in the loss of all secondary tillers.",
+      "claim_summary": "Optimum wheat stand density decreases as conditions get drier",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Kleemann and Gill (2010) investigated the effect of increased row spacing of spring wheat in Australia from 18 to 54 cm ... they did not find higher post-flowering water use for larger row spacing to avoid significant yield decrease from 2.9 to 2.3 Mg ha-1 due to reduced radiation interception. Overall, WUE was lower in treatments with wider row spacing.",
+      "claim_summary": "Wider spring wheat row spacing (18 to 54 cm) reduced radiation interception, yield and WUE",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Mahdi et al. (1998) determined a yield loss of 5 % per week for durum wheat when sowing was delayed after first of November in Syria.",
+      "claim_summary": "Durum wheat loses ~5% yield per week of sowing delay after 1 November (Syria)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "early seeding shifts sensitive stages such as flowering and grain filling to periods of better water availability ... Eastham et al. (1999) showed that early sowing of wheat and lupine significantly enhanced overall water use",
+      "claim_summary": "Early sowing improves wheat drought escape by shifting flowering/grain-fill to better water availability",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Shearman et al. (2005) found a linear correlation of yield and harvest index for wheat in the UK until 1983. ... Aisawi (2012) found harvest index to explain yield increase of 0.59 % per year in a CIMMYT germplasm collection between 1966 and 1990.",
+      "claim_summary": "Harvest index improvement drove much of historical wheat yield gains (~0.59%/yr 1966-1990)",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

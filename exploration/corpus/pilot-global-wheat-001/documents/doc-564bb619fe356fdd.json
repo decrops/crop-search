@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-564bb619fe356fdd",
+  "canonical_url": "https://hess.copernicus.org/articles/19/507/2015/hess-19-507-2015.pdf",
+  "source_url": "https://hess.copernicus.org/articles/19/507/2015/hess-19-507-2015.pdf",
+  "doi": "https://doi.org/10.5194/hess-19-507-2015",
+  "title": "Spatial evapotranspiration, rainfall and land use data in water accounting \u2013 Part 1: Review of the accuracy of the remote sensing data",
+  "source_domain": "hess.copernicus.org",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "564bb619fe356fdd5262b1ba34cc76dbb72401ed81282616d5874f9b07c9fcde",
+  "content_hash": "d1df32239a30b6c514ca81aaeadd38394c3b93a808de4134a45ffdc947a8143b",
+  "text_length": 63958,
+  "publication_date_hint": "2015",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2152957977",
+    "doi": "https://doi.org/10.5194/hess-19-507-2015",
+    "publication_year": 2015,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/098-hess.copernicus.org.pdf",
+  "parser_version": "corpus-blocks-1"
+}

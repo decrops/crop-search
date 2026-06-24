@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-7297a1b181e85427",
+  "canonical_url": "https://en.wikipedia.org/wiki/Hemp",
+  "source_url": "https://en.wikipedia.org/wiki/Hemp",
+  "doi": "",
+  "title": "Hemp - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "7297a1b181e854271fc424270915b7c88186a8f7df53428dc5ab68329965d821",
+  "content_hash": "399e52c5655f81eb72aae4e19dc0321bb59ee9af5d84cebc03be9494794a73df",
+  "text_length": 49589,
+  "publication_date_hint": "1991",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 963313
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/154-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

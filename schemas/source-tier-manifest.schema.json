@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/source-tier-manifest.schema.json",
+  "title": "SourceTierManifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "default_policy_id", "policies", "tiers"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "default_policy_id": {
+      "type": "string"
+    },
+    "policies": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["policy_id", "label", "include_all_accessible", "tier_order"],
+        "properties": {
+          "policy_id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "include_all_accessible": {
+            "type": "boolean"
+          },
+          "tier_order": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tiers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tier_id",
+          "label",
+          "priority",
+          "evidence_role",
+          "trust_weight",
+          "query_terms",
+          "domain_fragments",
+          "title_terms",
+          "access_policy"
+        ],
+        "properties": {
+          "tier_id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "evidence_role": {
+            "type": "string"
+          },
+          "trust_weight": {
+            "type": "number",
+            "minimum": 0
+          },
+          "query_terms": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "domain_fragments": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "title_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "access_policy": {
+            "type": "string",
+            "enum": ["open_full_text_preferred", "metadata_or_open_text_only", "public_web_only"]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

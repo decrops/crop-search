@@ -1,0 +1,924 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Mechanism",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Microbiological considerations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Classification",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Single nutrient (\"straight\") fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Multinutrient fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Micronutrients",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Production",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Nitrogen fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Phosphate fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Potassium fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "NPK fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Organic fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Fertilizer consumption",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Application",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Timing and amount of application",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Liquid vs solid",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Slow- and controlled-release fertilizers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Foliar application",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Chemicals that affect nitrogen uptake",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Overfertilization",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "Environmental effects",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Water",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 4,
+      "heading": "Nitrate pollution",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Soil",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 4,
+      "heading": "Acidification",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 4,
+      "heading": "Accumulation of toxic elements",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 4,
+      "heading": "Trace mineral depletion",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 4,
+      "heading": "Changes in soil biology",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Organic agriculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Fossil fuel consumption and sustainability",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Contribution to the greenhouse effect",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "Policy",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Regulation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Subsidies",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 2,
+      "heading": "Sources",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Cited sources",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "External links",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "Bulk blending. Ingredient kg/ton",
+      "headers": [
+        "Blend ingredient",
+        "NPK 17-17-17",
+        "NPK 19-19-19",
+        "NPK 9-23-30",
+        "NPK 8\u201332\u201316"
+      ],
+      "rows": [
+        [
+          "ammonium nitrate",
+          "310",
+          "",
+          "",
+          ""
+        ],
+        [
+          "urea",
+          "",
+          "256",
+          "",
+          ""
+        ],
+        [
+          "diammonium phosphate (DAP)",
+          "376",
+          "421",
+          "500",
+          "462"
+        ],
+        [
+          "triple superphosphate",
+          "",
+          "",
+          "",
+          "261"
+        ],
+        [
+          "potassium chloride",
+          "288",
+          "323",
+          "500",
+          "277"
+        ],
+        [
+          "filler",
+          "26",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "Top users of nitrogen-based fertilizer [ 96 ]",
+      "headers": [
+        "Country",
+        "Total N use (Mt pa)",
+        "N use for feed and pasture (Mt pa)"
+      ],
+      "rows": [
+        [
+          "China",
+          "18.7",
+          "3.0"
+        ],
+        [
+          "India",
+          "11.9",
+          "n/a [ 97 ]"
+        ],
+        [
+          "U.S.",
+          "9.1",
+          "4.7"
+        ],
+        [
+          "France",
+          "2.5",
+          "1.3"
+        ],
+        [
+          "Germany",
+          "2.0",
+          "1.2"
+        ],
+        [
+          "Brazil",
+          "1.7",
+          "0.7"
+        ],
+        [
+          "Canada",
+          "1.6",
+          "0.9"
+        ],
+        [
+          "Turkey",
+          "1.5",
+          "0.3"
+        ],
+        [
+          "UK",
+          "1.3",
+          "0.9"
+        ],
+        [
+          "Mexico",
+          "1.3",
+          "0.3"
+        ],
+        [
+          "Spain",
+          "1.2",
+          "0.5"
+        ],
+        [
+          "Argentina",
+          "0.4",
+          "0.1"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "v t e Agriculture"
+      ],
+      "rows": [
+        [
+          "Outline History Index"
+        ],
+        [
+          "Occupations",
+          "Agriculturist Agricultural Engineer Farmer Farm worker Herder",
+          ""
+        ],
+        [
+          "General",
+          "Agribusiness Agricultural cooperative Agricultural supplies Agricultural science Agricultural engineering Agricultural technology Precision Biotechnology Agroforestry Agronomy Animal husbandry Animal-free agriculture Cash crop Cellular agriculture Cultural methods Contract farming Extensive farming Farm Farmhouse Feed ratio Free range Horticulture Intensive farming animals pigs crops Mechanised agriculture Organic farming Paludiculture Permaculture Plantation Polyculture Rice-duck farming Rice-fish system Sustainable agriculture Sustainable food system Universities and colleges Urban agriculture"
+        ],
+        [
+          "History",
+          "West Asia Ancient Egypt Ancient Greece Ancient Rome Austronesia Agricultural science Agricultural History Review Arab Agricultural Revolution Argentina Canada China Chile Columbian exchange Green Revolution Indian subcontinent Mesoamerica Middle Ages Neolithic Revolution Organic farming Palestine Peru United Kingdom British Agricultural Revolution Cheshire Scotland United States African-American California"
+        ],
+        [
+          "Farming Types",
+          "Agrivoltaic Aquaculture Cattle Cannabis cultivation Dairy farming Desert farming Dryland farming Fur farming Goat farming Grazing Convertible husbandry Rotational grazing Transhumance Hydroponics Insect farming Livestock Pasture Mixed Monoculture Paddy field Pastoral Bocage Pig farming Poultry farming Ranch Rainfed agriculture Orchards Subsistence agriculture Sheep farming Terrace Wildlife farming"
+        ],
+        [
+          "Environmental impact",
+          "Agricultural expansion Agricultural pollution Agricultural wastewater Overgrazing Environmental impact of irrigation Overdrafting Climate change and agriculture Multiple breadbasket failure"
+        ],
+        [
+          "Categories",
+          "Agricultural machinery Agriculture by country Agriculture companies Biotechnology Cannabis cultivation History of agriculture Livestock Meat industry Poultry farming Agriculture and the environment"
+        ],
+        [
+          "Lists",
+          "Agriculturist profession Agricultural machinery Food origins Government ministries Universities and colleges"
+        ],
+        [
+          "Category Portal Commons Wikiproject"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "v t e Plant nutrition / Fertilizer"
+      ],
+      "rows": [
+        [
+          "Imbalances",
+          "Boron deficiency Calcium deficiency Iron deficiency Magnesium deficiency#Plants Manganese deficiency Molybdenum deficiency Nitrogen deficiency Phosphorus deficiency Potassium deficiency Zinc deficiency Micronutrient deficiency Chlorosis Fertilizer burn"
+        ],
+        [
+          "Assimilation",
+          "Nitrogen assimilation Phosphorus assimilation Sulfur assimilation Microbial assistance Photorespiration"
+        ],
+        [
+          "Methods",
+          "Fertigation Fertilizer tree Green manure Hoagland solution Hydroponic dosers Living mulch Nutrient budgeting Nutrient management Organic fertilizer Plant tissue test Variable rate application Controlled-release fertiliser"
+        ],
+        [
+          "Miscellaneous",
+          "Soil fertility Nutrient pollution Soil pH Agrobiology"
+        ],
+        [
+          "Related concepts",
+          "Algal nutrient solutions Biostimulant"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "Authority control databases"
+      ],
+      "rows": [
+        [
+          "International",
+          "GND FAST"
+        ],
+        [
+          "National",
+          "United States France BnF data Japan Czech Republic Israel"
+        ],
+        [
+          "Other",
+          "NARA Encyclopedia of Modern Ukraine Yale LUX"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "A fertilizer or fertiliser is any material of natural or synthetic origin that is applied to soil or to plant tissues to supply plant nutrients . Fertilizers may be distinct from liming materials or other non-nutrient soil amendments . Many sources of fertilizer exist, both natural and industrially produced. [ 1 ] For most modern agricultural practices , fertilization focuses on three main macronutrients : nitrogen (N), phosphorus (P), and potassium (K) with occasional addition of supplements like rock flour for micronutrients . Farmers apply these fertilizers in a variety of ways: through dry or pelletized or liquid application processes, using large agricultural equipment , or hand-tool methods.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Historically, fertilization came from natural or organic sources: compost , animal manure , human manure , harvested minerals , crop rotations , and byproducts of human-nature industries (e.g. fish processing waste , or bloodmeal from animal slaughter ). [ 2 ] However, starting in the 19th century, after innovations in plant nutrition following Justus von Liebig 's discoveries, an agricultural industry developed around synthetically created agrochemical fertilizers . [ 3 ] This transition was important in transforming the global food system towards larger-scale industrial agriculture with large crop yields in monocultures . [ 4 ]",
+      "char_offset": 708
+    },
+    {
+      "type": "paragraph",
+      "text": "The invention of Haber process for producing ammonia for nitrogen in the 20th century combined with amplified chemical production capacity created during World War II led to a boom in using nitrogen fertilizers . [ 5 ] In the latter half of the 20th century, increased use of nitrogen fertilizers (800% increase between 1961 and 2019) has been a crucial component of the increased productivity of conventional food systems as part of the so-called \" Green Revolution \". [ 6 ]",
+      "char_offset": 1347
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers, especially when applied excessively, can have environmental consequences such as water pollution [ 7 ] and eutrophication [ 8 ] due to nutrient runoff . [ 9 ] Additionally, the chemical process for creating the fertilizers results in byproducts, including carbon and other emissions. [ 10 ] In some cases contamination and pollution of soil result by accumulation of heavy metals contained in some fertilizers collected through mining. [ 11 ] Sustainable agricultural practices, such as reduced tillage and planting buffer strips , can minimize these adverse environmental effects. [ 12 ]",
+      "char_offset": 1824
+    },
+    {
+      "type": "paragraph",
+      "text": "Management of soil fertility has preoccupied farmers since the beginning of agriculture. Middle Eastern , [ 16 ] Chinese , [ 17 ] Mesoamerican , [ 18 ] and cultures of the Central Andes [ 19 ] were all early adopters of agriculture. This is thought to have led to their cultures growing faster in population which allowed an exportation of culture to neighboring hunter-gatherer groups. [ 20 ] Fertilizer use along with agriculture allowed some of these early societies a critical advantage over their neighbors, leading them to become dominant cultures in their respective regions. [ 21 ] [ 22 ] Egyptians , Romans , Babylonians , and early Germans are all recorded as using minerals or manure to enhance the productivity of their farms. [ 1 ] The scientific research of plant nutrition started well before the work of German chemist Justus von Liebig although his name is most mentioned as the \"father of the fertilizer industry\". [ 23 ] Nicolas Th\u00e9odore de Saussure and scientific colleagues at the time were quick to disprove the simplifications of von Liebig. [ 24 ] Prominent scientists whom von Liebig drew were Carl Ludwig Sprenger and Hermann Hellriegel . [ 25 ] In this field, a 'knowledge erosion' took place, [ 26 ] partly driven by an intermingling of economics and research. [ 27 ] John Bennet Lawes , an English entrepreneur , began experimenting on the effects of various manures on plants growing in pots in 1837, and a year or two later the experiments were extended to crops in the field. One immediate consequence was that in 1842 he patented a manure formed by treating phosphates with sulfuric acid , and thus was the first to create the artificial manure industry. In the succeeding year, he enlisted the services of Joseph Henry Gilbert ; together they performed crop experiments at the Institute of Arable Crops Research . [ 28 ]",
+      "char_offset": 2427
+    },
+    {
+      "type": "paragraph",
+      "text": "The Birkeland\u2013Eyde process was one of the competing industrial processes at the beginning of nitrogen-based fertilizer production. [ 29 ] This process was used to fix atmospheric nitrogen (N 2 ) into nitric acid (HNO 3 ), one of several chemical processes called nitrogen fixation . The resultant nitric acid was then used as a source of nitrate (NO 3 \u2212 ). A factory based on the process was built in Rjukan and Notodden in Norway and large hydroelectric power facilities were built. [ 30 ]",
+      "char_offset": 4283
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1910s and 1920s witnessed the rise of the Haber process and the Ostwald process . The Haber process produces ammonia (NH 3 ) from methane (CH 4 ) ( natural gas ) and molecular nitrogen (N 2 ) from the air. The ammonia from the Haber process is then partially converted into nitric acid (HNO 3 ) in the Ostwald process . [ 31 ] It is estimated that a third of annual global food production uses ammonia from the Haber\u2013Bosch process and that this supports nearly half the world's population. [ 32 ] [ 33 ] After World War II , nitrogen production plants that had ramped up for wartime bomb manufacturing were pivoted towards agricultural uses. [ 34 ] The use of synthetic nitrogen fertilizers has increased steadily over the last 50 years of the 20th century, rising almost 20-fold to a rate of 100 million tonnes of nitrogen per year in 2003. [ 35 ]",
+      "char_offset": 4775
+    },
+    {
+      "type": "paragraph",
+      "text": "The development of synthetic nitrogen fertilizers has significantly supported global population growth . It has been estimated that almost half the people on the Earth are currently fed due to synthetic nitrogen fertilizer use. [ 36 ] The use of phosphate fertilizers has also increased from 9 million tonnes per year in 1960 to 40 million tonnes per year in 2000, but future phosphorus fertilizer availability is now a critical issue. [ 37 ]",
+      "char_offset": 5629
+    },
+    {
+      "type": "paragraph",
+      "text": "Agricultural use of inorganic fertilizers in 2021 was 195 million tonnes of nutrients, of which 56% was nitrogen. [ 38 ] Asia represented 53% of the world's total agricultural use of inorganic fertilizers in 2021, followed by the Americas (29%), Europe (12%), Africa (4%) and Oceania (2%). This ranking of the regions is the same for all nutrients. The main users of inorganic fertilizers are, in descending order, China, India, Brazil, and the United States of America (see Table 15), with China the largest user of each nutrient. [ 38 ] Agricultural use of inorganic fertilizers in 2023 was 190 million tonnes of nutrients, of which 112 million tonnes (58%) was nitrogen. [ 39 ]",
+      "char_offset": 6073
+    },
+    {
+      "type": "paragraph",
+      "text": "A maize crop yielding 6\u20139 tonnes of grain per hectare (2.5 acres) requires 31\u201350 kilograms (68\u2013110 lb) of phosphate fertilizer to be applied; soybean crops require about half, 20\u201325 kg per hectare. [ 40 ] Yara International is the world's largest producer of nitrogen-based fertilizers. [ 41 ]",
+      "char_offset": 6755
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers enhance the growth of plants. This goal is met in two ways, the traditional one being additives that provide nutrients . The second mode by which some fertilizers act is to enhance the effectiveness of the soil by modifying its water-holding capacity and aeration. [ 42 ] This article, like many on fertilizers, emphasizes the nutritional aspect.",
+      "char_offset": 7050
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers typically provide, in varying proportions : [ 43 ]",
+      "char_offset": 7410
+    },
+    {
+      "type": "paragraph",
+      "text": "Although calcium uptake by plant roots has long-time been considered as luxury consumption, [ 49 ] it is now considered as an essential element for its various roles in the maintenance of the integrity of plant cell walls and cell membranes . [ 50 ] Liming has also a decisive and positive influence on crop yields by couteracting soil acidification , [ 51 ] a side-effect of plant growth [ 52 ] and nutrient export by crops, [ 53 ] improving soil structure , and thus soil aeration , [ 54 ] and increasing soil biological activity, thereby soil fertility , in particular through increased nitrification . [ 55 ]",
+      "char_offset": 7474
+    },
+    {
+      "type": "paragraph",
+      "text": "The nutrients required for healthy plant life are classified according to the elements , but the elements are not used as fertilizers. Instead, compounds containing these elements are the basis of fertilizers. Macro-nutrients are present in plant tissue in quantities from 0.15% to 6.0% on a dry matter (DM) (0% moisture) basis but they are sometimes consumed in larger quantities than required (luxury consumption), in particular when fertilizers are used in excess of plant requirements ( overfertilization ). [ 56 ] Plants are made up of four main elements: hydrogen , oxygen , carbon , and nitrogen . Carbon, hydrogen, and oxygen are widely available respectively in carbon dioxide and in water . Although nitrogen makes up most of the atmosphere , it is in a form that is unavailable to plants. Nitrogen is the most important fertilizer since nitrogen is present in proteins ( amide bonds between amino acids ), DNA ( puric and pyrimidic [ check spelling ] bases), and other components (e.g., tetrapyrrolic heme in chlorophyll ). It is common tenet that nitrogen is absent from the parent rock and thus cannot be obtained from mineral weathering , although recent studies point to the equal importance of the atmosphere and bedrock as nitrogen sources. [ 57 ] Nitrogen is made available to plants through weathering of nitrogen-containing parent rocks [ 58 ] and nitrogen fixation . Only some free-living (e.g. Clostridium ) and symbiotic bacteria living in root systems of host plants (notably legumes ) can fix atmospheric nitrogen ( N 2 ) by converting it to ammonia ( NH 3 ) and amino acids which are available to plants. [ 59 ] [ 60 ] Phosphate ( PO 3\u2212 4 ) is required for the production of DNA ( genetic code ) and ATP , the main energy carrier in cells , as well as certain lipids ( phospholipids , the main components of the lipidic double layer of the cell membranes ). [ 61 ]",
+      "char_offset": 8088
+    },
+    {
+      "type": "paragraph",
+      "text": "Two sets of enzymatic reactions are highly relevant to the efficiency of nitrogen-based fertilizers.",
+      "char_offset": 9980
+    },
+    {
+      "type": "paragraph",
+      "text": "The first is the hydrolysis (reaction with water) of urea ( CO(NH 2 ) 2 ). Many soil bacteria possess the enzyme urease , which catalyzes the conversion of urea to ammonium ion ( NH + 4 ) and bicarbonate ion ( HCO \u2212 3 ). [ 62 ]",
+      "char_offset": 10082
+    },
+    {
+      "type": "paragraph",
+      "text": "Ammonia-oxidizing bacteria (AOB), such as species of Nitrosomonas , oxidize ammonia ( NH 3 ) to nitrite ( NO \u2212 2 ), a process termed nitrification . [ 63 ] Nitrite-oxidizing bacteria , especially Nitrobacter , oxidize nitrite ( NO \u2212 2 ) to nitrate ( NO \u2212 3 ), which is extremely soluble and mobile, being leached easily to groundwater then to rivers then to the sea, and is a major cause of eutrophication [ 64 ] and algal blooms in rivers, lakes and sea shores. [ 65 ]",
+      "char_offset": 10311
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers are classified in several ways. They are classified according to whether they provide a single nutrient (e.g., K, P, or N), in which case they are classified as straight fertilizers . Multinutrient fertilizers (or complex fertilizers ) provide two or more nutrients, for example, N and P combined. Fertilizers are also sometimes classified as inorganic (the topic of most of this article) versus organic. Inorganic fertilizers exclude carbon-containing materials except urea . Organic fertilizers are usually (recycled) plant- or animal-derived matter (e.g. compost , manure , respectively). Inorganic are sometimes called synthetic fertilizers since various chemical treatments are required for their manufacture. [ 66 ]",
+      "char_offset": 10782
+    },
+    {
+      "type": "paragraph",
+      "text": "The main nitrogen-based straight fertilizer is ammonia (NH 3 ), ionized in solution as ammonium (NH 4 + ), applied in the form of salts or derivatives , including:",
+      "char_offset": 11517
+    },
+    {
+      "type": "paragraph",
+      "text": "The main straight phosphate fertilizers are the superphosphates :",
+      "char_offset": 11682
+    },
+    {
+      "type": "paragraph",
+      "text": "A mixture of single superphosphate and triple superphosphate is called double superphosphate. More than 90% of a typical superphosphate fertilizer is water-soluble.",
+      "char_offset": 11749
+    },
+    {
+      "type": "paragraph",
+      "text": "The main potassium-based straight fertilizer is muriate of potash (MOP, 95\u201399% KCl). It is typically available as 0-0-60 or 0-0-62 fertilizer.",
+      "char_offset": 11915
+    },
+    {
+      "type": "paragraph",
+      "text": "These fertilizers are common. They consist of two or more nutrient components.",
+      "char_offset": 12059
+    },
+    {
+      "type": "paragraph",
+      "text": "Major two-component fertilizers provide both nitrogen and phosphorus to the plants. These are called NP fertilizers. The main NP fertilizers are",
+      "char_offset": 12139
+    },
+    {
+      "type": "paragraph",
+      "text": "About 85% of MAP and DAP fertilizers are soluble in water.",
+      "char_offset": 12285
+    },
+    {
+      "type": "paragraph",
+      "text": "NPK fertilizers are three-component fertilizers providing nitrogen, phosphorus, and potassium. There exist two types of NPK fertilizers: compound and blends. Compound NPK fertilizers contain chemically bound ingredients, while blended NPK fertilizers are physical mixtures of single nutrient components.",
+      "char_offset": 12345
+    },
+    {
+      "type": "paragraph",
+      "text": "NPK rating is a rating system describing the amount of nitrogen, phosphorus, and potassium in a fertilizer. NPK ratings consist of three numbers separated by dashes (e.g., 10-10-10 or 16\u20134\u20138) describing the chemical content of fertilizers. [ 68 ] The first number represents the percentage of nitrogen in the product; the second number, P 2 O 5 ; the third, K 2 O. Fertilizers do not actually contain P 2 O 5 or K 2 O, but the system is a conventional shorthand for the amount of phosphorus (P) or potassium (K) in a fertilizer. A 50-pound (23 kg) bag of fertilizer labeled 16-4-8 contains 8 lb (3.6 kg) of nitrogen (16% of the 50 pounds), an amount of phosphorus equivalent to that in 2 pounds of P 2 O 5 (4% of 50 pounds), and 4 pounds of K 2 O (8% of 50 pounds). Most fertilizers are labeled according to this N-P-K convention, although Australian convention, following an N-P-K-S system, adds a fourth number for sulfur, and uses elemental values for all values including P and K. [ 69 ]",
+      "char_offset": 12650
+    },
+    {
+      "type": "paragraph",
+      "text": "Micronutrients are consumed in smaller quantities and are present in plant tissue on the order of parts-per-million (ppm), ranging from 0.15 to 400 ppm or less than 0.04% dry matter. [ 70 ] [ 71 ] These elements are often required as co-enzymes for enzymes essential to the plant's metabolism . Because these elements enable catalysts (enzymes), their impact far exceeds their concentration . Typical micronutrients are boron , zinc , molybdenum , iron , and manganese . [ 43 ] These elements are provided as water-soluble salts. Iron presents special problems because it converts from soluble ( ferrous ) to insoluble bio-unavailable ( ferric ) compounds at moderate soil pH and phosphate concentrations. [ 72 ] For this reason, iron is often administered as a chelate complex , e.g., the EDTA or EDDHA derivatives. The micronutrient needs depend on the plant and the environment. For example, sugar beets appear to require boron , and legumes require cobalt , [ 1 ] while environmental conditions such as heat or drought make boron less available for plants, causing boron deficiency . [ 73 ]",
+      "char_offset": 13643
+    },
+    {
+      "type": "paragraph",
+      "text": "The production of synthetic, or inorganic, fertilizers require prepared chemicals, [ 74 ] whereas organic fertilizers are derived from the biological processing of plant and animal remains or excreta (e.g. urine , feces ). [ 75 ]",
+      "char_offset": 14739
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrogen fertilizers are made from ammonia (NH 3 ) produced by the Haber\u2013Bosch process . [ 67 ] In this energy-intensive process, natural gas (CH 4 ) usually supplies the hydrogen , and the nitrogen (N 2 ) is derived from the air . This ammonia is used as a feedstock for all other nitrogen fertilizers, such as anhydrous ammonium nitrate (NH 4 NO 3 ) and urea (CO(NH 2 ) 2 ).",
+      "char_offset": 14970
+    },
+    {
+      "type": "paragraph",
+      "text": "Deposits of sodium nitrate (NaNO 3 ) ( Chilean saltpeter ) are also found in the Atacama Desert in Chile and were one of the original (1830) nitrogen-rich fertilizers used. [ 76 ] It is still mined for fertilizer use. [ 77 ] Nitrates are also produced from ammonia by the Ostwald process .",
+      "char_offset": 15348
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphate fertilizers are obtained by extraction from phosphate rock , which contains two principal phosphorus-containing minerals, fluorapatite Ca 5 (PO 4 ) 3 F (CFA) and hydroxyapatite Ca 5 (PO 4 ) 3 OH. Billions of kg of phosphate rock are mined annually, but the size and quality of the remaining ore is decreasing. [ 37 ] These minerals are converted into water-soluble phosphate salts by treatment with acids . [ 78 ] The large production of sulfuric acid is primarily motivated by this application. [ 79 ] In the nitrophosphate process or Odda process (invented in 1927), phosphate rock with up to a 20% phosphorus (P) content is dissolved with nitric acid (HNO 3 ) to produce a mixture of phosphoric acid (H 3 PO 4 ) and calcium nitrate (Ca(NO 3 ) 2 ). This mixture can be combined with a potassium fertilizer to produce a compound fertilizer with the three macronutrients N, P and K in easily dissolved form. [ 80 ]",
+      "char_offset": 15639
+    },
+    {
+      "type": "paragraph",
+      "text": "Potash is a mixture of potassium minerals used to make potassium (chemical symbol: K) fertilizers. Potash is soluble in water, so the main effort in producing this nutrient from the ore involves some purification steps, e.g., to remove sodium chloride (NaCl) (common salt ). [ 81 ] Sometimes potash is referred to as K 2 O, as a matter of convenience to those describing the potassium content. In fact, potash fertilizers are usually potassium chloride , potassium sulfate , potassium carbonate , or potassium nitrate . [ 82 ]",
+      "char_offset": 16565
+    },
+    {
+      "type": "paragraph",
+      "text": "There are three major routes for manufacturing NPK fertilizers (named for their main ingredients: nitrogen (N), phosphorus (P), and potassium (K)):",
+      "char_offset": 17093
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 1. Nitrophosphates are made by acidiculating phosphate rock with nitric acid .",
+      "char_offset": 17242
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 2. Removal of Calcium Nitrate. It is important to remove the calcium nitrate because calcium nitrate is extremely hygroscopic .",
+      "char_offset": 17327
+    },
+    {
+      "type": "paragraph",
+      "text": "Organic fertilizers can describe those fertilizers with a biological origin, i.e. derived from living or formerly living materials. Organic fertilizers can also describe commercially available and frequently packaged products that strive to follow the expectations and restrictions adopted by organic farming and environmentally friendly gardening, i.e. related systems of food and plant production that significantly limit or strictly avoid the use of synthetic fertilizers and pesticides . The organic fertilizer products typically contain both some organic materials as well as acceptable additives such as nutritive rock powders, ground seashells ( crab , oyster , etc.), other prepared products such as seed meal or kelp , and cultivated microorganisms and derivatives. [ 83 ]",
+      "char_offset": 17461
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers of an organic origin (the first definition) include animal wastes , plant wastes from agriculture, seaweed , compost , and treated sewage sludge ( biosolids ). Beyond manures, animal sources can include products from animal slaughters : bloodmeal , bone meal , feather meal , hides , hoofs , and horns all are typical components. [ 43 ] Organically derived materials available to industry such as sewage sludge may not be acceptable components of organic farming and gardening , because of factors ranging from residual contaminants [ 84 ] to public perception. [ 85 ] No matter the definition nor composition, most of these products contain less-concentrated nutrients, and the nutrients are not as easily quantified. [ 86 ] They can offer soil-building advantages as well as be appealing to those who are trying to farm or garden more naturally. [ 87 ]",
+      "char_offset": 18244
+    },
+    {
+      "type": "paragraph",
+      "text": "In terms of volume, peat is the most widely used packaged organic soil amendment . It is an immature form of coal which improves soil aeration and moisture and thus soil biological activity but confers no direct nutritional value to the plants. It is therefore not a fertilizer as defined in the beginning of the article, but rather an amendment . [ 88 ] Coir (derived from coconut husks ), bark , and sawdust are mainly applied as mulch and protects the soil from desiccation [ 89 ] while preventing the development of weeds [ 90 ] and improving soil structure, [ 91 ] but do not confer any nutritional value to the soil. Some organic additives can even have a reverse effect on nutrients. Fresh sawdust can consume soil nutrients as it breaks down and is colonized by wood-decay fungi , causing nitrogen deficiency (nitrogen drawdown) in the absence of nutrient addition. [ 92 ] However, this property can be used to capture excess mineral nitrogen. [ 93 ] These same organic soil texturizers (as well as compost, etc.) may increase the availability of nutrients through improved cation-exchange capacity , [ 94 ] or through increased growth of microorganisms that in turn increase availability of certain plant nutrients. [ 95 ] True organic fertilizers such as composts and manures may be distributed locally without going into industry production, making actual consumption more difficult to quantify.",
+      "char_offset": 19112
+    },
+    {
+      "type": "paragraph",
+      "text": "China has become the largest producer and consumer of nitrogen fertilizers [ 98 ] while Africa has little reliance on nitrogen fertilizers. [ 99 ] Agricultural and chemical minerals are very important in industrial use of fertilizers, which is valued at approximately $200 billion. [ 100 ] Nitrogen has a significant impact in the global mineral use, followed by potash and phosphate. The production of nitrogen has drastically increased since the 1960s. Phosphate and potash have increased in price since the 1960s, which is larger than the consumer price index. [ 100 ] Potash is produced in Canada , Russia and Belarus , together making up over half of the world production. [ 100 ] Potash production in Canada rose in 2017 and 2018 by 18.6%. [ 101 ] [ 102 ] Conservative estimates report 30 to 50% of crop yields are attributed to natural or synthetic commercial fertilizers. [ 82 ] [ 103 ] Fertilizer consumption has surpassed the amount of farmland in the United States. [ 100 ]",
+      "char_offset": 20520
+    },
+    {
+      "type": "paragraph",
+      "text": "Data on the fertilizer consumption per hectare arable land in 2012 are published by The World Bank . [ 104 ] The diagram below shows fertilizer consumption by the European Union (EU) countries as kilograms per hectare (pounds per acre). The total consumption of fertilizer in the EU reached a peak of 11.6 million tons in 2017 but decreased steadily since that time, down to 9.3 million tons in 2023 [ 105 ] for 157 million hectares arable land area in 2020, 1.5 million hectares less than in 2010. [ 106 ] This figure equates to 70 kg of fertilizers consumed per ha arable land on average by the EU countries in 2020.",
+      "char_offset": 21506
+    },
+    {
+      "type": "paragraph",
+      "text": "Total agricultural use of inorganic fertilizers, expressed as the sum of the three nutrients nitrogen (N), phosphorus (expressed as P2 O5 ) and potassium (expressed as K2 O), was 190 million tonnes in 2023, up 1% compared with 2022. 112 million tonnes of nitrogen (58% of the total), 41 million tonnes of phosphorus (21% ) and 38 million tonnes of potassium (20% ). Overall fertilizer use in 2023 was 55 million tonnes (41%) higher than in 2000 (38% higher for nitrogen, 26% higher for phosphorus and 73% higher for potassium). Asia represented 56% of world total agricultural use of inorganic fertilizers in 2023, followed by the Americas (27% ), Europe (11%), Africa (4%) and Oceania (2%). [ 15 ]",
+      "char_offset": 22126
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers are commonly used for growing all crops, with application rates depending on soil fertility , usually as measured by a soil test and according to the particular crop. Legumes , for example, fix nitrogen from the atmosphere and generally do not require nitrogen fertilizer, hence their promising use for ensuring agriculture sustainability . [ 107 ]",
+      "char_offset": 22826
+    },
+    {
+      "type": "paragraph",
+      "text": "The timing of application of fertilizers (here only mineral fertilizers will be considered) is a function of crop requirements, weather condition and market opportunities. It varies in nature and amount according to the type of agriculture (e.g. intensive farming versus conservation agriculture , grassland versus arable land ), and the presence or absence of signs of nutrient deficiencies . Timing fertilization with peak nutrient uptake demand is essential for optimizing both yield and quality. In general, nutrient uptake rates are highest from early to midgrowing season, which is why fertilization near the time of seeding is generally very effective. With fall-planted grains (e.g. winter wheat ), fall N fertilization followed by spring topdressing is likely the best combination of fertilization practices to optimize yield. [ 108 ] The application of a soluble mineral fertilizer (e.g. ammonium nitrate ) is avoided during heavy rainfall because most of it would be lost for the crop [ 109 ] and would rapidly pollute the aquifer . [ 110 ] In conservation agriculture (including no-till farming , permaculture ) as well as other non-organic alternatives to intensive farming (e.g. smallholding agriculture) the application of mineral fertilizers is reduced to the strict requirements of the cultivated plants and sometimes is quite unnecessary. [ 111 ]",
+      "char_offset": 23188
+    },
+    {
+      "type": "paragraph",
+      "text": "After harvest of a main crop (e.g. wheat , maize , potatoes ) a catch crop can be sown, using plant species with a rapid growth rate and high demand of nitrogen (e.g. white mustard ). [ 112 ] This allows excess nitrogen, in particular the very mobile nitrate anion, to be taken up and transformed in plant proteins [ 113 ] before contaminating the groundwater , and the associated geochemical processes, which would rapidly occur in the absence of plant cover. [ 114 ] The catch crop is further buried, allowing its transformation in humus in which nitrogen is fixed according to various stable chemical bonds . [ 115 ]",
+      "char_offset": 24554
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers are applied to crops both as solids and as liquid. About 90% of fertilizers are applied as solids. The most widely used solid inorganic fertilizers are urea , diammonium phosphate and potassium chloride . [ 116 ] Solid fertilizer is typically granulated or powdered. Often solids are available as prills , a solid globule. Liquid fertilizers comprise aqueous solutions of ammonia , aqueous solutions of ammonium nitrate or urea . These concentrated products may be diluted with water to form a concentrated liquid fertilizer (e.g., UAN ). Advantages of liquid fertilizer are its more rapid effect and easier coverage. [ 43 ] The addition of fertilizer to irrigation water is called fertigation . [ 82 ] Granulated fertilizers are more economical to ship and store, not to mention easier to apply. [ 117 ] [ 118 ]",
+      "char_offset": 25175
+    },
+    {
+      "type": "paragraph",
+      "text": "A controlled-release fertiliser ( CRF ) is a granulated fertiliser that releases nutrients gradually into the soil (i.e., with a controlled release period). [ 119 ] Controlled-release fertilizer is also known as controlled-availability fertilizer , delayed-release fertilizer , metered-release fertilizer , or slow-acting fertilizer . Usually slow- and controlled-release fertilizers refer to nitrogen-based fertilizers, e.g. ureaform , needing degradation by a wide spectrum of soil organisms before nitrogen could be liberated as nitrate. [ 120 ] Slow-release fertilizers (SRF) and controlled-release fertilizers (CRF) offer various benefits over conventional ones, ensuring sustainability in fertilizing practice. [ 121 ] [ 122 ]",
+      "char_offset": 26001
+    },
+    {
+      "type": "paragraph",
+      "text": "Foliar fertilizers are applied directly to leaves. They can reduce the total amounts of fertilizer applied and achieve high fertilizer efficiency. [ 123 ] This method is almost invariably used to apply water-soluble straight nitrogen fertilizers and used especially for high-value crops such as fruits. Urea is the most common foliar fertilizer. [ 43 ] However, chelation of the foliar-applied nutrient is recommended for improving absorption and migration of the targeted nutrient and thereby avoiding loss to the soil and the groundwater. [ 123 ]",
+      "char_offset": 26735
+    },
+    {
+      "type": "paragraph",
+      "text": "Various chemicals are used to enhance the efficiency of nitrogen-based fertilizers. In this way farmers can limit the polluting effects of nitrogen run-off . Nitrification inhibitors (also known as nitrogen stabilizers) suppress the conversion of ammonia into nitrate , an anion that is more prone to leaching. 1-Carbamoyl-3-methylpyrazole (CMP), dicyandiamide , nitrapyrin (2-chloro-6-trichloromethylpyridine) and 3,4-dimethylpyrazole phosphate (DMPP) are popular. [ 124 ] Urease inhibitors are used to slow the hydrolytic conversion of urea into ammonia catalyzed by ureases , ammonia being prone to evaporation [ 125 ] as well as nitrification. [ 126 ] A popular inhibitor of ureases is N -( n -butyl)thiophosphoric triamide ( NBPT ).",
+      "char_offset": 27285
+    },
+    {
+      "type": "paragraph",
+      "text": "Careful use of fertilization technologies is important because excess nutrients can be detrimental to the cultivated plant. [ 127 ] Fertilizer burn can occur when too much fertilizer is applied, resulting in damage or even death of the plant. Fertilizers vary in their tendency to burn roughly in accordance with their salt index . [ 128 ] [ 129 ]",
+      "char_offset": 28024
+    },
+    {
+      "type": "paragraph",
+      "text": "Synthetic fertilizers used in agriculture have wide-reaching environmental consequences .",
+      "char_offset": 28373
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the Intergovernmental Panel on Climate Change (IPCC) Special Report on Climate Change and Land , production of these fertilizers and associated land use practices are drivers of global warming . [ 6 ] The use of fertilizer has also led to a number of direct environmental consequences: agricultural runoff which leads to downstream effects like ocean dead zones [ 130 ] and waterway contamination , [ 131 ] soil microbiome degradation, [ 132 ] and accumulation of toxic compounds in ecosystems. [ 133 ] Indirect environmental impacts include: N-crop-pest cascades, [ 134 ] increased greenhouse gas emissions and environmental impacts of fracking for the natural gas used in the Haber process , [ 135 ] [ 136 ] the agricultural boom which is partially responsible for the rapid growth in human population [ 137 ] and large-scale industrial agricultural practices associated with it causing pressure on biodiversity , habitat destruction and fragmentation , [ 138 ] and agricultural soil loss . [ 139 ]",
+      "char_offset": 28464
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to mitigate environmental and food security concerns, the international community has included food systems in Sustainable Development Goal 2 which focuses on creating a climate-friendly and sustainable food production system . [ 140 ] Most policy and regulatory approaches to address these issues focus on pivoting agricultural practices towards sustainable or regenerative agricultural practices: these use less synthetic fertilizers (for example sustainable agriculture ), better soil management (for example no-till agriculture ) and more organic fertilizers (for example organic farming , conservation agriculture , biodynamic agriculture ).",
+      "char_offset": 29479
+    },
+    {
+      "type": "paragraph",
+      "text": "For each ton of phosphoric acid produced by the processing of phosphate rock , five tons of waste are generated. This waste takes the form of impure, useless, radioactive solid called phosphogypsum . Estimates range from 100,000,000 and 280,000,000 tons of phosphogypsum waste produced annually worldwide. [ 141 ]",
+      "char_offset": 30136
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphorus and nitrogen fertilizers can affect soil, surface water, and groundwater [ 100 ] due to the dispersion of minerals into waterways under high rainfall, [ 142 ] [ 143 ] snowmelt and can leach into groundwater over time. [ 144 ] Agricultural run-off is a major contributor to the eutrophication of freshwater bodies. For example, in the US , about half of all the lakes surveyed by the United States Environmental Protection Agency (US EPA) were eutrophic in 2007 with a further alarming increase to 80 per cent in 2012. [ 145 ] The main contributor to eutrophication is phosphate , which is normally a limiting nutrient , besides nitrogen; high P concentrations promote the growth of cyanobacteria and algae , the demise of which consumes oxygen. [ 146 ] Cyanobacteria blooms (' algal blooms ') can also produce harmful toxins that can accumulate in the food chain , and can be harmful to humans. [ 147 ] [ 148 ] Fertilizer run-off can be reduced by using weather-optimized fertilization strategies. [ 142 ]",
+      "char_offset": 30451
+    },
+    {
+      "type": "paragraph",
+      "text": "The nitrogen-rich compounds found in fertilizer runoff are the primary cause of serious oxygen depletion in many parts of oceans , especially in coastal zones, lakes and rivers . [ 149 ] The resulting lack of dissolved oxygen greatly reduces the ability of these areas to sustain oceanic fauna . [ 150 ] The number of oceanic dead zones near inhabited coastlines is increasing. [ 151 ]",
+      "char_offset": 31469
+    },
+    {
+      "type": "paragraph",
+      "text": "As of 2006, the application of nitrogen fertilizer is being increasingly controlled in northwestern Europe [ 152 ] and the United States. [ 153 ] [ 154 ] In cases where eutrophication can be reversed, it may nevertheless take decades [ 155 ] and need significant soil management [ 156 ] before the accumulated nitrates in groundwater can be broken down by natural denitrification . [ 157 ]",
+      "char_offset": 31856
+    },
+    {
+      "type": "paragraph",
+      "text": "Only a fraction of the nitrogen-based fertilizers is converted to plant matter. The remainder accumulates in the soil or is lost as run-off. [ 158 ] High application rates of nitrogen-containing fertilizers combined with the high water solubility of nitrate leads to increased runoff into surface water as well as leaching into groundwater , thereby causing groundwater pollution . [ 159 ] [ 160 ] [ 161 ] The excessive use of nitrogen-containing fertilizers (be they synthetic or natural) is particularly damaging, as much of the nitrogen that is not taken up by plants is transformed into nitrate which is easily leached. [ 162 ]",
+      "char_offset": 32247
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrate levels above 10 mg/L (10 ppm) in groundwater can cause ' blue baby syndrome ' (acquired methemoglobinemia ). [ 163 ] The nutrients, especially nitrates, in fertilizers can cause problems for natural habitats and for human health if they are washed off into watercourses or leached through the soil into groundwater . [ 164 ] Run-off can lead to fertilizing algal blooms that use up all the oxygen and leave huge \"dead zones\" behind where other fish and aquatic life can not live. [ 165 ]",
+      "char_offset": 32880
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil acidification refers to the process by which the pH level of soil becomes more acidic over time. Soil pH is a measure of the soil's acidity or alkalinity and is determined on a scale from 0 to 14, with 7 being neutral. A pH value below 7 indicates acidic soil, while a pH value above 7 indicates alkaline or basic soil. Soil acidification is a significant concern in agriculture and horticulture, leading to cation leaching, unstable soil aggregate structure, metal toxicity, decreased nutrient availability, and thus affecting soil biological properties and plant performances. [ 166 ]",
+      "char_offset": 33377
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrogen-containing fertilizers release ammonium or nitrate ions, which can acidify the soil as they undergo biochemical reactions. [ 167 ] When nitrogen-containing fertilizers, whether mineral or organic, are added to the soil, they increase the concentration of hydrogen ions (H+) in the soil solution, which lowers the pH of the soil. [ 168 ] [ 169 ] This may lead to decrease in nutrient availability which may be offset by liming . [ 170 ]",
+      "char_offset": 33970
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil acidification occurs also through acid rain , a man-induced concern despite severe measures to suppress or mitigate industrial gas emissions since the 1970s. [ 171 ] Among reported causes of acid rain, nitrogen fertilizers (whether mineral or organic), and the subsequent emissions of nitrous and nitric oxides are prominent in regions of intensive agriculture. [ 172 ] The mechanisms are complex, involving ammonia volatilization from manure (whether stored or spread) or urea and direct redeposition followed by nitrification in the soil or previous oxidation to nitrogen oxides in the atmosphere before redeposition as nitric acid . [ 173 ]",
+      "char_offset": 34416
+    },
+    {
+      "type": "paragraph",
+      "text": "The concentration of cadmium in phosphorus-containing fertilizers varies considerably and can be problematic. [ 174 ] For example, mono-ammonium phosphate fertilizer may have a cadmium content of as low as 0.14 mg/kg or as high as 50.9 mg/kg. [ 175 ] The phosphate rock used in their manufacture can contain as much as 188 mg/kg cadmium [ 176 ] Examples are deposits on Nauru [ 177 ] and the Christmas Islands . [ 178 ] Continuous use of high-cadmium fertilizer can contaminate soils [ 179 ] and plants . [ 180 ] Limits to the cadmium content of phosphate fertilizers have been considered by the European Commission . [ 181 ] [ 182 ] [ 183 ] Producers of phosphorus-containing fertilizers now select phosphate rock based on the cadmium content. [ 146 ]",
+      "char_offset": 35066
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphate rocks contain high levels of fluoride in the form of fluorapatite . [ 184 ] Consequently, the widespread use of phosphate fertilizers has increased soil fluoride concentrations. [ 180 ] It has been found that food contamination from fertilizer is of little concern as plants accumulate little fluoride from the soil; of greater concern is the possibility of fluoride toxicity to livestock that ingest contaminated soil. [ 185 ] [ 186 ] Also of possible concern are the effects of fluoride on soil microorganisms . [ 185 ] [ 186 ] [ 187 ]",
+      "char_offset": 35820
+    },
+    {
+      "type": "paragraph",
+      "text": "The radioactive content of the fertilizers varies considerably and depends both on their concentrations in the parent mineral and on the fertilizer production process. [ 180 ] [ 188 ] Uranium-238 concentrations can range from 7 to 100 pCi/g ( picocuries per gram) in phosphate rock [ 189 ] and from 1 to 67 pCi/g in phosphate fertilizers. [ 190 ] [ 191 ] [ 192 ] Where high annual rates of phosphorus fertilizer are used, this can result in uranium-238 concentrations in soils and drainage waters that are several times greater than are normally present. [ 191 ] [ 193 ] However, the impact of these increases on the risk to human health from radionuclidic contamination of foods is very small (less than 0.05 m Sv /y). [ 191 ] [ 194 ] [ 195 ]",
+      "char_offset": 36369
+    },
+    {
+      "type": "paragraph",
+      "text": "Steel industry wastes such as steel slag are often recycled as a soil amendment or for the production of fertilizers due to their high Ca and Mg content and various trace elements necessary for plant growth. [ 196 ] However, they can also include toxic metals . [ 197 ] Among them are arsenic , [ 198 ] cadmium , [ 198 ] chromium , [ 199 ] and nickel , [ 200 ] while steel slag amendment rather contribute to immobilize lead in the soil and thus to decrease its toxicity to the cultivated plant. [ 201 ] The most common toxic elements in this type of fertilizer are mercury , lead, and arsenic. [ 202 ] [ 203 ] [ 204 ] Given the high cost of removing potentially harmful properties from steel slags, [ 205 ] a better solution is to immobilize them. The incorporation of biochar to steel slag make even the mixture a good amendement for the ( passivation ) of heavy metals in agricultural soil. [ 206 ] Highly pure fertilizers are widely available and perhaps best known as the highly water-soluble fertilizers containing blue dyes used around households , such as Miracle-Gro . These highly water-soluble fertilizers are used in the plant nursery business and are available in larger packages at significantly less cost than retail quantities. Some inexpensive retail granular garden fertilizers are made with high purity ingredients. [ 207 ]",
+      "char_offset": 37114
+    },
+    {
+      "type": "paragraph",
+      "text": "Attention has been addressed to the decreasing concentrations of micronutrients such as iron , zinc , copper and magnesium in many foods over the last 50\u201360 years. [ 208 ] [ 209 ] Intensive farming practices, including the use of synthetic fertilizers, are frequently suggested as reasons for these declines and organic farming is often suggested as a solution. [ 209 ] Although improved crop yields resulting from NPK fertilizers are known to dilute the concentrations of other nutrients in plants, [ 208 ] [ 210 ] much of the measured decline can be attributed to the use of progressively higher-yielding crop varieties that produce foods with lower mineral concentrations than their less-productive ancestors. [ 208 ] [ 211 ] [ 212 ] It is, therefore, unlikely that organic farming or reduced use of fertilizers (e.g. conservation agriculture ) will solve the problem; foods with high nutrient density are posited to be achieved using older, lower-yielding varieties or the development of new high-yield, nutrient-dense varieties. [ 208 ] [ 213 ]",
+      "char_offset": 38458
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizers are, in fact, more likely to solve trace mineral deficiency problems than cause them: in Western Australia deficiencies of zinc , copper , manganese , iron and molybdenum were identified as limiting the growth of broad-acre crops and pastures in the 1940s and 1950s. [ 214 ] Soils in Western Australia are very old, highly weathered and deficient in many of the major nutrients and trace elements. [ 214 ] Since this time these trace elements are routinely added to fertilizers used in agriculture in this state. [ 214 ] Many other soils around the world are deficient in zinc, leading to deficiency in both plants and humans, [ 215 ] and zinc fertilizers are widely used to solve this problem. [ 216 ]",
+      "char_offset": 39509
+    },
+    {
+      "type": "paragraph",
+      "text": "High levels of fertilizer may cause the breakdown of the symbiotic relationships between plant roots and mycorrhizal fungi, [ 217 ] in particular when in excess of plant requirements. [ 218 ] It is still debated whether and how fertilizers affect soil animals . Both organic and organic\u2013mineral fertilizers increase the abundance of soil fauna whereas mineral fertilizers had no such effect, with idiosyncratic responses of soil animal groups masking overall effects. [ 219 ] Chemical fertilizers stimulates the growth of microbial populations but did not change their richness and diversity, while decreases in enzymatic activity have been registered. [ 220 ]",
+      "char_offset": 40225
+    },
+    {
+      "type": "paragraph",
+      "text": "The combination of soil acidification and high nitrogen content was probably unknown to most soil organisms before the advent of industrial agriculture . More generally, soils are either acidic and nutrient-poor, or neutral to basic and nutrient-rich (nitrogen included), in relation to the pH-dependent capacity of clay minerals to hold nutrients. [ 221 ] This unexpected combination of excess nutrient availability and acid stress causes a depletion in the sustainability of animal and microbial communities by weakening the linkages between aboveground and belowground components of agroecosystems . [ 222 ] Other ecosystems are also affected by nitrogen-enriched acid rains originationg from intensive agricultural practices. Sphagnum bogs are now shifting from carbon sinks (thanks to the accumulation of recalcitrant sphagnum litter and anoxic conditions) to carbon sources under the influence of nitrogen deposition and subsequent stimulation of decomposer activity. [ 223 ] Other nutrient-poor ecosystems are also strongly affected, such as heathlands , with a surprising combination of higher soil organic matter accumulation and higher soil enzyme activity. [ 224 ]",
+      "char_offset": 40887
+    },
+    {
+      "type": "paragraph",
+      "text": "Two types of agricultural management practices include organic farming and conventional agriculture . The former encourages soil fertility using local resources to maximize efficiency. Organic agriculture avoids synthetic agrochemicals. Conventional agriculture uses all the components that organic agriculture does not use. [ 225 ]",
+      "char_offset": 42064
+    },
+    {
+      "type": "paragraph",
+      "text": "The excess use of organic amendments (e.g. pig slurry ) may have detrimental effects on water quality through contamination of the aquifer and subsequent eutrophication of the water bodies it feds. [ 226 ] This is a societal concern in areas where pig farming conflicts with environmental protection . [ 227 ]",
+      "char_offset": 42398
+    },
+    {
+      "type": "paragraph",
+      "text": "Most synthetic fertilizer is fed from fossil fuel , using fossil energy and methane for producing hydrogen used in the synthesis of ammonia by the Haber process , as well as various chemical reactions used in the synthesis of most fertilizers (e.g. urea , ammonium nitrate , superphosphate ). [ 228 ] Some alternatives have been proposed for the production of hydrogen, such as solar energy , [ 229 ] waste treatment, [ 230 ] or electrolysis . [ 231 ]",
+      "char_offset": 42709
+    },
+    {
+      "type": "paragraph",
+      "text": "The amount of greenhouse gases carbon dioxide , methane and nitrous oxide produced during the manufacture and use of nitrogen fertilizer is estimated as around 5% of anthropogenic greenhouse gas emissions . One third is produced during the production and two thirds during the use of fertilizers. [ 232 ] Nitrate is converted by soil bacteria to nitrous oxide , a greenhouse gas . [ 233 ] Nitrous oxide emissions by humans, most of which are from fertilizer, between 2007 and 2016 were estimated at 700 million tons of CO 2 equivalent. [ 234 ]",
+      "char_offset": 43162
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrogen fertilizer was used at a rate of about 110 million tons (of N) per year in 2012. [ 235 ] [ 236 ] Nitrous oxide (N 2 O) is the third most important greenhouse gas after carbon dioxide and methane . It has 296 times greater greenhouse effect per ton than carbon dioxide . The 2025 emissions contributed the equivalent of 700 megatons of CO 2 to the atmosphere. [ 237 ] It also contributes to stratospheric ozone depletion . [ 238 ] Altering processes and procedures could reduce these emissions. [ 239 ]",
+      "char_offset": 43707
+    },
+    {
+      "type": "paragraph",
+      "text": "Methane emissions from crop fields (notably rice paddy fields ) are increased by the application of ammonium-based fertilizers. These emissions contribute to global climate change as methane is a potent greenhouse gas. [ 240 ] [ 241 ]",
+      "char_offset": 44219
+    },
+    {
+      "type": "paragraph",
+      "text": "In Europe, problems with high nitrate concentrations in runoff are being addressed by the European Union's Nitrates Directive. [ 242 ] Within Britain , farmers are encouraged to manage their land more sustainably in ' catchment-sensitive farming '. [ 243 ] In the US , high concentrations of nitrate and phosphorus in runoff and drainage water are classified as nonpoint source pollutants due to their diffuse origin; this pollution is regulated at the state level. [ 244 ] Oregon and Washington , both in the United States , have fertilizer registration programs with on-line databases listing chemical analyses of fertilizers. [ 245 ] [ 246 ] Carbon emission trading and eco-tariffs affect the production and price of fertilizer. [ 247 ]",
+      "char_offset": 44455
+    },
+    {
+      "type": "paragraph",
+      "text": "In China , regulations have been implemented to control the use of N fertilizers in farming. In 2008, Chinese governments began to partially withdraw fertilizer subsidies , including subsidies to fertilizer transportation and to electricity and natural gas use in the industry. In consequence, the price of fertilizer has gone up and large-scale farms have begun to use less fertilizer. If large-scale farms keep reducing their use of fertilizer subsidies, they have no choice but to optimize the fertilizer they have which would therefore gain an increase in both grain yield and profit. [ 248 ]",
+      "char_offset": 45196
+    },
+    {
+      "type": "paragraph",
+      "text": "In March 2022, the United States Department of Agriculture announced a new $250M grant to promote American fertilizer production. Part of the Commodity Credit Corporation , the grant program will support fertilizer production that is independent of dominant fertilizer suppliers, made in America, and utilizing innovative production techniques to jumpstart future competition. [ 249 ]",
+      "char_offset": 45794
+    },
+    {
+      "type": "paragraph",
+      "text": "In the European Union The Russo-Ukrainian war and the subsequent strong increase in energy and mineral fertiliser prices highlighted the need for greater autonomy and efficiency in the production and use of fertilisers. The amended Temporary Crisis and Transition Framework for State Aid [ 250 ] enabled EU countries to provide specific support to farmers and fertiliser producers. Funds generated by measures such as the cap on the market revenues of certain electricity generators and the solidarity contribution can also be used, subject to the applicable conditions, for purposes of national support schemes. [ 251 ]",
+      "char_offset": 46180
+    },
+    {
+      "type": "paragraph",
+      "text": "This article incorporates text from a free content work. Licensed under CC BY 4.0 ( license statement/permission ). Text taken from World Food and Agriculture \u2013 Statistical Yearbook 2025\u200b , Food and Agriculture Organization of the United Nations.",
+      "char_offset": 46802
+    }
+  ],
+  "labels": [
+    "has_table",
+    "nutrient_table"
+  ],
+  "document_id": "doc-6b4b619e457172a7"
+}

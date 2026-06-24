@@ -1,0 +1,20 @@
+{"claims": [
+  {
+    "parameter_id": "management.tillage_response",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "An analysis of 9,686 comparisons between conservation agricultural practices and existing farmer practices in South Asia showed that zero tillage and residue retention offer a 5.8% yield advantage and a 25.9% economic advantage, with 12% to 33% less GHG emissions",
+    "claim_summary": "Zero tillage plus residue retention gives wheat-system ~5.8% yield advantage and 12-33% lower GHG vs conventional in South Asia.",
+    "extraction_confidence": "medium",
+    "methods": ["zero tillage", "residue retention"]
+  },
+  {
+    "parameter_id": "management.residue_cover_response",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "zero tillage and residue retention offer a 5.8% yield advantage and a 25.9% economic advantage, with 12% to 33% less GHG emissions, compared to existing practices",
+    "claim_summary": "Crop residue retention (with zero tillage) improves wheat-system yield ~5.8% and economics ~25.9% in South Asia.",
+    "extraction_confidence": "low",
+    "methods": ["residue retention", "zero tillage"]
+  }
+]}

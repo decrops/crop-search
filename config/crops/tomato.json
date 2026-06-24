@@ -1,0 +1,89 @@
+{
+  "crop_id": "tomato",
+  "label": "Tomato",
+  "crop_group": "vegetable",
+  "aliases": [
+    "tomato",
+    "tomatoes",
+    "processing tomato",
+    "fresh market tomato"
+  ],
+  "scientific_names": [
+    "Solanum lycopersicum"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "seedling",
+    "transplanting",
+    "vegetative",
+    "flowering",
+    "fruit set",
+    "fruit development",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "vegetable crop",
+    "transplant",
+    "fresh market",
+    "processing tomato",
+    "protected culture"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "horticulture",
+    "vegetable production guide",
+    "crop guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "seedling",
+      "bbch_min": 10,
+      "bbch_max": 19,
+      "confidence": "high"
+    },
+    {
+      "local_term": "transplanting",
+      "bbch_min": 12,
+      "bbch_max": 15,
+      "confidence": "low",
+      "source_note": "operational timing, not a BBCH principal stage"
+    },
+    {
+      "local_term": "vegetative",
+      "bbch_min": 12,
+      "bbch_max": 39,
+      "confidence": "medium"
+    },
+    {
+      "local_term": "flowering",
+      "bbch_min": 60,
+      "bbch_max": 69,
+      "confidence": "high"
+    },
+    {
+      "local_term": "fruit set",
+      "bbch_min": 70,
+      "bbch_max": 71,
+      "confidence": "medium"
+    },
+    {
+      "local_term": "fruit development",
+      "bbch_min": 71,
+      "bbch_max": 79,
+      "confidence": "high"
+    },
+    {
+      "local_term": "maturity",
+      "bbch_min": 80,
+      "bbch_max": 89,
+      "confidence": "medium",
+      "source_note": "ripening"
+    }
+  ]
+}

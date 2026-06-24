@@ -1,0 +1,88 @@
+# Active wheat parameters — extract ONLY these parameter_id values (closed vocabulary).
+# Format: parameter_id | label | family
+
+temperature.base_temperature | Base temperature | temperature
+temperature.optimum_growth_temperature | Optimum growth temperature | temperature
+temperature.germination_temperature | Germination temperature | temperature
+temperature.soil_emergence_temperature | Soil emergence temperature | temperature
+temperature.heat_stress_threshold | Heat stress threshold | temperature
+temperature.survival_temperature | Survival temperature | temperature
+thermal_time.gdu_accumulation | Growing degree unit accumulation | thermal_time
+water.evapotranspiration_requirement | Evapotranspiration requirement | water
+water.drought_sensitive_stage | Drought-sensitive growth stage | water
+water.waterlogging_sensitivity | Waterlogging sensitivity | water
+soil.soil_water_holding_capacity | Soil water holding capacity | soil
+soil.ph_range | Soil pH range | soil
+soil.drainage_requirement | Drainage requirement | soil
+phenology.maturity_duration | Maturity duration | phenology
+planting.planting_window | Planting window | planting
+planting.seeding_depth | Seeding depth | planting
+planting.seeding_rate | Seeding rate | planting
+nutrients.nitrogen_timing | Nitrogen timing | nutrients
+stress.frost_risk_stage | Frost-sensitive stage | stress
+harvest.harvest_moisture | Harvest moisture | harvest
+management.rotation_recommendation | Rotation recommendation | management
+temperature.minimum_growth_temperature | Minimum growth temperature | temperature
+temperature.maximum_growth_temperature | Maximum growth temperature | temperature
+temperature.photosynthesis_optimum_temperature | Photosynthesis optimum temperature | temperature
+temperature.reproductive_heat_threshold | Reproductive heat threshold | temperature
+temperature.grain_fill_temperature | Grain-fill temperature | temperature
+thermal_time.emergence_gdd | GDD to emergence | thermal_time
+thermal_time.anthesis_gdd | GDD to anthesis | thermal_time
+thermal_time.maturity_gdd | GDD to maturity | thermal_time
+thermal_time.vernalization_units | Vernalization units | thermal_time
+phenology.emergence_duration | Emergence duration | phenology
+phenology.tillering_duration | Tillering duration | phenology
+phenology.grain_fill_duration | Grain-fill duration | phenology
+phenology.leaf_appearance_rate | Leaf appearance rate | phenology
+phenology.photoperiod_sensitivity | Photoperiod sensitivity | phenology
+phenology.vernalization_requirement | Vernalization requirement | phenology
+canopy.leaf_area_index | Leaf area index | canopy
+canopy.canopy_cover | Canopy cover | canopy
+canopy.radiation_use_efficiency | Radiation use efficiency | canopy
+canopy.light_extinction_coefficient | Light extinction coefficient | canopy
+canopy.harvest_index | Harvest index | canopy
+canopy.biomass_accumulation | Biomass accumulation | canopy
+photosynthesis.photosynthetic_rate | Photosynthetic rate | photosynthesis
+photosynthesis.stomatal_conductance | Stomatal conductance | photosynthesis
+photosynthesis.transpiration_efficiency | Transpiration efficiency | photosynthesis
+photosynthesis.vapor_pressure_deficit_threshold | VPD response threshold | photosynthesis
+root.maximum_rooting_depth | Maximum rooting depth | root
+root.root_length_density | Root length density | root
+root.root_shoot_ratio | Root-shoot ratio | root
+water.crop_coefficient | Crop coefficient | water
+water.allowable_depletion | Allowable soil-water depletion | water
+water.irrigation_trigger | Irrigation trigger | water
+water.water_productivity | Water productivity | water
+soil.texture_suitability | Soil texture suitability | soil
+soil.salinity_threshold | Soil salinity threshold | soil
+soil.compaction_sensitivity | Soil compaction sensitivity | soil
+soil.water_table_depth | Water-table depth tolerance | soil
+nutrients.nitrogen_requirement | Nitrogen requirement | nutrients
+nutrients.nitrogen_use_efficiency | Nitrogen use efficiency | nutrients
+nutrients.critical_tissue_nitrogen | Critical tissue nitrogen | nutrients
+nutrients.phosphorus_requirement | Phosphorus requirement | nutrients
+nutrients.potassium_requirement | Potassium requirement | nutrients
+nutrients.sulfur_requirement | Sulfur requirement | nutrients
+stress.drought_tolerance | Drought tolerance | stress
+stress.heat_sensitive_stage | Heat-sensitive growth stage | stress
+stress.cold_tolerance | Cold tolerance | stress
+stress.salinity_tolerance | Salinity tolerance | stress
+stress.lodging_susceptibility | Lodging susceptibility | stress
+planting.emergence_rate | Emergence rate | planting
+planting.target_plant_density | Target plant density | planting
+planting.row_spacing | Row spacing | planting
+morphology.plant_height | Plant height | morphology
+morphology.tiller_density | Tiller density | morphology
+morphology.spike_density | Spike density | morphology
+morphology.grains_per_spike | Grains per spike | morphology
+morphology.thousand_kernel_weight | Thousand kernel weight | morphology
+quality.grain_protein | Grain protein | quality
+quality.test_weight | Test weight | quality
+quality.falling_number | Falling number | quality
+quality.gluten_strength | Gluten strength | quality
+harvest.physiological_maturity | Physiological maturity | harvest
+harvest.drydown_rate | Grain drydown rate | harvest
+harvest.preharvest_sprouting_risk | Preharvest sprouting risk | harvest
+management.tillage_response | Tillage response | management
+management.residue_cover_response | Residue cover response | management

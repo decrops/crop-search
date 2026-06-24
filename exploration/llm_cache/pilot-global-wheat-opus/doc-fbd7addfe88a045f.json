@@ -1,0 +1,12 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 25,
+    "unit": "kg/t",
+    "qualifier": "typical",
+    "evidence_text": "For example, wheat removes approximately 25 kg of nitrogen per tonne of grain produced, while rice removes about 20 kg.",
+    "claim_summary": "Wheat removes approximately 25 kg nitrogen per tonne of grain (FAO/ICAR removal coefficient).",
+    "extraction_confidence": "high"
+  }
+]}

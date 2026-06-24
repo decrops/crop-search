@@ -1,0 +1,18 @@
+{
+  "id": "run-state-001",
+  "memory_tier": "ephemeral_run",
+  "kind": "run_state",
+  "summary": "Current run is sampling crop and geography combinations for exploration.",
+  "facts": [
+    "Pilot run should prioritize heterogeneity over scale.",
+    "All failed parses should be archived."
+  ],
+  "open_questions": [
+    "Which source categories produce the cleanest location-scoped claims?"
+  ],
+  "source_refs": [
+    "templates/context/run-brief.json"
+  ],
+  "status": "draft",
+  "last_updated": "2026-05-28T12:00:00Z"
+}

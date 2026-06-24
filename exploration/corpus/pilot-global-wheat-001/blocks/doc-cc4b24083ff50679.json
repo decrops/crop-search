@@ -1,0 +1,980 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Research on the regulation mechanism of drought tolerance in wheat",
+      "text": "Review Published: 20 March 2025 Volume 44 , article number 77 ( 2025 ) Cite this article Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Wheat ( Triticum aestivum L.) is one of the most important crops in arid and semi-arid areas of the world, and its sustainable and efficient production is essential for ensuring food security in China and globally. However, with the global climate change, wheat production is increasingly endangered by abiotic stress, and drought stress has become the main abiotic stress factor restricting wheat production efficiently. Therefore, investigating drought resistance genes and elucidating the mechanisms underlying drought resistance regulation is crucial for the genetic enhancement of drought resistance and the development of new drought-resistant wheat varieties. This paper reviews the majority of research conducted on wheat drought resistance over the past five years, focusing on aspects, such as transcriptional regulation, protein post-translational modifications, and other regulatory mechanisms related to drought resistance in wheat. Additionally, this paper discusses future directions for the genetic improvement of drought resistance and the breeding of new drought-resistant wheat varieties."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Genetic Modification of Wheat to Increase Its Drought Tolerance Article 20 June 2025 Biochemical and Molecular Mechanism of Wheat to Diverse Environmental Stresses Chapter \u00a9 2022 Transcriptome analysis of drought response in a domestic wheat cultivar ( Triticum aestivum L. cv. Keumkang) Article 24 August 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Genetic Modification of Wheat to Increase Its Drought Tolerance",
+      "text": "Article 20 June 2025"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Biochemical and Molecular Mechanism of Wheat to Diverse Environmental Stresses",
+      "text": "Chapter \u00a9 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Transcriptome analysis of drought response in a domestic wheat cultivar ( Triticum aestivum L. cv. Keumkang)",
+      "text": "Article 24 August 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Gene Regulation Pattern Recognition Receptors in Plants Plant Biotechnology Plant Genetics Plant Molecular Biology Plant Stress Responses Drought Tolerance Mechanisms in Wheat Cultivars"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Data availability",
+      "text": "The data are available in the article."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "References",
+      "text": "Abid M, Tian Z, Ata-Ul-Karim ST, Wang F, Liu Y, Zahoor R, Jiang D, Dai T (2016) Adaptation to and recovery from drought stress at vegetative stages in wheat (Triticum aestivum) cultivars. Funct Plant Biol 43:1159\u20131169 Article PubMed CAS Google Scholar Abid, M., Ali, S., Qi, L.K., Zahoor, R., Tian, Z., Jiang, D., Snider, J.L., and Dai, T. (2018). Physiological and biochemical changes during drought and recovery periods at tillering and jointing stages in wheat (Triticum aestivum L.). Sci Rep 8 , 4615. Acker V, Durand JL, Perrot C, Roy E, Frak E, Barillot R (2024) Effects of atmospheric CO2 concentration on transpiration and leaf elongation responses to drought in Triticum aestivum, Lolium perenne and Festuca arundinacea. Ann Bot 134:787\u2013802 Article PubMed CAS Google Scholar Adel, S., and Carels, N. (2023). Plant Tolerance to Drought Stress with Emphasis on Wheat. Plants (Basel) 12 . Alsamadany H, Alzahrani Y, Shah ZH (2023) Physiomorphic and molecular-based evaluation of wheat germplasm under drought and heat stress. Front Plant Sci 14:1107945 Article PubMed PubMed Central Google Scholar Bacher H, Montagu A, Herrmann I, Walia H, Schwartz N, Peleg Z (2023) Stress-induced deeper rooting introgression enhances wheat yield under terminal drought. J Exp Bot 74:4862\u20134874 Article PubMed CAS Google Scholar Brenchley R, Spannagl M, Pfeifer M, Barker GL, D\u2019Amore R, Allen AM, McKenzie N, Kramer M, Kerhornou A, Bolser D et al (2012) Analysis of the bread wheat genome using whole-genome shotgun sequencing. Nature 491:705\u2013710 Article PubMed PubMed Central CAS Google Scholar Chen Q, Wu FB (2020) Breeding for low cadmium accumulation cereals. J Zhejiang Univ Sci B 21:442\u2013459 Article PubMed PubMed Central CAS Google Scholar Chen X, Wang T, Rehman AU, Wang Y, Qi J, Li Z, Song C, Wang B, Yang S, Gong Z (2021) Arabidopsis U-box E3 ubiquitin ligase PUB11 negatively regulates drought tolerance by degrading the receptor-like protein kinases LRR1 and KIN7. J Integr Plant Biol 63:494\u2013509 Article PubMed CAS Google Scholar Cheng C, Hu S, Han Y, Xia D, Huang BL, Wu W, Hussain J, Zhang X, Huang B (2020) Yellow nutsedge WRI4-like gene improves drought tolerance in Arabidopsis thaliana by promoting cuticular wax biosynthesis. BMC Plant Biol 20:498 Article PubMed PubMed Central CAS Google Scholar Christopher J, Christopher M, Jennings R, Jones S, Fletcher S, Borrell A, Manschadi AM, Jordan D, Mace E, Hammer G (2013) QTL for root angle and number in a population developed from bread wheats (Triticum aestivum) with contrasting adaptation to water-limited environments. Theor Appl Genet 126:1563\u20131574 Article PubMed CAS Google Scholar Chung IM, Kim JK, Lee KJ, Park SK, Lee JH, Son NY, Jin YI, Kim SH (2018) Geographic authentication of Asian rice (Oryza sativa L.) using multi-elemental and stable isotopic data combined with multivariate analysis. Food Chem 240:840\u2013849 Article PubMed CAS Google Scholar Comings DE, MacMurray JP (2000) Molecular heterosis: a review. Mol Genet Metab 71:19\u201331 Article PubMed CAS Google Scholar Cui XY, Gao Y, Guo J, Yu TF, Zheng WJ, Liu YW, Chen J, Xu ZS, Ma YZ (2019) BES/BZR Transcription Factor TaBZR2 Positively Regulates Drought Responses by Activation of TaGST1. Plant Physiol 180:605\u2013620 Article PubMed PubMed Central CAS Google Scholar de Zelicourt A, Colcombet J, Hirt H (2016) The Role of MAPK Modules and ABA during Abiotic Stress Signaling. Trends Plant Sci 21:677\u2013685 Article PubMed Google Scholar de Sousa, T., Ribeiro, M., Saben\u00e7a, C., and Igrejas, G. (2021). The 10,000-Year Success Story of Wheat! Foods (Basel, Switzerland) 10 . Ezquer, I., Salameh, I., Colombo, L., and Kalaitzis, P. (2020). Plant Cell Walls Tackling Climate Change: Insights into Plant Cell Wall Remodeling, Its Regulation, and Biotechnological Strategies to Improve Crop Adaptations and Photosynthesis in Response to Global Warming. Plants (Basel, Switzerland) 9 . F\u00e0bregas N, Lozano-Elena F, Blasco-Esc\u00e1mez D, Tohge T, Mart\u00ednez-And\u00fajar C, Albacete A, Osorio S, Bustam"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "We are grateful to all the members of the Liu lab for effective discussion of this paper. We apologize to those authors whose work could not be cited due to space limitations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Funding",
+      "text": "This research was supported by the National Natural Science Foundation of China (U24A20391 to X.L., 32270340 to X.L., 32300304 to H.Z.), Hebei Natural Science Foundation (C2024205009 to H.Z., C2021205013 to X.L., C2024205025 to Y.C.), the Science Foundation of Hebei Normal University (L2024B19 to H.Z., L2021B19 to X.L., L2021B18 to L.G.). Supported by the project 'Full-time introduction of high-end talent research project' (2020HBQZYC004 to X.L.) from Hebei province, funding from Hebei Provincial Department of Education Basic Research Key Cultivation Project (JCZX2025026 to X.L.), Shijiazhuang water-saving wheat seed industry innovation team special (232490472A to X.L.). Supported by Scientific Research Project of Hengshui University (2023GC05). Supported by the Education Department of Hebei (QN2024259)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Author notes Tengteng Zhang, Ying Zhang, Yi Ding, Yufeng Yang contributed equally to this work. Authors and Affiliations Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Collaboration Innovation Center for Cell Signaling and Environmental Adaptation, Hebei Key Laboratory of Molecular and Cellular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, 050024, China Tengteng Zhang, Yi Ding, Yufeng Yang, Huiqiang Wang, Yifan Ye, Haojia Shi, Bowen Yuan, Zizheng Liang, Yulu Guo, Yue Cui, Xigang Liu & Hao Zhang Institute of Biotechnology and Food Science, Hebei Academy of Agriculture and Forestry Sciences, Shijiazhuang, 050051, China Ying Zhang College of Life Sciences, Hengshui University, Hengshui, 053010, China Dan Zhao College of Teacher Education, Molecular and Cellular Postdoctoral Research Station, Hebei Normal University, Shijiazhuang, 050024, China Yue Cui Authors Tengteng Zhang View author publications Search author on: PubMed Google Scholar Ying Zhang View author publications Search author on: PubMed Google Scholar Yi Ding View author publications Search author on: PubMed Google Scholar Yufeng Yang View author publications Search author on: PubMed Google Scholar Dan Zhao View author publications Search author on: PubMed Google Scholar Huiqiang Wang View author publications Search author on: PubMed Google Scholar Yifan Ye View author publications Search author on: PubMed Google Scholar Haojia Shi View author publications Search author on: PubMed Google Scholar Bowen Yuan View author publications Search author on: PubMed Google Scholar Zizheng Liang View author publications Search author on: PubMed Google Scholar Yulu Guo View author publications Search author on: PubMed Google Scholar Yue Cui View author publications Search author on: PubMed Google Scholar Xigang Liu View author publications Search author on: PubMed Google Scholar Hao Zhang View author publications Search author on: PubMed Google Scholar Contributions T.Z., Y.Z., Y.D., and Y. Yang contributed equally to the composition of the manuscript. H.Z., Y.C., and X.L. contributed equally to the conceptualization of the manuscript. H.W., D.Z., Z.L., Y.Ye., H.S., Y.G., B.Y., and H.Z. prepared the manuscript figures. Corresponding authors Correspondence to Yue Cui , Xigang Liu or Hao Zhang ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Collaboration Innovation Center for Cell Signaling and Environmental Adaptation, Hebei Key Laboratory of Molecular and Cellular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, 050024, China Tengteng Zhang, Yi Ding, Yufeng Yang, Huiqiang Wang, Yifan Ye, Haojia Shi, Bowen Yuan, Zizheng Liang, Yulu Guo, Yue Cui, Xigang Liu & Hao Zhang Institute of Biotechnology and Food Science, Hebei Academy of Agriculture and Forestry Sciences, Shijiazhuang, 050051, China Ying Zhang College of Life Sciences, Hengshui University, Hengshui, 053010, China Dan Zhao College of Teacher Education, Molecular and Cellular Postdoctoral Research Station, Hebei Normal University, Shijiazhuang, 050024, China Yue Cui Authors Tengteng Zhang View author publications Search author on: PubMed Google Scholar Ying Zhang View author publications Search author on: PubMed Google Scholar Yi Ding View author publications Search author on: PubMed Google Scholar Yufeng Yang View author publications Search author on: PubMed Google Scholar Dan Zhao View author publications Search author on: PubMed Google Scholar Huiqiang Wang View author publications Search author on: PubMed Google Scholar Yifan Ye View author publications Search author on: PubMed Google Scholar Haojia Shi View author publications Search author on: PubMed Google Scholar Bowen Yuan View author publications Search author on: PubMed Google Scholar Zizheng Liang View author publications Search author on: PubMed Google Scholar Yulu Guo View author publications Search author on: PubMed Google Scholar Yue Cui View author publications Search author on: PubMed Google Scholar Xigang Liu View author publications Search author on: PubMed Google Scholar Hao Zhang View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "T.Z., Y.Z., Y.D., and Y. Yang contributed equally to the composition of the manuscript. H.Z., Y.C., and X.L. contributed equally to the conceptualization of the manuscript. H.W., D.Z., Z.L., Y.Ye., H.S., Y.G., B.Y., and H.Z. prepared the manuscript figures."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Corresponding authors",
+      "text": "Correspondence to Yue Cui , Xigang Liu or Hao Zhang ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Conflict of interest All authors have no interest disputes."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "All authors have no interest disputes."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Communicated by Wusheng Liu. Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Publisher's Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law. Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Zhang, T., Zhang, Y., Ding, Y. et al. Research on the regulation mechanism of drought tolerance in wheat. Plant Cell Rep 44 , 77 (2025). https://doi.org/10.1007/s00299-025-03465-2 Download citation Received : 16 December 2024 Accepted : 04 March 2025 Published : 20 March 2025 Version of record : 20 March 2025 DOI : https://doi.org/10.1007/s00299-025-03465-2 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords Drought Wheat Protein modification ABA Transcription factor"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Zhang, T., Zhang, Y., Ding, Y. et al. Research on the regulation mechanism of drought tolerance in wheat. Plant Cell Rep 44 , 77 (2025). https://doi.org/10.1007/s00299-025-03465-2 Download citation Received : 16 December 2024 Accepted : 04 March 2025 Published : 20 March 2025 Version of record : 20 March 2025 DOI : https://doi.org/10.1007/s00299-025-03465-2 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "Drought Wheat Protein modification ABA Transcription factor"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Wheat ( Triticum aestivum L.) is one of the most important crops in arid and semi-arid areas of the world, and its sustainable and efficient production is essential for ensuring food security in China and globally. However, with the global climate change, wheat production is increasingly endangered by abiotic stress, and drought stress has become the main abiotic stress factor restricting wheat production efficiently. Therefore, investigating drought resistance genes and elucidating the mechanisms underlying drought resistance regulation is crucial for the genetic enhancement of drought resistance and the development of new drought-resistant wheat varieties. This paper reviews the majority of research conducted on wheat drought resistance over the past five years, focusing on aspects, such as transcriptional regulation, protein post-translational modifications, and other regulatory mechanisms related to drought resistance in wheat. Additionally, this paper discusses future directions for the genetic improvement of drought resistance and the breeding of new drought-resistant wheat varieties.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a preview of subscription content, log in via an institution to check access.",
+      "char_offset": 1109
+    },
+    {
+      "type": "paragraph",
+      "text": "Abid M, Tian Z, Ata-Ul-Karim ST, Wang F, Liu Y, Zahoor R, Jiang D, Dai T (2016) Adaptation to and recovery from drought stress at vegetative stages in wheat (Triticum aestivum) cultivars. Funct Plant Biol 43:1159\u20131169",
+      "char_offset": 1196
+    },
+    {
+      "type": "paragraph",
+      "text": "Abid, M., Ali, S., Qi, L.K., Zahoor, R., Tian, Z., Jiang, D., Snider, J.L., and Dai, T. (2018). Physiological and biochemical changes during drought and recovery periods at tillering and jointing stages in wheat (Triticum aestivum L.). Sci Rep 8 , 4615.",
+      "char_offset": 1415
+    },
+    {
+      "type": "paragraph",
+      "text": "Acker V, Durand JL, Perrot C, Roy E, Frak E, Barillot R (2024) Effects of atmospheric CO2 concentration on transpiration and leaf elongation responses to drought in Triticum aestivum, Lolium perenne and Festuca arundinacea. Ann Bot 134:787\u2013802",
+      "char_offset": 1670
+    },
+    {
+      "type": "paragraph",
+      "text": "Adel, S., and Carels, N. (2023). Plant Tolerance to Drought Stress with Emphasis on Wheat. Plants (Basel) 12 .",
+      "char_offset": 1915
+    },
+    {
+      "type": "paragraph",
+      "text": "Alsamadany H, Alzahrani Y, Shah ZH (2023) Physiomorphic and molecular-based evaluation of wheat germplasm under drought and heat stress. Front Plant Sci 14:1107945",
+      "char_offset": 2027
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 2192
+    },
+    {
+      "type": "paragraph",
+      "text": "Bacher H, Montagu A, Herrmann I, Walia H, Schwartz N, Peleg Z (2023) Stress-induced deeper rooting introgression enhances wheat yield under terminal drought. J Exp Bot 74:4862\u20134874",
+      "char_offset": 2238
+    },
+    {
+      "type": "paragraph",
+      "text": "Brenchley R, Spannagl M, Pfeifer M, Barker GL, D\u2019Amore R, Allen AM, McKenzie N, Kramer M, Kerhornou A, Bolser D et al (2012) Analysis of the bread wheat genome using whole-genome shotgun sequencing. Nature 491:705\u2013710",
+      "char_offset": 2420
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 2639
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen Q, Wu FB (2020) Breeding for low cadmium accumulation cereals. J Zhejiang Univ Sci B 21:442\u2013459",
+      "char_offset": 2689
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 2791
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen X, Wang T, Rehman AU, Wang Y, Qi J, Li Z, Song C, Wang B, Yang S, Gong Z (2021) Arabidopsis U-box E3 ubiquitin ligase PUB11 negatively regulates drought tolerance by degrading the receptor-like protein kinases LRR1 and KIN7. J Integr Plant Biol 63:494\u2013509",
+      "char_offset": 2841
+    },
+    {
+      "type": "paragraph",
+      "text": "Cheng C, Hu S, Han Y, Xia D, Huang BL, Wu W, Hussain J, Zhang X, Huang B (2020) Yellow nutsedge WRI4-like gene improves drought tolerance in Arabidopsis thaliana by promoting cuticular wax biosynthesis. BMC Plant Biol 20:498",
+      "char_offset": 3103
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 3329
+    },
+    {
+      "type": "paragraph",
+      "text": "Christopher J, Christopher M, Jennings R, Jones S, Fletcher S, Borrell A, Manschadi AM, Jordan D, Mace E, Hammer G (2013) QTL for root angle and number in a population developed from bread wheats (Triticum aestivum) with contrasting adaptation to water-limited environments. Theor Appl Genet 126:1563\u20131574",
+      "char_offset": 3379
+    },
+    {
+      "type": "paragraph",
+      "text": "Chung IM, Kim JK, Lee KJ, Park SK, Lee JH, Son NY, Jin YI, Kim SH (2018) Geographic authentication of Asian rice (Oryza sativa L.) using multi-elemental and stable isotopic data combined with multivariate analysis. Food Chem 240:840\u2013849",
+      "char_offset": 3686
+    },
+    {
+      "type": "paragraph",
+      "text": "Comings DE, MacMurray JP (2000) Molecular heterosis: a review. Mol Genet Metab 71:19\u201331",
+      "char_offset": 3924
+    },
+    {
+      "type": "paragraph",
+      "text": "Cui XY, Gao Y, Guo J, Yu TF, Zheng WJ, Liu YW, Chen J, Xu ZS, Ma YZ (2019) BES/BZR Transcription Factor TaBZR2 Positively Regulates Drought Responses by Activation of TaGST1. Plant Physiol 180:605\u2013620",
+      "char_offset": 4013
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 4215
+    },
+    {
+      "type": "paragraph",
+      "text": "de Zelicourt A, Colcombet J, Hirt H (2016) The Role of MAPK Modules and ABA during Abiotic Stress Signaling. Trends Plant Sci 21:677\u2013685",
+      "char_offset": 4265
+    },
+    {
+      "type": "paragraph",
+      "text": "de Sousa, T., Ribeiro, M., Saben\u00e7a, C., and Igrejas, G. (2021). The 10,000-Year Success Story of Wheat! Foods (Basel, Switzerland) 10 .",
+      "char_offset": 4403
+    },
+    {
+      "type": "paragraph",
+      "text": "Ezquer, I., Salameh, I., Colombo, L., and Kalaitzis, P. (2020). Plant Cell Walls Tackling Climate Change: Insights into Plant Cell Wall Remodeling, Its Regulation, and Biotechnological Strategies to Improve Crop Adaptations and Photosynthesis in Response to Global Warming. Plants (Basel, Switzerland) 9 .",
+      "char_offset": 4540
+    },
+    {
+      "type": "paragraph",
+      "text": "F\u00e0bregas N, Lozano-Elena F, Blasco-Esc\u00e1mez D, Tohge T, Mart\u00ednez-And\u00fajar C, Albacete A, Osorio S, Bustamante M, Riechmann JL, Nomura T et al (2018) Overexpression of the vascular brassinosteroid receptor BRL3 confers drought resistance without penalizing plant growth. Nat Commun 9:4680",
+      "char_offset": 4847
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 5134
+    },
+    {
+      "type": "paragraph",
+      "text": "Fan W, Zhao M, Li S, Bai X, Li J, Meng H, Mu Z (2016) Contrasting transcriptional responses of PYR1/PYL/RCAR ABA receptors to ABA or dehydration stress between maize seedling leaves and roots. BMC Plant Biol 16:99",
+      "char_offset": 5180
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 5395
+    },
+    {
+      "type": "paragraph",
+      "text": "Gabay G, Wang H, Zhang J, Moriconi JI, Burguener GF, Gualano LD, Howell T, Lukaszewski A, Staskawicz B, Cho MJ et al (2023) Dosage differences in 12-OXOPHYTODIENOATE REDUCTASE genes modulate wheat root growth. Nat Commun 14:539",
+      "char_offset": 5441
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 5670
+    },
+    {
+      "type": "paragraph",
+      "text": "Geng J, Li L, Lv Q, Zhao Y, Liu Y, Zhang L, Li X (2017) TaGW2-6A allelic variation contributes to grain size possibly by regulating the expression of cytokinins and starch-related genes in wheat. Planta 246:1153\u20131163",
+      "char_offset": 5720
+    },
+    {
+      "type": "paragraph",
+      "text": "Giuliani MM, Palermo C, De Santis MA, Mentana A, Pompa M, Giuzio L, Masci S, Centonze D, Flagella Z (2015) Differential Expression of Durum Wheat Gluten Proteome under Water Stress during Grain Filling. J Agric Food Chem 63:6501\u20136512",
+      "char_offset": 5938
+    },
+    {
+      "type": "paragraph",
+      "text": "Gudesblat GE, Russinova E (2011) Plants grow on brassinosteroids. Curr Opin Plant Biol 14:530\u2013537",
+      "char_offset": 6173
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasan, M.M., Alabdallah, N.M., Alharbi, B.M., Waseem, M., Yao, G., Liu, X.D., Abd El-Gawad, H.G., El-Yazied, A.A., Ibrahim, M.F.M., Jahan, M.S. , et al. (2021). GABA: A Key Player in Drought Stress Resistance in Plants. International journal of molecular sciences 22 .",
+      "char_offset": 6272
+    },
+    {
+      "type": "paragraph",
+      "text": "Hayes S (2019) BRacing for Water Stress: Brassinosteroid Signaling Promotes Drought Survival in Wheat. Plant Physiol 180:18\u201319",
+      "char_offset": 6542
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 6670
+    },
+    {
+      "type": "paragraph",
+      "text": "He J, Li C, Hu N, Zhu Y, He Z, Sun Y, Wang Z, Wang Y (2022) ECERIFERUM1-6A is required for the synthesis of cuticular wax alkanes and promotes drought tolerance in wheat. Plant Physiol 190:1640\u20131657",
+      "char_offset": 6720
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 6920
+    },
+    {
+      "type": "paragraph",
+      "text": "He Z, Zhang P, Jia H, Zhang S, Nishawy E, Sun X, Dai M (2024) Regulatory mechanisms and breeding strategies for crop drought resistance. New Crops 1:100029",
+      "char_offset": 6970
+    },
+    {
+      "type": "paragraph",
+      "text": "Huang Y, Mo Y, Chen P, Yuan X, Meng F, Zhu S, Liu Z (2016) Identification of SET Domain-Containing Proteins in Gossypium raimondii and Their Response to High Temperature Stress. Sci Rep 6:32729",
+      "char_offset": 7127
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 7322
+    },
+    {
+      "type": "paragraph",
+      "text": "Imaduwage I, Hewadikaram M (2024) Predicted roles of long non-coding RNAs in abiotic stress tolerance responses of plants. Mol Hortic 4:20",
+      "char_offset": 7372
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 7512
+    },
+    {
+      "type": "paragraph",
+      "text": "Kim JH, Kim MS, Seo YW (2023) Overexpression of a plant U-box gene TaPUB4 confers drought stress tolerance in Arabidopsis thaliana. Plant Physiology and Biochemistry : PPB 196:596\u2013607",
+      "char_offset": 7562
+    },
+    {
+      "type": "paragraph",
+      "text": "Kim, J.H., Kim, M.S., Kim, D.Y., Amoah, J.N., and Seo, Y.W. (2021). Molecular Characterization of U-box E3 Ubiquitin Ligases (TaPUB2 and TaPUB3) Involved in the Positive Regulation of Drought Stress Response in Arabidopsis. International journal of molecular sciences 22 .",
+      "char_offset": 7747
+    },
+    {
+      "type": "paragraph",
+      "text": "Kobayashi A, Takahashi A, Kakimoto Y, Miyazawa Y, Fujii N, Higashitani A, Takahashi H (2007) A gene essential for hydrotropism in roots. Proc Natl Acad Sci U S A 104:4724\u20134729",
+      "char_offset": 8021
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 8198
+    },
+    {
+      "type": "paragraph",
+      "text": "Laddomada, B., Blanco, A., Mita, G., D'Amico, L., Singh, R.P., Ammar, K., Crossa, J., and Guzm\u00e1n, C. (2021). Drought and Heat Stress Impacts on Phenolic Acids Accumulation in Durum Wheat Cultivars. Foods 10 .",
+      "char_offset": 8248
+    },
+    {
+      "type": "paragraph",
+      "text": "Lama S, Leiva F, Vallenback P, Chawade A, Kuktaite R (2023) Impacts of heat, drought, and combined heat-drought stress on yield, phenotypic traits, and gluten protein traits: capturing stability of spring wheat in excessive environments. Front Plant Sci 14:1179701",
+      "char_offset": 8458
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 8724
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee SB, Suh MC (2022) Regulatory mechanisms underlying cuticular wax biosynthesis. J Exp Bot 73:2799\u20132816",
+      "char_offset": 8770
+    },
+    {
+      "type": "paragraph",
+      "text": "Li T, Sun Y, Liu T, Wu H, An P, Shui Z, Wang J, Zhu Y, Li C, Wang Y et al (2019) TaCER1-1A is involved in cuticular wax alkane biosynthesis in hexaploid wheat and responds to plant abiotic stresses. Plant, Cell Environ 42:3077\u20133091",
+      "char_offset": 8877
+    },
+    {
+      "type": "paragraph",
+      "text": "Li Y, Yuan W, Li L, Dai H, Dang X, Miao R, Balu\u0161ka F, Kronzucker HJ, Lu C, Zhang J et al (2020) Comparative analysis reveals gravity is involved in the MIZ1-regulated root hydrotropism. J Exp Bot 71:7316\u20137330",
+      "char_offset": 9110
+    },
+    {
+      "type": "paragraph",
+      "text": "Li C, Li L, Reynolds MP, Wang J, Chang X, Mao X, Jing R (2021) Recognizing the hidden half in wheat: root system attributes associated with drought tolerance. J Exp Bot 72:5117\u20135133",
+      "char_offset": 9320
+    },
+    {
+      "type": "paragraph",
+      "text": "Li B, Liu R, Liu J, Zhang H, Tian Y, Chen T, Li J, Jiao F, Jia T, Li Y et al (2024a) ZmMYB56 regulates stomatal closure and drought tolerance in maize seedlings through the transcriptional regulation of ZmTOM7. New Crops 1:100012",
+      "char_offset": 9503
+    },
+    {
+      "type": "paragraph",
+      "text": "Li S, Zhang Y, Liu Y, Zhang P, Wang X, Chen B, Ding L, Nie Y, Li F, Ma Z et al (2024b) The E3 ligase TaGW2 mediates transcription factor TaARR12 degradation to promote drought resistance in wheat. Plant Cell 36:605\u2013625",
+      "char_offset": 9734
+    },
+    {
+      "type": "paragraph",
+      "text": "Li, J.L., Wang, S.B., Li, Y.J., Hao, X.Y., Zong, Y.Z., Zhang, D.S., Shen, J., Shi, X.R., and Li, P. (2023a). Effects of elevated CO(2) concentration on cell structure and stress resistance physiology of Setaria italica under drought stress. Ying yong sheng tai xue bao = The journal of applied ecology 34 , 1281\u20131289.",
+      "char_offset": 9954
+    },
+    {
+      "type": "paragraph",
+      "text": "Li, S., Yan, N., Tanveer, M., Zhao, Z., Jiang, L., and Wang, H. (2023b). Seed Germination Ecology of the Medicinal Plant Peganum harmala (Zygophyllaceae). Plants (Basel) 12 .",
+      "char_offset": 10273
+    },
+    {
+      "type": "paragraph",
+      "text": "Lin Z, Li Y, Wang Y, Liu X, Ma L, Zhang Z, Mu C, Zhang Y, Peng L, Xie S et al (2021) Initiation and amplification of SnRK2 activation in abscisic acid signaling. Nat Commun 12:2456",
+      "char_offset": 10449
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 10631
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu K, Sun X, Ning T, Duan X, Wang Q, Liu T, An Y, Guan X, Tian J, Chen J (2018) Genetic dissection of wheat panicle traits using linkage analysis and a genome-wide association study. Theor Appl Genet 131:1073\u20131090",
+      "char_offset": 10681
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu Y, Yu TF, Li YT, Zheng L, Lu ZW, Zhou YB, Chen J, Chen M, Zhang JP, Sun GZ et al (2022b) Mitogen-activated protein kinase TaMPK3 suppresses ABA response by destabilising TaPYL4 receptor in wheat. New Phytol 236:114\u2013131",
+      "char_offset": 10897
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 11121
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu, H., Song, S., Zhang, H., Li, Y., Niu, L., Zhang, J., and Wang, W. (2022a). Signaling Transduction of ABA, ROS, and Ca(2+) in Plant Stomatal Closure in Response to Drought. International journal of molecular sciences 23 .",
+      "char_offset": 11171
+    },
+    {
+      "type": "paragraph",
+      "text": "Luo, Y., Xie, Y., Li, W., Wei, M., Dai, T., Li, Z., and Wang, B. (2021). Physiological and Transcriptomic Analyses Reveal Exogenous Trehalose Is Involved in the Responses of Wheat Roots to High Temperature Stress. Plants (Basel, Switzerland) 10 .",
+      "char_offset": 11398
+    },
+    {
+      "type": "paragraph",
+      "text": "Lv Q, Li L, Meng Y, Sun H, Chen L, Wang B, Li X (2022) Wheat E3 ubiquitin ligase TaGW2-6A degrades TaAGPS to affect seed size. Plant Science : an International Journal of Experimental Plant Biology 320:111274",
+      "char_offset": 11646
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma J, Geng Y, Liu H, Zhang M, Liu S, Hao C, Hou J, Zhang Y, Zhang D, Zhang W et al (2023) TaTIP41 and TaTAP46 positively regulate drought tolerance in wheat by inhibiting PP2A activity. J Integr Plant Biol 65:2056\u20132070",
+      "char_offset": 11856
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma, Y.Z., Dang, H.K., Li, K.J., Zheng, C.L., Cao, C.Y., Zhang, J.P., and Li, Q.Q. (2022). [Effects of brackish water irrigation on grain quality characteristics and yield of winter wheat]. Ying yong sheng tai xue bao = The journal of applied ecology 33 , 1063\u20131068.",
+      "char_offset": 12076
+    },
+    {
+      "type": "paragraph",
+      "text": "Manghwar, H., Hussain, A., Ali, Q., and Liu, F. (2022). Brassinosteroids (BRs) Role in Plant Development and Coping with Different Stresses. International journal of molecular sciences 23 .",
+      "char_offset": 12343
+    },
+    {
+      "type": "paragraph",
+      "text": "Mao H, Li S, Chen B, Jian C, Mei F, Zhang Y, Li F, Chen N, Li T, Du L et al (2022) Variation in cis-regulation of a NAC transcription factor contributes to drought tolerance in wheat. Mol Plant 15:276\u2013292",
+      "char_offset": 12534
+    },
+    {
+      "type": "paragraph",
+      "text": "Maqbool S, Ahmad S, Kainat Z, Khan MI, Maqbool A, Hassan MA, Rasheed A, He Z (2022) Root system architecture of historical spring wheat cultivars is associated with alleles and transcripts of major functional genes. BMC Plant Biol 22:590",
+      "char_offset": 12740
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 12979
+    },
+    {
+      "type": "paragraph",
+      "text": "McCready K, Spencer V, Kim M (2020) The Importance of TOR Kinase in Plant Development. Front Plant Sci 11:16",
+      "char_offset": 13029
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 13139
+    },
+    {
+      "type": "paragraph",
+      "text": "Mega R, Abe F, Kim JS, Tsuboi Y, Tanaka K, Kobayashi H, Sakata Y, Hanada K, Tsujimoto H, Kikuchi J et al (2019) Tuning water-use efficiency and drought tolerance in wheat using abscisic acid receptors. Nature Plants 5:153\u2013159",
+      "char_offset": 13185
+    },
+    {
+      "type": "paragraph",
+      "text": "Meng Y, Lv Q, Li L, Wang B, Chen L, Yang W, Lei Y, Xie Y, Li X (2024) E3 ubiquitin ligase TaSDIR1-4A activates membrane-bound transcription factor TaWRKY29 to positively regulate drought resistance. Plant Biotechnol J 22:987\u20131000",
+      "char_offset": 13412
+    },
+    {
+      "type": "paragraph",
+      "text": "Molla, T., Tesfaye, K., Mekbib, F., Tana, T., and Taddesse, T. (2021). Supplementary irrigation for managing the impact of terminal dry spells on the productivity of rainfed rice (Oryza sativa L.) in Fogera Plain, Ethiopia. Heliyon 7 , e06703.",
+      "char_offset": 13643
+    },
+    {
+      "type": "paragraph",
+      "text": "Mushke R, Yarra R, Kirti PB (2019) Improved salinity tolerance and growth performance in transgenic sunflower plants via ectopic expression of a wheat antiporter gene (TaNHX2). Mol Biol Rep 46:5941\u20135953",
+      "char_offset": 13888
+    },
+    {
+      "type": "paragraph",
+      "text": "Niu L, Lu F, Zhao T, Liu C, Cao X (2012) The enzymatic activity of Arabidopsis protein arginine methyltransferase 10 is essential for flowering time regulation. Protein Cell 3:450\u2013459",
+      "char_offset": 14092
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 14277
+    },
+    {
+      "type": "paragraph",
+      "text": "Nolan TM, Vuka\u0161inovi\u0107 N, Liu D, Russinova E, Yin Y (2020) Brassinosteroids: Multidimensional Regulators of Plant Growth, Development, and Stress Responses. Plant Cell 32:295\u2013318",
+      "char_offset": 14327
+    },
+    {
+      "type": "paragraph",
+      "text": "Ober ES, Alahmad S, Cockram J, Forestan C, Hickey LT, Kant J, Maccaferri M, Marr E, Milner M, Pinto F et al (2021) Wheat root systems as a breeding target for climate resilience. Theor Appl Genet 134:1645\u20131662",
+      "char_offset": 14506
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 14717
+    },
+    {
+      "type": "paragraph",
+      "text": "Placido DF, Sandhu J, Sato SJ, Nersesian N, Quach T, Clemente TE, Staswick PE, Walia H (2020) The LATERAL ROOT DENSITY gene regulates root growth during water stress in wheat. Plant Biotechnol J 18:1955\u20131968",
+      "char_offset": 14763
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 14972
+    },
+    {
+      "type": "paragraph",
+      "text": "Qin T, Xiong L (2019) Subcellular Localization and Functions of Plant lncRNAs in Drought and Salt Stress Tolerance. Methods Mol Biol 1933:173\u2013186",
+      "char_offset": 15022
+    },
+    {
+      "type": "paragraph",
+      "text": "Roychoudhry, S., and Kepinski, S. (2022). Auxin in Root Development. Cold Spring Harb Perspect Biol 14 .",
+      "char_offset": 15169
+    },
+    {
+      "type": "paragraph",
+      "text": "Seo DH, Ryu MY, Jammes F, Hwang JH, Turek M, Kang BG, Kwak JM, Kim WT (2012) Roles of four Arabidopsis U-box E3 ubiquitin ligases in negative regulation of abscisic acid-mediated drought stress responses. Plant Physiol 160:556\u2013568",
+      "char_offset": 15275
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 15507
+    },
+    {
+      "type": "paragraph",
+      "text": "Shan, Z., Jiang, Y., Li, H., Guo, J., Dong, M., Zhang, J., and Liu, G. (2020). Genome-wide analysis of the NAC transcription factor family in broomcorn millet (Panicum miliaceum L.) and expression analysis under drought stress. BMC genomics 21 , 96.",
+      "char_offset": 15557
+    },
+    {
+      "type": "paragraph",
+      "text": "Steinberg SF (2018) Post-translational modifications at the ATP-positioning G-loop that regulate protein kinase activity. Pharmacol Res 135:181\u2013187",
+      "char_offset": 15808
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 15957
+    },
+    {
+      "type": "paragraph",
+      "text": "Sun R, Gong J, Liu Y, Chen Z, Zhang F, Gao J, Cao J, Chen X, Zhang S, Zhao C et al (2022) Comprehensive molecular evaluation of the histone methyltransferase gene family and their important roles in two-line hybrid wheat. BMC Plant Biol 22:290",
+      "char_offset": 16007
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 16252
+    },
+    {
+      "type": "paragraph",
+      "text": "Takahashi N, Yamazaki Y, Kobayashi A, Higashitani A, Takahashi H (2003) Hydrotropism interacts with gravitropism by degrading amyloplasts in seedling roots of Arabidopsis and radish. Plant Physiol 132:805\u2013810",
+      "char_offset": 16302
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 16512
+    },
+    {
+      "type": "paragraph",
+      "text": "Thorstensen T, Grini PE, Aalen RB (2011) SET domain proteins in plant development. Biochim Biophys Acta 1809:407\u2013420",
+      "char_offset": 16562
+    },
+    {
+      "type": "paragraph",
+      "text": "Tian J, Zhang J, Francis F (2023b) The role and pathway of VQ family in plant growth, immunity, and stress response. Planta 259:16",
+      "char_offset": 16680
+    },
+    {
+      "type": "paragraph",
+      "text": "Tian, G., Wang, S., Wu, J., Wang, Y., Wang, X., Liu, S., Han, D., Xia, G., and Wang, M. (2023a). Allelic variation of TaWD40\u20134B.1 contributes to drought tolerance by modulating catalase activity in wheat. Nature communications 14 , 1200.",
+      "char_offset": 16812
+    },
+    {
+      "type": "paragraph",
+      "text": "Tong S, Chen N, Wang D, Ai F, Liu B, Ren L, Chen Y, Zhang J, Lou S, Liu H et al (2021) The U-box E3 ubiquitin ligase PalPUB79 positively regulates ABA-dependent drought tolerance via ubiquitination of PalWRKY77 in Populus. Plant Biotechnol J 19:2561\u20132575",
+      "char_offset": 17051
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 17307
+    },
+    {
+      "type": "paragraph",
+      "text": "V, P., Ali, K., Singh, A., Vishwakarma, C., Krishnan, V., Chinnusamy, V., and Tyagi, A. (2019) Starch accumulation in rice grains subjected to drought during grain filling stage. Plant Physiol Biochem 142:440\u2013451",
+      "char_offset": 17357
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang X, Zhang Y, Ma Q, Zhang Z, Xue Y, Bao S, Chong K (2007) SKB1-mediated symmetric dimethylation of histone H4R3 controls flowering time in Arabidopsis. Embo j 26:1934\u20131941",
+      "char_offset": 17571
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 17747
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang H, Hu Z, Huang K, Han Y, Zhao A, Han H, Song L, Fan C, Li R, Xin M et al (2018) Three genomes differentially contribute to the seedling lateral root number in allohexaploid wheat: evidence from phenotype evolution and gene expression. Plant J 95:976\u2013987",
+      "char_offset": 17797
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang B, Li L, Liu M, Peng D, Wei A, Hou B, Lei Y, Li X (2022) TaFDL2-1A confers drought stress tolerance by promoting ABA biosynthesis, ABA responses, and ROS scavenging in transgenic wheat. The Plant Journal : for Cell and Molecular Biology 112:722\u2013737",
+      "char_offset": 18057
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang J, Li C, Li L, Gao L, Hu G, Zhang Y, Reynolds MP, Zhang X, Jia J, Mao X et al (2023) DIW1 encoding a clade I PP2C phosphatase negatively regulates drought tolerance by de-phosphorylating TaSnRK1.1 in wheat. J Integr Plant Biol 65:1918\u20131936",
+      "char_offset": 18312
+    },
+    {
+      "type": "paragraph",
+      "text": "Wullschleger S, Loewith R, Hall MN (2006) TOR signaling in growth and metabolism. Cell 124:471\u2013484",
+      "char_offset": 18558
+    },
+    {
+      "type": "paragraph",
+      "text": "Xiao G, Zhang Y (2020) Adaptive Growth: Shaping Auxin-Mediated Root System Architecture. Trends Plant Sci 25:121\u2013123",
+      "char_offset": 18658
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu B, Long Y, Feng X, Zhu X, Sai N, Chirkova L, Betts A, Herrmann J, Edwards EJ, Okamoto M et al (2021) GABA signalling modulates stomatal opening to enhance plant water use efficiency and drought resilience. Nat Commun 12:1952",
+      "char_offset": 18776
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 19005
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu J, Liu H, Zhou C, Wang J, Wang J, Han Y, Zheng N, Zhang M, Li X (2024) The ubiquitin-proteasome system in the plant response to abiotic stress: Potential role in crop resilience improvement. Plant Science : an International Journal of Experimental Plant Biology 342:112035",
+      "char_offset": 19055
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, J., Zhang, G., An, J., Li, Q., Chen, Y., Zhao, X., Wu, J., Wang, Y., Hao, Q., Wang, W. , et al. (2020). Expansin gene TaEXPA2 positively regulates drought tolerance in transgenic wheat (Triticum aestivum L.). Plant Sci 298 , 110596.",
+      "char_offset": 19332
+    },
+    {
+      "type": "paragraph",
+      "text": "Yi X, Jiang XJ, Li XY, Jiang DS (2015) Histone methyltransferases: novel targets for tumor and developmental defects. Am J Transl Res 7:2159\u20132175",
+      "char_offset": 19572
+    },
+    {
+      "type": "paragraph",
+      "text": "PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 19719
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhan, P., Zhong, Z.C., Xiang, N.Y., Qin, R., Jiang, X.B., and Liu, H. (2022). [Identification of Carthamus tinctorius NAC gene family and analysis of drought stress response]. Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica 47 , 5520\u20135529.",
+      "char_offset": 19761
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang Y, Zhu H, Zhang Q, Li M, Yan M, Wang R, Wang L, Welti R, Zhang W, Wang X (2009) Phospholipase dalpha1 and phosphatidic acid regulate NADPH oxidase activity and production of reactive oxygen species in ABA-mediated stomatal closure in Arabidopsis. Plant Cell 21:2357\u20132377",
+      "char_offset": 20048
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 20326
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang B, Li W, Chang X, Li R, Jing R (2014) Effects of favorable alleles for water-soluble carbohydrates at grain filling on grain weight under drought and heat stresses in wheat. PLoS ONE 9:e102917",
+      "char_offset": 20376
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 20576
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang L, Xu Z, Ji H, Zhou Y, Yang S (2019a) TaWRKY40 transcription factor positively regulate the expression of TaGAPC1 to enhance drought tolerance. BMC Genomics 20:795",
+      "char_offset": 20622
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 20793
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang Y, Xiao G, Wang X, Zhang X, Friml J (2019b) Evolution of fast root gravitropism in seed plants. Nat Commun 10:3480",
+      "char_offset": 20843
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 20965
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang L, Lei D, Deng X, Li F, Ji H, Yang S (2020a) Cytosolic glyceraldehyde-3-phosphate dehydrogenase 2/5/6 increase drought tolerance via stomatal movement and reactive oxygen species scavenging in wheat. Plant, Cell Environ 43:836\u2013853",
+      "char_offset": 21011
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang Y, Sun Z, Jia J, Du T, Zhang N, Tang Y, Fang Y, Fang D (2021) Overview of Histone Modification. Adv Exp Med Biol 1283:1\u201316",
+      "char_offset": 21249
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang L, Zheng Y, Xiong X, Li H, Zhang X, Song Y, Zhang X, Min D (2023a) The wheat VQ motif-containing protein TaVQ4-D positively regulates drought tolerance in transgenic plants. J Exp Bot 74:5591\u20135605",
+      "char_offset": 21379
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang P, He R, Yang J, Cai J, Qu Z, Yang R, Gu J, Wang ZY, Adelson DL, Zhu Y et al (2023b) The long non-coding RNA DANA2 positively regulates drought tolerance by recruiting ERF84 to promote JMJ29-mediated histone demethylation. Mol Plant 16:1339\u20131353",
+      "char_offset": 21583
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang Y, Li Y, de Zeeuw T, Duijts K, Kawa D, Lamers J, Munzert KS, Li H, Zou Y, Meyer AJ et al (2024) Root branching under high salinity requires auxin-independent modulation of LATERAL ORGAN BOUNDARY DOMAIN 16 function. Plant Cell 36:899\u2013918",
+      "char_offset": 21836
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, L., Zhang, H., and Yang, S. (2020b). Cytosolic TaGAPC2 Enhances Tolerance to Drought Stress in Transgenic Arabidopsis Plants. International journal of molecular sciences 21 .",
+      "char_offset": 22080
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao H, Nie K, Zhou H, Yan X, Zhan Q, Zheng Y, Song CP (2020) ABI5 modulates seed germination via feedback regulation of the expression of the PYR/PYL/RCAR ABA receptor genes. New Phytol 228:596\u2013608",
+      "char_offset": 22263
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhou Y, Liu J, Guo J, Wang Y, Ji H, Chu X, Xiao K, Qi X, Hu L, Li H et al (2022) GmTDN1 improves wheat yields by inducing dual tolerance to both drought and low-N stress. Plant Biotechnol J 20:1606\u20131621",
+      "char_offset": 22463
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 22667
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu L, Guo J, Zhu J, Zhou C (2014) Enhanced expression of EsWAX1 improves drought tolerance with increased accumulation of cuticular wax and ascorbic acid in transgenic Arabidopsis. Plant Physiology and Biochemistry : PPB 75:24\u201335",
+      "char_offset": 22717
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu D, Chang Y, Pei T, Zhang X, Liu L, Li Y, Zhuang J, Yang H, Qin F, Song C et al (2020) MAPK-like protein 1 positively regulates maize seedling drought sensitivity by suppressing ABA biosynthesis. The Plant Journal : for Cell and Molecular Biology 102:747\u2013760",
+      "char_offset": 22949
+    },
+    {
+      "type": "paragraph",
+      "text": "We are grateful to all the members of the Liu lab for effective discussion of this paper. We apologize to those authors whose work could not be cited due to space limitations.",
+      "char_offset": 23212
+    },
+    {
+      "type": "paragraph",
+      "text": "This research was supported by the National Natural Science Foundation of China (U24A20391 to X.L., 32270340 to X.L., 32300304 to H.Z.), Hebei Natural Science Foundation (C2024205009 to H.Z., C2021205013 to X.L., C2024205025 to Y.C.), the Science Foundation of Hebei Normal University (L2024B19 to H.Z., L2021B19 to X.L., L2021B18 to L.G.). Supported by the project 'Full-time introduction of high-end talent research project' (2020HBQZYC004 to X.L.) from Hebei province, funding from Hebei Provincial Department of Education Basic Research Key Cultivation Project (JCZX2025026 to X.L.), Shijiazhuang water-saving wheat seed industry innovation team special (232490472A to X.L.). Supported by Scientific Research Project of Hengshui University (2023GC05). Supported by the Education Department of Hebei (QN2024259).",
+      "char_offset": 23389
+    },
+    {
+      "type": "paragraph",
+      "text": "Tengteng Zhang, Ying Zhang, Yi Ding, Yufeng Yang contributed equally to this work.",
+      "char_offset": 24206
+    },
+    {
+      "type": "paragraph",
+      "text": "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Collaboration Innovation Center for Cell Signaling and Environmental Adaptation, Hebei Key Laboratory of Molecular and Cellular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, 050024, China",
+      "char_offset": 24290
+    },
+    {
+      "type": "paragraph",
+      "text": "Tengteng Zhang, Yi Ding, Yufeng Yang, Huiqiang Wang, Yifan Ye, Haojia Shi, Bowen Yuan, Zizheng Liang, Yulu Guo, Yue Cui, Xigang Liu & Hao Zhang",
+      "char_offset": 24648
+    },
+    {
+      "type": "paragraph",
+      "text": "Institute of Biotechnology and Food Science, Hebei Academy of Agriculture and Forestry Sciences, Shijiazhuang, 050051, China",
+      "char_offset": 24793
+    },
+    {
+      "type": "paragraph",
+      "text": "College of Life Sciences, Hengshui University, Hengshui, 053010, China",
+      "char_offset": 24919
+    },
+    {
+      "type": "paragraph",
+      "text": "College of Teacher Education, Molecular and Cellular Postdoctoral Research Station, Hebei Normal University, Shijiazhuang, 050024, China",
+      "char_offset": 24991
+    },
+    {
+      "type": "paragraph",
+      "text": "T.Z., Y.Z., Y.D., and Y. Yang contributed equally to the composition of the manuscript. H.Z., Y.C., and X.L. contributed equally to the conceptualization of the manuscript. H.W., D.Z., Z.L., Y.Ye., H.S., Y.G., B.Y., and H.Z. prepared the manuscript figures.",
+      "char_offset": 25129
+    },
+    {
+      "type": "paragraph",
+      "text": "Correspondence to Yue Cui , Xigang Liu or Hao Zhang .",
+      "char_offset": 25388
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 25443
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+      "char_offset": 25563
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang, T., Zhang, Y., Ding, Y. et al. Research on the regulation mechanism of drought tolerance in wheat. Plant Cell Rep 44 , 77 (2025). https://doi.org/10.1007/s00299-025-03465-2",
+      "char_offset": 25897
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s00299-025-03465-2",
+      "char_offset": 26078
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 26128
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 26205
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 26275
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-cc4b24083ff50679"
+}

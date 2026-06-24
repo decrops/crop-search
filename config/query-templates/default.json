@@ -1,0 +1,65 @@
+{
+  "template_id": "default",
+  "version": "0.1.0",
+  "notes": "Parameter-aware query vocabulary (WS-5). Keyed by manifest `domain`. Param-level `query_units`/`query_terms` override these defaults. Scholarly tiers additionally get the crop scientific name.",
+  "scholarly_tiers": ["peer_reviewed_science", "textbook_reference"],
+  "stage_terms": ["BBCH", "Zadoks", "Feekes", "growth stage"],
+  "domains": {
+    "nutrient_management": {
+      "units": ["kg/ha", "lb/ac"],
+      "terms": ["N rate", "split application", "topdress", "fertilizer rate"]
+    },
+    "water_management": {
+      "units": ["mm", "Kc", "ETc"],
+      "terms": ["crop coefficient", "evapotranspiration", "allowable depletion", "irrigation scheduling"]
+    },
+    "climate_site": {
+      "units": ["°C", "celsius"],
+      "terms": ["cardinal temperature", "thermal", "base temperature"]
+    },
+    "growth_monitoring": {
+      "units": ["GDD", "days", "°Cd"],
+      "terms": ["growth stage", "thermal time", "phenology", "Zadoks"]
+    },
+    "stress_abiotic": {
+      "units": ["°C", "dS/m"],
+      "terms": ["tolerance threshold", "sensitive stage", "yield reduction"]
+    },
+    "harvest": {
+      "units": ["percent", "%"],
+      "terms": ["grain moisture", "harvest timing", "physiological maturity"]
+    },
+    "post_harvest_quality": {
+      "units": ["percent", "%"],
+      "terms": ["grain protein", "test weight", "storage moisture"]
+    },
+    "soil_requirements": {
+      "units": ["pH", "dS/m"],
+      "terms": ["soil pH range", "salinity threshold", "drainage"]
+    },
+    "soil_prep_tillage": {
+      "units": [],
+      "terms": ["tillage", "seedbed preparation", "residue management"]
+    },
+    "planting_establishment": {
+      "units": ["seeds/m2", "kg/ha", "cm"],
+      "terms": ["seeding rate", "sowing depth", "planting date", "row spacing"]
+    },
+    "variety_cultivar": {
+      "units": [],
+      "terms": ["variety trial", "recommended list", "cultivar rating", "adaptation"]
+    },
+    "crop_protection": {
+      "units": ["%", "threshold"],
+      "terms": ["action threshold", "scouting", "growth stage", "management guide"]
+    },
+    "economics": {
+      "units": ["$/acre", "$/ha"],
+      "terms": ["enterprise budget", "gross margin", "break-even", "input cost"]
+    }
+  },
+  "default_domain": {
+    "units": [],
+    "terms": []
+  }
+}

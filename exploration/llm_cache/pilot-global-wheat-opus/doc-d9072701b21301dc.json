@@ -1,0 +1,38 @@
+{
+  "claims": [
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat Pre-harvest Sprout (PHS) occurs when late-season rains cause grain to sprout before harvest, resulting in reduced grain quality and yield loss. Genetic factors determine susceptibility to PHS.",
+      "claim_summary": "Pre-harvest sprouting occurs when late-season rains cause mature wheat grain to break dormancy and sprout, reducing quality and yield; susceptibility is genetically determined.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Harvesting grain as soon as it reaches physiological maturity is the best way to prevent PHS damage. The less time grain is exposed to potential late-season moisture, the lower the risk of PHS.",
+      "claim_summary": "Harvesting promptly at physiological maturity and selecting resistant cultivars minimizes pre-harvest sprouting risk.",
+      "extraction_confidence": "high",
+      "methods": ["harvest"]
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Flour prepared from PHS-damaged grain will have partially-degraded starch and gluten and lower falling numbers (a metric tied to bread quality where a lower score means poor bread quality).",
+      "claim_summary": "Pre-harvest sprouting lowers falling number (degraded starch/gluten), indicating poorer bread-making quality.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Harvesting grain as soon as it reaches physiological maturity is the best way to prevent PHS damage.",
+      "claim_summary": "Physiological maturity is the target harvest timing point to minimize sprouting damage.",
+      "extraction_confidence": "medium",
+      "methods": ["harvest"]
+    }
+  ]
+}

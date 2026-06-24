@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "seed-registry.schema.json",
+  "title": "Curated source seed registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry_version", "seeds"],
+  "properties": {
+    "registry_version": {"type": "string"},
+    "notes": {"type": "string"},
+    "seeds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["seed_id", "source_url", "crop", "source_tier_id", "covered_parameters"],
+        "properties": {
+          "seed_id": {"type": "string"},
+          "source_url": {"type": "string"},
+          "title": {"type": "string"},
+          "snippet": {"type": "string"},
+          "document_type": {"type": "string", "enum": ["pdf", "html", "other"]},
+          "crop": {"type": "string"},
+          "region": {"type": "string"},
+          "source_tier_id": {"type": "string"},
+          "source_quality": {"type": "string", "enum": ["high", "medium", "low"]},
+          "covered_parameters": {"type": "array", "items": {"type": "string"}},
+          "verified_scope": {"type": "string"},
+          "last_verified": {"type": "string"},
+          "access_status": {"type": "string"},
+          "caveats": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

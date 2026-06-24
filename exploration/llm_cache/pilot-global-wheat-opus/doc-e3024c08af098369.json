@@ -1,0 +1,55 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "range",
+      "range_min": 21,
+      "range_max": 56,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "Cold period (=vernalization) accelerates the flowering of winter (autumn-sown) varieties. The length of effective vernalization can range from three to eight weeks (Košner, Pánková 2002; Li et al., 2013).",
+      "claim_summary": "Effective vernalization length for winter wheat ranges from 3 to 8 weeks (~21-56 days).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Cold and short days during winter downregulate VRN2, releasing both VRN1 and FT1 transcription. Vernalization is a period of low non-freezing temperatures, which provides the competence to flower.",
+      "claim_summary": "Winter wheat requires a period of low non-freezing (cold) temperatures plus short days to acquire flowering competence; vernalization requirement is genotype-dependent.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 90,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "Depending on the growth conditions, the spring wheat heading time can range from 25 to 90 days (Li et al., 2017; Huang et al., 2018).",
+      "claim_summary": "Spring wheat heading time ranges from 25 to 90 days depending on growth conditions.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 40,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "The effect of vernalization treatment can be partially or completely removed... by several days of heat treatment called devernalization. The most effective temperature was considered 30 – 40°C (Bernier, 1981).",
+      "claim_summary": "Heat treatment of 30-40 °C is most effective at devernalizing (reversing vernalization in) wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "This ability is related to a variation in the two main genes: PPD1 (PHOTOPERIOD1, photoperiod response) and VRN1 (VERNALIZATION1, vernalization requirement). In autumn-sown winter wheat, the flowering induction is repressed by the VRN2 gene during long days",
+      "claim_summary": "Wheat flowering time and adaptation governed by photoperiod response (PPD1) and vernalization requirement (VRN1); long days repress flowering in winter wheat via VRN2.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

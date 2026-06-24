@@ -1,0 +1,12 @@
+{"claims": [
+  {
+    "parameter_id": "stress.heat_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "HTS damages membranes of chloroplast and decreases the efficiency of photosystem-II, reduces the activity state of RuBisCO, induces senescence during grain-filling stage that in turn reduces grain-filling time.",
+    "claim_summary": "High-temperature stress induces senescence during the grain-filling stage and shortens grain-filling time, identifying grain filling (and anthesis) as heat-sensitive stages in wheat.",
+    "extraction_confidence": "medium",
+    "bbch_min": 60,
+    "bbch_max": 89
+  }
+]}

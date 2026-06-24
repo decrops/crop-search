@@ -1,0 +1,1286 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Plant Sci. , 14 March 2023 Sec. Plant Abiotic Stress Volume 14 - 2023 | https://doi.org/10.3389/fpls.2023.1138966"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "Plant Abiotic Stress",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Editor & Reviewers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Plant Sci. , 14 March 2023 Sec. Plant Abiotic Stress Volume 14 - 2023 | https://doi.org/10.3389/fpls.2023.1138966"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 1,
+      "heading": "Responses of wheat kernel weight to diverse allelic combinations under projected climate change conditions",
+      "text": "K W Keyi Wang 1 \u2020 L S Liping Shi 1 \u2020 B Z Bangyou Zheng 2 Y H Yong He 1 * 1. Institute of Environment and Sustainable Development in Agriculture, Chinese Academy of Agricultural Sciences, Beijing, China 2. Commonwealth Scientific and Industrial Research Organisation (CSIRO) Agriculture and Food, Queensland Biosciences Precinct, St. Lucia, QLD, Australia Article metrics View details Abstract Introduction: In wheat, kernel weight (KW) is a key determinant of grain yield (GY). However, it is often overlooked when improving wheat productivity under climate warming. Moreover, little is known about the complex effects of genetic and climatic factors on KW. Here, we explored the responses of wheat KW to diverse allelic combinations under projected climate warming conditions. Methods: To focus on KW, we selected a subset of 81 out of 209 wheat varieties with similar GY, biomass, and kernel number (KN) and focused on their thousand-kernel weight (TKW). We genotyped them at eight kompetitive allele-specific polymerase chain reaction markers closely associated with TKW. Subsequently, we calibrated and evaluated the process-based model known as Agricultural Production Systems Simulator (APSIM-Wheat) based on a unique dataset including phenotyping, genotyping, climate, soil physicochemistry, and on-farm management information. We then used the calibrated APSIM-Wheat model to estimate TKW under eight allelic combinations (81 wheat varieties), seven sowing dates, and the shared socioeconomic pathways (SSPs) designated SSP2-4.5 and SSP5-8.5, driven by climate projections from five General Circulation Models (GCMs) BCC-CSM2-MR, CanESM5, EC-Earth3-Veg, MIROC-ES2L, and UKESM1-0-LL. Results: The APSIM-Wheat model reliably simulated wheat TKW with a root mean square error (RMSE) of < 3.076 g TK -1 and R 2 of > 0.575 ( P < 0.001). The analysis of variance based on the simulation output showed that allelic combination, climate scenario, and sowing date extremely significantly affected TKW ( P < 0.001). The impact of the interaction allelic combination \u00d7 climate scenario on TKW was also significant ( P < 0.05). Meanwhile, the variety parameters and their relative importance in the APSIM-Wheat model accorded with the expression of the allelic combinations. Under the projected climate scenarios, the favorable allelic combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b for SSP2-4.5 and SSP5-8.5) mitigated the negative effects of climate change on TKW. Discussion: The present study demonstrated that optimizing favorable allelic combinations can help achieve high wheat TKW. The findings of this study clarify the responses of wheat KW to diverse allelic combinations under projected climate change conditions. Additionally, the present study provides theoretical and practical reference for marker-assisted selection of high TKW in wheat breeding. 1 Introduction Wheat is one of the most important staple crops and constitutes ~21% of the global food crop production ( FAOSTAT, 2021 ). By 2050, the global demand for wheat is expected to increase at an annu al rate of 1.7%; however, the wheat grain yield (GY) is expected to increase by only 1.1% per year at that time ( Ray et al., 2013 ). The thousand-kernel weight (TKW) is a key determinant of winter wheat GY ( Li et al., 2022 ). Kernel number per spike and spike number per unit area (ha) (SN) are becoming increasingly stable as wheat genomics rapidly develops ( Fischer, 2008 ). Previous studies have shown that increasing TKW effectively increases GY ( Qin et al., 2015 ; Duan et al., 2020 ). Grain formation comprises photosynthate production, transport, accumulation, and solidification ( Serrago et al., 2013 ). Kernel weight (KW) depends mainly on grain size (volume) and degree of filling (plumpness). Larger grains and faster, earlier, and longer grain filling are associated with higher KW ( Xie et al., 2015 ). The grain filling rate divides KW formation into gradual, rapid, and slow incre"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Introduction: In wheat, kernel weight (KW) is a key determinant of grain yield (GY). However, it is often overlooked when improving wheat productivity under climate warming. Moreover, little is known about the complex effects of genetic and climatic factors on KW. Here, we explored the responses of wheat KW to diverse allelic combinations under projected climate warming conditions. Methods: To focus on KW, we selected a subset of 81 out of 209 wheat varieties with similar GY, biomass, and kernel number (KN) and focused on their thousand-kernel weight (TKW). We genotyped them at eight kompetitive allele-specific polymerase chain reaction markers closely associated with TKW. Subsequently, we calibrated and evaluated the process-based model known as Agricultural Production Systems Simulator (APSIM-Wheat) based on a unique dataset including phenotyping, genotyping, climate, soil physicochemistry, and on-farm management information. We then used the calibrated APSIM-Wheat model to estimate TKW under eight allelic combinations (81 wheat varieties), seven sowing dates, and the shared socioeconomic pathways (SSPs) designated SSP2-4.5 and SSP5-8.5, driven by climate projections from five General Circulation Models (GCMs) BCC-CSM2-MR, CanESM5, EC-Earth3-Veg, MIROC-ES2L, and UKESM1-0-LL. Results: The APSIM-Wheat model reliably simulated wheat TKW with a root mean square error (RMSE) of < 3.076 g TK -1 and R 2 of > 0.575 ( P < 0.001). The analysis of variance based on the simulation output showed that allelic combination, climate scenario, and sowing date extremely significantly affected TKW ( P < 0.001). The impact of the interaction allelic combination \u00d7 climate scenario on TKW was also significant ( P < 0.05). Meanwhile, the variety parameters and their relative importance in the APSIM-Wheat model accorded with the expression of the allelic combinations. Under the projected climate scenarios, the favorable allelic combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b for SSP2-4.5 and SSP5-8.5) mitigated the negative effects of climate change on TKW. Discussion: The present study demonstrated that optimizing favorable allelic combinations can help achieve high wheat TKW. The findings of this study clarify the responses of wheat KW to diverse allelic combinations under projected climate change conditions. Additionally, the present study provides theoretical and practical reference for marker-assisted selection of high TKW in wheat breeding."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "1 Introduction",
+      "text": "Wheat is one of the most important staple crops and constitutes ~21% of the global food crop production ( FAOSTAT, 2021 ). By 2050, the global demand for wheat is expected to increase at an annu al rate of 1.7%; however, the wheat grain yield (GY) is expected to increase by only 1.1% per year at that time ( Ray et al., 2013 ). The thousand-kernel weight (TKW) is a key determinant of winter wheat GY ( Li et al., 2022 ). Kernel number per spike and spike number per unit area (ha) (SN) are becoming increasingly stable as wheat genomics rapidly develops ( Fischer, 2008 ). Previous studies have shown that increasing TKW effectively increases GY ( Qin et al., 2015 ; Duan et al., 2020 ). Grain formation comprises photosynthate production, transport, accumulation, and solidification ( Serrago et al., 2013 ). Kernel weight (KW) depends mainly on grain size (volume) and degree of filling (plumpness). Larger grains and faster, earlier, and longer grain filling are associated with higher KW ( Xie et al., 2015 ). The grain filling rate divides KW formation into gradual, rapid, and slow increase periods ( Wang and Shangguan, 2015 ). The gradual increase period is the \u201creservoir establishment\u201d stage. Temperature, photosynthetic nutrition, and phytohormone levels cooperatively induce endosperm cells to form the grain through division and growth. The number of endosperm cells determines the grain size ( Schnyder and Baum, 1992 ). Grain filling slowly accelerates and grain dry matter accumulation accounts for 13\u201320% of the total mature KW during the gradual increase period. The rapid increase period is the \u201creservoir formation\u201d stage. At this stage, the assimilates required for grain filling originate mainly from the photosynthetic products formed after flowering and the mobilization of soluble reserves from the nutritional organs before and after flowering. Genotype, climatic conditions, and nutrient supply levels influence this process ( Ehdaie et al., 2008 ). During the rapid increase period, the rate of grain filling increases considerably and grain dry matter accumulation is highest and accounts for 52\u201357% of the mature KW. The slow increase period is the \u201creserve solidification\u201d stage. Senescent plant organs supply assimilates as their structural macromolecules degrade and are transported to the developing grains at the late plant growth stage ( Distelfeld et al., 2014 ). During the slow increase period, the grain filling rate gradually decreases, grain filling eventually stops, the grain gradually matures, and dry matter accumulation accounts for 12\u201320% of the mature KW. Wheat KW is influenced by both genetic and environmental factors ( Brinton and Uauy, 2019 ). Kernel weight is a quantitative trait regulated by several different genes with a stable phenotype and medium to high heritability (0.6\u20130.8); however, it is highly susceptible to environmental factors ( Miao et al., 2022 ). Research has revealed that breeding for superior allele aggregation, which in turn regulates and modifies gene expression as well as biochemical and metabolic pathways, is an important way to increase KW. Qin et al. (2015) conducted a linear regression analysis of >1,850 Chinese wheat varieties produced since the 1920s, which revealed that the average TKW increased from 30.16 g TK \u22121 in the 1920s to 38.43 g TK \u22121 in the 2010s ( Qin et al., 2015 ). Furthermore, the use of molecular marker technology greatly enhanced the improvement of thousand grain weight traits. Wheat TaSus1-7A and TaSus2-7B encode sucrose synthases and are positively correlated with dry matter accumulation during wheat development ( Hou et al., 2014 ). Auxin regulates cell elongation, expansion, and division during grain filling and affects grain size and weight. TaGW2-6A negatively regulates wheat KW by inhibiting auxin biosynthesis ( Geng et al., 2017 ; Li et al., 2017 ). Environmental factors, particularly temperature, also play vital roles in KW. Temperature substantially altered KW by a"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "2 Materials and methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "2.1 Field conditions",
+      "text": "Field experiments were conducted in 2018\u20132019 and in 2019\u20132020 at the Xinxiang Comprehensive Experimental Station of the Chinese Academy of Agricultural Sciences, Henan Province, China (35\u00b018\u2032N, 113\u00b051\u2032E, 78 m a.s.l.). The region has a warm, temperate, semi-humid climate. The brown soil of the region had pH and bulk density of 7.11 and 1.38 g cm -3 , respectively. The water, organic carbon, and total nitrogen levels were 36.1%, 1.7 g kg -1 , and 1.11 g kg -1 , respectively. In 2018\u20132019 and 2019\u20132020, the accumulated temperatures were 2559.3 \u00b0C and 2437.1 \u00b0C and the precipitation levels were 105.5 mm and 110.6 mm, respectively ( Ma et al., 2021 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "2.2 Experimental design",
+      "text": "Two hundred and nine varieties were selected among natural wheat populations and Huaimai 40 (stable) and Zhengmai 7698 (sensitive) served as the control varieties. They were sown on October 8, 2018 and October 23, 2019, respectively, and harvested on June 6, 2019 and June 2, 2020, respectively. The experiment was repeated twice using a randomized complete block design. The sowing density, row spacing, sowing depth, and plot size were 270 plants m -2 , 10 cm, 5 cm, and 4.2 m 2 (3 m \u00d7 1.4 m), respectively. Details of water and fertilizer management during the two growing seasons are listed in Table 1 . The SN, KN, GY, and TKW were measured during two growing seasons. Two random samples were taken, after the grain filling stage, from each sample frame (0.5 \u00d7 0.5 m) within the test plots (excluding edge areas). The SN in the sample frames was recorded, and the average value was obtained. Before the wheat maturity, 20 representative ears of wheat were randomly selected from each plot and threshed to obtain the average KN. After the wheat matured, it was threshed, dried, and weighed to obtain the GY per unit area (ha). Representative kernels (1000) were then selected and weighed to obtain the TKW. Pest and weed control were implemented in accordance with local productive field standards. Table 1 Growing seasons Date Irrigation (mm) Fertilization (kg/ha) 2018-2019 10/4 (Before sowing) Humic acid urea 12.5 + Di-ammonium phosphate 30 + KCl 7.5 12/15 (Overwintering) 180 2/27 (Elongation) N26-P0-K4 15 3/7 (Elongation) 120 5/17 (Grouting) 120 2019-2020 10/22 (Before sowing) Humic acid urea 11 + Controlled-release urea 4 + Mono-ammonium phosphate 30 +Potassium 5 12/24 (Overwintering) 150 12/28 (Overwintering) N26-P0-K4 10 3/1 (Elongation) N26-P0-K4 10 3/12 (Elongation) 120 4/27 (Grouting) 120 On-farm management of 209 wheat varieties during the 2018-2019 and 2019-2020 growing seasons."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "2.3 Materials",
+      "text": "The present study included 209 wheat varieties sampled from different habits (winter, semi-winter, weak-spring, or spring), gluten content types (strong, medium-strong, medium, or weak), breeding years (1980s\u20132010s), and habitats (China or other countries). The materials were abundant and widely distributed. The medium gluten type had the highest proportion (59.14%) followed by the strong gluten (29.03%) and the weak and medium-strong gluten types (7.53% and 4.30%, respectively). Additionally, the proportion of the semi-winter type was the highest (65.24%) followed by the weak-spring type (17.68%) and the winter and spring types (12.80% and 4.27%, respectively). The crops cultivated in the 2000s had the highest proportion (50.82%) followed by those grown in the 1990s (24.04%) and those raised in the 1980s and the 2010s (14.21% and 10.93%, respectively). The Chinese varieties accounted for the highest proportion (89.00%) and were distributed across nine provinces. The varieties were distributed across six countries and accounted for only 11.00% of the total ( Figure 1 ). Figure 1 Distribution of tested varieties in terms of habit (A) , gluten type (B) , breeding year (C) , and habitat particularly among nine provinces in China (D) ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "2.4 Genotyping",
+      "text": "DNA was extracted from the leaves of the wheat seedlings using the high-salt/low-pH method ( Guillemaut and Mar\u00e9chal-Drouard, 1992 ) and amplified by PCR. A kompetitive allele-specific polymerase chain reaction (KASP) fluorescence detector was used to determine the genotypes for seven functional genes that regulate KW ( TaCKX-D1, TaGASR7-A1, TaSus1-7A, TaSus1-7B, TaGS5-A1, TaGW2-6A , and TaKG2-6B ), considerably affect its characteristics, and are associated with KASP markers ( Rasheed et al., 2019 ). The primer sequences and amplification conditions for each gene are described in Supplementary Table 1 . KASP detection revealed 209 varieties with 41 KW allelic combinations ( Supplementary Table 2 ). Their wide variety ensured genotypic diversity in this study."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "2.5 Data collection",
+      "text": "Meteorological, soil, field management, and observation data were collected to calibrate and evaluate the parameters of the APSIM-Wheat model. The meteorological data included daily maximum and minimum temperatures, daily sunshine hours, and daily precipitation at the Xinxiang Agrometeorological Station between 1961 and 2020. The phenological stage dataset included emergence, three-leaf stage, tillering, elongation, booting, heading, anthesis, medium milk, and maturity at the Xinxiang station between 2001 and 2013. The soil data used to run the model and calibrate the soil parameters were obtained from Zain et al. (2021) and included soil water and nitrogen distribution during the winter wheat growth periods between 2017 and 2019. The field observation data used to calibrate and evaluate TKW, KN, and GY were derived from the phenotypic observation data (Normalized Difference Vegetation Index (NDVI), TKW, GY, KN, and SN) of the 209 varieties under different managements at the Xinxiang station between 2018 and 2020. They also included data for the shared socioeconomic pathways SSP2-4.5 and SSP5-8.5 of the five global climate models in the Coupled Model Intercomparison Project Phase 6, namely, BCC-CSM2-MR (China), CanESM5 (Canada), EC-Earth3-Veg (Europe), MIROC-ES2L (Japan), and UKESM1-0-LL (UK). Specific on-site farm managements are listed in Supplementary Table 3 . The physicochemical properties of the various soil layers are listed in Supplementary Table 4 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "2.6 Variety screening and statistical analysis",
+      "text": "As the study focused on the mechanisms by which KW responds to sowing date and genotype, 209 wheat varieties were screened here. First, it was assumed that varieties with KN and flowering period NDVI in close proximity had other genetic factors near the KW-regulating gene. Hence, varieties with similar KN (range < 5,000) and flowering period NDVI (range < 0.025) were selected. The data analysis was verified using the Kruskal\u2013Wallis test. Eighty-one varieties met the foregoing criteria and did not significantly differ in terms of KN or NDVI. The Kruskal\u2013Wallis test was run using the \u201cnpmc\u201d package in R v. 3.6.2 ( http://www.R-project.org/ ). The KN and NDVI for the 81 selected and 128 unselected varieties during their growth seasons are shown in Figure 2 . The allelic combinations and percentages are listed in Table 2 . The KW distributions for the selected 81 varieties in eight allelic combinations are shown in Figure 3 . Figure 2 kernel number (KN) and Normalized Difference Vegetation Index (NDVI) of 209 wheat varieties in growing season. (A, B) , KN; (C, D) , NDVI. Red columns represent varieties with similar KN and NDVI. Blue columns represent varieties with larger differences in KN and NDVI. Table 2 Haplotype TaCKX-D1 TaSus1-7A TaSus1-7B TaGW2-6A TaGW2-6B TaGASR7-A1 TaGS5-A1 Percent/% B1 TaCKX-D1b Hap-7A-1 Hap-T Hap-6A-A Hap-6B-1 Hlc Alb 11.10 B2 TaCKX-D1b Hap-7A-1 Hap-T Hap-6A-A Hap-6B-1 Hlg Ala 13.60 B3 TaCKX-D1b Hap-7A-1 Hap-T Hap-6A-A Hap-6B-2 Hlg Ala 7.40 B4 TaCKX-D1b Hap-7A-1 Hap-T Hap-6A-A Hap-6B-1 Hlg Alb 33.30 B5 TaCKX-D1b Hap-7A-1 Hap-T Hap-6A-A Hap-6B-2 Hlg Alb 8.60 B6 TaCKX-D1b Hap-7A-1 Hap-T Hap-6A-G Hap-6B-1 Hlg Alb 7.40 B7 TaCKX-D1b Hap-7A-2 Hap-T Hap-6A-A Hap-6B-2 Hlg Ala 4.90 B8 TaCKX-D1b Hap-7A-2 Hap-T Hap-6A-A Hap-6B-1 Hlg Alb 13.60 Allelic combinations for kernel weight (B, eight combinations). Figure 3 Distribution of thousand-kernel weight (TKW) of different genotypes of wheat in different growing seasons. Red box represents TKW in 2018-2019 growing season. Blue box represents TKW in 2019-2020 growing season."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "2.7 Sensitivity analyses of KW, KN, and GY parameters in the APSIM-Wheat model",
+      "text": "The eFAST method was used in this study to elucidate the relationships among the variety and ecotype parameters and accurately simulate KW, KN, and GY. The eFAST method has been used to assess the sensitivity of various models ( Campolongo et al., 2000 ) and was applied in four steps. (1) The parameters to be analyzed in the APSIM-Wheat model were selected and their range of values was determined. In the present study, eight variety and 33 ecotype parameters were selected ( Supplementary Table 5 ) and their upper and lower limits were set. (2) Monte Carlo sampling was used to generate a random parameter sample set. Here, all parameters were sampled with a uniform distribution implemented in Simlab software. In eFAST, the number of parameters sampled was > 65-fold greater that the number of parameters to be validated, that is, sample number \u2265 parameters number \u00d7 65. Thus, 128 samples \u00d7 41 (model parameters) \u00d7 two years \u00d7 two treatments = 20,992 model parameters. (3) The random parameter samples were used as the input for the APSIM-Wheat model and the simulation results were generated. Python v. 3.9.15 ( https://www.python.org/ ) was used to write a program that sequentially replaces the 41 parameters in the APSIM Wheat.xml file and calls the executable file (APSIM.exe) of the APSIM-Wheat model. (4) Simlab software was then used to perform parametric first-order and global sensitivity analyses of wheat KW, KN, and GY ( Giglioli and Saltelli, 2000 ). The model simulation results were organized into a standard file input format recognizable by Simlab. The latter automatically calculated the first-order and global sensitivity indices of the input parameters. Both the first-order sensitivity and the global sensitivity indices are used to assess the sensitivity of the system to the input parameters. However, the former only considers the effect of a single input parameter on the output parameter, while the latter considers the interaction among multiple input parameters. The closer the value of the sensitivity index is to 1, the greater will be the influence of this input parameter on the output parameter; the closer the value is to 0, the smaller will be the influence on the output parameter."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "2.8 Model calibration and evaluation",
+      "text": "The phenological, soil, variety, and ecotype model parameters directly and indirectly affecting KW formation were calibrated and evaluated. The wheat phenological parameters were calibrated and evaluated via batch parameter adjustment ( Supplementary Table 6 ). The simulation was conducted under water- and nitrogen stress-free conditions. The physical properties were then calibrated and evaluated ( Supplementary Table7 ). Based on the results of the parameter sensitivity analysis, the variety and ecotype parameters related to KN were then calibrated and evaluated. The range of parameter values was obtained for the optimally simulated KN results for the 209 varieties. The variety and ecotype parameters related to KW and GY were then calibrated and evaluated. The range of parameter values was obtained for the optimally simulated GY and KW results for the 209 varieties ( Supplementary Table 8 ). Root mean square error (RMSE) was used to determine the total difference between the observed and simulated values. Linear regression (R 2 ) between the measured and simulated values was used to evaluate model performance. Consistency (D) between the measured and simulated values was also determined."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "2.9 Simulation scheme and statistical analysis",
+      "text": "Simulations were run to (1) explore the responses of KW to sowing date and genotype under the background of climate warming, and (2) screen adaptive sowing dates and favorable allelic combinations that enhance KW. The APSIM-Wheat model was used to simulate KW under various sowing dates, allelic combinations, and climate scenarios as follows: (1) Historical sowing date data from the Xinxiang station between 2001 and 2012 were used to calculate the average value and the latter was then set as the current sowing date (October 11; day of year (DOY) 284). The sowing date period was from October 5 to October 23 and the specific sowing dates were October 5 (DOY 278), October 8 (DOY 281), October 11 (DOY 284), October 14 (DOY 287), October 17 (DOY 290), October 20 (DOY 293), and October 23 (DOY 296). (2) Eighty-one varieties were selected and divided into eight allelic combinations based on seven KW functional genes. (3) The SSP2 and SSP5 scenarios were selected and the BCC-CSM2-MR, CanESM5, EC-Earth3-Veg, MIROC-ES2L, and UKESM1-0-LL global climate models were used in the baseline (1991\u20132020) and future (2031\u20132060) periods. R v. 3.6.2 ( http://www.R-project.org/ ) was used to analyze and test the significance of the differences in KW under various sowing dates, allelic combinations, and climate scenarios. The AOV function in the \u201cstats\u201d package of R was used to perform the analysis of variance (ANOVA) and the lsd.test function in the \u201cmultcomp\u201d package of R was used to perform the analysis of multiple comparison."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 2,
+      "heading": "3 Results",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "3.1 Sensitivity analysis of the model parameters affecting KW, GY, and KN",
+      "text": "The first-order and global sensitivity indices of the factors affecting wheat KW, GY, and KN were consistent. Of the 41 parameters affecting KW, the variety parameters \u201cmax_grain_size\u201d and \u201cgrains_per_gram_stem\u201d had first-order sensitivity indices > 0.2 and global sensitivity indices > 0.4. The ecotype parameters \u201cy_swdef_leaf\u201d and \u201cfr_lf_sen_rate\u201d had first-order sensitivity indices > 0.05 and global sensitivity indices > 0.1. The ecological parameter \u201cnode_sen_rate\u201d had a first-order sensitivity index > 0.025 and a global sensitivity index > 0.1. The ecotype parameters \u201cy_rue\u201d and \u201ceo_crop_factor_default\u201d had global sensitivity indices > 0.05. Of the 41 parameters affecting GY, the variety parameters \u201cmax_grain_size\u201d, and \u201cgrains_per_gram_stem\u201d and the ecotype parameters \u201cy_swdef_leaf\u201d, \u201coxdef_photo\u201d, \u201cnode _sen_rate\u201d, and \u201cy_swdef_pheno_flowering\u201d had first-order sensitivity indices > 0.05 and global sensitivity indices > 0.1. Of the 41 parameters affecting KN, the species parameter \u201cgrains_per_ gram_stem\u201d and the ecotype parameters \u201cy_swdef_leaf\u201d, \u201coxdef_photo\u201d, and \u201cy_swdef_ pheno_flowering\u201d had first-order sensitivity indices > 0.05. The species parameter \u201cgrains_per_gram_stem\u201d and the ecotype parameters \u201cy_swdef_ leaf\u201d, \u201cinitial_root_depth\u201d, \u201coxdef_photo\u201d, and \u201cy_rue\u201d had global sensitivity indices > 0.1."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "3.2 Phenological model parameter calibration and evaluation",
+      "text": "Figure 4 shows the validation of the simulated phenological growth stages of wheat including emergence, three leaves, tillering, elongation, booting, heading, anthesis, medium milk, and maturity, at the experimental base in Xinxiang, Henan Province, China between 2007 and 2013. The simulated and measured phenological stages were consistent. We compared the simulated and measured values for the growth stages between 2001 and 2007 to evaluate the parameters independently. The fitted linear equation was y = 1.007x - 0.618 and its slope was ~1. As RMSE = 7.5 d, the deviation between the measured and simulated values for the phenological stage was 8 d. The D values calculated from the measured and simulated values was 0.998. The R 2 was 0.993 and P < 0.05 ( Figure 5 ). Figure 4 Comparison between measured and simulated values of wheat growth stages (Zadoks growth stage) including emergence (Z10), three leaves (Z14), tillering (Z20), elongation (Z35), booting (Z45), heading (Z55), anthesis (Z65), medium milk (Z80), and maturity (Z100). Red circles and blue triangles represent simulated and measured values, respectively. Zadoks growth stage is sourced from Zadoks et al. (1974) . . Figure 5 Evaluation of APSIM-Wheat model for modelling wheat growth stages (Zadoks growth stage) (1:1, dashed line), including emergence (Z10), three leaves (Z14), tillering (Z20), elongation (Z35), booting (Z45), heading (Z55), anthesis (Z65), medium milk (Z80), and maturity (Z100), at Xinxing station for evaluation dataset (2001\u20132007) (1:1, dashed line). Blue circle represents simulated and measured values. Straight line represents regression line of fitting equation between measured and simulated value. RMSE is root mean square error which is used to measure deviation between observed and measured value. D-value is used to assess consistency between observed and measured value. R 2 is used to describe degree of fitting of regression line to observed value. The closer R 2 is to 1, the better the fitting. P < 0.05 means difference was highly significant. Zadoks growth stage is sourced from Zadoks et al. (1974) ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "3.3 Soil model parameter calibration and evaluation",
+      "text": "Figures 6 , 7 show the validation of simulated water and nitrate nitrogen content in the 0\u201380-cm soil layer at the experimental base in Xinxiang, Henan Province, China between 2017 and 2018. The simulated results for the water and nitrate nitrogen content were good for the surface soil layer but poor for the deep soil layer. This could be owing to a lack of accurately measured soil data. Using data obtained from the literature may not fully reflect the actual local conditions, resulting in inaccurate simulation results for the deep soil layer. We compared the simulated and measured values for the soil water and nitrate nitrogen content in 2018\u20132019 to evaluate the parameters independently. The fitted linear equations were y = 0.635x + 0.073 and y = 0.82x + 1.421 ( Figure 8 ). The RMSE were 0.06 mm mm -1 and 2.892 mg kg -1 , respectively, and the D values were 0.669 and 0.844, respectively. The R 2 were 0.235, 0.548 (P < 0.05), respectively. Figure 6 Dynamics of simulated (blue triangle) and measured (red circle) soil moisture content value in 0\u201380-cm soil profile at Xinxiang site from 2018 to 2019. Figure 7 Dynamics of simulated (blue triangle) and measured (red circle) soil nitrate content value in 0\u201380-cm soil profile at Xinxiang site from 2018 to 2019. Figure 8 Comparison between simulated and measured soil water content and soil nitrate content (1:1, dashed line). (A) , soil water content; (B) , soil nitrate content. Blue circle represents simulated and measured values. Straight line represents regression line of fitting equation between measured and simulated value. RMSE is root mean square error which is used to measure deviation between observed and measured value. D-value is used to assess consistency between observed and measured value. R 2 is used to describe degree of fitting of regression line to observed value. The closer is to 1, the better the fitting. P < 0.05 means difference was highly significant."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "3.4 Model parameter calibration and evaluation for KW, GY, and KN determinations",
+      "text": "Figures 9A\u2013C shows the validation of the simulated KW, GY, and KN and their comparison against the measured values for the 81 wheat varieties in 2018\u20132019. The simulated and measured KW, GY, and KN values were highly consistent. We also validated the KW, GY, and KN for the 81 wheat varieties in 2019\u20132020 ( Figures 9D\u2013F ). The fitted equations were y = 0.784x + 7.94, y = 0.985x - 375.08, and y = 0.369x + 13146.67, respectively. The RMSE were 2.602g TK -1 , 689.772 kg ha -1 , and 2,008.485 KN spike -1 , respectively. The D values calculated from the measured and simulated values were 0.819, 0.802, and 0.613, respectively. The R 2 were 0.5, 0.673, and 0.167 (P < 0.05), respectively. Figure 9 Calibration and evaluation of APSIM-Wheat model for modelling thousand-kernel weight (TKW), grain yield (GY) and kernel number (KN) and (1:1,dashed line) of 81 wheat varieties at Xinxing station for calibration dataset (2018-2019) and evaluation dataset (2019-2020) (1:1, dashed line). Comparison of observed and simulated thousand-kernel weight (TKW) (A) , grain yield (GY) (B) , and kernel number (KN) (C) for calibration datasets. Comparison of observed and simulated thousand-kernel weight (TKW) (D) , grain yield (GY) (E) , and kernel number (KN) (F) for evaluation datasets."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "3.5 Impact of wheat phenology, biomass, and KW under future climate change scenarios",
+      "text": "Based on the current sowing dates, varieties, and field managements at the Xinxiang station, the calibrated APSIM-Wheat model was used to simulate the phenological stages, biomass, and KW of winter wheat under the baseline (1991\u20132020), SPP2-4.5 (2031\u20132060), and SSP5-8.5 (2031\u20132060) climate scenarios. The simulation demonstrated a temporal increase in the average temperature during the winter wheat phenological stages, shortening of the latter, increasing biomass (reproductive stages) ( Figure 10A\u2013D ), and decreasing KW ( Figure 11 ). For the preceding climate scenarios, the average temperature for winter wheat were 9.3\u00b0C, 10.4\u00b0C, and 10.6\u00b0C, respectively; the mean phenological stages 235.21 d, 228.93 d, and 227.20 d, respectively; the mean reproductive stages were 33.83 d, 33.81 d, and 33.73 d, respectively; the mean biomass values for these reproductive stages were 1239.50 g m \u22122 , 1374.99 g m \u22122 , and 1386.21 g m \u22122 , respectively; and the mean KW were 39.90 g TK-1, 39.58 g TK-1, and 39.65 g TK-1, respectively. Figure 10 Average temperature, days, and biomass of 81 wheat varieties during phenological stages under different climate scenarios. (A) , average temperature; (B) , duration of phenological stages; (C) , duration of reproductive stages; (D) , biomass of nutritional stages. Red boxes represent baseline. Blue boxes represent SSP2-4.5. Green boxes represent SSP2-8.5. Different letters indicate significance at 0.05 level. Figure 11 Thousand kernel weight (TKW) of 81 wheat varieties during phenological stages under different climate scenarios. The red boxes represent the Baseline; The blue boxes represent SSP2-4.5; The green boxes represent SSP2-8.5. The different letters indicate significance at the 0.05 level."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "3.6 Responses of sowing date and allelic combinations to KW under future climate scenarios",
+      "text": "The calibrated APSIM-Wheat model was used to simulate winter wheat KW under the aforementioned climate scenarios. ANOVA was then performed based on the simulation results. Allelic combination, climate scenario, and sowing date extremely significantly affected KW (P < 0.001) while the interaction between allelic combination and climate scenario significantly affected it (P < 0.05) ( Table 3 ). Figure 12 shows the non-significant effect of changing the sowing date on TKW and KW under SSP2-4.5 and SSP2-8.5 scenarios. The KW was 39.58 g TK \u22121 and 39.65 g TK \u22121 for the normal sowing period on October 11 (DOY 284), respectively. The average KW increased gradually from October 5 to October 23 (DOY 278\u2013DOY 296; an average increase rate of 0.092 g TK \u22121 and 0.126 g TK \u22121 , respectively). Figure 13 shows that changing the sowing date for SSP2-4.5 and SSP2-8.5 scenarios had a significant effect on the accumulated temperature at the reproductive stages \u226510\u00b0C. The accumulated temperature at the reproductive stages (\u226510\u00b0C) increased with delay in sowing, with an average increase rate of 1.57\u00b0C\u00b7d and 1.56\u00b0C\u00b7d, respectively. Figure 14 shows the favorable allelic combination B6 (TaCKX-D1b+ Hap-7A-1+ Hap-T+ Hap-6A-G+ Hap-6B-1+ H1g+ A1b) with a KW of 40.13 g TK \u22121 . For the SSP2-8.5 scenario, the favorable allelic combinations are B5, B6, and B8, with a KW of 40.53 g TK -1 , 40.85 g TK -1 , and 40.19 g TK -1 , respectively, and the KW values of allelic combination B6 (TaCKX-D1b+ Hap-7A-1+ Hap-T+ Hap-6A-G+ Hap-6B-1+ H1g+ A1b) , from the first quartile (25%) to the third quartile (75%), from the box position, were higher than those of B5 and B8. Stable, favorable allelic combinations can mitigate the negative impact of climate change on wheat TKW. Table 3 df Sum of Sq Mean of Sq F Value Pr>F Sowing dates 6 316 52.6 7.439*** <0.001 Genotype 7 9622 1374.5 194.289*** <0.001 Climate scenario 3 64 21.4 3.023* 0.02841 Sowing dates\u00d7Genotype 42 156 3.7 0.525 0.99516 Sowing dates\u00d7Climate scenario 18 131 7.3 1.026 0.42533 Genotype\u00d7Climate scenario 21 301 14.3 2.028** 0.00358 Sowing dates\u00d7Genotype\u00d7Climate scenario 126 187 1.5 0.21 1.00000 Variance analysis of effects of sowing date, genotype, and climate scenario and their interactions on thousand-kernel weight (TKW) in three growing seasons (2018\u20132020). *** Indicates significance at the 0.001 level, ** Indicates significance at the 0.01 level, and * indicates significance at the 0.05 level Figure 12 Thousand-kernel weight (TKW) of 81 wheat varieties at different sowing dates for different climate scenarios. (A) , Baseline; (B) , SSP2-4.5; (C) , SSP2-8.5. Current sowing date (DOY 284). Different letters indicate significance at 0.05 level. Figure 13 Accumulated temperature of \u2265 10\u00b0C from anthesis to maturity of 81 wheat varieties under different sowing dates. Current sowing date (DOY 284). Red boxes represent baseline. Blue boxes represent SSP2-4.5. Green boxes represent SSP2-8.5. Figure 14 Thousand-kernel weight (TKW) of different allelic combination under different climatic scenarios at optimal sowing date. (A) , Baseline; (B) , SSP2-4.5; (C) , SSP2-8.5. Different letters indicate significance at 0.05 level."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "3.7 Values of the variety parameters for different allelic combinations",
+      "text": "Figure 15 shows the values of the species-type parameters \u201cpotential_grain_growth_rate,\u201d \u201cpotential_grain_filling_rate,\u201d and \u201cmax_grain_size\u201d for different allelic combinations in the APSIM-Wheat model. In the B6 high-KW allelic combination, \u201cmax_grain_size\u201d had the highest value with a mean value of 0.0503; the \u201cpotential_grain_growth_rate\u201d parameter had the highest value (top 25%) with a mean value of 0.00128; the \u201cpotential_grain_filling_rate\u201d parameter had the median value (front 50%) with a mean value of 0.00167. Figure 15 Values of variety parameters in the APSIM-Wheat model for different genotypes. (A) , potential grain growth rate; (B) , potential grain filling rate; (C) , max grain size."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "4 Discussion",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "4.1 Effects of the parameter sensitivity analysis on APSIM-Wheat",
+      "text": "Parameter localization is a prerequisite for effective crop model use. Parameter sensitivity analysis facilitates targeted model parameter calibration ( Kirui et al., 2022 ). Process-based physiological and ecological models simulate crop growth, development, and water and nutrient uptake. They can explore the dynamic relationships among atmosphere, crop, and soil and enable the prediction of crop responses to climate, genotype, farm management, and their interactions ( Briak and Kebede, 2021 ). Prior studies focused on crop variety parameters. However, Zhao et al. (2014) reported that the APSIM-Wheat model includes other variables that may also affect the output. To minimize model uncertainty, researchers performed a sensitivity analysis of eight variety parameters and 33 ecotype parameters. Kernel weight (KW) was sensitive to the variety parameters \u201cmax_grain_size\u201d, \u201cpotential_grain_growth_rate\u201d, and \u201cpotential_grain_filling_rate\u201d. This finding was consistent with the results of Zhao et al. (2014) . Nevertheless, KW was also sensitive to the ecotype parameters \u201cy_swdef_leaf\u201d, \u201cy_rue\u201d, \u201ceo_crop_factor_default\u201d, \u201cfr_lf_sen_rate\u201d, and \u201cnode_sen_ rate\u201d. Other studies reported contradictory results ( He et al., 2015 ; Casadebaig et al., 2016 ). Broadening the parameter range reduces the uncertainty of the model and improves its performance at simulating winter wheat growth and development ( Silva et al., 2021 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "4.2 APSIM-Wheat parameter calibration and evaluation",
+      "text": "Calibrating and evaluating APSIM-Wheat is the foundation for determining the optimal sowing time and allelic combination high KW in winter wheat under future climate scenarios ( Ahmed et al., 2016 ). The present study validated the variety and ecotype parameters for KW and GY based on the validation of the model parameters phenological period, soil moisture content, nitrate nitrogen, and particle number. This analysis provides theoretical support for subsequent investigations of the source-sink relationships in wheat KW. Figures 5 , 8 show that after calibration and evaluation, the APSIM-Wheat model simulated phenological period, soil moisture content, and nitrate nitrogen reasonably well. The R 2 were 0.993, 0.124, and 0.286, respectively, and the RMSE were 7.588 d, 0.06 d, and 2.892 d, respectively. Hence, the APSIM-Wheat model lays a theoretical foundation for optimizing the parameters related to KW and GY. Substantial differences were observed in the sowing dates over 2018\u20132020, the weather conditions during the sowing periods, and the multi-year phenological data from the agrometeorological stations. Nonetheless, the calibrated and evaluated APSIM-Wheat model reflected the responses to different sowing dates. Figure 9D shows that the calibrated and evaluated APSIM-Wheat model accurately simulated KW (R 2 = 0.575; RMSE = 3.076 g TK -1 ). The APSIM-Wheat model had an input of 209 varieties and accurately simulated the phenological period and the soil water-nitrogen balance. Thus, the calibrated and evaluated model reflected the responses to diverse allelic combinations and is an important tool for selecting optimal sowing dates and allelic combinations in future studies."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "4.3 Effect of climate warming on wheat kernel weight",
+      "text": "The APSIM-Wheat simulation-based study revealed that climate warming is an important cause of KW reduction in wheat. KW is influenced by biomass accumulation during vegetative growth in winter wheat. It is also constrained by grain size and filling rate ( Almeida and Lidon, 2009 ; Liu et al., 2020 ). Juknys et al. (2017) reported that according to long-term phenological data, climate warming can shorten the nutritional growth stages of winter wheat and result in insufficient biomass accumulation during the pre-reproductive stages as well as inadequate KW during the post-reproductive stages. Jenner et al. (1993) demonstrated that elevated temperatures reduce KW by downregulating the enzymes biosynthesizing soluble starch. In this manner, high temperatures shorten grain filling. The APSIM-Wheat model simulation of the present study forecasted that the average temperature will increase and the phenological stages will decrease in future winter wheat growing seasons ( Figures 10A, B ). However, biomass will increase ( Figure 10D ). Hence, the KW source will increase and the sink (grain-filling period from flowering to maturity) influences the decrease in KW. Field and greenhouse experiments conducted by Xie et al. (2015) showed that faster and longer grain filling were associated with higher KW. In the present study, the APSIM-Wheat model parameters \u201cmax grain size\u201d, \u201cpotential_grain_growth_rate\u201d, and \u201cpotential_grain_filling_rate\u201d reflected the post-flowering grain size and the grain filling and growth rates which determine KW. In APSIM-Wheat, variety parameters \u201cmax_grain_size\u201d, \u201cpotential_grain_growth_rate\u201d, and \u201cpotential_grain_filling_rate\u201d reflected maximum grain size, potential growth rate, and filling rate under ideal climatic conditions, respectively, and are affected by climatic conditions (primarily temperature). In this study, the actual grain filling rate in APSIM-Wheat decelerated and the growth rate accelerated under the future climate scenario with an increase in the average daily temperature ( Figure 10A ). Lobell et al. (2012) reported that an increase in the average daily temperature increased the transpiration rate of the grains, leading to water loss and negatively affecting the grain filling rate. In addition, Barlow et al. (2015) reported that an increase in average daily temperature will increase the growth rate of the grain, leading to a reduction in the duration of grain filling. In this study, the reproductive growth phase of winter wheat was shortened under the future climate scenario ( Figure 10C ). Therefore, the deceleration of filling rate and shortening of filling duration caused by climate warming are responsible for the reduction in KW."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "4.4 Effect of sowing date on wheat kernel weight",
+      "text": "Slight changes in the sowing window have only a marginal impact on KW. Sowing date modification has the lowest cost of all farm management measures and is a key factor in KW. Sowing date is mainly under human control and its modulation may subject winter wheat to different weather factors such as temperature and accumulated temperature that affect KW. For example, Shah et al. (2020) stated that delaying the sowing date by four weeks lowered the accumulated temperature from a normal sowing time value of 514\u00b0C to a wintertime value of 226\u00b0C, negatively impacted early growth, and reduced KW. As the present study used a maize-wheat rotation system, the wheat had to be harvested in a timely manner to allow for maize sowing. Therefore, we used the APSIM-Wheat model to establish seven sowing windows that started on October 5 and were repeated every 3 d until October 23. A delayed sowing window slightly increased KW because the adjustments to the sowing window led to a slight increase in the accumulated temperature ( Figure 13 ). For this reason, limited modifications to the sowing window resulted in slightly increased KW. Zheng et al. (2016) implemented the CSM-CERES-Wheat model in southern Khuzestan, Iran to adjust the sowing window to start on October 25 and repeat every 10 d until January 5. They found that fewer adjustments to the sowing window had a negligible impact on KW."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "4.5 Relationship between variety parameter values and kernel weight alleleic combinations in the APSIM-Wheat model",
+      "text": "The variety parameters and their relative importance in the APSIM-Wheat model are closely related to KW. In general, high KW is accompanied by the upregulation of functional alleles associated with favorable KW ( Zhang et al., 2014 ; Chegdali et al., 2022 ; Tillett et al., 2022 ). The APSIM-Wheat model parameters \u201cmax_grain_size\u201d, \u201cpotential_grain_ filling_rate\u201d, and \u201cpotential_grain_growth_rate\u201d had the strongest influences on wheat KW ( Zhao et al., 2014 ). Our first-order and global parameter sensitivity analyses showed that \u201cmax_grain_size\u201d had the greatest impact on wheat KW followed by \u201cpotential_grain_filling_rate\u201d and \u201cpotential_grain_growth_rate\u201d. Several studies demonstrated that \u201cmax_grain_size\u201d adjusts the grain size, \u201cpotential_grain_filling_rate\u201d adjusts the grain filling rate, and \u201cpotential_grain_growth_rate\u201d adjusts the grain growth rate ( Zhao et al., 2014 ; Xie et al., 2015 ; Kobata et al., 2018 ). The present study showed that the values for the parameters characteristic of winter wheat varieties with high KW were consistent with high KW allelic combinations. In the B6 high-KW allelic combination, \u201cmax_grain_size\u201d had the highest value ( Figure 15 ). This observation may be explained by upregulation of the advantageous A1b allele of the KW functional gene TaGS5-A1 which promotes cell division and the formation of large kernels ( Wang et al., 2016 ). In the B7 low-KW allelic combination, \u201cmax_grain_size\u201d had one of the lowest values of all parameters (bottom 25%) ( Figure 15 ). This finding may be explained by the upregulation of the advantageous A1a allele of the KW functional gene TaGS5-A1 . An earlier study showed that the KW functional genes TaSus1-7A and TaSus1-7B encoding sucrose synthases have the advantageous alleles Hap-7A-1/2 and Hap-T that promote starch sediment biosynthesis and facilitate grain filling ( Hou et al., 2014 ). In the B6 high-KW allelic combination, the \u201cpotential_grain_growth_rate\u201d parameter had the highest value (top 25%), and the \u201cpotential_grain_filling_rate\u201d parameter had the median value (front 50%) ( Figure 15 ). This discovery may be explained by the upregulation of the advantageous allele Hap-6B-1 of the KW functional gene TaGW2-6B , which regulates the number of endosperm cells, promotes grain development, and is superior to the favorable allele \u201cHap-6B-2\u201d ( Qin et al., 2014 ).The foregoing reports revealed that the APSIM-Wheat model variety parameter values effectively captured KW expression in different allelic combinations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "4.6 Response of the kernel weight functional genes to climate warming",
+      "text": "Determining the responses of KW functional genes to climate warming facilitates the identification of high-KW allelic combinations. Here, multivariate ANOVA revealed that allelic combinations and climate scenarios extremely significantly influenced TKW (P < 0.001) while their interaction significantly affected it (P < 0.05). Under different climate scenarios, the B6 allelic combination had higher KW and was stable. The B7 allelic combination had lower KW than the other allelic combinations. The preceding results suggest that the values of the variety parameter determining high KW were consistent with the high-KW allelic combinations. The variety parameter values were highest for the B6 allelic combination which included the KW functional genes TaSus1-7A, TaSus1-7B, TaGW2-6B , and TaGS5-A1 and their favorable alleles Hap-7A-1, Hap-T, Hap-6B-1, and A1b, respectively. The B7 allelic combination had low variety parameter values but included the KW functional genes, TaSus1-7A, TaSus1-7B, TaGW2-6A , and TaGW2-6B , and their favorable alleles, Hap-7A-2, Hap-T, Hap-6A-A, and Hap-6B-2, respectively. A recent study revealed that in TaSus1-7A , Hap-7A-1 and Hap7A-2 had strong and weak effects on wheat KW, respectively ( Sehgal et al., 2019 ). The favorable allele Hap-6B-1 of TaGW2-6B has a stronger impact on KW than the favorable allele Hap-6B-2. However, both had a greater effect on KW than TaGW2-6A ( Hou et al., 2014 ). The favorable allele of TaSus1-7A, \u201cHap-1/2,\u201d was measured in multiple environments with high TKW and stable expression of the trait ( Qin et al., 2014 ).Therefore, the B6 allelic combination can achieve maximum KW. The present and preceding studies provide critical reference for breeding winter wheat and certain other cereal crops with high kernel weight under climate warning."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "5 Conclusions",
+      "text": "The present study demonstrated the responses of wheat KW to diverse allelic combinations under predicted climate warming and identified the genetic adaptations that will enable winter wheat to remain productive as atmospheric temperatures continue to increase. We conducted field trials and KASP genotyping on 209 wheat varieties in 2018\u20132020 and compiled a unique dataset comprising phenotype, genotype, climate, and soil data as well as on-farm management information. We assumed that wheat varieties with KN and flowering period NDVI in close proximity had other genetic factors near the KW-regulating gene. Hence, 81 wheat varieties with similar KN and flowering period NDVI were selected for calibration and evaluation by using the process-based APSIM-Wheat model. The model simulated TKW for eight allele combinations (81 wheat varieties), seven sowing dates, and two shared socioeconomic pathways (SSPs). It was determined that variety and ecotype parameters significantly influenced winter wheat KW, GY, and KN. Localized APSIM-Wheat parameters could accurately calibrate and evaluate these three yield metrics. The variety parameters and their relative importance in the APSIM-Wheat model were consistent with the expression of functional genes in allelic combinations. Therefore, the selected variety parameters revealed diverse allelic combinations affecting KW re-expression. The wheat phenological stages will be shortened and KW will be reduced (0.11-0.18 g TK -1 ) under future climate scenarios. Nevertheless, clarification of the responses of KW to diverse allelic combinations under projected climate warming scenarios may help ameliorate the negative impact of climate warming on TKW. Under SSP2-4.5, favorable allele combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b) would increase KW by 0.34 g TK -1 , Under SSP5-8.5, the favorable allele combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b) would increase KW by 0.26 g TK -1 . The results of the present study showed that favorable allelic combinations could help achieve high winter wheat TKW even under the projected climate warming scenarios. The present study provides valuable theoretical and practical reference for breeders in the development and selection of high-yield, thermotolerant wheat varieties with the aid of the APSIM-Wheat model. These novel wheat cultivars could improve wheat productivity, profitability, and water-use efficiency and help maintain food security. Future research should endeavor to incorporate other genetic loci contributing to TKW into the APSIM-Wheat model, enabling the construction of genetic based-model by strongly linking genetic information to crop models."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "Statements",
+      "text": "Data availability statement The original contributions presented in the study are included in the article/ Supplementary Material . Further inquiries can be directed to the corresponding author. Author contributions Conceptualization, KW, YH; formal analysis, KW, LS and YH; funding acquisition, YH; writing, KW, BZ and YH; writing-review and editing, YH. These authors contributed equally: KW and LS. All authors contributed to the article and approved the submitted version. Funding The study was funded by the National Natural Science Foundation of China (41975148), and the Chinese Academy of Agricultural Sciences Central Public-interest Scientific Institution Basal Research Fund (BSRF202202 and BSRF202005). Acknowledgments The authors are grateful to reviewers for their valuable comments and suggestions. Conflict of interest The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. Publisher\u2019s note All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher. Supplementary material The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2023.1138966/full#supplementary-material References 1 Ahmed M. Akram M. N. Asim M. Aslam M. F-u H. Higgins S. et al . ( 2016 ). Calibration and validation of APSIM-wheat and CERES-wheat for spring wheat under rainfed conditions: Models evaluation and application . Comput. Electron. Agric. 123 , 384 \u2013 401 . doi: 10.1016/j.compag.2016.03.015 CrossRef Google Scholar 2 Almeida A. Lidon F. ( 2009 ). Evaluation of grain filling rate and duration in bread and durum wheat, under heat stress after anthesis . J. Agron. Crop Sci. 195 , 137 \u2013 147 . doi: 10.1111/j.1439-037X.2008.00347.x CrossRef Google Scholar 3 Barlow K. M. Christy B. P. O\u2019Leary G. J. Riffkin P. A. Nuttall J. G. ( 2015 ). Simulating the impact of extreme heat and frost events on wheat crop production: A review . Field Crops Res. 171 , 109 \u2013 119 . doi: 10.1016/j.fcr.2014.11.010 CrossRef Google Scholar 4 Briak H. Kebede F. ( 2021 ). Wheat (Triticum aestivum) adaptability evaluation in a semi-arid region of central Morocco using APSIM model . Sci. Rep. 11 ( 1 ), 23173 . doi: 10.1038/s41598-021-02668-3 CrossRef Google Scholar 5 Brinton J. Uauy C. ( 2019 ). A reductionist approach to dissecting grain weight and yield in wheat . J. Integr. Plant Biol. 61 ( 3 ), 337 \u2013 358 . doi: 10.1111/jipb.12741 CrossRef Google Scholar 6 Campolongo F. Saltelli A. Tarantola S. ( 2000 ). Sensitivity anaysis as an ingredient of modeling . Stat. Sci. 15 ( 4 ), 377 \u2013 395 . doi: 10.1214/ss/1009213004 CrossRef Google Scholar 7 Casadebaig P. Zheng B. Chapman S. Huth N. Faivre R. Chenu K. ( 2016 ). Assessment of the potential impacts of wheat plant traits across environments by combining crop modeling and global sensitivity analysis . PloS One 11 ( 1 ), e0146385 . doi: 10.1371/journal.pone.0146385 CrossRef Google Scholar 8 Chegdali Y. Ouabbou H. Essamadi A. Sahri A. Rios C. N. Dreisigacker S. et al . ( 2022 ). Distribution of alleles related to grain weight and quality in Moroccan and north American wheat landraces and cultivars . Euphytica 218 ( 9 ), 123 . doi: 10.1007/s10681-022-03078-w CrossRef Google Scholar 9 Distelfeld A. Avni R. Fischer A. M. ( 2014 ). Senescence, nutrient remobilization, and yield in wheat and barley . J. Exp. Bot. 65 ( 14 ), 3783 \u2013 3798 . doi: 10.1093/jxb/ert477 CrossRef Google Scholar 10 Duan X. Yu H. Ma W. Sun J. Zhao Y. Yang R. et al . ( 2020 ). A major and stable QTL controlling wheat thousand grain weight: identification, characterization, and CAPS marker development . Mol. Breed. 40 ( 7 "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Data availability statement",
+      "text": "The original contributions presented in the study are included in the article/ Supplementary Material . Further inquiries can be directed to the corresponding author."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Author contributions",
+      "text": "Conceptualization, KW, YH; formal analysis, KW, LS and YH; funding acquisition, YH; writing, KW, BZ and YH; writing-review and editing, YH. These authors contributed equally: KW and LS. All authors contributed to the article and approved the submitted version."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Funding",
+      "text": "The study was funded by the National Natural Science Foundation of China (41975148), and the Chinese Academy of Agricultural Sciences Central Public-interest Scientific Institution Basal Research Fund (BSRF202202 and BSRF202005)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Acknowledgments",
+      "text": "The authors are grateful to reviewers for their valuable comments and suggestions."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "Publisher\u2019s note",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "Supplementary material",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2023.1138966/full#supplementary-material"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 2,
+      "heading": "References",
+      "text": "1 Ahmed M. Akram M. N. Asim M. Aslam M. F-u H. Higgins S. et al . ( 2016 ). Calibration and validation of APSIM-wheat and CERES-wheat for spring wheat under rainfed conditions: Models evaluation and application . Comput. Electron. Agric. 123 , 384 \u2013 401 . doi: 10.1016/j.compag.2016.03.015 CrossRef Google Scholar 2 Almeida A. Lidon F. ( 2009 ). Evaluation of grain filling rate and duration in bread and durum wheat, under heat stress after anthesis . J. Agron. Crop Sci. 195 , 137 \u2013 147 . doi: 10.1111/j.1439-037X.2008.00347.x CrossRef Google Scholar 3 Barlow K. M. Christy B. P. O\u2019Leary G. J. Riffkin P. A. Nuttall J. G. ( 2015 ). Simulating the impact of extreme heat and frost events on wheat crop production: A review . Field Crops Res. 171 , 109 \u2013 119 . doi: 10.1016/j.fcr.2014.11.010 CrossRef Google Scholar 4 Briak H. Kebede F. ( 2021 ). Wheat (Triticum aestivum) adaptability evaluation in a semi-arid region of central Morocco using APSIM model . Sci. Rep. 11 ( 1 ), 23173 . doi: 10.1038/s41598-021-02668-3 CrossRef Google Scholar 5 Brinton J. Uauy C. ( 2019 ). A reductionist approach to dissecting grain weight and yield in wheat . J. Integr. Plant Biol. 61 ( 3 ), 337 \u2013 358 . doi: 10.1111/jipb.12741 CrossRef Google Scholar 6 Campolongo F. Saltelli A. Tarantola S. ( 2000 ). Sensitivity anaysis as an ingredient of modeling . Stat. Sci. 15 ( 4 ), 377 \u2013 395 . doi: 10.1214/ss/1009213004 CrossRef Google Scholar 7 Casadebaig P. Zheng B. Chapman S. Huth N. Faivre R. Chenu K. ( 2016 ). Assessment of the potential impacts of wheat plant traits across environments by combining crop modeling and global sensitivity analysis . PloS One 11 ( 1 ), e0146385 . doi: 10.1371/journal.pone.0146385 CrossRef Google Scholar 8 Chegdali Y. Ouabbou H. Essamadi A. Sahri A. Rios C. N. Dreisigacker S. et al . ( 2022 ). Distribution of alleles related to grain weight and quality in Moroccan and north American wheat landraces and cultivars . Euphytica 218 ( 9 ), 123 . doi: 10.1007/s10681-022-03078-w CrossRef Google Scholar 9 Distelfeld A. Avni R. Fischer A. M. ( 2014 ). Senescence, nutrient remobilization, and yield in wheat and barley . J. Exp. Bot. 65 ( 14 ), 3783 \u2013 3798 . doi: 10.1093/jxb/ert477 CrossRef Google Scholar 10 Duan X. Yu H. Ma W. Sun J. Zhao Y. Yang R. et al . ( 2020 ). A major and stable QTL controlling wheat thousand grain weight: identification, characterization, and CAPS marker development . Mol. Breed. 40 ( 7 ), 68 . doi: 10.1007/s11032-020-01147-3 CrossRef Google Scholar 11 Dueri S. Brown H. Asseng S. Ewert F. Webber H. George M. et al . ( 2022 ). Simulation of winter wheat response to variable sowing dates and densities in a high-yielding environment . J. Exp. Bot. 73 ( 16 ), 5715 \u2013 5729 . doi: 10.1093/jxb/erac221 CrossRef Google Scholar 12 Ehdaie B. Alloush G. A. Waines J. G. ( 2008 ). Genotypic variation in linear rate of grain growth and contribution of stem reserves to grain yield in wheat . Field Crops Res. 106 ( 1 ), 34 \u2013 43 . doi: 10.1016/j.fcr.2007.10.012 CrossRef Google Scholar 13 Food and Agriculture Organization of the United Nations (FAO) ( 2021 ). Food and agriculture organization of the United Nations ( Rome, Italy ). Available at: http://faostat.fao.org/ . Google Scholar 14 Fischer R. A. ( 2008 ). The importance of grain or kernel number in wheat: A reply to Sinclair and jamieson . Field Crops Res. 105 ( 1 ), 15 \u2013 21 . doi: 10.1016/j.fcr.2007.04.002 CrossRef Google Scholar 15 Geng J. Li L. Lv Q. Zhao Y. Liu Y. Zhang L. et al . ( 2017 ). TaGW2-6A allelic variation contributes to grain size possibly by regulating the expression of cytokinins and starch-related genes in wheat . Planta 246 ( 6 ), 1153 \u2013 1163 . doi: 10.1007/s00425-017-2759-8 CrossRef Google Scholar 16 Giglioli N. Saltelli A. ( 2000 ). SimLab 1.1, software for sensitivity and uncertainty analysis, tool for sound modelling . Google Scholar 17 Guillemaut P. Mar\u00e9chal-Drouard L. ( 1992 ). Isolation of plant DNA: A fast, inexpensive, and reliable method . Plant Mol. Biol."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "Summary",
+      "text": "Keywords allelic combination , climate change , thousand-kernel weight , winter wheat ( Triticum aestivum L .) , APSIM-Wheat model Citation Wang K, Shi L, Zheng B and He Y (2023) Responses of wheat kernel weight to diverse allelic combinations under projected climate change conditions . Front. Plant Sci. 14:1138966. doi: 10.3389/fpls.2023.1138966 Received 06 January 2023 Accepted 09 February 2023 Published 14 March 2023 Volume 14 - 2023 Edited by Ilaria Marcotuli, University of Bari Aldo Moro, Italy Reviewed by Vikas Gupta, Indian Institute of Wheat and Barley Research (ICAR), India; Jose Miguel Soriano, Institute of Agrifood Research and Technology (IRTA), Spain Updates Copyright \u00a9 2023 Wang, Shi, Zheng and He. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. *Correspondence: Yong He, heyong01@caas.cn \u2020These authors share first authorship This article was submitted to Plant Abiotic Stress, a section of the journal Frontiers in Plant Science Disclaimer All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "Your research is the real superpower",
+      "text": "Behind each article we publish stands a team of superheroes: authors, editors, and reviewers who chose to uphold quality standards and share knowledge openly. Read more about the impact your work achieves."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 2,
+      "heading": "Outline",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 2,
+      "heading": "Figures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 2,
+      "heading": "Cite article",
+      "text": "Copy to clipboard Copy citation Export citation file BibTex EndNote Reference Manager Simple Text file"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "Share article",
+      "text": "Facebook X LinkedIn Email WeChat Share on WeChat Scan with WeChat to share this article"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "Article metrics",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Growing seasons",
+        "Date",
+        "Irrigation (mm)",
+        "Fertilization (kg/ha)"
+      ],
+      "rows": [
+        [
+          "2018-2019",
+          "10/4 (Before sowing)",
+          "Humic acid urea 12.5 + Di-ammonium phosphate 30 + KCl 7.5"
+        ],
+        [
+          "12/15 (Overwintering)",
+          "180",
+          ""
+        ],
+        [
+          "2/27 (Elongation)",
+          "N26-P0-K4 15"
+        ],
+        [
+          "3/7 (Elongation)",
+          "120",
+          ""
+        ],
+        [
+          "5/17 (Grouting)",
+          "120",
+          ""
+        ],
+        [
+          "2019-2020",
+          "10/22 (Before sowing)",
+          "Humic acid urea 11 + Controlled-release urea 4 + Mono-ammonium phosphate 30 +Potassium 5"
+        ],
+        [
+          "12/24 (Overwintering)",
+          "150",
+          ""
+        ],
+        [
+          "12/28 (Overwintering)",
+          "N26-P0-K4 10"
+        ],
+        [
+          "3/1 (Elongation)",
+          "N26-P0-K4 10"
+        ],
+        [
+          "3/12 (Elongation)",
+          "120",
+          ""
+        ],
+        [
+          "4/27 (Grouting)",
+          "120",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Haplotype",
+        "TaCKX-D1",
+        "TaSus1-7A",
+        "TaSus1-7B",
+        "TaGW2-6A",
+        "TaGW2-6B",
+        "TaGASR7-A1",
+        "TaGS5-A1",
+        "Percent/%"
+      ],
+      "rows": [
+        [
+          "B1",
+          "TaCKX-D1b",
+          "Hap-7A-1",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-1",
+          "Hlc",
+          "Alb",
+          "11.10"
+        ],
+        [
+          "B2",
+          "TaCKX-D1b",
+          "Hap-7A-1",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-1",
+          "Hlg",
+          "Ala",
+          "13.60"
+        ],
+        [
+          "B3",
+          "TaCKX-D1b",
+          "Hap-7A-1",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-2",
+          "Hlg",
+          "Ala",
+          "7.40"
+        ],
+        [
+          "B4",
+          "TaCKX-D1b",
+          "Hap-7A-1",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-1",
+          "Hlg",
+          "Alb",
+          "33.30"
+        ],
+        [
+          "B5",
+          "TaCKX-D1b",
+          "Hap-7A-1",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-2",
+          "Hlg",
+          "Alb",
+          "8.60"
+        ],
+        [
+          "B6",
+          "TaCKX-D1b",
+          "Hap-7A-1",
+          "Hap-T",
+          "Hap-6A-G",
+          "Hap-6B-1",
+          "Hlg",
+          "Alb",
+          "7.40"
+        ],
+        [
+          "B7",
+          "TaCKX-D1b",
+          "Hap-7A-2",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-2",
+          "Hlg",
+          "Ala",
+          "4.90"
+        ],
+        [
+          "B8",
+          "TaCKX-D1b",
+          "Hap-7A-2",
+          "Hap-T",
+          "Hap-6A-A",
+          "Hap-6B-1",
+          "Hlg",
+          "Alb",
+          "13.60"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "",
+        "df",
+        "Sum of Sq",
+        "Mean of Sq",
+        "F Value",
+        "Pr>F"
+      ],
+      "rows": [
+        [
+          "Sowing dates",
+          "6",
+          "316",
+          "52.6",
+          "7.439***",
+          "<0.001"
+        ],
+        [
+          "Genotype",
+          "7",
+          "9622",
+          "1374.5",
+          "194.289***",
+          "<0.001"
+        ],
+        [
+          "Climate scenario",
+          "3",
+          "64",
+          "21.4",
+          "3.023*",
+          "0.02841"
+        ],
+        [
+          "Sowing dates\u00d7Genotype",
+          "42",
+          "156",
+          "3.7",
+          "0.525",
+          "0.99516"
+        ],
+        [
+          "Sowing dates\u00d7Climate scenario",
+          "18",
+          "131",
+          "7.3",
+          "1.026",
+          "0.42533"
+        ],
+        [
+          "Genotype\u00d7Climate scenario",
+          "21",
+          "301",
+          "14.3",
+          "2.028**",
+          "0.00358"
+        ],
+        [
+          "Sowing dates\u00d7Genotype\u00d7Climate scenario",
+          "126",
+          "187",
+          "1.5",
+          "0.21",
+          "1.00000"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Volume 14 - 2023 | https://doi.org/10.3389/fpls.2023.1138966",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Institute of Environment and Sustainable Development in Agriculture, Chinese Academy of Agricultural Sciences, Beijing, China",
+      "char_offset": 62
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Commonwealth Scientific and Industrial Research Organisation (CSIRO) Agriculture and Food, Queensland Biosciences Precinct, St. Lucia, QLD, Australia",
+      "char_offset": 192
+    },
+    {
+      "type": "paragraph",
+      "text": "In wheat, kernel weight (KW) is a key determinant of grain yield (GY). However, it is often overlooked when improving wheat productivity under climate warming. Moreover, little is known about the complex effects of genetic and climatic factors on KW. Here, we explored the responses of wheat KW to diverse allelic combinations under projected climate warming conditions.",
+      "char_offset": 346
+    },
+    {
+      "type": "paragraph",
+      "text": "To focus on KW, we selected a subset of 81 out of 209 wheat varieties with similar GY, biomass, and kernel number (KN) and focused on their thousand-kernel weight (TKW). We genotyped them at eight kompetitive allele-specific polymerase chain reaction markers closely associated with TKW. Subsequently, we calibrated and evaluated the process-based model known as Agricultural Production Systems Simulator (APSIM-Wheat) based on a unique dataset including phenotyping, genotyping, climate, soil physicochemistry, and on-farm management information. We then used the calibrated APSIM-Wheat model to estimate TKW under eight allelic combinations (81 wheat varieties), seven sowing dates, and the shared socioeconomic pathways (SSPs) designated SSP2-4.5 and SSP5-8.5, driven by climate projections from five General Circulation Models (GCMs) BCC-CSM2-MR, CanESM5, EC-Earth3-Veg, MIROC-ES2L, and UKESM1-0-LL.",
+      "char_offset": 718
+    },
+    {
+      "type": "paragraph",
+      "text": "The APSIM-Wheat model reliably simulated wheat TKW with a root mean square error (RMSE) of < 3.076 g TK -1 and R 2 of > 0.575 ( P < 0.001). The analysis of variance based on the simulation output showed that allelic combination, climate scenario, and sowing date extremely significantly affected TKW ( P < 0.001). The impact of the interaction allelic combination \u00d7 climate scenario on TKW was also significant ( P < 0.05). Meanwhile, the variety parameters and their relative importance in the APSIM-Wheat model accorded with the expression of the allelic combinations. Under the projected climate scenarios, the favorable allelic combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b for SSP2-4.5 and SSP5-8.5) mitigated the negative effects of climate change on TKW.",
+      "char_offset": 1623
+    },
+    {
+      "type": "paragraph",
+      "text": "The present study demonstrated that optimizing favorable allelic combinations can help achieve high wheat TKW. The findings of this study clarify the responses of wheat KW to diverse allelic combinations under projected climate change conditions. Additionally, the present study provides theoretical and practical reference for marker-assisted selection of high TKW in wheat breeding.",
+      "char_offset": 2417
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat is one of the most important staple crops and constitutes ~21% of the global food crop production ( FAOSTAT, 2021 ). By 2050, the global demand for wheat is expected to increase at an annu al rate of 1.7%; however, the wheat grain yield (GY) is expected to increase by only 1.1% per year at that time ( Ray et al., 2013 ). The thousand-kernel weight (TKW) is a key determinant of winter wheat GY ( Li et al., 2022 ). Kernel number per spike and spike number per unit area (ha) (SN) are becoming increasingly stable as wheat genomics rapidly develops ( Fischer, 2008 ). Previous studies have shown that increasing TKW effectively increases GY ( Qin et al., 2015 ; Duan et al., 2020 ).",
+      "char_offset": 2803
+    },
+    {
+      "type": "paragraph",
+      "text": "Grain formation comprises photosynthate production, transport, accumulation, and solidification ( Serrago et al., 2013 ). Kernel weight (KW) depends mainly on grain size (volume) and degree of filling (plumpness). Larger grains and faster, earlier, and longer grain filling are associated with higher KW ( Xie et al., 2015 ). The grain filling rate divides KW formation into gradual, rapid, and slow increase periods ( Wang and Shangguan, 2015 ). The gradual increase period is the \u201creservoir establishment\u201d stage. Temperature, photosynthetic nutrition, and phytohormone levels cooperatively induce endosperm cells to form the grain through division and growth. The number of endosperm cells determines the grain size ( Schnyder and Baum, 1992 ). Grain filling slowly accelerates and grain dry matter accumulation accounts for 13\u201320% of the total mature KW during the gradual increase period. The rapid increase period is the \u201creservoir formation\u201d stage. At this stage, the assimilates required for grain filling originate mainly from the photosynthetic products formed after flowering and the mobilization of soluble reserves from the nutritional organs before and after flowering. Genotype, climatic conditions, and nutrient supply levels influence this process ( Ehdaie et al., 2008 ). During the rapid increase period, the rate of grain filling increases considerably and grain dry matter accumulation is highest and accounts for 52\u201357% of the mature KW. The slow increase period is the \u201creserve solidification\u201d stage. Senescent plant organs supply assimilates as their structural macromolecules degrade and are transported to the developing grains at the late plant growth stage ( Distelfeld et al., 2014 ). During the slow increase period, the grain filling rate gradually decreases, grain filling eventually stops, the grain gradually matures, and dry matter accumulation accounts for 12\u201320% of the mature KW.",
+      "char_offset": 3494
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat KW is influenced by both genetic and environmental factors ( Brinton and Uauy, 2019 ). Kernel weight is a quantitative trait regulated by several different genes with a stable phenotype and medium to high heritability (0.6\u20130.8); however, it is highly susceptible to environmental factors ( Miao et al., 2022 ). Research has revealed that breeding for superior allele aggregation, which in turn regulates and modifies gene expression as well as biochemical and metabolic pathways, is an important way to increase KW. Qin et al. (2015) conducted a linear regression analysis of >1,850 Chinese wheat varieties produced since the 1920s, which revealed that the average TKW increased from 30.16 g TK \u22121 in the 1920s to 38.43 g TK \u22121 in the 2010s ( Qin et al., 2015 ). Furthermore, the use of molecular marker technology greatly enhanced the improvement of thousand grain weight traits. Wheat TaSus1-7A and TaSus2-7B encode sucrose synthases and are positively correlated with dry matter accumulation during wheat development ( Hou et al., 2014 ). Auxin regulates cell elongation, expansion, and division during grain filling and affects grain size and weight. TaGW2-6A negatively regulates wheat KW by inhibiting auxin biosynthesis ( Geng et al., 2017 ; Li et al., 2017 ). Environmental factors, particularly temperature, also play vital roles in KW. Temperature substantially altered KW by affecting wheat phenological development, grain filling rate, and duration ( Li et al., 2022 ; Li et al., 2022 ).Elevated temperatures accelerate the growth and development of wheat, shorten the wheat nutritional growth stage, and reduce dry matter accumulation in the nutritional organs before flowering ( Juknys et al., 2017 ). Grain filling has a heat duration of approximately 700 growing degree-days (GDD). Hence, grain filling is shortened if the ambient temperature is particularly high during this period ( Zhao et al., 2007 ). At temperatures between 20\u00b0C and 30\u00b0C, the grain filling rate slightly increases with temperature but does not compensate for the reduction in grain filling duration. At temperatures > 30\u00b0C, the grain filling rate slows down in part because of thermal damage to the plant organs and accelerated plant senescence ( Wardlaw and Moncur, 1995 ; Lobell et al., 2012 ).",
+      "char_offset": 5412
+    },
+    {
+      "type": "paragraph",
+      "text": "A suitable sowing date is an important management strategy for the modulation of winter wheat KW. Tillering development, environmental conditions, and the timing and duration of the nutritional and reproductive stages of wheat growth and development may vary with sowing date. Thus, adjustments to the sowing date can alter photosynthesis and nutrient transport during wheat growth and development and, therefore, KW accumulation ( Silva et al., 2014 ; Wahid et al., 2017 ; Liu et al., 2021 ). An appropriate sowing date promotes tillering development, increases light interception, photosynthesis, and dry matter accumulation, and improves transport efficiency ( Dueri et al., 2022 ). However, sowing that is too early or too late weakens tillering, lowers the grain filling rate and duration, and decreases KW ( Shukla et al., 2022 ).",
+      "char_offset": 7705
+    },
+    {
+      "type": "paragraph",
+      "text": "Previous research focused mainly on the impact of climate change on wheat GY but did not explore its influences on KW. The latter is a key determinant of GY potential and future climate adaptability ( Tian et al., 2014 ; Tack et al., 2015 ; Zhao et al., 2016 ; Shew et al., 2020 ). Process-based crop models are often used to study the effects of genetics, field management, and their interactions on wheat growth and development as well as the impact of climate warming on wheat productivity. Briak and Kebede (2021) used their experimental data to calibrate and evaluate the Agricultural Production Systems Simulator (APSIM-Wheat) model and demonstrated its accuracy. Their simulation experiments showed that optimal sowing dates for suitable wheat varieties improve crop adaptation to climate warming. Here, we implemented the APSIM-Wheat model to elucidate the mechanisms by which KW responds to genotype and sowing date and improve its KW under climate warming. Out of a pool of 209 wheat varieties, we selected 81 with similar GY, biomass, and kernel number (KN). We used these KW, GY, and KN values to calibrate and evaluate the APSIM-Wheat model and then applied the evaluated model to simulate KW under eight allelic combinations (81 wheat varieties), seven sowing dates, and two shared socioeconomic pathways (SSPs). The objectives were to mitigate the negative impact of future climate warming on KW and achieve high KW. The results of the simulation enabled the identification of adaptive sowing dates and favorable allelic combinations for KW improvement. The findings of this study help clarify the physiological and ecological mechanisms by which KW responds to genotype and sowing date under climate warming and provide theoretical and practical references for high KW development in winter wheat.",
+      "char_offset": 8543
+    },
+    {
+      "type": "paragraph",
+      "text": "Field experiments were conducted in 2018\u20132019 and in 2019\u20132020 at the Xinxiang Comprehensive Experimental Station of the Chinese Academy of Agricultural Sciences, Henan Province, China (35\u00b018\u2032N, 113\u00b051\u2032E, 78 m a.s.l.). The region has a warm, temperate, semi-humid climate. The brown soil of the region had pH and bulk density of 7.11 and 1.38 g cm -3 , respectively. The water, organic carbon, and total nitrogen levels were 36.1%, 1.7 g kg -1 , and 1.11 g kg -1 , respectively. In 2018\u20132019 and 2019\u20132020, the accumulated temperatures were 2559.3 \u00b0C and 2437.1 \u00b0C and the precipitation levels were 105.5 mm and 110.6 mm, respectively ( Ma et al., 2021 ).",
+      "char_offset": 10358
+    },
+    {
+      "type": "paragraph",
+      "text": "Two hundred and nine varieties were selected among natural wheat populations and Huaimai 40 (stable) and Zhengmai 7698 (sensitive) served as the control varieties. They were sown on October 8, 2018 and October 23, 2019, respectively, and harvested on June 6, 2019 and June 2, 2020, respectively. The experiment was repeated twice using a randomized complete block design. The sowing density, row spacing, sowing depth, and plot size were 270 plants m -2 , 10 cm, 5 cm, and 4.2 m 2 (3 m \u00d7 1.4 m), respectively. Details of water and fertilizer management during the two growing seasons are listed in Table 1 . The SN, KN, GY, and TKW were measured during two growing seasons. Two random samples were taken, after the grain filling stage, from each sample frame (0.5 \u00d7 0.5 m) within the test plots (excluding edge areas). The SN in the sample frames was recorded, and the average value was obtained. Before the wheat maturity, 20 representative ears of wheat were randomly selected from each plot and threshed to obtain the average KN. After the wheat matured, it was threshed, dried, and weighed to obtain the GY per unit area (ha). Representative kernels (1000) were then selected and weighed to obtain the TKW. Pest and weed control were implemented in accordance with local productive field standards.",
+      "char_offset": 11015
+    },
+    {
+      "type": "paragraph",
+      "text": "On-farm management of 209 wheat varieties during the 2018-2019 and 2019-2020 growing seasons.",
+      "char_offset": 12319
+    },
+    {
+      "type": "paragraph",
+      "text": "The present study included 209 wheat varieties sampled from different habits (winter, semi-winter, weak-spring, or spring), gluten content types (strong, medium-strong, medium, or weak), breeding years (1980s\u20132010s), and habitats (China or other countries). The materials were abundant and widely distributed. The medium gluten type had the highest proportion (59.14%) followed by the strong gluten (29.03%) and the weak and medium-strong gluten types (7.53% and 4.30%, respectively). Additionally, the proportion of the semi-winter type was the highest (65.24%) followed by the weak-spring type (17.68%) and the winter and spring types (12.80% and 4.27%, respectively). The crops cultivated in the 2000s had the highest proportion (50.82%) followed by those grown in the 1990s (24.04%) and those raised in the 1980s and the 2010s (14.21% and 10.93%, respectively). The Chinese varieties accounted for the highest proportion (89.00%) and were distributed across nine provinces. The varieties were distributed across six countries and accounted for only 11.00% of the total ( Figure 1 ).",
+      "char_offset": 12414
+    },
+    {
+      "type": "paragraph",
+      "text": "Distribution of tested varieties in terms of habit (A) , gluten type (B) , breeding year (C) , and habitat particularly among nine provinces in China (D) .",
+      "char_offset": 13502
+    },
+    {
+      "type": "paragraph",
+      "text": "DNA was extracted from the leaves of the wheat seedlings using the high-salt/low-pH method ( Guillemaut and Mar\u00e9chal-Drouard, 1992 ) and amplified by PCR. A kompetitive allele-specific polymerase chain reaction (KASP) fluorescence detector was used to determine the genotypes for seven functional genes that regulate KW ( TaCKX-D1, TaGASR7-A1, TaSus1-7A, TaSus1-7B, TaGS5-A1, TaGW2-6A , and TaKG2-6B ), considerably affect its characteristics, and are associated with KASP markers ( Rasheed et al., 2019 ). The primer sequences and amplification conditions for each gene are described in Supplementary Table 1 . KASP detection revealed 209 varieties with 41 KW allelic combinations ( Supplementary Table 2 ). Their wide variety ensured genotypic diversity in this study.",
+      "char_offset": 13659
+    },
+    {
+      "type": "paragraph",
+      "text": "Meteorological, soil, field management, and observation data were collected to calibrate and evaluate the parameters of the APSIM-Wheat model. The meteorological data included daily maximum and minimum temperatures, daily sunshine hours, and daily precipitation at the Xinxiang Agrometeorological Station between 1961 and 2020. The phenological stage dataset included emergence, three-leaf stage, tillering, elongation, booting, heading, anthesis, medium milk, and maturity at the Xinxiang station between 2001 and 2013. The soil data used to run the model and calibrate the soil parameters were obtained from Zain et al. (2021) and included soil water and nitrogen distribution during the winter wheat growth periods between 2017 and 2019. The field observation data used to calibrate and evaluate TKW, KN, and GY were derived from the phenotypic observation data (Normalized Difference Vegetation Index (NDVI), TKW, GY, KN, and SN) of the 209 varieties under different managements at the Xinxiang station between 2018 and 2020. They also included data for the shared socioeconomic pathways SSP2-4.5 and SSP5-8.5 of the five global climate models in the Coupled Model Intercomparison Project Phase 6, namely, BCC-CSM2-MR (China), CanESM5 (Canada), EC-Earth3-Veg (Europe), MIROC-ES2L (Japan), and UKESM1-0-LL (UK). Specific on-site farm managements are listed in Supplementary Table 3 . The physicochemical properties of the various soil layers are listed in Supplementary Table 4 .",
+      "char_offset": 14431
+    },
+    {
+      "type": "paragraph",
+      "text": "As the study focused on the mechanisms by which KW responds to sowing date and genotype, 209 wheat varieties were screened here. First, it was assumed that varieties with KN and flowering period NDVI in close proximity had other genetic factors near the KW-regulating gene. Hence, varieties with similar KN (range < 5,000) and flowering period NDVI (range < 0.025) were selected. The data analysis was verified using the Kruskal\u2013Wallis test. Eighty-one varieties met the foregoing criteria and did not significantly differ in terms of KN or NDVI. The Kruskal\u2013Wallis test was run using the \u201cnpmc\u201d package in R v. 3.6.2 ( http://www.R-project.org/ ). The KN and NDVI for the 81 selected and 128 unselected varieties during their growth seasons are shown in Figure 2 . The allelic combinations and percentages are listed in Table 2 . The KW distributions for the selected 81 varieties in eight allelic combinations are shown in Figure 3 .",
+      "char_offset": 15915
+    },
+    {
+      "type": "paragraph",
+      "text": "kernel number (KN) and Normalized Difference Vegetation Index (NDVI) of 209 wheat varieties in growing season. (A, B) , KN; (C, D) , NDVI. Red columns represent varieties with similar KN and NDVI. Blue columns represent varieties with larger differences in KN and NDVI.",
+      "char_offset": 16852
+    },
+    {
+      "type": "paragraph",
+      "text": "Allelic combinations for kernel weight (B, eight combinations).",
+      "char_offset": 17123
+    },
+    {
+      "type": "paragraph",
+      "text": "Distribution of thousand-kernel weight (TKW) of different genotypes of wheat in different growing seasons. Red box represents TKW in 2018-2019 growing season. Blue box represents TKW in 2019-2020 growing season.",
+      "char_offset": 17188
+    },
+    {
+      "type": "paragraph",
+      "text": "The eFAST method was used in this study to elucidate the relationships among the variety and ecotype parameters and accurately simulate KW, KN, and GY. The eFAST method has been used to assess the sensitivity of various models ( Campolongo et al., 2000 ) and was applied in four steps.",
+      "char_offset": 17401
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) The parameters to be analyzed in the APSIM-Wheat model were selected and their range of values was determined. In the present study, eight variety and 33 ecotype parameters were selected ( Supplementary Table 5 ) and their upper and lower limits were set.",
+      "char_offset": 17688
+    },
+    {
+      "type": "paragraph",
+      "text": "(2) Monte Carlo sampling was used to generate a random parameter sample set. Here, all parameters were sampled with a uniform distribution implemented in Simlab software. In eFAST, the number of parameters sampled was > 65-fold greater that the number of parameters to be validated, that is, sample number \u2265 parameters number \u00d7 65. Thus, 128 samples \u00d7 41 (model parameters) \u00d7 two years \u00d7 two treatments = 20,992 model parameters.",
+      "char_offset": 17949
+    },
+    {
+      "type": "paragraph",
+      "text": "(3) The random parameter samples were used as the input for the APSIM-Wheat model and the simulation results were generated. Python v. 3.9.15 ( https://www.python.org/ ) was used to write a program that sequentially replaces the 41 parameters in the APSIM Wheat.xml file and calls the executable file (APSIM.exe) of the APSIM-Wheat model.",
+      "char_offset": 18380
+    },
+    {
+      "type": "paragraph",
+      "text": "(4) Simlab software was then used to perform parametric first-order and global sensitivity analyses of wheat KW, KN, and GY ( Giglioli and Saltelli, 2000 ). The model simulation results were organized into a standard file input format recognizable by Simlab. The latter automatically calculated the first-order and global sensitivity indices of the input parameters.",
+      "char_offset": 18720
+    },
+    {
+      "type": "paragraph",
+      "text": "Both the first-order sensitivity and the global sensitivity indices are used to assess the sensitivity of the system to the input parameters. However, the former only considers the effect of a single input parameter on the output parameter, while the latter considers the interaction among multiple input parameters. The closer the value of the sensitivity index is to 1, the greater will be the influence of this input parameter on the output parameter; the closer the value is to 0, the smaller will be the influence on the output parameter.",
+      "char_offset": 19088
+    },
+    {
+      "type": "paragraph",
+      "text": "The phenological, soil, variety, and ecotype model parameters directly and indirectly affecting KW formation were calibrated and evaluated. The wheat phenological parameters were calibrated and evaluated via batch parameter adjustment ( Supplementary Table 6 ). The simulation was conducted under water- and nitrogen stress-free conditions. The physical properties were then calibrated and evaluated ( Supplementary Table7 ). Based on the results of the parameter sensitivity analysis, the variety and ecotype parameters related to KN were then calibrated and evaluated. The range of parameter values was obtained for the optimally simulated KN results for the 209 varieties. The variety and ecotype parameters related to KW and GY were then calibrated and evaluated. The range of parameter values was obtained for the optimally simulated GY and KW results for the 209 varieties ( Supplementary Table 8 ). Root mean square error (RMSE) was used to determine the total difference between the observed and simulated values. Linear regression (R 2 ) between the measured and simulated values was used to evaluate model performance. Consistency (D) between the measured and simulated values was also determined.",
+      "char_offset": 19633
+    },
+    {
+      "type": "paragraph",
+      "text": "Simulations were run to (1) explore the responses of KW to sowing date and genotype under the background of climate warming, and (2) screen adaptive sowing dates and favorable allelic combinations that enhance KW. The APSIM-Wheat model was used to simulate KW under various sowing dates, allelic combinations, and climate scenarios as follows:",
+      "char_offset": 20842
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) Historical sowing date data from the Xinxiang station between 2001 and 2012 were used to calculate the average value and the latter was then set as the current sowing date (October 11; day of year (DOY) 284). The sowing date period was from October 5 to October 23 and the specific sowing dates were October 5 (DOY 278), October 8 (DOY 281), October 11 (DOY 284), October 14 (DOY 287), October 17 (DOY 290), October 20 (DOY 293), and October 23 (DOY 296).",
+      "char_offset": 21187
+    },
+    {
+      "type": "paragraph",
+      "text": "(2) Eighty-one varieties were selected and divided into eight allelic combinations based on seven KW functional genes.",
+      "char_offset": 21648
+    },
+    {
+      "type": "paragraph",
+      "text": "(3) The SSP2 and SSP5 scenarios were selected and the BCC-CSM2-MR, CanESM5, EC-Earth3-Veg, MIROC-ES2L, and UKESM1-0-LL global climate models were used in the baseline (1991\u20132020) and future (2031\u20132060) periods.",
+      "char_offset": 21768
+    },
+    {
+      "type": "paragraph",
+      "text": "R v. 3.6.2 ( http://www.R-project.org/ ) was used to analyze and test the significance of the differences in KW under various sowing dates, allelic combinations, and climate scenarios. The AOV function in the \u201cstats\u201d package of R was used to perform the analysis of variance (ANOVA) and the lsd.test function in the \u201cmultcomp\u201d package of R was used to perform the analysis of multiple comparison.",
+      "char_offset": 21980
+    },
+    {
+      "type": "paragraph",
+      "text": "The first-order and global sensitivity indices of the factors affecting wheat KW, GY, and KN were consistent. Of the 41 parameters affecting KW, the variety parameters \u201cmax_grain_size\u201d and \u201cgrains_per_gram_stem\u201d had first-order sensitivity indices > 0.2 and global sensitivity indices > 0.4. The ecotype parameters \u201cy_swdef_leaf\u201d and \u201cfr_lf_sen_rate\u201d had first-order sensitivity indices > 0.05 and global sensitivity indices > 0.1. The ecological parameter \u201cnode_sen_rate\u201d had a first-order sensitivity index > 0.025 and a global sensitivity index > 0.1. The ecotype parameters \u201cy_rue\u201d and \u201ceo_crop_factor_default\u201d had global sensitivity indices > 0.05. Of the 41 parameters affecting GY, the variety parameters \u201cmax_grain_size\u201d, and \u201cgrains_per_gram_stem\u201d and the ecotype parameters \u201cy_swdef_leaf\u201d, \u201coxdef_photo\u201d, \u201cnode _sen_rate\u201d, and \u201cy_swdef_pheno_flowering\u201d had first-order sensitivity indices > 0.05 and global sensitivity indices > 0.1. Of the 41 parameters affecting KN, the species parameter \u201cgrains_per_ gram_stem\u201d and the ecotype parameters \u201cy_swdef_leaf\u201d, \u201coxdef_photo\u201d, and \u201cy_swdef_ pheno_flowering\u201d had first-order sensitivity indices > 0.05. The species parameter \u201cgrains_per_gram_stem\u201d and the ecotype parameters \u201cy_swdef_ leaf\u201d, \u201cinitial_root_depth\u201d, \u201coxdef_photo\u201d, and \u201cy_rue\u201d had global sensitivity indices > 0.1.",
+      "char_offset": 22378
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 4 shows the validation of the simulated phenological growth stages of wheat including emergence, three leaves, tillering, elongation, booting, heading, anthesis, medium milk, and maturity, at the experimental base in Xinxiang, Henan Province, China between 2007 and 2013. The simulated and measured phenological stages were consistent. We compared the simulated and measured values for the growth stages between 2001 and 2007 to evaluate the parameters independently. The fitted linear equation was y = 1.007x - 0.618 and its slope was ~1. As RMSE = 7.5 d, the deviation between the measured and simulated values for the phenological stage was 8 d. The D values calculated from the measured and simulated values was 0.998. The R 2 was 0.993 and P < 0.05 ( Figure 5 ).",
+      "char_offset": 23713
+    },
+    {
+      "type": "paragraph",
+      "text": "Comparison between measured and simulated values of wheat growth stages (Zadoks growth stage) including emergence (Z10), three leaves (Z14), tillering (Z20), elongation (Z35), booting (Z45), heading (Z55), anthesis (Z65), medium milk (Z80), and maturity (Z100). Red circles and blue triangles represent simulated and measured values, respectively. Zadoks growth stage is sourced from Zadoks et al. (1974) . .",
+      "char_offset": 24489
+    },
+    {
+      "type": "paragraph",
+      "text": "Evaluation of APSIM-Wheat model for modelling wheat growth stages (Zadoks growth stage) (1:1, dashed line), including emergence (Z10), three leaves (Z14), tillering (Z20), elongation (Z35), booting (Z45), heading (Z55), anthesis (Z65), medium milk (Z80), and maturity (Z100), at Xinxing station for evaluation dataset (2001\u20132007) (1:1, dashed line). Blue circle represents simulated and measured values. Straight line represents regression line of fitting equation between measured and simulated value. RMSE is root mean square error which is used to measure deviation between observed and measured value. D-value is used to assess consistency between observed and measured value. R 2 is used to describe degree of fitting of regression line to observed value. The closer R 2 is to 1, the better the fitting. P < 0.05 means difference was highly significant. Zadoks growth stage is sourced from Zadoks et al. (1974) .",
+      "char_offset": 24899
+    },
+    {
+      "type": "paragraph",
+      "text": "Figures 6 , 7 show the validation of simulated water and nitrate nitrogen content in the 0\u201380-cm soil layer at the experimental base in Xinxiang, Henan Province, China between 2017 and 2018. The simulated results for the water and nitrate nitrogen content were good for the surface soil layer but poor for the deep soil layer. This could be owing to a lack of accurately measured soil data. Using data obtained from the literature may not fully reflect the actual local conditions, resulting in inaccurate simulation results for the deep soil layer. We compared the simulated and measured values for the soil water and nitrate nitrogen content in 2018\u20132019 to evaluate the parameters independently. The fitted linear equations were y = 0.635x + 0.073 and y = 0.82x + 1.421 ( Figure 8 ). The RMSE were 0.06 mm mm -1 and 2.892 mg kg -1 , respectively, and the D values were 0.669 and 0.844, respectively. The R 2 were 0.235, 0.548 (P < 0.05), respectively.",
+      "char_offset": 25818
+    },
+    {
+      "type": "paragraph",
+      "text": "Dynamics of simulated (blue triangle) and measured (red circle) soil moisture content value in 0\u201380-cm soil profile at Xinxiang site from 2018 to 2019.",
+      "char_offset": 26774
+    },
+    {
+      "type": "paragraph",
+      "text": "Dynamics of simulated (blue triangle) and measured (red circle) soil nitrate content value in 0\u201380-cm soil profile at Xinxiang site from 2018 to 2019.",
+      "char_offset": 26927
+    },
+    {
+      "type": "paragraph",
+      "text": "Comparison between simulated and measured soil water content and soil nitrate content (1:1, dashed line). (A) , soil water content; (B) , soil nitrate content. Blue circle represents simulated and measured values. Straight line represents regression line of fitting equation between measured and simulated value. RMSE is root mean square error which is used to measure deviation between observed and measured value. D-value is used to assess consistency between observed and measured value. R 2 is used to describe degree of fitting of regression line to observed value. The closer is to 1, the better the fitting. P < 0.05 means difference was highly significant.",
+      "char_offset": 27079
+    },
+    {
+      "type": "paragraph",
+      "text": "Figures 9A\u2013C shows the validation of the simulated KW, GY, and KN and their comparison against the measured values for the 81 wheat varieties in 2018\u20132019. The simulated and measured KW, GY, and KN values were highly consistent. We also validated the KW, GY, and KN for the 81 wheat varieties in 2019\u20132020 ( Figures 9D\u2013F ). The fitted equations were y = 0.784x + 7.94, y = 0.985x - 375.08, and y = 0.369x + 13146.67, respectively. The RMSE were 2.602g TK -1 , 689.772 kg ha -1 , and 2,008.485 KN spike -1 , respectively. The D values calculated from the measured and simulated values were 0.819, 0.802, and 0.613, respectively. The R 2 were 0.5, 0.673, and 0.167 (P < 0.05), respectively.",
+      "char_offset": 27745
+    },
+    {
+      "type": "paragraph",
+      "text": "Calibration and evaluation of APSIM-Wheat model for modelling thousand-kernel weight (TKW), grain yield (GY) and kernel number (KN) and (1:1,dashed line) of 81 wheat varieties at Xinxing station for calibration dataset (2018-2019) and evaluation dataset (2019-2020) (1:1, dashed line). Comparison of observed and simulated thousand-kernel weight (TKW) (A) , grain yield (GY) (B) , and kernel number (KN) (C) for calibration datasets. Comparison of observed and simulated thousand-kernel weight (TKW) (D) , grain yield (GY) (E) , and kernel number (KN) (F) for evaluation datasets.",
+      "char_offset": 28435
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on the current sowing dates, varieties, and field managements at the Xinxiang station, the calibrated APSIM-Wheat model was used to simulate the phenological stages, biomass, and KW of winter wheat under the baseline (1991\u20132020), SPP2-4.5 (2031\u20132060), and SSP5-8.5 (2031\u20132060) climate scenarios. The simulation demonstrated a temporal increase in the average temperature during the winter wheat phenological stages, shortening of the latter, increasing biomass (reproductive stages) ( Figure 10A\u2013D ), and decreasing KW ( Figure 11 ). For the preceding climate scenarios, the average temperature for winter wheat were 9.3\u00b0C, 10.4\u00b0C, and 10.6\u00b0C, respectively; the mean phenological stages 235.21 d, 228.93 d, and 227.20 d, respectively; the mean reproductive stages were 33.83 d, 33.81 d, and 33.73 d, respectively; the mean biomass values for these reproductive stages were 1239.50 g m \u22122 , 1374.99 g m \u22122 , and 1386.21 g m \u22122 , respectively; and the mean KW were 39.90 g TK-1, 39.58 g TK-1, and 39.65 g TK-1, respectively.",
+      "char_offset": 29017
+    },
+    {
+      "type": "paragraph",
+      "text": "Average temperature, days, and biomass of 81 wheat varieties during phenological stages under different climate scenarios. (A) , average temperature; (B) , duration of phenological stages; (C) , duration of reproductive stages; (D) , biomass of nutritional stages. Red boxes represent baseline. Blue boxes represent SSP2-4.5. Green boxes represent SSP2-8.5. Different letters indicate significance at 0.05 level.",
+      "char_offset": 30047
+    },
+    {
+      "type": "paragraph",
+      "text": "Thousand kernel weight (TKW) of 81 wheat varieties during phenological stages under different climate scenarios. The red boxes represent the Baseline; The blue boxes represent SSP2-4.5; The green boxes represent SSP2-8.5. The different letters indicate significance at the 0.05 level.",
+      "char_offset": 30461
+    },
+    {
+      "type": "paragraph",
+      "text": "The calibrated APSIM-Wheat model was used to simulate winter wheat KW under the aforementioned climate scenarios. ANOVA was then performed based on the simulation results. Allelic combination, climate scenario, and sowing date extremely significantly affected KW (P < 0.001) while the interaction between allelic combination and climate scenario significantly affected it (P < 0.05) ( Table 3 ). Figure 12 shows the non-significant effect of changing the sowing date on TKW and KW under SSP2-4.5 and SSP2-8.5 scenarios. The KW was 39.58 g TK \u22121 and 39.65 g TK \u22121 for the normal sowing period on October 11 (DOY 284), respectively. The average KW increased gradually from October 5 to October 23 (DOY 278\u2013DOY 296; an average increase rate of 0.092 g TK \u22121 and 0.126 g TK \u22121 , respectively). Figure 13 shows that changing the sowing date for SSP2-4.5 and SSP2-8.5 scenarios had a significant effect on the accumulated temperature at the reproductive stages \u226510\u00b0C. The accumulated temperature at the reproductive stages (\u226510\u00b0C) increased with delay in sowing, with an average increase rate of 1.57\u00b0C\u00b7d and 1.56\u00b0C\u00b7d, respectively. Figure 14 shows the favorable allelic combination B6 (TaCKX-D1b+ Hap-7A-1+ Hap-T+ Hap-6A-G+ Hap-6B-1+ H1g+ A1b) with a KW of 40.13 g TK \u22121 . For the SSP2-8.5 scenario, the favorable allelic combinations are B5, B6, and B8, with a KW of 40.53 g TK -1 , 40.85 g TK -1 , and 40.19 g TK -1 , respectively, and the KW values of allelic combination B6 (TaCKX-D1b+ Hap-7A-1+ Hap-T+ Hap-6A-G+ Hap-6B-1+ H1g+ A1b) , from the first quartile (25%) to the third quartile (75%), from the box position, were higher than those of B5 and B8. Stable, favorable allelic combinations can mitigate the negative impact of climate change on wheat TKW.",
+      "char_offset": 30747
+    },
+    {
+      "type": "paragraph",
+      "text": "Variance analysis of effects of sowing date, genotype, and climate scenario and their interactions on thousand-kernel weight (TKW) in three growing seasons (2018\u20132020).",
+      "char_offset": 32505
+    },
+    {
+      "type": "paragraph",
+      "text": "*** Indicates significance at the 0.001 level, ** Indicates significance at the 0.01 level, and * indicates significance at the 0.05 level",
+      "char_offset": 32675
+    },
+    {
+      "type": "paragraph",
+      "text": "Thousand-kernel weight (TKW) of 81 wheat varieties at different sowing dates for different climate scenarios. (A) , Baseline; (B) , SSP2-4.5; (C) , SSP2-8.5. Current sowing date (DOY 284). Different letters indicate significance at 0.05 level.",
+      "char_offset": 32815
+    },
+    {
+      "type": "paragraph",
+      "text": "Accumulated temperature of \u2265 10\u00b0C from anthesis to maturity of 81 wheat varieties under different sowing dates. Current sowing date (DOY 284). Red boxes represent baseline. Blue boxes represent SSP2-4.5. Green boxes represent SSP2-8.5.",
+      "char_offset": 33060
+    },
+    {
+      "type": "paragraph",
+      "text": "Thousand-kernel weight (TKW) of different allelic combination under different climatic scenarios at optimal sowing date. (A) , Baseline; (B) , SSP2-4.5; (C) , SSP2-8.5. Different letters indicate significance at 0.05 level.",
+      "char_offset": 33297
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 15 shows the values of the species-type parameters \u201cpotential_grain_growth_rate,\u201d \u201cpotential_grain_filling_rate,\u201d and \u201cmax_grain_size\u201d for different allelic combinations in the APSIM-Wheat model. In the B6 high-KW allelic combination, \u201cmax_grain_size\u201d had the highest value with a mean value of 0.0503; the \u201cpotential_grain_growth_rate\u201d parameter had the highest value (top 25%) with a mean value of 0.00128; the \u201cpotential_grain_filling_rate\u201d parameter had the median value (front 50%) with a mean value of 0.00167.",
+      "char_offset": 33522
+    },
+    {
+      "type": "paragraph",
+      "text": "Values of variety parameters in the APSIM-Wheat model for different genotypes. (A) , potential grain growth rate; (B) , potential grain filling rate; (C) , max grain size.",
+      "char_offset": 34047
+    },
+    {
+      "type": "paragraph",
+      "text": "Parameter localization is a prerequisite for effective crop model use. Parameter sensitivity analysis facilitates targeted model parameter calibration ( Kirui et al., 2022 ). Process-based physiological and ecological models simulate crop growth, development, and water and nutrient uptake. They can explore the dynamic relationships among atmosphere, crop, and soil and enable the prediction of crop responses to climate, genotype, farm management, and their interactions ( Briak and Kebede, 2021 ). Prior studies focused on crop variety parameters. However, Zhao et al. (2014) reported that the APSIM-Wheat model includes other variables that may also affect the output. To minimize model uncertainty, researchers performed a sensitivity analysis of eight variety parameters and 33 ecotype parameters. Kernel weight (KW) was sensitive to the variety parameters \u201cmax_grain_size\u201d, \u201cpotential_grain_growth_rate\u201d, and \u201cpotential_grain_filling_rate\u201d. This finding was consistent with the results of Zhao et al. (2014) . Nevertheless, KW was also sensitive to the ecotype parameters \u201cy_swdef_leaf\u201d, \u201cy_rue\u201d, \u201ceo_crop_factor_default\u201d, \u201cfr_lf_sen_rate\u201d, and \u201cnode_sen_ rate\u201d. Other studies reported contradictory results ( He et al., 2015 ; Casadebaig et al., 2016 ). Broadening the parameter range reduces the uncertainty of the model and improves its performance at simulating winter wheat growth and development ( Silva et al., 2021 ).",
+      "char_offset": 34220
+    },
+    {
+      "type": "paragraph",
+      "text": "Calibrating and evaluating APSIM-Wheat is the foundation for determining the optimal sowing time and allelic combination high KW in winter wheat under future climate scenarios ( Ahmed et al., 2016 ). The present study validated the variety and ecotype parameters for KW and GY based on the validation of the model parameters phenological period, soil moisture content, nitrate nitrogen, and particle number. This analysis provides theoretical support for subsequent investigations of the source-sink relationships in wheat KW. Figures 5 , 8 show that after calibration and evaluation, the APSIM-Wheat model simulated phenological period, soil moisture content, and nitrate nitrogen reasonably well. The R 2 were 0.993, 0.124, and 0.286, respectively, and the RMSE were 7.588 d, 0.06 d, and 2.892 d, respectively. Hence, the APSIM-Wheat model lays a theoretical foundation for optimizing the parameters related to KW and GY. Substantial differences were observed in the sowing dates over 2018\u20132020, the weather conditions during the sowing periods, and the multi-year phenological data from the agrometeorological stations. Nonetheless, the calibrated and evaluated APSIM-Wheat model reflected the responses to different sowing dates. Figure 9D shows that the calibrated and evaluated APSIM-Wheat model accurately simulated KW (R 2 = 0.575; RMSE = 3.076 g TK -1 ). The APSIM-Wheat model had an input of 209 varieties and accurately simulated the phenological period and the soil water-nitrogen balance. Thus, the calibrated and evaluated model reflected the responses to diverse allelic combinations and is an important tool for selecting optimal sowing dates and allelic combinations in future studies.",
+      "char_offset": 35654
+    },
+    {
+      "type": "paragraph",
+      "text": "The APSIM-Wheat simulation-based study revealed that climate warming is an important cause of KW reduction in wheat. KW is influenced by biomass accumulation during vegetative growth in winter wheat. It is also constrained by grain size and filling rate ( Almeida and Lidon, 2009 ; Liu et al., 2020 ). Juknys et al. (2017) reported that according to long-term phenological data, climate warming can shorten the nutritional growth stages of winter wheat and result in insufficient biomass accumulation during the pre-reproductive stages as well as inadequate KW during the post-reproductive stages. Jenner et al. (1993) demonstrated that elevated temperatures reduce KW by downregulating the enzymes biosynthesizing soluble starch. In this manner, high temperatures shorten grain filling. The APSIM-Wheat model simulation of the present study forecasted that the average temperature will increase and the phenological stages will decrease in future winter wheat growing seasons ( Figures 10A, B ). However, biomass will increase ( Figure 10D ). Hence, the KW source will increase and the sink (grain-filling period from flowering to maturity) influences the decrease in KW. Field and greenhouse experiments conducted by Xie et al. (2015) showed that faster and longer grain filling were associated with higher KW. In the present study, the APSIM-Wheat model parameters \u201cmax grain size\u201d, \u201cpotential_grain_growth_rate\u201d, and \u201cpotential_grain_filling_rate\u201d reflected the post-flowering grain size and the grain filling and growth rates which determine KW. In APSIM-Wheat, variety parameters \u201cmax_grain_size\u201d, \u201cpotential_grain_growth_rate\u201d, and \u201cpotential_grain_filling_rate\u201d reflected maximum grain size, potential growth rate, and filling rate under ideal climatic conditions, respectively, and are affected by climatic conditions (primarily temperature). In this study, the actual grain filling rate in APSIM-Wheat decelerated and the growth rate accelerated under the future climate scenario with an increase in the average daily temperature ( Figure 10A ). Lobell et al. (2012) reported that an increase in the average daily temperature increased the transpiration rate of the grains, leading to water loss and negatively affecting the grain filling rate. In addition, Barlow et al. (2015) reported that an increase in average daily temperature will increase the growth rate of the grain, leading to a reduction in the duration of grain filling. In this study, the reproductive growth phase of winter wheat was shortened under the future climate scenario ( Figure 10C ). Therefore, the deceleration of filling rate and shortening of filling duration caused by climate warming are responsible for the reduction in KW.",
+      "char_offset": 37358
+    },
+    {
+      "type": "paragraph",
+      "text": "Slight changes in the sowing window have only a marginal impact on KW. Sowing date modification has the lowest cost of all farm management measures and is a key factor in KW. Sowing date is mainly under human control and its modulation may subject winter wheat to different weather factors such as temperature and accumulated temperature that affect KW. For example, Shah et al. (2020) stated that delaying the sowing date by four weeks lowered the accumulated temperature from a normal sowing time value of 514\u00b0C to a wintertime value of 226\u00b0C, negatively impacted early growth, and reduced KW. As the present study used a maize-wheat rotation system, the wheat had to be harvested in a timely manner to allow for maize sowing. Therefore, we used the APSIM-Wheat model to establish seven sowing windows that started on October 5 and were repeated every 3 d until October 23. A delayed sowing window slightly increased KW because the adjustments to the sowing window led to a slight increase in the accumulated temperature ( Figure 13 ). For this reason, limited modifications to the sowing window resulted in slightly increased KW. Zheng et al. (2016) implemented the CSM-CERES-Wheat model in southern Khuzestan, Iran to adjust the sowing window to start on October 25 and repeat every 10 d until January 5. They found that fewer adjustments to the sowing window had a negligible impact on KW.",
+      "char_offset": 40075
+    },
+    {
+      "type": "paragraph",
+      "text": "The variety parameters and their relative importance in the APSIM-Wheat model are closely related to KW. In general, high KW is accompanied by the upregulation of functional alleles associated with favorable KW ( Zhang et al., 2014 ; Chegdali et al., 2022 ; Tillett et al., 2022 ). The APSIM-Wheat model parameters \u201cmax_grain_size\u201d, \u201cpotential_grain_ filling_rate\u201d, and \u201cpotential_grain_growth_rate\u201d had the strongest influences on wheat KW ( Zhao et al., 2014 ). Our first-order and global parameter sensitivity analyses showed that \u201cmax_grain_size\u201d had the greatest impact on wheat KW followed by \u201cpotential_grain_filling_rate\u201d and \u201cpotential_grain_growth_rate\u201d. Several studies demonstrated that \u201cmax_grain_size\u201d adjusts the grain size, \u201cpotential_grain_filling_rate\u201d adjusts the grain filling rate, and \u201cpotential_grain_growth_rate\u201d adjusts the grain growth rate ( Zhao et al., 2014 ; Xie et al., 2015 ; Kobata et al., 2018 ). The present study showed that the values for the parameters characteristic of winter wheat varieties with high KW were consistent with high KW allelic combinations. In the B6 high-KW allelic combination, \u201cmax_grain_size\u201d had the highest value ( Figure 15 ). This observation may be explained by upregulation of the advantageous A1b allele of the KW functional gene TaGS5-A1 which promotes cell division and the formation of large kernels ( Wang et al., 2016 ). In the B7 low-KW allelic combination, \u201cmax_grain_size\u201d had one of the lowest values of all parameters (bottom 25%) ( Figure 15 ). This finding may be explained by the upregulation of the advantageous A1a allele of the KW functional gene TaGS5-A1 . An earlier study showed that the KW functional genes TaSus1-7A and TaSus1-7B encoding sucrose synthases have the advantageous alleles Hap-7A-1/2 and Hap-T that promote starch sediment biosynthesis and facilitate grain filling ( Hou et al., 2014 ). In the B6 high-KW allelic combination, the \u201cpotential_grain_growth_rate\u201d parameter had the highest value (top 25%), and the \u201cpotential_grain_filling_rate\u201d parameter had the median value (front 50%) ( Figure 15 ). This discovery may be explained by the upregulation of the advantageous allele Hap-6B-1 of the KW functional gene TaGW2-6B , which regulates the number of endosperm cells, promotes grain development, and is superior to the favorable allele \u201cHap-6B-2\u201d ( Qin et al., 2014 ).The foregoing reports revealed that the APSIM-Wheat model variety parameter values effectively captured KW expression in different allelic combinations.",
+      "char_offset": 41471
+    },
+    {
+      "type": "paragraph",
+      "text": "Determining the responses of KW functional genes to climate warming facilitates the identification of high-KW allelic combinations. Here, multivariate ANOVA revealed that allelic combinations and climate scenarios extremely significantly influenced TKW (P < 0.001) while their interaction significantly affected it (P < 0.05). Under different climate scenarios, the B6 allelic combination had higher KW and was stable. The B7 allelic combination had lower KW than the other allelic combinations. The preceding results suggest that the values of the variety parameter determining high KW were consistent with the high-KW allelic combinations. The variety parameter values were highest for the B6 allelic combination which included the KW functional genes TaSus1-7A, TaSus1-7B, TaGW2-6B , and TaGS5-A1 and their favorable alleles Hap-7A-1, Hap-T, Hap-6B-1, and A1b, respectively. The B7 allelic combination had low variety parameter values but included the KW functional genes, TaSus1-7A, TaSus1-7B, TaGW2-6A , and TaGW2-6B , and their favorable alleles, Hap-7A-2, Hap-T, Hap-6A-A, and Hap-6B-2, respectively. A recent study revealed that in TaSus1-7A , Hap-7A-1 and Hap7A-2 had strong and weak effects on wheat KW, respectively ( Sehgal et al., 2019 ). The favorable allele Hap-6B-1 of TaGW2-6B has a stronger impact on KW than the favorable allele Hap-6B-2. However, both had a greater effect on KW than TaGW2-6A ( Hou et al., 2014 ). The favorable allele of TaSus1-7A, \u201cHap-1/2,\u201d was measured in multiple environments with high TKW and stable expression of the trait ( Qin et al., 2014 ).Therefore, the B6 allelic combination can achieve maximum KW. The present and preceding studies provide critical reference for breeding winter wheat and certain other cereal crops with high kernel weight under climate warning.",
+      "char_offset": 43998
+    },
+    {
+      "type": "paragraph",
+      "text": "The present study demonstrated the responses of wheat KW to diverse allelic combinations under predicted climate warming and identified the genetic adaptations that will enable winter wheat to remain productive as atmospheric temperatures continue to increase. We conducted field trials and KASP genotyping on 209 wheat varieties in 2018\u20132020 and compiled a unique dataset comprising phenotype, genotype, climate, and soil data as well as on-farm management information. We assumed that wheat varieties with KN and flowering period NDVI in close proximity had other genetic factors near the KW-regulating gene. Hence, 81 wheat varieties with similar KN and flowering period NDVI were selected for calibration and evaluation by using the process-based APSIM-Wheat model. The model simulated TKW for eight allele combinations (81 wheat varieties), seven sowing dates, and two shared socioeconomic pathways (SSPs). It was determined that variety and ecotype parameters significantly influenced winter wheat KW, GY, and KN. Localized APSIM-Wheat parameters could accurately calibrate and evaluate these three yield metrics. The variety parameters and their relative importance in the APSIM-Wheat model were consistent with the expression of functional genes in allelic combinations. Therefore, the selected variety parameters revealed diverse allelic combinations affecting KW re-expression. The wheat phenological stages will be shortened and KW will be reduced (0.11-0.18 g TK -1 ) under future climate scenarios. Nevertheless, clarification of the responses of KW to diverse allelic combinations under projected climate warming scenarios may help ameliorate the negative impact of climate warming on TKW. Under SSP2-4.5, favorable allele combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b) would increase KW by 0.34 g TK -1 , Under SSP5-8.5, the favorable allele combinations (TaCKX-D1b + Hap-7A-1 + Hap-T + Hap-6A-G + Hap-6B-1 + H1g + A1b) would increase KW by 0.26 g TK -1 . The results of the present study showed that favorable allelic combinations could help achieve high winter wheat TKW even under the projected climate warming scenarios. The present study provides valuable theoretical and practical reference for breeders in the development and selection of high-yield, thermotolerant wheat varieties with the aid of the APSIM-Wheat model. These novel wheat cultivars could improve wheat productivity, profitability, and water-use efficiency and help maintain food security. Future research should endeavor to incorporate other genetic loci contributing to TKW into the APSIM-Wheat model, enabling the construction of genetic based-model by strongly linking genetic information to crop models.",
+      "char_offset": 45815
+    },
+    {
+      "type": "paragraph",
+      "text": "The original contributions presented in the study are included in the article/ Supplementary Material . Further inquiries can be directed to the corresponding author.",
+      "char_offset": 48544
+    },
+    {
+      "type": "paragraph",
+      "text": "Conceptualization, KW, YH; formal analysis, KW, LS and YH; funding acquisition, YH; writing, KW, BZ and YH; writing-review and editing, YH. These authors contributed equally: KW and LS. All authors contributed to the article and approved the submitted version.",
+      "char_offset": 48712
+    },
+    {
+      "type": "paragraph",
+      "text": "The study was funded by the National Natural Science Foundation of China (41975148), and the Chinese Academy of Agricultural Sciences Central Public-interest Scientific Institution Basal Research Fund (BSRF202202 and BSRF202005).",
+      "char_offset": 48974
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors are grateful to reviewers for their valuable comments and suggestions.",
+      "char_offset": 49205
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+      "char_offset": 49289
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+      "char_offset": 49463
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2023.1138966/full#supplementary-material",
+      "char_offset": 49811
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahmed M. Akram M. N. Asim M. Aslam M. F-u H. Higgins S. et al . ( 2016 ). Calibration and validation of APSIM-wheat and CERES-wheat for spring wheat under rainfed conditions: Models evaluation and application . Comput. Electron. Agric. 123 , 384 \u2013 401 . doi: 10.1016/j.compag.2016.03.015",
+      "char_offset": 49971
+    },
+    {
+      "type": "paragraph",
+      "text": "Almeida A. Lidon F. ( 2009 ). Evaluation of grain filling rate and duration in bread and durum wheat, under heat stress after anthesis . J. Agron. Crop Sci. 195 , 137 \u2013 147 . doi: 10.1111/j.1439-037X.2008.00347.x",
+      "char_offset": 50260
+    },
+    {
+      "type": "paragraph",
+      "text": "Barlow K. M. Christy B. P. O\u2019Leary G. J. Riffkin P. A. Nuttall J. G. ( 2015 ). Simulating the impact of extreme heat and frost events on wheat crop production: A review . Field Crops Res. 171 , 109 \u2013 119 . doi: 10.1016/j.fcr.2014.11.010",
+      "char_offset": 50474
+    },
+    {
+      "type": "paragraph",
+      "text": "Briak H. Kebede F. ( 2021 ). Wheat (Triticum aestivum) adaptability evaluation in a semi-arid region of central Morocco using APSIM model . Sci. Rep. 11 ( 1 ), 23173 . doi: 10.1038/s41598-021-02668-3",
+      "char_offset": 50712
+    },
+    {
+      "type": "paragraph",
+      "text": "Brinton J. Uauy C. ( 2019 ). A reductionist approach to dissecting grain weight and yield in wheat . J. Integr. Plant Biol. 61 ( 3 ), 337 \u2013 358 . doi: 10.1111/jipb.12741",
+      "char_offset": 50913
+    },
+    {
+      "type": "paragraph",
+      "text": "Campolongo F. Saltelli A. Tarantola S. ( 2000 ). Sensitivity anaysis as an ingredient of modeling . Stat. Sci. 15 ( 4 ), 377 \u2013 395 . doi: 10.1214/ss/1009213004",
+      "char_offset": 51084
+    },
+    {
+      "type": "paragraph",
+      "text": "Casadebaig P. Zheng B. Chapman S. Huth N. Faivre R. Chenu K. ( 2016 ). Assessment of the potential impacts of wheat plant traits across environments by combining crop modeling and global sensitivity analysis . PloS One 11 ( 1 ), e0146385 . doi: 10.1371/journal.pone.0146385",
+      "char_offset": 51245
+    },
+    {
+      "type": "paragraph",
+      "text": "Chegdali Y. Ouabbou H. Essamadi A. Sahri A. Rios C. N. Dreisigacker S. et al . ( 2022 ). Distribution of alleles related to grain weight and quality in Moroccan and north American wheat landraces and cultivars . Euphytica 218 ( 9 ), 123 . doi: 10.1007/s10681-022-03078-w",
+      "char_offset": 51520
+    },
+    {
+      "type": "paragraph",
+      "text": "Distelfeld A. Avni R. Fischer A. M. ( 2014 ). Senescence, nutrient remobilization, and yield in wheat and barley . J. Exp. Bot. 65 ( 14 ), 3783 \u2013 3798 . doi: 10.1093/jxb/ert477",
+      "char_offset": 51792
+    },
+    {
+      "type": "paragraph",
+      "text": "Duan X. Yu H. Ma W. Sun J. Zhao Y. Yang R. et al . ( 2020 ). A major and stable QTL controlling wheat thousand grain weight: identification, characterization, and CAPS marker development . Mol. Breed. 40 ( 7 ), 68 . doi: 10.1007/s11032-020-01147-3",
+      "char_offset": 51970
+    },
+    {
+      "type": "paragraph",
+      "text": "Dueri S. Brown H. Asseng S. Ewert F. Webber H. George M. et al . ( 2022 ). Simulation of winter wheat response to variable sowing dates and densities in a high-yielding environment . J. Exp. Bot. 73 ( 16 ), 5715 \u2013 5729 . doi: 10.1093/jxb/erac221",
+      "char_offset": 52219
+    },
+    {
+      "type": "paragraph",
+      "text": "Ehdaie B. Alloush G. A. Waines J. G. ( 2008 ). Genotypic variation in linear rate of grain growth and contribution of stem reserves to grain yield in wheat . Field Crops Res. 106 ( 1 ), 34 \u2013 43 . doi: 10.1016/j.fcr.2007.10.012",
+      "char_offset": 52466
+    },
+    {
+      "type": "paragraph",
+      "text": "Food and Agriculture Organization of the United Nations (FAO) ( 2021 ). Food and agriculture organization of the United Nations ( Rome, Italy ). Available at: http://faostat.fao.org/ .",
+      "char_offset": 52694
+    },
+    {
+      "type": "paragraph",
+      "text": "Fischer R. A. ( 2008 ). The importance of grain or kernel number in wheat: A reply to Sinclair and jamieson . Field Crops Res. 105 ( 1 ), 15 \u2013 21 . doi: 10.1016/j.fcr.2007.04.002",
+      "char_offset": 52880
+    },
+    {
+      "type": "paragraph",
+      "text": "Geng J. Li L. Lv Q. Zhao Y. Liu Y. Zhang L. et al . ( 2017 ). TaGW2-6A allelic variation contributes to grain size possibly by regulating the expression of cytokinins and starch-related genes in wheat . Planta 246 ( 6 ), 1153 \u2013 1163 . doi: 10.1007/s00425-017-2759-8",
+      "char_offset": 53060
+    },
+    {
+      "type": "paragraph",
+      "text": "Giglioli N. Saltelli A. ( 2000 ). SimLab 1.1, software for sensitivity and uncertainty analysis, tool for sound modelling .",
+      "char_offset": 53327
+    },
+    {
+      "type": "paragraph",
+      "text": "Guillemaut P. Mar\u00e9chal-Drouard L. ( 1992 ). Isolation of plant DNA: A fast, inexpensive, and reliable method . Plant Mol. Biol. Rep. 10 ( 1 ), 60 \u2013 65 . doi: 10.1007/BF02669265",
+      "char_offset": 53452
+    },
+    {
+      "type": "paragraph",
+      "text": "He L. Zhao G. Jin N. Zhuang W. Yu Q. ( 2015 ). Global sensitivity analysis of APSIM-wheat parameters in different climate zones and yield levels . Nongye Gongcheng Xuebao/Transact. Chin. Soc. Agric. Eng. 31 , 148 \u2013 157 . doi: 10.11975/j.issn.1002-6819.2015.14.021",
+      "char_offset": 53630
+    },
+    {
+      "type": "paragraph",
+      "text": "Hou J. Jiang Q. Hao C. Wang Y. Zhang H. Zhang X. ( 2014 ). Global selection on sucrose synthase haplotypes during a century of wheat breeding . Plant Physiol. 164 ( 4 ), 1918 \u2013 1929 . doi: 10.1104/pp.113.232454",
+      "char_offset": 53895
+    },
+    {
+      "type": "paragraph",
+      "text": "Jenner C. Siwek K. Hawker J. S. ( 1993 ). The synthesis of [ 14 C]Starch from [ 14 C]Sucrose in isolated wheat grains is dependent upon the activity of soluble starch synthase . Funct. Plant Biol. 20 , 329 \u2013 335 . doi: 10.1071/PP9930329",
+      "char_offset": 54107
+    },
+    {
+      "type": "paragraph",
+      "text": "Juknys R. Velicka R. Kanapickas A. Kriauciuniene Z. Masilionyte L. Vaguseviciene I. et al . ( 2017 ). Projecting the impact of climate change on phenology of winter wheat in northern Lithuania . Int. J. Biometeorol. 61 ( 10 ), 1765 \u2013 1775 . doi: 10.1007/s00484-017-1360-y",
+      "char_offset": 54345
+    },
+    {
+      "type": "paragraph",
+      "text": "Kirui B. Makokha G. Thiongo K. ( 2022 ). Calibration and parameterization of APSIM-wheat using earth observation data for wheat simulation in Kenya . J. Agric. Inf. 13 , 9\u201318 . doi: 10.17700/jai.2022.13.1.629",
+      "char_offset": 54618
+    },
+    {
+      "type": "paragraph",
+      "text": "Kobata T. Palta J. A. Tanaka T. Ohnishi M. Maeda M. Ko\u00c7 M. et al . ( 2018 ). Responses of grain filling in spring wheat and temperate-zone rice to temperature: Similarities and differences . Field Crops Res. 215 , 187 \u2013 199 . doi: 10.1016/j.fcr.2017.10.017",
+      "char_offset": 54828
+    },
+    {
+      "type": "paragraph",
+      "text": "Li L. Bian Y. Dong Y. Song J. Liu D. Zeng J. et al . ( 2022 ). Identification and validation of stable quantitative trait loci for yield component traits in wheat . Crop J . doi: 10.1016/j.cj.2022.09.012",
+      "char_offset": 55086
+    },
+    {
+      "type": "paragraph",
+      "text": "Li Y. Hou R. Liu X. Chen Y. Tao F. ( 2022 ). Changes in wheat traits under future climate change and their contributions to yield changes in conventional vs. conservational tillage systems . Sci. Total Environ. 815 , 152947 . doi: 10.1016/j.scitotenv.2022.152947",
+      "char_offset": 55291
+    },
+    {
+      "type": "paragraph",
+      "text": "Li Q. Li L. Liu Y. Lv Q. Zhang H. Zhu J. et al . ( 2017 ). Influence of TaGW2-6A on seed development in wheat by negatively regulating gibberellin synthesis . Plant Sci. 263 , 226 \u2013 235 . doi: 10.1016/j.plantsci.2017.07.019",
+      "char_offset": 55555
+    },
+    {
+      "type": "paragraph",
+      "text": "Li M. Tang Y. Li C. Wu X. Tao X. Liu M. ( 2022 ). Climate warming causes changes in wheat phenological development that benefit yield in the sichuan basin of China . Eur. J. Agron. 139 , 126574 . doi: 10.1016/j.eja.2022.126574",
+      "char_offset": 55780
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu B. Liu L. Asseng S. Zhang D. Ma W. Tang L. et al . ( 2020 ). Modelling the effects of post-heading heat stress on biomass partitioning, and grain number and weight of wheat . J. Exp. Bot. 71 ( 19 ), 6015 \u2013 6031 . doi: 10.1093/jxb/eraa310",
+      "char_offset": 56008
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu K. Zhang C. Guan B. Yang R. Liu K. Wang Z. et al . ( 2021 ). The effect of different sowing dates on dry matter and nitrogen dynamics for winter wheat: an experimental simulation study . PeerJ 9 , e11700 . doi: 10.7717/peerj.11700",
+      "char_offset": 56251
+    },
+    {
+      "type": "paragraph",
+      "text": "Lobell D. B. Sibley A. Ivan Ortiz-Monasterio J. ( 2012 ). Extreme heat effects on wheat senescence in India . Nat. Climate Change 2 ( 3 ), 186 \u2013 189 . doi: 10.1038/nclimate1356",
+      "char_offset": 56487
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma J. Xiao Y. Hou L. He Y. ( 2021 ). Combining protein content and grain yield by genetic dissection in bread wheat under low-input management . Foods 10 ( 5 ), 1058 . doi: 10.3390/foods10051058",
+      "char_offset": 56665
+    },
+    {
+      "type": "paragraph",
+      "text": "Miao Y. Jing F. Ma J. Liu Y. Zhang P. Chen T. et al . ( 2022 ). Major genomic regions for wheat grain weight as revealed by QTL linkage mapping and meta-analysis . Front. Plant Sci. 13 . doi: 10.3389/fpls.2022.802310",
+      "char_offset": 56861
+    },
+    {
+      "type": "paragraph",
+      "text": "Qin L. Hao C. Hou J. Wang Y. Li T. Wang L. et al . ( 2014 ). Homologous haplotypes, expression, genetic effects and geographic distribution of the wheat yield gene TaGW2 . BMC Plant Biol. 14 ( 1 ), 107 . doi: 10.1186/1471-2229-14-107",
+      "char_offset": 57079
+    },
+    {
+      "type": "paragraph",
+      "text": "Qin X. Zhang F. Liu C. Yu H. Cao B. Tian S. et al . ( 2015 ). Wheat yield improvements in China: Past trends and future directions . Field Crops Res. 177 , 117 \u2013 124 . doi: 10.1016/j.fcr.2015.03.013",
+      "char_offset": 57314
+    },
+    {
+      "type": "paragraph",
+      "text": "Rasheed A. Jin H. Xiao Y. Zhang Y. Hao Y. Zhang Y. et al . ( 2019 ). Allelic effects and variations for key bread-making quality genes in bread wheat using high-throughput molecular markers . J. Cereal Sci. 85 , 305 \u2013 309 . doi: 10.1016/j.jcs.2018.12.004",
+      "char_offset": 57514
+    },
+    {
+      "type": "paragraph",
+      "text": "Ray D. K. Mueller N. D. West P. C. Foley J. A. ( 2013 ). Yield trends are insufficient to double global crop production by 2050 . PloS One 8 ( 6 ), e66428 . doi: 10.1371/journal.pone.0066428",
+      "char_offset": 57770
+    },
+    {
+      "type": "paragraph",
+      "text": "Schnyder H. Baum U. ( 1992 ). Growth of the grain of wheat (Triticum aestivum l.). the relationship between water content and dry matter accumulation . Eur. J. Agron. 1 ( 2 ), 51 \u2013 57 . doi: 10.1016/S1161-0301(14)80001-4",
+      "char_offset": 57962
+    },
+    {
+      "type": "paragraph",
+      "text": "Sehgal D. Mondal S. Guzman C. Garcia Barrios G. Franco C. Singh R. et al . ( 2019 ). Validation of candidate gene-based markers and identification of novel loci for thousand-grain weight in spring bread wheat . Front. Plant Sci. 10 . doi: 10.3389/fpls.2019.01189",
+      "char_offset": 58184
+    },
+    {
+      "type": "paragraph",
+      "text": "Serrago R. A. Alzueta I. Savin R. Slafer G. A. ( 2013 ). Understanding grain yield responses to source\u2013sink ratios during grain filling in wheat and barley under contrasting environments . Field Crops Res. 150 , 42 \u2013 51 . doi: 10.1016/j.fcr.2013.05.016",
+      "char_offset": 58448
+    },
+    {
+      "type": "paragraph",
+      "text": "Shah F. Coulter J. A. Ye C. Wu W. ( 2020 ). Yield penalty due to delayed sowing of winter wheat and the mitigatory role of increased seeding rate . Eur. J. Agron. 119 , 126120 . doi: 10.1016/j.eja.2020.126120",
+      "char_offset": 58702
+    },
+    {
+      "type": "paragraph",
+      "text": "Shew A. M. Tack J. B. Nalley L. L. Chaminuka P. ( 2020 ). Yield reduction under climate warming varies among wheat cultivars in South Africa . Nat. Commun. 11 ( 1 ), 4408 . doi: 10.1038/s41467-020-18317-8",
+      "char_offset": 58912
+    },
+    {
+      "type": "paragraph",
+      "text": "Shukla G. Patel J. N. Kumar R. Alam M. S. ( 2022 ). Effect of sowing dates and varieties of wheat crop (Triticum aestivum l.) on growth and productivity under changing climate . Int. J. Environ. Climate Change 77 \u2013 89 . doi: 10.9734/ijecc/2022/v12i430661",
+      "char_offset": 59118
+    },
+    {
+      "type": "paragraph",
+      "text": "Silva R. R. Benin G. Almeida J. Fonseca I.C.d B. Zucareli C. ( 2014 ). Grain yield and baking quality of wheat under different sowing dates . Acta Sci. Agron. 36 ( 2 ), 201\u2013210 . doi: 10.4025/actasciagron.v36i2.16180",
+      "char_offset": 59374
+    },
+    {
+      "type": "paragraph",
+      "text": "Silva H. N. P. D. Takahashi T. Okada K. ( 2021 ). Evaluation of APSIM-wheat to simulate the response of yield and grain protein content to nitrogen application on an andosol in Japan . Plant Product. Sci. 24 ( 4 ), 454 \u2013 465 . doi: 10.1080/1343943x.2021.1883989",
+      "char_offset": 59592
+    },
+    {
+      "type": "paragraph",
+      "text": "Tack J. Barkley A. Nalley L. L. ( 2015 ). Effect of warming temperatures on US wheat yields . Proc. Natl. Acad. Sci. U.S.A. 112 ( 22 ), 6931 \u2013 6936 . doi: 10.1073/pnas.1415181112",
+      "char_offset": 59855
+    },
+    {
+      "type": "paragraph",
+      "text": "Tian Y. Zheng C. Chen J. Chen C. Deng A. Song Z. et al . ( 2014 ). Climatic warming increases winter wheat yield but reduces grain nitrogen concentration in east China . PloS One 9 ( 4 ), e95108 . doi: 10.1371/journal.pone.0095108",
+      "char_offset": 60035
+    },
+    {
+      "type": "paragraph",
+      "text": "Tillett B. J. Hale C. O. Martin J. M. Giroux M. J. ( 2022 ). Genes impacting grain weight and number in wheat (Triticum aestivum l. ssp. aestivum) . Plants (Basel) 11 ( 13 ), 1772 . doi: 10.3390/plants11131772",
+      "char_offset": 60267
+    },
+    {
+      "type": "paragraph",
+      "text": "Wahid S. Hadi I. Al-Abodi H. ( 2017 ). Effect of sowing dates on the growth and yield of different wheat cultivars and their relationship with accumulated heat units . 11 ( 3 ), 7\u201313 .",
+      "char_offset": 60478
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang L. Shangguan Z. ( 2015 ). Photosynthetic rates and kernel-filling processes of big-spike wheat (Triticum aestivumL.) during the growth period . New Z. J. Crop Hortic. Sci. 43 ( 3 ), 182 \u2013 192 . doi: 10.1080/01140671.2014.994644",
+      "char_offset": 60664
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang S. Yan X. Wang Y. Liu H. Cui D. Chen F. ( 2016 ). Haplotypes of the TaGS5-A1 gene are associated with thousand-kernel weight in Chinese bread wheat . Front. Plant Sci. 7 . doi: 10.3389/fpls.2016.00783",
+      "char_offset": 60898
+    },
+    {
+      "type": "paragraph",
+      "text": "Wardlaw I. F. Moncur L. ( 1995 ). The response of wheat to high temperature following anthesis. i. the rate and duration of kernel filling . Aust. J. Plant Physiol. 22 , 391 \u2013 397 . doi: 10.1071/PP9950391",
+      "char_offset": 61105
+    },
+    {
+      "type": "paragraph",
+      "text": "Xie Q. Mayes S. Sparkes D. L. ( 2015 ). Carpel size, grain filling, and morphology determine individual grain weight in wheat . J. Exp. Bot. 66 ( 21 ), 6715 \u2013 6730 . doi: 10.1093/jxb/erv378",
+      "char_offset": 61311
+    },
+    {
+      "type": "paragraph",
+      "text": "Zadoks J. C. Chang T. T. Konzak C. F. ( 1974 ). A decimal code for the growth stages of cereals . Weed Res. 14 ( 6 ), 415 \u2013 421 . doi: 10.1111/j.1365-3180.1974.tb01084.x",
+      "char_offset": 61502
+    },
+    {
+      "type": "paragraph",
+      "text": "Zain M. Si Z. Chen J. Mehmood F. Rahman S. U. Shah A. N. et al . ( 2021 ). Suitable nitrogen application mode and lateral spacing for drip-irrigated winter wheat in north China plain . PloS One 16 ( 11 ), e0260008 . doi: 10.1371/journal.pone.0260008",
+      "char_offset": 61673
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang B. Li W. Chang X. Li R. Jing R. ( 2014 ). Effects of favorable alleles for water-soluble carbohydrates at grain filling on grain weight under drought and heat stresses in wheat . PloS One 9 ( 7 ), e102917 . doi: 10.1371/journal.pone.0102917",
+      "char_offset": 61924
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao G. Bryan B. A. Song X. ( 2014 ). Sensitivity and uncertainty analysis of the APSIM-wheat model: Interactions between cultivar, environmental, and management parameters . Ecol. Model. 279 , 1 \u2013 11 . doi: 10.1016/j.ecolmodel.2014.02.003",
+      "char_offset": 62172
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao H. Dai T. Jing Q. Jiang D. Cao W. ( 2007 ). Leaf senescence and grain filling affected by post-anthesis high temperatures in two different wheat cultivars . Plant Growth Regul. 51 ( 2 ), 149 \u2013 158 . doi: 10.1007/s10725-006-9157-8",
+      "char_offset": 62413
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao C. Piao S. Huang Y. Wang X. Ciais P. Huang M. et al . ( 2016 ). Field warming experiments shed light on the wheat yield response to temperature in China . Nat. Commun. 7 , 13530 . doi: 10.1038/ncomms13530",
+      "char_offset": 62649
+    },
+    {
+      "type": "paragraph",
+      "text": "Zheng Z. Cai H. Lianyu Y. ( 2016 ). Application of the CSM\u2013CERES\u2013Wheat model for yield prediction and planting date evaluation at guanzhong plain in Northwest China . Agron. J. 109 , 204\u2013217 . doi: 10.2134/agronj2016.05.0289",
+      "char_offset": 62860
+    },
+    {
+      "type": "paragraph",
+      "text": "allelic combination , climate change , thousand-kernel weight , winter wheat ( Triticum aestivum L .) , APSIM-Wheat model",
+      "char_offset": 63086
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang K, Shi L, Zheng B and He Y (2023) Responses of wheat kernel weight to diverse allelic combinations under projected climate change conditions . Front. Plant Sci. 14:1138966. doi: 10.3389/fpls.2023.1138966",
+      "char_offset": 63209
+    },
+    {
+      "type": "paragraph",
+      "text": "Ilaria Marcotuli, University of Bari Aldo Moro, Italy",
+      "char_offset": 63419
+    },
+    {
+      "type": "paragraph",
+      "text": "Vikas Gupta, Indian Institute of Wheat and Barley Research (ICAR), India; Jose Miguel Soriano, Institute of Agrifood Research and Technology (IRTA), Spain",
+      "char_offset": 63474
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "char_offset": 63630
+    },
+    {
+      "type": "paragraph",
+      "text": "*Correspondence: Yong He, heyong01@caas.cn",
+      "char_offset": 64081
+    },
+    {
+      "type": "paragraph",
+      "text": "This article was submitted to Plant Abiotic Stress, a section of the journal Frontiers in Plant Science",
+      "char_offset": 64125
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.",
+      "char_offset": 64230
+    }
+  ],
+  "labels": [
+    "growth_stage_table",
+    "has_table",
+    "nutrient_table",
+    "yield_table"
+  ],
+  "document_id": "doc-de587707ed580f70"
+}

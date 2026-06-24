@@ -1,0 +1,54 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "numeric",
+      "numeric_value": 3.67,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "Amin and Barzegar were recognized as the sensitive (salt's tolerance threshold: 3.67 dS m −1) and tolerant (salt's tolerance threshold: 7.13 dS m −1) cultivars, respectively.",
+      "claim_summary": "Salt-sensitive wheat cultivar Amin has a salinity tolerance threshold of 3.67 dS/m (based on relative shoot dry weight).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "numeric",
+      "numeric_value": 7.13,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "Amin and Barzegar were recognized as the sensitive (salt's tolerance threshold: 3.67 dS m −1) and tolerant (salt's tolerance threshold: 7.13 dS m −1) cultivars, respectively.",
+      "claim_summary": "Salt-tolerant wheat cultivar Barzegar has a salinity tolerance threshold of 7.13 dS/m (based on relative shoot dry weight).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "range",
+      "range_min": 3.67,
+      "range_max": 7.13,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "the cultivar Amin (3.67 dS m −1) is more salt-sensitive than Barzegar (7.13 dS m −1). Wheat... has exhibits moderate salinity tolerance.",
+      "claim_summary": "Wheat salinity tolerance threshold (EC_t) ranged 3.67-7.13 dS/m across two cultivars; wheat shows moderate salinity tolerance.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Both wheat cultivars experienced a decrease in the investigated leaf area from the 2 dS m −1 salinity level, with the shoot and root dry weight trends remaining unchanged until the 6 dS m −1 level",
+      "claim_summary": "Wheat leaf area declines from 2 dS/m salinity; shoot and root dry weight trends unchanged until 6 dS/m.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 29,
+      "unit": "celsius",
+      "qualifier": "observed",
+      "evidence_text": "placed in a greenhouse at a temperature of 29 ± 2 °C, RH of 80%, and a natural photoperiod",
+      "claim_summary": "Wheat grown in greenhouse at 29 ±2 °C with 80% RH under natural photoperiod.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

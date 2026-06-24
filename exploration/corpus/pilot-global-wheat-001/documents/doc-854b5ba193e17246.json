@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-854b5ba193e17246",
+  "canonical_url": "https://en.wikipedia.org/wiki/Crop_rotation",
+  "source_url": "https://en.wikipedia.org/wiki/Crop_rotation",
+  "doi": "",
+  "title": "Crop rotation - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "854b5ba193e17246bd076c417968f74909699bc7d6abe210b2ca11f547c32001",
+  "content_hash": "ba97ccb2a1523b71a3bc114ecfa4af1478a57ab6ecc8989578b0d05da6275690",
+  "text_length": 22008,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 46470
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/013-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

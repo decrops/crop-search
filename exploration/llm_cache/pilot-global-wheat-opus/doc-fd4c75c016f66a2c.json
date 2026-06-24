@@ -1,0 +1,546 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat grows and develops when the average daily temperature exceeds 32F. ... Average daily temperatures less than 32F are recorded as 32 because this is the lowest threshold for growth and development.",
+      "claim_summary": "Base temperature for wheat growth/development is 32F (0C).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 32,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat germinates at temperatures between 39 and 90F with optimal germination occurring at 68 to 77F.",
+      "claim_summary": "Wheat germinates between 39-90F (4-32C).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 25,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Wheat germinates at temperatures between 39 and 90F with optimal germination occurring at 68 to 77F.",
+      "claim_summary": "Optimal wheat germination occurs at 68-77F (20-25C).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 6,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "Germination normally is complete within four to six days at optimum temperatures.",
+      "claim_summary": "Wheat germination completes in 4-6 days at optimum temperatures.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.soil_emergence_temperature",
+      "value_type": "range",
+      "range_min": 13,
+      "range_max": 16,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "the root system develops much faster and more extensively if the soil is cool (55 to 60F).",
+      "claim_summary": "Wheat root system develops faster and more extensively in cool soil of 55-60F (13-16C).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "The vernalization requirements for varieties grown in the Southeast range from one day to six weeks. ... Generally, early maturing varieties require fewer chilling hours of vernalization than late maturing ones.",
+      "claim_summary": "Vernalization requirement of Southeast wheat varieties ranges from one day to six weeks; early-maturing varieties need fewer chilling hours.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "After vernalization, the initiation of flowering may be hastened by longer photoperiods, because wheat is a long-day plant requiring night periods to be shorter.",
+      "claim_summary": "Wheat is a long-day plant; flowering is hastened by longer photoperiods after vernalization.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.emergence_gdd",
+      "value_type": "numeric",
+      "numeric_value": 130,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "The number of wheat GDD it takes to germinate is 80 and to emerge is 50, for a total of 130 GDD in the Southeast.",
+      "claim_summary": "Wheat requires ~130 GDD total to germinate and emerge (80 to germinate + 50 to emerge).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "numeric",
+      "numeric_value": 100,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Generally, each leaf takes about 100 GDD to develop.",
+      "claim_summary": "Each wheat leaf takes about 100 GDD to develop (phyllochron).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "numeric",
+      "numeric_value": 730,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Planting to six leaves on the main stem (three tillers) requires about 730 GDD.",
+      "claim_summary": "Planting to six leaves / three tillers requires about 730 GDD.",
+      "extraction_confidence": "high",
+      "bbch_max": 23
+    },
+    {
+      "parameter_id": "thermal_time.gdu_accumulation",
+      "value_type": "numeric",
+      "numeric_value": 1350,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "From planting to jointing requires about 1,350 GDD.",
+      "claim_summary": "Planting to jointing requires about 1,350 GDD.",
+      "extraction_confidence": "high",
+      "bbch_min": 31
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The ability of plants to survive low temperatures depends on whether the plants have been exposed to low temperatures - a hardening process. Later maturing varieties usually survive lower temperatures better than earlier maturing ones.",
+      "claim_summary": "Wheat cold survival depends on hardening; later-maturing varieties survive lower temperatures better than earlier ones.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "High temperatures and drought stress during heading can reduce pollen viability and reduce grain number.",
+      "claim_summary": "Heading/anthesis is heat- and drought-sensitive; high temperature and drought reduce pollen viability and grain number.",
+      "extraction_confidence": "high",
+      "bbch_min": 50,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "temperature.reproductive_heat_threshold",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "High temperatures increase the rate of spike development but reduce the number of spikelets per head. Moisture stress reduces spikelet number.",
+      "claim_summary": "High temperatures during spike development reduce spikelets per head in wheat.",
+      "extraction_confidence": "medium",
+      "bbch_min": 31,
+      "bbch_max": 37
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Environmental factors, primarily high temperature and moisture stress, affect kernel survival and the rate and duration of grain development. ... Under high temperature and moisture stress conditions, starch concentration and final grain dry weight are reduced.",
+      "claim_summary": "High temperature and moisture stress during grain fill reduce starch concentration and final grain dry weight.",
+      "extraction_confidence": "high",
+      "bbch_min": 70,
+      "bbch_max": 89
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "range",
+      "range_min": 2,
+      "range_max": 5,
+      "unit": "grains/spikelet",
+      "qualifier": "typical",
+      "evidence_text": "Each spikelet produces two to five florets, and each floret may produce a single grain.",
+      "claim_summary": "Each wheat spikelet produces 2-5 florets, each potentially one grain.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 35,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "Small grains are physiologically mature in the hard dough stage. The moisture content may range from 25 percent to 35 percent.",
+      "claim_summary": "Wheat is physiologically mature at the hard dough stage with grain moisture of 25-35%.",
+      "extraction_confidence": "high",
+      "bbch_min": 87
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 13,
+      "range_max": 16,
+      "unit": "percent",
+      "qualifier": "recommended",
+      "evidence_text": "the crop is ready for harvest (13 percent to 16 percent moisture).",
+      "claim_summary": "Wheat is ready for harvest at 13-16% grain moisture.",
+      "extraction_confidence": "high",
+      "methods": ["harvest"]
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "Early-maturing varieties ripen about one to two weeks before medium maturing varieties. ... there can be seven to 10 days' difference in heading date between the earliest and latest maturing varieties.",
+      "claim_summary": "Early-maturing wheat ripens 1-2 weeks before medium varieties; heading date spans 7-10 days across maturity classes.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "range",
+      "range_min": 0.8,
+      "range_max": 1.5,
+      "unit": "inch",
+      "qualifier": "observed",
+      "evidence_text": "Depth of root system below soil surface (in.) by planting depth: 1 in 0.8; 2 in 0.9; 3 in 1.3; 4 in 1.5",
+      "claim_summary": "Wheat root system depth below soil surface ranged 0.8-1.5 in across 1-4 in planting depths (greenhouse/seedling measurement).",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "phenology.tillering_duration",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "the wheat plant develops three or more leaves prior to tillering... once the tiller develops approximately three or more leaves, it becomes independent of the parent plant for nutrition and will form its own roots.",
+      "claim_summary": "Wheat develops three or more leaves before tillering begins; tillers become independent after ~three leaves.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "Tillering increases with high light intensity, reduced plant populations, and high soil nutrient (primarily nitrogen) availability. High temperatures, high plant populations, soil moisture stress and pests can reduce tillering. ... generally, about one-half of the tillers do not survive to bear grain.",
+      "claim_summary": "Wheat tillering increases with light, low density and nitrogen; about half of tillers do not survive to bear grain.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 31,
+      "range_max": 41,
+      "unit": "inch",
+      "qualifier": "observed",
+      "evidence_text": "wheat varieties... heights 31 to 41 in.",
+      "claim_summary": "Wheat variety plant heights ranged 31-41 inches.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "range",
+      "range_min": 0.5,
+      "range_max": 2.5,
+      "unit": "ton/acre",
+      "qualifier": "typical",
+      "evidence_text": "Production can vary from as little as 0.5 tons to over 2.5 tons.",
+      "claim_summary": "Wheat straw biomass production ranges from about 0.5 to over 2.5 tons/acre.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "Each ton of straw contains approximately 12 to 14 lb of nitrogen, 3 to 4 lb of phosphorous, 5 lb of sulfur, 25 lb of potassium, 8 lb of calcium, 5 lb of magnesium, and trace amounts of copper, manganese, and zinc.",
+      "claim_summary": "Each ton of wheat straw residue contains ~12-14 lb N, 3-4 lb P, 5 lb S, 25 lb K, 8 lb Ca, 5 lb Mg.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "quality.test_weight",
+      "value_type": "numeric",
+      "numeric_value": 58,
+      "unit": "lb/bu",
+      "qualifier": "threshold",
+      "evidence_text": "Standard test weight for U.S. No. 2 soft red winter wheat is 58 pounds per bushel (lb/bu). ... Light wheat with a test weight of 48 to 52 pounds per bushel has low feeding value",
+      "claim_summary": "Standard test weight for US No. 2 soft red winter wheat is 58 lb/bu; light wheat is 48-52 lb/bu.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 11,
+      "unit": "percent",
+      "qualifier": "maximum",
+      "evidence_text": "Millers purchase wheat with a protein content of 11 percent or less and a test weight of 58 lb/bu or above.",
+      "claim_summary": "Millers buy soft wheat with grain protein of 11% or less (and test weight >=58 lb/bu).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "numeric",
+      "numeric_value": 70,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "One hundred lb of wheat should yield more than 70 lb of white flour.",
+      "claim_summary": "100 lb of wheat should yield more than 70 lb of white flour (>70% flour extraction).",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "quality.gluten_strength",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The flour of soft red wheat is finely granulated, low in protein, and has low absorption ... with weak gluten features",
+      "claim_summary": "Soft red wheat flour is low in protein with weak gluten.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Field sprouting of wheat, which occasionally occurs in the Southeast, can be a serious problem for milling and baking quality. ... Sprouted grain has enzyme activity that interferes with the fermentation process",
+      "claim_summary": "Preharvest field sprouting occasionally occurs in the Southeast and harms milling/baking quality via enzyme activity.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 6.0,
+      "range_max": 6.5,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "Economic wheat yields are optimized at soil pH between 6.0 and 6.5. ... soil elements toxic to plants such as aluminum are kept unavailable.",
+      "claim_summary": "Economic wheat yields are optimized at soil pH 6.0-6.5.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.drainage_requirement",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat performs best when planted on well-drained, fertile soils that have been prepared as a smooth, firm, and weed-free seedbed.",
+      "claim_summary": "Wheat performs best on well-drained, fertile soils with a smooth, firm, weed-free seedbed.",
+      "extraction_confidence": "high",
+      "methods": ["tillage", "sowing"]
+    },
+    {
+      "parameter_id": "soil.soil_water_holding_capacity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "These soils are inherently low in fertility and water holding capacity. ... The organic matter content of these soils is low, usually less than 1 percent. With excessive tillage ... as low as 0.5 percent",
+      "claim_summary": "Coastal Plain wheat soils are low in water holding capacity and organic matter (<1%, down to 0.5% with excessive tillage).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.compaction_sensitivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Most upland sandy soils of the Coastal Plain have a compacted zone or hardpan about 6 to 12 in. below the surface and 2 to 3 in. thick. This is called the E horizon",
+      "claim_summary": "Coastal Plain soils have a compacted hardpan (E horizon) 6-12 in deep and 2-3 in thick restricting wheat roots; Piedmont compacted zones occur 4-6 in deep.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Deep tillage implements like the chisel plow increase wheat yields in soils typical of the southeastern Coastal Plain. ... Fall deep tillage improves wheat yield.",
+      "claim_summary": "Deep (chisel/fall) tillage increases wheat yields on southeastern Coastal Plain soils.",
+      "extraction_confidence": "high",
+      "methods": ["tillage"]
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "numeric",
+      "numeric_value": 30,
+      "unit": "percent",
+      "qualifier": "minimum",
+      "evidence_text": "The minimum for meeting conservation tillage requirements is 30 percent ground cover. ... 35 percent for the two one-pass systems, 79 percent for the no-till system and only 13 percent for the conventional tillage",
+      "claim_summary": "Minimum residue ground cover for conservation tillage is 30%; no-till achieved 79%, one-pass 35%, conventional 13%.",
+      "extraction_confidence": "high",
+      "methods": ["tillage"]
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "planting one week beyond the recommended planting period can reduce yield 20 percent below normal, and planting three weeks late can reduce yield 50 percent below normal.",
+      "claim_summary": "Wheat yield drops ~20% if planted one week late and ~50% if three weeks late beyond the recommended window.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "range",
+      "range_min": 1.0,
+      "range_max": 1.5,
+      "unit": "inch",
+      "qualifier": "recommended",
+      "evidence_text": "you can plant wheat 1 to 1.5 in. deep ... If conditions are dry, plant the seed 1.5 to 2 in. deep ... If wheat is planted deeper than 2 to 2.5 in., a large portion of the seedlings may fail to emerge",
+      "claim_summary": "Recommended wheat seeding depth is 1-1.5 in (1.5-2 in if dry); deeper than 2-2.5 in causes emergence failure.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "value_type": "numeric",
+      "numeric_value": 93,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "1 in 93% normal emergence; 2 in 76%; 3 in 31%; 4 in 4%; 5 in 0%",
+      "claim_summary": "Wheat emergence falls with depth: 93% at 1 in, 76% at 2 in, 31% at 3 in, 4% at 4 in, 0% at 5 in.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 1.5,
+      "range_max": 2.0,
+      "unit": "bushels/acre",
+      "qualifier": "recommended",
+      "evidence_text": "The optimum seeding rate generally varies between 1.5 to 2 bushels/acre for grain and 2 to 2.5 bushels/acre for grazing.",
+      "claim_summary": "Optimum wheat seeding rate is 1.5-2 bushels/acre for grain (2-2.5 for grazing).",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "seeds/ft2",
+      "qualifier": "recommended",
+      "evidence_text": "Generally, a seeding rate of 35 seeds per square foot is desirable.",
+      "claim_summary": "Desirable wheat target seeding density is 35 seeds per square foot.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 9000,
+      "range_max": 20000,
+      "unit": "seeds/lb",
+      "qualifier": "typical",
+      "evidence_text": "Wheat seed may range from 9,000 to over 20,000 seed/lb.",
+      "claim_summary": "Wheat seed size ranges from 9,000 to over 20,000 seeds/lb (proxy for kernel weight).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Yields of more than 100 bushels/acre have been achieved with 7-in. row spacings. When wheat is planted in 4-in.-wide rows it generally produces 5 percent to 10 percent more grain than wheat planted in 7-in.-wide rows.",
+      "claim_summary": "4-in row spacing yields 5-10% more wheat grain than 7-in rows.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 80,
+      "range_max": 100,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "For expected wheat yields of 40 to 70 bushels/acre, use a total N rate of 80 to 100 lb/acre. ... When the yield goal exceeds 70 bushels/acre, use a total N rate of 120 lb/acre.",
+      "claim_summary": "Wheat total N rate is 80-100 lb/acre for 40-70 bu/acre yields, 120 lb/acre above 70 bu/acre.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Demand for N is relatively low in the fall but increases rapidly in the spring just prior to stem elongation. Therefore, apply 20 to 40 lb N/acre at planting, and the remaining N prior to stem elongation.",
+      "claim_summary": "Apply 20-40 lb N/acre at planting and the remainder prior to stem elongation; split top-dress at early tillering and early jointing on sandy soils.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "bbch_min": 21,
+      "bbch_max": 31
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Avoid excessive N rates in the spring, as it leads to lodging and a reduction in milling properties and flour quality.",
+      "claim_summary": "Excessive spring nitrogen increases wheat lodging and reduces milling/flour quality.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "N uptake/removal by yield: 40 bu N uptake 75 lb/A removal 46; 70 bu uptake 130 removal 80; 100 bu uptake 188 removal 115 lb/A",
+      "claim_summary": "Wheat N uptake/removal scales with yield: 75/46 lb/A at 40 bu, 130/80 at 70 bu, 188/115 at 100 bu.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Because 65 percent of the total P uptake and 90 percent of the total K uptake occurs before the boot stage, these nutrients should normally be applied before planting. ... P2O5 rates Grain: 40; 40 bu P2O5 uptake 27 removal 22 lb/A",
+      "claim_summary": "65% of wheat P uptake occurs before boot; apply P before planting (40 lb P2O5/acre recommended; uptake 27 lb/A at 40 bu).",
+      "extraction_confidence": "medium",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "90 percent of the total K uptake occurs before the boot stage, these nutrients should normally be applied before planting. ... K2O rates Grain: 40; 40 bu K2O uptake 81 removal 14 lb/A",
+      "claim_summary": "90% of wheat K uptake occurs before boot; apply K before planting (40 lb K2O/acre recommended; uptake 81 lb/A at 40 bu).",
+      "extraction_confidence": "medium",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "numeric",
+      "numeric_value": 10,
+      "unit": "lb/acre",
+      "qualifier": "minimum",
+      "evidence_text": "wheat growers now need to make a conscious effort to include at least 10 pounds of sulfur per acre ... the N:S ratio in plant tissue should be maintained between 10 and 15 to 1 (N:S)",
+      "claim_summary": "Wheat needs at least 10 lb S/acre; tissue N:S ratio should be 10-15:1.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.critical_tissue_nitrogen",
+      "value_type": "range",
+      "range_min": 10,
+      "range_max": 15,
+      "unit": "ratio",
+      "qualifier": "recommended",
+      "evidence_text": "the N:S ratio in plant tissue should be maintained between 10 and 15 to 1 (N:S)",
+      "claim_summary": "Wheat tissue N:S ratio should be maintained between 10:1 and 15:1.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Availability of Mn declines significantly as pH increases above 6.2 to 6.5",
+      "claim_summary": "Manganese availability to wheat declines significantly above soil pH 6.2-6.5.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat should not be grown for more than two consecutive years. ... Take-all occurs most frequently in fields having three or more consecutive years of wheat. ... one yr canola or sorghum reduces take-all",
+      "claim_summary": "Do not grow wheat more than two consecutive years; rotation with canola/sorghum/oats reduces take-all and scab risk.",
+      "extraction_confidence": "high",
+      "organisms": [{"name": "Gaeumannomyces graminis var. tritici (take-all)", "role": "disease"}]
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Freezing temperatures may result in head injury and partial or complete sterility during jointing and heading. ... short-season (early maturing) wheat varieties are usually more susceptible to injury by freezing temperature",
+      "claim_summary": "Jointing and heading are the wheat stages most vulnerable to freeze-induced head injury and sterility; early varieties are more susceptible.",
+      "extraction_confidence": "medium",
+      "bbch_min": 31,
+      "bbch_max": 59
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat will go into winter dormancy and grow very slowly when the temperature decreases to 40F or below.",
+      "claim_summary": "Wheat enters winter dormancy and grows very slowly at 40F (4C) or below.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

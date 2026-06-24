@@ -1,0 +1,95 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.thousand_kernel_weight",
+    "value_type": "range",
+    "range_min": 30.16,
+    "range_max": 38.43,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "the average TKW increased from 30.16 g TK−1 in the 1920s to 38.43 g TK−1 in the 2010s",
+    "claim_summary": "Chinese wheat average TKW rose from 30.16 g (1920s) to 38.43 g (2010s).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.grain_fill_duration",
+    "value_type": "numeric",
+    "numeric_value": 700,
+    "unit": "gdd",
+    "qualifier": "typical",
+    "evidence_text": "Grain filling has a heat duration of approximately 700 growing degree-days (GDD). Hence, grain filling is shortened if the ambient temperature is particularly high during this period",
+    "claim_summary": "Wheat grain filling requires approximately 700 GDD.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.grain_fill_temperature",
+    "value_type": "range",
+    "range_min": 20,
+    "range_max": 30,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "At temperatures between 20°C and 30°C, the grain filling rate slightly increases with temperature ... At temperatures > 30°C, the grain filling rate slows down ... because of thermal damage",
+    "claim_summary": "Wheat grain filling rate increases with temperature up to 30C; above 30C it slows due to thermal damage.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.heat_stress_threshold",
+    "value_type": "numeric",
+    "numeric_value": 30,
+    "unit": "celsius",
+    "qualifier": "threshold",
+    "evidence_text": "At temperatures > 30°C, the grain filling rate slows down in part because of thermal damage to the plant organs and accelerated plant senescence",
+    "claim_summary": "Temperatures above 30C cause thermal damage and accelerated senescence during wheat grain filling.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "numeric",
+    "numeric_value": 270,
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "The sowing density, row spacing, sowing depth, and plot size were 270 plants m -2 , 10 cm, 5 cm, and 4.2 m 2",
+    "claim_summary": "Winter wheat sown at 270 plants/m2 in Henan field experiment.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 10,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "The sowing density, row spacing, sowing depth, and plot size were 270 plants m -2 , 10 cm, 5 cm, and 4.2 m 2",
+    "claim_summary": "Winter wheat row spacing of 10 cm in Henan field experiment.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "numeric",
+    "numeric_value": 5,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "The sowing density, row spacing, sowing depth, and plot size were 270 plants m -2 , 10 cm, 5 cm, and 4.2 m 2",
+    "claim_summary": "Winter wheat sowing depth of 5 cm in Henan field experiment.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "soil.ph_range",
+    "value_type": "numeric",
+    "numeric_value": 7.11,
+    "unit": "pH",
+    "qualifier": "observed",
+    "evidence_text": "The brown soil of the region had pH and bulk density of 7.11 and 1.38 g cm -3, respectively.",
+    "claim_summary": "Winter wheat grown on brown soil of pH 7.11 in Henan.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "phenology.maturity_duration",
+    "value_type": "range",
+    "range_min": 227,
+    "range_max": 235,
+    "unit": "days",
+    "qualifier": "observed",
+    "evidence_text": "the mean phenological stages 235.21 d, 228.93 d, and 227.20 d, respectively",
+    "claim_summary": "Simulated winter wheat full phenological cycle ~227-235 days, shortening under warming.",
+    "extraction_confidence": "medium"
+  }
+]}

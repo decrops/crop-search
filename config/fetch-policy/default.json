@@ -1,0 +1,40 @@
+{
+  "policy_id": "default",
+  "version": "0.1.0",
+  "notes": "Fetch-selection policy (WS-2). Over-collected ledger -> balanced fetch queue. Tier-aware domain caps protect curated institutional sources from being suppressed.",
+  "tier_trust": {
+    "peer_reviewed_science": 1.0,
+    "textbook_reference": 0.9,
+    "international_institution": 0.85,
+    "extension_publication": 0.8,
+    "industry_grower_guide": 0.6,
+    "": 0.4
+  },
+  "per_parameter_target": 4,
+  "low_tier_domain_cap": 3,
+  "trusted_domain_cap": 50,
+  "trusted_domains": [
+    "fao.org",
+    "ahdb.org.uk",
+    "cimmyt.org",
+    "ksre.ksu.edu",
+    "extension.sdstate.edu",
+    "extensionpubs.unl.edu",
+    "cropwatch.unl.edu",
+    "canr.msu.edu",
+    "extension.oregonstate.edu",
+    "europepmc.org",
+    "doaj.org"
+  ],
+  "article_like_types": [
+    "journal-article",
+    "review",
+    "proceedings-article",
+    "book-chapter",
+    "posted-content",
+    "report",
+    "monograph",
+    "reference-book"
+  ],
+  "drop_relevance_gated": true
+}

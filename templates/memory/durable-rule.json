@@ -1,0 +1,16 @@
+{
+  "id": "source-rule-001",
+  "memory_tier": "durable",
+  "kind": "source_rule",
+  "summary": "Promote only claims with explicit citations and identifiable geographic scope.",
+  "facts": [
+    "Citation presence is mandatory for promotion into normalized claims.",
+    "Geographic ambiguity should keep records in working memory."
+  ],
+  "open_questions": [],
+  "source_refs": [
+    "templates/context/source-policy.json"
+  ],
+  "status": "validated",
+  "last_updated": "2026-05-28T12:00:00Z"
+}

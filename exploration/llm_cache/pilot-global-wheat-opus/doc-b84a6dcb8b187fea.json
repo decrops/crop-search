@@ -1,0 +1,73 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 25,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Wheat in Ethiopia is grown from 1500 m and 3300 m.a.s.l. ... On an average temperature of 15-25 C and an average rainfall of 400-1200 mm is required.",
+      "claim_summary": "Wheat requires an average temperature of 15-25 C for production.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 5.5,
+      "range_max": 8.0,
+      "unit": "pH",
+      "qualifier": "recommended",
+      "evidence_text": "Suitable soil pH for wheat ranges from 5.5 to 8.0 (Garrett 1936 ).",
+      "claim_summary": "Suitable soil pH for wheat ranges from 5.5 to 8.0.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 184,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "It also requires 184 Nitrogen and 92 P 2 O 5 ha -1 fertilizer to get maximum yield of wheat in the surrounding areas of Ambesh watershed (Assefa et al. 2023 ).",
+      "claim_summary": "Wheat requires ~184 kg N/ha for maximum yield in the Ambesh watershed area (Ethiopia).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 92,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "It also requires 184 Nitrogen and 92 P 2 O 5 ha -1 fertilizer to get maximum yield of wheat in the surrounding areas of Ambesh watershed (Assefa et al. 2023 ).",
+      "claim_summary": "Wheat requires ~92 kg P2O5/ha for maximum yield in the Ambesh watershed area (Ethiopia).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat can be produced on different soil types such as black clay soils, red and brown soils. Sandy soils and soils with problems of waterlogging are unsuitable for wheat production.",
+      "claim_summary": "Wheat grows on black clay, red and brown soils; sandy soils and waterlogged soils are unsuitable.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.waterlogging_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Sandy soils and soils with problems of waterlogging are unsuitable for wheat production.",
+      "claim_summary": "Soils with waterlogging problems are unsuitable for wheat production.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "It requires a high soil fertility, particularly nitrogen and phosphorus, and moderate salinity tolerance",
+      "claim_summary": "Wheat has moderate salinity tolerance and requires high soil fertility (especially N and P).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

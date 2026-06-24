@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-fa489d6c58ac4dea",
+  "canonical_url": "https://www.nature.com/articles/srep16210.pdf",
+  "source_url": "https://www.nature.com/articles/srep16210.pdf",
+  "doi": "https://doi.org/10.1038/srep16210",
+  "title": "Soil mulching significantly enhances yields and water and nitrogen use efficiencies of maize and wheat: a meta-analysis",
+  "source_domain": "www.nature.com",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "fa489d6c58ac4dea9b34b03f0e800d5b9949949105134ed61230bae56001bfe7",
+  "content_hash": "cbb862c4028512460c8afe903ffdf6629a3e71e5811e9e4b415d654deb5de23f",
+  "text_length": 34350,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2407066206",
+    "doi": "https://doi.org/10.1038/srep16210",
+    "publication_year": 2015,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/029-www.nature.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

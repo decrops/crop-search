@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Thousand kernel weight decreased by 16% under water limited condition thereby affecting overall grain production of wheat crop under drought prone environments.",
+      "claim_summary": "Thousand kernel weight decreased by 16% under water-limited (drought) conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The wheat crop having less ABA accumulation in leaves are considered to be susceptible to drought stress compared to those which accumulate high proline contents in leaves are drought tolerant.",
+      "claim_summary": "High leaf proline accumulation and strong antioxidant defense are associated with wheat drought tolerance.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The harvest index is decreased by the water stress imposition at reproductive stage of the wheat crop, hence certain strategies need to be defined to conserve the soil moisture for the future use in reproductive stage of plant growth.",
+      "claim_summary": "Reproductive stage is the drought-sensitive stage where water stress reduces harvest index and grain number/weight.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "root.root_shoot_ratio",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Under high N availability, the root shoot ratio decreases because of the prominent growth of shoots, this varies among varieties and cultivars.",
+      "claim_summary": "Root:shoot ratio decreases under high nitrogen availability due to greater shoot growth.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "about 50–60% of applied N to crop field is not utilized by the plants and are lost to environment ... about two-fifths of N inputs are lost in the ecosystems through emission, denitrification, gaseous loss, leaching, surface runoff and volatilization.",
+      "claim_summary": "About 50-60% of applied N fertilizer is not utilized by wheat (low NUE); ~40% of N inputs lost from the system.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Surface broadcast N application resulting in greater loss as ammonia-N to atmosphere, this could be minimized if banded, side dressed, placed with or below seed, or injected to soil.",
+      "claim_summary": "N losses minimized by banding, side-dressing, or sub-surface placement/injection rather than surface broadcast.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization", "banding", "side dressing", "injection"]
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "crop rotation is an effective strategy to obtain the higher crop yield ... Leguminous crops should be included to enhance the crop yield and also suppress the weeds and decreased the risk of disease infestation ... Leguminous crop also add nitrogen to the soil from the atmosphere.",
+      "claim_summary": "Rotating wheat with legumes improves yield, NUE/WUE, suppresses weeds and disease, and adds soil N versus monoculture.",
+      "extraction_confidence": "high",
+      "methods": ["crop rotation"]
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The crop growth and yield tends to increase under no till system or incorporation of the crop residues which directly influences the availability of soil moisture ... The soil evaporation could be reduced up to 50% by crop residue incorporation.",
+      "claim_summary": "Crop residue retention/no-till increases soil moisture and yield, reducing soil evaporation by up to 50%.",
+      "extraction_confidence": "high",
+      "methods": ["no-till", "residue retention"]
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Compared to no tillage, disturbance taken place through tillage practices are more prominent in moisture loss through evaporation.",
+      "claim_summary": "Tillage increases soil moisture loss through evaporation relative to no-till.",
+      "extraction_confidence": "medium",
+      "methods": ["tillage", "no-till"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Decreasing row spacing and increasing seed rate could enhance water soil moisture and thereby increasing water use efficiency ... Under optimum row spacing weeds growth is discouraged.",
+      "claim_summary": "Decreasing row spacing (with higher seed rate) conserves soil moisture, improves WUE and suppresses weeds.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "WUE of the wheat crop enhanced under optimum sowing window, row spacing and seed rate ... Decreasing row spacing and increasing seed rate could enhance water soil moisture and thereby increasing water use efficiency.",
+      "claim_summary": "Optimizing/increasing seed rate (with narrow rows) improves water use efficiency and wheat yield.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "economize the N rates/levels for the crop growth, yield and quality by monitoring the rhizosphere moisture for irrigation water optimization till moisture allowable depletion (MAD) of the respective crops that may not affect its growth and development.",
+      "claim_summary": "Irrigation should be scheduled to the crop's moisture allowable depletion (MAD) threshold to avoid affecting growth.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Limited supplemental irrigation and fertilization during the growth season can significantly increase WUE and wheat yield ... deficit irrigation strategy enhance the WUE and NUE.",
+      "claim_summary": "Deficit/supplemental irrigation increases wheat water use efficiency (water productivity) and yield.",
+      "extraction_confidence": "medium",
+      "methods": ["deficit irrigation"]
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The timing of N availability is of utmost importance in wheat crop where it affects all the yield parameters especially tiller density, spike compactness, grain number, kernel weight and grain N ad protein concentration.",
+      "claim_summary": "Timing of nitrogen availability affects grain N and protein concentration in wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Water stress causes reduction in grain number to a greater degree that size of the grain, hence grain number exhibiting more plasticity that rest of the components.",
+      "claim_summary": "Grain number per spike is reduced by water stress more than grain size (high plasticity).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

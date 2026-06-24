@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+      "value_type": "range",
+      "range_min": 1.063,
+      "range_max": 1.072,
+      "unit": "kPa",
+      "qualifier": "threshold",
+      "evidence_text": "the transpiration started to decrease in both segmented transpiration subgroups at similar VPD break points (STR+: 1.063 and STR−: 1.072 kPa)",
+      "claim_summary": "Segmented-transpiration durum wheat lines began restricting transpiration (transpiration-rate breakpoint) at VPD of about 1.06-1.07 kPa.",
+      "extraction_confidence": "high",
+      "organisms": []
+    },
+    {
+      "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+      "value_type": "numeric",
+      "numeric_value": 2.0,
+      "unit": "kPa",
+      "qualifier": "observed",
+      "evidence_text": "These VPD values are clearly lower than the 2 KPa or greater reported previously in wheat, which included lines selected for the Mediterranean conditions of Australia (Schoppach et al., 2017).",
+      "claim_summary": "Prior wheat studies reported transpiration-restriction VPD breakpoints of about 2 kPa or greater.",
+      "extraction_confidence": "medium",
+      "organisms": []
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 250,
+      "unit": "plants/m2",
+      "qualifier": "typical",
+      "evidence_text": "Each plot consisted of six rows 7 m long and 0.2 m apart, with a planting density of 250 seeds m −2.",
+      "claim_summary": "Durum wheat field trials in Spain used a planting/seeding density of 250 seeds per m2.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 0.2,
+      "unit": "m",
+      "qualifier": "typical",
+      "evidence_text": "Each plot consisted of six rows 7 m long and 0.2 m apart, with a planting density of 250 seeds m −2.",
+      "claim_summary": "Durum wheat field trials used 0.2 m (20 cm) row spacing.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 110,
+      "range_max": 157,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Height 146.7 ... 110.2 ... 157 ... 133.6 ... 125.8 ... 141.48 (plant height (Height) in cm).",
+      "claim_summary": "Plant height of 20 modern semi-dwarf durum wheat lines across nine Mediterranean field trials ranged from about 110 to 157 cm.",
+      "extraction_confidence": "medium",
+      "organisms": []
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "range",
+      "range_min": 153,
+      "range_max": 455,
+      "unit": "other",
+      "qualifier": "observed",
+      "evidence_text": "g s 190 153 ... 402a 382b ... 242 258 455 424 ... 322a 306b 311b (stomatal conductance (g s ) in μmol m −2 s −1).",
+      "claim_summary": "Flag-leaf stomatal conductance of durum wheat at post-anthesis ranged from about 153 to 455 μmol m-2 s-1 across trials, increasing as growing conditions improved.",
+      "extraction_confidence": "medium",
+      "organisms": []
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "LTR lines exhibit higher grain yield, biomass and greenness under good to optimal agronomical conditions, whereas the STR lines perform better under the most water-limiting trials.",
+      "claim_summary": "Segmented/limited-transpiration (STR) durum wheat lines performed better (higher yield) under the most water-limited conditions, while linear-transpiration (LTR) lines were superior under good to optimal conditions; limited transpiration confers an advantage under severe drought.",
+      "extraction_confidence": "medium",
+      "organisms": []
+    }
+  ]
+}

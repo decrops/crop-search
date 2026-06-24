@@ -1,0 +1,41 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "text",
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Beginning at boot stage, and well past flowering, it is ideal to have daytime temperatures in the 70's... The more moderate the temperatures are during this period, the longer grain fill will be.",
+      "claim_summary": "Moderate daytime temperatures in the 70s F are ideal during grain fill; cooler/moderate temperatures lengthen the grain fill period and build kernel weight.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.reproductive_heat_threshold",
+      "value_type": "numeric",
+      "numeric_value": 90,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Cooler temperatures are important for pollination. High temperatures above 90 degrees can reduce pollen viability.",
+      "claim_summary": "Temperatures above 90 F during pollination reduce wheat pollen viability (value reported in Fahrenheit).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The duration of grain fill is mainly determined by temperature. The more moderate the temperatures are during this period, the longer grain fill will be.",
+      "claim_summary": "Wheat grain-fill duration is mainly determined by temperature; moderate temperatures extend the grain-fill period.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "numeric",
+      "numeric_value": 90,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "High temperatures above 90 degrees can reduce pollen viability.",
+      "claim_summary": "Heat above 90 F during pollination/grain fill reduces pollen viability and kernel set (value reported in Fahrenheit).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

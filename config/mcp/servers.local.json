@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "servers": [
+    {
+      "name": "search-web",
+      "purpose": "Live discovery tool backed by free key-less APIs per source tier: science via OpenAlex, Crossref, Europe PMC, DOAJ; books via Google Books, Open Library, Internet Archive, DOAB; institutions/extension/grower via OpenAlex, Internet Archive, Wikipedia. DuckDuckGo HTML is a last-resort top-up only.",
+      "required": true,
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["-m", "crop_search_framework.dev_tools.search_web"]
+    },
+    {
+      "name": "fetch-web",
+      "purpose": "Live document fetch tool for HTML, PDF, JSON, and text sources.",
+      "required": true,
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["-m", "crop_search_framework.dev_tools.fetch_web"]
+    },
+    {
+      "name": "parse-document",
+      "purpose": "Document parser for fetched HTML and PDF artifacts.",
+      "required": true,
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["-m", "crop_search_framework.dev_tools.parse_document"]
+    }
+  ]
+}

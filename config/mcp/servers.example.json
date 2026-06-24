@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "servers": [
+    {
+      "name": "filesystem",
+      "purpose": "Read and write repo artifacts, templates, and staged captures.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-filesystem-server-here"]
+    },
+    {
+      "name": "git",
+      "purpose": "Inspect history, diffs, and provenance of schema and loader changes.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-git-server-here"]
+    },
+    {
+      "name": "web-research",
+      "purpose": "Search the web and retrieve candidate pages during exploration runs.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-web-search-server-here"]
+    },
+    {
+      "name": "document-parser",
+      "purpose": "Extract content from HTML, PDF, CSV, and other source artifacts.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-parser-server-here"]
+    },
+    {
+      "name": "raw-store",
+      "purpose": "Persist immutable raw capture artifacts for audit and debugging.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-raw-store-server-here"]
+    },
+    {
+      "name": "schema-validator",
+      "purpose": "Validate context packs, memory, raw captures, and normalized claims.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-validator-server-here"]
+    },
+    {
+      "name": "postgres",
+      "purpose": "Load validated normalized claims into the production relational store.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-postgres-server-here"]
+    },
+    {
+      "name": "observability",
+      "purpose": "Capture run logs, metrics, and failure traces for the pipeline.",
+      "required": true,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-observability-server-here"]
+    },
+    {
+      "name": "scheduler",
+      "purpose": "Coordinate batch exploration and retry runs when the pipeline scales.",
+      "required": false,
+      "transport": "stdio",
+      "command": "REPLACE_ME",
+      "args": ["configure-scheduler-server-here"]
+    }
+  ]
+}

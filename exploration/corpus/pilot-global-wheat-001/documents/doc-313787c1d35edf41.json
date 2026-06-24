@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-313787c1d35edf41",
+  "canonical_url": "https://www.nature.com/articles/srep19355.pdf",
+  "source_url": "https://www.nature.com/articles/srep19355.pdf",
+  "doi": "https://doi.org/10.1038/srep19355",
+  "title": "Global nitrogen budgets in cereals: A 50-year assessment for maize, rice and wheat production systems",
+  "source_domain": "www.nature.com",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "313787c1d35edf4162d6cf9c9c873c07862881e8b4d40deb99ac1a47fb4c3d68",
+  "content_hash": "ffad150499e75b412a1b5e1220bf17642ece80c13646a02b833e614d3afd46e6",
+  "text_length": 31136,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2396771251",
+    "doi": "https://doi.org/10.1038/srep19355",
+    "publication_year": 2016,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/224-www.nature.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

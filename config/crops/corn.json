@@ -1,0 +1,83 @@
+{
+  "crop_id": "corn",
+  "label": "Corn",
+  "crop_group": "cereal",
+  "aliases": [
+    "corn",
+    "maize",
+    "field corn"
+  ],
+  "scientific_names": [
+    "Zea mays"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "emergence",
+    "vegetative",
+    "silking",
+    "tasseling",
+    "grain fill",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "corn belt",
+    "hybrid",
+    "grain corn",
+    "silage corn"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "emergence",
+      "bbch_min": 9,
+      "bbch_max": 11,
+      "confidence": "high"
+    },
+    {
+      "local_term": "vegetative",
+      "bbch_min": 12,
+      "bbch_max": 39,
+      "confidence": "medium",
+      "source_note": "leaf development through stem elongation"
+    },
+    {
+      "local_term": "silking",
+      "bbch_min": 61,
+      "bbch_max": 69,
+      "confidence": "high",
+      "source_note": "R1 flowering"
+    },
+    {
+      "local_term": "tasseling",
+      "bbch_min": 51,
+      "bbch_max": 59,
+      "confidence": "high",
+      "source_note": "VT"
+    },
+    {
+      "local_term": "grain fill",
+      "bbch_min": 70,
+      "bbch_max": 79,
+      "confidence": "high",
+      "source_note": "R2-R5"
+    },
+    {
+      "local_term": "maturity",
+      "bbch_min": 80,
+      "bbch_max": 99,
+      "confidence": "medium",
+      "source_note": "R6 physiological maturity onward"
+    }
+  ]
+}

@@ -1,0 +1,1105 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 3,
+      "heading": "Origins",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Modern",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Biology",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Cultivation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Planting",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Growth",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Harvesting",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Preprocessing and storage",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Processing",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Effects on the environment",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Impacts",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Mitigations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Uses",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Direct consumption",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Flour-based foods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Alcohol",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Animal feed",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Nutrition",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Whole-grain and processed",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Amino acid balance",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Comparison of major cereals",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Production and trade commodities",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Production",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Trade",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Notes",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Sources",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "Nutritional values for some major cereals [ 83 ]",
+      "headers": [
+        "Per 45g serving",
+        "Barley",
+        "Maize",
+        "Millet",
+        "Oats",
+        "Rice",
+        "Rye",
+        "Sorgh.",
+        "Wheat"
+      ],
+      "rows": [
+        [
+          "Energy",
+          "kcal",
+          "159",
+          "163",
+          "170",
+          "175",
+          "165",
+          "152",
+          "148",
+          "153"
+        ],
+        [
+          "Protein",
+          "g",
+          "5.6",
+          "3.6",
+          "5.0",
+          "7.6",
+          "3.4",
+          "4.6",
+          "4.8",
+          "6.1"
+        ],
+        [
+          "Lipid",
+          "g",
+          "1",
+          "1.6",
+          "1.9",
+          "3.1",
+          "1.4",
+          "0.7",
+          "1.6",
+          "1.1"
+        ],
+        [
+          "Carbohydrate",
+          "g",
+          "33",
+          "35",
+          "31",
+          "30",
+          "31",
+          "34",
+          "32",
+          "32"
+        ],
+        [
+          "Fibre",
+          "g",
+          "7.8",
+          "3.3",
+          "3.8",
+          "4.8",
+          "1.6",
+          "6.8",
+          "3.0",
+          "4.8"
+        ],
+        [
+          "Calcium",
+          "mg",
+          "15",
+          "3",
+          "4",
+          "24",
+          "4",
+          "11",
+          "6",
+          "15"
+        ],
+        [
+          "Iron",
+          "mg",
+          "1.6",
+          "1.5",
+          "1.3",
+          "2.1",
+          "0.6",
+          "1.2",
+          "1.5",
+          "1.6"
+        ],
+        [
+          "Magnesium",
+          "mg",
+          "60",
+          "57",
+          "51",
+          "80",
+          "52",
+          "50",
+          "74",
+          "65"
+        ],
+        [
+          "Phosphorus",
+          "mg",
+          "119",
+          "108",
+          "128",
+          "235",
+          "140",
+          "149",
+          "130",
+          "229"
+        ],
+        [
+          "Potassium",
+          "mg",
+          "203",
+          "129",
+          "88",
+          "193",
+          "112",
+          "230",
+          "163",
+          "194"
+        ],
+        [
+          "Sodium",
+          "mg",
+          "5",
+          "16",
+          "2",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "Zinc",
+          "mg",
+          "1.2",
+          "0.8",
+          "0.8",
+          "1.8",
+          "1.0",
+          "1.2",
+          "0.7",
+          "1.9"
+        ],
+        [
+          "Thiamine (B1)",
+          "mg",
+          "0.29",
+          "0.17",
+          "0.19",
+          "0.34",
+          "0.24",
+          "0.14",
+          "0.15",
+          "0.19"
+        ],
+        [
+          "Riboflavin (B2)",
+          "mg",
+          "0.13",
+          "0.09",
+          "0.13",
+          "0.06",
+          "0.04",
+          "0.11",
+          "0.04",
+          "0.05"
+        ],
+        [
+          "Niacin (B3)",
+          "mg",
+          "2",
+          "1.6",
+          "2.1",
+          "0.4",
+          "2.9",
+          "1.9",
+          "1.7",
+          "3.0"
+        ],
+        [
+          "Pantothenic acid (B5)",
+          "mg",
+          "0.1",
+          "0.2",
+          "0.4",
+          "0.6",
+          "0.7",
+          "0.7",
+          "0.2",
+          "0.4"
+        ],
+        [
+          "Pyridoxine (B6)",
+          "mg",
+          "0.1",
+          "0.1",
+          "0.2",
+          "0.05",
+          "0.2",
+          "0.1",
+          "0.2",
+          "0.2"
+        ],
+        [
+          "Folic acid (B9)",
+          "mcg",
+          "9",
+          "11",
+          "38",
+          "25",
+          "10",
+          "17",
+          "9",
+          "19"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Grain",
+        "Worldwide production (millions of metric tons)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1961",
+          "1980",
+          "2000",
+          "2010",
+          "2024"
+        ],
+        [
+          "Maize (corn)",
+          "205",
+          "397",
+          "592",
+          "852",
+          "1218",
+          "A staple food of people in the Americas, Africa, and of livestock worldwide; often called corn in North America, Australia, and New Zealand. A large portion of maize crops are grown for purposes other than human consumption. [ 94 ]"
+        ],
+        [
+          "Rice [ b ] Production is in milled terms.",
+          "285",
+          "397",
+          "599",
+          "697",
+          "820",
+          "The primary cereal of tropical and some temperate regions. Staple food in most of Brazil , other parts of Latin America and some other Portuguese-descended cultures, parts of Africa (even more before the Columbian exchange ), most of South Asia and the Far East . Largely overridden by breadfruit (a dicot tree) in the Austronesian expansion in the South Pacific. [ 94 ]"
+        ],
+        [
+          "Wheat",
+          "222",
+          "440",
+          "585",
+          "641",
+          "798",
+          "The primary cereal of temperate regions. It has a worldwide consumption but it is a staple food of North America, Europe, Australia, New Zealand, Argentina, Brazil and much of the Greater Middle East . Wheat gluten -based meat substitutes are important in the Far East (albeit less than tofu ) and are said to resemble meat texture more than others. [ 94 ]"
+        ],
+        [
+          "Barley",
+          "72",
+          "157",
+          "133",
+          "123",
+          "142",
+          "Grown for malting and livestock on land too poor or too cold for wheat. [ 94 ]"
+        ],
+        [
+          "Sorghum",
+          "41",
+          "57",
+          "56",
+          "60",
+          "64",
+          "Important staple food in Asia and Africa and popular worldwide for livestock. [ 94 ]"
+        ],
+        [
+          "Millet",
+          "26",
+          "25",
+          "28",
+          "33",
+          "31",
+          "A group of similar cereals that form an important staple food in Asia and Africa. [ 94 ]"
+        ],
+        [
+          "Oats",
+          "50",
+          "41",
+          "26",
+          "20",
+          "22",
+          "Popular worldwide as a breakfast food, such as in porridge , and livestock feed. [ 97 ]"
+        ],
+        [
+          "Triticale",
+          "0",
+          "0.17",
+          "9",
+          "14",
+          "12",
+          "Hybrid of wheat and rye, grown similarly to rye. [ 94 ]"
+        ],
+        [
+          "Rye",
+          "35",
+          "25",
+          "20",
+          "12",
+          "12",
+          "Important in cold climates. Rye grain is used for flour , bread , beer , crispbread , some whiskeys , some vodkas , and animal fodder . [ 94 ]"
+        ],
+        [
+          "Fonio",
+          "0.18",
+          "0.15",
+          "0.31",
+          "0.56",
+          "0.69",
+          "Several varieties are grown as food crops in Africa. [ 94 ]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "v t e Cereals and pseudocereals"
+      ],
+      "rows": [
+        [
+          "Cereals",
+          "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice",
+          "Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice"
+        ],
+        [
+          "Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Bread Durum Khorasan Red Fife Norin 10 Winter"
+        ],
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Pseudocereals",
+          "Polygonaceae Buckwheat Tartary buckwheat Amaranthaceae Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis Lamiaceae Chia",
+          "Polygonaceae",
+          "Buckwheat Tartary buckwheat",
+          "Amaranthaceae",
+          "Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Lamiaceae",
+          "Chia"
+        ],
+        [
+          "Polygonaceae",
+          "Buckwheat Tartary buckwheat"
+        ],
+        [
+          "Amaranthaceae",
+          "Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Lamiaceae",
+          "Chia"
+        ],
+        [
+          "Emerging grain crops",
+          "Canary grass Drinn Indian ricegrass Intermediate wheatgrass Kangaroo grass Nipa grass Oryza coarctata"
+        ],
+        [
+          "See also Triticeae Founder crops Neolithic Revolution History of agriculture Natufian culture Fertile Crescent Tell Abu Hureyra Tell Aswad Domestication Green Revolution Genetic engineering Selective breeding Crop wild relative"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "Barley Fonio Job's tears Maize (Corn) Millets Oats Rice Rye Sorghum Teff Triticale Wild rice"
+      ],
+      "rows": [
+        [
+          "Wheat (Triticum) Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Wheat (Triticum)",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+          "Bread Durum Khorasan Red Fife Norin 10 Winter",
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ],
+        [
+          "Bread Durum Khorasan Red Fife Norin 10 Winter"
+        ],
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "Wheat (Triticum)",
+        "Bread Durum Khorasan Red Fife Norin 10 Winter Farro Einkorn Emmer Spelt",
+        "Bread Durum Khorasan Red Fife Norin 10 Winter",
+        "Farro",
+        "Einkorn Emmer Spelt"
+      ],
+      "rows": [
+        [
+          "Bread Durum Khorasan Red Fife Norin 10 Winter"
+        ],
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-5",
+      "caption": "",
+      "headers": [
+        "Bread Durum Khorasan Red Fife Norin 10 Winter"
+      ],
+      "rows": [
+        [
+          "Farro",
+          "Einkorn Emmer Spelt"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "Polygonaceae",
+        "Buckwheat Tartary buckwheat"
+      ],
+      "rows": [
+        [
+          "Amaranthaceae",
+          "Amaranth A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis",
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Amaranth",
+          "A. caudatus A. cruentus A. hypochondriacus Celosia Quinoa Pitseed goosefoot Ca\u00f1ihua Djulis"
+        ],
+        [
+          "Lamiaceae",
+          "Chia"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-8",
+      "caption": "",
+      "headers": [
+        "v t e Veganism and vegetarianism"
+      ],
+      "rows": [
+        [
+          "Perspectives",
+          "Veganism Animal-free agriculture Black veganism Women and advocacy Fruitarianism History Raw veganism Straight edge Hardline Nutrition Vegan organic agriculture Vegan school meal Vegan studies Vegetarianism Economic vegetarianism Environmental vegetarianism History Romantic era Victorian era Orthopathy Lacto vegetarianism Lacto-ovo vegetarianism Ovo vegetarianism Cuisine Vegetarian Diet Pyramid Women and advocacy Ecofeminism Nutrition By country Lists Bibliography Vegetarians Vegans Fictional characters Festivals Organizations Vegan and plant-based media Locations Cheremshanka, Altai Republic Community of the Ark Haridwar New Vrindaban Palitana Pushkar Rishikesh Tirumala The Farm (Tennessee)",
+          "Veganism",
+          "Animal-free agriculture Black veganism Women and advocacy Fruitarianism History Raw veganism Straight edge Hardline Nutrition Vegan organic agriculture Vegan school meal Vegan studies",
+          "Vegetarianism",
+          "Economic vegetarianism Environmental vegetarianism History Romantic era Victorian era Orthopathy Lacto vegetarianism Lacto-ovo vegetarianism Ovo vegetarianism Cuisine Vegetarian Diet Pyramid Women and advocacy Ecofeminism Nutrition By country",
+          "Lists",
+          "Bibliography Vegetarians Vegans Fictional characters Festivals Organizations Vegan and plant-based media",
+          "Locations",
+          "Cheremshanka, Altai Republic Community of the Ark Haridwar New Vrindaban Palitana Pushkar Rishikesh Tirumala The Farm (Tennessee)"
+        ],
+        [
+          "Veganism",
+          "Animal-free agriculture Black veganism Women and advocacy Fruitarianism History Raw veganism Straight edge Hardline Nutrition Vegan organic agriculture Vegan school meal Vegan studies"
+        ],
+        [
+          "Vegetarianism",
+          "Economic vegetarianism Environmental vegetarianism History Romantic era Victorian era Orthopathy Lacto vegetarianism Lacto-ovo vegetarianism Ovo vegetarianism Cuisine Vegetarian Diet Pyramid Women and advocacy Ecofeminism Nutrition By country"
+        ],
+        [
+          "Lists",
+          "Bibliography Vegetarians Vegans Fictional characters Festivals Organizations Vegan and plant-based media"
+        ],
+        [
+          "Locations",
+          "Cheremshanka, Altai Republic Community of the Ark Haridwar New Vrindaban Palitana Pushkar Rishikesh Tirumala The Farm (Tennessee)"
+        ],
+        [
+          "Ethics",
+          "Secular Animal rights Animal welfare Anthropocentrism Carnism Deep ecology Ethics of eating meat Meat paradox Nonviolence Replaceability argument Sentientism Speciesism Tirukku\u1e5fa\u1e37 Religious Buddhism Christianity ( Seventh-day Adventist Church ) Hinduism Sattvic Ahimsa Islam Jainism Judaism Pythagoreanism Rastafari Sikhism Taoism",
+          "Secular",
+          "Animal rights Animal welfare Anthropocentrism Carnism Deep ecology Ethics of eating meat Meat paradox Nonviolence Replaceability argument Sentientism Speciesism Tirukku\u1e5fa\u1e37",
+          "Religious",
+          "Buddhism Christianity ( Seventh-day Adventist Church ) Hinduism Sattvic Ahimsa Islam Jainism Judaism Pythagoreanism Rastafari Sikhism Taoism"
+        ],
+        [
+          "Secular",
+          "Animal rights Animal welfare Anthropocentrism Carnism Deep ecology Ethics of eating meat Meat paradox Nonviolence Replaceability argument Sentientism Speciesism Tirukku\u1e5fa\u1e37"
+        ],
+        [
+          "Religious",
+          "Buddhism Christianity ( Seventh-day Adventist Church ) Hinduism Sattvic Ahimsa Islam Jainism Judaism Pythagoreanism Rastafari Sikhism Taoism"
+        ],
+        [
+          "Food and drink",
+          "List of vegetarian and vegan companies Dairy alternatives Coconut milk Plant cream Plant milk Soy yogurt Cheese Meat alternatives List of meat substitutes Bacon Burgers Duck Hot dogs Jambon Quorn Sausage roll Seitan Tempeh Tofu Tofurkey Gelatin substitutes Vegetarian mark Beer Wine"
+        ],
+        [
+          "Organizations and events",
+          "Vegan American Vegan Society Beauty Without Cruelty China Vegan Society Food Empowerment Project Go Vegan Nederlandse Vereniging voor Veganisme Our Hen House Physicians Committee for Responsible Medicine Plamil Foods Vegan Awareness Foundation Vegan flag Vegan Outreach Vegan Prisoners Support Group The Vegan Society Veganmania Vegetarian Resource Group Veganuary Veganz World Vegan Day Vegetarian Alcott House Bible Christian Church Boston Vegetarian Society Christian Vegetarian Association Dansk Vegetarisk Forening Dutch Vegetarian Society Eden Gemeinn\u00fctzige Obstbau-Siedlung European Vegetarian Union French Vegetarian Society Hare Krishna Food for Life The Ideal Publishing Union International Vegetarian Union Jewish Veg London Vegetarian Society Meat-free days Meatless Monday Friday fast North American Vegetarian Society Order of the Golden Age ProVeg Deutschland ProVeg International ProVeg Nederland Scottish Vegetarian Society Swissveg Toronto Vegetarian Association Vegetarian Cycling and Athletic Club Vegetarian Federal Union Vegetarian Society Vegetarian Society (Singapore) Veggie Pride Viva! Health Women's Vegetarian Union World Esperantist Vegetarian Association World Vegetarian Day",
+          "Vegan",
+          "American Vegan Society Beauty Without Cruelty China Vegan Society Food Empowerment Project Go Vegan Nederlandse Vereniging voor Veganisme Our Hen House Physicians Committee for Responsible Medicine Plamil Foods Vegan Awareness Foundation Vegan flag Vegan Outreach Vegan Prisoners Support Group The Vegan Society Veganmania Vegetarian Resource Group Veganuary Veganz World Vegan Day",
+          "Vegetarian",
+          "Alcott House Bible Christian Church Boston Vegetarian Society Christian Vegetarian Association Dansk Vegetarisk Forening Dutch Vegetarian Society Eden Gemeinn\u00fctzige Obstbau-Siedlung European Vegetarian Union French Vegetarian Society Hare Krishna Food for Life The Ideal Publishing Union International Vegetarian Union Jewish Veg London Vegetarian Society Meat-free days Meatless Monday Friday fast North American Vegetarian Society Order of the Golden Age ProVeg Deutschland ProVeg International ProVeg Nederland Scottish Vegetarian Society Swissveg Toronto Vegetarian Association Vegetarian Cycling and Athletic Club Vegetarian Federal Union Vegetarian Society Vegetarian Society (Singapore) Veggie Pride Viva! Health Women's Vegetarian Union World Esperantist Vegetarian Association World Vegetarian Day"
+        ],
+        [
+          "Vegan",
+          "American Vegan Society Beauty Without Cruelty China Vegan Society Food Empowerment Project Go Vegan Nederlandse Vereniging voor Veganisme Our Hen House Physicians Committee for Responsible Medicine Plamil Foods Vegan Awareness Foundation Vegan flag Vegan Outreach Vegan Prisoners Support Group The Vegan Society Veganmania Vegetarian Resource Group Veganuary Veganz World Vegan Day"
+        ],
+        [
+          "Vegetarian",
+          "Alcott House Bible Christian Church Boston Vegetarian Society Christian Vegetarian Association Dansk Vegetarisk Forening Dutch Vegetarian Society Eden Gemeinn\u00fctzige Obstbau-Siedlung European Vegetarian Union French Vegetarian Society Hare Krishna Food for Life The Ideal Publishing Union International Vegetarian Union Jewish Veg London Vegetarian Society Meat-free days Meatless Monday Friday fast North American Vegetarian Society Order of the Golden Age ProVeg Deutschland ProVeg International ProVeg Nederland Scottish Vegetarian Society Swissveg Toronto Vegetarian Association Vegetarian Cycling and Athletic Club Vegetarian Federal Union Vegetarian Society Vegetarian Society (Singapore) Veggie Pride Viva! Health Women's Vegetarian Union World Esperantist Vegetarian Association World Vegetarian Day"
+        ],
+        [
+          "Films and cooking shows",
+          "The Animals Film (1981) Diet for a New America (1991) A Cow at My Table (1998) Meet Your Meat (2002) Post Punk Kitchen (2003\u20132004) Peaceable Kingdom (2004) Earthlings (2005) A Sacred Duty (2007) Fat, Sick and Nearly Dead (2010) Planeat (2010) Forks Over Knives (2011) Vegucated (2011) Live and Let Live (2013) Speciesism: The Movie (2013) Cowspiracy (2014) PlantPure Nation (2015) What the Health (2017) Carnage (2017) Dominion (2018) Eating You Alive (2018) The Game Changers (2018) Living on the Veg (2020) Punk Rock Vegan Movie (2023) Maa Ka Doodh (2023) You Are What You Eat: A Twin Experiment (2024)"
+        ],
+        [
+          "Magazines and journals",
+          "The Animals' Agenda The Children's Realm The Daisy Basket Naked Food The Pleasure Boat Satya Vegan Journal The Vegetarian Magazine Vegetarian Times VegNews"
+        ],
+        [
+          "Books and reports",
+          "On Abstinence from Eating Animals (3rd century) The Way to Health, Long Life and Happiness (1683) Wisdom's Dictates (1691) Acetaria: A Discourse of Sallets (1699) The Fable of the Bees (1714) A Reasonable Plea for the Animal Creation (1746) Primitive Cookery (1767) The Cry of Nature; or, An Appeal to Mercy and to Justice, on Behalf of the Persecuted Animals (1791) Remarks on Cruelty to Animals (1795) An Essay on Abstinence from Animal Food, as a Moral Duty (1802) Vegetable Cookery (1812) A Vindication of Natural Diet (1813) Reasons for not Eating Animal Food (1814) Moral Inquiries on the Situation of Man and of Brutes (1824) Nature's Own Book (1835) Fruits and Farinacea (1845) \" The Vegetarian; or a Visit to Aunt Primitive \" (1847) The Penny Domestic Assistant and Guide to Vegetarian Cookery (1850) The Perfect Way in Diet (1881) The Ethics of Diet (1883) A Plea for Vegetarianism and Other Essays (1886) What is Vegetarianism? (1886) Flesh or Fruit? An Essay on Food Reform (1888) The First Step (1891) Shelley's Vegetarianism (1891) Behind the Scenes in Slaughter-Houses (1892) Why I Am a Vegetarian (1895) Figs or Pigs? (1896) Fifty Years of Food Reform (1898) The Logic of Vegetarianism (1899) Thirty-nine Reasons Why I Am a Vegetarian (1903) The Meat Fetish (1904) The Apsley Cookery Book The New Ethics (1907) A Fleshless Diet (1910) The Humanities of Diet (1914) The Benefits of Vegetarianism (1927) Living the Good Life (1954) Ten Talents (1968) Diet for a Small Planet (1971) The Vegetarian Epicure (1972) Moosewood Collective Cookbooks (1973) The Farm Vegetarian Cookbook (1975) Laurel's Kitchen (1976) Moosewood Cookbook (1977) Fit for Life (1985) Diet for a New America (1987) The Sexual Politics of Meat (1990) Vegetarian Cooking for Everyone (1997) The China Study (2005) Skinny Bitch (2005) Livestock's Long Shadow (2006) The Bloodless Revolution (2006) Of Victorians and Vegetarians (2007) Eating Animals (2009) The Kind Diet (2009) Why We Love Dogs, Eat Pigs, and Wear Cows (2009) The Vegan Studies Project (2015) Animal (De)liberation (2016) The End of Animal Farming (2018) Vegetable Kingdom (2020) Making a Stand for Animals (2022) Dinner: 120 Vegan and Vegetarian Recipes for the Most Important Meal of the Day (2024) Meat Atlas (annual)"
+        ],
+        [
+          "Restaurants",
+          "Active Ben & Esther's Vegan Jewish Deli Cinnaholic Crossroads Kitchen Green Elephant Vegetarian Bistro Greens Restaurant Elizabeth's Gone Raw Fruitful Food Hiltl Restaurant Little Pine Little Tree Food Miacucina Moosewood Restaurant Plant Plates Purezza Quay Co-op Slutty Vegan Souley Vegan The Sound Lounge Vege Creek Veggie Galaxy Veggie Grill Former Cranks Food for Thought InSpiral Lounge Lentil as Anything Minerva Caf\u00e9 New Riverside Cafe Nix Penny Cafeteria Pink Peacock The Hollow Reed The Pitman Vegetarian Hotel",
+          "Active",
+          "Ben & Esther's Vegan Jewish Deli Cinnaholic Crossroads Kitchen Green Elephant Vegetarian Bistro Greens Restaurant Elizabeth's Gone Raw Fruitful Food Hiltl Restaurant Little Pine Little Tree Food Miacucina Moosewood Restaurant Plant Plates Purezza Quay Co-op Slutty Vegan Souley Vegan The Sound Lounge Vege Creek Veggie Galaxy Veggie Grill",
+          "Former",
+          "Cranks Food for Thought InSpiral Lounge Lentil as Anything Minerva Caf\u00e9 New Riverside Cafe Nix Penny Cafeteria Pink Peacock The Hollow Reed The Pitman Vegetarian Hotel"
+        ],
+        [
+          "Active",
+          "Ben & Esther's Vegan Jewish Deli Cinnaholic Crossroads Kitchen Green Elephant Vegetarian Bistro Greens Restaurant Elizabeth's Gone Raw Fruitful Food Hiltl Restaurant Little Pine Little Tree Food Miacucina Moosewood Restaurant Plant Plates Purezza Quay Co-op Slutty Vegan Souley Vegan The Sound Lounge Vege Creek Veggie Galaxy Veggie Grill"
+        ],
+        [
+          "Former",
+          "Cranks Food for Thought InSpiral Lounge Lentil as Anything Minerva Caf\u00e9 New Riverside Cafe Nix Penny Cafeteria Pink Peacock The Hollow Reed The Pitman Vegetarian Hotel"
+        ],
+        [
+          "Related",
+          "Cultured meat Humanitarian movement Juice fasting Low-carbon Plant-based action plan Plant-based diet Planetary health diet Sustainable diet Vegaphobia Vegetarian and vegan dog diet Vegetarian and vegan symbolism"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-9",
+      "caption": "",
+      "headers": [
+        "Veganism",
+        "Animal-free agriculture Black veganism Women and advocacy Fruitarianism History Raw veganism Straight edge Hardline Nutrition Vegan organic agriculture Vegan school meal Vegan studies"
+      ],
+      "rows": [
+        [
+          "Vegetarianism",
+          "Economic vegetarianism Environmental vegetarianism History Romantic era Victorian era Orthopathy Lacto vegetarianism Lacto-ovo vegetarianism Ovo vegetarianism Cuisine Vegetarian Diet Pyramid Women and advocacy Ecofeminism Nutrition By country"
+        ],
+        [
+          "Lists",
+          "Bibliography Vegetarians Vegans Fictional characters Festivals Organizations Vegan and plant-based media"
+        ],
+        [
+          "Locations",
+          "Cheremshanka, Altai Republic Community of the Ark Haridwar New Vrindaban Palitana Pushkar Rishikesh Tirumala The Farm (Tennessee)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-10",
+      "caption": "",
+      "headers": [
+        "Secular",
+        "Animal rights Animal welfare Anthropocentrism Carnism Deep ecology Ethics of eating meat Meat paradox Nonviolence Replaceability argument Sentientism Speciesism Tirukku\u1e5fa\u1e37"
+      ],
+      "rows": [
+        [
+          "Religious",
+          "Buddhism Christianity ( Seventh-day Adventist Church ) Hinduism Sattvic Ahimsa Islam Jainism Judaism Pythagoreanism Rastafari Sikhism Taoism"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-11",
+      "caption": "",
+      "headers": [
+        "Vegan",
+        "American Vegan Society Beauty Without Cruelty China Vegan Society Food Empowerment Project Go Vegan Nederlandse Vereniging voor Veganisme Our Hen House Physicians Committee for Responsible Medicine Plamil Foods Vegan Awareness Foundation Vegan flag Vegan Outreach Vegan Prisoners Support Group The Vegan Society Veganmania Vegetarian Resource Group Veganuary Veganz World Vegan Day"
+      ],
+      "rows": [
+        [
+          "Vegetarian",
+          "Alcott House Bible Christian Church Boston Vegetarian Society Christian Vegetarian Association Dansk Vegetarisk Forening Dutch Vegetarian Society Eden Gemeinn\u00fctzige Obstbau-Siedlung European Vegetarian Union French Vegetarian Society Hare Krishna Food for Life The Ideal Publishing Union International Vegetarian Union Jewish Veg London Vegetarian Society Meat-free days Meatless Monday Friday fast North American Vegetarian Society Order of the Golden Age ProVeg Deutschland ProVeg International ProVeg Nederland Scottish Vegetarian Society Swissveg Toronto Vegetarian Association Vegetarian Cycling and Athletic Club Vegetarian Federal Union Vegetarian Society Vegetarian Society (Singapore) Veggie Pride Viva! Health Women's Vegetarian Union World Esperantist Vegetarian Association World Vegetarian Day"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-12",
+      "caption": "",
+      "headers": [
+        "Active",
+        "Ben & Esther's Vegan Jewish Deli Cinnaholic Crossroads Kitchen Green Elephant Vegetarian Bistro Greens Restaurant Elizabeth's Gone Raw Fruitful Food Hiltl Restaurant Little Pine Little Tree Food Miacucina Moosewood Restaurant Plant Plates Purezza Quay Co-op Slutty Vegan Souley Vegan The Sound Lounge Vege Creek Veggie Galaxy Veggie Grill"
+      ],
+      "rows": [
+        [
+          "Former",
+          "Cranks Food for Thought InSpiral Lounge Lentil as Anything Minerva Caf\u00e9 New Riverside Cafe Nix Penny Cafeteria Pink Peacock The Hollow Reed The Pitman Vegetarian Hotel"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-13",
+      "caption": "",
+      "headers": [
+        "Authority control databases"
+      ],
+      "rows": [
+        [
+          "International",
+          "GND"
+        ],
+        [
+          "National",
+          "United States France BnF data Japan Czech Republic Israel"
+        ],
+        [
+          "Other",
+          "Historical Dictionary of Switzerland Yale LUX"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "A cereal is a grass (family Poaceae ) cultivated for its edible grain . Cereals are the world's largest crops , and are therefore staple foods . They include rice , wheat (UK: corn), rye , oats , barley , millet , and maize (US: corn). Edible grains from other plant families, such as amaranth , buckwheat and quinoa , are pseudocereals . Most cereals are annuals , producing one crop from each planting, though rice is sometimes grown as a perennial . Winter varieties are hardy enough to be planted in the autumn, becoming dormant in the winter, and harvested in spring or early summer; spring varieties are planted in spring and harvested in late summer. The term cereal is derived from the name of the Roman goddess of grain crops and fertility, Ceres .",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals were domesticated in the Neolithic around 8,000 years ago. Wheat and barley were domesticated in the Fertile Crescent . Rice and some millets were domesticated in East Asia , while sorghum and other millets were domesticated in Sudan . [ 1 ] Maize was domesticated by Indigenous peoples of the Americas in Mexico about 9,000 years ago. In the 20th century, cereal productivity was greatly increased by the Green Revolution . This increase in production has accompanied a growing international trade , with some countries producing large portions of the cereal supply for other countries.",
+      "char_offset": 759
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals provide food eaten directly as whole grains , usually cooked, or they are ground to flour and made into bread , porridge , and other products. Cereals have a high starch content, enabling them to be fermented into alcoholic drinks such as beer . Cereal farming has a substantial environmental impact , and is often produced in high-intensity monocultures . The environmental harms can be mitigated by sustainable practices which reduce the impact on soil and improve biodiversity, such as no-till farming and intercropping .",
+      "char_offset": 1356
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat , barley , rye , and oats were gathered and eaten in the Fertile Crescent during the early Neolithic . Cereal grains 19,000 years old have been found at the Ohalo II site in Israel , with charred remnants of wild wheat and barley. [ 2 ]",
+      "char_offset": 1890
+    },
+    {
+      "type": "paragraph",
+      "text": "During the same period, farmers in China began to farm rice and millet, using human-made floods and fires as part of their cultivation regimen. [ 3 ] [ 4 ] The use of soil conditioners , including manure , fish, compost and ashes , appears to have begun early, and developed independently in areas of the world including Mesopotamia , the Nile Valley , and Eastern Asia. [ 5 ]",
+      "char_offset": 2134
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals that became modern barley and wheat were domesticated some 8,000 years ago in the Fertile Crescent. [ 6 ] Millets and rice were domesticated in East Asia, while sorghum was domesticated in Sudan . [ 1 ] Maize arose from a single domestication in Mesoamerica about 9,000 years ago. [ 7 ]",
+      "char_offset": 2512
+    },
+    {
+      "type": "paragraph",
+      "text": "In these agricultural regions, religion was often shaped by the divinity associated with the grain and harvests. In the Mesopotamian creation myth , an era of civilization is inaugurated by the grain goddess Ashnan . [ 8 ] The Roman goddess Ceres presided over agriculture, grain crops, fertility, and motherhood; [ 9 ] the term cereal is derived from Latin cerealis , \"of grain\", originally meaning \"of [the goddess] Ceres\". [ 10 ] Several gods of antiquity combined agriculture and war: the Hittite Sun goddess of Arinna , the Canaanite Lahmu and the Roman Janus . [ 11 ]",
+      "char_offset": 2808
+    },
+    {
+      "type": "paragraph",
+      "text": "Complex civilizations arose where cereal agriculture created a surplus, allowing for part of the harvest to be appropriated from farmers, allowing power to be concentrated in cities. [ 12 ]",
+      "char_offset": 3383
+    },
+    {
+      "type": "paragraph",
+      "text": "Between 1964 and 2023, cereal production increased by 213%, mostly through higher yields: harvested area rose only by 10%. [ 15 ] Yields of wheat and rice rose in the Green Revolution , a technological change funded by development organizations. [ 16 ] The strategies included mechanized tilling, monoculture , nitrogen fertilizers, and breeding of new strains of seeds. These innovations fended off starvation and increased yield-per-plant, but paid less attention to nutritional quality. [ 17 ] The high-yield cereal crops tend to have low-quality proteins , with essential amino acid deficiencies, are high in carbohydrates , and lack balanced essential fatty acids , vitamins , and minerals . [ 17 ] So-called ancient grains and heirloom varieties grew in popularity with the \"organic\" movements of the early 21st century, but there is a tradeoff in yield-per-plant, putting pressure on resource-poor areas as food crops are replaced with cash crops . [ 18 ]",
+      "char_offset": 3574
+    },
+    {
+      "type": "paragraph",
+      "text": "Grain-based foods are fundamental dietary staples in many regions worldwide, serving as primary sources of energy and essential nutrients. Consequently, reductions in cereal production are the most significant contributors to losses in energy and essential micronutrients such as iron, zinc, magnesium, phosphorus, thiamin and riboflavin. [ 19 ]",
+      "char_offset": 4538
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals are grasses, in the Poaceae family, that produce edible grains . A cereal grain is botanically a caryopsis , a fruit where the seed coat is fused with the pericarp . [ 20 ] [ 21 ] Grasses have stems that are hollow except at the nodes and narrow alternate leaves borne in two ranks. [ 22 ] The lower part of each leaf encloses the stem, forming a leaf-sheath. The leaf grows from the base of the blade, an adaptation that protects the growing meristem from grazing animals. [ 22 ] [ 23 ] The flowers are usually hermaphroditic , with the exception of maize , and mainly anemophilous or wind-pollinated, although insects occasionally play a role. [ 22 ] [ 24 ]",
+      "char_offset": 4885
+    },
+    {
+      "type": "paragraph",
+      "text": "Among the best-known cereals are maize, rice , wheat, barley, sorghum , millet , oat, rye and triticale . [ 25 ] Some other grains are colloquially called cereals, even though they are not grasses; these pseudocereals include buckwheat , quinoa , and amaranth . [ 26 ]",
+      "char_offset": 5554
+    },
+    {
+      "type": "paragraph",
+      "text": "All cereal crops are cultivated in a similar way. Most are annual , so after sowing they are harvested just once. [ 27 ] An exception is rice, which although usually treated as an annual can survive as a perennial , producing a ratoon crop. [ 28 ] Cereals adapted to a temperate climate , such as barley , oats , rye , spelt , triticale , and wheat , are called cool-season cereals. Those preferring a tropical climate , such as millet and sorghum , are called warm-season cereals. [ 27 ] [ 29 ] [ 30 ] Cool-season cereals, especially rye, followed by barley, are hardy; they grow best in fairly cool weather, and stop growing, depending on variety, when the temperature goes above around 30 \u00b0C or 85 \u00b0F. Warm-season cereals, in contrast, require hot weather and cannot tolerate frost. [ 27 ] Cool-season cereals can be grown in highlands in the tropics, where they sometimes deliver several crops in a single year. [ 27 ]",
+      "char_offset": 5824
+    },
+    {
+      "type": "paragraph",
+      "text": "In the tropics, warm-season cereals can be grown at any time of the year. In temperate zones, these cereals can only be grown when there is no frost. Most cereals are planted in tilled soils , which reduces weeds and breaks up the surface of a field. Most cereals need regular water in the early part of their life cycle. Rice is commonly grown in flooded fields, [ 31 ] though some strains are grown on dry land. [ 32 ] Other warm climate cereals, such as sorghum, are adapted to arid conditions. [ 33 ]",
+      "char_offset": 6748
+    },
+    {
+      "type": "paragraph",
+      "text": "Cool-season cereals are grown mainly in temperate zones. These cereals often have both winter varieties for autumn sowing, winter dormancy, and early summer harvesting, and spring varieties planted in spring and harvested in late summer. Winter varieties have the advantage of using water when it is plentiful, and permitting a second crop after the early harvest. They flower only in spring as they require vernalization , exposure to cold for a specific period, fixed genetically. Spring crops grow when it is warmer but less rainy, so they may need irrigation. [ 27 ]",
+      "char_offset": 7254
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereal strains are bred for consistency and resilience to the local environmental conditions. The greatest constraint on yield are plant diseases , especially rusts (mostly the Puccinia spp.) and powdery mildews . [ 34 ] Fusarium head blight, caused by Fusarium graminearum , is a significant limitation on a wide variety of cereals. [ 35 ] Other pressures include pest insects and wildlife like rodents and deer. [ 36 ] [ 37 ] In conventional agriculture, some farmers apply fungicides or pesticides.",
+      "char_offset": 7826
+    },
+    {
+      "type": "paragraph",
+      "text": "Annual cereals die when they have come to seed, and dry up. Harvesting begins once the plants and seeds are dry enough. Harvesting in mechanized agricultural systems is by combine harvester , a machine which drives across the field in a single pass in which it cuts the stalks and then threshes and winnows the grain. [ 27 ] [ 38 ] In traditional agricultural systems, mostly in the Global South , harvesting may be by hand, using tools such as scythes and grain cradles . [ 27 ] Leftover parts of the plant can be allowed to decompose, or collected as straw ; this can be used for animal bedding, mulch, and a growing medium for mushrooms. [ 39 ] It is used in crafts such as building with cob or straw-bale construction . [ 40 ]",
+      "char_offset": 8329
+    },
+    {
+      "type": "paragraph",
+      "text": "If cereals are not completely dry when harvested, such as when the weather is rainy, the stored grain will be spoilt by mould fungi such as Aspergillus and Penicillium . [ 27 ] [ 41 ] This can be prevented by drying it artificially. It may then be stored in a grain elevator or silo , to be sold later. Grain stores need to be constructed to protect the grain from damage by pests such as seed-eating birds and rodents . [ 27 ]",
+      "char_offset": 9061
+    },
+    {
+      "type": "paragraph",
+      "text": "When the cereal is ready to be distributed, it is sold to a manufacturing facility that first removes the outer layers of the grain for subsequent milling for flour or other processing steps, to produce foods such as flour, oatmeal , or pearl barley . [ 42 ] In developing countries, processing may be traditional, in artisanal workshops, as with tortilla production in Central America. [ 43 ]",
+      "char_offset": 9490
+    },
+    {
+      "type": "paragraph",
+      "text": "Most cereals can be processed in a variety of ways. Rice processing , for instance, can create whole-grain or polished rice, or rice flour. Removal of the germ increases the longevity of grain in storage. [ 44 ] Some grains can be malted , a process of activating enzymes in the seed to cause sprouting that turns the complex starches into sugars before drying. [ 45 ] These sugars can be extracted for industrial uses and further processing, such as for making industrial alcohol , [ 46 ] beer , [ 47 ] whisky , [ 48 ] or rice wine , [ 49 ] or sold directly as a sugar . [ 50 ] In the 20th century, industrial processes developed around chemically altering the grain, to be used for other processes. In particular, maize can be altered to produce food additives, such as corn starch [ 51 ] and high-fructose corn syrup . [ 52 ]",
+      "char_offset": 9885
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereal production has a substantial impact on the environment. Tillage can lead to soil erosion and increased runoff. [ 53 ] Irrigation consumes large quantities of water; its extraction from lakes, rivers, or aquifers may have multiple environmental effects , such as lowering the water table and cause salination of aquifers. [ 54 ] Fertilizer production contributes to global warming , [ 55 ] and its use can lead to pollution and eutrophication of waterways. [ 56 ] Arable farming uses large amounts of fossil fuel , releasing greenhouse gases which contribute to global warming. [ 57 ] Pesticide usage can cause harm to wildlife, such as to bees . [ 58 ]",
+      "char_offset": 10715
+    },
+    {
+      "type": "paragraph",
+      "text": "Some of the impacts of growing cereals can be mitigated by changing production practices. Tillage can be reduced by no-till farming , such as by direct drilling of cereal seeds, or by developing and planting perennial crop varieties so that annual tilling is not required. Rice can be grown as a ratoon crop; [ 28 ] and other researchers are exploring perennial cool-season cereals, such as kernza , being developed in the US. [ 59 ]",
+      "char_offset": 11376
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizer and pesticide usage may be reduced in some polycultures , growing several crops in a single field at the same time. [ 60 ] Fossil fuel-based nitrogen fertilizer usage can be reduced by intercropping cereals with legumes which fix nitrogen . [ 61 ] Greenhouse gas emissions may be cut further by more efficient irrigation or by water harvesting methods like contour trenching that reduce the need for irrigation, and by breeding new crop varieties. [ 62 ]",
+      "char_offset": 11811
+    },
+    {
+      "type": "paragraph",
+      "text": "Some cereals such as rice require little preparation before human consumption. For example, to make plain cooked rice , raw milled rice is washed and boiled. [ 63 ] Foods such as porridge [ 64 ] and muesli may be made largely of whole cereals, especially oats, whereas commercial breakfast cereals such as granola may be highly processed and combined with sugars, oils , and other products. [ 65 ]",
+      "char_offset": 12278
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals can be ground to make flour. Wheat flour is the main ingredient of bread and pasta . [ 66 ] [ 67 ] [ 68 ] Maize flour has been important in Mesoamerica since ancient times, with foods such as Mexican tortillas and tamales . [ 69 ] Rye flour is a constituent of bread in central and northern Europe, [ 70 ] while rice flour is common in Asia. [ 71 ]",
+      "char_offset": 12677
+    },
+    {
+      "type": "paragraph",
+      "text": "A cereal grain consists of starchy endosperm , germ , and bran . Wholemeal flour contains all of these; white flour is without some or all of the germ or bran. [ 72 ] [ 73 ]",
+      "char_offset": 13035
+    },
+    {
+      "type": "paragraph",
+      "text": "Because cereals have a high starch content, they are often used to make industrial alcohol [ 46 ] and alcoholic drinks by fermentation . For instance, beer is produced by brewing and fermenting starch , mainly from cereal grains\u2014most commonly malted barley. [ 47 ] Rice wines such as Japanese sake are brewed in Asia; [ 74 ] a fermented rice and honey wine was made in China some 9,000 years ago. [ 49 ]",
+      "char_offset": 13210
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals and their related byproducts such as hay are routinely fed to farm animals . Common cereals as animal food include maize, barley, wheat, and oats. Moist grains may be treated chemically or made into silage ; mechanically flattened or crimped, and kept in airtight storage until used; or stored dry with a moisture content of less than 14%. [ 76 ] Commercially, grains are often combined with other materials and formed into feed pellets. [ 77 ]",
+      "char_offset": 13615
+    },
+    {
+      "type": "paragraph",
+      "text": "As whole grains , cereals provide carbohydrates , polyunsaturated fats , protein , vitamins , and minerals . When processed by the removal of the bran and germ, all that remains is the starchy endosperm. [ 72 ] Nutrients added to cereal during nutritional fortification include iron, calcium, zinc, and folate. [ 79 ] In some developing countries , cereals constitute a majority of daily sustenance. In developed countries , cereal consumption is moderate and varied but still substantial, primarily in the form of refined and processed grains. [ 80 ]",
+      "char_offset": 14069
+    },
+    {
+      "type": "paragraph",
+      "text": "Some cereals are deficient in the essential amino acid lysine , obliging vegetarian cultures to combine their diet of cereal grains with legumes to obtain a balanced diet. Many legumes, however, are deficient in the essential amino acid methionine , which grains contain. Thus, a combination of legumes with grains forms a well-balanced diet for vegetarians. Such combinations include dal (lentils) with rice by South Indians and Bengalis , beans with maize tortillas , tofu with rice, and peanut butter with wholegrain wheat bread (as sandwiches) in several other cultures, including the Americas. [ 81 ] For feeding animals , the amount of crude protein measured in grains is expressed as grain crude protein concentration. [ 82 ]",
+      "char_offset": 14622
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals constitute the world's largest commodities by tonnage, whether measured by production [ 84 ] or by international trade. Several major producers of cereals dominate the market. [ 85 ] Because of the scale of the trade, some countries have become reliant on imports, thus cereals pricing or availability can have outsized impacts on countries with a food trade imbalance and thus food security . [ 86 ] Speculation , as well as other compounding production and supply factors leading up to the 2008 financial crisis , created rapid inflation of grain prices during the 2007\u20132008 world food price crisis . [ 87 ] Other disruptions, such as climate change or war related changes to supply or transportation can create further food insecurity; for example the Russian invasion of Ukraine in 2022 disrupted Ukrainian and Russian wheat supplies causing a global food price crisis in 2022 that affected countries heavily dependent on wheat flour. [ 88 ] [ 89 ] [ 90 ] [ 91 ]",
+      "char_offset": 15356
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals are the world's largest crops by tonnage of grain produced. [ 84 ] Three cereals, maize, wheat, and rice, together accounted for 91% of all cereal production worldwide in 2024, and 40% of the global availability of food energy in 2023, [ 92 ] while the production of oats and rye has drastically fallen from their 1960s levels. [ 93 ]",
+      "char_offset": 16332
+    },
+    {
+      "type": "paragraph",
+      "text": "Other cereals not included in the U.N.'s Food and Agriculture Organization statistics include wild rice , which is grown in small amounts in North America, and teff , an ancient grain that is a staple in Ethiopia . [ 94 ] Teff is grown in sub-Saharan Africa as a grass primarily for feeding horses. It is high in fiber and protein. Its flour is often used to make injera . It can be eaten as a warm breakfast cereal like farina with a chocolate or nutty flavor. [ 94 ]",
+      "char_offset": 16676
+    },
+    {
+      "type": "paragraph",
+      "text": "The table shows the annual production of cereals in 1961, 1980, 2000, 2010, and 2024. [ a ] [ 95 ] [ 93 ] [ 96 ]",
+      "char_offset": 17146
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals are the most traded commodities by quantity in 2023, with wheat, maize, and rice the main cereals involved. The Americas and Europe are the largest exporters, and Asia is the largest importer. [ 85 ] In 2023 Brazil was the largest exporter of maize, while India was the largest exporter of rice and China the largest importer of maize and of rice. Many other countries trade cereals, both as exporters and as importers. [ 98 ] Cereals are traded as futures on world commodity markets , helping to mitigate the risks of changes in price for example, if harvests fail. [ 99 ]",
+      "char_offset": 17260
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-874cce94d4fe6d51"
+}

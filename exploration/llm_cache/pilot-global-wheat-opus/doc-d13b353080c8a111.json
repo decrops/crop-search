@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 0.43,
+      "range_max": 0.67,
+      "qualifier": "observed",
+      "evidence_text": "Wheat HI in arid regions exhibited significant spatial heterogeneity (0.43–0.67)... irrigated wheat demonstrated significantly higher HI... (0.54 ± 0.05) compared to rainfed systems (0.49 ± 0.02).",
+      "claim_summary": "Wheat harvest index in arid Xinjiang ranged 0.43-0.67 (mean 0.52); irrigated 0.54 vs rainfed 0.49.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 0.40,
+      "range_max": 0.62,
+      "qualifier": "maximum",
+      "evidence_text": "the HI of modern high-yielding varieties has approached its biological upper limit (0.4–0.6)... the theoretical HI of winter wheat can reach 0.62 (Austin et al., 1980), while observed values generally remain around 0.50",
+      "claim_summary": "Modern wheat harvest index biological upper limit 0.4-0.6; theoretical winter wheat maximum ~0.62 (up to 0.65), observed ~0.50.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 0.24,
+      "range_max": 0.45,
+      "qualifier": "observed",
+      "evidence_text": "In Australia, under rainfed conditions, wheat HI ranges only from 0.24 to 0.45. These variations primarily stem from reduced assimilate translocation efficiency due to post-anthesis water stress.",
+      "claim_summary": "Rainfed wheat harvest index in Australia ranges 0.24-0.45 due to post-anthesis water stress; Loess Plateau 0.28-0.56.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "HI showed... a significant negative correlation with plant height (H) (p < 0.01)... recent introductions of dwarfing genes have reduced wheat plant height, altering dry matter partitioning while improving lodging resistance and yield potential, thereby facilitating HI enhancement",
+      "claim_summary": "Wheat harvest index is negatively correlated with plant height; dwarfing genes reduce height and raise HI.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Soil pH was found to be a limiting factor for wheat HI in arid regions (p < 0.05). Wheat typically thrives in neutral soils, whereas arid regions often have alkaline soils. This inherent alkalinity in arid-area soils consequently constrains potential improvements in wheat harvest index.",
+      "claim_summary": "Wheat thrives in neutral soils; alkaline (high pH) soils limit wheat harvest index, which decreases with increasing pH.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "significant positive correlations between soil total phosphorus (TP), available phosphorus (AP) and wheat HI in arid regions (p < 0.01)... In arid soils, phosphorus deficiency inhibits wheat root development, consequently affecting growth rates",
+      "claim_summary": "Soil phosphorus (TP, AP) positively correlated with wheat harvest index; P deficiency inhibits wheat root development in arid soils.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Irrigation significantly enhanced wheat HI (p < 0.01), and irrigated wheat demonstrated significantly higher HI, yield, and aboveground biomass (AGB)... irrigation can increase wheat yield by an average of 50%... water-saving irrigation techniques can increase wheat HI by 15-20%",
+      "claim_summary": "Irrigation increases wheat yield ~50% and AGB ~18.7%; water-saving irrigation raises HI 15-20%.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

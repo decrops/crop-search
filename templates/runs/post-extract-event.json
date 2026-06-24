@@ -1,0 +1,22 @@
+{
+  "event_name": "post-extract",
+  "run_id": "pilot-us-corn-001",
+  "occurred_at": "2026-05-28T12:15:00Z",
+  "payload": {
+    "id": "capture-001",
+    "run_id": "pilot-us-corn-001",
+    "query": "corn growing conditions Iowa extension site",
+    "source_url": "https://example.org/corn-guide",
+    "accessed_at": "2026-05-28T12:14:00Z",
+    "document_type": "html",
+    "snippet": "Corn grows best in warm conditions with adequate moisture.",
+    "raw_text": "Corn grows best in warm conditions with adequate moisture.",
+    "parser_used": "html-basic",
+    "candidate_claims": [
+      "Corn grows best in warm conditions."
+    ],
+    "failures": [],
+    "status": "parsed"
+  },
+  "status": "received"
+}

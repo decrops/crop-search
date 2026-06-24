@@ -1,0 +1,37 @@
+{"claims": [
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "text",
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "Planting window Seed Rate (million/acre) Sept. <1.0 Early-mid Oct. 1.2 – 1.4 After mid-Oct. >1.6",
+    "claim_summary": "Recommended winter wheat seeding rate increases with later planting: <1.0 million/acre in September, 1.2-1.4 million/acre in early-mid October, >1.6 million/acre after mid-October.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "When to start? Soon after hessian fly free date (as a rule of thumb). ... Optimal planting time is critical in setting up a high yield potential.",
+    "claim_summary": "Optimal winter wheat planting begins soon after the Hessian fly free date; timely planting is critical for high yield potential.",
+    "extraction_confidence": "high",
+    "organisms": [{"name": "Hessian fly", "role": "pest"}]
+  },
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "our recent research showed <2% impact of seeding depth on yield. ... Precision planting had lowest depth variability at all sites.",
+    "claim_summary": "Seeding depth had <2% impact on winter wheat yield; precision planting achieved the lowest seeding depth variability.",
+    "extraction_confidence": "medium",
+    "methods": ["precision planting", "broadcast incorporation", "drilling"]
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "yield benefit from use of precision planter and narrow row spacing. ... 8 - 11% yield increase with precision planter (5'' rows) versus drill at 3 of 6 site-years.",
+    "claim_summary": "Narrow row spacing with a precision planter (5-inch rows) gave 8-11% yield increase versus drill at 3 of 6 site-years in winter wheat.",
+    "extraction_confidence": "medium"
+  }
+]}

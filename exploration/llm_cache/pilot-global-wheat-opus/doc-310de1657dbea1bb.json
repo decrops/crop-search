@@ -1,0 +1,32 @@
+{
+  "claims": [
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Options for controlling tan spot and spot blotch include disease-free seed, seed treatment with fungicides, proper crop rotation and fertilization, cultural practices in order to reduce inoculum sources... crop rotation with non-host crops can control spot blotch... In the HLB complex, rotations would need to be sufficiently long to reduce the amount of soil inoculum.",
+      "claim_summary": "Crop rotation with non-host crops (sufficiently long) plus disease-free seed and fungicide treatment helps control spot blotch / Helminthosporium leaf blight in wheat.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization", "tillage"],
+      "organisms": [
+        {"name": "Cochliobolus sativus", "role": "disease"},
+        {"name": "Pyrenophora tritici-repentis", "role": "disease"},
+        {"name": "spot blotch", "role": "disease"},
+        {"name": "tan spot", "role": "disease"}
+      ]
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Clearing or ploughing in the stubble, grass weeds and volunteer cereals reduce inoculum as does crop rotation... Tan spot has been controlled largely by cultural practices, such as rotation with non-host crops and removal or burial of stubble.",
+      "claim_summary": "Removal or burial of wheat stubble/residue reduces foliar-blight (tan spot, spot blotch) inoculum.",
+      "extraction_confidence": "medium",
+      "methods": ["tillage"],
+      "organisms": [
+        {"name": "tan spot", "role": "disease"},
+        {"name": "spot blotch", "role": "disease"}
+      ]
+    }
+  ]
+}

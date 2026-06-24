@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 69.43,
+      "range_max": 83.94,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "the mean μ of plant height in the E1 environment was 77.18 ... E2 environment was 83.94 ... E3 environment was 69.43 ... mean μ of plant height under E4 environment was 72.72",
+      "claim_summary": "Mean winter wheat plant height across four environments ranged from about 69.4 to 83.9 cm.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"],
+      "methods": ["measured ground-to-spike-top (excluding awns) on 5 plants per plot, averaged; 239 varieties across 4 environments"]
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 50.41,
+      "range_max": 146.38,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Envs Min (cm) Max (cm) ... E1 50.41 146.38 ... E2 55.13 115.06 ... E3 52.20 98.10 ... E4 53.81 107.02",
+      "claim_summary": "Observed winter wheat plant height across 239 varieties and four environments spanned a minimum of 50.41 cm to a maximum of 146.38 cm.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"],
+      "methods": ["descriptive statistics of plant height phenotyping across 4 environments (Table 1)"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 350000,
+      "unit": "seeds/ha",
+      "qualifier": "typical",
+      "evidence_text": "Each plot consisted of two rows, each 1 meter long and spaced 0.2 meters apart, with a sowing density of 350,000 seeds per hectare, oriented in a north-south direction.",
+      "claim_summary": "Winter wheat trial plots were sown at a density of 350,000 seeds per hectare.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 0.2,
+      "unit": "m",
+      "qualifier": "typical",
+      "evidence_text": "Each plot consisted of two rows, each 1 meter long and spaced 0.2 meters apart, with a sowing density of 350,000 seeds per hectare, oriented in a north-south direction.",
+      "claim_summary": "Winter wheat trial rows were spaced 0.2 meters apart.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    }
+  ]
+}

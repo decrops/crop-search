@@ -1,0 +1,22 @@
+{
+  "domain": "stress",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "document_id": "doc-1fcc8c407aa60d5e",
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "numeric",
+      "numeric_value": -20,
+      "unit": "celsius",
+      "evidence_contains": "-20"
+    },
+    {
+      "document_id": "doc-37a48fa5391184d9",
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "numeric",
+      "numeric_value": 13,
+      "unit": "dS/m",
+      "evidence_contains": "13 ds/m"
+    }
+  ]
+}

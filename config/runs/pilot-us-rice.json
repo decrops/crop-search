@@ -1,0 +1,67 @@
+{
+  "run_id": "pilot-us-rice-001",
+  "version": "0.1.0",
+  "crop": "rice",
+  "region_scope": {
+    "level": "country",
+    "name": "United States"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/rice.json",
+  "parameter_families": [
+    "temperature",
+    "thermal_time",
+    "water",
+    "soil",
+    "phenology",
+    "planting"
+  ],
+  "queries_per_parameter": 1,
+  "max_parameters": 12,
+  "source_seeds": [
+    {
+      "source_url": "https://www.uaex.uada.edu/publications/pdf/mp192/chapter-2.pdf",
+      "title": "Rice Growth and Development - Arkansas Rice Production Handbook",
+      "snippet": "Rice growth and development chapter with temperature and growth-stage information.",
+      "document_type": "pdf",
+      "parameter_families": ["temperature", "thermal_time"]
+    },
+    {
+      "source_url": "https://www.uaex.uada.edu/publications/mp-192.aspx",
+      "title": "Arkansas Rice Production Handbook - University of Arkansas Extension",
+      "snippet": "University of Arkansas Cooperative Extension rice production handbook with chapters on growth, establishment, water, and fertility.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "thermal_time", "water", "soil"]
+    },
+    {
+      "source_url": "https://www.uaex.uada.edu/publications/pdf/mp192/chapter-4.pdf",
+      "title": "Rice Stand Establishment - Arkansas Rice Production Handbook",
+      "snippet": "Rice stand establishment chapter with soil temperature, planting date, and emergence information.",
+      "document_type": "pdf",
+      "parameter_families": ["temperature", "planting", "soil"]
+    },
+    {
+      "source_url": "https://www.uaex.uada.edu/publications/pdf/mp192/chapter-10.pdf",
+      "title": "Rice Water Management - Arkansas Rice Production Handbook",
+      "snippet": "Rice water management chapter with irrigation and flooding recommendations.",
+      "document_type": "pdf",
+      "parameter_ids": [
+        "water.evapotranspiration_requirement",
+        "water.drought_sensitive_stage",
+        "water.waterlogging_sensitivity",
+        "soil.soil_water_holding_capacity"
+      ]
+    }
+  ],
+  "max_results_per_query": 2,
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

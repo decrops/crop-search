@@ -1,0 +1,11 @@
+{
+  "id": "handoff-summary-template",
+  "version": "0.1.0",
+  "pack_type": "handoff-summary",
+  "title": "Handoff summary template",
+  "content": "Summarize what was explored, which sources were reliable, which claims remain unresolved, and what should happen next in the pipeline.",
+  "references": [
+    "docs/ROADMAP.md"
+  ],
+  "updated_at": "2026-05-28T12:00:00Z"
+}

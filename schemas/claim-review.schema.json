@@ -1,0 +1,324 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/claim-review.schema.json",
+  "title": "ClaimReviewReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "generated_at",
+    "input",
+    "summary",
+    "source_scorecards",
+    "clusters",
+    "claim_reviews"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["normalized_dir", "normalized_claims"],
+      "properties": {
+        "raw_summary_path": {
+          "type": "string"
+        },
+        "normalized_summary_path": {
+          "type": "string"
+        },
+        "normalized_dir": {
+          "type": "string"
+        },
+        "normalized_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "raw_candidate_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "raw_failures": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claims_reviewed",
+        "durable_candidate_claims",
+        "manual_review_claims",
+        "rejected_claims",
+        "seasonal_observation_claims",
+        "decision_counts",
+        "attribute_counts",
+        "parameter_counts",
+        "attribute_subtype_counts",
+        "confidence_counts",
+        "conflict_counts",
+        "source_count"
+      ],
+      "properties": {
+        "claims_reviewed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "durable_candidate_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "manual_review_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rejected_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "seasonal_observation_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "decision_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "attribute_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "parameter_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "attribute_subtype_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "confidence_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "conflict_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "source_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "source_scorecards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_domain",
+          "source_title",
+          "document_type",
+          "claim_count",
+          "average_quality_score",
+          "reliability_tier",
+          "decision_counts",
+          "attribute_counts",
+          "parameter_counts",
+          "attribute_subtype_counts",
+          "reasons"
+        ],
+        "properties": {
+          "source_domain": {
+            "type": "string"
+          },
+          "source_title": {
+            "type": "string"
+          },
+          "document_type": {
+            "type": "string"
+          },
+          "claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "average_quality_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "reliability_tier": {
+            "type": "string",
+            "enum": ["strong", "mixed", "weak"]
+          },
+          "decision_counts": {
+            "$ref": "#/$defs/counts"
+          },
+          "attribute_counts": {
+            "$ref": "#/$defs/counts"
+          },
+          "parameter_counts": {
+            "$ref": "#/$defs/counts"
+          },
+          "attribute_subtype_counts": {
+            "$ref": "#/$defs/counts"
+          },
+          "reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cluster_id",
+          "attribute",
+          "parameter_id",
+          "attribute_subtype",
+          "scope",
+          "value_signature",
+          "claim_ids",
+          "source_domains",
+          "recommended_action"
+        ],
+        "properties": {
+          "cluster_id": {
+            "type": "string"
+          },
+          "attribute": {
+            "type": "string"
+          },
+          "parameter_id": {
+            "type": "string"
+          },
+          "attribute_subtype": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "value_signature": {
+            "type": "string"
+          },
+          "claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_domains": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "recommended_action": {
+            "type": "string",
+            "enum": ["single_claim_review", "merge_duplicate_claims", "manual_conflict_review"]
+          }
+        }
+      }
+    },
+    "claim_reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_id",
+          "cluster_id",
+          "decision",
+          "quality_score",
+          "reasons",
+          "attribute",
+          "parameter_id",
+          "attribute_subtype",
+          "confidence",
+          "conflict_status",
+          "source_domain",
+          "source_title",
+          "document_type",
+          "value_type",
+          "claim_excerpt"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "cluster_id": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "canonical_candidate",
+              "regional_observation",
+              "seasonal_observation",
+              "merge_candidate",
+              "needs_review",
+              "reject"
+            ]
+          },
+          "quality_score": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "attribute": {
+            "type": "string"
+          },
+          "parameter_id": {
+            "type": "string"
+          },
+          "attribute_subtype": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string"
+          },
+          "conflict_status": {
+            "type": "string"
+          },
+          "source_domain": {
+            "type": "string"
+          },
+          "source_title": {
+            "type": "string"
+          },
+          "document_type": {
+            "type": "string"
+          },
+          "value_type": {
+            "type": "string"
+          },
+          "claim_excerpt": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "source_id": "iowa-extension-corn-basics",
+      "title": "Iowa Corn Growing Basics",
+      "source_url": "https://fixtures.local/iowa-extension/corn-basics",
+      "document_type": "html",
+      "snippet": "Corn in Iowa performs best in warm conditions with steady moisture and well-drained soils.",
+      "tags": ["corn", "iowa", "extension", "growing", "temperature", "moisture", "soil"],
+      "body": "Corn in Iowa performs best when soil temperatures are warm enough for uniform emergence. Early growth is strongest when daytime conditions stay warm and fields retain consistent moisture without standing water. Extension guidance for Iowa producers often emphasizes well-drained soils, steady moisture, and attention to planting windows.",
+      "published_hint": "extension bulletin"
+    },
+    {
+      "source_id": "midwest-agronomy-corn-temperature",
+      "title": "Corn Temperature and Emergence Notes",
+      "source_url": "https://fixtures.local/midwest-agronomy/corn-temperature",
+      "document_type": "html",
+      "snippet": "Corn germination is more reliable once soils warm and crop stress declines under moderate temperatures.",
+      "tags": ["corn", "iowa", "agronomy", "temperature", "emergence", "soil"],
+      "body": "Agronomy references for Midwestern corn commonly note that germination improves once soil temperatures reach roughly 10 degrees Celsius or 50 degrees Fahrenheit. Strong vegetative growth is usually described under warm conditions rather than cold spring weather. These sources also note that persistent cold or saturated soil can delay emergence.",
+      "published_hint": "agronomy guide"
+    },
+    {
+      "source_id": "crop-water-management-corn",
+      "title": "Corn Moisture Management Guide",
+      "source_url": "https://fixtures.local/water-management/corn-moisture",
+      "document_type": "html",
+      "snippet": "Consistent moisture matters most during establishment and later reproductive stages.",
+      "tags": ["corn", "iowa", "moisture", "water", "crop guide", "soil"],
+      "body": "Corn benefits from consistent moisture through establishment, and water stress can reduce performance during tasseling and grain fill. Guidance aimed at Iowa and surrounding states often pairs moisture recommendations with soil drainage notes because excess water can be as harmful as drought. Productive corn systems balance moisture availability with oxygen in the root zone.",
+      "published_hint": "crop guide"
+    }
+  ]
+}

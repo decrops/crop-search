@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-1097edc62e409c2a",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s12571-015-0478-1.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s12571-015-0478-1.pdf",
+  "doi": "https://doi.org/10.1007/s12571-015-0478-1",
+  "title": "Environmental impacts and constraints associated with the production of major food crops in Sub-Saharan Africa and South Asia",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "1097edc62e409c2a48b916db2b505bee6879b42dee9c3caf149672d7dbeeacae",
+  "content_hash": "945e34b9d357b407fac7c4ef5720cf7fd43863f3e9f2fa15438119005bb49ac7",
+  "text_length": 97819,
+  "publication_date_hint": "2015",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W822333895",
+    "doi": "https://doi.org/10.1007/s12571-015-0478-1",
+    "publication_year": 2015,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/091-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

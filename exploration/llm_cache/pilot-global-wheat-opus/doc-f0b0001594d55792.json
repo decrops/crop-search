@@ -1,0 +1,131 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "qualifier": "optimum",
+      "evidence_text": "Optimum planting dates will be the week prior to and week after the average first frost date for your area... The optimum window for wheat planting in Georgia is typically within one week before or after the average first frost date for a given region.",
+      "claim_summary": "Optimum wheat planting window is one week before to one week after the average first frost date.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 1200000,
+      "range_max": 1500000,
+      "unit": "seeds/acre",
+      "qualifier": "optimum",
+      "evidence_text": "Multiple seeding rate studies have been conducted throughout the southeastern U.S. and most show that seeding 1.2 million to 1.5 million seeds/acre is optimum. This is equal to seeding about 30-35 seeds/square foot.",
+      "claim_summary": "Optimum wheat seeding rate is 1.2-1.5 million seeds/acre (~30-35 seeds per square foot).",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 35,
+      "unit": "seeds/ft2",
+      "qualifier": "optimum",
+      "evidence_text": "seeding about 30-35 seeds/square foot... a target of 30-35 seeds/square foot, rather than by bushels/acre.",
+      "claim_summary": "Target wheat seeding density of 30-35 seeds per square foot.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "range",
+      "range_min": 1,
+      "range_max": 1.5,
+      "unit": "inch",
+      "qualifier": "recommended",
+      "evidence_text": "Uniform planting depth of 1 to 1.5-inches promotes uniform emergence as uncontrolled planting depth places some seed too shallow or too deep.",
+      "claim_summary": "Recommended uniform wheat planting depth of 1 to 1.5 inches.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 40,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Partition some of your nitrogen fertilizer for the early season (at or shortly after planting) to support fall tiller production. Approximately 85% of yield potential is from fall tillers. Approximately 30-40 lbs of N is adequate to support good tillering (less when following peanuts).",
+      "claim_summary": "Approximately 30-40 lb N/acre at/after planting supports fall tillering in wheat.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Partition some of your nitrogen fertilizer for the early season (at or shortly after planting) to support fall tiller production... Planting on-time ensures the best chance to obtain the proper number of tillers by GS 30... If your stand has fewer tillers at GS 25 (i.e. 50-60 per square foot) then early N applications will be needed",
+      "claim_summary": "Wheat N split: early-season N at/after planting for fall tillers, additional spring N at GS25 if tiller numbers are low.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "range",
+      "range_min": 1,
+      "range_max": 42,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "In the Southeast, vernalization requirements for commonly grown varieties can be as short as one day or as long as six weeks. Planting later maturing varieties early is critical as vernalization can begin as soon as the seed absorbs water and begins to swell.",
+      "claim_summary": "Wheat vernalization requirements range from as little as 1 day to 6 weeks depending on variety.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "numeric",
+      "numeric_value": 100,
+      "unit": "tillers/ft2",
+      "qualifier": "optimum",
+      "evidence_text": "High yield wheat requires about 100 tillers per square foot at GS 30.",
+      "claim_summary": "High-yield wheat requires about 100 tillers per square foot at GS30 (stem elongation).",
+      "extraction_confidence": "high",
+      "bbch_min": 30,
+      "bbch_max": 30
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "numeric",
+      "numeric_value": 300,
+      "unit": "seconds",
+      "qualifier": "threshold",
+      "evidence_text": "A common threshold for buying wheat is 300. Falling numbers below 300 may be considered to have sprout damage and reduced quality; whereas, falling numbers above 300 indicate good baking quality and shelf life.",
+      "claim_summary": "Falling number threshold of 300 separates sprout-damaged from good baking-quality wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "A major factor influencing sprout and falling number is how long the crop sits in the field under wet conditions prior to harvest... these quality standards emphasize the importance of harvesting as soon as possible, once the crop is mature.",
+      "claim_summary": "Preharvest sprouting risk rises the longer mature wheat sits in the field under wet conditions, lowering falling number and test weight.",
+      "extraction_confidence": "high",
+      "methods": ["harvest"]
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Research from Alabama, Georgia, and South Carolina has consistently shown increased wheat yields with deep tillage... No-till is less common in South Georgia wheat production due to observed yield reductions ranging from 3-20%.",
+      "claim_summary": "Wheat responds positively to deep tillage; no-till causes 3-20% yield reductions in the southeastern US.",
+      "extraction_confidence": "high",
+      "methods": ["tillage"]
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "value_type": "numeric",
+      "numeric_value": 85,
+      "unit": "percent",
+      "qualifier": "minimum",
+      "evidence_text": "The use of certified seed will help insure you are planting seed with a minimum germination of 85% and free of noxious weeds.",
+      "claim_summary": "Certified wheat seed has a minimum germination of 85 percent.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

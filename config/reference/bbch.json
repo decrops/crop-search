@@ -1,0 +1,16 @@
+{
+  "reference": "BBCH",
+  "description": "BBCH principal growth-stage scale (0-9), shared across crops as the phenology spine. Crop profiles map local stage terms to BBCH ranges via bbch_stage_map.",
+  "principal_stages": [
+    { "code": 0, "name": "Germination, sprouting, bud development" },
+    { "code": 1, "name": "Leaf development" },
+    { "code": 2, "name": "Formation of side shoots / tillering" },
+    { "code": 3, "name": "Stem elongation / shooting / rosette growth" },
+    { "code": 4, "name": "Development of harvestable vegetative parts / booting" },
+    { "code": 5, "name": "Inflorescence emergence / heading" },
+    { "code": 6, "name": "Flowering" },
+    { "code": 7, "name": "Development of fruit / grain" },
+    { "code": 8, "name": "Ripening of fruit and seed" },
+    { "code": 9, "name": "Senescence / death" }
+  ]
+}

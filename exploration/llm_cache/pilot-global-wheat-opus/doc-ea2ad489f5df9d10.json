@@ -1,0 +1,31 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Small grains can still show good response to N topdressed at this time, although yield responses will be better at Feekes 5.0 as head size can no longer be affected by fertilizer application.",
+    "claim_summary": "Nitrogen topdress response best around Feekes 5.0; head size no longer affected by later fertilizer",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"],
+    "bbch_min": 30,
+    "bbch_max": 31
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Nitrogen applications at Feekes 8.0 and later can enhance grain protein levels, but are questionable with respect to added yield.",
+    "claim_summary": "Late N (Feekes 8.0+) boosts grain protein but not yield",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "water.drought_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Irrigation scheduling becomes most critical between Feekes 8.0 and mid-grain (Feekes 11.1). The crop should not be stressed from about 10 days prior to bloom through the late milk stage.",
+    "claim_summary": "Most drought/irrigation-critical period from Feekes 8.0 to mid-grain (10 days pre-bloom through late milk)",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  }
+]}

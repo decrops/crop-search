@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 5,
+      "range_max": 15,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "The probability of wheat distribution is elevated when the mean temperature ranges between 5 and 15 °C, which may physiologically enhance the flowering (anthesis) and grain-filling stages of wheat.",
+      "claim_summary": "Wheat distribution probability is highest when mean temperature is 5-15 C, favoring anthesis and grain filling.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 5.5,
+      "range_max": 10,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Optimal wheat cultivation occurred at lower temperatures of 5.5°C–10°C, with the probability approaching 100%.",
+      "claim_summary": "Optimal wheat cultivation occurs at coldest-quarter mean temperatures of 5.5-10 C (probability ~100%).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.maximum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 17,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "wheat suitability declined when temperature seasonality exceeded 300, cold season temperatures surpassed 17°C–18°C, or precipitation during the coldest quarter exceeded 100 mm.",
+      "claim_summary": "Wheat suitability declines sharply when cold-season mean temperature exceeds 17-18 C.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "text",
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "The probability approached 1.0 when the rainfall exceeded 100 mm... precipitation during the coldest quarter exceeded 100 mm... excessive rainfalls in the wettest month (above 75 mm) adversely affected wheat viability.",
+      "claim_summary": "Wheat suitability is favored by moderate rainfall; coldest-quarter precipitation above 100 mm or wettest-month rainfall above 75 mm reduces viability.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

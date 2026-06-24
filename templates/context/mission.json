@@ -1,0 +1,11 @@
+{
+  "id": "mission-core",
+  "version": "0.1.0",
+  "pack_type": "mission",
+  "title": "Core mission",
+  "content": "Build a provenance-aware crop knowledge system where every promoted claim is traceable to source evidence and validated before loading.",
+  "references": [
+    "SEARCH_EXPLORATION_SUMMARY.md"
+  ],
+  "updated_at": "2026-05-28T12:00:00Z"
+}

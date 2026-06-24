@@ -1,0 +1,36 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 52,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "The N application rate (kgha-1 yr-1) showed a curvilinear time trend, with 50-year averages of 80, 71, and 52 in maize, rice, and wheat, respectively",
+      "claim_summary": "Global 50-year average N fertilizer application rate for wheat was 52 kg/ha/yr.",
+      "extraction_confidence": "high",
+      "methods": ["global budget analysis"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 48,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The REN of the three cereals was 56% for maize, 36% for rice, and 48% for wheat.",
+      "claim_summary": "Fertilizer-N recovery efficiency (REN) for wheat is 48% (researchers' trials; ~25% lower in farmers' fields).",
+      "extraction_confidence": "high",
+      "methods": ["global budget analysis"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 80,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "The contributions of seed to maize, rice, and wheat were based on the seed rate of 25, 20, and 80kgha-1 yr-1, respectively, commonly used for these crops",
+      "claim_summary": "Common wheat seed rate of 80 kg/ha/yr used globally.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Crop Suitability (SoilFER)",
+      "text": "Followers 0"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Organization",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 1,
+      "heading": "SoilFER",
+      "text": "The Soil Mapping for Resilient Agrifood Systems (SoilFER) project in Central America and sub-Saharan Africa aims to provide valuable soil information to guide policymaking and... read more"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Social",
+      "text": "Twitter Facebook"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "License",
+      "text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 1,
+      "heading": "Crop Suitability (SoilFER)",
+      "text": "The Crop Suitability results represent the final step of the Agro-Ecological Zones (AEZ) crop suitability and productivity assessment, combining agro-climatic potential yields with soil/terrain evaluation results. In this sub-theme the suitability of total land areas is summarized based on classification of a normalized suitability index SI. The normalized suitability index has been calculated for selected opportunity crops in alignment with the Vision for Adapted Crops and Soils (VACS), by level of input management and separately for rain-fed and irrigated conditions. Results of calculated SI values for each grid cell are grouped into 8 aggregate classes, termed as follows: (1) Very high, when SI > 8500; (2) High, when 7000 < SI \u2264 8500; (3) Good, when 5500 < SI \u2264 7000; (4) Medium, when 4000 < SI \u2264 5500; (5) Moderate, when 2500 < SI \u2264 4000; (6) Marginal, when 1000 < SI \u2264 2500; (7) Very marginal, when 0 < SI \u2264 1000; and (8) Not suitable, when SI = 0. Results are provided for each combination of crop and soil group, mapped according to the Harmonized World Soil Database version 2 (HWSD v2) (FAO & IIASA, 2023), and take into account climatic conditions derived from the AgERA5 dataset, covering the historical period 2001-2020."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Data and Resources",
+      "text": "Crop Suitability terriajs-group The Crop Suitability results represent the final step of the Agro-Ecological... Preview"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Additional Info",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Field",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Last Updated",
+          "February 9, 2026, 15:00 (UTC)"
+        ],
+        [
+          "Created",
+          "October 1, 2024, 15:09 (UTC)"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "The Crop Suitability results represent the final step of the Agro-Ecological Zones (AEZ) crop suitability and productivity assessment, combining agro-climatic potential yields with soil/terrain evaluation results. In this sub-theme the suitability of total land areas is summarized based on classification of a normalized suitability index SI. The normalized suitability index has been calculated for selected opportunity crops in alignment with the Vision for Adapted Crops and Soils (VACS), by level of input management and separately for rain-fed and irrigated conditions. Results of calculated SI values for each grid cell are grouped into 8 aggregate classes, termed as follows: (1) Very high, when SI > 8500; (2) High, when 7000 < SI \u2264 8500; (3) Good, when 5500 < SI \u2264 7000; (4) Medium, when 4000 < SI \u2264 5500; (5) Moderate, when 2500 < SI \u2264 4000; (6) Marginal, when 1000 < SI \u2264 2500; (7) Very marginal, when 0 < SI \u2264 1000; and (8) Not suitable, when SI = 0. Results are provided for each combination of crop and soil group, mapped according to the Harmonized World Soil Database version 2 (HWSD v2) (FAO & IIASA, 2023), and take into account climatic conditions derived from the AgERA5 dataset, covering the historical period 2001-2020.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "The Crop Suitability results represent the final step of the Agro-Ecological...",
+      "char_offset": 1244
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-17feb7de5674e2ea"
+}

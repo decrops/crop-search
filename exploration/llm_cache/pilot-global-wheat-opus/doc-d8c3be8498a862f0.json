@@ -1,0 +1,32 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "numeric",
+      "numeric_value": 38.28,
+      "unit": "g",
+      "qualifier": "observed",
+      "evidence_text": "The mean TKW in control was 38.28 g, which decreased to 37.36 g under drought, 29.99 g under heat, and 25.49 g under combined stress condition.",
+      "claim_summary": "Wheat RIL mean thousand-kernel weight was 38.28 g under control (timely-sown irrigated) conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "numeric",
+      "numeric_value": 29.99,
+      "unit": "g",
+      "qualifier": "observed",
+      "evidence_text": "The mean TKW in control was 38.28 g, which decreased to 37.36 g under drought, 29.99 g under heat, and 25.49 g under combined stress condition.",
+      "claim_summary": "Wheat thousand-kernel weight fell to 29.99 g under heat stress (late-sown) and 25.49 g under combined heat+drought stress.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "the TKW decreased because the high temperature during grain filling caused forced maturity, reduced photosynthetic assimilation and starch content leading to the development of undernourished shriveled seeds.",
+      "claim_summary": "High temperature during grain filling forces early maturity and reduces kernel weight in wheat.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

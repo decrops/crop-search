@@ -1,0 +1,42 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 80,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "Two-thirds of the plots were given the industry-standard fertilizer dose of 80 kilograms of nitrogen, 40 kilograms of phosphorus, and 40 kilograms of potassium per hectare.",
+      "claim_summary": "Industry-standard fertilizer dose for spring wheat trial was 80 kg N/ha.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 40,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "the industry-standard fertilizer dose of 80 kilograms of nitrogen, 40 kilograms of phosphorus, and 40 kilograms of potassium per hectare",
+      "claim_summary": "Industry-standard fertilizer dose for spring wheat trial included 40 kg P/ha.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 40,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "the industry-standard fertilizer dose of 80 kilograms of nitrogen, 40 kilograms of phosphorus, and 40 kilograms of potassium per hectare",
+      "claim_summary": "Industry-standard fertilizer dose for spring wheat trial included 40 kg K/ha.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "More than 26,000 spikes were annotated with an average of 83 spikes per plot image.",
+      "claim_summary": "Wheat spike density averaged 83 spikes per plot image in field phenotyping dataset (image-based count, not area-normalized).",
+      "extraction_confidence": "low"
+    }
+  ]
+}

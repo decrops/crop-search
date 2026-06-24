@@ -1,0 +1,38 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "numeric",
+      "numeric_value": 180,
+      "unit": "mm",
+      "qualifier": "typical",
+      "evidence_text": "the gross irrigation requirement of MBD is 59.8 and net irrigation is 41.9 mm less than CWR which is 180 mm",
+      "claim_summary": "Total seasonal crop water requirement (CWR) of wheat at Mandibahauddin, Punjab is about 180 mm (CROPWAT/Penman-Monteith).",
+      "extraction_confidence": "high",
+      "methods": ["cropwat modeling", "penman-monteith"]
+    },
+    {
+      "parameter_id": "water.irrigation_trigger",
+      "value_type": "range",
+      "range_min": 44.7,
+      "range_max": 184.2,
+      "unit": "mm",
+      "qualifier": "recommended",
+      "evidence_text": "The total irrigation water requirement of wheat in MBD, FSD, TTS, BWN, BWP, and KNP is 44.7, 102.2, 103.1, 119.1, 179, and 184.2 mm, respectively.",
+      "claim_summary": "Seasonal irrigation water requirement of wheat across Punjab agro-climatic zones ranges 44.7-184.2 mm (highest in arid southern districts).",
+      "extraction_confidence": "high",
+      "methods": ["cropwat modeling"]
+    },
+    {
+      "parameter_id": "water.irrigation_trigger",
+      "value_type": "numeric",
+      "numeric_value": 184.2,
+      "unit": "mm",
+      "qualifier": "maximum",
+      "evidence_text": "the highest IWR was observed in KNP 184.2 mm, as this area has a sub-tropical desert climate, less rainfall, and hot summers resulting in high water requirements and the lowest IWR was observed in MBD 44.7 mm",
+      "claim_summary": "Maximum wheat irrigation water requirement 184.2 mm at Khanpur (sub-tropical desert climate); minimum 44.7 mm at Mandibahauddin.",
+      "extraction_confidence": "high",
+      "methods": ["cropwat modeling"]
+    }
+  ]
+}

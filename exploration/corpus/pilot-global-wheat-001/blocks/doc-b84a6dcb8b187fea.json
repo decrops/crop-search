@@ -1,0 +1,1555 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Assessment of agricultural land suitability for cereal crops based on the analysis of soil physico-chemical characteristics",
+      "text": "Research Open access Published: 12 February 2024 Volume 13 , article number 6 ( 2024 ) Cite this article You have full access to this open access article Download PDF Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "This research aimed at evaluation of a given land resource suitable for selected rain fed crops production (malt barley, wheat and teff) in Ambesh watershed. It also quantified suitable land and classified into the land mapping units (LMUs), and presents a land suitability map. Land suitability assessment (LSA) made using climatic condition, topography, soil physical and chemical properties as a major factor integrated with a multi criteria decision making (MCDM) analysis in Ambesh watershed. Fourteen composite soil samples were taken by categorizing the watershed into different land mapping units (LMUs) and analyzed in a soil laboratory. Climatic data, rainfall was obtained from two meteorological stations nearby to the study area. Temperature data derived from Landsat 8 satellite thermal bands data. Data obtained from the soil laboratory and others were finally analyzed using ArcGIS environment and priority estimation tool (PriEsT) software\u2019s. Weighted Sum Overlay was implemented to investigate the final LSA map of the watershed. Results revealed that LMUs, VRe\u2013LPq and LPK.Pq\u2013FLc LMUs has higher overall suitability for all the selected rain fed crops. However, LMUs ( VRe\u2013NTu and NTu\u2013VRe ) has lower overall suitability values particularly for S 1 suitability class (0.05% and 10.6%, respectively). The least suitable LMU is VRe\u2013NTu with 0.05% S 1 suitability class and above 99% of the land laid under the suitability classes of moderately suitable, marginally suitable and not suitable for the selected land utilization types. Moreover, about 219.06 ha (17.76%), 217.6 ha (17.64%), 168.9 ha (13.7%), of land are highly suitable for malt barley, teff and wheat crop production, respectively. In conclusion, during MCDM, classifying the land into closer homogeneities (LMU) an important application of LSA integrated with remote sensing and GIS for a better decision making. Meanwhile, majority (above two third\u2019s) of the land in the watershed is under moderate and marginally suitable, it needs intensive land management activities to increase the land qualities and obtain high yields. LSA recommended before land utilization decision has to be made. It is also important to classifying the land into LMUs to make it more homogeneous for sample taking and reducing the prestigious soil laboratory analysis costs."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Land capability assessment of Sali watershed for agricultural suitability using a multi-criteria-based decision-making approach Article 05 February 2024 Land suitability analysis using AHP-based multi-criteria decision model for sustainable agriculture in red and lateritic zones of West Bengal, India Article 16 September 2022 Agricultural land suitability classification and crop suggestion using machine learning and spatial multicriteria decision analysis in semi-arid ecosystem Article 04 February 2024"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Land capability assessment of Sali watershed for agricultural suitability using a multi-criteria-based decision-making approach",
+      "text": "Article 05 February 2024"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Land suitability analysis using AHP-based multi-criteria decision model for sustainable agriculture in red and lateritic zones of West Bengal, India",
+      "text": "Article 16 September 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Agricultural land suitability classification and crop suggestion using machine learning and spatial multicriteria decision analysis in semi-arid ecosystem",
+      "text": "Article 04 February 2024"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Agroecology Agricultural Geography Agriculture Crop waste Soil and Water Protection Soil Science Geospatial Multi-Criteria Land Suitability Analysis"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "The world\u2019s population is under very rapid increasing rate and will pass from 7.5 billion by 2020 and projected to reach 9.4 to 10.2 billion by the year 2050 (Lal 2001 ; He et al. 2016 ; Boretti and Rosa 2019 ; Siegel 2021 ). Thus, global crop demand increased from 100 to 110% by the year 2005 to 2050 (Tilman et al. 2011; Tian et al. 2021). However, the problem is very serious in Africa, which has a negative relationship of the growth rate for cereals grain yield (about 1%) and population growth (about 3%) (Carvalho 2006 ). Moreover, as other studies revealed and has been observed that in the course of the last 35 years, Africa\u2019s cereals production per capita has decreased from 150 to 130 kg person \u22121 , however in Asia and Latin America, cereal production increase from 200 to 250 kg person \u22121 (FAO 2001 ). Furthermore, the annual cereal deficit in sub-Saharan Africa accounts for 100 million tons and the food scarcity gap (food demand greater than food crop production) is widening. Hence, Food imports increased by about 185% between the year 1974 and 1990 while food aid increased by 295% (Bationo et al. 2007 ). In Ethiopia, therefore, low agricultural productivity is characterized by a multitude of factors including human population pressure, which resulted in serious land degradation (WFP 2014 ). Thus, evaluating land suitability for malt barley, wheat, and teff in Ambesh watershed is very important since the area has a potential to grow the above stated major cereal food and cash crops. It is also important to satisfy the demand of malt barley (malting), teff (staple food supply) and wheat (flour industries) that enhance their efficiency. Ultimately, it can reduce the cost of importing malt for beverage industries in Ethiopia. Agricultural land suitability assessment (ALSA), the process of assessing land performance used for alternative cropping activities in agriculture (Elsheikh et al. 2013 ; Akpoti et al. 2019 ). Therefore, the principal purpose of ALSA is to predict the potential and limitations of a given land for crop production (Ozsahin and Ozdes 2022 ). Moreover, land suitability also assessed considering rational cropping system, for optimizing the use of a piece of land for a specific use (FAO 1976 ; Sys et al. 1991 ). In remote sensing and GIS, \u201cWhat is to grow or develop where?\u201d can be answered by land suitability analysis with minimum cost and short time (Olusina and Shyllon 2014 ; Abate et al. 2022 ). Therefore, higher yield of crop production exists when the sustainability of the land is studied and if the land be categorized and utilized based upon their actual and potential capacity to produce crops (Verheye et al. 2009 ; Shah and Wu 2019 ). Most LSA has been done with a coarser data analysis of land characteristics mostly without particular soil chemical and physical properties except some researches recently published such as variability modeling and mapping of soil properties (Tiruneh et al. 2023a , b ). Moreover, other studies use different methodologies of LSA such as Fuzzy analysis (Ahamed et al. 2000 ; Prakash 2003 ; Mokarram et al. 2010 ; Jamil et al. 2018 ), GIS and computer based land suitability analysis (Pan and Pan 2012 ), multi-criteria decision-making approach using GIS (Perveen et al. 2007 ; Mustafa et al. 2011 ; Romano et al. 2015 ; Ostovari et al. 2019 ), and land suitability analysis (Halder 2013 ). However, this study used a detail analysis of most land attributes such as the physical and chemical properties of soil, climatic condition (rainfall and temperature) and topographic factors (altitude and slope). Such land suitability analysis can indicate a better accuracy in finding the best land utilization types input to land policy makers and managerial decisions. Consequently, land use change policy decisions to other economically important land utility can be better and easier. Crop land suitability mapping and analysis, one of the most important contemporary applications of remote sensing"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 2,
+      "heading": "Research methods",
+      "text": "Description of the study area Ambesh Watershed is located in Aneded District, East Gojjam Administrative Zone (Fig. 1 ). It is located in between Debre Markos City (North West direction) and Anded District (Southeast direction), North West direction from the capital city of Ethiopia, Addis Ababa. It is one of the productive watershed to produce cereal crop in Aneded District (Amsalu and Regassa 2022 ). Ambesh watershed can produce major food crops such as Barley, Wheat and Teff. It is 8 km far from Debre Markos city to the Eastern direction. The altitude of the watershed ranges from 2310 to 2502 m above sea level. It is located between 10\u00b015\u203200\u2032\u2032 N to 10\u00b018\u203215\u2032\u2032 N latitude and 37\u00b047\u203200\u2032\u2032 E to 38\u00b048\u203200\u2032\u2032 E longitude. Ambesh watershed has total area of about 1234 ha of land. The watershed had three major soil types such as Lithosols, Nitosols and Vertisols. It has three major land use systems, cultivation, grassland and plantation (Aneded district SLM project 2014). Slope of the study area ranges from gentle slope (0\u00b0) to steep slope (25.45\u00b0). Fig. 1 Full size image Location map of Ambesh watershed Data source Research data obtained from different primary and secondary data sources (Table 1 ). Primary data used for the study collected by direct field observation and field survey, taking ground control points (GCPs) using GPS instrument and soil samples collected with soil auger. While, secondary data were obtained from ALOS PALSAR DEM data with 12.5 m spatial resolution, used to calculate the altitude and slope of the watershed. Annual rainfall data were taken from meteorological stations. Table 1 Data source (primary and secondary data) of the study area Full size table Methods Soil survey methods The watershed, Ambesh was delineated using DEM data obtained from ALOS PALSAR of 12.5 m spatial resolution (Table 1 ). Due to the difference in topography (slope and elevation of the land), stratified random soil sampling method was applied to identify and determine the auger points and generate land map units (LMU, having similar property in a single strata) (Smiraglia et al. 2013 ). This stratified soil sampling technique can maintain to keep the consistency and uniformity of sample taking within the LMUs. LMUs (part of the spatial unit of analysis for land suitability evaluation) refers to internally uniform areas of land with some soil physical characteristics or qualities such as topography of the land and soil color (Mantel and Kauffman 1995 ). The delineation of LMUs are based on land qualities that have the most influence on the land uses under consideration. Hence, the researcher is free to choose sample points in order to create a systematical model of the soil landscape relationships, draw boundaries, and determine LMU compositions (Fig. 2 ). As a result, the watershed was divided into four major LMUs based on the soil forming factors of topography (mainly altitude and slope, a re-classification method of natural break of the land) and observed parent materials (FAO 1993 ; Nachtergaele et al. 2015 ) (indicated in Table 2 ). Elevation is the primary determinant factor of agricultural land use options in Ethiopia due to its influence on temperature and rainfall (Abate 2011 ). However, other soil forming factors like climate, vegetation and time in the watershed are more or less similar and it was difficult to differentiate the LMUs with these soil-forming factors. Fig. 2 Full size image Land mapping units, transect lines and CSSP during the soil survey in Ambesh watershed Table 2 Land mapping units and their descriptive names of Ambesh watershed Full size table The transect soil survey method was conducted along transects (i.e. following top\u2013bottom of Ambesh watershed landscape) and by using external factors such as variation in topography and land use to decide, profile points (Fig. 2 ). Soil samples were collected purposively based on the designed LMUs. Therefore, the researchers can reduce biases and free to choose which, "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Description of the study area",
+      "text": "Ambesh Watershed is located in Aneded District, East Gojjam Administrative Zone (Fig. 1 ). It is located in between Debre Markos City (North West direction) and Anded District (Southeast direction), North West direction from the capital city of Ethiopia, Addis Ababa. It is one of the productive watershed to produce cereal crop in Aneded District (Amsalu and Regassa 2022 ). Ambesh watershed can produce major food crops such as Barley, Wheat and Teff. It is 8 km far from Debre Markos city to the Eastern direction. The altitude of the watershed ranges from 2310 to 2502 m above sea level. It is located between 10\u00b015\u203200\u2032\u2032 N to 10\u00b018\u203215\u2032\u2032 N latitude and 37\u00b047\u203200\u2032\u2032 E to 38\u00b048\u203200\u2032\u2032 E longitude. Ambesh watershed has total area of about 1234 ha of land. The watershed had three major soil types such as Lithosols, Nitosols and Vertisols. It has three major land use systems, cultivation, grassland and plantation (Aneded district SLM project 2014). Slope of the study area ranges from gentle slope (0\u00b0) to steep slope (25.45\u00b0). Fig. 1 Full size image Location map of Ambesh watershed"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Data source",
+      "text": "Research data obtained from different primary and secondary data sources (Table 1 ). Primary data used for the study collected by direct field observation and field survey, taking ground control points (GCPs) using GPS instrument and soil samples collected with soil auger. While, secondary data were obtained from ALOS PALSAR DEM data with 12.5 m spatial resolution, used to calculate the altitude and slope of the watershed. Annual rainfall data were taken from meteorological stations. Table 1 Data source (primary and secondary data) of the study area Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 4,
+      "heading": "Soil survey methods",
+      "text": "The watershed, Ambesh was delineated using DEM data obtained from ALOS PALSAR of 12.5 m spatial resolution (Table 1 ). Due to the difference in topography (slope and elevation of the land), stratified random soil sampling method was applied to identify and determine the auger points and generate land map units (LMU, having similar property in a single strata) (Smiraglia et al. 2013 ). This stratified soil sampling technique can maintain to keep the consistency and uniformity of sample taking within the LMUs. LMUs (part of the spatial unit of analysis for land suitability evaluation) refers to internally uniform areas of land with some soil physical characteristics or qualities such as topography of the land and soil color (Mantel and Kauffman 1995 ). The delineation of LMUs are based on land qualities that have the most influence on the land uses under consideration. Hence, the researcher is free to choose sample points in order to create a systematical model of the soil landscape relationships, draw boundaries, and determine LMU compositions (Fig. 2 ). As a result, the watershed was divided into four major LMUs based on the soil forming factors of topography (mainly altitude and slope, a re-classification method of natural break of the land) and observed parent materials (FAO 1993 ; Nachtergaele et al. 2015 ) (indicated in Table 2 ). Elevation is the primary determinant factor of agricultural land use options in Ethiopia due to its influence on temperature and rainfall (Abate 2011 ). However, other soil forming factors like climate, vegetation and time in the watershed are more or less similar and it was difficult to differentiate the LMUs with these soil-forming factors. Fig. 2 Full size image Land mapping units, transect lines and CSSP during the soil survey in Ambesh watershed Table 2 Land mapping units and their descriptive names of Ambesh watershed Full size table The transect soil survey method was conducted along transects (i.e. following top\u2013bottom of Ambesh watershed landscape) and by using external factors such as variation in topography and land use to decide, profile points (Fig. 2 ). Soil samples were collected purposively based on the designed LMUs. Therefore, the researchers can reduce biases and free to choose which, LMUs are to be collected and analyzed (Fig. 3 below). This prevents the sample from being treated in the same way as those samples that are collected by some probabilistic method (Bilonick 1994 ). Four hundred (400) soil auger samples taken to get fourteen composite soil samples (CSS) CSS requires a very large number of soil sample to make it more precise (Patil 1995 ; Carter and Gregorich 2007 ). Each representative CSS contained twenty-five to thirty-three soil auger samples. Seven soil profile pits were digging up with a depth of 60 cm to 200 cm to estimate its soil depth. Fourteen (14) representative CSSs (Fig. 2 ) with five transects GPS tracks (located on summit, shoulder, foot slope and toe slope) were collected from a depth of 20 cm (Teka et al. 2015). Fig. 3 Full size image Collected composite soil samples (CSSs)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 4,
+      "heading": "Soil laboratory analytical methods",
+      "text": "The collected CSSs were air dried at room temperature, then ground using mortar and pestle, and sieved to pass through 2 mm sieve soil mesh. Soil textures were analyzed using hydrometer method (Sertsu and Bekele 2000 ). Soil textural class was determined by using soil textural triangle calculator giving the percentage of each texture clay, silt and sand obtained from the laboratory soil test results. Once the percentage of sand, silt, and clay determined, the soil textural class was assigned using the USDA textural triangle. Soil pH was measured by water (1:2.5 ratio) using glass electrode pH meter. CaCO 3 in the sample was dissolved in excess hydrochloric acid (HCl). The remainder of the acid is titrated against sodium hydroxide (NaOH). Soil OC was determined using wet digestion method by Walkley and Black (Sertsu and Bekele 2000 ). After obtained the soil organic carbon content of the soil, organic matter content was computed from it by multiplying its value with a constant number 1.724 (Sertsu and Bekele 2000 ). Total N measured after wet digestion using the renown Kjeldahl procedure. Soil phosphorous (P) content was determined using Olsen\u2019s method by the sodium bicarbonate (NaHCO 3 ) (Olsen 1954 ). Potassium (K) was measured by the flame photometer. Soil salinity is the concentration of soluble inorganic salts in the soil (Rhoades 1996 ). It is measured by extracting the soil sample with water (1:1 or 1:5 soil: water ratio, w/v) or in an extract saturated paste. With such rapid extract, salinity is measured by electrical conductivity meter (ECe meter)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 4,
+      "heading": "Rainfall and temperature analysis",
+      "text": "Rainfall variability of the watershed were calculated by the annual (yearly) rainfall amount of the nearby meteorological stations, then interpolating (IDW interpolation method) the rainfall data of Debre Markos (located north western direction of the watershed) and Amber station (located south eastern direction of the watershed). The rainfall amount of Ambesh watershed determined by the data obtained from Ethiopian meteorological agency (Bahir Dar branch). It was interpolated and then clipping with the study area shape. An average yearly four seasons (four representative months) namely; summer (July), autumn (October), spring (April) and winter (January) land surface temperature of the area was computed with Landsat 8 (2022) satellite data. Top of the atmosphere (TOA) radiance calculated by using radiance rescaling factor, thermal infrared digital numbers that are converted into TOA spectral radiance (Rajeshwari and Mani 2014 ) as follows: $$L\\lambda =RaMb*Qcal+RAb,$$ (1) where L\u03bb\u2014TOA spectral radiance (watts m \u22121 ), RaMb\u2014radiance multiplicative band (Band number), RAb\u2014radiance add band (Band number), Q cal \u2014quantized and calibrated standard product pixel values (DN). Secondly, TOA brightness temperature was calculated with spectral radiance data that can be converted to top of atmosphere brightness temperature using the thermal constant values from the meta data file of Landsat 8 data (Latif 2014 ). $$Bt=\\frac{K2}{{\\text{ln}}\\left(\\frac{K1}{L\\lambda }+1\\right)-273.15},$$ (2) where: Bt\u2014top of atmosphere\u2019s brightness temperature (\u2103), L\u03bb\u2014TOA spectral radiance (watts m \u22121 ), K1\u2014K1 constant band from the meta data (no.), K2\u2014K2 constant band from meta data (no.). Thirdly, a standardized vegetation index (normalized vegetation index, NDVI) calculated using the near infrared band (B5, DN value from the infrared band) and red band (B4, DN value from the red band). $$NDVI=\\frac{NIR \\left(B5\\right)-Red (B4)}{NIR \\left(B5\\right)+Red (B4)}.$$ (3) On the fourth stage, the land surface emissivity (PV), an average emissivity value of an element of the surface of the earth calculated from the NDVI. $$PV=[(NDVI-NDVImin) /{ (NDVI max+NDVImin)]}^{2}$$ (4) where PV\u2014proportion of vegetation, NDVI\u2014DN values from NDVI image, NDVI min\u2014minimum DN values from NDVI image, NDVI max\u2014maximum DN values from NDVI image. $$E=0.004*PV+0.986,$$ (5) where E\u2014LSE, PV\u2014proportion of vegetation. Finally, the land surface temperature (LST) of the earth calculated as the radiative temperature using top of atmosphere brightness temperature, wavelength of emitted radiance and LSE (Dash et al. 2002 ) as follows. $$LST=\\left(\\frac{BT}{1}\\right)+W*\\left(\\frac{BT}{14380}\\right)*{\\text{ln}}\\left(E\\right),$$ (6) where BT\u2014top of atmosphere brightness temperature (\u2103), W\u2014wave length of emitted radiance, E\u2014land surface emissivity"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Kriging interpolation",
+      "text": "Kriging estimates the unsampled locations in the spatial field because of its advancement, successful prediction and description of geostatistical spatial variability performance in digital soil mapping (Mart\u00edn et al. 2016 ; Guan et al. 2017 ; Dong et al. 2021 ), isopleth development, and evaluation of the spatial distribution of soil and waste properties. Thus, the nature of the kriging equations has important implications for the design of soil survey (Burgess and Webster 2019 ). Its primary purpose for utilization is within the system of samples. It should not be used to extrapolate outside of the boundaries of the sampling area (Barth and Mason 1984 ). $$Z\\left({\\text{So}}\\right)=\\sum_{i=1}^{N}\\lambda kZ\\left(Sk\\right),$$ (7) where: Z (s k ) = the measured value at the k th location, \u03bb k = an unknown weight for the measured value at the k th location, s o = the prediction location, N = the number of measured values. According to Burgess and Webster ( 2019 ) the results of kriging \u201c\u2026depend to some extent upon the tools and methods that happen to be convenient for sampling\u201d, most appropriate when there is a spatially correlated distance or directional bias in the data and often used in soil science and geology. While, in Inverse Distance Weight (IDW) interpolation method, the weight, \u03bb k , depends solely on the distance to the prediction location. However, with the kriging method, the weights based not only on the distance between the measured points and the prediction location but also the overall spatial arrangement of the measured points. To use the spatial arrangement in the weights, the spatial autocorrelation has to be quantified. Thus, in ordinary kriging, the weight, \u03bb k , depends on a fitted model to the measured points, the distance to the prediction location, and the spatial relationships among the measured values around the prediction location. However, according to Tiruneh et al. 2021 , the inverse distance weighting (IDW) and ordinary kriging (OK) models well described the variation of all soil fertility parameters except OC and available phosphorus."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Selection of land utilization types (LUTs) and land use requirements, (LURs)",
+      "text": "Land resources in Ambesh watershed allow the cultivation of different food and cash crops. However, the farmers in the watershed are striving to be self-sufficient in food crops production rather than producing cash crops like malt barley. They produce major food crops of like teff, wheat, engdo (barley spp. ), barley, and maize. Therefore, producing cash crops required for malting, a raw material for beverage factories of malt barley (Hordeum distichum L. ) is very important source of income for the farmers. Teff (Eragrostis teff ) and wheat ( Triticum aestivum ) also other major food crops produced in the watershed for consumption as well as for sale to flour industries and food complex factories. The LURs are measurable factors on which decisions about land quality and its suitability for a specified land use can be made (Eastman 1999 ). After the determination of the problem, the set of evaluation criteria, which includes attributes and objectives, should be designated (Jankowski 1995 ). It involves specifying a comprehensive set of objectives that reflects all concerns relevant to the decision problem and measures for achieving those objectives, which were defined as attributes. Because the land use requirements are related to geographical entities and the relationships between them, they can be represented in the form of maps referred as attribute maps. Rationally, criteria identification can be done using the participatory approach by a group of experts from various concerned disciplines. However, based on the crop requirements for specific soil parameters, climate and topographic data, FAO ( 1976 ) has given a framework for ALSA as highly suitable (S 1 ), moderately suitable (S 2 ), marginally suitable (S 3 ) and not suitable (N). In this study, criteria identification was done based on various literatures and guidelines and data availability of the watershed (Sys et al. 1993 ; Landon 2014 ). Hence, the following evaluation criteria were considered to address the suitability of the land for agricultural crops such as soil physical properties (soil texture, soil structure, soil depth). Among the soil chemical properties, Electrical Conductivity (ECe), soil pH, Organic Carbon (OC), Cation Exchange Capacity (CEC), total Nitrogen (TN), available Phosphorous (P 2 O 5 ), available potassium (K 2 O), and CaCO 3 ) were selected. Others climatic factors (temperature and rainfall), and topographic factor (altitude and slope)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Multi criteria decision analysis",
+      "text": "Multi criteria decision analysis (MCDA) can provide to do the LSA with a multi or numerous criteria be identified on the field based on land qualities. Here, since the study area is at watershed level, the soil physical and chemical properties are the basic land qualities to investigate the analysis. As a rational decision maker is an individual who maximizes profits and/or minimizes losses (Gabor and Meunier 1993 ). The ultimate aim of remote sensing and GIS is to provide support for making spatial decisions (Malczewski 2004 ). The integration of MCDA in GIS provides a powerful spatial decision support system, which offers the opportunity to produce land suitability maps efficiently (Mendas and Delali 2012 ). Therefore, MCDA also aids decision makers in analyzing potential actions or alternatives based on multiple incommensurable factors/criteria, using decision rules to aggregate those criteria to rate or rank the alternatives (Greene et al. 2011 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 4,
+      "heading": "Analytical hierarchy process (AHP)",
+      "text": "During the application of AHP an inconsistency can occur due to improper computation (Belton and Gear 1983 ). AHP helps to capture both subjective and objective evaluation measures, providing a useful mechanism for checking the consistency of the evaluations thus reducing bias in decision-making (Ishizaka and Lusti 2006 ). AHP uses pairwise comparisons to derive the relative importance (Table 3 ) of the decision factors. It involves three steps: development of a comparison matrix at each level of the hierarchy, beginning at the top, computation of relative importance or weights for each element in the hierarchy, and estimation of consistency ratio (C.R). Table 3 The fundamental scale of absolute numbers in AHP Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 4,
+      "heading": "Consistency ratio (C.R)",
+      "text": "C.R. is a measure of how far a matrix from consistency. Therefore, it can reduce or evaluate inconsistency of judgments in criteria weighting through pairwise comparison. A matrix \u201c a \u201d is consistent if and only if a ik. a kj = a ij at which a ij is the ij th element of the matrix (Buckley 1985 ). In practice, however, it is unrealistic to expect that decision-makers provide exact consistent pairwise comparison matrices especially in the cases with a large number of alternatives. As a general rule of thumb, a C.R. value of 10% (0.1) or less is considered as acceptable (Zeshui and Cuiping 1999 ). Consistency Index (C.I.) is calculated as: $${\\text{C}}.{\\text{I}}=\\frac{\\mathrm{\\lambda max }-{\\text{n}}}{{\\text{n}}-1}$$ (8) C.R. for each matrix in the hierarchy was computed by using the following formula: $${\\text{C}}.{\\text{R}}=\\frac{{\\text{C}}.{\\text{I}}}{{\\text{R}}.{\\text{I}}}*100$$ (9) where, \\(n\\) is the number of criteria, R.I is the Random Index, and \u03bb max is the biggest eigenvalue. Random Index is the average consistency index of randomly generated comparison matrix (Table 4 ). Table 4 RI value of consistency index for various number of input factor (F) used developed by (Saaty 2008 ) Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 4,
+      "heading": "Weighted sum overlay analysis (WSO)",
+      "text": "The GIS software, computer assisted overlay techniques were developed as a response to the manual method\u2019s limitations of mapping and combining large datasets (MacDougall 1975 ; Steinitz 1976 ). Weighted overlay is a technique for applying a common scale of values to diverse and dissimilar inputs to create an integrated analysis (Malczewski 1996 , 2004 ). WSO analysis can overlay several raster multiplying each by their given weight and summing them together. The WSO tool provides the ability to weight and combine multiple inputs to create an integrated analysis. The WSO tool does not rescale the reclassified values back to an evaluation scale and it allows floating-point and integer values. In WS decision and weight matrixes the decision maker assigns a set of importance weights to the criteria as W = (W 1 , W 2 , \u2026\u2026\u2026\u2026.. W n ). The weights Wj was normalized: $${\\sum }_{j=1}^{n}Wj=1$$ (10) Then, assign the value for each factor or criteria and weight to each factor (Eq. 10 ). Thus, the weighted value of the watershed suitability was obtained for Ambesh watershed land suitability. $$CrLSi=\\sum Wj Xij$$ (11) where, C r LS i = Crop land suitability value of i in Ambesh watershed, W j = is the weight of the factor j. X ij = the reclassified value of factor \u2018 j\u2019 in the area \u2018 i\u2019."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Conceptual framework",
+      "text": "The study area has a conceptual workflow (framework) as indicated in Fig. 4 below. It has contents in the left side as setting objectives, determination of LURs (main criteria and sub criteria), standardization of scores and suitability rating of main and sub criteria\u2019s (as S 1 , S 2 , S 3 and N), WSO and ALSA. Fig. 4 Full size image Conceptual frame work"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Results and discussion",
+      "text": "Soil physical properties Soil physical properties such as soil texture, soil depth and soil structure are particularly important for teff, the major food cereal crops production (Demelash 2017 ). Owing to its grain size, germination and root support for stand from the soil teff crop needs very compacted soil and planting applied on it (Gelaw et al. 2013 ). Therefore, for teff crop, among those properties soil structure ranks first (criteria weight of 0.488). Soil texture ranks second with a weight of 0.357 and soil depth ranks the third by weight of 0.155. It has a CR of 0.001 (Table 5 ). Altitude and slope of the study area has also an influence in the production of teff crop. Therefore, altitude ranks first (weight of 0.524) and slope ranks second (weight of 0.476) (Table 5 ). However, malt barley and wheat crop requires `same pairwise comparison matrixes of soil physical properties soil texture (ranks 1st), soil structure (ranks 2nd), and soil depth (ranks 3rd) as shown in Table 5 below. Soil texture is an important parameter affecting the suitability of wheat and malt barely; therefore, the weight of texture was calculated as 0.423 (Mandal et al. 2020 ). However, soil structure and soil depth ranks second and third with a criteria weight of 0.335 and 0.242, respectively for wheat and malt barley crop (Table 5 ). Table 5 Physical soil property PWCM for malt barley, wheat and teff crops Full size table Soil texture Soil texture, soil structure and soil depth are soil physical properties considered to analyze ALSA in the watershed. Soil texture is the classification of the proportion or the percentage of clay, silt and sand in the soil (Ritchey et al. 2015 ). Therefore, the soil textural class of the study area clay and clay loam soil (Table 6 ). However, clay soil texture is the dominant one. Soil structure is classifying the soil structural classes into very fine, fine, medium, coarse, very coarse (Thomasson, 1978). Accordingly, very fine, fine and medium structure soils were present in the study area. The depth of the soil ranges from very deep soil greater than 200 cm to shallow soil depth 60 cm (Table 7 ). Results obtained shows that soil textural classes of the study area are of two types. These are clay loam and clay texture. This is because the proportion of clay in most samples is greater than silt and sand (Table 6 ). Table 6 Soil texture class Full size table Table 7 Soil properties data (physical and chemical soil properties laboratory and field observation result) Full size table Soil structure and soil depth Soil structures in the study area are classified in to three. These are very fine (VF), fine (F) and medium (M) structured soil. It is very important soil physical characteristic especially for teff crop production (Gebretsadik et al. 2009 ; Mihretie et al. 2021 ; Barretto et al. 2021 ). Soil depth is an important crop factor for effective rooting condition of crop growth and development. Depth of the soil in the study area ranged from 60 to 200 cm depth. The spatial variability of soil depth in the study area is shown below in Fig. 5 b. Fig. 5 Full size image Spatial variability ( a ) soil texture ( b ) soil depth ( c ) soil structure Soil chemical properties Eight major chemical properties of the soil were analyzed in the laboratory namely; electrical conductivity (ECe), organic matter (OM), soil pH, cation exchange capacity (CEC), total nitrogen (TN), phosphorus (P), potassium (K) and calcum carbnate (CaCO 3 ) content of the soil. Spatial variability of nitrogen (N), phosphorous (P) and potassium (K) Nitrogen is most important nutrient in agricultural activity. It is a major essential nutrient and component of chlorophyll for the growth of plants (Bojovi\u0107 and Markovi\u0107 2009 ; Ohyama 2010 ; Clevers and Gitelson 2013 ). The amount of total nitrogen in the soil has great advantage to increase the yield of cereal crops such as wheat, teff and malt barley (Ladha et al. 2016 ; Z\u00f6rb et al. 2018 ). However, it sho"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Soil physical properties",
+      "text": "Soil physical properties such as soil texture, soil depth and soil structure are particularly important for teff, the major food cereal crops production (Demelash 2017 ). Owing to its grain size, germination and root support for stand from the soil teff crop needs very compacted soil and planting applied on it (Gelaw et al. 2013 ). Therefore, for teff crop, among those properties soil structure ranks first (criteria weight of 0.488). Soil texture ranks second with a weight of 0.357 and soil depth ranks the third by weight of 0.155. It has a CR of 0.001 (Table 5 ). Altitude and slope of the study area has also an influence in the production of teff crop. Therefore, altitude ranks first (weight of 0.524) and slope ranks second (weight of 0.476) (Table 5 ). However, malt barley and wheat crop requires `same pairwise comparison matrixes of soil physical properties soil texture (ranks 1st), soil structure (ranks 2nd), and soil depth (ranks 3rd) as shown in Table 5 below. Soil texture is an important parameter affecting the suitability of wheat and malt barely; therefore, the weight of texture was calculated as 0.423 (Mandal et al. 2020 ). However, soil structure and soil depth ranks second and third with a criteria weight of 0.335 and 0.242, respectively for wheat and malt barley crop (Table 5 ). Table 5 Physical soil property PWCM for malt barley, wheat and teff crops Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 4,
+      "heading": "Soil texture",
+      "text": "Soil texture, soil structure and soil depth are soil physical properties considered to analyze ALSA in the watershed. Soil texture is the classification of the proportion or the percentage of clay, silt and sand in the soil (Ritchey et al. 2015 ). Therefore, the soil textural class of the study area clay and clay loam soil (Table 6 ). However, clay soil texture is the dominant one. Soil structure is classifying the soil structural classes into very fine, fine, medium, coarse, very coarse (Thomasson, 1978). Accordingly, very fine, fine and medium structure soils were present in the study area. The depth of the soil ranges from very deep soil greater than 200 cm to shallow soil depth 60 cm (Table 7 ). Results obtained shows that soil textural classes of the study area are of two types. These are clay loam and clay texture. This is because the proportion of clay in most samples is greater than silt and sand (Table 6 ). Table 6 Soil texture class Full size table Table 7 Soil properties data (physical and chemical soil properties laboratory and field observation result) Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 4,
+      "heading": "Soil structure and soil depth",
+      "text": "Soil structures in the study area are classified in to three. These are very fine (VF), fine (F) and medium (M) structured soil. It is very important soil physical characteristic especially for teff crop production (Gebretsadik et al. 2009 ; Mihretie et al. 2021 ; Barretto et al. 2021 ). Soil depth is an important crop factor for effective rooting condition of crop growth and development. Depth of the soil in the study area ranged from 60 to 200 cm depth. The spatial variability of soil depth in the study area is shown below in Fig. 5 b. Fig. 5 Full size image Spatial variability ( a ) soil texture ( b ) soil depth ( c ) soil structure"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Soil chemical properties",
+      "text": "Eight major chemical properties of the soil were analyzed in the laboratory namely; electrical conductivity (ECe), organic matter (OM), soil pH, cation exchange capacity (CEC), total nitrogen (TN), phosphorus (P), potassium (K) and calcum carbnate (CaCO 3 ) content of the soil."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 4,
+      "heading": "Spatial variability of nitrogen (N), phosphorous (P) and potassium (K)",
+      "text": "Nitrogen is most important nutrient in agricultural activity. It is a major essential nutrient and component of chlorophyll for the growth of plants (Bojovi\u0107 and Markovi\u0107 2009 ; Ohyama 2010 ; Clevers and Gitelson 2013 ). The amount of total nitrogen in the soil has great advantage to increase the yield of cereal crops such as wheat, teff and malt barley (Ladha et al. 2016 ; Z\u00f6rb et al. 2018 ). However, it should not be underestimate to monitor N fertilizer dynamics in soils because of its importance from the environmental protection perspective, as Nitrate (N \\({\\text{O}}_{3}^{ - }\\) ) is the major pollutants of groundwater, rivers, water and lakes (Liu et al. 2005 ). Consequently, these accumulations of nitrogen, phosphorous and potassium fertilizers enhance the challenges of eutrophication in water bodies, which will create favorable condition for the growth of invasive weeds such as water hyacinth (Schindler 2006 ). The phosphorous (P) content of Ambesh watershed ranges from 12.51 to 13.48 ppm (3.4 to 3.75 mg kg \u22121 ). According to Olsen phosphorous nutrient level, indicated that its level is very low if it is less than 5 mg kg \u22121 (Olsen 1954 ). Crop production relies on continuous input of large amounts of phosphorus (P) however; the spatial variability of the soil is the determinant factor for the application of P fertilizer (Manschadi et al. 2014 ). In association with soil N and soil P, soil K also a macronutrient demanded by plants for rising crop production and productivity per unit of land. Most soils contain relatively large amounts of total potassium (1\u20132%) as components of relatively insoluble minerals. However, only a small fraction (about 1%) presented in available form to plants (water-soluble and Exchangeable-K). In tropical regions (highly weathered acid soils) are more frequently deficient in plant available K, whereas soils in arid and semi-arid areas well supplied with soil K (Ryan et al. 2001 ). As results revealed that the availability of soil K in the study area is lower, ranges from 0.56 to 0.59 ppm (Fig. 6 c). Fig. 6 Full size image Spatial variability ( a ) total nitrogen ( b ) soil phosphorous ( c ) soil potassium content of the study area"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 4,
+      "heading": "Spatial variability of organic matter (OM), cation exchange capacity (CEC) and soil pH",
+      "text": "Organic matter, also known as humus. Based on climate and drainage condition of a given soil type, the OM content of the surface layer varies from the range of 1 to 10% (Woldegiorgis 2007 ). The range of most mineral soils generally have OM content of 0.5% and 6% (Gao et al. 2020). Very low OM is usually found in the soils of arid climate and higher content in soils of cool climate (Franzluebbers 2002 ) and requires remedial soil OC management strategies (Tiruneh et al. 2023a ; b ). Soil CEC, the sum of exchangeable cation soils can absorb (Chapman 1965 ). It is a measure of the quantity of cations (negatively charged sites) adsorbed and held by the soil (the surfaces of clay and humus, called soil colloids) (Rhoades 1983 ). CEC also an indicator of the type of clay mineral present in the soil and its capacity to retain nutrients against leaching (Sertsu and Bekele 2000 ). Soil analysis results revealed that CEC in Ambesh watershed is high (27 to 31 meq/100 g) (Fig. 7 b). Therefore, higher CEC values reflect the dominance of 2:1 clay minerals, and lower values reflect the presence of 1:1 clay minerals. With a consideration of CEC class, soils that have less than 10 meq/100 g has low CEC, ranges from 10 to 25 meq/100 g has medium CEC and those having greater than 25 meq/100 g has high CEC capacity (Burrow 2023). Fig. 7 Full size image Spatial variability ( a ) soil OM content, ( b ) CEC and ( c ) Soil pH Soil pH is one of the most important attributes of a soil. It can help to determine whether a soil is acidic, neutral or basic. Under normal soil circumstance, the agricultural soil pH range varies from 4 to 10. Soil pH lowers with continuous cultivation and excessive application of inorganic fertilizers for longer period (Mokwunye and Bationo 2001 ). However, the soil pH found in the study area ranges from 4.6 to 5.57. It indicates that the soil is strongly acidic to moderately or slightly acidic soil. Soil pH ranges 5.5\u20136.5 is lime free and satisfactory for most crops, however, it should be monitored closely (Estefan 2013 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 4,
+      "heading": "Spatial variability of electrical conductivity (ECe) and calcium carbonate (CaCO 3 )",
+      "text": "ECe of the study area ranges from 14 to 72 \u00b5S/cm (spatial variability of ECe shown below in Fig. 8 a). Based on saturation extract, values of 0 to 2 dS/m are good for all crops; yields of very sensitive crops are affected between 2 to 4 dS/m; most crops are affected between 4 and 8 dS/m; while only tolerant crops grow reasonably well above 8dS/m. Fig. 8 Full size image Spatial variability of ( a ) soil ECe and ( b ) soil CaCO 3 CaCO 3 content in Ambesh watershed ranges from 20 to 24 percent as shown in Fig. 8 b. Inorganic carbonate, either as calcium (calcite) or magnesium (dolomite) carbonate or a mixture of both, occurs in soils as a result of weathering, or is inherited from the parent material. Most soils found in arid and semi-arid regions are calcareous soils."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Topography of the land",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 4,
+      "heading": "Altitude and slope classification",
+      "text": "Results indicated based on the altitudinal classification, Ambesh watershed is highly suitable for most selected LUTs of crops (malt barley and wheat crops). However, teff crop is out of the range of optimum altitude of 1700 to 2200 m and the study area is marginally suitable for it because of few varieties grow above the range of the altitude, 2200 m. Generally, slope ranges (in degrees) from 0 to 4.3 highly suitable, 4.3 to 7.6 is moderately suitable, 7.6 to 11.7 marginally suitable, and 11.7 to 25.42 not suitable for the selected crops. As the slope range value increases, soil depth became shallower, exposure for flooding (runoff) also increases, nutrient availability will decrease and soils are unweather (Wohl 2000 ; Mensah 2015 ). Topography (altitude and slope of the land) and climatic factor, another major criterion for ALSA. In Ambesh watershed, the weight of altitude ranks first (CWt. of 0.64, 0.6 and 0.524) and slope ranks second (CWt. of 0.36, 0.4 and 0.476) for malt barley, wheat and teff crops, respectively (Fig. 9 , Table 8 ). Fig. 9 Full size image Spatial variability of slope ( a ) and altitude ( b ) Table 8 PWCM of topographic factors for malt barley, wheat and teff Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Climate temperature (t) and rainfall (R f )",
+      "text": "Temperature depends on the value of altitude and slope aspect (Tiruneh et al. 2023a , b ), and altitude have inverse relationship, as the altitude of the area increase the temperature decrease and vice versa Ohmura 2012 ). According to Braak (1928) as the higher the elevation or altitude of the area, the lower is the air temperature as cited in (Widiatmaka 2016 ) and the temperature of Ambesh watershed is from 3.373 \u2103 (minimum temperature) to 28.778 \u2103 (maximum temperature) Fig. 10 b. Results revealed that, rainfall variability of the study area ranged from 1254.15 mm to 1302.52 mm, as indicated below in Fig. 10 a. Fig. 10 Full size image Rainfall ( a ) and temperature ( b ) distribution map Climatic condition of the study area has its own influence by providing the fundamental plant growth and development factors such as water (rainfall) and temperature to the selected LUTs. Among the selected sub criteria\u2019s rainfall ranks first having a greater weight that is 0.549, 0.64 and 0.629 followed by temperature, which accounts 0.451, 0.563 and 0.371, for malt barley, wheat and teff crops, respectively (Table 9 ). Table 9 PWCM of climatic factors for malt barley, wheat and teff Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Standardization of factors/criteria of crop production",
+      "text": "Soil chemical and physical properties are the basic nutrient supplier for cereal crop production. The main criteria\u2019s rank soil chemical properties, soil physical properties, climate and topographic factors first, second, third and fourth by scoring a weight of 0.542, 0.264, 0.125 and 0.068, respectively (Table 9 ). This rank works for all the selected LUTs of the selected cereal crops (malt barley, teff and wheat). Under the main criteria there is sub criteria, which contributes its own influence for the weight of its corresponding main criteria. The consistency ratio value of main criteria/ factor of crop production CR is 0.005 (Table 10 ) which is less than 0.1 and acceptable (Zeshui and Cuiping 1999 ). Table 10 Pairwise comparison matrix (PWCM) of main criteria of LSA for all the selected LUTs Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Land suitability for Malt Barley",
+      "text": "Barley, belongs to a grass family grows well in relatively cold and dry weather. Barley suitably grows from 2000 m to 3500 m.a.s.l. The optimum temperature ranges from 15 to 20 \u2103 but it can grow up to 37 \u2103. It requires 700\u20131000 mm of rainfall but the crop can grow in areas that receive 400\u2013500 mm (Bekele et al. 2011; Agegnehu et al. 2011 ; F\u00fcllner et al. 2012 ; Alemu 2015 ; Kidane 2022 ). However, most malt barley varieties best grow in an altitude range of 2300\u20132800 m.a.s.l and 500\u20131200 mm amount of rainfall. Some varieties can adapt and give yield up to 2400\u20132900 m altitude with 500\u2013800 mm rainfall such as CDC-Select variety. It requires 46% N and 46% P for maximum yield (Tehulie and Eskezia 2021 ). Barley best grows on soils with loam and medium clay content and on sandy soils that contains essential macro nutrients. Its soil pH ranges from 6.5\u20137.8 (Obrador et al. 2007 ). Both the qualitative and quantitative general agricultural land suitability (reclassification) requirement of malt barley has been shown in Table 11 . Table 11 Criteria (reclassification) for land suitability rating of malt barley crop in Ambesh watershed Full size table OM content of the soil in Ambesh watershed ranks first for the production of malt barley (Table 12 ). CR value for malt barley is 0.003. Therefore, OM content of the soil in Ambesh watershed is very important factor for the production of malt barely followed by CEC and total nitrogen. However, the least factors of production for malt barley production are ECe and CaCO 3 of the soil chemical properties, respectively. Among the physical properties of the soil characteristics, soil texture ranks first (with a weight of 0.423), soil structure ranks second (weights of 0.335) and soil depth ranks third (having weights of 0.242). Soil texture is most important factor of physical soil properties for malt barley production. However, soil depth is the least of all the physical soil properties due to its shallow and fibrous root system (Bodner et al. 2021 ). The CR value of the physical properties is 0.001 (less than 0.1) and is acceptable. Table 12 Chemical properties of a soil PWCM of malt barley Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Land suitability for Teff",
+      "text": "Teff ( a gluten-free small sized grain crop ) is a cool weather crop grown predominantly in Ethiopian highlands at optimum altitude range of 1800\u20132200 m (Dereje and Eshetu 2011 ). Maximum yield for teff production occurs at altitudes of 1800\u20132100 m, with a growing season minimum rainfall of 450\u2013550 mm, and a temperature range of 10\u201327\u2103 (Gorfu and Ahmed 2012 ). However, a very good result can also be obtained at an altitude range of 1700\u20132200 m and growing season minimum rainfall amount of 300 mm ( http://www.worldbank.org ). Teff can also grow above 2200 m altitude up to 2600 m for some varieties like DZ-CR387 and DZ-01\u20131868 (Belay and Wondie 2022 ; Abew et al. 2020 ). It is cultivated in soils with pH up to 8.5, but pH value of below 5.0 is not suitable (Bahir et al. 2015 ). According to Table 13 , CEC of the soil in the study area is the first chemical soil property for a better production of teff crop followed by P and OM content of the soil. For teff crop production, ECe is the least important factor of production. The CR value of the chemical properties of a soil for teff crop production is 0.002, which is less than the acceptable range of CR 0.1 (Table 14 ). Table 13 Chemical properties of a soil PWCM of Teff Full size table Table 14 Criteria (reclassification) for land suitability of teff crop in Ambesh watershed Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Land suitability for wheat",
+      "text": "Wheat in Ethiopia is grown from1500 m and 3300 m.a.s.l. However, it yields satisfactorily between 2000 and 2600 m altitudes (FAO/UNDP 1987a cited in Abate 2011 ). On an average temperature of 15\u201325 \u2103 and an average rainfall of 400\u20131200 mm is required. The distribution of rainfall throughout the crop growth period is very important. Wheat can be produced on different soil types such as black clay soils, red and brown soils. Sandy soils and soils with problems of waterlogging are unsuitable for wheat production. It requires a high soil fertility, particularly nitrogen and phosphorus, and moderate salinity tolerance (Acevedo et al. 2002 ; EL Sabagh et al. 2021 ; Syers et al. 2008 ). Suitable soil pH for wheat ranges from 5.5 to 8.0 (Garrett 1936 ). It also requires 184 Nitrogen and 92 P 2 O 5 ha \u22121 fertilizer to get maximum yield of wheat in the surrounding areas of Ambesh watershed (Assefa et al. 2023 ). As indicated in Table 15 , among the soil chemical properties, OM content of the soil is the most important factor of production for wheat crop followed by CEC and P content. The least important factors for wheat crop production are CaCO 3 and ECe with Consistency Ratio (CR) value of 0.011. For example, OM is 1.5 times and twice more important than pH and K (Table 16 ). Table 15 Chemical properties of a soil PWCM of wheat Full size table Table 16 Criteria (reclassification) for land suitability of wheat crop in Ambesh watershed Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Overall suitability of LMUs for selected LUTs in Ambesh watershed",
+      "text": "Overall suitability is the total land suitability of each LMU with respected to its selected LUTs. It indicated that which LMU has large suitability coverage (S 1 , S 2 , S 3 and N) for the selected cereal crops. Overall suitability of the land was calculated in terms of percentage of LMUs for the all crops (Table 17 ). For instance, VRe\u2013LPq (Fig. 11 a) and LPK.Pq\u2013FLc (Fig. 11 d) land mapping units has a resemblance highly overall suitability class curve (good overall suitability record in S 1 , S 2 and S 3 with lower values for N) for all crops as shown in overall suitability graph Fig. 11 below. This is mainly due to a relatively higher OM content, CEC and TN content in the LMUs. However, land mapping unit VRe \u2013 NTu (Fig. 11 b) and NTu\u2013VRe (Fig. 11 c) has lower overall suitability values for S 1 suitability class (0.05% and 10.6%, respectively) and higher values in S 2 , S 3 and N suitability classes. These types of LMUs are characterized by steep slopes, shallow soil depth, land degradation such as soil erosion, lower soil OM content, very low P and N, low CEC value and soil acidity problems for agricultural crops. Table 17 Overall suitability of each LMU\u2019s with respect to suitability classes and selected crops Full size table Fig. 11 Full size image Overall suitability versus suitability class of each LMUs a VRe - LPq b VRe - NTu c NTu \u2013 VRe and d LPk.Pq - FLc As indicated in Table 17 below, overall suitability of the LMUs, land utilization types (malt barley, teff and wheat crops) and the percentage of its suitability classes calculated in percent. The overall suitability of land mapping units for the selected LUTs compared its area coverage per se. Thus, for each LMUs and LUTs (malt barley, teff and wheat crops) agricultural suitability land was computed in units of hectares and besides with its percent of coverage. According to Table 18 below, the total area of land is about 1233.78 ha. Hence, malt barley, teff and wheat crops has a highly suitable (219.06, 217.6, and 168.9 hectares), moderately suitable (461.28, 483.23, and 679.47 ha), marginally suitable (490.75, 475.62, and 208.88 ha) and not suitable (62.69, 57.06, and 175.83 ha) of land, respectively. As indicated that based on its LUTs, 17.76% and 37.39% of Ambesh watershed are highly suitable and moderately suitable for malt barley crops production, respectively. Among the total area of land, 39.78% (490.75 ha) of land is marginally suitable for malt barley. Only 5.08% (62.69 ha) of the land is not suitable for malt barley crops production. This is mainly due to soil acidity, very low to low amount of macronutrients availability and its steep slope nature of the land. Moreover, malt barley needs more fertile soil and less tolerance to soil acidity than food barley (Kharub and Chander 2012 ; Terefe et al. 2018; Fekadu et al. 2022 ). Table 18 Land suitability result for malt barley, teff and wheat crop (hectares and coverage in %) Full size table The result of this study showed that 13.7% (168.9 ha), 55.1% (679.47 ha), 16.94 (208.88 ha) and 14.26% (175.83 ha) of land has S 1 , S 2 , S 3 and N for wheat crop production in Ambesh watershed (Table 18 ). This is mainly due to soil acidity problem, slope steepness of the land, low soil P and OM content of the soil. Accordingly, considering the LMUs, LPk.Pq\u2013FLc is highly suitable followed by VRe- LPq LMU for wheat crop production (see Table 17 above). The least suitable LMU for wheat crop production is VRe- NTu in Ambesh watershed. LPk.Pq\u2013FLc LMU has 108.15 ha (22.87%) of its land highly suitable for teff crops production in Ambesh watershed. About three fourth of the land is moderately and marginally suitable for malt barley crop production (Table 18 ). Due to relatively higher CEC, P and OM content than VRe\u2013NTu LMU, all LMUs ( VRe\u2013LPq, NTu-VRe and LPk.Pq\u2013FLc ) except VRe\u2013NTu , are highly suitable for teff crop production each having 83.74, 25.58 and 108.15 ha of land, respectively. The most limiting factor of VRe\u2013NTu L"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "ALSA using remote sensing and GIS is an important application for decision making whether the land is proper for a given type of LUTs or not. An integrated application of MCDM using AHP could also provide many advantages to select the best criteria that contributes a maximum weight (most influential factor) for maximum productivity of crops. Priority Estimation Tool (PriEsT) also has a great advantage to do a PWCM of all the criteria considered in the ALSA. This study is also important for land use planners to provide decision making for the selection of land utilization types and farmers to produce suitable crops based on physical land suitability assessment. Furthermore, classification of the land with land mapping units (an area having homogenous land quality) has also tremendous benefit to take soil sampling easily and minimize the cost of labor and soil laboratory test by compositing many soil auger soil samples into a single CSS. In conclusion, LMUs, VRe\u2013LPq and LPK.Pq\u2013FLc LMUs has higher overall suitability for all the selected rain fed crops. However, LMUs ( VRe\u2013NTu and NTu\u2013VRe ) has lower overall suitability values particularly for S 1 suitability class (0.05% and 10.6%, respectively). However, the least suitable LMU is VRe\u2013NTu with 0.05% S 1 suitability class and above 99% of the land laid under the suitability classes of moderately suitable, marginally suitable and not suitable for the selected LUTs. To end with, majority (above two third\u2019s) of the watershed is under moderate and marginally suitable land, needs intensive land management activities to increase the land qualities and obtain high yields."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "Availability of data and materials",
+      "text": "The authors own all of the materials."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 2,
+      "heading": "References",
+      "text": "Abate S (2011) Evaluating the land use and land cover dynamics in Borena Woreda of South Wollo Highlands, Ethiopia. J Sustain Dev Africa 13(1):87\u2013107 Google Scholar Abate SG, Amare GZ, Adal AM (2022) Geospatial analysis for the identification and mapping of groundwater potential zones using RS and GIS at Eastern Gojjam, Ethiopia. Groundwater Sustain Dev 19:100824 Article Google Scholar Abebe MT, Megento TL (2017) Urban green space development using GIS-based multi-criteria analysis in Addis Ababa metropolis. Appl Geomat 9:247\u2013261 Article Google Scholar Abewa A, Adgo E, Alemayehu G, Yitaferu B, Meresa A (2020) Sensory quality attributes of Tef [Eragrostis tef (Zucc.) Trotter] injera as influenced by genotype and environment. Ethiop J Agric Sci 30(4):39\u201362 Google Scholar Acevedo E, Silva P, Silva H (2002) Wheat growth and physiology. Bread Wheat Improve Prod 30:39\u201370 Google Scholar Agegnehu G, Liben M, Molla A, Feyissa A, Bekele A, Getaneh F (2011) Research achievements in soil fertility management in relation to barley in Ethiopia. Barley research and development in Ethiopia, p. 137. Ahamed TN, Rao KG, Murthy JSR (2000) GIS-based fuzzy membership model for crop-land suitability analysis. Agric Syst 63(2):75\u201395 Article Google Scholar Akpoti K, Kabo-bah AT, Zwart SJ (2019) Agricultural land suitability analysis: state-of-the-art and outlooks for integration of climate change analysis. Agric Syst 173:172\u2013208 Article Google Scholar Alemu T (2015) Determinants of wheat yield variation of smallholders in South Eastern Ethiopia: application of ordered logistic regression. Sci Technol Arts Res J 4(3):61\u201366 Article Google Scholar Amsalu N, Regassa R (2022) Ethnobotanical study of medicinal plants in and around Aba-Asrat Monastery following Chemoga River, East Gojjam zone, northwestern Ethiopia Anteneh MB, Damte DS, Abate SG, Gedefaw AA (2023) Geospatial assessment of urban green space using multi-criteria decision analysis in Debre Markos City, Ethiopia. Environ Syst Res 12(1):7 Article Google Scholar Assefa A, Derebe B, Gebrie N, Shibabaw A, Getahun W, Beshir O, Worku A (2023) Grain yield and quality responses of durum wheat to nitrogen and phosphorus rate in Yielmana Densa area, Western Amhara. Amhara Agric Res Inst (ARARI) 113:526 Google Scholar Assen M, Le Roux PAL (2005) Soils of Jelo Micro-catchment in the chercher highlands of Eastern Ethiopia: i morphological and physicochemical properties. Ethiop J Nat Resourc Bahir AL, Ahmed MA, Antille DL (2015) Land suitability evaluation to optimize land management of small-scale farms in the Gerado catchment, North-Eastern Ethiopia. Trop Agric 92(1):49\u201368 Google Scholar Barretto R, Buenavista RM, Rivera JL, Wang S, Prasad PV, Siliveru K (2021) Teff (Eragrostis tef) processing, utilization and future opportunities: a review. Int J Food Sci Technol 56(7):3125\u20133137 Article CAS Google Scholar Barth DS, Mason BJ (1984) Soil sampling quality assurance user's guide (No. PB-84-198621). Nevada Univ., Las Vegas (USA) Bationo A, Kihara J, Vanlauwe B, Waswa B, Kimetu J (2007) Soil organic carbon dynamics, functions and management in West African agro-ecosystems. Agric Syst 94(1):13\u201325 Article Google Scholar Bekele B, Alemayehu F, Lakew B (2005) Food barley in Ethiopia. Food Barley: importance, uses, and local knowledge. pp. 53\u201382. Belay B, Wondie M (2022) Amhara Agricultural Research Institute (ARARI) Belton V, Gear T (1983) On a short-coming of Saaty\u2019s method of analytic hierarchies. Omega 11(3):228\u2013230 Article Google Scholar Bhaga TD, Dube T, Shekede MD, Shoko C (2020) Impacts of climate variability and drought on surface water resources in Sub-Saharan Africa using remote sensing: a review. Remote Sens 12(24):4184 Article ADS Google Scholar Bilonick RA (1994) Sampling of heterogeneous and dynamic material systems: theories of heterogeneity, sampling and homogenizing. Bodner G, Mentler A, Keiblinger K (2021) Plant roots for sustainable soil structure management in cropping systems. The Root Systems i"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "We acknowledge journal of sustainable environmental research in publishing our research work."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "Funding",
+      "text": "No fund obtained from any source."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations College of Agriculture and Natural Resource Management, Debre Markos University, Debre Markos, Ethiopia Simeneh Gedefaw Abate Urban Land Management and Marketing Office, Debre Markos, Eastern Gojjam Province, Ethiopia Mihret Bizuye Anteneh Authors Simeneh Gedefaw Abate View author publications Search author on: PubMed Google Scholar Mihret Bizuye Anteneh View author publications Search author on: PubMed Google Scholar Contributions All authors contribute for the success of the manuscript. Corresponding author Correspondence to Simeneh Gedefaw Abate ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "College of Agriculture and Natural Resource Management, Debre Markos University, Debre Markos, Ethiopia Simeneh Gedefaw Abate Urban Land Management and Marketing Office, Debre Markos, Eastern Gojjam Province, Ethiopia Mihret Bizuye Anteneh Authors Simeneh Gedefaw Abate View author publications Search author on: PubMed Google Scholar Mihret Bizuye Anteneh View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "All authors contribute for the success of the manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Simeneh Gedefaw Abate ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Ethics approval and consent to participate The authors respected all the ethics of the journal for publication Consent for publication We, the authors request journal of Environmental Systems Research to permit us to go through the necessary requirements for publication. Competing interests In this manuscript, we declare that authors has no competing interest ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 3,
+      "heading": "Ethics approval and consent to participate",
+      "text": "The authors respected all the ethics of the journal for publication"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 3,
+      "heading": "Consent for publication",
+      "text": "We, the authors request journal of Environmental Systems Research to permit us to go through the necessary requirements for publication."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 3,
+      "heading": "Competing interests",
+      "text": "In this manuscript, we declare that authors has no competing interest ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 3,
+      "heading": "Publisher's Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-53",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ . Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Abate, S.G., Anteneh, M.B. Assessment of agricultural land suitability for cereal crops based on the analysis of soil physico-chemical characteristics. Environ Syst Res 13 , 6 (2024). https://doi.org/10.1186/s40068-024-00333-y Download citation Received : 12 December 2023 Accepted : 19 January 2024 Published : 12 February 2024 Version of record : 12 February 2024 DOI : https://doi.org/10.1186/s40068-024-00333-y Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords LMUs Land suitability assessment Malt Barley RS Teff Weighted sum Wheat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Abate, S.G., Anteneh, M.B. Assessment of agricultural land suitability for cereal crops based on the analysis of soil physico-chemical characteristics. Environ Syst Res 13 , 6 (2024). https://doi.org/10.1186/s40068-024-00333-y Download citation Received : 12 December 2023 Accepted : 19 January 2024 Published : 12 February 2024 Version of record : 12 February 2024 DOI : https://doi.org/10.1186/s40068-024-00333-y Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "LMUs Land suitability assessment Malt Barley RS Teff Weighted sum Wheat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "Associated Content",
+      "text": "Part of a collection: Advances in African Climate and Environmental Science"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-59",
+      "level": 3,
+      "heading": "Advances in African Climate and Environmental Science",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "You have full access to this open access article",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "This research aimed at evaluation of a given land resource suitable for selected rain fed crops production (malt barley, wheat and teff) in Ambesh watershed. It also quantified suitable land and classified into the land mapping units (LMUs), and presents a land suitability map. Land suitability assessment (LSA) made using climatic condition, topography, soil physical and chemical properties as a major factor integrated with a multi criteria decision making (MCDM) analysis in Ambesh watershed. Fourteen composite soil samples were taken by categorizing the watershed into different land mapping units (LMUs) and analyzed in a soil laboratory. Climatic data, rainfall was obtained from two meteorological stations nearby to the study area. Temperature data derived from Landsat 8 satellite thermal bands data. Data obtained from the soil laboratory and others were finally analyzed using ArcGIS environment and priority estimation tool (PriEsT) software\u2019s. Weighted Sum Overlay was implemented to investigate the final LSA map of the watershed. Results revealed that LMUs, VRe\u2013LPq and LPK.Pq\u2013FLc LMUs has higher overall suitability for all the selected rain fed crops. However, LMUs ( VRe\u2013NTu and NTu\u2013VRe ) has lower overall suitability values particularly for S 1 suitability class (0.05% and 10.6%, respectively). The least suitable LMU is VRe\u2013NTu with 0.05% S 1 suitability class and above 99% of the land laid under the suitability classes of moderately suitable, marginally suitable and not suitable for the selected land utilization types. Moreover, about 219.06 ha (17.76%), 217.6 ha (17.64%), 168.9 ha (13.7%), of land are highly suitable for malt barley, teff and wheat crop production, respectively. In conclusion, during MCDM, classifying the land into closer homogeneities (LMU) an important application of LSA integrated with remote sensing and GIS for a better decision making. Meanwhile, majority (above two third\u2019s) of the land in the watershed is under moderate and marginally suitable, it needs intensive land management activities to increase the land qualities and obtain high yields. LSA recommended before land utilization decision has to be made. It is also important to classifying the land into LMUs to make it more homogeneous for sample taking and reducing the prestigious soil laboratory analysis costs.",
+      "char_offset": 50
+    },
+    {
+      "type": "paragraph",
+      "text": "The world\u2019s population is under very rapid increasing rate and will pass from 7.5 billion by 2020 and projected to reach 9.4 to 10.2 billion by the year 2050 (Lal 2001 ; He et al. 2016 ; Boretti and Rosa 2019 ; Siegel 2021 ). Thus, global crop demand increased from 100 to 110% by the year 2005 to 2050 (Tilman et al. 2011; Tian et al. 2021). However, the problem is very serious in Africa, which has a negative relationship of the growth rate for cereals grain yield (about 1%) and population growth (about 3%) (Carvalho 2006 ). Moreover, as other studies revealed and has been observed that in the course of the last 35 years, Africa\u2019s cereals production per capita has decreased from 150 to 130 kg person \u22121 , however in Asia and Latin America, cereal production increase from 200 to 250 kg person \u22121 (FAO 2001 ). Furthermore, the annual cereal deficit in sub-Saharan Africa accounts for 100 million tons and the food scarcity gap (food demand greater than food crop production) is widening. Hence, Food imports increased by about 185% between the year 1974 and 1990 while food aid increased by 295% (Bationo et al. 2007 ).",
+      "char_offset": 2386
+    },
+    {
+      "type": "paragraph",
+      "text": "In Ethiopia, therefore, low agricultural productivity is characterized by a multitude of factors including human population pressure, which resulted in serious land degradation (WFP 2014 ). Thus, evaluating land suitability for malt barley, wheat, and teff in Ambesh watershed is very important since the area has a potential to grow the above stated major cereal food and cash crops. It is also important to satisfy the demand of malt barley (malting), teff (staple food supply) and wheat (flour industries) that enhance their efficiency. Ultimately, it can reduce the cost of importing malt for beverage industries in Ethiopia.",
+      "char_offset": 3514
+    },
+    {
+      "type": "paragraph",
+      "text": "Agricultural land suitability assessment (ALSA), the process of assessing land performance used for alternative cropping activities in agriculture (Elsheikh et al. 2013 ; Akpoti et al. 2019 ). Therefore, the principal purpose of ALSA is to predict the potential and limitations of a given land for crop production (Ozsahin and Ozdes 2022 ). Moreover, land suitability also assessed considering rational cropping system, for optimizing the use of a piece of land for a specific use (FAO 1976 ; Sys et al. 1991 ). In remote sensing and GIS, \u201cWhat is to grow or develop where?\u201d can be answered by land suitability analysis with minimum cost and short time (Olusina and Shyllon 2014 ; Abate et al. 2022 ). Therefore, higher yield of crop production exists when the sustainability of the land is studied and if the land be categorized and utilized based upon their actual and potential capacity to produce crops (Verheye et al. 2009 ; Shah and Wu 2019 ).",
+      "char_offset": 4145
+    },
+    {
+      "type": "paragraph",
+      "text": "Most LSA has been done with a coarser data analysis of land characteristics mostly without particular soil chemical and physical properties except some researches recently published such as variability modeling and mapping of soil properties (Tiruneh et al. 2023a , b ). Moreover, other studies use different methodologies of LSA such as Fuzzy analysis (Ahamed et al. 2000 ; Prakash 2003 ; Mokarram et al. 2010 ; Jamil et al. 2018 ), GIS and computer based land suitability analysis (Pan and Pan 2012 ), multi-criteria decision-making approach using GIS (Perveen et al. 2007 ; Mustafa et al. 2011 ; Romano et al. 2015 ; Ostovari et al. 2019 ), and land suitability analysis (Halder 2013 ). However, this study used a detail analysis of most land attributes such as the physical and chemical properties of soil, climatic condition (rainfall and temperature) and topographic factors (altitude and slope). Such land suitability analysis can indicate a better accuracy in finding the best land utilization types input to land policy makers and managerial decisions. Consequently, land use change policy decisions to other economically important land utility can be better and easier.",
+      "char_offset": 5096
+    },
+    {
+      "type": "paragraph",
+      "text": "Crop land suitability mapping and analysis, one of the most important contemporary applications of remote sensing and GIS for planning and decision-making management in developing countries (McHarg 1969 ; Hopkins 1977 ; Brail and Klosterman 2001 ). In Ethiopia, LSA for different purposes can also use the integration of multi-criteria decision making analysis with remote sensing and GIS such as for urban greening site identification and application (Abebe and Megento 2017 ; Gelan 2021 ; Anteneh et al. 2023 ), dam site selection (Karaku\u015f and Y\u0131ld\u0131z 2022 ), and solid waste dumping site selection (Gorsevski et al. 2012 ; Bosompem et al. 2016 ). The advancement of GIS and Remote sensing technology based land suitability assessment in developing counties, like Ethiopia is limited due to different constraints such as lack of high resolution spatial data and lack of finance to test soil in the laboratory (Yitbarek et al. 2012 ; Wondrade et al. 2014 ; Gashayie and Singh 2015 ; Bhaga et al. 2020 ).",
+      "char_offset": 6277
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Lakew et al. ( 2016 ), inadequate crop production and soil testing based information and knowledge for both malting and food cereal crops such as barley, wheat and teff important for timely operation of farming practices. Therefore, this research aimed at filling the gap by implementing Analytical Hierarchy Process (AHP) integrated with GIS and remote sensing to evaluate the suitability of the land in Ambesh watershed for malt barley, teff, and wheat crops using geospatial soil testing of the soil physical and chemical properties, climate, and topography as limiting factors via MCDM technique. The study can contribute to the global community experiences particularly for those areas not cultivating the selected rain fed cereal crops by reducing the cost, time and labor of soil sampling for laboratory analysis via the application of remote sensing and GIS integrated with LMUs classification (land units having more closely or uniform land characteristics) with Composite Soil Sample (CSS) taking systems. It also investigates the factors that affects crop production, evaluate the suitability of a given land resources (land mapping units) for locally dominant rain fed crops, produce a land suitability map and quantify the land suitable for malt barley, wheat and teff crops in the watershed. This study is important for land use planners to provide decision making and farmers to produce suitable crops based on physical land suitability. It is also very important to malt and wheat flour industries to target potential malt barley producing areas and can produce higher yields to satisfy their demands.",
+      "char_offset": 7282
+    },
+    {
+      "type": "paragraph",
+      "text": "Ambesh Watershed is located in Aneded District, East Gojjam Administrative Zone (Fig. 1 ). It is located in between Debre Markos City (North West direction) and Anded District (Southeast direction), North West direction from the capital city of Ethiopia, Addis Ababa. It is one of the productive watershed to produce cereal crop in Aneded District (Amsalu and Regassa 2022 ). Ambesh watershed can produce major food crops such as Barley, Wheat and Teff. It is 8 km far from Debre Markos city to the Eastern direction. The altitude of the watershed ranges from 2310 to 2502 m above sea level. It is located between 10\u00b015\u203200\u2032\u2032 N to 10\u00b018\u203215\u2032\u2032 N latitude and 37\u00b047\u203200\u2032\u2032 E to 38\u00b048\u203200\u2032\u2032 E longitude. Ambesh watershed has total area of about 1234 ha of land. The watershed had three major soil types such as Lithosols, Nitosols and Vertisols. It has three major land use systems, cultivation, grassland and plantation (Aneded district SLM project 2014). Slope of the study area ranges from gentle slope (0\u00b0) to steep slope (25.45\u00b0).",
+      "char_offset": 8914
+    },
+    {
+      "type": "paragraph",
+      "text": "Research data obtained from different primary and secondary data sources (Table 1 ). Primary data used for the study collected by direct field observation and field survey, taking ground control points (GCPs) using GPS instrument and soil samples collected with soil auger. While, secondary data were obtained from ALOS PALSAR DEM data with 12.5 m spatial resolution, used to calculate the altitude and slope of the watershed. Annual rainfall data were taken from meteorological stations.",
+      "char_offset": 9943
+    },
+    {
+      "type": "paragraph",
+      "text": "The watershed, Ambesh was delineated using DEM data obtained from ALOS PALSAR of 12.5 m spatial resolution (Table 1 ). Due to the difference in topography (slope and elevation of the land), stratified random soil sampling method was applied to identify and determine the auger points and generate land map units (LMU, having similar property in a single strata) (Smiraglia et al. 2013 ). This stratified soil sampling technique can maintain to keep the consistency and uniformity of sample taking within the LMUs. LMUs (part of the spatial unit of analysis for land suitability evaluation) refers to internally uniform areas of land with some soil physical characteristics or qualities such as topography of the land and soil color (Mantel and Kauffman 1995 ). The delineation of LMUs are based on land qualities that have the most influence on the land uses under consideration. Hence, the researcher is free to choose sample points in order to create a systematical model of the soil landscape relationships, draw boundaries, and determine LMU compositions (Fig. 2 ). As a result, the watershed was divided into four major LMUs based on the soil forming factors of topography (mainly altitude and slope, a re-classification method of natural break of the land) and observed parent materials (FAO 1993 ; Nachtergaele et al. 2015 ) (indicated in Table 2 ). Elevation is the primary determinant factor of agricultural land use options in Ethiopia due to its influence on temperature and rainfall (Abate 2011 ). However, other soil forming factors like climate, vegetation and time in the watershed are more or less similar and it was difficult to differentiate the LMUs with these soil-forming factors.",
+      "char_offset": 10433
+    },
+    {
+      "type": "paragraph",
+      "text": "Land mapping units, transect lines and CSSP during the soil survey in Ambesh watershed",
+      "char_offset": 12136
+    },
+    {
+      "type": "paragraph",
+      "text": "The transect soil survey method was conducted along transects (i.e. following top\u2013bottom of Ambesh watershed landscape) and by using external factors such as variation in topography and land use to decide, profile points (Fig. 2 ). Soil samples were collected purposively based on the designed LMUs. Therefore, the researchers can reduce biases and free to choose which, LMUs are to be collected and analyzed (Fig. 3 below). This prevents the sample from being treated in the same way as those samples that are collected by some probabilistic method (Bilonick 1994 ). Four hundred (400) soil auger samples taken to get fourteen composite soil samples (CSS) CSS requires a very large number of soil sample to make it more precise (Patil 1995 ; Carter and Gregorich 2007 ). Each representative CSS contained twenty-five to thirty-three soil auger samples. Seven soil profile pits were digging up with a depth of 60 cm to 200 cm to estimate its soil depth. Fourteen (14) representative CSSs (Fig. 2 ) with five transects GPS tracks (located on summit, shoulder, foot slope and toe slope) were collected from a depth of 20 cm (Teka et al. 2015).",
+      "char_offset": 12224
+    },
+    {
+      "type": "paragraph",
+      "text": "The collected CSSs were air dried at room temperature, then ground using mortar and pestle, and sieved to pass through 2 mm sieve soil mesh. Soil textures were analyzed using hydrometer method (Sertsu and Bekele 2000 ). Soil textural class was determined by using soil textural triangle calculator giving the percentage of each texture clay, silt and sand obtained from the laboratory soil test results. Once the percentage of sand, silt, and clay determined, the soil textural class was assigned using the USDA textural triangle. Soil pH was measured by water (1:2.5 ratio) using glass electrode pH meter. CaCO 3 in the sample was dissolved in excess hydrochloric acid (HCl). The remainder of the acid is titrated against sodium hydroxide (NaOH). Soil OC was determined using wet digestion method by Walkley and Black (Sertsu and Bekele 2000 ). After obtained the soil organic carbon content of the soil, organic matter content was computed from it by multiplying its value with a constant number 1.724 (Sertsu and Bekele 2000 ). Total N measured after wet digestion using the renown Kjeldahl procedure. Soil phosphorous (P) content was determined using Olsen\u2019s method by the sodium bicarbonate (NaHCO 3 ) (Olsen 1954 ). Potassium (K) was measured by the flame photometer. Soil salinity is the concentration of soluble inorganic salts in the soil (Rhoades 1996 ). It is measured by extracting the soil sample with water (1:1 or 1:5 soil: water ratio, w/v) or in an extract saturated paste. With such rapid extract, salinity is measured by electrical conductivity meter (ECe meter).",
+      "char_offset": 13367
+    },
+    {
+      "type": "paragraph",
+      "text": "Rainfall variability of the watershed were calculated by the annual (yearly) rainfall amount of the nearby meteorological stations, then interpolating (IDW interpolation method) the rainfall data of Debre Markos (located north western direction of the watershed) and Amber station (located south eastern direction of the watershed). The rainfall amount of Ambesh watershed determined by the data obtained from Ethiopian meteorological agency (Bahir Dar branch). It was interpolated and then clipping with the study area shape.",
+      "char_offset": 14951
+    },
+    {
+      "type": "paragraph",
+      "text": "An average yearly four seasons (four representative months) namely; summer (July), autumn (October), spring (April) and winter (January) land surface temperature of the area was computed with Landsat 8 (2022) satellite data. Top of the atmosphere (TOA) radiance calculated by using radiance rescaling factor, thermal infrared digital numbers that are converted into TOA spectral radiance (Rajeshwari and Mani 2014 ) as follows:",
+      "char_offset": 15479
+    },
+    {
+      "type": "paragraph",
+      "text": "where L\u03bb\u2014TOA spectral radiance (watts m \u22121 ), RaMb\u2014radiance multiplicative band (Band number), RAb\u2014radiance add band (Band number), Q cal \u2014quantized and calibrated standard product pixel values (DN).",
+      "char_offset": 15908
+    },
+    {
+      "type": "paragraph",
+      "text": "Secondly, TOA brightness temperature was calculated with spectral radiance data that can be converted to top of atmosphere brightness temperature using the thermal constant values from the meta data file of Landsat 8 data (Latif 2014 ).",
+      "char_offset": 16109
+    },
+    {
+      "type": "paragraph",
+      "text": "where: Bt\u2014top of atmosphere\u2019s brightness temperature (\u2103), L\u03bb\u2014TOA spectral radiance (watts m \u22121 ), K1\u2014K1 constant band from the meta data (no.), K2\u2014K2 constant band from meta data (no.).",
+      "char_offset": 16347
+    },
+    {
+      "type": "paragraph",
+      "text": "Thirdly, a standardized vegetation index (normalized vegetation index, NDVI) calculated using the near infrared band (B5, DN value from the infrared band) and red band (B4, DN value from the red band).",
+      "char_offset": 16534
+    },
+    {
+      "type": "paragraph",
+      "text": "On the fourth stage, the land surface emissivity (PV), an average emissivity value of an element of the surface of the earth calculated from the NDVI.",
+      "char_offset": 16737
+    },
+    {
+      "type": "paragraph",
+      "text": "where PV\u2014proportion of vegetation, NDVI\u2014DN values from NDVI image, NDVI min\u2014minimum DN values from NDVI image, NDVI max\u2014maximum DN values from NDVI image.",
+      "char_offset": 16889
+    },
+    {
+      "type": "paragraph",
+      "text": "where E\u2014LSE, PV\u2014proportion of vegetation.",
+      "char_offset": 17045
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, the land surface temperature (LST) of the earth calculated as the radiative temperature using top of atmosphere brightness temperature, wavelength of emitted radiance and LSE (Dash et al. 2002 ) as follows.",
+      "char_offset": 17088
+    },
+    {
+      "type": "paragraph",
+      "text": "where BT\u2014top of atmosphere brightness temperature (\u2103), W\u2014wave length of emitted radiance, E\u2014land surface emissivity",
+      "char_offset": 17305
+    },
+    {
+      "type": "paragraph",
+      "text": "Kriging estimates the unsampled locations in the spatial field because of its advancement, successful prediction and description of geostatistical spatial variability performance in digital soil mapping (Mart\u00edn et al. 2016 ; Guan et al. 2017 ; Dong et al. 2021 ), isopleth development, and evaluation of the spatial distribution of soil and waste properties. Thus, the nature of the kriging equations has important implications for the design of soil survey (Burgess and Webster 2019 ). Its primary purpose for utilization is within the system of samples. It should not be used to extrapolate outside of the boundaries of the sampling area (Barth and Mason 1984 ).",
+      "char_offset": 17422
+    },
+    {
+      "type": "paragraph",
+      "text": "where: Z (s k ) = the measured value at the k th location, \u03bb k = an unknown weight for the measured value at the k th location, s o = the prediction location, N = the number of measured values.",
+      "char_offset": 18088
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Burgess and Webster ( 2019 ) the results of kriging \u201c\u2026depend to some extent upon the tools and methods that happen to be convenient for sampling\u201d, most appropriate when there is a spatially correlated distance or directional bias in the data and often used in soil science and geology. While, in Inverse Distance Weight (IDW) interpolation method, the weight, \u03bb k , depends solely on the distance to the prediction location. However, with the kriging method, the weights based not only on the distance between the measured points and the prediction location but also the overall spatial arrangement of the measured points. To use the spatial arrangement in the weights, the spatial autocorrelation has to be quantified. Thus, in ordinary kriging, the weight, \u03bb k , depends on a fitted model to the measured points, the distance to the prediction location, and the spatial relationships among the measured values around the prediction location. However, according to Tiruneh et al. 2021 , the inverse distance weighting (IDW) and ordinary kriging (OK) models well described the variation of all soil fertility parameters except OC and available phosphorus.",
+      "char_offset": 18283
+    },
+    {
+      "type": "paragraph",
+      "text": "Land resources in Ambesh watershed allow the cultivation of different food and cash crops. However, the farmers in the watershed are striving to be self-sufficient in food crops production rather than producing cash crops like malt barley. They produce major food crops of like teff, wheat, engdo (barley spp. ), barley, and maize. Therefore, producing cash crops required for malting, a raw material for beverage factories of malt barley (Hordeum distichum L. ) is very important source of income for the farmers. Teff (Eragrostis teff ) and wheat ( Triticum aestivum ) also other major food crops produced in the watershed for consumption as well as for sale to flour industries and food complex factories.",
+      "char_offset": 19453
+    },
+    {
+      "type": "paragraph",
+      "text": "The LURs are measurable factors on which decisions about land quality and its suitability for a specified land use can be made (Eastman 1999 ). After the determination of the problem, the set of evaluation criteria, which includes attributes and objectives, should be designated (Jankowski 1995 ). It involves specifying a comprehensive set of objectives that reflects all concerns relevant to the decision problem and measures for achieving those objectives, which were defined as attributes. Because the land use requirements are related to geographical entities and the relationships between them, they can be represented in the form of maps referred as attribute maps.",
+      "char_offset": 20163
+    },
+    {
+      "type": "paragraph",
+      "text": "Rationally, criteria identification can be done using the participatory approach by a group of experts from various concerned disciplines. However, based on the crop requirements for specific soil parameters, climate and topographic data, FAO ( 1976 ) has given a framework for ALSA as highly suitable (S 1 ), moderately suitable (S 2 ), marginally suitable (S 3 ) and not suitable (N). In this study, criteria identification was done based on various literatures and guidelines and data availability of the watershed (Sys et al. 1993 ; Landon 2014 ). Hence, the following evaluation criteria were considered to address the suitability of the land for agricultural crops such as soil physical properties (soil texture, soil structure, soil depth). Among the soil chemical properties, Electrical Conductivity (ECe), soil pH, Organic Carbon (OC), Cation Exchange Capacity (CEC), total Nitrogen (TN), available Phosphorous (P 2 O 5 ), available potassium (K 2 O), and CaCO 3 ) were selected. Others climatic factors (temperature and rainfall), and topographic factor (altitude and slope).",
+      "char_offset": 20837
+    },
+    {
+      "type": "paragraph",
+      "text": "Multi criteria decision analysis (MCDA) can provide to do the LSA with a multi or numerous criteria be identified on the field based on land qualities. Here, since the study area is at watershed level, the soil physical and chemical properties are the basic land qualities to investigate the analysis. As a rational decision maker is an individual who maximizes profits and/or minimizes losses (Gabor and Meunier 1993 ). The ultimate aim of remote sensing and GIS is to provide support for making spatial decisions (Malczewski 2004 ). The integration of MCDA in GIS provides a powerful spatial decision support system, which offers the opportunity to produce land suitability maps efficiently (Mendas and Delali 2012 ). Therefore, MCDA also aids decision makers in analyzing potential actions or alternatives based on multiple incommensurable factors/criteria, using decision rules to aggregate those criteria to rate or rank the alternatives (Greene et al. 2011 ).",
+      "char_offset": 21924
+    },
+    {
+      "type": "paragraph",
+      "text": "During the application of AHP an inconsistency can occur due to improper computation (Belton and Gear 1983 ). AHP helps to capture both subjective and objective evaluation measures, providing a useful mechanism for checking the consistency of the evaluations thus reducing bias in decision-making (Ishizaka and Lusti 2006 ). AHP uses pairwise comparisons to derive the relative importance (Table 3 ) of the decision factors. It involves three steps: development of a comparison matrix at each level of the hierarchy, beginning at the top, computation of relative importance or weights for each element in the hierarchy, and estimation of consistency ratio (C.R).",
+      "char_offset": 22891
+    },
+    {
+      "type": "paragraph",
+      "text": "C.R. is a measure of how far a matrix from consistency. Therefore, it can reduce or evaluate inconsistency of judgments in criteria weighting through pairwise comparison. A matrix \u201c a \u201d is consistent if and only if a ik. a kj = a ij at which a ij is the ij th element of the matrix (Buckley 1985 ). In practice, however, it is unrealistic to expect that decision-makers provide exact consistent pairwise comparison matrices especially in the cases with a large number of alternatives. As a general rule of thumb, a C.R. value of 10% (0.1) or less is considered as acceptable (Zeshui and Cuiping 1999 ).",
+      "char_offset": 23555
+    },
+    {
+      "type": "paragraph",
+      "text": "Consistency Index (C.I.) is calculated as:",
+      "char_offset": 24159
+    },
+    {
+      "type": "paragraph",
+      "text": "C.R. for each matrix in the hierarchy was computed by using the following formula:",
+      "char_offset": 24203
+    },
+    {
+      "type": "paragraph",
+      "text": "where, \\(n\\) is the number of criteria, R.I is the Random Index, and \u03bb max is the biggest eigenvalue. Random Index is the average consistency index of randomly generated comparison matrix (Table 4 ).",
+      "char_offset": 24287
+    },
+    {
+      "type": "paragraph",
+      "text": "The GIS software, computer assisted overlay techniques were developed as a response to the manual method\u2019s limitations of mapping and combining large datasets (MacDougall 1975 ; Steinitz 1976 ). Weighted overlay is a technique for applying a common scale of values to diverse and dissimilar inputs to create an integrated analysis (Malczewski 1996 , 2004 ). WSO analysis can overlay several raster multiplying each by their given weight and summing them together. The WSO tool provides the ability to weight and combine multiple inputs to create an integrated analysis. The WSO tool does not rescale the reclassified values back to an evaluation scale and it allows floating-point and integer values. In WS decision and weight matrixes the decision maker assigns a set of importance weights to the criteria as W = (W 1 , W 2 , \u2026\u2026\u2026\u2026.. W n ). The weights Wj was normalized:",
+      "char_offset": 24488
+    },
+    {
+      "type": "paragraph",
+      "text": "Then, assign the value for each factor or criteria and weight to each factor (Eq. 10 ). Thus, the weighted value of the watershed suitability was obtained for Ambesh watershed land suitability.",
+      "char_offset": 25361
+    },
+    {
+      "type": "paragraph",
+      "text": "where, C r LS i = Crop land suitability value of i in Ambesh watershed, W j = is the weight of the factor j. X ij = the reclassified value of factor \u2018 j\u2019 in the area \u2018 i\u2019.",
+      "char_offset": 25556
+    },
+    {
+      "type": "paragraph",
+      "text": "The study area has a conceptual workflow (framework) as indicated in Fig. 4 below. It has contents in the left side as setting objectives, determination of LURs (main criteria and sub criteria), standardization of scores and suitability rating of main and sub criteria\u2019s (as S 1 , S 2 , S 3 and N), WSO and ALSA.",
+      "char_offset": 25729
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil physical properties such as soil texture, soil depth and soil structure are particularly important for teff, the major food cereal crops production (Demelash 2017 ). Owing to its grain size, germination and root support for stand from the soil teff crop needs very compacted soil and planting applied on it (Gelaw et al. 2013 ). Therefore, for teff crop, among those properties soil structure ranks first (criteria weight of 0.488). Soil texture ranks second with a weight of 0.357 and soil depth ranks the third by weight of 0.155. It has a CR of 0.001 (Table 5 ). Altitude and slope of the study area has also an influence in the production of teff crop. Therefore, altitude ranks first (weight of 0.524) and slope ranks second (weight of 0.476) (Table 5 ). However, malt barley and wheat crop requires `same pairwise comparison matrixes of soil physical properties soil texture (ranks 1st), soil structure (ranks 2nd), and soil depth (ranks 3rd) as shown in Table 5 below. Soil texture is an important parameter affecting the suitability of wheat and malt barely; therefore, the weight of texture was calculated as 0.423 (Mandal et al. 2020 ). However, soil structure and soil depth ranks second and third with a criteria weight of 0.335 and 0.242, respectively for wheat and malt barley crop (Table 5 ).",
+      "char_offset": 26043
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil texture, soil structure and soil depth are soil physical properties considered to analyze ALSA in the watershed. Soil texture is the classification of the proportion or the percentage of clay, silt and sand in the soil (Ritchey et al. 2015 ). Therefore, the soil textural class of the study area clay and clay loam soil (Table 6 ). However, clay soil texture is the dominant one. Soil structure is classifying the soil structural classes into very fine, fine, medium, coarse, very coarse (Thomasson, 1978). Accordingly, very fine, fine and medium structure soils were present in the study area. The depth of the soil ranges from very deep soil greater than 200 cm to shallow soil depth 60 cm (Table 7 ). Results obtained shows that soil textural classes of the study area are of two types. These are clay loam and clay texture. This is because the proportion of clay in most samples is greater than silt and sand (Table 6 ).",
+      "char_offset": 27357
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil structures in the study area are classified in to three. These are very fine (VF), fine (F) and medium (M) structured soil. It is very important soil physical characteristic especially for teff crop production (Gebretsadik et al. 2009 ; Mihretie et al. 2021 ; Barretto et al. 2021 ). Soil depth is an important crop factor for effective rooting condition of crop growth and development. Depth of the soil in the study area ranged from 60 to 200 cm depth. The spatial variability of soil depth in the study area is shown below in Fig. 5 b.",
+      "char_offset": 28288
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial variability ( a ) soil texture ( b ) soil depth ( c ) soil structure",
+      "char_offset": 28833
+    },
+    {
+      "type": "paragraph",
+      "text": "Eight major chemical properties of the soil were analyzed in the laboratory namely; electrical conductivity (ECe), organic matter (OM), soil pH, cation exchange capacity (CEC), total nitrogen (TN), phosphorus (P), potassium (K) and calcum carbnate (CaCO 3 ) content of the soil.",
+      "char_offset": 28911
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrogen is most important nutrient in agricultural activity. It is a major essential nutrient and component of chlorophyll for the growth of plants (Bojovi\u0107 and Markovi\u0107 2009 ; Ohyama 2010 ; Clevers and Gitelson 2013 ). The amount of total nitrogen in the soil has great advantage to increase the yield of cereal crops such as wheat, teff and malt barley (Ladha et al. 2016 ; Z\u00f6rb et al. 2018 ). However, it should not be underestimate to monitor N fertilizer dynamics in soils because of its importance from the environmental protection perspective, as Nitrate (N \\({\\text{O}}_{3}^{ - }\\) ) is the major pollutants of groundwater, rivers, water and lakes (Liu et al. 2005 ). Consequently, these accumulations of nitrogen, phosphorous and potassium fertilizers enhance the challenges of eutrophication in water bodies, which will create favorable condition for the growth of invasive weeds such as water hyacinth (Schindler 2006 ).",
+      "char_offset": 29191
+    },
+    {
+      "type": "paragraph",
+      "text": "The phosphorous (P) content of Ambesh watershed ranges from 12.51 to 13.48 ppm (3.4 to 3.75 mg kg \u22121 ). According to Olsen phosphorous nutrient level, indicated that its level is very low if it is less than 5 mg kg \u22121 (Olsen 1954 ). Crop production relies on continuous input of large amounts of phosphorus (P) however; the spatial variability of the soil is the determinant factor for the application of P fertilizer (Manschadi et al. 2014 ). In association with soil N and soil P, soil K also a macronutrient demanded by plants for rising crop production and productivity per unit of land. Most soils contain relatively large amounts of total potassium (1\u20132%) as components of relatively insoluble minerals. However, only a small fraction (about 1%) presented in available form to plants (water-soluble and Exchangeable-K). In tropical regions (highly weathered acid soils) are more frequently deficient in plant available K, whereas soils in arid and semi-arid areas well supplied with soil K (Ryan et al. 2001 ). As results revealed that the availability of soil K in the study area is lower, ranges from 0.56 to 0.59 ppm (Fig. 6 c).",
+      "char_offset": 30125
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial variability ( a ) total nitrogen ( b ) soil phosphorous ( c ) soil potassium content of the study area",
+      "char_offset": 31264
+    },
+    {
+      "type": "paragraph",
+      "text": "Organic matter, also known as humus. Based on climate and drainage condition of a given soil type, the OM content of the surface layer varies from the range of 1 to 10% (Woldegiorgis 2007 ). The range of most mineral soils generally have OM content of 0.5% and 6% (Gao et al. 2020). Very low OM is usually found in the soils of arid climate and higher content in soils of cool climate (Franzluebbers 2002 ) and requires remedial soil OC management strategies (Tiruneh et al. 2023a ; b ).",
+      "char_offset": 31376
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil CEC, the sum of exchangeable cation soils can absorb (Chapman 1965 ). It is a measure of the quantity of cations (negatively charged sites) adsorbed and held by the soil (the surfaces of clay and humus, called soil colloids) (Rhoades 1983 ). CEC also an indicator of the type of clay mineral present in the soil and its capacity to retain nutrients against leaching (Sertsu and Bekele 2000 ). Soil analysis results revealed that CEC in Ambesh watershed is high (27 to 31 meq/100 g) (Fig. 7 b). Therefore, higher CEC values reflect the dominance of 2:1 clay minerals, and lower values reflect the presence of 1:1 clay minerals. With a consideration of CEC class, soils that have less than 10 meq/100 g has low CEC, ranges from 10 to 25 meq/100 g has medium CEC and those having greater than 25 meq/100 g has high CEC capacity (Burrow 2023).",
+      "char_offset": 31865
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial variability ( a ) soil OM content, ( b ) CEC and ( c ) Soil pH",
+      "char_offset": 32711
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil pH is one of the most important attributes of a soil. It can help to determine whether a soil is acidic, neutral or basic. Under normal soil circumstance, the agricultural soil pH range varies from 4 to 10. Soil pH lowers with continuous cultivation and excessive application of inorganic fertilizers for longer period (Mokwunye and Bationo 2001 ). However, the soil pH found in the study area ranges from 4.6 to 5.57. It indicates that the soil is strongly acidic to moderately or slightly acidic soil. Soil pH ranges 5.5\u20136.5 is lime free and satisfactory for most crops, however, it should be monitored closely (Estefan 2013 ).",
+      "char_offset": 32783
+    },
+    {
+      "type": "paragraph",
+      "text": "ECe of the study area ranges from 14 to 72 \u00b5S/cm (spatial variability of ECe shown below in Fig. 8 a). Based on saturation extract, values of 0 to 2 dS/m are good for all crops; yields of very sensitive crops are affected between 2 to 4 dS/m; most crops are affected between 4 and 8 dS/m; while only tolerant crops grow reasonably well above 8dS/m.",
+      "char_offset": 33419
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial variability of ( a ) soil ECe and ( b ) soil CaCO 3",
+      "char_offset": 33769
+    },
+    {
+      "type": "paragraph",
+      "text": "CaCO 3 content in Ambesh watershed ranges from 20 to 24 percent as shown in Fig. 8 b. Inorganic carbonate, either as calcium (calcite) or magnesium (dolomite) carbonate or a mixture of both, occurs in soils as a result of weathering, or is inherited from the parent material. Most soils found in arid and semi-arid regions are calcareous soils.",
+      "char_offset": 33830
+    },
+    {
+      "type": "paragraph",
+      "text": "Results indicated based on the altitudinal classification, Ambesh watershed is highly suitable for most selected LUTs of crops (malt barley and wheat crops). However, teff crop is out of the range of optimum altitude of 1700 to 2200 m and the study area is marginally suitable for it because of few varieties grow above the range of the altitude, 2200 m. Generally, slope ranges (in degrees) from 0 to 4.3 highly suitable, 4.3 to 7.6 is moderately suitable, 7.6 to 11.7 marginally suitable, and 11.7 to 25.42 not suitable for the selected crops. As the slope range value increases, soil depth became shallower, exposure for flooding (runoff) also increases, nutrient availability will decrease and soils are unweather (Wohl 2000 ; Mensah 2015 ).",
+      "char_offset": 34176
+    },
+    {
+      "type": "paragraph",
+      "text": "Topography (altitude and slope of the land) and climatic factor, another major criterion for ALSA. In Ambesh watershed, the weight of altitude ranks first (CWt. of 0.64, 0.6 and 0.524) and slope ranks second (CWt. of 0.36, 0.4 and 0.476) for malt barley, wheat and teff crops, respectively (Fig. 9 , Table 8 ).",
+      "char_offset": 34923
+    },
+    {
+      "type": "paragraph",
+      "text": "Spatial variability of slope ( a ) and altitude ( b )",
+      "char_offset": 35235
+    },
+    {
+      "type": "paragraph",
+      "text": "Temperature depends on the value of altitude and slope aspect (Tiruneh et al. 2023a , b ), and altitude have inverse relationship, as the altitude of the area increase the temperature decrease and vice versa Ohmura 2012 ). According to Braak (1928) as the higher the elevation or altitude of the area, the lower is the air temperature as cited in (Widiatmaka 2016 ) and the temperature of Ambesh watershed is from 3.373 \u2103 (minimum temperature) to 28.778 \u2103 (maximum temperature) Fig. 10 b. Results revealed that, rainfall variability of the study area ranged from 1254.15 mm to 1302.52 mm, as indicated below in Fig. 10 a.",
+      "char_offset": 35290
+    },
+    {
+      "type": "paragraph",
+      "text": "Rainfall ( a ) and temperature ( b ) distribution map",
+      "char_offset": 35913
+    },
+    {
+      "type": "paragraph",
+      "text": "Climatic condition of the study area has its own influence by providing the fundamental plant growth and development factors such as water (rainfall) and temperature to the selected LUTs. Among the selected sub criteria\u2019s rainfall ranks first having a greater weight that is 0.549, 0.64 and 0.629 followed by temperature, which accounts 0.451, 0.563 and 0.371, for malt barley, wheat and teff crops, respectively (Table 9 ).",
+      "char_offset": 35968
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil chemical and physical properties are the basic nutrient supplier for cereal crop production. The main criteria\u2019s rank soil chemical properties, soil physical properties, climate and topographic factors first, second, third and fourth by scoring a weight of 0.542, 0.264, 0.125 and 0.068, respectively (Table 9 ). This rank works for all the selected LUTs of the selected cereal crops (malt barley, teff and wheat). Under the main criteria there is sub criteria, which contributes its own influence for the weight of its corresponding main criteria. The consistency ratio value of main criteria/ factor of crop production CR is 0.005 (Table 10 ) which is less than 0.1 and acceptable (Zeshui and Cuiping 1999 ).",
+      "char_offset": 36394
+    },
+    {
+      "type": "paragraph",
+      "text": "Barley, belongs to a grass family grows well in relatively cold and dry weather. Barley suitably grows from 2000 m to 3500 m.a.s.l. The optimum temperature ranges from 15 to 20 \u2103 but it can grow up to 37 \u2103. It requires 700\u20131000 mm of rainfall but the crop can grow in areas that receive 400\u2013500 mm (Bekele et al. 2011; Agegnehu et al. 2011 ; F\u00fcllner et al. 2012 ; Alemu 2015 ; Kidane 2022 ). However, most malt barley varieties best grow in an altitude range of 2300\u20132800 m.a.s.l and 500\u20131200 mm amount of rainfall. Some varieties can adapt and give yield up to 2400\u20132900 m altitude with 500\u2013800 mm rainfall such as CDC-Select variety. It requires 46% N and 46% P for maximum yield (Tehulie and Eskezia 2021 ). Barley best grows on soils with loam and medium clay content and on sandy soils that contains essential macro nutrients. Its soil pH ranges from 6.5\u20137.8 (Obrador et al. 2007 ). Both the qualitative and quantitative general agricultural land suitability (reclassification) requirement of malt barley has been shown in Table 11 .",
+      "char_offset": 37111
+    },
+    {
+      "type": "paragraph",
+      "text": "OM content of the soil in Ambesh watershed ranks first for the production of malt barley (Table 12 ). CR value for malt barley is 0.003. Therefore, OM content of the soil in Ambesh watershed is very important factor for the production of malt barely followed by CEC and total nitrogen. However, the least factors of production for malt barley production are ECe and CaCO 3 of the soil chemical properties, respectively. Among the physical properties of the soil characteristics, soil texture ranks first (with a weight of 0.423), soil structure ranks second (weights of 0.335) and soil depth ranks third (having weights of 0.242). Soil texture is most important factor of physical soil properties for malt barley production. However, soil depth is the least of all the physical soil properties due to its shallow and fibrous root system (Bodner et al. 2021 ). The CR value of the physical properties is 0.001 (less than 0.1) and is acceptable.",
+      "char_offset": 38151
+    },
+    {
+      "type": "paragraph",
+      "text": "Teff ( a gluten-free small sized grain crop ) is a cool weather crop grown predominantly in Ethiopian highlands at optimum altitude range of 1800\u20132200 m (Dereje and Eshetu 2011 ). Maximum yield for teff production occurs at altitudes of 1800\u20132100 m, with a growing season minimum rainfall of 450\u2013550 mm, and a temperature range of 10\u201327\u2103 (Gorfu and Ahmed 2012 ). However, a very good result can also be obtained at an altitude range of 1700\u20132200 m and growing season minimum rainfall amount of 300 mm ( http://www.worldbank.org ). Teff can also grow above 2200 m altitude up to 2600 m for some varieties like DZ-CR387 and DZ-01\u20131868 (Belay and Wondie 2022 ; Abew et al. 2020 ). It is cultivated in soils with pH up to 8.5, but pH value of below 5.0 is not suitable (Bahir et al. 2015 ).",
+      "char_offset": 39096
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Table 13 , CEC of the soil in the study area is the first chemical soil property for a better production of teff crop followed by P and OM content of the soil. For teff crop production, ECe is the least important factor of production. The CR value of the chemical properties of a soil for teff crop production is 0.002, which is less than the acceptable range of CR 0.1 (Table 14 ).",
+      "char_offset": 39884
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat in Ethiopia is grown from1500 m and 3300 m.a.s.l. However, it yields satisfactorily between 2000 and 2600 m altitudes (FAO/UNDP 1987a cited in Abate 2011 ). On an average temperature of 15\u201325 \u2103 and an average rainfall of 400\u20131200 mm is required. The distribution of rainfall throughout the crop growth period is very important. Wheat can be produced on different soil types such as black clay soils, red and brown soils. Sandy soils and soils with problems of waterlogging are unsuitable for wheat production. It requires a high soil fertility, particularly nitrogen and phosphorus, and moderate salinity tolerance (Acevedo et al. 2002 ; EL Sabagh et al. 2021 ; Syers et al. 2008 ). Suitable soil pH for wheat ranges from 5.5 to 8.0 (Garrett 1936 ). It also requires 184 Nitrogen and 92 P 2 O 5 ha \u22121 fertilizer to get maximum yield of wheat in the surrounding areas of Ambesh watershed (Assefa et al. 2023 ).",
+      "char_offset": 40281
+    },
+    {
+      "type": "paragraph",
+      "text": "As indicated in Table 15 , among the soil chemical properties, OM content of the soil is the most important factor of production for wheat crop followed by CEC and P content. The least important factors for wheat crop production are CaCO 3 and ECe with Consistency Ratio (CR) value of 0.011. For example, OM is 1.5 times and twice more important than pH and K (Table 16 ).",
+      "char_offset": 41198
+    },
+    {
+      "type": "paragraph",
+      "text": "Overall suitability is the total land suitability of each LMU with respected to its selected LUTs. It indicated that which LMU has large suitability coverage (S 1 , S 2 , S 3 and N) for the selected cereal crops. Overall suitability of the land was calculated in terms of percentage of LMUs for the all crops (Table 17 ). For instance, VRe\u2013LPq (Fig. 11 a) and LPK.Pq\u2013FLc (Fig. 11 d) land mapping units has a resemblance highly overall suitability class curve (good overall suitability record in S 1 , S 2 and S 3 with lower values for N) for all crops as shown in overall suitability graph Fig. 11 below. This is mainly due to a relatively higher OM content, CEC and TN content in the LMUs. However, land mapping unit VRe \u2013 NTu (Fig. 11 b) and NTu\u2013VRe (Fig. 11 c) has lower overall suitability values for S 1 suitability class (0.05% and 10.6%, respectively) and higher values in S 2 , S 3 and N suitability classes. These types of LMUs are characterized by steep slopes, shallow soil depth, land degradation such as soil erosion, lower soil OM content, very low P and N, low CEC value and soil acidity problems for agricultural crops.",
+      "char_offset": 41572
+    },
+    {
+      "type": "paragraph",
+      "text": "Overall suitability versus suitability class of each LMUs a VRe - LPq b VRe - NTu c NTu \u2013 VRe and d LPk.Pq - FLc",
+      "char_offset": 42709
+    },
+    {
+      "type": "paragraph",
+      "text": "As indicated in Table 17 below, overall suitability of the LMUs, land utilization types (malt barley, teff and wheat crops) and the percentage of its suitability classes calculated in percent. The overall suitability of land mapping units for the selected LUTs compared its area coverage per se. Thus, for each LMUs and LUTs (malt barley, teff and wheat crops) agricultural suitability land was computed in units of hectares and besides with its percent of coverage.",
+      "char_offset": 42823
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Table 18 below, the total area of land is about 1233.78 ha. Hence, malt barley, teff and wheat crops has a highly suitable (219.06, 217.6, and 168.9 hectares), moderately suitable (461.28, 483.23, and 679.47 ha), marginally suitable (490.75, 475.62, and 208.88 ha) and not suitable (62.69, 57.06, and 175.83 ha) of land, respectively. As indicated that based on its LUTs, 17.76% and 37.39% of Ambesh watershed are highly suitable and moderately suitable for malt barley crops production, respectively. Among the total area of land, 39.78% (490.75 ha) of land is marginally suitable for malt barley. Only 5.08% (62.69 ha) of the land is not suitable for malt barley crops production. This is mainly due to soil acidity, very low to low amount of macronutrients availability and its steep slope nature of the land. Moreover, malt barley needs more fertile soil and less tolerance to soil acidity than food barley (Kharub and Chander 2012 ; Terefe et al. 2018; Fekadu et al. 2022 ).",
+      "char_offset": 43291
+    },
+    {
+      "type": "paragraph",
+      "text": "The result of this study showed that 13.7% (168.9 ha), 55.1% (679.47 ha), 16.94 (208.88 ha) and 14.26% (175.83 ha) of land has S 1 , S 2 , S 3 and N for wheat crop production in Ambesh watershed (Table 18 ). This is mainly due to soil acidity problem, slope steepness of the land, low soil P and OM content of the soil. Accordingly, considering the LMUs, LPk.Pq\u2013FLc is highly suitable followed by VRe- LPq LMU for wheat crop production (see Table 17 above). The least suitable LMU for wheat crop production is VRe- NTu in Ambesh watershed. LPk.Pq\u2013FLc LMU has 108.15 ha (22.87%) of its land highly suitable for teff crops production in Ambesh watershed. About three fourth of the land is moderately and marginally suitable for malt barley crop production (Table 18 ). Due to relatively higher CEC, P and OM content than VRe\u2013NTu LMU, all LMUs ( VRe\u2013LPq, NTu-VRe and LPk.Pq\u2013FLc ) except VRe\u2013NTu , are highly suitable for teff crop production each having 83.74, 25.58 and 108.15 ha of land, respectively. The most limiting factor of VRe\u2013NTu LMU is steep slope, low in P content, relatively lower in CEC, lower OM content and shallow soil depth (Fig. 12 ).",
+      "char_offset": 44285
+    },
+    {
+      "type": "paragraph",
+      "text": "Final ALSA maps ( a ) malt barley ( b ) Teff ( c ) Wheat crops",
+      "char_offset": 45438
+    },
+    {
+      "type": "paragraph",
+      "text": "ALSA using remote sensing and GIS is an important application for decision making whether the land is proper for a given type of LUTs or not. An integrated application of MCDM using AHP could also provide many advantages to select the best criteria that contributes a maximum weight (most influential factor) for maximum productivity of crops. Priority Estimation Tool (PriEsT) also has a great advantage to do a PWCM of all the criteria considered in the ALSA. This study is also important for land use planners to provide decision making for the selection of land utilization types and farmers to produce suitable crops based on physical land suitability assessment. Furthermore, classification of the land with land mapping units (an area having homogenous land quality) has also tremendous benefit to take soil sampling easily and minimize the cost of labor and soil laboratory test by compositing many soil auger soil samples into a single CSS. In conclusion, LMUs, VRe\u2013LPq and LPK.Pq\u2013FLc LMUs has higher overall suitability for all the selected rain fed crops. However, LMUs ( VRe\u2013NTu and NTu\u2013VRe ) has lower overall suitability values particularly for S 1 suitability class (0.05% and 10.6%, respectively). However, the least suitable LMU is VRe\u2013NTu with 0.05% S 1 suitability class and above 99% of the land laid under the suitability classes of moderately suitable, marginally suitable and not suitable for the selected LUTs. To end with, majority (above two third\u2019s) of the watershed is under moderate and marginally suitable land, needs intensive land management activities to increase the land qualities and obtain high yields.",
+      "char_offset": 45502
+    },
+    {
+      "type": "paragraph",
+      "text": "Abate S (2011) Evaluating the land use and land cover dynamics in Borena Woreda of South Wollo Highlands, Ethiopia. J Sustain Dev Africa 13(1):87\u2013107",
+      "char_offset": 47143
+    },
+    {
+      "type": "paragraph",
+      "text": "Abate SG, Amare GZ, Adal AM (2022) Geospatial analysis for the identification and mapping of groundwater potential zones using RS and GIS at Eastern Gojjam, Ethiopia. Groundwater Sustain Dev 19:100824",
+      "char_offset": 47294
+    },
+    {
+      "type": "paragraph",
+      "text": "Abebe MT, Megento TL (2017) Urban green space development using GIS-based multi-criteria analysis in Addis Ababa metropolis. Appl Geomat 9:247\u2013261",
+      "char_offset": 47496
+    },
+    {
+      "type": "paragraph",
+      "text": "Abewa A, Adgo E, Alemayehu G, Yitaferu B, Meresa A (2020) Sensory quality attributes of Tef [Eragrostis tef (Zucc.) Trotter] injera as influenced by genotype and environment. Ethiop J Agric Sci 30(4):39\u201362",
+      "char_offset": 47644
+    },
+    {
+      "type": "paragraph",
+      "text": "Acevedo E, Silva P, Silva H (2002) Wheat growth and physiology. Bread Wheat Improve Prod 30:39\u201370",
+      "char_offset": 47851
+    },
+    {
+      "type": "paragraph",
+      "text": "Agegnehu G, Liben M, Molla A, Feyissa A, Bekele A, Getaneh F (2011) Research achievements in soil fertility management in relation to barley in Ethiopia. Barley research and development in Ethiopia, p. 137.",
+      "char_offset": 47950
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahamed TN, Rao KG, Murthy JSR (2000) GIS-based fuzzy membership model for crop-land suitability analysis. Agric Syst 63(2):75\u201395",
+      "char_offset": 48158
+    },
+    {
+      "type": "paragraph",
+      "text": "Akpoti K, Kabo-bah AT, Zwart SJ (2019) Agricultural land suitability analysis: state-of-the-art and outlooks for integration of climate change analysis. Agric Syst 173:172\u2013208",
+      "char_offset": 48288
+    },
+    {
+      "type": "paragraph",
+      "text": "Alemu T (2015) Determinants of wheat yield variation of smallholders in South Eastern Ethiopia: application of ordered logistic regression. Sci Technol Arts Res J 4(3):61\u201366",
+      "char_offset": 48465
+    },
+    {
+      "type": "paragraph",
+      "text": "Amsalu N, Regassa R (2022) Ethnobotanical study of medicinal plants in and around Aba-Asrat Monastery following Chemoga River, East Gojjam zone, northwestern Ethiopia",
+      "char_offset": 48640
+    },
+    {
+      "type": "paragraph",
+      "text": "Anteneh MB, Damte DS, Abate SG, Gedefaw AA (2023) Geospatial assessment of urban green space using multi-criteria decision analysis in Debre Markos City, Ethiopia. Environ Syst Res 12(1):7",
+      "char_offset": 48808
+    },
+    {
+      "type": "paragraph",
+      "text": "Assefa A, Derebe B, Gebrie N, Shibabaw A, Getahun W, Beshir O, Worku A (2023) Grain yield and quality responses of durum wheat to nitrogen and phosphorus rate in Yielmana Densa area, Western Amhara. Amhara Agric Res Inst (ARARI) 113:526",
+      "char_offset": 48998
+    },
+    {
+      "type": "paragraph",
+      "text": "Assen M, Le Roux PAL (2005) Soils of Jelo Micro-catchment in the chercher highlands of Eastern Ethiopia: i morphological and physicochemical properties. Ethiop J Nat Resourc",
+      "char_offset": 49236
+    },
+    {
+      "type": "paragraph",
+      "text": "Bahir AL, Ahmed MA, Antille DL (2015) Land suitability evaluation to optimize land management of small-scale farms in the Gerado catchment, North-Eastern Ethiopia. Trop Agric 92(1):49\u201368",
+      "char_offset": 49411
+    },
+    {
+      "type": "paragraph",
+      "text": "Barretto R, Buenavista RM, Rivera JL, Wang S, Prasad PV, Siliveru K (2021) Teff (Eragrostis tef) processing, utilization and future opportunities: a review. Int J Food Sci Technol 56(7):3125\u20133137",
+      "char_offset": 49599
+    },
+    {
+      "type": "paragraph",
+      "text": "Barth DS, Mason BJ (1984) Soil sampling quality assurance user's guide (No. PB-84-198621). Nevada Univ., Las Vegas (USA)",
+      "char_offset": 49796
+    },
+    {
+      "type": "paragraph",
+      "text": "Bationo A, Kihara J, Vanlauwe B, Waswa B, Kimetu J (2007) Soil organic carbon dynamics, functions and management in West African agro-ecosystems. Agric Syst 94(1):13\u201325",
+      "char_offset": 49918
+    },
+    {
+      "type": "paragraph",
+      "text": "Bekele B, Alemayehu F, Lakew B (2005) Food barley in Ethiopia. Food Barley: importance, uses, and local knowledge. pp. 53\u201382.",
+      "char_offset": 50088
+    },
+    {
+      "type": "paragraph",
+      "text": "Belay B, Wondie M (2022) Amhara Agricultural Research Institute (ARARI)",
+      "char_offset": 50215
+    },
+    {
+      "type": "paragraph",
+      "text": "Belton V, Gear T (1983) On a short-coming of Saaty\u2019s method of analytic hierarchies. Omega 11(3):228\u2013230",
+      "char_offset": 50288
+    },
+    {
+      "type": "paragraph",
+      "text": "Bhaga TD, Dube T, Shekede MD, Shoko C (2020) Impacts of climate variability and drought on surface water resources in Sub-Saharan Africa using remote sensing: a review. Remote Sens 12(24):4184",
+      "char_offset": 50394
+    },
+    {
+      "type": "paragraph",
+      "text": "Bilonick RA (1994) Sampling of heterogeneous and dynamic material systems: theories of heterogeneity, sampling and homogenizing.",
+      "char_offset": 50588
+    },
+    {
+      "type": "paragraph",
+      "text": "Bodner G, Mentler A, Keiblinger K (2021) Plant roots for sustainable soil structure management in cropping systems. The Root Systems in Sustainable Agricultural Intensification, pp. 45\u201390.",
+      "char_offset": 50718
+    },
+    {
+      "type": "paragraph",
+      "text": "Bojovi\u0107 B, Markovi\u0107 A (2009) Correlation between nitrogen and chlorophyll content in wheat ( Triticum aestivum L.). Kragujevac J Sci 31(5827):69\u201374",
+      "char_offset": 50908
+    },
+    {
+      "type": "paragraph",
+      "text": "Boretti A, Rosa L (2019) Reassessing the projections of the world water development report. NPJ Clean Water 2(1):15",
+      "char_offset": 51057
+    },
+    {
+      "type": "paragraph",
+      "text": "Bosompem C, Stemn E, Fei-Baffoe B (2016) Multi-criteria GIS-based siting of transfer station for municipal solid waste: the case of Kumasi Metropolitan Area. Ghana Waste Manage Res 34(10):1054\u20131063",
+      "char_offset": 51174
+    },
+    {
+      "type": "paragraph",
+      "text": "Brail RK, Klosterman RE (2001) Planning support systems: Integrating geographic information systems, models, and visualization tools. ESRI, Inc",
+      "char_offset": 51373
+    },
+    {
+      "type": "paragraph",
+      "text": "Buckley JJ (1985) Ranking alternatives using fuzzy numbers. Fuzzy Sets Syst 15(1):21\u201331",
+      "char_offset": 51518
+    },
+    {
+      "type": "paragraph",
+      "text": "Burgess TM, Webster R (2019) Optimal interpolation and isarithmic mapping of soil properties: I the semi-variogram and punctual kriging. Eur J Soil Sci 70(1):11\u201319",
+      "char_offset": 51607
+    },
+    {
+      "type": "paragraph",
+      "text": "Carter MR, Gregorich EG (eds) (2007) Soil sampling and methods of analysis. CRC Press, USA",
+      "char_offset": 51772
+    },
+    {
+      "type": "paragraph",
+      "text": "Carvalho FP (2006) Agriculture, pesticides, food security and food safety. Environ Sci Policy 9(7\u20138):685\u2013692",
+      "char_offset": 51864
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapman HD (1965) Cation\u2010exchange capacity. Methods of soil analysis: Part 2 Chemical and microbiological properties. 9: 891\u2013901.",
+      "char_offset": 51974
+    },
+    {
+      "type": "paragraph",
+      "text": "Clevers JG, Gitelson AA (2013) Remote estimation of crop and grass chlorophyll and nitrogen content using red-edge bands on Sentinel-2 and-3. Int J Appl Earth Obs Geoinf 23:344\u2013351",
+      "char_offset": 52105
+    },
+    {
+      "type": "paragraph",
+      "text": "Dash P, G\u00f6ttsche FM, Olesen FS, Fischer H (2002) Land surface temperature and emissivity estimation from passive sensor data: theory and practice-current trends. Int J Remote Sens 23(13):2563\u20132594",
+      "char_offset": 52287
+    },
+    {
+      "type": "paragraph",
+      "text": "Demelash A (2017) Screening of teff (Eragrostis tef) varieties for genotypic and phenotypic traits in Dejen Woreda, East Gojjam Zone. Int J Biodivers Conserv 9(7):239\u2013245",
+      "char_offset": 52485
+    },
+    {
+      "type": "paragraph",
+      "text": "Dereje G, Eshetu A (2011) Crops and agro-ecological zones of Ethiopia. Ethiopian Institute of Agricultural Research, Addis Ababa, Ethiopia",
+      "char_offset": 52657
+    },
+    {
+      "type": "paragraph",
+      "text": "Dong H, Wang P, Fu C, Song B (2021) Kriging-assisted teaching-learning-based optimization (KTLBO) to solve computationally expensive constrained problems. Inf Sci 556:404\u2013435",
+      "char_offset": 52797
+    },
+    {
+      "type": "paragraph",
+      "text": "Eastman JR (1999) Multi-criteria evaluation and GIS. Geogr Informat Syst 1(1):493\u2013502",
+      "char_offset": 52973
+    },
+    {
+      "type": "paragraph",
+      "text": "El Sabagh A, Islam MS, Skalicky M, Ali Raza M, Singh K, Anwar Hossain M, Hossain A, Mahboob W, Iqbal MA, Ratnasekera D, Singhal RK (2021) Salinity stress in wheat ( Triticum aestivum L.) in the changing climate: Adaptation and management strategies. Front Agron 3:661932",
+      "char_offset": 53060
+    },
+    {
+      "type": "paragraph",
+      "text": "Elsheikh R, Shariff ARBM, Amiri F, Ahmad NB, Balasundram SK, Soom MAM (2013) Agriculture land suitability evaluator (ALSE): a decision and planning support tool for tropical and subtropical crops. Comput Electron Agric 93:98\u2013110",
+      "char_offset": 53332
+    },
+    {
+      "type": "paragraph",
+      "text": "Estefan G (2013) Methods of soil, plant, and water analysis: a manual for the West Asia and North Africa region",
+      "char_offset": 53562
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO (Food and Agriculture Organization), 1976. A framework for land evaluation. Soil Bulletin. 32",
+      "char_offset": 53675
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO U (1984) Assistance to land-use planning, Ethiopia. Land evaluation, Part II: Agroclimatic resource inventory for land-use planning. FAO & UNDP, Rome, p. 84",
+      "char_offset": 53774
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO (2001) The state of food and agriculture 2001 (No. 33). Food & Agriculture Org.",
+      "char_offset": 53936
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO/UNDP (Food and Agriculture Organization/United nations Development Program) (1989). Manual on computerized land evaluation system for Ethiopia with special reference to the highlands of Ethiopia, Vol. 3: The influence of environmental conditions on plant growth and development. AG: DP/ETH/82/010. Field Document 17, FAO, Rome",
+      "char_offset": 54021
+    },
+    {
+      "type": "paragraph",
+      "text": "Fekadu W, Mekbib F, Lakew B, Haussmann BI (2022) Assessment of genetic variability and acid soil tolerance in Ethiopian Barley Landraces. Ethiop J Agric Sci 32(4):1\u201329",
+      "char_offset": 54353
+    },
+    {
+      "type": "paragraph",
+      "text": "Food and Agriculture Organization of the United Nations. Land and Water Development Division, 1993. Global and national soils and terrain digital databases (SOTER): Procedures manual (Vol. 74). Food & Agriculture Org..",
+      "char_offset": 54522
+    },
+    {
+      "type": "paragraph",
+      "text": "Franzluebbers AJ (2002) Soil organic matter stratification ratio as an indicator of soil quality. Soil Tillage Res 66(2):95\u2013106",
+      "char_offset": 54742
+    },
+    {
+      "type": "paragraph",
+      "text": "F\u00fcllner K, Temperton VM, Rascher U, Jahnke S, Rist R, Schurr U, Kuhn AJ (2012) Vertical gradient in soil temperature stimulates development and increases biomass accumulation in barley. Plant Cell Environ 35(5):884\u2013892",
+      "char_offset": 54871
+    },
+    {
+      "type": "paragraph",
+      "text": "Gabor C, Meunier G (1993) Putting the power into empowerment. J Qual Particip 16(1):98",
+      "char_offset": 55091
+    },
+    {
+      "type": "paragraph",
+      "text": "Garrett SD (1936) Soil conditions and the take-all disease of wheat. Ann Appl Biol 23(4):667\u2013699",
+      "char_offset": 55179
+    },
+    {
+      "type": "paragraph",
+      "text": "Gashayie A, Singh M (2015) Agricultural finance constraints and innovative models experience for Ethiopia: empirical evidence from developing countries. Res J Finance Account 6(7):39\u201349",
+      "char_offset": 55277
+    },
+    {
+      "type": "paragraph",
+      "text": "Gebretsadik H, Haile M, Yamoah CF (2009) Tillage frequency, soil compaction and N-fertilizer rate effects on yield of teff (Eragrostis tef (Zucc) Trotter) in central zone of Tigray, Northern Ethiopia. Momona Ethiop J Sci 1(1)",
+      "char_offset": 55464
+    },
+    {
+      "type": "paragraph",
+      "text": "Gelan E (2021) GIS-based multi-criteria analysis for sustainable urban green spaces planning in emerging towns of Ethiopia: the case of Sululta town. Environ Syst Res 10(1):1\u201314",
+      "char_offset": 55691
+    },
+    {
+      "type": "paragraph",
+      "text": "Gelaw GK, Likeleh G, Getahun A, Liben M (2013) Participatory evaluation and demonstration of animal drawn compactor for Teff seedbed preparation. Agric Eng Int CIGR J 15(2):112\u2013121",
+      "char_offset": 55870
+    },
+    {
+      "type": "paragraph",
+      "text": "Gorfu D, Ahmed E (2012) Crops and agro-ecological zones of Ethiopia. Ethiopian Institute of Agricultural Research",
+      "char_offset": 56052
+    },
+    {
+      "type": "paragraph",
+      "text": "Gorsevski PV, Donevska KR, Mitrovski CD, Frizado JP (2012) Integrating multi-criteria evaluation techniques with geographic information systems for landfill site selection: a case study using ordered weighted average. Waste Manage 32(2):287\u2013296",
+      "char_offset": 56167
+    },
+    {
+      "type": "paragraph",
+      "text": "Greene R, Devillers R, Luther JE, Eddy BG (2011) GIS-based multiple-criteria decision analysis. Geogr Compass 5(6):412\u2013432",
+      "char_offset": 56413
+    },
+    {
+      "type": "paragraph",
+      "text": "Guan F, Xia M, Tang X, Fan S (2017) Spatial variability of soil nitrogen, phosphorus and potassium contents in Moso bamboo forests in Yong\u2019an City, China. CATENA 150:161\u2013172",
+      "char_offset": 56537
+    },
+    {
+      "type": "paragraph",
+      "text": "Halder JC (2013) Land suitability assessment for crop cultivation by using remote sensing and GIS. J Geogr Geol 5(3):65\u201374",
+      "char_offset": 56712
+    },
+    {
+      "type": "paragraph",
+      "text": "He W, Goodkind D, Kowal PR (2016) An aging world: 2015",
+      "char_offset": 56836
+    },
+    {
+      "type": "paragraph",
+      "text": "Hopkins LD (1977) Methods for generating land suitability maps: a comparative evaluation. J Am Inst Plann 43(4):386\u2013400",
+      "char_offset": 56892
+    },
+    {
+      "type": "paragraph",
+      "text": "Ishizaka A, Lusti M (2006) How to derive priorities in AHP: a comparative study. CEJOR 14:387\u2013400",
+      "char_offset": 57013
+    },
+    {
+      "type": "paragraph",
+      "text": "Jamil M, Sahana M, Sajjad H (2018) Crop suitability analysis in the Bijnor District, UP, using geospatial tools and fuzzy analytical hierarchy process. Agric Res 7:506\u2013522",
+      "char_offset": 57112
+    },
+    {
+      "type": "paragraph",
+      "text": "Jankowski P (1995) Integrating geographical information systems and multiple criteria decision-making methods. Int J Geogr Inf Syst 9(3):251\u2013273",
+      "char_offset": 57285
+    },
+    {
+      "type": "paragraph",
+      "text": "Karaku\u015f CB, Y\u0131ld\u0131z S (2022) Gis-multi criteria decision analysis-based land suitability assessment for dam site selection. Int J Environ Sci Technol 19(12):12561\u201312580",
+      "char_offset": 57431
+    },
+    {
+      "type": "paragraph",
+      "text": "Kharub AS, Chander S (2012) Production technology for malt barley. Malting quality improvement in barley, Sorghum & Corn 56",
+      "char_offset": 57600
+    },
+    {
+      "type": "paragraph",
+      "text": "Kidane Y (2022) Vegetation Diversity and Distribution along the Bale Mountains Afroalpine Hotspot of Biodiversity in the Face of a Fast-Changing World (Doctoral dissertation)",
+      "char_offset": 57725
+    },
+    {
+      "type": "paragraph",
+      "text": "Ladha JK, Tirol-Padre A, Reddy CK, Cassman KG, Verma S, Powlson DS, Van Kessel C, de Richter BD, Chakraborty D, Pathak H (2016) Global nitrogen budgets in cereals: a 50-year assessment for maize, rice and wheat production systems. Sci Rep 6(1):19355",
+      "char_offset": 57901
+    },
+    {
+      "type": "paragraph",
+      "text": "Article ADS PubMed PubMed Central CAS Google Scholar",
+      "char_offset": 58152
+    },
+    {
+      "type": "paragraph",
+      "text": "Lakew B, Yirga C, Fikadu W (2016) Malt barley research and development in Ethiopia: opportunities and challenges. Agric Res Ethiop Renaissan",
+      "char_offset": 58206
+    },
+    {
+      "type": "paragraph",
+      "text": "Lal R (2001) Managing world soils for food security and environmental quality. Elsevier, Amsterdam",
+      "char_offset": 58348
+    },
+    {
+      "type": "paragraph",
+      "text": "Landon JR (2014) Booker tropical soil manual: a handbook for soil survey and agricultural land evaluation in the tropics and subtropics. Routledge, UK",
+      "char_offset": 58448
+    },
+    {
+      "type": "paragraph",
+      "text": "Latif MS (2014) Land surface temperature retrival of Landsat-8 data using split window algorithm\u2014a case study of Ranchi District. Int J Eng Dev Res 2(4):2840\u20133849",
+      "char_offset": 58600
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu GD, Wu WL, Zhang J (2005) Regional differentiation of non-point source pollution of agriculture-derived nitrate nitrogen in groundwater in northern China. Agr Ecosyst Environ 107(2\u20133):211\u2013220",
+      "char_offset": 58764
+    },
+    {
+      "type": "paragraph",
+      "text": "MacDougall EB (1975) The accuracy of map overlays. Landsc Plan 2:23\u201330",
+      "char_offset": 58961
+    },
+    {
+      "type": "paragraph",
+      "text": "Malczewski J (1996) A GIS-based approach to multiple criteria group decision-making. Int J Geogr Inf Syst 10(8):955\u2013971",
+      "char_offset": 59033
+    },
+    {
+      "type": "paragraph",
+      "text": "Malczewski J (2004) GIS-based land-use suitability analysis: a critical overview. Prog Plan 62(1):3\u201365",
+      "char_offset": 59154
+    },
+    {
+      "type": "paragraph",
+      "text": "Mandal S, Choudhury BU, Satpati L (2020) Soil site suitability analysis using geo-statistical and visualization techniques for selected winter crops in Sagar Island, India. Appl Geogr 122:102249",
+      "char_offset": 59258
+    },
+    {
+      "type": "paragraph",
+      "text": "Manschadi AM, Kaul HP, Vollmann J, Eitzinger J, Wenzel W (2014) Developing phosphorus-efficient crop varieties\u2014an interdisciplinary research framework. Field Crop Res 162:87\u201398",
+      "char_offset": 59454
+    },
+    {
+      "type": "paragraph",
+      "text": "Mantel S, Kauffman JH (1995) The automated land evaluation system",
+      "char_offset": 59632
+    },
+    {
+      "type": "paragraph",
+      "text": "Mart\u00edn JR, \u00c1lvaro-Fuentes J, Gonzalo J, Gil C, Ramos-Miras JJ, Corb\u00ed JG, Boluda R (2016) Assessment of the soil organic carbon stock in Spain. Geoderma 264:117\u2013125",
+      "char_offset": 59699
+    },
+    {
+      "type": "paragraph",
+      "text": "McHarg IL, American Museum of Natural History (1969) Design with nature. American Museum of Natural History, New York, pp 7\u201317",
+      "char_offset": 59864
+    },
+    {
+      "type": "paragraph",
+      "text": "Mendas A, Delali A (2012) Integration of multicriteria decision analysis in GIS to develop land suitability for agriculture: application to durum wheat cultivation in the region of Mleta in Algeria. Comput Electron Agric 83:117\u2013126",
+      "char_offset": 59992
+    },
+    {
+      "type": "paragraph",
+      "text": "Mensah AK (2015) Role of revegetation in restoring fertility of degraded mined soils in Ghana: a review. Int J Biodivers Conserv 7(2):57\u201380",
+      "char_offset": 60225
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihretie FA, Tsunekawa A, Haregeweyn N, Adgo E, Tsubo M, Masunaga T, Meshesha DT, Tsuji W, Ebabu K, Tassew A (2021) Tillage and sowing options for enhancing productivity and profitability of teff in a sub-tropical highland environment. Field Crop Res 263:108050",
+      "char_offset": 60366
+    },
+    {
+      "type": "paragraph",
+      "text": "Mokarram M, Rangzan K, Moezzi A, Baninemeh J (2010) Land suitability evaluation for wheat cultivation by fuzzy theory approach as compared with parametric method. Int Arch Photogr Remote Sens Spatial Informat Sci 38(Part II):140\u2013145",
+      "char_offset": 60629
+    },
+    {
+      "type": "paragraph",
+      "text": "Mokwunye U, Bationo A (2001) Meeting the phosphorus needs of the soils and crops of West Africa: the role of indigenous phosphate rocks. Integrated plant nutrient management in Sub-Saharan Africa: from concept to practice. CABI Publishing, Wallingford UK, pp 209\u2013224",
+      "char_offset": 60863
+    },
+    {
+      "type": "paragraph",
+      "text": "Mulatu B, Grando S (2011) Barley research and development in Ethiopia",
+      "char_offset": 61131
+    },
+    {
+      "type": "paragraph",
+      "text": "Mustafa AA, Singh M, Sahoo RN, Ahmed N, Khanna M, Sarangi A, Mishra AK (2011) Land suitability analysis for different crops: a multi criteria decision making approach using remote sensing and GIS. Researcher 3(12):61\u201384",
+      "char_offset": 61202
+    },
+    {
+      "type": "paragraph",
+      "text": "Nachtergaele F, Velthuizen HV, Verelst L, Wiberg D (2015) Harmonized world soil database (HWSD) Food and Agriculture Organization of the United Nations. Rome 22:42",
+      "char_offset": 61423
+    },
+    {
+      "type": "paragraph",
+      "text": "Obrador A, Alvarez JM, Lopez-Valdivia LM, Gonzalez D, Novillo J, Rico MI (2007) Relationships of soil properties with Mn and Zn distribution in acidic soils and their uptake by a barley crop. Geoderma 137(3\u20134):432\u2013443",
+      "char_offset": 61588
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohmura A (2012) Enhanced temperature variability in high-altitude climate change. Theoret Appl Climatol 110:499\u2013508",
+      "char_offset": 61807
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohyama T (2010) Nitrogen as a major essential element of plants. Nitrogen Assim Plants 37:1\u201317",
+      "char_offset": 61924
+    },
+    {
+      "type": "paragraph",
+      "text": "Olsen SR (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate (No. 939). US Department of Agriculture",
+      "char_offset": 62020
+    },
+    {
+      "type": "paragraph",
+      "text": "Olusina JO, Shyllon DO (2014) Suitability analysis in determining optimal landfill location using multi-criteria evaluation (mce), gis & remote sensing. Int J Comput Eng Res 4(6):7\u201320",
+      "char_offset": 62159
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostovari Y, Honarbakhsh A, Sangoony H, Zolfaghari F, Maleki K, Ingram B (2019) GIS and multi-criteria decision-making analysis assessment of land suitability for rapeseed farming in calcareous soils of semi-arid regions. Ecol Ind 103:479\u2013487",
+      "char_offset": 62344
+    },
+    {
+      "type": "paragraph",
+      "text": "Ozsahin E, Ozdes M (2022) Agricultural land suitability assessment for agricultural productivity based on GIS modeling and multi-criteria decision analysis: the case of Tekirda\u011f province. Environ Monit Assess 194(1):41",
+      "char_offset": 62587
+    },
+    {
+      "type": "paragraph",
+      "text": "Pan G, Pan J (2012) Research in crop land suitability analysis based on GIS. In: Computer and Computing Technologies in Agriculture V: 5th IFIP TC 5/SIG 5.1 Conference, CCTA 2011, Beijing, China, October 29\u201331, 2011, Proceedings, Part II 5 (pp. 314\u2013325). Springer, Berlin Heidelberg",
+      "char_offset": 62807
+    },
+    {
+      "type": "paragraph",
+      "text": "Patil GP (1995) Composite sampling. Environ Ecol Statis 2:169\u2013179",
+      "char_offset": 63091
+    },
+    {
+      "type": "paragraph",
+      "text": "Perveen F, Nagasawa R, Uddin MI, Delowar HK (2007) Crop land suitability analysis using a multicriteria evaluation and GIS approach. In: 5th International Symposium on Digital Earth (ISDE5), June (Vol. 5, No. 9)",
+      "char_offset": 63158
+    },
+    {
+      "type": "paragraph",
+      "text": "Prakash TN (2003) Land suitability analysis for agricultural crops: a fuzzy multicriteria decision making approach. ITC, West Bengal",
+      "char_offset": 63371
+    },
+    {
+      "type": "paragraph",
+      "text": "Rajeshwari A, Mani ND (2014) Estimation of land surface temperature of Dindigul district using Landsat 8 data. Int J Res Eng Technol 3(5):122\u2013126",
+      "char_offset": 63505
+    },
+    {
+      "type": "paragraph",
+      "text": "Rhoades JD (1983) Cation exchange capacity. In: Methods of soil analysis: Part 2 chemical and microbiological properties. vol 9, pp.149\u2013157.",
+      "char_offset": 63652
+    },
+    {
+      "type": "paragraph",
+      "text": "Rhoades JD (1996) Salinity: electrical conductivity and total dissolved solids. In: Methods of soil analysis: Part 3 Chemical methods. vol. 5, pp. 417\u2013435.",
+      "char_offset": 63794
+    },
+    {
+      "type": "paragraph",
+      "text": "Ritchey EL, McGrath JM, Gehring D (2015) Determining soil texture by feel",
+      "char_offset": 63951
+    },
+    {
+      "type": "paragraph",
+      "text": "Romano G, Dal Sasso P, Liuzzi GT, Gentile F (2015) Multi-criteria decision analysis for land suitability mapping in a rural area of Southern Italy. Land Use Policy 48:131\u2013143",
+      "char_offset": 64026
+    },
+    {
+      "type": "paragraph",
+      "text": "Ryan J, Estefan G, Rashid A (2001) Soil and plant analysis laboratory manual. ICARDA",
+      "char_offset": 64202
+    },
+    {
+      "type": "paragraph",
+      "text": "Saaty TL (2008) Relative measurement and its generalization in decision making why pairwise comparisons are central in mathematics for the measurement of intangible factors the analytic hierarchy/network process. RACSAM-Revista de la Real Academia de Ciencias Exactas. Fisicas y Naturales Serie a Matematicas 102:251\u2013318",
+      "char_offset": 64288
+    },
+    {
+      "type": "paragraph",
+      "text": "Schindler DW (2006) Recent advances in the understanding and management of eutrophication. Limnol Oceanogr 51(1):356\u2013363",
+      "char_offset": 64610
+    },
+    {
+      "type": "paragraph",
+      "text": "Sertsu S, Bekele T (2000) Procedures for soil and plant analysis. Technical paper. 74.",
+      "char_offset": 64732
+    },
+    {
+      "type": "paragraph",
+      "text": "Shah F, Wu W (2019) Soil and crop management strategies to ensure higher crop productivity within sustainable environments. Sustainability 11(5):1485",
+      "char_offset": 64820
+    },
+    {
+      "type": "paragraph",
+      "text": "Siegel FR (2021) The Earth\u2019s human carrying capacity: limitations assessed, solutions proposed. Springer Nature, Berlin",
+      "char_offset": 64971
+    },
+    {
+      "type": "paragraph",
+      "text": "Smiraglia D, Capotorti G, Guida D, Mollo B, Siervo V, Blasi C (2013) Land units map of Italy. J Maps 9(2):239\u2013244",
+      "char_offset": 65092
+    },
+    {
+      "type": "paragraph",
+      "text": "Steinitz C (1976) Hand-drawn overlays: their history and prospective uses. Landsc Architect 66:444\u2013455",
+      "char_offset": 65207
+    },
+    {
+      "type": "paragraph",
+      "text": "Syers JK, Johnston AE, Curtin D (2008) Efficiency of soil and fertilizer phosphorus use. FAO Fertil Plant Nutr Bull 18(108):5\u201350",
+      "char_offset": 65311
+    },
+    {
+      "type": "paragraph",
+      "text": "Sys C, Van Ranst E, Debaveye J (1991) Land evaluation: principles in land evaluation and crop production calculations. General Administration for Development Cooperation",
+      "char_offset": 65441
+    },
+    {
+      "type": "paragraph",
+      "text": "Sys C, Van Ranst E, Debaveye J, Beernaert F (1993) Land evaluation. Part III: crop requirements. Agricultural Publications no. 7, GADC, Brussels, Belgium, pp. 191",
+      "char_offset": 65612
+    },
+    {
+      "type": "paragraph",
+      "text": "Tehulie NS, Eskezia H (2021) Effects of nitrogen fertilizer rates on growth, yield components and yield of food Barley ( Hordeum vulgare L.): a review. J Plant Sci Agric Res 5:46",
+      "char_offset": 65776
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiruneh GA, Alemayehu TY, Allouche FK, Reichert JM (2021) Spatial variability modeling of soil fertility for improved nutrient management in Northwest Ethiopia. Arab J Geosci 14:1\u201314",
+      "char_offset": 65956
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiruneh GA, Alemayehu TY, Meshesha DT, Adgo E, Tiruneh GA, Reichert JM (2023a) Variability modeling and mapping of soil properties for improved management in Ethiopia. Agrosyst Geosci Environ 6(1):e20357",
+      "char_offset": 66140
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiruneh GA, Meshesha DT, Adgo E, Tsunekawa A, Haregeweyn N, Fenta AA, Alemayehu TY, Mulualem T, Fekadu G, Demissie S, Reichert JM (2023b) Mapping crop yield spatial variability using Sentinel-2 vegetation indices in Ethiopia. Arab J Geosci 16(11):631",
+      "char_offset": 66345
+    },
+    {
+      "type": "paragraph",
+      "text": "Verheye W, Koohafkan AP, Nachtergaele F (2009) The FAO guidelines for land evaluation. Encyclopedia of land use, land cover and soil sciences: land evaluation, vol. 2, pp. 78\u2013100",
+      "char_offset": 66597
+    },
+    {
+      "type": "paragraph",
+      "text": "WFP E (2014) Comprehensive food security and vulnerability analysis (CFSVA)",
+      "char_offset": 66777
+    },
+    {
+      "type": "paragraph",
+      "text": "Widiatmaka W (2016) Integrated use of GIS, AHP and remote sensing in land use planning for tropical high altitude vegetable crops",
+      "char_offset": 66854
+    },
+    {
+      "type": "paragraph",
+      "text": "Wohl EE (2000) Mountain rivers. American Geophysical Union",
+      "char_offset": 66985
+    },
+    {
+      "type": "paragraph",
+      "text": "Woldegiorgis G (2007) Faculty of Science School of Graduate Studies Environmental Science Programme (Doctoral dissertation, Addis Ababa University)",
+      "char_offset": 67045
+    },
+    {
+      "type": "paragraph",
+      "text": "Wondrade N, Dick \u00d8B, Tveite H (2014) GIS based mapping of land cover changes utilizing multi-temporal remotely sensed image data in Lake Hawassa Watershed, Ethiopia. Environ Monit Assess 186:1765\u20131780",
+      "char_offset": 67194
+    },
+    {
+      "type": "paragraph",
+      "text": "Yitbarek TW, Belliethathan S, Stringer LC (2012) The onsite cost of gully erosion and cost\u2013benefit of gully rehabilitation: a case study in Ethiopia. Land Degrad Dev 23(2):157\u2013166",
+      "char_offset": 67396
+    },
+    {
+      "type": "paragraph",
+      "text": "Yizengaw T, Verheye W (1994) Modelling production potentials of tef (Eragrostis tef) in the central highlands of Ethiopia. Soil Technol 7(3):269\u2013277",
+      "char_offset": 67577
+    },
+    {
+      "type": "paragraph",
+      "text": "Young FO, ISAACSON M (1976) Soil survey. Cambridge University Press, London",
+      "char_offset": 67727
+    },
+    {
+      "type": "paragraph",
+      "text": "Zeshui X, Cuiping W (1999) A consistency improving method in the analytic hierarchy process. Eur J Oper Res 116(2):443\u2013449",
+      "char_offset": 67804
+    },
+    {
+      "type": "paragraph",
+      "text": "Z\u00f6rb C, Ludewig U, Hawkesford MJ (2018) Perspective on wheat yield and quality with reduced nitrogen supply. Trends Plant Sci 23(11):1029\u20131037",
+      "char_offset": 67928
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 68072
+    },
+    {
+      "type": "paragraph",
+      "text": "We acknowledge journal of sustainable environmental research in publishing our research work.",
+      "char_offset": 68118
+    },
+    {
+      "type": "paragraph",
+      "text": "College of Agriculture and Natural Resource Management, Debre Markos University, Debre Markos, Ethiopia",
+      "char_offset": 68213
+    },
+    {
+      "type": "paragraph",
+      "text": "Urban Land Management and Marketing Office, Debre Markos, Eastern Gojjam Province, Ethiopia",
+      "char_offset": 68318
+    },
+    {
+      "type": "paragraph",
+      "text": "All authors contribute for the success of the manuscript.",
+      "char_offset": 68411
+    },
+    {
+      "type": "paragraph",
+      "text": "Correspondence to Simeneh Gedefaw Abate .",
+      "char_offset": 68470
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors respected all the ethics of the journal for publication",
+      "char_offset": 68513
+    },
+    {
+      "type": "paragraph",
+      "text": "We, the authors request journal of Environmental Systems Research to permit us to go through the necessary requirements for publication.",
+      "char_offset": 68582
+    },
+    {
+      "type": "paragraph",
+      "text": "In this manuscript, we declare that authors has no competing interest .",
+      "char_offset": 68720
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 68793
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ .",
+      "char_offset": 68913
+    },
+    {
+      "type": "paragraph",
+      "text": "Abate, S.G., Anteneh, M.B. Assessment of agricultural land suitability for cereal crops based on the analysis of soil physico-chemical characteristics. Environ Syst Res 13 , 6 (2024). https://doi.org/10.1186/s40068-024-00333-y",
+      "char_offset": 69766
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1186/s40068-024-00333-y",
+      "char_offset": 69994
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 70044
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 70121
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 70191
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-b84a6dcb8b187fea"
+}

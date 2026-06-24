@@ -1,0 +1,74 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.radiation_use_efficiency",
+    "value_type": "range",
+    "range_min": 1.86,
+    "range_max": 2.16,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "RUE_total ... ranged from 1.86 (24th ESWYT) to 2.16 (37th ESWYT) g MJ -1 with a respective annual progress rate of 0.91%",
+    "claim_summary": "Total radiation use efficiency of CIMMYT elite spring wheat ranged 1.86-2.16 g MJ-1.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "canopy.biomass_accumulation",
+    "value_type": "range",
+    "range_min": 1.45,
+    "range_max": 1.78,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Overall BM ranged from 1.45 (24th ESWYT) to 1.78 (37th ESWYT) kg m -2",
+    "claim_summary": "Wheat biomass at maturity ranged 1.45-1.78 kg/m2 in CIMMYT elite spring wheat trials.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.grain_fill_duration",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "grain filling rate (GFR), biomass at crop maturity (BM) ... grain weight per Spike (GWP) exhibited stronger and more significant positive correlations with GY",
+    "claim_summary": "Grain filling rate and grain filling period are key drivers of wheat grain yield genetic gains.",
+    "extraction_confidence": "low"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 100,
+    "range_max": 220,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "At sowing, ∼100 kg ha-1 N (granulated urea) ... was followed by another N application around the first node initiation of 120 kg ha-1",
+    "claim_summary": "Optimally-irrigated wheat received ~100 kg/ha N at sowing plus 120 kg/ha N at first node (~220 total).",
+    "extraction_confidence": "medium",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "At sowing, ∼100 kg ha-1 N (granulated urea) ... which was followed by another N application around the first node initiation of 120 kg ha-1 (granulated urea).",
+    "claim_summary": "Wheat N split: at sowing and again at first node initiation.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "all trials were arranged in an alpha lattice design with three replicates and a 6.1 m 2 plot size with a seed rate of 120 kg ha -1",
+    "claim_summary": "CIMMYT elite spring wheat yield trials used a seed rate of 120 kg/ha.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "numeric",
+    "numeric_value": 500,
+    "unit": "mm",
+    "qualifier": "typical",
+    "evidence_text": "genotypes were grown ... with about 500 mm of available water ... five irrigations of approximately 100 mm each and equally distributed across the growing season",
+    "claim_summary": "Optimally irrigated wheat at Obregon received ~500 mm water (five 100-mm irrigations).",
+    "extraction_confidence": "medium",
+    "methods": ["irrigation"]
+  }
+]}

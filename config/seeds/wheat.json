@@ -1,0 +1,205 @@
+{
+  "registry_version": "0.1.0",
+  "notes": "Curated wheat source seeds (WS-6). Migrated out of config/runs/pilot-global-wheat.json with verified scope, source quality, and caveats. The UNL G2122 caveat is the motivating example: it covers N/P/S only, not seeding rate.",
+  "seeds": [
+    {
+      "seed_id": "wheat-ksu-production-handbook",
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf",
+      "title": "Wheat Production Handbook - Kansas State University Extension",
+      "snippet": "K-State Research and Extension wheat production handbook covering planting, fertility, growth, and harvest management.",
+      "document_type": "pdf",
+      "crop": "wheat",
+      "region": "us-great-plains",
+      "source_tier_id": "extension_publication",
+      "source_quality": "high",
+      "covered_parameters": [
+        "planting.planting_window",
+        "planting.seeding_rate",
+        "planting.seeding_depth",
+        "nutrients.nitrogen_requirement",
+        "nutrients.phosphorus_requirement",
+        "temperature.optimum_growth_temperature",
+        "stress.lodging_susceptibility",
+        "harvest.harvest_moisture"
+      ],
+      "verified_scope": "Comprehensive production handbook; broad but US Great Plains-centric agronomy.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["Rates and dates are calibrated to Kansas/Great Plains conditions."]
+    },
+    {
+      "seed_id": "wheat-sdsu-production-guide",
+      "source_url": "https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-04-Wheat.pdf",
+      "title": "Wheat Production Guide - South Dakota State University Extension",
+      "snippet": "SDSU Extension wheat guide with seeding rate, planting date, fertility, and frost management guidance.",
+      "document_type": "pdf",
+      "crop": "wheat",
+      "region": "us-northern-plains",
+      "source_tier_id": "extension_publication",
+      "source_quality": "high",
+      "covered_parameters": [
+        "planting.seeding_rate",
+        "planting.planting_window",
+        "nutrients.nitrogen_requirement",
+        "stress.frost_risk_stage"
+      ],
+      "verified_scope": "Northern Plains wheat establishment and fertility guidance.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": []
+    },
+    {
+      "seed_id": "wheat-unl-g2122-fertilizing",
+      "source_url": "https://extensionpubs.unl.edu/publication/g2122/na/pdf/view",
+      "title": "Fertilizing Winter Wheat - Nebraska Extension (G2122)",
+      "snippet": "Nebraska Extension winter wheat fertility guide for nitrogen, phosphorus, and sulfur recommendations.",
+      "document_type": "pdf",
+      "crop": "wheat",
+      "region": "us-nebraska",
+      "source_tier_id": "extension_publication",
+      "source_quality": "high",
+      "covered_parameters": [
+        "nutrients.nitrogen_requirement",
+        "nutrients.phosphorus_requirement",
+        "nutrients.sulfur_requirement"
+      ],
+      "verified_scope": "Winter wheat macronutrient fertility (N, P, S) only.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["Covers N/P/S fertility ONLY — do NOT map to seeding rate or planting date (the original run-config seed mismatch)."]
+    },
+    {
+      "seed_id": "wheat-osu-soil-ph",
+      "source_url": "https://extension.oregonstate.edu/catalog/pub/ec-1657-living-land-managing-soil-ph",
+      "title": "Managing Soil pH - Oregon State University Extension",
+      "snippet": "OSU Extension soil pH and acidity management guide relevant to wheat soil suitability.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "us-pacific-northwest",
+      "source_tier_id": "extension_publication",
+      "source_quality": "medium",
+      "covered_parameters": ["soil.ph_range", "soil.salinity_threshold"],
+      "verified_scope": "General soil pH/acidity management; not wheat-specific but applicable to wheat soil suitability.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["Not wheat-specific; soil pH guidance is general."]
+    },
+    {
+      "seed_id": "wheat-msu-extension",
+      "source_url": "https://www.canr.msu.edu/wheat/",
+      "title": "Wheat - Michigan State University Extension",
+      "snippet": "MSU Extension wheat production resources covering planting timing and nitrogen management.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "us-great-lakes",
+      "source_tier_id": "extension_publication",
+      "source_quality": "medium",
+      "covered_parameters": ["planting.planting_window", "nutrients.nitrogen_timing"],
+      "verified_scope": "Landing hub for MSU wheat resources; some content behind further links.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["Landing page — primary values may live on linked sub-pages."]
+    },
+    {
+      "seed_id": "wheat-unl-cropwatch",
+      "source_url": "https://cropwatch.unl.edu/wheat/",
+      "title": "Wheat - Nebraska CropWatch",
+      "snippet": "Nebraska CropWatch wheat agronomy with growth, planting, and irrigation guidance.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "us-nebraska",
+      "source_tier_id": "extension_publication",
+      "source_quality": "medium",
+      "covered_parameters": [
+        "temperature.optimum_growth_temperature",
+        "planting.planting_window",
+        "water.irrigation_trigger"
+      ],
+      "verified_scope": "Nebraska wheat agronomy hub.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["Landing page — primary values may live on linked sub-pages."]
+    },
+    {
+      "seed_id": "wheat-fao-land-water",
+      "source_url": "https://www.fao.org/land-water/databases-and-software/crop-information/wheat/en/",
+      "title": "Crop Information: Wheat - FAO Land & Water",
+      "snippet": "FAO crop water information for wheat including evapotranspiration, crop coefficients, and water requirements.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "global",
+      "source_tier_id": "international_institution",
+      "source_quality": "high",
+      "covered_parameters": [
+        "water.evapotranspiration_requirement",
+        "water.crop_coefficient",
+        "water.allowable_depletion"
+      ],
+      "verified_scope": "Authoritative global crop water requirements (Kc, ETc, depletion) for wheat.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": []
+    },
+    {
+      "seed_id": "wheat-fao-irrigation-x5871e",
+      "source_url": "https://www.fao.org/4/x5871e/x5871e00.htm",
+      "title": "Irrigation Water Management: Wheat - FAO",
+      "snippet": "FAO irrigation water management reference covering wheat water use, crop coefficients, and sensitive stages.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "global",
+      "source_tier_id": "international_institution",
+      "source_quality": "high",
+      "covered_parameters": [
+        "water.evapotranspiration_requirement",
+        "water.drought_sensitive_stage",
+        "water.crop_coefficient"
+      ],
+      "verified_scope": "FAO irrigation water management; wheat water use and sensitive stages.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": []
+    },
+    {
+      "seed_id": "wheat-cimmyt-research",
+      "source_url": "https://www.cimmyt.org/work/wheat-research/",
+      "title": "Wheat Research - CIMMYT",
+      "snippet": "CIMMYT wheat research on heat and drought tolerance, vernalization, and stress-adaptive physiology.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "global",
+      "source_tier_id": "international_institution",
+      "source_quality": "high",
+      "covered_parameters": [
+        "phenology.vernalization_requirement",
+        "stress.heat_sensitive_stage",
+        "stress.drought_tolerance"
+      ],
+      "verified_scope": "CIMMYT wheat stress physiology research hub.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["Research landing page — links out to specific studies."]
+    },
+    {
+      "seed_id": "wheat-ahdb-growth-guide",
+      "source_url": "https://ahdb.org.uk/knowledge-library/wheat-growth-guide",
+      "title": "Wheat Growth Guide - AHDB",
+      "snippet": "AHDB wheat growth guide covering growth stages, thermal time, tillering, and canopy development benchmarks.",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "uk",
+      "source_tier_id": "industry_grower_guide",
+      "source_quality": "high",
+      "covered_parameters": [
+        "phenology.maturity_duration",
+        "thermal_time.gdu_accumulation",
+        "morphology.tiller_density",
+        "canopy.leaf_area_index"
+      ],
+      "verified_scope": "Authoritative UK wheat growth-stage and thermal-time benchmarks (Zadoks).",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": ["UK cultivars/conditions; thermal-time benchmarks are region-calibrated."]
+    }
+  ]
+}

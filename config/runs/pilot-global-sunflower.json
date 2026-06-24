@@ -1,0 +1,27 @@
+{
+  "run_id": "pilot-global-sunflower-001",
+  "version": "0.1.0",
+  "crop": "sunflower",
+  "region_scope": {
+    "level": "global",
+    "name": "global"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/sunflower.json",
+  "source_tier_policy_path": "config/source-tiers/default.json",
+  "source_tier_policy_id": "comprehensive_accessible",
+  "query_terms_per_source_tier": 3,
+  "queries_per_parameter": 1,
+  "use_source_seeds": false,
+  "max_results_per_query": 3,
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

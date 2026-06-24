@@ -1,0 +1,290 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "numeric",
+      "numeric_value": -20,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat varieties recommended for CWD must possess cold tolerance to resist -20 ºC winter temperatures and heat tolerance to withstand 35 to 40 ºC summer temperatures.",
+      "claim_summary": "Recommended wheat varieties must tolerate winter temperatures down to -20 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "range",
+      "range_min": 35,
+      "range_max": 40,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "heat tolerance to withstand 35 to 40 ºC summer temperatures. Early maturity in avariety can help partly avoid of terminal heat.",
+      "claim_summary": "Wheat must withstand summer heat of 35-40 C; terminal heat is a stress concern.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "Delayed planting in spring could result in exposure of wheat crops to terminal heat stress caused by temperatures above 35 ºC. Such wheat crops will not only show lower yields, but also shriveled grains.",
+      "claim_summary": "Temperatures above 35 C cause terminal heat stress, lower yield and shriveled grain.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "range",
+      "range_min": 5,
+      "range_max": 7,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "The coleoptile, or second leaf, penetrates the soil and results in the emergence of the seedling, usually within 5 to 7 days after planting.",
+      "claim_summary": "Wheat seedling emergence usually occurs 5-7 days after planting.",
+      "extraction_confidence": "high",
+      "methods": ["planting"]
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "numeric",
+      "numeric_value": 7,
+      "unit": "feet",
+      "qualifier": "maximum",
+      "evidence_text": "Most of the roots are in the plow layer, or on top of six inches of soil, but some penetrate as far as seven feet into the soil.",
+      "claim_summary": "Most wheat roots are in the top six inches of soil but some reach as deep as seven feet.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 35,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "Physiological maturity occurs when the kernel has accumulated its highest content of dry matter, has hardened, and changed color. The kernel contains 30 to 35 percent water at physiological maturity.",
+      "claim_summary": "At physiological maturity the wheat kernel contains 30-35 percent water.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 12,
+      "range_max": 13,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The most important change is the loss of moisture from 30 to 35 percent in mature grain to 12 to 13 percent in combine-ripe grain.",
+      "claim_summary": "Combine-ripe wheat grain has a moisture content of 12-13 percent.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 10,
+      "unit": "percent",
+      "qualifier": "maximum",
+      "evidence_text": "The grains should be thoroughly dried to a moisture level below 10 percent before storage. Drier grains can be stored well until the next crop year.",
+      "claim_summary": "Grain should be dried below 10 percent moisture before storage.",
+      "extraction_confidence": "high",
+      "methods": ["drying", "storage"]
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "range",
+      "range_min": 4,
+      "range_max": 12,
+      "unit": "weeks",
+      "qualifier": "observed",
+      "evidence_text": "The maximum weight occurs about 4 weeks after flowering in Kansas. This period is determined by temperature and can extend up to 12 weeks in areas where the weather is cool.",
+      "claim_summary": "Maximum grain weight reached ~4 weeks after flowering, extending up to 12 weeks in cool areas.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "range",
+      "range_min": 10,
+      "range_max": 20,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "Photosynthesis in the awns, or beard, provides 10 to 20 percent of the grain weight. This is why all the wheat varieties grown in Kansas have awns.",
+      "claim_summary": "Awn photosynthesis contributes 10-20 percent of grain weight.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "range",
+      "range_min": 2,
+      "range_max": 4,
+      "unit": "cm",
+      "qualifier": "recommended",
+      "evidence_text": "Seeds should be dropped at a depth of 2 to 4 cm depending on soil moisture. In the cold winterdesert seeds should not be planted too shallow if there is a likelihood of frost occurrence.",
+      "claim_summary": "Recommended wheat seeding depth is 2-4 cm depending on soil moisture.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "15 to 30 September – winter wheat for cold provinces of Navoi, Bukhara, Khorezm and Karakalpakstan as well as other cold places and mountain regions. The occurrence of frost in these provinces increases from October onward, therefore delayed planting should be avoided.",
+      "claim_summary": "Winter wheat in cold provinces should be sown 15-30 September; spring wheat 15 Feb-15 Mar.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 250,
+      "range_max": 350,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "In Uzbekistan traditionally, most farmers use 250 kg/ha, and some farmers even use 300 to 350 kg/ha. These seed rates are higher than those in other countries.",
+      "claim_summary": "Typical wheat seeding rate in Uzbekistan is 250 kg/ha, up to 300-350 kg/ha.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "range",
+      "range_min": 400,
+      "range_max": 500,
+      "unit": "spikes/m2",
+      "qualifier": "recommended",
+      "evidence_text": "The farmers aim to achieve 4 to 5 million spikes per hectare at the time of harvesting.",
+      "claim_summary": "Target of 4-5 million spikes per hectare (400-500/m2) at harvest.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 200,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "In Uzbekistan, general nutrient recommendations for irrigated wheat crops are 200 kg N, 80 kg P2O5, and 50 kg K2O per hectare.",
+      "claim_summary": "Recommended nitrogen for irrigated wheat is 200 kg N/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 80,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "In Uzbekistan, general nutrient recommendations for irrigated wheat crops are 200 kg N, 80 kg P2O5, and 50 kg K2O per hectare.",
+      "claim_summary": "Recommended phosphorus for irrigated wheat is 80 kg P2O5/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "In Uzbekistan, general nutrient recommendations for irrigated wheat crops are 200 kg N, 80 kg P2O5, and 50 kg K2O per hectare.",
+      "claim_summary": "Recommended potassium for irrigated wheat is 50 kg K2O/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 100,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For rainfed-grown wheat, fertilizers are applied at the rate of 100, 50, and 25 kg/ha of N, P2O5, and K2O, respectively.",
+      "claim_summary": "Recommended nitrogen for rainfed wheat is 100 kg N/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For rainfed-grown wheat, fertilizers are applied at the rate of 100, 50, and 25 kg/ha of N, P2O5, and K2O, respectively.",
+      "claim_summary": "Recommended phosphorus for rainfed wheat is 50 kg P2O5/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 25,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For rainfed-grown wheat, fertilizers are applied at the rate of 100, 50, and 25 kg/ha of N, P2O5, and K2O, respectively.",
+      "claim_summary": "Recommended potassium for rainfed wheat is 25 kg K2O/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The fertilizers are applied in split with half of the N and all the P and applied at the time of land preparation, and the remaining half of the N is broadcast in spring.",
+      "claim_summary": "Nitrogen is split: half plus all P at land preparation, remaining half broadcast in spring.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Certain growth stages are more sensitive than others to moisture stress. Crown root initiation and flowering stages are critical to moisture stress. Daily water use increases with growth stages and is maximum during heading and flowering.",
+      "claim_summary": "Crown root initiation and flowering are the most moisture-stress-sensitive wheat stages.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "The growing point is the most susceptible of all plant parts to frost at this stage. New tillers might replace tillers in which the growing point has been damaged by frost, but the yield usually is reduced substantially.",
+      "claim_summary": "At jointing the growing point is most susceptible to frost, with frost during flowering sterilizing florets.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Any delay in harvesting may result in lodging of dry wheat plants due to gusty winds.",
+      "claim_summary": "Delayed harvest increases lodging risk from gusty winds.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Crop rotation is effectiveforcontrolling tanspot, Septoria leafblotch, glumeblotch, and rootrot.Wheat and cotton are often rotated on large farms in Uzbekistan",
+      "claim_summary": "Rotating wheat (e.g. with cotton or legumes) controls tan spot, Septoria, glume blotch and root rot.",
+      "extraction_confidence": "high",
+      "methods": ["crop rotation"],
+      "organisms": [
+        {"name": "tan spot", "role": "disease"},
+        {"name": "Septoria leaf blotch", "role": "disease"},
+        {"name": "glume blotch", "role": "disease"},
+        {"name": "root rot", "role": "disease"}
+      ]
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Tan spot ... Minor disease but becoming important under minimum tillage ... Cool and wet spring, reduced tillage with residue left on the soil",
+      "claim_summary": "Reduced tillage with residue left on soil favors tan spot disease in wheat.",
+      "extraction_confidence": "medium",
+      "methods": ["minimum tillage"],
+      "organisms": [{"name": "tan spot", "role": "disease"}]
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Zero tillage technology for wheat sowing is a special technique for establishing crops without tillage and seedbed preparation. Wheat is sown through zero tillage drills in the residual moisture to avoid late sowing and save land preparation costs.",
+      "claim_summary": "Zero tillage establishes wheat in residual moisture, avoiding late sowing and saving land prep costs.",
+      "extraction_confidence": "medium",
+      "methods": ["zero tillage", "sowing"]
+    }
+  ]
+}

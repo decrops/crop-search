@@ -1,0 +1,52 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "range",
+    "range_min": 1.34,
+    "range_max": 4.14,
+    "unit": "spikelets/cm",
+    "qualifier": "observed",
+    "evidence_text": "SD showed prominent variation, varying between 1.34 and 4.14.",
+    "claim_summary": "Spike density in the tetraploid/hexaploid 2SY wheat RIL population varied from 1.34 to 4.14 spikelets per cm across environments.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum (hexaploid wheat, 2SY 20828/SY95-71 RIL population)"],
+    "methods": "Spike density computed as spikelet number per spike (SNS) divided by spike length (SL); five/three plants per line across multiple environments"
+  },
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "range",
+    "range_min": 1.65,
+    "range_max": 3.85,
+    "unit": "spikelets/cm",
+    "qualifier": "observed",
+    "evidence_text": "And a SD range from 1.65 to 3.85 was observed in AM RILs.",
+    "claim_summary": "Spike density in the tetraploid (durum) AM wheat RIL population (Ailanmai x wild emmer) ranged from 1.65 to 3.85 spikelets per cm.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum turgidum (tetraploid/durum wheat, AM AL/LM001 RIL population)"],
+    "methods": "Spike density computed as spikelet number per spike (SNS) divided by spike length (SL); five plants per line across eight environments"
+  },
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "numeric",
+    "numeric_value": 2.14,
+    "unit": "spikelets/cm",
+    "qualifier": "typical",
+    "evidence_text": "BLUP 1.95 2.30 1.70–2.80 2.14 0.21 0.82 0.90 0.67",
+    "claim_summary": "BLUP-based mean spike density in the hexaploid 2SY wheat RIL population was about 2.14 spikelets per cm (range 1.70-2.80).",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum (hexaploid wheat, 2SY 20828/SY95-71 RIL population)"],
+    "methods": "Best linear unbiased prediction (BLUP) across seven environments"
+  },
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "numeric",
+    "numeric_value": 2.31,
+    "unit": "spikelets/cm",
+    "qualifier": "typical",
+    "evidence_text": "BLUP 2.01 2.87 2.01–2.87 2.31 0.15 0.64 1.03 0.69",
+    "claim_summary": "BLUP-based mean spike density in the tetraploid (durum) AM wheat RIL population was about 2.31 spikelets per cm (range 2.01-2.87).",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum turgidum (tetraploid/durum wheat, AM AL/LM001 RIL population)"],
+    "methods": "Best linear unbiased prediction (BLUP) across eight environments"
+  }
+]}

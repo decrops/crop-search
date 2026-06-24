@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-13ae31c5ecb53bb7",
+  "canonical_url": "https://en.wikipedia.org/wiki/Oat",
+  "source_url": "https://en.wikipedia.org/wiki/Oat",
+  "doi": "",
+  "title": "Oat - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "13ae31c5ecb53bb781414b8a0484c3e73cb96107ffe179b6bc369dd6b745a5e8",
+  "content_hash": "97f3ee483bcc9f8c005f0e80eff63864203580161080bffade7e73d1f7209f40",
+  "text_length": 17161,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 46573
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/302-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

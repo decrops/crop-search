@@ -1,0 +1,100 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Wheat Harvest Tips",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Carefully Time Harvest",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Check Combine Settings",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Make Additional Combine Adjustments",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Drying and Storing Wheat",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Monitor field closely for harvest readiness.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Always harvest between 20% and 14% moisture.",
+      "char_offset": 46
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider harvesting at 18% to 20% moisture and artificially drying the grain.",
+      "char_offset": 92
+    },
+    {
+      "type": "paragraph",
+      "text": "Each time conditions or varieties change, recheck the settings on the combine.",
+      "char_offset": 171
+    },
+    {
+      "type": "paragraph",
+      "text": "Check behind the combine for grain loss.",
+      "char_offset": 251
+    },
+    {
+      "type": "paragraph",
+      "text": "Fields infected with head scab may require additional combine adjustments to remove infected seed.",
+      "char_offset": 293
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat spikes with symptoms of Fusarium head blight (head scab).",
+      "char_offset": 393
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintain soil moisture for double-crop soybeans.",
+      "char_offset": 458
+    },
+    {
+      "type": "paragraph",
+      "text": "Drying temperatures and optimum grain moisture",
+      "char_offset": 508
+    },
+    {
+      "type": "paragraph",
+      "text": "Authors: Nick Monnig, Field Agronomist and Scott Eversgerd, Field Agronomist",
+      "char_offset": 556
+    },
+    {
+      "type": "paragraph",
+      "text": "The foregoing is provided for informational use only. Please contact your Pioneer sales professional for information and suggestions specific to your operation. Product performance is variable and depends on many factors such as moisture and heat stress, soil type, management practices and environmental stress as well as disease and pest pressures. Individual results may vary.",
+      "char_offset": 634
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-602e04fa3958203b"
+}

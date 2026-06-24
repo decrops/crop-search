@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-0cf1a1999a2b82b5",
+  "canonical_url": "https://en.wikipedia.org/wiki/Maize",
+  "source_url": "https://en.wikipedia.org/wiki/Maize",
+  "doi": "",
+  "title": "Maize - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "0cf1a1999a2b82b583564b03417b00355b31c281167b9a76d7fd620ac79cde9e",
+  "content_hash": "b6eb74c156871223db8bcde1383e16580c813bb88319b5f5dd5832665013e772",
+  "text_length": 29968,
+  "publication_date_hint": "2020",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 20656228
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/124-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-2ef42400cf5a68f1",
+  "canonical_url": "https://era.dpi.qld.gov.au/id/eprint/8478/1/EJAgro_18_267-288_2003.pdf",
+  "source_url": "https://era.dpi.qld.gov.au/id/eprint/8478/1/EJAgro_18_267-288_2003.pdf",
+  "doi": "https://doi.org/10.1016/s1161-0301(02)00108-9",
+  "title": "An overview of APSIM, a model designed for farming systems simulation",
+  "source_domain": "era.dpi.qld.gov.au",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "2ef42400cf5a68f1f9930022dc0344377e6813b59cf6e24bd7733ef5cf8780ab",
+  "content_hash": "fd35e20628019e1ea0f0d09d299bd261e941eee3ae6af9488e96c8154cf2664b",
+  "text_length": 59124,
+  "publication_date_hint": "2002",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2036123899",
+    "doi": "https://doi.org/10.1016/s1161-0301(02)00108-9",
+    "publication_year": 2002,
+    "is_open_access": true,
+    "open_access_status": "green"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/186-era.dpi.qld.gov.au.pdf",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "servers": [
+    {
+      "name": "search-fixture",
+      "purpose": "Fixture-backed search tool for offline development.",
+      "required": true,
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["-m", "crop_search_framework.dev_tools.search_fixture"]
+    },
+    {
+      "name": "fetch-fixture",
+      "purpose": "Fixture-backed fetch tool for offline development.",
+      "required": true,
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["-m", "crop_search_framework.dev_tools.fetch_fixture"]
+    },
+    {
+      "name": "parse-basic",
+      "purpose": "Fixture-backed parser for offline development.",
+      "required": true,
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["-m", "crop_search_framework.dev_tools.parse_basic"]
+    }
+  ]
+}

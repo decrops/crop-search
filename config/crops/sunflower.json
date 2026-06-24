@@ -1,0 +1,80 @@
+{
+  "crop_id": "sunflower",
+  "label": "Sunflower",
+  "crop_group": "oilseed",
+  "aliases": [
+    "sunflower",
+    "oilseed sunflower",
+    "confection sunflower"
+  ],
+  "scientific_names": [
+    "Helianthus annuus"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "emergence",
+    "vegetative",
+    "bud",
+    "flowering",
+    "seed fill",
+    "physiological maturity"
+  ],
+  "production_context_terms": [
+    "oilseed crop",
+    "confection sunflower",
+    "hybrid sunflower",
+    "head development"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "emergence",
+      "bbch_min": 9,
+      "bbch_max": 11,
+      "confidence": "high"
+    },
+    {
+      "local_term": "vegetative",
+      "bbch_min": 12,
+      "bbch_max": 39,
+      "confidence": "medium",
+      "source_note": "leaf development through stem elongation"
+    },
+    {
+      "local_term": "bud",
+      "bbch_min": 51,
+      "bbch_max": 59,
+      "confidence": "high",
+      "source_note": "inflorescence (star/bud) emergence"
+    },
+    {
+      "local_term": "flowering",
+      "bbch_min": 60,
+      "bbch_max": 69,
+      "confidence": "high"
+    },
+    {
+      "local_term": "seed fill",
+      "bbch_min": 70,
+      "bbch_max": 79,
+      "confidence": "high"
+    },
+    {
+      "local_term": "physiological maturity",
+      "bbch_min": 80,
+      "bbch_max": 89,
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 28,
+      "qualifier": "typical",
+      "evidence_text": "Typically, wheat plants produce 12 to 14 spikelets per head with two to four seeds per spikelet. Two seeds per spikelet will be most common and will generally result in 25 to 28 seeds per head, the most common number in Kansas being 26 seeds per head.",
+      "claim_summary": "Wheat typically produces 12-14 spikelets per head, 2-4 seeds per spikelet, giving 25-28 (commonly 26) seeds per head in Kansas.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 32,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The average value for seeds per pound is typically between 14,000 and 15,000 (about 30 to 32 grams thousand)",
+      "claim_summary": "Wheat thousand kernel weight typically ~30-32 g (14,000-15,000 seeds per pound).",
+      "extraction_confidence": "high"
+    }
+  ]
+}

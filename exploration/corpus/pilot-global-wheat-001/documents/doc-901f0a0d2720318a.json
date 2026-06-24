@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-901f0a0d2720318a",
+  "canonical_url": "https://en.wikipedia.org/wiki/Soil",
+  "source_url": "https://en.wikipedia.org/wiki/Soil",
+  "doi": "",
+  "title": "Soil - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "901f0a0d2720318a7b24c72b8b30c7ef1ff3c50a2f90ed3eddb318f8b435cff2",
+  "content_hash": "03af3411d1a08cace66ff77aa85bb607aad02ff47fecb426ecb21b4823a47956",
+  "text_length": 68614,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 37738
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/152-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

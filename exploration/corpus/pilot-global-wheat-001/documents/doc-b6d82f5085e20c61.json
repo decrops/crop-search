@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-b6d82f5085e20c61",
+  "canonical_url": "https://www.nature.com/articles/s41467-023-36129-4.pdf",
+  "source_url": "https://www.nature.com/articles/s41467-023-36129-4.pdf",
+  "doi": "https://doi.org/10.1038/s41467-023-36129-4",
+  "title": "Silver lining to a climate crisis in multiple prospects for alleviating crop waterlogging under future climates",
+  "source_domain": "www.nature.com",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "b6d82f5085e20c61582d0817afce8c3531349cbd36689b1defa5a0719b3c0e03",
+  "content_hash": "42dfffb1ae976993144ca03086fc765f1d61c4a37aa21cbff0dba0dfcaa7e71d",
+  "text_length": 56118,
+  "publication_date_hint": "2080",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W4319915600",
+    "doi": "https://doi.org/10.1038/s41467-023-36129-4",
+    "publication_year": 2023,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/136-www.nature.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

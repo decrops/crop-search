@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/raw-capture.schema.json",
+  "title": "RawCapture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "run_id",
+    "query",
+    "source_url",
+    "accessed_at",
+    "document_type",
+    "parser_used",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string",
+      "minLength": 3
+    },
+    "parameter_id": {
+      "type": "string"
+    },
+    "parameter_family": {
+      "type": "string"
+    },
+    "parameter_label": {
+      "type": "string"
+    },
+    "source_tier_id": {
+      "type": "string"
+    },
+    "source_tier_label": {
+      "type": "string"
+    },
+    "discovery_method": {
+      "type": "string"
+    },
+    "access_status": {
+      "type": "string",
+      "enum": ["open_full_text", "metadata_only", "unknown"]
+    },
+    "source_metadata": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "final_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_title": {
+      "type": "string"
+    },
+    "source_domain": {
+      "type": "string"
+    },
+    "accessed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "content_type": {
+      "type": "string"
+    },
+    "document_type": {
+      "type": "string",
+      "enum": ["html", "pdf", "csv", "json", "other"]
+    },
+    "artifact_path": {
+      "type": "string"
+    },
+    "search_title": {
+      "type": "string"
+    },
+    "search_snippet": {
+      "type": "string"
+    },
+    "snippet": {
+      "type": "string"
+    },
+    "raw_text": {
+      "type": "string"
+    },
+    "publication_date_hint": {
+      "type": "string"
+    },
+    "evidence_fragments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_fragment_labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "text"],
+        "properties": {
+          "label": {
+            "type": "string",
+            "enum": ["claim", "abstract", "table", "figure", "reference", "chapter", "unknown"]
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "parser_used": {
+      "type": "string",
+      "minLength": 2
+    },
+    "candidate_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["captured", "parsed", "partial", "failed"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "parameter_id": "canopy.canopy_cover",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Our findings reveal that crops with clumped canopy architectures achieve higher yields and lower N2O emissions, a pattern consistently observed across all four major crops... This effect is possibly driven by enhanced light interception and gross primary production, along with increased canopy nitrogen demand.",
+      "claim_summary": "Clumped canopy architecture in wheat raises yield and lowers N2O emissions via enhanced light interception and GPP.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.light_extinction_coefficient",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "crops with clumped canopy architectures achieve higher yields... driven by enhanced light interception and gross primary production",
+      "claim_summary": "Canopy clumping index influences light interception efficiency in wheat canopies.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

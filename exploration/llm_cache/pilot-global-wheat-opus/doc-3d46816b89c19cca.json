@@ -1,0 +1,15 @@
+{
+  "claims": [
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 6.0,
+      "range_max": 7.0,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "studies have shown that wheat (Triticum aestivum) performs best in soils with a pH of 6.0 to 7.0",
+      "claim_summary": "Wheat performs best in soils with pH 6.0 to 7.0.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

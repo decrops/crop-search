@@ -1,0 +1,892 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "BBCH-scale (cereals)",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Feekes scale",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Zadoks scale",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Further reading",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "External links",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Growth stage",
+        "Code",
+        "Description"
+      ],
+      "rows": [
+        [
+          "0: Germination",
+          "00",
+          "Dry seed (caryopsis)"
+        ],
+        [
+          "01",
+          "Beginning of seed imbibition"
+        ],
+        [
+          "03",
+          "Seed imbibition complete"
+        ],
+        [
+          "05",
+          "Radicle emerged from caryopsis"
+        ],
+        [
+          "06",
+          "Radicle elongated, root hairs and/or side roots visible"
+        ],
+        [
+          "07",
+          "Coleoptile emerged from caryopsis"
+        ],
+        [
+          "09",
+          "Emergence: coleoptile penetrates soil surface (cracking stage)"
+        ],
+        [
+          "1: Leaf development 1 , 2",
+          "10",
+          "First leaf through coleoptile"
+        ],
+        [
+          "11",
+          "First leaf unfolded"
+        ],
+        [
+          "12",
+          "2 leaves unfolded"
+        ],
+        [
+          "13",
+          "3 leaves unfolded"
+        ],
+        [
+          "1 .",
+          "Stages continuous till ..."
+        ],
+        [
+          "19",
+          "9 or more leaves unfolded"
+        ],
+        [
+          "2: Tillering 3",
+          "20",
+          "No tillers"
+        ],
+        [
+          "21",
+          "Beginning of tillering: first tiller detectable"
+        ],
+        [
+          "22",
+          "2 tillers detectable"
+        ],
+        [
+          "23",
+          "3 tillers detectable"
+        ],
+        [
+          "2 .",
+          "Stages continuous till ..."
+        ],
+        [
+          "29",
+          "End of tillering. Maximum no. of tillers detectable"
+        ],
+        [
+          "3: Stem elongation",
+          "30",
+          "Beginning of stem elongation: pseudostem and tillers erect, first internode begins to elongate, top of inflorescence at least 1 cm above tillering node"
+        ],
+        [
+          "31",
+          "First node at least 1 cm above tillering node"
+        ],
+        [
+          "32",
+          "Node 2 at least 2 cm above node 1"
+        ],
+        [
+          "33",
+          "Node 3 at least 2 cm above node 2"
+        ],
+        [
+          "3 .",
+          "Stages continuous till ..."
+        ],
+        [
+          "37",
+          "Flag leaf just visible, still rolled"
+        ],
+        [
+          "39",
+          "Flag leaf stage: flag leaf fully unrolled, ligule just visible"
+        ],
+        [
+          "4: Booting",
+          "41",
+          "Early boot stage: flag leaf sheath extending"
+        ],
+        [
+          "43",
+          "Mid boot stage: flag leaf sheath just visibly swollen"
+        ],
+        [
+          "45",
+          "Late boot stage: flag leaf sheath swollen"
+        ],
+        [
+          "47",
+          "Flag leaf sheath opening"
+        ],
+        [
+          "49",
+          "First awns visible (in awned forms only)"
+        ],
+        [
+          "5: Inflorescence emergence, heading",
+          "51",
+          "Beginning of heading: tip of inflorescence emerged from sheath, first spikelet just visible"
+        ],
+        [
+          "52",
+          "20% of inflorescence emerged"
+        ],
+        [
+          "53",
+          "30% of inflorescence emerged"
+        ],
+        [
+          "54",
+          "40% of inflorescence emerged"
+        ],
+        [
+          "55",
+          "Middle of heading: half of inflorescence emerged"
+        ],
+        [
+          "56",
+          "60% of inflorescence emerged"
+        ],
+        [
+          "57",
+          "70% of inflorescence emerged"
+        ],
+        [
+          "58",
+          "80% of inflorescence emerged"
+        ],
+        [
+          "59",
+          "End of heading: inflorescence fully emerged"
+        ],
+        [
+          "6: Flowering, anthesis",
+          "61",
+          "Beginning of flowering: first anthers visible"
+        ],
+        [
+          "65",
+          "Full flowering: 50% of anthers mature"
+        ],
+        [
+          "69",
+          "End of flowering: all spikelets have completed flowering but some dehydrated anthers may remain"
+        ],
+        [
+          "7: Development of fruit",
+          "71",
+          "Watery ripe: first grains have reached half their final size"
+        ],
+        [
+          "73",
+          "Early milk"
+        ],
+        [
+          "75",
+          "Medium milk: grain content milky, grains reached final size, still green"
+        ],
+        [
+          "77",
+          "Late milk"
+        ],
+        [
+          "8: Ripening",
+          "83",
+          "Early dough"
+        ],
+        [
+          "85",
+          "Soft dough: grain content soft but dry. Fingernail impression not held"
+        ],
+        [
+          "87",
+          "Hard dough: grain content solid. Fingernail impression held"
+        ],
+        [
+          "89",
+          "Fully ripe: grain hard, difficult to divide with thumbnail"
+        ],
+        [
+          "9: Senescence",
+          "92",
+          "Over-ripe: grain very hard, cannot be dented by thumbnail"
+        ],
+        [
+          "93",
+          "Grains loosening in day-time"
+        ],
+        [
+          "97",
+          "Plant dead and collapsing"
+        ],
+        [
+          "99",
+          "Harvested product"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Cereal growth stages using the Feekes scale [ 2 ]"
+      ],
+      "rows": [
+        [
+          "Stage",
+          "Description"
+        ],
+        [
+          "Tillering"
+        ],
+        [
+          "1",
+          "One shoot (number of leaves can be added), first leaf through coleoptile."
+        ],
+        [
+          "2",
+          "Beginning of tillering; main shoot and one tiller."
+        ],
+        [
+          "3",
+          "Tillers formed; leaves often twisted spirally. Main shoot and six tillers. In some varieties of winter wheat, plant may be \"creeping,\" or prostrate."
+        ],
+        [
+          "4",
+          "Beginning of the erection of the pseudo-stem; leaf sheaths beginning to lengthen."
+        ],
+        [
+          "5",
+          "Pseudo-stem (formed by sheaths of leaves) strongly erected."
+        ],
+        [
+          "Stem Extension"
+        ],
+        [
+          "6",
+          "First node of stem visible at base of shoot."
+        ],
+        [
+          "7",
+          "Second node of stem formed; next-to-last leaf just visible."
+        ],
+        [
+          "8",
+          "Flag leaf (last leaf) visible but still rolled up; ear beginning to swell."
+        ],
+        [
+          "9",
+          "Ligule of flag leaf just visible."
+        ],
+        [
+          "10",
+          "Sheath of flag leaf completely grown out; ear swollen but not yet visible."
+        ],
+        [
+          "Heading"
+        ],
+        [
+          "10.1",
+          "First spikelet of head just visible."
+        ],
+        [
+          "10.2",
+          "One-quarter of heading process completed."
+        ],
+        [
+          "10.3",
+          "Half of heading process completed."
+        ],
+        [
+          "10.4",
+          "Three-quarters of heading process completed."
+        ],
+        [
+          "10.5",
+          "All heads out of sheath."
+        ],
+        [
+          "Flowering"
+        ],
+        [
+          "10.51",
+          "Beginning of flowering."
+        ],
+        [
+          "10.52",
+          "Flowering complete to top of head."
+        ],
+        [
+          "10.53",
+          "Flowering completed at base of head."
+        ],
+        [
+          "10.54",
+          "Flowering completed; kernel watery ripe."
+        ],
+        [
+          "Ripening"
+        ],
+        [
+          "11.1",
+          "Milky ripe."
+        ],
+        [
+          "11.2",
+          "Mealy ripe; contents of kernel soft but dry. Soft dough."
+        ],
+        [
+          "11.3",
+          "Kernel hard (difficult to divide with thumbnail)."
+        ],
+        [
+          "11.4",
+          "Ripe for cutting. Straw dead."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "Comparison of growth stage scales"
+      ],
+      "rows": [
+        [
+          "Zadok Scale",
+          "Feekes Scale",
+          "Haun Scale",
+          "Description"
+        ],
+        [
+          "Germination"
+        ],
+        [
+          "00",
+          "",
+          "",
+          "Dry seed"
+        ],
+        [
+          "01",
+          "",
+          "",
+          "Start of imbibition"
+        ],
+        [
+          "03",
+          "",
+          "",
+          "Imbibition complete"
+        ],
+        [
+          "05",
+          "",
+          "",
+          "Radicle emerged from seed"
+        ],
+        [
+          "07",
+          "",
+          "",
+          "Coleoptile emerged from seed"
+        ],
+        [
+          "09",
+          "",
+          "0.0",
+          "Leaf just at coleoptile tip"
+        ],
+        [
+          "Seedling growth"
+        ],
+        [
+          "10",
+          "1",
+          "",
+          "First leaf through coleoptile"
+        ],
+        [
+          "11",
+          "",
+          "1.+",
+          "First leaf unfolded"
+        ],
+        [
+          "12",
+          "",
+          "1.+",
+          "2 leaves unfolded"
+        ],
+        [
+          "13",
+          "",
+          "2.+",
+          "3 leaves unfolded"
+        ],
+        [
+          "14",
+          "",
+          "3.+",
+          "4 leaves unfolded"
+        ],
+        [
+          "15",
+          "",
+          "4.+",
+          "5 leaves unfolded"
+        ],
+        [
+          "16",
+          "",
+          "5.+",
+          "6 leaves unfolded"
+        ],
+        [
+          "17",
+          "",
+          "6.+",
+          "7 leaves unfolded"
+        ],
+        [
+          "18",
+          "",
+          "7.+",
+          "8 leaves unfolded"
+        ],
+        [
+          "19",
+          "",
+          "",
+          "9 or more leaves unfolded"
+        ],
+        [
+          "Tillering"
+        ],
+        [
+          "20",
+          "",
+          "",
+          "Main shoot only"
+        ],
+        [
+          "21",
+          "2",
+          "",
+          "Main shoot and 1 tiller"
+        ],
+        [
+          "22",
+          "",
+          "",
+          "Main shoot and 2 tillers"
+        ],
+        [
+          "23",
+          "",
+          "",
+          "Main shoot and 3 tillers"
+        ],
+        [
+          "24",
+          "",
+          "",
+          "Main shoot and 4 tillers"
+        ],
+        [
+          "25",
+          "",
+          "",
+          "Main shoot and 5 tillers"
+        ],
+        [
+          "26",
+          "3",
+          "",
+          "Main shoot and 6 tillers"
+        ],
+        [
+          "27",
+          "",
+          "",
+          "Main shoot and 7 tillers"
+        ],
+        [
+          "28",
+          "",
+          "",
+          "Main shoot and 8 tillers"
+        ],
+        [
+          "29",
+          "",
+          "",
+          "Main shoot and 9 or more tillers"
+        ],
+        [
+          "Stem Elongation"
+        ],
+        [
+          "30",
+          "4-5",
+          "",
+          "Pseudo stem erection"
+        ],
+        [
+          "31",
+          "6",
+          "",
+          "1st node detectable"
+        ],
+        [
+          "32",
+          "7",
+          "",
+          "2nd node detectable"
+        ],
+        [
+          "33",
+          "",
+          "",
+          "3rd node detectable"
+        ],
+        [
+          "34",
+          "",
+          "",
+          "4th node detectable"
+        ],
+        [
+          "35",
+          "",
+          "",
+          "5th node detectable"
+        ],
+        [
+          "36",
+          "",
+          "",
+          "6th node detectable"
+        ],
+        [
+          "37",
+          "8",
+          "",
+          "Flag leaf just visible"
+        ],
+        [
+          "39",
+          "9",
+          "",
+          "Flag leaf ligule/collar just visible"
+        ],
+        [
+          "Booting"
+        ],
+        [
+          "40",
+          "",
+          "",
+          "-"
+        ],
+        [
+          "41",
+          "",
+          "8-9",
+          "Flag leaf sheath extending"
+        ],
+        [
+          "45",
+          "10",
+          "9.2",
+          "Boots just swollen"
+        ],
+        [
+          "47",
+          "",
+          "",
+          "Flag leaf sheath opening"
+        ],
+        [
+          "49",
+          "",
+          "10.1",
+          "First awns visible"
+        ],
+        [
+          "Inflorescence emergence"
+        ],
+        [
+          "50",
+          "10.1",
+          "10.2",
+          "First spikelet of inflorescence visible"
+        ],
+        [
+          "53",
+          "10.2",
+          "",
+          "1/4 of inflorescence emerged"
+        ],
+        [
+          "55",
+          "10.3",
+          "10.5",
+          "1/2 of inflorescence emerged"
+        ],
+        [
+          "57",
+          "10.4",
+          "10.7",
+          "3/4 of inflorescence emerged"
+        ],
+        [
+          "59",
+          "10.5",
+          "11.0",
+          "Emergence of inflorescence completed"
+        ],
+        [
+          "Anthesis"
+        ],
+        [
+          "60",
+          "10.51",
+          "11.4",
+          "Beginning on anthesis"
+        ],
+        [
+          "65",
+          "",
+          "11.5",
+          "Anthesis half-way"
+        ],
+        [
+          "69",
+          "",
+          "11.6",
+          "Anthesis completed"
+        ],
+        [
+          "Milk development"
+        ],
+        [
+          "70",
+          "",
+          "",
+          "-"
+        ],
+        [
+          "71",
+          "10.54",
+          "12.1",
+          "Kernel watery ripe"
+        ],
+        [
+          "73",
+          "",
+          "13.0",
+          "Early milk"
+        ],
+        [
+          "75",
+          "11.1",
+          "",
+          "Medium milk"
+        ],
+        [
+          "77",
+          "",
+          "",
+          "Late milk"
+        ],
+        [
+          "Dough development"
+        ],
+        [
+          "80",
+          "",
+          "",
+          "-"
+        ],
+        [
+          "83",
+          "",
+          "14.0",
+          "Early dough"
+        ],
+        [
+          "85",
+          "11.2",
+          "",
+          "Soft dough"
+        ],
+        [
+          "87",
+          "",
+          "15.0",
+          "Hard dough"
+        ],
+        [
+          "Ripening"
+        ],
+        [
+          "90",
+          "",
+          "",
+          "-"
+        ],
+        [
+          "91",
+          "11.3",
+          "",
+          "Kernel hard (difficult to divide with thumbnail)"
+        ],
+        [
+          "92",
+          "11.4",
+          "16.0",
+          "Kernel hard (no longer dented with thumbnail)"
+        ],
+        [
+          "93",
+          "",
+          "",
+          "Kernel loosening in daytime"
+        ],
+        [
+          "94",
+          "",
+          "",
+          "Overripe, straw dead and collapsing"
+        ],
+        [
+          "95",
+          "",
+          "",
+          "Seed dormant"
+        ],
+        [
+          "96",
+          "",
+          "",
+          "Viable seed giving 50% germination"
+        ],
+        [
+          "97",
+          "",
+          "",
+          "Seed not dormant"
+        ],
+        [
+          "98",
+          "",
+          "",
+          "Secondary dormancy induced"
+        ],
+        [
+          "99",
+          "",
+          "",
+          "Secondary dormancy lost"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Cereal growth staging scales attempt to objectively measure the growth of cereals .",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "In agronomy , the BBCH-scale for cereals describes the phenological development of cereals using the BBCH-scale .",
+      "char_offset": 85
+    },
+    {
+      "type": "paragraph",
+      "text": "The phenological growth stages and BBCH-identification keys of cereals are:",
+      "char_offset": 200
+    },
+    {
+      "type": "paragraph",
+      "text": "The Feekes scale is a system to identify the growth and development of cereal crops introduced by the Dutch agronomists Willem Feekes (1907-1979) in 1941. [ 1 ] [ 2 ] This scale is more widely used in the United States [ 3 ] than other similar and more descriptive [ 4 ] [ 5 ] scales such as the Zadoks scale or the BBCH scale . Like other scales of crop development, the Feekes scale is useful in planning management strategies that incorporate plant growth information for the use of pesticides and fertilizers to avoid damaging the crop and/or maximize crop yield .",
+      "char_offset": 277
+    },
+    {
+      "type": "paragraph",
+      "text": "The Zadoks scale is a cereal development scale proposed by the Dutch phytopathologist Jan Zadoks that is widely used in cereal research and agriculture. Knowing the stages of development of a crop is critical in many management decisions that growers make. They are represented on a scale from 10 to 92. For example, in some countries, nitrogen and herbicide applications must be completed during the tillering stage. In France , the recommendation for the first nitrogen application on wheat is 6 weeks before Z30, with the second application on Z30. Wheat growth regulators are typically applied at Z30. Disease control is most critical in the stem extension and heading stage (Z31, Z32, Z35), in particular as soon as the flag leaf is out (Z37). The crop is also more sensitive to heat or frost at some stages than others (for example, during the meiosis stage the crop is very sensitive to low temperature). Knowing the growth stage of the crop when checking for problems is essential for deciding which control measures should be followed.",
+      "char_offset": 847
+    }
+  ],
+  "labels": [
+    "growth_stage_table",
+    "has_table"
+  ],
+  "document_id": "doc-b109140ca4779478"
+}

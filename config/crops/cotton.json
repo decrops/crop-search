@@ -1,0 +1,78 @@
+{
+  "crop_id": "cotton",
+  "label": "Cotton",
+  "crop_group": "fiber",
+  "aliases": [
+    "cotton",
+    "upland cotton"
+  ],
+  "scientific_names": [
+    "Gossypium hirsutum"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "emergence",
+    "squaring",
+    "flowering",
+    "boll development",
+    "boll opening",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "fiber crop",
+    "boll",
+    "lint",
+    "defoliation"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "emergence",
+      "bbch_min": 9,
+      "bbch_max": 11,
+      "confidence": "high"
+    },
+    {
+      "local_term": "squaring",
+      "bbch_min": 51,
+      "bbch_max": 59,
+      "confidence": "high",
+      "source_note": "flower-bud (square) formation"
+    },
+    {
+      "local_term": "flowering",
+      "bbch_min": 60,
+      "bbch_max": 69,
+      "confidence": "high"
+    },
+    {
+      "local_term": "boll development",
+      "bbch_min": 70,
+      "bbch_max": 79,
+      "confidence": "high"
+    },
+    {
+      "local_term": "boll opening",
+      "bbch_min": 80,
+      "bbch_max": 89,
+      "confidence": "high"
+    },
+    {
+      "local_term": "maturity",
+      "bbch_min": 90,
+      "bbch_max": 99,
+      "confidence": "medium"
+    }
+  ]
+}

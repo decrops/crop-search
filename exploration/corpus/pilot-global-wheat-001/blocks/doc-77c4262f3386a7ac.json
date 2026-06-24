@@ -1,0 +1,816 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "A guide to irrigation requirement of wheat crop in FAO-developed agro-climatic zones of Punjab, Pakistan",
+      "text": "Research Open access Published: 27 March 2025 Volume 3 , article number 41 ( 2025 ) Cite this article You have full access to this open access article Download PDF Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Article summary",
+      "text": "AI generated"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Water scarcity is a global concern exacerbated by human activities, including water mismanagement. The water shortage intensely impacts food production, as inadequate water is applied to the field for irrigation. Proper irrigation systems help to boost crop productivity and ensure food security. In arid and semi-arid regions, a limited amount of rainfall demands an understanding of crop water requirements (CWR). Climate change is the major suspect that further complicates irrigation management because as the temperature rises, evapotranspiration increases, leading to greater water demand by crops. Changes in rainfall patterns contribute to drought or floods that adversely affect crop production. To address these challenges, irrigation scheduling is essential to mitigate the effect of climate change on crop yield. This study determines the CWR and irrigation scheduling of Wheat in six districts of Punjab across the agro-climatic zones defined by the Food and Agricultural Organization (FAO), using CROPWAT software. Evapotranspiration was calculated using the Penman\u2013Monteith method that utilize the climate data from 2013 to 2023. The selected station includes Mandibahauddin (MBD), Faisalabad (FSD), Toba Tek Singh (TTS), Bahawalpur (BWP), Bahawalnagar (BWN), and Khanpur (KNP). The results indicate that CWR varies in different stages of the crop; the lowest water requirement is in the initial stage, and the highest water requirement is in the mid-stage during crop development. During the dry season, the water requirement is high because rain can\u2019t fulfill the crop\u2019s water needs. Notably, southern Punjab BWP and KNP show maximum irrigation water requirements of 179, and 184.2 mm due to the dry climate compared to central region MBD, highlighting the influence of climatic variations. Unlike the previous studies focusing on specific districts, this research paper provides comprehensive irrigation scheduling across Punjab\u2019s agro-climatic zones. Future studies should expand to include other crops to refine irrigation practices further. Graphical abstract"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Graphical abstract",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Data-Driven Irrigation Scheduling: A Spatiotemporal Assessment of Crop Water Requirements for Major Crops in Punjab, Pakistan Article 26 July 2025 Water supply and effective rainfall impacts on major crops across irrigated areas of Punjab, Pakistan Article 01 September 2020 Modelling wellbeing of farmers by using nexus of climate change risk perception, adaptation strategies, and their drivers on irrigation water in Pakistan Article 14 February 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Data-Driven Irrigation Scheduling: A Spatiotemporal Assessment of Crop Water Requirements for Major Crops in Punjab, Pakistan",
+      "text": "Article 26 July 2025"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Water supply and effective rainfall impacts on major crops across irrigated areas of Punjab, Pakistan",
+      "text": "Article 01 September 2020"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Modelling wellbeing of farmers by using nexus of climate change risk perception, adaptation strategies, and their drivers on irrigation water in Pakistan",
+      "text": "Article 14 February 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Agricultural Geography Agriculture Agronomy Drought Food Security Soil and Water Protection Irrigation Water Management and Crop Water Requirements"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 2,
+      "heading": "1 Introduction",
+      "text": "The scarcity of water and the degradation of water quality are being globally intensified by climate change. In Pakistan, due to significant susceptibility to climate change, agriculture frequently experiences negative consequences such as severe storms, floods, and droughts. [ 1 ]. Pakistan ranks 5th globally in the frequency of extreme weather events as per the Global Climate Risk Index [ 2 ]. In Pakistan, natural resources, particularly water, soil, and plants, are key for the survival of animals and humans but are continuously affected by climate change. Water is considered the quintessential substance among all elements, unparalleled in its remarkable properties, and is a crucial part of human well-being and socio-economic development. Water is the most important substance on Earth with approximately 0.3% of the global water resources available [ 3 , 4 ]. Surface water supplies are also shrinking due to industrialization and burdening the groundwater resources, and approximately 60 billion cubic meters (Bm3) of groundwater are annually pumped out [ 5 , 6 ]. When considering the water requirement in Pakistan, the agricultural sector is one of the most dominant water consumers and utilizes 70% of the world\u2019s accessible water, with approximately 60% squandered [ 7 , 8 ]. In the area of 796,096 square kilometers [ 9 ], the arid regions make up two-thirds of Pakistan\u2019s land area and have shallow water tables, the elevated air temperatures may cause faster evaporation, which would increase the aridity of the soil [ 10 ]. The nation\u2019s problems with water scarcity could worsen if evapotranspiration rates keep rising and reservoirs start depleting quickly. Pakistan lies in an arid climate and relies heavily on irrigation due to insufficient precipitation on its agricultural lands and irrigation supports approximately, 18 million hectares of cultivable land [ 11 ]. Pakistan\u2019s irrigation system ranks among the world\u2019s largest sources of irrigation [ 12 ]. The total water resources in Pakistan is 180 bcm (billion cubic meters) from the Indus River system whereas, rainfall is the second, and groundwater is the third source with annual contributions of approximately 50 bcm and 50\u201360 bcm respectively [ 13 ]. In Pakistan, surface water is vital for agricultural activities. Approximately 95% of freshwater is used for agriculture and only 5% is allocated for domestic use [ 14 ]. Moreover, agriculture constitutes the primary source of income for 72% of Pakistan\u2019s population. Crops including Wheat, Sugarcane, rice, cotton, and bananas are essential for the nation\u2019s sustainable food demands and significantly boost its economic growth. Wheat the most important staple food of Pakistan plays a crucial role in the country\u2019s agriculture. Punjab soil is favorable for wheat production as its cultivation surpassed 500,000 acres in the province in 2023. Pakistan\u2019s economy hinges primarily on agriculture, with 70% of its population depending on this sector. Shifts in rainfall patterns and rising temperatures directly affect water resources and agriculture. Each year, escalating temperatures intensify the need for crop irrigation due to heightened evapotranspiration rates, demanding more water to sustain crop vitality [ 15 ]. So, reducing consumption and improving resource management is crucial. Punjab has the largest area of irrigation 97% where maximum irrigation is provided to wheat, which is 60% [ 16 ] which contributes to 75% of the region's wheat production [ 9 ]. The state of Punjab in Pakistan is facing water scarcity due to the fast depletion of groundwater extracted for agricultural needs, especially in central Punjab because of the adverse effects of climate change and inefficient water use [ 17 ]. Punjab is a primary consumer of water for irrigation, so the irrigation system needs to be managed properly by assessing the water requirement system. To meet the irrigation demands, it is necessary to understand the CWR and the irrigation scheduli"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "2 Materials and methods",
+      "text": "2.1 Software CROPWAT is a window-based model developed by the FAO for calculating evapotranspiration and optimizing irrigation scheduling and design. This application uses the FAO\u2019s Penman\u2013Monteith Equation to determine evapotranspiration [ 12 ]. The key factors influencing the potential evapotranspiration value include temperature, wind speed, solar radiation, ambient temperature, and air humidity in the Monteith-Penman equation. With CROPWAT 8.0 software, we can determine the crop\u2019s water requirements throughout the growing season and manage irrigation using rainwater effectively in the field [ 27 ]. The current scheduling techniques employed by farmers are outdated and ineffective. It is time to modernize these practices by utilizing CROPWAT to asses CWR, organize relevant data, model irrigation needs based on climate, crop, and soil information, and implement efficient scheduling [ 8 ]. The crop coefficient performs the irrigation schedule as it allocates the required amount of water to the crop. However, metrological data such as wind speed, temperature, and harvesting date greatly affect the Kc value. Therefore, it is important to make corrections to the data. 2.2 Study area Punjab is the second-largest and most populated province, accounting for 25.9% of the country\u2019s total land area, which spans 20.63 million hectares, out of this 72% is suitable for cropping [ 28 ]. Punjab\u2019s total cropped area accounts for 16.68 million hectares. In 2023\u201324, the net sown area of wheat covered 9.6 million hectares, accounting for 53% of the total [ 29 ], giving 28,175.5 tons of wheat production [ 30 ]. This study was conducted in the seven Agro-climatic zones of Punjab classified by FAO based on the Thornthwaite Moisture Index (TMI). MBD FSD, TTS, BWN, BWP, and KNP are the representatives of each zone, as shown in Fig. 1 . None of the stations was selected from Zone 1 because this is a rain-fed zone as wheat in this zone does not require irrigation and the water requirement of the crop is fulfilled by rainwater. The complete description of the area, climate, and annual rainfall of these districts is mentioned in Table 1 . Fig. 1 Full size image The figure shows the selected districts from each Agro-climatic zone of Punjab that were used for the crop water requirement and irrigation scheduling of wheat Table 1 Key characteristics of the study area, highlighting geographical coordinates, elevation, climate type, and annual rainfall Full size table 2.3 Data CROPWAT model required mainly three types of data; climatic, soil, and crop data. In the current study, we used the climatic data obtained from the Pakistan Metrological Department (PMD). Climatic data includes five parameters; minimum and maximum temperature, rainfall, sunshine hour, wind speed, relative humidity, and physical data such as latitude, longitude, and altitude. These datasets were utilized to calculate the CWR. The lowest minimum average temperature observed at the selected station was recorded in January and the highest maximum average temperature was recorded in May and June, standard deviation is applied to see the data consistency as shown in Fig. 2 . Fig. 2 Full size image Monthly mean of Minimum and Maximum temperature of the selected station from 2013 to 2023 a Mandibahauddin, b Faisalabad, c T.T Singh, d Bahawalnagar, e Bahawalpur, f Khanpur The precipitation pattern of the study area shows maximum rainfall in the monsoon season from July to September whereas, minimum rain was recorded from December to February under the influence of western disturbance is exhibited in Fig. 3 . The parameters of humidity, wind speed, and sunshine hours were also considered as they are the major factors for evapotranspiration. January is the most humid month in the study area. The maximum sunshine hours from the selected six stations are observed in May. The data of average humidity, sunshine hours, and wind speed of the study area are displayed in Fig. 4 . Fig. 3 Full size image T"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "2.1 Software",
+      "text": "CROPWAT is a window-based model developed by the FAO for calculating evapotranspiration and optimizing irrigation scheduling and design. This application uses the FAO\u2019s Penman\u2013Monteith Equation to determine evapotranspiration [ 12 ]. The key factors influencing the potential evapotranspiration value include temperature, wind speed, solar radiation, ambient temperature, and air humidity in the Monteith-Penman equation. With CROPWAT 8.0 software, we can determine the crop\u2019s water requirements throughout the growing season and manage irrigation using rainwater effectively in the field [ 27 ]. The current scheduling techniques employed by farmers are outdated and ineffective. It is time to modernize these practices by utilizing CROPWAT to asses CWR, organize relevant data, model irrigation needs based on climate, crop, and soil information, and implement efficient scheduling [ 8 ]. The crop coefficient performs the irrigation schedule as it allocates the required amount of water to the crop. However, metrological data such as wind speed, temperature, and harvesting date greatly affect the Kc value. Therefore, it is important to make corrections to the data."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "2.2 Study area",
+      "text": "Punjab is the second-largest and most populated province, accounting for 25.9% of the country\u2019s total land area, which spans 20.63 million hectares, out of this 72% is suitable for cropping [ 28 ]. Punjab\u2019s total cropped area accounts for 16.68 million hectares. In 2023\u201324, the net sown area of wheat covered 9.6 million hectares, accounting for 53% of the total [ 29 ], giving 28,175.5 tons of wheat production [ 30 ]. This study was conducted in the seven Agro-climatic zones of Punjab classified by FAO based on the Thornthwaite Moisture Index (TMI). MBD FSD, TTS, BWN, BWP, and KNP are the representatives of each zone, as shown in Fig. 1 . None of the stations was selected from Zone 1 because this is a rain-fed zone as wheat in this zone does not require irrigation and the water requirement of the crop is fulfilled by rainwater. The complete description of the area, climate, and annual rainfall of these districts is mentioned in Table 1 . Fig. 1 Full size image The figure shows the selected districts from each Agro-climatic zone of Punjab that were used for the crop water requirement and irrigation scheduling of wheat Table 1 Key characteristics of the study area, highlighting geographical coordinates, elevation, climate type, and annual rainfall Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "2.3 Data",
+      "text": "CROPWAT model required mainly three types of data; climatic, soil, and crop data. In the current study, we used the climatic data obtained from the Pakistan Metrological Department (PMD). Climatic data includes five parameters; minimum and maximum temperature, rainfall, sunshine hour, wind speed, relative humidity, and physical data such as latitude, longitude, and altitude. These datasets were utilized to calculate the CWR. The lowest minimum average temperature observed at the selected station was recorded in January and the highest maximum average temperature was recorded in May and June, standard deviation is applied to see the data consistency as shown in Fig. 2 . Fig. 2 Full size image Monthly mean of Minimum and Maximum temperature of the selected station from 2013 to 2023 a Mandibahauddin, b Faisalabad, c T.T Singh, d Bahawalnagar, e Bahawalpur, f Khanpur The precipitation pattern of the study area shows maximum rainfall in the monsoon season from July to September whereas, minimum rain was recorded from December to February under the influence of western disturbance is exhibited in Fig. 3 . The parameters of humidity, wind speed, and sunshine hours were also considered as they are the major factors for evapotranspiration. January is the most humid month in the study area. The maximum sunshine hours from the selected six stations are observed in May. The data of average humidity, sunshine hours, and wind speed of the study area are displayed in Fig. 4 . Fig. 3 Full size image The graph shows the monthly mean rainfall in the study area from 2013 to 2023 Fig. 4 Full size image The web graphs show the Humidity, sunshine hour, and wind speed in the study area of a Mandibahauddin, b Faisalabad, c T.T Singh, d Bahawalnagar, e Bahawalpur, f Khanpur"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "2.4 Crop data",
+      "text": "Wheat is the major crop of Punjab and occupies the largest portion of cropped land. In 2015, the wheat crop was planted in 42% of the total crop area [ 37 ]. To compute the Crop Irrigation Requirement, CROPWAT requires several crop parameters, including planting and harvesting dates, number of days at different stages of growth, rooting depth, allowable depletion, crop coefficient (Kc), and yield response. The date of planting and harvesting of crops is selected after a thorough review of different websites and sources, and the remaining factors were taken from FAO software CROPWAT."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "2.5 Soil data",
+      "text": "The soil type of the study area ranges from sandy loam to loam. The CROPWAT software requires fundamental soil data, including maximum rainfall infiltration rate, total soil moisture available, maximum root depth, Soil moisture depletion, and initial soil moisture content. The software used for the current study includes information on soil data. The required soil type and data are imported from the software."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "2.6 Reference evapotranspiration and effective rainfall",
+      "text": "Evapotranspiration refers to the combined loss of water through transpiration from plants and evaporation from the soil surface. The FAO Penman\u2013Monteith equation is used for the calculation of evapotranspiration by the CROPWAT model as shown in Eq. 1 [ 19 ]. $$ET=\\frac{\\Delta \\left(Rn-G\\right)+PaCp\\frac{(es-ea)}{ra}}{\\Delta +\\gamma (1+\\frac{rs}{rs})}$$ (1) \u2206 = Slope of vapor pressure curve. Rn = Net radiation. G = Soil heat flux density. Pa = average air density at constant pressure. Cp = specific heat of air. es\u2014ea = vapor pressure deficiency of the soil. \u03b3 = Psychometric constant. rs = surface resistance. ra = Aerodynamic resistance. ETo is reference evapotranspiration measured in millimeters per day. ETo can be represented by the following Eq. 2 $$ETo=\\frac{0.408\\Delta \\left(Rn-G\\right)+\\gamma \\frac{900}{T+273}u2(es-ea)}{\\Delta +\\gamma (1+0.34u2)}$$ (2) where es and ea = saturation. T = average temperature at 2-m height. u2 = the speed of wind at a height of 2 m (ms \u22121 ). Effective rainfall is the portion of rainfall that is retained in the soil profile and contributes to crop growth. The effective rainfall in the CROPWAT model was calculated using the United States Department of Agriculture (USDA) Soil Conservation Service (SCS) formula shown in Eqs. 3 and 4 [ 38 ]. $${P}_{eff}=\\frac{{P}_{total}(<span class='convertEndash'>125-0.26</span>{P}_{total})}{125}\\; for\\; {P}_{total}\\le \\left(\\frac{250}{3}\\right)mm\\;(per\\; month)$$ (3) $${P}_{eff}=125+0.1{P}_{total}\\; for\\; {P}_{total} >250mm \\left(per\\; month\\right)$$ (4) \\({P}_{eff}=\\) Effective rainfall (mm). \\({P}_{total}=\\) Total rainfall (mm)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "2.7 Crop water requirement",
+      "text": "CWR is defined as the quantity of water needed to meet evapotranspiration demands for optimal crop growth, and it is calculated by using Eq. 5 [ 39 ] $${ET}_{crop}={ET}_{O}{\\times K}_{c}$$ (5)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "2.8 Irrigation water requirement",
+      "text": "The irrigation water requirement is the quantity of water required to meet CWR after accounting for any effective rainfall. This irrigation water requirement is for disease-free crops growing in extensive fields with non-restrictive water and soil conditions and sufficient fertility. The irrigation water requirement is greater than the CWR when agriculture relies solely on irrigation. However, when both irrigation and rainfall are used, the irrigation water requirement is slightly lower than the CWR due to the supplementary water provided by rainfall. It can be calculated using the Eq. 6 . The net irrigation requirement of a crop is calculated by finding the difference between effective rain and crop evapotranspiration as given in Eq. ( 7 ) [ 40 ]. $$IWR=(CWR-{P}_{eff})$$ (6) $$\\text{NIR}=\\text{ETc}-\\text{Eff}.\\text{rain}$$ (7)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 2,
+      "heading": "3 Results and discussion",
+      "text": "3.1 Reference evapotranspiration The information provided to the CROPWAT for the selected study area encompassed details such as the crop variety, climatic station, soil type, and planting date. By entering these details into the software, it forecasts the evapotranspiration, total irrigation needs, and effective rainfall for the wheat crop. The reference evapotranspiration of wheat crops in the selected stations is shown in Fig. 5 . The results illustrate that evapotranspiration was highest in June and lowest in January. If the evapotranspiration value is high, it indicates increased evaporation, leading to a higher CWR. In contrast, if evapotranspiration is low, the crop\u2019s water needs will be reduced [ 41 ]. Evapotranspiration was elevated during the summer months because of the high temperatures, and maximum sunshine hours and decreased during the winter due to lower temperatures. The impact of temperature on evapotranspiration can be described as directly correlated with the intensity and duration of solar radiation. Additionally, it was observed that an increase in radiation values results in a rise in evapotranspiration, indicating a direct relationship. The same trend was observed in all selected six stations. Mahmood and Ahmed [ 42 ] also stated that the evaporation rate was low in December and January due to the combination of low temperatures and high humidity and vice versa. The results also showed, the maximum evapotranspiration observed in BWP and KNP and minimum recorded in MBD among selected stations mainly due to high temperature and other climatic variations. Fig. 5 Full size image The bar graph shows the reference evapotranspiration of Wheat crops in the study area 3.2 Irrigation water requirement and crop water requirement of wheat Irrigation water requirement (IWR) is the amount of irrigation water supplied to a field to guarantee that the crop fulfills its entire CWR while minimizing water losses during the irrigation process [ 43 ]. CWR refers to the amount of water lost through crop evapotranspiration and is equivalent to the amount of water lost due to plant evapotranspiration. The total CWR, effective rainfall, and IWR for wheat crops across various agro-climatic zones were determined using the CROPWAT model based on the specific data from the study area. However, the findings of the present study cannot be compared fully due to the unavailability of similar studies in the same region. Tables 2 , 3 , 4 , 5 , 6 and 7 represent the crop water requirement of wheat in each district of Punjab using the CROPWAT model. The total irrigation water requirement of wheat in MBD, FSD, TTS, BWN, BWP, and KNP is 44.7, 102.2, 103.1, 119.1, 179, and 184.2 mm, respectively. From this data, it is clear that the irrigation requirement of the crop is higher in dry areas than in rainy regions. This study reflects that the crop grown in dry areas requires more water because of lesser rainfall than in cold climate areas with high rainfall. The FAO report [ 44 ] also describes that the area that receives more rainfall requires less irrigation than those areas where rainfall is minimal. Depending on the soil data, climate type, and cultivation practices, that crop requires different amounts of water to grow [ 45 ]. This study shows that the wheat crop requires more water during the growing stage than the other three stages. Table 2 Irrigation water requirement of Wheat in Mandibahauddin Full size table Table 3 Irrigation water requirement of wheat in Faisalabad Full size table Table 4 Irrigation water requirement of Wheat in Toba Tek Singh Full size table Table 5 Irrigation water requirement of wheat in Bahawalnagar Full size table Table 6 Irrigation water requirement of Wheat in Bahawalpur Full size table Table 7 Irrigation water requirement of Wheat in Khanpur Full size table The districts where effective rain is not enough to fulfill the water requirement of the crop such as BWN, BWP, and KNP might be due to increasing tempe"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "3.1 Reference evapotranspiration",
+      "text": "The information provided to the CROPWAT for the selected study area encompassed details such as the crop variety, climatic station, soil type, and planting date. By entering these details into the software, it forecasts the evapotranspiration, total irrigation needs, and effective rainfall for the wheat crop. The reference evapotranspiration of wheat crops in the selected stations is shown in Fig. 5 . The results illustrate that evapotranspiration was highest in June and lowest in January. If the evapotranspiration value is high, it indicates increased evaporation, leading to a higher CWR. In contrast, if evapotranspiration is low, the crop\u2019s water needs will be reduced [ 41 ]. Evapotranspiration was elevated during the summer months because of the high temperatures, and maximum sunshine hours and decreased during the winter due to lower temperatures. The impact of temperature on evapotranspiration can be described as directly correlated with the intensity and duration of solar radiation. Additionally, it was observed that an increase in radiation values results in a rise in evapotranspiration, indicating a direct relationship. The same trend was observed in all selected six stations. Mahmood and Ahmed [ 42 ] also stated that the evaporation rate was low in December and January due to the combination of low temperatures and high humidity and vice versa. The results also showed, the maximum evapotranspiration observed in BWP and KNP and minimum recorded in MBD among selected stations mainly due to high temperature and other climatic variations. Fig. 5 Full size image The bar graph shows the reference evapotranspiration of Wheat crops in the study area"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "3.2 Irrigation water requirement and crop water requirement of wheat",
+      "text": "Irrigation water requirement (IWR) is the amount of irrigation water supplied to a field to guarantee that the crop fulfills its entire CWR while minimizing water losses during the irrigation process [ 43 ]. CWR refers to the amount of water lost through crop evapotranspiration and is equivalent to the amount of water lost due to plant evapotranspiration. The total CWR, effective rainfall, and IWR for wheat crops across various agro-climatic zones were determined using the CROPWAT model based on the specific data from the study area. However, the findings of the present study cannot be compared fully due to the unavailability of similar studies in the same region. Tables 2 , 3 , 4 , 5 , 6 and 7 represent the crop water requirement of wheat in each district of Punjab using the CROPWAT model. The total irrigation water requirement of wheat in MBD, FSD, TTS, BWN, BWP, and KNP is 44.7, 102.2, 103.1, 119.1, 179, and 184.2 mm, respectively. From this data, it is clear that the irrigation requirement of the crop is higher in dry areas than in rainy regions. This study reflects that the crop grown in dry areas requires more water because of lesser rainfall than in cold climate areas with high rainfall. The FAO report [ 44 ] also describes that the area that receives more rainfall requires less irrigation than those areas where rainfall is minimal. Depending on the soil data, climate type, and cultivation practices, that crop requires different amounts of water to grow [ 45 ]. This study shows that the wheat crop requires more water during the growing stage than the other three stages. Table 2 Irrigation water requirement of Wheat in Mandibahauddin Full size table Table 3 Irrigation water requirement of wheat in Faisalabad Full size table Table 4 Irrigation water requirement of Wheat in Toba Tek Singh Full size table Table 5 Irrigation water requirement of wheat in Bahawalnagar Full size table Table 6 Irrigation water requirement of Wheat in Bahawalpur Full size table Table 7 Irrigation water requirement of Wheat in Khanpur Full size table The districts where effective rain is not enough to fulfill the water requirement of the crop such as BWN, BWP, and KNP might be due to increasing temperature which ultimately increases the evapotranspiration here, the sprinkler system of irrigation is more beneficial. Another contributing factor to high evapotranspiration is rain, this region receives less rainfall as compared to another region of the study area. For sustainable agriculture, precipitation and irrigation are key water sources. The quantity and seasonal distribution of precipitation directly influence the water balance and irrigation needs of various crops [ 46 ]. The irrigation water requirement of each district can be better understood by Fig. 6 as when effective rainfall is low and crop water requirement is high the irrigation water requirement for that area increases, and when the effective rain is high covering the crop water requirement then there is less need of irrigation water respectively in every month. Fig. 6 Full size image The Irrigation water requirement concerning crop water requirement and effective rain of wheat in a Mandibahauddin, b Faisalabad, c Toba Tek Sing, d Bahawalnagar, e Bahawalpur, f Khanpur"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "3.3 Irrigation scheduling of the selected stations",
+      "text": "Irrigation scheduling determines the appropriate amount of water to apply to crops and the timing of its delivery. The crop undergoes several initial, developmental, middle, and late stages, each with distinct irrigation needs. Therefore, effective planning is essential to ensure optimal water use throughout the crop\u2019s growth cycle. The CROPWAT analysis shows that the gross irrigation requirement of MBD is 59.8 and net irrigation is 41.9 mm less than CWR which is 180 mm because this region gains enough rain, 132 mm of water requirement is fulfilled by effective rain therefore, the crop requires only one-time irrigation. FSD total gross irrigation is 113.8, net irrigation is 79.9, TTS and BWN gross irrigation is 115.7, and net irrigation is 81.0, BWP total gross irrigation is 175.6 mm and net is 122.9 mm, KNP gross irrigation is 235.4 mm and net irrigation is 164.8 mm shown in Figs. 7 , 8 , 9 , 10 , 11 and 12 . The successful irrigation practices to local conditions applied in [ 47 ], significantly enhance crop productivity and water efficiency. The total available moisture (TAM) in the figures shows all the water available to the crops. Plants take water from the root zones. As with time, water depletion reaches a level where irrigation requirements become high. If water is not applied at this stage, it may lead to crop wilting and destruction or a lower production rate. Fig. 7 Full size image Irrigation scheduling of wheat in Mandibahauddin Fig. 8 Full size image Irrigation scheduling of wheat in Faisalabad Fig. 9 Full size image Irrigation scheduling of wheat in Toba Tek Singh Fig. 10 Full size image Irrigation scheduling of wheat in Bahawalnagar Fig. 11 Full size image Irrigation scheduling of wheat in Bahawalpur Fig. 12 Full size image Irrigation scheduling of wheat in Khanpur"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "4 Conclusion",
+      "text": "In this study, the IWR for the wheat crop was determined using the CROPWAT 8.0 software in six districts of Punjab showing as a representative of different agro-climatic outlooks developed by FAO. According to our findings, the highest IWR was observed in KNP 184.2 mm, as this area has a sub-tropical desert climate, less rainfall, and hot summers resulting in high water requirements and the lowest IWR was observed in MBD 44.7 mm. From the above discussion, we conclude that the climatic variations including rainfall, minimum and maximum temperature, humidity, sunshine, and wind speed occurred in all six stations of Punjab. The highest precipitation was observed in July and the overall trend was higher in central Punjab in MBD, TTS, and FSD than in southern Punjab including KNP, BWP, and BWN. The results of this study greatly develop our knowledge of the water requirements of wheat crops and help us understand better management of water resources and increased crop yields through cutting-edge technologies. The study outcomes will serve as guidance for the farmers in determining the appropriate time for irrigation for the wheat crop and assist with water resource planning in the future. Ultimately helping in the conservation of water. The present study is based on the past 10 years of climatic data for higher accuracy, so an identical study can be done on different crops in these districts."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "Data availability",
+      "text": "The climatic data used in this study were provided by the Pakistan Meteorological Department (PMD) NAMC, Islamabad, Pakistan. For analysis in CROPWAT. The data are not publicly available but can be obtained from the PMD upon reasonable request and with permission."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "Code availability",
+      "text": "No codes were used during the study."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Abbreviations",
+      "text": "CWR: Crop water requirement IWR: Irrigation water requirement FAO: Food and Agriculture Organization MBD: Mandibahauddin FSD: Faisalabad TTS: Toba Tek Singh BWP: Bahawalpur BWN: Bahawalnagar KNP: Khanpur"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "References",
+      "text": "Martin P. The implications of climate change for crop yields, global food supply and risk of hunger. J SAT Agric Res. 2007;4. Eckstein D, K\u00fcnzel V, Schafer L, Winges M. Global climate risk index 2020. Germanwatch. 2019. https://www.germanwatch.org/sites/default/files/20-2-01e%20Global%20Climate%20Risk%20Index%202020_14.pdf . Chaplin MF. Water: its importance to life. Biochem Mol Biol Educ. 2021;29(2):54\u20139. https://doi.org/10.1016/S1470-8175(01)00017-0 . Article Google Scholar K\u0131l\u0131\u00e7 Z. The importance of water and conscious use of water. Int J Hydrol . 2020;4(5):239\u201341. https://doi.org/10.15406/ijh.2020.04.00250 . Shah M, Anwar A, Bell A, Haq Z. Equity in a tertiary canal of the Indus Basin Irrigation System (IBIS). Agric Water Manag. 2016;178:201\u201314. https://doi.org/10.1016/j.agwat.2016.09.018 . Article Google Scholar Qureshi AS. Groundwater governance in Pakistan: from colossal development to neglected management. Water. 2020;12(11):3017. Article Google Scholar Gul N, Haq Z, Munsif F, Malik A, Akbar G, Khalil A, Ajmal. Pakistan\u2019s northern dry mountain agricultural ecological zone autumn maize crop water requirement, and irrigation scheduling using FAO Computer Programming Cropwat 8.0. NVEO Nat Volatiles Essent Oils. 2021;9476\u201381. Solangi GS, Shah SA, Alharbi RS, Panhwar S, Keerio HA, Kim TW, Bughio AD. Investigation of irrigation water requirements for major crops using CROPWAT model based on climate data. Water. 2022;14(16):2578. https://doi.org/10.3390/w14162578 . Article Google Scholar Qayyum A, Pervaiz MK. A detailed descriptive study of all the wheat production parameters in Punjab. Pakistan Afr J Agric Res. 2013;8(31):4209\u201330. https://doi.org/10.5897/AJAR11.069 . Article Google Scholar Chaudhry QZ, Rasul G. Thermal classification of Pakistan. Agroclim Class Pakistan Sci Vis. 2004;9(1\u20134):59\u201366. Google Scholar Janjua S, Hassan I, Muhammad S, Ahmed S, Ahmed A. Water management in Pakistan\u2019s Indus Basin: challenges and opportunities. Water Policy. 2021;23(6):1329\u201343. https://doi.org/10.2166/wp.2021.068 . Article Google Scholar Soomro S, Solangi G, Siyal AA, Golo A, Bhatti N, Soomro A, Keerio HA. Estimation of irrigation water requirement and irrigation scheduling for major crops using the CROPWAT model and climatic data. Water Pract Technol. 2023;18. https://doi.org/10.2166/wpt.2023.024 . Basharat M. Chapter 16\u2014Water management in the Indus Basin in Pakistan: challenges and opportunities. In: Khan SI, Adams TE, editors. Indus River Basin. Elsevier; 2019. p. 375\u201388. https://doi.org/10.1016/B978-0-12-812782-7.00017-5 . Ahmed S, Cheema MJ, Ahmed W, Arshad M. Delineation of hydrological response units to estimate water demand of canal command in lower Chenab canal using gis modeling. Pak J Agric Sci. 2018;55. https://doi.org/10.21162/PAKJAS/18.5043 . Shaukat I, ul-Haq H, Khan H, Arshad R. Impact of climatic parameters on crop water requirements in different agro ecological zones of Pakistan. Earth Sci Pak. 2020;4:21\u20134. https://doi.org/10.26480/esp.01.2020.21.24 . Muzammil M, Zahid A, Breuer L. Water resources management strategies for irrigated agriculture in the Indus basin of Pakistan. Water. 2020;12(5):1429. https://doi.org/10.3390/w12051429 . Article Google Scholar Hira G. Water management in Northern States and the Food Security of India. J Crop Improv. 2009;23:136\u201357. https://doi.org/10.1080/15427520802645432 . Article Google Scholar Iqbal J, Su C, Rashid A, Yang N, Baloch MYJ, Talpur SA, Sajjad MM. Hydrogeochemical assessment of groundwater and suitability analysis for domestic and agricultural utility in Southern Punjab, Pakistan. Water. 2021;13(24):3589. https://doi.org/10.3390/w13243589 . Article CAS Google Scholar Hussain S, Mubeen M, Jatoi W, Fahad S, Ali M, Ehsan MA, Raza A. Investigation of irrigation water requirement and evapotranspiration for water resource management in southern Punjab, Pakistan. Sustainability. 2023;15:1768. https://doi.org/10.3390/su15031768 . Article Google Scholar Duggal KS. Punjab: land of"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "This research work was conducted and supported by the National Agromet Centre, Pakistan Meteorological Department, Islamabad, 44000, Pakistan"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Funding",
+      "text": "This work is not supported by any external funding."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations Pakistan Meteorological Department, National Agromet Centre, Islamabad, Pakistan Sana Akbar, Aqsa Riaz, Tariq Mahmood, Asma Jawad Hashmi & Dildar Hussain Kazmi Authors Sana Akbar View author publications Search author on: PubMed Google Scholar Aqsa Riaz View author publications Search author on: PubMed Google Scholar Tariq Mahmood View author publications Search author on: PubMed Google Scholar Asma Jawad Hashmi View author publications Search author on: PubMed Google Scholar Dildar Hussain Kazmi View author publications Search author on: PubMed Google Scholar Contributions Sana Akbar and Aqsa Riaz conceptualized the study, designed the methodology and drafted the manuscript, contributed significantly to data collection, analysis, and interpretation of results. Tariq Mahmood supervised the work and edited the final manuscript. Asma Jawad Hashmi and Dildar Hussain Kazmi provided the Resources. All authors read and approved the final manuscript. Corresponding author Correspondence to Sana Akbar ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Pakistan Meteorological Department, National Agromet Centre, Islamabad, Pakistan Sana Akbar, Aqsa Riaz, Tariq Mahmood, Asma Jawad Hashmi & Dildar Hussain Kazmi Authors Sana Akbar View author publications Search author on: PubMed Google Scholar Aqsa Riaz View author publications Search author on: PubMed Google Scholar Tariq Mahmood View author publications Search author on: PubMed Google Scholar Asma Jawad Hashmi View author publications Search author on: PubMed Google Scholar Dildar Hussain Kazmi View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "Sana Akbar and Aqsa Riaz conceptualized the study, designed the methodology and drafted the manuscript, contributed significantly to data collection, analysis, and interpretation of results. Tariq Mahmood supervised the work and edited the final manuscript. Asma Jawad Hashmi and Dildar Hussain Kazmi provided the Resources. All authors read and approved the final manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Sana Akbar ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Competing interests The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Competing interests",
+      "text": "The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Publisher's Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ . Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Akbar, S., Riaz, A., Mahmood, T. et al. A guide to irrigation requirement of wheat crop in FAO-developed agro-climatic zones of Punjab, Pakistan. Discov Agric 3 , 41 (2025). https://doi.org/10.1007/s44279-025-00189-5 Download citation Received : 01 October 2024 Accepted : 13 March 2025 Published : 27 March 2025 Version of record : 27 March 2025 DOI : https://doi.org/10.1007/s44279-025-00189-5 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords CROPWAT Wheat Crop water requirement Irrigation scheduling Agro-climatic zones Punjab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Akbar, S., Riaz, A., Mahmood, T. et al. A guide to irrigation requirement of wheat crop in FAO-developed agro-climatic zones of Punjab, Pakistan. Discov Agric 3 , 41 (2025). https://doi.org/10.1007/s44279-025-00189-5 Download citation Received : 01 October 2024 Accepted : 13 March 2025 Published : 27 March 2025 Version of record : 27 March 2025 DOI : https://doi.org/10.1007/s44279-025-00189-5 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "CROPWAT Wheat Crop water requirement Irrigation scheduling Agro-climatic zones Punjab"
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "You have full access to this open access article",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Water scarcity, intensified by climate change and mismanagement, poses significant challenges to food production, particularly in arid and semi-arid regions like Punjab, Pakistan. This study successfully determined the crop water requirements (CWR) and irrigation scheduling for wheat across six agro-climatic zones in Punjab using CROPWAT software, highlighting the varying irrigation needs based on climatic conditions and providing essential guidance for effective water resource management.",
+      "char_offset": 50
+    },
+    {
+      "type": "paragraph",
+      "text": "Water scarcity is a global concern exacerbated by human activities, including water mismanagement. The water shortage intensely impacts food production, as inadequate water is applied to the field for irrigation. Proper irrigation systems help to boost crop productivity and ensure food security. In arid and semi-arid regions, a limited amount of rainfall demands an understanding of crop water requirements (CWR). Climate change is the major suspect that further complicates irrigation management because as the temperature rises, evapotranspiration increases, leading to greater water demand by crops. Changes in rainfall patterns contribute to drought or floods that adversely affect crop production. To address these challenges, irrigation scheduling is essential to mitigate the effect of climate change on crop yield. This study determines the CWR and irrigation scheduling of Wheat in six districts of Punjab across the agro-climatic zones defined by the Food and Agricultural Organization (FAO), using CROPWAT software. Evapotranspiration was calculated using the Penman\u2013Monteith method that utilize the climate data from 2013 to 2023. The selected station includes Mandibahauddin (MBD), Faisalabad (FSD), Toba Tek Singh (TTS), Bahawalpur (BWP), Bahawalnagar (BWN), and Khanpur (KNP). The results indicate that CWR varies in different stages of the crop; the lowest water requirement is in the initial stage, and the highest water requirement is in the mid-stage during crop development. During the dry season, the water requirement is high because rain can\u2019t fulfill the crop\u2019s water needs. Notably, southern Punjab BWP and KNP show maximum irrigation water requirements of 179, and 184.2 mm due to the dry climate compared to central region MBD, highlighting the influence of climatic variations. Unlike the previous studies focusing on specific districts, this research paper provides comprehensive irrigation scheduling across Punjab\u2019s agro-climatic zones. Future studies should expand to include other crops to refine irrigation practices further.",
+      "char_offset": 546
+    },
+    {
+      "type": "paragraph",
+      "text": "The scarcity of water and the degradation of water quality are being globally intensified by climate change. In Pakistan, due to significant susceptibility to climate change, agriculture frequently experiences negative consequences such as severe storms, floods, and droughts. [ 1 ]. Pakistan ranks 5th globally in the frequency of extreme weather events as per the Global Climate Risk Index [ 2 ]. In Pakistan, natural resources, particularly water, soil, and plants, are key for the survival of animals and humans but are continuously affected by climate change. Water is considered the quintessential substance among all elements, unparalleled in its remarkable properties, and is a crucial part of human well-being and socio-economic development. Water is the most important substance on Earth with approximately 0.3% of the global water resources available [ 3 , 4 ]. Surface water supplies are also shrinking due to industrialization and burdening the groundwater resources, and approximately 60 billion cubic meters (Bm3) of groundwater are annually pumped out [ 5 , 6 ].",
+      "char_offset": 2609
+    },
+    {
+      "type": "paragraph",
+      "text": "When considering the water requirement in Pakistan, the agricultural sector is one of the most dominant water consumers and utilizes 70% of the world\u2019s accessible water, with approximately 60% squandered [ 7 , 8 ]. In the area of 796,096 square kilometers [ 9 ], the arid regions make up two-thirds of Pakistan\u2019s land area and have shallow water tables, the elevated air temperatures may cause faster evaporation, which would increase the aridity of the soil [ 10 ]. The nation\u2019s problems with water scarcity could worsen if evapotranspiration rates keep rising and reservoirs start depleting quickly. Pakistan lies in an arid climate and relies heavily on irrigation due to insufficient precipitation on its agricultural lands and irrigation supports approximately, 18 million hectares of cultivable land [ 11 ]. Pakistan\u2019s irrigation system ranks among the world\u2019s largest sources of irrigation [ 12 ]. The total water resources in Pakistan is 180 bcm (billion cubic meters) from the Indus River system whereas, rainfall is the second, and groundwater is the third source with annual contributions of approximately 50 bcm and 50\u201360 bcm respectively [ 13 ]. In Pakistan, surface water is vital for agricultural activities. Approximately 95% of freshwater is used for agriculture and only 5% is allocated for domestic use [ 14 ]. Moreover, agriculture constitutes the primary source of income for 72% of Pakistan\u2019s population. Crops including Wheat, Sugarcane, rice, cotton, and bananas are essential for the nation\u2019s sustainable food demands and significantly boost its economic growth. Wheat the most important staple food of Pakistan plays a crucial role in the country\u2019s agriculture. Punjab soil is favorable for wheat production as its cultivation surpassed 500,000 acres in the province in 2023. Pakistan\u2019s economy hinges primarily on agriculture, with 70% of its population depending on this sector. Shifts in rainfall patterns and rising temperatures directly affect water resources and agriculture. Each year, escalating temperatures intensify the need for crop irrigation due to heightened evapotranspiration rates, demanding more water to sustain crop vitality [ 15 ]. So, reducing consumption and improving resource management is crucial.",
+      "char_offset": 3689
+    },
+    {
+      "type": "paragraph",
+      "text": "Punjab has the largest area of irrigation 97% where maximum irrigation is provided to wheat, which is 60% [ 16 ] which contributes to 75% of the region's wheat production [ 9 ]. The state of Punjab in Pakistan is facing water scarcity due to the fast depletion of groundwater extracted for agricultural needs, especially in central Punjab because of the adverse effects of climate change and inefficient water use [ 17 ]. Punjab is a primary consumer of water for irrigation, so the irrigation system needs to be managed properly by assessing the water requirement system. To meet the irrigation demands, it is necessary to understand the CWR and the irrigation scheduling [ 18 ]. Accurately managing the CWR is key for agricultural systems [ 19 ]. Punjab is referred to as \u201cthe land of five rivers\u201d [ 20 ], For many of the farmlands in Punjab, water is insufficient for crops and does not arrive in time [ 21 ] because of inadequate leveling and poor management water is not delivered properly to the irrigated area of Punjab [ 22 ]. Even farmers often over-irrigate their fields due to a lack of knowledge about CWR, believing that more water will lead to higher yields. Implementing a suitable irrigation strategy can mitigate the negative impacts of over-irrigation and help balance crop water needs with available water resources. The key to enhancing agriculture is implementing modern, effective irrigation strategies and improving water management practices with multiple software [ 23 ]. Engaging farmers with local agricultural extension is crucial in helping them manage irrigation scheduling effectively. These services train them through real-time experience through training or workshops. Additionally, these services will guide the farmer in using the best practices to control excess water use [ 24 ].",
+      "char_offset": 5941
+    },
+    {
+      "type": "paragraph",
+      "text": "There are various models, such as Aqua Crop, CROPWAT, APSIM, etc., and every model has specific conditions as compared to other models, CROPWAT is much easier to use because it needs less data input than other software [ 25 ]. The CROPWAT model is used in this study to provide irrigation scheduling of Punjab. It calculates the irrigation water needs [ 26 ]. The previous literature doesn\u2019t focus on crop water needs concerning climate in a province. Thus In the current study, using the CROPWAT tool, we analyzed the CWR, evapotranspiration, and irrigation scheduling of the wheat crop in Agro-climatic Zones of Punjab developed by FAO. Unlike the other general irrigation recommendations, this study uses unique climatic data, soil, and crop data for each FAO-defined agro-climatic zone in Punjab. This study has been conducted by the Pakistan Metrological Department, a national agromet center having expertise in agro-environmental studies.",
+      "char_offset": 7760
+    },
+    {
+      "type": "paragraph",
+      "text": "CROPWAT is a window-based model developed by the FAO for calculating evapotranspiration and optimizing irrigation scheduling and design. This application uses the FAO\u2019s Penman\u2013Monteith Equation to determine evapotranspiration [ 12 ]. The key factors influencing the potential evapotranspiration value include temperature, wind speed, solar radiation, ambient temperature, and air humidity in the Monteith-Penman equation. With CROPWAT 8.0 software, we can determine the crop\u2019s water requirements throughout the growing season and manage irrigation using rainwater effectively in the field [ 27 ]. The current scheduling techniques employed by farmers are outdated and ineffective. It is time to modernize these practices by utilizing CROPWAT to asses CWR, organize relevant data, model irrigation needs based on climate, crop, and soil information, and implement efficient scheduling [ 8 ]. The crop coefficient performs the irrigation schedule as it allocates the required amount of water to the crop. However, metrological data such as wind speed, temperature, and harvesting date greatly affect the Kc value. Therefore, it is important to make corrections to the data.",
+      "char_offset": 8707
+    },
+    {
+      "type": "paragraph",
+      "text": "Punjab is the second-largest and most populated province, accounting for 25.9% of the country\u2019s total land area, which spans 20.63 million hectares, out of this 72% is suitable for cropping [ 28 ]. Punjab\u2019s total cropped area accounts for 16.68 million hectares. In 2023\u201324, the net sown area of wheat covered 9.6 million hectares, accounting for 53% of the total [ 29 ], giving 28,175.5 tons of wheat production [ 30 ]. This study was conducted in the seven Agro-climatic zones of Punjab classified by FAO based on the Thornthwaite Moisture Index (TMI). MBD FSD, TTS, BWN, BWP, and KNP are the representatives of each zone, as shown in Fig. 1 . None of the stations was selected from Zone 1 because this is a rain-fed zone as wheat in this zone does not require irrigation and the water requirement of the crop is fulfilled by rainwater. The complete description of the area, climate, and annual rainfall of these districts is mentioned in Table 1 .",
+      "char_offset": 9880
+    },
+    {
+      "type": "paragraph",
+      "text": "The figure shows the selected districts from each Agro-climatic zone of Punjab that were used for the crop water requirement and irrigation scheduling of wheat",
+      "char_offset": 10832
+    },
+    {
+      "type": "paragraph",
+      "text": "CROPWAT model required mainly three types of data; climatic, soil, and crop data. In the current study, we used the climatic data obtained from the Pakistan Metrological Department (PMD). Climatic data includes five parameters; minimum and maximum temperature, rainfall, sunshine hour, wind speed, relative humidity, and physical data such as latitude, longitude, and altitude. These datasets were utilized to calculate the CWR. The lowest minimum average temperature observed at the selected station was recorded in January and the highest maximum average temperature was recorded in May and June, standard deviation is applied to see the data consistency as shown in Fig. 2 .",
+      "char_offset": 10993
+    },
+    {
+      "type": "paragraph",
+      "text": "Monthly mean of Minimum and Maximum temperature of the selected station from 2013 to 2023 a Mandibahauddin, b Faisalabad, c T.T Singh, d Bahawalnagar, e Bahawalpur, f Khanpur",
+      "char_offset": 11672
+    },
+    {
+      "type": "paragraph",
+      "text": "The precipitation pattern of the study area shows maximum rainfall in the monsoon season from July to September whereas, minimum rain was recorded from December to February under the influence of western disturbance is exhibited in Fig. 3 . The parameters of humidity, wind speed, and sunshine hours were also considered as they are the major factors for evapotranspiration. January is the most humid month in the study area. The maximum sunshine hours from the selected six stations are observed in May. The data of average humidity, sunshine hours, and wind speed of the study area are displayed in Fig. 4 .",
+      "char_offset": 11848
+    },
+    {
+      "type": "paragraph",
+      "text": "The graph shows the monthly mean rainfall in the study area from 2013 to 2023",
+      "char_offset": 12459
+    },
+    {
+      "type": "paragraph",
+      "text": "The web graphs show the Humidity, sunshine hour, and wind speed in the study area of a Mandibahauddin, b Faisalabad, c T.T Singh, d Bahawalnagar, e Bahawalpur, f Khanpur",
+      "char_offset": 12538
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat is the major crop of Punjab and occupies the largest portion of cropped land. In 2015, the wheat crop was planted in 42% of the total crop area [ 37 ]. To compute the Crop Irrigation Requirement, CROPWAT requires several crop parameters, including planting and harvesting dates, number of days at different stages of growth, rooting depth, allowable depletion, crop coefficient (Kc), and yield response. The date of planting and harvesting of crops is selected after a thorough review of different websites and sources, and the remaining factors were taken from FAO software CROPWAT.",
+      "char_offset": 12709
+    },
+    {
+      "type": "paragraph",
+      "text": "The soil type of the study area ranges from sandy loam to loam. The CROPWAT software requires fundamental soil data, including maximum rainfall infiltration rate, total soil moisture available, maximum root depth, Soil moisture depletion, and initial soil moisture content. The software used for the current study includes information on soil data. The required soil type and data are imported from the software.",
+      "char_offset": 13300
+    },
+    {
+      "type": "paragraph",
+      "text": "Evapotranspiration refers to the combined loss of water through transpiration from plants and evaporation from the soil surface. The FAO Penman\u2013Monteith equation is used for the calculation of evapotranspiration by the CROPWAT model as shown in Eq. 1 [ 19 ].",
+      "char_offset": 13714
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa = average air density at constant pressure.",
+      "char_offset": 13974
+    },
+    {
+      "type": "paragraph",
+      "text": "es\u2014ea = vapor pressure deficiency of the soil.",
+      "char_offset": 14022
+    },
+    {
+      "type": "paragraph",
+      "text": "ETo is reference evapotranspiration measured in millimeters per day. ETo can be represented by the following Eq. 2",
+      "char_offset": 14070
+    },
+    {
+      "type": "paragraph",
+      "text": "u2 = the speed of wind at a height of 2 m (ms \u22121 ).",
+      "char_offset": 14186
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective rainfall is the portion of rainfall that is retained in the soil profile and contributes to crop growth. The effective rainfall in the CROPWAT model was calculated using the United States Department of Agriculture (USDA) Soil Conservation Service (SCS) formula shown in Eqs. 3 and 4 [ 38 ].",
+      "char_offset": 14239
+    },
+    {
+      "type": "paragraph",
+      "text": "CWR is defined as the quantity of water needed to meet evapotranspiration demands for optimal crop growth, and it is calculated by using Eq. 5 [ 39 ]",
+      "char_offset": 14541
+    },
+    {
+      "type": "paragraph",
+      "text": "The irrigation water requirement is the quantity of water required to meet CWR after accounting for any effective rainfall. This irrigation water requirement is for disease-free crops growing in extensive fields with non-restrictive water and soil conditions and sufficient fertility. The irrigation water requirement is greater than the CWR when agriculture relies solely on irrigation. However, when both irrigation and rainfall are used, the irrigation water requirement is slightly lower than the CWR due to the supplementary water provided by rainfall. It can be calculated using the Eq. 6 . The net irrigation requirement of a crop is calculated by finding the difference between effective rain and crop evapotranspiration as given in Eq. ( 7 ) [ 40 ].",
+      "char_offset": 14692
+    },
+    {
+      "type": "paragraph",
+      "text": "The information provided to the CROPWAT for the selected study area encompassed details such as the crop variety, climatic station, soil type, and planting date. By entering these details into the software, it forecasts the evapotranspiration, total irrigation needs, and effective rainfall for the wheat crop.",
+      "char_offset": 15452
+    },
+    {
+      "type": "paragraph",
+      "text": "The reference evapotranspiration of wheat crops in the selected stations is shown in Fig. 5 . The results illustrate that evapotranspiration was highest in June and lowest in January. If the evapotranspiration value is high, it indicates increased evaporation, leading to a higher CWR. In contrast, if evapotranspiration is low, the crop\u2019s water needs will be reduced [ 41 ]. Evapotranspiration was elevated during the summer months because of the high temperatures, and maximum sunshine hours and decreased during the winter due to lower temperatures. The impact of temperature on evapotranspiration can be described as directly correlated with the intensity and duration of solar radiation. Additionally, it was observed that an increase in radiation values results in a rise in evapotranspiration, indicating a direct relationship. The same trend was observed in all selected six stations. Mahmood and Ahmed [ 42 ] also stated that the evaporation rate was low in December and January due to the combination of low temperatures and high humidity and vice versa. The results also showed, the maximum evapotranspiration observed in BWP and KNP and minimum recorded in MBD among selected stations mainly due to high temperature and other climatic variations.",
+      "char_offset": 15764
+    },
+    {
+      "type": "paragraph",
+      "text": "The bar graph shows the reference evapotranspiration of Wheat crops in the study area",
+      "char_offset": 17024
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation water requirement (IWR) is the amount of irrigation water supplied to a field to guarantee that the crop fulfills its entire CWR while minimizing water losses during the irrigation process [ 43 ]. CWR refers to the amount of water lost through crop evapotranspiration and is equivalent to the amount of water lost due to plant evapotranspiration. The total CWR, effective rainfall, and IWR for wheat crops across various agro-climatic zones were determined using the CROPWAT model based on the specific data from the study area. However, the findings of the present study cannot be compared fully due to the unavailability of similar studies in the same region.",
+      "char_offset": 17111
+    },
+    {
+      "type": "paragraph",
+      "text": "Tables 2 , 3 , 4 , 5 , 6 and 7 represent the crop water requirement of wheat in each district of Punjab using the CROPWAT model. The total irrigation water requirement of wheat in MBD, FSD, TTS, BWN, BWP, and KNP is 44.7, 102.2, 103.1, 119.1, 179, and 184.2 mm, respectively. From this data, it is clear that the irrigation requirement of the crop is higher in dry areas than in rainy regions. This study reflects that the crop grown in dry areas requires more water because of lesser rainfall than in cold climate areas with high rainfall. The FAO report [ 44 ] also describes that the area that receives more rainfall requires less irrigation than those areas where rainfall is minimal. Depending on the soil data, climate type, and cultivation practices, that crop requires different amounts of water to grow [ 45 ]. This study shows that the wheat crop requires more water during the growing stage than the other three stages.",
+      "char_offset": 17785
+    },
+    {
+      "type": "paragraph",
+      "text": "The districts where effective rain is not enough to fulfill the water requirement of the crop such as BWN, BWP, and KNP might be due to increasing temperature which ultimately increases the evapotranspiration here, the sprinkler system of irrigation is more beneficial. Another contributing factor to high evapotranspiration is rain, this region receives less rainfall as compared to another region of the study area. For sustainable agriculture, precipitation and irrigation are key water sources. The quantity and seasonal distribution of precipitation directly influence the water balance and irrigation needs of various crops [ 46 ]. The irrigation water requirement of each district can be better understood by Fig. 6 as when effective rainfall is low and crop water requirement is high the irrigation water requirement for that area increases, and when the effective rain is high covering the crop water requirement then there is less need of irrigation water respectively in every month.",
+      "char_offset": 18717
+    },
+    {
+      "type": "paragraph",
+      "text": "The Irrigation water requirement concerning crop water requirement and effective rain of wheat in a Mandibahauddin, b Faisalabad, c Toba Tek Sing, d Bahawalnagar, e Bahawalpur, f Khanpur",
+      "char_offset": 19713
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling determines the appropriate amount of water to apply to crops and the timing of its delivery. The crop undergoes several initial, developmental, middle, and late stages, each with distinct irrigation needs. Therefore, effective planning is essential to ensure optimal water use throughout the crop\u2019s growth cycle. The CROPWAT analysis shows that the gross irrigation requirement of MBD is 59.8 and net irrigation is 41.9 mm less than CWR which is 180 mm because this region gains enough rain, 132 mm of water requirement is fulfilled by effective rain therefore, the crop requires only one-time irrigation. FSD total gross irrigation is 113.8, net irrigation is 79.9, TTS and BWN gross irrigation is 115.7, and net irrigation is 81.0, BWP total gross irrigation is 175.6 mm and net is 122.9 mm, KNP gross irrigation is 235.4 mm and net irrigation is 164.8 mm shown in Figs. 7 , 8 , 9 , 10 , 11 and 12 . The successful irrigation practices to local conditions applied in [ 47 ], significantly enhance crop productivity and water efficiency. The total available moisture (TAM) in the figures shows all the water available to the crops. Plants take water from the root zones. As with time, water depletion reaches a level where irrigation requirements become high. If water is not applied at this stage, it may lead to crop wilting and destruction or a lower production rate.",
+      "char_offset": 19901
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling of wheat in Mandibahauddin",
+      "char_offset": 21296
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling of wheat in Faisalabad",
+      "char_offset": 21346
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling of wheat in Toba Tek Singh",
+      "char_offset": 21392
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling of wheat in Bahawalnagar",
+      "char_offset": 21442
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling of wheat in Bahawalpur",
+      "char_offset": 21490
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheduling of wheat in Khanpur",
+      "char_offset": 21536
+    },
+    {
+      "type": "paragraph",
+      "text": "In this study, the IWR for the wheat crop was determined using the CROPWAT 8.0 software in six districts of Punjab showing as a representative of different agro-climatic outlooks developed by FAO. According to our findings, the highest IWR was observed in KNP 184.2 mm, as this area has a sub-tropical desert climate, less rainfall, and hot summers resulting in high water requirements and the lowest IWR was observed in MBD 44.7 mm. From the above discussion, we conclude that the climatic variations including rainfall, minimum and maximum temperature, humidity, sunshine, and wind speed occurred in all six stations of Punjab. The highest precipitation was observed in July and the overall trend was higher in central Punjab in MBD, TTS, and FSD than in southern Punjab including KNP, BWP, and BWN. The results of this study greatly develop our knowledge of the water requirements of wheat crops and help us understand better management of water resources and increased crop yields through cutting-edge technologies. The study outcomes will serve as guidance for the farmers in determining the appropriate time for irrigation for the wheat crop and assist with water resource planning in the future. Ultimately helping in the conservation of water. The present study is based on the past 10 years of climatic data for higher accuracy, so an identical study can be done on different crops in these districts.",
+      "char_offset": 21579
+    },
+    {
+      "type": "paragraph",
+      "text": "The climatic data used in this study were provided by the Pakistan Meteorological Department (PMD) NAMC, Islamabad, Pakistan. For analysis in CROPWAT. The data are not publicly available but can be obtained from the PMD upon reasonable request and with permission.",
+      "char_offset": 22991
+    },
+    {
+      "type": "paragraph",
+      "text": "Martin P. The implications of climate change for crop yields, global food supply and risk of hunger. J SAT Agric Res. 2007;4.",
+      "char_offset": 23257
+    },
+    {
+      "type": "paragraph",
+      "text": "Eckstein D, K\u00fcnzel V, Schafer L, Winges M. Global climate risk index 2020. Germanwatch. 2019. https://www.germanwatch.org/sites/default/files/20-2-01e%20Global%20Climate%20Risk%20Index%202020_14.pdf .",
+      "char_offset": 23384
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaplin MF. Water: its importance to life. Biochem Mol Biol Educ. 2021;29(2):54\u20139. https://doi.org/10.1016/S1470-8175(01)00017-0 .",
+      "char_offset": 23586
+    },
+    {
+      "type": "paragraph",
+      "text": "K\u0131l\u0131\u00e7 Z. The importance of water and conscious use of water. Int J Hydrol . 2020;4(5):239\u201341. https://doi.org/10.15406/ijh.2020.04.00250 .",
+      "char_offset": 23718
+    },
+    {
+      "type": "paragraph",
+      "text": "Shah M, Anwar A, Bell A, Haq Z. Equity in a tertiary canal of the Indus Basin Irrigation System (IBIS). Agric Water Manag. 2016;178:201\u201314. https://doi.org/10.1016/j.agwat.2016.09.018 .",
+      "char_offset": 23858
+    },
+    {
+      "type": "paragraph",
+      "text": "Qureshi AS. Groundwater governance in Pakistan: from colossal development to neglected management. Water. 2020;12(11):3017.",
+      "char_offset": 24045
+    },
+    {
+      "type": "paragraph",
+      "text": "Gul N, Haq Z, Munsif F, Malik A, Akbar G, Khalil A, Ajmal. Pakistan\u2019s northern dry mountain agricultural ecological zone autumn maize crop water requirement, and irrigation scheduling using FAO Computer Programming Cropwat 8.0. NVEO Nat Volatiles Essent Oils. 2021;9476\u201381.",
+      "char_offset": 24170
+    },
+    {
+      "type": "paragraph",
+      "text": "Solangi GS, Shah SA, Alharbi RS, Panhwar S, Keerio HA, Kim TW, Bughio AD. Investigation of irrigation water requirements for major crops using CROPWAT model based on climate data. Water. 2022;14(16):2578. https://doi.org/10.3390/w14162578 .",
+      "char_offset": 24445
+    },
+    {
+      "type": "paragraph",
+      "text": "Qayyum A, Pervaiz MK. A detailed descriptive study of all the wheat production parameters in Punjab. Pakistan Afr J Agric Res. 2013;8(31):4209\u201330. https://doi.org/10.5897/AJAR11.069 .",
+      "char_offset": 24687
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaudhry QZ, Rasul G. Thermal classification of Pakistan. Agroclim Class Pakistan Sci Vis. 2004;9(1\u20134):59\u201366.",
+      "char_offset": 24872
+    },
+    {
+      "type": "paragraph",
+      "text": "Janjua S, Hassan I, Muhammad S, Ahmed S, Ahmed A. Water management in Pakistan\u2019s Indus Basin: challenges and opportunities. Water Policy. 2021;23(6):1329\u201343. https://doi.org/10.2166/wp.2021.068 .",
+      "char_offset": 24983
+    },
+    {
+      "type": "paragraph",
+      "text": "Soomro S, Solangi G, Siyal AA, Golo A, Bhatti N, Soomro A, Keerio HA. Estimation of irrigation water requirement and irrigation scheduling for major crops using the CROPWAT model and climatic data. Water Pract Technol. 2023;18. https://doi.org/10.2166/wpt.2023.024 .",
+      "char_offset": 25180
+    },
+    {
+      "type": "paragraph",
+      "text": "Basharat M. Chapter 16\u2014Water management in the Indus Basin in Pakistan: challenges and opportunities. In: Khan SI, Adams TE, editors. Indus River Basin. Elsevier; 2019. p. 375\u201388. https://doi.org/10.1016/B978-0-12-812782-7.00017-5 .",
+      "char_offset": 25448
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahmed S, Cheema MJ, Ahmed W, Arshad M. Delineation of hydrological response units to estimate water demand of canal command in lower Chenab canal using gis modeling. Pak J Agric Sci. 2018;55. https://doi.org/10.21162/PAKJAS/18.5043 .",
+      "char_offset": 25682
+    },
+    {
+      "type": "paragraph",
+      "text": "Shaukat I, ul-Haq H, Khan H, Arshad R. Impact of climatic parameters on crop water requirements in different agro ecological zones of Pakistan. Earth Sci Pak. 2020;4:21\u20134. https://doi.org/10.26480/esp.01.2020.21.24 .",
+      "char_offset": 25917
+    },
+    {
+      "type": "paragraph",
+      "text": "Muzammil M, Zahid A, Breuer L. Water resources management strategies for irrigated agriculture in the Indus basin of Pakistan. Water. 2020;12(5):1429. https://doi.org/10.3390/w12051429 .",
+      "char_offset": 26135
+    },
+    {
+      "type": "paragraph",
+      "text": "Hira G. Water management in Northern States and the Food Security of India. J Crop Improv. 2009;23:136\u201357. https://doi.org/10.1080/15427520802645432 .",
+      "char_offset": 26323
+    },
+    {
+      "type": "paragraph",
+      "text": "Iqbal J, Su C, Rashid A, Yang N, Baloch MYJ, Talpur SA, Sajjad MM. Hydrogeochemical assessment of groundwater and suitability analysis for domestic and agricultural utility in Southern Punjab, Pakistan. Water. 2021;13(24):3589. https://doi.org/10.3390/w13243589 .",
+      "char_offset": 26475
+    },
+    {
+      "type": "paragraph",
+      "text": "Hussain S, Mubeen M, Jatoi W, Fahad S, Ali M, Ehsan MA, Raza A. Investigation of irrigation water requirement and evapotranspiration for water resource management in southern Punjab, Pakistan. Sustainability. 2023;15:1768. https://doi.org/10.3390/su15031768 .",
+      "char_offset": 26740
+    },
+    {
+      "type": "paragraph",
+      "text": "Duggal KS. Punjab: land of the five rivers. Books Abroad. 1969;43(4):520\u20135. https://doi.org/10.2307/40123778 .",
+      "char_offset": 27001
+    },
+    {
+      "type": "paragraph",
+      "text": "Islam MS, Fahad S, Hossain A, Chowdhury K, Iqbal MA, Dubey DA, El Sabagh A. Legumes under drought stress: plant responses, adaptive mechanisms and management strategies in relation to nitrogen fixation. 2021. https://doi.org/10.1201/9781003160717-9 .",
+      "char_offset": 27113
+    },
+    {
+      "type": "paragraph",
+      "text": "Zahoor SA, Ahmad S, Ahmad A, Wajid A, Khaliq T, Mubeen M, Hussain S, Din MSU, Amin A, Awais M, Nasim W. Improving water use efficiency in agronomic crop production. 2019.",
+      "char_offset": 27365
+    },
+    {
+      "type": "paragraph",
+      "text": "Water management: a solution to water scarcity in Pakistan. 2024. ResearchGate. https://doi.org/10.31384/jisrmsse/2011.09.2.9 .",
+      "char_offset": 27537
+    },
+    {
+      "type": "paragraph",
+      "text": "Cveji\u0107 R, \u010cerni\u010d-Isteni\u010d M, Honzak L, Pe\u010dan U, \u017deleznikar \u0160, Pintar M. Farmers Try to improve their irrigation practices by using daily irrigation recommendations\u2014the Vipava Valley Case, Slovenia. Agronomy. 2020;10(9):1238. https://doi.org/10.3390/agronomy10091238 .",
+      "char_offset": 27666
+    },
+    {
+      "type": "paragraph",
+      "text": "Allen RG, Pereira LS, Raes D, Smith M (1998) Crop evapotranspiration: guidelines for computing crop water requirements. In: United Nations FAO, Irrigation and Drainage Paper 56.",
+      "char_offset": 27934
+    },
+    {
+      "type": "paragraph",
+      "text": "Allen RG, Pruitt WO, Wright JL, Howell TA, Ventura F, Snyder R, Itenfisu D, Steduto P, Berengena J, Yrisarry JB, et al. A recommendation on standardized surface resistance for hourly calculation of reference ETo by the FAO 56 Penman-Monteithmethod. Agric Water Manag. 2006;81:1\u201322. https://doi.org/10.1016/j.agwat.2005.03.007 .",
+      "char_offset": 28113
+    },
+    {
+      "type": "paragraph",
+      "text": "Suryadi E, Ruswandi D, Dwiratna S, Prawiranegara BMP. Crop water requirements analysis using Cropwat 8.0 software in maize intercropping with rice and soybean. Int J Adv Sci Eng Inf Technol. 2019;9(4):1364\u201370. https://doi.org/10.18517/ijaseit.9.4.6868 .",
+      "char_offset": 28442
+    },
+    {
+      "type": "paragraph",
+      "text": "Land utilization Statistics Agriculture government of Pakistan accessed 18 July 2024. https://www.agripunjab.gov.pk/system/files/Land%20Utilisation%20Statistics%202020-21 .",
+      "char_offset": 28697
+    },
+    {
+      "type": "paragraph",
+      "text": "Agriculture, Ministry of Finance Government of Pakistan chapter 2 accessed 18 July 2024. https://finance.gov.pk/survey/chapter_24/2_agriculture.pdf",
+      "char_offset": 28871
+    },
+    {
+      "type": "paragraph",
+      "text": "Pakistan bureau of Statistics Area Production Crops table 2 accessed 19 July 2024. Table_1_Area_production_crops.pdf (pbs.gov.pk)",
+      "char_offset": 29020
+    },
+    {
+      "type": "paragraph",
+      "text": "Geography|Faisalabad. (n.d.). Retrieved September 8, 2024, from https://faisalabad.punjab.gov.pk/geography .",
+      "char_offset": 29151
+    },
+    {
+      "type": "paragraph",
+      "text": "Jamil MD, Waheed M, Akhtar S, Bangash N, Khalil S, Majeed M, Jones D. Invasive plants diversity, ecological status, and distribution pattern in relation to edaphic factors in different habitat types of district Mandi Bahauddin, Punjab, Pakistan. Sustainability. 2022;14:13312. https://doi.org/10.3390/su142013312 .",
+      "char_offset": 29261
+    },
+    {
+      "type": "paragraph",
+      "text": "District Profile|Toba Tek Singh. (n.d.). Retrieved September 8, 2024, from https://tobateksingh.punjab.gov.pk/district_profile .",
+      "char_offset": 29577
+    },
+    {
+      "type": "paragraph",
+      "text": "District Profile|Bahawalpur. (n.d.). Retrieved September 8, 2024, from https://bahawalpur.punjab.gov.pk/district_profile .",
+      "char_offset": 29707
+    },
+    {
+      "type": "paragraph",
+      "text": "Geography|District Bahawalnagar. (n.d.). Retrieved September 8, 2024, from https://bahawalnagar.punjab.gov.pk/geography .",
+      "char_offset": 29831
+    },
+    {
+      "type": "paragraph",
+      "text": "Khanpur, Punjab, PK Climate Zone, Monthly Averages, Historical Weather Data. (n.d.). Retrieved September 8, 2024, from https://weatherandclimate.com/pakistan/punjab/khanpur .",
+      "char_offset": 29954
+    },
+    {
+      "type": "paragraph",
+      "text": "Punjab, Agriculture profile (n.d.). Accessed 18 July 2024 https://www.agripunjab.gov.pk/system/files/Punjab%20Agriculture%20Profile.pdf .",
+      "char_offset": 30130
+    },
+    {
+      "type": "paragraph",
+      "text": "Ren P, Huang F, Li B. Spatiotemporal patterns of water consumption and irrigation requirements of wheat-maize in the Huang-Huai-Hai Plain, China and options of their reduction. Agric Water Manag. 2022;263:107468. https://doi.org/10.1016/j.agwat.2022.107468 .",
+      "char_offset": 30269
+    },
+    {
+      "type": "paragraph",
+      "text": "Farooq N, Gheewala S. Impact of climate on the crop water requirement for sugarcane cultivation in Pakistan. 2018.",
+      "char_offset": 30529
+    },
+    {
+      "type": "paragraph",
+      "text": "Bahadur A, Bazai ZA, Khair SM, NAFISA, Bahadur F, Bokhari SMA. Modeling crop water requirement of grapes by using FAO-CROPWAT model in Quetta district, Balochistan. J Agrometeorol. 2021;23(4):468\u201370. https://doi.org/10.54386/jam.v23i4.180 .",
+      "char_offset": 30645
+    },
+    {
+      "type": "paragraph",
+      "text": "Agrawal A, Srivastava PK, Tripathi VK, Maurya S, Sharma R. Future projections of crop water and irrigation water requirements using a bias-corrected regional climate model coupled with CROPWAT. J Water Clim Change. 2023;14(4):1147\u201361. https://doi.org/10.2166/wcc.2023.349 .",
+      "char_offset": 30887
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahmood N, Ahmad R. Determination of water requirements and the response of wheat to irrigation at different soil moisture depletion levels. J Agric Biol. 2005;7:812\u20135.",
+      "char_offset": 31162
+    },
+    {
+      "type": "paragraph",
+      "text": "Khan MJ, Malik A, Rahman M, Afzaal M, Mulk S. Assessment of crop water requirement for various crops in Peshawar, Pakistan using CROPWAT model. Retrieved 23 July 2024 from https://www.hilarispublisher.com/open-access/assessment-of-crop-water-requirement-for-various-crops-in-peshawar-pakistan-using-cropwat-model-74630.html .",
+      "char_offset": 31332
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO. Handbook on climate information for farming communities: what farmers need and what is available. Rome, Italy: FAO; 2019.",
+      "char_offset": 31659
+    },
+    {
+      "type": "paragraph",
+      "text": "de Azevedo PV, de Souza CB, da Silva BB, da Silva VPR. Water requirements of pineapple crop grown in a tropicalenvironment, Brazil. Agric Water Manag. 2007;88:201\u20138.",
+      "char_offset": 31787
+    },
+    {
+      "type": "paragraph",
+      "text": "Rehman S, Shah MA. Rainfall trends in different climate zones of Pakistan. 9(17).",
+      "char_offset": 31954
+    },
+    {
+      "type": "paragraph",
+      "text": "Jabeen M, Ahmed SR, Ahmed M. Enhancing water use efficiency and grain yield of wheat by optimizing irrigation supply in arid and semi-arid regions of Pakistan. Res Gate. 2024. https://doi.org/10.1016/j.sjbs.2021.10.018 .",
+      "char_offset": 32037
+    },
+    {
+      "type": "paragraph",
+      "text": "This research work was conducted and supported by the National Agromet Centre, Pakistan Meteorological Department, Islamabad, 44000, Pakistan",
+      "char_offset": 32259
+    },
+    {
+      "type": "paragraph",
+      "text": "This work is not supported by any external funding.",
+      "char_offset": 32402
+    },
+    {
+      "type": "paragraph",
+      "text": "Pakistan Meteorological Department, National Agromet Centre, Islamabad, Pakistan",
+      "char_offset": 32455
+    },
+    {
+      "type": "paragraph",
+      "text": "Sana Akbar, Aqsa Riaz, Tariq Mahmood, Asma Jawad Hashmi & Dildar Hussain Kazmi",
+      "char_offset": 32537
+    },
+    {
+      "type": "paragraph",
+      "text": "Sana Akbar and Aqsa Riaz conceptualized the study, designed the methodology and drafted the manuscript, contributed significantly to data collection, analysis, and interpretation of results. Tariq Mahmood supervised the work and edited the final manuscript. Asma Jawad Hashmi and Dildar Hussain Kazmi provided the Resources. All authors read and approved the final manuscript.",
+      "char_offset": 32617
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no competing interests.",
+      "char_offset": 32995
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 33040
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ .",
+      "char_offset": 33160
+    },
+    {
+      "type": "paragraph",
+      "text": "Akbar, S., Riaz, A., Mahmood, T. et al. A guide to irrigation requirement of wheat crop in FAO-developed agro-climatic zones of Punjab, Pakistan. Discov Agric 3 , 41 (2025). https://doi.org/10.1007/s44279-025-00189-5",
+      "char_offset": 34185
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s44279-025-00189-5",
+      "char_offset": 34403
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 34453
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 34530
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 34600
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-77c4262f3386a7ac"
+}

@@ -1,0 +1,78 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.light_extinction_coefficient",
+    "value_type": "range",
+    "range_min": 0.45,
+    "range_max": 0.66,
+    "unit": "dimensionless",
+    "qualifier": "observed",
+    "evidence_text": "light extinction coefficients were in the range 0.45-0.66",
+    "claim_summary": "Wheat canopy light extinction coefficient ranged 0.45-0.66 across field experiments.",
+    "extraction_confidence": "high",
+    "methods": ["field experiment"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "canopy.leaf_area_index",
+    "value_type": "range",
+    "range_min": 2.08,
+    "range_max": 7.49,
+    "unit": "dimensionless",
+    "qualifier": "observed",
+    "evidence_text": "high variability in the leaf area index (2.08-7.49)",
+    "claim_summary": "Wheat leaf area index ranged 2.08-7.49 across treatments.",
+    "extraction_confidence": "high",
+    "methods": ["field experiment"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "canopy.harvest_index",
+    "value_type": "range",
+    "range_min": 32.86,
+    "range_max": 53.90,
+    "unit": "%",
+    "qualifier": "observed",
+    "evidence_text": "harvest index (32.86-53.90%)",
+    "claim_summary": "Wheat harvest index ranged 32.86-53.90%.",
+    "extraction_confidence": "high",
+    "methods": ["field experiment"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "canopy.biomass_accumulation",
+    "value_type": "range",
+    "range_min": 7831.1,
+    "range_max": 22515.96,
+    "unit": "kg ha-1",
+    "qualifier": "observed",
+    "evidence_text": "wheat biological yield (7831.1-22 515.96 kg ha-¹)",
+    "claim_summary": "Wheat biological (biomass) yield ranged 7831-22516 kg/ha.",
+    "extraction_confidence": "high",
+    "methods": ["field experiment"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 50,
+    "range_max": 150,
+    "unit": "kg ha-1",
+    "qualifier": "recommended",
+    "evidence_text": "using the optimum rate of N chemical fertilisation (50, 100, 150 kg ha-¹)",
+    "claim_summary": "Optimum N chemical fertilisation rates tested for wheat were 50, 100 and 150 kg/ha.",
+    "extraction_confidence": "medium",
+    "methods": ["field experiment"],
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "optimum",
+    "evidence_text": "produce the highest rate of yield if the most efficient genotype (Line 14-C81, Pishvaz and Pishtaz) is planted on the right planting date (15 November)",
+    "claim_summary": "Optimum planting date for highest yield under arid/semi-arid conditions was 15 November.",
+    "extraction_confidence": "medium",
+    "methods": ["field experiment"],
+    "organisms": ["Triticum aestivum"]
+  }
+]}

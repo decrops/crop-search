@@ -1,0 +1,298 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 100,
+      "range_max": 130,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "The length of the total growing period of spring wheat ranges from 100 to 130 days while winter wheat needs about 180 to 250 days to mature.",
+      "claim_summary": "Spring wheat total growing period is 100-130 days",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 180,
+      "range_max": 250,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "winter wheat needs about 180 to 250 days to mature.",
+      "claim_summary": "Winter wheat total growing period to maturity is 180-250 days",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Winter wheat requires a cold period or chilling (vernalization) during early growth for normal heading under long days. ... Spring wheat does not require chilling for heading and it is day-neutral.",
+      "claim_summary": "Winter wheat requires vernalization for normal heading; spring wheat has no chilling requirement",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Winter wheat requires a cold period or chilling (vernalization) during early growth for normal heading under long days. ... Spring wheat does not require chilling for heading and it is day-neutral.",
+      "claim_summary": "Winter wheat heads under long days; spring wheat is day-neutral",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.cold_tolerance",
+      "value_type": "numeric",
+      "numeric_value": -20,
+      "unit": "celsius",
+      "qualifier": "minimum",
+      "evidence_text": "Winter wheat in its early stages of development exhibits a strong resistance to frost, down to - 20°C. The resistance is lost in the active growth period in spring",
+      "claim_summary": "Winter wheat tolerates frost down to -20 C in early development",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "during head development and flowering periods frost may lead to head sterility. Because of this sometimes more damage is done to the winter crop by spring frost than by winter frost.",
+      "claim_summary": "Frost during head development and flowering causes head sterility in wheat",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.minimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 5,
+      "unit": "celsius",
+      "qualifier": "minimum",
+      "evidence_text": "For winter and spring wheat minimum daily temperature for measurable growth is about 5°C.",
+      "claim_summary": "Minimum daily temperature for measurable wheat growth is about 5 C",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 20,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Mean daily temperature for optimum growth and tillering is between 15 and 20°C.",
+      "claim_summary": "Optimum mean daily temperature for wheat growth and tillering is 15-20 C",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 6,
+      "range_max": 8,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "The optimum pH ranges from 6 to 8.",
+      "claim_summary": "Optimum soil pH for wheat is 6 to 8",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The crop can be grown on a wide range of soils but medium textures are preferred. Peaty soils containing high sodium, magnesium or iron should be avoided.",
+      "claim_summary": "Wheat prefers medium-textured soils; avoid peaty high-sodium/magnesium/iron soils",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 150,
+      "unit": "kg/ha",
+      "qualifier": "maximum",
+      "evidence_text": "For good yields the fertilizer requirements are up to 150 kg/ha N, 35 to 45 kg/ha P and 25 to 50 kg/ha K.",
+      "claim_summary": "Wheat nitrogen fertilizer requirement up to 150 kg/ha N for good yields",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "range",
+      "range_min": 35,
+      "range_max": 45,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For good yields the fertilizer requirements are up to 150 kg/ha N, 35 to 45 kg/ha P and 25 to 50 kg/ha K.",
+      "claim_summary": "Wheat phosphorus fertilizer requirement is 35-45 kg/ha P",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 50,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "For good yields the fertilizer requirements are up to 150 kg/ha N, 35 to 45 kg/ha P and 25 to 50 kg/ha K.",
+      "claim_summary": "Wheat potassium fertilizer requirement is 25-50 kg/ha K",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.water_table_depth",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Wheat is relatively tolerant to a high groundwater table; for sandy loam to silt loam a depth of groundwater of 0.6 to 0.8 m can usually be tolerated, and for clay 0.8 to 1 m.",
+      "claim_summary": "Wheat tolerates groundwater table depth of 0.6-0.8 m (sandy/silt loam) or 0.8-1 m (clay)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "numeric",
+      "numeric_value": 4,
+      "unit": "dS/m",
+      "qualifier": "threshold",
+      "evidence_text": "The crop is moderately tolerant to soil salinity but the ECe should not exceed 4 mmhos/cm in the upper soil layer during germination.",
+      "claim_summary": "Wheat ECe should not exceed 4 mmhos/cm (dS/m) in upper soil during germination",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Yield decrease due to salinity is 0% at ECe 6.0, 10% at 7.4, 25% at 9.5, 50% at 13 and 100% at ECe 20 mmhos/cm.",
+      "claim_summary": "Wheat yield decline: 0% at ECe 6, 25% at 9.5, 50% at 13, 100% at ECe 20 mmhos/cm",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "range",
+      "range_min": 2,
+      "range_max": 4,
+      "unit": "cm",
+      "qualifier": "recommended",
+      "evidence_text": "With pre-irrigation or sufficient rain to wet the upper soil layer, seeds are drilled 2 to 4 cm deep. as against 5 to 8 cm in dry soils",
+      "claim_summary": "Wheat seeding depth 2-4 cm in moist soil, 5-8 cm in dry soil",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "range",
+      "range_min": 0.12,
+      "range_max": 0.15,
+      "unit": "m",
+      "qualifier": "recommended",
+      "evidence_text": "Under favourable water supply including irrigation and adequate fertilization row spacing is 0.12 to 0.15 m (450 to 700000 plants/ha) but increases to 0.25 m or more under poor rainfall conditions",
+      "claim_summary": "Wheat row spacing 0.12-0.15 m under good water supply, up to 0.25 m under poor rainfall",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 100,
+      "range_max": 140,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Sowing rates under irrigation are 100 to 120 kg/ha (drilled) to 110 to 140 kg/ha (broadcast).",
+      "claim_summary": "Wheat sowing rate under irrigation 100-120 kg/ha drilled, 110-140 kg/ha broadcast",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat is often grown in rotation and legumes, sunflower and maize are considered as suitable rotation crops.",
+      "claim_summary": "Suitable rotation crops for wheat are legumes, sunflower and maize",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 450,
+      "range_max": 650,
+      "unit": "mm",
+      "qualifier": "typical",
+      "evidence_text": "For high yields water requirements (ETm) are 450 to 650 mm depending on climate and length of growing period.",
+      "claim_summary": "Wheat water requirement (ETm) for high yields is 450-650 mm",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 1.05,
+      "range_max": 1.2,
+      "unit": "dimensionless",
+      "qualifier": "typical",
+      "evidence_text": "The crop coefficient (kc) ... during the initial stage 0.3-0.4 ..., the development stage 0.7-0.8 ..., the mid-season stage 1.05-1.2 ..., the late-season stage 0.65-0.7 ... and at harvest 0.2-0.25.",
+      "claim_summary": "Wheat mid-season crop coefficient Kc is 1.05-1.2 (initial 0.3-0.4, late 0.65-0.7, harvest 0.2-0.25)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The flowering period (2) is most sensitive to water deficit. ... The loss in yield due to water deficits during the flowering period (2) cannot be recovered by providing adequate water supply during the later growth periods.",
+      "claim_summary": "Flowering is the most water-deficit-sensitive stage in wheat; losses are unrecoverable",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "range",
+      "range_min": 1.2,
+      "range_max": 1.5,
+      "unit": "m",
+      "qualifier": "maximum",
+      "evidence_text": "In deep soils, the active rooting depth for spring wheat is 0.9 m with a maximum of 1.2 to 1.5 m ... For winter wheat, active rooting depth is up to 1.2 m with maximum of 1.5 to over 2 m",
+      "claim_summary": "Spring wheat max rooting depth 1.2-1.5 m; winter wheat 1.5 to over 2 m",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.root_shoot_ratio",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The top root ratio increases with crop development and is about 2 during the vegetative period (1), about 4 before heading, and about 10 to 11 during the yield formation (3) and ripening (4) period.",
+      "claim_summary": "Wheat top-root ratio rises from ~2 (vegetative) to ~4 (pre-heading) to ~10-11 (yield formation/ripening)",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "value_type": "numeric",
+      "numeric_value": 0.5,
+      "unit": "fraction",
+      "qualifier": "threshold",
+      "evidence_text": "water uptake of the crop is little affected at soil water depletion of less than 50 percent of the total available soil water (p = 0.5). Moderate water stress to the crop occurs at depletion levels of 70 to 80 percent and severe stress occurs at levels exceeding 80 percent.",
+      "claim_summary": "Wheat allowable soil water depletion p=0.5 before stress; moderate stress at 70-80%, severe above 80%",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "range",
+      "range_min": 0.8,
+      "range_max": 1.6,
+      "unit": "kg/m3",
+      "qualifier": "typical",
+      "evidence_text": "The water utilization efficiency for harvested yield (Ey) for grain varies then between 0.8 and 1.6 kg/m3.",
+      "claim_summary": "Wheat grain water-use efficiency is 0.8-1.6 kg/m3",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "range",
+      "range_min": 10,
+      "range_max": 13,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "Under irrigation a good commercial grain yield is 6 to 9 ton/ha (10 to 13 percent moisture).",
+      "claim_summary": "Wheat commercial grain harvest moisture is 10-13 percent",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Over watering during the vegetative period (1) produces luxurious growth that can cause lodging, which may also occur after a too heavy irrigation in the late yield formation period (late 3), particularly with sprinkler irrigation.",
+      "claim_summary": "Over-watering/luxurious growth in wheat increases lodging, especially with sprinkler irrigation",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

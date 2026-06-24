@@ -1,0 +1,107 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 207,
+      "unit": "kg/ha",
+      "qualifier": "maximum",
+      "evidence_text": "By setting the first derivative dy/dx=0 revealed that N fertilizer rate to achieve maximum grain yield of wheat was 207 kg ha −1.",
+      "claim_summary": "N fertilizer rate to achieve maximum grain yield of wheat in calcareous soils of West Delta, Egypt was 207 kg N/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 240,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "The general recommendation for N fertilizer for wheat grown on calcareous soils of Egypt is approximately 240 kg ha −1, although studies on wheat in the same region have suggested that lower N fertilizer rates can be used without compromising grain yield.",
+      "claim_summary": "The general N fertilizer recommendation for wheat on calcareous soils of Egypt is about 240 kg N/ha.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "six N application rates of 0, 50, 100, 150, 200, and 250 kg N ha −1 in four equal split doses as ammonium nitrate at 0, 30, 45, and 60 days after sowing (DAS).",
+      "claim_summary": "N fertilizer was applied in four equal split doses at 0, 30, 45, and 60 days after sowing; wheat response to N after Feekes 6 (around 55 DAS) is low.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "nutrients.critical_tissue_nitrogen",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "A critical N dilution curve was developed as: Nc=50.141 W^-0.424 ... where Nc is total N concentration in shoot (g kg −1 DM), W is total shoot biomass (Mg DM ha −1).",
+      "claim_summary": "Critical shoot N dilution curve for wheat in calcareous soils: Nc = 50.141 * W^-0.424 (Nc in g N/kg shoot DM, W in Mg DM/ha).",
+      "extraction_confidence": "high",
+      "organisms": []
+    },
+    {
+      "parameter_id": "nutrients.critical_tissue_nitrogen",
+      "value_type": "range",
+      "range_min": 15.7,
+      "range_max": 41.0,
+      "unit": "other",
+      "qualifier": "observed",
+      "evidence_text": "Depending on the rate of N application and growth stage, N concentrations ranged from 41.0 to 15.7 g kg −1 DM.",
+      "claim_summary": "Wheat shoot N concentration declined over the growing season from 41.0 to 15.7 g N/kg DM depending on N rate and growth stage.",
+      "extraction_confidence": "high",
+      "organisms": []
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 42,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The global N use efficiency of cereal crops has remained alarmingly low at around 42% (Zhang et al. 2015).",
+      "claim_summary": "Global N use efficiency of cereal crops is around 42%.",
+      "extraction_confidence": "medium",
+      "organisms": []
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 155,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "Giza 171 wheat cultivar was manually sowed in early November at a sowing rate of 155 kg ha −1 and harvested in mid-April.",
+      "claim_summary": "Spring wheat (cv. Giza 171) was sown at a seeding rate of 155 kg/ha in Egypt.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "typical",
+      "evidence_text": "Giza 171 wheat cultivar was manually sowed in early November ... and harvested in mid-April.",
+      "claim_summary": "Wheat in West Delta, Egypt was sown in early November and harvested in mid-April.",
+      "extraction_confidence": "high",
+      "methods": ["sowing", "harvest"],
+      "organisms": []
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 12,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "Grain and straw yields were recorded at 12% moisture content and on dry weight basis, respectively.",
+      "claim_summary": "Wheat grain yield was recorded at 12% moisture content.",
+      "extraction_confidence": "high",
+      "methods": ["harvest"],
+      "organisms": []
+    }
+  ]
+}

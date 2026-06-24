@@ -1,0 +1,11 @@
+{"claims": [
+  {
+    "parameter_id": "harvest.preharvest_sprouting_risk",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "It consists of the germination of physiologically mature seeds in spikes prior to or during harvest due to high humidity or wet (longer period of precipitation) ... white grains are more susceptible to PHS than red grains",
+    "claim_summary": "Wheat preharvest sprouting triggered by high humidity/prolonged rain at maturity; white grains more susceptible than red; PHS resistance linked to higher ABA, polyphenols, JA, SA and seed dormancy.",
+    "extraction_confidence": "high",
+    "organisms": []
+  }
+]}

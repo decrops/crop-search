@@ -1,0 +1,18 @@
+{
+  "id": "candidate-claim-001",
+  "memory_tier": "working",
+  "kind": "candidate_claim",
+  "summary": "Corn prefers warm growing temperatures, but regional ranges vary by source.",
+  "facts": [
+    "Multiple sources phrase suitability as a temperature range.",
+    "Units are consistently reported in degrees Fahrenheit or Celsius."
+  ],
+  "open_questions": [
+    "Should temperature preference be modeled as a baseline claim plus region-specific overrides?"
+  ],
+  "source_refs": [
+    "exploration/raw/sample-corn-source.json"
+  ],
+  "status": "draft",
+  "last_updated": "2026-05-28T12:00:00Z"
+}

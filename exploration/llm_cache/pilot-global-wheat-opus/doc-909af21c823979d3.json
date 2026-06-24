@@ -1,0 +1,20 @@
+{"claims": [
+  {
+    "parameter_id": "stress.heat_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "The reproductive phase of development is the most sensitive stage to high temperature stress in several crops including wheat... male reproductive tissues are much more sensitive at all stages of development to high temperature stress than female reproductive tissues",
+    "claim_summary": "Wheat's reproductive phase is the most heat-sensitive stage; male reproductive tissues are more sensitive than female.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.drought_tolerance",
+    "value_type": "numeric",
+    "numeric_value": 21,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Reduction in yield by as much as 40% was observed for maize and 21% for wheat at approximately a 40% water reduction",
+    "claim_summary": "Wheat yield reduced ~21% under ~40% water reduction (vs 40% for maize).",
+    "extraction_confidence": "high"
+  }
+]}

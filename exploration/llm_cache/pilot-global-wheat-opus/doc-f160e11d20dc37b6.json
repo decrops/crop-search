@@ -1,0 +1,115 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.plant_height",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 34,
+    "unit": "inches",
+    "qualifier": "optimum",
+    "evidence_text": "Short to medium height – shorter plants reduce lodging... A height of 30 to 34 inches at maturity is ideal.",
+    "claim_summary": "Ideal wheat plant height at maturity for relay intercropping is 30-34 inches.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "range",
+    "range_min": 10,
+    "range_max": 15,
+    "unit": "inches",
+    "qualifier": "typical",
+    "evidence_text": "Row spacings for wheat are typically 10 to 15 inches for relay intercropping to facilitate the planting of soybeans into the wheat.",
+    "claim_summary": "Wheat row spacing for relay intercropping is typically 10-15 inches.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 800000,
+    "unit": "seeds/acre",
+    "qualifier": "optimum",
+    "evidence_text": "A seeding rate of 800,000 seeds per acre is optimum for relay cropping systems... yield results of five varieties over two years confirmed the advantage of a seeding rate of 800,000 seeds per acre seeding rate.",
+    "claim_summary": "Optimum wheat seeding rate for relay cropping is 800,000 seeds/acre (about 50% of typical 7.5-inch rates).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "recommended",
+    "evidence_text": "It is generally recommended to apply 20 to 30 pounds per acre of nitrogen (N) to wheat in the fall... A follow-up spring top-dress of no more than 80 to 90 pounds N per acre is common. This can be applied as a single application or as a split application.",
+    "claim_summary": "Apply 20-30 lb N/acre in fall plus spring top-dress of 80-90 lb N/acre (single or split); total not to exceed 100 lb N/acre in relay system.",
+    "extraction_confidence": "high",
+    "methods": ["top-dressing", "split application", "fall fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 20,
+    "range_max": 30,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "It is generally recommended to apply 20 to 30 pounds per acre of nitrogen (N) to wheat in the fall. This gives the wheat an initial boost in growth and helps prepare the plants for winter.",
+    "claim_summary": "Recommended fall nitrogen application to wheat is 20-30 lb N/acre.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 80,
+    "range_max": 90,
+    "unit": "lb/acre",
+    "qualifier": "maximum",
+    "evidence_text": "A follow-up spring top-dress of no more than 80 to 90 pounds N per acre is common.",
+    "claim_summary": "Spring top-dress nitrogen for wheat is no more than 80-90 lb N/acre.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.lodging_susceptibility",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "threshold",
+    "evidence_text": "excessive nitrogen to wheat in relay cropping will cause increased wheat lodging... It is not recommended to exceed a total of 100 pounds N per acre in this system.",
+    "claim_summary": "Excessive nitrogen increases wheat lodging; total N should not exceed 100 lb/acre to limit lodging in relay system.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "range",
+    "range_min": 20,
+    "range_max": 25,
+    "unit": "percent",
+    "qualifier": "recommended",
+    "evidence_text": "Ideally, wheat should be harvested when the grain moisture is between 20 and 25 percent, and then dried to the desired market moisture.",
+    "claim_summary": "Recommended wheat harvest grain moisture is 20-25 percent (then dried) in relay intercropping.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "range",
+    "range_min": 48,
+    "range_max": 56,
+    "unit": "heads/ft2",
+    "qualifier": "observed",
+    "evidence_text": "Seeding Rate Head density Yield ... 1,200,000 56 75 / 800,000 51 73 / 600,000 48 69 Table 1. Wheat Seeding Rate Effect on Head Density and Yields in 15\" Rows",
+    "claim_summary": "Wheat head density ranged 48-56 heads/ft2 across seeding rates of 600,000-1,200,000 seeds/acre in 15-inch rows.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "recommended",
+    "evidence_text": "seed as soon as possible after the Hessian fly-free date to maximize yield potential. This allows increased growth before winter for improved winter hardiness. Wheat sown shortly after the fly-free date will mature earlier, leading to a more timely harvest and lower harvest moisture.",
+    "claim_summary": "Plant winter wheat as soon as possible after the Hessian fly-free date for yield, winter hardiness, and earlier maturity.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "management.rotation_recommendation",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "recommended",
+    "evidence_text": "Relay cropping is a method of multiple cropping where soybeans are planted into standing wheat well before wheat harvest (4 to 8 weeks depending on location)... double cropping of soybeans following winter wheat.",
+    "claim_summary": "Winter wheat is relay/double cropped with soybeans (soybeans seeded into standing wheat 4-8 weeks before harvest).",
+    "extraction_confidence": "high"
+  }
+]}

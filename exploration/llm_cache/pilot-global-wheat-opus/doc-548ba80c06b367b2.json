@@ -1,0 +1,22 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "In wheat (Triticum aestivum), canopy architecture, culm diameter and stem strength are the key providers of lodging tolerance. ... The dwarf mutants (DM6 and DM7) have a stronger resistance against lodging because they have thick stems and a short plant canopy structure.",
+      "claim_summary": "Wheat lodging tolerance is driven by culm diameter, stem strength, lignin, and short stature; tall narrow-culm genotypes lodge most",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Genotype C306 demonstrated the highest susceptibility to lodging compared to other varieties due to its limited production of lignin-synthesising enzymes, as well as its taller plant height and narrower culms.",
+      "claim_summary": "Taller wheat plant height (with narrow culms) increases lodging susceptibility",
+      "extraction_confidence": "high"
+    }
+  ]
+}

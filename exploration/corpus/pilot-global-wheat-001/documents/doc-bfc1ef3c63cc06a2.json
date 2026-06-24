@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-bfc1ef3c63cc06a2",
+  "canonical_url": "https://en.wikipedia.org/wiki/Flower",
+  "source_url": "https://en.wikipedia.org/wiki/Flower",
+  "doi": "",
+  "title": "Flower - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "bfc1ef3c63cc06a2e71ae6abd0a1bd2c9caf31b96879fcab70712718513560a9",
+  "content_hash": "f05fb470ffaff165586a4ae1d98c494f1342bef7f250d2f89d1c2321948b3d39",
+  "text_length": 32180,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 4576465
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/040-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

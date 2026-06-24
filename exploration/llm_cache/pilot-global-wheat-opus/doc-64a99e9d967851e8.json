@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 275,
+      "unit": "plants/m2",
+      "qualifier": "optimum",
+      "evidence_text": "the optimal combination of planting density and nitrogen management was found to be 275 plants m -2 with 200 kg ha -1 N. The simulation results suggested that a plant density of 275 plants m -2 with an N application of 200 kg ha -1 increased grain yield, improved nitrogen use, and produced the highest economic return",
+      "claim_summary": "Optimum durum wheat plant density of 275 plants/m2 under rainfed central-highlands conditions (paired with 200 kg/ha N).",
+      "extraction_confidence": "high",
+      "methods": ["sowing", "fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 200,
+      "unit": "kg/ha",
+      "qualifier": "optimum",
+      "evidence_text": "the optimal combination of planting density and nitrogen management was found to be 275 plants m -2 with 200 kg ha -1 N... produced the highest economic return while minimizing environmental risk under rainfed conditions.",
+      "claim_summary": "Optimum nitrogen rate of 200 kg/ha N for rainfed durum wheat (highest economic return, lowest environmental risk).",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "For nitrogen fertilizer, two split applications, the first one-third N fertilizer was applied at planting, and the remaining (two-thirds N) dose was applied 21 days after crop planting. A full dose of phosphorus fertilizer was applied uniformly at planting.",
+      "claim_summary": "Durum wheat N applied in two splits: one-third at planting and two-thirds at 21 days after planting.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "range",
+      "range_min": 24.7,
+      "range_max": 28.2,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "The rate of 200 kg ha -1 and under all plant densities produced AUE ranging from 24.7 to 28.2% (average 27%)",
+      "claim_summary": "Durum wheat agronomic N-use efficiency at 200 kg/ha N ranged 24.7-28.2% (avg ~27%).",
+      "extraction_confidence": "medium",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 20,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "The plot size was 3 m x 3 m (9 m 2 ) and consisted of 16 rows, spaced 20 cm apart... The seeds were sown with a row spacing of 20 cm using a hand drill.",
+      "claim_summary": "Durum wheat sown at 20 cm row spacing.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "numeric",
+      "numeric_value": 109,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "The model predicted the dates from sowing to anthesis with a 0 (zero) difference and dates from sowing to maturity with a difference of 2 days (107 and 109 dates) between the simulated and measured values",
+      "claim_summary": "Durum wheat (cv. Utuba) reached maturity around 109 days from sowing in the central highlands of Ethiopia.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "numeric",
+      "numeric_value": 0.37,
+      "unit": "ratio",
+      "qualifier": "observed",
+      "evidence_text": "The model accurately simulated GY and HI, with a simulated/measured GY of 4346/4373 kg ha -1 and HI of 0.38/0.37% under normal plant density (225 kg ha -1 ) and nitrogen fertilizer (200 kg ha -1 ) supply.",
+      "claim_summary": "Measured durum wheat harvest index of 0.37 at optimum plant density and nitrogen supply.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "value_type": "numeric",
+      "numeric_value": 3.4,
+      "unit": "ratio",
+      "qualifier": "observed",
+      "evidence_text": "The CERES-Wheat model slightly overpredicted the LAI (5.1 m 2 m -2 ) compared to the measured LAI (3.4 m 2 m -2 ).",
+      "claim_summary": "Measured durum wheat leaf area index ~3.4 at grain-filling under rainfed conditions.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 12.5,
+      "unit": "percent",
+      "qualifier": "recommended",
+      "evidence_text": "GY was adjusted to a moisture content of 12.5% wet bases, and a moisture tester was used to test the moisture content of the grain.",
+      "claim_summary": "Durum wheat grain yield standardized to 12.5% moisture content (wet basis).",
+      "extraction_confidence": "medium",
+      "methods": ["harvest"]
+    }
+  ]
+}

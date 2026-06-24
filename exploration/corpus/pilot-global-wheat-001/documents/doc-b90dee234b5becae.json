@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-b90dee234b5becae",
+  "canonical_url": "https://rune.une.edu.au/server/api/core/bitstreams/73aafe79-6ad6-4400-a117-5e4b5a308beb/content",
+  "source_url": "https://rune.une.edu.au/bitstreams/73aafe79-6ad6-4400-a117-5e4b5a308beb/download",
+  "doi": "https://doi.org/10.1093/jxb/erz257",
+  "title": "Exploring high temperature responses of photosynthesis and respiration to improve heat tolerance in wheat",
+  "source_domain": "rune.une.edu.au",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf;charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "b90dee234b5becae67d6be3e83651152ce5a4c5bac165da0010fc625deee74fa",
+  "content_hash": "87ea23218f8a45289ddd455bc40b7f66f3b98b87768554569bdda00e99264c4c",
+  "text_length": 61791,
+  "publication_date_hint": "2019",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2946881405",
+    "doi": "https://doi.org/10.1093/jxb/erz257",
+    "publication_year": 2019,
+    "is_open_access": true,
+    "open_access_status": "green"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/340-rune.une.edu.au.pdf",
+  "parser_version": "corpus-blocks-1"
+}

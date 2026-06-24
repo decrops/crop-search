@@ -1,0 +1,36 @@
+{
+  "run_id": "pilot-global-wheat-opus",
+  "eval_type": "retrieval",
+  "generated_at": "2026-06-24T09:12:24Z",
+  "ledger_available": false,
+  "ledger_rows": 0,
+  "gold_records": 5,
+  "metrics": {
+    "source_recall": 0.0,
+    "fetch_selection_recall": 0.0,
+    "mean_rank": null
+  },
+  "per_domain": {
+    "nutrients": {
+      "gold": 2,
+      "source_recall": 0.0,
+      "fetch_selection_recall": 0.0
+    },
+    "phenology": {
+      "gold": 1,
+      "source_recall": 0.0,
+      "fetch_selection_recall": 0.0
+    },
+    "stress": {
+      "gold": 1,
+      "source_recall": 0.0,
+      "fetch_selection_recall": 0.0
+    },
+    "water": {
+      "gold": 1,
+      "source_recall": 0.0,
+      "fetch_selection_recall": 0.0
+    }
+  },
+  "note": "No discovery ledger found for this run. Retrieval scoring is pending until Phase B1 produces exploration/discovery/<run>/results.jsonl."
+}

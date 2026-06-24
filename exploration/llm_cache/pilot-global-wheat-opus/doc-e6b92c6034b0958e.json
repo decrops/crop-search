@@ -1,0 +1,57 @@
+{"claims": [
+  {
+    "parameter_id": "quality.test_weight",
+    "value_type": "numeric",
+    "numeric_value": 56,
+    "unit": "lb/bu",
+    "qualifier": "optimum",
+    "evidence_text": "While test weights of 56 pounds per bushel are most desirable, lighter test weights may be an acceptable alternative when heavier seed of desirable varieties is not available.",
+    "claim_summary": "Most desirable wheat seed test weight is 56 lb/bu",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "quality.test_weight",
+    "value_type": "range",
+    "range_min": 54,
+    "range_max": 56,
+    "unit": "lb/bu",
+    "qualifier": "threshold",
+    "evidence_text": "Yields and vigor are likely to be affected at test weights below 54-56 pounds per bushel. Below that level, the plants are likely to have more problems in the fall and in surviving the winter.",
+    "claim_summary": "Yield and vigor affected at seed test weight below 54-56 lb/bu",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "range",
+    "range_min": 1,
+    "range_max": 1.5,
+    "unit": "inch",
+    "qualifier": "recommended",
+    "evidence_text": "Plant low-test-weight seed 1 to 1.5 inches deep.",
+    "claim_summary": "Plant low-test-weight wheat seed 1 to 1.5 inches deep",
+    "extraction_confidence": "high",
+    "methods": ["sowing"]
+  },
+  {
+    "parameter_id": "phenology.emergence_duration",
+    "value_type": "range",
+    "range_min": 21,
+    "range_max": 27,
+    "unit": "days",
+    "qualifier": "observed",
+    "evidence_text": "Days to emergence 21 27 ... Higher test weight seed emerged 4-6 days sooner.",
+    "claim_summary": "Days to emergence 21-27; heavier seed emerged 4-6 days sooner",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.emergence_rate",
+    "value_type": "range",
+    "range_min": 28.4,
+    "range_max": 68.0,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Emergence (% of viable seeds) 60.8% 28.4% ... Emergence (% of viable seeds) 68.0% 48.4% ... Higher test weight seed had 20-40% improved field emergence.",
+    "claim_summary": "Field emergence ranged 28-68% of viable seeds; heavier seed 20-40% higher",
+    "extraction_confidence": "high"
+  }
+]}

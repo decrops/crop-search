@@ -1,0 +1,52 @@
+{"claims": [
+  {
+    "parameter_id": "quality.falling_number",
+    "value_type": "numeric",
+    "numeric_value": 300,
+    "unit": "seconds",
+    "qualifier": "minimum",
+    "evidence_text": "Minimum falling number for milling grades (300 seconds) is indicated by the solid line.",
+    "claim_summary": "Minimum falling number for wheat milling grades is 300 seconds.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "range",
+    "range_min": 12,
+    "range_max": 14,
+    "unit": "percent",
+    "qualifier": "typical",
+    "evidence_text": "detrimental levels of PHS are occurring during the maturation drying period and well before harvest maturity (12-14% moisture content) has been reached",
+    "claim_summary": "Wheat harvest maturity corresponds to about 12-14% grain moisture content.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "harvest.physiological_maturity",
+    "value_type": "numeric",
+    "numeric_value": 40,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "These crops are exhibiting pre-harvest sprouting ... from soon after mass maturity (maximum grain dry weight, approximately 40 % moisture content)",
+    "claim_summary": "Wheat reaches mass/physiological maturity (maximum grain dry weight) at approximately 40% grain moisture content.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "harvest.preharvest_sprouting_risk",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "earlier maturing crops (resulting from early sowing dates and quick developing varieties) show increased pre-harvest sprouting incidence ... occurring during the maturation drying period and well before harvest maturity",
+    "claim_summary": "Wheat pre-harvest sprouting risk increases with cool/wet maturation and earlier maturation; detrimental falling-number decline begins soon after mass maturity (~40% moisture), before harvest maturity. Managed via cultivar PHS resistance and sowing date.",
+    "extraction_confidence": "high",
+    "methods": ["sowing date selection", "cultivar selection"]
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 25.7,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "small plots of 8 m length by 6 rows (25.7 cm row spacing on 1.85 m plot centres)",
+    "claim_summary": "Wheat trial plots used 25.7 cm row spacing.",
+    "extraction_confidence": "medium"
+  }
+]}

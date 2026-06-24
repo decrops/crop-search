@@ -1,0 +1,1591 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Plant Sci. , 16 December 2021 Sec. Crop and Product Physiology Volume 12 - 2021 | https://doi.org/10.3389/fpls.2021.796397"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "Crop and Product Physiology",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Editor & Reviewers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Plant Sci. , 16 December 2021 Sec. Crop and Product Physiology Volume 12 - 2021 | https://doi.org/10.3389/fpls.2021.796397"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 1,
+      "heading": "Spike Density Quantitative Trait Loci Detection and Analysis in Tetraploid and Hexaploid Wheat Recombinant Inbred Line Populations",
+      "text": "J Y Jianing You 1 \u2020 H L Hang Liu 1 \u2020 S W Surong Wang 1 W L Wei Luo 1 L G Lulu Gou 1 H T Huaping Tang 1 Y M Yang Mu 1 M D Mei Deng 1 Q J Qiantao Jiang 1 G C Guoyue Chen 1 P Q Pengfei Qi 1 Y P Yuanying Peng 1 L T Liwei Tang 2 A H Ahsan Habib 3 Y W Yuming Wei 1 Y Z Youliang Zheng 1 X L Xiujin Lan 1 * +9 more J M Jian Ma 1 * 1. Triticeae Research Institute, Sichuan Agricultural University, Chengdu, China 2. Panzhihua Academy of Agricultural and Forestry Sciences, Panzhihua, China 3. Biotechnology and Genetic Engineering Discipline, Khulna University, Khulna, Bangladesh See more Article metrics View details Abstract Spike density (SD) is an agronomically important character in wheat. In addition, an optimized spike structure is a key basis for high yields. Identification of quantitative trait loci (QTL) for SD has provided a genetic basis for constructing ideal spike morphologies in wheat. In this study, two recombinant inbred line (RIL) populations (tetraploid RIL AM and hexaploid RIL 20828/SY95-71 (2SY)) previously genotyped using the wheat55K SNP array were used to identify SD QTL. A total of 18 QTL were detected, and three were major and one was stably expressed ( QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2 , QSd.sau-AM-7B , and QSd.sau-2SY-2D ). They can explain up to 23.14, 19.97, 12.00, and 9.44% of phenotypic variation, respectively. QTL \u00d7 environment and epistatic interactions for SD were further analyzed. In addition, pyramiding analysis further revealed that there were additive effects between QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 in 2SY, and QSd.sau-AM-5A.2 and QSd.sau-AM-7B in AM. Pearson\u2019s correlation between SD and other agronomic traits, and effects of major or stable QTL on yield related traits indicated SD significantly impacted spike length (SL), spikelet number per spike (SNS) and kernel length (KL). Several genes related to spike development within the physical intervals of major or stable QTL were predicted and discussed. Collectively, our research identified QTL with potential applications for modern wheat breeding and broadening the genetic basis of SD. Introduction As one of the most important food crops in the world, the yield of common wheat ( Triticum aestivum L.) should be increased to meet the growing demand for food for human beings ( Zhou et al., 2017 ; Xu et al., 2018 ). The spike is an important part of the wheat plant. Cultivating wheat varieties with longer spike length (SL) and higher spike density (SD) could increase yield ( Faris et al., 2014 ; Li et al., 2016 ). Thus, as a spike trait controlled by genes and influenced by the environment ( Ma et al., 2007 ), identification of quantitative trait loci (QTL) associated with SD has importantly theoretical value for breeding high-yield wheat varieties. Q , Compactum ( C ), and Sphaerococcum ( S1 ) are three well-known genes related to spike development in common wheat ( Fellers et al., 2003 ). The Q gene, located on the long arm of chromosome 5A, not only plays a role in spike morphogenesis, but also has pleiotropic effects on seed threshability, spike emergence time, and plant height (PH) ( Faris and Gill, 2002 ; Fellers et al., 2003 ; Simons et al., 2006 ; Xu et al., 2018 ). The C gene, located on chromosomes 2D near the centromere, is involved in regulating SD, grain shape, and grain number per spike ( Johnson et al., 2008 ). The S1 gene on chromosome 3D defines grain shape and SD in wheat ( Prabhakararao, 1977 ). However, C or S genes do not exist in tetraploid cultivars or varieties since they do not possess D-genome chromosomes. Thus, variation in spike morphology of tetraploid wheat may be caused by genes other than Q , C , or S or by alleles of these three genes on homologous chromosomes ( Faris et al., 2014 ; Zhou et al., 2017 ). Therefore, it is necessary to excavate more QTL or genes associated with SD in tetraploid wheat. Previous studies have reported that dwarf genes were involved in the regulation of wheat spike development. For example, Rht-9 "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Spike density (SD) is an agronomically important character in wheat. In addition, an optimized spike structure is a key basis for high yields. Identification of quantitative trait loci (QTL) for SD has provided a genetic basis for constructing ideal spike morphologies in wheat. In this study, two recombinant inbred line (RIL) populations (tetraploid RIL AM and hexaploid RIL 20828/SY95-71 (2SY)) previously genotyped using the wheat55K SNP array were used to identify SD QTL. A total of 18 QTL were detected, and three were major and one was stably expressed ( QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2 , QSd.sau-AM-7B , and QSd.sau-2SY-2D ). They can explain up to 23.14, 19.97, 12.00, and 9.44% of phenotypic variation, respectively. QTL \u00d7 environment and epistatic interactions for SD were further analyzed. In addition, pyramiding analysis further revealed that there were additive effects between QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 in 2SY, and QSd.sau-AM-5A.2 and QSd.sau-AM-7B in AM. Pearson\u2019s correlation between SD and other agronomic traits, and effects of major or stable QTL on yield related traits indicated SD significantly impacted spike length (SL), spikelet number per spike (SNS) and kernel length (KL). Several genes related to spike development within the physical intervals of major or stable QTL were predicted and discussed. Collectively, our research identified QTL with potential applications for modern wheat breeding and broadening the genetic basis of SD."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "As one of the most important food crops in the world, the yield of common wheat ( Triticum aestivum L.) should be increased to meet the growing demand for food for human beings ( Zhou et al., 2017 ; Xu et al., 2018 ). The spike is an important part of the wheat plant. Cultivating wheat varieties with longer spike length (SL) and higher spike density (SD) could increase yield ( Faris et al., 2014 ; Li et al., 2016 ). Thus, as a spike trait controlled by genes and influenced by the environment ( Ma et al., 2007 ), identification of quantitative trait loci (QTL) associated with SD has importantly theoretical value for breeding high-yield wheat varieties. Q , Compactum ( C ), and Sphaerococcum ( S1 ) are three well-known genes related to spike development in common wheat ( Fellers et al., 2003 ). The Q gene, located on the long arm of chromosome 5A, not only plays a role in spike morphogenesis, but also has pleiotropic effects on seed threshability, spike emergence time, and plant height (PH) ( Faris and Gill, 2002 ; Fellers et al., 2003 ; Simons et al., 2006 ; Xu et al., 2018 ). The C gene, located on chromosomes 2D near the centromere, is involved in regulating SD, grain shape, and grain number per spike ( Johnson et al., 2008 ). The S1 gene on chromosome 3D defines grain shape and SD in wheat ( Prabhakararao, 1977 ). However, C or S genes do not exist in tetraploid cultivars or varieties since they do not possess D-genome chromosomes. Thus, variation in spike morphology of tetraploid wheat may be caused by genes other than Q , C , or S or by alleles of these three genes on homologous chromosomes ( Faris et al., 2014 ; Zhou et al., 2017 ). Therefore, it is necessary to excavate more QTL or genes associated with SD in tetraploid wheat. Previous studies have reported that dwarf genes were involved in the regulation of wheat spike development. For example, Rht-9 and Rht-12 are gibberellin-sensitive genes, and they can affect heading date ( Ellis et al., 2005 ); Rht-8 was close to the marker Xgwm261 ( Korzun et al., 1998 ), while a QTL for SD was also reported to be tightly linked to this marker ( Heidari et al., 2011 ; Zhao et al., 2013 ), indicating that dwarf genes may have some intrinsic interaction with SD. Additionally, photoperiod ( Ppd ), vernalization ( Vrn ) as well as earliness per se ( Eps ) genes also have certain effects on spike development ( Alvarez et al., 2016 ; Guedira et al., 2016 ). In order to further excavate major loci associated with spike development among modern wheat varieties, scholars worldwide have identified a large number of QTL for spike traits ( Jantasuriyarat et al., 2004 ; Kumar et al., 2007 ; Ma et al., 2007 ; Cui et al., 2012 ; Zhai et al., 2016 ; Tao et al., 2019 ; Kuang et al., 2020 ; Li et al., 2021 ). For example, Ma et al. (2007) analyzed five spike traits in a recombinant inbred line (RIL) population and an immortalized F 2 population. They found QTL controlling SD were distributed on chromosomes 1A, 4A, 5A, 5B, 2D, and 7D, and single QTL was able to explain 7.9\u201336.3% of phenotypic variation. Based on the genetic map constructed using the wheat55K SNP array, Liu et al. (2019) detected 24 SD QTL. Three of them were major QTL being located on chromosomes 2D, 4B, and 5B, and stably expressed in various environments, indicating that high-density genetic mapping is a critical approach to QTL mapping. Although loci associated with spike development in common wheat have been extensively studied, there have been few studies on identification of loci in tetraploid wheat ( Triticum turgidum L.). There are still many loci that could be mined and utilized from such germplasm resources. In the present study, two RIL populations previously genotyped using the wheat55K SNP array were used to identify SD QTL in combination with the phenotypic data from multiple environments. The correlations between SD and other agronomic traits were analyzed. Major SD QTL were identified. Pyramiding analysis for these m"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Materials and Methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Plant Materials",
+      "text": "Three RIL populations of wheat were used in the study: hexaploid population 20828/SY95-71 (2SY, 128 F 7 RILs including parents) ( Liu et al., 2020 ), hexaploid population 20828/Chuanmai60 (2CM, 207 F 2:3 lines) ( Ma et al., 2019b ), and tetraploid population Ailanmai (AL)/LM001 (AM, 121 F 8 RILs including parents) ( Mo et al., 2021 ). The wheat line 20828 is highly resistant to stripe rust disease ( Ma et al., 2019b ), and has a short spike extension length ( Li et al., 2020 ), a large uppermost-internode diameter ( Liu et al., 2021 ), and multiple spikelets per spike ( Ding et al., 2021 ). SY95-71 is a stable line with a well-developed root system ( Zheng et al., 2019 ) and a relatively high number of tillers ( Liu et al., 2020 ). Chuanmai60 is a commercial cultivar. AL is a unique germplasm resource from China, and has characteristics of dwarf plants and multiple florets ( Liu et al., 1999 ). As a wild emmer wheat line, LM001 exhibits fewer kernels per spikelet, non-free threshability and long awns ( Mo et al., 2021 ). The 2SY and AM populations were used for QTL identification, and the 2CM population was used for verification of major QTL identified in the 2SY population."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Phenotypic Evaluation",
+      "text": "Three populations and their parental lines were evaluated at Wenjiang (WJ, 103\u00b0 51\u2032 E, 30\u00b0 43\u2032 N), Chongzhou (CZ, 103\u00b0 38\u2032 E, 30\u00b0 32\u2032 N), Ya\u2019an (YA, 103\u00b0 0\u2032 E, 29\u00b0 58\u2032 N) in China, and Khulna (KB, 89\u00b0 34\u2032 E, 22\u00b0 49\u2032 N) in Bangladesh during 2017\u20132021. The 2SY population was planted in seven environments, encoded as 2017WJ, 2018WJ, 2017CZ, 2018CZ, 2017YA, 2018YA, and 2018KB, respectively, based on the year and location. The AM population was planted in eight environments: 2017CZ, 2018CZ, 2019CZ, 2020CZ, 2021CZ, 2020WJ, 2021WJ, and 2020YA. The validation population 2CM was planted in 2018CZ. The RILs and their parents were planted in a single row for each environment. Each line consisted of 15 seeds evenly planted in a single 1.5-m row with 0.3 m between rows. Field management was conducted in accordance with the general practice of wheat production. In the study, three individual plants with consistent growth of each line were selected to measure agronomic traits in the 2SY population and five individual plants with consistent growth of each line were selected to measure agronomic traits in the AM population. The phenotypic data of agronomic traits used in this experiment have been measured in previous studies, including spikelet number per spike (SNS), SL, PH, anthesis date (AD), productive tiller number (PTN), thousand kernel weight (TKW), kernel length (KL), kernel number per spike (KNS), kernel number per spikelet (KNL), and kernel width (KW). The agronomic traits of the 2SY populations were measured by Liu et al. (2020) (PH, AD, TKW, PTN, SNS), Ding et al. (2021) (SNS), Li et al. (2020) (SL), and Qu et al. (2021) (KL, KW). The phenotype values for SNS in 2018KB were determined by Ding et al. (2021) , and the SNS data across remainder environments was determined by Liu et al. (2020) . The agronomic traits of the AM population were measured by Mo et al. (2021) (PH, AD, TKW, SL, SNS, PTN, KNL and KNS) and Zhou et al. (2021) (KL, KW). The phenotypic data of SL and SNS in the 2CM population were measured by Ma et al. (2019a) . Furthermore, SD was obtained by dividing SNS by SL. The detailed information of agronomic traits in different environments are presented in Supplementary Table 1 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Data Analysis",
+      "text": "The best linear unbiased prediction (BLUP) of agronomic traits and the broad-sense heritability ( H 2 ) of SD were calculated using SAS version 9.1 (SAS Institute, Cary, NC, United States). Based on phenotypic data and BLUP values, IBM SPSS 27 (IBM SPSS, Armonk, NY, United States) was used for Pearson\u2019s correlation analysis to assess the relationships between SD and agronomic traits. Significant differences were evaluated using Student\u2019s t -test. Origin 2018 1 was used to describe the frequency distribution for phenotypic data from the two populations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Quantitative Trait Loci Mapping",
+      "text": "Two genetic linkage maps constructed based on the wheat55K SNP array were used in the present study. The genetic map of the 2SY population covered a total genetic distance of 4,273.03 cM containing 2529 bin markers, and the mean interval between markers was 1.69 cM ( Liu et al., 2020 ). In the AM population, the genetic distance for linkage maps was 2411.8 cM containing 1150 bin markers, and the mean interval between markers was 2.10 cM ( Mo et al., 2021 ). Individual environment QTL detection was performed using the biparental populations (BIP) module with inclusive composite interval mapping (ICIM) in IciMaing4.1. To improve the reliability of QTL results, the step was set to 1 cM, the PIN value was 0.001, and the logarithm of odds (LOD) score threshold was set to 3. Then, the multi-environment trials (MET-ADD) model in IciMapping4.1 was used to analyze the interaction between QTL and environment (Step = 1 cM, PIN = 0.001, and LOD = 7), and the epistatic effects between QTL were analyzed by multi-environmental trials (MET-EPI) in IciMapping4.1. In this study, QTL identified in two or more environments were treated as stable, and those explained more than 10% of phenotypic variation explained (PVE) were considered major loci. QTL were named according to the Catalogue of Gene Symbols for Wheat ( McIntosh et al., 2013 ), where \u201csau\u201d represents \u201cSichuan Agricultural University\u201d, 2SY and AM represent population names."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Physical Intervals of the Quantitative Trait Loci and Comparison With Previously Reported Quantitative Trait Loci",
+      "text": "Sequences of flanking markers for a given QTL were blasted against the genomes of \u201cChinese spring\u201d (CS; v2.1) ( Zhu et al., 2021 ), wild emmer (Zavitan; v2.0) ( Zhu et al., 2019 ), and Aegilops tauschii (Aet; v4.0) ( Luo et al., 2017 ) to determine the corresponding physical intervals. QTL were determined to check if they were novel loci or not by comparing their physical locations with those of reported ones. Furthermore, candidate genes with functional annotations were obtained from the Triticeae Multi-omics Center 2 and UniProt 3 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Results",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Phenotype Analysis",
+      "text": "Significant differences between the parents of the 2SY and AM populations were observed in several environments ( Figure 1 ). The phenotypic values of 2SY and AM RIL populations and their corresponding parents were statistically analyzed under multiple environments and based on BLUP datasets ( Table 1 ). FIGURE 1 Spike morphology of 20828, SY95-71, and four selected lines (A) and AL, LM001 and four selected lines (B) (scale bar = 5 cm). TABLE 1 Population Environment Mean of female parent (20828 or Ailanmai) Mean of male parent (SY95-71 or LM001) Min\u2013Max Mean STD Skew Kurt H 2 2SY 2017WJ 1.71 ** 2.04 1.34\u20132.84 1.86 0.27 1.31 2.85 2017CZ 1.75 1.94 1.34\u20133.19 1.84 0.30 0.98 1.12 2017YA 2.06 2.24 1.58\u20133.35 2.19 0.35 1.19 3.10 2018WJ 2.05 * 2.26 1.48\u20133.33 2.10 0.33 0.87 0.84 2018CZ 2.13 2.30 1.60\u20133.25 2.17 0.32 0.96 1.55 2018YA 2.49 2.66 1.57\u20133.55 2.38 0.39 0.84 0.48 2018KB 2.08 ** 2.74 1.35\u20134.14 2.41 0.58 0.65 0.57 BLUP 1.95 2.30 1.70\u20132.80 2.14 0.21 0.82 0.90 0.67 AM 2017CZ 2.06 2.02 1.66\u20132.73 2.08 0.20 0.62 0.87 2018CZ 2.40 2.44 1.88\u20133.03 2.29 0.21 0.57 0.95 2019CZ 2.30 2.09 1.65\u20132.67 2.09 0.20 0.58 0.37 2020CZ 2.61 2.65 2.04\u20133.48 2.50 0.25 0.79 1.69 2020WJ 2.55 * 2.06 1.72\u20133.31 2.27 0.25 0.63 1.23 2020YA 2.41 2.41 1.84\u20133.85 2.70 0.38 0.56 0.57 2021CZ 2.30 2.12 1.90\u20133.13 2.30 0.21 0.84 1.21 2021WJ 2.29 * 2.09 1.68\u20132.71 2.20 0.20 0.54 0.06 BLUP 2.01 2.87 2.01\u20132.87 2.31 0.15 0.64 1.03 0.69 Phenotypic evaluation of spike density (SD) for the parents and two recombinant inbred lines (RIL) populations in different environments. 2SY, 20828/SY95-71; AM, AL/LM001; WJ, Wenjiang; CZ, Chongzhou; YA, Ya\u2019an; KB, Khulna, in Bangladesh; BLUP, best linear unbiased prediction environments; STD, standard deviation; Skew, skewness; Kurt, kurtosis; H 2 , the broad-sense heritability. * Significance level at P < 0.05; ** Significance level at P < 0.01. In the 2SY RILs, variance analysis results showed that the SD of SY95-71 was significantly higher than that of 20828 in 2017WJ, 2018WJ, and 2018KB ( P < 0.05), SD showed prominent variation, varying between 1.34 and 4.14. AL SD was significantly higher than LM001 in 2020WJ and 2021WJ environments ( P < 0.05), while there was no significant difference in other environments. And a SD range from 1.65 to 3.85 was observed in AM RILs. The frequency distribution presented an approximately normal distribution and was bidirectionally transgressive in two RIL populations ( Figure 2 ). The H 2 in the 2SY and AM populations were 0.67 and 0.69, respectively. Moreover, significant correlations for SD among different environments in the 2SY and AM populations were detected ( Supplementary Table 2 ). The SD phenotypes in the 2SY population exhibited significant correlations in all environments except 2018KB (0.48 \u2264 r \u2264 0.79). The values of SD in the AM population were significantly correlated among all environments (0.24 \u2264 r \u2264 0.61). FIGURE 2 The phenotype and frequency distribution of spike density (SD) in the 2SY population (A) and AM population (B) under different environments."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Correlations Between Spike Density and Other Agronomic Traits",
+      "text": "Correlation analysis between SD and other agronomic traits was conducted based on BLUP values ( Table 2 ). In the 2SY and AM populations, SD was negatively correlated with KL and SL, but positively correlated with SNS ( P < 0.01). Moreover, TKW was significantly and negatively correlated with SD in the 2SY population ( P < 0.01). TABLE 2 Traits PH AD SL SNS TKW PTN KL KW 2SY-SD \u22120.07 \u22120.04 \u22120.60 ** 0.43 ** \u22120.35 ** \u22120.03 \u22120.41 ** \u22120.12 AM-SD \u22120.02 0.13 \u22120.45 ** 0.32 ** 0.15 0.03 \u22120.24 ** \u22120.16 Correlation analysis between SD and other agronomic traits in two recombinant inbred lines (RIL) populations. 2SY, 20828/SY95-71; AM, AL/LM001; SD spike density; PH, plant height; AD, anthesis date; SL, spike length; SNS, spikelet number per spike; TKW, thousand kernel weight; PTN, productive tiller number; KL, kernels length; KW, kernels width. ** Significance level at P < 0.01."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Quantitative Trait Loci Mapping of Spike Density and Prediction of Candidate Genes",
+      "text": "In total, 18 QTL for SD were identified in the two RIL populations by single-environment analysis, and they were distributed on chromosomes 1B, 2A, 2D, 3A, 3B, 4A, 4B, 5A, 5B, 6D, 7A, and 7B. A single QTL was able to explain 4.16\u201323.14% of the phenotypic variation ( Table 3 ). Three QTL were regarded as major (including QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2 , and QSd.sau-AM-7B ) and one can be stably expressed in multiple environments ( QSd.sau-2SY-2D ). Due to the stability of the QSd.sau-2SY-2D , it was further analyzed together with the major ones in the present study. In the 2SY population, QSd.sau-2SY-2D was stably expressed in three environments and the BLUP dataset, and it was mapped to the interval AX-111093303\u223cAX-109338052 , and explained 4.45\u20139.44% of the phenotypic variance. The positive allele at this locus was from SY95-71. The stably expressed locus QSd.sau-2SY-2D was physically located at 602.76\u2013610.04 Mb on 2D of the CS genome and 598.14\u2013604.92 Mb on 2D of the A. tauschii genome, respectively ( Figure 3A ). According to the flanking markers of QSd.sau-2SY-2D , 2SY RILs could be divided into two groups (with or without the positive allele of QSd.sau-2SY-2D ). The phenotypic values for SD carrying positive alleles were significantly higher than those with negative ones ( P < 0.05) ( Figure 4A ). TABLE 3 Populations QTL Environments Position (cM) Left marker Right marker LOD PVE (%) Add 2SY QSd.sau-2SY-2A 2018WJ 41.97\u201343.47 AX-109397555 AX-111595047 3.11 9.16 0.11 QSd.sau-2SY-2D 2017CZ 71.71\u201372.68 AX-111093303 AX-109338052 3.21 9.14 \u20130.09 2018CZ 71.71\u201372.68 AX-111093303 AX-109338052 4.81 4.45 \u20130.10 2018YA 71.71\u201372.68 AX-111093303 AX-109338052 3.78 9.44 \u20130.13 BLUP 71.71\u201372.68 AX-111093303 AX-109338052 3.36 7.33 \u20130.06 QSd.sau-2SY-4A 2018CZ 81.51\u201382.33 AX-111045592 AX-108734258 12.63 14.19 \u20130.17 QSd.sau-2SY-4B 2017WJ 39.27\u201344.89 AX-110033929 AX-108935259 3.50 7.79 \u20130.08 QSd.sau-2SY-5A 2018CZ 56.91\u201357.64 AX-109362376 AX-108878364 4.38 4.16 \u20130.09 QSd.sau-2SY-6D 2018CZ 169.59\u2013170.43 AX-110412658 AX-109195537 5.95 5.90 \u20130.11 QSd.sau-2SY-7A.1 2017CZ 77.29\u201386.69 AX-111511322 AX-110483331 4.58 14.93 0.11 QSd.sau-2SY-7A.2 2017WJ 101.73\u2013103.88 AX-110518554 AX-110442528 5.32 12.51 0.10 2017YA 103.88\u2013106.49 AX-110442528 AX-110094527 8.09 21.10 0.18 2018WJ 101.73\u2013103.88 AX-110518554 AX-110442528 7.58 16.69 0.15 2018CZ 101.73\u2013103.88 AX-110518554 AX-110442528 10.12 10.56 0.15 2018YA 101.73\u2013103.88 AX-110518554 AX-110442528 8.30 23.14 0.21 BLUP 100.63\u2013101.73 AX-108735843 AX-110518554 9.60 23.44 0.11 QSd.sau-2SY-7A.3 2018WJ 202.86\u2013204.53 AX-109947373 AX-111044435 3.66 7.44 \u20130.10 AM QSd.sau-AM-3A 2020CZ 51.33\u201353.05 AX-109316902 AX-110445703 3.28 7.29 0.08 QSd.sau-AM-5A.1 2019CZ 156.06\u2013162.34 AX-110021952 AX-110503841 4.81 16.77 \u20130.08 QSd.sau-AM-5A.2 2018CZ 165.75\u2013166.60 AX-110035703 AX-111076855 6.25 19.97 \u20130.09 2020YA 165.75\u2013166.60 AX-110035703 AX-111076855 3.02 12.29 \u20130.13 BLUP 165.75\u2013166.60 AX-110035703 AX-111076855 48.58 15.11 \u20130.29 QSd.sau-AM-7A.1 2021WJ 76.99\u201385.22 AX-111699124 AX-108740541 3.16 9.89 0.06 QSd.sau-AM-7A.2 2020CZ 162.62\u2013107.05 AX-109860028 AX-109624261 3.82 8.59 0.08 QSd.sau-AM-1B 2018CZ 24.81\u201327.15 AX-110430183 AX-110539078 3.60 10.86 0.07 QSd.sau-AM-3B 2021CZ 48.34\u201349.69 AX-109393346 AX-110548993 4.51 13.47 0.08 QSd.sau-AM-5B 2021WJ 40.88\u201341.31 AX-109330727 AX-111107210 6.14 20.23 0.09 QSd.sau-AM-7B 2020CZ 154.97\u2013157.71 AX-110936825 AX-109955661 4.57 11.06 \u20130.10 2021CZ 154.97\u2013157.71 AX-110936825 AX-109955661 4.07 12.00 \u20130.07 Quantitative trait loci (QTL) for spikelet density (SD) in two recombinant inbred lines (RIL) populations under different environments. PVE, phenotype variance explained; LOD, logarithm of odds; Add, additive effect of a QTL; BLUP, phenotype values based on the best linear unbiased prediction. FIGURE 3 The maps of major QTL. (A) QSd.sau-2SY-2D; (B) QSd.sau-2SY-7A.2; (C) QSd.sau-AM-5A; (D) QSd.sau-AM-7B. FIGURE 4 The effect of major QTL QSd.sau-2SY-2D (A) , QSd.sau-2SY-7A.2 (B) , QSd.sau-AM-5A.2 "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Quantitative Trait Loci \u00d7 Environment and Epistatic Interactions for Spike Density",
+      "text": "There were 5 and 11 QTL for SD identified by QTL and environment interaction analysis in the two RIL populations ( Supplementary Table 4 ), respectively. Four of them ( QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2, QSd.sau-AM-7B , and QSd.sau-2SY-2D ) were identical to the three major and one stable QTL which were detected by single-environment analysis, suggesting they are stably expressed loci. In addition, ten pairs of QTL were detected by epistatic interaction analysis in two populations. However, all of them were identified in only a single environment and there were no interactions between QTL identified by single-environment analysis ( Supplementary Table 5 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Quantitative Trait Loci Validation",
+      "text": "As QSd.sau-2SY-7A.2 identified in the present study and QSns.sau-2SY-7A for SNS reported by Ding et al. (2021) correspond to the same interval, they may be regulated by the same locus. The SNS QTL has been verified in the 2CM population. Therefore, the phenotypic value of SD was calculated and verified in the present study based on the SNS and SL data from the 2CM population. Student\u2019s t -test was performed to compare phenotypes of lines homozygous for the alleles from 20828 with those from CM60. There were significant differences in phenotypic values between the two genotypes ( P < 0.05) ( Figure 5 ). The SD values of the lines homozygous for the allele from 20828 were obviously higher than those without the corresponding alleles. These results indicated that QSd.sau-2SY-7A.2 should be a reliable and major SD locus. FIGURE 5 Effects of QSd.sau-2SY-7A.2 in 20828 \u00d7 CM60 (2CM) population. * Significance level at P < 0.05."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Effects of Major Quantitative Trait Loci on Spike Density in the 2SY and AM Populations",
+      "text": "The interactions between QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 and between QSd.sau-AM-5A.2 and QSd.sau-AM-7B were further analyzed, respectively. Based on their flanking markers, the two populations were divided into four groups. In the 2SY population, compared to lines without any positive alleles of QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , the SD of lines containing both the positive alleles of these two QTL was significantly increased by 20.53%. When the positive allele from QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 was expressed alone, SD increased by 1.63 and 8.39%, respectively ( Figure 6A ). In the AM population, QSd.sau-AM-5A.2 and QSd.sau-AM-7B have a strong association with SD. Lines with a combination of positive alleles from QSd.sau-AM-5A.2 and QSd.sau-AM-7B significantly increased SD by 7.97%, compared to those without any of the positive alleles. However, SD can only increase by 3.88 or 1.81% when the positive allele from QSd.sau-AM-5A.2 or QSd.sau-AM-7B was present alone, respectively ( Figure 6B ). FIGURE 6 The aggregation effect of the major QTL for spike density (SD) in two RIL populations. (A) Effect of QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 for SD in the 2SY population; (B) Effect of QSd.sau-AM-5A.2 and QSd.sau-AM-7B for SD in the AM population; + and \u2212 represent lines with and without the positive alleles of the corresponding QTL based on the flanking marker of the corresponding QTL, respectively; **Significant at P < 0.01, *Significant at P < 0.05."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Effects of Major and Stable Quantitative Trait Loci on Yield-Related Traits",
+      "text": "We further performed analysis of the effects of major and stable QTL for SD on other yield-related traits. In the 2SY population, as shown in Figure 7A , significant differences for SL, SNS, and AD existed among the different lines carrying various alleles. Specifically, SL of 22 lines possessing a combination of positive alleles from QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 were significantly lower ( P < 0.01, 10.6%) than those carrying the positive allele from QSd.sau-2SY-7A.2 only and those without QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 . Moreover, highly significant difference ( P < 0.01) was detected between the lines carrying increased alleles from QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 . Compared with those without positive alleles from QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , lines possessing that from QSd.sau-2SY-2D extremely and significantly ( P < 0.01) reduced SL by 6.3%. For SNS, the phenotypic values of lines with a combination of QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 increased alleles were extremely and significantly higher than those with QSd.sau-2SY-2D increased allele or those without QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , respectively. SNS of 29 lines possessing increased alleles from QSd.sau-2SY-2D was extremely and significantly ( P < 0.01, 9.6%) lower than that of 35 lines from QSd.sau-2SY-7A.2 . Additionally, compared with those without increased alleles from QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , lines possessing alleles from QSd.sau-2SY-7A.2 extremely and significantly ( P < 0.01) increased SNS by 8.2%. In terms of AD, significant differences in phenotypic values were found only in lines carrying increased alleles from QSd.sau-2SY-7A.2 and those none carrying QSd.sau-2SY-7A.2 or QSd.sau-2SY-2D increased alleles. FIGURE 7 The effects of major quantitative trait loci (QTL) on yield-related traits in the 20828/SY95-71 (2SY) population (A) and AL /LM001 (AM) population (B) . SL, spike length; SNS, spikelet number per spike; TKW, thousand kernel weight; KL, kernels length; KW, kernels width; AD, anthesis date; + and \u2212 represent lines with and without the positive alleles of the target QTL based on the flanking markers the corresponding QTL, respectively. *Significance level at P < 0.05; ** Significance level at P < 0.01. In the AM population, for KL, compared with the lines with increased allele from QSd.sau-AM-7B , those from a combination of QSd.sau-AM-5A.2 and QSd.sau-AM-7B extremely and significantly ( P < 0.01) increased KL up to 12% ( Figure 7B ). Furthermore, the phenotype value of lines harboring QSd.sau-AM-5A.2 increased alleles was significantly higher than those containing QSd.sau-AM-7B with difference being up to 13% ( P < 0.01). The KL of 31 lines with positive allele from QSd.sau-AM-7B was significantly higher than those possessing the negative one. For TKW, compared with those without increased alleles from QSd.sau-AM-5A.2 or QSd.sau-AM-7B , lines carrying alleles from QSd.sau-AM-5A.2 extremely and significantly increased ( P < 0.01, 8.2%). In addition to the significant differences described above, no differences were detected among lines with or without different positive alleles of the target QTL based on the flanking markers of the corresponding QTL. The above results indicated that QTL controlling SD significantly impacted SL, SNS, KL, AD, and TGW."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "Discussion",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "The Possibility of Detection of Quantitative Trait Loci for Spike Density in the Mapping Populations Where No Significant Differences Are Present Between Their Parents",
+      "text": "Based on the phenotypic analysis for 2SY and AM populations, there were no significant differences for SD between parents in multiple environments. Similarly, SNS between the parental lines exhibited no difference as well in AM population ( Mo et al., 2021 ). However, we observed an approximately normal distribution and transgressive segregation in the two RIL populations, which conforms to the characteristics of quantitative traits. Above all, 18 QTL for SD were identified in this study and some of these major or stably expressed QTL have been proved to be reliable given their co-localization with other loci previously reported. In fact, this phenomenon exists in many QTL mapping studies ( Zhou et al., 2017 ; Liu et al., 2019 ). Previous studies have shown that the phenotype of a trait is usually established by an interaction of several genes ( Liu et al., 2019 ), such as reciprocal inhibition between genes causing the lack of a corresponding phenotype for these genes. However, through hybridization between two given genotypes, genetic recombination makes it possible for an offspring to carry a locus independent of other inhibited loci, and thus the corresponding phenotype can be expressed. Therefore, even if the parental phenotypes are not significantly different, it is possible to identify major QTL for a given traits in a RIL population."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Major Quantitative Trait Loci for Spike Density",
+      "text": "In this study, four QTL QSd.sau-2SY-2D.3 , QSd.sau-2SY-7A , QSd.sau-AM-5A.2 , and QSd.sau-AM-7B were identified on chromosomes 2D, 5A, 7A, and 7B, and they showed high PVE and were expressed in multiple environments. According to genomes of CS, wild emmer, and A. tauschii , these QTL were anchored in the corresponding reference genome intervals, respectively ( Figure 3 ). Many QTL controlling SD have been identified by genetic analysis. To further determine whether these QTL in this study are novel loci, we obtained the physical locations of previously reported QTL and genes associated with SD ( Supplementary Table 6 ). In the CS genome, the QSd.sicau-2D.3 identified by Liu et al. (2019) overlapped with QSd.sau-2SY-2D between 605.12 and 609.88 Mb on chromosome 2DL ( Figure 3A ); qSc-7A ( Fan et al., 2019 ), explaining 4.87\u201317.22% of variation in SD, was located between 679.70 and 679.92 Mb, and QSd.sau-2SY-7A.2 was mapped to between 678.47 and 682.29 Mb ( Figure 3B ), indicating that they may be allelic variants. In addition, comparing with the physical maps of QTL for other yield-related traits such as SNS ( Ding et al., 2021 ), KL, KW, kernel thickness (KT), TKW, kernel length\u2013width ratio (LWR), and kernel size (KS) ( Qu et al., 2021 ), none of the physical regions of QTL for SD in the present study overlapped with these yield-related loci. QSd.sau-AM-5A.2 and QSd.sau-AM-7B were identified in the AM population. Specifically, QSd.sau-AM-5A.2 , located between 618.87 and 621.62 Mb ( Figure 3C ), was determined to be distinct from Q (651.82 Mb) and Vrn-A1 (589.27 Mb). There were no overlapping regions with other QTL or genes for SD reported on 5AL comparing with the previous studies ( Supplementary Table 6 ). We also performed QTL analysis for KNS and KNL in the AM population ( Supplementary Table 7 ), and results indicated that two minor QTL QKns.sau-AM-5A and QKnl.sau-AM-5A were both located in the physical interval 619.18\u2013622.72 and 613.60\u2013617.54 Mb on wild emmer and CS genome, respectively. These two loci were close to the interval of QSd.sau-AM-5A.2 , suggesting they may be controlled by a pleiotropic locus. QSd.sau-AM-7B , located between 684.82 and 687.74 Mb ( Figure 3D ), was determined to be close to Sd.sicau-7B.1 (688.53\u2013689.86 Mb) ( Liu et al., 2019 ), suggesting they may be allelic. Thus, comparisons showed that QSd.sau-AM-5A.2 may be a novel and major QTL controlling SD."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Comparison of QSd.sau-AM-5A.2 to Other Loci for Spike Length and Spikelet Number Per Spike",
+      "text": "Spike density and spike length as well as SNS are tightly correlated traits and many QTL for SNS and SL also have pleiotropic effects on SD, and co-location of QTL related to these three traits has been reported in many studies. For example, QTL conferring SNS, SL, KNS, and TKW were co-located at Xgwm126 \u2013 Xgwm291 (672.92\u2013700.49 Mb; Wang et al., 2011 ); QHd.sau-5A , QAn.sau-5A , QPht.sau-5A , QSl.sau-5A1 , and QSd.sau-5A1 were co-located at wPt-9094\u2013wPt-9513 (435.00\u2013536.98 Mb; Luo et al., 2016 ). Compared with kernel size-related QTL in the AM population, no QTL for such as KL and KW were detected on chromosome 5A ( Zhou et al., 2021 ). Additionally, QSd.sau-AM-5A.2 (624.11\u2013626.14 Mb on wild emmer genome) in the present study and QSns.sau-AM-5A (557.72\u2013571.41 Mb; Mo et al., 2021 ) are not co-located in the same region. A great deal of QTL or genes related to yield traits existed on chromosome 5A. To identify whether QSd.sau-AM-5A.2 is co-located with QTL or genes for SNS or SL reported previously, based on the comparison of QTL for SNS on chromosome 5A with previous studies ( Mo et al., 2021 ), we reviewed the recently published articles related to SL and SNS ( Supplementary Table 8 ). Results showed that many SL or SNS related loci located on chromosome 5AL, but most of the reported QTL or genes were at least tens of Mb away from QSd.sau-AM-5A.2 detected in this study, such as QSl.cib-5A (516.60\u2013521.27 Mb; Ji et al., 2021 ), QTgw.cau.5A_140-142 (698.00\u2013705.40 Mb) and QSsi.cau.5A_91 (586.61\u2013589.22 Mb; Wang et al., 2021 ), QSl.wa-5AL.e1 / QSl.wa-5AL.e2 / QSns. wa-5AL.e1 / QSns.wa-5AL.e2 / QSns.wa-5AL.e3 / QGns.wa-5AL.e2 / QTgw.wa-5AL.e2 / QTgw.wa-5AL.e3 (672.92\u2013700.49 Mb; Wang et al., 2011 ). However, Cui et al. (2012) reported that a major locus QSl.WY.5A.1 for SL was marked with Xcfa2163.2 and Xcwm216 , and this locus was tightly closed to QSd.sau-AM-5A.2 in the physical interval ( Supplementary Table 8 ), indicating pleiotropic effects might exist between them."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Pyramiding Analysis of Major Quantitative Trait Loci for Spike Density",
+      "text": "Previous studies have found that integrating multiple favorable QTL into the same genetic background can significantly optimize plant traits ( Fan et al., 2019 ; Li et al., 2021 ). This pyramiding effect of multiple loci is an effective means for the improvement of modern wheat varieties. In the present study, three major QTL and one stable QTL were detected in the two mapping populations. The pyramiding effect analysis was used to further verify the role of those QTL and analyze the relationships among them. The lines carrying a combination of positive alleles of two given QTL showed significantly greater SD than those from other lines. This indicated an additive effect between these two QTL increasing SD. Through the accumulation of elite genes, an improved SD phenotype can be constructed."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Phenotypic Correlations Between Spike Density and Other Agronomically Important Traits",
+      "text": "Spike density, obtained by dividing SNS by SL, is an important factor in cultivating high-yield wheat. Therefore, theoretically, SD should be positively correlated with SNS and negatively correlated with SL. In the present study, the Pearson\u2019s correlation analysis showed that SD was indeed negatively correlated with KL and SL and positively correlated with SNS. Moreover, the correlation between SD with TKW was positive in the 2SY population. Most of the loci controlling spike traits of wheat were observed to be closely linked in previous studies. Major loci for SNS and SD in wheat identified by Fan et al. (2019) were clustered within the same confidence interval on chromosome 7AL. Similarly, Zhai et al. (2016) detected multiple spike QTL in two winter variety populations, among which QTL associated with SD and SL were included in the two genomic regions on chromosomes 2D and 5A, respectively. These studies revealed the potential for pleiotropism of corresponding traits and also revealed the genetic correlations among SD, SL, and SNS. In addition, higher SD may result in shorter kernels and smaller TKW, being consistent with the study reported by Qu et al. (2021) . Thus, it is essential to determine relationships among different characters to accelerate breeding process."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Analysis of Candidate Genes",
+      "text": "Candidate genes were analyzed in the regions with major and stable QTL. Further analysis indicated that some genes are related to the regulation of plant growth, and they may affect the formation of the spike in wheat. For example, TraesCS2D03G1128600 encodes an AP2-like transcription factor that plays a crucial role in flower development. Previous studies have reported that AP2 was involved in growth and development of the floral organs and seed development ( Kunst et al., 1989 ; Schultz and Haughn, 1993 ; Okamuro et al., 1997 ). In the physical interval of QSd.sau-2SY-7A.2 , we found that TraesCS7A03G1166400 encoding the UNUSUAL FLORAL ORGANS (UFO) protein was involved in floral meristem development and was a key regulatory factor in floral bud differentiation ( Levin and Meyerowitz, 1995 ). Traescs7A03G1173200 encodes a receptor-like protein kinase that regulates the expression of floral meristem formation factors and promotes cell proliferation to control flower development and organ growth in Arabidopsis thaliana ( Shpak et al., 2004 ). The candidate gene TRIDC5AG062530 on chromosome 5A controls flowering time by encoding a FRIGIDA-like protein, leading to a late flowering phenotype in plants ( Yang et al., 2012 ). TRIDC7BG064700 , a candidate gene for QSd.sau-AM-7B , encodes a DA2 protein. Xia et al. (2013) found that DA2 can regulate seed size by restricting cell proliferation in the integument. Furthermore, it is noteworthy that five genes identified in this study ( TraesCS7A03G1167800, TraesCS7A03G1169000, TraesCS7A03G1169300, TRIDC5AG062440 , and TRIDC5AG062450 ) encode cortical cell-delineating proteins. Previous research has revealed that cortical cell-delineating proteins affect plant morphological development by regulating cell division and expansion ( Fu et al., 2009 ). Therefore, these candidate genes may be of vital significance for understanding the genetic mechanism of spike development in wheat. They may also provide clues for further fine mapping of major QTL."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "In this study, three major QTL and a stable one, located on chromosomes 5A, 7A, 7B, and 2D, were identified in two independent wheat RIL populations. Based on genetic analysis, QSd.sau-2SY-2D, QSd.sau-2SY-7A.2 , and QSd.sau-AM-7B were found to overlap with reported SD loci. However, QSd.sau-AM-5A.2 identified in the tetraploid wheat RIL population may be a new QTL. Furthermore, the correlations between SD and other agronomic traits, and the candidate genes related to spike development in the corresponding loci were analyzed and discussed, laying a foundation for subsequent fine mapping."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Publisher\u2019s Note",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "Statements",
+      "text": "Data availability statement The original contributions presented in the study are included in the article/ Supplementary Material , further inquiries can be directed to the corresponding authors. Author contributions JY and HL performed the entire study and drafted this manuscript. SW did phenotype measurement and data analysis. WL and LG did field work and data analysis. QJ, GC, PQ, and YP helped with data collection and analysis. HT, YM, and MD helped with field work and phenotype measurement. LT, AH, YW, and YZ discussed results. XL guided the study and revised the manuscript. JM designed the experiments, guided the entire study, participated in data analysis, wrote, and extensively revised this manuscript. All authors participated in the research and approved the final manuscript. Funding This work was supported by the National Natural Science Foundation of China (31971937 and 31970243), the Applied Basic Research Programs of Science and Technology Department of Sichuan Province (2021YJ0503), and the International Science and Technology Cooperation and Exchanges Program of Science and Technology Department of Sichuan Province (22GJHZ0244 and 2021YFH0083). The funders did not participate in the study design, data analysis, or preparation of the manuscript. Acknowledgments We thank the referees for critical reading and revising this manuscript. We also thank MogoEdit company for language editing. Conflict of interest The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. Supplementary material The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2021.796397/full#supplementary-material Footnotes 1. ^ https://www.originlab.com/ 2. ^ http://202.194.139.32/ 3. ^ http://www.uniprot.org/ References 1 Alvarez M. A. Tranquilli G. Lewis S. Kippes N. Dubcovsky J. ( 2016 ). Genetic and physical mapping of the earliness per se locus Eps-A m 1 in Triticum monococcum identifies EARLY FLOWERING 3 (ELF3) as a candidate gene. Funct. Integr. Genomics 16 365 \u2013 382 . 10.1007/s10142-016-0490-3 Pubmed Abstract CrossRef Google Scholar 2 Cui F. Ding A. Li J. Zhao C. Wang L. Wang X. et al ( 2012 ). QTL detection of seven spike-related traits and their genetic correlations in wheat using two related RIL populations. Euphytica 186 177 \u2013 192 . 10.1007/s10681-011-0550-7 CrossRef Google Scholar 3 Ding P. Mo Z. Tang H. Mu Y. Deng M. Jiang Q. et al ( 2021 ). A major and stable QTL for wheat spikelet number per spike was validated in different genetic backgrounds. J. Integr. Agricult. 20 2 \u2013 13 . 10.1016/S2095-3119(20)63602-4 CrossRef Google Scholar 4 Ellis M. H. Rebetzke G. J. Azanza F. Richards R. A. Spielmeyer W. ( 2005 ). Molecular mapping of gibberellin-responsive dwarfing genes in bread wheat. Theor. Appl. Genet. 111 423 \u2013 430 . 10.1007/s00122-005-2008-6 Pubmed Abstract CrossRef Google Scholar 5 Fan X. Cui F. Ji J. Zhang W. Zhao X. Liu J. et al ( 2019 ). Dissection of Pleiotropic QTL Regions Controlling Wheat Spike Characteristics Under Different Nitrogen Treatments Using Traditional and Conditional QTL Mapping. Front. Plant Sci. 10 1 \u2013 13 . 10.3389/fpls.2019.00187 Pubmed Abstract CrossRef Google Scholar 6 Faris J. D. Gill B. S. ( 2002 ). Genomic targeting and high-resolution mapping of the domestication gene Q in wheat. Genome 45 706 \u2013 718 . 10.1139/g02-036 Pubmed Abstract CrossRef Google Scholar 7 Faris J. D. Zhang Z. Garvin D. F. Xu S. S. ( 2014 ). Molecular and comparative mapping of genes governing spike compactness from wild emmer wheat. Mole. Genet. Genom. 289 641 \u2013 651 . 10.1007/s00438-014-0836-2 Pubmed Abstract CrossRef Google Scholar 8 Fellers J. P. Gill B. S. Fellers J. P. Brooks S. A. Gill B. S. Faris J. D. ( 2003 ). A bacterial artificial chromosome contig spanning the major domestication locus Q in wheat and identification of a candidate gene. Genetics 164 3"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Data availability statement",
+      "text": "The original contributions presented in the study are included in the article/ Supplementary Material , further inquiries can be directed to the corresponding authors."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Author contributions",
+      "text": "JY and HL performed the entire study and drafted this manuscript. SW did phenotype measurement and data analysis. WL and LG did field work and data analysis. QJ, GC, PQ, and YP helped with data collection and analysis. HT, YM, and MD helped with field work and phenotype measurement. LT, AH, YW, and YZ discussed results. XL guided the study and revised the manuscript. JM designed the experiments, guided the entire study, participated in data analysis, wrote, and extensively revised this manuscript. All authors participated in the research and approved the final manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Funding",
+      "text": "This work was supported by the National Natural Science Foundation of China (31971937 and 31970243), the Applied Basic Research Programs of Science and Technology Department of Sichuan Province (2021YJ0503), and the International Science and Technology Cooperation and Exchanges Program of Science and Technology Department of Sichuan Province (22GJHZ0244 and 2021YFH0083). The funders did not participate in the study design, data analysis, or preparation of the manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Acknowledgments",
+      "text": "We thank the referees for critical reading and revising this manuscript. We also thank MogoEdit company for language editing."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Supplementary material",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2021.796397/full#supplementary-material"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Footnotes",
+      "text": "1. ^ https://www.originlab.com/ 2. ^ http://202.194.139.32/ 3. ^ http://www.uniprot.org/"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "References",
+      "text": "1 Alvarez M. A. Tranquilli G. Lewis S. Kippes N. Dubcovsky J. ( 2016 ). Genetic and physical mapping of the earliness per se locus Eps-A m 1 in Triticum monococcum identifies EARLY FLOWERING 3 (ELF3) as a candidate gene. Funct. Integr. Genomics 16 365 \u2013 382 . 10.1007/s10142-016-0490-3 Pubmed Abstract CrossRef Google Scholar 2 Cui F. Ding A. Li J. Zhao C. Wang L. Wang X. et al ( 2012 ). QTL detection of seven spike-related traits and their genetic correlations in wheat using two related RIL populations. Euphytica 186 177 \u2013 192 . 10.1007/s10681-011-0550-7 CrossRef Google Scholar 3 Ding P. Mo Z. Tang H. Mu Y. Deng M. Jiang Q. et al ( 2021 ). A major and stable QTL for wheat spikelet number per spike was validated in different genetic backgrounds. J. Integr. Agricult. 20 2 \u2013 13 . 10.1016/S2095-3119(20)63602-4 CrossRef Google Scholar 4 Ellis M. H. Rebetzke G. J. Azanza F. Richards R. A. Spielmeyer W. ( 2005 ). Molecular mapping of gibberellin-responsive dwarfing genes in bread wheat. Theor. Appl. Genet. 111 423 \u2013 430 . 10.1007/s00122-005-2008-6 Pubmed Abstract CrossRef Google Scholar 5 Fan X. Cui F. Ji J. Zhang W. Zhao X. Liu J. et al ( 2019 ). Dissection of Pleiotropic QTL Regions Controlling Wheat Spike Characteristics Under Different Nitrogen Treatments Using Traditional and Conditional QTL Mapping. Front. Plant Sci. 10 1 \u2013 13 . 10.3389/fpls.2019.00187 Pubmed Abstract CrossRef Google Scholar 6 Faris J. D. Gill B. S. ( 2002 ). Genomic targeting and high-resolution mapping of the domestication gene Q in wheat. Genome 45 706 \u2013 718 . 10.1139/g02-036 Pubmed Abstract CrossRef Google Scholar 7 Faris J. D. Zhang Z. Garvin D. F. Xu S. S. ( 2014 ). Molecular and comparative mapping of genes governing spike compactness from wild emmer wheat. Mole. Genet. Genom. 289 641 \u2013 651 . 10.1007/s00438-014-0836-2 Pubmed Abstract CrossRef Google Scholar 8 Fellers J. P. Gill B. S. Fellers J. P. Brooks S. A. Gill B. S. Faris J. D. ( 2003 ). A bacterial artificial chromosome contig spanning the major domestication locus Q in wheat and identification of a candidate gene. Genetics 164 311 \u2013 321 . 10.1023/A:1022937713781 CrossRef Google Scholar 9 Fu Y. Xu T. Zhu L. Wen M. Yang Z. ( 2009 ). A ROP GTPase Signaling Pathway Controls Cortical Microtubule Ordering and Cell Expansion in Arabidopsis . Curr. Biol. 19 1827 \u2013 1832 . 10.1016/j.cub.2009.08.052 Pubmed Abstract CrossRef Google Scholar 10 Guedira M. Xiong M. Hao Y. F. Johnson J. Harrison S. Marshall D. et al ( 2016 ). Heading Date QTL in Winter Wheat ( Triticum aestivum L.) Coincide with Major Developmental Genes VERNALIZATION1 and PHOTOPERIOD1 . PLoS One 11 1 \u2013 21 . 10.1371/journal.pone.0154242 Pubmed Abstract CrossRef Google Scholar 11 Heidari B. Sayed-Tabatabaei B. E. Saeidi G. Kearsey M. Suenaga K. ( 2011 ). Mapping QTL for grain yield, yield components, and spike features in a doubled haploid population of bread wheat. Genome 54 517 \u2013 527 . 10.1139/g11-017 Pubmed Abstract CrossRef Google Scholar 12 Jantasuriyarat C. Vales M. I. Watson C. J. W. Riera-Lizarazu O. ( 2004 ). Identification and mapping of genetic loci affecting the free-threshing habit and spike compactness in wheat ( Triticum aestivum L.). Theoret. Appl. Genet. 108 261 \u2013 273 . 10.1007/s00122-003-1432-8 Pubmed Abstract CrossRef Google Scholar 13 Ji G. Xu Z. Fan X. Zhou Q. Yu Q. Liu X. et al ( 2021 ). Identification of a major and stable QTL on chromosome 5A confers spike length in wheat ( Triticum aestivum L. ). Mol. Breed. 41 : 56 . 10.1007/s11032-021-01249-6 CrossRef Google Scholar 14 Johnson E. B. Nalam V. J. Zemetra R. S. Riera-Lizarazu O. ( 2008 ). Mapping the compactum locus in wheat ( Triticum aestivum L.) and its relationship to other spike morphology genes of the Triticeae. Euphytica 163 193 \u2013 201 . 10.1007/s10681-007-9628-7 CrossRef Google Scholar 15 Korzun V. R\u00f6der M. S. Ganal M. W. Worland A. J. Law C. N. ( 1998 ). Genetic analysis of the dwarfing gene ( Rht8 ) in wheat. Part I. Molecular mapping of Rht8 on the short arm of chr"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "Summary",
+      "text": "Keywords spike density , quantitative trait loci , wheat , wheat55K SNP array , pyramiding analysis Citation You J, Liu H, Wang S, Luo W, Gou L, Tang H, Mu Y, Deng M, Jiang Q, Chen G, Qi P, Peng Y, Tang L, Habib A, Wei Y, Zheng Y, Lan X and Ma J (2021) Spike Density Quantitative Trait Loci Detection and Analysis in Tetraploid and Hexaploid Wheat Recombinant Inbred Line Populations . Front. Plant Sci. 12:796397. doi: 10.3389/fpls.2021.796397 Received 16 October 2021 Accepted 26 November 2021 Published 16 December 2021 Volume 12 - 2021 Edited by Fa Cui, Ludong University, China Reviewed by Xiaoli Fan, Chengdu Institute of Biology, Chinese Academy of Sciences (CAS), China; Jianhui Wu, Northwest A&F University, China Updates Copyright \u00a9 2021 You, Liu, Wang, Luo, Gou, Tang, Mu, Deng, Jiang, Chen, Qi, Peng, Tang, Habib, Wei, Zheng, Lan and Ma. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. *Correspondence: Xiujin Lan, lanxiujin@163.com Jian Ma, jianma@sicau.edu.cn \u2020These authors have contributed equally to this work This article was submitted to Crop and Product Physiology, a section of the journal Frontiers in Plant Science Disclaimer All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 2,
+      "heading": "Your research is the real superpower",
+      "text": "Behind each article we publish stands a team of superheroes: authors, editors, and reviewers who chose to uphold quality standards and share knowledge openly. Read more about the impact your work achieves."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 2,
+      "heading": "Outline",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "Figures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "Cite article",
+      "text": "Copy to clipboard Copy citation Export citation file BibTex EndNote Reference Manager Simple Text file"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 2,
+      "heading": "Share article",
+      "text": "Facebook X LinkedIn Email WeChat Share on WeChat Scan with WeChat to share this article"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 2,
+      "heading": "Article metrics",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Population",
+        "Environment",
+        "Mean of female parent (20828 or Ailanmai)",
+        "Mean of male parent (SY95-71 or LM001)",
+        "Min\u2013Max",
+        "Mean",
+        "STD",
+        "Skew",
+        "Kurt",
+        "H 2"
+      ],
+      "rows": [
+        [
+          "2SY",
+          "2017WJ",
+          "1.71 **",
+          "2.04",
+          "1.34\u20132.84",
+          "1.86",
+          "0.27",
+          "1.31",
+          "2.85",
+          ""
+        ],
+        [
+          "",
+          "2017CZ",
+          "1.75",
+          "1.94",
+          "1.34\u20133.19",
+          "1.84",
+          "0.30",
+          "0.98",
+          "1.12",
+          ""
+        ],
+        [
+          "",
+          "2017YA",
+          "2.06",
+          "2.24",
+          "1.58\u20133.35",
+          "2.19",
+          "0.35",
+          "1.19",
+          "3.10",
+          ""
+        ],
+        [
+          "",
+          "2018WJ",
+          "2.05 *",
+          "2.26",
+          "1.48\u20133.33",
+          "2.10",
+          "0.33",
+          "0.87",
+          "0.84",
+          ""
+        ],
+        [
+          "",
+          "2018CZ",
+          "2.13",
+          "2.30",
+          "1.60\u20133.25",
+          "2.17",
+          "0.32",
+          "0.96",
+          "1.55",
+          ""
+        ],
+        [
+          "",
+          "2018YA",
+          "2.49",
+          "2.66",
+          "1.57\u20133.55",
+          "2.38",
+          "0.39",
+          "0.84",
+          "0.48",
+          ""
+        ],
+        [
+          "",
+          "2018KB",
+          "2.08 **",
+          "2.74",
+          "1.35\u20134.14",
+          "2.41",
+          "0.58",
+          "0.65",
+          "0.57",
+          ""
+        ],
+        [
+          "",
+          "BLUP",
+          "1.95",
+          "2.30",
+          "1.70\u20132.80",
+          "2.14",
+          "0.21",
+          "0.82",
+          "0.90",
+          "0.67"
+        ],
+        [
+          "AM",
+          "2017CZ",
+          "2.06",
+          "2.02",
+          "1.66\u20132.73",
+          "2.08",
+          "0.20",
+          "0.62",
+          "0.87",
+          ""
+        ],
+        [
+          "",
+          "2018CZ",
+          "2.40",
+          "2.44",
+          "1.88\u20133.03",
+          "2.29",
+          "0.21",
+          "0.57",
+          "0.95",
+          ""
+        ],
+        [
+          "",
+          "2019CZ",
+          "2.30",
+          "2.09",
+          "1.65\u20132.67",
+          "2.09",
+          "0.20",
+          "0.58",
+          "0.37",
+          ""
+        ],
+        [
+          "",
+          "2020CZ",
+          "2.61",
+          "2.65",
+          "2.04\u20133.48",
+          "2.50",
+          "0.25",
+          "0.79",
+          "1.69",
+          ""
+        ],
+        [
+          "",
+          "2020WJ",
+          "2.55 *",
+          "2.06",
+          "1.72\u20133.31",
+          "2.27",
+          "0.25",
+          "0.63",
+          "1.23",
+          ""
+        ],
+        [
+          "",
+          "2020YA",
+          "2.41",
+          "2.41",
+          "1.84\u20133.85",
+          "2.70",
+          "0.38",
+          "0.56",
+          "0.57",
+          ""
+        ],
+        [
+          "",
+          "2021CZ",
+          "2.30",
+          "2.12",
+          "1.90\u20133.13",
+          "2.30",
+          "0.21",
+          "0.84",
+          "1.21",
+          ""
+        ],
+        [
+          "",
+          "2021WJ",
+          "2.29 *",
+          "2.09",
+          "1.68\u20132.71",
+          "2.20",
+          "0.20",
+          "0.54",
+          "0.06",
+          ""
+        ],
+        [
+          "",
+          "BLUP",
+          "2.01",
+          "2.87",
+          "2.01\u20132.87",
+          "2.31",
+          "0.15",
+          "0.64",
+          "1.03",
+          "0.69"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Traits",
+        "PH",
+        "AD",
+        "SL",
+        "SNS",
+        "TKW",
+        "PTN",
+        "KL",
+        "KW"
+      ],
+      "rows": [
+        [
+          "2SY-SD",
+          "\u22120.07",
+          "\u22120.04",
+          "\u22120.60 **",
+          "0.43 **",
+          "\u22120.35 **",
+          "\u22120.03",
+          "\u22120.41 **",
+          "\u22120.12"
+        ],
+        [
+          "AM-SD",
+          "\u22120.02",
+          "0.13",
+          "\u22120.45 **",
+          "0.32 **",
+          "0.15",
+          "0.03",
+          "\u22120.24 **",
+          "\u22120.16"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "Populations",
+        "QTL",
+        "Environments",
+        "Position (cM)",
+        "Left marker",
+        "Right marker",
+        "LOD",
+        "PVE (%)",
+        "Add"
+      ],
+      "rows": [
+        [
+          "2SY",
+          "QSd.sau-2SY-2A",
+          "2018WJ",
+          "41.97\u201343.47",
+          "AX-109397555",
+          "AX-111595047",
+          "3.11",
+          "9.16",
+          "0.11"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-2D",
+          "2017CZ",
+          "71.71\u201372.68",
+          "AX-111093303",
+          "AX-109338052",
+          "3.21",
+          "9.14",
+          "\u20130.09"
+        ],
+        [
+          "",
+          "",
+          "2018CZ",
+          "71.71\u201372.68",
+          "AX-111093303",
+          "AX-109338052",
+          "4.81",
+          "4.45",
+          "\u20130.10"
+        ],
+        [
+          "",
+          "",
+          "2018YA",
+          "71.71\u201372.68",
+          "AX-111093303",
+          "AX-109338052",
+          "3.78",
+          "9.44",
+          "\u20130.13"
+        ],
+        [
+          "",
+          "",
+          "BLUP",
+          "71.71\u201372.68",
+          "AX-111093303",
+          "AX-109338052",
+          "3.36",
+          "7.33",
+          "\u20130.06"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-4A",
+          "2018CZ",
+          "81.51\u201382.33",
+          "AX-111045592",
+          "AX-108734258",
+          "12.63",
+          "14.19",
+          "\u20130.17"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-4B",
+          "2017WJ",
+          "39.27\u201344.89",
+          "AX-110033929",
+          "AX-108935259",
+          "3.50",
+          "7.79",
+          "\u20130.08"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-5A",
+          "2018CZ",
+          "56.91\u201357.64",
+          "AX-109362376",
+          "AX-108878364",
+          "4.38",
+          "4.16",
+          "\u20130.09"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-6D",
+          "2018CZ",
+          "169.59\u2013170.43",
+          "AX-110412658",
+          "AX-109195537",
+          "5.95",
+          "5.90",
+          "\u20130.11"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-7A.1",
+          "2017CZ",
+          "77.29\u201386.69",
+          "AX-111511322",
+          "AX-110483331",
+          "4.58",
+          "14.93",
+          "0.11"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-7A.2",
+          "2017WJ",
+          "101.73\u2013103.88",
+          "AX-110518554",
+          "AX-110442528",
+          "5.32",
+          "12.51",
+          "0.10"
+        ],
+        [
+          "",
+          "",
+          "2017YA",
+          "103.88\u2013106.49",
+          "AX-110442528",
+          "AX-110094527",
+          "8.09",
+          "21.10",
+          "0.18"
+        ],
+        [
+          "",
+          "",
+          "2018WJ",
+          "101.73\u2013103.88",
+          "AX-110518554",
+          "AX-110442528",
+          "7.58",
+          "16.69",
+          "0.15"
+        ],
+        [
+          "",
+          "",
+          "2018CZ",
+          "101.73\u2013103.88",
+          "AX-110518554",
+          "AX-110442528",
+          "10.12",
+          "10.56",
+          "0.15"
+        ],
+        [
+          "",
+          "",
+          "2018YA",
+          "101.73\u2013103.88",
+          "AX-110518554",
+          "AX-110442528",
+          "8.30",
+          "23.14",
+          "0.21"
+        ],
+        [
+          "",
+          "",
+          "BLUP",
+          "100.63\u2013101.73",
+          "AX-108735843",
+          "AX-110518554",
+          "9.60",
+          "23.44",
+          "0.11"
+        ],
+        [
+          "",
+          "QSd.sau-2SY-7A.3",
+          "2018WJ",
+          "202.86\u2013204.53",
+          "AX-109947373",
+          "AX-111044435",
+          "3.66",
+          "7.44",
+          "\u20130.10"
+        ],
+        [
+          "AM",
+          "QSd.sau-AM-3A",
+          "2020CZ",
+          "51.33\u201353.05",
+          "AX-109316902",
+          "AX-110445703",
+          "3.28",
+          "7.29",
+          "0.08"
+        ],
+        [
+          "",
+          "QSd.sau-AM-5A.1",
+          "2019CZ",
+          "156.06\u2013162.34",
+          "AX-110021952",
+          "AX-110503841",
+          "4.81",
+          "16.77",
+          "\u20130.08"
+        ],
+        [
+          "",
+          "QSd.sau-AM-5A.2",
+          "2018CZ",
+          "165.75\u2013166.60",
+          "AX-110035703",
+          "AX-111076855",
+          "6.25",
+          "19.97",
+          "\u20130.09"
+        ],
+        [
+          "",
+          "",
+          "2020YA",
+          "165.75\u2013166.60",
+          "AX-110035703",
+          "AX-111076855",
+          "3.02",
+          "12.29",
+          "\u20130.13"
+        ],
+        [
+          "",
+          "",
+          "BLUP",
+          "165.75\u2013166.60",
+          "AX-110035703",
+          "AX-111076855",
+          "48.58",
+          "15.11",
+          "\u20130.29"
+        ],
+        [
+          "",
+          "QSd.sau-AM-7A.1",
+          "2021WJ",
+          "76.99\u201385.22",
+          "AX-111699124",
+          "AX-108740541",
+          "3.16",
+          "9.89",
+          "0.06"
+        ],
+        [
+          "",
+          "QSd.sau-AM-7A.2",
+          "2020CZ",
+          "162.62\u2013107.05",
+          "AX-109860028",
+          "AX-109624261",
+          "3.82",
+          "8.59",
+          "0.08"
+        ],
+        [
+          "",
+          "QSd.sau-AM-1B",
+          "2018CZ",
+          "24.81\u201327.15",
+          "AX-110430183",
+          "AX-110539078",
+          "3.60",
+          "10.86",
+          "0.07"
+        ],
+        [
+          "",
+          "QSd.sau-AM-3B",
+          "2021CZ",
+          "48.34\u201349.69",
+          "AX-109393346",
+          "AX-110548993",
+          "4.51",
+          "13.47",
+          "0.08"
+        ],
+        [
+          "",
+          "QSd.sau-AM-5B",
+          "2021WJ",
+          "40.88\u201341.31",
+          "AX-109330727",
+          "AX-111107210",
+          "6.14",
+          "20.23",
+          "0.09"
+        ],
+        [
+          "",
+          "QSd.sau-AM-7B",
+          "2020CZ",
+          "154.97\u2013157.71",
+          "AX-110936825",
+          "AX-109955661",
+          "4.57",
+          "11.06",
+          "\u20130.10"
+        ],
+        [
+          "",
+          "",
+          "2021CZ",
+          "154.97\u2013157.71",
+          "AX-110936825",
+          "AX-109955661",
+          "4.07",
+          "12.00",
+          "\u20130.07"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Volume 12 - 2021 | https://doi.org/10.3389/fpls.2021.796397",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Triticeae Research Institute, Sichuan Agricultural University, Chengdu, China",
+      "char_offset": 61
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Panzhihua Academy of Agricultural and Forestry Sciences, Panzhihua, China",
+      "char_offset": 143
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Biotechnology and Genetic Engineering Discipline, Khulna University, Khulna, Bangladesh",
+      "char_offset": 221
+    },
+    {
+      "type": "paragraph",
+      "text": "Spike density (SD) is an agronomically important character in wheat. In addition, an optimized spike structure is a key basis for high yields. Identification of quantitative trait loci (QTL) for SD has provided a genetic basis for constructing ideal spike morphologies in wheat. In this study, two recombinant inbred line (RIL) populations (tetraploid RIL AM and hexaploid RIL 20828/SY95-71 (2SY)) previously genotyped using the wheat55K SNP array were used to identify SD QTL. A total of 18 QTL were detected, and three were major and one was stably expressed ( QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2 , QSd.sau-AM-7B , and QSd.sau-2SY-2D ). They can explain up to 23.14, 19.97, 12.00, and 9.44% of phenotypic variation, respectively. QTL \u00d7 environment and epistatic interactions for SD were further analyzed. In addition, pyramiding analysis further revealed that there were additive effects between QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 in 2SY, and QSd.sau-AM-5A.2 and QSd.sau-AM-7B in AM. Pearson\u2019s correlation between SD and other agronomic traits, and effects of major or stable QTL on yield related traits indicated SD significantly impacted spike length (SL), spikelet number per spike (SNS) and kernel length (KL). Several genes related to spike development within the physical intervals of major or stable QTL were predicted and discussed. Collectively, our research identified QTL with potential applications for modern wheat breeding and broadening the genetic basis of SD.",
+      "char_offset": 313
+    },
+    {
+      "type": "paragraph",
+      "text": "As one of the most important food crops in the world, the yield of common wheat ( Triticum aestivum L.) should be increased to meet the growing demand for food for human beings ( Zhou et al., 2017 ; Xu et al., 2018 ). The spike is an important part of the wheat plant. Cultivating wheat varieties with longer spike length (SL) and higher spike density (SD) could increase yield ( Faris et al., 2014 ; Li et al., 2016 ). Thus, as a spike trait controlled by genes and influenced by the environment ( Ma et al., 2007 ), identification of quantitative trait loci (QTL) associated with SD has importantly theoretical value for breeding high-yield wheat varieties.",
+      "char_offset": 1792
+    },
+    {
+      "type": "paragraph",
+      "text": "Q , Compactum ( C ), and Sphaerococcum ( S1 ) are three well-known genes related to spike development in common wheat ( Fellers et al., 2003 ). The Q gene, located on the long arm of chromosome 5A, not only plays a role in spike morphogenesis, but also has pleiotropic effects on seed threshability, spike emergence time, and plant height (PH) ( Faris and Gill, 2002 ; Fellers et al., 2003 ; Simons et al., 2006 ; Xu et al., 2018 ). The C gene, located on chromosomes 2D near the centromere, is involved in regulating SD, grain shape, and grain number per spike ( Johnson et al., 2008 ). The S1 gene on chromosome 3D defines grain shape and SD in wheat ( Prabhakararao, 1977 ). However, C or S genes do not exist in tetraploid cultivars or varieties since they do not possess D-genome chromosomes. Thus, variation in spike morphology of tetraploid wheat may be caused by genes other than Q , C , or S or by alleles of these three genes on homologous chromosomes ( Faris et al., 2014 ; Zhou et al., 2017 ). Therefore, it is necessary to excavate more QTL or genes associated with SD in tetraploid wheat.",
+      "char_offset": 2453
+    },
+    {
+      "type": "paragraph",
+      "text": "Previous studies have reported that dwarf genes were involved in the regulation of wheat spike development. For example, Rht-9 and Rht-12 are gibberellin-sensitive genes, and they can affect heading date ( Ellis et al., 2005 ); Rht-8 was close to the marker Xgwm261 ( Korzun et al., 1998 ), while a QTL for SD was also reported to be tightly linked to this marker ( Heidari et al., 2011 ; Zhao et al., 2013 ), indicating that dwarf genes may have some intrinsic interaction with SD. Additionally, photoperiod ( Ppd ), vernalization ( Vrn ) as well as earliness per se ( Eps ) genes also have certain effects on spike development ( Alvarez et al., 2016 ; Guedira et al., 2016 ).",
+      "char_offset": 3557
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to further excavate major loci associated with spike development among modern wheat varieties, scholars worldwide have identified a large number of QTL for spike traits ( Jantasuriyarat et al., 2004 ; Kumar et al., 2007 ; Ma et al., 2007 ; Cui et al., 2012 ; Zhai et al., 2016 ; Tao et al., 2019 ; Kuang et al., 2020 ; Li et al., 2021 ). For example, Ma et al. (2007) analyzed five spike traits in a recombinant inbred line (RIL) population and an immortalized F 2 population. They found QTL controlling SD were distributed on chromosomes 1A, 4A, 5A, 5B, 2D, and 7D, and single QTL was able to explain 7.9\u201336.3% of phenotypic variation. Based on the genetic map constructed using the wheat55K SNP array, Liu et al. (2019) detected 24 SD QTL. Three of them were major QTL being located on chromosomes 2D, 4B, and 5B, and stably expressed in various environments, indicating that high-density genetic mapping is a critical approach to QTL mapping. Although loci associated with spike development in common wheat have been extensively studied, there have been few studies on identification of loci in tetraploid wheat ( Triticum turgidum L.). There are still many loci that could be mined and utilized from such germplasm resources.",
+      "char_offset": 4236
+    },
+    {
+      "type": "paragraph",
+      "text": "In the present study, two RIL populations previously genotyped using the wheat55K SNP array were used to identify SD QTL in combination with the phenotypic data from multiple environments. The correlations between SD and other agronomic traits were analyzed. Major SD QTL were identified. Pyramiding analysis for these major QTL was performed. In addition, candidate genes for QTL were also predicted.",
+      "char_offset": 5476
+    },
+    {
+      "type": "paragraph",
+      "text": "Three RIL populations of wheat were used in the study: hexaploid population 20828/SY95-71 (2SY, 128 F 7 RILs including parents) ( Liu et al., 2020 ), hexaploid population 20828/Chuanmai60 (2CM, 207 F 2:3 lines) ( Ma et al., 2019b ), and tetraploid population Ailanmai (AL)/LM001 (AM, 121 F 8 RILs including parents) ( Mo et al., 2021 ).",
+      "char_offset": 5879
+    },
+    {
+      "type": "paragraph",
+      "text": "The wheat line 20828 is highly resistant to stripe rust disease ( Ma et al., 2019b ), and has a short spike extension length ( Li et al., 2020 ), a large uppermost-internode diameter ( Liu et al., 2021 ), and multiple spikelets per spike ( Ding et al., 2021 ). SY95-71 is a stable line with a well-developed root system ( Zheng et al., 2019 ) and a relatively high number of tillers ( Liu et al., 2020 ). Chuanmai60 is a commercial cultivar. AL is a unique germplasm resource from China, and has characteristics of dwarf plants and multiple florets ( Liu et al., 1999 ). As a wild emmer wheat line, LM001 exhibits fewer kernels per spikelet, non-free threshability and long awns ( Mo et al., 2021 ). The 2SY and AM populations were used for QTL identification, and the 2CM population was used for verification of major QTL identified in the 2SY population.",
+      "char_offset": 6217
+    },
+    {
+      "type": "paragraph",
+      "text": "Three populations and their parental lines were evaluated at Wenjiang (WJ, 103\u00b0 51\u2032 E, 30\u00b0 43\u2032 N), Chongzhou (CZ, 103\u00b0 38\u2032 E, 30\u00b0 32\u2032 N), Ya\u2019an (YA, 103\u00b0 0\u2032 E, 29\u00b0 58\u2032 N) in China, and Khulna (KB, 89\u00b0 34\u2032 E, 22\u00b0 49\u2032 N) in Bangladesh during 2017\u20132021.",
+      "char_offset": 7075
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2SY population was planted in seven environments, encoded as 2017WJ, 2018WJ, 2017CZ, 2018CZ, 2017YA, 2018YA, and 2018KB, respectively, based on the year and location. The AM population was planted in eight environments: 2017CZ, 2018CZ, 2019CZ, 2020CZ, 2021CZ, 2020WJ, 2021WJ, and 2020YA. The validation population 2CM was planted in 2018CZ. The RILs and their parents were planted in a single row for each environment. Each line consisted of 15 seeds evenly planted in a single 1.5-m row with 0.3 m between rows. Field management was conducted in accordance with the general practice of wheat production.",
+      "char_offset": 7327
+    },
+    {
+      "type": "paragraph",
+      "text": "In the study, three individual plants with consistent growth of each line were selected to measure agronomic traits in the 2SY population and five individual plants with consistent growth of each line were selected to measure agronomic traits in the AM population. The phenotypic data of agronomic traits used in this experiment have been measured in previous studies, including spikelet number per spike (SNS), SL, PH, anthesis date (AD), productive tiller number (PTN), thousand kernel weight (TKW), kernel length (KL), kernel number per spike (KNS), kernel number per spikelet (KNL), and kernel width (KW). The agronomic traits of the 2SY populations were measured by Liu et al. (2020) (PH, AD, TKW, PTN, SNS), Ding et al. (2021) (SNS), Li et al. (2020) (SL), and Qu et al. (2021) (KL, KW). The phenotype values for SNS in 2018KB were determined by Ding et al. (2021) , and the SNS data across remainder environments was determined by Liu et al. (2020) . The agronomic traits of the AM population were measured by Mo et al. (2021) (PH, AD, TKW, SL, SNS, PTN, KNL and KNS) and Zhou et al. (2021) (KL, KW). The phenotypic data of SL and SNS in the 2CM population were measured by Ma et al. (2019a) . Furthermore, SD was obtained by dividing SNS by SL. The detailed information of agronomic traits in different environments are presented in Supplementary Table 1 .",
+      "char_offset": 7937
+    },
+    {
+      "type": "paragraph",
+      "text": "The best linear unbiased prediction (BLUP) of agronomic traits and the broad-sense heritability ( H 2 ) of SD were calculated using SAS version 9.1 (SAS Institute, Cary, NC, United States). Based on phenotypic data and BLUP values, IBM SPSS 27 (IBM SPSS, Armonk, NY, United States) was used for Pearson\u2019s correlation analysis to assess the relationships between SD and agronomic traits. Significant differences were evaluated using Student\u2019s t -test. Origin 2018 1 was used to describe the frequency distribution for phenotypic data from the two populations.",
+      "char_offset": 9303
+    },
+    {
+      "type": "paragraph",
+      "text": "Two genetic linkage maps constructed based on the wheat55K SNP array were used in the present study. The genetic map of the 2SY population covered a total genetic distance of 4,273.03 cM containing 2529 bin markers, and the mean interval between markers was 1.69 cM ( Liu et al., 2020 ). In the AM population, the genetic distance for linkage maps was 2411.8 cM containing 1150 bin markers, and the mean interval between markers was 2.10 cM ( Mo et al., 2021 ).",
+      "char_offset": 9863
+    },
+    {
+      "type": "paragraph",
+      "text": "Individual environment QTL detection was performed using the biparental populations (BIP) module with inclusive composite interval mapping (ICIM) in IciMaing4.1. To improve the reliability of QTL results, the step was set to 1 cM, the PIN value was 0.001, and the logarithm of odds (LOD) score threshold was set to 3. Then, the multi-environment trials (MET-ADD) model in IciMapping4.1 was used to analyze the interaction between QTL and environment (Step = 1 cM, PIN = 0.001, and LOD = 7), and the epistatic effects between QTL were analyzed by multi-environmental trials (MET-EPI) in IciMapping4.1. In this study, QTL identified in two or more environments were treated as stable, and those explained more than 10% of phenotypic variation explained (PVE) were considered major loci. QTL were named according to the Catalogue of Gene Symbols for Wheat ( McIntosh et al., 2013 ), where \u201csau\u201d represents \u201cSichuan Agricultural University\u201d, 2SY and AM represent population names.",
+      "char_offset": 10326
+    },
+    {
+      "type": "paragraph",
+      "text": "Sequences of flanking markers for a given QTL were blasted against the genomes of \u201cChinese spring\u201d (CS; v2.1) ( Zhu et al., 2021 ), wild emmer (Zavitan; v2.0) ( Zhu et al., 2019 ), and Aegilops tauschii (Aet; v4.0) ( Luo et al., 2017 ) to determine the corresponding physical intervals. QTL were determined to check if they were novel loci or not by comparing their physical locations with those of reported ones. Furthermore, candidate genes with functional annotations were obtained from the Triticeae Multi-omics Center 2 and UniProt 3 .",
+      "char_offset": 11304
+    },
+    {
+      "type": "paragraph",
+      "text": "Significant differences between the parents of the 2SY and AM populations were observed in several environments ( Figure 1 ). The phenotypic values of 2SY and AM RIL populations and their corresponding parents were statistically analyzed under multiple environments and based on BLUP datasets ( Table 1 ).",
+      "char_offset": 11846
+    },
+    {
+      "type": "paragraph",
+      "text": "Spike morphology of 20828, SY95-71, and four selected lines (A) and AL, LM001 and four selected lines (B) (scale bar = 5 cm).",
+      "char_offset": 12153
+    },
+    {
+      "type": "paragraph",
+      "text": "Phenotypic evaluation of spike density (SD) for the parents and two recombinant inbred lines (RIL) populations in different environments.",
+      "char_offset": 12280
+    },
+    {
+      "type": "paragraph",
+      "text": "2SY, 20828/SY95-71; AM, AL/LM001; WJ, Wenjiang; CZ, Chongzhou; YA, Ya\u2019an; KB, Khulna, in Bangladesh; BLUP, best linear unbiased prediction environments; STD, standard deviation; Skew, skewness; Kurt, kurtosis; H 2 , the broad-sense heritability. * Significance level at P < 0.05; ** Significance level at P < 0.01.",
+      "char_offset": 12419
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 2SY RILs, variance analysis results showed that the SD of SY95-71 was significantly higher than that of 20828 in 2017WJ, 2018WJ, and 2018KB ( P < 0.05), SD showed prominent variation, varying between 1.34 and 4.14. AL SD was significantly higher than LM001 in 2020WJ and 2021WJ environments ( P < 0.05), while there was no significant difference in other environments. And a SD range from 1.65 to 3.85 was observed in AM RILs. The frequency distribution presented an approximately normal distribution and was bidirectionally transgressive in two RIL populations ( Figure 2 ). The H 2 in the 2SY and AM populations were 0.67 and 0.69, respectively. Moreover, significant correlations for SD among different environments in the 2SY and AM populations were detected ( Supplementary Table 2 ). The SD phenotypes in the 2SY population exhibited significant correlations in all environments except 2018KB (0.48 \u2264 r \u2264 0.79). The values of SD in the AM population were significantly correlated among all environments (0.24 \u2264 r \u2264 0.61).",
+      "char_offset": 12735
+    },
+    {
+      "type": "paragraph",
+      "text": "The phenotype and frequency distribution of spike density (SD) in the 2SY population (A) and AM population (B) under different environments.",
+      "char_offset": 13771
+    },
+    {
+      "type": "paragraph",
+      "text": "Correlation analysis between SD and other agronomic traits was conducted based on BLUP values ( Table 2 ). In the 2SY and AM populations, SD was negatively correlated with KL and SL, but positively correlated with SNS ( P < 0.01). Moreover, TKW was significantly and negatively correlated with SD in the 2SY population ( P < 0.01).",
+      "char_offset": 13913
+    },
+    {
+      "type": "paragraph",
+      "text": "Correlation analysis between SD and other agronomic traits in two recombinant inbred lines (RIL) populations.",
+      "char_offset": 14246
+    },
+    {
+      "type": "paragraph",
+      "text": "2SY, 20828/SY95-71; AM, AL/LM001; SD spike density; PH, plant height; AD, anthesis date; SL, spike length; SNS, spikelet number per spike; TKW, thousand kernel weight; PTN, productive tiller number; KL, kernels length; KW, kernels width. ** Significance level at P < 0.01.",
+      "char_offset": 14357
+    },
+    {
+      "type": "paragraph",
+      "text": "In total, 18 QTL for SD were identified in the two RIL populations by single-environment analysis, and they were distributed on chromosomes 1B, 2A, 2D, 3A, 3B, 4A, 4B, 5A, 5B, 6D, 7A, and 7B. A single QTL was able to explain 4.16\u201323.14% of the phenotypic variation ( Table 3 ). Three QTL were regarded as major (including QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2 , and QSd.sau-AM-7B ) and one can be stably expressed in multiple environments ( QSd.sau-2SY-2D ). Due to the stability of the QSd.sau-2SY-2D , it was further analyzed together with the major ones in the present study. In the 2SY population, QSd.sau-2SY-2D was stably expressed in three environments and the BLUP dataset, and it was mapped to the interval AX-111093303\u223cAX-109338052 , and explained 4.45\u20139.44% of the phenotypic variance. The positive allele at this locus was from SY95-71. The stably expressed locus QSd.sau-2SY-2D was physically located at 602.76\u2013610.04 Mb on 2D of the CS genome and 598.14\u2013604.92 Mb on 2D of the A. tauschii genome, respectively ( Figure 3A ). According to the flanking markers of QSd.sau-2SY-2D , 2SY RILs could be divided into two groups (with or without the positive allele of QSd.sau-2SY-2D ). The phenotypic values for SD carrying positive alleles were significantly higher than those with negative ones ( P < 0.05) ( Figure 4A ).",
+      "char_offset": 14631
+    },
+    {
+      "type": "paragraph",
+      "text": "Quantitative trait loci (QTL) for spikelet density (SD) in two recombinant inbred lines (RIL) populations under different environments.",
+      "char_offset": 15959
+    },
+    {
+      "type": "paragraph",
+      "text": "PVE, phenotype variance explained; LOD, logarithm of odds; Add, additive effect of a QTL; BLUP, phenotype values based on the best linear unbiased prediction.",
+      "char_offset": 16096
+    },
+    {
+      "type": "paragraph",
+      "text": "The maps of major QTL. (A) QSd.sau-2SY-2D; (B) QSd.sau-2SY-7A.2; (C) QSd.sau-AM-5A; (D) QSd.sau-AM-7B.",
+      "char_offset": 16256
+    },
+    {
+      "type": "paragraph",
+      "text": "The effect of major QTL QSd.sau-2SY-2D (A) , QSd.sau-2SY-7A.2 (B) , QSd.sau-AM-5A.2 (C) , and QSd.sau-7B (D) . 20828 and SY95-71 indicate the phenotypes of the 2SY population with and without positive alleles of the corresponding QTL, respectively; AL and LM001 indicate the phenotypes of the AM population with and without positive alleles of the corresponding QTL, respectively. * Significance level at P < 0.05; ** Significance level at P < 0.01.",
+      "char_offset": 16360
+    },
+    {
+      "type": "paragraph",
+      "text": "QSd.sau-2SY-7A.2 was identified under five environments as well as in the BLUP dataset, and its positive allele was from 20828. This QTL was able to explain 10.56\u201323.44% of the phenotypic variance, and its LOD value ranged from 5.32 to 10.12. AX-110518554 and AX-110094527 were its flanking markers and it was located at 678.47\u2013682.29 and 682.56\u2013686.58 Mb on chromosome 7A of the CS and A. tauschii genome, respectively ( Figure 3B ). We further divided the 2SY population into two groups, one with alleles from SY95-71 and one with alleles from 20828. Lines with 20828 alleles had larger SD values than those with SY95-71 alleles in all environments except 2018KB ( P < 0.01) ( Figure 4B ).",
+      "char_offset": 16811
+    },
+    {
+      "type": "paragraph",
+      "text": "In the AM population, QSd.sau-AM-5A.2 was identified in a 0.85 cM region between markers AX-110035703 and AX-111076855 under three environments and the BLUP dataset. It explained 12.29\u201319.97% of phenotypic variance, and its LOD value was up to 48.58. Then, this locus was anchored at 618.87\u2013621.62 and 684.82\u2013687.74 Mb on chromosome 5A of the CS and wild emmer reference genome, respectively ( Figure 3C ).",
+      "char_offset": 17504
+    },
+    {
+      "type": "paragraph",
+      "text": "QSd.sau-AM-7B , with a LOD value ranging between 4.07 and 4.57, was detected in two environments, and it accounted for 11.06\u201312.00% of the phenotypic variance. The positive alleles of QSd.sau-AM-5A.2 and QSd.sau-AM-7B were both contributed by LM001. The AM population was grouped and compared using the flanking markers of these two QTL ( Figures 4C,D ). Compared to the RILs with alleles from AL, those with LM001 alleles showed a significant increase in SD across multiple environments. Moreover, the physical position of QSd.sau-AM-7B was at 684.82\u2013687.74 and 693.74\u2013696.60 Mb on 7B of the CS and wild emmer reference genome, respectively ( Figure 3D ). Further, candidate genes were analyzed in the regions with these major and stable QTL. Based on the reference genome of CS v2.1 and A. tauschii , 47 orthologs in the interval of QSd.sau-2SY-2D were obtained ( Supplementary Table 3a ). In addition, based on the genome of wild emmer and CS v2.1, there were 30, 27 and 25 orthologs obtained for QSd.sau-2SY-7A.2 , QSd.sau-AM-5A.2 , and QSd.sau-AM-7B , respectively ( Supplementary Tables 3b\u2013d ).",
+      "char_offset": 17912
+    },
+    {
+      "type": "paragraph",
+      "text": "There were 5 and 11 QTL for SD identified by QTL and environment interaction analysis in the two RIL populations ( Supplementary Table 4 ), respectively. Four of them ( QSd.sau-2SY-7A.2, QSd.sau-AM-5A.2, QSd.sau-AM-7B , and QSd.sau-2SY-2D ) were identical to the three major and one stable QTL which were detected by single-environment analysis, suggesting they are stably expressed loci. In addition, ten pairs of QTL were detected by epistatic interaction analysis in two populations. However, all of them were identified in only a single environment and there were no interactions between QTL identified by single-environment analysis ( Supplementary Table 5 ).",
+      "char_offset": 19014
+    },
+    {
+      "type": "paragraph",
+      "text": "As QSd.sau-2SY-7A.2 identified in the present study and QSns.sau-2SY-7A for SNS reported by Ding et al. (2021) correspond to the same interval, they may be regulated by the same locus. The SNS QTL has been verified in the 2CM population. Therefore, the phenotypic value of SD was calculated and verified in the present study based on the SNS and SL data from the 2CM population.",
+      "char_offset": 19680
+    },
+    {
+      "type": "paragraph",
+      "text": "Student\u2019s t -test was performed to compare phenotypes of lines homozygous for the alleles from 20828 with those from CM60. There were significant differences in phenotypic values between the two genotypes ( P < 0.05) ( Figure 5 ). The SD values of the lines homozygous for the allele from 20828 were obviously higher than those without the corresponding alleles. These results indicated that QSd.sau-2SY-7A.2 should be a reliable and major SD locus.",
+      "char_offset": 20060
+    },
+    {
+      "type": "paragraph",
+      "text": "Effects of QSd.sau-2SY-7A.2 in 20828 \u00d7 CM60 (2CM) population. * Significance level at P < 0.05.",
+      "char_offset": 20511
+    },
+    {
+      "type": "paragraph",
+      "text": "The interactions between QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 and between QSd.sau-AM-5A.2 and QSd.sau-AM-7B were further analyzed, respectively.",
+      "char_offset": 20608
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on their flanking markers, the two populations were divided into four groups. In the 2SY population, compared to lines without any positive alleles of QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , the SD of lines containing both the positive alleles of these two QTL was significantly increased by 20.53%. When the positive allele from QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 was expressed alone, SD increased by 1.63 and 8.39%, respectively ( Figure 6A ). In the AM population, QSd.sau-AM-5A.2 and QSd.sau-AM-7B have a strong association with SD. Lines with a combination of positive alleles from QSd.sau-AM-5A.2 and QSd.sau-AM-7B significantly increased SD by 7.97%, compared to those without any of the positive alleles. However, SD can only increase by 3.88 or 1.81% when the positive allele from QSd.sau-AM-5A.2 or QSd.sau-AM-7B was present alone, respectively ( Figure 6B ).",
+      "char_offset": 20753
+    },
+    {
+      "type": "paragraph",
+      "text": "The aggregation effect of the major QTL for spike density (SD) in two RIL populations. (A) Effect of QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 for SD in the 2SY population; (B) Effect of QSd.sau-AM-5A.2 and QSd.sau-AM-7B for SD in the AM population; + and \u2212 represent lines with and without the positive alleles of the corresponding QTL based on the flanking marker of the corresponding QTL, respectively; **Significant at P < 0.01, *Significant at P < 0.05.",
+      "char_offset": 21627
+    },
+    {
+      "type": "paragraph",
+      "text": "We further performed analysis of the effects of major and stable QTL for SD on other yield-related traits. In the 2SY population, as shown in Figure 7A , significant differences for SL, SNS, and AD existed among the different lines carrying various alleles. Specifically, SL of 22 lines possessing a combination of positive alleles from QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 were significantly lower ( P < 0.01, 10.6%) than those carrying the positive allele from QSd.sau-2SY-7A.2 only and those without QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 . Moreover, highly significant difference ( P < 0.01) was detected between the lines carrying increased alleles from QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 . Compared with those without positive alleles from QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , lines possessing that from QSd.sau-2SY-2D extremely and significantly ( P < 0.01) reduced SL by 6.3%. For SNS, the phenotypic values of lines with a combination of QSd.sau-2SY-2D and QSd.sau-2SY-7A.2 increased alleles were extremely and significantly higher than those with QSd.sau-2SY-2D increased allele or those without QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , respectively. SNS of 29 lines possessing increased alleles from QSd.sau-2SY-2D was extremely and significantly ( P < 0.01, 9.6%) lower than that of 35 lines from QSd.sau-2SY-7A.2 . Additionally, compared with those without increased alleles from QSd.sau-2SY-2D or QSd.sau-2SY-7A.2 , lines possessing alleles from QSd.sau-2SY-7A.2 extremely and significantly ( P < 0.01) increased SNS by 8.2%. In terms of AD, significant differences in phenotypic values were found only in lines carrying increased alleles from QSd.sau-2SY-7A.2 and those none carrying QSd.sau-2SY-7A.2 or QSd.sau-2SY-2D increased alleles.",
+      "char_offset": 22081
+    },
+    {
+      "type": "paragraph",
+      "text": "The effects of major quantitative trait loci (QTL) on yield-related traits in the 20828/SY95-71 (2SY) population (A) and AL /LM001 (AM) population (B) . SL, spike length; SNS, spikelet number per spike; TKW, thousand kernel weight; KL, kernels length; KW, kernels width; AD, anthesis date; + and \u2212 represent lines with and without the positive alleles of the target QTL based on the flanking markers the corresponding QTL, respectively. *Significance level at P < 0.05; ** Significance level at P < 0.01.",
+      "char_offset": 23827
+    },
+    {
+      "type": "paragraph",
+      "text": "In the AM population, for KL, compared with the lines with increased allele from QSd.sau-AM-7B , those from a combination of QSd.sau-AM-5A.2 and QSd.sau-AM-7B extremely and significantly ( P < 0.01) increased KL up to 12% ( Figure 7B ). Furthermore, the phenotype value of lines harboring QSd.sau-AM-5A.2 increased alleles was significantly higher than those containing QSd.sau-AM-7B with difference being up to 13% ( P < 0.01). The KL of 31 lines with positive allele from QSd.sau-AM-7B was significantly higher than those possessing the negative one. For TKW, compared with those without increased alleles from QSd.sau-AM-5A.2 or QSd.sau-AM-7B , lines carrying alleles from QSd.sau-AM-5A.2 extremely and significantly increased ( P < 0.01, 8.2%). In addition to the significant differences described above, no differences were detected among lines with or without different positive alleles of the target QTL based on the flanking markers of the corresponding QTL. The above results indicated that QTL controlling SD significantly impacted SL, SNS, KL, AD, and TGW.",
+      "char_offset": 24333
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on the phenotypic analysis for 2SY and AM populations, there were no significant differences for SD between parents in multiple environments. Similarly, SNS between the parental lines exhibited no difference as well in AM population ( Mo et al., 2021 ). However, we observed an approximately normal distribution and transgressive segregation in the two RIL populations, which conforms to the characteristics of quantitative traits. Above all, 18 QTL for SD were identified in this study and some of these major or stably expressed QTL have been proved to be reliable given their co-localization with other loci previously reported.",
+      "char_offset": 25402
+    },
+    {
+      "type": "paragraph",
+      "text": "In fact, this phenomenon exists in many QTL mapping studies ( Zhou et al., 2017 ; Liu et al., 2019 ). Previous studies have shown that the phenotype of a trait is usually established by an interaction of several genes ( Liu et al., 2019 ), such as reciprocal inhibition between genes causing the lack of a corresponding phenotype for these genes. However, through hybridization between two given genotypes, genetic recombination makes it possible for an offspring to carry a locus independent of other inhibited loci, and thus the corresponding phenotype can be expressed. Therefore, even if the parental phenotypes are not significantly different, it is possible to identify major QTL for a given traits in a RIL population.",
+      "char_offset": 26041
+    },
+    {
+      "type": "paragraph",
+      "text": "In this study, four QTL QSd.sau-2SY-2D.3 , QSd.sau-2SY-7A , QSd.sau-AM-5A.2 , and QSd.sau-AM-7B were identified on chromosomes 2D, 5A, 7A, and 7B, and they showed high PVE and were expressed in multiple environments. According to genomes of CS, wild emmer, and A. tauschii , these QTL were anchored in the corresponding reference genome intervals, respectively ( Figure 3 ).",
+      "char_offset": 26768
+    },
+    {
+      "type": "paragraph",
+      "text": "Many QTL controlling SD have been identified by genetic analysis. To further determine whether these QTL in this study are novel loci, we obtained the physical locations of previously reported QTL and genes associated with SD ( Supplementary Table 6 ).",
+      "char_offset": 27144
+    },
+    {
+      "type": "paragraph",
+      "text": "In the CS genome, the QSd.sicau-2D.3 identified by Liu et al. (2019) overlapped with QSd.sau-2SY-2D between 605.12 and 609.88 Mb on chromosome 2DL ( Figure 3A ); qSc-7A ( Fan et al., 2019 ), explaining 4.87\u201317.22% of variation in SD, was located between 679.70 and 679.92 Mb, and QSd.sau-2SY-7A.2 was mapped to between 678.47 and 682.29 Mb ( Figure 3B ), indicating that they may be allelic variants. In addition, comparing with the physical maps of QTL for other yield-related traits such as SNS ( Ding et al., 2021 ), KL, KW, kernel thickness (KT), TKW, kernel length\u2013width ratio (LWR), and kernel size (KS) ( Qu et al., 2021 ), none of the physical regions of QTL for SD in the present study overlapped with these yield-related loci.",
+      "char_offset": 27398
+    },
+    {
+      "type": "paragraph",
+      "text": "QSd.sau-AM-5A.2 and QSd.sau-AM-7B were identified in the AM population. Specifically, QSd.sau-AM-5A.2 , located between 618.87 and 621.62 Mb ( Figure 3C ), was determined to be distinct from Q (651.82 Mb) and Vrn-A1 (589.27 Mb). There were no overlapping regions with other QTL or genes for SD reported on 5AL comparing with the previous studies ( Supplementary Table 6 ). We also performed QTL analysis for KNS and KNL in the AM population ( Supplementary Table 7 ), and results indicated that two minor QTL QKns.sau-AM-5A and QKnl.sau-AM-5A were both located in the physical interval 619.18\u2013622.72 and 613.60\u2013617.54 Mb on wild emmer and CS genome, respectively. These two loci were close to the interval of QSd.sau-AM-5A.2 , suggesting they may be controlled by a pleiotropic locus.",
+      "char_offset": 28136
+    },
+    {
+      "type": "paragraph",
+      "text": "QSd.sau-AM-7B , located between 684.82 and 687.74 Mb ( Figure 3D ), was determined to be close to Sd.sicau-7B.1 (688.53\u2013689.86 Mb) ( Liu et al., 2019 ), suggesting they may be allelic. Thus, comparisons showed that QSd.sau-AM-5A.2 may be a novel and major QTL controlling SD.",
+      "char_offset": 28922
+    },
+    {
+      "type": "paragraph",
+      "text": "Spike density and spike length as well as SNS are tightly correlated traits and many QTL for SNS and SL also have pleiotropic effects on SD, and co-location of QTL related to these three traits has been reported in many studies. For example, QTL conferring SNS, SL, KNS, and TKW were co-located at Xgwm126 \u2013 Xgwm291 (672.92\u2013700.49 Mb; Wang et al., 2011 ); QHd.sau-5A , QAn.sau-5A , QPht.sau-5A , QSl.sau-5A1 , and QSd.sau-5A1 were co-located at wPt-9094\u2013wPt-9513 (435.00\u2013536.98 Mb; Luo et al., 2016 ). Compared with kernel size-related QTL in the AM population, no QTL for such as KL and KW were detected on chromosome 5A ( Zhou et al., 2021 ). Additionally, QSd.sau-AM-5A.2 (624.11\u2013626.14 Mb on wild emmer genome) in the present study and QSns.sau-AM-5A (557.72\u2013571.41 Mb; Mo et al., 2021 ) are not co-located in the same region. A great deal of QTL or genes related to yield traits existed on chromosome 5A. To identify whether QSd.sau-AM-5A.2 is co-located with QTL or genes for SNS or SL reported previously, based on the comparison of QTL for SNS on chromosome 5A with previous studies ( Mo et al., 2021 ), we reviewed the recently published articles related to SL and SNS ( Supplementary Table 8 ). Results showed that many SL or SNS related loci located on chromosome 5AL, but most of the reported QTL or genes were at least tens of Mb away from QSd.sau-AM-5A.2 detected in this study, such as QSl.cib-5A (516.60\u2013521.27 Mb; Ji et al., 2021 ), QTgw.cau.5A_140-142 (698.00\u2013705.40 Mb) and QSsi.cau.5A_91 (586.61\u2013589.22 Mb; Wang et al., 2021 ), QSl.wa-5AL.e1 / QSl.wa-5AL.e2 / QSns. wa-5AL.e1 / QSns.wa-5AL.e2 / QSns.wa-5AL.e3 / QGns.wa-5AL.e2 / QTgw.wa-5AL.e2 / QTgw.wa-5AL.e3 (672.92\u2013700.49 Mb; Wang et al., 2011 ). However, Cui et al. (2012) reported that a major locus QSl.WY.5A.1 for SL was marked with Xcfa2163.2 and Xcwm216 , and this locus was tightly closed to QSd.sau-AM-5A.2 in the physical interval ( Supplementary Table 8 ), indicating pleiotropic effects might exist between them.",
+      "char_offset": 29199
+    },
+    {
+      "type": "paragraph",
+      "text": "Previous studies have found that integrating multiple favorable QTL into the same genetic background can significantly optimize plant traits ( Fan et al., 2019 ; Li et al., 2021 ). This pyramiding effect of multiple loci is an effective means for the improvement of modern wheat varieties.",
+      "char_offset": 31198
+    },
+    {
+      "type": "paragraph",
+      "text": "In the present study, three major QTL and one stable QTL were detected in the two mapping populations. The pyramiding effect analysis was used to further verify the role of those QTL and analyze the relationships among them. The lines carrying a combination of positive alleles of two given QTL showed significantly greater SD than those from other lines. This indicated an additive effect between these two QTL increasing SD. Through the accumulation of elite genes, an improved SD phenotype can be constructed.",
+      "char_offset": 31489
+    },
+    {
+      "type": "paragraph",
+      "text": "Spike density, obtained by dividing SNS by SL, is an important factor in cultivating high-yield wheat. Therefore, theoretically, SD should be positively correlated with SNS and negatively correlated with SL. In the present study, the Pearson\u2019s correlation analysis showed that SD was indeed negatively correlated with KL and SL and positively correlated with SNS. Moreover, the correlation between SD with TKW was positive in the 2SY population.",
+      "char_offset": 32003
+    },
+    {
+      "type": "paragraph",
+      "text": "Most of the loci controlling spike traits of wheat were observed to be closely linked in previous studies. Major loci for SNS and SD in wheat identified by Fan et al. (2019) were clustered within the same confidence interval on chromosome 7AL. Similarly, Zhai et al. (2016) detected multiple spike QTL in two winter variety populations, among which QTL associated with SD and SL were included in the two genomic regions on chromosomes 2D and 5A, respectively. These studies revealed the potential for pleiotropism of corresponding traits and also revealed the genetic correlations among SD, SL, and SNS. In addition, higher SD may result in shorter kernels and smaller TKW, being consistent with the study reported by Qu et al. (2021) . Thus, it is essential to determine relationships among different characters to accelerate breeding process.",
+      "char_offset": 32450
+    },
+    {
+      "type": "paragraph",
+      "text": "Candidate genes were analyzed in the regions with major and stable QTL. Further analysis indicated that some genes are related to the regulation of plant growth, and they may affect the formation of the spike in wheat.",
+      "char_offset": 33296
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, TraesCS2D03G1128600 encodes an AP2-like transcription factor that plays a crucial role in flower development. Previous studies have reported that AP2 was involved in growth and development of the floral organs and seed development ( Kunst et al., 1989 ; Schultz and Haughn, 1993 ; Okamuro et al., 1997 ). In the physical interval of QSd.sau-2SY-7A.2 , we found that TraesCS7A03G1166400 encoding the UNUSUAL FLORAL ORGANS (UFO) protein was involved in floral meristem development and was a key regulatory factor in floral bud differentiation ( Levin and Meyerowitz, 1995 ). Traescs7A03G1173200 encodes a receptor-like protein kinase that regulates the expression of floral meristem formation factors and promotes cell proliferation to control flower development and organ growth in Arabidopsis thaliana ( Shpak et al., 2004 ).",
+      "char_offset": 33516
+    },
+    {
+      "type": "paragraph",
+      "text": "The candidate gene TRIDC5AG062530 on chromosome 5A controls flowering time by encoding a FRIGIDA-like protein, leading to a late flowering phenotype in plants ( Yang et al., 2012 ). TRIDC7BG064700 , a candidate gene for QSd.sau-AM-7B , encodes a DA2 protein. Xia et al. (2013) found that DA2 can regulate seed size by restricting cell proliferation in the integument.",
+      "char_offset": 34356
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, it is noteworthy that five genes identified in this study ( TraesCS7A03G1167800, TraesCS7A03G1169000, TraesCS7A03G1169300, TRIDC5AG062440 , and TRIDC5AG062450 ) encode cortical cell-delineating proteins. Previous research has revealed that cortical cell-delineating proteins affect plant morphological development by regulating cell division and expansion ( Fu et al., 2009 ). Therefore, these candidate genes may be of vital significance for understanding the genetic mechanism of spike development in wheat. They may also provide clues for further fine mapping of major QTL.",
+      "char_offset": 34725
+    },
+    {
+      "type": "paragraph",
+      "text": "In this study, three major QTL and a stable one, located on chromosomes 5A, 7A, 7B, and 2D, were identified in two independent wheat RIL populations. Based on genetic analysis, QSd.sau-2SY-2D, QSd.sau-2SY-7A.2 , and QSd.sau-AM-7B were found to overlap with reported SD loci. However, QSd.sau-AM-5A.2 identified in the tetraploid wheat RIL population may be a new QTL. Furthermore, the correlations between SD and other agronomic traits, and the candidate genes related to spike development in the corresponding loci were analyzed and discussed, laying a foundation for subsequent fine mapping.",
+      "char_offset": 35316
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+      "char_offset": 35911
+    },
+    {
+      "type": "paragraph",
+      "text": "The original contributions presented in the study are included in the article/ Supplementary Material , further inquiries can be directed to the corresponding authors.",
+      "char_offset": 36259
+    },
+    {
+      "type": "paragraph",
+      "text": "JY and HL performed the entire study and drafted this manuscript. SW did phenotype measurement and data analysis. WL and LG did field work and data analysis. QJ, GC, PQ, and YP helped with data collection and analysis. HT, YM, and MD helped with field work and phenotype measurement. LT, AH, YW, and YZ discussed results. XL guided the study and revised the manuscript. JM designed the experiments, guided the entire study, participated in data analysis, wrote, and extensively revised this manuscript. All authors participated in the research and approved the final manuscript.",
+      "char_offset": 36428
+    },
+    {
+      "type": "paragraph",
+      "text": "This work was supported by the National Natural Science Foundation of China (31971937 and 31970243), the Applied Basic Research Programs of Science and Technology Department of Sichuan Province (2021YJ0503), and the International Science and Technology Cooperation and Exchanges Program of Science and Technology Department of Sichuan Province (22GJHZ0244 and 2021YFH0083). The funders did not participate in the study design, data analysis, or preparation of the manuscript.",
+      "char_offset": 37008
+    },
+    {
+      "type": "paragraph",
+      "text": "We thank the referees for critical reading and revising this manuscript. We also thank MogoEdit company for language editing.",
+      "char_offset": 37485
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+      "char_offset": 37612
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2021.796397/full#supplementary-material",
+      "char_offset": 37786
+    },
+    {
+      "type": "paragraph",
+      "text": "Alvarez M. A. Tranquilli G. Lewis S. Kippes N. Dubcovsky J. ( 2016 ). Genetic and physical mapping of the earliness per se locus Eps-A m 1 in Triticum monococcum identifies EARLY FLOWERING 3 (ELF3) as a candidate gene. Funct. Integr. Genomics 16 365 \u2013 382 . 10.1007/s10142-016-0490-3",
+      "char_offset": 37945
+    },
+    {
+      "type": "paragraph",
+      "text": "Cui F. Ding A. Li J. Zhao C. Wang L. Wang X. et al ( 2012 ). QTL detection of seven spike-related traits and their genetic correlations in wheat using two related RIL populations. Euphytica 186 177 \u2013 192 . 10.1007/s10681-011-0550-7",
+      "char_offset": 38230
+    },
+    {
+      "type": "paragraph",
+      "text": "Ding P. Mo Z. Tang H. Mu Y. Deng M. Jiang Q. et al ( 2021 ). A major and stable QTL for wheat spikelet number per spike was validated in different genetic backgrounds. J. Integr. Agricult. 20 2 \u2013 13 . 10.1016/S2095-3119(20)63602-4",
+      "char_offset": 38463
+    },
+    {
+      "type": "paragraph",
+      "text": "Ellis M. H. Rebetzke G. J. Azanza F. Richards R. A. Spielmeyer W. ( 2005 ). Molecular mapping of gibberellin-responsive dwarfing genes in bread wheat. Theor. Appl. Genet. 111 423 \u2013 430 . 10.1007/s00122-005-2008-6",
+      "char_offset": 38695
+    },
+    {
+      "type": "paragraph",
+      "text": "Fan X. Cui F. Ji J. Zhang W. Zhao X. Liu J. et al ( 2019 ). Dissection of Pleiotropic QTL Regions Controlling Wheat Spike Characteristics Under Different Nitrogen Treatments Using Traditional and Conditional QTL Mapping. Front. Plant Sci. 10 1 \u2013 13 . 10.3389/fpls.2019.00187",
+      "char_offset": 38909
+    },
+    {
+      "type": "paragraph",
+      "text": "Faris J. D. Gill B. S. ( 2002 ). Genomic targeting and high-resolution mapping of the domestication gene Q in wheat. Genome 45 706 \u2013 718 . 10.1139/g02-036",
+      "char_offset": 39185
+    },
+    {
+      "type": "paragraph",
+      "text": "Faris J. D. Zhang Z. Garvin D. F. Xu S. S. ( 2014 ). Molecular and comparative mapping of genes governing spike compactness from wild emmer wheat. Mole. Genet. Genom. 289 641 \u2013 651 . 10.1007/s00438-014-0836-2",
+      "char_offset": 39341
+    },
+    {
+      "type": "paragraph",
+      "text": "Fellers J. P. Gill B. S. Fellers J. P. Brooks S. A. Gill B. S. Faris J. D. ( 2003 ). A bacterial artificial chromosome contig spanning the major domestication locus Q in wheat and identification of a candidate gene. Genetics 164 311 \u2013 321 . 10.1023/A:1022937713781",
+      "char_offset": 39551
+    },
+    {
+      "type": "paragraph",
+      "text": "Fu Y. Xu T. Zhu L. Wen M. Yang Z. ( 2009 ). A ROP GTPase Signaling Pathway Controls Cortical Microtubule Ordering and Cell Expansion in Arabidopsis . Curr. Biol. 19 1827 \u2013 1832 . 10.1016/j.cub.2009.08.052",
+      "char_offset": 39817
+    },
+    {
+      "type": "paragraph",
+      "text": "Guedira M. Xiong M. Hao Y. F. Johnson J. Harrison S. Marshall D. et al ( 2016 ). Heading Date QTL in Winter Wheat ( Triticum aestivum L.) Coincide with Major Developmental Genes VERNALIZATION1 and PHOTOPERIOD1 . PLoS One 11 1 \u2013 21 . 10.1371/journal.pone.0154242",
+      "char_offset": 40023
+    },
+    {
+      "type": "paragraph",
+      "text": "Heidari B. Sayed-Tabatabaei B. E. Saeidi G. Kearsey M. Suenaga K. ( 2011 ). Mapping QTL for grain yield, yield components, and spike features in a doubled haploid population of bread wheat. Genome 54 517 \u2013 527 . 10.1139/g11-017",
+      "char_offset": 40286
+    },
+    {
+      "type": "paragraph",
+      "text": "Jantasuriyarat C. Vales M. I. Watson C. J. W. Riera-Lizarazu O. ( 2004 ). Identification and mapping of genetic loci affecting the free-threshing habit and spike compactness in wheat ( Triticum aestivum L.). Theoret. Appl. Genet. 108 261 \u2013 273 . 10.1007/s00122-003-1432-8",
+      "char_offset": 40515
+    },
+    {
+      "type": "paragraph",
+      "text": "Ji G. Xu Z. Fan X. Zhou Q. Yu Q. Liu X. et al ( 2021 ). Identification of a major and stable QTL on chromosome 5A confers spike length in wheat ( Triticum aestivum L. ). Mol. Breed. 41 : 56 . 10.1007/s11032-021-01249-6",
+      "char_offset": 40788
+    },
+    {
+      "type": "paragraph",
+      "text": "Johnson E. B. Nalam V. J. Zemetra R. S. Riera-Lizarazu O. ( 2008 ). Mapping the compactum locus in wheat ( Triticum aestivum L.) and its relationship to other spike morphology genes of the Triticeae. Euphytica 163 193 \u2013 201 . 10.1007/s10681-007-9628-7",
+      "char_offset": 41008
+    },
+    {
+      "type": "paragraph",
+      "text": "Korzun V. R\u00f6der M. S. Ganal M. W. Worland A. J. Law C. N. ( 1998 ). Genetic analysis of the dwarfing gene ( Rht8 ) in wheat. Part I. Molecular mapping of Rht8 on the short arm of chromosome 2D of bread wheat ( Triticum aestivum L.). Theoret. Appl. Genet. 96 1104 \u2013 1109 . 10.1007/s001220050845",
+      "char_offset": 41261
+    },
+    {
+      "type": "paragraph",
+      "text": "Kuang C. Zhao X. Yang K. Zhang Z. Ding L. Pu Z. et al ( 2020 ). Mapping and characterization of major QTL for spike traits in common wheat. Physiol. Mole. Biol. Plants 26 1295 \u2013 1307 . 10.1007/s12298-020-00823-0",
+      "char_offset": 41556
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumar N. Kulwal P. L. Balyan H. S. Gupta P. K. ( 2007 ). QTL mapping for yield and yield contributing traits in two mapping populations of bread wheat. Mole. Breed. 19 163 \u2013 177 . 10.1007/s11032-006-9056-8",
+      "char_offset": 41769
+    },
+    {
+      "type": "paragraph",
+      "text": "Kunst L. Klenz J. E. Martinez-Zapater J. Haughn G. W. ( 1989 ). AP2 Gene Determines the Identity of Perianth Organs in Flowers of Arabidopsis thaliana . Plant Cell 1 1195 \u2013 1208 . 10.2307/3868917",
+      "char_offset": 41976
+    },
+    {
+      "type": "paragraph",
+      "text": "Levin J. Z. Meyerowitz E. M. ( 1995 ). UFO : an Arabidopsis gene involved in both floral meristem and floral organ development. Plant Cell 7 529 \u2013 548 . 10.1105/tpc.7.5.529",
+      "char_offset": 42173
+    },
+    {
+      "type": "paragraph",
+      "text": "Li C. Bai G. Carver B. F. Chao S. Wang Z. ( 2016 ). Mapping quantitative trait loci for plant adaptation and morphology traits in wheat using single nucleotide polymorphisms. Euphytica 208 299 \u2013 312 . 10.1007/s10681-015-1594-x",
+      "char_offset": 42347
+    },
+    {
+      "type": "paragraph",
+      "text": "Li C. Tang H. Luo W. Zhang X. Mu Y. Deng M. et al ( 2020 ). A novel, validated, and plant height-independent QTL for spike extension length is associated with yield-related traits in wheat. Theoret. Appl. Genet. 133 3381 \u2013 3393 . 10.1007/s00122-020-03675-0",
+      "char_offset": 42575
+    },
+    {
+      "type": "paragraph",
+      "text": "Li T. Deng G. Su Y. Yang Z. Tang Y. Wang J. et al ( 2021 ). Identification and validation of two major QTLs for spike compactness and length in bread wheat ( Triticum aestivum L.) showing pleiotropic effects on yield-related traits. Theor. Appl. Genet. 2013 1 \u2013 17 . 10.1007/s00122-021-03918-8",
+      "char_offset": 42833
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu D. Yen C. Yang J. Zheng Y. Lan X. ( 1999 ). The chromosomal locations of high crossability genes in tetraploid wheat Triticum turgidum L. cv. Ailanmai native to Sichuan, China. Euphytica 108 79 \u2013 82 . 10.1023/A:1003691925501",
+      "char_offset": 43128
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu H. Ma J. Tu Y. Zhu J. Ding P. Liu J. et al ( 2019 ). Several stably expressed QTL for spike density of common wheat ( Triticum aestivum ) in multiple environments. Plant Breed. 139 284 \u2013 294 . 10.1111/pbr.12782",
+      "char_offset": 43358
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu H. Tang H.-P. Luo W. Mu Y. Jiang Q.-T. Liu Y.-X. et al ( 2021 ). Genetic dissection of wheat uppermost-internode diameter and its association with agronomic traits in five recombinant inbred line populations at various field environments. J. Integr. Agricult. 20 2849 \u2013 2861 . 10.1016/S2095-3119(20)63412-8",
+      "char_offset": 43574
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu J. Tang H. Qu X. Liu H. Li C. Tu Y. et al ( 2020 ). A novel, major, and validated QTL for the effective tiller number located on chromosome arm 1BL in bread wheat. Plant Mole. Biol. 104 173 \u2013 185 . 10.1007/s11103-020-01035-6",
+      "char_offset": 43886
+    },
+    {
+      "type": "paragraph",
+      "text": "Luo M. Gu Y. Q. Puiu D. Wang H. Twardziok S. O. Deal K. R. et al ( 2017 ). Genome sequence of the progenitor of the wheat D genome Aegilops tauschii . Nature 551 498 \u2013 502 . 10.1038/nature24486",
+      "char_offset": 44116
+    },
+    {
+      "type": "paragraph",
+      "text": "Luo W. Ma J. Zhou X. Sun M. Kong X. Wei Y. et al ( 2016 ). Identification of Quantitative Trait Loci Controlling Agronomic Traits Indicates Breeding Potential of Tibetan Semiwild Wheat ( Triticum aestivum ssp. tibetanum ). Crop Sci. 56 2410 \u2013 2420 . 10.2135/cropsci2015.11.0700",
+      "char_offset": 44311
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma J. Qin N. Cai B. Chen G. Ding P. Zhang H. et al ( 2019b ). Identification and validation of a novel major QTL for all-stage stripe rust resistance on 1BL in the winter wheat line 20828. Theor. Appl. Genet. 132 1363 \u2013 1373 . 10.1007/s00122-019-03283-7",
+      "char_offset": 44590
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma J. Ding P. Liu J. Li T. Zou Y. Habib A. et al ( 2019a ). Identification and validation of a major and stably expressed QTL for spikelet number per spike in bread wheat. Theor. Appl. Genet. 132 3155 \u2013 3167 . 10.1007/s00122-019-03415-z",
+      "char_offset": 44845
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma Z. Zhao D. Zhang C. Zhang Z. Xue S. Lin F. et al ( 2007 ). Molecular genetic analysis of five spike-related traits in wheat using RIL and immortalized F 2 populations. Mol. Genet. Genomics 277 31 \u2013 42 . 10.1007/s00438-006-0166-0",
+      "char_offset": 45083
+    },
+    {
+      "type": "paragraph",
+      "text": "McIntosh R. A. Yamazaki Y. Dubcovsky J. Rogers W. Morris C. Appels R. et al ( 2013 ). \u201c Catalogue of gene symbols for wheat ,\u201d in Proceedings of the 12th International Wheat Genetics Symposium , 8 \u2013 13 September 2013 , Yokohama .",
+      "char_offset": 45316
+    },
+    {
+      "type": "paragraph",
+      "text": "Mo Z. Zhu J. Wei J. Zhou J. Xu Q. Tang H. et al ( 2021 ). The 55K SNP-Based Exploration of QTLs for Spikelet Number Per Spike in a Tetraploid Wheat (T riticum turgidum L.) Population: Chinese Landrace \u201cAilanmai\u201d \u00d7 Wild Emmer. Front. Plant Sci. 12 1 \u2013 14 . 10.3389/fpls.2021.732837",
+      "char_offset": 45547
+    },
+    {
+      "type": "paragraph",
+      "text": "Okamuro J. K. Szeto W. Jofuku L. ( 1997 ). Photo and hormonal control of meristem identity in the Arabidopsis flower mutants apetala2 and apetala1. Plant Cell 9 37 \u2013 47 . 10.2307/3870369",
+      "char_offset": 45829
+    },
+    {
+      "type": "paragraph",
+      "text": "Prabhakararao M. V. ( 1977 ). Mapping of the sphaerococcum gene \u2018 S \u2019 on chromosome 3D of wheat. Cereal Res. Comm. 5 15 \u2013 17 .",
+      "char_offset": 46017
+    },
+    {
+      "type": "paragraph",
+      "text": "Qu X. Liu J. Xie X. Xu Q. Tang H. Mu Y. et al ( 2021 ). Genetic Mapping and Validation of Loci for Kernel-Related Traits in Wheat ( Triticum aestivum L.). Front. Plant Sci. 12 1 \u2013 17 . 10.3389/fpls.2021.667493",
+      "char_offset": 46145
+    },
+    {
+      "type": "paragraph",
+      "text": "Schultz E. A. Haughn G. W. ( 1993 ). Genetic analysis of the floral initiation process (FLIP) in Arabidopsis. Development 119 745 \u2013 765 . 10.1002/cyto.990140816",
+      "char_offset": 46356
+    },
+    {
+      "type": "paragraph",
+      "text": "Shpak E. D. Berthiaume C. T. Hill E. J. Torii K. U. ( 2004 ). Synergistic interaction of three ERECTA-family receptor-like kinases controls Arabidopsis organ growth and flower development by promoting cell proliferation. Development 131 1491 \u2013 1501 . 10.1242/dev.01028",
+      "char_offset": 46518
+    },
+    {
+      "type": "paragraph",
+      "text": "Simons K. J. Fellers J. P. Trick H. N. Zhang Z. Tai Y.-S. Gill B. S. et al ( 2006 ). Molecular Characterization of the Major Wheat Domestication Gene Q . Genetics 172 547 \u2013 555 . 10.1534/genetics.105.044727",
+      "char_offset": 46788
+    },
+    {
+      "type": "paragraph",
+      "text": "Tao Y. Yi X. Lin Y. Wang Z. Wu F. Jiang X. et al ( 2019 ). Quantitative trait locus mapping for panicle exsertion length in common wheat using two related recombinant inbred line populations. Euphytica 215 104 \u2013 117 . 10.1007/s10681-019-2433-2",
+      "char_offset": 46996
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang J. Liu W. Wang H. Li L. Wu J. Yang X. et al ( 2011 ). QTL mapping of yield-related traits in the wheat germplasm 3228. Euphytica 177 277 \u2013 292 . 10.1007/s10681-010-0267-z",
+      "char_offset": 47241
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang X. Guan P. Xin M. Yongfa W. Chen X. Zhao A. et al ( 2021 ). Genome-wide association study identifies QTL for thousand grain weight in winter wheat under normal- and late-sown stressed environments . Theor. Appl. Genet. 134 , 143 \u2013 157 . 10.1007/s00122-020-03687-w",
+      "char_offset": 47418
+    },
+    {
+      "type": "paragraph",
+      "text": "Xia T. Li N. Dumenil J. Li J. Kamenski A. Bevan M. W. et al ( 2013 ). The ubiquitin receptor DA1 interacts with the E3 ubiquitin ligase DA2 to regulate seed and organ size in Arabidopsis. Plant Cell 25 3347 \u2013 3359 . 10.1105/tpc.113.115063",
+      "char_offset": 47688
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu B. J. Chen Q. Zheng T. Jiang Y. F. Qiao Y. Y. Guo Z. R. et al ( 2018 ). An Overexpressed Q Allele Leads to Increased Spike Density and Improved Processing Quality in Common Wheat (Triticum aestivum) . G3 Genes Genomes Genetics 8 771 \u2013 778 . 10.1534/g3.117.300562",
+      "char_offset": 47928
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang Q. Kang J. Zhang T. Sun Y. ( 2012 ). Expression of the alfalfa FRIGIDA -Like Gene, MsFRI-L delays flowering time in transgenic Arabidopsis thaliana. Mole. Biol. Rep. 40 2083 \u2013 2090 . 10.1007/s11033-012-2266-8",
+      "char_offset": 48195
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhai H. Feng Z. Li J. Liu X. Xiao S. Ni Z. et al ( 2016 ). QTL Analysis of Spike Morphological Traits and Plant Height in Winter Wheat ( Triticum aestivum L.) Using a High-Density SNP and SSR-Based Linkage Map. Front. Plant Sci. 7 1 \u2013 14 . 10.3389/fpls.2016.01617",
+      "char_offset": 48410
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao C. Cui F. Fan Z. Li J. Ding A. Wang H. ( 2013 ). Genetic analysis of important loci in the winter wheat backbone parent Aimengniu-V. Austr. J. Crop Sci. 7 182 \u2013 188 .",
+      "char_offset": 48675
+    },
+    {
+      "type": "paragraph",
+      "text": "Zheng X. Wen X. Qiao L. Zhao J. Zhang X. Li X. et al ( 2019 ). A novel QTL QTrl.saw-2D.2 associated with the total root length identified by linkage and association analyses in wheat ( Triticum aestivum L.). Planta 250 129 \u2013 143 . 10.1007/s00425-019-03154-x",
+      "char_offset": 48848
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhou J. Li C. You J. Tang H. Mu Y. Jiang Q. et al ( 2021 ). Genetic identification and characterization of chromosomal regions for kernel length and width increase from tetraploid wheat. BMC Genomics 22 1 \u2013 12 . 10.1186/s12864-021-08024-z",
+      "char_offset": 49107
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhou Y. Conway B. Miller D. Marshall D. Cooper A. Murphy P. et al ( 2017 ). Quantitative Trait Loci Mapping for Spike Characteristics in Hexaploid Wheat. Plant Genome 10 1 \u2013 15 . 10.3835/plantgenome2016.10.0101",
+      "char_offset": 49347
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu T. Wang L. Rimbert H. Rodriguez J. C. Deal K. R. De Oliveira R. et al ( 2021 ). Optical maps refine the bread wheat Triticum aestivum cv. Chinese Spring genome assembly. Plant J. 107 303 \u2013 314 . 10.1111/tpj.15289",
+      "char_offset": 49559
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhu T. Wang L. Rodriguez J. Deal K. Avni R. Distelfeld A. et al ( 2019 ). Improved Genome Sequence of Wild Emmer Wheat Zavitan with the Aid of Optical Maps. G3-Genes Genomes Genetics 9 619 \u2013 624 . 10.1534/g3.118.200902",
+      "char_offset": 49777
+    },
+    {
+      "type": "paragraph",
+      "text": "spike density , quantitative trait loci , wheat , wheat55K SNP array , pyramiding analysis",
+      "char_offset": 49997
+    },
+    {
+      "type": "paragraph",
+      "text": "You J, Liu H, Wang S, Luo W, Gou L, Tang H, Mu Y, Deng M, Jiang Q, Chen G, Qi P, Peng Y, Tang L, Habib A, Wei Y, Zheng Y, Lan X and Ma J (2021) Spike Density Quantitative Trait Loci Detection and Analysis in Tetraploid and Hexaploid Wheat Recombinant Inbred Line Populations . Front. Plant Sci. 12:796397. doi: 10.3389/fpls.2021.796397",
+      "char_offset": 50089
+    },
+    {
+      "type": "paragraph",
+      "text": "Xiaoli Fan, Chengdu Institute of Biology, Chinese Academy of Sciences (CAS), China; Jianhui Wu, Northwest A&F University, China",
+      "char_offset": 50426
+    },
+    {
+      "type": "paragraph",
+      "text": "\u00a9 2021 You, Liu, Wang, Luo, Gou, Tang, Mu, Deng, Jiang, Chen, Qi, Peng, Tang, Habib, Wei, Zheng, Lan and Ma.",
+      "char_offset": 50555
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "char_offset": 50665
+    },
+    {
+      "type": "paragraph",
+      "text": "*Correspondence: Xiujin Lan, lanxiujin@163.com Jian Ma, jianma@sicau.edu.cn",
+      "char_offset": 51116
+    },
+    {
+      "type": "paragraph",
+      "text": "\u2020These authors have contributed equally to this work",
+      "char_offset": 51193
+    },
+    {
+      "type": "paragraph",
+      "text": "This article was submitted to Crop and Product Physiology, a section of the journal Frontiers in Plant Science",
+      "char_offset": 51247
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.",
+      "char_offset": 51359
+    }
+  ],
+  "labels": [
+    "has_table",
+    "yield_table"
+  ],
+  "document_id": "doc-5289855498847fe7"
+}

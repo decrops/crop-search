@@ -1,0 +1,96 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 550,
+      "unit": "seeds/m2",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat seeds were sown on 10th May 2018 and 23rd April 2019. Seed rates were 550 seeds m−2 as common in the region.",
+      "claim_summary": "Spring wheat sown at 550 seeds/m2, common for Central Sweden.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 140,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "At sowing, 140 kg ha−1 of N, 24 kg ha−1 of P and 46 kg ha−1 of K were applied.",
+      "claim_summary": "140 kg/ha N applied at sowing to spring wheat.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 24,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "At sowing, 140 kg ha−1 of N, 24 kg ha−1 of P and 46 kg ha−1 of K were applied.",
+      "claim_summary": "24 kg/ha P applied at sowing to spring wheat.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 46,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "At sowing, 140 kg ha−1 of N, 24 kg ha−1 of P and 46 kg ha−1 of K were applied.",
+      "claim_summary": "46 kg/ha K applied at sowing to spring wheat.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "numeric",
+      "numeric_value": 5.8,
+      "unit": "pH",
+      "qualifier": "observed",
+      "evidence_text": "the pH (H2O) was 5.8 and the particle density was 2.61 Mg m−3",
+      "claim_summary": "Silt loam Cambisol soil for spring wheat had pH(H2O) of 5.8 in upper 0.3 m.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.texture_suitability",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The soil is classiﬁed as Cambisol (WRB, 2014) with a silt loam texture (16% clay, 70% silt, 14% sand) and an organic matter of 4% in the uppermost 0.3 m.",
+      "claim_summary": "Spring wheat grown on silt loam Cambisol (16% clay, 70% silt, 14% sand), 4% organic matter.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.compaction_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "The critical value of penetration resistance for being a major limitation to root growth may vary... but is assumed to be between 2 and 3.5 MPa",
+      "claim_summary": "Soil penetration resistance of 2-3.5 MPa is critical limitation for wheat root growth; high penetration resistance (not bulk density) reduces wheat growth and yield.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.drainage_requirement",
+      "value_type": "numeric",
+      "numeric_value": 10,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "Air-ﬁlled porosity... a threshold value of <10% is regarded as critical for plant growth (Lipiec and Hatano, 2003).",
+      "claim_summary": "Soil air-filled porosity below 10% is critical for wheat growth (aeration/drainage threshold).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 99,
+      "range_max": 122,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "harvested with a combine harvester on 17th August 2018 (i.e., 99 days after sowing) and 23rd August 2019 (i.e., 122 days after sowing)",
+      "claim_summary": "Spring wheat reached maturity/harvest at 99-122 days after sowing across two seasons in Central Sweden.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

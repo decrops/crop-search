@@ -1,0 +1,44 @@
+{"claims": [
+  {
+    "parameter_id": "water.waterlogging_sensitivity",
+    "value_type": "range",
+    "range_min": 20,
+    "range_max": 50,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Overall waterlogging affects 10 to 15 million ha of wheat cultivated area, causing annual yield losses of 20 to 50%",
+    "claim_summary": "Waterlogging causes 20-50% annual wheat yield losses; wheat is considered susceptible to waterlogging.",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "water.waterlogging_sensitivity",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Several authors have identified the wheat reproductive phases, including the stem elongation stage to anthesis and post-anthesis, as the plants' most sensitive time to waterlogging stress... The highest tolerance to waterlogging was found in the period after anthesis followed by the jointing stage",
+    "claim_summary": "Wheat is most sensitive to waterlogging during stem elongation to anthesis (reproductive phases); highest tolerance is post-anthesis and jointing.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "soil.ph_range",
+    "value_type": "range",
+    "range_min": 6.5,
+    "range_max": 7.0,
+    "unit": "pH",
+    "qualifier": "optimum",
+    "evidence_text": "The optimal pH range for the vast majority of cultivated plants is 6.5 to 7 and it is considered ideal for nutrient availability. Nonetheless, values between 5.5 and 8 still provide favorable growth conditions",
+    "claim_summary": "Optimal soil pH for cultivated plants (incl. wheat) is 6.5-7.0, with 5.5-8 still favorable.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "root.root_shoot_ratio",
+    "value_type": "range",
+    "range_min": 0.2,
+    "range_max": 0.4,
+    "unit": "text",
+    "qualifier": "observed",
+    "evidence_text": "In response to waterlogging, the root:shoot ratio in wheat can decrease from 0.4 to 0.2, reflecting the stronger decrease of root dry mass (up to 62%) when compared with shoot (up to 33%)",
+    "claim_summary": "Wheat root:shoot ratio decreases from 0.4 to 0.2 under waterlogging due to greater root biomass loss.",
+    "extraction_confidence": "high"
+  }
+]}

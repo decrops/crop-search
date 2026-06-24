@@ -1,0 +1,2276 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Nutr. , 10 February 2023 Sec. Nutrition and Food Science Technology Volume 10 - 2023 | https://doi.org/10.3389/fnut.2023.1105207"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "Nutrition and Food Science Technology",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Reviewers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Nutr. , 10 February 2023 Sec. Nutrition and Food Science Technology Volume 10 - 2023 | https://doi.org/10.3389/fnut.2023.1105207"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 1,
+      "heading": "Mapping of the QTLs governing grain micronutrients and thousand kernel weight in wheat ( Triticum aestivum L.) using high density SNP markers",
+      "text": "K K Karthik Kumar Manjunath 1 H K Hari Krishna 1 * N B Narayana Bhat Devate 1 V P V. P. Sunilkumar 1 D C Divya Chauhan 1 S S Shweta Singh 1 C N C. N. Mishra 2 J B J. B. Singh 3 N S Nivedita Sinha 1 N J Neelu Jain 1 G P Gyanendra Pratap Singh 4 +3 more P K Pradeep Kumar Singh 1 * 1. Division of Genetics, ICAR-Indian Agricultural Research Institute, New Delhi, India 2. ICAR-Indian Institute of Wheat and Barley Research, Karnal, India 3. Regional Station, ICAR-Indian Agricultural Research Institute, Indore, India 4. ICAR-National Bureau of Plant Genetic Resources, New Delhi, India See more Article metrics View details Abstract Biofortification is gaining importance globally to improve human nutrition through enhancing the micronutrient content, such as vitamin A, iron, and zinc, in staple food crops. The present study aims to identify the chromosomal regions governing the grain iron concentration (GFeC), grain zinc concentration (GZnC), and thousand kernel weight (TKW) using recombinant inbred lines (RILs) in wheat, developed from a cross between HD3086 and HI1500. The experiment was conducted in four different production conditions at Delhi viz. , control, drought, heat, and combined heat and drought stress and at Indore under drought stress. Grain iron and zinc content increased under heat and combined stress conditions, while thousand kernel weight decreased. Medium to high heritability with a moderate correlation between grain iron and zinc was observed. Out of 4,106 polymorphic markers between the parents, 3,407 SNP markers were used for linkage map construction which spanned over a length of 14791.18 cm. QTL analysis identified a total of 32 chromosomal regions governing the traits under study, which includes 9, 11, and 12 QTLs for GFeC, GZnC, and TKW, respectively. A QTL hotspot was identified on chromosome 4B which is associated with grain iron, grain zinc, and thousand kernel weight explaining the phenotypic variance of 29.28, 10.98, and 17.53%, respectively. Similarly, common loci were identified on chromosomes 4B and 4D for grain iron, zinc, and thousand kernel weight. In silico analysis of these chromosomal regions identified putative candidate genes that code for proteins such as Inositol 1,3,4-trisphosphate 5/6-kinase, P-loop containing nucleoside triphosphate hydrolase, Pleckstrin homology (PH) domains, Serine-threonine/tyrosine-protein kinase and F-box-like domain superfamily proteins which play role in many important biochemical or physiological process. The identified markers linked to QTLs can be used in MAS once successfully validated. Introduction Hidden hunger, often referred as micronutrient deficiency, occurs due to inadequate intake of minerals like iron, zinc, iodine, and vitamin A. The main cause of hidden hunger is the consumption of energy-rich but nutrient-poor diet. According to reports, 2 billion people suffer from micronutrient deficiency worldwide ( 1 ). The devastating effects of malnutrition are seen in underdeveloped and developing countries with low-income levels and reduced dietary diversification ( 2 ). Essential micronutrients are required in minute quantities for a healthy life, otherwise, deficiencies will lead to morbidity and mortality ( 3 ). Among essential micronutrients, iron is the most important element needed for oxygen transportation, synthesis and repair of DNA ( 4 ). The deficiency of iron causes anemia around 32.9% of people suffer from anemia worldwide ( 5 ). The recommended average daily intake of iron is 27 mg per day for pregnant women, 18 mg for women, 9 mg for lactating mother, and 8 mg for men ( 6 ). Zinc is a trace mineral that acts as a catalyst for many enzymes, restore impaired energy metabolism, and helps to regulate gene expression ( 7 ). Zinc deficiency leads to alopecia, poor growth, and sexual dysfunction ( 8 ). It\u2019s reported that 17.3% of the world\u2019s population is affected by zinc deficiency ( 9 ). The average recommended intake of zinc is 8 mg for women, 11 "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Biofortification is gaining importance globally to improve human nutrition through enhancing the micronutrient content, such as vitamin A, iron, and zinc, in staple food crops. The present study aims to identify the chromosomal regions governing the grain iron concentration (GFeC), grain zinc concentration (GZnC), and thousand kernel weight (TKW) using recombinant inbred lines (RILs) in wheat, developed from a cross between HD3086 and HI1500. The experiment was conducted in four different production conditions at Delhi viz. , control, drought, heat, and combined heat and drought stress and at Indore under drought stress. Grain iron and zinc content increased under heat and combined stress conditions, while thousand kernel weight decreased. Medium to high heritability with a moderate correlation between grain iron and zinc was observed. Out of 4,106 polymorphic markers between the parents, 3,407 SNP markers were used for linkage map construction which spanned over a length of 14791.18 cm. QTL analysis identified a total of 32 chromosomal regions governing the traits under study, which includes 9, 11, and 12 QTLs for GFeC, GZnC, and TKW, respectively. A QTL hotspot was identified on chromosome 4B which is associated with grain iron, grain zinc, and thousand kernel weight explaining the phenotypic variance of 29.28, 10.98, and 17.53%, respectively. Similarly, common loci were identified on chromosomes 4B and 4D for grain iron, zinc, and thousand kernel weight. In silico analysis of these chromosomal regions identified putative candidate genes that code for proteins such as Inositol 1,3,4-trisphosphate 5/6-kinase, P-loop containing nucleoside triphosphate hydrolase, Pleckstrin homology (PH) domains, Serine-threonine/tyrosine-protein kinase and F-box-like domain superfamily proteins which play role in many important biochemical or physiological process. The identified markers linked to QTLs can be used in MAS once successfully validated."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Hidden hunger, often referred as micronutrient deficiency, occurs due to inadequate intake of minerals like iron, zinc, iodine, and vitamin A. The main cause of hidden hunger is the consumption of energy-rich but nutrient-poor diet. According to reports, 2 billion people suffer from micronutrient deficiency worldwide ( 1 ). The devastating effects of malnutrition are seen in underdeveloped and developing countries with low-income levels and reduced dietary diversification ( 2 ). Essential micronutrients are required in minute quantities for a healthy life, otherwise, deficiencies will lead to morbidity and mortality ( 3 ). Among essential micronutrients, iron is the most important element needed for oxygen transportation, synthesis and repair of DNA ( 4 ). The deficiency of iron causes anemia around 32.9% of people suffer from anemia worldwide ( 5 ). The recommended average daily intake of iron is 27 mg per day for pregnant women, 18 mg for women, 9 mg for lactating mother, and 8 mg for men ( 6 ). Zinc is a trace mineral that acts as a catalyst for many enzymes, restore impaired energy metabolism, and helps to regulate gene expression ( 7 ). Zinc deficiency leads to alopecia, poor growth, and sexual dysfunction ( 8 ). It\u2019s reported that 17.3% of the world\u2019s population is affected by zinc deficiency ( 9 ). The average recommended intake of zinc is 8 mg for women, 11 mg for men and pregnant women, 12 mg for lactating mother ( 6 ). Wheat is a staple food crop and the second-largest grain in both acreage and production worldwide. It\u2019s the second largest consumed food grain and accounts for 20% of protein and calories ( 10 ). The wheat cereal-based diets fail to provide the necessary amount of minerals like iron and zinc ( 11 ). Hidden hunger is more pronounced in the areas with cereals as sole source of food supply, low dietary diversification and unavailability of biofortified varieties ( 12 ). Biofortification is the most ideal as it is cost-effective and sustainable way to improve grain micronutrient concentration ( 13 ). Therefore, attention should be given to develop biofortified varieties using breeding and molecular techniques ( 14 ). Enrichment of grain micronutrients through traditional breeding approach is difficult because of polygenic inheritance and interaction with environment. With the advent of novel molecular techniques breeders have put a step forward in utilizing markers for assessment of genetic diversity, germplasm characterization, identification of QTLs and their utilization in practical plant breeding. Identification of loci governing GFeC and GZnC with high PVE and the markers linked to them will be very useful in molecular breeding. Several QTLs have been identified previously from the populations derived from crosses between tetraploid and hexaploid wheat varieties ( 15 \u2013 18 ). Few biofortified wheat varieties released so far in India include, WB2 and HPBW 01 (high Zn and Fe), PBW1Zn (high Zn content), Pusa Tejas and Pusa Ujala (high protein content along with Zn) ( 19 ). However, only a few QTLs are identified in wheat with high phenotypic variance and are hardly being used in Indian molecular breeding for grain nutrient improvement. Hence, the present study aims to identify the novel and stable QTLs for grain zinc concentration, grain iron concentration and thousand kernel weight using mapping population derived from a cross between HD3086 and HI1500. The study was conducted across the environments viz, Delhi and Indore, in control and stress conditions (drought, heat, and combined drought and heat)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Materials and methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Plant material and environment",
+      "text": "The mapping population consists of 166 recombinant inbred lines (RILs) derived from a cross between HD3086 and HI1500. HD3086 is an Indian high-yielding hexaploid wheat variety suitable for timely sown, irrigated condition developed at IARI, New Delhi ( 20 , 21 ). HI1500 is a popular variety recommended for cultivation under restricted irrigation in central zone harboring many important traits related to drought and heat tolerance ( 21 , 22 ). The variety HI1500 has higher GFeC, GZnC, and TKW (44.50 mg/kg GFeC, 53.50 mg/kg GZnC, and 35.88 g TKW) in all the conditions as compared to HD3086 (38.60 mg/kg GFeC, 38.60 mg/kg GZnC, and 35.58 g TKW). The RILs population along with parents were evaluated under four conditions namely timely sown irrigation (TSIR) taken as control, timely sown restricted irrigation (TSRI), late sown irrigation (LSIR), and late sown restricted irrigation (LSRI) conditions at Delhi, and under restricted irrigation condition at Indore. Two irrigations were given in TSRI, one at germination and other at 21 days after sowing; six irrigations were provided during cropping period in irrigated condition (TSIR). Late sown trials (LSIR and LSRI) were planted in second fortnight of December to expose plants to heat stress, and under LSRI condition irrigation was withheld to expose plants to both terminal heat and drought stress. The genotypes were evaluated in an alpha-lattice design with two replications. Each genotype was sown in 3 rows of 1 m each with 22.5 cm distance between rows and 10 cm distance between plants. Uniform agronomic practises were practiced for proper establishment of crop stand. The details of the sowing conditions and locations are presented in Table 1 . TABLE 1 Location Condition Treatment Delhi Timely sown (first fortnight of November) Irrigated (6 irrigations) Control Restricted irrigation (2 irrigations) Drought Late sown (second fortnight of December) Irrigated (6 irrigations) Heat Restricted irrigation (2 irrigation) Combined stress Indore Timely sown (first fortnight of November) Restricted irrigation (2 irrigations) Drought Details of the experiment locations, sowing conditions of the mapping population."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Phenotyping for grain micronutrients and thousand kernel weight",
+      "text": "From each plot, 20 random spikes were harvested and spikes from each plot were threshed separately. While cleaning, care was taken to prevent metal and dust contamination. The grain iron concentration (GFeC) and grain zinc concentration (GZnC) were measured using Energy Dispersive X-ray Fluorescence (ED-XRF) machine (model X-Supreme 8000 M/s Oxford Inc., USA). The thousand kernel weight (TKW) was recorded by counting 1,000 grains manually and weighted with an electronic balance."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Phenotypic data analysis",
+      "text": "Analysis of variance was done using PBTools v1.4 software ( 23 ). Heritability and correlations among traits were calculated using the MetaRv6.0 (Multi Environment Trial Analysis with R) software ( 24 ). From phenotypic data best linear unbiased predictors (BLUPs) were calculated for the individual conditions and combined across all production conditions and environments for further QTL mapping."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "DNA extraction and genotyping",
+      "text": "DNA was extracted from 21 days old seedling using the CTAB method ( 25 ). Genomic DNA quality was determined using 0.8% agarose gel electrophoresis with \u03bb DNA as the standard and quantified using nanodrop. The 35K SNP Axiom breeders\u2019 array was used for genotyping of parents and the RILs population."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Linkage map construction",
+      "text": "A total of 4,106 SNP markers were polymorphic between the two parents. Among these, the redundant markers were removed by binning and markers deviating from mendelian segregation were deleted. Finally, a set of 3,407 non-redundant SNP markers spanning all over the chromosomes were used for the linkage map construction using IciMapping v4.2 software ( 26 ). Kosambi mapping function was used to calculate map distances between markers. Marker grouping was done using a rec value of 0.37 and the linear order of markers was determined. Ordering is done using function K-optimality 3-optMAP with NN initials of 10. Rippling was carried out using recombination with a window size of 5 cm. The final generated linkage map is used for QTL mapping."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "QTL analysis and identification of candidate genes",
+      "text": "QTL mapping was performed using IciMapping 4.2 software ( 26 ) with inclusive composite interval mapping (ICIM-ADD) model ( 27 ). BLUP values were calculated in the individual environment and pooled over environments along with genotypic data used for QTL analysis. \u201cMean replacement\u201d was used to address missing phenotypic data. The walking speed of 1.0 cm, with P = 0.001 was used in stepwise regression. The LOD score of 3.0 along with 1,000 permutations was chosen for the declaration of the QTL. Identified QTLs were named following standard nomenclature available in the catalog of wheat gene symbols ( 28 ). The candidate genes (CGs) were identified based on the positions of flanking markers of the QTL. BLAST search was done to identify putative candidate genes in the physical location of markers against IWGSC wheat ( Triticum aestivum L.) reference genome embedded in the Ensembl Plants database. 1"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Results",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Variability, heritability, and correlations",
+      "text": "The parents of RIL population showed promising variability for GFeC, GZnC, and TKW. The variety HI1500 had higher GFeC, GZnC, and TKW (44.50 mg/kg GFeC, 53.50 mg/kg GZnC, and 35.88 g TKW) in all the conditions as compared to HD3086 (38.60 mg/kg GFeC, 38.60 mg/kg GZnC, and 35.58 g TKW). The parental mean difference for GFeC, GZnC and TKW was given in Table 2 . TABLE 2 Location Condition Genotype GFeC (mg/kg) GZnC (mg/kg) TKW (g) Delhi TSIR HD3086 38.60 38.60 35.58 HI1500 44.50 53.50 35.88 TSRI HD3086 35.80 29.20 36.18 HI1500 41.60 47.60 35.23 LSIR HD3086 36.80 53.90 23.40 HI1500 40.00 64.60 32.70 LSRI HD3086 39.00 46.20 28.60 HI1500 39.10 50.00 24.28 Indore TSRI HD3086 41.30 33.20 41.50 HI1500 40.80 41.70 47.70 Parental difference for the grain iron, zinc content, and thousand kernel weight. The mean TKW of the RILs was highest in the timely sown condition compared to drought, heat and combined stress, whereas the GFeC and GZnC were low under control condition as compared to combined stress. The mean TKW in control was 38.28 g, which decreased to 37.36 g under drought, 29.99 g under heat, and 25.49 g under combined stress condition, while TKW in restricted irrigated condition at Indore increased to 41.88 g ( Table 3 ). The GFeC under control was 39.22 mg/kg and increased to 41.51 mg/kg under drought, 40.75 mg/kg under combined stress, and 42.05 mg/kg under drought in the Indore, in contrast it was reduced to 38.41 mg/kg in heat stress. The GZnC in control was 43.31 mg/kg and increased to 59.33 mg/kg under heat and 50.44 mg/kg under combined stress, decreased to 40.46 and 37.77 mg/kg under drought condition in Delhi and Indore, respectively. Violin plots depicting GFeC, GZnC and TKW under all the studied condition are given in the Figure 1 . The mean decrease in TKW and increase in GFeC and GZnC was found significant ( p -value of 0.05) using one tailed and two tailed z -test ( Table 3 ). Analysis of variance showed significant variation among the RILs for the traits GFeC, GZnC, and TKW in all the conditions viz ., control (TSIR), drought (TSRI), heat (LSIR), and combined stress (LSRI) in Delhi and drought stress (TSRI) in Indore. TABLE 3 Location Condition Trait Grand mean Range LSD CV GCV h 2 Mean increase/ Reduction (%) z -test Delhi TSIR GFeC 39.22 35.8\u201342.8 3.13 5.66 2.38 0.49 GZnC 43.31 34.43\u201354.67 7.57 11.54 16.71 0.57 TKW 38.28 27.03\u201346.89 5.44 8.07 15.44 0.76 TSRI GFeC 41.51 38.31\u201347.57 3.47 6.62 2.54 0.40 5.53 19.82 ** GZnC 40.46 34.69\u201353 7.95 14.95 13.97 0.43 -7.04 9.83 ** TKW 37.36 29.07\u201343.3 5.18 8.30 11.36 0.70 -2.47 2.68 ** LSIR GFeC 38.41 30.62\u201346.9 1.21 1.59 9.99 0.98 -2.11 3.50 ** GZnC 59.33 36.3\u201390.76 1.91 1.63 1.00 27.01 17.65 ** TKW 29.99 16.45\u201344.25 3.80 6.25 29.18 0.94 -27.63 16.73 ** LSRI GFeC 40.75 38.58\u201344.97 3.35 6.17 2.55 0.45 3.76 13.36 ** GZnC 50.44 49.64\u201358.511 8.92 48.90 12.26 0.03 14.14 28.95 ** TKW 25.49 20.71\u201330.22 4.88 12.60 6.97 0.58 -50.19 26.87 ** Indore TSRI GFeC 42.05 35.52\u201352.31 1.58 1.93 10.00 0.97 6.73 11.65 ** GZnC 37.77 22.71\u201357.08 1.14 1.53 29.92 0.99 -14.65 12.09 ** TKW 41.88 27.3\u201353.5 8.59 7.66 ** Descriptive statistics, heritability, and percent mean increase/decrease under drought, heat, and combined stress. **Significant at p value < 0.01. FIGURE 1 Depiction of the distribution of GFeC, GZnC, and GZnC under control, drought, heat, and combined stress conditions through violin plots. The coefficient of variation was high under drought and combined stress conditions compared to the control but heritability was found to be lower under drought and combined stress conditions for all the traits. Broad sense heritability of the traits studied was medium to high except for the GZnC which was low under combined stress condition. The range, heritability, coefficient of variation and mean decrease/increase are given in Table 3 . Significant association among GFeC and GZnC under control (0.51 *** ), drought (0.57 *** ) and heat (0.50 *** ) at Delhi location and GFeC and GZnC under drought "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Linkage map",
+      "text": "A total of 4,106 polymorphic markers were identified between HD3086 and HI1500, out of which 3,407 non-redundant markers uniformly distributed over all the 21 chromosomes were used for the linkage map construction. The linkage map spanned a genetic length of 14791.18 cm, ranging from 2.03 cm/marker in 1B to 9.41 cm/marker in 4D chromosome with an average marker density of 4.34 cm/marker. The highest number of markers mapped on genome B with a total of 1386 followed by A and D with 1,046 and 975 markers, respectively. Chromosome 2B had the highest number of markers 239 while chromosome 4B had only 61 markers ( Table 5 ). TABLE 5 Chromosome Number of SNPs Map distance (cm) Map density (cm/marker) 1A 89 448.96 5.04 2A 230 798.11 3.47 3A 143 801.77 5.61 4A 114 684.91 6.01 5A 189 769.34 4.07 6A 127 520.88 4.10 7A 154 737.07 4.79 1B 223 452.25 2.03 2B 239 686.47 2.87 3B 200 859.89 4.30 4B 74 530.83 7.17 5B 233 816.16 3.50 6B 213 647.2 3.04 7B 204 856.35 4.20 1D 163 659.95 4.05 2D 231 843.75 3.65 3D 151 888.83 5.89 4D 61 573.76 9.41 5D 148 875.83 5.92 6D 109 584.55 5.36 7D 112 754.32 6.74 A genome 1046 4761.04 4.55 B genome 1386 4849.15 3.50 D genome 975 5180.99 5.31 Total 3407 14791.18 4.34 Distribution of markers and marker density across chromosomes in the linkage map developed in RILs of HD3086/HI1500."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "QTL mapping",
+      "text": "A total of 32 QTLs were mapped on 17 different chromosomes for the traits GFeC, GZnC, and TKW across the environment. Out of 32, nine QTLs were mapped for GFeC, eleven for GZnC, and twelve for TKW. Chromosome 4B carried the highest number of QTLs i.e., 5, followed by chromosome 2D which carried 4 QTLs, while chromosomes 1D, 2A, 3B, 4D, 5D, 6A, 7A, and 7B carried 2 QTLs each, and the remaining chromosomes 3A, 4A, 5A, 5B, 6B, 6D, and 7D carried only one QTL. A list of QTLs identified along with flanking markers, LOD score, PVE (%), and additive effects are given in Table 6 . In silico analysis of QTL regions identified a few important candidate genes which are having various roles in different pathways of growth and development were given in Table 7 . TABLE 6 Trait Loc Con QTL name Chr Pos Left marker Right marker LOD PVE (%) Add effect Left CI Right CI GFeC Delhi TSIR QGFeC.iari-1D.1 1D 641 AX-94648809 AX-95230812 3.86 8.28 0.409 628.5 652.5 QGFeC.iari-2D.1 2D 281 AX-94734286 AX-95151743 5.04 5.91 0.348 276.5 284.5 QGFeC.iari-4D.1 4D 163 AX-94638169 AX-94895991 9.78 16.90 -0.585 155.5 169.5 TSRI QGFeC.iari-4B 4B 335 AX-94957045 AX-95215762 14.38 29.28 -0.506 334.5 335.5 LSRI QGFeC.iari-5B 5B 0 AX-95104064 AX-95155233 3.63 5.57 0.310 0 17.5 QGFeC.iari-6B 6B 41 AX-94539326 AX-94842542 3.68 5.86 0.319 40.5 42.5 QGFeC.iari-1D.1 1D 649 AX-94648809 AX-95230812 3.55 11.48 0.445 637.5 659 Indore TSRI QGFeC.iari-1D.2 1D 604 AX-94901148 AX-94545049 5.17 9.30 1.136 598.5 605.5 Pooled QGFeC.iari-2D.2 2D 539 AX-94412799 AX-94955614 4.98 6.32 0.236 538.5 539.5 QGFeC.iari-4D.1 4D 168 AX-94638169 AX-94895991 12.40 17.87 -0.396 161.5 169.5 QGFeC.iari-6D 6D 223 AX-94614625 AX-95177090 4.33 8.63 0.275 211.5 231.5 GZnC Delhi TSIR QGZnC.iari-3B 3B 486 AX-94791212 AX-95256225 4.15 10.78 -0.880 480.5 494.5 QGZnC.iari-4B.1 4B 346 AX-94461604 AX-95115431 4.70 9.19 -0.793 345.5 348.5 QGZn.iari-7B.1 7B 269 AX-94712454 AX-95076244 7.02 14.09 -1.000 262.5 277.5 TSRI QGZnC.iari-3A 3A 412 AX-95125642 AX-94565216 5.36 8.08 -0.699 411.5 413.5 QGZnC.iari-7A 7A 635 AX-94848583 AX-94488051 3.40 5.82 -0.598 629.5 641.5 QGZnC.iari-4B.2 4B 335 AX-94957045 AX-95215762 6.72 10.98 -0.815 334.5 335.5 QGZnC.iari-7B.2 7B 131 AX-94527140 AX-94383404 4.57 6.91 0.655 127.5 131.5 QGZnC.iari-2D 2D 843 AX-95227268 AX-94661194 3.97 6.10 -0.610 831.5 843 QGZnC.iari-7D 7D 326 AX-94514902 AX-94534665 6.91 10.87 -0.811 324.5 327.5 Pooled QGZnC.iari-5A 5A 286 AX-94635713 AX-94556600 15.06 18.29 1.285 284.5 286.5 QGZnC.iari-5D 5D 723 AX-94724718 AX-94656442 8.15 9.73 -0.960 719.5 725.5 TKW Delhi TSIR QTKW.iari-4D.1 4D 168 AX-94638169 AX-94895991 7.29 12.69 -1.333 161.5 169.5 LSIR QTKW.iari-4B.1 4B 335 AX-94957045 AX-95215762 6.16 17.53 -1.986 334.5 335.5 LSRI QTKW.iari-4A 4A 459 AX-94450390 AX-94606134 3.89 7.60 -0.563 453.5 459.5 LSRI QTKW.iari-6A.1 6A 215 AX-94925474 AX-94761286 4.17 7.82 0.580 214.5 215.5 LSRI QTKW.iari-2D 2D 586 AX-95238815 AX-94500838 4.25 8.10 0.571 582.5 588.5 Indore TSRI QTKW.iari-3B 3B 463 AX-94940814 AX-94962244 3.81 10.18 1.796 462.5 463.5 Pooled QTKW.iari-2A.1 2A 302 AX-94505180 AX-95176936 13.90 12.53 1.180 298.5 303.5 QTKW.iari-2A.2 2A 311 AX-94620950 AX-94422071 7.06 5.78 -0.798 307.5 312.5 QTKW.iari-6A.2 6A 218 AX-94543425 AX-94974293 8.11 6.59 0.880 216.5 219.5 QTKW.iari-7A 7A 36 AX-94775539 AX-94441851 5.60 6.53 -0.850 31.5 44.5 QTKW.iari-4B.2 4B 102 AX-94991164 AX-94779755 6.61 5.32 -0.777 100.5 110.5 QTKW.iari-4D.1 4D 168 AX-94638169 AX-94895991 15.35 13.90 -1.236 163.5 168.5 QTKW.iari-5D 5D 507 AX-94965765 AX-94618899 3.73 4.60 -0.712 488.5 519.5 QTLs identified for GFeC, GZnC, and TKW in the RIL population under control, drought, heat, and combined stress conditions. TABLE 7 QTL SNP id Chr Transcript id Position Protein QGFeC.iari-4B AX-94957045 4B TraesCS4B02G056800 4B: 46,615,028-46,621,497 Inositol 1,3,4-trisphosphate 5/6-kinase, ATP-grasp domain AX-95215762 4B TraesCS4B02G043900 4B: 31,874,862-31,877,696 P-loop containing nucleoside triphosph"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "QTL mapping for GFeC",
+      "text": "QTL analysis identified nine QTLs for GFeC with the LOD score ranging from 3.54 to 14.37. The number of QTLs identified in different treatments viz ., control, drought, combined stress and pooled BLUP of all the environments were 3, 2, 3, and 3, respectively. Three major QTLs QGFeC.iari-4D.1, QGFeC.iari-4B , and QGFeC.iari-1D.1 explained greater than 10 percent phenotypic variance: (i) The QTL QGFeC.iari-4B explained the highest phenotypic variance of 29.28% flanked by markers AX-94957045 and AX-95215762 with a 1 cm confidence interval. (ii) The QTL QGFeC.iari-4D.1 was identified in control and pooled BLUP data and found to be stable explaining the phenotypic variance of 16.90 and 17.87%, respectively. The region is associated with two candidate genes TraesCS4D02G03950 and TraesCS4D02G03950 which code for Oxysterol-binding protein and Pleckstrin homology domain, respectively. (iii) QTL QGFeC.iari-1D.1 was identified between markers AX-94648809 and AX-95230812 with the phenotypic variance of 11.47 and 8.28% in combined stress and control conditions, respectively. In addition to the major QTLs, six minor QTLs QGFeC.iari-2D.1, QGFeC.iari-5B, QGFeC.iari-6B, QGFeC.iari-1D.2, QGFeC.iari-2D.2 , and QGFeC.iari-6D were also identified with a phenotypic variance of 5.91, 5.57, 5.86, 9.30, 6.32, and 8.63%, respectively. The chromosome regions of these QTLs were found to harbor important candidate genes encoding proteins for Bulb-type lectin domain superfamily, Winged helix-like DNA-binding domain superfamily, Protein kinase-like domain superfamily, Apoptotic protease-activating factors, Presenilin/signal peptide peptidase, Protein kinase-like domain superfamily, Peptidase A22B, signal peptide peptidase, and Leucine-rich repeat domain superfamily."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "QTL mapping for GZnC",
+      "text": "A total of 11 QTLs were identified for GZnC with the LOD value ranging from 3.40 to 15.06 out of which QGZnC.iari-3B, QGZn.iari-7B.1, QGZnC.iari-4B.2, QGZnC.iari-7D , and QGZnC.iari-5A were the major QTLs explaining phenotypic variance greater than 10 percent. The QTL QGZn.iari-3B flanked with markers AX-94791212 and AX-95256225, explained 10.78% phenotypic variance. This region contains a putative candidate gene TraesCS3A02G326200 that codes for F-box-like domain superfamily proteins. The QTL QGZnC.iari-4B.2 explained a phenotypic variance of 10.98% and the region contained candidate genes TraesCS4B02G056800 and TraesCS4B02G008300 encoding Inositol-tetrakisphosphate 1-kinase, N-terminal and Transcription factor CBF/NF-Y/archaeal histone domain, respectively. The QTL QGZn.iari-7D contributed 10.87% to the total phenotypic variance and had a candidate gene TraesCS7B02G115900 encoding protein belonging to the Aspartic peptidase domain superfamily. QTL QGZn.iari-5A explained 18.29% phenotypic variance and a candidate gene TraesCS5A02G036200 coding for protein NAD-dependent epimerase/dehydratase. The QTL QGZn.iari-7B.1 explained a phenotypic variance of 14.09%. Six minor QTLs viz ., QGZnC.iari-4B.1, QGZnC.iari-3A, QGZnC.iari-7A, QGZnC.iari-7B.2, QGZnC.iari-2D , and QGZnC.iari-5D were identified with phenotypic variance of 9.19, 8.08, 5.82, 6.91, 6.10, and 9.73 percent, respectively. The chromosomal regions of these QTLs harbors candidate genes that codes for Aspartic peptidase domain superfamily, P-loop containing nucleoside triphosphate hydrolase, Xylanase inhibitor, N-terminal Peptidase family A1 domain, and nuclear transcription factor Y subunit A."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "QTL mapping for TKW",
+      "text": "A total of twelve QTLs was identified on nine different chromosomes ranging from 3.81 to 15.35 LOD value; chromosomes 2A, 4B, and 6A carried two QTLs each. The QTKW.iari-4D.1, QTKW.iari-4B.1, QTKW.iari-3B , and QTKW.iari-2A.1 were the major QTLs with a phenotypic variance of 12.69, 17.53, 10.18, and 12.53 percent, respectively. The genomic region of the QTKW.iari-3B contains important candidate gene TraesCS3B02G295700 coding Alpha/Beta hydrolase fold protein. One stable QTL QTKW.iari-4D.1 was identified on in control and pooled data that explained a phenotypic variance of 12.69 and 13.90%, respectively. The QTL region was found to have putative candidate gene TraesCS4D02G039500 which codes for Oxysterol-binding protein and Pleckstrin homology domain. QTKW.iari-4A, QTKW.iari-6A.1, QTKW.iari-2D, QTKW.iari-2A.2, QTKW.iari-6A.2, QTKW.iari-7A, QTKW.iari-4B.2 , and QTKW.iari-5D are the minor QTLs identified with PVE of 7.60, 7.82, 8.10, 5.78, 6.59, 6.53, 5.32, and 4.60%, respectively. The chromosomal regions of the QTLs codes proteins/enzymes such as Pumilio RNA-binding repeat, S-adenosyl-L-methionine-dependent methyltransferase, UBL3-like ubiquitin domain, EF-hand domain pair, Peroxisome membrane protein (Pex16), Homogentisate 1,2-dioxygenase, and Ankyrin repeat-containing domain superfamily."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "Micronutrient elements such as grain iron, grain zinc, are governed by many genes whose expression is influenced by the external environment. In the present study, to identify QTLs expressed in different stress conditions the experiment was carried out in drought, heat, and combined stress conditions taking timely sown environment as control. The treatment-wise highest mean for GFeC 41.51 mg/kg, GZnC 59.33 mg/kg, and TKW 41.88 g was observed in drought (Indore), heat, and drought (Indore) conditions, respectively, as observed in previous studies ( 29 , 30 ). The GFeC and GZnC were increased in late sown conditions but the TKW decreased because the high temperature during grain filling caused forced maturity, reduced photosynthetic assimilation and starch content leading to the development of undernourished shriveled seeds ( 31 ). Although the grain micronutrients concentration was highest in late sown condition, the total micronutrient yield per area was highest in timely sown condition as the grain yield was highest in timely sown condition similar kind of results were also observed in a study by Velu et al. ( 30 ). GCV for GFeC ranged from 2.33 to 10.00, GCV for GZnC ranged from 12.26 to 29.92 and GCV for TKW ranged from 7.18 to 29.18 in different treatment conditions. The lower the value of GCV, the greater the influence of the environment on the expression of the particular trait whereas higher value of GCV, indicates the variation in the population mainly attributes to the genetic makeup of the individual. The CV for GFeC was ranged from 5.66 to 6.62, GZnC ranged from 1.63 to 48.90, TKW ranged from 6.97 to 15.44, similar findings were observed in previous studies by 29 , 32 , 33 . A wide variation was observed for GFeC, GZnC, and TKW ( Table 3 ) ( 17 , 34 , 35 ). Heritability is important selection parameter that aids plant breeders in determining the characters for which selection is to be performed ( 36 ). The heritability of the traits studied was found to be medium to high indicating a predominance of genotypic variance which can be exploited by selection in crop improvement, ( 17 , 37 ). GFeC is significantly correlated with GZnC in all the conditions, indicating they are positively associated with each other and the selection for improvement of one character will simultaneously bring improvement in another. The results were similar to previous studies by 38 , 39 . In the present study a total of 32 QTLs were identified out of which 9, 11, and 12 for GFeC, GZnC, and TKW, respectively ( Figure 2 ). Most of the QTLs for GZnC and TKW were derived from parent HI1500 while QTLs for GFeC were derived from parent HD3086. Interestingly, one pleiotropic QTL QGFe.iari-4B/QGZnC.iari-4B.2/QTKW.iari-4B.1 has been identified at position 335 cm which explained the phenotypic variance of 29.28% for GFeC, 10.98% for GZnC, and 17.53% for TKW. Two Stable QTLs QGFeC.iari-1D.1 and QTL QGFeC.iari-4D.1 were identified for GFeC, and one for TKW QTKW.iari-4D.1 and. were also reported in earlier studies ( 40 \u2013 42 ). QTLs for grain iron content are mapped most on the D genome while B genome carried the highest number of QTLs for grain zinc content and A genome carried highest number of QTLs for TKW. FIGURE 2 Genetic linkage map and QTL positions identified on A, B, and D genomes of RILs derived from the cross HD3086/HI1500. Red color indicates QTLs for GFeC; blue color indicates QTLs for GZnC; green color indicates QTLs for TKW; purple color indicates QTL governing GFe, GZn and TKW; yellow color indicates QTL governing both GFe and TKW. The stable QTLs for GFeC was identified on chromosome 1D and 4D as also reported by previous workers on 4D ( 32 , 37 ), 1D ( 18 ). The putative candidate gene TraesCS4D02G03950 in the QTL QGFeC.iari-4D.1 region coded Pleckstrin homology (PH) domains; these are protein modules made up of 100\u2013120 amino acids and has the potential to bind phosphoinositides ( 43 ). Phosphoinositides are known to regulate intracellu"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "The number of QTLs identified for GFeC, GZnC and TKW are 9, 11, and 12, respectively. One pleiotropic QTL was identified on chromosome 4B which is associated with grain iron, grain zinc concentration and thousand kernel weight. The common locus was identified for Zn content and TKW on chromosome 4B, while common locus for Fe and TKW was found on 4D. The same genes might be functioning in the accumulation of Fe, Zn, and TKW which need to be studied further in detail at molecular and biochemical levels. Genomic regions on chromosomes 1D and 4D were associated with Fe content, 2A and 6A associated with TKW, while on chromosome 4B were associated with Zn content, therefore fine mapping of the such regions may be rewarding. Further in silico analysis of QTL regions identified putative candidate genes which are directly or indirectly related to these traits. So, the identified QTLs can be used in practical plant breeding to develop biofortified varieties after the successful validation of these identified markers."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "Statements",
+      "text": "Data availability statement The original contributions presented in this study are included in the article/ Supplementary material , further inquiries can be directed to the corresponding authors. Author contributions PS, NJ, GS, and HK conceptualized the investigation and edited the manuscript. KM conducted the investigation and prepared the draft of the manuscript. KM, CM, JS, and ND generated the phenotypic data. KM, HK, VS, SS, and DC contributed in the generation of genotyping data. KM and HK did the statistical and QTL analysis. All authors contributed to the article and approved the submitted version. Funding Part of the research supported by a grant from the Bill & Melinda Gates Foundation (Grant number: # OPP1215722) sub grant to India for Zn mainstreaming project and National Innovations on Climate Resilient Agriculture (NICRA), a network project of the Indian Council of Agricultural Research (ICAR). Acknowledgments KM acknowledges the Council of Scientific and Industrial Research (CSIR), New Delhi and Indian Council of Agricultural Research Institute (ICAR), and New Delhi for Junior Research Fellow Scholarships to complete this work as part of Ph.D. thesis. Conflict of interest The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. Publisher\u2019s note All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher. Supplementary material The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fnut.2023.1105207/full#supplementary-material Footnotes 1. ^ https://plants.ensembl.org/index.html References 1. FAO. Preventing Micronutrient Malnutrition a Guide to Food-based Approaches - Why Policy Makers Should Give Priority to Food-based Strategies. Washington, DC : ILSI PRESS ( 1997 ). Google Scholar 2. Lowe NM . The global challenge of hidden hunger: perspectives from the field. Proc Nutr Soc. ( 2021 ) 80 : 283 \u2013 9 . 10.1017/S0029665121000902 Pubmed Abstract CrossRef Google Scholar 3. Wedner SH Ross DA . Vitamin A deficiency and its prevention. In: Heggenhougen K editor. Encyclopedia of Public Health. San Diego : Elsevier ( 2008 ). 10.1016/B978-012373960-5.00642-0 CrossRef Google Scholar 4. Dev S Babitt JL . Overview of iron metabolism in health and disease. Hemodialysis Int. ( 2017 ) 21 : S6 \u2013 20 . 10.1111/hdi.12542 Pubmed Abstract CrossRef Google Scholar 5. World Health Organization. WHO Global Anaemia Estimates, 2021 Edition. Anaemia in Women and Children. ( 2021 ). Available online: https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children ( accessed on February 18, 2022 ). Google Scholar 6. Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc: a Report of the Panel on Micronutrients. Washington, DC : National Academy Press ( 2001 ). Google Scholar 7. Yang X Wang H Huang C He X Xu W Luo Y et al Zinc enhances the cellular energy supply to improve cell motility and restore impaired energetic metabolism in a toxic environment induced by OTA. Sci Rep. ( 2017 ) 7 : 1 \u2013 11 . 10.1038/s41598-017-14868-x Pubmed Abstract CrossRef Google Scholar 8. Maxfield L Shukla S Crane JS . Zinc deficiency. StatPearls [Internet]. Treasure Island, FL : StatPearls Publishing ( 2021 ). Google Scholar 9. Wessells KR Brown KH . Estimating the global prevalence of zinc deficiency: results based on zinc availability in national food supplies and the prevalence of stunting. PLoS One. ( 2012 ) 7 : e50568 . 10.1371/journal.pone.0050568 Pubmed Abstract Cross"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Data availability statement",
+      "text": "The original contributions presented in this study are included in the article/ Supplementary material , further inquiries can be directed to the corresponding authors."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Author contributions",
+      "text": "PS, NJ, GS, and HK conceptualized the investigation and edited the manuscript. KM conducted the investigation and prepared the draft of the manuscript. KM, CM, JS, and ND generated the phenotypic data. KM, HK, VS, SS, and DC contributed in the generation of genotyping data. KM and HK did the statistical and QTL analysis. All authors contributed to the article and approved the submitted version."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Funding",
+      "text": "Part of the research supported by a grant from the Bill & Melinda Gates Foundation (Grant number: # OPP1215722) sub grant to India for Zn mainstreaming project and National Innovations on Climate Resilient Agriculture (NICRA), a network project of the Indian Council of Agricultural Research (ICAR)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Acknowledgments",
+      "text": "KM acknowledges the Council of Scientific and Industrial Research (CSIR), New Delhi and Indian Council of Agricultural Research Institute (ICAR), and New Delhi for Junior Research Fellow Scholarships to complete this work as part of Ph.D. thesis."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Publisher\u2019s note",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Supplementary material",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fnut.2023.1105207/full#supplementary-material"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Footnotes",
+      "text": "1. ^ https://plants.ensembl.org/index.html"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "References",
+      "text": "1. FAO. Preventing Micronutrient Malnutrition a Guide to Food-based Approaches - Why Policy Makers Should Give Priority to Food-based Strategies. Washington, DC : ILSI PRESS ( 1997 ). Google Scholar 2. Lowe NM . The global challenge of hidden hunger: perspectives from the field. Proc Nutr Soc. ( 2021 ) 80 : 283 \u2013 9 . 10.1017/S0029665121000902 Pubmed Abstract CrossRef Google Scholar 3. Wedner SH Ross DA . Vitamin A deficiency and its prevention. In: Heggenhougen K editor. Encyclopedia of Public Health. San Diego : Elsevier ( 2008 ). 10.1016/B978-012373960-5.00642-0 CrossRef Google Scholar 4. Dev S Babitt JL . Overview of iron metabolism in health and disease. Hemodialysis Int. ( 2017 ) 21 : S6 \u2013 20 . 10.1111/hdi.12542 Pubmed Abstract CrossRef Google Scholar 5. World Health Organization. WHO Global Anaemia Estimates, 2021 Edition. Anaemia in Women and Children. ( 2021 ). Available online: https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children ( accessed on February 18, 2022 ). Google Scholar 6. Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc: a Report of the Panel on Micronutrients. Washington, DC : National Academy Press ( 2001 ). Google Scholar 7. Yang X Wang H Huang C He X Xu W Luo Y et al Zinc enhances the cellular energy supply to improve cell motility and restore impaired energetic metabolism in a toxic environment induced by OTA. Sci Rep. ( 2017 ) 7 : 1 \u2013 11 . 10.1038/s41598-017-14868-x Pubmed Abstract CrossRef Google Scholar 8. Maxfield L Shukla S Crane JS . Zinc deficiency. StatPearls [Internet]. Treasure Island, FL : StatPearls Publishing ( 2021 ). Google Scholar 9. Wessells KR Brown KH . Estimating the global prevalence of zinc deficiency: results based on zinc availability in national food supplies and the prevalence of stunting. PLoS One. ( 2012 ) 7 : e50568 . 10.1371/journal.pone.0050568 Pubmed Abstract CrossRef Google Scholar 10. Reynolds M Foulkes J Furbank R Griffiths S King J Murchie E et al Achieving yield gains in wheat. Plant Cell Environ. ( 2012 ) 35 : 1799 \u2013 823 . 10.1111/j.1365-3040.2012.02588.x Pubmed Abstract CrossRef Google Scholar 11. Borrill P Connorton JM Balk J Miller AJ Sanders D Uauy C . Biofortification of wheat grain with iron and zinc: integrating novel genomic resources and knowledge from model crops. Front Plant Sci. ( 2014 ) 5 : 53 . 10.3389/fpls.2014.00053 Pubmed Abstract CrossRef Google Scholar 12. Kiran A Wakeel A Mahmood K Mubaraka R Haefele SM . Biofortification of staple crops to alleviate human malnutrition: contributions and potential in developing countries. Agronomy. ( 2022 ) 12 : 452 . 10.3390/agronomy12020452 CrossRef Google Scholar 13. Malik KA Maqbool A . Transgenic crops for biofortification. Front Sustain Food Syst. ( 2020 ) 4 : 571402 . 10.3389/fsufs.2020.571402 CrossRef Google Scholar 14. Garg M Sharma N Sharma S Kapoor P Kumar A Chunduri V et al Biofortified crops generated by breeding, agronomy, and transgenic approaches are improving lives of millions of people around the world. Front Nutr. ( 2018 ) 5 : 12 . 10.3389/fnut.2018.00012 Pubmed Abstract CrossRef Google Scholar 15. Krishnappa G Singh AM Chaudhary S Ahlawat AK Singh SK Shukla RB et al Molecular mapping of the grain iron and zinc concentration, protein content and thousand kernel weight in wheat ( Triticum aestivum L.). PLoS One. ( 2017 ) 12 : e0174972 . 10.1371/journal.pone.0174972 Pubmed Abstract CrossRef Google Scholar 16. Velu G Tutus Y Gomez-Becerra HF Hao Y Demir L Kara R et al QTL mapping for grain zinc and iron concentrations and zinc efficiency in a tetraploid and hexaploid wheat mapping populations. Plant Soil. ( 2017 ) 411 : 81 \u2013 99 . 10.1007/s11104-016-3025-8 CrossRef Google Scholar 17. Krishnappa G Rathan ND Sehgal D Ahlawat AK Singh SK Singh SK et al Identification of novel genomic regions for biofortification traits using an SNP marker-enriche"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "Summary",
+      "text": "Keywords wheat , drought , heat , combined stress , QTL , RILs Citation Manjunath KK, Krishna H, Devate NB, Sunilkumar VP, Chauhan D, Singh S, Mishra CN, Singh JB, Sinha N, Jain N, Singh GP and Singh PK (2023) Mapping of the QTLs governing grain micronutrients and thousand kernel weight in wheat ( Triticum aestivum L.) using high density SNP markers . Front. Nutr. 10:1105207. doi: 10.3389/fnut.2023.1105207 Received 22 November 2022 Accepted 27 January 2023 Published 10 February 2023 Volume 10 - 2023 Edited by K. N. Ganapathy, ICAR-Indian Institute of Millets Research (IIMR), India Reviewed by Dinesh Joshi, ICAR-Vivekananda Institute of Hill Agriculture, India; Ajay Chandrashekar, ICAR-Directorate of Groundnut Research, India Updates Copyright \u00a9 2023 Manjunath, Krishna, Devate, Sunilkumar, Chauhan, Singh, Mishra, Singh, Sinha, Jain, Singh and Singh. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. *Correspondence: Hari Krishna, harikrishna.agri@gmail.com Pradeep Kumar Singh, pksinghiari@gmail.com This article was submitted to Nutrition and Food Science Technology, a section of the journal Frontiers in Nutrition Disclaimer All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "Your research is the real superpower",
+      "text": "Behind each article we publish stands a team of superheroes: authors, editors, and reviewers who chose to uphold quality standards and share knowledge openly. Read more about the impact your work achieves."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 2,
+      "heading": "Outline",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 2,
+      "heading": "Figures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "Cite article",
+      "text": "Copy to clipboard Copy citation Export citation file BibTex EndNote Reference Manager Simple Text file"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "Share article",
+      "text": "Facebook X LinkedIn Email WeChat Share on WeChat Scan with WeChat to share this article"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "Article metrics",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Location",
+        "Condition",
+        "Treatment"
+      ],
+      "rows": [
+        [
+          "Delhi",
+          "Timely sown (first fortnight of November)",
+          "Irrigated (6 irrigations)",
+          "Control"
+        ],
+        [
+          "Restricted irrigation (2 irrigations)",
+          "Drought"
+        ],
+        [
+          "Late sown (second fortnight of December)",
+          "Irrigated (6 irrigations)",
+          "Heat"
+        ],
+        [
+          "Restricted irrigation (2 irrigation)",
+          "Combined stress"
+        ],
+        [
+          "Indore",
+          "Timely sown (first fortnight of November)",
+          "Restricted irrigation (2 irrigations)",
+          "Drought"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Location",
+        "Condition",
+        "Genotype",
+        "GFeC (mg/kg)",
+        "GZnC (mg/kg)",
+        "TKW (g)"
+      ],
+      "rows": [
+        [
+          "Delhi",
+          "TSIR",
+          "HD3086",
+          "38.60",
+          "38.60",
+          "35.58"
+        ],
+        [
+          "HI1500",
+          "44.50",
+          "53.50",
+          "35.88"
+        ],
+        [
+          "TSRI",
+          "HD3086",
+          "35.80",
+          "29.20",
+          "36.18"
+        ],
+        [
+          "HI1500",
+          "41.60",
+          "47.60",
+          "35.23"
+        ],
+        [
+          "LSIR",
+          "HD3086",
+          "36.80",
+          "53.90",
+          "23.40"
+        ],
+        [
+          "HI1500",
+          "40.00",
+          "64.60",
+          "32.70"
+        ],
+        [
+          "LSRI",
+          "HD3086",
+          "39.00",
+          "46.20",
+          "28.60"
+        ],
+        [
+          "HI1500",
+          "39.10",
+          "50.00",
+          "24.28"
+        ],
+        [
+          "Indore",
+          "TSRI",
+          "HD3086",
+          "41.30",
+          "33.20",
+          "41.50"
+        ],
+        [
+          "HI1500",
+          "40.80",
+          "41.70",
+          "47.70"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "Location",
+        "Condition",
+        "Trait",
+        "Grand mean",
+        "Range",
+        "LSD",
+        "CV",
+        "GCV",
+        "h 2",
+        "Mean increase/ Reduction (%)",
+        "z -test"
+      ],
+      "rows": [
+        [
+          "Delhi",
+          "TSIR",
+          "GFeC",
+          "39.22",
+          "35.8\u201342.8",
+          "3.13",
+          "5.66",
+          "2.38",
+          "0.49",
+          "",
+          ""
+        ],
+        [
+          "GZnC",
+          "43.31",
+          "34.43\u201354.67",
+          "7.57",
+          "11.54",
+          "16.71",
+          "0.57",
+          "",
+          ""
+        ],
+        [
+          "TKW",
+          "38.28",
+          "27.03\u201346.89",
+          "5.44",
+          "8.07",
+          "15.44",
+          "0.76",
+          "",
+          ""
+        ],
+        [
+          "TSRI",
+          "GFeC",
+          "41.51",
+          "38.31\u201347.57",
+          "3.47",
+          "6.62",
+          "2.54",
+          "0.40",
+          "5.53",
+          "19.82 **"
+        ],
+        [
+          "GZnC",
+          "40.46",
+          "34.69\u201353",
+          "7.95",
+          "14.95",
+          "13.97",
+          "0.43",
+          "-7.04",
+          "9.83 **"
+        ],
+        [
+          "TKW",
+          "37.36",
+          "29.07\u201343.3",
+          "5.18",
+          "8.30",
+          "11.36",
+          "0.70",
+          "-2.47",
+          "2.68 **"
+        ],
+        [
+          "LSIR",
+          "GFeC",
+          "38.41",
+          "30.62\u201346.9",
+          "1.21",
+          "1.59",
+          "9.99",
+          "0.98",
+          "-2.11",
+          "3.50 **"
+        ],
+        [
+          "GZnC",
+          "59.33",
+          "36.3\u201390.76",
+          "1.91",
+          "1.63",
+          "",
+          "1.00",
+          "27.01",
+          "17.65 **"
+        ],
+        [
+          "TKW",
+          "29.99",
+          "16.45\u201344.25",
+          "3.80",
+          "6.25",
+          "29.18",
+          "0.94",
+          "-27.63",
+          "16.73 **"
+        ],
+        [
+          "LSRI",
+          "GFeC",
+          "40.75",
+          "38.58\u201344.97",
+          "3.35",
+          "6.17",
+          "2.55",
+          "0.45",
+          "3.76",
+          "13.36 **"
+        ],
+        [
+          "GZnC",
+          "50.44",
+          "49.64\u201358.511",
+          "8.92",
+          "48.90",
+          "12.26",
+          "0.03",
+          "14.14",
+          "28.95 **"
+        ],
+        [
+          "TKW",
+          "25.49",
+          "20.71\u201330.22",
+          "4.88",
+          "12.60",
+          "6.97",
+          "0.58",
+          "-50.19",
+          "26.87 **"
+        ],
+        [
+          "Indore",
+          "TSRI",
+          "GFeC",
+          "42.05",
+          "35.52\u201352.31",
+          "1.58",
+          "1.93",
+          "10.00",
+          "0.97",
+          "6.73",
+          "11.65 **"
+        ],
+        [
+          "GZnC",
+          "37.77",
+          "22.71\u201357.08",
+          "1.14",
+          "1.53",
+          "29.92",
+          "0.99",
+          "-14.65",
+          "12.09 **"
+        ],
+        [
+          "TKW",
+          "41.88",
+          "27.3\u201353.5",
+          "",
+          "",
+          "",
+          "",
+          "8.59",
+          "7.66 **"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "Location",
+        "Condition",
+        "Trait",
+        "Correlation"
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "GFeC",
+          "GZnC",
+          "TKW"
+        ],
+        [
+          "Delhi",
+          "TSIR",
+          "GFeC",
+          "1.00",
+          "0.51 ***",
+          "0.02"
+        ],
+        [
+          "GZnC",
+          "",
+          "1.00",
+          "0.20 **"
+        ],
+        [
+          "TKW",
+          "",
+          "",
+          "1.00"
+        ],
+        [
+          "TSRI",
+          "GFeC",
+          "1.00",
+          "0.57 ***",
+          "0.03"
+        ],
+        [
+          "GZnC",
+          "",
+          "1.00",
+          "-0.02"
+        ],
+        [
+          "TKW",
+          "",
+          "",
+          "1.00"
+        ],
+        [
+          "LSIR",
+          "GFeC",
+          "1.00",
+          "0.50 ***",
+          "-0.08"
+        ],
+        [
+          "GZnC",
+          "",
+          "1.00",
+          "-0.01"
+        ],
+        [
+          "TKW",
+          "",
+          "",
+          "1.00"
+        ],
+        [
+          "LSRI",
+          "GFeC",
+          "1.00",
+          "-0.04",
+          "0.05"
+        ],
+        [
+          "GZnC",
+          "",
+          "1.00",
+          "-0.01"
+        ],
+        [
+          "TKW",
+          "",
+          "",
+          "1.00"
+        ],
+        [
+          "Indore",
+          "TSRI",
+          "GFeC",
+          "1.00",
+          "0.41 ***",
+          "0.08"
+        ],
+        [
+          "GZnC",
+          "",
+          "1.00",
+          "-0.02"
+        ],
+        [
+          "TKW",
+          "",
+          "",
+          "1.00"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "Chromosome",
+        "Number of SNPs",
+        "Map distance (cm)",
+        "Map density (cm/marker)"
+      ],
+      "rows": [
+        [
+          "1A",
+          "89",
+          "448.96",
+          "5.04"
+        ],
+        [
+          "2A",
+          "230",
+          "798.11",
+          "3.47"
+        ],
+        [
+          "3A",
+          "143",
+          "801.77",
+          "5.61"
+        ],
+        [
+          "4A",
+          "114",
+          "684.91",
+          "6.01"
+        ],
+        [
+          "5A",
+          "189",
+          "769.34",
+          "4.07"
+        ],
+        [
+          "6A",
+          "127",
+          "520.88",
+          "4.10"
+        ],
+        [
+          "7A",
+          "154",
+          "737.07",
+          "4.79"
+        ],
+        [
+          "1B",
+          "223",
+          "452.25",
+          "2.03"
+        ],
+        [
+          "2B",
+          "239",
+          "686.47",
+          "2.87"
+        ],
+        [
+          "3B",
+          "200",
+          "859.89",
+          "4.30"
+        ],
+        [
+          "4B",
+          "74",
+          "530.83",
+          "7.17"
+        ],
+        [
+          "5B",
+          "233",
+          "816.16",
+          "3.50"
+        ],
+        [
+          "6B",
+          "213",
+          "647.2",
+          "3.04"
+        ],
+        [
+          "7B",
+          "204",
+          "856.35",
+          "4.20"
+        ],
+        [
+          "1D",
+          "163",
+          "659.95",
+          "4.05"
+        ],
+        [
+          "2D",
+          "231",
+          "843.75",
+          "3.65"
+        ],
+        [
+          "3D",
+          "151",
+          "888.83",
+          "5.89"
+        ],
+        [
+          "4D",
+          "61",
+          "573.76",
+          "9.41"
+        ],
+        [
+          "5D",
+          "148",
+          "875.83",
+          "5.92"
+        ],
+        [
+          "6D",
+          "109",
+          "584.55",
+          "5.36"
+        ],
+        [
+          "7D",
+          "112",
+          "754.32",
+          "6.74"
+        ],
+        [
+          "A genome",
+          "1046",
+          "4761.04",
+          "4.55"
+        ],
+        [
+          "B genome",
+          "1386",
+          "4849.15",
+          "3.50"
+        ],
+        [
+          "D genome",
+          "975",
+          "5180.99",
+          "5.31"
+        ],
+        [
+          "Total",
+          "3407",
+          "14791.18",
+          "4.34"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-5",
+      "caption": "",
+      "headers": [
+        "Trait",
+        "Loc",
+        "Con",
+        "QTL name",
+        "Chr",
+        "Pos",
+        "Left marker",
+        "Right marker",
+        "LOD",
+        "PVE (%)",
+        "Add effect",
+        "Left CI",
+        "Right CI"
+      ],
+      "rows": [
+        [
+          "GFeC",
+          "Delhi",
+          "TSIR",
+          "QGFeC.iari-1D.1",
+          "1D",
+          "641",
+          "AX-94648809",
+          "AX-95230812",
+          "3.86",
+          "8.28",
+          "0.409",
+          "628.5",
+          "652.5"
+        ],
+        [
+          "QGFeC.iari-2D.1",
+          "2D",
+          "281",
+          "AX-94734286",
+          "AX-95151743",
+          "5.04",
+          "5.91",
+          "0.348",
+          "276.5",
+          "284.5"
+        ],
+        [
+          "QGFeC.iari-4D.1",
+          "4D",
+          "163",
+          "AX-94638169",
+          "AX-94895991",
+          "9.78",
+          "16.90",
+          "-0.585",
+          "155.5",
+          "169.5"
+        ],
+        [
+          "TSRI",
+          "QGFeC.iari-4B",
+          "4B",
+          "335",
+          "AX-94957045",
+          "AX-95215762",
+          "14.38",
+          "29.28",
+          "-0.506",
+          "334.5",
+          "335.5"
+        ],
+        [
+          "LSRI",
+          "QGFeC.iari-5B",
+          "5B",
+          "0",
+          "AX-95104064",
+          "AX-95155233",
+          "3.63",
+          "5.57",
+          "0.310",
+          "0",
+          "17.5"
+        ],
+        [
+          "QGFeC.iari-6B",
+          "6B",
+          "41",
+          "AX-94539326",
+          "AX-94842542",
+          "3.68",
+          "5.86",
+          "0.319",
+          "40.5",
+          "42.5"
+        ],
+        [
+          "QGFeC.iari-1D.1",
+          "1D",
+          "649",
+          "AX-94648809",
+          "AX-95230812",
+          "3.55",
+          "11.48",
+          "0.445",
+          "637.5",
+          "659"
+        ],
+        [
+          "Indore",
+          "TSRI",
+          "QGFeC.iari-1D.2",
+          "1D",
+          "604",
+          "AX-94901148",
+          "AX-94545049",
+          "5.17",
+          "9.30",
+          "1.136",
+          "598.5",
+          "605.5"
+        ],
+        [
+          "Pooled",
+          "",
+          "QGFeC.iari-2D.2",
+          "2D",
+          "539",
+          "AX-94412799",
+          "AX-94955614",
+          "4.98",
+          "6.32",
+          "0.236",
+          "538.5",
+          "539.5"
+        ],
+        [
+          "QGFeC.iari-4D.1",
+          "4D",
+          "168",
+          "AX-94638169",
+          "AX-94895991",
+          "12.40",
+          "17.87",
+          "-0.396",
+          "161.5",
+          "169.5"
+        ],
+        [
+          "QGFeC.iari-6D",
+          "6D",
+          "223",
+          "AX-94614625",
+          "AX-95177090",
+          "4.33",
+          "8.63",
+          "0.275",
+          "211.5",
+          "231.5"
+        ],
+        [
+          "GZnC",
+          "Delhi",
+          "TSIR",
+          "QGZnC.iari-3B",
+          "3B",
+          "486",
+          "AX-94791212",
+          "AX-95256225",
+          "4.15",
+          "10.78",
+          "-0.880",
+          "480.5",
+          "494.5"
+        ],
+        [
+          "QGZnC.iari-4B.1",
+          "4B",
+          "346",
+          "AX-94461604",
+          "AX-95115431",
+          "4.70",
+          "9.19",
+          "-0.793",
+          "345.5",
+          "348.5"
+        ],
+        [
+          "QGZn.iari-7B.1",
+          "7B",
+          "269",
+          "AX-94712454",
+          "AX-95076244",
+          "7.02",
+          "14.09",
+          "-1.000",
+          "262.5",
+          "277.5"
+        ],
+        [
+          "TSRI",
+          "QGZnC.iari-3A",
+          "3A",
+          "412",
+          "AX-95125642",
+          "AX-94565216",
+          "5.36",
+          "8.08",
+          "-0.699",
+          "411.5",
+          "413.5"
+        ],
+        [
+          "QGZnC.iari-7A",
+          "7A",
+          "635",
+          "AX-94848583",
+          "AX-94488051",
+          "3.40",
+          "5.82",
+          "-0.598",
+          "629.5",
+          "641.5"
+        ],
+        [
+          "QGZnC.iari-4B.2",
+          "4B",
+          "335",
+          "AX-94957045",
+          "AX-95215762",
+          "6.72",
+          "10.98",
+          "-0.815",
+          "334.5",
+          "335.5"
+        ],
+        [
+          "QGZnC.iari-7B.2",
+          "7B",
+          "131",
+          "AX-94527140",
+          "AX-94383404",
+          "4.57",
+          "6.91",
+          "0.655",
+          "127.5",
+          "131.5"
+        ],
+        [
+          "QGZnC.iari-2D",
+          "2D",
+          "843",
+          "AX-95227268",
+          "AX-94661194",
+          "3.97",
+          "6.10",
+          "-0.610",
+          "831.5",
+          "843"
+        ],
+        [
+          "QGZnC.iari-7D",
+          "7D",
+          "326",
+          "AX-94514902",
+          "AX-94534665",
+          "6.91",
+          "10.87",
+          "-0.811",
+          "324.5",
+          "327.5"
+        ],
+        [
+          "Pooled",
+          "",
+          "QGZnC.iari-5A",
+          "5A",
+          "286",
+          "AX-94635713",
+          "AX-94556600",
+          "15.06",
+          "18.29",
+          "1.285",
+          "284.5",
+          "286.5"
+        ],
+        [
+          "QGZnC.iari-5D",
+          "5D",
+          "723",
+          "AX-94724718",
+          "AX-94656442",
+          "8.15",
+          "9.73",
+          "-0.960",
+          "719.5",
+          "725.5"
+        ],
+        [
+          "TKW",
+          "Delhi",
+          "TSIR",
+          "QTKW.iari-4D.1",
+          "4D",
+          "168",
+          "AX-94638169",
+          "AX-94895991",
+          "7.29",
+          "12.69",
+          "-1.333",
+          "161.5",
+          "169.5"
+        ],
+        [
+          "LSIR",
+          "QTKW.iari-4B.1",
+          "4B",
+          "335",
+          "AX-94957045",
+          "AX-95215762",
+          "6.16",
+          "17.53",
+          "-1.986",
+          "334.5",
+          "335.5"
+        ],
+        [
+          "",
+          "",
+          "LSRI",
+          "QTKW.iari-4A",
+          "4A",
+          "459",
+          "AX-94450390",
+          "AX-94606134",
+          "3.89",
+          "7.60",
+          "-0.563",
+          "453.5",
+          "459.5"
+        ],
+        [
+          "LSRI",
+          "QTKW.iari-6A.1",
+          "6A",
+          "215",
+          "AX-94925474",
+          "AX-94761286",
+          "4.17",
+          "7.82",
+          "0.580",
+          "214.5",
+          "215.5"
+        ],
+        [
+          "LSRI",
+          "QTKW.iari-2D",
+          "2D",
+          "586",
+          "AX-95238815",
+          "AX-94500838",
+          "4.25",
+          "8.10",
+          "0.571",
+          "582.5",
+          "588.5"
+        ],
+        [
+          "Indore",
+          "TSRI",
+          "QTKW.iari-3B",
+          "3B",
+          "463",
+          "AX-94940814",
+          "AX-94962244",
+          "3.81",
+          "10.18",
+          "1.796",
+          "462.5",
+          "463.5"
+        ],
+        [
+          "Pooled",
+          "",
+          "QTKW.iari-2A.1",
+          "2A",
+          "302",
+          "AX-94505180",
+          "AX-95176936",
+          "13.90",
+          "12.53",
+          "1.180",
+          "298.5",
+          "303.5"
+        ],
+        [
+          "QTKW.iari-2A.2",
+          "2A",
+          "311",
+          "AX-94620950",
+          "AX-94422071",
+          "7.06",
+          "5.78",
+          "-0.798",
+          "307.5",
+          "312.5"
+        ],
+        [
+          "QTKW.iari-6A.2",
+          "6A",
+          "218",
+          "AX-94543425",
+          "AX-94974293",
+          "8.11",
+          "6.59",
+          "0.880",
+          "216.5",
+          "219.5"
+        ],
+        [
+          "QTKW.iari-7A",
+          "7A",
+          "36",
+          "AX-94775539",
+          "AX-94441851",
+          "5.60",
+          "6.53",
+          "-0.850",
+          "31.5",
+          "44.5"
+        ],
+        [
+          "QTKW.iari-4B.2",
+          "4B",
+          "102",
+          "AX-94991164",
+          "AX-94779755",
+          "6.61",
+          "5.32",
+          "-0.777",
+          "100.5",
+          "110.5"
+        ],
+        [
+          "QTKW.iari-4D.1",
+          "4D",
+          "168",
+          "AX-94638169",
+          "AX-94895991",
+          "15.35",
+          "13.90",
+          "-1.236",
+          "163.5",
+          "168.5"
+        ],
+        [
+          "QTKW.iari-5D",
+          "5D",
+          "507",
+          "AX-94965765",
+          "AX-94618899",
+          "3.73",
+          "4.60",
+          "-0.712",
+          "488.5",
+          "519.5"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "QTL",
+        "SNP id",
+        "Chr",
+        "Transcript id",
+        "Position",
+        "Protein"
+      ],
+      "rows": [
+        [
+          "QGFeC.iari-4B",
+          "AX-94957045",
+          "4B",
+          "TraesCS4B02G056800",
+          "4B: 46,615,028-46,621,497",
+          "Inositol 1,3,4-trisphosphate 5/6-kinase, ATP-grasp domain"
+        ],
+        [
+          "AX-95215762",
+          "4B",
+          "TraesCS4B02G043900",
+          "4B: 31,874,862-31,877,696",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "QGFeC.iari-1D.1",
+          "AX-94648809",
+          "1D",
+          "TraesCS1D02G240700",
+          "1D: 330,545,811-330,555,264",
+          "Regulator of chromosome condensation 1/beta-lactamase-inhibitor protein II"
+        ],
+        [
+          "QGFeC.iari-2D.1",
+          "AX-94734286",
+          "2D",
+          "TraesCS2D02G044900",
+          "2D: 16,354,095-16,358,194",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "AX-95151743",
+          "2D",
+          "TraesCS2D02G053300",
+          "2D: 16,354,095-16,358,194",
+          "Bulb-type lectin domain superfamily"
+        ],
+        [
+          "QGFeC.iari-4D.1",
+          "AX-94895991",
+          "4D",
+          "TraesCS2D02G053300",
+          "2D: 20,768,191-20,770,988",
+          "Protein kinase-like domain superfamily"
+        ],
+        [
+          "TraesCS4D02G039500",
+          "4D: 16,914,929-16,924,027",
+          "Oxysterol-binding protein superfamily"
+        ],
+        [
+          "TraesCS4D02G03950",
+          "4D: 16,914,929-16,924,027",
+          "Pleckstrin homology domain"
+        ],
+        [
+          "QGFeC.iari-5B",
+          "AX-95104064",
+          "5B",
+          "TraesCS5B02G491600",
+          "5B: 659,813,764-659,821,171",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "TraesCS5B02G491600",
+          "5B: 659,813,764-659,821,171",
+          "PPM-type phosphatase domain superfamily"
+        ],
+        [
+          "TraesCS5B02G491600",
+          "5B: 659,815,819-659,821,696",
+          "Apoptotic protease-activating factors, helical domain"
+        ],
+        [
+          "TraesCS5B02G491600",
+          "5B: 659,815,819-659,821,696",
+          "Winged helix-like DNA-binding domain superfamily"
+        ],
+        [
+          "TraesCS5B02G491600",
+          "5B: 659,815,819-659,821,696",
+          "Leucine-rich repeat domain superfamily"
+        ],
+        [
+          "TraesCS5B02G494300",
+          "5B: 662,023,972-662,032,159",
+          "Protein kinase-like domain superfamily"
+        ],
+        [
+          "QGFeC.iari-6B",
+          "AX-94539326",
+          "6B",
+          "TraesCS6B02G451100",
+          "6B: 710,001,532-710,007,317",
+          "Peptidase A22B, signal peptide peptidase"
+        ],
+        [
+          "TraesCS6B02G451100",
+          "6B: 710,001,532-710,007,317",
+          "Presenilin/signal peptide peptidase"
+        ],
+        [
+          "AX-94842542",
+          "6B",
+          "TraesCS6B02G445400",
+          "6B: 707,246,945-707,250,303",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "TraesCS6B02G445400",
+          "6B: 707,246,945-707,250,303",
+          "Winged helix-like DNA-binding domain superfamily"
+        ],
+        [
+          "QGFeC.iari-2D.2",
+          "AX-94412799",
+          "2D",
+          "TraesCS2D02G282900",
+          "2D: 355,685,478-355,687,949",
+          "Mediator of RNA polymerase II transcription subunit 30"
+        ],
+        [
+          "AX-94955614",
+          "2D",
+          "TraesCS2D02G228000",
+          "2D: 196,707,566-196,711,453",
+          "Helicase superfamily 1/2, ATP-binding domain"
+        ],
+        [
+          "TraesCS2D02G228000",
+          "2D: 196,707,566-196,711,453",
+          "Domain of unknown function DUF4217"
+        ],
+        [
+          "TraesCS2D02G228000",
+          "2D: 196,707,566-196,711,453",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "QGFeC.iari-4D.1",
+          "AX-94895991",
+          "4D",
+          "TraesCS4D02G039500",
+          "4D: 16,914,929-16,924,027",
+          "Oxysterol-binding protein"
+        ],
+        [
+          "TraesCS4D02G039500",
+          "4D: 16,914,929-16,924,027",
+          "Pleckstrin homology domain"
+        ],
+        [
+          "QGFeC.iari-6D",
+          "AX-94614625",
+          "6D",
+          "TraesCS6D02G364100",
+          "6D: 454,124,979-454,130,612",
+          "SPX domain"
+        ],
+        [
+          "TraesCS6D02G364100",
+          "6D: 454,124,979-454,130,612",
+          "EXS, C-terminal"
+        ],
+        [
+          "AX-95177090",
+          "6D",
+          "TraesCS6D02G402700",
+          "6D: 470,990,689-471,005,705",
+          "Cell morphogenesis central region"
+        ],
+        [
+          "QGFeC.iari-1D.2",
+          "AX-94901148",
+          "1D",
+          "TraesCS1D02G043700",
+          "1D: 22,883,248-22,888,807",
+          "Saf4/Yju2 protein"
+        ],
+        [
+          "QGZnC.iari-3A",
+          "AX-95125642",
+          "3A",
+          "TraesCS3A02G326200",
+          "3A: 571,407,220-571,412,238",
+          "F-box-like domain superfamily"
+        ],
+        [
+          "QGZnC.iari-7A",
+          "AX-94848583",
+          "7A",
+          "TraesCS7A02G489000",
+          "7A: 679,229,757-679,231,428",
+          "Aspartic peptidase domain superfamily"
+        ],
+        [
+          "TraesCS7A02G489000",
+          "7A: 679,229,757-679,231,428",
+          "Xylanase inhibitor, N-terminal"
+        ],
+        [
+          "TraesCS7A02G489100",
+          "7A: 679,362,216-679,363,352",
+          "Peptidase family A1 domain"
+        ],
+        [
+          "QGZnC.iari-4B.2",
+          "AX-94957045",
+          "4B",
+          "TraesCS4B02G056800",
+          "4B: 46,615,028-46,621,497",
+          "Inositol-tetrakisphosphate 1-kinase, N-terminal"
+        ],
+        [
+          "AX-95215762",
+          "4B",
+          "TraesCS4B02G008300",
+          "4B: 5,458,308-5,460,603",
+          "Transcription factor CBF/NF-Y/archaeal histone domain"
+        ],
+        [
+          "QGZnC.iari-7B.2",
+          "AX-94383404",
+          "7B",
+          "TraesCS7B02G115900",
+          "7B: 134,554,293-134,559,250",
+          "Aspartic peptidase domain superfamily"
+        ],
+        [
+          "QGZnC.iari-4B.1",
+          "AX-94461604",
+          "4B",
+          "TraesCS4B02G029100",
+          "4B: 21,383,156-21,397,351",
+          "F-box domain"
+        ],
+        [
+          "AX-95115431",
+          "4B",
+          "TraesCS4B02G026300",
+          "4B: 19,745,115-19,752,157",
+          "Protein phosphatase 2A, regulatory B subunit, B56"
+        ],
+        [
+          "QGZnC.iari-5A",
+          "AX-94556600",
+          "5A",
+          "TraesCS5A02G036200",
+          "5A: 33,126,001-33,130,778",
+          "NAD-dependent epimerase/dehydratase"
+        ],
+        [
+          "QGZnC.iari-5D",
+          "AX-94724718",
+          "5D",
+          "TraesCS5D02G044300",
+          "5D: 43,316,281-43,321,658",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "AX-94656442",
+          "5D",
+          "TraesCS5D02G037800",
+          "5D: 36,761,646-36,765,059",
+          "Nuclear transcription factor Y subunit A"
+        ],
+        [
+          "QTKW.iari-3B",
+          "AX-94940814",
+          "3B",
+          "TraesCS3B02G295700",
+          "3B: 474,028,727-474,032,192",
+          "Alpha/beta hydrolase fold"
+        ],
+        [
+          "QTKW.iari-4A",
+          "AX-94606134",
+          "4A",
+          "TraesCS4A02G154100.2",
+          "4A: 310,241,879-310,245,711",
+          "Pumilio RNA-binding repeat"
+        ],
+        [
+          "QTKW.iari-6A.1",
+          "AX-94925474",
+          "6A",
+          "TraesCS6A02G303100.1",
+          "6A: 536,255,454-536,257,920",
+          "S-adenosyl-L-methionine-dependent methyltransferase"
+        ],
+        [
+          "AX-94761286",
+          "6A",
+          "TraesCS6A02G303000.1",
+          "6A: 536,251,528-536,254,709",
+          "UBL3-like, ubiquitin domain"
+        ],
+        [
+          "QTKW.iari-2D",
+          "AX-94500838",
+          "2D",
+          "TraesCS2D02G389900.1",
+          "2D: 497,361,241-497,364,738",
+          "Pentatricopeptide repeat"
+        ],
+        [
+          "QTKW.iari-2A.1",
+          "AX-94505180",
+          "2A",
+          "TraesCS2A02G503900.1",
+          "2A: 733,087,802-733,091,235",
+          "P-loop containing nucleoside triphosphate hydrolase"
+        ],
+        [
+          "QTKW.iari-6A.2",
+          "AX-94543425",
+          "6A",
+          "TraesCS6A02G296500",
+          "6A: 530,088,835-530,090,387",
+          "EF-hand domain pair"
+        ],
+        [
+          "AX-94974293",
+          "6A",
+          "TraesCS6A02G078800.1",
+          "6A: 48,552,372-48,556,703",
+          "Peroxisome membrane protein, Pex16"
+        ],
+        [
+          "QTKW.iari-7A",
+          "AX-94441851",
+          "7A",
+          "TraesCS7A02G003600.1",
+          "7A: 1,848,902-1,852,313",
+          "Homogentisate 1,2-dioxygenase"
+        ],
+        [
+          "QTKW.iari-4B.2",
+          "AX-94991164",
+          "4B",
+          "TraesCS4B02G202400.1",
+          "4B: 433,332,798-433,336,642",
+          "Ankyrin repeat-containing domain superfamily"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Sec. Nutrition and Food Science Technology",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Volume 10 - 2023 | https://doi.org/10.3389/fnut.2023.1105207",
+      "char_offset": 44
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Division of Genetics, ICAR-Indian Agricultural Research Institute, New Delhi, India",
+      "char_offset": 106
+    },
+    {
+      "type": "paragraph",
+      "text": "2. ICAR-Indian Institute of Wheat and Barley Research, Karnal, India",
+      "char_offset": 194
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Regional Station, ICAR-Indian Agricultural Research Institute, Indore, India",
+      "char_offset": 264
+    },
+    {
+      "type": "paragraph",
+      "text": "4. ICAR-National Bureau of Plant Genetic Resources, New Delhi, India",
+      "char_offset": 345
+    },
+    {
+      "type": "paragraph",
+      "text": "Biofortification is gaining importance globally to improve human nutrition through enhancing the micronutrient content, such as vitamin A, iron, and zinc, in staple food crops. The present study aims to identify the chromosomal regions governing the grain iron concentration (GFeC), grain zinc concentration (GZnC), and thousand kernel weight (TKW) using recombinant inbred lines (RILs) in wheat, developed from a cross between HD3086 and HI1500. The experiment was conducted in four different production conditions at Delhi viz. , control, drought, heat, and combined heat and drought stress and at Indore under drought stress. Grain iron and zinc content increased under heat and combined stress conditions, while thousand kernel weight decreased. Medium to high heritability with a moderate correlation between grain iron and zinc was observed. Out of 4,106 polymorphic markers between the parents, 3,407 SNP markers were used for linkage map construction which spanned over a length of 14791.18 cm. QTL analysis identified a total of 32 chromosomal regions governing the traits under study, which includes 9, 11, and 12 QTLs for GFeC, GZnC, and TKW, respectively. A QTL hotspot was identified on chromosome 4B which is associated with grain iron, grain zinc, and thousand kernel weight explaining the phenotypic variance of 29.28, 10.98, and 17.53%, respectively. Similarly, common loci were identified on chromosomes 4B and 4D for grain iron, zinc, and thousand kernel weight. In silico analysis of these chromosomal regions identified putative candidate genes that code for proteins such as Inositol 1,3,4-trisphosphate 5/6-kinase, P-loop containing nucleoside triphosphate hydrolase, Pleckstrin homology (PH) domains, Serine-threonine/tyrosine-protein kinase and F-box-like domain superfamily proteins which play role in many important biochemical or physiological process. The identified markers linked to QTLs can be used in MAS once successfully validated.",
+      "char_offset": 415
+    },
+    {
+      "type": "paragraph",
+      "text": "Hidden hunger, often referred as micronutrient deficiency, occurs due to inadequate intake of minerals like iron, zinc, iodine, and vitamin A. The main cause of hidden hunger is the consumption of energy-rich but nutrient-poor diet. According to reports, 2 billion people suffer from micronutrient deficiency worldwide ( 1 ). The devastating effects of malnutrition are seen in underdeveloped and developing countries with low-income levels and reduced dietary diversification ( 2 ). Essential micronutrients are required in minute quantities for a healthy life, otherwise, deficiencies will lead to morbidity and mortality ( 3 ).",
+      "char_offset": 2383
+    },
+    {
+      "type": "paragraph",
+      "text": "Among essential micronutrients, iron is the most important element needed for oxygen transportation, synthesis and repair of DNA ( 4 ). The deficiency of iron causes anemia around 32.9% of people suffer from anemia worldwide ( 5 ). The recommended average daily intake of iron is 27 mg per day for pregnant women, 18 mg for women, 9 mg for lactating mother, and 8 mg for men ( 6 ). Zinc is a trace mineral that acts as a catalyst for many enzymes, restore impaired energy metabolism, and helps to regulate gene expression ( 7 ). Zinc deficiency leads to alopecia, poor growth, and sexual dysfunction ( 8 ). It\u2019s reported that 17.3% of the world\u2019s population is affected by zinc deficiency ( 9 ). The average recommended intake of zinc is 8 mg for women, 11 mg for men and pregnant women, 12 mg for lactating mother ( 6 ).",
+      "char_offset": 3015
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat is a staple food crop and the second-largest grain in both acreage and production worldwide. It\u2019s the second largest consumed food grain and accounts for 20% of protein and calories ( 10 ). The wheat cereal-based diets fail to provide the necessary amount of minerals like iron and zinc ( 11 ). Hidden hunger is more pronounced in the areas with cereals as sole source of food supply, low dietary diversification and unavailability of biofortified varieties ( 12 ). Biofortification is the most ideal as it is cost-effective and sustainable way to improve grain micronutrient concentration ( 13 ). Therefore, attention should be given to develop biofortified varieties using breeding and molecular techniques ( 14 ).",
+      "char_offset": 3838
+    },
+    {
+      "type": "paragraph",
+      "text": "Enrichment of grain micronutrients through traditional breeding approach is difficult because of polygenic inheritance and interaction with environment. With the advent of novel molecular techniques breeders have put a step forward in utilizing markers for assessment of genetic diversity, germplasm characterization, identification of QTLs and their utilization in practical plant breeding. Identification of loci governing GFeC and GZnC with high PVE and the markers linked to them will be very useful in molecular breeding. Several QTLs have been identified previously from the populations derived from crosses between tetraploid and hexaploid wheat varieties ( 15 \u2013 18 ). Few biofortified wheat varieties released so far in India include, WB2 and HPBW 01 (high Zn and Fe), PBW1Zn (high Zn content), Pusa Tejas and Pusa Ujala (high protein content along with Zn) ( 19 ). However, only a few QTLs are identified in wheat with high phenotypic variance and are hardly being used in Indian molecular breeding for grain nutrient improvement. Hence, the present study aims to identify the novel and stable QTLs for grain zinc concentration, grain iron concentration and thousand kernel weight using mapping population derived from a cross between HD3086 and HI1500. The study was conducted across the environments viz, Delhi and Indore, in control and stress conditions (drought, heat, and combined drought and heat).",
+      "char_offset": 4562
+    },
+    {
+      "type": "paragraph",
+      "text": "The mapping population consists of 166 recombinant inbred lines (RILs) derived from a cross between HD3086 and HI1500. HD3086 is an Indian high-yielding hexaploid wheat variety suitable for timely sown, irrigated condition developed at IARI, New Delhi ( 20 , 21 ). HI1500 is a popular variety recommended for cultivation under restricted irrigation in central zone harboring many important traits related to drought and heat tolerance ( 21 , 22 ). The variety HI1500 has higher GFeC, GZnC, and TKW (44.50 mg/kg GFeC, 53.50 mg/kg GZnC, and 35.88 g TKW) in all the conditions as compared to HD3086 (38.60 mg/kg GFeC, 38.60 mg/kg GZnC, and 35.58 g TKW). The RILs population along with parents were evaluated under four conditions namely timely sown irrigation (TSIR) taken as control, timely sown restricted irrigation (TSRI), late sown irrigation (LSIR), and late sown restricted irrigation (LSRI) conditions at Delhi, and under restricted irrigation condition at Indore. Two irrigations were given in TSRI, one at germination and other at 21 days after sowing; six irrigations were provided during cropping period in irrigated condition (TSIR). Late sown trials (LSIR and LSRI) were planted in second fortnight of December to expose plants to heat stress, and under LSRI condition irrigation was withheld to expose plants to both terminal heat and drought stress. The genotypes were evaluated in an alpha-lattice design with two replications. Each genotype was sown in 3 rows of 1 m each with 22.5 cm distance between rows and 10 cm distance between plants. Uniform agronomic practises were practiced for proper establishment of crop stand. The details of the sowing conditions and locations are presented in Table 1 .",
+      "char_offset": 5978
+    },
+    {
+      "type": "paragraph",
+      "text": "Details of the experiment locations, sowing conditions of the mapping population.",
+      "char_offset": 7697
+    },
+    {
+      "type": "paragraph",
+      "text": "From each plot, 20 random spikes were harvested and spikes from each plot were threshed separately. While cleaning, care was taken to prevent metal and dust contamination. The grain iron concentration (GFeC) and grain zinc concentration (GZnC) were measured using Energy Dispersive X-ray Fluorescence (ED-XRF) machine (model X-Supreme 8000 M/s Oxford Inc., USA). The thousand kernel weight (TKW) was recorded by counting 1,000 grains manually and weighted with an electronic balance.",
+      "char_offset": 7780
+    },
+    {
+      "type": "paragraph",
+      "text": "Analysis of variance was done using PBTools v1.4 software ( 23 ). Heritability and correlations among traits were calculated using the MetaRv6.0 (Multi Environment Trial Analysis with R) software ( 24 ). From phenotypic data best linear unbiased predictors (BLUPs) were calculated for the individual conditions and combined across all production conditions and environments for further QTL mapping.",
+      "char_offset": 8265
+    },
+    {
+      "type": "paragraph",
+      "text": "DNA was extracted from 21 days old seedling using the CTAB method ( 25 ). Genomic DNA quality was determined using 0.8% agarose gel electrophoresis with \u03bb DNA as the standard and quantified using nanodrop. The 35K SNP Axiom breeders\u2019 array was used for genotyping of parents and the RILs population.",
+      "char_offset": 8665
+    },
+    {
+      "type": "paragraph",
+      "text": "A total of 4,106 SNP markers were polymorphic between the two parents. Among these, the redundant markers were removed by binning and markers deviating from mendelian segregation were deleted. Finally, a set of 3,407 non-redundant SNP markers spanning all over the chromosomes were used for the linkage map construction using IciMapping v4.2 software ( 26 ). Kosambi mapping function was used to calculate map distances between markers. Marker grouping was done using a rec value of 0.37 and the linear order of markers was determined. Ordering is done using function K-optimality 3-optMAP with NN initials of 10. Rippling was carried out using recombination with a window size of 5 cm. The final generated linkage map is used for QTL mapping.",
+      "char_offset": 8966
+    },
+    {
+      "type": "paragraph",
+      "text": "QTL mapping was performed using IciMapping 4.2 software ( 26 ) with inclusive composite interval mapping (ICIM-ADD) model ( 27 ). BLUP values were calculated in the individual environment and pooled over environments along with genotypic data used for QTL analysis. \u201cMean replacement\u201d was used to address missing phenotypic data. The walking speed of 1.0 cm, with P = 0.001 was used in stepwise regression. The LOD score of 3.0 along with 1,000 permutations was chosen for the declaration of the QTL. Identified QTLs were named following standard nomenclature available in the catalog of wheat gene symbols ( 28 ). The candidate genes (CGs) were identified based on the positions of flanking markers of the QTL. BLAST search was done to identify putative candidate genes in the physical location of markers against IWGSC wheat ( Triticum aestivum L.) reference genome embedded in the Ensembl Plants database. 1",
+      "char_offset": 9711
+    },
+    {
+      "type": "paragraph",
+      "text": "The parents of RIL population showed promising variability for GFeC, GZnC, and TKW. The variety HI1500 had higher GFeC, GZnC, and TKW (44.50 mg/kg GFeC, 53.50 mg/kg GZnC, and 35.88 g TKW) in all the conditions as compared to HD3086 (38.60 mg/kg GFeC, 38.60 mg/kg GZnC, and 35.58 g TKW). The parental mean difference for GFeC, GZnC and TKW was given in Table 2 .",
+      "char_offset": 10623
+    },
+    {
+      "type": "paragraph",
+      "text": "Parental difference for the grain iron, zinc content, and thousand kernel weight.",
+      "char_offset": 10986
+    },
+    {
+      "type": "paragraph",
+      "text": "The mean TKW of the RILs was highest in the timely sown condition compared to drought, heat and combined stress, whereas the GFeC and GZnC were low under control condition as compared to combined stress. The mean TKW in control was 38.28 g, which decreased to 37.36 g under drought, 29.99 g under heat, and 25.49 g under combined stress condition, while TKW in restricted irrigated condition at Indore increased to 41.88 g ( Table 3 ). The GFeC under control was 39.22 mg/kg and increased to 41.51 mg/kg under drought, 40.75 mg/kg under combined stress, and 42.05 mg/kg under drought in the Indore, in contrast it was reduced to 38.41 mg/kg in heat stress. The GZnC in control was 43.31 mg/kg and increased to 59.33 mg/kg under heat and 50.44 mg/kg under combined stress, decreased to 40.46 and 37.77 mg/kg under drought condition in Delhi and Indore, respectively. Violin plots depicting GFeC, GZnC and TKW under all the studied condition are given in the Figure 1 . The mean decrease in TKW and increase in GFeC and GZnC was found significant ( p -value of 0.05) using one tailed and two tailed z -test ( Table 3 ). Analysis of variance showed significant variation among the RILs for the traits GFeC, GZnC, and TKW in all the conditions viz ., control (TSIR), drought (TSRI), heat (LSIR), and combined stress (LSRI) in Delhi and drought stress (TSRI) in Indore.",
+      "char_offset": 11069
+    },
+    {
+      "type": "paragraph",
+      "text": "Descriptive statistics, heritability, and percent mean increase/decrease under drought, heat, and combined stress.",
+      "char_offset": 12435
+    },
+    {
+      "type": "paragraph",
+      "text": "Depiction of the distribution of GFeC, GZnC, and GZnC under control, drought, heat, and combined stress conditions through violin plots.",
+      "char_offset": 12551
+    },
+    {
+      "type": "paragraph",
+      "text": "The coefficient of variation was high under drought and combined stress conditions compared to the control but heritability was found to be lower under drought and combined stress conditions for all the traits. Broad sense heritability of the traits studied was medium to high except for the GZnC which was low under combined stress condition. The range, heritability, coefficient of variation and mean decrease/increase are given in Table 3 . Significant association among GFeC and GZnC under control (0.51 *** ), drought (0.57 *** ) and heat (0.50 *** ) at Delhi location and GFeC and GZnC under drought stress (0.41 *** ) at Indore (at p -value of 0.001) was observed. Traits viz., GFeC and GZnC did not show significant association with TKW except positive significant (0.20 ** ) association between TKW and GZnC (at p -value of 0.01) under the drought ( Table 4 ).",
+      "char_offset": 12689
+    },
+    {
+      "type": "paragraph",
+      "text": "Genotypic correlation coefficients among grain iron, zinc, and thousand kernel weight in the RIL population.",
+      "char_offset": 13560
+    },
+    {
+      "type": "paragraph",
+      "text": "**Significant at p < 0.01; ***significant at p < 0.001.",
+      "char_offset": 13670
+    },
+    {
+      "type": "paragraph",
+      "text": "A total of 4,106 polymorphic markers were identified between HD3086 and HI1500, out of which 3,407 non-redundant markers uniformly distributed over all the 21 chromosomes were used for the linkage map construction. The linkage map spanned a genetic length of 14791.18 cm, ranging from 2.03 cm/marker in 1B to 9.41 cm/marker in 4D chromosome with an average marker density of 4.34 cm/marker. The highest number of markers mapped on genome B with a total of 1386 followed by A and D with 1,046 and 975 markers, respectively. Chromosome 2B had the highest number of markers 239 while chromosome 4B had only 61 markers ( Table 5 ).",
+      "char_offset": 13727
+    },
+    {
+      "type": "paragraph",
+      "text": "Distribution of markers and marker density across chromosomes in the linkage map developed in RILs of HD3086/HI1500.",
+      "char_offset": 14356
+    },
+    {
+      "type": "paragraph",
+      "text": "A total of 32 QTLs were mapped on 17 different chromosomes for the traits GFeC, GZnC, and TKW across the environment. Out of 32, nine QTLs were mapped for GFeC, eleven for GZnC, and twelve for TKW. Chromosome 4B carried the highest number of QTLs i.e., 5, followed by chromosome 2D which carried 4 QTLs, while chromosomes 1D, 2A, 3B, 4D, 5D, 6A, 7A, and 7B carried 2 QTLs each, and the remaining chromosomes 3A, 4A, 5A, 5B, 6B, 6D, and 7D carried only one QTL. A list of QTLs identified along with flanking markers, LOD score, PVE (%), and additive effects are given in Table 6 . In silico analysis of QTL regions identified a few important candidate genes which are having various roles in different pathways of growth and development were given in Table 7 .",
+      "char_offset": 14474
+    },
+    {
+      "type": "paragraph",
+      "text": "QTLs identified for GFeC, GZnC, and TKW in the RIL population under control, drought, heat, and combined stress conditions.",
+      "char_offset": 15235
+    },
+    {
+      "type": "paragraph",
+      "text": "Putative candidate genes identified in the QTL region and proteins produced.",
+      "char_offset": 15360
+    },
+    {
+      "type": "paragraph",
+      "text": "QTL analysis identified nine QTLs for GFeC with the LOD score ranging from 3.54 to 14.37. The number of QTLs identified in different treatments viz ., control, drought, combined stress and pooled BLUP of all the environments were 3, 2, 3, and 3, respectively. Three major QTLs QGFeC.iari-4D.1, QGFeC.iari-4B , and QGFeC.iari-1D.1 explained greater than 10 percent phenotypic variance: (i) The QTL QGFeC.iari-4B explained the highest phenotypic variance of 29.28% flanked by markers AX-94957045 and AX-95215762 with a 1 cm confidence interval. (ii) The QTL QGFeC.iari-4D.1 was identified in control and pooled BLUP data and found to be stable explaining the phenotypic variance of 16.90 and 17.87%, respectively. The region is associated with two candidate genes TraesCS4D02G03950 and TraesCS4D02G03950 which code for Oxysterol-binding protein and Pleckstrin homology domain, respectively. (iii) QTL QGFeC.iari-1D.1 was identified between markers AX-94648809 and AX-95230812 with the phenotypic variance of 11.47 and 8.28% in combined stress and control conditions, respectively. In addition to the major QTLs, six minor QTLs QGFeC.iari-2D.1, QGFeC.iari-5B, QGFeC.iari-6B, QGFeC.iari-1D.2, QGFeC.iari-2D.2 , and QGFeC.iari-6D were also identified with a phenotypic variance of 5.91, 5.57, 5.86, 9.30, 6.32, and 8.63%, respectively. The chromosome regions of these QTLs were found to harbor important candidate genes encoding proteins for Bulb-type lectin domain superfamily, Winged helix-like DNA-binding domain superfamily, Protein kinase-like domain superfamily, Apoptotic protease-activating factors, Presenilin/signal peptide peptidase, Protein kinase-like domain superfamily, Peptidase A22B, signal peptide peptidase, and Leucine-rich repeat domain superfamily.",
+      "char_offset": 15438
+    },
+    {
+      "type": "paragraph",
+      "text": "A total of 11 QTLs were identified for GZnC with the LOD value ranging from 3.40 to 15.06 out of which QGZnC.iari-3B, QGZn.iari-7B.1, QGZnC.iari-4B.2, QGZnC.iari-7D , and QGZnC.iari-5A were the major QTLs explaining phenotypic variance greater than 10 percent. The QTL QGZn.iari-3B flanked with markers AX-94791212 and AX-95256225, explained 10.78% phenotypic variance. This region contains a putative candidate gene TraesCS3A02G326200 that codes for F-box-like domain superfamily proteins. The QTL QGZnC.iari-4B.2 explained a phenotypic variance of 10.98% and the region contained candidate genes TraesCS4B02G056800 and TraesCS4B02G008300 encoding Inositol-tetrakisphosphate 1-kinase, N-terminal and Transcription factor CBF/NF-Y/archaeal histone domain, respectively. The QTL QGZn.iari-7D contributed 10.87% to the total phenotypic variance and had a candidate gene TraesCS7B02G115900 encoding protein belonging to the Aspartic peptidase domain superfamily. QTL QGZn.iari-5A explained 18.29% phenotypic variance and a candidate gene TraesCS5A02G036200 coding for protein NAD-dependent epimerase/dehydratase. The QTL QGZn.iari-7B.1 explained a phenotypic variance of 14.09%. Six minor QTLs viz ., QGZnC.iari-4B.1, QGZnC.iari-3A, QGZnC.iari-7A, QGZnC.iari-7B.2, QGZnC.iari-2D , and QGZnC.iari-5D were identified with phenotypic variance of 9.19, 8.08, 5.82, 6.91, 6.10, and 9.73 percent, respectively. The chromosomal regions of these QTLs harbors candidate genes that codes for Aspartic peptidase domain superfamily, P-loop containing nucleoside triphosphate hydrolase, Xylanase inhibitor, N-terminal Peptidase family A1 domain, and nuclear transcription factor Y subunit A.",
+      "char_offset": 17205
+    },
+    {
+      "type": "paragraph",
+      "text": "A total of twelve QTLs was identified on nine different chromosomes ranging from 3.81 to 15.35 LOD value; chromosomes 2A, 4B, and 6A carried two QTLs each. The QTKW.iari-4D.1, QTKW.iari-4B.1, QTKW.iari-3B , and QTKW.iari-2A.1 were the major QTLs with a phenotypic variance of 12.69, 17.53, 10.18, and 12.53 percent, respectively. The genomic region of the QTKW.iari-3B contains important candidate gene TraesCS3B02G295700 coding Alpha/Beta hydrolase fold protein. One stable QTL QTKW.iari-4D.1 was identified on in control and pooled data that explained a phenotypic variance of 12.69 and 13.90%, respectively. The QTL region was found to have putative candidate gene TraesCS4D02G039500 which codes for Oxysterol-binding protein and Pleckstrin homology domain. QTKW.iari-4A, QTKW.iari-6A.1, QTKW.iari-2D, QTKW.iari-2A.2, QTKW.iari-6A.2, QTKW.iari-7A, QTKW.iari-4B.2 , and QTKW.iari-5D are the minor QTLs identified with PVE of 7.60, 7.82, 8.10, 5.78, 6.59, 6.53, 5.32, and 4.60%, respectively. The chromosomal regions of the QTLs codes proteins/enzymes such as Pumilio RNA-binding repeat, S-adenosyl-L-methionine-dependent methyltransferase, UBL3-like ubiquitin domain, EF-hand domain pair, Peroxisome membrane protein (Pex16), Homogentisate 1,2-dioxygenase, and Ankyrin repeat-containing domain superfamily.",
+      "char_offset": 18882
+    },
+    {
+      "type": "paragraph",
+      "text": "Micronutrient elements such as grain iron, grain zinc, are governed by many genes whose expression is influenced by the external environment. In the present study, to identify QTLs expressed in different stress conditions the experiment was carried out in drought, heat, and combined stress conditions taking timely sown environment as control. The treatment-wise highest mean for GFeC 41.51 mg/kg, GZnC 59.33 mg/kg, and TKW 41.88 g was observed in drought (Indore), heat, and drought (Indore) conditions, respectively, as observed in previous studies ( 29 , 30 ). The GFeC and GZnC were increased in late sown conditions but the TKW decreased because the high temperature during grain filling caused forced maturity, reduced photosynthetic assimilation and starch content leading to the development of undernourished shriveled seeds ( 31 ). Although the grain micronutrients concentration was highest in late sown condition, the total micronutrient yield per area was highest in timely sown condition as the grain yield was highest in timely sown condition similar kind of results were also observed in a study by Velu et al. ( 30 ). GCV for GFeC ranged from 2.33 to 10.00, GCV for GZnC ranged from 12.26 to 29.92 and GCV for TKW ranged from 7.18 to 29.18 in different treatment conditions. The lower the value of GCV, the greater the influence of the environment on the expression of the particular trait whereas higher value of GCV, indicates the variation in the population mainly attributes to the genetic makeup of the individual. The CV for GFeC was ranged from 5.66 to 6.62, GZnC ranged from 1.63 to 48.90, TKW ranged from 6.97 to 15.44, similar findings were observed in previous studies by 29 , 32 , 33 . A wide variation was observed for GFeC, GZnC, and TKW ( Table 3 ) ( 17 , 34 , 35 ). Heritability is important selection parameter that aids plant breeders in determining the characters for which selection is to be performed ( 36 ). The heritability of the traits studied was found to be medium to high indicating a predominance of genotypic variance which can be exploited by selection in crop improvement, ( 17 , 37 ). GFeC is significantly correlated with GZnC in all the conditions, indicating they are positively associated with each other and the selection for improvement of one character will simultaneously bring improvement in another. The results were similar to previous studies by 38 , 39 .",
+      "char_offset": 20192
+    },
+    {
+      "type": "paragraph",
+      "text": "In the present study a total of 32 QTLs were identified out of which 9, 11, and 12 for GFeC, GZnC, and TKW, respectively ( Figure 2 ). Most of the QTLs for GZnC and TKW were derived from parent HI1500 while QTLs for GFeC were derived from parent HD3086. Interestingly, one pleiotropic QTL QGFe.iari-4B/QGZnC.iari-4B.2/QTKW.iari-4B.1 has been identified at position 335 cm which explained the phenotypic variance of 29.28% for GFeC, 10.98% for GZnC, and 17.53% for TKW. Two Stable QTLs QGFeC.iari-1D.1 and QTL QGFeC.iari-4D.1 were identified for GFeC, and one for TKW QTKW.iari-4D.1 and. were also reported in earlier studies ( 40 \u2013 42 ). QTLs for grain iron content are mapped most on the D genome while B genome carried the highest number of QTLs for grain zinc content and A genome carried highest number of QTLs for TKW.",
+      "char_offset": 22611
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetic linkage map and QTL positions identified on A, B, and D genomes of RILs derived from the cross HD3086/HI1500. Red color indicates QTLs for GFeC; blue color indicates QTLs for GZnC; green color indicates QTLs for TKW; purple color indicates QTL governing GFe, GZn and TKW; yellow color indicates QTL governing both GFe and TKW.",
+      "char_offset": 23436
+    },
+    {
+      "type": "paragraph",
+      "text": "The stable QTLs for GFeC was identified on chromosome 1D and 4D as also reported by previous workers on 4D ( 32 , 37 ), 1D ( 18 ). The putative candidate gene TraesCS4D02G03950 in the QTL QGFeC.iari-4D.1 region coded Pleckstrin homology (PH) domains; these are protein modules made up of 100\u2013120 amino acids and has the potential to bind phosphoinositides ( 43 ). Phosphoinositides are known to regulate intracellular membrane trafficking by providing intrinsic membrane signals ( 44 ) and also help in regulation of ion channel function ( 45 ). Another stable QTL QGFeC.iari-1D.1 harbors a putative candidate gene TraesCS1D02G240700 which codes for Regulator of chromosome condensation 1/beta-lactamase-inhibitor protein II. Three major QGFeC.iari-4D.1, QGFeC.iari-4B , and QGFeC.iari-1D.1 for GFeC were also reported by previous workers on 4D ( 32 , 37 ), 1D ( 18 ), and 4B ( 37 ) in different mapping populations. In silico analysis of chromosomal regions harboring QTL QGFeC.iari-4B found a putative candidate gene TraesCS1D02G240700 near right marker AX-95215762 which codes for P-loop containing nucleoside triphosphate hydrolase, and belong to the special class of metallochaperones ( 46 ). Metallochaperones are specific class of molecular chaperones that mediate the intracellular transport of metal ions to metalloproteins and metalloenzymes through protein-protein interactions ( 47 ). These proteins are Fe 2+ chaperones and important multifunctional adaptors that function in the nuclear and cytosolic compartmentalization, storage and export of iron in the form of ferritin and ferroportin ( 48 ). Another putative candidate gene TraesCS4B02G056800 codes for Inositol 1,3,4-trisphosphate 5/6-kinase, it acts as a chelator of metal ions such as iron and zinc.",
+      "char_offset": 23772
+    },
+    {
+      "type": "paragraph",
+      "text": "Five major QTLs corresponding to GZnC viz ., QGZnC.iari-3B, QGZn.iari-7B.1, QGZnC.iari-4B.2, QGZnC.iari-7D , and QGZnC.iari-5A were identified. The similar localization of QTL for GZnC were reported in earlier studies on 3B ( 29 , 32 , 37 , 49 ), 7B ( 29 , 32 , 37 ), 4B ( 49 ), 5A ( 18 , 29 , 49 ), and 7D ( 18 , 29 , 37 ) in different mapping populations. The QTL region QGZn.iari-3B was found to have candidate genes coding for F-box-like domain superfamily which takes part in several biological processes like flowering, photomorphogenesis, seed development, leaf senescence, the regulation of circadian rhythms, and hormone signaling ( 50 ). The QTLs for TKW were reported in earlier studies on chromosome 3B ( 33 , 51 ), 4B ( 51 \u2013 53 ), 4A ( 51 ), 6A ( 51 , 54 ), 2D ( 53 , 54 ), 2A ( 33 , 54 ), and 7A ( 51 , 54 ). Candidate gene TraesCS3B02G295700 was found in the QTL QTKW.iari-3B region coding Alpha/Beta hydrolase fold protein. This protein serves as the core structure for phytohormone and ligand receptors in the gibberellin, strigolactone, and karrikin signaling pathways in plants ( 55 ).",
+      "char_offset": 25546
+    },
+    {
+      "type": "paragraph",
+      "text": "The number of QTLs identified for GFeC, GZnC and TKW are 9, 11, and 12, respectively. One pleiotropic QTL was identified on chromosome 4B which is associated with grain iron, grain zinc concentration and thousand kernel weight. The common locus was identified for Zn content and TKW on chromosome 4B, while common locus for Fe and TKW was found on 4D. The same genes might be functioning in the accumulation of Fe, Zn, and TKW which need to be studied further in detail at molecular and biochemical levels. Genomic regions on chromosomes 1D and 4D were associated with Fe content, 2A and 6A associated with TKW, while on chromosome 4B were associated with Zn content, therefore fine mapping of the such regions may be rewarding. Further in silico analysis of QTL regions identified putative candidate genes which are directly or indirectly related to these traits. So, the identified QTLs can be used in practical plant breeding to develop biofortified varieties after the successful validation of these identified markers.",
+      "char_offset": 26652
+    },
+    {
+      "type": "paragraph",
+      "text": "The original contributions presented in this study are included in the article/ Supplementary material , further inquiries can be directed to the corresponding authors.",
+      "char_offset": 27677
+    },
+    {
+      "type": "paragraph",
+      "text": "PS, NJ, GS, and HK conceptualized the investigation and edited the manuscript. KM conducted the investigation and prepared the draft of the manuscript. KM, CM, JS, and ND generated the phenotypic data. KM, HK, VS, SS, and DC contributed in the generation of genotyping data. KM and HK did the statistical and QTL analysis. All authors contributed to the article and approved the submitted version.",
+      "char_offset": 27847
+    },
+    {
+      "type": "paragraph",
+      "text": "Part of the research supported by a grant from the Bill & Melinda Gates Foundation (Grant number: # OPP1215722) sub grant to India for Zn mainstreaming project and National Innovations on Climate Resilient Agriculture (NICRA), a network project of the Indian Council of Agricultural Research (ICAR).",
+      "char_offset": 28246
+    },
+    {
+      "type": "paragraph",
+      "text": "KM acknowledges the Council of Scientific and Industrial Research (CSIR), New Delhi and Indian Council of Agricultural Research Institute (ICAR), and New Delhi for Junior Research Fellow Scholarships to complete this work as part of Ph.D. thesis.",
+      "char_offset": 28547
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+      "char_offset": 28795
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+      "char_offset": 28969
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fnut.2023.1105207/full#supplementary-material",
+      "char_offset": 29317
+    },
+    {
+      "type": "paragraph",
+      "text": "1. ^ https://plants.ensembl.org/index.html",
+      "char_offset": 29477
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO. Preventing Micronutrient Malnutrition a Guide to Food-based Approaches - Why Policy Makers Should Give Priority to Food-based Strategies. Washington, DC : ILSI PRESS ( 1997 ).",
+      "char_offset": 29521
+    },
+    {
+      "type": "paragraph",
+      "text": "Lowe NM . The global challenge of hidden hunger: perspectives from the field. Proc Nutr Soc. ( 2021 ) 80 : 283 \u2013 9 . 10.1017/S0029665121000902",
+      "char_offset": 29703
+    },
+    {
+      "type": "paragraph",
+      "text": "Wedner SH Ross DA . Vitamin A deficiency and its prevention. In: Heggenhougen K editor. Encyclopedia of Public Health. San Diego : Elsevier ( 2008 ). 10.1016/B978-012373960-5.00642-0",
+      "char_offset": 29847
+    },
+    {
+      "type": "paragraph",
+      "text": "Dev S Babitt JL . Overview of iron metabolism in health and disease. Hemodialysis Int. ( 2017 ) 21 : S6 \u2013 20 . 10.1111/hdi.12542",
+      "char_offset": 30031
+    },
+    {
+      "type": "paragraph",
+      "text": "World Health Organization. WHO Global Anaemia Estimates, 2021 Edition. Anaemia in Women and Children. ( 2021 ). Available online: https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children ( accessed on February 18, 2022 ).",
+      "char_offset": 30161
+    },
+    {
+      "type": "paragraph",
+      "text": "Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc: a Report of the Panel on Micronutrients. Washington, DC : National Academy Press ( 2001 ).",
+      "char_offset": 30405
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang X Wang H Huang C He X Xu W Luo Y et al Zinc enhances the cellular energy supply to improve cell motility and restore impaired energetic metabolism in a toxic environment induced by OTA. Sci Rep. ( 2017 ) 7 : 1 \u2013 11 . 10.1038/s41598-017-14868-x",
+      "char_offset": 30680
+    },
+    {
+      "type": "paragraph",
+      "text": "Maxfield L Shukla S Crane JS . Zinc deficiency. StatPearls [Internet]. Treasure Island, FL : StatPearls Publishing ( 2021 ).",
+      "char_offset": 30930
+    },
+    {
+      "type": "paragraph",
+      "text": "Wessells KR Brown KH . Estimating the global prevalence of zinc deficiency: results based on zinc availability in national food supplies and the prevalence of stunting. PLoS One. ( 2012 ) 7 : e50568 . 10.1371/journal.pone.0050568",
+      "char_offset": 31056
+    },
+    {
+      "type": "paragraph",
+      "text": "Reynolds M Foulkes J Furbank R Griffiths S King J Murchie E et al Achieving yield gains in wheat. Plant Cell Environ. ( 2012 ) 35 : 1799 \u2013 823 . 10.1111/j.1365-3040.2012.02588.x",
+      "char_offset": 31287
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrill P Connorton JM Balk J Miller AJ Sanders D Uauy C . Biofortification of wheat grain with iron and zinc: integrating novel genomic resources and knowledge from model crops. Front Plant Sci. ( 2014 ) 5 : 53 . 10.3389/fpls.2014.00053",
+      "char_offset": 31466
+    },
+    {
+      "type": "paragraph",
+      "text": "Kiran A Wakeel A Mahmood K Mubaraka R Haefele SM . Biofortification of staple crops to alleviate human malnutrition: contributions and potential in developing countries. Agronomy. ( 2022 ) 12 : 452 . 10.3390/agronomy12020452",
+      "char_offset": 31705
+    },
+    {
+      "type": "paragraph",
+      "text": "Malik KA Maqbool A . Transgenic crops for biofortification. Front Sustain Food Syst. ( 2020 ) 4 : 571402 . 10.3389/fsufs.2020.571402",
+      "char_offset": 31931
+    },
+    {
+      "type": "paragraph",
+      "text": "Garg M Sharma N Sharma S Kapoor P Kumar A Chunduri V et al Biofortified crops generated by breeding, agronomy, and transgenic approaches are improving lives of millions of people around the world. Front Nutr. ( 2018 ) 5 : 12 . 10.3389/fnut.2018.00012",
+      "char_offset": 32065
+    },
+    {
+      "type": "paragraph",
+      "text": "Krishnappa G Singh AM Chaudhary S Ahlawat AK Singh SK Shukla RB et al Molecular mapping of the grain iron and zinc concentration, protein content and thousand kernel weight in wheat ( Triticum aestivum L.). PLoS One. ( 2017 ) 12 : e0174972 . 10.1371/journal.pone.0174972",
+      "char_offset": 32317
+    },
+    {
+      "type": "paragraph",
+      "text": "Velu G Tutus Y Gomez-Becerra HF Hao Y Demir L Kara R et al QTL mapping for grain zinc and iron concentrations and zinc efficiency in a tetraploid and hexaploid wheat mapping populations. Plant Soil. ( 2017 ) 411 : 81 \u2013 99 . 10.1007/s11104-016-3025-8",
+      "char_offset": 32589
+    },
+    {
+      "type": "paragraph",
+      "text": "Krishnappa G Rathan ND Sehgal D Ahlawat AK Singh SK Singh SK et al Identification of novel genomic regions for biofortification traits using an SNP marker-enriched linkage map in wheat ( Triticum aestivum L.). Front Nutr. ( 2021 ) 8 : 669444 . 10.3389/fnut.2021.669444",
+      "char_offset": 32840
+    },
+    {
+      "type": "paragraph",
+      "text": "Rathan ND Sehgal D Thiyagarajan K Singh R Singh AM Govindan V . Identification of genetic loci and candidate genes related to grain zinc and iron concentration using a zinc-enriched wheat \u2018Zinc-Shakti\u2019. Front Genet. ( 2021 ) 12 : 652653 . 10.3389/fgene.2021.652653",
+      "char_offset": 33110
+    },
+    {
+      "type": "paragraph",
+      "text": "Yadava DK Hossain F Mohapatra T . Nutritional security through crop biofortification in India: Status & future prospects. Indian J Med Res. ( 2018 ) 148 : 621 . 10.4103/ijmr.IJMR_1893_18",
+      "char_offset": 33376
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh GP Prabhu KV Singh PK Singh AM Jain N Ramya P et al HD 3086: a new wheat variety for irrigated, timely sown condition of North Western Plains Zone of India. J Wheat Res. ( 2014 ) 6 : 179 \u2013 80 .",
+      "char_offset": 33564
+    },
+    {
+      "type": "paragraph",
+      "text": "Sunilkumar VP Krishna H Devate NB Manjunath KK Chauhan D Singh S et al Marker assisted improvement for leaf rust and moisture deficit stress tolerance in wheat variety HD3086. Front Plant Sci. ( 2022 ) 13 : 1035016 . 10.3389/fpls.2022.1035016",
+      "char_offset": 33765
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh GP Jain N Singh PK Pandey MK Sharma K Kumar A et al Effect of recurrent selection on drought tolerance and related morpho-physiological traits in bread wheat. PLoS One. ( 2016 ) 11 : e0156869 . 10.1371/journal.pone.0156869",
+      "char_offset": 34009
+    },
+    {
+      "type": "paragraph",
+      "text": "International Rice Research Institute. PBTools, Version 1.4 2014. Biometrics and Breeding Informatics. Los Banos : PBGP Division, International Rice Research Institute ( 2014 ).",
+      "char_offset": 34239
+    },
+    {
+      "type": "paragraph",
+      "text": "Alvarado G Rodr\u00edguez FM Pacheco A Burgue\u00f1o J Crossa J Vargas M et al META-R: a software to analyze data from multi-environment plant breeding trials. Crop J. ( 2020 ) 8 : 745 \u2013 56 . 10.1016/j.cj.2020.03.010",
+      "char_offset": 34418
+    },
+    {
+      "type": "paragraph",
+      "text": "Murray MG Thompson W . Rapid isolation of high molecular weight plant DNA. Nucleic Acids Res. ( 1980 ) 8 : 4321 \u2013 6 . 10.1093/nar/8.19.4321",
+      "char_offset": 34626
+    },
+    {
+      "type": "paragraph",
+      "text": "Meng L Li H Zhang L Wang J . QTL IciMapping: integrated software for genetic linkage map construction and quantitative trait locus mapping in biparental populations. Crop J. ( 2015 ) 3 : 269 \u2013 83 . 10.1016/j.cj.2015.01.001",
+      "char_offset": 34767
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang J . Inclusive composite interval mapping of quantitative trait genes. Acta Agron Sin. ( 2009 ) 35 : 239 \u2013 45 . 10.3724/SP.J.1006.2009.00239",
+      "char_offset": 34991
+    },
+    {
+      "type": "paragraph",
+      "text": "McIntosh RA Yamazak Y Dubcovsky J Rogers J Morris C Apples R et al Catalogue of gene symbols for wheat. Proceedings of the 12th International Wheat Genetics Symposium. GrainGenes. Washington, DC : USDA ( 2013 ).",
+      "char_offset": 35137
+    },
+    {
+      "type": "paragraph",
+      "text": "Devate NB Krishna H Sunilkumar VP Manjunath KK Mishra CN Jain N et al Identification of genomic regions of wheat associated with grain Fe and Zn content under drought and heat stress using genome-wide association study. Front Genet. ( 2022 ) 13 : 1034947 . 10.3389/fgene.2022.1034947",
+      "char_offset": 35350
+    },
+    {
+      "type": "paragraph",
+      "text": "Velu G Guzman C Mondal S Autrique JE Huerta J Singh RP . Effect of drought and elevated temperature on grain zinc and iron concentrations in CIMMYT spring wheat. J Cereal Sci. ( 2016 ) 69 : 182 \u2013 6 . 10.1016/j.jcs.2016.03.006",
+      "char_offset": 35635
+    },
+    {
+      "type": "paragraph",
+      "text": "Djanaguiraman M Boyle DL Welti R Jagadish SVK Prasad PVV . Decreased photosynthetic rate under high temperature in wheat is due to lipid desaturation, oxidation, acylation, and damage of organelles. BMC Plant Biol. ( 2018 ) 18 : 55 . 10.1186/s12870-018-1263-z",
+      "char_offset": 35862
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang Y Xu X Hao Y Zhang Y Liu Y Pu Z et al QTL mapping for grain zinc and iron concentrations in bread wheat. Front Nutr. ( 2021 ) 8 : 680391 . 10.3389/fnut.2021.680391",
+      "char_offset": 36123
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu J Wu B Singh RP Velu G . QTL mapping for micronutrients concentration and yield component traits in a hexaploid wheat mapping population. J Cereal Sci. ( 2019 ) 88 : 57 \u2013 64 . 10.1016/j.jcs.2019.05.008",
+      "char_offset": 36293
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiwari VK Rawat N Chhuneja P Neelam K Aggarwal R Randhawa GS et al Mapping of quantitative trait loci for grain iron and zinc concentration in diploid A genome wheat. J Heredity. ( 2009 ) 100 : 771 \u2013 6 . 10.1093/jhered/esp030",
+      "char_offset": 36500
+    },
+    {
+      "type": "paragraph",
+      "text": "Tahir M Shafi S Khan MA Sheikh FA Bhat MA Sofi PA et al Grain micronutrient evaluation of wheat ( Triticum aestivum ) germplasm and molecular characterisation via genic and random SSR markers. Crop Past Sci. ( 2021 ) 73 . 10.1071/CP21116",
+      "char_offset": 36727
+    },
+    {
+      "type": "paragraph",
+      "text": "Regmi S Poudel B Ojha BR Kharel R Joshi P Khanal S et al Estimation of genetic parameters of different wheat genotype traits in Chitwan, Nepal. Int J Agron. ( 2021 ) 2021 : 1 \u2013 10 . 10.1155/2021/6651325",
+      "char_offset": 36966
+    },
+    {
+      "type": "paragraph",
+      "text": "Crespo-Herrera LA Govindan V Stangoulis J Hao Y Singh RP . QTL mapping of grain Zn and Fe concentrations in two hexaploid wheat RIL populations with ample transgressive segregation. Front Plant Sci. ( 2017 ) 8 : 1800 . 10.3389/fpls.2017.01800",
+      "char_offset": 37170
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu H Wang ZH Li F Li K Yang N Yang Y et al Grain iron and zinc concentrations of wheat and their relationships to yield in major wheat production areas in China. Field Crops Res. ( 2014 ) 156 : 151 \u2013 60 . 10.1016/j.fcr.2013.11.011",
+      "char_offset": 37414
+    },
+    {
+      "type": "paragraph",
+      "text": "Crespo-Herrera LA Velu G Singh RP . Quantitative trait loci mapping reveals pleiotropic effect for grain iron and zinc concentrations in wheat. Ann Appl Biol. ( 2016 ) 169 : 27 \u2013 35 . 10.1111/aab.12276",
+      "char_offset": 37647
+    },
+    {
+      "type": "paragraph",
+      "text": "Liu T Wu L Gan X Chen W Liu B Fedak G et al Mapping quantitative trait loci for 1000-grain weight in a double haploid population of common wheat. Int J Mol Sci. ( 2020 ) 21 : 3960 . 10.3390/ijms21113960",
+      "char_offset": 37850
+    },
+    {
+      "type": "paragraph",
+      "text": "Cabral AL Jordan MC Larson G Somers DJ Humphreys DG McCartney CA . Relationship between QTL for grain shape, grain weight, test weight, milling yield, and plant height in the spring wheat cross RL4452/\u2018AC Domain\u2019. PLoS One. ( 2018 ) 13 : e0190681 . 10.1371/journal.pone.0190681",
+      "char_offset": 38054
+    },
+    {
+      "type": "paragraph",
+      "text": "Ma J Liu Y Zhang P Chen T Tian T Wang P et al Identification of quantitative trait loci (QTL) and meta-QTL analysis for kernel size-related traits in wheat ( Triticum aestivum L.). BMC Plant Biol. ( 2022 ) 22 : 1 \u2013 18 . 10.1186/s12870-022-03989-9",
+      "char_offset": 38333
+    },
+    {
+      "type": "paragraph",
+      "text": "Lemmon MA Ferguson KM Abrams CS . Pleckstrin homology domains and the cytoskeleton. FEBS Lett. ( 2002 ) 513 : 71 \u2013 6 . 10.1016/S0014-5793(01)03243-4",
+      "char_offset": 38581
+    },
+    {
+      "type": "paragraph",
+      "text": "Simonsen A Wurmser AE Emr SD Stenmark H . The role of phosphoinositides in membrane transport. Curr Opin Cell Biol. ( 2001 ) 13 : 485 \u2013 92 . 10.1016/S0955-0674(00)00240-4",
+      "char_offset": 38731
+    },
+    {
+      "type": "paragraph",
+      "text": "Hille B Dickson EJ Kruse M Vivas O Suh BC . Phosphoinositides regulate ion channels. Biochim Biophys Acta. ( 2015 ) 1851 : 844 \u2013 56 . 10.1016/j.bbalip.2014.09.010",
+      "char_offset": 38903
+    },
+    {
+      "type": "paragraph",
+      "text": "Vaccaro FA Drennan CL . The role of nucleoside triphosphate hydrolase metallochaperones in making metalloenzymes. Metallomics. ( 2022 ) 14 : mfac030 . 10.1093/mtomcs/mfac030",
+      "char_offset": 39067
+    },
+    {
+      "type": "paragraph",
+      "text": "Rosenzweig AC . Metallochaperones: bind and deliver. Chem Biol. ( 2002 ) 9 : 673 \u2013 7 . 10.1016/S1074-5521(02)00156-4",
+      "char_offset": 39242
+    },
+    {
+      "type": "paragraph",
+      "text": "Philpott CC Ryu MS Frey A Patel S . Cytosolic iron chaperones: proteins delivering iron cofactors in the cytosol of mammalian cells. J Biol Chem. ( 2017 ) 292 : 12764 \u2013 71 . 10.1074/jbc.R117.791962",
+      "char_offset": 39360
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhou Z Shi X Zhao G Qin M Ibba M I Wang Y et al Identification of novel genomic regions and superior alleles associated with Zn accumulation in wheat using a genome-wide association analysis method. Int J Mol Sci. ( 2020 ) 21 : 1928 . 10.3390/ijms21061928",
+      "char_offset": 39559
+    },
+    {
+      "type": "paragraph",
+      "text": "Hong MJ Kim JB Seo YW Kim DY . F-box genes in the wheat genome and expression profiling in wheat at different developmental stages. Genes. ( 2020 ) 11 : 1154 . 10.3390/genes11101154",
+      "char_offset": 39816
+    },
+    {
+      "type": "paragraph",
+      "text": "Negisho K Shibru S Matros A Pillen K Ordon F Wehner G . Genomic dissection reveals QTLs for grain biomass and correlated traits under drought stress in Ethiopian durum wheat ( Triticum turgidum ssp. durum). Plant Breed. ( 2022 ) 141 : 338 \u2013 54 . 10.1111/pbr.13010",
+      "char_offset": 39999
+    },
+    {
+      "type": "paragraph",
+      "text": "Abdollahi Sisi N Stein N Himmelbach A Mohammadi SA . High-density linkage mapping of agronomic trait QTLs in wheat under water deficit condition using genotyping by sequencing (GBS). Plants. ( 2022 ) 11 : 2533 . 10.3390/plants11192533",
+      "char_offset": 40264
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramya P Chaubal A Kulkarni K Gupta L Kadoo N Dhaliwal HS et al QTL mapping of 1000-kernel weight, kernel length, and kernel width in bread wheat ( Triticum aestivum L.). J Appl Genet. ( 2010 ) 51 : 421 \u2013 9 . 10.1007/BF03208872",
+      "char_offset": 40500
+    },
+    {
+      "type": "paragraph",
+      "text": "Goel S Singh K Singh B Grewal S Dwivedi N Alqarawi AA et al Analysis of genetic control and QTL mapping of essential wheat grain quality traits in a recombinant inbred population. PLoS One. ( 2019 ) 14 : e0200669 . 10.1371/journal.pone.0200669",
+      "char_offset": 40728
+    },
+    {
+      "type": "paragraph",
+      "text": "Mindrebo JT Nartey CM Seto Y Burkart MD Noel JP . Unveiling the functional diversity of the alpha/beta hydrolase superfamily in the plant kingdom. Curr Opin Struct Biol. ( 2016 ) 41 : 233 \u2013 46 . 10.1016/j.sbi.2016.08.005",
+      "char_offset": 40973
+    },
+    {
+      "type": "paragraph",
+      "text": "wheat , drought , heat , combined stress , QTL , RILs",
+      "char_offset": 41195
+    },
+    {
+      "type": "paragraph",
+      "text": "Manjunath KK, Krishna H, Devate NB, Sunilkumar VP, Chauhan D, Singh S, Mishra CN, Singh JB, Sinha N, Jain N, Singh GP and Singh PK (2023) Mapping of the QTLs governing grain micronutrients and thousand kernel weight in wheat ( Triticum aestivum L.) using high density SNP markers . Front. Nutr. 10:1105207. doi: 10.3389/fnut.2023.1105207",
+      "char_offset": 41250
+    },
+    {
+      "type": "paragraph",
+      "text": "K. N. Ganapathy, ICAR-Indian Institute of Millets Research (IIMR), India",
+      "char_offset": 41589
+    },
+    {
+      "type": "paragraph",
+      "text": "Dinesh Joshi, ICAR-Vivekananda Institute of Hill Agriculture, India; Ajay Chandrashekar, ICAR-Directorate of Groundnut Research, India",
+      "char_offset": 41663
+    },
+    {
+      "type": "paragraph",
+      "text": "\u00a9 2023 Manjunath, Krishna, Devate, Sunilkumar, Chauhan, Singh, Mishra, Singh, Sinha, Jain, Singh and Singh.",
+      "char_offset": 41799
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "char_offset": 41908
+    },
+    {
+      "type": "paragraph",
+      "text": "*Correspondence: Hari Krishna, harikrishna.agri@gmail.com Pradeep Kumar Singh, pksinghiari@gmail.com",
+      "char_offset": 42359
+    },
+    {
+      "type": "paragraph",
+      "text": "This article was submitted to Nutrition and Food Science Technology, a section of the journal Frontiers in Nutrition",
+      "char_offset": 42461
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.",
+      "char_offset": 42579
+    }
+  ],
+  "labels": [
+    "has_table",
+    "nutrient_table"
+  ],
+  "document_id": "doc-d8c3be8498a862f0"
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-87b3b7020a4455be",
+  "canonical_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=d71a9692-befc-40a2-9d1d-ea636ea4a96c&ssb=10229245303&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1748-9326%2F9%2F3%2F034011%2Fpdf&ssi=d50423f0-cnvj-4462-82ba-cb582f8f227e&ssk=botmanager_support@radware.com&ssm=33864297782740827104530560631709&ssn=3235f1f866fc4489fa4f0cd90ec9266d9b07b60e4a6e-8d17-4b8f-b1cf89&sso=dd4bb970-cc150466cfef65d23fb2cd5457cdcfe57218dfe476c937c8&ssp=41309331971782107947178212553815177&ssq=44172159477179027090894771684787530996204&ssr=NDYuMjIzLjEwMC44Mw==&sst=crop-search-foundation/0.1%20(+https://example.local/crop-search)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDBiNjBlNGE2ZS04ZDE3LTRiOGYtYjk3MC1jYzE1MDQ2NmNmZWYxLTE3ODIxOTQ3NzEwOTIwLTAwNGNmZWYwODYyNzQ4ZmEzOWQxMCIsInV6bXgiOiI3ZjkwMDA1NjY1Y2ViMS01YzBlLTRjY2ItOGQ0MS1mYTE0NmFjZDNjODYxLTE3ODIxOTQ3NzEwOTIwLTNhYzkzMDkwMGU0M2RmNzcxMCJ9",
+  "source_url": "https://iopscience.iop.org/article/10.1088/1748-9326/9/3/034011/pdf",
+  "doi": "https://doi.org/10.1088/1748-9326/9/3/034011",
+  "title": "Radware Bot Manager Captcha",
+  "source_domain": "iopscience.iop.org",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "87b3b7020a4455be54c3e4baee40a3243d47b9e223b724e13d57b1ffbea34ec3",
+  "content_hash": "fcd28216febe33531db2ca7782d8ad89defef886f1e6756c0030a1b4cca1c376",
+  "text_length": 232,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2105117295",
+    "doi": "https://doi.org/10.1088/1748-9326/9/3/034011",
+    "publication_year": 2014,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/057-validate.perfdrive.com.html",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,104 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "numeric",
+    "numeric_value": 5,
+    "unit": "tillers/plant",
+    "qualifier": "maximum",
+    "evidence_text": "Determined by environmental conditions, variety selection, and management practices, a single plant can produce up to five tillers (fig. 1).",
+    "claim_summary": "A single winter wheat plant can produce up to five tillers depending on environment, variety, and management.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.survival_temperature",
+    "value_type": "numeric",
+    "numeric_value": 32,
+    "unit": "fahrenheit",
+    "qualifier": "threshold",
+    "evidence_text": "Tillering begins in the fall and then enters a dormant period as temperatures reach below freezing (32 F). From February to early March, once temperatures consistently reach the mid-30s and 40s, dormancy will break and tillering will continue",
+    "claim_summary": "Winter wheat tillering enters dormancy as temperatures fall below freezing (32 F); dormancy breaks when temperatures reach the mid-30s to 40s F in late winter.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "thermal_time.gdu_accumulation",
+    "value_type": "range",
+    "range_min": 300,
+    "range_max": 400,
+    "unit": "gdd",
+    "qualifier": "typical",
+    "evidence_text": "Oakes et al. (2016) concluded that it takes approximately 300-400 growing degree days (GDD) for the plant to produce three leaves and form its first tiller",
+    "claim_summary": "Winter wheat requires approximately 300-400 GDD to produce three leaves and form its first tiller.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "qualifier": "optimum",
+    "evidence_text": "The ideal planting date is estimated to be the date of the first annual fall freeze plus or minus one week (Thomason et al. 2019).",
+    "claim_summary": "Ideal winter wheat planting date is the date of the first annual fall freeze, plus or minus one week.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.tillering_duration",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "tillers produced in the fall, before Jan. 1, will contribute approximately 87% of grain yield, compared to tillers produced in January through February that contributed 5-11% of the yield and tillers produced in March that contributed less than 2% of the final yield.",
+    "claim_summary": "Fall tillers (before Jan 1) contribute ~87% of winter wheat grain yield; Jan-Feb tillers 5-11%, March tillers <2%.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "If tiller density is less than 50 tillers per square foot, a nitrogen application is recommended at GS 25 and at GS 30 ... if the crop has fewer than 50 tillers, an application of 40-60 pounds of nitrogen per acre is needed to stimulate further tiller development",
+    "claim_summary": "If winter wheat tiller density <50 tillers/sq ft, apply 40-60 lb N/acre at GS25 and GS30 to stimulate tillering; if 50-100 tillers/sq ft, delay N until GS30.",
+    "extraction_confidence": "high",
+    "bbch_min": 25,
+    "bbch_max": 30
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 15,
+    "range_max": 30,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "If pre-plant fertilizer is needed, only a moderate amount of nitrogen (15-30 lbs./ acre) is necessary to promote tillering and reduce the possibility of nitrogen loss by leaching during dormancy",
+    "claim_summary": "Pre-plant fall nitrogen of 15-30 lb/acre is recommended for winter wheat to promote tillering while limiting leaching loss.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Nitrogen (N) along with sufficient levels of sulfur (S) are essential nutrients for the production of winter wheat ... Because S is an important component of all proteins, it is required together with N for protein synthesis",
+    "claim_summary": "Sulfur is an essential nutrient for winter wheat, required together with nitrogen for protein synthesis.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "nutrients.phosphorus_requirement",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Phosphorous (P) is also crucial during tiller development because it is known to affect the amount and survival of wheat tillers",
+    "claim_summary": "Phosphorus is crucial during winter wheat tiller development, affecting tiller number and survival.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "nutrients.potassium_requirement",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "compared to any other growth stage, the greatest amount of daily potassium (K) uptake occurs between the beginning and end of tillering because it is needed to maintain cell turgidity and nutrient mobility",
+    "claim_summary": "Winter wheat daily potassium uptake peaks during tillering, supporting cell turgidity and nutrient mobility.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "numeric",
+    "numeric_value": 50,
+    "unit": "tillers/ft2",
+    "qualifier": "threshold",
+    "evidence_text": "If tiller density is less than 50 tillers per square foot, a nitrogen application is recommended at GS 25 and at GS 30 for the crop to achieve optimum yield. However, if tiller density is greater than 50 tillers per square foot, no nitrogen application is necessary until GS 30",
+    "claim_summary": "50 tillers/sq ft is the threshold tiller density for winter wheat N decision at greenup; below it, early N is needed.",
+    "extraction_confidence": "high"
+  }
+]}

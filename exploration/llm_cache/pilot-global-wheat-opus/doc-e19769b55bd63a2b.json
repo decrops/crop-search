@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 120,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Recommended dose of fertilizer (120-80-60 kg/ha N-P-K respectively) was applied to each pot.",
+      "claim_summary": "Recommended nitrogen dose for wheat of 120 kg/ha N.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 80,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Recommended dose of fertilizer (120-80-60 kg/ha N-P-K respectively) was applied to each pot.",
+      "claim_summary": "Recommended phosphorus dose for wheat of 80 kg/ha P.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 60,
+      "unit": "kg/ha",
+      "qualifier": "recommended",
+      "evidence_text": "Recommended dose of fertilizer (120-80-60 kg/ha N-P-K respectively) was applied to each pot.",
+      "claim_summary": "Recommended potassium dose for wheat of 60 kg/ha K.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The harvest index is one of the most important traits as it links biomass accumulation and grain yield in cereals... already we have reached a plateau in improving harvest index, for further improvement in yield, we must improve biomass.",
+      "claim_summary": "Wheat harvest index links biomass to grain yield but has reached a plateau, shifting yield-improvement focus to biomass.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

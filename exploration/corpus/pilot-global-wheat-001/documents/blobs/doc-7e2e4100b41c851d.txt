@@ -1,0 +1,475 @@
+Volume 12 - 2021 | https://doi.org/10.3389/fpls.2021.676884
+
+1. School of Agronomy, Anhui Agricultural University, Hefei, China
+
+2. Department of Plant Sciences, College of Agricultural and Marine Sciences, Sultan Qaboos University, Muscat, Oman
+
+3. Agronomy (Forage Production) Section, Ayub Agricultural Research Institute, Faisalabad, Pakistan
+
+4. Jiangsu Collaborative Innovation Centre for Modern Crop Production, Nanjing, China
+
+Unpredicted variability in temperature is associated with frequent extreme low-temperature events. Wheat is a leading crop in fulfilling global food requirements. Climate-driven temperature extremes influence the vegetative and reproductive growth of wheat, followed by a decrease in yield. This review describes how low temperature induces a series of modifications in the morphophysiological, biochemical, and molecular makeup of wheat and how it is perceived. To cope with these modifications, crop plants turn on their cold-tolerance mechanisms, characterized by accumulating soluble carbohydrates, signaling molecules, and cold tolerance gene expressions. The review also discusses the integrated management approaches to enhance the performance of wheat plants against cold stress. In this review, we propose strategies for improving the adaptive capacity of wheat besides alleviating risks of cold anticipated with climate change.
+
+Climate change is among the core problems of recent times, as it is threatening global food security (FAO, 2020 ). Uncertain climatic variations poses a severe challenge in fulfilling the future food demands of a growing population (Röder et al., 2014 ). Extreme temperature events have significantly increased over the past few decades (IPCC, 2014 ). Persistent cold extremes have been observed in agricultural regions worldwide with varying frequency, intensity, and duration (Kodra et al., 2011 ; Augspurger, 2013 ). This situation halts plant growth by causing mechanical injury and metabolic dysfunction through ice crystallization (Yadav, 2010 ). Most of the wheat-growing areas of the world often undergo low-temperature stress, such as China (Xiao et al., 2018 ), the United States (Holman et al., 2011 ), Europe (Trnka et al., 2014 ), and Australia (Zheng et al., 2015 ; Crimp et al., 2016 ). Even though some regions noticed reduced winter duration because of global warming as plant ecologists revealed a paradoxical connection between plant growth and climatic variations, confirming that upsurge in warm climate increased the risk of cold injury to plants (Gu et al., 2008 ).
+
+Every year, 85% of the wheat sown area in the world is affected by spring frost, and it usually takes place during March and April at the early booting stage (Yue et al., 2016 ). In the spring season, when wheat canopy temperature falls 0°C or below, severe frost damage occurs (Frederiks et al., 2015 ; Zheng et al., 2015 ). Thakur et al. ( 2010 ) stated that frequent low-temperature spells during spring cause severe damage to the micro-organelles of the cell, resulting in excessive reactive oxygen species (ROS) and the occurrence of lipid peroxidation. A short span of freezing air during frost stress is disastrous for the vegetative and reproductive growth of plants (Frederiks et al., 2015 ). Cold conditions disrupt root water uptake, and water inadequacy in the stem results in drought stress (Aroca et al., 2012 ). This drought condition due to imbalanced water relations causes disturbance in smooth nutrient uptake, decreases the root ion absorption rate, and limits nutrient transport to other plant parts, ultimately resulting in stunted plant growth (Nezhadahmadi et al., 2013 ).
+
+In a study by Fuller et al. ( 2007 ), two wheat cultivars were subjected to cold stress in a freezing chamber with different cold stress treatments for 2 h. Consequently, severe damage to flag leaves and spikes has been observed and the damage increased with temperature decrease. Subsequently, it leads to partial to complete grain yield loss (Fuller et al., 2007 ). The cold stress also influences the grain number per spike and grain filling rate, leading to a substantial reduction in final wheat production (Thakur et al., 2010 ). The cold stress-induced yield losses are characterized by a reduced number of productive tillers, spikes, and grains per spike, biologically associated with short stems, lower leaf area, and reduced photosynthetic capacity (Valluru et al., 2012 ; Li et al., 2015 ).
+
+The ability of plants to endure cold without damaging their growth cycle is called “cold tolerance” (Liu Y. et al., 2019 ). The response of plants toward cold stress induction can be classified into four different phases: (i) initial alarming response, (ii) acclimation (the increase in freezing tolerance associated with exposure to low but non-freezing temperatures), (iii) restoration, and (iv) destruction if stress prolongs or severity increases (Larcher, 2003 ). In addition, after cold stress (i.e., the temperature has risen from cold to optimum), an innate recovery response is activated, providing plant regeneration, an active process after stress cessation, and is vital for further growth and development of plants (Hasanfard et al., 2021 ). Although the regeneration capability depends on the intensity of stress earlier encountered by the plant (Puijalon et al., 2008 ), it can be enhanced through exogenous application of certain hormones (i.e., auxin, cytokinin, and strigolactone) (Ikeuchi et al., 2016 ). The temperate crop plants, including wheat, tend to overcome cold stress through cold acclimation (Theocharis et al., 2012 ; Li et al., 2014 ). Cold acclimation of winter wheat can be acquired via freeze hardening (the ability of a plant to withstand sub-zero temperature of up to a specific time limit) (Trischuk et al., 2014 ). This process is carried out through many transcriptional and physiological adjustments, including activation of cold-regulated genes (Zhu et al., 2007 ; Majláth et al., 2012 ), downstream regulation of photosynthesis, accumulation of osmoprotectants, and stimulation of antioxidant system (Theocharis et al., 2012 ).
+
+To maintain yield stability and curtail the negative impact of sudden cold events, adopting proper managerial, and husbandry practices (i.e., sowing method, time, and fertilization) are pretty handy in limiting the risk of frost injury. It is also necessary to develop cold-tolerant wheat cultivars (Limin and Fowler, 2006 ; Zheng et al., 2015 ). The cold-defense mechanism of wheat can be improved by implementing integrated multi-disciplinary systems, including screening of cold-tolerant genes through modern gene mapping techniques and developing cold-tolerant cultivars, pre-sowing seed treatments, and applying compatible osmolytes and growth hormones at critical growth stages.
+
+This article reviews the current research findings on how extreme climatic events, particularly cold stress, negatively affect normal wheat growth, development, and yield. It first describes how cold-induced disruptions affect the morphophysiological and metabolic processes, leading to the deterioration of grain quality and lower final grain yield. Following that, it explains how wheat reacts to cold stress by expressing various kinds of adaptive responses. Stress avoidance in wheat (the avoidance of consequences of stress) involves an array of physiological and biochemical modifications (i.e., biosynthesis of compatible osmolytes, protective proteins, alteration in metabolic composition, downregulation of photosynthesis, and ROS detoxification, etc.) that occur simultaneously. Although many studies elucidated cold perception and responsive mechanism in plants, few exist on wheat; this study particularly emphasizes a better understanding of wheat cold perception, with counter-responses concerning futuristic management approaches, as it proposes suitable husbandry practices and multi-disciplinary strategies that can help to anchor the defense of wheat against climatic extremes.
+
+Wheat needs an optimum temperature range for ideal growth and functioning, and any deviation from it will affect the normal growth process ( Table 1 ). Cold stress severely curbs the physiological and biochemical reactions in the plant cell, which results in leaf chlorosis, wilting, and even necrosis of plant cells (Ruelland and Zachowski, 2010 ). This section briefly discusses how plants perceive low-temperature stress, cold-induced morpho-physiological alterations, and the survival response of the wheat plant.
+
+Temperature threshold values for various wheat growth stages.
+
+Only for winter wheat, while spring wheat shows mild to no response to frost .
+
+When a plant undergoes cold stress, several morphological alterations occur (Equiza et al., 2001 ); subsequently, root-shoot growth is restricted and productivity is reduced. In winter cereals, low-temperature stress at the vegetative phase cause leaves chlorosis and wilting and ultimately leads to necrosis and inhibited growth (Janowiak et al., 2002 ). Cold stress severely affects germination and seedling establishment causes delayed germination, poor emergence, reduced plant density, and uneven stand establishment in wheat (Jame and Cutforth, 2004 ). Winter wheat initially suffers low-temperature stress when tillering begins and whenphotosynthate assimilation and nutrient absorption sites are under development (Rinalducci et al., 2011 ). Cromey et al. ( 1998 ) exposed wheat plants to freezing stress (from 0 to −13°C) in a controlled chamber for 2 h, frost devastation begins at −3°C and complete burning of flag leaf and ears occurred at −7°C; consequently, a substantial reduction in grain yield was observed. Similarly, cold exposure at jointing leads to reduced leaf size, leaf area, and lower shoot biomass (Valluru et al., 2012 ) and limits the final output (Li et al., 2014 ). Additionally, applying freezing stress (−8 and −9°C) at the stem elongation stage limits the internode extension, denatures the spikelets, reduces assimilate transport, restricts the dry matter accumulation, and causes a significant reduction in grain yield (Whaley et al., 2004 ).
+
+Low temperature also affects the root growth of wheat as root growth is an ecologically controlled parameter (Buriro et al., 2011 ; Kul et al., 2020 ). Root length is more sensitive to sub-optimal temperature than dry weight. It causes a significant reduction in root branching and root surface area; consequently, normal water and nutrient uptake were disrupted (Hussain et al., 2018 ). Restricted root surface area inhibits the ability of the plant to explore the water and nutrients resources (Richner et al., 1996 ).
+
+In summary, cold stress at the initial seedling stage results in delayed emergence and poor stand establishment. Prolonged exposure to cold stress results in stunted growth, diminished root-shoot surface area, leaf chlorosis, and disturbed water and nutrient relations. Such indicators lead to a significant reduction in wheat yield and quality. Additionally, few studies have investigated roots activity with reference to low-temperature stress, which needs to be explored.
+
+The reproductive growth phase is more sensitive to cold stress than the vegetative phase in wheat (Thakur et al., 2010 ). The reproductive growth stage begins with flowering, which continues with floral differentiation (into male and female parts), sporogenesis, pollen grain and embryo development, pollination, fertilization, and, finally, grain development. Plant exposure to cold contact at the reproductive growth phase causes many structural and functional deformities, leading to a reduction in growth and development. Chilling at flowering causes flower shedding, pollen tube deformation (Chakrabarti et al., 2011 ), pollen sterility, and ovule distortion (Ji et al., 2017 ), and before anthesis, it lowers down the number of grains and disrupts the grain development (Dolferus et al., 2011 ; Barton et al., 2014 ). Such conditions lead to incomplete fruit setting, which reduces the final wheat production (Hussain et al., 2018 ). Though counterresponse varies at every growth phase, collectively, all responses are not enough to resist net yield loss.
+
+Imposing chilling and freezing stress at the jointing stage has severely damaged the morphological attributes (such as burned leaf blade, chlorosis, decreased shoot biomass, and denatured spikelets) compared with control ( Figure 1 ). Assimilates accumulation during grain filling is extremely sensitive to suboptimal temperature conditions negatively influencing the grain quality and quantity (Yang and Zhang, 2006 ). Cold exposure at booting and flowering stages resulted in a considerable reduction in the number of grains per spike; consequently, final grain output diminished to 78% (Subedi et al., 1998 ). During the reproductive stage, a 1°C decrease in temperature below the threshold level may result in a 10–90% wheat crop damage (Marcellos and Single, 1984 ; Ji et al., 2017 ). A field experiment revealed that frost damage of a 5 day span (with a temperature range of 0–4°C) at the stem elongation stage might cause a nearly 15% reduction in the number of spikes and ultimately result in 14% reduction in yield loss (Li et al., 2015 ). If these frost spells continue, yield losses will be higher (Wu et al., 2014 ). In conclusion, the wheat crop is more sensitive to cold stress at the reproductive stage, especially the frost spells are disastrous, causing flower shedding, pollen infertility, denatured spikes, and incomplete/poor fruit setting, resulting in significant yield losses ( Figure 2 ).
+
+Impacts of low-temperature stress on two winter wheat cultivars, XM and YN (XM: XinMai–Cold Sensitive and YN: YanNong–Cold Tolerant), is shown with the damage induced by cold stress, as compared with control (CK). Wheat cultivars with treatments (A) XMT2D4 [T2 = 4°C, D4 = 12 h/3 d], (B) YNT2D4 [T2 = 4°C, D4 = 12 h/3 d], (C) XMT6D4 [T6 = −4°C, D4 =12 h/3 d], and (D) YNT6D4 [T6 =-4°C, D4 = 12 h/3 d) has clearly exhibited the damage induced by cold stress, as compared with control (CK) treatments of XM and YN. Growth Conditions: Experiment grown under field conditions, before the heading stage shifted to the controlled chamber (Humidity: 70%, *Light intensity: 0 μmol·m −2 ·s −1 ) for 3 days (4 h/day, Midnight: 12:00 a.m.−4:00 a.m.) for low-temperature treatments, then shifted back to field conditions. Photos were taken before the flowering stage; extracted leaves are flag/2nd leaf. *In this experiment, in night-time, wheat plants subjected to cold stress, and light intensity set at 0 μmol·m −2 ·s −1 because, in field conditions of Huanghuai (China), plants experience late spring cold stress after midnight. (Unpublished: Own Experiment).
+
+Cold-induced reproductive deformities are briefly illustrated with respect to certain growth stages (i.e., flowering, differentiation, assimilate transport, grain filling, etc.). These growth disruptions result in a substantial decline in final wheat produce.
+
+Plant physiological processes, such as photosynthesis and respiration, are more vulnerable to low-temperature stress (Yadav, 2010 ). Cold stress induces a series of changes in various biological and biochemical processes in the wheat plant cell, including photosynthesis, respiration, water relations, mineral nutrition, and other metabolic activities ( Tables 2 , 3 ). In this review, we briefly discussed some of these processes.
+
+Morphological traits of wheat with respect to their growth stages, influenced by cold stress.
+
+Temperature mentioned here is a minimum recorded field/phytotron temperature during certain growth phases [Here, indicates a decrease] .
+
+Physiological and biochemical traits influenced by cold stress.
+
+Temperature mentioned here is the minimum recorded field/phytotron temperature during certain growth phases, while 20–25°C is the optimum temperature for efficient biochemical functioning Austin, 1990 [Here, indicates a decrease] .
+
+Primarily, cellular membranes are the first site of the plant, which is directly affected by cold stress repercussions, leading to other ultra-structural physiological and biochemical changes ( Figure 3 ). Cold stress induces many ultrastructural alterations in cold-sensitive plant species (Pomeroy and Andrews, 1978 ; Kratsch and Wise, 2000 ), which causes the imbalance of membrane fluid content and permeability that leads to disturbance to all membrane linked physiological and biochemical processes (Bohn et al., 2007 ; Los et al., 2013 ). Most often, these adverse effects are accompanied by structural alterations in the membrane (Bohn et al., 2007 ), which were subsequently followed by cellular leakage of electrolytes and amino acids, diversion of electron flow toward alternate pathways (Seo et al., 2010 ), alterations in protoplasmic streaming, and re-distribution of intracellular calcium ions. These severe symptoms are directly correlated with injury to membrane structures of cells and changed lipid composition. Cold-induced alterations in crop plants lead to decreased ATP synthase activity, followed by inhibition of Rubisco regeneration and photophosphorylation (Yordanova and Popova, 2007 ). Cold-induced photo-inhibition subsequently leads to a reduction in photosynthetic activity (Groom et al., 1990 ; Oquist et al., 1993 ). If cold stress remained for a shorter duration, plants could recover their normal state, but such a situation is irreversible under prolonged duration.
+
+Cold-induced damage is clearly illustrated, as membranes are primarily the first site to get cold damage, followed by a series of osmotic, enzymatic, and metabolic alterations inside the plant cell. Plant cells tolerate shorter cold exposure and restore to normal functioning, but prolonged exposure leads to cell death (Conceived from Seo et al., 2010 ; Abdel Kader et al., 2011 ; Theocharis et al., 2012 ). [Here, indicates enhanced activity and shows diminished activity].
+
+In grains like wheat, photosynthesis, and bio-mass accumulations are the major sources for grain production and vital physiological processes in the crop growth phases; these processes are highly vulnerable to low-temperature stress (Rinalducci et al., 2011 ; Khan et al., 2017 ). It has been reported that cold stress causes reductions in final yield, which is associated with a decline in spike number, spike length (Karimi et al., 2011 ), biomass, leaf area, size, and carbohydrate metabolic reactions. Such morphological and physiological alterations are correlated with reduced photosynthetic efficiency (Theocharis et al., 2012 ; Valluru et al., 2012 ). Research findings revealed that imposing low-temperature stress (day:night, 5°C:5°C) at the seedling stage resulted in a 45% decrease in the photosynthetic rate of primary leaves as compared with control (day:night, 20°C:16°C) (Leonardos et al., 2003 ). Similarly, in another investigation, when wheat seedlings are subjected to low temperature (4°C) in a closed chamber for 7 days, an 18% decrease in photosynthetic activity has been recorded after 5 h. Over-excitation of photosystem II has been observed under cold stress, which triggers energy dissipation through non-radiative reactions (Cvetkovic et al., 2017 ). The maximum efficiency of Photosystem II decreased by 18% after 1 day exposure to cold (Venzhik et al., 2011 ). Further, photosynthetic activity in cold-sensitive cultivars is more sensitive to cold stress than cold-tolerant cultivars (Yamori et al., 2009 ). During the jointing stage, cold exposure inhibits gaseous exchange, thus reducing the quantum efficiency of photosystem II, resulting in decreased photosynthesis that leads to a 5–14% reduction in yield (Li et al., 2015 ). Flag leaf burning due to freezing stops the photosynthetic activity that resulted in up to 100% yield losses (Rajcan and Swanton, 2001 ).
+
+Cold-induced photosynthetic inhibition is due to various reasons, i.e., reduced chlorophyll synthesis, poor chloroplast development, diminished efficiency of photosynthetic apparatus, restricted carbohydrates transportation, limited stomatal conductivity, suppressed Rubisco activity during carbon assimilation, disrupted electron transport chain, and decreased energy stock (Bota et al., 2004 ; Hussain et al., 2018 ). The chilling conditions instigate drought stress, which reduces molecular oxygen and produces ROS that cause severe damage to photosynthetic apparatus (Basu et al., 2016 ). During the vegetative stage, cold stress reduced the leaf area, which is considered more critical since it reduces photosynthetic activity, resulting in a source–sink imbalance (Paul and Foyer, 2001 ; Liu L. et al., 2019 ; Liu Y. et al., 2019 ).
+
+Cold stress disrupts the photosynthetic activity at every growth stage, resulting in a reduction in photo-assimilation and assimilate transportation. These conditions lead to significant yield losses.
+
+The cold stress directly or indirectly induces a series of changes in biological and biochemical functions of the wheat plant, such as decreased respiration rate, reduced enzymatic activity, oxidative stress, and deterioration of seed reserves (Li et al., 2013 ; Esim et al., 2014 ). Cold-sensitive plant species, in general, show imbalanced homeostasis of respiration in leaves compared with tolerant species (Yamori et al., 2009 ). A low respiration rate at the initial seedling stage limits the ATP synthesis; subsequently, the germination process is hindered (Cheplick and Priestley, 1986 ). The prolonged cold stress period causes severe damage to the mitochondrial structure, slows down the flow of kinetic energy, and disrupts enzymatic activity, ultimately diminishing the respiration rate (Pomeroy and Andrews, 1975 ; Ikkonen et al., 2020 ). There are not enough literature studies found in this aspect; particularly for wheat, it is still an under-explored area.
+
+Some studies in soybean reported increased respiration rate under prolonged cold stress; the reason for such increase is irreversible metabolism (dysfunction) and accumulation of oxidized metabolites (Yadegari et al., 2008 ). Furthermore, it is evident from investigations that chilling triggers the alternative respiratory systems in wheat and maize. Such alternative systems of respiration play a pivotal role in mitigating chilling stress and reducing mitochondrial structural damage (Ribas-Carbo et al., 2000 ; Feng et al., 2008 ).
+
+Respiration and photosynthesis are vital processes that define the fate of any plant life. And both physiological processes are prone to cold stress. Structural injury to mitochondria interrupts the energy flow; subsequently, the respiration process is restricted. Such conditions compelled the plant cell to exploit the energy molecules (ATP); energy imbalance disturbed the various biochemical reactions inside the plant cell. Rare studies depict that chilling prompted respiration activity through adopting alternative respiratory pathways and prevented the plant from structural damages.
+
+Low-temperature stress affects cellular turgidity and instigates drought stress (Yadav, 2010 ). This drought situation reduces the root hydraulic conductivity, limits the root growth, and dents the leaf turgidity in wheat (Siddique et al., 2000 ), which causes unavoidable wilting of leaves. Subsequently, water relations, nutrient uptake, carbohydrate metabolism, and translocation of assimilates are severely disrupted (Li et al., 1994 ). Apart from this, temperature fluctuation trends alter the soil physiochemical properties that disturb the beneficial microbial activity in the soil and influence plant-nutrient relationships (Jezierska-Tys et al., 2012 ; Massenssini et al., 2015 ). Further, low temperature slows down root growth and development by reducing root length and biomass. Such a reduction in root volume minimizes the root opportunities to explore new water and nutrient resources; consequently, mineral uptake is severely reduced (Al-Hamdani et al., 1990 ), resulting in decreased aboveground biomass. Despite the disruption of primary nutrients (NPK), water-deficient conditions also triggered the micronutrient (i.e., Mn, Zn, Fe, Mo, etc.) deficiencies in the plant (Gavito et al., 2001 ), which otherwise are readily available under well-watered conditions.
+
+In conclusion, there is a direct relationship between nutrient acquisition concerning soil temperature and available soil moisture. It is well-evidenced that chilling and drought directly influence the macro and micronutrient availability, uptake, inflow transport, enzymatic activity, and other metabolic activities in plants. Only few previous studies have been reported on nutrient relations for chilling and drought stress factors; hence, there is a dire need for further investigation.
+
+Most of the cereal crops tend to survive and continue their life cycle by developing their tolerance ability under increasing freezing degrees (Dubcovsky and Dvorak, 2007 ; Thomashow, 2010 ), through exhibiting a wide range of genetic expressions; such a behavior is termed as cold acclimation (Monroy et al., 2007 ). Plants having a higher capacity of cold acclimation have more survival chances (McKhann et al., 2008 ). Generally, winter cereals (wheat) have two types of cultivars: cold sensitive and cold tolerant. Cold tolerant verities have a higher capacity to tolerate sub-optimal cold stress; on the other hand, cold sensitive verities cannot withstand harsh cold conditions. However, winter wheat cultivars having the ability to tolerate suboptimal conditions also requires adequate exposure to non-freezing low temperature, which is crucial for acclimatizing freezing stress (Sung and Amasino, 2005 ; Majláth et al., 2012 ). It is revealed in recent developments that the ability of plants to acclimate to the severity of winter gradually decreases with consistent changes in climatic attributes (Dalmannsdottir et al., 2017 ). Cold acclimation is a complex phenomenon of winter annuals that is accomplished by an extensive range of physiological, biochemical, and molecular changes ( Figures 3 , 4 ), which begins with membrane alterations and transforms it into a rigid structure (Theocharis et al., 2012 ; Takahashi et al., 2013 ).
+
+A schematic exhibition of cold perception, transduction, and final counter-response of wheat. The plasma membrane is the first site to perceive cold stress. Membrane rigidity increased with the accumulation of carbohydrates and inside fluid transited to less mobile (gel) or amorphous glassy state. Subsequently, the influx of receptors (Ca 2+ , ROS, Phytohormones), initiation of cascades of protein kinases, and protein cascade-driven up/downstream regulation generate gene expressions to aid cold tolerance (Modified from Guo et al., 2018 , 2019 ). [Here, indicates enhanced activity]. ROS, Reactive Oxygen Species; ABA, Abscisic Acid; JA, Jasmonic Acid; SA, Salicylic Acid; CDPKs, Ca 2+ -Dependent Protein Kinase; CBL, Calcineurin B-like Proteins; CaM, Calmodulin Proteins; MAPK, Mitogen-Activated Protein Kinase; PKABA, Protein Kinase induced by ABA; ICE, Inducer of CBF Expressions; CBF, Carbon Repeating Binding Factor; COR, Cold Responsive Proteins.
+
+It is stated that the counter action of plants to low-temperature stress is carried out through detection (sensing) of stress followed by signal perception, transduction, and induction of cold-tolerant gene expression (Ganeshan et al., 2008 ). Plenty of cold responsive genes have been found in wheat (Guo et al., 2019 ) and are recognized as Dehydrin (DHN), Late Embryogenesis Abundance (LEA), Cold responsive (COR), and Responsive to Abscisic Acid (RBA), among others. These genes are categorized into two parts (Seki et al., 2003 ): first, those that directly respond to low-temperature stress, i.e., LEA (Liu et al., 2016 ), and second, those proteins which take part in the regulation of other molecular expressions. In response to cold conditions, these proteins have several other functions as they are also involved in countering other abiotic stresses such as drought and salinity (Seki et al., 2003 ). During cold tolerance, multiple gene expressions (Arabidopsis, COR and Wheat, WCS) are generated and subsequently initiate the cascade of transcriptional, biochemical, and physiological events vital for cold tolerance in the plant (Kosová et al., 2008 ). These cold regulatory responses include the release of Ca 2+ , accumulation of osmolytes and reduced water content (Thakur and Nayyar, 2013 ), ROS scavenging (Larcher, 2003 ), and carbon metabolic adjustments (Ruelland and Zachowski, 2010 ). Gene expression, in winter wheat, against cold stress is generated after 1 day (Kurepin et al., 2013 ), as complete gene expression does necessarily require frequent cold exposure (Ruelland and Zachowski, 2010 ). The required threshold temperature for initiating this tolerant mechanism varies within two different cultivars of the same species; winter wheat cultivar Norstar and spring wheat cultivar Maintou have rational threshold temperatures of 18 and 8°C, respectively (Fowler, 2008 ). For the best cold acclimation, the temperature must fall below the threshold level as the acclimation rate is inverse to temperature drop (Chinnusamy et al., 2003 ).
+
+Abscisic acid induces multiple changes in plant growth, development, and various physiological and molecular processes to cope with stress conditions. It plays a vital role in the tolerance against suboptimal temperature stress by inducing dehydration tolerance gene expressions (Shen et al., 2003 ). Subjecting to the role of ABA in cold tolerance mechanism (i.e., signaling, perception, and then transduction), it is categorized into two major pathways: ABA-dependent and ABA-independent pathways (Knox et al., 2008 ; Roychoudhury et al., 2013 ). ABA-dependent signaling perception of cold stress required ABA activation and vice versa. The gene expressions induced by ABA are carried out through the interaction of various transcriptional factors (such as MYC/MYB, RD22BPI, AREB1, and DREB2A) and their matching cis-elements (such as MYCRS/MYBRS, ABRE, and DRE/CRT), respectively (Tuteja, 2007 ; Morran et al., 2011 ).
+
+Generally, stress accelerates the biosynthesis of ABA, followed by the closure of stomata and gene expressions (Lee and Luan, 2012 ). ABA is a primary intracellular receptor that stimulates the activity of secondary messengers, i.e., ROS and Ca 2+ (Xue-Xuan et al., 2010 ). The instant signal perception of abiotic stress is transduced via the increased ROS and hydrogen peroxide (H 2 O 2 ) (Saxena et al., 2016 ). ROS oxidative surge responded by the release of Ca 2+ (Rao et al., 2006 ) that triggers the NADPH oxidase course of action and subsequently proceeds to the accumulation of antioxidant compounds (i.e., H 2 O 2 ) (Agarwal et al., 2005 ). Therefore, Ca2+ is recognized as an essential component in signal transduction. Primarily, three types of Ca 2+ proteins include CaM (calmodulin), Ca 2+ dependent kinases, and calcineurin binding proteins. CaM was found to regulate the CBF regulon by binding with the regulatory element of gene promoter and help in cold tolerance (Doherty et al., 2009 ). Enhanced Ca 2+ concentration initiates the calcium-regulated protein kinase (CDPKs), which helps in mitigating cold stress. Among 20 CDPKs, 7 responded to various abiotic stresses (Li et al., 2008 ). ABA-dependent pathway is also dependent on MYB/MYC (myeloblastosis) transcription factors (TFs) (Abe et al., 2003 ). Among 60 MYB genes of wheat, 15 were characterized as ABA regulated genes (Zhang et al., 2012 ), such as TaMYB33 , which plays a part in the production of antioxidants, favoring ROS scavenging, assisting in proline accumulation, and modifying osmotic imbalance (Qin et al., 2012 ).
+
+Cereal crops (wheat, barley, and rye) from the Poaceae family contain a large number of DRE or CBF genes, as only wheat contains 25 various kinds of CBF genes (Badawi et al., 2007 ). COR gene expressions are mainly regulated by CBF TFs (CBF1, CBF2, and CBF3) (Thomashow, 2001 ). In wheat, the role of CBF has been well-recognized toward many signal perception pathways and enhanced cold tolerance capacity (Morran et al., 2011 ). Vágújfalvi et al. ( 2003 ) found a positive comparative relationship between COR expression and wheat cold acclimation. The COR proteins are labeled as hydrophilic proteins that are considered affiliated with LEA or DHNs (Close, 1997 ). For instance, in Arabidopsis thaliana , overexpression of LEA and wheat cold specific ( WCS 19 ) augments the freeze tolerance capacity (Dong et al., 2002 ). DHNs or LEA protein groups are highly tolerant to osmotic stress, as cold stress also causes an osmotic imbalance in winter cereals. Hence, their accumulation is equally essential in cold acclimation (Borovskii et al., 2005 ). The WCS120 is an impressive cold responsive gene of wheat; it also belongs to the LEA protein family (Fowler, 2001 ). Along with WCS120 , other COR genes responsible for cold tolerance include WCS180, WCS200, WCS66 , and WCS40 (Sarhan et al., 1997 ); however, proteins that belong to WCS120 showed higher transduction in winter cereals and were characterized as best in cold tolerance (Vítámvás and Prášil, 2008 ).
+
+Accumulation of soluble sugars is another easier tactic against cold stress. Plants belonging to cereals and grasses families accumulate fructans (fructose polymers derived from sucrose) upon exposure to a cold environment, which plays a stabilizer role in preventing membrane (Livingston et al., 2009 ). Yokota et al. ( 2015 ) also stated a positive correlation between the accumulation of fructans and cold tolerance in wheat plants with varying intensity of cold stress. Carbohydrates accumulation under suboptimal conditions partially support reaching cold tolerance during acclimation (Yoshida et al., 1998 ; Janská et al., 2010 ).
+
+Although their specific role at sub-optimal temperature is not fully understood, they are primarily considered as compatible osmoprotectants, ROS scavengers, and signaling compounds. Some plant studies revealed that accumulation of oligosaccharides upon cold exposure anchors the acclimation process (Janská et al., 2010 ; Theocharis et al., 2012 ). Fernandez et al. ( 2010 ) discussed the role of trehalose (glucose disaccharide) in regulating the cold-tolerant ability, and it is supposed to be involved in starch-accumulation.
+
+Studies on photosynthesis have revealed that some cultivars of winter wheat, compared with spring wheat, sustain carbon assimilation even at cold temperatures, which is associated with increased concentrations of sucrose biosynthetic enzymes (Savitch et al., 1997 ). Hence, spring wheat lacks in sustaining carbon metabolism under harsh low-temperature conditions. Similarly, another investigation on spring and winter wheat depicted the increased carbohydrate (i.e., sucrose, fructose, and glucose) content in winter wheat, but no upsurge was found in spring wheat, and it also confirmed the role of carbohydrates in the inability of wheat crops to counter low-temperature stresses during spring (Hurry et al., 1995 ). The role of soluble sugars in responding to the cold signal in plants can be further investigated by advanced molecular techniques to examine how sugar regulates gene expression in a cold environment.
+
+Several adaptation strategies facilitate the wheat crops to minimize the negative impacts of low-temperature extremes and are valuable in maintaining global food security. Crop husbandry practices, including the selection of cold-tolerant varieties, nutrient management, appropriate sowing technique and time, seed enhancements, exogenous application of osmoprotectants, and irrigation management, may help improve cold tolerance in wheat. Exogenous application of organic compounds, such as plant polyamines and their derivatives, are considered to be more helpful in enduring both (high and low) temperature extremes (Liu et al., 2007 ).
+
+Breeders are continuously in the quest for developing new cultivars that are more compatible with changing environmental conditions. However, traditional breeding techniques require more than 10 years to develop a new variety. Sudden changes in climatic conditions, especially temperature extremes with drought, are a real challenge for breeders, as it limits the efficiency of new cultivars for a longer time. Along with conventional breeding techniques, it is necessary to implement modern disciplinary techniques in a simultaneous manner, e.g., aid of crop simulation models (i.e., CERES-Wheat Model) is handy in predicting the life duration of the particular cultivar in varying weather extremes and future development of varieties (Koç, 2020 ). Future assessments will sustainably ensure food security (like availability, accessibility, and continuity) for the growing population (Ray et al., 2013 ), and it provides enough time for taking decisions against upcoming weather extremes (Archer, 2003 ). Crop simulation techniques are best in identifying the possible future threats to crop cultivation (Olesen et al., 2007 ). Furthermore, the addition of modern molecular strategies (like genomics, omics, gene silencing, inducing stress-specific genes, accelerated marker aided selection) and their significance count in the development of high yielding wheat cultivars (Ahmad et al., 2014 ; Jha et al., 2017 ). In contrast with traditional breeding tactics, these approaches are more advantageous in improving crop stress responses toward cold and drought conditions (Chaves and Oliveira, 2004 ).
+
+Crop husbandry practices may help wheat performance under cold stress. The practices included are as follows: (1) seed enhancements (Farooq et al., 2017 ), (2) plant seeds of improved wheat varieties following the appropriate planting geometry at optimum sowing time with precision planting (Lamichhane and Soltani, 2020 ), (3) exogenous application of osmoprotectants, (4) seed inoculation with rhizobacteria (Shirinbayan et al., 2019 ), (5) nutrient management, and (6) irrigation management.
+
+Positive impacts of seed priming techniques are elucidated in various crop plants under chilling stress (Jisha et al., 2013 ; Paparella et al., 2015 ). Primed seeds under low-temperature stress showed enhanced germination rate, improved vigor, and uniform stand establishment, leading to increased crop quality and produce (Paparella et al., 2015 ). At present, many priming techniques are in practice, such as hormonal priming, biological priming, redox priming, and chemical priming. (Wang et al., 2016 ). Along with cold stress, these techniques are vital in improving economic output and quality of wheat (Khaliq et al., 2015 ), maize (Foti et al., 2008 ), cotton (Casenave and Toselli, 2007 ), and other field crops.
+
+The foliar application of nutrients and growth hormones is another effective agronomic approach to acclimate the low-temperature stress. Applying phytohormones [i.e., strigolactone, ABA, salicylic acid (SA), jasmonates] accelerate the various protein cascades associated with the expression of cold tolerance genes (Kolaksazov et al., 2013 ). It also plays a significant role in root–shoot signaling (Wilkinson et al., 2012 ) and is known to be efficient in minimizing the impact of chilling (Miura and Tada, 2014 ) and freezing stress (Taşgín et al., 2003 ).
+
+Additionally, wheat growth sustainability under unfavorable environmental conditions can be achieved by following the agronomic fundamentals, such as optimum planting time, that varies for different regions and cultivars. Optimal sowing time can be determined by certain climatic factors (i.e., air temperature, soil temperature, and moisture content under different climatic conditions). As sowing time depends on climatic variables, it is too difficult to figure out conventional farming approaches under changing climate trends. Therefore, decision support tools of crop modeling are very useful in estimating the optimum sowing time for field crops (Waha et al., 2012 ). Crop modeling tools can make considerable improvement in evaluating better management strategies for future climatic threats.
+
+Thus, adapting interdisciplinary integrated approaches to tackle the several alarming fronts of climate variability and to ensure the food security of growing populations of the world is urgently needed.
+
+Cold stress causes morphological, physiological, biochemical, and molecular modifications in wheat. Although most winter wheat cultivars tend to tolerate such severe low-temperature extremes, prolonged exposure may result in partial or sometimes complete failure of the final produce. Such an environment/climate induces multiple alterations throughout the crop life cycle, from germination to harvesting. At the early growth stage, suboptimal temperature inhibits the seedling growth and inhibits the developmental process as reduced leaf size, diminished peduncle elongation, and decreased number of tillers and spikes. During the reproductive stage, cold stress results in pollen infertility, floret abortion, reduced fertilization, delayed maturity, and a reduced number of grains. Subsequently, it leads to significant yield losses. Besides, it is well-explained how low-temperature stress influenced physiological and biochemical events, including photosynthesis, respiration, energy imbalance, nutrients, and water relations. Further, to combat cold stress conditions, crop plants exhibit several biochemical and molecular expressions. In addition, the cold-response of wheat can be better regulated by integrating breeding and agronomic approaches, such as phenotypic screening of cold-tolerant genes, pre-sowing seed treatments, and exogenous application of growth hormones.
+
+Due to unexpected climate changes in the last few decades, winter becomes shorter with more severity, damaging winter cereals. There is a greater need to explore and focus on the genetic traits of wheat, due to which it withstands under cold stress and continue their normal growth and development. In this regard, traditional breeding will favor exploiting the wild wheat sources that are more adaptable to natural environmental conditions. It was further improved by identifying diversified genetic traits and mapping through various gene mapping tools, such as QTL mapping and genome-wide association studies (GWAS). In addition, precise and correct gene editing, such as the CRISPR-Cas9 system, will incorporate high yielding cultivars by using genetic engineering techniques. It will also help in ensuring global food security in both quality and quantity aspects.
+
+Apart from this, many other osmolytes (such as glycine betaine) and plant hormones (such as brassinosteroids, ABA, SA, strigolactone) are still not well-exploited and are easier in regulating the plant responses against cold stress. That is why adopting integrated multi-disciplinary approaches to explore these missing links and explore new research horizons is currently needed.
+
+MH and CX conceived the concept of the review and prepared an outline of the review. MH, CX, ZY, XH, and ZL compiled the literature and wrote the different sections. KY and AB aided in designing figures and arranging references. MF and NM provided technical assistance and editing support. All authors contributed to the article and approved the submitted version.
+
+The work was supported by a grant from the China National Key Research and Development Program (No. 2017YFD0300408) and the Natural science research project of Anhui Provincial Department of Education (No. KJ2019A0174).
+
+We thank Prof. Muhammad Farooq and Dr. Noor Muhammad for proofreading and rectifying the manuscript.
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Abdel Kader D. Z. Saleh A. A. H. Elmeleigy S. A. Dosoky N. S. ( 2011 ). Chilling-induced oxidative stress and polyamines regulatory role in two wheat varieties . J. Taibah Univ. Sci. 5 , 14 – 24 . 10.1016/S1658-3655(12)60034-X
+
+Abe H. Urao T. Ito T. Seki M. Shinozaki K. Yamaguchi-Shinozaki K. ( 2003 ). Arabidopsis AtMYC2 (bHLH) and AtMYB2 (MYB) function as transcriptional activators in abscisic acid signaling . Plant Cell 15 , 63 – 78 . 10.1105/tpc.006130
+
+Acevedo E. Silva P. Silva H. ( 2009 ). Wheat Growth and Physiology . FAO Corporate Document Repository. Rome : FAO , 1 – 31 .
+
+Agarwal S. Sairam R. K. Srivastava G. C. Meena R. C. ( 2005 ). Changes in antioxidant enzymes activity and oxidative stress by abscisic acid and salicylic acid in wheat genotypes . Biol. Plant. 49 , 541 – 550 . 10.1007/s10535-005-0048-z
+
+Ahmad P. Wani M. R. Mohd R. Azooz M. M. Tran L.-S. P. ( 2014 ). Improvement of Crops in the Era of Climatic Changes , eds. Ahmad P. Wani M. R. Azooz M. M. Tran L.-S. P. ( New York, NY : Springer New York ). 95 – 101 . 10.1007/978-1-4614-8824-8
+
+Ahrens J. F. Loomis W. E. ( 1963 ). Floral induction and development in winter wheat 1 . Crop Sci. 3 , 463 – 466 . 10.2135/cropsci1963.0011183X000300060001x
+
+Al-Hamdani S. H. Todd G. W. Francko D. A. ( 1990 ). Response of wheat growth and CO 2 assimilation to altering root-zone temperature . Can. J. Bot. 68 , 2698 – 2702 . 10.1139/b90-341
+
+Archer E. ( 2003 ). “Critical areas for improvement in the ability of SADC agricultural sector to benefit from seasonal forecasts,” in Insights and Tools for Adaptation: Learning From Climate Variability Workshop ( Washington, DC : Sue Walker ).
+
+Aroca R. Porcel R. Ruiz-Lozano J. M. ( 2012 ). Regulation of root water uptake under abiotic stress conditions . J. Exp. Bot. 63 , 43 – 57 . 10.1093/jxb/err266
+
+Augspurger C. K. ( 2013 ). Reconstructing patterns of temperature, phenology, and frost damage over 124 years: Spring damage risk is increasing . Ecology 94 , 41 – 50 . 10.1890/12-0200.1
+
+Austin R. B. ( 1990 ). Prospects for Genetically Increasing the Photosynthetic Capacity of Crops . New York, NY : Allan R. Liss .
+
+Badawi M. Danyluk J. Boucho B. Houde M. Sarhan F. ( 2007 ). The CBF gene family in hexaploid wheat and its relationship to the phylogenetic complexity of cereal CBFs . Mol. Genet. Genomics 277 , 533 – 554 . 10.1007/s00438-006-0206-9
+
+Barton D. A. Cantrill L. C. Law A. M. K. Phillips C. G. Sutton B. G. Overall R. L. ( 2014 ). Chilling to zero degrees disrupts pollen formation but not meiotic microtubule arrays in Triticum aestivum L . Plant Cell Environ. 37 , 2781 – 2794 . 10.1111/pce.12358
+
+Basu S. Ramegowda V. Kumar A. Pereira A. ( 2016 ). Plant adaptation to drought stress [version 1; referees: 3 approved] . F1000Research 5 : 1554 . 10.12688/f1000research.7678.1
+
+Bohn M. Lüthje S. Sperling P. Heinz E. Dörffling K. ( 2007 ). Plasma membrane lipid alterations induced by cold acclimation and abscisic acid treatment of winter wheat seedlings differing in frost resistance . J. Plant Physiol. 164 , 146 – 156 . 10.1016/j.jplph.2005.12.008
+
+Borovskii G. B. Stupnikova I. V. Antipina A. I. Anuchina O. S. Voinikov V. K. ( 2005 ). Association of dehydrins with wheat mitochondria during low-temperature adaptation . Russ. J. Plant Physiol. 52 , 194 – 198 . 10.1007/s11183-005-0029-2
+
+Bota J. Medrano H. Flexas J. ( 2004 ). Is photosynthesis limited by decreased Rubisco activity and RuBP content under progressive water stress? New Phytol. 162 , 671 – 681 . 10.1111/j.1469-8137.2004.01056.x
+
+Buriro M. Wadhayo Gandahi A. Chand Oad F. Ibrahim Keerio M. Tunio S. Waseem Hassan S. U. et al . ( 2011 ). Wheat seed germination under the influence of temperature regimes . Sarhad 27 , 539 – 543 .
+
+Casenave E. C. Toselli M. E. ( 2007 ). Hydropriming as a pre-treatment for cotton germination under thermal and water stress conditions . Seed Sci. Technol. 35 , 88 – 98 . 10.15258/sst.2007.35.1.08
+
+Chakrabarti B. Singh S. Nagarajan S. Aggarwal P. ( 2011 ). Impact of Temperature on Phenology and Pollen Sterility of Wheat Varieties . Brisbane, QLD : Southern Cross Publishing .
+
+Chaves M. M. Oliveira M. M. ( 2004 ). Mechanisms underlying plant resilience to water deficits: prospects for water-saving agriculture . J. Exp. Bot. 2365 – 2384 . 10.1093/jxb/erh269
+
+Cheplick G. P. Priestley D. A. ( 1986 ). Seed Aging: Implications for Seed Storage and Persistence in the Soil . Ithaca, NY : Comstock Associates, 304 . 10.2307/2996373
+
+Chinnusamy V. Ohta M. Kanrar S. Lee B. ha Hong X. Agarwal M. et al . ( 2003 ). ICE1: a regulator of cold-induced transcriptome and freezing tolerance in arabidopsis . Genes Dev. 17 , 1043 – 1054 . 10.1101/gad.1077503
+
+Close T. J. ( 1997 ). Dehydrins: a commonalty in the response of plants to dehydration and low temperature . Physiol. Plant. 100 , 291 – 296 . 10.1111/j.1399-3054.1997.tb04785.x
+
+Crimp S. J. Zheng B. Khimashia N. Gobbett D. L. Chapman S. Howden M. et al . ( 2016 ). Recent changes in southern Australian frost occurrence: implications for wheat production risk . Crop Pasture Sci. 67 , 801 – 811 . 10.1071/CP16056
+
+Cromey M. G. Wright D. S. C. Boddington H. J. ( 1998 ). Effects of frost during grain filling on wheat yield and grain structure . New Zeal. J. Crop Hortic. Sci. 26 , 279 – 290 . 10.1080/01140671.1998.9514065
+
+Cvetkovic J. Müller K. Baier M. ( 2017 ). The effect of cold priming on the fitness of Arabidopsis thaliana accessions under natural and controlled conditions . Sci. Rep. 7 : 44055 . 10.1038/srep44055
+
+Dahal K. Kane K. Gadapati W. Webb E. Savitch L. V. Singh J. et al . ( 2012 ). The effects of phenotypic plasticity on photosynthetic performance in winter rye, winter wheat and Brassica napus . Physiol. Plant. 144 , 169 – 188 . 10.1111/j.1399-3054.2011.01513.x
+
+Dalmannsdottir S. Jørgensen M. Rapacz M. Østrem L. Larsen A. Rødven R. et al . ( 2017 ). Cold acclimation in warmer extended autumns impairs freezing tolerance of perennial ryegrass (Lolium perenne) and timothy (Phleum pratense) . Physiol. Plant. 160 , 266 – 281 . 10.1111/ppl.12548
+
+Doherty C. J. Van Buskirk H. A. Myers S. J. Thomashow M. F. ( 2009 ). Roles for Arabidopsis CAMTA transcription factors in cold-regulated gene expression and freezing tolerance . Plant Cell 21 , 972 – 984 . 10.1105/tpc.108.063958
+
+Dolferus R. Ji X. Richards R. A. ( 2011 ). Abiotic stress and control of grain number in cereals . Plant Sci. 181 , 331 – 341 . 10.1016/j.plantsci.2011.05.015
+
+Dong N. C Danyluk J. Wilson K. E. Pocock T. Huner N. P. A. et al . ( 2002 ). Cold-regulated cereal chloroplast late embryogenesis abundant-like proteins. molecular characterization and functional analyses . Plant Physiol. 129 , 1368 – 1381 . 10.1104/pp.001925
+
+Dubcovsky J. Dvorak J. ( 2007 ). Genome plasticity a key factor in the success of polyploid wheat under domestication . Science 316 , 1862 – 1866 . 10.1126/science.1143986
+
+Equiza M. A. Miravé J. P. Tognetti J. A. ( 2001 ). Morphological, anatomical and physiological responses related to differential shoot vs. root growth inhibition at low temperature in spring and winter wheat . Ann. Bot. 87 , 67 – 76 . 10.1006/anbo.2000.1301
+
+Esim N. Atici O. Mutlu S. ( 2014 ). Effects of exogenous nitric oxide in wheat seedlings under chilling stress . Toxicol. Ind. Health 30 , 268 – 274 . 10.1177/0748233712457444
+
+Evans L. ( 1975 ). “Wheat. In L.T.,” in Crop Physiology , ed Evans L. T. ( Cambridge : Cambridge University Press ), 101 – 149 .
+
+FAO ( 2020 ). Responding to the Impact of the COVID-19 Outbreak on Food Value Chains Through Efficient Logistics . Rome : FAO .
+
+Farooq M. Aziz T. Wahid A. Lee D. J. Siddique K. H. M. ( 2009 ). Chilling tolerance in maize: agronomic and physiological approaches . Crop Pasture Sci. 60 , 501 – 516 . 10.1071/CP08427
+
+Farooq M. Hussain M. Nawaz A. Lee D. J. Alghamdi S. S. Siddique K. H. M. ( 2017 ). Seed priming improves chilling tolerance in chickpea by modulating germination metabolism, trehalose accumulation and carbon assimilation . Plant Physiol. Biochem. 111 , 274 – 283 . 10.1016/j.plaphy.2016.12.012
+
+Feng H. Li X. Duan J. Li H. Liang H. ( 2008 ). Chilling tolerance of wheat seedlings is related to an enhanced alternative respiratory pathway . Crop Sci. 48 , 2381 – 2388 . 10.2135/cropsci2007.04.0232
+
+Fernandez O. Béthencourt L. Quero A. Sangwan R. S. Clément Christophe C. ( 2010 ). Trehalose and plant stress responses: friend or foe? Trends Plant Sci. 15 , 409 – 417 . 10.1016/j.tplants.2010.04.004
+
+Fischer R. A. ( 1985 ). Number of kernels in wheat crops and the influence of solar radiation and temperature . J. Agric. Sci. 105 , 447 – 461 . 10.1017/S0021859600056495
+
+Foti R. Abureni K. Tigere A. Gotosa J. Gere J. ( 2008 ). The efficacy of different seed priming osmotica on the establishment of maize (Zea mays L.) caryopses . J. Arid Environ. 72 , 1127 – 1130 . 10.1016/j.jaridenv.2007.11.008
+
+Fowler D. B. ( 2001 ). Photoperiod and temperature interactions regulate low-temperature-induced gene expression in barley . Plant Physiol. 127 , 1676 – 1681 . 10.1104/pp.010483
+
+Fowler D. B. ( 2008 ). Cold acclimation threshold induction temperatures in cereals . Crop Sci. 48 , 1147 – 1154 . 10.2135/cropsci2007.10.0581
+
+Frederiks T. M. Christopher J. T. Sutherland M. W. Borrell A. K. ( 2015 ). Post-head-emergence frost in wheat and barley: defining the problem, assessing the damage, and identifying resistance . J. Exp. Bot. 66 , 3487 – 3498 . 10.1093/jxb/erv088
+
+Fuller M. P. Fuller A. M. Kaniouras S. Christophers J. Fredericks T. ( 2007 ). The freezing characteristics of wheat at ear emergence . Eur. J. Agron. 26 , 435 – 441 . 10.1016/j.eja.2007.01.001
+
+Ganeshan S. Vitamvas P. Fowler D. B. Chibbar R. N. ( 2008 ). Quantitative expression analysis of selected COR genes reveals their differential expression in leaf and crown tissues of wheat ( Triticum aestivum L .) during an extended low temperature acclimation regimen . J. Exp. Bot. 59 , 2393 – 2402 . 10.1093/jxb/ern112
+
+Gavito M. E. Curtis P. S. Mikkelsen T. N. Jakobsen I. ( 2001 ). Interactive effects of soil temperature, atmospheric carbon dioxide and soil N on root development, biomass and nutrient uptake of winter wheat during vegetative growth . J. Exp. Bot. 52 , 1913 – 1923 . 10.1093/jexbot/52.362.1913
+
+Groom Q. J. Long S. P. Baker N. R. ( 1990 ). “Photoinhibition of photosynthesis in a winter wheat crop,” in Current Research in Photosynthesis , ed Baltscheffsky H. ( Stockholm : Springer ), 1423 – 1426 . 10.1007/978-94-009-0511-5_329
+
+Gu L. Hanson P. J. Post W. Mac Kaiser D. P. Yang B. Nemani R. et al . ( 2008 ). The 2007 eastern US spring freeze: increased cold damage in a warming world? Bioscience 58 , 253 – 262 . 10.1641/B580311
+
+Guo J. Ren Y. Tang Z. Shi W. Zhou M. ( 2019 ). Characterization and expression profiling of the ICE-CBF-COR genes in wheat . PeerJ 2019 , 1 – 19 . 10.7717/peerj.8190
+
+Guo X. Liu D. Chong K. ( 2018 ). Cold signaling in plants: Insights into mechanisms and regulation . J. Integr. Plant Biol. 60 , 745 – 756 . 10.1111/jipb.12706
+
+Hasanfard A. Rastgoo M. Izadi Darbandi E. Nezami A. Chauhan B. S. ( 2021 ). Regeneration capacity after exposure to freezing in wild oat (Avena ludoviciana Durieu.) and turnipweed (Rapistrum rugosum (L.) All.) in comparison with winter wheat . Environ. Exp. Bot. 181 : 104271 . 10.1016/j.envexpbot.2020.104271
+
+Holman J. D. Schlegel A. J. Thompson C. R. Lingenfelser J. E. ( 2011 ). Influence of precipitation, temperature, and 56 years on winter wheat yields in Western Kansas . Crop Manag. 4 , 1 – 15 . 10.1094/CM-2011-1229-01-RS
+
+Hurry V. M. Strand Å. Tobiæson M. Gardeström P. Öquist G. ( 1995 ). Cold hardening of spring and winter wheat and rape results in differential effects on growth, carbon metabolism, and carbohydrate ontent . Plant Physiol. 109 , 697 – 706 . 10.1104/pp.109.2.697
+
+Hussain H. A. Hussain S. Khaliq A. Ashraf U. Anjum S. A. Men S. et al . ( 2018 ). Chilling and drought stresses in crop plants: implications, cross talk, and potential management opportunities . Front. Plant Sci. 9 : 393 . 10.3389/fpls.2018.00393
+
+Ikeuchi M. Ogawa Y. Iwase A. Sugimoto K. ( 2016 ). Plant Regeneration: Cellular Origins and Molecular Mechanisms . London : Company of Biologists Ltd . 10.1242/dev.134668
+
+Ikkonen E. N. Shibaeva T. G. Sherudilo E. G. Titov A. F. ( 2020 ). Response of winter wheat seedlings respiration to long-term cold exposure and short-term daily temperature drops . Russ. J. Plant Physiol. 67 , 538 – 544 . 10.1134/S1021443720020065
+
+IPCC ( 2014 ). The Physical Science Basis: Working Group I Contribution to the Fifth AssessmentReportsta of the Intergovernmental Panel on Climate Change . Cambridge : IPCC .
+
+Jame Y. W. Cutforth H. W. ( 2004 ). Simulating the effects of temperature and seeding depth on germination and emergence of spring wheat . Agric. For. Meteorol. 124 , 207 – 218 . 10.1016/j.agrformet.2004.01.012
+
+Janowiak F. Maas B. Dörffling K. ( 2002 ). Importance of abscisic acid for chilling tolerance of maize seedlings . J. Plant Physiol. 159 , 635 – 643 . 10.1078/0176-1617-0638
+
+Janská A. Maršík P. Zelenková S. Ovesná J. ( 2010 ). Cold stress and acclimation - what is important for metabolic adjustment? Plant Biol. 12 , 395 – 405 . 10.1111/j.1438-8677.2009.00299.x
+
+Jezierska-Tys S. Rachoń L. Rutkowska A. Szumilo G. ( 2012 ). Effect of new lines of winter wheat on microbiological activity in Luvisol . Int. Agrophys. 26 , 33 – 38 . 10.2478/v10247-012-0005-y
+
+Jha U. C. Bohra A. Jha R. ( 2017 ). Breeding approaches and genomics technologies to increase crop yield under low-temperature stress . Plant Cell Rep. 36 , 1 – 35 . 10.1007/s00299-016-2073-0
+
+Ji H. Xiao L. Xia Y. Song H. Liu B. Tang L. et al . ( 2017 ). Effects of jointing and booting low temperature stresses on grain yield and yield components in wheat . Agric. For. Meteorol. 243 , 33 – 42 . 10.1016/j.agrformet.2017.04.016
+
+Jisha K. C. Vijayakumari K. Puthur J. T. ( 2013 ). Seed priming for abiotic stress tolerance: an overview . Acta Physiol. Plant. 35 , 1381 – 1396 . 10.1007/s11738-012-1186-5
+
+Karimi M. Golparvar A. R. Bahari B. ( 2011 ). Evaluation of bread wheat varieties for chilling stress tolerance and their effective traits for higher grain yield . Res Crop. 12 , 633 – 639 . Available online at: https://www.researchgate.net/publication/295646122_Evaluation_of_bread_wheat_cultivars_for_chilling_stress_tolerance_and_their_effective_traits_for_higher_grain_yield/citations
+
+Khaliq A. Aslam F. Matloob A. Hussain S. Geng M. Wahid A. et al . ( 2015 ). Seed priming with selenium: consequences for emergence, seedling growth, and biochemical attributes of rice . Biol. Trace Elem. Res. 166 , 236 – 244 . 10.1007/s12011-015-0260-4
+
+Khan T. A. Fariduddin Q. Yusuf M. ( 2017 ). Low-temperature stress: is phytohormones application a remedy? Environ. Sci. Pollut. Res. 24 , 21574 – 21590 . 10.1007/s11356-017-9948-7
+
+Knox A. K. Li C. Vágújfalvi A. Galiba G. Stockinger E. J. Dubcovsky J. ( 2008 ). Identification of candidate CBF genes for the frost tolerance locus Fr-A m2 in Triticum monococcum . Plant Mol. Biol. 67 , 257 – 270 . 10.1007/s11103-008-9316-6
+
+Koç E. ( 2020 ). “Assessing climate change impacts on wheat production in Turkey and various adaptation strategies,” in Climate Change and Food Security with Emphasis on Wheat , eds Ozturk M. Gul A. ( New York, NY : Elsevier ), 43 – 54 . 10.1016/B978-0-12-819527-7.00003-0
+
+Kodra E. Steinhaeuser K. Ganguly A. R. ( 2011 ). Persisting cold extremes under 21st-century warming scenarios . Geophys. Res. Lett. 38 , 47 – 103 . 10.1029/2011GL047103
+
+Kolaksazov M. Laporte F. Ananieva K. Dobrev P. Herzog M. Ananiev E. D. ( 2013 ). Effect of chilling and freezing stresses on jasmonate content in Arabis alpina . Bulg. J. Agric. Sci . 19 , 15 – 17 .
+
+Kosová K. Prášil I. T. Vítámvás P. ( 2008 ). The relationship between vernalization- and photoperiodically-regulated genes and the development of frost tolerance in wheat and barley . Biol. Plant. 52 , 601 – 615 . 10.1007/s10535-008-0120-6
+
+Kratsch H. A. Wise R. R. ( 2000 ). The ultrastructure of chilling stress . Plant, Cell Environ. 23 , 337 – 350 . 10.1046/j.1365-3040.2000.00560.x
+
+Kul R. Ekinci M. Turan M. Ors S. Yildirim E. ( 2020 ). “How abiotic stress conditions affects plant roots,” in Plant Roots [Working Title], ed Yildirim E. ( London : IntechOpen ), 6 – 10 . 10.5772/intechopen.95286
+
+Kurepin L. V. Dahal K. P. Savitch L. V. Singh J. Bode R. Ivanov A. G. et al . ( 2013 ). Role of CBFs as integrators of chloroplast redox, phytochrome and plant hormone signaling during cold acclimation . Int. J. Mol. Sci. 14 , 12729 – 12763 . 10.3390/ijms140612729
+
+Lamichhane J. R. Soltani E. ( 2020 ). Sowing and seedbed management methods to improve establishment and yield of maize, rice and wheat across drought-prone regions: a review . J. Agric. Food Res. 2 : 100089 . 10.1016/j.jafr.2020.100089
+
+Larcher W. ( 2003 ). Physiological Plant Ecology: Ecophysiology and Stress Physiology of Functional Groups . Berlin : Springer Nature .
+
+Lee S. C. Luan S. ( 2012 ). ABA signal transduction at the crossroad of biotic and abiotic stress responses . Plant Cell Environ. 35 , 53 – 60 . 10.1111/j.1365-3040.2011.02426.x
+
+Leonardos E. D. Savitch L. V. Huner N. P. A. Öquist G. Grodzinski B. ( 2003 ). Daily photosynthetic and C-export patterns in winter wheat leaves during cold stress and acclimation . Physiol. Plant. 117 , 521 – 531 . 10.1034/j.1399-3054.2003.00057.x
+
+Li A. L. Zhu Y. F. Tan X. M. Wang X. Wei B. Guo H. Z. et al . ( 2008 ). Evolutionary and functional study of the CDPK gene family in wheat ( Triticum aestivum L .) . Plant Mol. Biol. 66 , 429 – 443 . 10.1007/s11103-007-9281-5
+
+Li X. Cai J. Liu F. Dai T. Cao W. Jiang D. ( 2014 ). Spring freeze effect on wheat yield is modulated by winter temperature fluctuations: evidence from meta-analysis and simulating experiment . J. Agron. Crop Sci. 201 , 288 – 300 . 10.1111/jac.12115
+
+Li X. Cai J. Liu F. Zhou Q. Dai T. Cao W. et al . ( 2015 ). Wheat plants exposed to winter warming are more susceptible to low temperature stress in the spring . Plant Growth Regul. 77 , 11 – 19 . 10.1007/s10725-015-0029-y
+
+Li X. Feng Y. Boersma L. ( 1994 ). Partition of photosynthates between shoot and root in spring wheat ( Triticum aestivum L .) as a function of soil water potential and root temperature . Plant Soil 164 , 43 – 50 . 10.1007/BF00010109
+
+Li X. Jiang H. Liu F. Cai J. Dai T. Cao W. et al . ( 2013 ). Induction of chilling tolerance in wheat during germination by pre-soaking seed with nitric oxide and gibberellin . Plant Growth Regul. 71 , 31 – 40 . 10.1007/s10725-013-9805-8
+
+Limin A. E. Fowler D. B. ( 2006 ). Low-temperature tolerance and genetic potential in wheat ( Triticum aestivum L .): response to photoperiod, vernalization, and plant development . Planta 224 , 360 – 366 . 10.1007/s00425-006-0219-y
+
+Liu J. H. Kitashiba H. Wang J. Ban Y. Moriguchi T. ( 2007 ). Polyamines and their ability to provide environmental stress tolerance to plants . Plant Biotechnol. 24 , 117 – 126 . 10.5511/plantbiotechnology.24.117
+
+Liu L. Ji H. An J. Shi K. Ma J. Liu B. et al . ( 2019 ). Response of biomass accumulation in wheat to low-temperature stress at jointing and booting stages . Environ. Exp. Bot. 157 , 46 – 57 . 10.1016/j.envexpbot.2018.09.026
+
+Liu Y. Dang P. Liu L. He C. ( 2019 ). Cold acclimation by the CBF-COR pathway in a changing climate: Lessons from Arabidopsis thaliana . Plant Cell Rep . 38 , 511 – 519 . 10.1007/s00299-019-02376-3
+
+Liu Y. Liang J. Sun L. Yang X. Li D. ( 2016 ). Group 3 LEA protein, ZmLEA3, is involved in protection from low temperature stress . Front. Plant Sci . 7 : 1011 . 10.3389/fpls.2016.01011
+
+Livingston D. P. Hincha D. K. Heyer A. G. ( 2009 ). Fructan and its relationship to abiotic stress tolerance in plants . Cell. Mol. Life Sci. 66 , 2007 – 2023 . 10.1007/s00018-009-0002-x
+
+Los D. A. Mironov K. S. Allakhverdiev S. I. ( 2013 ). Regulatory role of membrane fluidity in gene expression and physiological functions . Photosynth. Res. 116 , 489 – 509 . 10.1007/s11120-013-9823-4
+
+Lyons J. M. ( 1973 ). Chilling injury in plants . Annu. Rev. Plant Physiol. 24 , 445 – 466 . 10.1146/annurev.pp.24.060173.002305
+
+Majláth I. Szalai G. Soós V. Sebestyén E. Balázs E. Vanková R. et al . ( 2012 ). Effect of light on the gene expression and hormonal status of winter and spring wheat plants during cold hardening . Physiol. Plant. 145 , 296 – 314 . 10.1111/j.1399-3054.2012.01579.x
+
+Marcellos H. Single W. V. ( 1984 ). Frost injury in wheat ears after ear emergence . Aust. J. Plant Physiol. 11 , 7 – 15 . 10.1071/PP9840007
+
+Massenssini A. M. Bonduki V. H. A. Melo C. A. D. Tótola M. R. Ferreira F. A. Costa M. D. ( 2015 ). Relative importance of soil physico-chemical characteristics and plant species identity to the determination of soil microbial community structure . Appl. Soil Ecol. 91 , 8 – 15 . 10.1016/j.apsoil.2015.02.009
+
+McKhann H. I. Gery C. Bérard A. Lévêque S. Zuther E. Hincha D. K. et al . ( 2008 ). Natural variation in CBF gene sequence, gene expression and freezing tolerance in the Versailles core collection of Arabidopsis thaliana . BMC Plant Biol. 8 : 105 . 10.1186/1471-2229-8-105
+
+Mian M. A. R. Nafziger E. D. ( 1994 ). Seed size and water potential effects on germination and seedling growth of winter wheat . Crop Sci. 34 , 169 – 171 . 10.2135/cropsci1994.0011183X003400010030x
+
+Miura K. Tada Y. ( 2014 ). Regulation of water, salinity, and cold stress responses by salicylic acid . Front. Plant Sci. 5 : 4 . 10.3389/fpls.2014.00004
+
+Monroy A. F. Dryanova A. Malette B. Oren D. H. Ridha Farajalla M. Liu W. et al . ( 2007 ). Regulatory gene candidates and gene expression analysis of cold acclimation in winter and spring wheat . Plant Mol. Biol. 64 , 409 – 423 . 10.1007/s11103-007-9161-z
+
+Morran S. Eini O. Pyvovarenko T. Parent B. Singh R. Ismagul A. et al . ( 2011 ). Improvement of stress tolerance of wheat and barley by modulation of expression of DREB/CBF factors . Plant Biotechnol. J. 9 , 230 – 249 . 10.1111/j.1467-7652.2010.00547.x
+
+Nezhadahmadi A. Prodhan Z. H. Faruq G. ( 2013 ). Drought tolerance in wheat . Sci. World J. 2013 , 2 – 7 . 10.1155/2013/610721
+
+Olesen J. E. Carter T. R. Díaz-Ambrona C. H. Fronzek S. Heidmann T. Hickler T. et al . ( 2007 ). Uncertainties in projected impacts of climate change on European agriculture and terrestrial ecosystems based on scenarios from regional climate models . Clim. Change 81 , 123 – 143 . 10.1007/s10584-006-9216-1
+
+Oquist G. Hurry V. M. Huner N. P. A. ( 1993 ). Low-Temperature Effects on Photosynthesis and Correlation with Freezing Tolerance in Spring and Winter Cultivars of Wheat and Rye' . Available online at: https://plantphysiol.org (accessed May 12, 2021). 10.1104/pp.101.1.245
+
+Paparella S. Araújo S. S. Rossi G. Wijayasinghe M. Carbonera D. Balestrazzi A. ( 2015 ). Seed priming: state of the art and new perspectives . Plant Cell Rep. 34 , 1281 – 1293 . 10.1007/s00299-015-1784-y
+
+Paul M. J. Foyer C. H. ( 2001 ). Sink regulation of photosynthesis . J. Exp. Bot . 52 , 1383 – 1400 . 10.1093/jexbot/52.360.1383
+
+Pomeroy M. K. Andrews C. J. ( 1975 ). Effect of temperature on respiration of mitochondria and shoot segments from cold hardened and nonhardened wheat and rye seedlings . Plant Physiol. 56 , 703 – 706 . 10.1104/pp.56.5.703
+
+Pomeroy M. K. Andrews C. J. ( 1978 ). Metabolic and ultrastructural changes in winter wheat during ice encasement under field conditions . Plant Physiol. 61 , 806 – 811 . 10.1104/pp.61.5.806
+
+Porter J. R. Gawith M. ( 1999 ). Temperatures and the growth and development of wheat: a review . Eur. J. Agron. 10 , 23 – 36 . 10.1016/S1161-0301(98)00047-1
+
+Puijalon S. Piola F. Bornette G. ( 2008 ). Abiotic stresses increase plant regeneration ability . Evol. Ecol. 22 , 493 – 506 . 10.1007/s10682-007-9177-5
+
+Qin Y. Wang M. Tian Y. He W. Han L. Xia G. ( 2012 ). Over-expression of TaMYB33 encoding a novel wheat MYB transcription factor increases salt and drought tolerance in Arabidopsis . Mol. Biol. Rep. 39 , 7183 – 7192 . 10.1007/s11033-012-1550-y
+
+Rajcan I. Swanton C. J. ( 2001 ). Understanding maize-weed competition: Resource competition, light quality and the whole plant . F. Crop. Res. 71 , 139 – 150 . 10.1016/S0378-4290(01)00159-9
+
+Rao K. V. M. Raghavendra A. S. Reddy K. J. ( 2006 ). Physiology and Molecular Biology of Stress Tolerance in Plants . Dordrecht : Springer Netherlands .
+
+Ray D. K. Mueller N. D. West P. C. Foley J. A. ( 2013 ). Yield trends are insufficient to double global crop production by 2050 . PLoS ONE 8 : e66428 . 10.1371/journal.pone.0066428
+
+Ribas-Carbo M. Aroca R. Gonzalez-Meler M. A. Irigoyen J. J. Sanchez-Diaz M. ( 2000 ). The electron partitioning between the cytochrome and alternative respiratory pathways during chilling recovery in two cultivars of maize differing in chilling sensitivity . Plant Physiol. 122 , 199 – 204 . 10.1104/pp.122.1.199
+
+Richner W. Soldati A. Stamp P. ( 1996 ). Shoot-to-root relations in field-grown maize seedlings . Agron. J. 88 , 56 – 61 . 10.2134/agronj1996.00021962008800010012x
+
+Rinalducci S. Egidi M. G. Karimzadeh G. Jazii F. R. Zolla L. ( 2011 ). Proteomic analysis of a spring wheat cultivar in response to prolonged cold stress . Electrophoresis 32 , 1807 – 1818 . 10.1002/elps.201000663
+
+Röder M. Thornley P. Campbell G. Bows-Larkin A. ( 2014 ). Emissions associated with meeting the future global wheat demand: a case study of UK production under climate change constraints . Environ. Sci. Policy 39 , 13 – 24 . 10.1016/j.envsci.2014.02.002
+
+Roychoudhury A. Paul S. Basu S. ( 2013 ). Cross-talk between abscisic acid-dependent and abscisic acid-independent pathways during abiotic stress . Plant Cell Rep. 32 , 985 – 1006 . 10.1007/s00299-013-1414-5
+
+Ruelland E. Zachowski A. ( 2010 ). How plants sense temperature . Environ. Exp. Bot. 69 , 225 – 232 . 10.1016/j.envexpbot.2010.05.011
+
+Sarhan F. Ouellet F. Vazquez-Tello A. ( 1997 ). The wheat wcs120 gene family. a useful model to understand the molecular genetics of freezing tolerance in cereals . Physiol. Plant. 101 , 439 – 445 . 10.1111/j.1399-3054.1997.tb01019.x
+
+Savitch L. V. Gray G. R. Huner N. P. A. ( 1997 ). Feedback-limited photosynthesis and regulation of sucrose-starch accumulation during cold acclimation and low-temperature stress in a spring and winter wheat . Planta 201 , 18 – 26 . 10.1007/BF01258676
+
+Saxena I. Srikanth S. Chen Z. ( 2016 ). Cross talk between H2O2 and interacting signal molecules under plant stress response . Front. Plant Sci. 7 : 570 . 10.3389/fpls.2016.00570
+
+Seki M. Kamei A. Yamaguchi-Shinozaki K. Shinozaki K. ( 2003 ). Molecular responses to drought, salinity and frost: common and different paths for plant protection . Curr. Opin. Biotechnol. 14 , 194 – 199 . 10.1016/S0958-1669(03)00030-2
+
+Seo P. J. Kim M. J. Park J. Y. Kim S. Y. Jeon J. Lee Y. H. et al . ( 2010 ). Cold activation of a plasma membrane-tethered NAC transcription factor induces a pathogen resistance response in Arabidopsis . Plant J. 61 , 661 – 671 . 10.1111/j.1365-313X.2009.04091.x
+
+Shen Y. G. Zhang W. K. He S. J. Zhang J. S. Liu Q. Chen S. Y. ( 2003 ). An EREBP/AP2-type protein in Triticum aestivum was a DRE-binding transcription factor induced by cold, dehydration and ABA stress . Theor. Appl. Genet. 106 , 923 – 930 . 10.1007/s00122-002-1131-x
+
+Shirinbayan S. Khosravi H. Malakouti M. J. ( 2019 ). Alleviation of drought stress in maize (Zea mays) by inoculation with Azotobacter strains isolated from semi-arid regions . Appl. Soil Ecol. 133 , 138 – 145 . 10.1016/j.apsoil.2018.09.015
+
+Siddique M. R. B. Hamid A. Islam M. S. ( 2000 ). Drought stress effects on water relations of wheat . Bot. Bull. Acad. Sin. 41 , 35 – 39 .
+
+Spilde L. A. ( 1989 ). Influence of seed size and test weight on several agronomic traits of barley and hard red spring wheat . J. Prod. Agric. 2 , 169 – 172 . 10.2134/jpa1989.0169
+
+Stapper M. Fischer R. A. ( 1990 ). Genotype, sowing date and plant spacing influence on high-yielding irrigated wheat in southern New South Wales. I Phasic development, canopy growth and spike production . Aust. J. Agric. Res. 41 , 997 – 1019 . 10.1071/AR9900997
+
+Subedi K. D. Gregory P. J. Summerfield R. J. Gooding M. J. ( 1998 ). Cold temperatures and boron deficiency caused grain set failure in spring wheat ( Triticum aestivum L .) . F. Crop. Res. 57 , 277 – 288 . 10.1016/S0378-4290(97)00148-2
+
+Sung S. Amasino R. M. ( 2005 ). Remembering winter: toward a molecular understanding of vernalization . Annu. Rev. Plant Biol. 56 , 491 – 508 . 10.1146/annurev.arplant.56.032604.144307
+
+Takahashi D. Li B. Nakayama T. Kawamura Y. Uemura M. ( 2013 ). Plant plasma membrane proteomics for improving cold tolerance . Front. Plant Sci. 4 : 90 . 10.3389/fpls.2013.00090
+
+Taşgín E. Atící Ö. Nalbantoglu B. ( 2003 ). Effects of salicylic acid and cold on freezing tolerance in winter wheat leaves . Plant Growth Regul. 41 , 231 – 236 . 10.1023/B:GROW.0000007504.41476.c2
+
+Thakur P. Kumar S. Malik J. A. Berger J. D. Nayyar H. ( 2010 ). Cold stress effects on reproductive development in grain crops: an overview . Environ. Exp. Bot. 67 , 429 – 443 . 10.1016/j.envexpbot.2009.09.004
+
+Thakur P. Nayyar H. ( 2013 ). “Facing the cold stress by plants in the changing environment: Sensing, signaling, and defending mechanisms,” in Plant Acclimation to Environmental Stress ( New York, NY : Springer New York ), 29 – 69 . 10.1007/978-1-4614-5001-6_2
+
+Theocharis A. Clément C. Barka E. A. ( 2012 ). Physiological and molecular changes in plants grown at low temperatures . Planta 235 , 1091 – 1105 . 10.1007/s00425-012-1641-y
+
+Thomashow M. F. ( 2001 ). So what's new in the field of plant cold acclimation? Lots! Plant Physiol. 125 , 89 – 93 . 10.1104/pp.125.1.89
+
+Thomashow M. F. ( 2010 ). Molecular basis of plant cold acclimation: insights gained from studying the CBF cold response pathway . Plant Physiol. 154 , 571 – 577 . 10.1104/pp.110.161794
+
+Trione E. J. Metzger R. J. ( 1970 ). Wheat and barley vernalization in a precise temperature gradient 1 . Crop Sci. 10 , 390 – 392 . 10.2135/cropsci1970.0011183X001000040023x
+
+Trischuk R. G. Schilling B. S. Low N. H. Gray G. R. Gusta L. V. ( 2014 ). Cold acclimation, de-acclimation and re-acclimation of spring canola, winter canola and winter wheat: the role of carbohydrates, cold-induced stress proteins and vernalization . Environ. Exp. Bot. 106 , 156 – 163 . 10.1016/j.envexpbot.2014.02.013
+
+Trnka M. Rötter R. P. Ruiz-Ramos M. Kersebaum K. C. Olesen J. E. Žalud Z. et al . ( 2014 ). Adverse weather conditions for European wheat production will become more frequent with climate change . Nat. Clim. Chang. 4 , 637 – 643 . 10.1038/nclimate2242
+
+Tuteja N. ( 2007 ). Abscisic acid and abiotic stress signaling . Plant Signal. Behav. 2 , 135 – 138 . 10.4161/psb.2.3.4156
+
+Vágújfalvi A. Galiba G. Cattivelli L. Dubcovsky J. ( 2003 ). The cold-regulated transcriptional activator Cbf3 is linked to the frost-tolerance locus Fr-A2 on wheat chromosome 5A . Mol. Genet. Genomics 269 , 60 – 67 . 10.1007/s00438-003-0806-6
+
+Valluru R. Link J. Claupein W. ( 2012 ). Consequences of early chilling stress in two Triticum species: plastic responses and adaptive significance . Plant Biol. 14 , 641 – 651 . 10.1111/j.1438-8677.2011.00540.x
+
+Venzhik Y. V. Titov A. F. Talanova V. V. Frolova S. A. Talanov A. V. Nazarkina Y. A. ( 2011 ). Influence of lowered temperature on the resistance and functional activity of the photosynthetic apparatus of wheat plants . Biol. Bull. 38 , 132 – 137 . 10.1134/S1062359011020142
+
+Vítámvás P. Prášil I. T. ( 2008 ). WCS120 protein family and frost tolerance during cold acclimation, deacclimation and reacclimation of winter wheat . Plant Physiol. Biochem. 46 , 970 – 976 . 10.1016/j.plaphy.2008.06.006
+
+Waha K. Van Bussel L. G. J. Müller C. Bondeau A. ( 2012 ). Climate-driven simulation of global crop sowing dates . Glob. Ecol. Biogeogr. 21 , 247 – 259 . 10.1111/j.1466-8238.2011.00678.x
+
+Wang H. F. Huo Z. G. Zhou G. S. Liao Q. H. Feng H. K. Wu L. ( 2016 ). Estimating leaf SPAD values of freeze-damaged winter wheat using continuous wavelet analysis . Plant Physiol. Biochem. 98 , 39 – 45 . 10.1016/j.plaphy.2015.10.032
+
+Whaley J. M. Kirby E. J. M. Spink J. H. Foulkes M. J. Sparkes D. L. ( 2004 ). Frost damage to winter wheat in the UK: the effect of plant population density . Eur. J. Agron. 21 , 105 – 115 . 10.1016/S1161-0301(03)00090-X
+
+Wilkinson S. Kudoyarova G. R. Veselov D. S. Arkhipova T. N. Davies W. J. ( 2012 ). Plant hormone interactions: innovative targets for crop breeding and management . J. Exp. Bot. 63 , 3499 – 3509 . 10.1093/jxb/ers148
+
+Wu Y. F. Zhong X. L. Hu X. Ren D. C. Lv G. H. Wei C. Y. et al . ( 2014 ). Frost affects grain yield components in winter wheat . New Zeal. J. Crop Hortic. Sci. 42 , 194 – 204 . 10.1080/01140671.2014.887588
+
+Xiao L. Liu L. Asseng S. Xia Y. Tang L. Liu B. et al . ( 2018 ). Estimating spring frost and its impact on yield across winter wheat in China . Agric. For. Meteorol. 260–261 , 154 – 164 . 10.1016/j.agrformet.2018.06.006
+
+Xue-Xuan X. Hong-Bo S. Yuan-Yuan M. Gang X. Jun-Na S. Dong-Gang G. et al . ( 2010 ). Biotechnological implications from abscisic acid (ABA) roles in cold stress and leaf senescence as an important signal for improving plant sustainable survival under abiotic-stressed conditions . Crit. Rev. Biotechnol. 30 , 222 – 230 . 10.3109/07388551.2010.487186
+
+Yadav S. K. ( 2010 ). Cold stress tolerance mechanisms in plants . A review. Agron. Sustain. Dev. 30 , 515 – 527 . 10.1051/agro/2009050
+
+Yadegari L. Heidari R. Carapetian J. ( 2008 ). Chilling pretreatment causes some changes in respiration, membrane permeability and some other factors in soybean seedlings . Res. J. Biol. Sci. 3 , 1054 – 1059 .
+
+Yamori W. Noguchi K. Hikosaka K. Terashima I. ( 2009 ). Cold-tolerant crop species have greater temperature homeostasis of leaf respiration and photosynthesis than cold-sensitive species . Plant Cell Physiol. 50 , 203 – 215 . 10.1093/pcp/pcn189
+
+Yang J. Zhang J. ( 2006 ). Grain filling of cereals under soil drying . New Phytol. 169 , 223 – 236 . 10.1111/j.1469-8137.2005.01597.x
+
+Yokota H. Iehisa J. C. M. Shimosaka E. Takumi S. ( 2015 ). Line differences in Cor/Lea and fructan biosynthesis-related gene transcript accumulation are related to distinct freezing tolerance levels in synthetic wheat hexaploids . J. Plant Physiol. 176 , 78 – 88 . 10.1016/j.jplph.2014.12.007
+
+Yordanova R. Popova L. ( 2007 ). Effect of exogenous treatment with salicylic acid on photosynthetic activity and antioxidant capacity of chilled wheat plants . Gen. Appl. Plant Physiol 33 , 155 – 170 .
+
+Yoshida M. Abe J. Moriyama M. Kuwabara T. ( 1998 ). Carbohydrate levels among winter wheat cultivars varying in freezing tolerance and snow mold resistance during autumn and winter . Physiol. Plant. 103 , 8 – 16 . 10.1034/j.1399-3054.1998.1030102.x
+
+Yue Y. Zhou Y. Wang J. Ye X. ( 2016 ). Assessing wheat frost risk with the support of gis: an approach coupling a growing season meteorological index and a hybrid fuzzy neural network model . Sustainability 8 : 1308 . 10.3390/su8121308
+
+Zhang L. Zhao G. Jia J. Liu X. Kong X. ( 2012 ). Molecular characterization of 60 isolated wheat MYB genes and analysis of their expression during abiotic stress . J. Exp. Bot. 63 , 203 – 214 . 10.1093/jxb/err264
+
+Zhang W. Wang J. Huang Z. Mi L. Xu K. Wu J. et al . ( 2019 ). Effects of low temperature at booting stage on sucrose metabolism and endogenous hormone contents in winter wheat spikelet . Front. Plant Sci. 10 : 498 . 10.3389/fpls.2019.00498
+
+Zheng B. Chapman S. C. Christopher J. T. Frederiks T. M. Chenu K. ( 2015 ). Frost trends and their estimated impact on yield in the Australian wheatbelt . J. Exp. Bot. 66 , 3611 – 3623 . 10.1093/jxb/erv163
+
+Zhu J. Dong C. H. Zhu J. K. ( 2007 ). Interplay between cold-responsive gene regulation, metabolism and RNA processing during plant cold acclimation . Curr. Opin. Plant Biol. 10 , 290 – 295 . 10.1016/j.pbi.2007.04.010
+
+wheat , cold stress damage , physiological mechanism , yield , stress management , cold acclimation
+
+Hassan MA, Xiang C, Farooq M, Muhammad N, Yan Z, Hui X, Yuanyuan K, Bruno AK, Lele Z and Jincai L (2021) Cold Stress in Wheat: Plant Acclimation Responses and Management Strategies . Front. Plant Sci. 12:676884. doi: 10.3389/fpls.2021.676884
+
+Sunchung Park, United States Department of Agriculture, United States
+
+Klára Kosová, Crop Research Institute (CRI), Czechia; Dhruv Lavania, University of Alberta, Canada
+
+© 2021 Hassan, Xiang, Farooq, Muhammad, Yan, Hui, Yuanyuan, Bruno, Lele and Jincai.
+
+This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+
+*Correspondence: Li Jincai lijc@ahau.edu.cn
+
+This article was submitted to Plant Abiotic Stress, a section of the journal Frontiers in Plant Science
+
+†These authors have contributed equally to this work
+
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.

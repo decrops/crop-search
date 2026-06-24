@@ -1,0 +1,121 @@
+{"claims": [
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 100,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "sowing of high-yielding wheat variety Unnat PBW 343 was done in Ist week of November using seed (100 kg ha-1) following row-to-row spacing of 22.5 cm",
+    "claim_summary": "Wheat (cv. PBW 343) sown at a seed rate of 100 kg/ha.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 22.5,
+    "unit": "cm",
+    "qualifier": "recommended",
+    "evidence_text": "using seed (100 kg ha-1) following row-to-row spacing of 22.5 cm during both years of study",
+    "claim_summary": "Wheat sown at a row-to-row spacing of 22.5 cm.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "Fertilizer N (120 kg N ha-1) was applied through urea (46% N) ... Nitrogen to wheat was applied at sowing, crown root initiation (CRI) stage and maximum tillering in equal splits.",
+    "claim_summary": "Wheat received 120 kg N/ha as urea applied in three equal splits.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Nitrogen to wheat was applied at sowing, crown root initiation (CRI) stage and maximum tillering in equal splits.",
+    "claim_summary": "Nitrogen for wheat split-applied in three equal doses at sowing, crown root initiation, and maximum tillering.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.phosphorus_requirement",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 60,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "three phosphorus levels viz., 0, 30 and 60 kg P2O5 ha-1 ... The grain yield of wheat was equivalent to the recommended dose of the P-fertilizer (i.e. 60 kg P2O5 ha-1) on retention/incorporation of rice residue alone with application of the half of the recommended dose (30 kg P2O5 ha-1).",
+    "claim_summary": "Recommended P dose for wheat is 60 kg P2O5/ha; 30 kg/ha sufficed with rice residue retention.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.potassium_requirement",
+    "value_type": "numeric",
+    "numeric_value": 30,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "potassium (30 kg K2O ha-1) through muriate of potash (60% K2O) uniformly to all the treatment plots",
+    "claim_summary": "Wheat received 30 kg K2O/ha as basal muriate of potash.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "unit": "mm",
+    "evidence_text": "Irrigations (75 mm depth each) were applied at four critical stages; CRI, late tillering, booting and milking stages.",
+    "claim_summary": "Wheat irrigated with 75 mm depth at four critical stages (CRI, late tillering, booting, milking).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "water.drought_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Irrigations (75 mm depth each) were applied at four critical stages; CRI, late tillering, booting and milking stages.",
+    "claim_summary": "Critical (irrigation-sensitive) wheat stages are CRI, late tillering, booting, and milking.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Effective tillers data was taken from one-meter row length at two locations in each plot at harvest ... converted into number of effective tillers per m2. The effective tillers of wheat under residue ... highest effective tillers had the highest phosphorus level",
+    "claim_summary": "Effective tiller (spike) density per m2 increased with the highest phosphorus level.",
+    "extraction_confidence": "low"
+  },
+  {
+    "parameter_id": "soil.ph_range",
+    "value_type": "text",
+    "qualifier": "typical",
+    "unit": "pH",
+    "evidence_text": "The soil of the experimental site belonged to Typic Ustochrept, was sandy loam in texture with normal pH and electrical conductivity while exhibiting low soil organic carbon and medium available N, P, and K contents",
+    "claim_summary": "Wheat grown on sandy loam soil with normal pH and electrical conductivity.",
+    "extraction_confidence": "low"
+  },
+  {
+    "parameter_id": "soil.texture_suitability",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "The soil of the experimental site belonged to Typic Ustochrept, was sandy loam in texture",
+    "claim_summary": "Wheat cultivated successfully on sandy loam (Typic Ustochrept) soil in rice-wheat system.",
+    "extraction_confidence": "low"
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "unit": "celsius",
+    "evidence_text": "the minimum temperature falls below 1 °C during winter in January due to frosty spells ... mean weekly ... minimum temperatures ranged from 4.9 to 18.4 °C",
+    "claim_summary": "Winter wheat season experiences minimum temperatures below 1 C with frosty spells in January.",
+    "extraction_confidence": "low"
+  },
+  {
+    "parameter_id": "morphology.thousand_kernel_weight",
+    "value_type": "text",
+    "qualifier": "observed",
+    "unit": "percent",
+    "evidence_text": "The test weight (1000-grain weight) was not significantly differed among various treatments, but numerically higher test weight was reported where residue was retained or incorporated",
+    "claim_summary": "Wheat 1000-grain weight was numerically higher under residue retention but not significantly different among treatments.",
+    "extraction_confidence": "low"
+  }
+]}

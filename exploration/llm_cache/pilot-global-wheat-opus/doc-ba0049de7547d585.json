@@ -1,0 +1,77 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "recommended",
+      "evidence_text": "Although the lower growth limit for wheat is about 42 F, Bauer found better correlation in the GDD predictions by defining the lower threshold temperature as 32 F (0 C).",
+      "claim_summary": "Wheat GDD base temperature defined as 0 C (32 F) for growth-stage prediction; actual lower growth limit ~42 F (5.6 C).",
+      "extraction_confidence": "high",
+      "methods": ["gdd accumulation"]
+    },
+    {
+      "parameter_id": "temperature.minimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 5.6,
+      "unit": "celsius",
+      "qualifier": "minimum",
+      "evidence_text": "the lower growth limit for wheat is about 42 F",
+      "claim_summary": "Lower growth limit for wheat is about 42 F (~5.6 C).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.maximum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "After Haun stage 2.0; If daily Max Temp > 95 F (35 C ) it's set equal to 95 F (35 C).",
+      "claim_summary": "Maximum temperature cap for wheat GDD after Haun stage 2.0 set at 95 F (35 C); high temperatures retard growth.",
+      "extraction_confidence": "medium",
+      "bbch_min": 13
+    },
+    {
+      "parameter_id": "thermal_time.emergence_gdd",
+      "value_type": "numeric",
+      "numeric_value": 180,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "When planted at 1.5 inches depth in a bare (no surface residue) moist soil, it takes an accumulation of about 180 GDD (F) beginning with the day after planting until emergence occurs.",
+      "claim_summary": "Wheat requires ~180 GDD (F base 32) from planting to emergence (Haun stage 0.5) at 1.5 inch depth in moist bare soil.",
+      "extraction_confidence": "high",
+      "methods": ["gdd accumulation"]
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "numeric",
+      "numeric_value": 143,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Following emergence (stage 0.5) standard 8 leaf wheat varieties require the accumulation of 143 GDD (F) for each growth stage through stage 12.0.",
+      "claim_summary": "Standard 8-leaf wheat requires 143 GDD (F) per Haun growth stage after emergence; phyllochron-equivalent leaf appearance interval.",
+      "extraction_confidence": "high",
+      "methods": ["gdd accumulation"]
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "numeric",
+      "numeric_value": 1.5,
+      "unit": "inches",
+      "qualifier": "typical",
+      "evidence_text": "When planted at 1.5 inches depth in a bare (no surface residue) moist soil, it takes an accumulation of about 180 GDD (F) ... until emergence occurs.",
+      "claim_summary": "Reference wheat planting depth of 1.5 inches used for emergence GDD calibration.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "For the same planting depth and under the same climatic conditions, emergence in seedbeds with surface residue will be delayed by 1 to 2 days.",
+      "claim_summary": "Wheat emergence delayed 1-2 days in seedbeds with surface residue vs bare soil.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

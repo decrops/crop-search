@@ -1,0 +1,14 @@
+{
+  "domain": "harvest",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "document_id": "doc-0093db469f5bd896",
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 15,
+      "unit": "percent",
+      "evidence_contains": "15%"
+    }
+  ]
+}

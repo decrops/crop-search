@@ -1,0 +1,40 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.canopy_cover",
+    "value_type": "range",
+    "range_min": 65,
+    "range_max": 82,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "Canopy cover estimation using Canopeo app for (a) planophile variety showing 82% cover, and (b) erectophile variety showing 65% cover.",
+    "claim_summary": "Winter wheat canopy cover 82% (planophile) vs 65% (erectophile) variety; planophiles close canopy earlier.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "range",
+    "range_min": 1.98,
+    "range_max": 4.94,
+    "unit": "plants/m2",
+    "qualifier": "observed",
+    "evidence_text": "Trials had two planting dates (late Sept. and late Oct.), two seeding rates (1.98 and 4.94 million seeds-1 ha) ... Seeding rates did not impact yield",
+    "claim_summary": "Winter wheat seeding rates of 1.98 and 4.94 million seeds/ha tested; rate did not impact yield. NOTE: unit is million seeds/ha.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "canopy.radiation_use_efficiency",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "erectophile varieties had greater RUE under early planting while also achieving high radiation interception ... beneficial under higher yield environments (e.g., early planting, narrow rows, intensive management)",
+    "claim_summary": "Erectophile winter wheat varieties show greater radiation use efficiency under early planting/high-yield environments.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Early planting date significantly improved yield in all growing seasons ... Timely planting was most critical for higher yields in this research while lowering seeding rates did not impact yield.",
+    "claim_summary": "Early/timely planting (late Sept vs late Oct) significantly improved winter wheat yield across seasons in Michigan.",
+    "extraction_confidence": "high"
+  }
+]}

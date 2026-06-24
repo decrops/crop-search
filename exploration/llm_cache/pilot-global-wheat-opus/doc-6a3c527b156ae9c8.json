@@ -1,0 +1,64 @@
+{"claims": [
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 75,
+    "unit": "kg/ha",
+    "qualifier": "optimum",
+    "evidence_text": "the drill method exhibited uttermost performance by using the seed rate 75 kg ha-1 ... the integration of the P3 (drill method) with S3 (75 kg ha-1) has potential to enhance wheat productivity",
+    "claim_summary": "Optimum wheat seed rate of 75 kg/ha (with drill method) maximized yield in arid Pakistan trials.",
+    "extraction_confidence": "high",
+    "methods": ["drill seeding", "broadcast seeding", "bed planting"]
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 22.5,
+    "unit": "cm",
+    "qualifier": "recommended",
+    "evidence_text": "For the drill sowing method, well-prepared soil featured lines set 22.5 cm apart.",
+    "claim_summary": "Wheat drill rows set 22.5 cm apart.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.plant_height",
+    "value_type": "range",
+    "range_min": 70.67,
+    "range_max": 101.67,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "the tallest being 101.67 cm under P3S3, and the shortest at 70.67 cm under P1S1 treatment",
+    "claim_summary": "Wheat plant height ranged 70.7-101.7 cm across seed-rate/planting-method treatments.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.grains_per_spike",
+    "value_type": "range",
+    "range_min": 34,
+    "range_max": 56,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "P3S3 produced the highest grains spike-1, measuring 56.00 and 54.34 ... the lowest counts were observed under the P1S1 treatment, with values of 36.68 and 34.00",
+    "claim_summary": "Wheat grains per spike ranged 34-56 across treatments (highest with drill + 75 kg/ha).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.thousand_kernel_weight",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 47,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "The highest 1000-grain weights of 47.00 g and 46.00 g were attained using the P3S3 treatment ... the lowest weights of 30.00 g and 35.00 g",
+    "claim_summary": "Wheat 1000-grain weight ranged 30-47 g across treatments.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.lodging_susceptibility",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Increasing the seed rate beyond threshold led to lodging issues in wheat crop ... 75 kg ha-1 seed rate under proper plant geometry proved to be the most effective in preventing lodging",
+    "claim_summary": "Seed rates above ~75 kg/ha increase wheat lodging susceptibility.",
+    "extraction_confidence": "medium"
+  }
+]}

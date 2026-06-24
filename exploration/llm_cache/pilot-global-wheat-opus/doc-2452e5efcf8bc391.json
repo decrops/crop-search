@@ -1,0 +1,75 @@
+{
+  "claims": [
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "range",
+      "range_min": 1.5,
+      "range_max": 2,
+      "unit": "mm",
+      "qualifier": "maximum",
+      "evidence_text": "With typical root distribution, total root length reaches 31 km/m2 by anthesis and maximum rooting depth reaches 1.5-2 m. Over 70% of root length is found in the top 30 cm of the soil.",
+      "claim_summary": "Winter wheat maximum rooting depth reaches 1.5-2 m by anthesis (value in meters); exceeds 1 m by GS31. Over 70% of root length is in the top 30 cm.",
+      "extraction_confidence": "high",
+      "bbch_max": 61
+    },
+    {
+      "parameter_id": "root.root_length_density",
+      "value_type": "numeric",
+      "numeric_value": 5,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "High rates of uptake of the less mobile nutrients, such as phosphorus (P), only occur when root length densities (RLDs) exceed 5 cm/cm3 of soil. Lower root length densities are adequate for potassium (K) uptake and about 1 cm/cm3 is needed for the take-up of most of the available water",
+      "claim_summary": "RLD must exceed 5 cm/cm3 for high uptake of less-mobile nutrients (P); ~1 cm/cm3 suffices for water and nitrogen uptake (value in cm/cm3).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.root_shoot_ratio",
+      "value_type": "numeric",
+      "numeric_value": 27,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "By growth stage 31 in winter wheat, maximum rooting depth can exceed 1 m and root dry weight is about 27% of shoot dry weight.",
+      "claim_summary": "At GS31, winter wheat root dry weight is about 27% of shoot dry weight.",
+      "extraction_confidence": "high",
+      "bbch_min": 31
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "range",
+      "range_min": 6,
+      "range_max": 11,
+      "unit": "mm",
+      "qualifier": "threshold",
+      "evidence_text": "Just 6-11 mm of rain in a day reduces soil surface strength and significantly increases the risk of root lodging. Root systems with greater spread (depth and width) are less prone to root lodging.",
+      "claim_summary": "Only 6-11 mm rain in a day reduces soil surface strength and significantly increases root lodging risk; wider/deeper root systems are less prone to lodging.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Roots begin to grow at germination, with three to six main (seminal) roots emerging before the second leaf appears.",
+      "claim_summary": "Three to six main (seminal) roots emerge at germination before the second leaf appears in wheat.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "With minimal tillage, enhanced earthworm activity creates long continuous pores in the subsoil to aid root penetration... deep rooting can be self-sustaining, unless wheelings or cultivations destroy soil structure.",
+      "claim_summary": "Minimal tillage enhances earthworm activity and creates subsoil pores aiding wheat root penetration; cultivation/wheelings that destroy soil structure impair deep rooting.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "numeric",
+      "numeric_value": 1.0,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "In winter wheat at growth stage 61, root dry weight is 1.0 t/ha but twice as much assimilate may have been used in root growth.",
+      "claim_summary": "Winter wheat root dry weight is about 1.0 t/ha at GS61 (anthesis); value reported in t/ha.",
+      "extraction_confidence": "medium",
+      "bbch_min": 61
+    }
+  ]
+}

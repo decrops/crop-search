@@ -1,0 +1,15 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.allowable_depletion",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "The irrigation treatments are drip (fully irrigated), drip (50% maximum allowable deficit (MAD)), flood (50% MAD), farmers' field replication, and rainfed treatment",
+      "claim_summary": "Wheat irrigation deficit treatments imposed at 50% maximum allowable depletion (MAD).",
+      "extraction_confidence": "medium",
+      "methods": ["irrigation"]
+    }
+  ]
+}

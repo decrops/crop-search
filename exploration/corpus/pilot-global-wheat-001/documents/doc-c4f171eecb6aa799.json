@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-c4f171eecb6aa799",
+  "canonical_url": "https://en.wikipedia.org/wiki/Seed_bank",
+  "source_url": "https://en.wikipedia.org/wiki/Seed_bank",
+  "doi": "",
+  "title": "Seed bank - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "international_institution",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "c4f171eecb6aa799dc714df8debf956a6d70695e19fb420cdeb4162c112143e8",
+  "content_hash": "f528d742337b60d987973bbe4c1c1429acc2cba4a654893b417c3b5f9e180f25",
+  "text_length": 9723,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 142181
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/037-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

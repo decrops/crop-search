@@ -1,0 +1,13 @@
+{
+  "domain": "water",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "parameter_id": "water.crop_coefficient",
+      "expected_domain": "fao.org",
+      "expected_url": "https://www.fao.org/land-water/databases-and-software/crop-information/wheat/en/",
+      "doi": "",
+      "rationale": "FAO Land & Water is the authoritative source for crop coefficients (Kc) and ETc."
+    }
+  ]
+}

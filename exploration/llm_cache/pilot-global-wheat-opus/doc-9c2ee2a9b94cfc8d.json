@@ -1,0 +1,38 @@
+{
+  "claims": [
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "numeric",
+      "numeric_value": 0.5,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "work out harvest index (HI) as grain divided by total. A very good crop should have a value of about 0.5 i.e. 50 percent of the crops above-ground weight should be grain... If early growth was excessive and water ran out for grain filling, HI could fall to 30 percent or less.",
+      "claim_summary": "A very good wheat crop has harvest index ~0.5 (50% grain); water shortage during grain fill can drop it to 30% or less.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Check average kernel weight in the different treatments by taking a handful of grain... If any weights are much below 3 g [per 100 kernels], the treatment was short of water during grain filling.",
+      "claim_summary": "Wheat 100-kernel weight much below 3 g (i.e. TKW below ~30 g) indicates water shortage during grain filling.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "management.tillage_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "A review of over 30 tillage trials found that tillage method (conventional or zero-till) did not change yield when data were averaged across studies, locations and years. However, in some places and some years either method could be far better (+1 t ha-1) or far worse (-1 t ha-1).",
+      "claim_summary": "Across 30+ trials wheat yield was unchanged on average between conventional and zero tillage, but varied +/-1 t/ha by site and year.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "management.residue_cover_response",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "erosion can be stopped on 15 percent slopes if the surface is covered by straw (about 4 t ha-1 is needed)... If left on the surface, residues will act as a mulch to keep soil surface temperature down and conserve moisture.",
+      "claim_summary": "Crop residue (~4 t/ha straw) suppresses erosion on slopes and mulches soil, but can delay emergence in cool areas and tie up nitrogen.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

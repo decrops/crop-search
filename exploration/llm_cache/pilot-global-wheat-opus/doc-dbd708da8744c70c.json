@@ -1,0 +1,88 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "numeric",
+      "numeric_value": 360,
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "The total evapotranspiration of the crop in both years of cultivation was 360 mm, with mean values of 3.87 mm d-1 for cultivar BRS 254 and 4.10 mm d-1 for cultivar BRS 394.",
+      "claim_summary": "Total seasonal crop evapotranspiration of irrigated wheat was 360 mm (mean 3.87-4.10 mm/day) in lysimeters.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.42,
+      "range_max": 0.94,
+      "qualifier": "observed",
+      "evidence_text": "The basal crops coefficients in the emergence, tillering, flowering, maturation and harvest stages were 0.42, 0.78, 0.94, 0.74 and 0.47 for cultivar BRS 254",
+      "claim_summary": "Basal crop coefficient (kcb) for irrigated wheat BRS 254 ranged 0.42 (emergence) to 0.94 (flowering) across growth stages.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "The baseline kcb coefficients used are: 0.15, 1.10 and 0.23 for the initial, development and final phases, respectively.",
+      "claim_summary": "FAO-56 tabulated basal crop coefficient (kcb) for wheat: 0.15 initial, 1.10 development, 0.23 final.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 1.33,
+      "qualifier": "maximum",
+      "evidence_text": "The kc in turn presented a maximum value of 1.33, which represents values above those recommended for the cultivation of wheat.",
+      "claim_summary": "Maximum measured crop coefficient (kc) for irrigated wheat was 1.33.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "value_type": "numeric",
+      "numeric_value": 0.50,
+      "qualifier": "recommended",
+      "evidence_text": "This value was defined considering an average evapotranspiration of 5 mm d-1 with a coefficient of depletion of 0.50, corresponding to the group of annual crops.",
+      "claim_summary": "Allowable soil-water depletion coefficient of 0.50 used for irrigated wheat scheduling.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "A water stress of about 50% of ETc significantly reduces biomass production and yield of wheat (Thapa et al., 2019).",
+      "claim_summary": "Water stress at ~50% of ETc significantly reduces wheat biomass and yield.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 350,
+      "unit": "plants/m2",
+      "qualifier": "observed",
+      "evidence_text": "350 viable seeds per m2 were sown, with the aid of a specific sowing machine for experimental plots",
+      "claim_summary": "350 viable seeds/m2 sown for irrigated wheat in the experiment.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "numeric",
+      "numeric_value": 5,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "The base fertilization was applied with the sowing machine at approximately 5 cm depth, the same depth of seed distribution",
+      "claim_summary": "Wheat seed sown at approximately 5 cm depth.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 0.20,
+      "unit": "m",
+      "qualifier": "observed",
+      "evidence_text": "Each experimental unit consisted of 9 rows spaced apart by 0.20 m with 6 m length.",
+      "claim_summary": "Wheat rows spaced 0.20 m apart in the experiment.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

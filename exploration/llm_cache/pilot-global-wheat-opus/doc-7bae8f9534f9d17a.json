@@ -1,0 +1,62 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.43,
+      "range_max": 0.68,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The obtained Kc values for wheat were: 0.43–0.68 (Kc ini), 0.75–1.02 (Kc dev), 0.94–1.11 (Kc mid), and 0.4–0.64 (Kc end)",
+      "claim_summary": "Measured initial-stage crop coefficient (Kc ini) for wheat is 0.43-0.68 in North Nile Delta.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.75,
+      "range_max": 1.02,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The obtained Kc values for wheat were: 0.43–0.68 (Kc ini), 0.75–1.02 (Kc dev), 0.94–1.11 (Kc mid), and 0.4–0.64 (Kc end)",
+      "claim_summary": "Measured development-stage crop coefficient (Kc dev) for wheat is 0.75-1.02.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.94,
+      "range_max": 1.11,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The obtained Kc values for wheat were: 0.43–0.68 (Kc ini), 0.75–1.02 (Kc dev), 0.94–1.11 (Kc mid), and 0.4–0.64 (Kc end)",
+      "claim_summary": "Measured mid-season crop coefficient (Kc mid) for wheat is 0.94-1.11.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 0.4,
+      "range_max": 0.64,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The obtained Kc values for wheat were: 0.43–0.68 (Kc ini), 0.75–1.02 (Kc dev), 0.94–1.11 (Kc mid), and 0.4–0.64 (Kc end)",
+      "claim_summary": "Measured late-season crop coefficient (Kc end) for wheat is 0.4-0.64.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Accurate crop coefficient (Kc) is essential for optimizing irrigation water use as well as enlargement water productivity in agriculture... local calibration of Kc is necessary for precise irrigation scheduling",
+      "claim_summary": "Accurate, locally calibrated Kc is essential to optimize irrigation water use and water productivity for wheat.",
+      "extraction_confidence": "medium",
+      "methods": ["irrigation"]
+    }
+  ]
+}

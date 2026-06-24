@@ -1,0 +1,30 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "The critical level for South Dakota wheat is 16 ppm (Olsen method). Research conducted at 33 sites in South Dakota shows that P fertilizer application increased yield by 36% in the very low soil test P level (0-3 ppm) soils.",
+      "claim_summary": "Critical soil-test P level for wheat is 16 ppm (Olsen); P fertilization raised yield 36% on very low (0-3 ppm) soils.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "numeric",
+      "numeric_value": 160,
+      "unit": "ppm",
+      "qualifier": "threshold",
+      "evidence_text": "The critical level for South Dakota wheat is 160 ppm K. Potassium fertilizer recommendations for wheat are based on the soil K test and the yield goal.",
+      "claim_summary": "Critical soil-test K level for wheat is 160 ppm (ammonium acetate method).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Dry sulfur fertilizer materials can be applied with the seed at rates of 10-15 lb S/a. Elemental sulfur should be applied well before wheat is planted because the material requires 1 to 3 months in warm soil before it is completely available.",
+      "claim_summary": "Dry sulfur fertilizer can be applied with wheat seed at 10-15 lb S/acre; rate based on soil test, texture and tillage.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

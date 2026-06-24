@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "parameter_id": "thermal_time.vernalization_units",
+      "value_type": "range",
+      "range_min": 0,
+      "range_max": 8,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "A temperature between 0 and 8 °C is considered an optimum vernalization temperature for winter wheat [20], with some modern wheat genotypes meeting vernalization requirements with temperatures between 10 and 15 °C",
+      "claim_summary": "Optimum vernalization temperature for winter wheat is 0-8 C; some modern genotypes vernalize at 10-15 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 45,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "In terms of duration, the effective vernalization period is reported to be between 30 and 45 days for most genotypes",
+      "claim_summary": "Effective vernalization period for most winter wheat genotypes is 30-45 days.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Sowing shallower than 2 cm shortens the time between sowing and emergence by reducing the hypocotyl and subcrown requirements for elongation, resulting in faster emergence",
+      "claim_summary": "Sowing shallower than 2 cm speeds emergence; shallow (1 cm) sowing reached maturity ~5 days earlier than deep (2.5 cm).",
+      "extraction_confidence": "high",
+      "methods": ["sowing", "planting"]
+    },
+    {
+      "parameter_id": "phenology.emergence_duration",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "the SP reached the three-leaf stage one day earlier than the DP did (ZGS 13)... shallow planted... maturity five days earlier than a deep planting depth",
+      "claim_summary": "Shallow planting (1 cm) reached three-leaf stage 1 day earlier and maturity 5 days earlier than deep planting (2.5 cm) in winter wheat.",
+      "extraction_confidence": "medium",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "the transition from vegetative to reproductive stages in winter wheat depends mainly on photoperiod, vernalization temperature, and vernalization length",
+      "claim_summary": "Wheat transition to reproductive stage depends on photoperiod; wheat has photoperiod-sensitive and photoperiod-insensitive types.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "numeric",
+      "numeric_value": 147,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "On average, the NTVs and HTVs took 147 and 157 days to harvest, respectively.",
+      "claim_summary": "Time to harvest (physiological maturity, ZGS 87) for winter wheat under normal vernalization speed-breeding was 147 days on average (157 days high-throughput vernalization).",
+      "extraction_confidence": "medium",
+      "bbch_max": 87
+    }
+  ]
+}

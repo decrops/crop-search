@@ -1,0 +1,465 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/normalized-claim.schema.json",
+  "title": "NormalizedClaim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "run_id",
+    "entity",
+    "parameter_id",
+    "attribute",
+    "attribute_subtype",
+    "claim_text",
+    "value",
+    "location_scope",
+    "source_geo_scope",
+    "geo_evidence",
+    "time_scope",
+    "provenance",
+    "observation_type",
+    "confidence",
+    "status"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_type", "name"],
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "enum": ["crop", "crop_region", "variety"]
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "parameter_id": {
+      "type": "string"
+    },
+    "attribute": {
+      "type": "string",
+      "minLength": 3
+    },
+    "attribute_subtype": {
+      "type": "string",
+      "minLength": 3
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 5
+    },
+    "value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value_type", "raw_value_text"],
+      "properties": {
+        "value_type": {
+          "type": "string",
+          "enum": ["numeric", "text", "boolean", "range"]
+        },
+        "raw_value_text": {
+          "type": "string"
+        },
+        "numeric_value": {
+          "type": "number"
+        },
+        "text_value": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "range_min": {
+          "type": "number"
+        },
+        "range_max": {
+          "type": "number"
+        },
+        "normalized_numeric_value": {
+          "type": "number"
+        },
+        "normalized_range_min": {
+          "type": "number"
+        },
+        "normalized_range_max": {
+          "type": "number"
+        },
+        "normalized_unit": {
+          "type": "string"
+        },
+        "qualifier": {
+          "type": "string"
+        }
+      }
+    },
+    "location_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "name"],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": ["global", "country", "region", "state", "county", "farm"]
+        },
+        "name": {
+          "type": "string"
+        },
+        "geo_id": {
+          "type": "string"
+        },
+        "centroid": {
+          "$ref": "#/$defs/centroid"
+        },
+        "bbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "geocode_source": {
+          "type": "string"
+        },
+        "geocode_confidence": {
+          "type": "string",
+          "enum": ["exact", "approximate", "none"]
+        },
+        "coordinate_system": {
+          "type": "string"
+        }
+      }
+    },
+    "source_geo_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "name"],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": ["global", "country", "region", "state", "county", "farm"]
+        },
+        "name": {
+          "type": "string"
+        },
+        "geo_id": {
+          "type": "string"
+        },
+        "centroid": {
+          "$ref": "#/$defs/centroid"
+        },
+        "bbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "geocode_source": {
+          "type": "string"
+        },
+        "geocode_confidence": {
+          "type": "string",
+          "enum": ["exact", "approximate", "none"]
+        },
+        "coordinate_system": {
+          "type": "string"
+        }
+      }
+    },
+    "geo_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_location_source",
+        "claim_location_confidence",
+        "claim_location_text",
+        "source_location_source",
+        "source_location_confidence",
+        "source_location_text",
+        "matched_locations"
+      ],
+      "properties": {
+        "claim_location_source": {
+          "type": "string"
+        },
+        "claim_location_confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low", "none"]
+        },
+        "claim_location_text": {
+          "type": "string"
+        },
+        "source_location_source": {
+          "type": "string"
+        },
+        "source_location_confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low", "none"]
+        },
+        "source_location_text": {
+          "type": "string"
+        },
+        "matched_locations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["field", "level", "name", "evidence_text"],
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "level": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "evidence_text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "time_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "start_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "end_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_urls",
+        "source_title",
+        "source_domain",
+        "document_type",
+        "accessed_at",
+        "extraction_method",
+        "evidence_text"
+      ],
+      "properties": {
+        "source_urls": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "source_title": {
+          "type": "string"
+        },
+        "source_domain": {
+          "type": "string"
+        },
+        "document_type": {
+          "type": "string"
+        },
+        "source_tier_id": {
+          "type": "string"
+        },
+        "source_tier_label": {
+          "type": "string"
+        },
+        "discovery_method": {
+          "type": "string"
+        },
+        "access_status": {
+          "type": "string",
+          "enum": ["open_full_text", "metadata_only", "unknown"]
+        },
+        "accessed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source_publication_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "source_publication_year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "extraction_method": {
+          "type": "string"
+        },
+        "evidence_text": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "manifest_version": {
+          "type": "string"
+        },
+        "organisms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "role": {
+                "type": ["string", "null"]
+              }
+            }
+          }
+        },
+        "method": {
+          "type": "string"
+        },
+        "price_year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "currency": {
+          "type": "string"
+        },
+        "area_unit": {
+          "type": "string"
+        },
+        "document_id": {
+          "type": "string"
+        },
+        "block_anchor": {
+          "type": "string"
+        },
+        "block_type": {
+          "type": "string",
+          "enum": ["paragraph", "table", "heading", "section"]
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "table_label": {
+          "type": "string"
+        }
+      }
+    },
+    "observation_type": {
+      "type": "string",
+      "enum": ["condition", "recommendation", "threshold", "risk", "timing"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "conflict_status": {
+      "type": "string",
+      "enum": ["none", "potential", "resolved"]
+    },
+    "conflict_reason": {
+      "type": "string"
+    },
+    "agronomic_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cultivar": {
+          "type": "string"
+        },
+        "management_system": {
+          "type": "string"
+        }
+      }
+    },
+    "bbch_applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bbch_min", "bbch_max"],
+      "properties": {
+        "bbch_min": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "bbch_max": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "evidence_text": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "validated", "load_ready"]
+    }
+  },
+  "$defs": {
+    "centroid": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lat", "lon"],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "bbox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["west", "south", "east", "north"],
+      "properties": {
+        "west": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "south": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "east": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "north": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        }
+      }
+    }
+  }
+}

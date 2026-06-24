@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/memory-entry.schema.json",
+  "title": "MemoryEntry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "memory_tier", "kind", "summary", "status", "last_updated"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "memory_tier": {
+      "type": "string",
+      "enum": ["ephemeral_run", "working", "durable"]
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["run_state", "candidate_claim", "schema_decision", "source_rule", "conflict_note"]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 5
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "validated", "promoted", "rejected"]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

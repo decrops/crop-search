@@ -1,0 +1,68 @@
+{
+  "claims": [
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 6.0,
+      "range_max": 6.8,
+      "unit": "pH",
+      "qualifier": "recommended",
+      "evidence_text": "Soil pH should be kept between 6.0 and 6.8 for field crops. ... Grain crops (corn, soybean, small grains) 6.5 [subsoil pH < 6.0] 6.0 [subsoil pH > 6.0]",
+      "claim_summary": "Recommended soil pH for small grains (incl. wheat) is 6.0-6.8; target 6.0 (subsoil pH>6.0) or 6.5 (subsoil pH<6.0).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 75,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat 60 30 ... 90 45 ... 120 60 ... 150 75 [lb P2O5/acre by yield goal bu/acre, soil test in maintenance range]",
+      "claim_summary": "Recommended P2O5 for wheat at maintenance soil-test P: 30 lb/acre (60 bu) to 75 lb/acre (150 bu); critical Mehlich-3 P level 30 ppm.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.potassium_requirement",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 60,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Wheat ... lb K2O/acre IN&OH / MI: 60bu 35/15; 90bu 45/25; 120bu 50/30; 150bu 60/40 [soil test K in maintenance range]",
+      "claim_summary": "Recommended K2O for wheat at maintenance soil-test K: 15-60 lb/acre depending on yield goal and state; critical Mehlich-3 K 100-120 ppm.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Small grains should receive urea ammonium nitrate (UAN) or urea before the first node visible (Feekes Growth Stage 6 or jointing, typically mid- to late April) ... Fertilizing N at Feekes Growth Stage 5 ... typically early to mid-April is recommended.",
+      "claim_summary": "For winter wheat, apply spring N (UAN/urea) at Feekes GS5 (early-mid April), before jointing (GS6); a low fall rate (20-30 lb N/acre) supports establishment and tillering.",
+      "extraction_confidence": "high",
+      "bbch_min": 30,
+      "bbch_max": 31
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 30,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Fall N application can be beneficial for fall-planted small grains to foster plant establishment and encourage tillering. A low rate (20-30 lb N/acre) at or before planting can be made",
+      "claim_summary": "Fall N at 20-30 lb/acre at or before planting recommended for fall-planted wheat to support establishment and tillering.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.sulfur_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Soils in the tri-state region typically supply adequate Ca, Mg, S and micronutrients for crop production. Sulfur deficiencies remain infrequent but are increasing.",
+      "claim_summary": "Sulfur deficiencies for wheat in the tri-state region are infrequent but increasing.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

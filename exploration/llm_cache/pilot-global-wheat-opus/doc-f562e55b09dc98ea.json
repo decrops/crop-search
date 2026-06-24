@@ -1,0 +1,173 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.radiation_use_efficiency",
+    "value_type": "range",
+    "range_min": 1.76,
+    "range_max": 2.34,
+    "unit": "g/MJ",
+    "qualifier": "observed",
+    "evidence_text": "RUE (g MJ −1 ) ... 2021–2022 LP 2.18 c ... HY 2.34 a ... IHY 2.34 a ... 2022–2023 LP 1.81 d (post-anthesis) ... IHY 2.28 a (post-anthesis)",
+    "claim_summary": "Winter wheat radiation use efficiency ranged about 1.76-2.34 g/MJ across stages, treatments and years (whole-stage RUE up to 2.31 g/MJ).",
+    "extraction_confidence": "high",
+    "methods": ["irrigation", "fertilization", "delayed sowing", "increased plant density"]
+  },
+  {
+    "parameter_id": "canopy.radiation_use_efficiency",
+    "value_type": "numeric",
+    "numeric_value": 2.31,
+    "unit": "g/MJ",
+    "qualifier": "maximum",
+    "evidence_text": "Whole Growth Stage ... RUE (g MJ −1 ) ... 2021–2022 ... HY ... 2.31 a",
+    "claim_summary": "Highest whole-season winter wheat RUE was 2.31 g/MJ under high-yield agronomic management.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "canopy.harvest_index",
+    "value_type": "range",
+    "range_min": 0.46,
+    "range_max": 0.49,
+    "unit": "ratio",
+    "qualifier": "observed",
+    "evidence_text": "Harvest Index ... LP 0.46 b ... ILP 0.49 a ... HY 0.49 a ... IHY 0.49 a",
+    "claim_summary": "Winter wheat harvest index ranged 0.46-0.49, with 0.49 in the optimized treatments and lowest (0.46) under local traditional practice.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "canopy.biomass_accumulation",
+    "value_type": "range",
+    "range_min": 15689,
+    "range_max": 19348,
+    "unit": "kg/ha",
+    "qualifier": "observed",
+    "evidence_text": "Aboveground Biomass (kg ha −1 ) ... At Maturity ... LP 15,689.39 d ... HY 19,018.25 a ... 2022–2023 ... HY 19,347.98 a",
+    "claim_summary": "Winter wheat aboveground biomass at maturity ranged about 15,689-19,348 kg/ha across treatments and years.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "range",
+    "range_min": 225,
+    "range_max": 450,
+    "unit": "seeds/m2",
+    "qualifier": "observed",
+    "evidence_text": "Plant densities increased by 75 seeds m −2 with each integrated agronomic management treatment from LP (225 seeds m −2 ) to IHY (450 seeds m −2 ).",
+    "claim_summary": "Winter wheat sowing densities ranged from 225 seeds/m2 (local practice) to 450 seeds/m2 (improved high-yield management).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "range",
+    "range_min": 225,
+    "range_max": 450,
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "Plant densities increased by 75 seeds m −2 ... from LP (225 seeds m −2 ) to IHY (450 seeds m −2 ).",
+    "claim_summary": "Target plant density for winter wheat treatments ranged 225-450 plants/m2; higher densities recommended to enhance radiation capture.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "numeric",
+    "numeric_value": 0.25,
+    "unit": "m",
+    "qualifier": "observed",
+    "evidence_text": "Each experimental plot (3 × 10 m) contained 12 rows of wheat (positioned 0.25 m apart).",
+    "claim_summary": "Winter wheat was planted in rows spaced 0.25 m apart.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "unit": "date",
+    "qualifier": "recommended",
+    "evidence_text": "Sowing dates for the treatments were 5, 10, 10, and 15 October, respectively. ... delaying sowing dates ... can easily increase the risk of early spring frost damage to winter wheat",
+    "claim_summary": "Winter wheat sowing dates ranged 5-15 October, with appropriately delayed sowing recommended to reduce frost risk and waste of heat/radiation.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 210,
+    "range_max": 315,
+    "unit": "kg/ha",
+    "qualifier": "observed",
+    "evidence_text": "LP N 189 (before seeding) 126 (regreening); ILP N 105+105; HY N 126+189; IHY N 96+144",
+    "claim_summary": "Total nitrogen application to winter wheat ranged about 210-315 kg N/ha across treatments (LP 315, HY 315, ILP 210, IHY 240).",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "unit": "stage",
+    "qualifier": "recommended",
+    "evidence_text": "N topdressing for LP was applied at regreening stage and that for ILP, HY, and IHY were applied at jointing stage. The basal and additional ratios of N fertilizer for the treatments were 6:4, 5:5, 4:6, and 4:6, respectively.",
+    "claim_summary": "Winter wheat nitrogen was split between a basal application and topdressing applied at regreening (local practice) or at jointing (improved/high-yield practices), with basal:topdress ratios of 6:4 to 4:6.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"],
+    "bbch_min": 30,
+    "bbch_max": 32
+  },
+  {
+    "parameter_id": "nutrients.phosphorus_requirement",
+    "value_type": "range",
+    "range_min": 90,
+    "range_max": 210,
+    "unit": "kg/ha",
+    "qualifier": "observed",
+    "evidence_text": "P 2 O 5 ... LP 120; ILP 90; HY 210; IHY 120 (all applied before seeding as basal)",
+    "claim_summary": "Phosphate (P2O5) application to winter wheat ranged 90-210 kg/ha, applied entirely as basal fertilizer.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.potassium_requirement",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 150,
+    "unit": "kg/ha",
+    "qualifier": "observed",
+    "evidence_text": "K 2 O ... LP 30; ILP 75; HY 90 (basal) + 60 (jointing); IHY 45 (basal) + 30 (jointing)",
+    "claim_summary": "Potassium (K2O) application to winter wheat ranged 30-150 kg/ha total, basal-only for LP/ILP and split (6:4) for HY/IHY with topdressing at jointing.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "numeric",
+    "numeric_value": 13,
+    "unit": "percent",
+    "qualifier": "recommended",
+    "evidence_text": "The grains were naturally air-dried, weighed, and adjusted to the standard 13% moisture content.",
+    "claim_summary": "Winter wheat grain yield was reported at the standard 13% moisture content.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "management.rotation_recommendation",
+    "value_type": "text",
+    "unit": "text",
+    "qualifier": "typical",
+    "evidence_text": "In the Huang-Huai-Hai Plain of China, the winter wheat ( Triticum aestivum L.)–summer maize ( Zea mays L.) rotation is the most popular cropping system.",
+    "claim_summary": "Winter wheat is typically grown in a winter wheat-summer maize rotation in the Huang-Huai-Hai Plain of China.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "management.residue_cover_response",
+    "value_type": "text",
+    "unit": "text",
+    "qualifier": "recommended",
+    "evidence_text": "The preceding crop grown in the experimental field was summer maize. Following harvest, all straw was plowed back into the soil every year.",
+    "claim_summary": "Preceding maize straw was plowed back into the soil every year before the winter wheat crop.",
+    "extraction_confidence": "medium",
+    "methods": ["tillage", "residue incorporation"]
+  },
+  {
+    "parameter_id": "stress.frost_risk_stage",
+    "value_type": "text",
+    "unit": "text",
+    "qualifier": "threshold",
+    "evidence_text": "high temperatures in autumn and winter, combined with early sowing, can easily increase the risk of early spring frost damage to winter wheat",
+    "claim_summary": "Early sowing combined with warm autumn/winter increases the risk of early spring frost damage to winter wheat.",
+    "extraction_confidence": "medium"
+  }
+]}

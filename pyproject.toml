@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crop-search-foundation"
+version = "0.1.0"
+description = "Framework-first scaffold for a provenance-aware crop knowledge ingestion system."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "jsonschema>=4.23,<5",
+  "requests>=2.31,<3",
+  "beautifulsoup4>=4.12,<5",
+  "lxml>=5,<6",
+]
+
+[project.optional-dependencies]
+pg = [
+  "psycopg[binary]>=3.2,<4",
+]
+llm = [
+  "anthropic>=0.40",
+]
+
+[project.scripts]
+crop-framework = "crop_search_framework.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

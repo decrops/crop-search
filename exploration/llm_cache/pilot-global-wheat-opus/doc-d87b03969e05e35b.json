@@ -1,0 +1,33 @@
+{"claims": [
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "range",
+    "range_min": 25,
+    "range_max": 50,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "In winter-sown or spring-sown cereals, where deficiency exists or is expected, apply 25-50 kg/ha SO3 as a sulphate-containing fertiliser between early March to the end of April.",
+    "claim_summary": "AHDB recommends 25-50 kg/ha SO3 (sulphate fertiliser) for winter/spring cereals incl. wheat where deficiency expected, applied early March to end of April.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.sulfur_requirement",
+    "value_type": "numeric",
+    "numeric_value": 50,
+    "unit": "kg/ha",
+    "qualifier": "recommended",
+    "evidence_text": "AHDB trials show that acrylamide formation can be minimised by applying 50 kg SO3/ha to sulphur-deficient milling wheat.",
+    "claim_summary": "50 kg SO3/ha recommended for sulphur-deficient milling wheat to minimise acrylamide formation and maintain quality.",
+    "extraction_confidence": "high",
+    "methods": ["fertilization"]
+  },
+  {
+    "parameter_id": "nutrients.critical_tissue_nitrogen",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "AHDB trials show that the malate:sulphate test is the most reliable. A malate:sulphate ratio of more than 1.5:1 means that the plant is deficient at the time of sampling.",
+    "claim_summary": "Leaf-tissue malate:sulphate ratio >1.5:1 indicates sulphur deficiency in cereals (wheat).",
+    "extraction_confidence": "medium"
+  }
+]}

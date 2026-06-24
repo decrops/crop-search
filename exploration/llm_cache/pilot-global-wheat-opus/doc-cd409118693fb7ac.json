@@ -1,0 +1,113 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 100,
+      "range_max": 200,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "suggest that farmers try to control sowing depth to about 50mm and that a target plant population of between 100 and 200 plants/m 2 will considerably assist in suppressing weeds.",
+      "claim_summary": "Recommended target wheat plant population of 100-200 plants/m2 for optimum yield and weed suppression.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "mm",
+      "qualifier": "recommended",
+      "evidence_text": "suggest that farmers try to control sowing depth to about 50mm... sowing at 100 mm depth compared to 50 mm reduced crop establishment, increased the plant population required to reach the maximum grain yield, reduced the maximum grain yield level itself",
+      "claim_summary": "Recommended wheat sowing depth about 50 mm; deeper sowing (100 mm) reduces establishment and yield.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "depth less than the variety coleoptile length... If the seed is sown too deep the coleoptile cannot reach the soil surface and the fragile shoot must push through the soil without protection.",
+      "claim_summary": "Wheat sowing depth must be less than the variety's coleoptile length for successful emergence.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "range",
+      "range_min": 15,
+      "range_max": 25,
+      "unit": "cm",
+      "qualifier": "typical",
+      "evidence_text": "Row spacing should be what farmers normally use and can be 15 to 25 cm, but the choice must be known in advance so that the seed rate needed for each plot can be calculated.",
+      "claim_summary": "Typical wheat row spacing is 15-25 cm.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 100,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "those farms currently using seed rates over 100 kg ha -1 yet failing to achieve good plant populations... at higher seed rates (>100 kg ha -1 for drilled crops) and under any soil conditions, establishment falls to about half those values.",
+      "claim_summary": "Wheat seed rates above 100 kg/ha for drilled crops reduce establishment; commonly used reference seed rate ~100 kg/ha.",
+      "extraction_confidence": "medium",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "value_type": "range",
+      "range_min": 40,
+      "range_max": 95,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The common range of wheat seed size is 25 to 50 mg and crop establishment varies between 40 and 95 percent of sown seeds depending on soil type, soil moisture, sowing depth, seed quality, diseases and insects.",
+      "claim_summary": "Wheat crop establishment ranges from 40 to 95 percent of sown seeds depending on conditions.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 25,
+      "range_max": 50,
+      "unit": "mg",
+      "qualifier": "typical",
+      "evidence_text": "The common range of wheat seed size is 25 to 50 mg",
+      "claim_summary": "Common wheat single-seed (kernel) weight ranges 25-50 mg (i.e. ~25-50 g per 1000 kernels).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "numeric",
+      "numeric_value": 20,
+      "unit": "celsius",
+      "qualifier": "recommended",
+      "evidence_text": "Test germination of cleaned seed at 20 C preferably in a laboratory. A standard temperature for tests means that results can be compared regardless of when the tests were made",
+      "claim_summary": "Standard wheat germination test temperature is 20 C.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 12,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "Seeds stored at temperatures above 30 C or at moisture contents greater than 12 percent are likely to have reduced vigour and, if stored for more than one season, will have a germination percentage less than 50 percent.",
+      "claim_summary": "Wheat seed stored above 12 percent moisture (or above 30 C) loses vigour and germination.",
+      "extraction_confidence": "medium",
+      "methods": ["harvest"]
+    },
+    {
+      "parameter_id": "quality.test_weight",
+      "value_type": "numeric",
+      "numeric_value": 74,
+      "unit": "kg/hl",
+      "qualifier": "threshold",
+      "evidence_text": "international standards are <5 percent for small grains and >74kg hl -1 for bread wheat",
+      "claim_summary": "International test-weight standard for bread wheat is greater than 74 kg/hl.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

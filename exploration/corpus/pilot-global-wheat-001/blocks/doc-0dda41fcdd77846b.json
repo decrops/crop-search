@@ -1,0 +1,1170 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Physiological phenotyping of transpiration response to vapour pressure deficit in wheat",
+      "text": "Research Open access Published: 30 October 2024 Volume 24 , article number 1032 ( 2024 ) Cite this article You have full access to this open access article Download PDF Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Background Precision phenotyping of short-term transpiration response to environmental conditions and transpiration patterns throughout wheat development enables a better understanding of specific trait compositions that lead to improved transpiration efficiency. Transpiration and related traits were evaluated in a set of 79 winter wheat lines using the custom-built \u201cDroughtSpotter XXL\u201d facility. The 120 l plant growth containers implemented in this phenotyping platform enable gravimetric quantification of water use in real-time under semi-controlled, yet field-like conditions across the entire crop life cycle. Results The resulting high-resolution data enabled identification of significant developmental stage-specific variation for genotype rankings in transpiration efficiency. In addition, for all examined genotypes we identified the genotype-specific breakpoint in transpiration in response to increasing vapour pressure deficit, with breakpoints ranging between 2.75 and 4.1 kPa. Conclusion Continuous monitoring of transpiration efficiency and diurnal transpiration patterns enables identification of hidden, heritable genotypic variation for transpiration traits relevant for wheat under drought stress. Since the unique experimental setup mimics field-like growth conditions, the results of this study have good transferability to field conditions."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Background",
+      "text": "Precision phenotyping of short-term transpiration response to environmental conditions and transpiration patterns throughout wheat development enables a better understanding of specific trait compositions that lead to improved transpiration efficiency. Transpiration and related traits were evaluated in a set of 79 winter wheat lines using the custom-built \u201cDroughtSpotter XXL\u201d facility. The 120 l plant growth containers implemented in this phenotyping platform enable gravimetric quantification of water use in real-time under semi-controlled, yet field-like conditions across the entire crop life cycle."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Results",
+      "text": "The resulting high-resolution data enabled identification of significant developmental stage-specific variation for genotype rankings in transpiration efficiency. In addition, for all examined genotypes we identified the genotype-specific breakpoint in transpiration in response to increasing vapour pressure deficit, with breakpoints ranging between 2.75 and 4.1 kPa."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Conclusion",
+      "text": "Continuous monitoring of transpiration efficiency and diurnal transpiration patterns enables identification of hidden, heritable genotypic variation for transpiration traits relevant for wheat under drought stress. Since the unique experimental setup mimics field-like growth conditions, the results of this study have good transferability to field conditions."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "A low-cost method to rapidly and accurately screen for transpiration efficiency in wheat Article Open access 29 August 2018 Bread Wheat Genotypes Accumulating Free Proline and Phenolics Can Better Tolerate Drought Stress Through Sustained Rate of Photosynthesis Article 28 October 2021 Automated discretization of \u2018transpiration restriction to increasing VPD\u2019 features from outdoors high-throughput phenotyping data Article Open access 16 October 2020"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "A low-cost method to rapidly and accurately screen for transpiration efficiency in wheat",
+      "text": "Article Open access 29 August 2018"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Bread Wheat Genotypes Accumulating Free Proline and Phenolics Can Better Tolerate Drought Stress Through Sustained Rate of Photosynthesis",
+      "text": "Article 28 October 2021"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Automated discretization of \u2018transpiration restriction to increasing VPD\u2019 features from outdoors high-throughput phenotyping data",
+      "text": "Article Open access 16 October 2020"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Agronomy Plant Science Plant Genetics Plant Breeding Plant Physiology Quantitative trait Climate-Resilient Crop Production Systems"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Background",
+      "text": "Climate change is expected to cause increasing temperatures and altered precipitation patterns [ 1 ]. Although for many regions the absolute annual precipitation amounts may not necessarily diminish substantially, phases of heavier rainfall may alternate with periods of drought, resulting in an unfavourable distribution of water availability. This is critical for plant development as insufficient water availability at sensitive developmental stages can severely impact plant performance. Due to increasing temperatures and decreasing relative humidity, the vapour pressure deficit (VPD) is projected to increase in many regions. This will raise the evaporative demand, promoting consumption of soil water [ 2 ] and limiting its availability in subsequent phases. The breeding of adapted varieties is seen as a key strategy to sustain crop production in water-limited scenarios. Classical selection, more recently supported by genomic prediction models, has been successful in increasing varietal performance even under water deficit [ 3 ]. But it is desirable that selection for specific traits surpasses a \u201cblack box\u201d approach. However, the response to and productivity under insufficient water supply are genetically extremely complex, characterised by strong genotype-by-environment interactions and quantitative inheritance [ 4 ]. To describe water productivity several definitions exist. Commonly, the term \u201cwater use efficiency\u201d (WUE) in agricultural systems is defined as the ratio between grain yield and the amount of water received during the development [ 5 ], i.e. the evapotranspiration, which is composed of the transpiration of the crop and water that is lost by evaporation. This definition shows that WUE can be improved through effective crop management practices [ 6 ] such as adjusting the sowing date, implementing weed control and optimizing plant density. This term \u201cWUE\u201d is often used to describe water productivity at the canopy level. Transpiration efficiency (TE), on the other hand, is usually defined as the ratio between the biomass of the crop and the water transpired by the crop. The \u201cintrinsic WUE\u201d has been described as the ratio of CO 2 assimilation and transpiration at the leaf level [ 5 ]. Yield performance under water-limited conditions is often described by the \u201cPassioura equation\u201d, in which grain yield is expressed as the product of water uptake (WU), TE and harvest index (HI) [ 7 ]. These three factors still represent complex aggregated traits that are expressed at different developmental stages and are not completely independent of each other. Considering the response to drought stress is not static, but rather highly dynamic, the approach is not granular enough to understand the response of different genotypes during specific periods of stress and to identify the responsible subtraits. Ideally, useful subtraits should be determined by a smaller number of genes and show a higher heritability than highly quantitative traits (such as yield or TE), enabling their use to positively affect selection accuracy and thus contribute to accelerated breeding progress. This implies a need to identify such subtraits that show a higher heritability and strong correlation to TE and WU, but are also relatively simple to measure precisely. Various organs regulate the plant\u2019s water balance. Several characteristics of the root system determine WU [ 8 ]. For example, morphological root traits, such as root depth and density, impact WU from different (especially deeper) soil layers [ 9 , 10 ]. Physiological root traits controlling root conductance, including aquaporins [ 11 , 12 , 13 ] or apoplastic barriers [ 14 ] as well as the diameter of the metaxylem, are associated with crop water status and TE [ 11 , 15 ]. The release of water is largely determined by the leaf surface and the density of the stomata. Root system and leaf surface are not dynamically adaptable at the onset of stress and therefore have to be considered as constitutive a"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "Materials and methods",
+      "text": "Genotypic material The study used a panel of 79 winter wheat breeding lines ( Triticum aestivum L.) originating from crosses between modern elite winter wheat varieties adapted to Western European growing conditions. All lines were derived from advanced phases of commercial winter wheat breeding programs. The population structure of the tested genotypes in form of a principal component analysis based on SNP markers is illustrated in Supplementary Fig. S1 . Trial under semi-controlled environment DroughtSpotter XXL facility Experiments were conducted in the plant phenotyping platform DroughtSpotter XXL (Phenospex, Heerlen Netherlands) at the Rauischholzhausen field station of Justus Liebig University in Giessen, Germany (N 50\u00b0 45\u2032 39\u2033 E 8\u00b0 52\u2032 47\u2033, 235 m a.s.l). The DroughtSpotter XXL comprises 240 large plant containers with a volume of 120 l, a height of 90 cm and feature a planting area of 0.16 m 2 (also see [ 36 , 44 ]). Each container was filled with 155.5 kg sand-soil mixture at ratio 3:2 and placed on a high-resolution gravimetric scale which recorded the weight of each individual container every five minutes throughout the entire vegetation period (Supplementary Fig. S2 ). To ensure measurement accuracy and minimize noise, the power supply of the junction boxes was separated from the control unit in order to avoid interference due to changing voltage. This set-up facilitated continuous, high-resolution monitoring of plant transpiration for every individual genotype. A total of three evaporation checks, containing no plants were included. The evaporation checks were treated identically to the experimental containers, enabling quantification of evaporation from the soil surface so that transpiration and evaporation could be measured separately. The facility was located in a plastic greenhouse (360 m 2 ) (Fig. 1 ) to protect the containers from rain. The sides of the greenhouse were opened to expose the plants to natural temperature and wind fluctuations as in the field (the ceiling remained closed at all times). Plant cultivation Automated irrigation took place daily after midnight (time of minimum transpiration). Each container was individually irrigated to a target weight corresponding to a predefined target field water capacity of 60%. The weight of the container that corresponds to 100% field capacity is defined as the weight of the water that the soil could hold after two days against gravity. This was determined by using two soil-filled containers that were perforated at the bottom before the main experiment and placed on gravimetric scales. These containers were very slowly and carefully saturated with water until water leakage was observed, at which point the weight at 100% field capacity was recorded and the target weight for other field capacities was calculated proportionally. Recognizing that completely saturating the soil with water might require multiple irrigations, water was added carefully over a period. Given that drier soil tends to seep very quickly, the initial irrigation was executed deliberately, to ensure a gradual increase in water content until saturation is obtained. Additionally, the soil of all containers of the main experiment was carefully mixed with water before planting over an elongated period to guarantee the correct water content in the soil. Fig. 1 Full size image DroughtSpotter XXL precision phenotyping platform. The facility comprises 240 high-resolution gravimetric scales on which containers with a soil volume of 120 l and a depth of 90 cm are placed. Transpiration is monitored gravimetrically in 5-minute intervals over the entire lifecycle of the crop. The facility is situated inside of a greenhouse with open walls Sowing was conducted on 14 December 2020 with 63 seeds per container distributed equally in three rows. After vernalization (79 days after sowing), the number of plants per container was reduced to 48 plants per container (3 rows with 16 plants each). The experiment was "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Genotypic material",
+      "text": "The study used a panel of 79 winter wheat breeding lines ( Triticum aestivum L.) originating from crosses between modern elite winter wheat varieties adapted to Western European growing conditions. All lines were derived from advanced phases of commercial winter wheat breeding programs. The population structure of the tested genotypes in form of a principal component analysis based on SNP markers is illustrated in Supplementary Fig. S1 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Trial under semi-controlled environment",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 4,
+      "heading": "DroughtSpotter XXL facility",
+      "text": "Experiments were conducted in the plant phenotyping platform DroughtSpotter XXL (Phenospex, Heerlen Netherlands) at the Rauischholzhausen field station of Justus Liebig University in Giessen, Germany (N 50\u00b0 45\u2032 39\u2033 E 8\u00b0 52\u2032 47\u2033, 235 m a.s.l). The DroughtSpotter XXL comprises 240 large plant containers with a volume of 120 l, a height of 90 cm and feature a planting area of 0.16 m 2 (also see [ 36 , 44 ]). Each container was filled with 155.5 kg sand-soil mixture at ratio 3:2 and placed on a high-resolution gravimetric scale which recorded the weight of each individual container every five minutes throughout the entire vegetation period (Supplementary Fig. S2 ). To ensure measurement accuracy and minimize noise, the power supply of the junction boxes was separated from the control unit in order to avoid interference due to changing voltage. This set-up facilitated continuous, high-resolution monitoring of plant transpiration for every individual genotype. A total of three evaporation checks, containing no plants were included. The evaporation checks were treated identically to the experimental containers, enabling quantification of evaporation from the soil surface so that transpiration and evaporation could be measured separately. The facility was located in a plastic greenhouse (360 m 2 ) (Fig. 1 ) to protect the containers from rain. The sides of the greenhouse were opened to expose the plants to natural temperature and wind fluctuations as in the field (the ceiling remained closed at all times)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 4,
+      "heading": "Plant cultivation",
+      "text": "Automated irrigation took place daily after midnight (time of minimum transpiration). Each container was individually irrigated to a target weight corresponding to a predefined target field water capacity of 60%. The weight of the container that corresponds to 100% field capacity is defined as the weight of the water that the soil could hold after two days against gravity. This was determined by using two soil-filled containers that were perforated at the bottom before the main experiment and placed on gravimetric scales. These containers were very slowly and carefully saturated with water until water leakage was observed, at which point the weight at 100% field capacity was recorded and the target weight for other field capacities was calculated proportionally. Recognizing that completely saturating the soil with water might require multiple irrigations, water was added carefully over a period. Given that drier soil tends to seep very quickly, the initial irrigation was executed deliberately, to ensure a gradual increase in water content until saturation is obtained. Additionally, the soil of all containers of the main experiment was carefully mixed with water before planting over an elongated period to guarantee the correct water content in the soil. Fig. 1 Full size image DroughtSpotter XXL precision phenotyping platform. The facility comprises 240 high-resolution gravimetric scales on which containers with a soil volume of 120 l and a depth of 90 cm are placed. Transpiration is monitored gravimetrically in 5-minute intervals over the entire lifecycle of the crop. The facility is situated inside of a greenhouse with open walls Sowing was conducted on 14 December 2020 with 63 seeds per container distributed equally in three rows. After vernalization (79 days after sowing), the number of plants per container was reduced to 48 plants per container (3 rows with 16 plants each). The experiment was designed as an alpha-lattice with three replications per genotype. Fertilization was conducted according to Supplementary Table S1 and plant protection was applied according to the occurrence of disease pressure in the greenhouse in order to avoid biotic stress. At the beginning of the experiment, all containers were irrigated to 60% field capacity for a well-watered phase. At 153 days after sowing (das), the target container weight of all containers was increased by 480 g to account for plant biomass growth. The adjustment corresponds to the average weight of the plant harvested from three containers separate from the main experiment, with the lines grown in these containers selected from the full panel of genotypes. At the beginning of flowering (164 days after sowing) a drought stress phase was initiated by reducing irrigation to 40% field capacity. 18 days after initial drought stress application (182 days after sowing), drought stress conditions were intensified by reducing the field capacity to 30% (Fig. 2 ). Irrigation to 30% field capacity was then continued until harvest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 4,
+      "heading": "Determination of plant biomass, grain yield and primary yield components",
+      "text": "Digital biomass, leaf area, normalized vegetation difference index (NDVI) and green leaf index (GLI) were assessed weekly from tillering to harvest using a three-dimensional dual-laser scanner (Plant Eye F500, Phenospex). For this purpose, the scanning trolley was placed in front of each container and the two cameras, mounted parallelly on a rail, scanned the plant vertically from the upper edge of the container (Supplementary Fig. S3 ). The two cameras have a slight angle to each other so that one camera can capture pixels that are in the shadow of other plants and are not detected by the other camera. By sensor fusion, images were automatically merged into a 3D image [ 40 , 45 ]. Based on preliminary tests, in which the digital values were checked by manual biomass and height determinations (Supplementary Fig. S4 and Supplementary Fig. S5 ), a good reliability of the digital acquisition method could be confirmed (R\u00b2 = 0.89 for plant height and R\u00b2 = 0.51 for plant biomass). Fig. 2 Full size image Irrigation scheme for the container trial. The container weight of a single container is displayed for the period between 123 days after sowing (das) and 210 das. Every day after midnight, the container was irrigated up to a predefined target weight, resulting in a rapid increase in container weight. Over the course of the day the plants transpired water, resulting in a gradual decrease of the container weight. At 164 das drought stress was applied by reducing field capacity to 40% and at 182 das drought stress conditions were intensified by setting field capacity to 30% Harvest took place on 22 July 2021 (220 days). The total above-ground biomass per container was harvested. The plants were threshed and grain yield was determined along with the number of spikes per container, thousand grain weight (TGW), grains per spike and total biomass yield per container."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 4,
+      "heading": "Assessment of environmental metadata",
+      "text": "Air temperature and relative humidity within the DroughtSpotter XXL facility was assessed using data loggers (PCE-HT71N, PCE Instruments). These data loggers offer an accuracy of \u00b1 1 \u00b0C for temperature and \u00b1 3% for relative humidity and a resolution of 0.1 \u00b0C and 0.1% for temperature and relative humidity, respectively. To assess temperature and humidity gradients within the greenhouse, nine of the above mentioned data loggers were placed symmetrically across all rows and columns in a 3 \u00d7 3 grid. The data loggers recorded air temperature and relative humidity every ten minutes."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Data analysis",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 4,
+      "heading": "Data pre-processing",
+      "text": "Daily evapotranspiration per container was calculated based on the weight recordings of the DroughtSpotter XXL, using the difference of the container weight after irrigation and before the subsequent irrigation. Daily evaporation of the evapo-check containers was determined the same way. Subsequently, the amount of transpiration per container was determined by subtracting the values for the daily evapotranspiration for the mean daily amount of evaporation. From these daily transpiration amounts cumulative transpiration over the complete trial period (or other specific periods of interest) was calculated. For the transpiration rate (TR) in g per container per minute, weight curves were smoothed using a Loess-function and the values were interpolated every minute. TR was normalized for leaf area."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 4,
+      "heading": "Calculation of transpiration efficiency",
+      "text": "To estimate TE at any given timepoint during crop development, digital biomass data from the weekly scans was interpolated to obtain daily values and relate these with the daily recordings for transpiration. The developmental stage-specific transpiration efficiency ( \\(\\:{d}{{TE}}_{{t}}\\) ) is defined as the digital biomass estimated by the 3D laser scanner up to a certain point in time per unit of transpired water up to the same point in time, calculated with Eq. 1 . $$\\:{d}{{TE}}_{{t}}{=}\\frac{{{dBM}}_{{t}}{\\:}\\left[{{dm}}^{{3}}\\right]}{{{T}}_{{t}}{\\:}{[}{{dm}}^{{3}}{]}}$$ (1) where \\(\\:{{dBM}}_{{t}}\\) is the digital biomass at a given point in time and \\(\\:{{T}}_{{t}}\\) is the amount of water transpired up to this point in time. The overall TE is defined in Eq. 2 as ratio of grain yield ( \\(\\:{GY}\\) ) and the total amount of transpired water ( \\(\\:{T}\\) ): $$\\:{TE=}\\frac{{GY\\:[g]}}{{T\\:[kg]}}$$ (2)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 4,
+      "heading": "Response of transpiration rate to VPD",
+      "text": "The recordings for temperature ( \\(\\:{Temp}\\) in \u00b0C) and relative humidity ( \\(\\:{RH}\\) in %) of the nine data loggers were used in Eq. 3 to calculate VPD: $$\\:{VPD=}\\frac{{100-RH}}{{100}}{\\times0.6108{\\times}}\\,{{e}}^{{17.2*Temp(Temp+237.3)}}$$ (3) Based on the values for VPD from the nine datalogger positions, VPD values for the position of each container were interpolated. Response of TR to VPD is commonly examined via a segmented linear regression [ 27 , 31 , 46 ] which determines the breakpoint (BP) VPD value above which transpiration is restricted. Additionally, two slopes are determined: Slope 1, characterizing the response of TR to VPD values below the breakpoint, and Slope 2, characterizing the response of TR to VPD values above the breakpoint. \u0394Slope, calculated as the difference between Slope 1 and Slope 2, characterizes the strength of transpiration restriction. Since the transpiration response to VPD was measured under ambient uncontrolled conditions, only days where VPD exceeded 3 kPa were considered for evaluation, as on cool and moist days with low VPD, no restriction of transpiration in response to VPD is expected. This was the case for six days during grain filling (180 das, 184 das, 185 das, 186 das, 187 das and 189 das). Furthermore, only the timeframe between 6:00 and 17:00 was considered. The segmented regression analysis was performed for each container individually. Starting from a linear model (Y = Slope \u00d7 X + Intercept) we first tested whether a significant change in slope could be observed for the relationship between VPD and TR. In cases where the majority of container-day-combinations for one genotype showed a significant change in slope, the genotype was considered to have a segmented transpiration response to VPD. If a small fraction of observations for one genotype did not show a significant breakpoint, the corresponding observations were excluded from further evaluation. All genotypes expressed a predominant pattern of a segmented transpiration response. The segmented linear regression model (for X < BP: Y1 = Slope1 \u00d7 X + Intercept1 and for X > BP: Y2 = Slope2 \u00d7 X + Intercept2) was then applied to estimate BP, Slope 1, Slope 2, and \u0394Slope. If one of the parameters resulting from the segmented regression was lower than Q1\u20131.5 IQR or higher than Q3 + 1.5 IQR, it was declared as an outlier and the complete segmented regression analysis for this observation was excluded from further analysis. Additionally, segmented regression models showing a low fit (R 2 < 0.5; 16 observations) were excluded."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 4,
+      "heading": "Linear mixed model analysis and repeatability estimation",
+      "text": "Linear mixed models allow for both fixed and random effects. Here, linear mixed models were applied to estimate adjusted means for BP, Slope 1, Slope 2, and \u0394Slope across three replications and six days for each genotype. The following linear mixed model was applied (Eq. 4 ): $$\\:{{P}}_{{ijklmn}}{=\\mu+}{{g}}_{{i}}{+}{{D}}_{{j}}{+}{\\left({GD}\\right)}_{{ij}}{+}{{B}}_{{k}}{+}{{Z}}_{{l}}{+}{{C}}_{{m}}{+}{{R}}_{{n}}{+}{{e}}_{{ijklmn}}$$ (4) where \\(\\:{{P}}_{{ijklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{g}}_{{i}}\\) is the fixed effect of the \\(\\:{i}\\) th genotype, \\(\\:{{D}}_{{j}}\\) is the random effect of the \\(\\:{j}\\) th day from which the observation originates, \\(\\:{{(GD)}}_{{ij}}\\) is the random effect of genotype \\(\\:\\:{i}\\) within day \\(\\:{j}\\) , \\(\\:{{B}}_{{k}}\\) is the random effect of the \\(\\:{k}\\) th block, \\(\\:{{Z}}_{{l}}\\) is the random effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{C}}_{{m}}\\) is the random effect of the \\(\\:{m}\\) th column, \\(\\:{{R}}_{{n}}\\) is the random effect of the \\(\\:n\\) th replication and \\(\\:{{e}}_{{ijklmn}}\\) is the error term. In order to estimate repeatability, the genetic variance and the standard error of the difference between the means is required [ 47 ]. To estimate variance components, including the genetic variance, for the transpiration response traits, a modified version of the model in Eq. 4 was used with all factors random (Eq. 5 ): $$\\:{{P}}_{{ijklmn}}{=\\mu+}{{G}}_{{i}}{+}{{D}}_{{j}}{+}{\\left({GD}\\right)}_{{ij}}{+}{{B}}_{{k}}{+}{{Z}}_{{l}}{+}{{C}}_{{m}}{+}{{R}}_{{n}}{+}{{e}}_{{ijklmn}}$$ (5) where \\(\\:{{P}}_{{ijklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{G}}_{{i}}{\\:}\\) is the random effect of the \\(\\:{i}\\) th genotype, \\(\\:{{D}}_{{j}}\\) is the random effect of the \\(\\:{j}\\) th day from which the observation originates, \\(\\:{{(GD)}}_{{ij}}\\) is the random effect of genotype \\(\\:{i}\\) within day \\(\\:{j}\\) , \\(\\:{{B}}_{{k}}\\) is the random effect of the \\(\\:{k}\\) th block, \\(\\:{{Z}}_{{l}}\\) is the random effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{C}}_{{m}}\\) is the random effect of the \\(\\:{m}\\) th column, \\(\\:{{R}}_{{n}}\\) is the random effect of the \\(\\:{n}\\) th replication and \\(\\:{{e}}_{{ijklmn}}\\) is the error term. The model in Eq. 6 was used to estimate the standard error of the difference between the means for repeatability ( \\(\\:{h}^{2}\\) ) estimation. $$\\:{{P}}_{{ijklmn}}{=\\mu+}{{g}}_{{i}}{+}{{d}}_{{j}}{+}{{b}}_{{k}}{+}{{z}}_{{l}}{+}{{c}}_{{m}}{+}{{r}}_{{n}}{+}{\\left({GD}\\right)}_{{ij}}{+}{{e}}_{{ijklmn}}$$ (6) where \\(\\:{{P}}_{{ijklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{g}}_{{i}}{\\:}\\) is the fixed effect of the \\(\\:{i}\\) th genotype, \\(\\:{{d}}_{{j}}\\) is the fixed effect of the \\(\\:{j}\\) th day from which the observation originates, \\(\\:{{b}}_{{k}}\\) is the fixed effect of the \\(\\:{k}\\) th block, \\(\\:{{z}}_{{l}}\\) is the fixed effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{c}}_{{m}}\\) is the fixed effect of the \\(\\:{m}\\) th column, \\(\\:{{r}}_{{n}}\\) is the fixed effect of the \\(\\:{n}\\) th replication, \\(\\:{{(GD)}}_{{ij}}\\) is the random effect of genotype \\(\\:{i}\\) within day \\(\\:{j}\\) , and \\(\\:{{e}}_{{ijklmn}}\\) is the error term. Subsequently, repeatability was estimated using Eq. 7 : $$\\:{{h}}^{{2}}{=}\\frac{{\\sigma}_{{G}}^{{2}}}{{\\sigma}_{{G}}^{{2}}{+}{{SE}}^{{2}}}$$ (7) where \u03c3 2 G is the the genetic variance from Eq. 5 and SE is the standard error of the difference between the means from Eq. 6 . To estimate adjusted means for the traits that were assessed only once during the vegetation period, a different model was used. For all harvest traits and the TE from Eq. 2 , the following model in Eq. 8 was used to estimate adjusted treatment means for each genotype across the three replicates: $$\\:{{P}}_{{iklmn}}{=\\mu+}{{g}}_{{i}}{+}{{B}}_{{k}}{+}{{Z}}_{{l}}{+}{{C}}_{{m}}{+}{{R}}_{{n}}{+}{{e}}_{{iklmn}}$$ (8) where \\(\\:{{P}}_{{iklmn}}\\) represents the observed phen"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 4,
+      "heading": "Clustering of genotypes with similar transpiration response to VPD",
+      "text": "K-Means clustering was applied to classify genotypes based on their transpiration responses to VPD, in order to identify groups with distinct transpiration responses. The K-Means clustering was based on the value for breakpoint and \u0394Slope, which represent key features from the segmented regression analysis. The optimal number of clusters was determined by assessing the within-cluster sum of squares."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 4,
+      "heading": "Software",
+      "text": "Data analysis was performed using the statistical programming language and environment R (version 4.1.1; R Core Team, 2021). The segmented regression analysis was performed using the R package segmented [ 48 ]. For modelling of the linear mixed effect models, the R package lmerTest [ 49 ] was used, and emmeans [ 50 ] was used to calculate adjusted means. The package multcomp [ 51 ] was used to create compact letter displays. Least significant differences (LSD) were calculated by multiplying the standard error of the difference of means with the 1 \u2013 \u03b1 quantile of the normal distribution where \u03b1 is 0.1."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "Results",
+      "text": "Genotypic variation in cumulative transpiration and transpiration efficiency Among the 79 genotypes tested in the DroughtSpotter XXL trial, analysis of variance (ANOVA) revealed highly significant genotype effects on cumulative transpiration ( p = 0.002) and TE ( p = < 0.001), ranging between 62.11 and 89.86 kg and 2.12\u20133.00 g kg \u2212 1 , respectively (Table 1 ). Significant genotypic variation was also observed for total biomass ( p = 0.049), grain yield ( p = 0.001), yield components and HI ( p = < 0.001) (Table 1 ). Repeatability for cumulative transpiration and TE was h 2 = 0.45 and h 2 = 0.71, respectively. As expected, transpiration was strongly correlated to grain yield ( r = 0.64, p = < 0.001). Table 1 Variation for endpoint traits from the wheat panel in the container trial Full size table Developmental stage-specific response to drought stress Developmental-stage specific transpiration efficiency (dTE) is defined here as the ratio between the digital biomass estimated by the 3D scanner per unit of transpired water within a certain developmental stage. Analyzing Kendall rank correlation coefficients for dTE from 95 days after sowing until harvest revealed a consistently high correlation between dTE values over two consecutive days, but correlation between dTE values from earlier and later developmental stages was much weaker, indicating developmental stage-specific performance of the genotypes for dTE (Fig. 3 ). Fig. 3 Full size image Kendall rank correlation for developmental-stage specific transpiration efficiency. The upper triangle shows the Kendall rank correlation coefficients for adjusted mean values between developmental-stage specific transpiration efficiency from 95 up to 211 days after sowing, with blue colours for weak correlations and yellow colours for strong correlations. The lower triangle provides information on developmental stages and drought stress conditions Four macro stages were more closely evaluated: tillering, stem elongation, heading, flowering and ripening. ANOVA showed a highly significant genotype effect on dTE at each developmental stage ( p = < 0.001) as well as a significant effect of genotype-by-developmental stage interaction ( p = < 0.001), indicating developmental stage-specific variation for genotype rankings in TE. Repeatability for dTE at each developmental stage was high (h 2 > 0.87) (Table 2 ). Table 2 Variation for developmental-stage specific transpiration efficiency Full size table Transpiration response to elevated VPD During the six-day period (between 180 and 189 das) in which transpiration in response to VPD was evaluated, the temperature in the greenhouse ranged on average between 19.3 \u00b0C and 40.5 \u00b0C across all nine positions during daytime (06:00\u201317:00), while relative humidity ranged between 26.3% and 75.9%. This led to an average range in VPD across all nine positions from 0.55 kPa to 5.76 kPa (see Supplementary Fig. S2 for the range of temperature and VPD over the course of six days). TR started to increase, along with VPD, at around 6:00. VPD continued to increase until it reached its maximum between 13:00 and 15:00, when TR more or less reached a plateau. TR decreased after 15:00, as the VPD decreased. To characterise this response of TR to the daily cycle of VPD, TR was plotted against VPD and a segmented linear regression model was applied, to identify the VPD breakpoint, Slope 1, Slope 2 and \u2206Slope (Fig. 4 ). Fig. 4 Full size image Relationship between transpiration rate and VPD. To demonstrate, the TR response to VPD is visualised for one container on 11 June 2021. TR is plotted against ambient VPD in the DroughtSpotter XXL facility. A linear segmented regression was applied to understand the relationship between transpiration rate and VPD. The vertical dashed line indicates the breakpoint Adjusted genotype means for the VPD breakpoints ranged from 2.75 kPa to 4.1 kPa. A lower breakpoint might suggest a more conservative use of water. Slope 1 ranged from 0.73 to"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Genotypic variation in cumulative transpiration and transpiration efficiency",
+      "text": "Among the 79 genotypes tested in the DroughtSpotter XXL trial, analysis of variance (ANOVA) revealed highly significant genotype effects on cumulative transpiration ( p = 0.002) and TE ( p = < 0.001), ranging between 62.11 and 89.86 kg and 2.12\u20133.00 g kg \u2212 1 , respectively (Table 1 ). Significant genotypic variation was also observed for total biomass ( p = 0.049), grain yield ( p = 0.001), yield components and HI ( p = < 0.001) (Table 1 ). Repeatability for cumulative transpiration and TE was h 2 = 0.45 and h 2 = 0.71, respectively. As expected, transpiration was strongly correlated to grain yield ( r = 0.64, p = < 0.001). Table 1 Variation for endpoint traits from the wheat panel in the container trial Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Developmental stage-specific response to drought stress",
+      "text": "Developmental-stage specific transpiration efficiency (dTE) is defined here as the ratio between the digital biomass estimated by the 3D scanner per unit of transpired water within a certain developmental stage. Analyzing Kendall rank correlation coefficients for dTE from 95 days after sowing until harvest revealed a consistently high correlation between dTE values over two consecutive days, but correlation between dTE values from earlier and later developmental stages was much weaker, indicating developmental stage-specific performance of the genotypes for dTE (Fig. 3 ). Fig. 3 Full size image Kendall rank correlation for developmental-stage specific transpiration efficiency. The upper triangle shows the Kendall rank correlation coefficients for adjusted mean values between developmental-stage specific transpiration efficiency from 95 up to 211 days after sowing, with blue colours for weak correlations and yellow colours for strong correlations. The lower triangle provides information on developmental stages and drought stress conditions Four macro stages were more closely evaluated: tillering, stem elongation, heading, flowering and ripening. ANOVA showed a highly significant genotype effect on dTE at each developmental stage ( p = < 0.001) as well as a significant effect of genotype-by-developmental stage interaction ( p = < 0.001), indicating developmental stage-specific variation for genotype rankings in TE. Repeatability for dTE at each developmental stage was high (h 2 > 0.87) (Table 2 ). Table 2 Variation for developmental-stage specific transpiration efficiency Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Transpiration response to elevated VPD",
+      "text": "During the six-day period (between 180 and 189 das) in which transpiration in response to VPD was evaluated, the temperature in the greenhouse ranged on average between 19.3 \u00b0C and 40.5 \u00b0C across all nine positions during daytime (06:00\u201317:00), while relative humidity ranged between 26.3% and 75.9%. This led to an average range in VPD across all nine positions from 0.55 kPa to 5.76 kPa (see Supplementary Fig. S2 for the range of temperature and VPD over the course of six days). TR started to increase, along with VPD, at around 6:00. VPD continued to increase until it reached its maximum between 13:00 and 15:00, when TR more or less reached a plateau. TR decreased after 15:00, as the VPD decreased. To characterise this response of TR to the daily cycle of VPD, TR was plotted against VPD and a segmented linear regression model was applied, to identify the VPD breakpoint, Slope 1, Slope 2 and \u2206Slope (Fig. 4 ). Fig. 4 Full size image Relationship between transpiration rate and VPD. To demonstrate, the TR response to VPD is visualised for one container on 11 June 2021. TR is plotted against ambient VPD in the DroughtSpotter XXL facility. A linear segmented regression was applied to understand the relationship between transpiration rate and VPD. The vertical dashed line indicates the breakpoint Adjusted genotype means for the VPD breakpoints ranged from 2.75 kPa to 4.1 kPa. A lower breakpoint might suggest a more conservative use of water. Slope 1 ranged from 0.73 to 1.67 g min \u2212 1 m \u2212 2 kPa \u2212 1 . When the VPD exceeds the breakpoint, TR plateaued for most genotypes, resulting in a Slope 2 between \u2212 0.09 and 0.28 g min \u2212 1 m \u2212 2 kPa \u2212 1 . Significant genotypic variation was identified for breakpoint, Slope 1, Slope 2 and \u2206Slope ( p = < 0.001), indicated that genotypes differed in their transpiration response to VPD (Fig. 5 ). Repeatability for these traits was moderate to high (Table 3 ). Fig. 5 Full size image Transpiration response to varying VPD in a set of 79 winter wheat lines tested in the DroughtSpotter XXL. Data show adjusted mean values. The blue vertical line indicates the LSD calculated on a significance level of 10%. The horizontal solid line shows the mean values across all genotypes, the dashed horizontal lines show \u00b1 1SD. ( a ) shows genotypic variation for the breakpoint, ( b ) shows genotypic variation for Slope 1, ( c ) shows genotypic variation for Slope 2 and ( d ) shows genotypic variation for \u2206Slope Table 3 Variation for the traits derived from segmented regression analysis Full size table There was a significant positive correlation between Slope 1 and Slope 2 ( r = 0.34, p = 0.002, Supplementary Fig. S6 ). This indicates that genotypes with high transpiration at a low VPD exhibited a higher transpiration at high VPD. Slope 1 and \u2206Slope were strongly correlated ( r = 0.88, p < 0.001), indicating that genotypes differ not only in their reaction to contrasting VPD levels and also in their constitutive reaction to VPD (Table 4 ). Among the four traits that describe the response of TR to VPD, Slope 1 and Slope 2 were moderately correlated to T ( r = 0.27, p = 0.01 and r = 0.27, p = 0.02) (Table 4 ), but no significant correlation to TE was identified. However, a positive moderate correlation between Slope 2 and grain yield was detected ( r = 0.31, p = 0.005), indicating a lower restriction will result in a higher transpiration and therefore higher grain yield due to the strong positive correlation between grain yield and T. Additionally, TGW correlated positively to the breakpoint ( r = 0.28, p = 0.01) and to Slope 1 ( r = 0.29, p = 0.01). The breakpoint was uncorrelated to the other three transpiration response traits, allowing for various combinations between breakpoint and Slope 1, Slope 2 and \u2206Slope. Table 4 Pairwise Pearson correlations for transpiration and yield related traits Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 4,
+      "heading": "Clusters of genotypes",
+      "text": "To explore how these trait combinations reflect in multispectral traits (Green Leaf Index and Normalized Vegetation Difference Index), K-means clustering based on the traits breakpoint and \u2206Slope was applied to identify distinct groups with differing transpiration response to VPD. That way, all genotypes were categorized into four clusters based on their breakpoint and \u2206Slope (Supplementary Fig. S7 , Supplementary Fig. S8 ). Cluster \u201cSR\u201d (strong restriction) included 24 genotypes that exhibited a strong transpiration restriction, initiating restriction at a low VPD (low breakpoint) and strongly limited transpiration beyond that breakpoint (high \u2206Slope). Cluster \u201cLSR\u201d (late strong restriction) included 15 genotypes that were characterized by a \u201clate\u201d but strong restriction, restricting transpiration only at a high VPD (high breakpoint) but substantially limiting transpiration beyond that breakpoint (high \u2206Slope). Cluster \u201cLR\u201d (low restriction) included 26 genotypes that displayed a low transpiration restriction (high breakpoint and low \u2206Slope), while Cluster \u201cELR\u201d (early low restriction) included 14 genotypes which were characterized by an \u201cearly\u201d but low restriction (low breakpoint and low \u2206Slope) (Table 5 ). Table 5 Characteristics of the defined clusters Full size table The differing response of transpiration to VPD among the clusters was also reflected by their stay-green characteristics (Fig. 6 ). LR genotypes showed a significantly lower Green Leaf Index (GLI) than SR and LSR genotypes, at 14 days after drought stress application, whereas SR genotypes maintained a significantly higher GLI than ELR genotypes for up to 23 days after drought stress application (analysis of transpiration response to VPD took place on six days between 17 days after drought stress application and 25 days after drought stress application) (Fig. 6 a). Fig. 6 Full size image ( a ) Green leaf index (GLI) and ( b ) normalized difference vegetation index (NDVI) on the day of drought stress (ds) application (0d after ds), seven days after drought stress application (7d after ds), 14 days after drought stress application (14d after ds), 23 days after drought stress application (23d after ds) and 30 days after drought stress application (30d after ds). The letters above the boxplots indicate significant ( p < 0.05) differences between mean values. When the mean values are significantly different, the letters indicate the highest to lowest mean value in alphabetical order These differences are less pronounced for NDVI. Significantly lower NDVI first appeared 23 days after drought stress application in cluster ELR compared to the SR and LSR genotypes. By 30 days after drought stress application, the genotypes in the SR cluster still exhibited a significantly higher NDVI than the genotypes in cluster ELR, while no significant differences between the other clusters were identified (Fig. 6 b)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "Evaluating performance of different crop genotypes under drought stress conditions by phenotyping for transpiration and TE is a challenging task because it is difficult to manipulate field drought stress conditions in the required intensity and timing, while it is also difficult to accurately measure transpiration in field environments with the necessary precision and resolution. On the other hand, automated, precise and comprehensive phenotyping of a wide range of traits is possible under controlled environments, but results from controlled-environment experiments are frequently not transferable to a field environment. Large containers can help to \u201cbring the field into the greenhouse\u201d [ 36 , 39 , 43 ], and in contrast to small pots they can allow a planting density and root growth, similar to the conditions in field environments [ 37 , 38 ]. The DroughtSpotter XXL platform utilised in this study combines large containers with automated, gravimetric \u201creal-time\u201d phenotyping of transpiration, while a dual 3D laser scanner simultaneously enabled monitoring of plant growth and morphological and multispectral traits throughout the crop lifecycle. This combination enabled us to uncover key characteristics and dynamics of transpiration and plant growth and identify genotype-specific differences regarding these traits. This led to the identification of a number of physiological traits related to TE at different stages of development, with high heritability and high expected relevance to field conditions. Advantages and restrictions of the phenotyping approach To the best of our knowledge, this is the first study reporting real-time measurements of transpiration response to changes in VPD in a large panel of wheat genotypes growing under conditions with realistic root growth and plant densities (48 plants per container are equivalent to 300 plants m \u2212 2 ) and therefore conditions with high significance for field environments. Therefore, the experimental setup delivers several advantages in contrast to previous studies conducted either in highly controlled environments like growth chambers, using only small pots that restrict root growth and skew transpiration data, where single plants were tested instead of plant communities, where only a few measurements were taken over a limited time period, where plants were evaluated only in early growth stages or where only few genotypes were tested and compared in detail. The traits describing the transpiration response to VPD and the developmental-stage specific transpiration efficiency showed moderate to very high repeatability (h\u00b2 = 0.31\u20130.74 and h\u00b2 = 0.87\u20130.91, respectively). There are also certain limitations of this phenotyping method that need to be critically reflected upon. Even though this system aims at mirroring field environments as closely as possible to enable a high significance for the field it is obvious that the conditions are still very different from the field. Growing conditions do not \u2013 as it is usually the case with all comparisons of experiments \u2013 represent a perfect copy of the vegetation conditions in the field. Even though larger root volume is provided in this system compared to many other phenotyping platforms that aim at transpiration assessment, the root volume is still smaller than the plants would experience in the field. The major restriction within this system represents the implemented irrigation system. Irrigation to a target container weight means that \u201cwater-spending\u201d genotypes receive more water while \u201cwater-saving\u201d genotypes are irrigated less [ 52 ]. Due to the factual positive correlation of yield and transpiration, water-saving genotypes also showed a lower yield in this experimental set-up. This is a methodological restriction of the watering regime we applied: While transpiration characteristics can be observed easily and precisely, the causal cascade from limited water availability over different genotypic transpiration restriction strategies on gra"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Advantages and restrictions of the phenotyping approach",
+      "text": "To the best of our knowledge, this is the first study reporting real-time measurements of transpiration response to changes in VPD in a large panel of wheat genotypes growing under conditions with realistic root growth and plant densities (48 plants per container are equivalent to 300 plants m \u2212 2 ) and therefore conditions with high significance for field environments. Therefore, the experimental setup delivers several advantages in contrast to previous studies conducted either in highly controlled environments like growth chambers, using only small pots that restrict root growth and skew transpiration data, where single plants were tested instead of plant communities, where only a few measurements were taken over a limited time period, where plants were evaluated only in early growth stages or where only few genotypes were tested and compared in detail. The traits describing the transpiration response to VPD and the developmental-stage specific transpiration efficiency showed moderate to very high repeatability (h\u00b2 = 0.31\u20130.74 and h\u00b2 = 0.87\u20130.91, respectively). There are also certain limitations of this phenotyping method that need to be critically reflected upon. Even though this system aims at mirroring field environments as closely as possible to enable a high significance for the field it is obvious that the conditions are still very different from the field. Growing conditions do not \u2013 as it is usually the case with all comparisons of experiments \u2013 represent a perfect copy of the vegetation conditions in the field. Even though larger root volume is provided in this system compared to many other phenotyping platforms that aim at transpiration assessment, the root volume is still smaller than the plants would experience in the field. The major restriction within this system represents the implemented irrigation system. Irrigation to a target container weight means that \u201cwater-spending\u201d genotypes receive more water while \u201cwater-saving\u201d genotypes are irrigated less [ 52 ]. Due to the factual positive correlation of yield and transpiration, water-saving genotypes also showed a lower yield in this experimental set-up. This is a methodological restriction of the watering regime we applied: While transpiration characteristics can be observed easily and precisely, the causal cascade from limited water availability over different genotypic transpiration restriction strategies on grain yield (for example) is not straightforward to compare with the field situation. However, this method allows for a reliable determination of traits that occur in conjunction with this trait. The subtrait \u201ctranspiration response to VPD\u201d can be recorded and isolated under conditions of sufficient root depth, a field-like stand density and without other physiological disturbance variables (e.g. hormone response in relation to different degrees of soil moisture removal). A similar phenotyping approach under ambient \u201coutdoor\u201d conditions has already been applied to successfully distinguish the transpiration response to VPD between groups of wild chickpea genotypes and cultivated chickpea genotypes with distinct transpiration efficiency, showing the applicability and effectiveness of such phenotyping approaches for the detection of transpiration reactions to environmental factors [ 53 ]. The comparatively high repeatability in our study underlines the high precision of the large-scale system \u2013 despite very similar elite wheat genotypes \u2013 and the ability of detection of inherited characteristics related to a differential transpiration response. Despite potential limitations, the phenotyping system represents a satisfactory compromise between high-throughput precision phenotyping, with relevance for field conditions, and feasibility. Phenotyping under realistic and varying conditions is considered decisive for generating meaningful phenotypic data, but every medal has two sides: The dependency on external factors necessitated that the measurement of transpira"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Transpiration rate in relation to changes in VPD",
+      "text": "The \u201ceffective\u201d use of water is agreed to be pivotal for maintaining high performance of crops, especially when water is limited [ 18 , 54 ], as this results in the conservation of soil water to enable an even water availability throughout the growing season. One key water conservation trait in crops is the restriction of TR in response to elevated VPD. This study evaluated the transpiration response to varying levels of VPD in a large set of winter wheat genotypes and found significant differences among the tested genotypes in the VPD values above which transpiration is restricted as well as in their response in TR to VPD below and above the VPD breakpoint. Most previous studies of this kind identified two distinct groups of genotypes: genotypes with an unsegmented transpiration response that increased TR in a linear manner along with VPD, and genotypes with a segmented transpiration response which restricted transpiration response at elevated VPD (e.g. 31 , 42 ). In contrast to this, none of the genotypes tested in our study could be clearly associated with a linear unsegmented transpiration response; indeed, all genotypes exposed a breakpoint and therefore a segmented transpiration response to VPD. This might be due to the genotypic proximity of the tested wheat lines, which represent a sample from German commercial breeding programs and are adapted to contemporary climatic conditions in Central Europe. Genotypic variation for response to VPD has been identified in a large number of crop species, such as soybean [ 46 , 55 ], maize [ 42 , 56 ], canola [ 43 ], sorghum [ 57 ], peanut [ 58 ] chickpea [ 28 , 53 ], pearlmillet [ 16 ], and wheat [ 27 , 31 , 59 ]. For bread wheat ( Triticum aestivum L.), differences in the VPD breakpoint between various wheat lines were detected in a range of 2.4\u20133.9 kPa and genotypic variation was identified both for transpiration response below the breakpoint as well as above the breakpoint [ 59 ]. In a different study with durum wheat, much lower breakpoints of approximately 1 kPa and much less variation between the genotypes was observed [ 31 ]. The adaptation of durum wheat to Mediterranean conditions includes improved tolerance to drought and heat stress. The low breakpoint identified in durum wheat [ 31 ] aligns with the idea that a strong transpiration restriction in response to VPD enhances performance in water-limited environments. The breakpoints observed for wheat in our study ranged between 2.75 and 4.1 kPa and are only slightly higher than those reported for bread wheat in the above mentioned study [ 59 ], but clearly higher than the breakpoints reported for durum wheat [ 31 ]."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Association of transpiration response traits with yield traits",
+      "text": "Our results showed positive correlations between Breakpoint and TGW as well as between Slope 1 and TGW, and a positive correlation between Slope 2 and grain yield (Table 4 ). Thus, a lower transpiration restriction, demonstrated by a higher breakpoint and a higher Slope 2, is associated with a higher TGW and grain yield. Furthermore, no correlation was observed between the transpiration restriction traits and TE (Table 4 ). This appears contradictory, as a higher restriction of TR at elevated VPD would be expected to result in improved TE and higher grain yield compared to genotypes with lower transpiration restriction, under the hypothesis that the restriction of transpiration at unfavourable VPD conditions contributes to water saving. However, due to the irrigation strategy implemented, water-spending genotypes in our experimental setup received a larger quantity of water, resulting in a higher yield compared to water-saving genotypes."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 2,
+      "heading": "Conclusions",
+      "text": "This study provides a valuable proof of concept for future investigations of transpiration response to VPD using high-resolution, continuous precision phenotyping of water use in crop plants grown under realistic but controlled conditions. High repeatability for VPD response and developmental stage specific transpiration efficiency demonstrates that this kind of facility can provide highly relevant insight into how transpiration dynamics interact across different developmental stages. A future aim is to quantify how these interactions impact yield performance and following that, to identify remote sensing patterns corresponding to stress-induced transpiration dynamics and, therefore, bridge the gap between precision phenotyping studies of this kind (restricted to relatively small population sizes) and field evaluations with larger breeding populations [ 60 ]. Knowledge gained in the present study aid identification of the genetic basis of VPD response traits as a basis to facilitate breeding for crops adapted to an altered climate."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 2,
+      "heading": "Data availability",
+      "text": "The data in support of this study are available from the corresponding author, Anna Moritz, upon request."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 2,
+      "heading": "Abbreviations",
+      "text": "d: Day das: Days after sowing dBM: Digital biomass ds: Drought stress dTE: Developmental-stage specific transpiration efficiency ELR: Early low restriction FC: Field capacity GLI: Green leaf index Gr.Sp: Grains per spike GY: Grain yield HI: Harvest index IQR: Interquartile range LR: Low restriction LSD: Least significant difference LSR: Late strong restriction Max: Maximum Min: Minimum NDVI: Normalised difference vegetation index No.Sp: Number of spikes SD: Standard deviation SR: Strong restriciton T: Cumulative transpiration TE: Transpiration efficiency TGW: Thousand grain weight TR: Transpiration rate VPD: Vapour pressure deficit WU: Water uptake"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 2,
+      "heading": "References",
+      "text": "IPPC. Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. 2022. Lobell DB, Hammer GL, McLean G, Messina C, Roberts MJ, Schlenker W. The critical role of extreme heat for maize production in the United States. Nat Clim Change. 2013;3(5):497\u2013501. Snowdon RJ, Wittkop B, Chen TW, Stahl A. Crop adaptation to climate change as a consequence of long-term breeding. Theor Appl Genet. 2021;134(6):1613\u201323. Article PubMed Google Scholar Tardieu F. Any trait or trait-related allele can confer drought tolerance: just design the right drought scenario. J Exp Bot. 2012;63(1):25\u201331. Article CAS PubMed Google Scholar Vadez V, Kholova J, Medina S, Kakkera A, Anderberg H. Transpiration efficiency: new insights into an old story. J Exp Bot. 2014;65(21):6141\u201353. Article CAS PubMed Google Scholar Kirkegaard JA, Hunt JR. Increasing productivity by matching farming system management and genotype in water-limited environments. J Exp Bot. 2010;61(15):4129\u201343. Article CAS PubMed Google Scholar Passioura J. Grain yield, harvest index, and water use of wheat. J Aust Inst Agric Sci. 1977;43:117\u201320. Google Scholar Vadez V. Root hydraulics: the forgotten side of roots in drought adaptation. Field Crops Res. 2014;165:15\u201324. Article Google Scholar Manschadi AM, Christopher J, deVoil P, Hammer GL, Manschadi AM, Christopher J, et al. The role of root architectural traits in adaptation of wheat to water-limited environments. Funct Plant Biol. 2006;33(9):823\u201337. Lilley JM, Kirkegaard JA. Benefits of increased soil exploration by wheat roots. Field Crops Res. 2011;122(2):118\u201330. Article Google Scholar Schoppach R, Wauthelet D, Jeanguenin L, Sadok W. Conservative water use under high evaporative demand associated with smaller root metaxylem and limited trans-membrane water transport in wheat. Funct Plant Biol. 2014;41(3):257. Article CAS PubMed Google Scholar Maurel C, Boursiac Y, Luu DT, Santoni V, Shahzad Z, Verdoucq L. Aquaporins in plants. Physiol Rev. 2015;95(4):1321\u201358. Article CAS PubMed Google Scholar Patel J, Mishra A. Plant aquaporins alleviate drought tolerance in plants by modulating cellular biochemistry, root-architecture, and photosynthesis. Physiol Plant. 2021;172(2):1030\u201344. Article CAS PubMed Google Scholar Calvo-Polanco M, Ribeyre Z, Dauzat M, Reyt G, Hidalgo-Shrestha C, Diehl P, et al. Physiological roles of Casparian strips and suberin in the transport of water and solutes. New Phytol. 2021;232(6):2295\u2013307. Article CAS PubMed PubMed Central Google Scholar Richards R, Passioura J. A breeding program to reduce the diameter of the major xylem vessel in the seminal roots of wheat and its effect on grain yield in rain-fed environments. Aust J Agric Res. 1989;40(5):943. Article Google Scholar Kholov\u00e1 J, Hash CT, Kumar PL, Yadav RS, Ko\u010dov\u00e1 M, Vadez V. Terminal drought-tolerant pearl millet [ Pennisetum glaucum (L.) R. Br.] have high leaf ABA and limit transpiration at high vapour pressure deficit. J Exp Bot. 2010;61(5):1431\u201340. Vadez V, Kholov\u00e1 J, Yadav RS, Hash CT. Small temporal differences in water uptake among varieties of pearl millet ( Pennisetum glaucum (L.) R. Br.) are critical for grain yield under terminal drought. Plant Soil. 2013;371(1):447\u201362. Sinclair TR. Effective water use required for improving crop growth rather than transpiration efficiency. Front Plant Sci. 2018;9:1442. https://doi.org/10.3389/fpls.2018.01442 Schoppach R, Sadok W. Differential sensitivities of transpiration to evaporative demand and soil water deficit among wheat elite cultivars indicate different strategies for drought tolerance. Environ Exp Bot. 2012;84:1\u201310. Article Google Scholar Vadez V, Kholova J, Zaman-Allah M, Belko N. Water: the most important \u2018molecular\u2019 component of water stress tolerance research. Funct Plant Biol. 2013;40(12):1310\u201322. Article PubMed Google Scholar Sinclair TR, Devi J, Shekoofa A, Choudhary S, Sadok W, Vadez V, et al. Limited-"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "We thank Maximilian Henning and Bernhard Schick (Justus Liebig-University Giessen, Rauischholzhausen, Germany) for technical management of the DroughtSpotter experiment. We thank Sabine Frei, Regina Illgner, Birgit Keiner, Annette Plank, Swetlana Renner, Lennart Scheer, Ingrid Schneider-H\u00fcther and Stavros Tzigos (Justus Liebig-University Giessen, Germany) for valuable help with sample processing and data acquisition. Furthermore, we thank Deutsche Saatveredelung AG, Nordsaat Saatzucht GmbH and W. von Borries-Eckendorf GmbH & Co. KG for providing the breeding lines."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "Funding",
+      "text": "Open Access funding enabled and organized by Projekt DEAL. This work was supported by the German Federal Ministry of Food and Agriculture (BMEL grant 2818403A18)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations Department of Plant Breeding, Justus Liebig University Giessen, Giessen, Germany Anna Moritz, Andreas Eckert, Stjepan Vukasovic & Rod Snowdon Institute for Resistance Research and Stress Tolerance, Julius K\u00fchn Institute (JKI) \u2013 Federal Research Centre for Cultivated Plants, Quedlinburg, Germany Andreas Stahl Authors Anna Moritz View author publications Search author on: PubMed Google Scholar Andreas Eckert View author publications Search author on: PubMed Google Scholar Stjepan Vukasovic View author publications Search author on: PubMed Google Scholar Rod Snowdon View author publications Search author on: PubMed Google Scholar Andreas Stahl View author publications Search author on: PubMed Google Scholar Contributions AS and RS conceived the study. AM, AE and SV performed the experiments. AM analysed the data. AM and AS wrote the manuscript with contributions from all other authors. All authors approved the submitted version. Corresponding author Correspondence to Anna Moritz ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Department of Plant Breeding, Justus Liebig University Giessen, Giessen, Germany Anna Moritz, Andreas Eckert, Stjepan Vukasovic & Rod Snowdon Institute for Resistance Research and Stress Tolerance, Julius K\u00fchn Institute (JKI) \u2013 Federal Research Centre for Cultivated Plants, Quedlinburg, Germany Andreas Stahl Authors Anna Moritz View author publications Search author on: PubMed Google Scholar Andreas Eckert View author publications Search author on: PubMed Google Scholar Stjepan Vukasovic View author publications Search author on: PubMed Google Scholar Rod Snowdon View author publications Search author on: PubMed Google Scholar Andreas Stahl View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "AS and RS conceived the study. AM, AE and SV performed the experiments. AM analysed the data. AM and AS wrote the manuscript with contributions from all other authors. All authors approved the submitted version."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Anna Moritz ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Ethics approval and consent to participate Not applicable. Consent for publication Not applicable. Competing interests The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 3,
+      "heading": "Ethics approval and consent to participate",
+      "text": "Not applicable."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 3,
+      "heading": "Consent for publication",
+      "text": "Not applicable."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 3,
+      "heading": "Competing interests",
+      "text": "The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher\u2019s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 3,
+      "heading": "Publisher\u2019s note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 2,
+      "heading": "Electronic supplementary material",
+      "text": "Below is the link to the electronic supplementary material. Supplementary Material 1 (download DOCX )"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 3,
+      "heading": "Supplementary Material 1 (download DOCX )",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ . Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-53",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Moritz, A., Eckert, A., Vukasovic, S. et al. Physiological phenotyping of transpiration response to vapour pressure deficit in wheat. BMC Plant Biol 24 , 1032 (2024). https://doi.org/10.1186/s12870-024-05692-3 Download citation Received : 24 April 2024 Accepted : 11 October 2024 Published : 30 October 2024 Version of record : 30 October 2024 DOI : https://doi.org/10.1186/s12870-024-05692-3 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords Drought stress High-throughput phenotyping Water use efficiency Transpiration restriction Vapour pressure deficit Wheat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Moritz, A., Eckert, A., Vukasovic, S. et al. Physiological phenotyping of transpiration response to vapour pressure deficit in wheat. BMC Plant Biol 24 , 1032 (2024). https://doi.org/10.1186/s12870-024-05692-3 Download citation Received : 24 April 2024 Accepted : 11 October 2024 Published : 30 October 2024 Version of record : 30 October 2024 DOI : https://doi.org/10.1186/s12870-024-05692-3 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "Drought stress High-throughput phenotyping Water use efficiency Transpiration restriction Vapour pressure deficit Wheat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 3,
+      "heading": "Profiles",
+      "text": "Anna Moritz View author profile"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "Associated Content",
+      "text": "Part of a collection: Crop breeding for drought stress tolerance"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-59",
+      "level": 3,
+      "heading": "Crop breeding for drought stress tolerance",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "You have full access to this open access article",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Precision phenotyping of short-term transpiration response to environmental conditions and transpiration patterns throughout wheat development enables a better understanding of specific trait compositions that lead to improved transpiration efficiency. Transpiration and related traits were evaluated in a set of 79 winter wheat lines using the custom-built \u201cDroughtSpotter XXL\u201d facility. The 120 l plant growth containers implemented in this phenotyping platform enable gravimetric quantification of water use in real-time under semi-controlled, yet field-like conditions across the entire crop life cycle.",
+      "char_offset": 50
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting high-resolution data enabled identification of significant developmental stage-specific variation for genotype rankings in transpiration efficiency. In addition, for all examined genotypes we identified the genotype-specific breakpoint in transpiration in response to increasing vapour pressure deficit, with breakpoints ranging between 2.75 and 4.1 kPa.",
+      "char_offset": 659
+    },
+    {
+      "type": "paragraph",
+      "text": "Continuous monitoring of transpiration efficiency and diurnal transpiration patterns enables identification of hidden, heritable genotypic variation for transpiration traits relevant for wheat under drought stress. Since the unique experimental setup mimics field-like growth conditions, the results of this study have good transferability to field conditions.",
+      "char_offset": 1029
+    },
+    {
+      "type": "paragraph",
+      "text": "Climate change is expected to cause increasing temperatures and altered precipitation patterns [ 1 ]. Although for many regions the absolute annual precipitation amounts may not necessarily diminish substantially, phases of heavier rainfall may alternate with periods of drought, resulting in an unfavourable distribution of water availability. This is critical for plant development as insufficient water availability at sensitive developmental stages can severely impact plant performance. Due to increasing temperatures and decreasing relative humidity, the vapour pressure deficit (VPD) is projected to increase in many regions. This will raise the evaporative demand, promoting consumption of soil water [ 2 ] and limiting its availability in subsequent phases.",
+      "char_offset": 1391
+    },
+    {
+      "type": "paragraph",
+      "text": "The breeding of adapted varieties is seen as a key strategy to sustain crop production in water-limited scenarios. Classical selection, more recently supported by genomic prediction models, has been successful in increasing varietal performance even under water deficit [ 3 ]. But it is desirable that selection for specific traits surpasses a \u201cblack box\u201d approach. However, the response to and productivity under insufficient water supply are genetically extremely complex, characterised by strong genotype-by-environment interactions and quantitative inheritance [ 4 ].",
+      "char_offset": 2159
+    },
+    {
+      "type": "paragraph",
+      "text": "To describe water productivity several definitions exist. Commonly, the term \u201cwater use efficiency\u201d (WUE) in agricultural systems is defined as the ratio between grain yield and the amount of water received during the development [ 5 ], i.e. the evapotranspiration, which is composed of the transpiration of the crop and water that is lost by evaporation. This definition shows that WUE can be improved through effective crop management practices [ 6 ] such as adjusting the sowing date, implementing weed control and optimizing plant density. This term \u201cWUE\u201d is often used to describe water productivity at the canopy level. Transpiration efficiency (TE), on the other hand, is usually defined as the ratio between the biomass of the crop and the water transpired by the crop. The \u201cintrinsic WUE\u201d has been described as the ratio of CO 2 assimilation and transpiration at the leaf level [ 5 ]. Yield performance under water-limited conditions is often described by the \u201cPassioura equation\u201d, in which grain yield is expressed as the product of water uptake (WU), TE and harvest index (HI) [ 7 ]. These three factors still represent complex aggregated traits that are expressed at different developmental stages and are not completely independent of each other. Considering the response to drought stress is not static, but rather highly dynamic, the approach is not granular enough to understand the response of different genotypes during specific periods of stress and to identify the responsible subtraits. Ideally, useful subtraits should be determined by a smaller number of genes and show a higher heritability than highly quantitative traits (such as yield or TE), enabling their use to positively affect selection accuracy and thus contribute to accelerated breeding progress. This implies a need to identify such subtraits that show a higher heritability and strong correlation to TE and WU, but are also relatively simple to measure precisely.",
+      "char_offset": 2732
+    },
+    {
+      "type": "paragraph",
+      "text": "Various organs regulate the plant\u2019s water balance. Several characteristics of the root system determine WU [ 8 ]. For example, morphological root traits, such as root depth and density, impact WU from different (especially deeper) soil layers [ 9 , 10 ]. Physiological root traits controlling root conductance, including aquaporins [ 11 , 12 , 13 ] or apoplastic barriers [ 14 ] as well as the diameter of the metaxylem, are associated with crop water status and TE [ 11 , 15 ]. The release of water is largely determined by the leaf surface and the density of the stomata. Root system and leaf surface are not dynamically adaptable at the onset of stress and therefore have to be considered as constitutive and usually irreversible factors of water balance regulation, which can only be adjusted in the long term. In contrast, stomata, as the sites of gas exchange, are particularly important for short-term regulation of transpiration.",
+      "char_offset": 4685
+    },
+    {
+      "type": "paragraph",
+      "text": "A fundamental conflict for crop productivity under water-limited conditions is the common pathway of water and carbon exchange between the leaf and the atmosphere: When stomata are opened for carbon fixation, water is transpired as well. VPD plays a major role in this context. In addition to stomatal conductance, VPD acts as a driving force on transpiration. An increase in VPD leads to a higher water consumption per unit of fixed CO 2 . To prevent excessive water loss and to counteract dehydration and senescence, the plant is able to close its stomata, which in turn causes a decrease in photosynthetic rate. This behaviour, i.e., restricting transpiration when VPD is adverse, enables the plant to conserve soil water [ 16 , 17 ], thereby improving TE [ 18 ]. Water conserved in this manner is available for the plant at later time points, enabling maintenance of physiological activity for an extended period of time [ 2 , 19 , 20 ]. This trait, e.g. the limitation of transpiration rate in response to increasing VPD has been observed in several crop species [ 21 ]. The physiological basis of transpiration restriction in response to high VPD is assumed to be related to a reduced hydraulic conductivity which is associated with aquaporin activity [ 21 ]. Studies on several crop species linked (e.g. 21 \u2013 25 ) the limitation of transpiration to aquaporin expression. Simulations have demonstrated that the ability of wheat plants to restrict their transpiration at higher VPD levels contributes to a yield gain of 2.5% on a national average in Australia. The strongest yield gains were observed in the northeast of the country, where crops are dependent on soil water during the grain filling phase [ 26 ]. It has been shown that wheat breeding in Australia over the past 120 years has indirectly selected cultivars with an improved ability to restrict transpiration under unfavourable VPD conditions [ 27 ]. Restricted transpiration response to increasing VPD has been repeatedly associated with increased crop production under water-limited environments [ 5 , 28 , 29 , 30 ]. Nevertheless, the effect of this trait on crop productivity depends on the environmental conditions in which the crops are cultivated. Under water-limited conditions, plants showing this trait might have an advantage, but under optimal conditions genotypes that do not restrict their transpiration might perform better [ 31 ]. Hence, short-term adaptation to variations in VPD is of particular interest, as it enables a flexible, short-term adaptation to unfavourable conditions.",
+      "char_offset": 5624
+    },
+    {
+      "type": "paragraph",
+      "text": "In the past years, the innovative concept of \u201cfunctional physiological phenotyping\u201d [ 32 ] has introduced advanced opportunities for phenotyping of the dynamic physiological responses of the crop to fluctuating environmental conditions. The basis of this concept is the continuous phenotyping of physiological traits in a non-destructive and high-throughput manner, while simultaneously collecting information on environmental conditions to which the crop is exposed. This resulting comprehensive data is the basis for statistical analysis to draw conclusions to compare the genotype specific responses to changes in the environmental conditions in order to identify superior genotypes or understand the underlying mechanisms that lead to an improved performance, especially under drought stress conditions [ 32 ].",
+      "char_offset": 8194
+    },
+    {
+      "type": "paragraph",
+      "text": "In light of strong genotype-by-environment interactions, a suitable phenotyping environment is required for such physiological phenotyping approaches to detect and understand subtle differences in transpiration behaviour [ 32 , 33 , 34 ]. Since the field is the target environment, field trials are irreplaceable to obtain relevant information on crop performance under realistic scenarios, especially considering complex genotype-by-environment interactions [ 35 ]. Traits like transpiration are extremely difficult to capture precisely in the field. In particular, precise, direct quantification of transpiration dynamics in \u201creal-time\u201d is barely feasible in the field. In addition, onset and intensity of a drought period cannot be controlled in a normal field environment. However, targeting drought stress tolerance traits requires clearly-defined drought stress conditions \u201con demand\u201d [ 36 ]. Controlled environments meet these requirements, however the conditions in greenhouses and growth chambers are normally too artificial to enable a successful extrapolation of findings into field-relevant conclusions. There are numerous reasons for this, particularly inadequate pot size, lighting, crop density and temperature control [ 37 , 38 ]. To overcome those limitations, the use of large containers, which enable field-like crop densities and sufficient root depth, has been suggested as a compromise between field and controlled environments [ 39 ]. Complemented by digital high-throughput methods to assess plant growth non-destructively across the entire crop development [ 40 , 41 ], along with gravimetric monitoring of pot weights [ 33 , 39 , 42 , 43 ], such systems allow reliable and precise assessment of WU and TE and constant monitoring of diurnal transpiration patterns in combination with a high significance for field environments.",
+      "char_offset": 9010
+    },
+    {
+      "type": "paragraph",
+      "text": "In this study we collected high-resolution data describing genetic variation for real-time transpiration efficiency and the dynamic transpiration response to ambient vapour pressure deficit in a broad collection of 79 winter wheat genotypes in the DroughtSpotter XXL facility, which aims at simulating field conditions. This enabled a highly detailed investigation of the genotypic response to elevated VPD under realistic growth conditions. A large panel of wheat genotypes adapted to central European climate conditions was investigated, including numerous recent, high-performing elite breeding lines. Results provide deep insight into the mechanism contributing to one aspect of transpiration efficiency and have key significance for future breeding in the face of climate change.",
+      "char_offset": 10864
+    },
+    {
+      "type": "paragraph",
+      "text": "The study used a panel of 79 winter wheat breeding lines ( Triticum aestivum L.) originating from crosses between modern elite winter wheat varieties adapted to Western European growing conditions. All lines were derived from advanced phases of commercial winter wheat breeding programs. The population structure of the tested genotypes in form of a principal component analysis based on SNP markers is illustrated in Supplementary Fig. S1 .",
+      "char_offset": 11650
+    },
+    {
+      "type": "paragraph",
+      "text": "Experiments were conducted in the plant phenotyping platform DroughtSpotter XXL (Phenospex, Heerlen Netherlands) at the Rauischholzhausen field station of Justus Liebig University in Giessen, Germany (N 50\u00b0 45\u2032 39\u2033 E 8\u00b0 52\u2032 47\u2033, 235 m a.s.l). The DroughtSpotter XXL comprises 240 large plant containers with a volume of 120 l, a height of 90 cm and feature a planting area of 0.16 m 2 (also see [ 36 , 44 ]). Each container was filled with 155.5 kg sand-soil mixture at ratio 3:2 and placed on a high-resolution gravimetric scale which recorded the weight of each individual container every five minutes throughout the entire vegetation period (Supplementary Fig. S2 ). To ensure measurement accuracy and minimize noise, the power supply of the junction boxes was separated from the control unit in order to avoid interference due to changing voltage. This set-up facilitated continuous, high-resolution monitoring of plant transpiration for every individual genotype. A total of three evaporation checks, containing no plants were included. The evaporation checks were treated identically to the experimental containers, enabling quantification of evaporation from the soil surface so that transpiration and evaporation could be measured separately. The facility was located in a plastic greenhouse (360 m 2 ) (Fig. 1 ) to protect the containers from rain. The sides of the greenhouse were opened to expose the plants to natural temperature and wind fluctuations as in the field (the ceiling remained closed at all times).",
+      "char_offset": 12093
+    },
+    {
+      "type": "paragraph",
+      "text": "Automated irrigation took place daily after midnight (time of minimum transpiration). Each container was individually irrigated to a target weight corresponding to a predefined target field water capacity of 60%. The weight of the container that corresponds to 100% field capacity is defined as the weight of the water that the soil could hold after two days against gravity. This was determined by using two soil-filled containers that were perforated at the bottom before the main experiment and placed on gravimetric scales. These containers were very slowly and carefully saturated with water until water leakage was observed, at which point the weight at 100% field capacity was recorded and the target weight for other field capacities was calculated proportionally. Recognizing that completely saturating the soil with water might require multiple irrigations, water was added carefully over a period. Given that drier soil tends to seep very quickly, the initial irrigation was executed deliberately, to ensure a gradual increase in water content until saturation is obtained. Additionally, the soil of all containers of the main experiment was carefully mixed with water before planting over an elongated period to guarantee the correct water content in the soil.",
+      "char_offset": 13618
+    },
+    {
+      "type": "paragraph",
+      "text": "DroughtSpotter XXL precision phenotyping platform. The facility comprises 240 high-resolution gravimetric scales on which containers with a soil volume of 120 l and a depth of 90 cm are placed. Transpiration is monitored gravimetrically in 5-minute intervals over the entire lifecycle of the crop. The facility is situated inside of a greenhouse with open walls",
+      "char_offset": 14892
+    },
+    {
+      "type": "paragraph",
+      "text": "Sowing was conducted on 14 December 2020 with 63 seeds per container distributed equally in three rows. After vernalization (79 days after sowing), the number of plants per container was reduced to 48 plants per container (3 rows with 16 plants each). The experiment was designed as an alpha-lattice with three replications per genotype. Fertilization was conducted according to Supplementary Table S1 and plant protection was applied according to the occurrence of disease pressure in the greenhouse in order to avoid biotic stress.",
+      "char_offset": 15255
+    },
+    {
+      "type": "paragraph",
+      "text": "At the beginning of the experiment, all containers were irrigated to 60% field capacity for a well-watered phase. At 153 days after sowing (das), the target container weight of all containers was increased by 480 g to account for plant biomass growth. The adjustment corresponds to the average weight of the plant harvested from three containers separate from the main experiment, with the lines grown in these containers selected from the full panel of genotypes. At the beginning of flowering (164 days after sowing) a drought stress phase was initiated by reducing irrigation to 40% field capacity. 18 days after initial drought stress application (182 days after sowing), drought stress conditions were intensified by reducing the field capacity to 30% (Fig. 2 ). Irrigation to 30% field capacity was then continued until harvest.",
+      "char_offset": 15790
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital biomass, leaf area, normalized vegetation difference index (NDVI) and green leaf index (GLI) were assessed weekly from tillering to harvest using a three-dimensional dual-laser scanner (Plant Eye F500, Phenospex). For this purpose, the scanning trolley was placed in front of each container and the two cameras, mounted parallelly on a rail, scanned the plant vertically from the upper edge of the container (Supplementary Fig. S3 ). The two cameras have a slight angle to each other so that one camera can capture pixels that are in the shadow of other plants and are not detected by the other camera. By sensor fusion, images were automatically merged into a 3D image [ 40 , 45 ]. Based on preliminary tests, in which the digital values were checked by manual biomass and height determinations (Supplementary Fig. S4 and Supplementary Fig. S5 ), a good reliability of the digital acquisition method could be confirmed (R\u00b2 = 0.89 for plant height and R\u00b2 = 0.51 for plant biomass).",
+      "char_offset": 16626
+    },
+    {
+      "type": "paragraph",
+      "text": "Irrigation scheme for the container trial. The container weight of a single container is displayed for the period between 123 days after sowing (das) and 210 das. Every day after midnight, the container was irrigated up to a predefined target weight, resulting in a rapid increase in container weight. Over the course of the day the plants transpired water, resulting in a gradual decrease of the container weight. At 164 das drought stress was applied by reducing field capacity to 40% and at 182 das drought stress conditions were intensified by setting field capacity to 30%",
+      "char_offset": 17617
+    },
+    {
+      "type": "paragraph",
+      "text": "Harvest took place on 22 July 2021 (220 days). The total above-ground biomass per container was harvested. The plants were threshed and grain yield was determined along with the number of spikes per container, thousand grain weight (TGW), grains per spike and total biomass yield per container.",
+      "char_offset": 18196
+    },
+    {
+      "type": "paragraph",
+      "text": "Air temperature and relative humidity within the DroughtSpotter XXL facility was assessed using data loggers (PCE-HT71N, PCE Instruments). These data loggers offer an accuracy of \u00b1 1 \u00b0C for temperature and \u00b1 3% for relative humidity and a resolution of 0.1 \u00b0C and 0.1% for temperature and relative humidity, respectively. To assess temperature and humidity gradients within the greenhouse, nine of the above mentioned data loggers were placed symmetrically across all rows and columns in a 3 \u00d7 3 grid. The data loggers recorded air temperature and relative humidity every ten minutes.",
+      "char_offset": 18492
+    },
+    {
+      "type": "paragraph",
+      "text": "Daily evapotranspiration per container was calculated based on the weight recordings of the DroughtSpotter XXL, using the difference of the container weight after irrigation and before the subsequent irrigation. Daily evaporation of the evapo-check containers was determined the same way. Subsequently, the amount of transpiration per container was determined by subtracting the values for the daily evapotranspiration for the mean daily amount of evaporation. From these daily transpiration amounts cumulative transpiration over the complete trial period (or other specific periods of interest) was calculated. For the transpiration rate (TR) in g per container per minute, weight curves were smoothed using a Loess-function and the values were interpolated every minute. TR was normalized for leaf area.",
+      "char_offset": 19078
+    },
+    {
+      "type": "paragraph",
+      "text": "To estimate TE at any given timepoint during crop development, digital biomass data from the weekly scans was interpolated to obtain daily values and relate these with the daily recordings for transpiration. The developmental stage-specific transpiration efficiency ( \\(\\:{d}{{TE}}_{{t}}\\) ) is defined as the digital biomass estimated by the 3D laser scanner up to a certain point in time per unit of transpired water up to the same point in time, calculated with Eq. 1 .",
+      "char_offset": 19885
+    },
+    {
+      "type": "paragraph",
+      "text": "where \\(\\:{{dBM}}_{{t}}\\) is the digital biomass at a given point in time and \\(\\:{{T}}_{{t}}\\) is the amount of water transpired up to this point in time.",
+      "char_offset": 20359
+    },
+    {
+      "type": "paragraph",
+      "text": "The overall TE is defined in Eq. 2 as ratio of grain yield ( \\(\\:{GY}\\) ) and the total amount of transpired water ( \\(\\:{T}\\) ):",
+      "char_offset": 20516
+    },
+    {
+      "type": "paragraph",
+      "text": "The recordings for temperature ( \\(\\:{Temp}\\) in \u00b0C) and relative humidity ( \\(\\:{RH}\\) in %) of the nine data loggers were used in Eq. 3 to calculate VPD:",
+      "char_offset": 20647
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on the values for VPD from the nine datalogger positions, VPD values for the position of each container were interpolated.",
+      "char_offset": 20804
+    },
+    {
+      "type": "paragraph",
+      "text": "Response of TR to VPD is commonly examined via a segmented linear regression [ 27 , 31 , 46 ] which determines the breakpoint (BP) VPD value above which transpiration is restricted. Additionally, two slopes are determined: Slope 1, characterizing the response of TR to VPD values below the breakpoint, and Slope 2, characterizing the response of TR to VPD values above the breakpoint. \u0394Slope, calculated as the difference between Slope 1 and Slope 2, characterizes the strength of transpiration restriction. Since the transpiration response to VPD was measured under ambient uncontrolled conditions, only days where VPD exceeded 3 kPa were considered for evaluation, as on cool and moist days with low VPD, no restriction of transpiration in response to VPD is expected. This was the case for six days during grain filling (180 das, 184 das, 185 das, 186 das, 187 das and 189 das). Furthermore, only the timeframe between 6:00 and 17:00 was considered. The segmented regression analysis was performed for each container individually. Starting from a linear model (Y = Slope \u00d7 X + Intercept) we first tested whether a significant change in slope could be observed for the relationship between VPD and TR. In cases where the majority of container-day-combinations for one genotype showed a significant change in slope, the genotype was considered to have a segmented transpiration response to VPD. If a small fraction of observations for one genotype did not show a significant breakpoint, the corresponding observations were excluded from further evaluation. All genotypes expressed a predominant pattern of a segmented transpiration response. The segmented linear regression model (for X < BP: Y1 = Slope1 \u00d7 X + Intercept1 and for X > BP: Y2 = Slope2 \u00d7 X + Intercept2) was then applied to estimate BP, Slope 1, Slope 2, and \u0394Slope. If one of the parameters resulting from the segmented regression was lower than Q1\u20131.5 IQR or higher than Q3 + 1.5 IQR, it was declared as an outlier and the complete segmented regression analysis for this observation was excluded from further analysis. Additionally, segmented regression models showing a low fit (R 2 < 0.5; 16 observations) were excluded.",
+      "char_offset": 20934
+    },
+    {
+      "type": "paragraph",
+      "text": "Linear mixed models allow for both fixed and random effects. Here, linear mixed models were applied to estimate adjusted means for BP, Slope 1, Slope 2, and \u0394Slope across three replications and six days for each genotype. The following linear mixed model was applied (Eq. 4 ):",
+      "char_offset": 23125
+    },
+    {
+      "type": "paragraph",
+      "text": "where \\(\\:{{P}}_{{ijklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{g}}_{{i}}\\) is the fixed effect of the \\(\\:{i}\\) th genotype, \\(\\:{{D}}_{{j}}\\) is the random effect of the \\(\\:{j}\\) th day from which the observation originates, \\(\\:{{(GD)}}_{{ij}}\\) is the random effect of genotype \\(\\:\\:{i}\\) within day \\(\\:{j}\\) , \\(\\:{{B}}_{{k}}\\) is the random effect of the \\(\\:{k}\\) th block, \\(\\:{{Z}}_{{l}}\\) is the random effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{C}}_{{m}}\\) is the random effect of the \\(\\:{m}\\) th column, \\(\\:{{R}}_{{n}}\\) is the random effect of the \\(\\:n\\) th replication and \\(\\:{{e}}_{{ijklmn}}\\) is the error term.",
+      "char_offset": 23403
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to estimate repeatability, the genetic variance and the standard error of the difference between the means is required [ 47 ]. To estimate variance components, including the genetic variance, for the transpiration response traits, a modified version of the model in Eq. 4 was used with all factors random (Eq. 5 ):",
+      "char_offset": 24076
+    },
+    {
+      "type": "paragraph",
+      "text": "where \\(\\:{{P}}_{{ijklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{G}}_{{i}}{\\:}\\) is the random effect of the \\(\\:{i}\\) th genotype, \\(\\:{{D}}_{{j}}\\) is the random effect of the \\(\\:{j}\\) th day from which the observation originates, \\(\\:{{(GD)}}_{{ij}}\\) is the random effect of genotype \\(\\:{i}\\) within day \\(\\:{j}\\) , \\(\\:{{B}}_{{k}}\\) is the random effect of the \\(\\:{k}\\) th block, \\(\\:{{Z}}_{{l}}\\) is the random effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{C}}_{{m}}\\) is the random effect of the \\(\\:{m}\\) th column, \\(\\:{{R}}_{{n}}\\) is the random effect of the \\(\\:{n}\\) th replication and \\(\\:{{e}}_{{ijklmn}}\\) is the error term.",
+      "char_offset": 24401
+    },
+    {
+      "type": "paragraph",
+      "text": "The model in Eq. 6 was used to estimate the standard error of the difference between the means for repeatability ( \\(\\:{h}^{2}\\) ) estimation.",
+      "char_offset": 25079
+    },
+    {
+      "type": "paragraph",
+      "text": "where \\(\\:{{P}}_{{ijklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{g}}_{{i}}{\\:}\\) is the fixed effect of the \\(\\:{i}\\) th genotype, \\(\\:{{d}}_{{j}}\\) is the fixed effect of the \\(\\:{j}\\) th day from which the observation originates, \\(\\:{{b}}_{{k}}\\) is the fixed effect of the \\(\\:{k}\\) th block, \\(\\:{{z}}_{{l}}\\) is the fixed effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{c}}_{{m}}\\) is the fixed effect of the \\(\\:{m}\\) th column, \\(\\:{{r}}_{{n}}\\) is the fixed effect of the \\(\\:{n}\\) th replication, \\(\\:{{(GD)}}_{{ij}}\\) is the random effect of genotype \\(\\:{i}\\) within day \\(\\:{j}\\) , and \\(\\:{{e}}_{{ijklmn}}\\) is the error term.",
+      "char_offset": 25223
+    },
+    {
+      "type": "paragraph",
+      "text": "Subsequently, repeatability was estimated using Eq. 7 :",
+      "char_offset": 25896
+    },
+    {
+      "type": "paragraph",
+      "text": "where \u03c3 2 G is the the genetic variance from Eq. 5 and SE is the standard error of the difference between the means from Eq. 6 .",
+      "char_offset": 25953
+    },
+    {
+      "type": "paragraph",
+      "text": "To estimate adjusted means for the traits that were assessed only once during the vegetation period, a different model was used. For all harvest traits and the TE from Eq. 2 , the following model in Eq. 8 was used to estimate adjusted treatment means for each genotype across the three replicates:",
+      "char_offset": 26083
+    },
+    {
+      "type": "paragraph",
+      "text": "where \\(\\:{{P}}_{{iklmn}}\\) represents the observed phenotype, \\(\\:{\\mu}\\) is the general mean, \\(\\:{{g}}_{{i}}\\) is the fixed effect of the \\(\\:{i}\\) th genotype, \\(\\:{{B}}_{{k}}\\) is the random effect of the \\(\\:{k}\\) th block, \\(\\:{{Z}}_{{l}}\\) is the random effect for the \\(\\:{\\:l}\\) th row, \\(\\:{{C}}_{{m}}\\) is the random effect of the \\(\\:{m}\\) th column, \\(\\:{{R}}_{{n}}\\) is the random effect of the \\(\\:{n}\\) th replication and \\(\\:{{e}}_{{iklmn}}\\) is the error term.",
+      "char_offset": 26382
+    },
+    {
+      "type": "paragraph",
+      "text": "The model in Eq. 8 , however with all factors random, was used to estimate genetic variance \\(\\:{{\\sigma}}_{{G}}^{{2}}\\) and the error variance \\(\\:{{\\sigma}}_{{e}}^{{2}}\\) to calculate repeatability for the endpoint traits in Eq. 9 , where \\(\\:{nrep}\\) is the number of replications:",
+      "char_offset": 26863
+    },
+    {
+      "type": "paragraph",
+      "text": "K-Means clustering was applied to classify genotypes based on their transpiration responses to VPD, in order to identify groups with distinct transpiration responses. The K-Means clustering was based on the value for breakpoint and \u0394Slope, which represent key features from the segmented regression analysis. The optimal number of clusters was determined by assessing the within-cluster sum of squares.",
+      "char_offset": 27149
+    },
+    {
+      "type": "paragraph",
+      "text": "Data analysis was performed using the statistical programming language and environment R (version 4.1.1; R Core Team, 2021). The segmented regression analysis was performed using the R package segmented [ 48 ]. For modelling of the linear mixed effect models, the R package lmerTest [ 49 ] was used, and emmeans [ 50 ] was used to calculate adjusted means. The package multcomp [ 51 ] was used to create compact letter displays. Least significant differences (LSD) were calculated by multiplying the standard error of the difference of means with the 1 \u2013 \u03b1 quantile of the normal distribution where \u03b1 is 0.1.",
+      "char_offset": 27553
+    },
+    {
+      "type": "paragraph",
+      "text": "Among the 79 genotypes tested in the DroughtSpotter XXL trial, analysis of variance (ANOVA) revealed highly significant genotype effects on cumulative transpiration ( p = 0.002) and TE ( p = < 0.001), ranging between 62.11 and 89.86 kg and 2.12\u20133.00 g kg \u2212 1 , respectively (Table 1 ). Significant genotypic variation was also observed for total biomass ( p = 0.049), grain yield ( p = 0.001), yield components and HI ( p = < 0.001) (Table 1 ). Repeatability for cumulative transpiration and TE was h 2 = 0.45 and h 2 = 0.71, respectively. As expected, transpiration was strongly correlated to grain yield ( r = 0.64, p = < 0.001).",
+      "char_offset": 28163
+    },
+    {
+      "type": "paragraph",
+      "text": "Developmental-stage specific transpiration efficiency (dTE) is defined here as the ratio between the digital biomass estimated by the 3D scanner per unit of transpired water within a certain developmental stage. Analyzing Kendall rank correlation coefficients for dTE from 95 days after sowing until harvest revealed a consistently high correlation between dTE values over two consecutive days, but correlation between dTE values from earlier and later developmental stages was much weaker, indicating developmental stage-specific performance of the genotypes for dTE (Fig. 3 ).",
+      "char_offset": 28796
+    },
+    {
+      "type": "paragraph",
+      "text": "Kendall rank correlation for developmental-stage specific transpiration efficiency. The upper triangle shows the Kendall rank correlation coefficients for adjusted mean values between developmental-stage specific transpiration efficiency from 95 up to 211 days after sowing, with blue colours for weak correlations and yellow colours for strong correlations. The lower triangle provides information on developmental stages and drought stress conditions",
+      "char_offset": 29376
+    },
+    {
+      "type": "paragraph",
+      "text": "Four macro stages were more closely evaluated: tillering, stem elongation, heading, flowering and ripening. ANOVA showed a highly significant genotype effect on dTE at each developmental stage ( p = < 0.001) as well as a significant effect of genotype-by-developmental stage interaction ( p = < 0.001), indicating developmental stage-specific variation for genotype rankings in TE. Repeatability for dTE at each developmental stage was high (h 2 > 0.87) (Table 2 ).",
+      "char_offset": 29830
+    },
+    {
+      "type": "paragraph",
+      "text": "During the six-day period (between 180 and 189 das) in which transpiration in response to VPD was evaluated, the temperature in the greenhouse ranged on average between 19.3 \u00b0C and 40.5 \u00b0C across all nine positions during daytime (06:00\u201317:00), while relative humidity ranged between 26.3% and 75.9%. This led to an average range in VPD across all nine positions from 0.55 kPa to 5.76 kPa (see Supplementary Fig. S2 for the range of temperature and VPD over the course of six days).",
+      "char_offset": 30297
+    },
+    {
+      "type": "paragraph",
+      "text": "TR started to increase, along with VPD, at around 6:00. VPD continued to increase until it reached its maximum between 13:00 and 15:00, when TR more or less reached a plateau. TR decreased after 15:00, as the VPD decreased. To characterise this response of TR to the daily cycle of VPD, TR was plotted against VPD and a segmented linear regression model was applied, to identify the VPD breakpoint, Slope 1, Slope 2 and \u2206Slope (Fig. 4 ).",
+      "char_offset": 30781
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationship between transpiration rate and VPD. To demonstrate, the TR response to VPD is visualised for one container on 11 June 2021. TR is plotted against ambient VPD in the DroughtSpotter XXL facility. A linear segmented regression was applied to understand the relationship between transpiration rate and VPD. The vertical dashed line indicates the breakpoint",
+      "char_offset": 31220
+    },
+    {
+      "type": "paragraph",
+      "text": "Adjusted genotype means for the VPD breakpoints ranged from 2.75 kPa to 4.1 kPa. A lower breakpoint might suggest a more conservative use of water. Slope 1 ranged from 0.73 to 1.67 g min \u2212 1 m \u2212 2 kPa \u2212 1 . When the VPD exceeds the breakpoint, TR plateaued for most genotypes, resulting in a Slope 2 between \u2212 0.09 and 0.28 g min \u2212 1 m \u2212 2 kPa \u2212 1 . Significant genotypic variation was identified for breakpoint, Slope 1, Slope 2 and \u2206Slope ( p = < 0.001), indicated that genotypes differed in their transpiration response to VPD (Fig. 5 ). Repeatability for these traits was moderate to high (Table 3 ).",
+      "char_offset": 31587
+    },
+    {
+      "type": "paragraph",
+      "text": "Transpiration response to varying VPD in a set of 79 winter wheat lines tested in the DroughtSpotter XXL. Data show adjusted mean values. The blue vertical line indicates the LSD calculated on a significance level of 10%. The horizontal solid line shows the mean values across all genotypes, the dashed horizontal lines show \u00b1 1SD. ( a ) shows genotypic variation for the breakpoint, ( b ) shows genotypic variation for Slope 1, ( c ) shows genotypic variation for Slope 2 and ( d ) shows genotypic variation for \u2206Slope",
+      "char_offset": 32193
+    },
+    {
+      "type": "paragraph",
+      "text": "There was a significant positive correlation between Slope 1 and Slope 2 ( r = 0.34, p = 0.002, Supplementary Fig. S6 ). This indicates that genotypes with high transpiration at a low VPD exhibited a higher transpiration at high VPD. Slope 1 and \u2206Slope were strongly correlated ( r = 0.88, p < 0.001), indicating that genotypes differ not only in their reaction to contrasting VPD levels and also in their constitutive reaction to VPD (Table 4 ).",
+      "char_offset": 32714
+    },
+    {
+      "type": "paragraph",
+      "text": "Among the four traits that describe the response of TR to VPD, Slope 1 and Slope 2 were moderately correlated to T ( r = 0.27, p = 0.01 and r = 0.27, p = 0.02) (Table 4 ), but no significant correlation to TE was identified. However, a positive moderate correlation between Slope 2 and grain yield was detected ( r = 0.31, p = 0.005), indicating a lower restriction will result in a higher transpiration and therefore higher grain yield due to the strong positive correlation between grain yield and T. Additionally, TGW correlated positively to the breakpoint ( r = 0.28, p = 0.01) and to Slope 1 ( r = 0.29, p = 0.01). The breakpoint was uncorrelated to the other three transpiration response traits, allowing for various combinations between breakpoint and Slope 1, Slope 2 and \u2206Slope.",
+      "char_offset": 33162
+    },
+    {
+      "type": "paragraph",
+      "text": "To explore how these trait combinations reflect in multispectral traits (Green Leaf Index and Normalized Vegetation Difference Index), K-means clustering based on the traits breakpoint and \u2206Slope was applied to identify distinct groups with differing transpiration response to VPD. That way, all genotypes were categorized into four clusters based on their breakpoint and \u2206Slope (Supplementary Fig. S7 , Supplementary Fig. S8 ). Cluster \u201cSR\u201d (strong restriction) included 24 genotypes that exhibited a strong transpiration restriction, initiating restriction at a low VPD (low breakpoint) and strongly limited transpiration beyond that breakpoint (high \u2206Slope). Cluster \u201cLSR\u201d (late strong restriction) included 15 genotypes that were characterized by a \u201clate\u201d but strong restriction, restricting transpiration only at a high VPD (high breakpoint) but substantially limiting transpiration beyond that breakpoint (high \u2206Slope). Cluster \u201cLR\u201d (low restriction) included 26 genotypes that displayed a low transpiration restriction (high breakpoint and low \u2206Slope), while Cluster \u201cELR\u201d (early low restriction) included 14 genotypes which were characterized by an \u201cearly\u201d but low restriction (low breakpoint and low \u2206Slope) (Table 5 ).",
+      "char_offset": 33952
+    },
+    {
+      "type": "paragraph",
+      "text": "The differing response of transpiration to VPD among the clusters was also reflected by their stay-green characteristics (Fig. 6 ). LR genotypes showed a significantly lower Green Leaf Index (GLI) than SR and LSR genotypes, at 14 days after drought stress application, whereas SR genotypes maintained a significantly higher GLI than ELR genotypes for up to 23 days after drought stress application (analysis of transpiration response to VPD took place on six days between 17 days after drought stress application and 25 days after drought stress application) (Fig. 6 a).",
+      "char_offset": 35182
+    },
+    {
+      "type": "paragraph",
+      "text": "( a ) Green leaf index (GLI) and ( b ) normalized difference vegetation index (NDVI) on the day of drought stress (ds) application (0d after ds), seven days after drought stress application (7d after ds), 14 days after drought stress application (14d after ds), 23 days after drought stress application (23d after ds) and 30 days after drought stress application (30d after ds). The letters above the boxplots indicate significant ( p < 0.05) differences between mean values. When the mean values are significantly different, the letters indicate the highest to lowest mean value in alphabetical order",
+      "char_offset": 35754
+    },
+    {
+      "type": "paragraph",
+      "text": "These differences are less pronounced for NDVI. Significantly lower NDVI first appeared 23 days after drought stress application in cluster ELR compared to the SR and LSR genotypes. By 30 days after drought stress application, the genotypes in the SR cluster still exhibited a significantly higher NDVI than the genotypes in cluster ELR, while no significant differences between the other clusters were identified (Fig. 6 b).",
+      "char_offset": 36357
+    },
+    {
+      "type": "paragraph",
+      "text": "Evaluating performance of different crop genotypes under drought stress conditions by phenotyping for transpiration and TE is a challenging task because it is difficult to manipulate field drought stress conditions in the required intensity and timing, while it is also difficult to accurately measure transpiration in field environments with the necessary precision and resolution. On the other hand, automated, precise and comprehensive phenotyping of a wide range of traits is possible under controlled environments, but results from controlled-environment experiments are frequently not transferable to a field environment. Large containers can help to \u201cbring the field into the greenhouse\u201d [ 36 , 39 , 43 ], and in contrast to small pots they can allow a planting density and root growth, similar to the conditions in field environments [ 37 , 38 ]. The DroughtSpotter XXL platform utilised in this study combines large containers with automated, gravimetric \u201creal-time\u201d phenotyping of transpiration, while a dual 3D laser scanner simultaneously enabled monitoring of plant growth and morphological and multispectral traits throughout the crop lifecycle. This combination enabled us to uncover key characteristics and dynamics of transpiration and plant growth and identify genotype-specific differences regarding these traits. This led to the identification of a number of physiological traits related to TE at different stages of development, with high heritability and high expected relevance to field conditions.",
+      "char_offset": 36784
+    },
+    {
+      "type": "paragraph",
+      "text": "To the best of our knowledge, this is the first study reporting real-time measurements of transpiration response to changes in VPD in a large panel of wheat genotypes growing under conditions with realistic root growth and plant densities (48 plants per container are equivalent to 300 plants m \u2212 2 ) and therefore conditions with high significance for field environments. Therefore, the experimental setup delivers several advantages in contrast to previous studies conducted either in highly controlled environments like growth chambers, using only small pots that restrict root growth and skew transpiration data, where single plants were tested instead of plant communities, where only a few measurements were taken over a limited time period, where plants were evaluated only in early growth stages or where only few genotypes were tested and compared in detail. The traits describing the transpiration response to VPD and the developmental-stage specific transpiration efficiency showed moderate to very high repeatability (h\u00b2 = 0.31\u20130.74 and h\u00b2 = 0.87\u20130.91, respectively).",
+      "char_offset": 38307
+    },
+    {
+      "type": "paragraph",
+      "text": "There are also certain limitations of this phenotyping method that need to be critically reflected upon. Even though this system aims at mirroring field environments as closely as possible to enable a high significance for the field it is obvious that the conditions are still very different from the field. Growing conditions do not \u2013 as it is usually the case with all comparisons of experiments \u2013 represent a perfect copy of the vegetation conditions in the field. Even though larger root volume is provided in this system compared to many other phenotyping platforms that aim at transpiration assessment, the root volume is still smaller than the plants would experience in the field. The major restriction within this system represents the implemented irrigation system. Irrigation to a target container weight means that \u201cwater-spending\u201d genotypes receive more water while \u201cwater-saving\u201d genotypes are irrigated less [ 52 ]. Due to the factual positive correlation of yield and transpiration, water-saving genotypes also showed a lower yield in this experimental set-up. This is a methodological restriction of the watering regime we applied: While transpiration characteristics can be observed easily and precisely, the causal cascade from limited water availability over different genotypic transpiration restriction strategies on grain yield (for example) is not straightforward to compare with the field situation. However, this method allows for a reliable determination of traits that occur in conjunction with this trait. The subtrait \u201ctranspiration response to VPD\u201d can be recorded and isolated under conditions of sufficient root depth, a field-like stand density and without other physiological disturbance variables (e.g. hormone response in relation to different degrees of soil moisture removal). A similar phenotyping approach under ambient \u201coutdoor\u201d conditions has already been applied to successfully distinguish the transpiration response to VPD between groups of wild chickpea genotypes and cultivated chickpea genotypes with distinct transpiration efficiency, showing the applicability and effectiveness of such phenotyping approaches for the detection of transpiration reactions to environmental factors [ 53 ]. The comparatively high repeatability in our study underlines the high precision of the large-scale system \u2013 despite very similar elite wheat genotypes \u2013 and the ability of detection of inherited characteristics related to a differential transpiration response. Despite potential limitations, the phenotyping system represents a satisfactory compromise between high-throughput precision phenotyping, with relevance for field conditions, and feasibility.",
+      "char_offset": 39388
+    },
+    {
+      "type": "paragraph",
+      "text": "Phenotyping under realistic and varying conditions is considered decisive for generating meaningful phenotypic data, but every medal has two sides: The dependency on external factors necessitated that the measurement of transpiration response to increasing VPD was contingent upon the occurrence of the appropriate conditions (i.e. high VPD). Consequently, due to the climate conditions while this study was conducted, measurements of transpiration response to VPD could only be performed effectively during grain filling when these conditions were met. This also implies that the results might be difficult to compare to results from other controlled-environment studies, in which plants are usually assessed only in earlier developmental stages. Of course, it remains open whether the results can be attributed to the transpiration response to VPD during earlier stages. Nonetheless, the high repeatability we observed for transpiration response traits underscores the significance of the study as a cornerstone for future research, providing a blueprint for the detailed exploration of other developmental stages.",
+      "char_offset": 42080
+    },
+    {
+      "type": "paragraph",
+      "text": "The \u201ceffective\u201d use of water is agreed to be pivotal for maintaining high performance of crops, especially when water is limited [ 18 , 54 ], as this results in the conservation of soil water to enable an even water availability throughout the growing season. One key water conservation trait in crops is the restriction of TR in response to elevated VPD. This study evaluated the transpiration response to varying levels of VPD in a large set of winter wheat genotypes and found significant differences among the tested genotypes in the VPD values above which transpiration is restricted as well as in their response in TR to VPD below and above the VPD breakpoint.",
+      "char_offset": 43198
+    },
+    {
+      "type": "paragraph",
+      "text": "Most previous studies of this kind identified two distinct groups of genotypes: genotypes with an unsegmented transpiration response that increased TR in a linear manner along with VPD, and genotypes with a segmented transpiration response which restricted transpiration response at elevated VPD (e.g. 31 , 42 ). In contrast to this, none of the genotypes tested in our study could be clearly associated with a linear unsegmented transpiration response; indeed, all genotypes exposed a breakpoint and therefore a segmented transpiration response to VPD. This might be due to the genotypic proximity of the tested wheat lines, which represent a sample from German commercial breeding programs and are adapted to contemporary climatic conditions in Central Europe.",
+      "char_offset": 43866
+    },
+    {
+      "type": "paragraph",
+      "text": "Genotypic variation for response to VPD has been identified in a large number of crop species, such as soybean [ 46 , 55 ], maize [ 42 , 56 ], canola [ 43 ], sorghum [ 57 ], peanut [ 58 ] chickpea [ 28 , 53 ], pearlmillet [ 16 ], and wheat [ 27 , 31 , 59 ]. For bread wheat ( Triticum aestivum L.), differences in the VPD breakpoint between various wheat lines were detected in a range of 2.4\u20133.9 kPa and genotypic variation was identified both for transpiration response below the breakpoint as well as above the breakpoint [ 59 ]. In a different study with durum wheat, much lower breakpoints of approximately 1 kPa and much less variation between the genotypes was observed [ 31 ]. The adaptation of durum wheat to Mediterranean conditions includes improved tolerance to drought and heat stress. The low breakpoint identified in durum wheat [ 31 ] aligns with the idea that a strong transpiration restriction in response to VPD enhances performance in water-limited environments. The breakpoints observed for wheat in our study ranged between 2.75 and 4.1 kPa and are only slightly higher than those reported for bread wheat in the above mentioned study [ 59 ], but clearly higher than the breakpoints reported for durum wheat [ 31 ].",
+      "char_offset": 44630
+    },
+    {
+      "type": "paragraph",
+      "text": "Our results showed positive correlations between Breakpoint and TGW as well as between Slope 1 and TGW, and a positive correlation between Slope 2 and grain yield (Table 4 ). Thus, a lower transpiration restriction, demonstrated by a higher breakpoint and a higher Slope 2, is associated with a higher TGW and grain yield. Furthermore, no correlation was observed between the transpiration restriction traits and TE (Table 4 ). This appears contradictory, as a higher restriction of TR at elevated VPD would be expected to result in improved TE and higher grain yield compared to genotypes with lower transpiration restriction, under the hypothesis that the restriction of transpiration at unfavourable VPD conditions contributes to water saving. However, due to the irrigation strategy implemented, water-spending genotypes in our experimental setup received a larger quantity of water, resulting in a higher yield compared to water-saving genotypes.",
+      "char_offset": 45869
+    },
+    {
+      "type": "paragraph",
+      "text": "This study provides a valuable proof of concept for future investigations of transpiration response to VPD using high-resolution, continuous precision phenotyping of water use in crop plants grown under realistic but controlled conditions. High repeatability for VPD response and developmental stage specific transpiration efficiency demonstrates that this kind of facility can provide highly relevant insight into how transpiration dynamics interact across different developmental stages. A future aim is to quantify how these interactions impact yield performance and following that, to identify remote sensing patterns corresponding to stress-induced transpiration dynamics and, therefore, bridge the gap between precision phenotyping studies of this kind (restricted to relatively small population sizes) and field evaluations with larger breeding populations [ 60 ]. Knowledge gained in the present study aid identification of the genetic basis of VPD response traits as a basis to facilitate breeding for crops adapted to an altered climate.",
+      "char_offset": 46822
+    },
+    {
+      "type": "paragraph",
+      "text": "The data in support of this study are available from the corresponding author, Anna Moritz, upon request.",
+      "char_offset": 47871
+    },
+    {
+      "type": "paragraph",
+      "text": "Developmental-stage specific transpiration efficiency",
+      "char_offset": 47978
+    },
+    {
+      "type": "paragraph",
+      "text": "IPPC. Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. 2022.",
+      "char_offset": 48033
+    },
+    {
+      "type": "paragraph",
+      "text": "Lobell DB, Hammer GL, McLean G, Messina C, Roberts MJ, Schlenker W. The critical role of extreme heat for maize production in the United States. Nat Clim Change. 2013;3(5):497\u2013501.",
+      "char_offset": 48212
+    },
+    {
+      "type": "paragraph",
+      "text": "Snowdon RJ, Wittkop B, Chen TW, Stahl A. Crop adaptation to climate change as a consequence of long-term breeding. Theor Appl Genet. 2021;134(6):1613\u201323.",
+      "char_offset": 48394
+    },
+    {
+      "type": "paragraph",
+      "text": "Tardieu F. Any trait or trait-related allele can confer drought tolerance: just design the right drought scenario. J Exp Bot. 2012;63(1):25\u201331.",
+      "char_offset": 48549
+    },
+    {
+      "type": "paragraph",
+      "text": "Vadez V, Kholova J, Medina S, Kakkera A, Anderberg H. Transpiration efficiency: new insights into an old story. J Exp Bot. 2014;65(21):6141\u201353.",
+      "char_offset": 48694
+    },
+    {
+      "type": "paragraph",
+      "text": "Kirkegaard JA, Hunt JR. Increasing productivity by matching farming system management and genotype in water-limited environments. J Exp Bot. 2010;61(15):4129\u201343.",
+      "char_offset": 48839
+    },
+    {
+      "type": "paragraph",
+      "text": "Passioura J. Grain yield, harvest index, and water use of wheat. J Aust Inst Agric Sci. 1977;43:117\u201320.",
+      "char_offset": 49002
+    },
+    {
+      "type": "paragraph",
+      "text": "Vadez V. Root hydraulics: the forgotten side of roots in drought adaptation. Field Crops Res. 2014;165:15\u201324.",
+      "char_offset": 49107
+    },
+    {
+      "type": "paragraph",
+      "text": "Manschadi AM, Christopher J, deVoil P, Hammer GL, Manschadi AM, Christopher J, et al. The role of root architectural traits in adaptation of wheat to water-limited environments. Funct Plant Biol. 2006;33(9):823\u201337.",
+      "char_offset": 49218
+    },
+    {
+      "type": "paragraph",
+      "text": "Lilley JM, Kirkegaard JA. Benefits of increased soil exploration by wheat roots. Field Crops Res. 2011;122(2):118\u201330.",
+      "char_offset": 49434
+    },
+    {
+      "type": "paragraph",
+      "text": "Schoppach R, Wauthelet D, Jeanguenin L, Sadok W. Conservative water use under high evaporative demand associated with smaller root metaxylem and limited trans-membrane water transport in wheat. Funct Plant Biol. 2014;41(3):257.",
+      "char_offset": 49553
+    },
+    {
+      "type": "paragraph",
+      "text": "Maurel C, Boursiac Y, Luu DT, Santoni V, Shahzad Z, Verdoucq L. Aquaporins in plants. Physiol Rev. 2015;95(4):1321\u201358.",
+      "char_offset": 49782
+    },
+    {
+      "type": "paragraph",
+      "text": "Patel J, Mishra A. Plant aquaporins alleviate drought tolerance in plants by modulating cellular biochemistry, root-architecture, and photosynthesis. Physiol Plant. 2021;172(2):1030\u201344.",
+      "char_offset": 49902
+    },
+    {
+      "type": "paragraph",
+      "text": "Calvo-Polanco M, Ribeyre Z, Dauzat M, Reyt G, Hidalgo-Shrestha C, Diehl P, et al. Physiological roles of Casparian strips and suberin in the transport of water and solutes. New Phytol. 2021;232(6):2295\u2013307.",
+      "char_offset": 50089
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 50297
+    },
+    {
+      "type": "paragraph",
+      "text": "Richards R, Passioura J. A breeding program to reduce the diameter of the major xylem vessel in the seminal roots of wheat and its effect on grain yield in rain-fed environments. Aust J Agric Res. 1989;40(5):943.",
+      "char_offset": 50347
+    },
+    {
+      "type": "paragraph",
+      "text": "Kholov\u00e1 J, Hash CT, Kumar PL, Yadav RS, Ko\u010dov\u00e1 M, Vadez V. Terminal drought-tolerant pearl millet [ Pennisetum glaucum (L.) R. Br.] have high leaf ABA and limit transpiration at high vapour pressure deficit. J Exp Bot. 2010;61(5):1431\u201340.",
+      "char_offset": 50561
+    },
+    {
+      "type": "paragraph",
+      "text": "Vadez V, Kholov\u00e1 J, Yadav RS, Hash CT. Small temporal differences in water uptake among varieties of pearl millet ( Pennisetum glaucum (L.) R. Br.) are critical for grain yield under terminal drought. Plant Soil. 2013;371(1):447\u201362.",
+      "char_offset": 50801
+    },
+    {
+      "type": "paragraph",
+      "text": "Sinclair TR. Effective water use required for improving crop growth rather than transpiration efficiency. Front Plant Sci. 2018;9:1442. https://doi.org/10.3389/fpls.2018.01442",
+      "char_offset": 51035
+    },
+    {
+      "type": "paragraph",
+      "text": "Schoppach R, Sadok W. Differential sensitivities of transpiration to evaporative demand and soil water deficit among wheat elite cultivars indicate different strategies for drought tolerance. Environ Exp Bot. 2012;84:1\u201310.",
+      "char_offset": 51212
+    },
+    {
+      "type": "paragraph",
+      "text": "Vadez V, Kholova J, Zaman-Allah M, Belko N. Water: the most important \u2018molecular\u2019 component of water stress tolerance research. Funct Plant Biol. 2013;40(12):1310\u201322.",
+      "char_offset": 51436
+    },
+    {
+      "type": "paragraph",
+      "text": "Sinclair TR, Devi J, Shekoofa A, Choudhary S, Sadok W, Vadez V, et al. Limited-transpiration response to high vapor pressure deficit in crop species. Plant Sci. 2017;260:109\u201318.",
+      "char_offset": 51604
+    },
+    {
+      "type": "paragraph",
+      "text": "Sinclair TR, Zwieniecki MA, Holbrook NM. Low leaf hydraulic conductance associated with drought tolerance in soybean. Physiol Plant. 2008;132(4):446\u201351.",
+      "char_offset": 51783
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadok W, Sinclair TR. Transpiration response of \u2018slow-wilting\u2019 and commercial soybean ( Glycine max (L.) Merr.) genotypes to three aquaporin inhibitors. J Exp Bot. 2010;61(3):821\u20139.",
+      "char_offset": 51937
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadok W, Sinclair TR. Genetic variability of transpiration response of soybean [ Glycine max (L.) Merr.] shoots to leaf hydraulic conductance inhibitor AgNO 3 . Crop Sci. 2010;50(4):1423\u201330.",
+      "char_offset": 52120
+    },
+    {
+      "type": "paragraph",
+      "text": "Choudhary S, Sinclair T, Messina C, Cooper M. Hydraulic conductance of maize hybrids differing in transpiration response to vapor pressure deficit. Crop Sci. 2014;54:1147.",
+      "char_offset": 52312
+    },
+    {
+      "type": "paragraph",
+      "text": "Collins B, Chapman S, Hammer G, Chenu K. Limiting transpiration rate in high evaporative demand conditions to improve Australian wheat productivity. in silico Plants. 2021;3(1):diab006. https://doi.org/10.1093/insilicoplants/diab006",
+      "char_offset": 52485
+    },
+    {
+      "type": "paragraph",
+      "text": "Schoppach R, Fleury D, Sinclair TR, Sadok W. Transpiration sensitivity to evaporative demand across 120 years of breeding of Australian wheat cultivars. J Agron Crop Sci. 2017;203(3):219\u201326.",
+      "char_offset": 52719
+    },
+    {
+      "type": "paragraph",
+      "text": "Zaman-Allah M, Jenkinson DM, Vadez V. Chickpea genotypes contrasting for seed yield under terminal drought stress in the field differ for traits related to the control of water use. Funct Plant Biol. 2011;38(4):270\u201381.",
+      "char_offset": 52911
+    },
+    {
+      "type": "paragraph",
+      "text": "Kholov\u00e1 J, Murugesan T, Kaliamoorthy S, Malayee S, Baddam R, Hammer GL, et al. Modelling the effect of plant water use traits on yield and stay-green expression in sorghum. Funct Plant Biol. 2014;41(11):1019\u201334.",
+      "char_offset": 53131
+    },
+    {
+      "type": "paragraph",
+      "text": "Messina CD, Sinclair TR, Hammer GL, Curan D, Thompson J, Oler Z, et al. Limited-transpiration trait may increase maize drought tolerance in the US corn belt. Agron J. 2015;107(6):1978\u201386.",
+      "char_offset": 53344
+    },
+    {
+      "type": "paragraph",
+      "text": "Medina S, Vicente R, Nieto-Taladriz MT, Aparicio N, Chairi F, Vergara-Diaz O, et al. The plant-transpiration response to vapor pressure deficit (VPD) in durum wheat is associated with differential yield performance and specific expression of genes involved in primary metabolism and water transport. Front Plant Sci. 2019;9:1994.",
+      "char_offset": 53533
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 53864
+    },
+    {
+      "type": "paragraph",
+      "text": "Gosa SC, Lupo Y, Moshelion M. Quantitative and comparative analysis of whole-plant performance for functional physiological traits phenotyping: New tools to support pre-breeding and plant stress physiology studies. Plant Sci. 2019;282:49\u201359.",
+      "char_offset": 53910
+    },
+    {
+      "type": "paragraph",
+      "text": "Negin B, Moshelion M. The advantages of functional phenotyping in pre-field screening for drought-tolerant crops. Funct Plant Biol. 2017;44(1):107\u201318.",
+      "char_offset": 54153
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadras VO. Effective phenotyping applications require matching trait and platform and more attention to theory. Front Plant Sci. 2019;10:1339. https://doi.org/10.3389/fpls.2019.01339",
+      "char_offset": 54305
+    },
+    {
+      "type": "paragraph",
+      "text": "Langstroff A, Heuermann MC, Stahl A, Junker A. Opportunities and limits of controlled-environment plant phenotyping for climate response traits. Theor Appl Genet. 2022;135(1):1\u201316.",
+      "char_offset": 54489
+    },
+    {
+      "type": "paragraph",
+      "text": "Stahl A, Wittkop B, Snowdon RJ. High-resolution digital phenotyping of water uptake and transpiration efficiency. Trends Plant Sci. 2020;25(5):429\u201333.",
+      "char_offset": 54671
+    },
+    {
+      "type": "paragraph",
+      "text": "Poorter H, B\u00fchler J, van Dusschoten D, Climent J, Postma JA. Pot size matters: a meta-analysis of the effects of rooting volume on plant growth. Funct Plant Biol. 2012;39(11):839.",
+      "char_offset": 54823
+    },
+    {
+      "type": "paragraph",
+      "text": "Poorter H, Fiorani F, Pieruschka R, Wojciechowski T, van der Putten WH, Kleyer M, et al. Pampered inside, pestered outside? Differences and similarities between plants growing in controlled conditions and in the field. New Phytol. 2016;212(4):838\u201355.",
+      "char_offset": 55004
+    },
+    {
+      "type": "paragraph",
+      "text": "Hohmann M, Stahl A, Rudloff J, Wittkop B, Snowdon RJ. Not a load of rubbish: simulated field trials in large-scale containers. Plant Cell Environ. 2016;39(9):2064\u201373.",
+      "char_offset": 55256
+    },
+    {
+      "type": "paragraph",
+      "text": "Vadez V, Kholov\u00e1 J, Hummel G, Zhokhavets U, Gupta SK, Hash CT. LeasyScan: a novel concept combining 3D imaging and lysimetry for high-throughput phenotyping of traits controlling plant water budget. J Exp Bot. 2015;66(18):5581.",
+      "char_offset": 55424
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 55653
+    },
+    {
+      "type": "paragraph",
+      "text": "Knoch D, Abbadi A, Grandke F, Meyer RC, Samans B, Werner CR, et al. Strong temporal dynamics of QTL action on plant growth progression revealed through high-throughput phenotyping in canola. Plant Biotechnol J. 2020;18(1):68\u201382.",
+      "char_offset": 55703
+    },
+    {
+      "type": "paragraph",
+      "text": "Ryan AC, Dodd IC, Rothwell SA, Jones R, Tardieu F, Draye X, et al. Gravimetric phenotyping of whole plant transpiration responses to atmospheric vapour pressure deficit identifies genotypic variation in water use efficiency. Plant Sci. 2016;251:101\u20139.",
+      "char_offset": 55933
+    },
+    {
+      "type": "paragraph",
+      "text": "Luo T, Hu L, Zhang H, Passioura J, Luo T, Hu L, et al. Genotypic variation of conservative and profligate water use in the vegetative and reproductive stages of canola (Brassica napus L). Funct Plant Biol. 2022;49(3):231\u201344.",
+      "char_offset": 56186
+    },
+    {
+      "type": "paragraph",
+      "text": "Vukasovic S, Eckert A, Moritz A, Borsch C, Rudloff S, Snowdon R, et al. Effect of a QTL on wheat chromosome 5B associated with enhanced root dry mass on transpiration and nitrogen uptake under contrasting drought scenarios in wheat. BMC Plant Biol. 2024;24.",
+      "char_offset": 56412
+    },
+    {
+      "type": "paragraph",
+      "text": "Kjaer KH, Ottosen CO. 3D laser triangulation for plant phenotyping in challenging environments. Sens. 2015;15(6):13533\u201347.",
+      "char_offset": 56671
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadok W, Sinclair TR. Genetic variability of transpiration response to vapor pressure deficit among soybean cultivars. Crop Sci. 2009;49(3):955\u201360.",
+      "char_offset": 56795
+    },
+    {
+      "type": "paragraph",
+      "text": "Piepho HP, M\u00f6hring J. Computing heritability and selection response from unbalanced plant breeding trials. Genet. 2007;177(3):1881\u20138.",
+      "char_offset": 56944
+    },
+    {
+      "type": "paragraph",
+      "text": "Muggeo VMR. Interval estimation for the breakpoint in segmented regression: a smoothed score-based approach. Aust N Z J Stat. 2017;59(3):311\u201322.",
+      "char_offset": 57079
+    },
+    {
+      "type": "paragraph",
+      "text": "Kuznetsova A, Brockhoff PB, Christensen RHB. lmerTest Package: tests in Linear mixed effects models. J Stat Softw. 2017;82:1\u201326.",
+      "char_offset": 57225
+    },
+    {
+      "type": "paragraph",
+      "text": "Lenth RV. emmeans: estimated marginal means, aka least-squares means. 2021. https://CRAN.R-project.org/package=emmeans",
+      "char_offset": 57355
+    },
+    {
+      "type": "paragraph",
+      "text": "Hothorn T, Bretz F, Westfall P. Simultaneous inference in general parametric models. Biom J Biom Z. 2008;50(3):346\u201363.",
+      "char_offset": 57475
+    },
+    {
+      "type": "paragraph",
+      "text": "Poorter H, Fiorani F, Stitt M, Schurr U, Finck A, Gibon Y, et al. The art of growing plants for experimental purposes: a practical guide for the plant biologist. Funct Plant Biol. 2012;39(11):821.",
+      "char_offset": 57595
+    },
+    {
+      "type": "paragraph",
+      "text": "Kar S, Tanaka R, Korbu LB, Kholov\u00e1 J, Iwata H, Durbha SS, et al. Automated discretization of \u2018transpiration restriction to increasing VPD\u2019 features from outdoors high-throughput phenotyping data. Plant Methods. 2020;16(1):140.",
+      "char_offset": 57793
+    },
+    {
+      "type": "paragraph",
+      "text": "Article CAS PubMed PubMed Central Google Scholar",
+      "char_offset": 58021
+    },
+    {
+      "type": "paragraph",
+      "text": "Blum A. Effective use of water (EUW) and not water-use efficiency (WUE) is the target of crop yield improvement under drought stress. Field Crops Res. 2009;112(2):119\u201323.",
+      "char_offset": 58071
+    },
+    {
+      "type": "paragraph",
+      "text": "Fletcher AL, Sinclair TR, Allen LH. Transpiration responses to vapor pressure deficit in well watered \u2018slow-wilting\u2019 and commercial soybean. Environ Exp Bot. 2007;61(2):145\u201351.",
+      "char_offset": 58243
+    },
+    {
+      "type": "paragraph",
+      "text": "Gholipoor M, Choudhary S, Sinclair TR, Messina CD, Cooper M. Transpiration response of maize hybrids to atmospheric vapour pressure deficit. J Agron Crop Sci. 2013;199(3):155\u201360.",
+      "char_offset": 58421
+    },
+    {
+      "type": "paragraph",
+      "text": "Shekoofa A, Balota M, Sinclair TR. Limited-transpiration trait evaluated in growth chamber and field for sorghum genotypes. Environ Exp Bot. 2014;99:175\u20139.",
+      "char_offset": 58601
+    },
+    {
+      "type": "paragraph",
+      "text": "Devi MJ, Sinclair TR, Vadez V. Genotypic variation in peanut for transpiration response to vapor pressure deficit. Crop Sci. 2010;50(1):191\u20136.",
+      "char_offset": 58758
+    },
+    {
+      "type": "paragraph",
+      "text": "Schoppach R, Sadok W. Transpiration sensitivities to evaporative demand and leaf areas vary with night and day warming regimes among wheat genotypes. Funct Plant Biol. 2013;40(7):708\u201318.",
+      "char_offset": 58902
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang HY, Liu MR, Feng ZH, Song L, Li X, Liu WD, et al. Estimations of water use efficiency in winter wheat based on multi-angle remote sensing. Front Plant Sci. 2021;12:614417.",
+      "char_offset": 59090
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 59269
+    },
+    {
+      "type": "paragraph",
+      "text": "We thank Maximilian Henning and Bernhard Schick (Justus Liebig-University Giessen, Rauischholzhausen, Germany) for technical management of the DroughtSpotter experiment. We thank Sabine Frei, Regina Illgner, Birgit Keiner, Annette Plank, Swetlana Renner, Lennart Scheer, Ingrid Schneider-H\u00fcther and Stavros Tzigos (Justus Liebig-University Giessen, Germany) for valuable help with sample processing and data acquisition. Furthermore, we thank Deutsche Saatveredelung AG, Nordsaat Saatzucht GmbH and W. von Borries-Eckendorf GmbH & Co. KG for providing the breeding lines.",
+      "char_offset": 59315
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access funding enabled and organized by Projekt DEAL. This work was supported by the German Federal Ministry of Food and Agriculture (BMEL grant 2818403A18).",
+      "char_offset": 59888
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Plant Breeding, Justus Liebig University Giessen, Giessen, Germany",
+      "char_offset": 60052
+    },
+    {
+      "type": "paragraph",
+      "text": "Anna Moritz, Andreas Eckert, Stjepan Vukasovic & Rod Snowdon",
+      "char_offset": 60134
+    },
+    {
+      "type": "paragraph",
+      "text": "Institute for Resistance Research and Stress Tolerance, Julius K\u00fchn Institute (JKI) \u2013 Federal Research Centre for Cultivated Plants, Quedlinburg, Germany",
+      "char_offset": 60196
+    },
+    {
+      "type": "paragraph",
+      "text": "AS and RS conceived the study. AM, AE and SV performed the experiments. AM analysed the data. AM and AS wrote the manuscript with contributions from all other authors. All authors approved the submitted version.",
+      "char_offset": 60351
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no competing interests.",
+      "char_offset": 60564
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 60609
+    },
+    {
+      "type": "paragraph",
+      "text": "Below is the link to the electronic supplementary material.",
+      "char_offset": 60729
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ .",
+      "char_offset": 60790
+    },
+    {
+      "type": "paragraph",
+      "text": "Moritz, A., Eckert, A., Vukasovic, S. et al. Physiological phenotyping of transpiration response to vapour pressure deficit in wheat. BMC Plant Biol 24 , 1032 (2024). https://doi.org/10.1186/s12870-024-05692-3",
+      "char_offset": 61643
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1186/s12870-024-05692-3",
+      "char_offset": 61854
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 61904
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 61981
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 62051
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-0dda41fcdd77846b"
+}

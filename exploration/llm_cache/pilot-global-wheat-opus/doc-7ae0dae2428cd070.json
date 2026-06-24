@@ -1,0 +1,40 @@
+{
+  "claims": [
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "For winter wheat, the loss of yield from a crop sown after a late-harvested predecessor such as corn, compared with an early-harvested predecessor such as oats-and-vetch, is twice the benefit from applying fertilizer: almost 2 t/ha compared with less than 1 t/ha.",
+      "claim_summary": "Winter wheat should follow an early-harvested predecessor (e.g. oats-and-vetch) rather than a late-harvested one (e.g. corn); the yield loss from a poor predecessor (~2 t/ha) exceeds the gain from fertilizer",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Inherent soil fertility contributes 90% of the yield of wheat after early-harvested predecessors but only 50% under continuous wheat; poorer soil performance has to be compensated by higher rates of mineral fertilizers and pesticides.",
+      "claim_summary": "Inherent soil fertility supplies ~90% of wheat yield after a good predecessor vs only ~50% under continuous wheat monoculture",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The effect of crop rotation (the difference between yields in crop rotation and continuous cropping) is greater for winter wheat and sugar beet compared with corn-for-grain and sunflower.",
+      "claim_summary": "Crop-rotation yield benefit is greater for winter wheat than for corn-for-grain or sunflower; fertilizers cannot replace crop rotation",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Continuous monocrops yield less than crops grown in rotation, both on unfertilized and fertilized plots; nitrogen-use and water-use efficiency are significantly better in crop rotations.",
+      "claim_summary": "Nitrogen-use efficiency (and water-use efficiency) of wheat is significantly better in crop rotation than in continuous monoculture",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

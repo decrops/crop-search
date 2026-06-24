@@ -1,0 +1,1260 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "MINI REVIEW article",
+      "text": "Front. Plant Sci. , 06 January 2023 Sec. Plant Development and EvoDevo Volume 13 - 2022 | https://doi.org/10.3389/fpls.2022.1093792"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "Plant Development and EvoDevo",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Editor & Reviewers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "MINI REVIEW article",
+      "text": "Front. Plant Sci. , 06 January 2023 Sec. Plant Development and EvoDevo Volume 13 - 2022 | https://doi.org/10.3389/fpls.2022.1093792"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 1,
+      "heading": "Contemplation on wheat vernalization",
+      "text": "Z M Zbyn\u011bk Milec * B S Be\u00e1ta Strej\u010dkov\u00e1 J \u0160 Jan \u0160af\u00e1\u0159 Institute of Experimental Botany of the Czech Academy of Sciences, Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research, Olomouc, Czechia Article metrics View details Abstract Vernalization is a period of low non-freezing temperatures, which provides the competence to flower. This mechanism ensures that plants sown before winter develop reproductive organs in more favourable conditions during spring. Such an evolutionary mechanism has evolved in both monocot and eudicot plants. Studies in monocots, represented by temperate cereals like wheat and barley, have identified and proposed the VERNALIZATION1 ( VRN1 ) gene as a key player in the vernalization response. VRN1 belongs to MADS-box transcription factors and is expressed in the leaves and the apical meristem, where it subsequently promotes flowering. Despite substantial research advancement in the last two decades, there are still gaps in our understanding of the vernalization mechanism. Here we summarise the present knowledge of wheat vernalization. We discuss VRN1 allelic variation, review vernalization models, talk VRN1 copy number variation and devernalization phenomenon. Finally, we suggest possible future directions of the vernalization research in wheat. Introduction Bread wheat ( Triticum aestivum L.) is an allohexaploid species grown worldwide and adapted to different latitudes and climatic conditions. This ability is related to a variation in the two main genes: PPD1 ( PHOTOPERIOD1 , photoperiod response) and VRN1 ( VERNALIZATION1 , vernalization requirement) ( Trevaskis et al., 2003 ; Yan et al., 2003 ; Beales et al., 2007 ). VRN1 belongs to MADS-box (MCM1, AGAMOUS, DEFICIENS, SRF) transcription factors ( Yan et al., 2003 ) and plays a crucial role as an integrator of vernalization-accelerated flowering. Due to the hexaploid nature of bread wheat genome, VRN1 is present as homoeologs ( VRN-A1 , VRN-B1 and VRN-D1 ) on chromosomes 5A, 5B and 5D ( Snape et al., 2001 ). Its natural allelic variation is associated with the growth habit - spring or winter ( Yan et al., 2004a ; Fu et al., 2005 ). Cold period (=vernalization) accelerates the flowering of winter (autumn-sown) varieties ( Chouard, 1960 ). The length of effective vernalization can range from three to eight weeks ( Ko\u0161ner, P\u00e1nkov\u00e1 2002 ; Li et al., 2013 ). Winter varieties carry recessive vrn1 alleles. Dominant alleles in the spring varieties are expressed without vernalization and carry mutations in the promoter or the first intron of VRN1 ( Yan et al., 2004a ; Fu et al., 2005 ). The mutations result in the partial or complete inhibition of vernalization requirement. At least one dominant VRN1 allele confers the spring growth habit ( Stelmakh, 1987 ). In winter wheats, the VRN1 chromatin undergoes histone methylation changes (H3K4me3 and H3K27me3) during vernalization, possibly affecting the VRN1 expression ( Xiao et al., 2014 ). Several models of vernalization mechanism have been proposed so far ( Amasino, 2004 ; Yan et al., 2006 ; Chen and Dubcovsky, 2012 ; Xiao et al., 2014 ; Xu et al., 2021 ; Debernardi et al., 2022 ). Nevertheless, we still lack a detailed understanding of vernalization molecular mechanism. This review recapitulates current knowledge of the VRN alleles and reflects on vernalization models. We also discuss VRN1 multiple copies and touch on wheat devernalization. Vernalization genes VRN1 gene \u2013 a central integrator of vernalization-accelerated flowering? VRN1 genes have been mapped on the distal end of long arms of 5A ( Galiba et al., 1995 ; Dubcovsky et al., 1998 ), 5B ( Barrett et al., 2002 ; Iwaki et al., 2002 ) and 5D ( Law et al., 1976 ). In T. monococcum , Yan et al. (2003) cloned the VRN1 gene from 5A m chromosome and showed VRN1 expression increased in winter accessions after vernalization in both leaves and apices. Two putative VRN1 orthologues, TaVRT-1 and WAP1 , were identified in bread wheat ( Danyluk, 2"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Vernalization is a period of low non-freezing temperatures, which provides the competence to flower. This mechanism ensures that plants sown before winter develop reproductive organs in more favourable conditions during spring. Such an evolutionary mechanism has evolved in both monocot and eudicot plants. Studies in monocots, represented by temperate cereals like wheat and barley, have identified and proposed the VERNALIZATION1 ( VRN1 ) gene as a key player in the vernalization response. VRN1 belongs to MADS-box transcription factors and is expressed in the leaves and the apical meristem, where it subsequently promotes flowering. Despite substantial research advancement in the last two decades, there are still gaps in our understanding of the vernalization mechanism. Here we summarise the present knowledge of wheat vernalization. We discuss VRN1 allelic variation, review vernalization models, talk VRN1 copy number variation and devernalization phenomenon. Finally, we suggest possible future directions of the vernalization research in wheat."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Bread wheat ( Triticum aestivum L.) is an allohexaploid species grown worldwide and adapted to different latitudes and climatic conditions. This ability is related to a variation in the two main genes: PPD1 ( PHOTOPERIOD1 , photoperiod response) and VRN1 ( VERNALIZATION1 , vernalization requirement) ( Trevaskis et al., 2003 ; Yan et al., 2003 ; Beales et al., 2007 ). VRN1 belongs to MADS-box (MCM1, AGAMOUS, DEFICIENS, SRF) transcription factors ( Yan et al., 2003 ) and plays a crucial role as an integrator of vernalization-accelerated flowering. Due to the hexaploid nature of bread wheat genome, VRN1 is present as homoeologs ( VRN-A1 , VRN-B1 and VRN-D1 ) on chromosomes 5A, 5B and 5D ( Snape et al., 2001 ). Its natural allelic variation is associated with the growth habit - spring or winter ( Yan et al., 2004a ; Fu et al., 2005 ). Cold period (=vernalization) accelerates the flowering of winter (autumn-sown) varieties ( Chouard, 1960 ). The length of effective vernalization can range from three to eight weeks ( Ko\u0161ner, P\u00e1nkov\u00e1 2002 ; Li et al., 2013 ). Winter varieties carry recessive vrn1 alleles. Dominant alleles in the spring varieties are expressed without vernalization and carry mutations in the promoter or the first intron of VRN1 ( Yan et al., 2004a ; Fu et al., 2005 ). The mutations result in the partial or complete inhibition of vernalization requirement. At least one dominant VRN1 allele confers the spring growth habit ( Stelmakh, 1987 ). In winter wheats, the VRN1 chromatin undergoes histone methylation changes (H3K4me3 and H3K27me3) during vernalization, possibly affecting the VRN1 expression ( Xiao et al., 2014 ). Several models of vernalization mechanism have been proposed so far ( Amasino, 2004 ; Yan et al., 2006 ; Chen and Dubcovsky, 2012 ; Xiao et al., 2014 ; Xu et al., 2021 ; Debernardi et al., 2022 ). Nevertheless, we still lack a detailed understanding of vernalization molecular mechanism. This review recapitulates current knowledge of the VRN alleles and reflects on vernalization models. We also discuss VRN1 multiple copies and touch on wheat devernalization."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Vernalization genes",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "VRN1 gene \u2013 a central integrator of vernalization-accelerated flowering?",
+      "text": "VRN1 genes have been mapped on the distal end of long arms of 5A ( Galiba et al., 1995 ; Dubcovsky et al., 1998 ), 5B ( Barrett et al., 2002 ; Iwaki et al., 2002 ) and 5D ( Law et al., 1976 ). In T. monococcum , Yan et al. (2003) cloned the VRN1 gene from 5A m chromosome and showed VRN1 expression increased in winter accessions after vernalization in both leaves and apices. Two putative VRN1 orthologues, TaVRT-1 and WAP1 , were identified in bread wheat ( Danyluk, 2003 ; Trevaskis et al., 2003 ), but later studies reported TaVRT-1 and WAP1 were synonyms for the VRN1 gene ( Shitsukawa et al., 2007a ; Kane et al., 2007 ). Yan et al. (2004b) described VRN1 allelic variation determined by mutations in the promoter region. The Vrn-A1a allele has the highest basal levels of VRN1 transcripts. It carries the insertion of a mutator DNA transposon called spring foldback element (SFE), which comprises duplication of the partial promoter, complete exon 1 and partial intron 1. The insertion is supposed to disrupt a binding site for a putative VRN1 repressor. Fu et al. (2005) described large, several-kb-long deletions within the first intron of VRN1 homoeologs associated with the spring habit. The importance of the VRN1 gene in the vernalization response and as flower inducer has been generally accepted and supported by many scientific publications (for instance, Pugsley, 1971 ; Snape et al., 2001 ; Trevaskis, 2010 ). An ion-beam-induced mutant ( T. monococcum ) lacking VRN1 displayed a non-flowering phenotype and was designated maintained vegetative phase ( mvp ) ( Shitsukawa et al., 2007b ). They suggested that VRN1 was crucial for transitioning from the vegetative to the reproductive stage. A later study ( Distelfeld and Dubcovsky, 2010 ) showed that mvp mutants described by Shitsukawa et al. (2007b) were lacking not only VRN1 but also multiple genes, including PHYTOCHROME-C ( PHYC ) and AGAMOUS-LIKE GENE 1 ( AGLG1 ). Chen and Dubcovsky (2012) described vrn1- null mutant in tetraploid wheat that was able to flower, responded to vernalization treatment and provided regular seeds. This mutant maintained functional PHYC and AGLG1 genes. Another MADS-box genes, FRUITFULL2 ( FUL2 ) and FRUITFULL3 ( FUL3 ), are the closest VRN1 paralogs ( Preston and Kellogg, 2006 ). It is likely that some of PHYC , AGLG1 , FUL2 or FUL3 might function as redundant flowering genes ( Chen and Dubcovsky, 2012 ). Natural variations in all three VRN1 homoeologs of wheat have been reported ( Table 1 ). All identified mutations have been designated as individual alleles, but not all were experimentally confirmed to affect the heading time. The fact that dominant VRN1 alleles carry indels compared to recessive (intact) alleles may suggest they are evolutionary younger. Table 1 Allele First reported in Reference VRN1 vrn-A1 6x ( Yan et al., 2004a ) Vrn-A1a, Vrn-A1a.1 6x ( Yan et al., 2004a ) Vrn-A1a.2 6x ( Muterko et al., 2016 ) Vrn-A1a.3 4x ( Yan et al., 2004a ) Vrn-A1b 6x ( Yan et al., 2004a ; Strej\u010dkov\u00e1 et al., 2021 ) Vrn-A1b.2- Vrn-A1b.6 4x, 6x ( Muterko et al., 2016 ) Vrn-A1c 6x ( Yan et al., 2004a ; Fu et al., 2005 ) Vrn-A1d 4x ( Yan et al., 2004a ) Vrn-A1e 4x ( Yan et al., 2004a ) Vrn-A1f 4x, 6x ( Golovnina et al., 2010 ) VRN-A1f-like 4x ( Ivani\u010dov\u00e1 et al., 2016 ) vrn-A1f-del 4x ( Shcherban et al., 2016 ) Vrn-A1f-del/ins 4x ( Shcherban et al., 2016 ) Vrn-A1f-ins 4x ( Shcherban et al., 2016 ) Vrn-A1g 2x, 4x ( Golovnina et al., 2010 ) Vrn-A1h 2x ( Golovnina et al., 2010 ) Vrn-A1i 4x ( Muterko et al., 2016 ) VRN-A1AUS28709 Ai2 6x ( Steinfort et al., 2017 ) Vrn1h/VRN-A1ins 2x ( Dubcovsky et al., 2006 ; Shcherban et al., 2015 ) Vrn-A1k 4x ( Muterko and Salina, 2017 ) Vrn-A1L 4x ( Fu et al., 2005 ) vrn-A1u 4x ( Golovnina et al., 2010 ) vrn-A1u\u00b4 4x ( Shcherban et al., 2015 ) vrn-B1 6x ( Yan et al., 2004a ) Vrn-B1a Vrn-B1a* 6x 4x ( Fu et al., 2005 ) ( Golovnina et al., 2010 ) Vrn-B1b 6x ( Santra et al., 2009 ) Vrn-B1c Vrn-B1c** 6x ( Chu et al., 2011 ; Milec et al., 2012"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "VRN2 gene \u2013 long-day flowering repressor",
+      "text": "VRN2 codes for a zinc finger motif protein and includes two duplicated ZCCT genes ( Yan et al., 2004b ). The CCT domain was first described in Arabidopsis proteins CONSTANS, CONSTANS-like and TIMING OF CAB1 ( Strayer et al., 2000 ). Wheat homoeologs VRN-A2 , VRN-B2 and VRN-D2 were mapped on chromosomes 5A, 4B and 4D, respectively ( Yan et al., 2004b ; Tan and Yan, 2016 ). In autumn-sown winter wheat, the flowering induction is repressed by the VRN2 gene during long days as the PPD1 promotes VRN2 transcription ( Dubcovsky et al., 2006 ; Shaw et al., 2020 ). VRN2 represses a flowering promoter, FLOWERING LOCUS T ( FT1 = VRN3 ). Cold and short days during winter downregulate VRN2 , releasing both VRN1 and FT1 transcription ( Yan et al., 2004b ; Dubcovsky et al., 2006 ) ( Figure 1Aiv ). Figure 1 Vernalization mechanism working models. (A) Development of working models for VRN1, VRN2 and VRN3 (= FT1 ) interactions: (i) ( Amasino, 2004 ), (ii) ( Yan et al., 2006 ), (iii) ( Chen and Dubcovsky, 2012 ), (iv) ( Debernardi et al., 2022 ) (B) working model for possible posttranscriptional mechanism of vernalization requirement, ( Xiao et al., 2014 ) (C) working model for VRN1 transcription induced by non-coding RNA ( Xu et al., 2021 ). Arrows indicate gene upregulation; lines ending in the crossed bar indicate gene repression. The snowflake symbol represents vernalization, and white sun symbol represents the long day, and the half-white/half-black sun symbol represents the short day. A question mark indicates an unknown element. FT1 = VRN3 . (D) The hypothetical model of two putative repressors (R1, R2) acting independently in either the VRN1 promoter or the first intron. (E) VRN1 chromatin state, histone methylation levels, and VRN expression profiles in the winter wheat life cycle. Dashed lines represent the predicted progress of VRN transcriptions levels."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "FT1 (= VRN 3) gene \u2013 flowering promoter",
+      "text": "The vernalization-related gene located on chromosome 7B of the spring wheat substitution line Hope was reported ( Law, 1966 ; Law and Wolfe, 1966 ) and designated VRN5 ( Stelmakh, 1987 ; Law and Worland, 1997 ). Later, the name was changed to VRN-B4 , corresponding to its chromosome localisation ( McIntosh et al., 1998 ). Yan et al. (2006) showed that VRN-B4 is the VRN3 gene orthologous to the FT gene in Arabidopsis . FT encodes for the mobile protein that moves in the leaves and the apical meristem ( Corbesier et al., 2007 ). The FT protein/mRNA is more likely the long sought flowering compound called florigen (reviewed in ( Turck et al., 2008 )). In wheat, high levels of VRN1 after vernalization induce FT1 transcription ( Distelfeld et al., 2009a ) ( Figure 1Aiv )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "Models of vernalization mechanism",
+      "text": "Vernalization has been known and studied for a long time, but the precise molecular mechanism still waits to be revealed. A growing number of studies kept bringing new findings that were used in developing several models of how vernalization may work ( Amasino, 2004 ; Yan et al., 2006 ; Chen and Dubcovsky, 2012 ; Xiao et al., 2014 ; Debernardi et al., 2022 ). The models are depicted in Figure 1 . The first simplified model ( Amasino, 2004 ) shows the vernalization pathway with VRN2 repressing VRN1 and several other unknown genes ( Figure 1Ai ). The vernalization was suggested to repress VRN2 expression. The VRN2 expression was also downregulated by a short day (during autumn), while VRN2 repressed both VRN1 and FT1 ( Figure 1Aii ). Shimada et al. (2009) developed transgenic plants overexpressing FT1 , causing VRN1 upregulation and VRN2 downregulation. FT1 is highly transcribed even in both \u0394 vrn1 -null and \u0394 vrn1 - vrn2 -null mutants lacking functional VRN1 and VRN2 genes ( Chen and Dubcovsky, 2012 ). They proposed the model where VRN1 represses VRN2 , which downregulates FT1 , and VRN1 and FT1 mutually upregulate one another, creating a positive feedback loop. The reworked vernalization model was now referred to as \u201coriginal\u201d, and Shimada\u2019s model as \u201creverse\u201d ( Chen and Dubcovsky, 2012 ) ( Figure 1Aiii ). The most recent working model presented by Debernardi et al. (2022) supports findings reported by ( Chen and Dubcovsky, 2012 ), showing VRN1 downregulation of VRN2 . During long days in the autumn, PPD1 upregulates VRN2 , which downregulates FT1 , preventing wheat from flowering ( Figure 1Aiv ). Debernardi et al. (2022) also identified a conserved pathway integrating plant age into flowering regulation. This pathway involves the expression of miR172 acting like a flowering promotor but its targets APETALA2-like1 and 5 ( AP2L1 , AP2L5 ) function as flowering repressors. These models describe the interaction of VRN1 , VRN2 and FT1 . However, they do not explain the molecular mechanism at the DNA level. Dominant Vrn1 alleles have higher basal transcription levels, minimising the vernalization requirement. Indels present in the dominant alleles may have removed or disrupted a putative binding site for an unknown VRN1 repressor. Xiao et al. (2014) described a mechanism of VRN1 induction during vernalization. The proposed model suggests glycine-rich RNA-binding protein (GRP2) as a repressor preventing VRN1 transcript accumulation. Before vernalization, GRP2 directly binds to the VRN1 pre-mRNA in the region characterised as critical. It comprises the VRN1 intron approximately from 1.3 kb to 4.2 kb (from the start codon) ( Fu et al., 2005 ). The cold treatment induces the expression of VER2 and increases the GRP2 O -GlcNAcylation level. VER2 creates a complex with GRP2 that releases VRN1 transcript accumulation and induces flowering promotion ( Figure 1B ). Xiao et al. (2014) also reported histone methylations might participate in the vernalization response. During the cold period, the H3K27me3 levels at VRN1 chromatin decrease while levels of H3K4me3 increase. The high levels of H3K4me3 are associated with active gene transcription, while increased H3K27me3 levels are linked with gene repression ( Roh et al., 2006 ; Wysocka et al., 2006 ; Zhang et al., 2007 ). These changes are targeted to the first half of the VRN1 first intron, which is in concordance with the previous model ( Alonso-Peral et al., 2011 ) and findings reported in barley ( Oliver et al., 2009 ). It also supports the significance of the VRN1 critical region in vernalization response. Xiao et al. (2014) developed wheat transgenic lines with GRP2 overexpression ( GRP-OE ) or GRP2 silencing by RNA interference (RNAi). The results showed that the mean heading time of GRP-OE lines did not significantly differ from the wild type (winter variety JH9). The GRP2- RNAi lines had reduced mean heading time (155 days) compared to the wild type (165 days). These lines were always"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "VRN copy number variation",
+      "text": "Chromosomal segments are subject to deletions or duplications. Such rearrangements larger than 1 kb are called copy number variation (CNV) ( \u017bmie\u0144ko et al., 2014 ). CNVs played a significant role in human evolution but are also an important factor causing diseases, including cancer (reviewed in ( Hastings et al., 2009 )). In polyploids like bread wheat, CNV refers to the number of gene copies per haploid genome ( W\u00fcrschum et al., 2015 ). VRN-A1 , VRN-B1 and VRN-D1 homoeologs are located on different chromosomes ( Snape et al., 2001 ), but individual VRN1 genes can also be present in multiple copies on the same chromosome. CNV has been reported mainly for the VRN-A1 gene, which can be present from one to two copies (dominant Vrn-A1a ) or up to four copies (recessive vrn-A1 ) ( D\u00edaz et al., 2012 ; W\u00fcrschum et al., 2015 ; Strej\u010dkov\u00e1 et al., 2021 ). Two copies of VRN-B1 were observed in the hexaploid species T. compactum and T. spelta ( Muterko and Salina, 2019 ). No CNV for VRN-D1 have been described so far ( Strej\u010dkov\u00e1 et al., 2021 ), but screening more varieties may reveal multiple VRN-D1 copies. Although the word \u201ccopy\u201d implies identical sequences of repeated sections, several types of VRN1 copy number variation exist. Actually, this fact helped to identify individual copies. Using current sequencing and assembling techniques, it would be extremely hard to distinguish one copy from another if they were 100% identical. The first type of CNV is the SNP in VRN-A1 exons 4 and 7, reported in wheat accessions carrying two or more copies ( D\u00edaz et al., 2012 ; Muterko and Salina, 2018 ). An advanced case of CNV displays the Vrn-A1c allele present in the spring Afghanistan land race IL369. The vrn-A1c allele has two copies: one recessive (intact) copy and one dominant copy with the deletion in the first intron ( Fu et al., 2005 ; D\u00edaz et al., 2012 ). The VRN-D4 gene originated by translocation of \u223c the 290-kb region from the distal part of the long arm of the 5A chromosome to the proximal region of the short arm of chromosome 5D ( Kippes et al., 2015 ). This region included the vrn-A1 gene; therefore, VRN-D4 might be considered an unusual case of CNV as it involves translocation between two haploid subgenomes. The CNV can have a diverse effect on flowering: an extra vrn-A1 copy translocated from 5A to 5D chromosome (= VRN-D4 gene), also carrying SNP (A367C), resulted in the spring growth habit with no vernalization requirement ( Kippes et al., 2015 ). The Vrn-A1c allele confers spring growth habit due to the mutated copy carrying the large deletion within the first VRN1 intron. The higher number of vrn-A1 copies within the same 5A chromosome, associated with SNPs in VRN1 exons 4 and 7, led to an increased vernalization requirement; plants with more than one copy needed a prolonged cold period to start VRN-A1 transcription ( D\u00edaz et al., 2012 ; Li et al., 2013 ). Recently, a speed vernalization (SV) method was reported ( Cha et al., 2022 ). They showed that the SV effectivity varied among varieties with the different numbers of vrn-A1 copies. Wheat variety Charger (three vrn-A1 copies) flowered quicker when speed-vernalized for four weeks, while variety Claire (one vrn-A1 copy) had a shorter flowering time under two or six weeks of speed vernalization. Regarding VRN2 , Tan and Yan (2016) reported duplication of the VRN-B2 gene in hexaploid wheat, but no significant effect on flowering time was observed. No increased number of FT1 was described in hexaploid wheat so far. In barley ( Hordeum vulgare L.), four HvFT1 copies significantly accelerated flowering time ( Nitcher et al., 2013 ). Wheat and barley are evolutionary close to each other, suggesting a possible, unrevealed existence of multiple FT1 copies in wheat."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Devernalization",
+      "text": "Vernalization results in the change from the vegetative to the reproductive growth. The initial metabolic changes lead to morphological changes when the shoot apical meristem begins to produce floral primordia instead of leaf primordia ( Yong et al., 2003 ). The effect of vernalization treatment can be partially or completely removed (in some species) by several days of heat treatment called devernalization. The most effective temperature was considered 30 \u2013 40\u00b0C ( Bernier, 1981 ). The heat treatment (around five days) needed to be applied directly after the end of vernalization; it becomes ineffective after a few days of plant growth at ordinary temperatures ( Michaels, Amasino 2000 ). In bread wheat, several studies were performed to determine if vernalization-induced developmental changes could be also reversed ( Gregory and Purvis, 1948 ; Chujo, 1970 ; Xiu-zhen et al., 1987 ; Yong et al., 2003 ; Xu et al., 2019 ). During devernalization experiments, vernalised wheat plants were exposed to higher temperatures, ranging from 18\u00b0C to 35\u00b0C. The treatment was associated with delayed flowering, changes gene expression patterns, or protein content changes. The length of the cold treatment reported in the studies varied from 21 to 40 days, which might not be enough to complete vernalization. The vernalization requirement duration can be genotype-dependent ( Li et al., 2013 ). Its genetic nature is not fully understood, but might be linked with VRN-A1 locus or mutations in acetylglucosamine transferase TaOGT1 ( D\u00edaz et al., 2012 ; Li et al., 2013 ; Kippes et al., 2015 ; Fan et al., 2021 ). Study in Arabidopsis demonstrated that the effect of six-week-vernalization might be erased by heat treatment (30\u00b0C). It was associated with the elimination of epigenetic mark H3K27me3 from FLC ( Bouch\u00e9 et al., 2015 ). This H3K27me3 removal caused FLC reactivation, which led to delayed flowering. Thus, the devernalization phenomenon in cereals might be putative only and needs further research."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Conclusion and future perspectives",
+      "text": "The knowledge of wheat vernalization mechanism has expanded enormously in the last 20 years once VRN genes have been cloned and characterised. The advances in molecular methods enabled us to identify sizeable allelic variability in the VRN1 gene and to update vernalization models. Despite all these achievements, the main question remains: what is the actual molecular mechanism of wheat vernalization? In bread wheat, the VRN1 allelic variation data suggests two different evolutionary events resulting in the spring growth habit \u2013 the deletion within the VRN1 first intron and the insertion of the mutator DNA transposon in the VRN1 promoter region. Both deletion and insertion may disturb the binding site for the putative VRN1 repressor(s). The Vrn-A1a allele has the first intron intact (same with recessive allele) but carries the insertion in the promoter region. This allele has the highest basal VRN1 expression level associated with shorter heading time than the dominant Vrn-B1 and Vrn-D1 alleles. However, vernalization increases Vrn-A1a transcription, supporting the previously described role of the first intron. As mentioned previously, the Vrn-A1a allele has duplicated promoter and exon 1. This might be the reason for such high transcript levels, but the function of this duplication remains undiscovered. The current knowledge about the wheat vernalization mechanism supports the hypothesis that there might be two independent putative VRN1 repressors: one targeting the VRN1 promoter region and the other interacting with the first intron ( Alonso-Peral et al., 2011 ) ( Figure 1D ). Besides, the role of multiple vrn-A1 copies in the vernalization response should be studied in more detail. The position of individual copies within the genome is not known and there is no information whether they have the same expression pattern. Finally, our understanding of how vernalization requirement is reset in the next generation is limited. It possibly occurs during the seed development and may involve PRC2-related histone modification of VRN1 chromatin. We should not forget to mention an integral part of vernalization: how plants sense the duration of cold period. Longer cold treatment increases VRN1 transcript levels suggesting a quantitative character of vernalization (reviewed in ( Trevaskis, 2010 )). The length of sufficient vernalization varies among winter wheats. Several hypotheses regarding VRN1 were suggested but they were not in concordance: copy number variation, amino acid change or SNP in the putative repressor binding site ( D\u00edaz et al., 2012 ; Li et al., 2013 ; Xiao et al., 2014 ). Another explanation was proposed in Arabidopsis ( Kyung et al., 2022 ). The long-term cold-mediated response might employ circadian clock regulators CIRCADIAN CLOCK ASSOCIATED 1 and LATEELONGATED HYPOCOTYL. Recent technical and methodological advances will further help to untangle vernalization. Increased availability of the genome and transcriptome sequencing, along with the improvements in computational biology, may reveal new molecular mechanisms involved in the vernalization pathway. VanGessel et al. (2022) recently demonstrated transcriptional signatures of inflorescent development in the tetraploid wheat variety Kronos. The gene expression atlas of the floral meristem based on single nucleus RNA-seq data was developed latterly in barley ( Neumann et al., 2022 ). Adapting the new techniques of targeted mutagenesis could help to develop the new alleles for functional studies. There might be more unknown genes and their interactions participating in wheat vernalization. We could compare this phenomenon to mosaic assembling; once all fragments are in their place, we will see the complete picture."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 2,
+      "heading": "Statements",
+      "text": "Author contributions ZM proposed the manuscript. ZM, BS and JS participated in the research and provided original results. All authors contributed to the article and approved the submitted version. Funding This research was funded by Czech Science Foundation, grant number 22-00204S. Conflict of interest The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be constructed as a potential conflict of interest. Publisher\u2019s note All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher. References 1 Alonso-Peral M. M. Oliver S. N. Casao M. C. Greenup A. A. Trevaskis B. ( 2011 ). The promoter of the cereal VERNALIZATION1 gene is sufficient for transcriptional induction by prolonged cold . PloS One 6 , e29456 . doi: 10.1371/journal.pone.0029456 CrossRef Google Scholar 2 Amasino R. ( 2004 ). Vernalization, competence, and the epigenetic memory of winter . THE Plant Cell Online 16 , 2553 \u2013 2559 . doi: 10.1105/tpc.104.161070 CrossRef Google Scholar 3 Bantignies F. Cavalli G. ( 2011 ). Polycomb group proteins: repression in 3D . Trends Genet. 27 , 454 \u2013 464 . doi: 10.1016/j.tig.2011.06.008 CrossRef Google Scholar 4 Barrett B. Bayram M. Kidwell K. Weber W. E. ( 2002 ). Identifying AFLP and microsatellite markers for vernalization response gene vrn-B1 in hexaploid wheat using reciprocal mapping populations . Plant Breed. 121 , 400 \u2013 406 . doi: 10.1046/j.1439-0523.2002.732319.x CrossRef Google Scholar 5 Beales J. Turner A. Griffiths S. Snape J. W. Laurie D. A. ( 2007 ). A pseudo-response regulator is misexpressed in the photoperiod insensitive ppd-D1a mutant of wheat (Triticum aestivum l.) . Theor. Appl. Genet. 115 , 721 \u2013 733 . doi: 10.1007/s00122-007-0603-4 CrossRef Google Scholar 6 Berezhnaya A. Kiseleva A. Leonova I. Salina E. ( 2021 ). Allelic variation analysis at the vernalization response and photoperiod genes in Russian wheat varieties identified two novel alleles of vrn-B3 . Biomolecules 11 . doi: 10.3390/biom11121897 CrossRef Google Scholar 7 Bernier ( 1981 ). Volume II: Transition to reproductive growth ( Boca Raton : CRC Press ). doi: 10.1201/9781351075688 CrossRef Google Scholar 8 Bonnin I. Rousset M. Madur D. Sourdille P. Dupuits C. Brunel D. et al . ( 2008 ). FT genome a and d polymorphisms are associated with the variation of earliness components in hexaploid wheat . Theor. Appl. Genet. 116 , 383 \u2013 394 . doi: 10.1007/s00122-007-0676-0 CrossRef Google Scholar 9 Bouch\u00e9 F. Detry N. P\u00e9rilleux C. ( 2015 ). Heat can erase epigenetic marks of vernalization in arabidopsis . Plant Signaling Behav. 10 , e990799 . doi: 10.4161/15592324.2014.990799 CrossRef Google Scholar 10 Cha J.-K. O\u2019Connor K. Alahmad S. Lee J.-H. Dinglasan E. Park H. et al . ( 2022 ). Speed vernalization to accelerate generation advance in winter cereal crops . Mol. Plant 15 , 1300 \u2013 1309 . doi: 10.1016/j.molp.2022.06.012 CrossRef Google Scholar 11 Chen Z. Cheng X. Chai L. Wang Z. Du D. Wang Z. et al . ( 2020 ). Pleiotropic QTL influencing spikelet number and heading date in common wheat (Triticum aestivum l.) . Theor. Appl. Genet. 133 , 1825 \u2013 1838 . doi: 10.1007/s00122-020-03556-6 CrossRef Google Scholar 12 Chen A. Dubcovsky J. ( 2012 ). Wheat TILLING mutants show that the vernalization gene VRN1 down-regulates the flowering repressor VRN2 in leaves but is not essential for flowering . PloS Genet. 8 , e1003134 . doi: 10.1371/journal.pgen.1003134 CrossRef Google Scholar 13 Chen F. Gao M. Zhang J. Zuo A. Shang X. Cui D. ( 2013 ). Molecular characterization of vernalization and response genes in bread wheat from the yellow and huai valley of China . BMC Plant Biol. 13 . doi: 10.1186/1471-2229-13-199 CrossRef Google "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Author contributions",
+      "text": "ZM proposed the manuscript. ZM, BS and JS participated in the research and provided original results. All authors contributed to the article and approved the submitted version."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Funding",
+      "text": "This research was funded by Czech Science Foundation, grant number 22-00204S."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be constructed as a potential conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Publisher\u2019s note",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "References",
+      "text": "1 Alonso-Peral M. M. Oliver S. N. Casao M. C. Greenup A. A. Trevaskis B. ( 2011 ). The promoter of the cereal VERNALIZATION1 gene is sufficient for transcriptional induction by prolonged cold . PloS One 6 , e29456 . doi: 10.1371/journal.pone.0029456 CrossRef Google Scholar 2 Amasino R. ( 2004 ). Vernalization, competence, and the epigenetic memory of winter . THE Plant Cell Online 16 , 2553 \u2013 2559 . doi: 10.1105/tpc.104.161070 CrossRef Google Scholar 3 Bantignies F. Cavalli G. ( 2011 ). Polycomb group proteins: repression in 3D . Trends Genet. 27 , 454 \u2013 464 . doi: 10.1016/j.tig.2011.06.008 CrossRef Google Scholar 4 Barrett B. Bayram M. Kidwell K. Weber W. E. ( 2002 ). Identifying AFLP and microsatellite markers for vernalization response gene vrn-B1 in hexaploid wheat using reciprocal mapping populations . Plant Breed. 121 , 400 \u2013 406 . doi: 10.1046/j.1439-0523.2002.732319.x CrossRef Google Scholar 5 Beales J. Turner A. Griffiths S. Snape J. W. Laurie D. A. ( 2007 ). A pseudo-response regulator is misexpressed in the photoperiod insensitive ppd-D1a mutant of wheat (Triticum aestivum l.) . Theor. Appl. Genet. 115 , 721 \u2013 733 . doi: 10.1007/s00122-007-0603-4 CrossRef Google Scholar 6 Berezhnaya A. Kiseleva A. Leonova I. Salina E. ( 2021 ). Allelic variation analysis at the vernalization response and photoperiod genes in Russian wheat varieties identified two novel alleles of vrn-B3 . Biomolecules 11 . doi: 10.3390/biom11121897 CrossRef Google Scholar 7 Bernier ( 1981 ). Volume II: Transition to reproductive growth ( Boca Raton : CRC Press ). doi: 10.1201/9781351075688 CrossRef Google Scholar 8 Bonnin I. Rousset M. Madur D. Sourdille P. Dupuits C. Brunel D. et al . ( 2008 ). FT genome a and d polymorphisms are associated with the variation of earliness components in hexaploid wheat . Theor. Appl. Genet. 116 , 383 \u2013 394 . doi: 10.1007/s00122-007-0676-0 CrossRef Google Scholar 9 Bouch\u00e9 F. Detry N. P\u00e9rilleux C. ( 2015 ). Heat can erase epigenetic marks of vernalization in arabidopsis . Plant Signaling Behav. 10 , e990799 . doi: 10.4161/15592324.2014.990799 CrossRef Google Scholar 10 Cha J.-K. O\u2019Connor K. Alahmad S. Lee J.-H. Dinglasan E. Park H. et al . ( 2022 ). Speed vernalization to accelerate generation advance in winter cereal crops . Mol. Plant 15 , 1300 \u2013 1309 . doi: 10.1016/j.molp.2022.06.012 CrossRef Google Scholar 11 Chen Z. Cheng X. Chai L. Wang Z. Du D. Wang Z. et al . ( 2020 ). Pleiotropic QTL influencing spikelet number and heading date in common wheat (Triticum aestivum l.) . Theor. Appl. Genet. 133 , 1825 \u2013 1838 . doi: 10.1007/s00122-020-03556-6 CrossRef Google Scholar 12 Chen A. Dubcovsky J. ( 2012 ). Wheat TILLING mutants show that the vernalization gene VRN1 down-regulates the flowering repressor VRN2 in leaves but is not essential for flowering . PloS Genet. 8 , e1003134 . doi: 10.1371/journal.pgen.1003134 CrossRef Google Scholar 13 Chen F. Gao M. Zhang J. Zuo A. Shang X. Cui D. ( 2013 ). Molecular characterization of vernalization and response genes in bread wheat from the yellow and huai valley of China . BMC Plant Biol. 13 . doi: 10.1186/1471-2229-13-199 CrossRef Google Scholar 14 Chouard P. ( 1960 ). Vernalization and its relations to dormancy . Annu. Rev. Plant Physiol. 11 , 191 \u2013 238 . doi: 10.1146/annurev.pp.11.060160.001203 CrossRef Google Scholar 15 Chujo H. ( 1970 ). Some observations on the reversal of vernalization effect of wheat . Nihon Sakumotsugaku Kai Kiji = Proc. Crop Sci. Soc. Japan 39 , 451 \u2013 456 . doi: 10.1626/jcs.39.451 CrossRef Google Scholar 16 Chu C.-G. Tan C. T. Yu G.-T. Zhong S. Xu S. S. Yan L. ( 2011 ). A novel retrotransposon inserted in the dominant vrn-B1 allele confers spring growth habit in tetraploid wheat ( triticum turgidum l.) . G3 Genes|Genomes|Genetics 1 , 637 \u2013 645 . doi: 10.1534/g3.111.001131 . CrossRef Google Scholar 17 Corbesier L. Vincent C. Jang S. Fornara F. Fan Q. Searle I. et al . ( 2007 ). FT protein movement contributes to long-distance signaling in floral induct"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "Summary",
+      "text": "Keywords wheat , vernalization , VRN , chromatin methylation , copy number variation , devernalization Citation Milec Z, Strej\u010dkov\u00e1 B and \u0160af\u00e1\u0159 J (2023) Contemplation on wheat vernalization . Front. Plant Sci. 13:1093792. doi: 10.3389/fpls.2022.1093792 Received 10 November 2022 Accepted 08 December 2022 Published 06 January 2023 Volume 13 - 2022 Edited by Koen Geuten, KU Leuven, Belgium Reviewed by Daniel Paul Woods, University of California, Davis, United States; Laura Dixon, University of Leeds, United Kingdom Updates Copyright \u00a9 2023 Milec, Strej\u010dkov\u00e1 and \u0160af\u00e1\u0159. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. *Correspondence: Zbyn\u011bk Milec, milec@ueb.cas.cz This article was submitted to Plant Development and EvoDevo, a section of the journal Frontiers in Plant Science Disclaimer All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Your research is the real superpower",
+      "text": "Behind each article we publish stands a team of superheroes: authors, editors, and reviewers who chose to uphold quality standards and share knowledge openly. Read more about the impact your work achieves."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 2,
+      "heading": "Outline",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "Figures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "Cite article",
+      "text": "Copy to clipboard Copy citation Export citation file BibTex EndNote Reference Manager Simple Text file"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Share article",
+      "text": "Facebook X LinkedIn Email WeChat Share on WeChat Scan with WeChat to share this article"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "Article metrics",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Allele",
+        "First reported in",
+        "Reference"
+      ],
+      "rows": [
+        [
+          "VRN1"
+        ],
+        [
+          "vrn-A1",
+          "6x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-A1a, Vrn-A1a.1",
+          "6x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-A1a.2",
+          "6x",
+          "( Muterko et al., 2016 )"
+        ],
+        [
+          "Vrn-A1a.3",
+          "4x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-A1b",
+          "6x",
+          "( Yan et al., 2004a ; Strej\u010dkov\u00e1 et al., 2021 )"
+        ],
+        [
+          "Vrn-A1b.2- Vrn-A1b.6",
+          "4x, 6x",
+          "( Muterko et al., 2016 )"
+        ],
+        [
+          "Vrn-A1c",
+          "6x",
+          "( Yan et al., 2004a ; Fu et al., 2005 )"
+        ],
+        [
+          "Vrn-A1d",
+          "4x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-A1e",
+          "4x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-A1f",
+          "4x, 6x",
+          "( Golovnina et al., 2010 )"
+        ],
+        [
+          "VRN-A1f-like",
+          "4x",
+          "( Ivani\u010dov\u00e1 et al., 2016 )"
+        ],
+        [
+          "vrn-A1f-del",
+          "4x",
+          "( Shcherban et al., 2016 )"
+        ],
+        [
+          "Vrn-A1f-del/ins",
+          "4x",
+          "( Shcherban et al., 2016 )"
+        ],
+        [
+          "Vrn-A1f-ins",
+          "4x",
+          "( Shcherban et al., 2016 )"
+        ],
+        [
+          "Vrn-A1g",
+          "2x, 4x",
+          "( Golovnina et al., 2010 )"
+        ],
+        [
+          "Vrn-A1h",
+          "2x",
+          "( Golovnina et al., 2010 )"
+        ],
+        [
+          "Vrn-A1i",
+          "4x",
+          "( Muterko et al., 2016 )"
+        ],
+        [
+          "VRN-A1AUS28709 Ai2",
+          "6x",
+          "( Steinfort et al., 2017 )"
+        ],
+        [
+          "Vrn1h/VRN-A1ins",
+          "2x",
+          "( Dubcovsky et al., 2006 ; Shcherban et al., 2015 )"
+        ],
+        [
+          "Vrn-A1k",
+          "4x",
+          "( Muterko and Salina, 2017 )"
+        ],
+        [
+          "Vrn-A1L",
+          "4x",
+          "( Fu et al., 2005 )"
+        ],
+        [
+          "vrn-A1u",
+          "4x",
+          "( Golovnina et al., 2010 )"
+        ],
+        [
+          "vrn-A1u\u00b4",
+          "4x",
+          "( Shcherban et al., 2015 )"
+        ],
+        [
+          "vrn-B1",
+          "6x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-B1a Vrn-B1a*",
+          "6x 4x",
+          "( Fu et al., 2005 ) ( Golovnina et al., 2010 )"
+        ],
+        [
+          "Vrn-B1b",
+          "6x",
+          "( Santra et al., 2009 )"
+        ],
+        [
+          "Vrn-B1c Vrn-B1c**",
+          "6x",
+          "( Chu et al., 2011 ; Milec et al., 2012 ; Shcherban et al., 2012 )"
+        ],
+        [
+          "Vrn-B1d**",
+          "6x",
+          "( Zhang et al., 2018 )"
+        ],
+        [
+          "Vrn-B1f",
+          "6x",
+          "( Strej\u010dkov\u00e1 et al., 2021 )"
+        ],
+        [
+          "Vrn-B1ins",
+          "4x",
+          "( Chu et al., 2011 )"
+        ],
+        [
+          "vrn-D1",
+          "6x",
+          "( Yan et al., 2004a )"
+        ],
+        [
+          "Vrn-D1a",
+          "6x",
+          "( Fu et al., 2005 )"
+        ],
+        [
+          "Vrn-D1b",
+          "6x",
+          "( Zhang et al., 2012 )"
+        ],
+        [
+          "Vrn-D1c",
+          "6x",
+          "( Zhang et al., 2015 )"
+        ],
+        [
+          "Vrn-D1s",
+          "6x",
+          "( Muterko et al., 2015 )"
+        ],
+        [
+          "vrn-D1r",
+          "6x",
+          "( Strej\u010dkov\u00e1 et al., 2021 ; Makhoul et al., 2022 )"
+        ],
+        [
+          "Vrn-D4",
+          "6x; Special case",
+          "( Kippes et al., 2015 )"
+        ],
+        [
+          "Vrn-D1x***",
+          "6x",
+          "( Makhoul et al., 2022 )"
+        ],
+        [
+          "VRN2"
+        ],
+        [
+          "VRN-A2",
+          "4x",
+          "( Dubcovsky and Dvorak, 2007 )"
+        ],
+        [
+          "VRN-B2",
+          "4x",
+          "( Dubcovsky and Dvorak, 2007 )"
+        ],
+        [
+          "VRN-B2a-1",
+          "6x",
+          "( Tan and Yan, 2016 )"
+        ],
+        [
+          "VRN-B2a-2",
+          "6x",
+          "( Tan and Yan, 2016 )"
+        ],
+        [
+          "VRN-D2",
+          "2x",
+          "( Distelfeld et al., 2009b )"
+        ],
+        [
+          "FT1 (VRN3)"
+        ],
+        [
+          "Vrn-A3b-h1, CS VRN-A3 allele, TAFTAh1, FT-A1 haplotype H1",
+          "6x",
+          "( Bonnin et al., 2008 ; Chen et al., 2020 ; Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3a-h1, TN26 VRN- A3 allele",
+          "4x",
+          "( Nishimura et al., 2018 ; Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3b-h2, TN28 VRN-A3 allele",
+          "4x",
+          "( Nishimura et al., 2018 ; Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3a-h2",
+          "4x, 6x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3a-h3",
+          "4x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3a-h4",
+          "4x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3a- h5",
+          "4x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3a-h6",
+          "4x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3c-h1",
+          "4x, 6x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "Vrn-A3c-h2",
+          "4x",
+          "( Nishimura et al., 2021 )"
+        ],
+        [
+          "TAFTAh2, FT-A1 haplotype H2",
+          "6x",
+          "( Bonnin et al., 2008 ; Chen et al., 2020 )"
+        ],
+        [
+          "TAFTAh3, FT-A1 haplotype H3",
+          "6x",
+          "( Bonnin et al., 2008 ; Chen et al., 2020 )"
+        ],
+        [
+          "TAFTAh4, FT-A1 haplotype H4",
+          "6x",
+          "( Bonnin et al., 2008 ; Chen et al., 2020 )"
+        ],
+        [
+          "vrn-B3",
+          "6x",
+          "( Yan et al., 2006 )"
+        ],
+        [
+          "Vrn-B3a",
+          "6x",
+          "( Yan et al., 2006 )"
+        ],
+        [
+          "Vrn-B3b",
+          "6x",
+          "( Chen et al., 2013 )"
+        ],
+        [
+          "Vrn-B3c",
+          "6x",
+          "( Chen et al., 2013 )"
+        ],
+        [
+          "Vrn-B3d",
+          "6x",
+          "( Berezhnaya et al., 2021 )"
+        ],
+        [
+          "Vrn-B3e",
+          "6x",
+          "( Berezhnaya et al., 2021 )"
+        ],
+        [
+          "TaFTBBT21",
+          "6x",
+          "( Bonnin et al., 2008 )"
+        ],
+        [
+          "TAFTDh1",
+          "6x",
+          "( Bonnin et al., 2008 )"
+        ],
+        [
+          "TAFTDh2",
+          "6x",
+          "( Bonnin et al., 2008 )"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Volume 13 - 2022 | https://doi.org/10.3389/fpls.2022.1093792",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Institute of Experimental Botany of the Czech Academy of Sciences, Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research, Olomouc, Czechia",
+      "char_offset": 62
+    },
+    {
+      "type": "paragraph",
+      "text": "Vernalization is a period of low non-freezing temperatures, which provides the competence to flower. This mechanism ensures that plants sown before winter develop reproductive organs in more favourable conditions during spring. Such an evolutionary mechanism has evolved in both monocot and eudicot plants. Studies in monocots, represented by temperate cereals like wheat and barley, have identified and proposed the VERNALIZATION1 ( VRN1 ) gene as a key player in the vernalization response. VRN1 belongs to MADS-box transcription factors and is expressed in the leaves and the apical meristem, where it subsequently promotes flowering. Despite substantial research advancement in the last two decades, there are still gaps in our understanding of the vernalization mechanism. Here we summarise the present knowledge of wheat vernalization. We discuss VRN1 allelic variation, review vernalization models, talk VRN1 copy number variation and devernalization phenomenon. Finally, we suggest possible future directions of the vernalization research in wheat.",
+      "char_offset": 221
+    },
+    {
+      "type": "paragraph",
+      "text": "Bread wheat ( Triticum aestivum L.) is an allohexaploid species grown worldwide and adapted to different latitudes and climatic conditions. This ability is related to a variation in the two main genes: PPD1 ( PHOTOPERIOD1 , photoperiod response) and VRN1 ( VERNALIZATION1 , vernalization requirement) ( Trevaskis et al., 2003 ; Yan et al., 2003 ; Beales et al., 2007 ). VRN1 belongs to MADS-box (MCM1, AGAMOUS, DEFICIENS, SRF) transcription factors ( Yan et al., 2003 ) and plays a crucial role as an integrator of vernalization-accelerated flowering. Due to the hexaploid nature of bread wheat genome, VRN1 is present as homoeologs ( VRN-A1 , VRN-B1 and VRN-D1 ) on chromosomes 5A, 5B and 5D ( Snape et al., 2001 ). Its natural allelic variation is associated with the growth habit - spring or winter ( Yan et al., 2004a ; Fu et al., 2005 ). Cold period (=vernalization) accelerates the flowering of winter (autumn-sown) varieties ( Chouard, 1960 ). The length of effective vernalization can range from three to eight weeks ( Ko\u0161ner, P\u00e1nkov\u00e1 2002 ; Li et al., 2013 ). Winter varieties carry recessive vrn1 alleles. Dominant alleles in the spring varieties are expressed without vernalization and carry mutations in the promoter or the first intron of VRN1 ( Yan et al., 2004a ; Fu et al., 2005 ). The mutations result in the partial or complete inhibition of vernalization requirement. At least one dominant VRN1 allele confers the spring growth habit ( Stelmakh, 1987 ). In winter wheats, the VRN1 chromatin undergoes histone methylation changes (H3K4me3 and H3K27me3) during vernalization, possibly affecting the VRN1 expression ( Xiao et al., 2014 ). Several models of vernalization mechanism have been proposed so far ( Amasino, 2004 ; Yan et al., 2006 ; Chen and Dubcovsky, 2012 ; Xiao et al., 2014 ; Xu et al., 2021 ; Debernardi et al., 2022 ). Nevertheless, we still lack a detailed understanding of vernalization molecular mechanism. This review recapitulates current knowledge of the VRN alleles and reflects on vernalization models. We also discuss VRN1 multiple copies and touch on wheat devernalization.",
+      "char_offset": 1279
+    },
+    {
+      "type": "paragraph",
+      "text": "VRN1 genes have been mapped on the distal end of long arms of 5A ( Galiba et al., 1995 ; Dubcovsky et al., 1998 ), 5B ( Barrett et al., 2002 ; Iwaki et al., 2002 ) and 5D ( Law et al., 1976 ). In T. monococcum , Yan et al. (2003) cloned the VRN1 gene from 5A m chromosome and showed VRN1 expression increased in winter accessions after vernalization in both leaves and apices. Two putative VRN1 orthologues, TaVRT-1 and WAP1 , were identified in bread wheat ( Danyluk, 2003 ; Trevaskis et al., 2003 ), but later studies reported TaVRT-1 and WAP1 were synonyms for the VRN1 gene ( Shitsukawa et al., 2007a ; Kane et al., 2007 ).",
+      "char_offset": 3397
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan et al. (2004b) described VRN1 allelic variation determined by mutations in the promoter region. The Vrn-A1a allele has the highest basal levels of VRN1 transcripts. It carries the insertion of a mutator DNA transposon called spring foldback element (SFE), which comprises duplication of the partial promoter, complete exon 1 and partial intron 1. The insertion is supposed to disrupt a binding site for a putative VRN1 repressor. Fu et al. (2005) described large, several-kb-long deletions within the first intron of VRN1 homoeologs associated with the spring habit. The importance of the VRN1 gene in the vernalization response and as flower inducer has been generally accepted and supported by many scientific publications (for instance, Pugsley, 1971 ; Snape et al., 2001 ; Trevaskis, 2010 ). An ion-beam-induced mutant ( T. monococcum ) lacking VRN1 displayed a non-flowering phenotype and was designated maintained vegetative phase ( mvp ) ( Shitsukawa et al., 2007b ). They suggested that VRN1 was crucial for transitioning from the vegetative to the reproductive stage. A later study ( Distelfeld and Dubcovsky, 2010 ) showed that mvp mutants described by Shitsukawa et al. (2007b) were lacking not only VRN1 but also multiple genes, including PHYTOCHROME-C ( PHYC ) and AGAMOUS-LIKE GENE 1 ( AGLG1 ). Chen and Dubcovsky (2012) described vrn1- null mutant in tetraploid wheat that was able to flower, responded to vernalization treatment and provided regular seeds. This mutant maintained functional PHYC and AGLG1 genes. Another MADS-box genes, FRUITFULL2 ( FUL2 ) and FRUITFULL3 ( FUL3 ), are the closest VRN1 paralogs ( Preston and Kellogg, 2006 ). It is likely that some of PHYC , AGLG1 , FUL2 or FUL3 might function as redundant flowering genes ( Chen and Dubcovsky, 2012 ).",
+      "char_offset": 4026
+    },
+    {
+      "type": "paragraph",
+      "text": "Natural variations in all three VRN1 homoeologs of wheat have been reported ( Table 1 ). All identified mutations have been designated as individual alleles, but not all were experimentally confirmed to affect the heading time. The fact that dominant VRN1 alleles carry indels compared to recessive (intact) alleles may suggest they are evolutionary younger.",
+      "char_offset": 5818
+    },
+    {
+      "type": "paragraph",
+      "text": "The list of VRN1 alleles reported in hexaploid (6x), tetraploid (4x) and diploid (2x) wheat.",
+      "char_offset": 6178
+    },
+    {
+      "type": "paragraph",
+      "text": "* Santra et al. (2009) described a novel dominant allele Vrn-B1b in hexaploid wheat variety Alpowa. Following the nomenclature, they referred to the dominant Vrn-B1 allele reported by Fu et al. (2005) as Vrn-B1a . This Vrn-B1a allele carries nearly 7-kb deletion within the first intron. In tetraploid wheat, Golovnina et al. (2010) reported the Vrn-B1a allele with a 127-bp insertion in the promoter; they did not sequence the whole Vrn-B1 gene body.",
+      "char_offset": 6272
+    },
+    {
+      "type": "paragraph",
+      "text": "** Chu et al. (2011) first reported the Vrn-B1c allele. Later, Milec et al. (2012) and Shcherban et al. (2012) independently reported the same new Vrn-B1 allele and incorrectly designated it as Vrn-B1c . This allele was renamed to Vrn-B1d in the Catalogue of gene symbols for wheat: 2013-2014 supplement https://shigen.nig.ac.jp/wheat/komugi/genes/macgene/supplement2013.pdf . Therefore, the Vrn-B1d allele reported by Zhang et al. (2018) should be referred to as Vrn-B1e .",
+      "char_offset": 6725
+    },
+    {
+      "type": "paragraph",
+      "text": "*** Makhoul et al. (2022) reported the same 17-bp deletion in the first intron of VRN-D1 as Strej\u010dkov\u00e1 et al. (2021) and designated this allele vrn-D1r .",
+      "char_offset": 7200
+    },
+    {
+      "type": "paragraph",
+      "text": "VRN2 codes for a zinc finger motif protein and includes two duplicated ZCCT genes ( Yan et al., 2004b ). The CCT domain was first described in Arabidopsis proteins CONSTANS, CONSTANS-like and TIMING OF CAB1 ( Strayer et al., 2000 ). Wheat homoeologs VRN-A2 , VRN-B2 and VRN-D2 were mapped on chromosomes 5A, 4B and 4D, respectively ( Yan et al., 2004b ; Tan and Yan, 2016 ). In autumn-sown winter wheat, the flowering induction is repressed by the VRN2 gene during long days as the PPD1 promotes VRN2 transcription ( Dubcovsky et al., 2006 ; Shaw et al., 2020 ). VRN2 represses a flowering promoter, FLOWERING LOCUS T ( FT1 = VRN3 ). Cold and short days during winter downregulate VRN2 , releasing both VRN1 and FT1 transcription ( Yan et al., 2004b ; Dubcovsky et al., 2006 ) ( Figure 1Aiv ).",
+      "char_offset": 7355
+    },
+    {
+      "type": "paragraph",
+      "text": "Vernalization mechanism working models. (A) Development of working models for VRN1, VRN2 and VRN3 (= FT1 ) interactions: (i) ( Amasino, 2004 ), (ii) ( Yan et al., 2006 ), (iii) ( Chen and Dubcovsky, 2012 ), (iv) ( Debernardi et al., 2022 ) (B) working model for possible posttranscriptional mechanism of vernalization requirement, ( Xiao et al., 2014 ) (C) working model for VRN1 transcription induced by non-coding RNA ( Xu et al., 2021 ). Arrows indicate gene upregulation; lines ending in the crossed bar indicate gene repression. The snowflake symbol represents vernalization, and white sun symbol represents the long day, and the half-white/half-black sun symbol represents the short day. A question mark indicates an unknown element. FT1 = VRN3 . (D) The hypothetical model of two putative repressors (R1, R2) acting independently in either the VRN1 promoter or the first intron. (E) VRN1 chromatin state, histone methylation levels, and VRN expression profiles in the winter wheat life cycle. Dashed lines represent the predicted progress of VRN transcriptions levels.",
+      "char_offset": 8150
+    },
+    {
+      "type": "paragraph",
+      "text": "The vernalization-related gene located on chromosome 7B of the spring wheat substitution line Hope was reported ( Law, 1966 ; Law and Wolfe, 1966 ) and designated VRN5 ( Stelmakh, 1987 ; Law and Worland, 1997 ). Later, the name was changed to VRN-B4 , corresponding to its chromosome localisation ( McIntosh et al., 1998 ). Yan et al. (2006) showed that VRN-B4 is the VRN3 gene orthologous to the FT gene in Arabidopsis . FT encodes for the mobile protein that moves in the leaves and the apical meristem ( Corbesier et al., 2007 ). The FT protein/mRNA is more likely the long sought flowering compound called florigen (reviewed in ( Turck et al., 2008 )). In wheat, high levels of VRN1 after vernalization induce FT1 transcription ( Distelfeld et al., 2009a ) ( Figure 1Aiv ).",
+      "char_offset": 9227
+    },
+    {
+      "type": "paragraph",
+      "text": "Vernalization has been known and studied for a long time, but the precise molecular mechanism still waits to be revealed. A growing number of studies kept bringing new findings that were used in developing several models of how vernalization may work ( Amasino, 2004 ; Yan et al., 2006 ; Chen and Dubcovsky, 2012 ; Xiao et al., 2014 ; Debernardi et al., 2022 ). The models are depicted in Figure 1 . The first simplified model ( Amasino, 2004 ) shows the vernalization pathway with VRN2 repressing VRN1 and several other unknown genes ( Figure 1Ai ). The vernalization was suggested to repress VRN2 expression. The VRN2 expression was also downregulated by a short day (during autumn), while VRN2 repressed both VRN1 and FT1 ( Figure 1Aii ). Shimada et al. (2009) developed transgenic plants overexpressing FT1 , causing VRN1 upregulation and VRN2 downregulation. FT1 is highly transcribed even in both \u0394 vrn1 -null and \u0394 vrn1 - vrn2 -null mutants lacking functional VRN1 and VRN2 genes ( Chen and Dubcovsky, 2012 ). They proposed the model where VRN1 represses VRN2 , which downregulates FT1 , and VRN1 and FT1 mutually upregulate one another, creating a positive feedback loop. The reworked vernalization model was now referred to as \u201coriginal\u201d, and Shimada\u2019s model as \u201creverse\u201d ( Chen and Dubcovsky, 2012 ) ( Figure 1Aiii ). The most recent working model presented by Debernardi et al. (2022) supports findings reported by ( Chen and Dubcovsky, 2012 ), showing VRN1 downregulation of VRN2 . During long days in the autumn, PPD1 upregulates VRN2 , which downregulates FT1 , preventing wheat from flowering ( Figure 1Aiv ). Debernardi et al. (2022) also identified a conserved pathway integrating plant age into flowering regulation. This pathway involves the expression of miR172 acting like a flowering promotor but its targets APETALA2-like1 and 5 ( AP2L1 , AP2L5 ) function as flowering repressors.",
+      "char_offset": 10006
+    },
+    {
+      "type": "paragraph",
+      "text": "These models describe the interaction of VRN1 , VRN2 and FT1 . However, they do not explain the molecular mechanism at the DNA level. Dominant Vrn1 alleles have higher basal transcription levels, minimising the vernalization requirement. Indels present in the dominant alleles may have removed or disrupted a putative binding site for an unknown VRN1 repressor. Xiao et al. (2014) described a mechanism of VRN1 induction during vernalization. The proposed model suggests glycine-rich RNA-binding protein (GRP2) as a repressor preventing VRN1 transcript accumulation. Before vernalization, GRP2 directly binds to the VRN1 pre-mRNA in the region characterised as critical. It comprises the VRN1 intron approximately from 1.3 kb to 4.2 kb (from the start codon) ( Fu et al., 2005 ). The cold treatment induces the expression of VER2 and increases the GRP2 O -GlcNAcylation level. VER2 creates a complex with GRP2 that releases VRN1 transcript accumulation and induces flowering promotion ( Figure 1B ). Xiao et al. (2014) also reported histone methylations might participate in the vernalization response. During the cold period, the H3K27me3 levels at VRN1 chromatin decrease while levels of H3K4me3 increase. The high levels of H3K4me3 are associated with active gene transcription, while increased H3K27me3 levels are linked with gene repression ( Roh et al., 2006 ; Wysocka et al., 2006 ; Zhang et al., 2007 ). These changes are targeted to the first half of the VRN1 first intron, which is in concordance with the previous model ( Alonso-Peral et al., 2011 ) and findings reported in barley ( Oliver et al., 2009 ). It also supports the significance of the VRN1 critical region in vernalization response. Xiao et al. (2014) developed wheat transgenic lines with GRP2 overexpression ( GRP-OE ) or GRP2 silencing by RNA interference (RNAi). The results showed that the mean heading time of GRP-OE lines did not significantly differ from the wild type (winter variety JH9). The GRP2- RNAi lines had reduced mean heading time (155 days) compared to the wild type (165 days). These lines were always earlier than wild type, irrespective of the length of the vernalization treatment. Although the difference was statistically significant, it did not approximate the spring varieties\u2019 mean heading time. Depending on the growth conditions, the spring wheat heading time can range from 25 to 90 days ( Li et al., 2017 ; Huang et al., 2018 ). Thus, we can hypothesise about the presence of another putative, more powerful VRN1 repressor. One could inspire from the study in Brachypodium distachyon where the REPRESSOR OF VERNALIZATION ( RVR1 ) was described ( Woods et al., 2017 ). They showed that mutation in RVR1 bromo-adjacent homology and transcriptional elongation factor S-II domains leads to reduced H3K27me3 levels of VRN1 chromatin and results in accelerated flowering without vernalization.",
+      "char_offset": 11911
+    },
+    {
+      "type": "paragraph",
+      "text": "The histone methylation of VRN1 chromatin observed during vernalization ( Xiao et al., 2014 ) might result from Polycomb repressive complex 2 (PRC2) activity. This complex is a histone methyltransferase consisting of four subunits ( Bantignies and Cavalli, 2011 ). The SET domain in the catalytic subunit Enhancer of zeste [E(z)] is associated with the H3K27 trimethylation. The vernalization requirement is reset in the next sexual generation, probably during seed development (reviewed in ( Trevaskis, 2010 ) ( Figure 1E ). The genes coding for individual PRC2 subunits in bread wheat have been recently reported ( Strej\u010dkov\u00e1 et al., 2020 ), but the role of PRC2 in wheat vernalization still has to be unravelled. Lomax et al. (2018) characterised Brachypodium mutant flowering rapidly under non-vernalizing conditions. A single nucleotide polymorphism (SNP) in the ENHANCER OF ZESTE-LIKE 1 ( EZL1 ) was associated with global reduction of H3K27me3, which corresponds with EZL1 function in the PRC2 activity.",
+      "char_offset": 14807
+    },
+    {
+      "type": "paragraph",
+      "text": "Flowering can be also regulated by long non-coding RNAs (lnc RNAs). In Arabidopsis , lnc RNAs derived from both strands of FLOWERING LOCUS C ( FLC ) affect FLC transcription ( Helliwell et al., 2011 ; Heo and Sung, 2011 ; Kim and Sung, 2017 ; Kim et al., 2017 ). The more recent model in bread wheat describes VRN1 regulation by non-coding RNA transcribed from the VRN1 sense strand ( Xu et al., 2021 ). This alternative transcript ( TaVRN1 alternative splicing, VAS ) is induced during the first weeks of vernalization and includes the first exon and the first intron. In non-vernalised winter wheat, VRN1 forms a loop due to the activity of unknown proteins. VAS stimulates the production of VRN1 transcripts by engaging other proteins, such as TaRF2a and TaRF2b. The loop is released during vernalization, which leads to the complete transcription of VRN1 ( Figure 1C ). VAS includes the short alternative transcript reported previously ( Xiao et al., 2014 ).",
+      "char_offset": 15819
+    },
+    {
+      "type": "paragraph",
+      "text": "Chromosomal segments are subject to deletions or duplications. Such rearrangements larger than 1 kb are called copy number variation (CNV) ( \u017bmie\u0144ko et al., 2014 ). CNVs played a significant role in human evolution but are also an important factor causing diseases, including cancer (reviewed in ( Hastings et al., 2009 )). In polyploids like bread wheat, CNV refers to the number of gene copies per haploid genome ( W\u00fcrschum et al., 2015 ). VRN-A1 , VRN-B1 and VRN-D1 homoeologs are located on different chromosomes ( Snape et al., 2001 ), but individual VRN1 genes can also be present in multiple copies on the same chromosome. CNV has been reported mainly for the VRN-A1 gene, which can be present from one to two copies (dominant Vrn-A1a ) or up to four copies (recessive vrn-A1 ) ( D\u00edaz et al., 2012 ; W\u00fcrschum et al., 2015 ; Strej\u010dkov\u00e1 et al., 2021 ). Two copies of VRN-B1 were observed in the hexaploid species T. compactum and T. spelta ( Muterko and Salina, 2019 ). No CNV for VRN-D1 have been described so far ( Strej\u010dkov\u00e1 et al., 2021 ), but screening more varieties may reveal multiple VRN-D1 copies. Although the word \u201ccopy\u201d implies identical sequences of repeated sections, several types of VRN1 copy number variation exist. Actually, this fact helped to identify individual copies. Using current sequencing and assembling techniques, it would be extremely hard to distinguish one copy from another if they were 100% identical. The first type of CNV is the SNP in VRN-A1 exons 4 and 7, reported in wheat accessions carrying two or more copies ( D\u00edaz et al., 2012 ; Muterko and Salina, 2018 ). An advanced case of CNV displays the Vrn-A1c allele present in the spring Afghanistan land race IL369. The vrn-A1c allele has two copies: one recessive (intact) copy and one dominant copy with the deletion in the first intron ( Fu et al., 2005 ; D\u00edaz et al., 2012 ). The VRN-D4 gene originated by translocation of \u223c the 290-kb region from the distal part of the long arm of the 5A chromosome to the proximal region of the short arm of chromosome 5D ( Kippes et al., 2015 ). This region included the vrn-A1 gene; therefore, VRN-D4 might be considered an unusual case of CNV as it involves translocation between two haploid subgenomes. The CNV can have a diverse effect on flowering: an extra vrn-A1 copy translocated from 5A to 5D chromosome (= VRN-D4 gene), also carrying SNP (A367C), resulted in the spring growth habit with no vernalization requirement ( Kippes et al., 2015 ). The Vrn-A1c allele confers spring growth habit due to the mutated copy carrying the large deletion within the first VRN1 intron. The higher number of vrn-A1 copies within the same 5A chromosome, associated with SNPs in VRN1 exons 4 and 7, led to an increased vernalization requirement; plants with more than one copy needed a prolonged cold period to start VRN-A1 transcription ( D\u00edaz et al., 2012 ; Li et al., 2013 ). Recently, a speed vernalization (SV) method was reported ( Cha et al., 2022 ). They showed that the SV effectivity varied among varieties with the different numbers of vrn-A1 copies. Wheat variety Charger (three vrn-A1 copies) flowered quicker when speed-vernalized for four weeks, while variety Claire (one vrn-A1 copy) had a shorter flowering time under two or six weeks of speed vernalization.",
+      "char_offset": 16783
+    },
+    {
+      "type": "paragraph",
+      "text": "Regarding VRN2 , Tan and Yan (2016) reported duplication of the VRN-B2 gene in hexaploid wheat, but no significant effect on flowering time was observed.",
+      "char_offset": 20087
+    },
+    {
+      "type": "paragraph",
+      "text": "No increased number of FT1 was described in hexaploid wheat so far. In barley ( Hordeum vulgare L.), four HvFT1 copies significantly accelerated flowering time ( Nitcher et al., 2013 ). Wheat and barley are evolutionary close to each other, suggesting a possible, unrevealed existence of multiple FT1 copies in wheat.",
+      "char_offset": 20242
+    },
+    {
+      "type": "paragraph",
+      "text": "Vernalization results in the change from the vegetative to the reproductive growth. The initial metabolic changes lead to morphological changes when the shoot apical meristem begins to produce floral primordia instead of leaf primordia ( Yong et al., 2003 ). The effect of vernalization treatment can be partially or completely removed (in some species) by several days of heat treatment called devernalization. The most effective temperature was considered 30 \u2013 40\u00b0C ( Bernier, 1981 ). The heat treatment (around five days) needed to be applied directly after the end of vernalization; it becomes ineffective after a few days of plant growth at ordinary temperatures ( Michaels, Amasino 2000 ). In bread wheat, several studies were performed to determine if vernalization-induced developmental changes could be also reversed ( Gregory and Purvis, 1948 ; Chujo, 1970 ; Xiu-zhen et al., 1987 ; Yong et al., 2003 ; Xu et al., 2019 ). During devernalization experiments, vernalised wheat plants were exposed to higher temperatures, ranging from 18\u00b0C to 35\u00b0C. The treatment was associated with delayed flowering, changes gene expression patterns, or protein content changes. The length of the cold treatment reported in the studies varied from 21 to 40 days, which might not be enough to complete vernalization. The vernalization requirement duration can be genotype-dependent ( Li et al., 2013 ). Its genetic nature is not fully understood, but might be linked with VRN-A1 locus or mutations in acetylglucosamine transferase TaOGT1 ( D\u00edaz et al., 2012 ; Li et al., 2013 ; Kippes et al., 2015 ; Fan et al., 2021 ). Study in Arabidopsis demonstrated that the effect of six-week-vernalization might be erased by heat treatment (30\u00b0C). It was associated with the elimination of epigenetic mark H3K27me3 from FLC ( Bouch\u00e9 et al., 2015 ). This H3K27me3 removal caused FLC reactivation, which led to delayed flowering. Thus, the devernalization phenomenon in cereals might be putative only and needs further research.",
+      "char_offset": 20561
+    },
+    {
+      "type": "paragraph",
+      "text": "The knowledge of wheat vernalization mechanism has expanded enormously in the last 20 years once VRN genes have been cloned and characterised. The advances in molecular methods enabled us to identify sizeable allelic variability in the VRN1 gene and to update vernalization models. Despite all these achievements, the main question remains: what is the actual molecular mechanism of wheat vernalization? In bread wheat, the VRN1 allelic variation data suggests two different evolutionary events resulting in the spring growth habit \u2013 the deletion within the VRN1 first intron and the insertion of the mutator DNA transposon in the VRN1 promoter region. Both deletion and insertion may disturb the binding site for the putative VRN1 repressor(s). The Vrn-A1a allele has the first intron intact (same with recessive allele) but carries the insertion in the promoter region. This allele has the highest basal VRN1 expression level associated with shorter heading time than the dominant Vrn-B1 and Vrn-D1 alleles. However, vernalization increases Vrn-A1a transcription, supporting the previously described role of the first intron. As mentioned previously, the Vrn-A1a allele has duplicated promoter and exon 1. This might be the reason for such high transcript levels, but the function of this duplication remains undiscovered. The current knowledge about the wheat vernalization mechanism supports the hypothesis that there might be two independent putative VRN1 repressors: one targeting the VRN1 promoter region and the other interacting with the first intron ( Alonso-Peral et al., 2011 ) ( Figure 1D ). Besides, the role of multiple vrn-A1 copies in the vernalization response should be studied in more detail. The position of individual copies within the genome is not known and there is no information whether they have the same expression pattern. Finally, our understanding of how vernalization requirement is reset in the next generation is limited. It possibly occurs during the seed development and may involve PRC2-related histone modification of VRN1 chromatin.",
+      "char_offset": 22570
+    },
+    {
+      "type": "paragraph",
+      "text": "We should not forget to mention an integral part of vernalization: how plants sense the duration of cold period. Longer cold treatment increases VRN1 transcript levels suggesting a quantitative character of vernalization (reviewed in ( Trevaskis, 2010 )). The length of sufficient vernalization varies among winter wheats. Several hypotheses regarding VRN1 were suggested but they were not in concordance: copy number variation, amino acid change or SNP in the putative repressor binding site ( D\u00edaz et al., 2012 ; Li et al., 2013 ; Xiao et al., 2014 ). Another explanation was proposed in Arabidopsis ( Kyung et al., 2022 ). The long-term cold-mediated response might employ circadian clock regulators CIRCADIAN CLOCK ASSOCIATED 1 and LATEELONGATED HYPOCOTYL.",
+      "char_offset": 24644
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent technical and methodological advances will further help to untangle vernalization. Increased availability of the genome and transcriptome sequencing, along with the improvements in computational biology, may reveal new molecular mechanisms involved in the vernalization pathway. VanGessel et al. (2022) recently demonstrated transcriptional signatures of inflorescent development in the tetraploid wheat variety Kronos. The gene expression atlas of the floral meristem based on single nucleus RNA-seq data was developed latterly in barley ( Neumann et al., 2022 ). Adapting the new techniques of targeted mutagenesis could help to develop the new alleles for functional studies.",
+      "char_offset": 25406
+    },
+    {
+      "type": "paragraph",
+      "text": "There might be more unknown genes and their interactions participating in wheat vernalization. We could compare this phenomenon to mosaic assembling; once all fragments are in their place, we will see the complete picture.",
+      "char_offset": 26093
+    },
+    {
+      "type": "paragraph",
+      "text": "ZM proposed the manuscript. ZM, BS and JS participated in the research and provided original results. All authors contributed to the article and approved the submitted version.",
+      "char_offset": 26317
+    },
+    {
+      "type": "paragraph",
+      "text": "This research was funded by Czech Science Foundation, grant number 22-00204S.",
+      "char_offset": 26495
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be constructed as a potential conflict of interest.",
+      "char_offset": 26574
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+      "char_offset": 26750
+    },
+    {
+      "type": "paragraph",
+      "text": "Alonso-Peral M. M. Oliver S. N. Casao M. C. Greenup A. A. Trevaskis B. ( 2011 ). The promoter of the cereal VERNALIZATION1 gene is sufficient for transcriptional induction by prolonged cold . PloS One 6 , e29456 . doi: 10.1371/journal.pone.0029456",
+      "char_offset": 27098
+    },
+    {
+      "type": "paragraph",
+      "text": "Amasino R. ( 2004 ). Vernalization, competence, and the epigenetic memory of winter . THE Plant Cell Online 16 , 2553 \u2013 2559 . doi: 10.1105/tpc.104.161070",
+      "char_offset": 27347
+    },
+    {
+      "type": "paragraph",
+      "text": "Bantignies F. Cavalli G. ( 2011 ). Polycomb group proteins: repression in 3D . Trends Genet. 27 , 454 \u2013 464 . doi: 10.1016/j.tig.2011.06.008",
+      "char_offset": 27503
+    },
+    {
+      "type": "paragraph",
+      "text": "Barrett B. Bayram M. Kidwell K. Weber W. E. ( 2002 ). Identifying AFLP and microsatellite markers for vernalization response gene vrn-B1 in hexaploid wheat using reciprocal mapping populations . Plant Breed. 121 , 400 \u2013 406 . doi: 10.1046/j.1439-0523.2002.732319.x",
+      "char_offset": 27645
+    },
+    {
+      "type": "paragraph",
+      "text": "Beales J. Turner A. Griffiths S. Snape J. W. Laurie D. A. ( 2007 ). A pseudo-response regulator is misexpressed in the photoperiod insensitive ppd-D1a mutant of wheat (Triticum aestivum l.) . Theor. Appl. Genet. 115 , 721 \u2013 733 . doi: 10.1007/s00122-007-0603-4",
+      "char_offset": 27911
+    },
+    {
+      "type": "paragraph",
+      "text": "Berezhnaya A. Kiseleva A. Leonova I. Salina E. ( 2021 ). Allelic variation analysis at the vernalization response and photoperiod genes in Russian wheat varieties identified two novel alleles of vrn-B3 . Biomolecules 11 . doi: 10.3390/biom11121897",
+      "char_offset": 28173
+    },
+    {
+      "type": "paragraph",
+      "text": "Bernier ( 1981 ). Volume II: Transition to reproductive growth ( Boca Raton : CRC Press ). doi: 10.1201/9781351075688",
+      "char_offset": 28422
+    },
+    {
+      "type": "paragraph",
+      "text": "Bonnin I. Rousset M. Madur D. Sourdille P. Dupuits C. Brunel D. et al . ( 2008 ). FT genome a and d polymorphisms are associated with the variation of earliness components in hexaploid wheat . Theor. Appl. Genet. 116 , 383 \u2013 394 . doi: 10.1007/s00122-007-0676-0",
+      "char_offset": 28541
+    },
+    {
+      "type": "paragraph",
+      "text": "Bouch\u00e9 F. Detry N. P\u00e9rilleux C. ( 2015 ). Heat can erase epigenetic marks of vernalization in arabidopsis . Plant Signaling Behav. 10 , e990799 . doi: 10.4161/15592324.2014.990799",
+      "char_offset": 28804
+    },
+    {
+      "type": "paragraph",
+      "text": "Cha J.-K. O\u2019Connor K. Alahmad S. Lee J.-H. Dinglasan E. Park H. et al . ( 2022 ). Speed vernalization to accelerate generation advance in winter cereal crops . Mol. Plant 15 , 1300 \u2013 1309 . doi: 10.1016/j.molp.2022.06.012",
+      "char_offset": 28985
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen Z. Cheng X. Chai L. Wang Z. Du D. Wang Z. et al . ( 2020 ). Pleiotropic QTL influencing spikelet number and heading date in common wheat (Triticum aestivum l.) . Theor. Appl. Genet. 133 , 1825 \u2013 1838 . doi: 10.1007/s00122-020-03556-6",
+      "char_offset": 29208
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen A. Dubcovsky J. ( 2012 ). Wheat TILLING mutants show that the vernalization gene VRN1 down-regulates the flowering repressor VRN2 in leaves but is not essential for flowering . PloS Genet. 8 , e1003134 . doi: 10.1371/journal.pgen.1003134",
+      "char_offset": 29448
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen F. Gao M. Zhang J. Zuo A. Shang X. Cui D. ( 2013 ). Molecular characterization of vernalization and response genes in bread wheat from the yellow and huai valley of China . BMC Plant Biol. 13 . doi: 10.1186/1471-2229-13-199",
+      "char_offset": 29692
+    },
+    {
+      "type": "paragraph",
+      "text": "Chouard P. ( 1960 ). Vernalization and its relations to dormancy . Annu. Rev. Plant Physiol. 11 , 191 \u2013 238 . doi: 10.1146/annurev.pp.11.060160.001203",
+      "char_offset": 29922
+    },
+    {
+      "type": "paragraph",
+      "text": "Chujo H. ( 1970 ). Some observations on the reversal of vernalization effect of wheat . Nihon Sakumotsugaku Kai Kiji = Proc. Crop Sci. Soc. Japan 39 , 451 \u2013 456 . doi: 10.1626/jcs.39.451",
+      "char_offset": 30074
+    },
+    {
+      "type": "paragraph",
+      "text": "Chu C.-G. Tan C. T. Yu G.-T. Zhong S. Xu S. S. Yan L. ( 2011 ). A novel retrotransposon inserted in the dominant vrn-B1 allele confers spring growth habit in tetraploid wheat ( triticum turgidum l.) . G3 Genes|Genomes|Genetics 1 , 637 \u2013 645 . doi: 10.1534/g3.111.001131 .",
+      "char_offset": 30262
+    },
+    {
+      "type": "paragraph",
+      "text": "Corbesier L. Vincent C. Jang S. Fornara F. Fan Q. Searle I. et al . ( 2007 ). FT protein movement contributes to long-distance signaling in floral induction of arabidopsis . Science 316 , 1030 \u2013 1033 . doi: 10.1126/science.1141752",
+      "char_offset": 30535
+    },
+    {
+      "type": "paragraph",
+      "text": "Danyluk J. ( 2003 ). TaVRT-1, a putative transcription factor associated with vegetative to reproductive transition in cereals . Plant Physiol. 132 , 1849 \u2013 1860 . doi: 10.1104/pp.103.023523",
+      "char_offset": 30767
+    },
+    {
+      "type": "paragraph",
+      "text": "Debernardi J. M. Woods D. P. Li K. Li C. Dubcovsky J. ( 2022 ). MiR172-APETALA2-like genes integrate vernalization and plant age to control flowering time in wheat . PloS Genet. 18 , e1010157 . doi: 10.1371/journal.pgen.1010157",
+      "char_offset": 30959
+    },
+    {
+      "type": "paragraph",
+      "text": "D\u00edaz A. Zikhali M. Turner A. S. Isaac P. Laurie D. A. ( 2012 ). Copy number variation affecting the photoperiod-B1 and vernalization-A1 genes is associated with altered flowering time in wheat (Triticum aestivum) . PloS One 7 , e33234 . doi: 10.1371/journal.pone.0033234",
+      "char_offset": 31188
+    },
+    {
+      "type": "paragraph",
+      "text": "Distelfeld A. Dubcovsky J. ( 2010 ). Characterization of the maintained vegetative phase deletions from diploid wheat and their effect on VRN2 and FT transcript levels . Mol. Genet. Genomics 283 , 223 \u2013 232 . doi: 10.1007/s00438-009-0510-2",
+      "char_offset": 31460
+    },
+    {
+      "type": "paragraph",
+      "text": "Distelfeld A. Li C. Dubcovsky J. ( 2009 a). Regulation of flowering in temperate cereals . Curr. Opin. Plant Biol. 12 , 178 \u2013 184 . doi: 10.1016/j.pbi.2008.12.010",
+      "char_offset": 31701
+    },
+    {
+      "type": "paragraph",
+      "text": "Distelfeld A. Tranquilli G. Li C. Yan L. Dubcovsky J. ( 2009 b). Genetic and molecular characterization of the VRN2 loci in tetraploid wheat . Plant Physiol. 149 , 245 \u2013 257 . doi: 10.1104/pp.108.129353",
+      "char_offset": 31865
+    },
+    {
+      "type": "paragraph",
+      "text": "Dubcovsky J. Dvorak J. ( 2007 ). Genome plasticity a key factor in the success of polyploid wheat under domestication . Science 316 , 1862 \u2013 1866 . doi: 10.1126/science.1143986",
+      "char_offset": 32069
+    },
+    {
+      "type": "paragraph",
+      "text": "Dubcovsky J. Lijavetzky D. Appendino L. Tranquilli G. ( 1998 ). Comparative RFLP mapping of triticum monococcum genes controlling vernalization requirement . Theor. Appl. Genet. 97 , 968 \u2013 975 . doi: 10.1007/s001220050978",
+      "char_offset": 32247
+    },
+    {
+      "type": "paragraph",
+      "text": "Dubcovsky J. Loukoianov A. Fu D. Valarik M. Sanchez A. Yan L. ( 2006 ). Effect of photoperiod on the regulation of wheat vernalization genes VRN1 and VRN2 . Plant Mol. Biol. 60 , 469 \u2013 480 . doi: 10.1007/s11103-005-4814-2",
+      "char_offset": 32470
+    },
+    {
+      "type": "paragraph",
+      "text": "Fan M. Miao F. Jia H. Li G. Powers C. Nagarajan R. et al . ( 2021 ). O -linked n -acetylglucosamine transferase is involved in fine regulation of flowering time in winter wheat . Nat. Commun. 12 , 2303 . doi: 10.1038/s41467-021-22564-8",
+      "char_offset": 32693
+    },
+    {
+      "type": "paragraph",
+      "text": "Fu D. Szucs P. Yan L. Helguera M. Skinner J. S. Von Zitzewitz J. et al . ( 2005 ). Large Deletions within the first intron in VRN-1 are associated with spring growth habit in barley and wheat . Mol. Genet. Genomics 273 , 54 \u2013 65 . doi: 10.1007/s00438-004-1095-4",
+      "char_offset": 32930
+    },
+    {
+      "type": "paragraph",
+      "text": "Galiba G. Quarrie S. A. Sutka J. Morgounov A. Snape J. W. ( 1995 ). RFLP mapping of the vernalization (Vrnl) and frost resistance (Frl) genes on chromosome 5A of wheat . Theoret. Appl. Genetics 90 , 1174 \u2013 1179 . doi: 10.1007/BF00222940",
+      "char_offset": 33193
+    },
+    {
+      "type": "paragraph",
+      "text": "Golovnina K. A. Kondratenko E. Y. Blinov A. G. Goncharov N. P. ( 2010 ). Molecular characterization of vernalization loci VRN1 in wild and cultivated wheats . BMC Plant Biol. 10 , 168 . doi: 10.1186/1471-2229-10-168",
+      "char_offset": 33431
+    },
+    {
+      "type": "paragraph",
+      "text": "Gregory F. G. Purvis O. N. ( 1948 ). Reversal of vernalization by high temperature . Nature 161 , 859 \u2013 860 . doi: 10.1038/161859a0",
+      "char_offset": 33648
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastings P. J. Lupski J. R. Rosenberg S. M. Ira G. ( 2009 ). Mechanisms of change in gene copy number . Nat. Rev. Genet. 14 , 551 \u2013 564 . doi: 10.1038/nrg2593",
+      "char_offset": 33781
+    },
+    {
+      "type": "paragraph",
+      "text": "Helliwell C. A. Robertson M. Finnegan E. J. Buzas D. M. Dennis E. S. ( 2011 ). Vernalization-repression of arabidopsis FLC requires promoter sequences but not antisense transcripts . PloS One 6 , e21513 . doi: 10.1371/journal.pone.0021513",
+      "char_offset": 33941
+    },
+    {
+      "type": "paragraph",
+      "text": "Heo J. B. Sung S. ( 2011 ). Vernalization-mediated epigenetic silencing by a long intronic noncoding RNA . Science 331 , 76 \u2013 79 . doi: 10.1126/science.1197349",
+      "char_offset": 34181
+    },
+    {
+      "type": "paragraph",
+      "text": "Huang M. Mheni N. Brown-Guedira G. McKendry A. Griffey C. Van Sanford D. et al . ( 2018 ). Genetic analysis of heading date in winter and spring wheat . Euphytica 214 , 128 . doi: 10.1007/s10681-018-2199-y",
+      "char_offset": 34342
+    },
+    {
+      "type": "paragraph",
+      "text": "Ivani\u010dov\u00e1 Z. Jakobson I. Reis D. \u0160af\u00e1\u0159 J. Milec Z. Abrouk M. et al . ( 2016 ). Characterization of new allele influencing flowering time in bread wheat introgressed from triticum militinae . New Biotechnol. 33 , 718 \u2013 727 . doi: 10.1016/j.nbt.2016.01.008",
+      "char_offset": 34549
+    },
+    {
+      "type": "paragraph",
+      "text": "Iwaki K. Nishida J. Yanagisawa T. Yoshida H. Kato K. ( 2002 ). Genetic analysis of vrn-B1 for vernalization requirement by using linked dCAPS markers in bread wheat (Triticum aestivum l.) . Theor. Appl. Genet. 104 , 571 \u2013 576 . doi: 10.1007/s00122-001-0769-0",
+      "char_offset": 34805
+    },
+    {
+      "type": "paragraph",
+      "text": "Kane N. A. Agharbaoui Z. Diallo A. O. Adam H. Tominaga Y. Ouellet F. et al . ( 2007 ). TaVRT2 represses transcription of the wheat vernalization gene TaVRN1: TaVRT2 represses TaVRN1 transcription . Plant J. 51 , 670 \u2013 680 . doi: 10.1111/j.1365-313X.2007.03172.x",
+      "char_offset": 35065
+    },
+    {
+      "type": "paragraph",
+      "text": "Kim D.-H. Sung S. ( 2017 ). Vernalization-triggered intragenic chromatin-loop formation by long noncoding RNAs . Dev. Cell 40 , 302 \u2013 312.e4 . doi: 10.1016/j.devcel.2016.12.021",
+      "char_offset": 35328
+    },
+    {
+      "type": "paragraph",
+      "text": "Kim D.-H. Xi Y. Sung S. ( 2017 ). Modular function of long noncoding RNA, COLDAIR, in the vernalization response . PloS Genet. 13 . doi: 10.1371/journal.pgen.1006939",
+      "char_offset": 35506
+    },
+    {
+      "type": "paragraph",
+      "text": "Kippes N. Debernardi J. M. Vasquez-Gross H. A. Akpinar B. A. Budak H. Kato K. et al . ( 2015 ). Identification of the VERNALIZATION 4 gene reveals the origin of spring growth habit in ancient wheats from south Asia . Proc. Natl. Acad. Sci. 112 , E5401 \u2013 E5410 . doi: 10.1073/pnas.1514883112",
+      "char_offset": 35673
+    },
+    {
+      "type": "paragraph",
+      "text": "Ko\u0161ner J. P\u00e1nkov\u00e1 K. . ( 2002 ). Vernalisation Response of Some Winter Wheat Cultivars . Czech Journal of Genetics and Plant Breeding 38 , 97 \u2013 103 .",
+      "char_offset": 35965
+    },
+    {
+      "type": "paragraph",
+      "text": "Kyung J. Jeon M. Jeong G. Shin Y. Seo E. Yu J. et al . ( 2022 ). The two clock proteins CCA1 and LHY activate VIN3 transcription during vernalization through the vernalization-responsive cis-element . Plant Cell 34 , 1020 \u2013 1037 . doi: 10.1093/plcell/koab304",
+      "char_offset": 36116
+    },
+    {
+      "type": "paragraph",
+      "text": "Law C. N. ( 1966 ). The location of genetic factors affecting a quantitative character in wheat . Genetics 53 , 487 \u2013 498 . doi: 10.1093/genetics/53.3.487",
+      "char_offset": 36376
+    },
+    {
+      "type": "paragraph",
+      "text": "Law C. N. Wolfe M. S. ( 1966 ). Location of genetic factors for mildew resistance and ear emergence time on chromosome 7B of wheat . Canadian Journal of Genetics and Cytology 8 ( 3 ), 462 \u2013 470 . doi: 10.1139/g66-056",
+      "char_offset": 36532
+    },
+    {
+      "type": "paragraph",
+      "text": "Law C. N. Worland A. J. ( 1997 ). Genetic analysis of some flowering time and adaptive traits in wheat . New Phytol. 137 , 19 \u2013 28 . doi: 10.1046/j.1469-8137.1997.00814.x",
+      "char_offset": 36750
+    },
+    {
+      "type": "paragraph",
+      "text": "Law C. N. Worland A. J. Giorgi B. ( 1976 ). The genetic control of ear-emergence time by chromosomes 5A and 5D of wheat . Heredity 36 , 49 \u2013 58 . doi: 10.1038/hdy.1976.5",
+      "char_offset": 36922
+    },
+    {
+      "type": "paragraph",
+      "text": "Li G. Boontung R. Powers C. Belamkar V. Huang T. Miao F. et al . ( 2017 ). Genetic basis of the very short life cycle of \u2018Apogee\u2019 wheat . BMC Genomics 18 . doi: 10.1186/s12864-017-4239-8",
+      "char_offset": 37093
+    },
+    {
+      "type": "paragraph",
+      "text": "Li G. Yu M. Fang T. Cao S. Carver B. F. Yan L. ( 2013 ). Vernalization requirement duration in winter wheat is controlled by Ta VRN-A1 at the protein level . Plant J. 76 , 742 \u2013 753 . doi: 10.1111/tpj.12326",
+      "char_offset": 37281
+    },
+    {
+      "type": "paragraph",
+      "text": "Lomax A. Woods D. P. Dong Y. Bouch\u00e9 F. Rong Y. Mayer K. S. et al . ( 2018 ). An ortholog of CURLY LEAF/ENHANCER OF ZESTE like-1 is required for proper flowering in brachypodium distachyon . Plant J. 93 , 871 \u2013 882 . doi: 10.1111/tpj.13815",
+      "char_offset": 37489
+    },
+    {
+      "type": "paragraph",
+      "text": "Makhoul M. Chawla H. S. Wittkop B. Stahl A. ( 2022 ). Long-amplicon single-molecule sequencing reveals novel , trait-associated variants of VERNALIZATION1 homoeologs in hexaploid wheat . Front Plant Sci. 13 , 942461 . doi: 10.3389/fpls.2022.942461",
+      "char_offset": 37729
+    },
+    {
+      "type": "paragraph",
+      "text": "McIntosh RA Hart GE Devos KM Gale MD Roger WJ ( 1998 ). Catalogue of gene symbols for wheat . In: Sinkard AE Ed Proc 9th Int Wheat Genet Symp 5 ( Saskatoon, Sask : University of Saskatoon Extension Press ), 1 \u2013 235 .",
+      "char_offset": 37978
+    },
+    {
+      "type": "paragraph",
+      "text": "Michaels S. D. Amasino R. M. ( 2000 ). Memories of winter: vernalization and the competence to flower . Plant, Cell and Environment 23 , 1145 \u2013 1153 . doi: 10.1046/j.1365-3040.2000.00643.x",
+      "char_offset": 38196
+    },
+    {
+      "type": "paragraph",
+      "text": "Milec Z. Tomkov\u00e1 L. Sum\u00edkov\u00e1 T. P\u00e1nkov\u00e1 K. ( 2012 ). A new multiplex PCR test for the determination of vrn-B1 alleles in bread wheat (Triticum aestivum l.) . Mol. Breed. 30 , 317 \u2013 323 . doi: 10.1007/s11032-011-9621-7",
+      "char_offset": 38386
+    },
+    {
+      "type": "paragraph",
+      "text": "Muterko A. F. Salina E. A . ( 2017 ). Analysis of the VERNALIZATION-A1 exon-4 polymorphism in polyploid wheat . Vavilov Journal of Genetics and Breeding 21 , 323 \u2013 333 . doi: 10.18699/VJ16.19-o",
+      "char_offset": 38605
+    },
+    {
+      "type": "paragraph",
+      "text": "Muterko A. Balashova I. Cockram J. Kalendar R. Sivolap Y. ( 2015 ). The new wheat vernalization response allele vrn-D1s is caused by DNA transposon insertion in the first intron . Plant Mol. Biol. Rep. 33 , 294 \u2013 303 . doi: 10.1007/s11105-014-0750-0",
+      "char_offset": 38800
+    },
+    {
+      "type": "paragraph",
+      "text": "Muterko A. Kalendar R. Salina E. ( 2016 ). Novel alleles of the VERNALIZATION1 genes in wheat are associated with modulation of DNA curvature and flexibility in the promoter region . BMC Plant Biol. 16 , 65 \u2013 81 . doi: 10.1186/s12870-015-0691-2",
+      "char_offset": 39051
+    },
+    {
+      "type": "paragraph",
+      "text": "Muterko A. Salina E. ( 2018 ). Origin and distribution of the VRN-A1 exon 4 and exon 7 haplotypes in domesticated wheat species . Agronomy 8 , 156 . doi: 10.3390/agronomy8080156",
+      "char_offset": 39297
+    },
+    {
+      "type": "paragraph",
+      "text": "Muterko A. Salina E. ( 2019 ). VRN1-ratio test for polyploid wheat . Planta 250 , 1955 \u2013 1965 . doi: 10.1007/s00425-019-03279-z",
+      "char_offset": 39476
+    },
+    {
+      "type": "paragraph",
+      "text": "Muterko A. F. Salina E. A. ( 2017 ). Analysis of the VERNALIZATION-A1 exon-4 polymorphism in polyploid wheat . Vavilov Journal of Genetics and Breeding 21 , 323 \u2013 333 . doi: 10.18699/VJ16.19-o",
+      "char_offset": 39605
+    },
+    {
+      "type": "paragraph",
+      "text": "Neumann M. Xu X. Smaczniak C. Schumacher J. Yan W. Bl\u00fcthgen N. et al . ( 2022 ). A 3D gene expression atlas of the floral meristem based on spatial reconstruction of single nucleus RNA sequencing data . Nat. Commun. 13 , 2838 . doi: 10.1038/s41467-022-30177-y",
+      "char_offset": 39799
+    },
+    {
+      "type": "paragraph",
+      "text": "Nishimura K. Handa H. Mori N. Kawaura K. Kitajima A. Nakazaki T. ( 2021 ). Geographical distribution and adaptive variation of VRN-A3 alleles in worldwide polyploid wheat (Triticum spp.) species collection . Planta 253 , 1 \u2013 14 . doi: 10.1007/s00425-021-03646-9",
+      "char_offset": 40060
+    },
+    {
+      "type": "paragraph",
+      "text": "Nishimura K. Moriyama R. Katsura K. Saito H. Takisawa R. Kitajima A. et al . ( 2018 ). The early flowering trait of an emmer wheat accession (Triticum turgidum l. ssp. dicoccum) is associated with the cis-element of the vrn-A3 locus . Theor. Appl. Genet. 131 , 2037 \u2013 2053 . doi: 10.1007/s00122-018-3131-5",
+      "char_offset": 40323
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitcher R. Distelfeld A. Tan C. Yan L. Dubcovsky J. ( 2013 ). Increased copy number at the HvFT1 locus is associated with accelerated flowering time in barley . Mol. Genet. Genomics 288 , 261 \u2013 275 . doi: 10.1007/s00438-013-0746-8",
+      "char_offset": 40630
+    },
+    {
+      "type": "paragraph",
+      "text": "Oliver S. N. Finnegan E. J. Dennis E. S. Peacock W. J. Trevaskis B. ( 2009 ). Vernalization-induced flowering in cereals is associated with changes in histone methylation at the VERNALIZATION1 gene . Proc. Natl. Acad. Sci. 106 , 8386 \u2013 8391 . doi: 10.1073/pnas.0903566106",
+      "char_offset": 40862
+    },
+    {
+      "type": "paragraph",
+      "text": "Preston J. C. Kellogg E. A. ( 2006 ). Reconstructing the evolutionary history of paralogous APETALA1/FRUITFULL-like genes in grasses (Poaceae) . Genetics 174 , 421 \u2013 437 . doi: 10.1534/genetics.106.057125",
+      "char_offset": 41135
+    },
+    {
+      "type": "paragraph",
+      "text": "Pugsley A. ( 1971 ). A genetic analysis of the spring-winter habit of growth in wheat . Aust. J. Agric. Res. 22 , 21 . doi: 10.1071/AR9710021",
+      "char_offset": 41341
+    },
+    {
+      "type": "paragraph",
+      "text": "Roh T.-Y. Cuddapah S. Cui K. Zhao K. ( 2006 ). The genomic landscape of histone modifications in human T cells . Proc. Natl. Acad. Sci. 103 , 15782 \u2013 15787 . doi: 10.1073/pnas.0607617103",
+      "char_offset": 41484
+    },
+    {
+      "type": "paragraph",
+      "text": "Santra D. K. Santra M. Allan R. E. Campbell K. G. Kidwell K. K. ( 2009 ). Genetic and molecular characterization of vernalization genes vrn-A1 , vrn-B1, and vrn-D1 in spring wheat germplasm from the pacific northwest region of the U.S.A . Plant Breed. 128 , 576 \u2013 584 . doi: 10.1111/j.1439-0523.2009.01681.x",
+      "char_offset": 41672
+    },
+    {
+      "type": "paragraph",
+      "text": "Shaw L. M. Li C. Woods D. P. Alvarez M. A. Lin H. Lau M. Y. et al . ( 2020 ). Epistatic interactions between PHOTOPERIOD1, CONSTANS1 and CONSTANS2 modulate the photoperiodic response in wheat . PloS Genet. 16 , e1008812 . doi: 10.1371/journal.pgen.1008812",
+      "char_offset": 41981
+    },
+    {
+      "type": "paragraph",
+      "text": "Shcherban A. B. Efremova T. T. Salina E. A. ( 2012 ). Identification of a new vrn-B1 allele using two near-isogenic wheat lines with difference in heading time . Mol. Breed. 29 , 675 \u2013 685 . doi: 10.1007/s11032-011-9581-y",
+      "char_offset": 42238
+    },
+    {
+      "type": "paragraph",
+      "text": "Shcherban A. B. Schichkina A. A. Salina E. A. ( 2016 ). The occurrence of spring forms in tetraploid timopheevi wheat is associated with variation in the first intron of the VRN-A1 gene . BMC Plant Biol. 16 . doi: 10.1186/s12870-016-0925-y",
+      "char_offset": 42461
+    },
+    {
+      "type": "paragraph",
+      "text": "Shcherban A. B. Strygina K. V. Salina E. A. ( 2015 ). VRN-1 gene- associated prerequisites of spring growth habit in wild tetraploid wheat t. dicoccoides and the diploid a genome species . BMC Plant Biol. 15 , 94 . doi: 10.1186/s12870-015-0473-x",
+      "char_offset": 42702
+    },
+    {
+      "type": "paragraph",
+      "text": "Shimada S. Ogawa T. Kitagawa S. Suzuki T. Ikari C. Shitsukawa N. et al . ( 2009 ). A genetic network of flowering-time genes in wheat leaves, in which an APETALA1 / FRUITFULL -like gene, VRN1 , is upstream of FLOWERING LOCUS T . Plant J. 58 , 668 \u2013 681 . doi: 10.1111/j.1365-313X.2009.03806.x",
+      "char_offset": 42949
+    },
+    {
+      "type": "paragraph",
+      "text": "Shitsukawa N. Ikari C. Mitsuya T. Sakiyama T. Ishikawa A. Takumi S. et al . ( 2007 a). Wheat SOC1 functions independently of WAP1/VRN1, an integrator of vernalization and photoperiod flowering promotion pathways . Physiol. Plantarum 130 , 627 \u2013 636 . doi: 10.1111/j.1399-3054.2007.00927.x",
+      "char_offset": 43243
+    },
+    {
+      "type": "paragraph",
+      "text": "Shitsukawa N. Ikari C. Shimada S. Kitagawa S. Sakamoto K. Saito H. et al . ( 2007 b). The einkorn wheat (Triticum monococcum) mutant, maintained vegetative phase, is caused by a deletion in the VRN1 gene . Genes Genet. Syst. 82 , 167 \u2013 170 . doi: 10.1266/ggs.82.167",
+      "char_offset": 43533
+    },
+    {
+      "type": "paragraph",
+      "text": "Snape J. Butterworth K. Whitechurch E. Worland A. J. ( 2001 ). \u201c Waiting for fine times: Genetics of flowering time in wheat ,\u201d in Wheat in a global environment . Eds. Bed\u00f6 Z. L\u00e1ng L. ( Dordrecht : Springer Netherlands ), 67 \u2013 74 . doi: 10.1007/978-94-017-3674-9_7",
+      "char_offset": 43800
+    },
+    {
+      "type": "paragraph",
+      "text": "Steinfort U. Trevaskis B. Fukai S. Bell K. L. Dreccer M. F. ( 2017 ). Vernalisation and photoperiod sensitivity in wheat: Impact on canopy development and yield components . Field Crops Res. 201 , 108 \u2013 121 . doi: 10.1016/j.fcr.2016.10.012",
+      "char_offset": 44066
+    },
+    {
+      "type": "paragraph",
+      "text": "Stelmakh A. F. ( 1987 ). Growth habit in common wheat (Triticum aestivum l. em. thell.) . Euphytica 36 , 513 \u2013 519 . doi: 10.1007/BF00041495",
+      "char_offset": 44307
+    },
+    {
+      "type": "paragraph",
+      "text": "Strayer C. Oyama T. Schultz T. F. Raman R. Somers D. E. M\u00e1s P. et al . ( 2000 ). Cloning of the arabidopsis clock gene TOC1 , an autoregulatory response regulator homolog . Science 289 , 768 \u2013 771 . doi: 10.1126/science.289.5480.768",
+      "char_offset": 44449
+    },
+    {
+      "type": "paragraph",
+      "text": "Strej\u010dkov\u00e1 B. \u010cegan R. Pecinka A. Milec Z. \u0160af\u00e1\u0159 J. ( 2020 ). Identification of polycomb repressive complex 1 and 2 core components in hexaploid bread wheat . BMC Plant Biol 20 , 175 . doi: 10.1186/s12870-020-02384-6",
+      "char_offset": 44683
+    },
+    {
+      "type": "paragraph",
+      "text": "Strej\u010dkov\u00e1 B. Milec Z. Holu\u0161ov\u00e1 K. C\u00e1pal P. Vojtkov\u00e1 T. \u010cegan R. et al . ( 2021 ). In-depth sequence analysis of bread wheat VRN1 genes . Int. J. Mol. Sci. 22 , 12284 . doi: 10.3390/ijms222212284",
+      "char_offset": 44901
+    },
+    {
+      "type": "paragraph",
+      "text": "Tan C. Yan L. ( 2016 ). Duplicated, deleted and translocated VRN2 genes in hexaploid wheat . Euphytica 208 , 277 \u2013 284 . doi: 10.1007/s10681-015-1589-7",
+      "char_offset": 45098
+    },
+    {
+      "type": "paragraph",
+      "text": "Trevaskis B. ( 2010 ). The central role of the VERNALIZATION1 gene in the vernalization response of cereals . Funct. Plant Biol. 37 , 479 . doi: 10.1071/FP10056",
+      "char_offset": 45251
+    },
+    {
+      "type": "paragraph",
+      "text": "Trevaskis B. Bagnall D. J. Ellis M. H. Peacock W. J. Dennis E. S. ( 2003 ). MADS box genes control vernalization-induced flowering in cereals . Proc. Natl. Acad. Sci. 100 , 13099 \u2013 13104 . doi: 10.1073/pnas.1635053100",
+      "char_offset": 45413
+    },
+    {
+      "type": "paragraph",
+      "text": "Turck F. Fornara F. Coupland G. ( 2008 ). Regulation and identity of florigen: FLOWERING LOCUS T moves center stage . Annu. Rev. Plant Biol. 59 , 573 \u2013 594 . doi: 10.1146/annurev.arplant.59.032607.092755",
+      "char_offset": 45632
+    },
+    {
+      "type": "paragraph",
+      "text": "VanGessel C. Hamilton J. Tabbita F. Dubcovsky J. Pearce S. ( 2022 ). Transcriptional signatures of wheat inflorescence development . Sci. Rep. 12 , 17224 . doi: 10.1038/s41598-022-21571-z",
+      "char_offset": 45837
+    },
+    {
+      "type": "paragraph",
+      "text": "Woods D. P. Ream T. S. Bouch\u00e9 F. Lee J. Thrower N. Wilkerson C. et al . ( 2017 ). Establishment of a vernalization requirement in brachypodium distachyon requires REPRESSOR OF VERNALIZATION1 . Proc. Natl. Acad. Sci. 114 , 6623 \u2013 6628 . doi: 10.1073/pnas.1700536114",
+      "char_offset": 46026
+    },
+    {
+      "type": "paragraph",
+      "text": "W\u00fcrschum T. Boeven P. H. G. Langer S. M. Longin C. F. H. Leiser W. L. ( 2015 ). Multiply to conquer: Copy number variations at ppd-B1 and vrn-A1 facilitate global adaptation in wheat . BMC Genet. 16 . doi: 10.1186/s12863-015-0258-0",
+      "char_offset": 46292
+    },
+    {
+      "type": "paragraph",
+      "text": "Wysocka J. Swigut T. Xiao H. Milne T. A. Kwon S. Y. Landry J. et al . ( 2006 ). A PHD finger of NURF couples histone H3 lysine 4 trimethylation with chromatin remodelling . Nature 442 , 86 \u2013 90 . doi: 10.1038/nature04815",
+      "char_offset": 46525
+    },
+    {
+      "type": "paragraph",
+      "text": "Xiao J. Xu S. Li C. Xu Y. Xing L. Niu Y. et al . ( 2014 ). O-GlcNAc-mediated interaction between VER2 and TaGRP2 elicits TaVRN1 mRNA accumulation during vernalization in winter wheat . Nat. Commun. 5 . doi: 10.1038/ncomms5572",
+      "char_offset": 46747
+    },
+    {
+      "type": "paragraph",
+      "text": "Xiu-zhen L. Nai-bin H. Ke-hui T. ( 1987 ). Effect of devernalization on soluble protein component in winter wheat seedling and subsequent plant developmental state . J. Integr. Plant Biol. 29 .",
+      "char_offset": 46974
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu S. Dong Q. Deng M. Lin D. Xiao J. Cheng P. et al . ( 2021 ). The vernalization-induced long non-coding RNA VAS functions with the transcription factor TaRF2b to promote TaVRN1 expression for flowering in hexaploid wheat . Mol. Plant 14 , 1525 \u2013 1538 . doi: 10.1016/j.molp.2021.05.026",
+      "char_offset": 47169
+    },
+    {
+      "type": "paragraph",
+      "text": "Xu S. Xiao J. Yin F. Guo X. Xing L. Xu Y. et al . ( 2019 ). The protein modifications of O-GlcNAcylation and phosphorylation mediate vernalization response for flowering in winter wheat . Plant Physiol. 180 , 1436 \u2013 1449 . doi: 10.1104/pp.19.00081",
+      "char_offset": 47457
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan L. Fu D. Li C. Blechl A. Tranquilli G. Bonafede M. et al . ( 2006 ). The wheat and barley vernalization gene VRN3 is an orthologue of FT . Proc. Natl. Acad. Sci. 103 , 19581 \u2013 19586 . doi: 10.1073/pnas.0607142103",
+      "char_offset": 47706
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan L. Helguera M. Kato K. Fukuyama S. Sherman J. Dubcovsky J. ( 2004 a). Allelic variation at the VRN-1 promoter region in polyploid wheat . Theor. Appl. Genet. 109 , 1677 \u2013 1686 . doi: 10.1007/s00122-004-1796-4",
+      "char_offset": 47924
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan L. Loukoianov A. Blechl A. Tranquilli G. Ramakrishna W. SanMiguel P. et al . ( 2004 b). The wheat VRN2 gene is a flowering repressor downregulated by vernalization . Science 303 , 1640 \u2013 1644 . doi: 10.1126/science.1094305",
+      "char_offset": 48138
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan L. Loukoianov A. Tranquilli G. Helguera M. Fahima T. Dubcovsky J. ( 2003 ). Positional cloning of the wheat vernalization gene VRN1 . Proc. Natl. Acad. Sci. 100 , 6263 \u2013 6268 . doi: 10.1073/pnas.0937399100",
+      "char_offset": 48366
+    },
+    {
+      "type": "paragraph",
+      "text": "Yong W. Xu Y. Xu W. Wang X. Li N. Wu J. et al . ( 2003 ). Vernalization-induced flowering in wheat is mediated by a lectin-like gene VER2 . Planta 217 , 261 \u2013 270 . doi: 10.1007/s00425-003-0994-7",
+      "char_offset": 48577
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang X. Clarenz O. Cokus S. Bernatavichute Y. V. Pellegrini M. Goodrich J. et al . ( 2007 ). Whole-genome analysis of histone H3 lysine 27 trimethylation in arabidopsis . PloS Biol. 5 , e129 . doi: 10.1371/journal.pbio.0050129",
+      "char_offset": 48774
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang X. Gao M. Wang S. Chen F. Cui D. ( 2015 ). Allelic variation at the vernalization and photoperiod sensitivity loci in Chinese winter wheat cultivars (Triticum aestivum l.) . Front. Plant Sci. 6 . doi: 10.3389/fpls.2015.00470",
+      "char_offset": 49003
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang B. Wang X. Wang X. Ma L. Wang Z. Zhang X. ( 2018 ). Molecular characterization of a novel vernalization allele vrn-B1d and its effect on heading time in Chinese wheat (Triticum aestivum l.) landrace hongchunmai . Mol. Breed. 38 . doi: 10.1007/s11032-018-0870-6",
+      "char_offset": 49235
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang J. Wang Y. Wu S. Yang J. Liu H. Zhou Y. ( 2012 ). A single nucleotide polymorphism at the vrn-D1 promoter region in common wheat is associated with vernalization response . Theor. Appl. Genet. 125 , 1697 \u2013 1704 . doi: 10.1007/s00122-012-1946-z",
+      "char_offset": 49503
+    },
+    {
+      "type": "paragraph",
+      "text": "Z\u0307mien\u0301 ko A. Samelak A. Koz\u0142owski P. Figlerowicz M . ( 2014 ). Copy number polymorphism in plant genomes . Theor. Appl. Genet . 127 , 1 \u2013 18 . doi: 10.1007/s00122-013-2177-7",
+      "char_offset": 49754
+    },
+    {
+      "type": "paragraph",
+      "text": "wheat , vernalization , VRN , chromatin methylation , copy number variation , devernalization",
+      "char_offset": 49930
+    },
+    {
+      "type": "paragraph",
+      "text": "Milec Z, Strej\u010dkov\u00e1 B and \u0160af\u00e1\u0159 J (2023) Contemplation on wheat vernalization . Front. Plant Sci. 13:1093792. doi: 10.3389/fpls.2022.1093792",
+      "char_offset": 50025
+    },
+    {
+      "type": "paragraph",
+      "text": "Daniel Paul Woods, University of California, Davis, United States; Laura Dixon, University of Leeds, United Kingdom",
+      "char_offset": 50167
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "char_offset": 50284
+    },
+    {
+      "type": "paragraph",
+      "text": "*Correspondence: Zbyn\u011bk Milec, milec@ueb.cas.cz",
+      "char_offset": 50735
+    },
+    {
+      "type": "paragraph",
+      "text": "This article was submitted to Plant Development and EvoDevo, a section of the journal Frontiers in Plant Science",
+      "char_offset": 50784
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.",
+      "char_offset": 50898
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-e3024c08af098369"
+}

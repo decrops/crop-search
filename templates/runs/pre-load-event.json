@@ -1,0 +1,48 @@
+{
+  "event_name": "pre-load",
+  "run_id": "pilot-us-corn-001",
+  "occurred_at": "2026-05-28T12:20:00Z",
+  "payload": {
+    "claim_id": "claim-001",
+    "run_id": "pilot-us-corn-001",
+    "entity": {
+      "entity_type": "crop",
+      "name": "corn"
+    },
+    "attribute": "preferred_temperature",
+    "claim_text": "Corn grows best at moderate warm temperatures during the growing season.",
+    "value": {
+      "value_type": "range",
+      "raw_value_text": "18 to 27 celsius",
+      "unit": "celsius",
+      "range_min": 18,
+      "range_max": 27,
+      "normalized_range_min": 18,
+      "normalized_range_max": 27,
+      "normalized_unit": "celsius"
+    },
+    "location_scope": {
+      "level": "state",
+      "name": "Iowa"
+    },
+    "time_scope": {
+      "label": "growing season"
+    },
+    "provenance": {
+      "source_urls": [
+        "https://example.org/corn-guide"
+      ],
+      "source_title": "Corn Guide",
+      "source_domain": "example.org",
+      "document_type": "html",
+      "accessed_at": "2026-05-28T12:14:00Z",
+      "extraction_method": "manual pilot extraction",
+      "evidence_text": "Corn grows best at moderate warm temperatures during the growing season."
+    },
+    "observation_type": "condition",
+    "confidence": "medium",
+    "conflict_status": "none",
+    "status": "load_ready"
+  },
+  "status": "received"
+}

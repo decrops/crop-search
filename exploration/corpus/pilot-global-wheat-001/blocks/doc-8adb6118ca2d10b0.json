@@ -1,0 +1,591 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Estimation of LAI across phenological stages of wheat using google earth engine",
+      "text": "Research Published: 25 February 2025 Volume 17 , pages 117\u2013128 ( 2025 ) Cite this article Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "The Leaf Area Index (LAI) is a measure of photosynthesis and transpiration, and it has become the common currency for agro-climatic researchers. The non-destructive technique of LAI estimation using remote sensing has immense potential. The challenge lies in estimating LAI at the field scale for implementing research results for crop management using Google Earth Engine (GEE) integrated with Python. Sentinel-2A datasets empowered by high spatial, spectral, and temporal resolution over an arid region of southwest Punjab, India were used to estimate LAI at field and district level. Wheat LAI was estimated for two consecutive years, 2016\u20132017 and 2017\u20132018. The comprehensive data analysis approach comprised of processing and estimation of LAI, designed for four significant phenological stages followed by validation with in situ field observed LAI collected from the experimental plots as well as with the Moderate Resolution Imaging Spectroradiometer (MODIS)\u2019s LAI data products. The results showed a strong positive co-relationship between observed field LAI and Sentinel-2A estimated LAI as 0.64 and 0.47, with MODIS dataset as 0.24 and 0.19 for both years. Therefore, it can be concluded that field-level LAI can be estimated from Sentinal-2A satellite images with moderate accuracy by agricultural specialists and practitioners."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Calibration of CLAIR Model by Means of Sentinel-2 LAI Data for Analysing Wheat Crops Through Landsat-8 Surface Reflectance Data Chapter \u00a9 2018 Validation of leaf area index measurement system based on wireless sensor network Article Open access 18 March 2022 Effects of spatial, temporal, and spectral resolutions on the estimation of wheat and barley leaf area index using multi- and hyper-spectral data (case study: Karaj, Iran) Article 10 August 2020"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Calibration of CLAIR Model by Means of Sentinel-2 LAI Data for Analysing Wheat Crops Through Landsat-8 Surface Reflectance Data",
+      "text": "Chapter \u00a9 2018"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Validation of leaf area index measurement system based on wireless sensor network",
+      "text": "Article Open access 18 March 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Effects of spatial, temporal, and spectral resolutions on the estimation of wheat and barley leaf area index using multi- and hyper-spectral data (case study: Karaj, Iran)",
+      "text": "Article 10 August 2020"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Agricultural Geography Agriculture Agronomy Phenology Remote Sensing/Photogrammetry Terrestial Ecology Remote Sensing Applications in Precision Agriculture"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Data availability",
+      "text": "No datasets were generated or analysed during the current study."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "References",
+      "text": "Alexandridis TK, Stavridou D, Strati S, Monachou S, Silleos N LAI measurement with hemispherical photographs at variable conditions for assessment of remotely sensed estimations. In ESA living planet symposium, 2013 (Vol. 722, p. 252) Barman D, Sehgal VK, Sahoo RN, Nagarajan S (2010) Relationship of bidirectional reflectance of wheat with biophysical parameters and its radiative transfer modeling using PROSAIL. J Indian Soc Remote Sens 38(1):35\u201344. https://doi.org/10.1007/s12524-010-0010-1 Article Google Scholar Bavec M, Vukovi\u0107 K, Grobelnik S, Rozman \u010c, Bavec F (2007) Leaf area index in winter wheat: response on seed rate and nitrogen application by different varieties. J Cent Eur Agric. https://doi.org/10.5513/jcea.v8i3.471 Article Google Scholar Berthet ET, Bretagnolle V, Lavorel S, Sabatier R, Tichit M, Segrestin B (2019) Applying ecological knowledge to the innovative design of sustainable agroecosystems. J Appl Ecol 56(1):44\u201351. https://doi.org/10.1111/1365-2664.13173 Article Google Scholar Brisco B, Brown RJ, Hirose T, McNairn H (1998) Staenz. K.,. Precision Agriculture and the Role of Remote Sensing: A Review, Canadian Journal of Remote Sensing, 1998. 24(3), 315\u2013327. https://doi.org/10.1080/07038992.1998.10855254 Cao, Z., Cheng, T., Ma, X., Tian, Y., Zhu, Y., Yao, X., \u2026 Li, X. A new three-band spectral index for mitigating the saturation in the estimation of leaf area index in wheat. International Journal of Remote Sensing, 2017, 38(13), 3865\u20133885. https://doi.org/10.1080/01431161.2017.1306141 Campos-Taberner M, Garc\u00eda-Haro FJ, Camps-Valls G, Grau-Muedra G, Nutini F, Busetto L, Boschetti M (2017) Exploitation of SAR and optical sentinel data to detect rice crop and estimate seasonal dynamics of leaf area index. Remote Sens 9(3):248. https://doi.org/10.3390/rs9030248 Article Google Scholar Chakraborty A, Bhavanarayana M (2005) Spectral Reflectance Anisotropy of Wheat Canopy in assessing Biophysical parameters. J Agricultural Phys 5(1):1\u201310 Google Scholar Chen, J. M., Pavlic, G., Brown, L., Cihlar, J., Leblanc, S. G., White, H. P., \u2026 Swift,E. Derivation and validation of Canada-wide coarse-resolution leaf area index maps using high-resolution satellite imagery and ground measurements. Remote sensing of Environment, 2002.80(1), 165\u2013184. https://doi.org/10.1016/S0034-4257(01)00300-5 Clevers JG, Kooistra L, Van den Brande MM Using Sentinel-2 data for retrieving LAI and leaf and canopy chlorophyll content of a potato crop. Remote Sens 2017 9(5), 405. https://doi.org/10.3390/rs9050405 Article Google Scholar Croft H, Chen JM, Zhang Y, Simic A, Noland TL, Nesbitt N, Arabian (2015) J.Evaluating leaf chlorophyll content prediction from multispectral remote sensing data within a physically-based modelling framework. ISPRS J Photogrammetry Remote Sens 102:85\u201395. https://doi.org/10.1016/j.isprsjprs.2015.01.008 Article Google Scholar Daughtry CST, Gallo KP, Goward SN, Prince SD, Kustas WP (1992) Spectral estimates of absorbed radiation and phytomass production in corn and soybean canopies. Remote Sensing of Environment, 1992. 39(2), 141\u2013152. https://doi.org/10.1016/0034-4257(92)90132-4 Delegido J, Alonso L, Gonzalez G, Moreno (2010) J.Estimating chlorophyll content of crops from hyperspectral data using a normalized area over reflectance curve (NAOC). Int J Appl Earth Obs Geoinf 12(3):165\u2013174. https://doi.org/10.1016/j.jag.2010.02.003 Article Google Scholar Delegido J, Verrelst J, Rivera JP, Ruiz-Verd\u00fa A, Moreno J (2015) Brown and green LAI mapping through spectral indices. Int J Appl Earth Obs Geoinf 35:350\u2013358. https://doi.org/10.1016/j.jag.2014.10.001 Article Google Scholar Evers JB, Vos J, Fournier C, Andrieu B, Chelle M, Struik PC (2005) Towards a generic architectural model of tillering in Gramineae, as exemplified by spring wheat (Triticum aestivum). New Phytol 166(3):801\u2013812. https://doi.org/10.1111/j.1469-8137.2005.01337.x Article Google Scholar Gitelson AA, Vina A, Ciganda V, Rundquist DC, Arkebauer TJ (2005) Remote estimat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "The authors would like to express their appreciation to the Sentinel-2 and MODIS science teams for the science algorithms and their contributions to the user community. Cloud computing resources were provided by the team at Google Earth Engine, whom the authors would also like to thank for their valued assistance."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Funding",
+      "text": "This research work did not receive any specific grant from funding agencies in the public or commercial sectors."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations Geospatial Resource Mapping and Applications Group, Punjab Remote Sensing Centre, Ludhiana, 141004, Punjab, India Koyel Sur & V. K. Verma Dr. J C Bakhshi Regional Research Station, Punjab Agricultural University, Abohar, Punjab, 152116, India Manpreet Singh & Parshottam Arora Petroleum and Mining Engineering Department, Tishk International University, Erbil, Iraq Ayad M. Fadhil Al-Quraishi Punjab Remote Sensing Centre, Ludhiana, 141004, Punjab, India Brijendra Pateriya Authors Koyel Sur View author publications Search author on: PubMed Google Scholar V. K. Verma View author publications Search author on: PubMed Google Scholar Manpreet Singh View author publications Search author on: PubMed Google Scholar Ayad M. Fadhil Al-Quraishi View author publications Search author on: PubMed Google Scholar Parshottam Arora View author publications Search author on: PubMed Google Scholar Brijendra Pateriya View author publications Search author on: PubMed Google Scholar Contributions 1.KS: Conceptualization, data analysis and writing first draft of the paper, 2.V.K.V: conceptualization, editing figures and editing manuscript, 3.M.S: experimental setup in field and data collection, 4. A.M.F.A.Q: editing first draft, 5. P.A: Management of field experiment.6. B. P: Overall management. Corresponding author Correspondence to Koyel Sur ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Geospatial Resource Mapping and Applications Group, Punjab Remote Sensing Centre, Ludhiana, 141004, Punjab, India Koyel Sur & V. K. Verma Dr. J C Bakhshi Regional Research Station, Punjab Agricultural University, Abohar, Punjab, 152116, India Manpreet Singh & Parshottam Arora Petroleum and Mining Engineering Department, Tishk International University, Erbil, Iraq Ayad M. Fadhil Al-Quraishi Punjab Remote Sensing Centre, Ludhiana, 141004, Punjab, India Brijendra Pateriya Authors Koyel Sur View author publications Search author on: PubMed Google Scholar V. K. Verma View author publications Search author on: PubMed Google Scholar Manpreet Singh View author publications Search author on: PubMed Google Scholar Ayad M. Fadhil Al-Quraishi View author publications Search author on: PubMed Google Scholar Parshottam Arora View author publications Search author on: PubMed Google Scholar Brijendra Pateriya View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "1.KS: Conceptualization, data analysis and writing first draft of the paper, 2.V.K.V: conceptualization, editing figures and editing manuscript, 3.M.S: experimental setup in field and data collection, 4. A.M.F.A.Q: editing first draft, 5. P.A: Management of field experiment.6. B. P: Overall management."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Koyel Sur ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Ethical approval This article does not contain any studies with human participants or animals performed by any of the authors. Conflict of interest The authors declare that there are no conflicts of interest. Competing interests The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Ethical approval",
+      "text": "This article does not contain any studies with human participants or animals performed by any of the authors."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "The authors declare that there are no conflicts of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Competing interests",
+      "text": "The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher\u2019s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Publisher\u2019s Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law. Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Sur, K., Verma, V.K., Singh, M. et al. Estimation of LAI across phenological stages of wheat using google earth engine. Appl Geomat 17 , 117\u2013128 (2025). https://doi.org/10.1007/s12518-025-00613-x Download citation Received : 07 September 2024 Accepted : 09 February 2025 Published : 25 February 2025 Version of record : 25 February 2025 Issue date : March 2025 DOI : https://doi.org/10.1007/s12518-025-00613-x Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords LAI Sentinel-2A GEE Python API Punjab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Sur, K., Verma, V.K., Singh, M. et al. Estimation of LAI across phenological stages of wheat using google earth engine. Appl Geomat 17 , 117\u2013128 (2025). https://doi.org/10.1007/s12518-025-00613-x Download citation Received : 07 September 2024 Accepted : 09 February 2025 Published : 25 February 2025 Version of record : 25 February 2025 Issue date : March 2025 DOI : https://doi.org/10.1007/s12518-025-00613-x Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "LAI Sentinel-2A GEE Python API Punjab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Profiles",
+      "text": "Manpreet Singh View author profile Ayad M. Fadhil Al-Quraishi View author profile"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "The Leaf Area Index (LAI) is a measure of photosynthesis and transpiration, and it has become the common currency for agro-climatic researchers. The non-destructive technique of LAI estimation using remote sensing has immense potential. The challenge lies in estimating LAI at the field scale for implementing research results for crop management using Google Earth Engine (GEE) integrated with Python. Sentinel-2A datasets empowered by high spatial, spectral, and temporal resolution over an arid region of southwest Punjab, India were used to estimate LAI at field and district level. Wheat LAI was estimated for two consecutive years, 2016\u20132017 and 2017\u20132018. The comprehensive data analysis approach comprised of processing and estimation of LAI, designed for four significant phenological stages followed by validation with in situ field observed LAI collected from the experimental plots as well as with the Moderate Resolution Imaging Spectroradiometer (MODIS)\u2019s LAI data products. The results showed a strong positive co-relationship between observed field LAI and Sentinel-2A estimated LAI as 0.64 and 0.47, with MODIS dataset as 0.24 and 0.19 for both years. Therefore, it can be concluded that field-level LAI can be estimated from Sentinal-2A satellite images with moderate accuracy by agricultural specialists and practitioners.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a preview of subscription content, log in via an institution to check access.",
+      "char_offset": 1343
+    },
+    {
+      "type": "paragraph",
+      "text": "No datasets were generated or analysed during the current study.",
+      "char_offset": 1430
+    },
+    {
+      "type": "paragraph",
+      "text": "Alexandridis TK, Stavridou D, Strati S, Monachou S, Silleos N LAI measurement with hemispherical photographs at variable conditions for assessment of remotely sensed estimations. In ESA living planet symposium, 2013 (Vol. 722, p. 252)",
+      "char_offset": 1496
+    },
+    {
+      "type": "paragraph",
+      "text": "Barman D, Sehgal VK, Sahoo RN, Nagarajan S (2010) Relationship of bidirectional reflectance of wheat with biophysical parameters and its radiative transfer modeling using PROSAIL. J Indian Soc Remote Sens 38(1):35\u201344. https://doi.org/10.1007/s12524-010-0010-1",
+      "char_offset": 1732
+    },
+    {
+      "type": "paragraph",
+      "text": "Bavec M, Vukovi\u0107 K, Grobelnik S, Rozman \u010c, Bavec F (2007) Leaf area index in winter wheat: response on seed rate and nitrogen application by different varieties. J Cent Eur Agric. https://doi.org/10.5513/jcea.v8i3.471",
+      "char_offset": 1993
+    },
+    {
+      "type": "paragraph",
+      "text": "Berthet ET, Bretagnolle V, Lavorel S, Sabatier R, Tichit M, Segrestin B (2019) Applying ecological knowledge to the innovative design of sustainable agroecosystems. J Appl Ecol 56(1):44\u201351. https://doi.org/10.1111/1365-2664.13173",
+      "char_offset": 2212
+    },
+    {
+      "type": "paragraph",
+      "text": "Brisco B, Brown RJ, Hirose T, McNairn H (1998) Staenz. K.,. Precision Agriculture and the Role of Remote Sensing: A Review, Canadian Journal of Remote Sensing, 1998. 24(3), 315\u2013327. https://doi.org/10.1080/07038992.1998.10855254",
+      "char_offset": 2443
+    },
+    {
+      "type": "paragraph",
+      "text": "Cao, Z., Cheng, T., Ma, X., Tian, Y., Zhu, Y., Yao, X., \u2026 Li, X. A new three-band spectral index for mitigating the saturation in the estimation of leaf area index in wheat. International Journal of Remote Sensing, 2017, 38(13), 3865\u20133885. https://doi.org/10.1080/01431161.2017.1306141",
+      "char_offset": 2673
+    },
+    {
+      "type": "paragraph",
+      "text": "Campos-Taberner M, Garc\u00eda-Haro FJ, Camps-Valls G, Grau-Muedra G, Nutini F, Busetto L, Boschetti M (2017) Exploitation of SAR and optical sentinel data to detect rice crop and estimate seasonal dynamics of leaf area index. Remote Sens 9(3):248. https://doi.org/10.3390/rs9030248",
+      "char_offset": 2960
+    },
+    {
+      "type": "paragraph",
+      "text": "Chakraborty A, Bhavanarayana M (2005) Spectral Reflectance Anisotropy of Wheat Canopy in assessing Biophysical parameters. J Agricultural Phys 5(1):1\u201310",
+      "char_offset": 3239
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen, J. M., Pavlic, G., Brown, L., Cihlar, J., Leblanc, S. G., White, H. P., \u2026 Swift,E. Derivation and validation of Canada-wide coarse-resolution leaf area index maps using high-resolution satellite imagery and ground measurements. Remote sensing of Environment, 2002.80(1), 165\u2013184. https://doi.org/10.1016/S0034-4257(01)00300-5",
+      "char_offset": 3393
+    },
+    {
+      "type": "paragraph",
+      "text": "Clevers JG, Kooistra L, Van den Brande MM Using Sentinel-2 data for retrieving LAI and leaf and canopy chlorophyll content of a potato crop. Remote Sens 2017 9(5), 405. https://doi.org/10.3390/rs9050405",
+      "char_offset": 3726
+    },
+    {
+      "type": "paragraph",
+      "text": "Croft H, Chen JM, Zhang Y, Simic A, Noland TL, Nesbitt N, Arabian (2015) J.Evaluating leaf chlorophyll content prediction from multispectral remote sensing data within a physically-based modelling framework. ISPRS J Photogrammetry Remote Sens 102:85\u201395. https://doi.org/10.1016/j.isprsjprs.2015.01.008",
+      "char_offset": 3930
+    },
+    {
+      "type": "paragraph",
+      "text": "Daughtry CST, Gallo KP, Goward SN, Prince SD, Kustas WP (1992) Spectral estimates of absorbed radiation and phytomass production in corn and soybean canopies. Remote Sensing of Environment, 1992. 39(2), 141\u2013152. https://doi.org/10.1016/0034-4257(92)90132-4",
+      "char_offset": 4233
+    },
+    {
+      "type": "paragraph",
+      "text": "Delegido J, Alonso L, Gonzalez G, Moreno (2010) J.Estimating chlorophyll content of crops from hyperspectral data using a normalized area over reflectance curve (NAOC). Int J Appl Earth Obs Geoinf 12(3):165\u2013174. https://doi.org/10.1016/j.jag.2010.02.003",
+      "char_offset": 4491
+    },
+    {
+      "type": "paragraph",
+      "text": "Delegido J, Verrelst J, Rivera JP, Ruiz-Verd\u00fa A, Moreno J (2015) Brown and green LAI mapping through spectral indices. Int J Appl Earth Obs Geoinf 35:350\u2013358. https://doi.org/10.1016/j.jag.2014.10.001",
+      "char_offset": 4746
+    },
+    {
+      "type": "paragraph",
+      "text": "Evers JB, Vos J, Fournier C, Andrieu B, Chelle M, Struik PC (2005) Towards a generic architectural model of tillering in Gramineae, as exemplified by spring wheat (Triticum aestivum). New Phytol 166(3):801\u2013812. https://doi.org/10.1111/j.1469-8137.2005.01337.x",
+      "char_offset": 4948
+    },
+    {
+      "type": "paragraph",
+      "text": "Gitelson AA, Vina A, Ciganda V, Rundquist DC, Arkebauer TJ (2005) Remote estimation of canopy chlorophyll content in crops. Geophys Res Lett 32(8). https://doi.org/10.1029/2005GL022688",
+      "char_offset": 5209
+    },
+    {
+      "type": "paragraph",
+      "text": "Gray J, Song C (2012) Mapping leaf area index using spatial, spectral, and temporal information from multiple sensors. Remote Sens Environ 119:173\u2013183. https://doi.org/10.1016/j.rse.2011.12.016",
+      "char_offset": 5395
+    },
+    {
+      "type": "paragraph",
+      "text": "Gorelick N, Hancher M, Dixon M, Ilyushchenko S, Thau D, Moore R (2017) Google Earth Engine: planetary-scale geospatial analysis for everyone. Remote Sens Environ 202:18\u201327. https://doi.org/10.1016/j.rse.2017.06.031",
+      "char_offset": 5590
+    },
+    {
+      "type": "paragraph",
+      "text": "He, L., Zhang, H. Y., Zhang, Y. S., Song, X., Feng, W., Kang, G. Z., \u2026 Guo, T. C.Estimating canopy leaf nitrogen concentration in winter wheat based on multi-angular hyperspectral remote sensing. European Journal of Agronomy, 2016, 73, 170\u2013185. https://doi.org/10.1016/j.eja.2015.11.017",
+      "char_offset": 5806
+    },
+    {
+      "type": "paragraph",
+      "text": "Herrmann I, Pimstein A, Karnieli A, Cohen Y, Alchanatis V, Bonfil DJ (2011) LAI assessment of wheat and potato crops by VEN\u00b5S and Sentinel-2 bands. Remote Sens Environ 115(8):2141\u20132151. https://doi.org/10.1016/j.rse.2011.04.018",
+      "char_offset": 6094
+    },
+    {
+      "type": "paragraph",
+      "text": "Houborg R, McCabe M, Cescatti A, Gao F, Schull M, Gitelson A (2015) Joint leaf chlorophyll content and leaf area index retrieval from Landsat data using a regularized model inversion system (REGFLEC). Remote Sens Environ 159:203\u2013221. https://doi.org/10.1016/j.rse.2014.12.008",
+      "char_offset": 6323
+    },
+    {
+      "type": "paragraph",
+      "text": "Houles V, Guerif M, Mary B (2007) Elaboration of a nitrogen nutrition indicator for winter wheat based on leaf area index and chlorophyll content for making nitrogen recommendations. Eur J Agron 27(1):1\u201311. https://doi.org/10.1016/j.eja.2006.10.001",
+      "char_offset": 6600
+    },
+    {
+      "type": "paragraph",
+      "text": "J\u00e9go G, Pattey E, Liu J (2012) Using Leaf Area Index, retrieved from optical imagery, in the STICS crop model for predicting yield and biomass of field crops. Field Crops Res 131:63\u201374. https://doi.org/10.1016/j.fcr.2012.02.012",
+      "char_offset": 6850
+    },
+    {
+      "type": "paragraph",
+      "text": "Jensen RR, Hardin PJ, Hardin AJ (2012) Estimating urban leaf area index (LAI) of individual trees with hyperspectral data. Photogrammetric Eng Remote Sens 78(5):495\u2013504. https://doi.org/10.14358/PERS.78.5.495",
+      "char_offset": 7079
+    },
+    {
+      "type": "paragraph",
+      "text": "Jordan CF (1969) Derivation of leaf-area index from quality of light on the forest floor. Ecology 50(4):663\u2013666. https://doi.org/10.1016/j.jag.2016.10.008",
+      "char_offset": 7289
+    },
+    {
+      "type": "paragraph",
+      "text": "Kira O, Nguy-Robertson AL, Arkebauer TJ, Linker R, Gitelson AA Informative spectral bands for remote green LAI estimation in C3 and C4 crops. Agricultural for Meteorol 2016 218, 243\u2013249. https://doi.org/10.1016/j.agrformet.2015.12.064",
+      "char_offset": 7445
+    },
+    {
+      "type": "paragraph",
+      "text": "Kooistra L, Clevers JG (2016) Estimating potato leaf chlorophyll content using ratio vegetation indices. Remote Sens Lett 7(6):611\u2013620. https://doi.org/10.1080/2150704X.2016.1171925",
+      "char_offset": 7681
+    },
+    {
+      "type": "paragraph",
+      "text": "Laurent VC, Schaepman ME, Verhoef W, Weyermann J, Ch\u00e1vez R (2014) O.Bayesian object-based estimation of LAI and chlorophyll from a simulated Sentinel-2 top-of-atmosphere radiance image. Remote Sens Environ 140:318\u2013329. https://doi.org/10.1016/j.rse.2013.09.005",
+      "char_offset": 7864
+    },
+    {
+      "type": "paragraph",
+      "text": "Lunagaria MM, Patel HR (2019) Evaluation of PROSAIL inversion for retrieval of chlorophyll, leaf dry matter, leaf angle, and leaf area index of wheat using spectrodirectional measurements. Int J Remote Sens 40(21):8125\u20138145. https://doi.org/10.1080/01431161.2018.1524608",
+      "char_offset": 8126
+    },
+    {
+      "type": "paragraph",
+      "text": "Nearing GS, Crow WT, Thorp KR, Moran MS, Reichle RH, Gupta HV (2012) Assimilating remote sensing observations of leaf area index and soil moisture for wheat yield estimates: An observing system simulation experiment. https://doi.org/10.1029/2011WR011420",
+      "char_offset": 8398
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguy-Robertson AL, Peng Y, Gitelson AA, Arkebauer TJ, Pimstein A, Herrmann I, Bonfil DJ (2014) Estimating green LAI in four crops: potential of determining optimal spectral bands for a universal algorithm. Agric for Meteorol 192:140\u2013148. https://doi.org/10.1016/j.agrformet.2014.03.004",
+      "char_offset": 8653
+    },
+    {
+      "type": "paragraph",
+      "text": "Novelli F, Spiegel H, Sand\u00e9n T, Vuolo F (2019) Assimilation of sentinel-2 leaf area index data into a physically-based crop growth model for yield estimation. Agronomy 9(5):255. https://doi.org/10.3390/agronomy9050255",
+      "char_offset": 8940
+    },
+    {
+      "type": "paragraph",
+      "text": "OECD Publishing OECD-FAO agricultural outlook 2019\u20132028, 2019. Organisation for Economic Co-operation and Development OECD",
+      "char_offset": 9159
+    },
+    {
+      "type": "paragraph",
+      "text": "Padalia H, Sinha SK, Bhave V, Trivedi NK, Kumar AS (2020) Estimating canopy LAI and chlorophyll of tropical forest plantation (North India) using Sentinel-2 data. Adv Space Res 2020 65(1):458\u2013469. https://doi.org/10.1016/j.asr.2019.09.023",
+      "char_offset": 9283
+    },
+    {
+      "type": "paragraph",
+      "text": "Pasqualotto N, Delegido J, Van Wittenberghe S, Rinaldi M, Moreno J (2019) Multi-crop green LAI estimation with a new simple Sentinel-2 LAI Index (SeLI). Sensors. 19(4):904. https://doi.org/10.3390/s19040904",
+      "char_offset": 9523
+    },
+    {
+      "type": "paragraph",
+      "text": "Pathania M, Arora PK, Pathania S, Kumar A (2019) Studies on population dynamics and management of pomegranate aphid, Aphis Punicae Passerini (Hemiptera: Aphididae) on pomegranate under semi-arid conditions of South-western Punjab. Sci Hort 243:300\u2013306. https://doi.org/10.1016/j.scienta.2018.07.027",
+      "char_offset": 9731
+    },
+    {
+      "type": "paragraph",
+      "text": "Rouse JW, Haas RH, Schell JA, Deering DW (1974) Monitoring vegetation systems in the Great Plains with ERTS. NASA Special Publication, 351. 309",
+      "char_offset": 10031
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh A, Dhanda RS, Ralhan PK (2013) Performance of wheat varieties under poplar (PopulusdeltoidesBartr.) Plantations in Punjab (India). Agroforest Syst 22(1):83\u201386. https://doi.org/10.1007/BF00707473",
+      "char_offset": 10176
+    },
+    {
+      "type": "paragraph",
+      "text": "Song X, Xu D, He L, Feng W, Wang Y, Wang Z, Guo T (2016) Using multi-angle hyperspectral data to monitor canopy leaf nitrogen content of wheat. Precision Agric 17(6):721\u2013736. https://doi.org/10.1007/s11119-016-9445-x",
+      "char_offset": 10378
+    },
+    {
+      "type": "paragraph",
+      "text": "Song Y, Wang J, Yu Q, Huang J (2020) Using MODIS LAI data to monitor spatio-temporal changes of winter wheat phenology in response to climate warming. Remote Sens 12(5):786. https://doi.org/10.3390/rs12050786",
+      "char_offset": 10596
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprintsin M, Karnieli A, Berliner P, Rotenberg E, Yakir D, Cohen S (2007) The effect of spatial resolution on the accuracy of leaf area index estimation for a forest planted in the desert transition zone. Remote Sens Environ 109(4):416\u2013428. https://doi.org/10.1016/j.rse.2007.01.020",
+      "char_offset": 10806
+    },
+    {
+      "type": "paragraph",
+      "text": "Sur K, Verma VK, Pateriya B (2021) Surface water estimation at regional scale using hybrid techniques in GEE environment-A case study on Punjab State of India. Remote Sens Applications: Soc Environ 2021(24):100625. https://doi.org/10.1016/j.rsase.2021.100625",
+      "char_offset": 11090
+    },
+    {
+      "type": "paragraph",
+      "text": "Srinet R, Nandy S, Padalia H, Ghosh S, Watham T, Patel NR (2020) &Chauhan, P. Mapping plant functional types in Northwest Himalayan foothills of India using random forest algorithm in Google Earth Engine. Int J Remote Sens 41(18):7296\u20137309. https://doi.org/10.1080/01431161.2020.1766147",
+      "char_offset": 11350
+    },
+    {
+      "type": "paragraph",
+      "text": "Tao F, Chen Y, Fu B (2020) Impacts of climate and vegetation leaf area index changes on global terrestrial water storage from 2002 to 2016. Sci Total Environ 724:138298. https://doi.org/10.1016/j.scitotenv.2020.138298",
+      "char_offset": 11638
+    },
+    {
+      "type": "paragraph",
+      "text": "Verrelst J, Rivera JP, Veroustraete F, Mu\u00f1oz-Mar\u00ed J, Clevers JG, Camps-Valls G, Moreno J (2015) Experimental Sentinel-2 LAI estimation using parametric, non-parametric and physical retrieval methods\u2013A comparison. ISPRS J Photogrammetry Remote Sens 108:260\u2013272. https://doi.org/10.1016/j.isprsjprs.2015.04.013",
+      "char_offset": 11857
+    },
+    {
+      "type": "paragraph",
+      "text": "Verrelst J, Schaepman ME, Koetz B, Kneub\u00fchler M (2008) Remote Sens Environ 112(5):2341\u20132353. https://doi.org/10.1016/j.rse.2007.11.001 . Angular sensitivity analysis of vegetation indices derived from CHRIS/PROBA data",
+      "char_offset": 12167
+    },
+    {
+      "type": "paragraph",
+      "text": "Xue J, Su B (2017) Significant remote sensing vegetation indices: a review of developments and applications. J Sens. https://doi.org/10.1155/2017/1353691",
+      "char_offset": 12386
+    },
+    {
+      "type": "paragraph",
+      "text": "Xie X, Li A, Jin H, Tan J, Wang C, Lei G, Zhang Z (2019) Assessment of Five Satellite-derived LAI datasets for GPP estimations through Ecosystem models. Sci Total Environ 690:1120\u20131130. https://doi.org/10.1016/j.scitotenv.2017.09.271",
+      "char_offset": 12541
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang Y, Zhang D, Duan J, Hu T (2020) Mapping of Intrusive Complex on a small scale using Multi-source Remote sensing images. ISPRS Int J Geo-Information 9(9):543. https://doi.org/10.3390/ijgi9090543",
+      "char_offset": 12776
+    },
+    {
+      "type": "paragraph",
+      "text": "Zheng G, Moskal LM (2009) Retrieving leaf area index (LAI) using remote sensing: theories, methods and sensors. Sensors 9(4): 2719\u20132745. https://doi.org/10.3390/s90402719",
+      "char_offset": 12977
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors would like to express their appreciation to the Sentinel-2 and MODIS science teams for the science algorithms and their contributions to the user community. Cloud computing resources were provided by the team at Google Earth Engine, whom the authors would also like to thank for their valued assistance.",
+      "char_offset": 13149
+    },
+    {
+      "type": "paragraph",
+      "text": "This research work did not receive any specific grant from funding agencies in the public or commercial sectors.",
+      "char_offset": 13466
+    },
+    {
+      "type": "paragraph",
+      "text": "Geospatial Resource Mapping and Applications Group, Punjab Remote Sensing Centre, Ludhiana, 141004, Punjab, India",
+      "char_offset": 13580
+    },
+    {
+      "type": "paragraph",
+      "text": "Dr. J C Bakhshi Regional Research Station, Punjab Agricultural University, Abohar, Punjab, 152116, India",
+      "char_offset": 13695
+    },
+    {
+      "type": "paragraph",
+      "text": "Petroleum and Mining Engineering Department, Tishk International University, Erbil, Iraq",
+      "char_offset": 13801
+    },
+    {
+      "type": "paragraph",
+      "text": "Punjab Remote Sensing Centre, Ludhiana, 141004, Punjab, India",
+      "char_offset": 13891
+    },
+    {
+      "type": "paragraph",
+      "text": "1.KS: Conceptualization, data analysis and writing first draft of the paper, 2.V.K.V: conceptualization, editing figures and editing manuscript, 3.M.S: experimental setup in field and data collection, 4. A.M.F.A.Q: editing first draft, 5. P.A: Management of field experiment.6. B. P: Overall management.",
+      "char_offset": 13954
+    },
+    {
+      "type": "paragraph",
+      "text": "This article does not contain any studies with human participants or animals performed by any of the authors.",
+      "char_offset": 14259
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that there are no conflicts of interest.",
+      "char_offset": 14370
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no competing interests.",
+      "char_offset": 14432
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 14477
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+      "char_offset": 14597
+    },
+    {
+      "type": "paragraph",
+      "text": "Sur, K., Verma, V.K., Singh, M. et al. Estimation of LAI across phenological stages of wheat using google earth engine. Appl Geomat 17 , 117\u2013128 (2025). https://doi.org/10.1007/s12518-025-00613-x",
+      "char_offset": 14931
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s12518-025-00613-x",
+      "char_offset": 15128
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 15178
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 15255
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 15325
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-8adb6118ca2d10b0"
+}

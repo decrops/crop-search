@@ -1,0 +1,89 @@
+{"claims": [
+  {
+    "parameter_id": "morphology.spike_density",
+    "value_type": "range",
+    "range_min": 60,
+    "range_max": 70,
+    "unit": "heads/ft2",
+    "qualifier": "optimum",
+    "evidence_text": "A harvest objective with current varieties grown in Virginia should be 60-70 heads/sq. ft. with at least 30 kernels/head.",
+    "claim_summary": "Harvest objective for Virginia winter wheat is 60-70 heads/sq ft with at least 30 kernels/head.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.grains_per_spike",
+    "value_type": "numeric",
+    "numeric_value": 30,
+    "unit": "grains/spike",
+    "qualifier": "minimum",
+    "evidence_text": "A harvest objective with current varieties grown in Virginia should be 60-70 heads/sq. ft. with at least 30 kernels/head.",
+    "claim_summary": "Winter wheat harvest objective is at least 30 kernels per head.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "range",
+    "range_min": 15,
+    "range_max": 30,
+    "unit": "lb/acre",
+    "qualifier": "recommended",
+    "evidence_text": "a moderate amount (15-30 lbs. of N/acre) is all that is needed for establishing a timely planted winter wheat crop.",
+    "claim_summary": "A moderate fall nitrogen rate of 15-30 lb N/acre is sufficient to establish a timely-planted winter wheat crop.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_timing",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Total spring N applications (growth stage 25 plus growth stage 30) should not exceed a total of 120 lbs. N/acre in order to avoid problems with lodging and yield loss. ... Up to 120 lbs. N/acre may be applied at growth stage 30",
+    "claim_summary": "Spring nitrogen for winter wheat is split between GS25 (tiller-based) and GS30 (tissue-based), with total spring N not exceeding 120 lb N/acre to avoid lodging.",
+    "extraction_confidence": "high",
+    "bbch_min": 25,
+    "bbch_max": 30
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "lb/acre",
+    "qualifier": "maximum",
+    "evidence_text": "Total spring N applications (growth stage 25 plus growth stage 30) should not exceed a total of 120 lbs. N/acre in order to avoid problems with lodging and yield loss.",
+    "claim_summary": "Total spring nitrogen for winter wheat should not exceed 120 lb N/acre to avoid lodging and yield loss.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "stress.lodging_susceptibility",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Excessive plant-available N produces wheat plants that are susceptible to lodging and disease with resulting decreased yields ... Excessive N applications during the early spring tillering phase can result in spindly plants that are more likely to lodge",
+    "claim_summary": "Excessive nitrogen makes winter wheat susceptible to lodging and disease, especially when applied during early spring tillering.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "numeric",
+    "numeric_value": 50,
+    "unit": "tillers/ft2",
+    "qualifier": "threshold",
+    "evidence_text": "If tiller numbers are low, 50/sq. ft. or less, N fertilization at this time is critical for the crop to develop any reasonable yield potential. If tiller numbers are high, 100/sq. ft. or more, no N application is needed at this time.",
+    "claim_summary": "At spring greenup (GS25), winter wheat tiller density of 50/sq ft or less requires N, while 100/sq ft or more needs none.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.critical_tissue_nitrogen",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "Eight years of research in Virginia has shown that tissue N content at growth stage 30 (GS 30) is a reliable indicator of how much additional N fertilizer is needed",
+    "claim_summary": "Tissue nitrogen content at GS30 is a reliable indicator of additional N fertilizer needs for winter wheat.",
+    "extraction_confidence": "medium",
+    "bbch_min": 30
+  },
+  {
+    "parameter_id": "quality.grain_protein",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Foliar applications (10 to 20 lbs. N/acre) of urea at this growth stage have been shown to increase grain protein but not yield.",
+    "claim_summary": "Foliar urea (10-20 lb N/acre) at flowering increases winter wheat grain protein but not yield.",
+    "extraction_confidence": "medium"
+  }
+]}

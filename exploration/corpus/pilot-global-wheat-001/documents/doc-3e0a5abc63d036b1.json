@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-3e0a5abc63d036b1",
+  "canonical_url": "https://en.wikipedia.org/wiki/Pigeon_pea",
+  "source_url": "https://en.wikipedia.org/wiki/Pigeon_pea",
+  "doi": "",
+  "title": "Pigeon pea - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "international_institution",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "3e0a5abc63d036b1d0b25053f214d10f47daff9821686e1cc506c84ddccf3522",
+  "content_hash": "43c24de145be4dffce8bb281b624c7e19f9ee8511e6966c26fdb59746200185b",
+  "text_length": 20631,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 47863693
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/195-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

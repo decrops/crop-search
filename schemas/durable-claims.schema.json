@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/durable-claims.schema.json",
+  "title": "DurableClaimsPromotion",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "generated_at",
+    "review_path",
+    "summary",
+    "promoted_claims"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "review_path": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claims_considered",
+        "promoted_claims",
+        "decision_counts",
+        "parameter_counts",
+        "attribute_counts",
+        "attribute_subtype_counts"
+      ],
+      "properties": {
+        "claims_considered": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "promoted_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "decision_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "parameter_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "attribute_counts": {
+          "$ref": "#/$defs/counts"
+        },
+        "attribute_subtype_counts": {
+          "$ref": "#/$defs/counts"
+        }
+      }
+    },
+    "promoted_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "durable_claim_id",
+          "source_claim_id",
+          "run_id",
+          "entity",
+          "parameter_id",
+          "attribute",
+          "attribute_subtype",
+          "claim_text",
+          "value",
+          "location_scope",
+          "source_geo_scope",
+          "geo_evidence",
+          "time_scope",
+          "provenance",
+          "promotion_decision",
+          "promotion_reasons",
+          "confidence",
+          "status"
+        ],
+        "properties": {
+          "durable_claim_id": {
+            "type": "string"
+          },
+          "source_claim_id": {
+            "type": "string"
+          },
+          "run_id": {
+            "type": "string"
+          },
+          "entity": {
+            "type": "object"
+          },
+          "parameter_id": {
+            "type": "string"
+          },
+          "attribute": {
+            "type": "string"
+          },
+          "attribute_subtype": {
+            "type": "string"
+          },
+          "claim_text": {
+            "type": "string"
+          },
+          "value": {
+            "type": "object"
+          },
+          "location_scope": {
+            "type": "object"
+          },
+          "source_geo_scope": {
+            "type": "object"
+          },
+          "geo_evidence": {
+            "type": "object"
+          },
+          "time_scope": {
+            "type": "object"
+          },
+          "provenance": {
+            "type": "object"
+          },
+          "promotion_decision": {
+            "type": "string",
+            "enum": ["canonical_candidate", "regional_observation", "merge_candidate"]
+          },
+          "promotion_reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["promoted"]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}

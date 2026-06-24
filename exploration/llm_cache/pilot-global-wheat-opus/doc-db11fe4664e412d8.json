@@ -1,0 +1,38 @@
+{"claims": [
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Winter wheat must experience an extended period of cold before blooming happens ... Chilling treatment is compulsory for blossoming in winter propensity though spring type wheat cultivars needn't bother with vernalization for blooming.",
+    "claim_summary": "Winter wheat requires an extended cold (vernalization) period to flower; spring wheat does not require vernalization.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "temperature.germination_temperature",
+    "value_type": "range",
+    "range_min": 0,
+    "range_max": 12,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Vernalization for different harvests might be performed in the scope of 0 to 12°C. The suitable temperature for vernalizing the plants extends from 1-6°C. ... at higher temp from 7°C onwards the reaction of the plant decreases and at around 12 to 14°C are practically inadequate.",
+    "claim_summary": "Effective vernalization (chilling) for wheat occurs in the 0-12 C range, most effective at 1-6 C; ineffective above ~12-14 C.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "phenology.maturity_duration",
+    "value_type": "text",
+    "qualifier": "observed",
+    "unit": "days",
+    "evidence_text": "In spring type wheat flowering starts following 20 days whereas in winter type it starts after 35 days.",
+    "claim_summary": "Spring wheat begins flowering ~20 days, winter wheat ~35 days (winter type delayed by vernalization requirement).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "phenology.photoperiod_sensitivity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Wheat yield potential in various situations is dictated by these three hereditary (genetic) systems, which incorporates reaction for Vrn (vernalization) ... and (Ppd) photoperiod ... All the plant which requires vernalization regularly needs additional ecological signals, extended day length to ensure that blooming happens in spring.",
+    "claim_summary": "Wheat flowering/development is controlled by vernalization (Vrn) and photoperiod (Ppd) genes; long days promote spring flowering.",
+    "extraction_confidence": "low"
+  }
+]}

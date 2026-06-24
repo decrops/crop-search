@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-86163f2d8f1b2b2d",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s13593-015-0283-4.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s13593-015-0283-4.pdf",
+  "doi": "https://doi.org/10.1007/s13593-015-0283-4",
+  "title": "Management of crop water under drought: a review",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "86163f2d8f1b2b2d2a3dd5ab71278f72a1c07a31569e383da3c4cefb0f22a192",
+  "content_hash": "bad496275b2088a22cabf3a7d661c9967b1065e3872f97b940f50067923c6f3d",
+  "text_length": 46487,
+  "publication_date_hint": "2015",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W1965040246",
+    "doi": "https://doi.org/10.1007/s13593-015-0283-4",
+    "publication_year": 2015,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/123-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

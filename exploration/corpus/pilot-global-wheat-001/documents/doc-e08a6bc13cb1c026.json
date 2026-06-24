@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-e08a6bc13cb1c026",
+  "canonical_url": "https://en.wikipedia.org/wiki/Plant_breeding",
+  "source_url": "https://en.wikipedia.org/wiki/Plant_breeding",
+  "doi": "",
+  "title": "Plant breeding - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "international_institution",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "e08a6bc13cb1c02655b9d1b76eaecfdda6adaa3a6ccd2071763fb8afc6f32bcd",
+  "content_hash": "5e49240250e64dac4c4c02b9b6239b4cd1fc063f45357423b7fffec2b52ea98f",
+  "text_length": 32854,
+  "publication_date_hint": "2023",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 30876044
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/009-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

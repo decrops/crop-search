@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "This ultimately affects anthesis, grain filling, size, number and maturity of wheat grains... Elevated temperatures during the anthesis or grain filling stage reduced the photosynthetic rate by compromising thylakoid membrane integrity.",
+      "claim_summary": "Wheat is most heat-sensitive during anthesis and grain filling, when heat reduces grain set, size, number and photosynthesis.",
+      "extraction_confidence": "medium",
+      "methods": ["review"]
+    }
+  ]
+}

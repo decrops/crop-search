@@ -1,0 +1,87 @@
+{
+  "crop_id": "wheat",
+  "label": "Wheat",
+  "crop_group": "cereal",
+  "aliases": [
+    "wheat",
+    "winter wheat",
+    "spring wheat"
+  ],
+  "scientific_names": [
+    "Triticum aestivum"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "emergence",
+    "tillering",
+    "jointing",
+    "heading",
+    "flowering",
+    "grain fill",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "small grain",
+    "winter annual",
+    "spring wheat"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "emergence",
+      "bbch_min": 9,
+      "bbch_max": 11,
+      "confidence": "high"
+    },
+    {
+      "local_term": "tillering",
+      "bbch_min": 20,
+      "bbch_max": 29,
+      "confidence": "high"
+    },
+    {
+      "local_term": "jointing",
+      "bbch_min": 30,
+      "bbch_max": 39,
+      "confidence": "high",
+      "source_note": "stem elongation"
+    },
+    {
+      "local_term": "heading",
+      "bbch_min": 50,
+      "bbch_max": 59,
+      "confidence": "high"
+    },
+    {
+      "local_term": "flowering",
+      "bbch_min": 60,
+      "bbch_max": 69,
+      "confidence": "high",
+      "source_note": "anthesis"
+    },
+    {
+      "local_term": "grain fill",
+      "bbch_min": 70,
+      "bbch_max": 79,
+      "confidence": "high"
+    },
+    {
+      "local_term": "maturity",
+      "bbch_min": 80,
+      "bbch_max": 99,
+      "confidence": "medium",
+      "source_note": "ripening through senescence"
+    }
+  ]
+}

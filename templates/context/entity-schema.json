@@ -1,0 +1,11 @@
+{
+  "id": "entity-schema-v1",
+  "version": "0.1.0",
+  "pack_type": "entity-schema",
+  "title": "Entity schema summary",
+  "content": "Core entities are crop, crop_region, variety, claim, source, and evidence. County and regional augmentations must remain separate from baseline claims.",
+  "references": [
+    "schemas/normalized-claim.schema.json"
+  ],
+  "updated_at": "2026-05-28T12:00:00Z"
+}

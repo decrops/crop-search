@@ -1,0 +1,13 @@
+{
+  "domain": "phenology",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "expected_domain": "ahdb.org.uk",
+      "expected_url": "https://ahdb.org.uk/knowledge-library/wheat-growth-guide",
+      "doi": "",
+      "rationale": "AHDB Wheat Growth Guide is the authoritative source for growth stages, thermal time, and phenology benchmarks."
+    }
+  ]
+}

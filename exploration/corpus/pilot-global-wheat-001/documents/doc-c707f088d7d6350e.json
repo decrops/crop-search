@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-c707f088d7d6350e",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s11104-014-2131-8.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s11104-014-2131-8.pdf",
+  "doi": "https://doi.org/10.1007/s11104-014-2131-8",
+  "title": "Agricultural uses of plant biostimulants",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "c707f088d7d6350e996af935fbd6ff191dfebb9ab1298ce731c9049ad949018a",
+  "content_hash": "96e5e6d7a7ec121056ca9fcb39afda5e60b3aad8484ae391496cf39c3cde722e",
+  "text_length": 126424,
+  "publication_date_hint": "2013",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2015065509",
+    "doi": "https://doi.org/10.1007/s11104-014-2131-8",
+    "publication_year": 2014,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/044-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

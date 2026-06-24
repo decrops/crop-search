@@ -1,0 +1,223 @@
+You have full access to this open access article
+
+Pre-harvest sprouting (PHS) poses a significant threat to global food security by adversely affecting wheat production and quality, necessitating a deeper understanding of the underlying resistance mechanisms. This study successfully identified 214 phenolic compounds and 24 potential germination-inhibitory substances (GISs) in a PHS-resistant wheat genotype, revealing key metabolic pathways and phytohormonal profiles that contribute to PHS tolerance.
+
+Pre-harvest sprouting (PHS) is one of the major threats to global food security as it significantly affects cereals’ production and quality. PHS tolerance depends on diverse factors, among which phytohormones and germination-inhibitory substances (GISs) play essential roles. However, in wheat, information related to GIS in the glume is scarce. Thus, we applied LC–MS/MS-based metabolomics analysis to explore the polyphenols and phytohormones profiles of two contrasting wheat genotypes, Lincang Hulled Wheat (LHW, PHS-resistant) and Yunmai53 (Yun53, PHS-highly susceptible). Physiological tests revealed that LHW PHS-resistance is not associated with the ability of its spikelet to prevent water absorption. The total polyphenol content of the spikes and shells of LHW was significantly higher than that of Yun53, respectively. In total, 214 phenolic compounds classified mainly into phenolic acids (42.52%), flavones (23.83%), and flavonoid carbonosides (16.36%) were identified. 180 differentially accumulated polyphenols (DAPs) were uncovered, including 168 up-regulated in LHW. 24 most up-regulated DAPs (Log2FC ≥ 8) were unveiled as potential candidate GISs. Of the identified phytohormones, abscisic acid, salicylic acid, and jasmonic acid exhibited significantly higher content in LHW compared to Yun53. Whereas, Yun53 contained significantly higher levels of ethylene and gibberellin than LHW. Our findings offer new resources for PHS control in wheat.
+
+168 up-regulated phenolic compounds in the PHS-resistant wheat genotype were identified.
+
+Wheat PHS resistance is associated with higher polyphenols, ABA, JA, and SA contents.
+
+24 potential germination inhibitory polyphenols were identified for further studies.
+
+PHS is a crucial concern worldwide as it considerably affects global agricultural production, economy, and food quality [ 1 , 2 ]. It is one of the most damaging abiotic stresses for wheat ( Triticum aestivum L.) and other cereals globally [ 3 ]. It consists of the germination of physiologically mature seeds in spikes prior to or during harvest due to high humidity or wet (longer period of precipitation) [ 3 , 4 ]. PHS engenders drastic reduction in wheat grain yield and end-use quality and occasions an annual global loss of about $1 billion [ 1 , 4 , 5 , 6 ]. In China, PHS represents the most limiting factor in about 83% of major wheat planting areas, principally in the Southwestern Winter Wheat Zone (SWWZ), Middle and Lower Yangtze River Valleys Winter Wheat Zone (MLWZ), and Northeastern Spring Wheat Zone (NSWZ) [ 7 , 8 , 9 ]. Hence, a clear understanding of the molecular mechanisms involved in PHS resistance will facilitate the genetic improvement of wheat production and quality.
+
+Previous studies have revealed that diverse morphological, physiological, and environmental factors influence PHS tolerance [ 4 , 7 , 9 , 10 ]. The morphological characteristics include the openness of florets, spike and awn structure, and spike erectness, while the external environmental factors regroup relative humidity, temperature, light, and bacteria in soil [ 7 , 11 , 12 ]. The physiological traits are the most determinant factors and include seed dormancy, grain color, endogenous phytohormones (ABA, GA, JA, SA, auxin, ethylene, and brassinosteroids), GISs in the glumes, and amylase activity [ 1 , 3 , 4 , 5 , 10 , 13 , 14 , 15 , 16 , 17 ]. Among them, seed dormancy is the primary genetic component; thus, the occurrence of PHS depends mostly on an unbalanced dormancy/germination ratio [ 3 , 10 , 18 , 19 ]. ABA and GA are the prime endogenous phytohormones that antagonistically regulate seed dormancy and germination [ 10 , 18 ]. ABA inhibits germination while promoting seed dormancy and PHS resistance [ 12 , 20 ]. An unbalance ABA/GA ratio in favor of GA induces dormancy release and promotes germination [ 19 ]. The ABA/GA ratio is regulated by two main factors, including seed GA and ABA levels (biosynthesis and catabolism) and the seeds’ sensitivity to these hormones [ 21 ]. The study by Nguyen et al. unveiled that JA is not a crucial regulator of germination and dormancy, but it can stimulate dormancy release in wheat by modulating the ratio ABA to GA [ 21 ]. Furthermore, a strong association was found between grain color and PHS in wheat; white grains are more susceptible to PHS than red grains [ 8 , 13 ]. Several genetic markers and genes underlying wheat dormancy, germination, and grain color have been identified and exploited in the molecular breeding of PHS-resistant wheat varieties [ 5 , 7 , 13 , 22 , 23 , 24 , 25 , 26 ]. However, information related to GISs is lacking. Hence, identifying potential GISs may offer valuable metabolic resources to deepen understanding of PHS tolerance mechanisms and for biochemical control of PHS.
+
+Germination inhibitors or GISs are widely spread compounds in the plant kingdom that can inhibit or delay the germination of plant reproductive materials (seeds, spores, etc.) [ 27 , 28 ]. Including polyphenols, alkaloids, cyanides, amino acids, essential oils, etc., GISs can be categorized into two groups, germination retarders and germination destructors, depending on their impacts on seed morphology, structure, and physiology [ 27 ]. Germination retarders are interconnected to seed dormancy, and their exogenous application at a proper dosage can extend the dormancy period of non-dormant seeds [ 27 ]. Studies in many weed and crop species have shown that most polyphenols (phenolic acids, flavonoids, lignans, etc.) possess germination retardation capacity [ 29 , 30 , 31 , 32 , 33 , 34 , 35 ]. Particularly, proanthocyanidins (flavonoids) can interact synergically with ABA to enhance seed dormancy [ 32 , 36 ]. Unfortunately, only some phenylethyl alcohols (2-phenylethyl alcohol, 1-phenylethyl alcohol, 4-vinylphenol and their derivatives), dihydroactinidiolide, and tetrahydroactinidiolide were identified as GISs in wheat husks [ 37 , 38 ]. Thus, the need to identify potential germination inhibitory polyphenols in wheat.
+
+Metabolomics analysis is a novel functional genomics tool that aids in disclosing the DAMs (differentially accumulation of metabolites) within cells and organs of the same or different genotypes at a given time [ 6 , 39 ]. Global metabolomics via MS (mass spectrometry) has allowed the identification of thousands of DAMs associated with a specific treatment [ 6 , 40 , 41 ]. The quantification of metabolites allows an extensive overview of the functional status of the plant organ, which can help assess the functions of genes [ 6 ]. Moreover, a general metabolomics approach offers powerful tools to examine the temporal regulation of diverse metabolic pathways [ 9 , 42 ]. Therefore, we speculated that a comparative metabolomics analysis of polyphenols of PHS susceptible and resistant genotypes might help uncover potential candidate GISs.
+
+In this study, based on PHS tests of a PHS resistant (Lincang Hulled Wheat, LHW) and PHS highly susceptible (Yunmai53, Yun53), we found that the resistance capability of LHW was associated with endogenous factors. Accordingly, we performed the polyphenols and phytohormones profiling of physiologically matured spikes and shells of the two varieties and unveiled key DAPs and variations in plant hormones’ levels. Our findings may enhance the molecular understanding of PHS resistance and trigger biochemical control of PHS in wheat.
+
+Two contrasting wheat varieties, Lincang Hulled Wheat (LHW, PHS-resistant) and Yunmai53 (Yun53, PHS highly susceptible), were used in this study. They were offered by the Yunnan Academy of Agricultural Sciences, Kunming, Yunnan, China. The materials were planted in the experimental base of the Academy located at Xiaojie Town, Songming County, Kunming City, in late October 2021. Routine field management was applied. No natural disasters such as rain, snow, frost, and so on occurred during the growth period. The plants were harvested in mid-May 2022 at the waxy stage. Directly, spikes and shells from the two varieties were collected in triplicate, frozen in liquid nitrogen, and stored at – 80 0 C for metabolites and phytohormones profiling. Each replication was composed of a mixture of spikes/shells from ten individual plants.
+
+Five parameters were evaluated, including spikes germination rate (SGR), water retention rate (HWR), germination index (GI), germination rate (GP), and PHS resistance level. For the HWR and SGR evaluation, the main panicles of six individual plants of each variety (basically at the same maturity) were randomly selected and kept at room temperature for ten days. Thereafter, they were bundled with stems, weighed (M1), and subsequently immersed in a plastic box containing running water for 6 h. Then, they were taken out, dried with absorbent paper, and weighed again (M2). The HWR was calculated using the following formula:
+
+Further, the reweighed wheat ears were vertically inserted into the plastic box containing sand and placed in an artificial climate box (DRXM-508C-4, Ningbo Jiangnan Instrument Factory) for germination in the dark at 25 °C and relative humidity of 85%. To maintain the humidity, we sprayed water on the top of the spike every day. After seven days, the spikes were taken out and immediately dried in an oven at 65 °C for 24 h. The germinated seeds (the ones with buds or roots) were counted manually, and the number was recorded. The SGR was then calculated as follows:
+
+SGR (%) = (germinated grains per 6 spikes/total grains per 6 spikes) × 100
+
+For GI and GP determination, 50 homogenous seeds were put (the ventral groove downward) in a petri dish with filter paper, and an appropriate amount of non-ionic water was added. The seeds were kept for germination for seven days under the same conditions as above. From the 2nd day of the test, the germinated seeds were counted until the end of the test. The following formulas were used to compute the GI and GP, respectively.
+
+where n1, n2,..., n7 are the number of seeds germinated on the 1st, 2nd,…, and 7th day.
+
+The PHS resistance level of the two genotypes was determined according to the GI. Five levels, namely high resistance (GI < 5%), resistance (5% ≤ GI < 20%), medium resistance (20% ≤ GI < 40%), medium sensitivity (40% ≤ GI < 60%), and high sensitivity (GI ≥ 60%) have been established [ 7 , 13 ].
+
+The TPC was evaluated using Folin–Ciocalteu reagent (Norminkoda Biotechnology Co., Ltd. Wuhan, China) and following the reported method by Tang et al. with some modifications [ 43 ]. Briefly, 400 µL of each sample’s extract, 0.6 mL ddH 2 O (double distilled water), and 0.25 mL of 50% Folin–Ciocalteu were introduced into a 2 mL test tube, mixed, and kept for 2 min at room temperature. Next, we added 750 µL of 15% Na 2 CO 3 , mixed well again, and incubated in the dark at room temperature for 2 h. Finally, 200 µL of each reaction solution was added to a microplate, and the absorbance was determined at 765 nm using a microplate reader (SpectraMax ABS plus, Biochemical analyzer, Sunnyvale, CA, USA). 400 µL of methanol served as a reagent blank. Gallic acid was used as the standard, and the TPC in the samples was computed by the mean of a calibration equation (y = 0.2161x + 0.0383, r2 = 0.9929) and expressed as ng of gallic acid equivalent per ml of sample.
+
+Samples were ground for 1.5 min at 30 Hz with a mill (MM400, Retsch, Germany). Next, 100 mg of powder of each sample was extracted overnight at 4 °C with 1.0 mL of 70% methanol, followed by 10 min centrifugation at 10000 g. The supernatants were collected separately and filtered with a microporous membrane, 0.22 μm pore size (SCAA-104, ANPEL, Shanghai, China). Thereafter, all extracts were stored in a vial for subsequent UPLC-MS/MS (ultra-high performance liquid chromatography-mass spectrometry)-based targeted metabolomics analysis. All four sample extracts were equally mixed to generate quality control (QC) samples. The LC–MS gradient grade solvents (methanol, acetonitrile, and acetic acid) were purchased from Merck Company (Darmstadt, Hesse, Germany). All other chemicals, including metabolite standards, were acquired from BioBioPha (Kunming, Yunnan, China) or Sigma-Aldrich (St. Louis, MO, USA). Each standard was dissolved in methanol or dimethyl sulfoxide (standard stock solutions) and stored at—20 °C. Prior to the qualitative and quantitative identification of metabolites, the standard solutions were diluted with 70% methanol to generate a gradient of different concentrations.
+
+The data acquisition system was composed mainly of a UPLC system (Shim-pack UFLC SHIMADZU CBMA system, https://www.shimadzu.com/ ) and a tandem mass spectrometry (MS/MS) system (QTRAP® 4500 + System, https://sciex.com/ ). The analytical conditions and multivariate analyses were as per previously described [ 40 , 44 ]. In brief, after data quality assessment and standardization (Zscore), the HCA (hierarchical clustering analysis), PCA (principal component analysis), and correlation analyses were achieved in R (version 3.5.0) using the function pheatmap, prcomp, and corr ( www.r-project.org ), respectively. The OPLS-DA (orthogonal partial least discriminant analysis) analysis was performed in R with the package MetaboAnalystR, and VIP (variable importance in projection) values were obtained. Significant differentially accumulated polyphenols (DAPs) were filtered out at the thresholds of VIP ≥ 1 and p < 0.05 (t-test). Finally, the Kyoto Encyclopedia of Genes and Genomes (KEGG) database was used for DAPs functional annotation [ 40 , 44 ]. Pathways with significantly regulated metabolites were fed into the metabolite sets enrichment analysis (MSEA), and the hypergeometric test’s p -values were applied to determine significantly enriched pathways.
+
+Sample extracts were concentrated and dried in the concentrator at 4 °C. The residues were dissolved with 200 µl 80% methanol. Following centrifugation at 4 °C, 12,000 rpm for 10 min. Then, the supernatants were collected and stored for phytohormones analysis.
+
+The sample extracts were analyzed using an LC–ESI–MS/MS system (HPLC, Shim-pack UFLC SHI- MADZU CBM30A system, www.shimadzu.com.cn/ ; MS, Applied Biosystems 4500 QTRAP, www.appliedbiosystems.com.cn/ ). A Waters ACQUITY UPLC HSS T3 C18 1.8 µm (2.1 × 100 mm) was used for separation. The mobile phase consisted of 0.04% acetic acid in water (solvent A) and 0.04% acetic acid in acetonitrile (solvent B). The flow rate was set at 0.4 mL/min with a column temperature of 40 °C. Separation was achieved via a gradient starting at 5% B, increasing to 95% B in 10 min, held for 1 min, and a change back to 5% B in 0.1 min, and held for 2.9 min. The injection volume for samples was 5 μL. The qualitative and quantitative identification of the plant hormones was performed as per the metabolites.
+
+Statistical analyses and graphing were performed with GraphPad Prism v9.0.0121 (GraphPad 159 Software Inc., La Jolla, CA, USA). Statistical differences were performed by one-way ANOVA at P < 0.05. TBtools software was used to construct the heatmap of key metabolites [ 45 ]. All experiments were conducted with three repetitions.
+
+To verify the phenotypes of the two varieties, we evaluated their PHS resistance and seed dormancy characteristics at the seed maturity stage (Table 1 ). The germination tests show that LHW is resistant (R) to PHS while Yun53 is highly sensitive (HS). The spikes’ germination rate (SGR), germination index (GI), and seed germination rate (GP) of LHW were 0, 18, and 33.3%, respectively (Table 1 ). In contrast, the SGR, GI, and GP of Yun53 were 76.2, 65.7, and 92%, respectively (Table 1 ). Surprisingly, the water retention rate (HWR) of LHW (37.6%) was slightly higher than that of Yun53 (33.1%), indicating the PHS resistance status of LHW may repose on its biochemical composition, not on the ability of his spikelet to prevent water absorption.
+
+In order to identify metabolomic markers associated with PHS resistance, we quantified the TPC and performed the metabolomics analysis of polyphenols of the spikes of Yun53 (A), the shell of Yun53 (B), the spikes of LHW (C), and shell of LHW (D). The TPC of the spikes and shell of LHW were significantly higher than that of Yun53, respectively (Fig. 1 a). For instance, the average TPC of the spikes of LHW and Yun53 was 335.64 and 201.14 µg/ml, respectively.
+
+a Total phenolics content of the two wheat varieties. b Classification of the 214 identified polyphenols in spikes and shells of the two wheat varieties. A and B indicate the spikes and shells of the highly-susceptible variety Yun53, respectively. C and D indicate the spikes and shells of the resistant variety LHW, respectively. The different letter above the bars indicates statistical difference at p < 0.05
+
+UPLC-MS/MS-based polyphenols profiling analysis of the spikes and shells of the two varieties identified a total of 214 phenolic compounds (Table S1). These phenolic metabolites were classified into nine classes, of which phenolic acids (42.52%), flavones (23.83%), and flavonoid carbonosides (16.36%) were the dominant (Fig. 1 b).
+
+Principal component analysis (PCA) and Hierarchical cluster analysis (HCA) allow for examining the variability of metabolites among samples belonging to the same or different groups. As shown in Fig. 2 , the LHW and Yun53 samples were clustered separately on the PCA and HCA plots, indicating that their polyphenol profiles are completely different. LHW and Yun53 samples could be discriminated by PC1 (84.05%) (Fig. 2 a). As shown in the HCA plot, most of the identified phenolic compounds exhibited higher relative content in LHW than in Yun53 (Fig. 2 b). To verify the observed variation in polyphenol profiles, we carried out correlation and OPLS-DA analyses, and the results were supportive (Figures S1 and S2). We obtained high predictability (Q2 > 0.999) and strong goodness of fit (R2X > 0.94, R2Y = 1) in the comparison between spikes and shells of the two varieties, respectively (Figure S2).
+
+Overview of the variability of phenolic compounds in spikes and shells of the two wheat varieties. a Principal component analysis result of different samples. b Hierarchical clustering analysis result of identified metabolites in different groups. A and B indicate the spikes and shells of the highly-susceptible variety Yun53, respectively. C and D indicate the spikes and shells of the resistant variety LHW, respectively
+
+To uncover major phenolic compounds that may confer PHS resistance, we conducted DAPs analysis. Significant DAPs in pairwise comparison between groups were filtered out by applying the thresholds of VIP ≥ 1 and p -value < 0.05. The volcano plots of pairwise comparison between spikes and shells, respectively, are shown in Figure S3. As shown in Fig. 3 a, we identified 180 DAPs, including 168 up-regulated and 12 down-regulated significantly differential phenolic compounds in the pairwise comparison between spikes of Yun53 (A) and LHW (C) (Fig. 3 a, Table S2). Meanwhile, 181 DAPs, including 170 up-regulated and 11 down-regulated, were detected between Yun53 and LHW shells (Fig. 3 a, Table S3). 63 DAPs (53 down-regulated) and 71 DAPs (62 down-regulated) were identified in pairwise comparison between the spikes and shell of Yun53 (A_vs_B) and LHW (C_vs_D), respectively (Fig. 3 a). Venn diagram analysis identified 164 overlapped DAPs in the pairwise comparisons between spikes and shells (Fig. 3 b), confirming that the polyphenol profiles of the two varieties are very different.
+
+Differentially accumulated polyphenols (DAPs) in spikes and shells of the two wheat varieties. a Number of DAPs in pairwise comparison between groups. b Venn diagram presenting the number of overlapped DAPs in spikes and shells. A and B indicate the spikes and shells of the highly-susceptible variety Yun53, respectively. C and D indicate the spikes and shells of the resistant variety LHW, respectively
+
+To identify potential polyphenols that may be involved in PHS resistance, we screened out DAPs with |Log2FC ≥ 8|in the pairwise comparison between spikes of the two varieties and performed a Heatmap clustering analysis (Fig. 4 ). The results revealed tricin 5-O-rutinoside, 2,4-dihydroxy benzoic acid, tricin 5-O-feruloylhexoside, isovitexin 7-O-glucoside, tricin 4′-O-glucoside, 4′,5′-dihydroxy-6,8-dimethoxyisoflavone-7-O-galactoside, 5,7,4'-trihydroxy-6,8-dimethoxy isoflavone-7-O-galactoside, tricin 7-O-Glucoside, trihydroxycinnamoylquinic acid, iristectorigenin B-O-glucoside, p -coumaric acid, coniferin, 6-O-caffeoyl-β-glucose, 6-O-feruloyl-α-glucose, tricin 4′-O-(syringyl alcohol) ether 7-O-hexoside, syringaresinol-Hex, p -coumaric acid-O-glycoside, 5′-glucopyranosyloxyjasmanic acid, tricin-O-rutinoside, 5,7,4′-trihydroxy-6,8-dimethoxy isoflavone-7-O-galactoside-glucose, isohemiphloin, syringaresinol-aceGlu, methyl gallate, 3′,4′,5′-tricetin O-rutinoside as the potential candidate GISs and may involve in PHS resistance (Fig. 4 ).
+
+Heatmap of most DAPs (|Log2FC ≥ 8|) between the two wheat varieties. The Figure was constructed from the normalized relative content of the metabolites. A and B indicate the spikes and shells of the highly-susceptible variety Yun53, respectively. C and D indicate the spikes and shells of the resistant variety LHW, respectively
+
+To unveil the secondary molecular mechanisms that involve the DAPs, we conducted functional annotation and enrichment analyses. The results indicated that the DAPs between the two varieties were mainly implicated in tyrosine metabolism, biosynthesis of secondary metabolites, flavone and flavonol biosynthesis, phenylpropanoid biosynthesis, phenylalanine metabolism, flavonoid biosynthesis, and isoflavonoid biosynthesis (Figs. 5 and S4). Functional annotation and enrichment analysis of DAPs between the spikes and shells of the two varieties, respectively, indicated that tyrosine metabolism, phenylalanine metabolism, biosynthesis of secondary metabolites, and phenylpropanoid biosynthesis are significantly induced in LHW than in Yun53 (Figure S5).
+
+KEGG annotation and enrichment analysis results of DAPs between spikes of the two wheat varieties
+
+To provide more insights into the PHS resistance of LHW, we analyzed the phytohormone profiles of the spikes and shells of the two varieties at the seed maturity stage. Of the thirteen plant hormones targeted, only GA1 (gibberellin 1) was not determined in any of the samples (Fig. 6 and Table S6). GA7 was identified only in the spikes of Yun53 (Fig. 6 and Table S6). The identified phytohormones included ABA (abscisic acid), ethylene (ACC), gibberellin (GA3, 4, and 7), jasmonic acid (JA), and salicylic acid (SA) (Table S6). The content of ABA, SA, and JA in LHW (C and D) was significantly higher than in Yun53 (Fig. 6 a,c,e). In contrast, Yun53 (A and B) contained significantly higher levels of ACC and GA than in LHW (Fig. 6 b,d).
+
+The content of phytohormones in spikes and shells of the two wheat varieties. a Abscisic acid. b Ethylene. c salicylic acid. d Geberellin. e Jasmonic acid. The description of all abbreviations is presented in Table S6. A and B indicate the spikes and shells of the highly-susceptible variety Yun53, respectively. C and D indicate the spikes and shells of the resistant variety LHW, respectively. The different letter above the bars indicates statistical difference at p < 0.05
+
+Genetic selection and creating novel varieties tolerant to PHS are one of the major objectives in wheat breeding. PHS is mainly caused by the exposition of physiologically mature seeds to prolonged rainfall and high humidity before harvest [ 13 , 46 ]. In the present study, we found that the HWR of the PHS-resistant variety LHW was higher than that of the highly-susceptible variety Yun53. This result shows that PHS does not correlate with the water absorption capacity of seeds but repose principally on endogenous factors, including phytohormones and GISs.
+
+To identify potential polyphenols with germination inhibitory properties, we carried out metabolomics analysis of polyphenols in the spikes and shells of the two varieties. We identified 214 phenolic compounds, most of which exhibited higher relative content in LHW compared to Yun53. Conformingly, the analysis revealed that the TPC of LHW spikes and shells was significantly higher than that of Yun53, respectively. These results indicate that higher phenolics content may strongly correlate with PHS tolerance, and wheat genotypes with higher TPC might resist PHS. Higher polyphenol content was also associated with seed dormancy in carob [ 31 ]. The 214 metabolites were principally classified into phenolic acids (42.52%), flavones (23.83%), and flavonoid carbonosides (16.36%). These results suggest that improving phenolic acids and flavonoid biosynthesis in developing wheat spikes may confer PHS tolerance. We identified 180 DAPs, including 168 up-regulated between the two varieties. Functional characterization assigned these DAPs primary in tyrosine metabolism, biosynthesis of secondary metabolites, flavone and flavonol biosynthesis, phenylpropanoid biosynthesis, phenylalanine metabolism, flavonoid biosynthesis, and isoflavonoid biosynthesis. These findings confirm that the phenylpropanoid pathway is highly induced during LHW developing spikes than in Yun53. High polyphenols content is also associated with variation in grain colors [ 40 ], and grain color is genetically linked to PHS resistance in wheat [ 8 , 13 ]. Supportively, Lang et al. found that the transcription factor MYB10-D promotes PHS resistance by stimulating ABA and flavonoid biosynthesis in wheat [ 47 ]. Furthermore, we filtered out twenty-four most up-regulated DAPs as potential candidate GISs. These metabolites could serve as metabolic markers for future functional studies toward the complete dissection of the regulatory network of PHS tolerance in wheat. Moreover, the effects of each of these key DAPs on wheat seed germination need to be investigated for application in the biochemical control of PHS in wheat and other crops. It is demonstrated that some phenolic compounds may possess germination-inhibitory properties [ 35 , 48 , 49 ]. For instance, caffeic acid, p -coumaric acid, chlorogenic acid, fumaric acid, ferulic acid, gallic acid, hydrocinnamic acid, p -hydroxybenzoic acid, vanillic acid, p -vanillin, pyrocatechol, and proanthocyanidins germination inhibitory effects have been proved in many weed and crop species [ 27 , 29 , 32 , 33 , 34 , 50 ].
+
+PHS is primarily influenced by seed dormancy. Seed dormancy and germination are governed by the ABA/GA ratio [ 18 , 19 , 51 ]. The unbalance of this ratio in favor of ABA and GA promotes seed dormancy and germination, respectively [ 18 , 19 , 51 ]. Consistency, we found that the content of ABA in LHW was significantly higher than in Yun53, while that of GA was significantly higher in Yun53 than in LHW. These results confirm the key regulatory function of the interplay between ABA and GA for PHS regulation through the control of seed dormancy or germination. ABA and polyphenols may function synergically to enhance seed dormancy and therefore prevent PHS in wheat. It is demonstrated that ABA and flavonoids interact to promote seed dormancy [ 32 , 36 ]. ABA might also stimulate polyphenols’ biosynthesis and accumulation in LHW during spike development in order to enhance its resistance to PHS. In grape berry, exogenous application of ABA has significantly promoted flavonoid biosynthesis [ 52 ]. We also uncovered that the content of ethylene in the highly-susceptible variety Yun53 was significantly higher than in LHW, indicating the plant hormone ethylene promotes seed germination via negative regulation of ABA biosynthesis or signaling. Corroboratively, it is demonstrated that ethylene is a negative regulator of seed dormancy via negative control of ABA biosynthesis and signaling and interplay between other phytohormones and signal molecules [ 53 , 54 ]. Compared to Yun53, the content of JA and SA in LHW was significantly higher, suggesting they may involve in promoting seed dormancy. The specific role of JA and SA in PHS resistance needs further investigation. Currently, it is reported that JA is not a critical regulator of germination and dormancy in wheat; however, it could cause seed dormancy loss by modulating the ABA/GA ratio [ 21 ]. Taken together, our findings show that further studies are required to deepen our understanding of the molecular mechanisms underlying PHS tolerance in wheat.
+
+In summary, this study combined polyphenols and phytohormones profiling analyses to unveil the importance of phenolic compounds, ABA, JA, and SA, in PHS resistance in wheat. The PHS resistance capability of LHW is associated with its higher content of diverse phenolic compounds, ABA, JA, and SA. Tyrosine metabolism, biosynthesis of secondary metabolites, flavone and flavonol biosynthesis, phenylpropanoid biosynthesis, phenylalanine metabolism, flavonoid biosynthesis, and isoflavonoid biosynthesis were the main pathways significantly induced in LHW. Twenty-four key up-regulated (Log2FC ≥ 8) DAPs in LHW were identified as potential candidate GISs. Our findings provide key resources for more insights into the molecular mechanisms governing PHS resistance in wheat. Moreover, they offer metabolic markers to enhance PHS control in wheat.
+
+The data analyzed during this study are included in this manuscript and its supplementary files.
+
+Nakamura S (2018) Grain dormancy genes responsible for preventing pre-harvest sprouting in barley and wheat. Breed Sci 68:295–304
+
+Matsuura T, Mori IC, Himi E, Hirayama T (2019) Plant hormone profiling in developing seeds of common wheat ( Triticum aestivum L.). Breed Sci 69:601–610
+
+Tai L, Wang HJ, Xu XJ, Sun WH, Ju L, Liu WT et al (2021) Pre-harvest sprouting in cereals: genetic and biochemical mechanisms. J Exp Bot 72:2857–2876
+
+Rabieyan E, Bihamta MR, Moghaddam ME, Mohammadi V, Alipour H (2022) Genome-wide association mapping and genomic prediction for pre-harvest sprouting resistance, low α-amylase and seed color in Iranian bread wheat. BMC Plant Biol 22:1–23
+
+Vetch JM, Stougaard RN, Martin JM, Giroux MJ (2019) Review: Revealing the genetic mechanisms of pre-harvest sprouting in hexaploid wheat ( Triticum aestivum L.). Plant Sci 281:180–185
+
+Das A, Kim DW, Khadka P, Rakwal R, Rohila JS (2017) Unraveling key metabolomic alterations in wheat embryos derived from freshly harvested and water-imbibed seeds of two wheat cultivars with contrasting dormancy status. Front Plant Sci 8:1–16
+
+Zhu Y, Wang S, Wei W, Xie H, Liu K, Zhang C et al (2019) Genome-wide association study of pre-harvest sprouting tolerance using a 90K SNP array in common wheat ( Triticum aestivum L.). Theor Appl Genet 132:2947–2963
+
+Yiwen H, Xuran D, Hongwei L, Shuo Y, Chunyan M, Liqiang Y et al (2022) Identification of effective alleles and haplotypes conferring pre-harvest sprouting resistance in winter wheat cultivars. BMC Plant Biol 22:1–10
+
+Liu C, Ding F, Hao F, Yu M, Lei H, Wu X et al (2015) Reprogramming of seed metabolism facilitates pre-harvest sprouting resistance of wheat. Sci Rep 2016(6):1–11
+
+Sohn SI, Pandian S, Kumar TS, Zoclanclounon YAB, Muthuramalingam P, Shilpha J et al (2021) Seed dormancy and pre-harvest sprouting in rice—an updated overview. Int J Mol Sci 22(21):11804
+
+Mares DJ (1993) Pre-harvest sprouting in wheat. I. Influence of cultivar, rainfall and temperature during grain ripening. Aust J Agric Res 44:1259–1272
+
+Shu K, Meng YJ, Shuai HW, Liu WG, Du JB, Liu J et al (2015) Dormancy and germination: How does the crop seed decide? Plant Biol 17:1104–1112
+
+Lin M, Zhang D, Liu S, Zhang G, Yu J, Fritz AK et al (2016) Genome-wide association analysis on pre-harvest sprouting resistance and grain color in U.S. winter wheat. BMC Genomics 17:1–6
+
+Haiwei S, Yongjie M, Xiaofeng L, Feng C, Ying Q, Wenyu Y et al (2016) The roles of auxin in seed dormancy and germination. Yi Chuan 38:314–322
+
+Kozaki A, Aoyanagi T (2022) Molecular aspects of seed development controlled by gibberellins and abscisic acids. Int J Mol Sci 23(3):1876
+
+Fidler J, Zdunek-Zastocka E, Prabucka B, Bielawski W (2016) Abscisic acid content and the expression of genes related to its metabolism during maturation of triticale grains of cultivars differing in pre-harvest sprouting susceptibility. J Plant Physiol 207:1–9
+
+Fidler J, Grabowska A, Prabucka B, Więsyk A, Góra-Sochacka A, Bielawski W et al (2017) The varied ability of grains to synthesize and catabolize ABA is one of the factors affecting dormancy and its release by after-ripening in imbibed triticale grains of cultivars with different pre-harvest sprouting susceptibilities. J Plant Physiol 2018(226):48–55
+
+Tuan PA, Kumar R, Rehal PK, Toora PK, Ayele BT (2018) Molecular mechanisms underlying abscisic acid/gibberellin balance in the control of seed dormancy and germination in cereals. Front Plant Sci 9:1–14
+
+Tuan PA, Nguyen TN, Jordan MC, Ayele BT (2021) A shift in abscisic acid/gibberellin balance underlies retention of dormancy induced by seed development temperature. Plant Cell Environ 44:2230–2244
+
+Ali F, Qanmber G, Li F, Wang Z (2022) Updated role of ABA in seed maturation, dormancy, and germination. J Adv Res 35:199–214
+
+Nguyen TN, Tuan PA, Ayele BT (2022) Jasmonate regulates seed dormancy in wheat via modulating the balance between gibberellin and abscisic acid. J Exp Bot 73:2434–2453
+
+Li L, Zhang Y, Zhang Y, Li M, Xu D, Tian X et al (2021) Genome-wide linkage mapping for preharvest sprouting resistance in wheat using 15K single-nucleotide polymorphism arrays. Front Plant Sci 12:1–9
+
+Li Z, Chen Y, Ou X, Wang M, Wang N, Li W et al (2022) Identification of a stable major-effect quantitative trait locus for pre-harvest sprouting in common wheat ( Triticum aestivum L.) via high-density SNP-based genotyping. Theor Appl Genet 135:4183–4195
+
+Zhang Y, Xia X, He Z (2017) The seed dormancy allele TaSdr-A1a associated with pre-harvest sprouting tolerance is mainly present in Chinese wheat landraces. Theor Appl Genet 130:81–89
+
+Zhou Y, Tang H, Cheng MP, Dankwa KO, Chen ZX, Li ZY et al (2017) Genome-wide association study for pre-harvest sprouting resistance in a large germplasm collection of chinese wheat landraces. Front Plant Sci 8:1–13
+
+Zuo J, Lin CT, Cao H, Chen F, Liu Y, Liu J (2019) Genome-wide association study and quantitative trait loci mapping of seed dormancy in common wheat ( Triticum aestivum L.). Planta 250:187–198
+
+Chenyin P, Yu W, Fenghou S, Yongbao S (2023) Review of the current research progress of seed germination inhibitors. Horticulturae 9:462
+
+Evenari M (1949) Germination inhibitors. Bot Rev 15:153–194
+
+Robert DW, Robert EH (2018) The effects of naturally occurring phenolic compounds on seed germination. Weed Sci 30:206–212
+
+Tanase C, Bujor O, Popa VI (2019) Phenolic natural compounds and their influence on physiological processes in plants. Polyphenols in plants, 2nd edn. Elsevier, pp 45–58
+
+Cavallaro V, Maucieri C, Patanè C, Fascella G, Pellegrino A (2021) Polyphenols leaching and seed dormancy in carob ( Ceratonia siliqua L.) in relation to hot water treatment. Acta Physiol Plant 43:1–10
+
+Jia L, Wu Q, Ye N, Liu R, Shi L, Xu W et al (2012) Proanthocyanidins inhibit seed germination by maintaining a high level of abscisic acid in Arabidopsis thaliana . J Integr Plant Biol 54:663–673
+
+Reigosa MJ, Souto XC, Gonz L (1999) Effect of phenolic compounds on the germination of six weeds species. Plant Growth Regul 28:83–88
+
+Einhellig A, Rasmussen A (1978) Synergistic inhibitory effects of vanillic and p-hydroxybenzoic acids on radish and grain sorghum. J Chem Ecol 4:425–436
+
+Krogmeier MJ, Bremner JM (1989) Effects of phenolic acids on seed germination and seedling growth in soil. Biol Fertil Soils 8:116–122
+
+Shirley BW (1998) Flavonoids in seeds and grains : physiological function, agronomic importance and the genetics of biosynthesis. Seed Sci Res 8:415–422
+
+Tadahiro K, Naoko S, Kaori K, Mariko S, Takuma K, Kohji T (2002) Germination and growth inhibitors from wheat ( Triticum aestivum L.) Husks. J Agric Food Chem 50:6307–6312
+
+Kato T, Imai T, Kashimura K, Saito N, Masaya K (2003) Germination response in wheat grains to dihydroactinidiolide, a germination inhibitor in wheat husks, and related compounds. J Agric Food Chem 51:2161–2167
+
+Chen W, Gong L, Guo Z, Wang W, Zhang H, Liu X et al (2013) A novel integrated method for large-scale detection, identification, and quantification of widely targeted metabolites: application in the study of rice metabolomics. Mol Plant 6:1769–1780
+
+Dossou SSK, Xu F, You J, Zhou R, Li D, Wang L (2022) Widely targeted metabolome profiling of different colored sesame ( Sesamum indicum L.) seeds provides new insight into their antioxidant activities. Food Res Int 151:110850
+
+Song Y, Gao X, Wu Y (2021) Key metabolite differences between Korean pine ( Pinus koraiensis ) seeds with primary physiological dormancy and no-dormancy. Front Plant Sci 12:1–17
+
+Song Y, Zhu J (2019) The roles of metabolic pathways in maintaining primary dormancy of Pinus koraiensis seeds. BMC Plant Biol 19:1–15
+
+Tang YC, Liu YJ, He GR, Cao YW, Bi MM, Song M et al (2021) Comprehensive analysis of secondary metabolites in the extracts from different lily bulbs and their antioxidant ability. Antioxidants 10:1634
+
+Yi D, Zhang H, Lai B, Liu L, Pan X, Ma Z et al (2021) Integrative analysis of the coloring mechanism of red longan pericarp through metabolome and transcriptome analyses. J Agric Food Chem 69:1806–1815
+
+Chen C, Chen H, Zhang Y, Thomas HR, Frank MH, He Y et al (2020) TBtools: an integrative toolkit developed for interactive analyses of big biological data. Mol Plant 13:1194–1202
+
+Kulwal P, Ishikawa G, Benscher D, Feng Z, Yu LX, Jadhav A et al (2012) Association mapping for pre-harvest sprouting resistance in white winter wheat. Theor Appl Genet 125:793–805
+
+Lang J, Fu Y, Zhou Y, Cheng M, Deng M, Li M et al (2021) Myb10-D confers PHS-3D resistance to pre-harvest sprouting by regulating NCED in ABA biosynthesis pathway of wheat. New Phytol 230:1940–1952
+
+Oh H, Lee S, Lee H-S, Lee D-H, Lee SY, Chung H-T et al (2002) Germination inhibitory constituents from Erigeron annuus. Phytochemistry 61:175–179
+
+Marambe B, Ando T, Marambe B (1992) Phenolic acids as potential seed germination-inhibitors in animal-waste composts. Soil Sci Plant Nutr 38:727–733
+
+Colpas FT, Ono EO, Rodrigues JD, Passos RDS (2003) Effects of some phenolic compounds on soybean seed germination and on seed-borne fungi. Braz Arch Biol Technol 46:155–161
+
+Izydorczyk C, Nguyen TN, Jo SH, Son SH, Tuan PA, Ayele BT (2018) Spatiotemporal modulation of abscisic acid and gibberellin metabolism and signalling mediates the effects of suboptimal and supraoptimal temperatures on seed germination in wheat ( Triticum aestivum L.). Plant Cell Environ 41:1022–1037
+
+Yang M, Wang L, Belwal T, Zhang X, Lu H, Chen C et al (2019) Exogenous melatonin and abscisic acid expedite the flavonoids biosynthesis in grape berry of Vitis vinifera cv. Kyoho. Molecules 25:12
+
+Corbineau F, Xia Q, Bailly C, El-Maarouf-Bouteau H (2014) Ethylene, a key factor in the regulation of seed dormancy. Front Plant Sci 5:1–13
+
+Ghassemian M, Nambara E, Cutler S, Kawaide H, Kamiya Y, McCourt P (2000) Regulation of abscisic acid signaling by the ethylene response pathway in arabidopsis. Plant Cell 12:1117–1126
+
+This research was funded by the Ministry of Science and Technology, the Ministry of Finance "National Science and Technology Resources Sharing Service Platform—National Crop Germplasm Resources Database (Yunnan Crop Germplasm Resources Collection, Preservation and Sharing Service, NCGRC2022-030), the Yunnan Provincial Major Science and Technology Special Project (Biomedicine) Biological Resources Digital Development and Application (202002AA100007), the Yunnan Provincial Department of Finance" Yunnan Provincial Third National Crop Germplasm Resources Census and Collection Action 2022 Financial Special Project (YAASZYPC01), and the Basic Research Project of Yunnan Province—Study on the Resistance Mechanism of Preharvest Germination of Yunnan Iron Hull Wheat (202301AT070010).
+
+Biotechnology and Germplasm Resources Institute, Yunnan Academy of Agricultural Sciences/Yunnan Provincial Key Lab of Agricultural Biotechnology/Key Lab of Southwestern Crop Gene Resources and Germplasm Innovation, Ministry of Agriculture and Rural Affairs, Kunming, 650205, Yunnan, China
+
+Guoyan Zhou, Shaoyun Wu, Dan Chen, Xiaoyang Wu & Qing Cai
+
+Conceptualization, QC; methodology and validation, GZ; formal analysis and investigation, SW and DC; resources and data curation, XW; writing—original draft preparation, GZ; writing—review and editing, GZ and QC; supervision, project administration, and funding acquisition, QC All authors have read and agreed to the published version of the manuscript.
+
+Correspondence to Shaoyun Wu or Qing Cai .
+
+The authors declare no competing interests.
+
+The authors give consent for the publication.
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Below is the link to the electronic supplementary material.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ .
+
+Zhou, G., Wu, S., Chen, D. et al. Polyphenols and phytohormones profiling of pre-harvest sprouting resistant and susceptible wheat genotypes. SN Appl. Sci. 5 , 249 (2023). https://doi.org/10.1007/s42452-023-05464-y
+
+DOI : https://doi.org/10.1007/s42452-023-05464-y
+
+Anyone you share the following link with will be able to read this content:
+
+Sorry, a shareable link is not currently available for this article.
+
+Provided by the Springer Nature SharedIt content-sharing initiative

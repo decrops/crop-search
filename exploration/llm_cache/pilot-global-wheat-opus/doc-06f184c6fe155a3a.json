@@ -1,0 +1,61 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 118,
+      "range_max": 128,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "Misr 3 was the earliest cultivar, taking ... 121.67 and 118.66 days to maturity ... while Sakha 95 was the most delayed cultivar, taking ... 127.66 and 121.67 days to maturity under unstressed and stressed conditions, respectively.",
+      "claim_summary": "Days from sowing to physiological maturity ranged ~119–128 d across cultivars and irrigation treatments.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "range",
+      "range_min": 118,
+      "range_max": 128,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "The maturity date was calculated by counting the days from sowing to the plant's physiological maturity. ... taking 121.67 and 118.66 days to maturity ... 127.66 and 121.67 days to maturity under unstressed and stressed conditions",
+      "claim_summary": "Time from sowing to physiological maturity ~119–128 days.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Based on these results, Sakha 95 > Giza 171 > Misr 1 > Misr 3 in terms of drought tolerance. ... Misr 3 was the least tolerant wheat cultivar and Sakha 95 was the most tolerant.",
+      "claim_summary": "Cultivar drought tolerance ranking: Sakha 95 > Giza 171 > Misr 1 > Misr 3; high RWC, membrane stability and pigment retention indicate tolerance.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "grain development is the most important stage of wheat growth beneath drought since grain size is dictated by drought-induced disruption of the duration and rate of grain filling, which diminishes yield.",
+      "claim_summary": "Grain development/grain-filling (and heading/reproductive stage) is the stage most sensitive to drought for yield.",
+      "extraction_confidence": "medium",
+      "bbch_min": 71,
+      "bbch_max": 89
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "120 kg N fed −1 was applied in five identical dosages.",
+      "claim_summary": "Nitrogen applied split in five equal doses over the season.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization", "split application"]
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "harvest index was reduced under drought in all four wheat cultivars in both seasons. ... Harvest index = grain yield / biological yield.",
+      "claim_summary": "Wheat harvest index declines under drought stress across cultivars.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

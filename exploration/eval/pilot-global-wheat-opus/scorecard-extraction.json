@@ -1,0 +1,47 @@
+{
+  "run_id": "pilot-global-wheat-opus",
+  "eval_type": "extraction",
+  "generated_at": "2026-06-24T09:21:54Z",
+  "gold_dir": "tests/golden/extraction",
+  "gold_records": 8,
+  "adjudicable_predictions": 17,
+  "metrics": {
+    "recall": 1.0,
+    "precision": 0.6471,
+    "parameter_mapping_accuracy": 1.0,
+    "unit_normalization_correctness": 1.0,
+    "evidence_faithfulness": 0.75
+  },
+  "per_domain": {
+    "harvest": {
+      "gold": 1,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    },
+    "nutrients": {
+      "gold": 1,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    },
+    "phenology": {
+      "gold": 1,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    },
+    "stress": {
+      "gold": 2,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    },
+    "temperature": {
+      "gold": 1,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    },
+    "water": {
+      "gold": 2,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    }
+  }
+}

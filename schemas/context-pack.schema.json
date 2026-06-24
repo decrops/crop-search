@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/context-pack.schema.json",
+  "title": "ContextPack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "version", "pack_type", "title", "content", "updated_at"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "pack_type": {
+      "type": "string",
+      "enum": ["mission", "source-policy", "entity-schema", "run-brief", "handoff-summary"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "content": {
+      "type": "string",
+      "minLength": 10
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

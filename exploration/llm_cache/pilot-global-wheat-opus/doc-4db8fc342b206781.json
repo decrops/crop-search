@@ -1,0 +1,37 @@
+{
+  "claims": [
+    {
+      "parameter_id": "photosynthesis.vapor_pressure_deficit_threshold",
+      "value_type": "range",
+      "range_min": 1.063,
+      "range_max": 1.072,
+      "unit": "kPa",
+      "qualifier": "threshold",
+      "evidence_text": "the transpiration started to decrease in both segmented transpiration subgroups at similar VPD break points (STR+: 1.063 and STR-: 1.072 kPa)",
+      "claim_summary": "Durum wheat segmented-transpiration lines begin limiting transpiration at a VPD breakpoint near 1.06-1.07 kPa.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 250,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "Each plot consisted of six rows 7 m long and 0.2 m apart, with a planting density of 250 seeds m -2 .",
+      "claim_summary": "Durum wheat field trials sown at a planting density of 250 seeds per m2.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "numeric",
+      "numeric_value": 0.2,
+      "unit": "m",
+      "qualifier": "observed",
+      "evidence_text": "Each plot consisted of six rows 7 m long and 0.2 m apart",
+      "claim_summary": "Durum wheat field rows spaced 0.2 m apart.",
+      "extraction_confidence": "medium",
+      "methods": ["sowing"]
+    }
+  ]
+}

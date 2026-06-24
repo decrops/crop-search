@@ -1,0 +1,329 @@
+{
+  "run_id": "pilot-global-wheat-001",
+  "metadata_only_candidates": 61,
+  "excluded_junk": 43,
+  "excluded_no_oa": 9,
+  "resolved": 9,
+  "fetched_full_text": 4,
+  "fetch_failed": 5,
+  "details": [
+    {
+      "document_id": "doc-0d297d577eda8cbd",
+      "doi": "10.7287/peerj.8927v0.2/reviews/2",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-0dbc51d4d59cbd5b",
+      "doi": "10.7287/peerj.15924v0.2/reviews/1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-16585550d59fcd8f",
+      "doi": "10.7717/peerj.1708/table-1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-172d1fe947941df8",
+      "doi": "10.3410/f.1023179.343524",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-190eb49d14a30a2c",
+      "doi": "10.3410/f.1051621.503525",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-19808616aa910dc9",
+      "doi": "10.3410/f.728649196.793555773",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-1a28f408b6e42d4d",
+      "doi": "10.7287/peerj.14965v0.3/reviews/1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-21cfe0e7b6e6948e",
+      "doi": "10.3410/f.1023179.334785",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-22487e0173b1ad56",
+      "doi": "10.7287/peerj.8927v0.1/reviews/3",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-2b13558148250013",
+      "doi": "10.3410/f.725728685.793509099",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-2c5357eea6c06428",
+      "doi": "10.1201/9781351075978-5",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-2ccd84b5921c049c",
+      "doi": "10.3410/f.741194423.793590945",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-2d4bc9a3c8f4f3b5",
+      "doi": "10.7717/peerj.19802/table-4",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-2fe06d1a0747a5e7",
+      "doi": "10.3410/f.741194423.793590509",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-3a970e8c52e29b7c",
+      "doi": "10.3974/geodp.2023.03.04",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-3f7cee5c1fea4749",
+      "doi": "https://doi.org/10.1016/j.scitotenv.2016.12.111",
+      "outcome": "fetch_failed",
+      "oa_url": "https://doi.org/10.1016/j.scitotenv.2016.12.111"
+    },
+    {
+      "document_id": "doc-3fd26e5ad7e694e3",
+      "doi": "https://doi.org/10.1016/j.gecco.2020.e01118",
+      "outcome": "fetch_failed",
+      "oa_url": "https://doi.org/10.1016/j.gecco.2020.e01118"
+    },
+    {
+      "document_id": "doc-4951319da4afffbe",
+      "doi": "10.3410/f.1013447.191257",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-4a3a10b3667f5369",
+      "doi": "10.3974/geodb.2023.09.08.v1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-50f3515dc87041b1",
+      "doi": "10.3410/f.739361057.793582133",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-51aa13723551ccce",
+      "doi": "10.3403/30202164",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 826
+    },
+    {
+      "document_id": "doc-554f008edc51b828",
+      "doi": "10.7717/peerj.11189/fig-4",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-55e0cacf7ff5cdbb",
+      "doi": "10.3410/f.735915845.793578723",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-5f9446150361139e",
+      "doi": "10.3410/f.1051621.505868",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-6c64106462bcf0d1",
+      "doi": "10.3410/f.739093468.793580502",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-71751ad2c64f9c99",
+      "doi": "10.1007/s11192-019-03197-7",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-739c770a6b09242e",
+      "doi": "10.7287/peerj.15924v0.1/reviews/2",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-7b047b212de70209",
+      "doi": "10.1101/2020.09.23.307785",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2020/09/23/2020.09.23.307785.full.pdf"
+    },
+    {
+      "document_id": "doc-871b0796f012f859",
+      "doi": "10.7717/peerj.12245/supp-4",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-8861f942a8fcac95",
+      "doi": "",
+      "outcome": "no_doi"
+    },
+    {
+      "document_id": "doc-89b62c2902f0192e",
+      "doi": "10.2135/cropsci1987.0011183x002700030005x",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-8a474b26f907aa3c",
+      "doi": "10.7287/peerj.15924v0.1/reviews/1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-8a687abdb6e2694a",
+      "doi": "10.1201/9781351075978-7",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-8c2038ec272a0cba",
+      "doi": "10.3390/foods9091308",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.mdpi.com/2304-8158/9/9/1308/pdf?version=1600327102"
+    },
+    {
+      "document_id": "doc-8fd1badf41e10303",
+      "doi": "10.3410/f.1023703.281660",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-907d3f8e9523274d",
+      "doi": "10.7717/peerj.14423/fig-2",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-ab042ff37ca0703d",
+      "doi": "10.3410/f.1013447.191004",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-acabe8fb549d5d17",
+      "doi": "10.7717/peerj.20823/fig-16",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-af04b618a4c68306",
+      "doi": "10.3410/f.1012643.186401",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-afaa8e054f18c0d1",
+      "doi": "",
+      "outcome": "no_doi"
+    },
+    {
+      "document_id": "doc-b0e1ca285c78731e",
+      "doi": "10.3410/f.732411099.793551395",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-b75a1702f6deb022",
+      "doi": "10.5958/2455-6963.2018.00009.7",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-c0ec7cd5c5d1d740",
+      "doi": "10.17504/protocols.io.5qpvodxebg4o/v3",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 12964
+    },
+    {
+      "document_id": "doc-c1721e4d1a332ca4",
+      "doi": "10.7287/peerj.14965v0.1/reviews/2",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-cafa15e0198ccb4d",
+      "doi": "10.3410/f.1091930.545273",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-d509a690574c8cc2",
+      "doi": "10.7717/peerj.9062/fig-1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-d54352420c50b7b5",
+      "doi": "10.3724/sp.j.1258.2013.00036",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-d75f1fbf13a797ea",
+      "doi": "10.7287/peerj.8478v0.1/reviews/2",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-db4cfb3fd7b3ce69",
+      "doi": "10.3410/f.741943193.793592893",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-dc84d7989de33580",
+      "doi": "10.7717/peerj.12245/fig-3",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-e00ac13a36365a4b",
+      "doi": "10.7717/peerj.18724/supp-1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-ea4bb210b1c2c101",
+      "doi": "10.3410/f.1091225.545469",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-ead69f5413e41cd3",
+      "doi": "",
+      "outcome": "no_doi"
+    },
+    {
+      "document_id": "doc-ece0a57c38d24d26",
+      "doi": "10.3390/wsf2-00840",
+      "outcome": "fetch_failed",
+      "oa_url": "https://sciforum.net/paper/download/840/manuscript"
+    },
+    {
+      "document_id": "doc-edec57340d18191b",
+      "doi": "10.7287/peerj.8927v0.1/reviews/1",
+      "outcome": "junk_doi"
+    },
+    {
+      "document_id": "doc-f177f0f18ed00c39",
+      "doi": "10.17930/agl201618",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 11114
+    },
+    {
+      "document_id": "doc-f2ff8760d2f1d48d",
+      "doi": "10.14264/6468eed",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-f6b9eaf5cae2920c",
+      "doi": "10.1006/anbo.1996.0305",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-f791299838451ff4",
+      "doi": "10.1201/9781351075978-4",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-fce180639b68fdc0",
+      "doi": "10.17930/agl2015217",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 18113
+    },
+    {
+      "document_id": "doc-fd4507cafd2cabf5",
+      "doi": "10.3410/f.1013447.193186",
+      "outcome": "junk_doi"
+    }
+  ]
+}

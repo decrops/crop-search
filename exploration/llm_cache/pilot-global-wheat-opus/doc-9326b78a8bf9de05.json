@@ -1,0 +1,89 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 18.0,
+      "range_max": 25.0,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "Yield penalties are associated with both chronically high temperatures (mean temperature of the growth cycle being 18–25°C, and maximum day temperatures up to 32°C during grain filling)",
+      "claim_summary": "Mean growth-cycle temperatures of 18-25 C represent the upper bound of acceptable conditions; chronically high temperatures in this range begin to cause wheat yield penalties",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "numeric",
+      "numeric_value": 32.0,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "as well as heat shocks, where temperatures greater than 32°C occur during mid- or late reproductive wheat stages, including grain filling",
+      "claim_summary": "Temperatures above 32 C cause heat-shock yield penalties in wheat during mid- to late-reproductive and grain-filling stages",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.reproductive_heat_threshold",
+      "value_type": "numeric",
+      "numeric_value": 32.0,
+      "unit": "celsius",
+      "qualifier": "threshold",
+      "evidence_text": "heat shocks, where temperatures greater than 32°C occur during mid- or late reproductive wheat stages, including grain filling",
+      "claim_summary": "Heat shock above 32 C during mid/late reproductive stages causes wheat yield penalties",
+      "extraction_confidence": "high",
+      "bbch_min": 60,
+      "bbch_max": 77
+    },
+    {
+      "parameter_id": "temperature.grain_fill_temperature",
+      "value_type": "numeric",
+      "numeric_value": 32.0,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "maximum day temperatures up to 32°C during grain filling ... temperatures greater than 32°C occur during mid- or late reproductive wheat stages, including grain filling",
+      "claim_summary": "Maximum day temperature during wheat grain filling reaches up to 32 C; values above this trigger heat-stress yield penalties",
+      "extraction_confidence": "medium",
+      "bbch_min": 71,
+      "bbch_max": 77
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "heat stress, especially at the terminal stage, is seen as a major reason why India has fallen well short of anticipated production ... temperatures greater than 32°C occur during mid- or late reproductive wheat stages, including grain filling",
+      "claim_summary": "Wheat is most heat-sensitive at the terminal/reproductive and grain-filling stages",
+      "extraction_confidence": "high",
+      "bbch_min": 60,
+      "bbch_max": 77
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "range",
+      "range_min": 0.5,
+      "range_max": 0.8,
+      "unit": "heritability",
+      "qualifier": "typical",
+      "evidence_text": "The heritability of stomatal conductance is reasonably high, with reported values typically in the range of 0.5–0.8 (Rebetzke et al., 2003).",
+      "claim_summary": "Narrow-sense heritability of flag-leaf stomatal conductance in wheat is reasonably high, typically 0.5-0.8",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "When ambient temperature is more than optimum plant temperature, stomatal conductance is enhanced which promotes evaporative cooling of leaves to thereby reduce heat stress ... High stomatal conductance permits leaf cooling through evapotranspiration; this along with higher leaf chlorophyll content and stay green character is associated with heat tolerance.",
+      "claim_summary": "High flag-leaf stomatal conductance enables evaporative leaf cooling and is associated with heat tolerance and higher grain yield in wheat; proposed as a selection trait",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "photosynthesis.transpiration_efficiency",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "The closure of stomata may increase leaf temperature depending mainly on the radiation load on the canopy but will result in a better water economy or increased transpiration efficiency (Condon et al., 2004).",
+      "claim_summary": "Stomatal closure in wheat reduces conductance but improves water economy / transpiration efficiency",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

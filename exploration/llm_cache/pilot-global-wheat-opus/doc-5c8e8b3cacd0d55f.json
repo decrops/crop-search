@@ -1,0 +1,37 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Genetic surveys of winter wheat cultivars subjected to varying durations and timings of heat stress demonstrated that sensitivity peaks at heading, with even five days of elevated temperature causing significant yield reductions.",
+      "claim_summary": "Wheat heat sensitivity peaks at heading/anthesis; even 5 days of elevated temperature during reproductive stages causes significant yield reductions.",
+      "extraction_confidence": "high",
+      "bbch_min": 51,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "simultaneous heat and water deficit at the reproductive stage can reduce grain yield by nearly half",
+      "claim_summary": "Combined pre-anthesis drought and heat at the reproductive stage can reduce wheat grain yield by nearly half.",
+      "extraction_confidence": "medium",
+      "bbch_min": 51,
+      "bbch_max": 69
+    },
+    {
+      "parameter_id": "temperature.reproductive_heat_threshold",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "High temperature episodes during key reproductive stages such as anthesis and grain filling can reduce photosynthetic capacity, impair membrane integrity and disrupt carbohydrate metabolism, leading to substantial yield losses.",
+      "claim_summary": "High temperature during anthesis and grain filling reduces wheat photosynthetic capacity and causes substantial yield losses.",
+      "extraction_confidence": "medium",
+      "bbch_min": 61,
+      "bbch_max": 89
+    }
+  ]
+}

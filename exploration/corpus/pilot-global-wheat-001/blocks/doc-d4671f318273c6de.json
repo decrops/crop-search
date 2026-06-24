@@ -1,0 +1,727 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 3,
+      "heading": "Subjects",
+      "text": "Agroecology Natural variation in plants Plant ecology"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Normalized difference vegetation index (NDVI) is one of the most important vegetation indices in crop remote sensing. It features a simple, fast, and non-destructive method and has been widely used in remote monitoring of crop growing status. Beer-Lambert law is widely used in calculating crop leaf area index (LAI), however, it is time-consuming detection and low in output. Our objective was to improve the accuracy of monitoring LAI through remote sensing by integrating NDVI and Beer-Lambert law. In this study, the Beer-Lambert law was firstly modified to construct a monitoring model with NDVI as the independent variable. Secondly, experimental data of wheat from different years and various plant types (erectophile, planophile and middle types) was used to validate the modified model. The results showed that at 130 DAS (days after sowing), the differences in NDVI, leaf area index (LAI) and extinction coefficient (k) of the three plant types with significantly different leaf orientation values (LOVs) reached the maximum. The NDVI of the planophile-type wheat reached saturation earlier than that of the middle and erectophile types. The undetermined parameters of the model (LAI = \u2212ln (a 1 \u00d7 NDVI + b 1 )/(a 2 \u00d7 NDVI + b 2 )) were related to the plant type of wheat. For the erectophile-type cultivars (LOV \u2265 60\u00b0), the parameters for the modified model were, a 1 = 0.306, a 2 = \u22120.534, b 1 = \u22120.065, and b 2 = 0.541. For the middle-type cultivars (30\u00b0 < LOV < 60\u00b0), the parameters were, a 1 = 0.392, a 2 = \u22120.88 1 , b 1 = 0.028, and b 2 = 0.845. And for the planophile-type cultivars (LOV \u2264 30\u00b0), those parameters were, a 1 = 0.596, a 2 = \u22121.306, b 1 = 0.014, and b 2 = 1.130. Verification proved that the modified model based on integrating NDVI and Beer-Lambert law was better than Beer-Lambert law model only or NDVI-LAI direct model only. It was feasible to quantitatively monitor the LAI of different plant-type wheat by integrating NDVI and Beer-Lambert law, especially for erectophile-type wheat (R 2 = 0.905, RMSE = 0.36, RE = 0.10). The monitoring model proposed in this study can accurately reflect the dynamic changes of plant canopy structure parameters, and provides a novel method for determining plant LAI."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Modeling of wheat yield using plant structural biomarkers Article Open access 26 February 2026 Single irrigation at the four-leaf stage in the spring optimizes winter wheat water consumption characteristics and water use efficiency Article Open access 22 August 2022 Simultaneous multi-crop land suitability prediction from remote sensing data using semi-supervised learning Article Open access 26 April 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Modeling of wheat yield using plant structural biomarkers",
+      "text": "Article Open access 26 February 2026"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Single irrigation at the four-leaf stage in the spring optimizes winter wheat water consumption characteristics and water use efficiency",
+      "text": "Article Open access 22 August 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Simultaneous multi-crop land suitability prediction from remote sensing data using semi-supervised learning",
+      "text": "Article Open access 26 April 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "The leaf area index (LAI), the leaf orientation value (LOV), and the extinction coefficient (k) are important structural parameters of crop populations. By affecting light distribution, they directly affect crop photosynthetic efficiency, and ultimately show an impact on crop biological yield and its distribution in various plant organs 1 . Remote sensing technology could provide a practical method for crop LAI estimation, rather than a slow, expensive and complicated chemical method. The advantage of the remote-sensing method is that it can obtain plant canopy information on a large scale without disrupting the normal growth of plants 2 , 3 . Studies using remote sensing to monitor agronomic parameters have been extended from crop soils 4 , 5 , 6 , to fresh leaves 7 , 8 , 9 and entire crop layers 10 , 11 . Previous studies have shown that a macronutrient (Nitrogen, Phosphorus, Potassium, Calcium and Magnesium) deficiency in wheat lowers chlorophyll concentrations, increases reflectivity in the visible range, and causes the red edges to shift towards the shorter or longer wavelengths 12 . Several studies have estimated water content, nitrogen and grain protein content using spectral data 13 . However, many factors are needed to be considered to study the reflectivity of crop canopy. These include the complexity of canopy characteristics, changes in leaf internal structure and soil background effects 14 , 15 . The complexity of canopy structure have played a decisive role in solar radiation interception, absorption and scattering. The results have shown that canopy structure mainly depends on leaf distribution and area. Leaf angular distribution is one of the key parameters to simulate the radiative transfer of vegetative canopy and the balance of energy and mass 16 . Traditionally, the concept of LAI have been used in agriculture and ecology to measure the development and yield of crops, to compare among them and to schedule irrigation and amendments during the crop development 17 . While exploring k, variability in k values is not related to fraction of light intercepted, time of day, or incident solar radiation. The LOV is an index indicating the degree of leaf blades point upward or downward. The bigger the LOV, the closer the leaf blades pointing upward to vertical, and the plant is erectophile. The smaller the LOV, the deeper the blades pointing downward, and the plant is flat. Regarding the study of light distribution in crop populations, Monsi and Saeki has expanded the Beer-Lambert law into plant populations and proposed the exponential relationship of light distribution in plant populations 18 : F = \u2212ln(I/I 0 )/k, where F is the LAI, I 0 and I represents the light intensity above and below the canopy respectively, and k is the extinction coefficient. Direct measurements and long-term monitoring of LAI are difficult, especially in crops and forests, but indirect methods are suitable for long-term continuous monitoring 19 . In many researches, the extinction coefficient is usually expressed as a single factor function of solar elevation Angle or leaf area index. To simplify calculations, many studies have monitored LAI with a constant k over the growing period 20 , 21 . Subsequently, numerous scholars have carried out various researches and discussions on this law. Some scholars use the Beer-Lambert extinction law to estimate the extinction coefficient from solar elevation to reveal the expected LAI dynamics 22 . Although the geometric distribution of leaf area has a potential impact on a plant\u2019s ability to intercept light, but the previous equation do not contain any term to account for it. Some research has shown that the contribution of plant structure complexity to the law is evaluated by quantifying the geometric distribution of leaf area by the fractal dimension of leafless plant structure 23 . Although the above achievements have boosted the physiological research of crop cultivation, the acquisition of morpholog"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Results",
+      "text": "Changes in NDVI, LAI and k of various plant types at different growth stages The changes in NDVI, LAI and k of different plant-types throughout the growth stages has been presented in Fig. 1 . The LOVs calculated from the corresponding measured canopy structure data were 78.8\u00b0, 48.6\u00b0, and 25.4\u00b0, for erectophile, middle and planophile types, respectively. Figure 1 Full size image Dynamic curve of NDVI, LAI and k. E: Erectophile-type, M: Middle-type, F: Planophile-type (the same as below). As shown in Fig. 1A , the LAI exhibited single peak curves along the growth process. From about 90 to 120 DAS (days after sowing), LAI values were increasing, without significant differences among the three wheat cultivars. From 120 to 130 DAS, the LAI kept increasing as the plants grew vigorously, and each cultivar clearly demonstrated its own plant type related characteristics. With the increase of LOV value, the more compact the plant, the higher the production density and LAI. Hence, the LAI differences among the three cultivars increased, reaching the maximum at 130 DAS. Then the LAI differences gradually decreased. Presumably, the rate of photosynthesis reduces at this stage due to senescence and withering of lower layer leaves. These resulted in smaller LAI, hence smaller differences. Figure 1B demonstrates the first increased and then decreased single peak changes of NDVI of three cultivars and their NDVI differences, along with the changes of LAI. From about 90 to 120 DAS, along with the increase of plant height, the number of leaves, and the single leaf area, the LAI increased accordingly. Then the absorbed red light increased, resulting in lowered intensity of the red-light reflectance, and increased NDVI values. Generally, it was thought that the NDVI value was primary affected by leaf pigment and LAI. Nevertheless, the NDVI values differed only slightly at this stage. The primarily reason was that the plants were still short then, the plant type related characteristics hadn\u2019t been fully exhibited yet. Between 120\u2013130 DAS, the changes in NDVI values of the three cultivars gradually increased, reaching a maximum at 130 DAS. The NDVI values and their differences gradually decreased afterwards and became very weak after 160 DAS, presumably due to the differences in LAI generated by the planting density. This was consistent with the conclusion reached by Suryanarayana et al . on the wheat NDVI value study 26 . In addition, the NDVI value increased with the increase of LOV from plant types of planophile to erectophile. The NDVI value reached saturation at around 110 DAS for the planophile type, followed by the middle type at 120 DAS, and finally the erectophile type at 130 DAS. Therefore, it indicated that the saturation of NDVI was related to the plant type, earliest for the planophile type, then the middle type, and latest for the erectophile type. Compared to the middle and erectophile types, the planophile-type leaves spread earlier and faster, and the coverage was higher in the early stage, which greatly affected the reflection spectrum. According to Beer-Lambert law, when LAI was a constant, the bigger the k value, the smaller the light energy ratio (I/I 0 ) through the canopy. While holding I/I 0 constant, the LAI was inversely proportional to the k value, and k reflects the degree of light reduction within the canopy, which could be taken as the amount of light interception per unit leaf area. Besides LAI, k was also related to the angle between the blade and the horizontal plane. As shown in Fig. 1C , the smaller the LOV value, the larger the k value. The k value demonstrated a concave curve along with the growth process, first decreasing and then increasing. From about 90 to 120 DAS, the LAI values were increasing, the leaf photosynthetic capacities were rising, leading to the k values reduced at varying degrees. Nevertheless, the differences in k values of the three plant types were small, when reaching maximum at 130 DAS, wi"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Changes in NDVI, LAI and k of various plant types at different growth stages",
+      "text": "The changes in NDVI, LAI and k of different plant-types throughout the growth stages has been presented in Fig. 1 . The LOVs calculated from the corresponding measured canopy structure data were 78.8\u00b0, 48.6\u00b0, and 25.4\u00b0, for erectophile, middle and planophile types, respectively. Figure 1 Full size image Dynamic curve of NDVI, LAI and k. E: Erectophile-type, M: Middle-type, F: Planophile-type (the same as below). As shown in Fig. 1A , the LAI exhibited single peak curves along the growth process. From about 90 to 120 DAS (days after sowing), LAI values were increasing, without significant differences among the three wheat cultivars. From 120 to 130 DAS, the LAI kept increasing as the plants grew vigorously, and each cultivar clearly demonstrated its own plant type related characteristics. With the increase of LOV value, the more compact the plant, the higher the production density and LAI. Hence, the LAI differences among the three cultivars increased, reaching the maximum at 130 DAS. Then the LAI differences gradually decreased. Presumably, the rate of photosynthesis reduces at this stage due to senescence and withering of lower layer leaves. These resulted in smaller LAI, hence smaller differences. Figure 1B demonstrates the first increased and then decreased single peak changes of NDVI of three cultivars and their NDVI differences, along with the changes of LAI. From about 90 to 120 DAS, along with the increase of plant height, the number of leaves, and the single leaf area, the LAI increased accordingly. Then the absorbed red light increased, resulting in lowered intensity of the red-light reflectance, and increased NDVI values. Generally, it was thought that the NDVI value was primary affected by leaf pigment and LAI. Nevertheless, the NDVI values differed only slightly at this stage. The primarily reason was that the plants were still short then, the plant type related characteristics hadn\u2019t been fully exhibited yet. Between 120\u2013130 DAS, the changes in NDVI values of the three cultivars gradually increased, reaching a maximum at 130 DAS. The NDVI values and their differences gradually decreased afterwards and became very weak after 160 DAS, presumably due to the differences in LAI generated by the planting density. This was consistent with the conclusion reached by Suryanarayana et al . on the wheat NDVI value study 26 . In addition, the NDVI value increased with the increase of LOV from plant types of planophile to erectophile. The NDVI value reached saturation at around 110 DAS for the planophile type, followed by the middle type at 120 DAS, and finally the erectophile type at 130 DAS. Therefore, it indicated that the saturation of NDVI was related to the plant type, earliest for the planophile type, then the middle type, and latest for the erectophile type. Compared to the middle and erectophile types, the planophile-type leaves spread earlier and faster, and the coverage was higher in the early stage, which greatly affected the reflection spectrum. According to Beer-Lambert law, when LAI was a constant, the bigger the k value, the smaller the light energy ratio (I/I 0 ) through the canopy. While holding I/I 0 constant, the LAI was inversely proportional to the k value, and k reflects the degree of light reduction within the canopy, which could be taken as the amount of light interception per unit leaf area. Besides LAI, k was also related to the angle between the blade and the horizontal plane. As shown in Fig. 1C , the smaller the LOV value, the larger the k value. The k value demonstrated a concave curve along with the growth process, first decreasing and then increasing. From about 90 to 120 DAS, the LAI values were increasing, the leaf photosynthetic capacities were rising, leading to the k values reduced at varying degrees. Nevertheless, the differences in k values of the three plant types were small, when reaching maximum at 130 DAS, with the lowest k value for the planophile type. Later, the k values increased "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Relation analysis between NDVI and LAI for various plant types",
+      "text": "As shown in Fig. 2 , the correlations between NDVI and LAI were extremely significant for three plant types, with coefficients of determination (R 2 ) values of erectophile, middle and planophile types being 0.785, 0.774 and 0.759, respectively. To monitor wheat LAI directly, NDVI was selected as an independent variable, LAI as a dependent variable, and the NDVI-LAI direct models of erectophile, middle and planophile types were constructed respectively (Fig. 2 ). Furthermore, it was observed that the NDVI can be used to in directly monitor erectophile-type, middle-type and planophile-type wheat LAI. Figure 2 Full size image NDVI-LAI direct models under various plant types."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Correlation analysis of NDVI with I/I 0 and k for various plant types",
+      "text": "To more accurately monitor the LAI change in wheat with combined remote sensing technology and Beer-Lambert law, the wheat NDVI of various plant types at 130 DAS were subjected to statistical correlation analysis with I/I 0 (Fig. 3 ) and k values (Fig. 4 ), respectively. The results demonstrated that the correlation of NDVI with k, and with I/I 0 for the three plant types was extremely significant, with R 2 of both above 0.87. Regarding the linear correlation between I/I 0 and NDVI, the erectophile type showed the strongest correlation (R 2 = 0.906, P < 0.01), followed by the middle type (R 2 = 0.883, P < 0.01), and the planophile type (R 2 = 0.875, P < 0.01). With respect to the linear correlation between k and NDVI, it was similar to the abovementioned trend, that is, the erectophile type had the highest correlation (R 2 = 0.914, P < 0.01), followed by the middle type (R 2 = 0.890, P < 0.01), and planophile type (R 2 = 0.876, P < 0.01). Considering all three plant types, NDVI was linearly correlated with I/I 0 and k. While the correlation was different for different LOVs, that is, various plant types. Therefore, the regression model of I/I 0 and k using NDVI as the independent variable for the three plant types was established respectively as: $$I/{I}_{0}={a}_{1}\\times NDVI+{b}_{1}$$ (1) $$K={a}_{2}\\times NDVI+{b}_{2}$$ (2) $$LAI=-\\,{ln}(\\frac{I}{{I}_{0}})\\times \\frac{1}{K}$$ (3) Figure 3 Full size image Relationships between I/I 0 and NDVI under various plant types (T represented I/I 0 ). Figure 4 Full size image Relationships between k and NDVI under various plant types. When substitute the Eq. ( 3 ) with Eqs. ( 1 ) and ( 2 ) the Beer-Lambert law could be transformed into: $$LAI=\\frac{-ln({a}_{1}\\times NDVI+{b}_{1})}{{a}_{2}\\times NDVI+{b}_{2}}$$ (4) where a 1 , a 2 , b 1 , and b 2 are the undetermined parameters. According to the results of Figs. 3 and 4 , the undetermined parameters (a 1 , a 2 , b 1 , and b 2 ) in Eq. ( 4 ) are calculated and listed in Table 1 . Table 1 Monitoring model in various ranges of LOV. Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Model validation",
+      "text": "In order to test the reliability of the model, the measurement data of 2018, which was an experiment repeat of 2017, was used in the validation. The experiment field was divided into three sections (the erectophile type LOV \u2265 60\u00b0, the middle type 30\u00b0 < LOV < 60\u00b0 and the planophile type LOV \u2264 30\u00b0). The measured LAI and the calculated NDVI based on ground hyperspectral data were used to validate Eq. ( 4 ) for the three LOV ranges, and the values were also compared to the corresponding prediction values from Eq. ( 3 ) and the NDVI-LAI direct models, as shown in Fig. 5 . The measured LOV values were basically in [20\u00b0, 30\u00b0], [40\u00b0, 50\u00b0] and [70\u00b0, 80\u00b0] for the planophile, middle and erectophile types, respectively. Based on the analysis from Table 2 , it was shown that the measured and the simulated LAI values were significantly correlated for the three models, with all the R 2 above 0.80. R 2 of Eqs. ( 4 ) and ( 3 ) were obviously higher than R 2 of the NDVI-LAI direct models, and their root mean square error (RMSE) and relative error (RE) were obviously lower than RMSE and RE of the NDVI-LAI direct models, which indicated that the Eqs. ( 4 ) and ( 3 ) were more suitable for quantitatively monitoring wheat LAI than the NDVI-LAI direct models. Else, when LOV \u2264 30\u00b0, the prediction results of Eqs. ( 4 ) and ( 3 ) were close, and the prediction of Eq. ( 4 ) was valid. When LOV \u2265 60\u00b0, the determination coefficient (R 2 = 0.905, P < 0.01) obtained from Eq. ( 4 ) was the biggest regarding the erectophile type, with a relatively small RMSE and RE of 0.36 and 0.1, respectively. Therefore, it was indicated that it is possible to predict the dynamic changes of wheat canopy structure using the Beer-Lambert law with NDVI obtained by hyperspectral technique, and it was highly accurate. Figure 5 Full size image Evaluating the monitoring models of erectophile-type (A 1 , B 1 , C 1 ), middle-type (A 2 , B 2 , C 2 ) and planophile-type (A 3 , B 3 , C 3 ) wheat LAI. A 1 , A 2 , A 3 represented LAI deduced by Eq. ( 4 ), respectively. B 1 , B 2 , B 3 represented LAI deduced by Eq. ( 3 ), respectively. C 1 , C 2 , C 3 represented LAI deduced by the NDVI-LAI direct model, respectively. Table 2 Results of evaluating the LAI monitoring models. Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "LOV was one of the important parameters to simulate canopy radiation transfer and mass balance. The quantitative study of Beer-Lambert law was carried out by remote sensing and measured canopy structure parameters of wheat cultivars with different LOVs. Previous work has suggested that LOV could be measured to check effectiveness of visual ratings of leaf orientation 27 . This paper analyzes the potential of NDVI to quantitatively modify the Beer-Lambert law to quantify wheat leaf area index. The results of this study were tested with data from a different year to obtain the modified equation of Beer-Lambert law using spectral remote sensing technology in different LOV ranges. NDVI is one of the most important vegetation indices in vegetation remote sensing 24 , 26 . It has a close relationship with plant parameters such as crop LAI 28 . It had been widely used in remote sensing monitoring of crop growth 29 . This is the basis for selecting NDVI to monitor different plant-type wheat LAI by integrating Beer-Lambert law in this study. The NDVI-LAI direct model for quantitatively monitoring wheat LAI is simple and feasible, but its accuracy was significantly lower than that of Eqs. ( 4 ) and ( 3 ). So far, there are a few studies on quantitatively monitoring of different plant-type wheat LAI by integrating NDVI and Beer-Lambert law 30 . Therefore, the quantitative monitoring of different plant-type wheat LAI by integrating NDVI and Beer-Lambert law had good application and innovation. Structure of crops has a certain influence on the directional reflectivity of canopy 31 . Some researches put forward the remote monitoring model based on vegetation index, realizing the identification of various plant types 32 . In this study, the larger the LOV, the more erectophile the plant type, the stronger the monitoring ability of the above model (Eq. ( 4 )) to the wheat LAI. In recent years, as the wheat breeding favored the erectophile-type cultivars, the results of this study were valuable in actual wheat production. The present paper has only studied the light intensity above the canopy and above the base, without exploring the vertical distribution of structural parameters along various layers of the canopy. This is a limitation of the study. Moreover, spectral or image information from most optical sensors is obtained in the direction of the vertical canopy of the plant 32 . It could be predicted that in the near future, there would be more sensors to meet the requirements of different parameters, Therefore, whether the modified Beer-Lambert law is applicable to the vertical distribution of studied structural parameters along various layers of the canopy needs to be verified. In this study, only one variety was selected for each plant type. The wheat varieties with different growth period were not selected as test subjects, and the climatic conditions in the test area were not much different. Whether it can be used as a general model, more varieties of verification are needed. This study provided a potential tool for quantitatively monitoring different plant-type wheat LAI and a basis for quantitative remote monitoring of crops."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Conclusions",
+      "text": "It was feasible to monitor different plant-type wheat LAI by integrating NDVI and Beer-Lambert law, and with a better accuracy. It showed a distinctive advantage of fast, simple, and destruction-free features compared to the original Beer-Lambert law, and had a higher capability for quantitatively monitoring wheat LAI than the NDVI-LAI direct model. In addition, it was found that the more erectophile the plant type, the stronger the monitoring ability of the method by integrating NDVI and Beer-Lambert law. The results were valuable in the practice for breeding and cultivation."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Materials and Methods",
+      "text": "Experimental design The experiments were conducted in No. 1 experimental field of Agricultural College of Yangzhou University from 2016 to 2017 (119\u00b023\u203226\u2033E, 32\u00b023\u203253\u2033N), and in the experimental farming of Yangzhou university in 2018 (119\u00b026\u203222\u2033E, 32\u00b025\u203234\u2033N) as shown in Fig. 6 . A total of three representative wheat cultivars (lines) were selected including Yumai 41 , Zhengfeng 3 and Jingdong 8 . Among them, Yumai 41 was erectophile-type cultivar (line), Zhengfeng 3 was middle-type cultivar (line), and Jingdong 8 was planophile-type cultivar (line). The classification of wheat type was according to the method of Pepper et al . 33 . In brief, LOV \u2265 60\u00b0 was an erectophile type, 30\u00b0 < LOV < 60\u00b0 was a middle type, and LOV \u2264 30\u00b0 indicates a planophile type. The soil was loam textured. The nutrient content in 0\u201330 cm soil layer included organic matter 1.73\u20132.08%, ammonium nitrogen 10.4\u201312.8 mg\u00b7kg \u22121 , nitrate nitrogen 15.82\u201317.76 mg\u00b7kg \u22121 , available phosphorus 16.4\u201318.3 mg\u00b7kg \u22121 , and available potassium 215\u2013220 mg\u00b7kg \u22121 . The area for each plot was 8 m \u00d7 8 m, with three replications. The planting density was the same as in the production field (Table 3 ). Training data consisted of 60 samples from 2016 and 2017, and test data comprised 30 samples from 2018. Figure 6 Full size image Experimental field location. Table 3 Plant type and basic seedlings. Full size table Test items and test methods Determination of spectral reflectance The FieldSpec4 spectrometer from ASD (United States) was used to determine the spectral reflectance, with a viewing angle of 25\u00b0 in the wavelength range of 350\u20132500 nm. There were 2,151 output bands after resampling. The measurements were performed on sunny cloudless and light breezy days. Starting from about 90 DAS, the spectral reflectance of plants in the representative plots was determined about every ten days, which were about Day 90, 100, 110, 120, 130, 140, 150, 160, 170 and 180 (In case of bad weather, the specific time could be determined according to the weather conditions.), between GMT 10:30\u201314:00. During the measurement, the probe was placed vertically downward at 60 cm from the top of the wheat canopy. For each plot, it was measured 20 times with uniformly changed positions within 1 m 2 . The average value was taken as the spectral reflectance of that plot. The reference correction was immediately conducted before and after the measurement for each plot. The following equation was used to calculate NDVI: $$NDVI=\\frac{{R}_{NIR}-{R}_{red}}{{R}_{NIR}+{R}_{red}}$$ (5) where R NIR and R red are the average reflectance in the near infrared wavelength (760\u2013900 nm) and the red-light wavelength (630\u2013690 nm), respectively. Determination of canopy structure parameters k: The measurements were conducted on cloudy or overcast days. The handles with fisheye lenses were mounted in the center of each row and each column respectively, approximately 1 cm above the ground surface and leveled. The images were taken when there were no external interferences such as nobody was shown on the computer display. After computer image digitization processing and analysis with special software (CI-110), k values could be obtained. LOV: One representative plant from each plot was selected. The length of the leaf (L, cm), the distance from leaf base to the flagging point of the measured leaf (h, cm), and the angle between the leaf and the stem ( a , \u00b0) were measured with rulers and protractors, respectively. The LOV was calculated according to the following equation: $$LOV=\\mathop{\\sum }\\limits_{i=1}^{n}[(90^\\circ -a){(h/L)}_{i}/n]$$ (6) where a is the angle between the leaf and the stem, h is distance from leaf base to the flagging point of the leaf, L is the leaf length, and n is the number of measured leaves. Light intensity (I): I was measured above the canopy and above the base using a LI-191SA radiation sensor for the sampling point, respectively. LAI: The dry weight method was adopted, that was, after the areas of "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Experimental design",
+      "text": "The experiments were conducted in No. 1 experimental field of Agricultural College of Yangzhou University from 2016 to 2017 (119\u00b023\u203226\u2033E, 32\u00b023\u203253\u2033N), and in the experimental farming of Yangzhou university in 2018 (119\u00b026\u203222\u2033E, 32\u00b025\u203234\u2033N) as shown in Fig. 6 . A total of three representative wheat cultivars (lines) were selected including Yumai 41 , Zhengfeng 3 and Jingdong 8 . Among them, Yumai 41 was erectophile-type cultivar (line), Zhengfeng 3 was middle-type cultivar (line), and Jingdong 8 was planophile-type cultivar (line). The classification of wheat type was according to the method of Pepper et al . 33 . In brief, LOV \u2265 60\u00b0 was an erectophile type, 30\u00b0 < LOV < 60\u00b0 was a middle type, and LOV \u2264 30\u00b0 indicates a planophile type. The soil was loam textured. The nutrient content in 0\u201330 cm soil layer included organic matter 1.73\u20132.08%, ammonium nitrogen 10.4\u201312.8 mg\u00b7kg \u22121 , nitrate nitrogen 15.82\u201317.76 mg\u00b7kg \u22121 , available phosphorus 16.4\u201318.3 mg\u00b7kg \u22121 , and available potassium 215\u2013220 mg\u00b7kg \u22121 . The area for each plot was 8 m \u00d7 8 m, with three replications. The planting density was the same as in the production field (Table 3 ). Training data consisted of 60 samples from 2016 and 2017, and test data comprised 30 samples from 2018. Figure 6 Full size image Experimental field location. Table 3 Plant type and basic seedlings. Full size table"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Test items and test methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 4,
+      "heading": "Determination of spectral reflectance",
+      "text": "The FieldSpec4 spectrometer from ASD (United States) was used to determine the spectral reflectance, with a viewing angle of 25\u00b0 in the wavelength range of 350\u20132500 nm. There were 2,151 output bands after resampling. The measurements were performed on sunny cloudless and light breezy days. Starting from about 90 DAS, the spectral reflectance of plants in the representative plots was determined about every ten days, which were about Day 90, 100, 110, 120, 130, 140, 150, 160, 170 and 180 (In case of bad weather, the specific time could be determined according to the weather conditions.), between GMT 10:30\u201314:00. During the measurement, the probe was placed vertically downward at 60 cm from the top of the wheat canopy. For each plot, it was measured 20 times with uniformly changed positions within 1 m 2 . The average value was taken as the spectral reflectance of that plot. The reference correction was immediately conducted before and after the measurement for each plot. The following equation was used to calculate NDVI: $$NDVI=\\frac{{R}_{NIR}-{R}_{red}}{{R}_{NIR}+{R}_{red}}$$ (5) where R NIR and R red are the average reflectance in the near infrared wavelength (760\u2013900 nm) and the red-light wavelength (630\u2013690 nm), respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 4,
+      "heading": "Determination of canopy structure parameters",
+      "text": "k: The measurements were conducted on cloudy or overcast days. The handles with fisheye lenses were mounted in the center of each row and each column respectively, approximately 1 cm above the ground surface and leveled. The images were taken when there were no external interferences such as nobody was shown on the computer display. After computer image digitization processing and analysis with special software (CI-110), k values could be obtained. LOV: One representative plant from each plot was selected. The length of the leaf (L, cm), the distance from leaf base to the flagging point of the measured leaf (h, cm), and the angle between the leaf and the stem ( a , \u00b0) were measured with rulers and protractors, respectively. The LOV was calculated according to the following equation: $$LOV=\\mathop{\\sum }\\limits_{i=1}^{n}[(90^\\circ -a){(h/L)}_{i}/n]$$ (6) where a is the angle between the leaf and the stem, h is distance from leaf base to the flagging point of the leaf, L is the leaf length, and n is the number of measured leaves. Light intensity (I): I was measured above the canopy and above the base using a LI-191SA radiation sensor for the sampling point, respectively. LAI: The dry weight method was adopted, that was, after the areas of 5\u201310 leaves from the same treatment were measured, and the remaining dry weight of the leaves was measured. The average specific leaf weight was calculated, and then the leaf area of the sample was calculated, and then corrected by a CI-203 laser leaf area meter. Beer-Lambert law: $$I={I}_{0}\\times {e}^{-KF}$$ (7) Equation ( 7 ) was transformed to: $$F=-ln(\\frac{I}{{I}_{0}})\\times \\frac{1}{K}$$ (8) where F was the LAI, I 0 and I are the light intensities above the canopy and above the base, respectively, k is the canopy extinction coefficient, and I/I 0 is the light transmittance."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 4,
+      "heading": "Model establishment and validation",
+      "text": "The light distribution parameters and NDVI data were input into the computer. The variance and correlation analysis were performed with SAS 6.10 statistical software. Further, the root mean square error (RMSE) and relative error (RE) calculated by the following equation were used to validate the model. Higher the value of R 2 , lower would be RMSE and RE values and higher would be the accuracy of quantitatively monitoring LAI with the NDVI-based model. Equations ( 9 ) and ( 10 ) were used to calculate RMSE and RE, respectively: $$RMSE=\\sqrt{\\frac{1}{n}\\mathop{\\sum }\\limits_{i=1}^{n}{({y}_{i}-{\\hat{y}}_{i})}^{2}}$$ (9) $${\\rm{RE}}=({y}_{i}-{\\hat{y}}_{i}){/{\\rm{y}}}_{{\\rm{i}}}\\times 100$$ (10) where \\({{\\rm{y}}}_{{\\rm{i}}}\\) and \\({\\hat{{\\rm{y}}}}_{{\\rm{i}}}\\) represent measured and predicted LAI, respectively, and n is the number of samples."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "References",
+      "text": "Tan, C. et al . Analysis of different hyperspectral variables for diagnosing leaf nitrogen accumulation in wheat. Front. Plant Sci. 9 , 674\u2013685 (2018). Article Google Scholar Tan, C. et al . Remotely assessing fraction of photosynthetically active radiation (FPAR) for wheat canopies based on hyperspectral vegetation indexes. Front. Plant Sci. 9 , 776\u2013785 (2018). Article Google Scholar Jiao, Q., Zhang, B., Liu, J. & Liu, L. A novel two-step method for winter wheat-leaf chlorophyll content estimation using a hyperspectral vegetation index. Int. J. Remote Sens. 35 , 7363\u20137375 (2014). Article ADS Google Scholar Pinter, P. & Moran, M. S. Remote sensing of soils and vegetation in the USSR. Remote Sens. Environ. 49 , 167\u2013168 (1994). Article ADS Google Scholar Daughtry, C. et al . Remote sensing of crop residue cover and soil tillage intensity. Soil Tillage Res. 91 , 101\u2013108 (2006). Article Google Scholar Lobell, D. B., Ortiz-Monasterio, I., Gurrola, F. C. & Lorenzo, V. Identification of saline soils with multiyear remote sensing of crop yields. Soil Sci. Soc. Am. J. 71 , 777\u2013783 (2007). Article ADS CAS Google Scholar Curran, P. J., Dungan, J. L., Macler, B. A., Plummer, S. E. & Peterson, D. L. Reflectance spectroscopy of fresh whole leaves for the estimation of chemical concentration. Remote Sens. Environ. 39 , 153\u2013166 (1992). Article ADS Google Scholar Frederic, B. & Fourty, T. On spectral estimates of fresh leaf biochemistry. Int. J. Remote Sens. 19 , 1283\u20131297 (1998). Article Google Scholar Ebbersa, M. J. H., Wallisa, I. R., Dury, S., Floydc, R. & Foley, W. J. Spectrometric prediction of secondary metabolites and nitrogen in fresh Eucalyptus foliage: Towards remote sensing of the nutritional quality of foliage for leaf-eating marsupials. Aust. J. Bot. 50 , 761\u2013768 (2002). Article Google Scholar Kuenzer, C. & Knauer, K. Remote sensing of rice crop areas. Int. J. Remote Sens. 34 , 2101\u20132139 (2013). Article ADS Google Scholar Trout, T. J., Johnson, L. F. & Gartung, J. Remote sensing of canopy cover in horticultural crops. Hortscience. 43 , 333\u2013337 (2008). Article Google Scholar Ayala, T. & Beyl, C. A. Changes in spectral reflectance of wheat leaves in response to specific macronutrient deficiency. Adv. Space Res. 35 , 305\u2013317 (2005). Article ADS Google Scholar Zhao, C. et al . Predicting grain protein content of winter wheat using remote sensing data based on nitrogen status and water stress. Int. J. Appl. Earth Obs. 7 , 1\u20139 (2005). Article Google Scholar Tanaka, K. & Hashimoto, S. Plant canopy effects on soil thermal and hydrological properties and soil respiration. Ecol. Model. 196 , 32\u201344 (2006). Article Google Scholar Asner, G. P. Biophysical and biochemical sources of variability in canopy reflectance. Remote Sens. Environ. 64 , 234\u2013253 (1998). Article ADS Google Scholar Wang, W. M., Li, Z. L. & Su, H. B. Comparison of leaf angle distribution functions: Effects on extinction coefficient and fraction of sunlit foliage. Agric. For. Meteorol. 143 , 106\u2013122 (2007). Article ADS Google Scholar Lang, A. R. G., Xiang, Y. & Norman, J. M. Crop structure and the penetration of direct sunlight. Agric. For. Meteorol. 35 , 83\u2013101 (1985). Article ADS Google Scholar Monsi, M. & Saeki, T. On the factor light in plant communities and its importance for matter production. Ann. Bot. 95 , 549\u2013567 (2004). Article Google Scholar Saitoh, T. M., Nagai, S., Noda, H. M. & Muraoka, H. Examination of the extinction coefficient in the Beer\u2013Lambert law for an accurate estimation of the forest canopy leaf area index. Forest Sci. Tech. 8 , 67\u201376 (2012). Article Google Scholar Hirata, R. et al . Seasonal and interannual variations in carbon dioxide exchange of a temperate larch forest. Agric. For. Meteorol. 147 , 110\u2013124 (2007). Article ADS Google Scholar Saigusa, N., Yamamoto, S., Murayama, S. & Kondo, H. Inter-annual variability of carbon budget components in an AsiaFlux forest site estimated by long-term flux measurements. Agric. For. Meteorol. 134 , 4\u201316 (20"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "Acknowledgements",
+      "text": "This work was financially supported in part by the National Key Research and Development Program of China (2018YFD0300800), the National Natural Science Foundation of China (41271415, 31771711), the Project Funded by China Postdoctoral Science Foundation (2019M650125), the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD) and Top-notch academic programs project of Jiangsu higher education institutions (PPZY2015A060). Authors were thankful to the anonymous reviewers and editor for their valuable comments in improving the quality of the manuscript."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Author notes These authors contributed equally: Chang-Wei Tan and Peng-Peng Zhang. Authors and Affiliations Jiangsu Key Laboratory of Crop Genetics and Physiology/Jiangsu Co-Innovation Center for Modern Production Technology of Grain Crops/Joint International Research Laboratory of Agriculture and Agri-Product Safety of the Ministry of Education of China, Yangzhou University, Yangzhou, 225009, China Chang-Wei Tan, Peng-Peng Zhang, Xin-Xing Zhou, Zhi-Xiang Wang, Zi-Qiang Xu, Zhong-Yang Huo & Wen-Shan Guo Station of Land Protection of Yangzhou City, Yangzhou, 225009, China Wei Mao & Wen-Xi Li National Tobacco Cultivation and Physiology and Biochemistry Research Centre/Key Laboratory for Tobacco Cultivation of Tobacco Industry, Henan Agricultural University, Zhengzhou, 450002, China Fei Yun Authors Chang-Wei Tan View author publications Search author on: PubMed Google Scholar Peng-Peng Zhang View author publications Search author on: PubMed Google Scholar Xin-Xing Zhou View author publications Search author on: PubMed Google Scholar Zhi-Xiang Wang View author publications Search author on: PubMed Google Scholar Zi-Qiang Xu View author publications Search author on: PubMed Google Scholar Wei Mao View author publications Search author on: PubMed Google Scholar Wen-Xi Li View author publications Search author on: PubMed Google Scholar Zhong-Yang Huo View author publications Search author on: PubMed Google Scholar Wen-Shan Guo View author publications Search author on: PubMed Google Scholar Fei Yun View author publications Search author on: PubMed Google Scholar Contributions C.W.T., Z.Y.H. and W.S.G. conceived the research. C.W.T. and X.X.Z. designed and performed the experiments. C.W.T., P.P.Z., Z.X.W. and F.Y. prepared and revised the manuscript. Z.Q.X., W.M. and W.X.L. analyzed the data and provided technical. All the authors have reviewed the manuscript and agreed the submission and publication. Corresponding authors Correspondence to Chang-Wei Tan , Zhong-Yang Huo or Fei Yun ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Jiangsu Key Laboratory of Crop Genetics and Physiology/Jiangsu Co-Innovation Center for Modern Production Technology of Grain Crops/Joint International Research Laboratory of Agriculture and Agri-Product Safety of the Ministry of Education of China, Yangzhou University, Yangzhou, 225009, China Chang-Wei Tan, Peng-Peng Zhang, Xin-Xing Zhou, Zhi-Xiang Wang, Zi-Qiang Xu, Zhong-Yang Huo & Wen-Shan Guo Station of Land Protection of Yangzhou City, Yangzhou, 225009, China Wei Mao & Wen-Xi Li National Tobacco Cultivation and Physiology and Biochemistry Research Centre/Key Laboratory for Tobacco Cultivation of Tobacco Industry, Henan Agricultural University, Zhengzhou, 450002, China Fei Yun Authors Chang-Wei Tan View author publications Search author on: PubMed Google Scholar Peng-Peng Zhang View author publications Search author on: PubMed Google Scholar Xin-Xing Zhou View author publications Search author on: PubMed Google Scholar Zhi-Xiang Wang View author publications Search author on: PubMed Google Scholar Zi-Qiang Xu View author publications Search author on: PubMed Google Scholar Wei Mao View author publications Search author on: PubMed Google Scholar Wen-Xi Li View author publications Search author on: PubMed Google Scholar Zhong-Yang Huo View author publications Search author on: PubMed Google Scholar Wen-Shan Guo View author publications Search author on: PubMed Google Scholar Fei Yun View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Contributions",
+      "text": "C.W.T., Z.Y.H. and W.S.G. conceived the research. C.W.T. and X.X.Z. designed and performed the experiments. C.W.T., P.P.Z., Z.X.W. and F.Y. prepared and revised the manuscript. Z.Q.X., W.M. and W.X.L. analyzed the data and provided technical. All the authors have reviewed the manuscript and agreed the submission and publication."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Corresponding authors",
+      "text": "Correspondence to Chang-Wei Tan , Zhong-Yang Huo or Fei Yun ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Competing interests The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Competing interests",
+      "text": "The authors declare no competing interests."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher\u2019s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article\u2019s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ . Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Tan, CW., Zhang, PP., Zhou, XX. et al. Quantitative monitoring of leaf area index in wheat of different plant types by integrating NDVI and Beer-Lambert law. Sci Rep 10 , 929 (2020). https://doi.org/10.1038/s41598-020-57750-z Download citation Received : 08 August 2019 Accepted : 07 January 2020 Published : 22 January 2020 Version of record : 22 January 2020 DOI : https://doi.org/10.1038/s41598-020-57750-z Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Tan, CW., Zhang, PP., Zhou, XX. et al. Quantitative monitoring of leaf area index in wheat of different plant types by integrating NDVI and Beer-Lambert law. Sci Rep 10 , 929 (2020). https://doi.org/10.1038/s41598-020-57750-z Download citation Received : 08 August 2019 Accepted : 07 January 2020 Published : 22 January 2020 Version of record : 22 January 2020 DOI : https://doi.org/10.1038/s41598-020-57750-z Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "This article is cited by",
+      "text": "Structural wheat trait estimation using UAV-based laser scanning data: Analysis of critical aspects and recommendations based on a case study Ansgar Dreier Gina Lopez Lasse Klingbeil Precision Agriculture (2025) Effect of natural and anthropogenic factors on the vegetation distribution in central Loess Plateau, China Tao Li Ting Guan Xue Yi Journal of Mountain Science (2025) Subcanopy light availability, crop yields, and managerial implications: a systematic review of the shaded cropping systems in the tropics B. Mohan Kumar T. K. Kunhamu A. V. Santhoshkumar Agroforestry Systems (2024) Minimizing active canopy sensor differences in nitrogen status diagnosis and in-season nitrogen recommendation for maize with multi-source data fusion and machine learning Xinbing Wang Yuxin Miao Krzysztof Kusnierek Precision Agriculture (2023) Impact of soil types on sugarcane development monitored over time by remote sensing Merilyn Taynara Accorsi Amorim N\u00e9lida E. Q. Silvero Jos\u00e9 A. M. Dematt\u00ea Precision Agriculture (2022)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Structural wheat trait estimation using UAV-based laser scanning data: Analysis of critical aspects and recommendations based on a case study",
+      "text": "Ansgar Dreier Gina Lopez Lasse Klingbeil Precision Agriculture (2025)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Effect of natural and anthropogenic factors on the vegetation distribution in central Loess Plateau, China",
+      "text": "Tao Li Ting Guan Xue Yi Journal of Mountain Science (2025)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Subcanopy light availability, crop yields, and managerial implications: a systematic review of the shaded cropping systems in the tropics",
+      "text": "B. Mohan Kumar T. K. Kunhamu A. V. Santhoshkumar Agroforestry Systems (2024)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Minimizing active canopy sensor differences in nitrogen status diagnosis and in-season nitrogen recommendation for maize with multi-source data fusion and machine learning",
+      "text": "Xinbing Wang Yuxin Miao Krzysztof Kusnierek Precision Agriculture (2023)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Impact of soil types on sugarcane development monitored over time by remote sensing",
+      "text": "Merilyn Taynara Accorsi Amorim N\u00e9lida E. Q. Silvero Jos\u00e9 A. M. Dematt\u00ea Precision Agriculture (2022)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "Search",
+      "text": "Advanced search"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "Quick links",
+      "text": "Explore articles by subject Find a job Guide to authors Editorial policies"
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Normalized difference vegetation index (NDVI) is one of the most important vegetation indices in crop remote sensing. It features a simple, fast, and non-destructive method and has been widely used in remote monitoring of crop growing status. Beer-Lambert law is widely used in calculating crop leaf area index (LAI), however, it is time-consuming detection and low in output. Our objective was to improve the accuracy of monitoring LAI through remote sensing by integrating NDVI and Beer-Lambert law. In this study, the Beer-Lambert law was firstly modified to construct a monitoring model with NDVI as the independent variable. Secondly, experimental data of wheat from different years and various plant types (erectophile, planophile and middle types) was used to validate the modified model. The results showed that at 130 DAS (days after sowing), the differences in NDVI, leaf area index (LAI) and extinction coefficient (k) of the three plant types with significantly different leaf orientation values (LOVs) reached the maximum. The NDVI of the planophile-type wheat reached saturation earlier than that of the middle and erectophile types. The undetermined parameters of the model (LAI = \u2212ln (a 1 \u00d7 NDVI + b 1 )/(a 2 \u00d7 NDVI + b 2 )) were related to the plant type of wheat. For the erectophile-type cultivars (LOV \u2265 60\u00b0), the parameters for the modified model were, a 1 = 0.306, a 2 = \u22120.534, b 1 = \u22120.065, and b 2 = 0.541. For the middle-type cultivars (30\u00b0 < LOV < 60\u00b0), the parameters were, a 1 = 0.392, a 2 = \u22120.88 1 , b 1 = 0.028, and b 2 = 0.845. And for the planophile-type cultivars (LOV \u2264 30\u00b0), those parameters were, a 1 = 0.596, a 2 = \u22121.306, b 1 = 0.014, and b 2 = 1.130. Verification proved that the modified model based on integrating NDVI and Beer-Lambert law was better than Beer-Lambert law model only or NDVI-LAI direct model only. It was feasible to quantitatively monitor the LAI of different plant-type wheat by integrating NDVI and Beer-Lambert law, especially for erectophile-type wheat (R 2 = 0.905, RMSE = 0.36, RE = 0.10). The monitoring model proposed in this study can accurately reflect the dynamic changes of plant canopy structure parameters, and provides a novel method for determining plant LAI.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "The leaf area index (LAI), the leaf orientation value (LOV), and the extinction coefficient (k) are important structural parameters of crop populations. By affecting light distribution, they directly affect crop photosynthetic efficiency, and ultimately show an impact on crop biological yield and its distribution in various plant organs 1 .",
+      "char_offset": 2238
+    },
+    {
+      "type": "paragraph",
+      "text": "Remote sensing technology could provide a practical method for crop LAI estimation, rather than a slow, expensive and complicated chemical method. The advantage of the remote-sensing method is that it can obtain plant canopy information on a large scale without disrupting the normal growth of plants 2 , 3 . Studies using remote sensing to monitor agronomic parameters have been extended from crop soils 4 , 5 , 6 , to fresh leaves 7 , 8 , 9 and entire crop layers 10 , 11 . Previous studies have shown that a macronutrient (Nitrogen, Phosphorus, Potassium, Calcium and Magnesium) deficiency in wheat lowers chlorophyll concentrations, increases reflectivity in the visible range, and causes the red edges to shift towards the shorter or longer wavelengths 12 . Several studies have estimated water content, nitrogen and grain protein content using spectral data 13 . However, many factors are needed to be considered to study the reflectivity of crop canopy. These include the complexity of canopy characteristics, changes in leaf internal structure and soil background effects 14 , 15 . The complexity of canopy structure have played a decisive role in solar radiation interception, absorption and scattering. The results have shown that canopy structure mainly depends on leaf distribution and area. Leaf angular distribution is one of the key parameters to simulate the radiative transfer of vegetative canopy and the balance of energy and mass 16 . Traditionally, the concept of LAI have been used in agriculture and ecology to measure the development and yield of crops, to compare among them and to schedule irrigation and amendments during the crop development 17 . While exploring k, variability in k values is not related to fraction of light intercepted, time of day, or incident solar radiation.",
+      "char_offset": 2582
+    },
+    {
+      "type": "paragraph",
+      "text": "The LOV is an index indicating the degree of leaf blades point upward or downward. The bigger the LOV, the closer the leaf blades pointing upward to vertical, and the plant is erectophile. The smaller the LOV, the deeper the blades pointing downward, and the plant is flat. Regarding the study of light distribution in crop populations, Monsi and Saeki has expanded the Beer-Lambert law into plant populations and proposed the exponential relationship of light distribution in plant populations 18 : F = \u2212ln(I/I 0 )/k, where F is the LAI, I 0 and I represents the light intensity above and below the canopy respectively, and k is the extinction coefficient. Direct measurements and long-term monitoring of LAI are difficult, especially in crops and forests, but indirect methods are suitable for long-term continuous monitoring 19 . In many researches, the extinction coefficient is usually expressed as a single factor function of solar elevation Angle or leaf area index. To simplify calculations, many studies have monitored LAI with a constant k over the growing period 20 , 21 . Subsequently, numerous scholars have carried out various researches and discussions on this law. Some scholars use the Beer-Lambert extinction law to estimate the extinction coefficient from solar elevation to reveal the expected LAI dynamics 22 . Although the geometric distribution of leaf area has a potential impact on a plant\u2019s ability to intercept light, but the previous equation do not contain any term to account for it. Some research has shown that the contribution of plant structure complexity to the law is evaluated by quantifying the geometric distribution of leaf area by the fractal dimension of leafless plant structure 23 .",
+      "char_offset": 4392
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the above achievements have boosted the physiological research of crop cultivation, the acquisition of morphological parameters is time-consuming, labor-intensive and destructive, so it is difficult to use in guiding cultivation practice. In recent years, spectral vegetation indices (such as normalized difference vegetation index (NDVI)) have been widely used to evaluate the fractional vegetation cover qualitatively and quantitatively and monitor crop growth. The NDVI is well correlated with LAI and is more sensitive to changes in the crop canopy when the LAI is low (during the early stage), with the signal becoming saturated when the crop canopy closes 24 , 25 . Through NDVI from spectroradiometer and its slope curves to monitor rice development, the results demonstrate that they could be used as cultivar-independent phenological indicators 26 . However, using NDVI to conduct research on light distribution in crop populations is still barely reported.",
+      "char_offset": 6120
+    },
+    {
+      "type": "paragraph",
+      "text": "The objectives of this study were to develop a more accurate LAI monitoring model, and to identify the feasibility of monitoring wheat LAI by integrating remote sensing variables and Beer-Lambert law. Our study provided a basis for fast and non-destructive identification of light distribution characteristics of wheat with different plant-type using the hyperspectral remote sensing technology.",
+      "char_offset": 7097
+    },
+    {
+      "type": "paragraph",
+      "text": "The changes in NDVI, LAI and k of different plant-types throughout the growth stages has been presented in Fig. 1 . The LOVs calculated from the corresponding measured canopy structure data were 78.8\u00b0, 48.6\u00b0, and 25.4\u00b0, for erectophile, middle and planophile types, respectively.",
+      "char_offset": 7494
+    },
+    {
+      "type": "paragraph",
+      "text": "Dynamic curve of NDVI, LAI and k. E: Erectophile-type, M: Middle-type, F: Planophile-type (the same as below).",
+      "char_offset": 7775
+    },
+    {
+      "type": "paragraph",
+      "text": "As shown in Fig. 1A , the LAI exhibited single peak curves along the growth process. From about 90 to 120 DAS (days after sowing), LAI values were increasing, without significant differences among the three wheat cultivars. From 120 to 130 DAS, the LAI kept increasing as the plants grew vigorously, and each cultivar clearly demonstrated its own plant type related characteristics. With the increase of LOV value, the more compact the plant, the higher the production density and LAI. Hence, the LAI differences among the three cultivars increased, reaching the maximum at 130 DAS. Then the LAI differences gradually decreased. Presumably, the rate of photosynthesis reduces at this stage due to senescence and withering of lower layer leaves. These resulted in smaller LAI, hence smaller differences.",
+      "char_offset": 7887
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 1B demonstrates the first increased and then decreased single peak changes of NDVI of three cultivars and their NDVI differences, along with the changes of LAI. From about 90 to 120 DAS, along with the increase of plant height, the number of leaves, and the single leaf area, the LAI increased accordingly. Then the absorbed red light increased, resulting in lowered intensity of the red-light reflectance, and increased NDVI values. Generally, it was thought that the NDVI value was primary affected by leaf pigment and LAI. Nevertheless, the NDVI values differed only slightly at this stage. The primarily reason was that the plants were still short then, the plant type related characteristics hadn\u2019t been fully exhibited yet. Between 120\u2013130 DAS, the changes in NDVI values of the three cultivars gradually increased, reaching a maximum at 130 DAS. The NDVI values and their differences gradually decreased afterwards and became very weak after 160 DAS, presumably due to the differences in LAI generated by the planting density. This was consistent with the conclusion reached by Suryanarayana et al . on the wheat NDVI value study 26 . In addition, the NDVI value increased with the increase of LOV from plant types of planophile to erectophile. The NDVI value reached saturation at around 110 DAS for the planophile type, followed by the middle type at 120 DAS, and finally the erectophile type at 130 DAS. Therefore, it indicated that the saturation of NDVI was related to the plant type, earliest for the planophile type, then the middle type, and latest for the erectophile type. Compared to the middle and erectophile types, the planophile-type leaves spread earlier and faster, and the coverage was higher in the early stage, which greatly affected the reflection spectrum.",
+      "char_offset": 8691
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Beer-Lambert law, when LAI was a constant, the bigger the k value, the smaller the light energy ratio (I/I 0 ) through the canopy. While holding I/I 0 constant, the LAI was inversely proportional to the k value, and k reflects the degree of light reduction within the canopy, which could be taken as the amount of light interception per unit leaf area. Besides LAI, k was also related to the angle between the blade and the horizontal plane. As shown in Fig. 1C , the smaller the LOV value, the larger the k value. The k value demonstrated a concave curve along with the growth process, first decreasing and then increasing. From about 90 to 120 DAS, the LAI values were increasing, the leaf photosynthetic capacities were rising, leading to the k values reduced at varying degrees. Nevertheless, the differences in k values of the three plant types were small, when reaching maximum at 130 DAS, with the lowest k value for the planophile type. Later, the k values increased to various extents. In addition, it was also found that along with the growth, change of k value in the same variety was greater than that between varieties of different plant types. The plausible explanation was that along with the growth process, the number of leaves increased, the area of single leaves increased, and the planting density of various plant types varied.",
+      "char_offset": 10485
+    },
+    {
+      "type": "paragraph",
+      "text": "As shown in Fig. 2 , the correlations between NDVI and LAI were extremely significant for three plant types, with coefficients of determination (R 2 ) values of erectophile, middle and planophile types being 0.785, 0.774 and 0.759, respectively. To monitor wheat LAI directly, NDVI was selected as an independent variable, LAI as a dependent variable, and the NDVI-LAI direct models of erectophile, middle and planophile types were constructed respectively (Fig. 2 ). Furthermore, it was observed that the NDVI can be used to in directly monitor erectophile-type, middle-type and planophile-type wheat LAI.",
+      "char_offset": 11848
+    },
+    {
+      "type": "paragraph",
+      "text": "NDVI-LAI direct models under various plant types.",
+      "char_offset": 12456
+    },
+    {
+      "type": "paragraph",
+      "text": "To more accurately monitor the LAI change in wheat with combined remote sensing technology and Beer-Lambert law, the wheat NDVI of various plant types at 130 DAS were subjected to statistical correlation analysis with I/I 0 (Fig. 3 ) and k values (Fig. 4 ), respectively. The results demonstrated that the correlation of NDVI with k, and with I/I 0 for the three plant types was extremely significant, with R 2 of both above 0.87. Regarding the linear correlation between I/I 0 and NDVI, the erectophile type showed the strongest correlation (R 2 = 0.906, P < 0.01), followed by the middle type (R 2 = 0.883, P < 0.01), and the planophile type (R 2 = 0.875, P < 0.01). With respect to the linear correlation between k and NDVI, it was similar to the abovementioned trend, that is, the erectophile type had the highest correlation (R 2 = 0.914, P < 0.01), followed by the middle type (R 2 = 0.890, P < 0.01), and planophile type (R 2 = 0.876, P < 0.01). Considering all three plant types, NDVI was linearly correlated with I/I 0 and k. While the correlation was different for different LOVs, that is, various plant types. Therefore, the regression model of I/I 0 and k using NDVI as the independent variable for the three plant types was established respectively as:",
+      "char_offset": 12507
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationships between I/I 0 and NDVI under various plant types (T represented I/I 0 ).",
+      "char_offset": 13774
+    },
+    {
+      "type": "paragraph",
+      "text": "Relationships between k and NDVI under various plant types.",
+      "char_offset": 13862
+    },
+    {
+      "type": "paragraph",
+      "text": "When substitute the Eq. ( 3 ) with Eqs. ( 1 ) and ( 2 ) the Beer-Lambert law could be transformed into:",
+      "char_offset": 13923
+    },
+    {
+      "type": "paragraph",
+      "text": "where a 1 , a 2 , b 1 , and b 2 are the undetermined parameters.",
+      "char_offset": 14028
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the results of Figs. 3 and 4 , the undetermined parameters (a 1 , a 2 , b 1 , and b 2 ) in Eq. ( 4 ) are calculated and listed in Table 1 .",
+      "char_offset": 14094
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to test the reliability of the model, the measurement data of 2018, which was an experiment repeat of 2017, was used in the validation. The experiment field was divided into three sections (the erectophile type LOV \u2265 60\u00b0, the middle type 30\u00b0 < LOV < 60\u00b0 and the planophile type LOV \u2264 30\u00b0). The measured LAI and the calculated NDVI based on ground hyperspectral data were used to validate Eq. ( 4 ) for the three LOV ranges, and the values were also compared to the corresponding prediction values from Eq. ( 3 ) and the NDVI-LAI direct models, as shown in Fig. 5 . The measured LOV values were basically in [20\u00b0, 30\u00b0], [40\u00b0, 50\u00b0] and [70\u00b0, 80\u00b0] for the planophile, middle and erectophile types, respectively. Based on the analysis from Table 2 , it was shown that the measured and the simulated LAI values were significantly correlated for the three models, with all the R 2 above 0.80. R 2 of Eqs. ( 4 ) and ( 3 ) were obviously higher than R 2 of the NDVI-LAI direct models, and their root mean square error (RMSE) and relative error (RE) were obviously lower than RMSE and RE of the NDVI-LAI direct models, which indicated that the Eqs. ( 4 ) and ( 3 ) were more suitable for quantitatively monitoring wheat LAI than the NDVI-LAI direct models. Else, when LOV \u2264 30\u00b0, the prediction results of Eqs. ( 4 ) and ( 3 ) were close, and the prediction of Eq. ( 4 ) was valid. When LOV \u2265 60\u00b0, the determination coefficient (R 2 = 0.905, P < 0.01) obtained from Eq. ( 4 ) was the biggest regarding the erectophile type, with a relatively small RMSE and RE of 0.36 and 0.1, respectively. Therefore, it was indicated that it is possible to predict the dynamic changes of wheat canopy structure using the Beer-Lambert law with NDVI obtained by hyperspectral technique, and it was highly accurate.",
+      "char_offset": 14248
+    },
+    {
+      "type": "paragraph",
+      "text": "Evaluating the monitoring models of erectophile-type (A 1 , B 1 , C 1 ), middle-type (A 2 , B 2 , C 2 ) and planophile-type (A 3 , B 3 , C 3 ) wheat LAI. A 1 , A 2 , A 3 represented LAI deduced by Eq. ( 4 ), respectively. B 1 , B 2 , B 3 represented LAI deduced by Eq. ( 3 ), respectively. C 1 , C 2 , C 3 represented LAI deduced by the NDVI-LAI direct model, respectively.",
+      "char_offset": 16046
+    },
+    {
+      "type": "paragraph",
+      "text": "LOV was one of the important parameters to simulate canopy radiation transfer and mass balance. The quantitative study of Beer-Lambert law was carried out by remote sensing and measured canopy structure parameters of wheat cultivars with different LOVs. Previous work has suggested that LOV could be measured to check effectiveness of visual ratings of leaf orientation 27 . This paper analyzes the potential of NDVI to quantitatively modify the Beer-Lambert law to quantify wheat leaf area index. The results of this study were tested with data from a different year to obtain the modified equation of Beer-Lambert law using spectral remote sensing technology in different LOV ranges.",
+      "char_offset": 16421
+    },
+    {
+      "type": "paragraph",
+      "text": "NDVI is one of the most important vegetation indices in vegetation remote sensing 24 , 26 . It has a close relationship with plant parameters such as crop LAI 28 . It had been widely used in remote sensing monitoring of crop growth 29 . This is the basis for selecting NDVI to monitor different plant-type wheat LAI by integrating Beer-Lambert law in this study. The NDVI-LAI direct model for quantitatively monitoring wheat LAI is simple and feasible, but its accuracy was significantly lower than that of Eqs. ( 4 ) and ( 3 ). So far, there are a few studies on quantitatively monitoring of different plant-type wheat LAI by integrating NDVI and Beer-Lambert law 30 . Therefore, the quantitative monitoring of different plant-type wheat LAI by integrating NDVI and Beer-Lambert law had good application and innovation.",
+      "char_offset": 17108
+    },
+    {
+      "type": "paragraph",
+      "text": "Structure of crops has a certain influence on the directional reflectivity of canopy 31 . Some researches put forward the remote monitoring model based on vegetation index, realizing the identification of various plant types 32 . In this study, the larger the LOV, the more erectophile the plant type, the stronger the monitoring ability of the above model (Eq. ( 4 )) to the wheat LAI. In recent years, as the wheat breeding favored the erectophile-type cultivars, the results of this study were valuable in actual wheat production.",
+      "char_offset": 17930
+    },
+    {
+      "type": "paragraph",
+      "text": "The present paper has only studied the light intensity above the canopy and above the base, without exploring the vertical distribution of structural parameters along various layers of the canopy. This is a limitation of the study. Moreover, spectral or image information from most optical sensors is obtained in the direction of the vertical canopy of the plant 32 . It could be predicted that in the near future, there would be more sensors to meet the requirements of different parameters, Therefore, whether the modified Beer-Lambert law is applicable to the vertical distribution of studied structural parameters along various layers of the canopy needs to be verified. In this study, only one variety was selected for each plant type. The wheat varieties with different growth period were not selected as test subjects, and the climatic conditions in the test area were not much different. Whether it can be used as a general model, more varieties of verification are needed. This study provided a potential tool for quantitatively monitoring different plant-type wheat LAI and a basis for quantitative remote monitoring of crops.",
+      "char_offset": 18465
+    },
+    {
+      "type": "paragraph",
+      "text": "It was feasible to monitor different plant-type wheat LAI by integrating NDVI and Beer-Lambert law, and with a better accuracy. It showed a distinctive advantage of fast, simple, and destruction-free features compared to the original Beer-Lambert law, and had a higher capability for quantitatively monitoring wheat LAI than the NDVI-LAI direct model. In addition, it was found that the more erectophile the plant type, the stronger the monitoring ability of the method by integrating NDVI and Beer-Lambert law. The results were valuable in the practice for breeding and cultivation.",
+      "char_offset": 19603
+    },
+    {
+      "type": "paragraph",
+      "text": "The experiments were conducted in No. 1 experimental field of Agricultural College of Yangzhou University from 2016 to 2017 (119\u00b023\u203226\u2033E, 32\u00b023\u203253\u2033N), and in the experimental farming of Yangzhou university in 2018 (119\u00b026\u203222\u2033E, 32\u00b025\u203234\u2033N) as shown in Fig. 6 . A total of three representative wheat cultivars (lines) were selected including Yumai 41 , Zhengfeng 3 and Jingdong 8 . Among them, Yumai 41 was erectophile-type cultivar (line), Zhengfeng 3 was middle-type cultivar (line), and Jingdong 8 was planophile-type cultivar (line). The classification of wheat type was according to the method of Pepper et al . 33 . In brief, LOV \u2265 60\u00b0 was an erectophile type, 30\u00b0 < LOV < 60\u00b0 was a middle type, and LOV \u2264 30\u00b0 indicates a planophile type. The soil was loam textured. The nutrient content in 0\u201330 cm soil layer included organic matter 1.73\u20132.08%, ammonium nitrogen 10.4\u201312.8 mg\u00b7kg \u22121 , nitrate nitrogen 15.82\u201317.76 mg\u00b7kg \u22121 , available phosphorus 16.4\u201318.3 mg\u00b7kg \u22121 , and available potassium 215\u2013220 mg\u00b7kg \u22121 . The area for each plot was 8 m \u00d7 8 m, with three replications. The planting density was the same as in the production field (Table 3 ). Training data consisted of 60 samples from 2016 and 2017, and test data comprised 30 samples from 2018.",
+      "char_offset": 20188
+    },
+    {
+      "type": "paragraph",
+      "text": "The FieldSpec4 spectrometer from ASD (United States) was used to determine the spectral reflectance, with a viewing angle of 25\u00b0 in the wavelength range of 350\u20132500 nm. There were 2,151 output bands after resampling. The measurements were performed on sunny cloudless and light breezy days. Starting from about 90 DAS, the spectral reflectance of plants in the representative plots was determined about every ten days, which were about Day 90, 100, 110, 120, 130, 140, 150, 160, 170 and 180 (In case of bad weather, the specific time could be determined according to the weather conditions.), between GMT 10:30\u201314:00. During the measurement, the probe was placed vertically downward at 60 cm from the top of the wheat canopy. For each plot, it was measured 20 times with uniformly changed positions within 1 m 2 . The average value was taken as the spectral reflectance of that plot. The reference correction was immediately conducted before and after the measurement for each plot. The following equation was used to calculate NDVI:",
+      "char_offset": 21444
+    },
+    {
+      "type": "paragraph",
+      "text": "where R NIR and R red are the average reflectance in the near infrared wavelength (760\u2013900 nm) and the red-light wavelength (630\u2013690 nm), respectively.",
+      "char_offset": 22479
+    },
+    {
+      "type": "paragraph",
+      "text": "k: The measurements were conducted on cloudy or overcast days. The handles with fisheye lenses were mounted in the center of each row and each column respectively, approximately 1 cm above the ground surface and leveled. The images were taken when there were no external interferences such as nobody was shown on the computer display. After computer image digitization processing and analysis with special software (CI-110), k values could be obtained.",
+      "char_offset": 22632
+    },
+    {
+      "type": "paragraph",
+      "text": "LOV: One representative plant from each plot was selected. The length of the leaf (L, cm), the distance from leaf base to the flagging point of the measured leaf (h, cm), and the angle between the leaf and the stem ( a , \u00b0) were measured with rulers and protractors, respectively. The LOV was calculated according to the following equation:",
+      "char_offset": 23086
+    },
+    {
+      "type": "paragraph",
+      "text": "where a is the angle between the leaf and the stem, h is distance from leaf base to the flagging point of the leaf, L is the leaf length, and n is the number of measured leaves.",
+      "char_offset": 23428
+    },
+    {
+      "type": "paragraph",
+      "text": "Light intensity (I): I was measured above the canopy and above the base using a LI-191SA radiation sensor for the sampling point, respectively.",
+      "char_offset": 23607
+    },
+    {
+      "type": "paragraph",
+      "text": "LAI: The dry weight method was adopted, that was, after the areas of 5\u201310 leaves from the same treatment were measured, and the remaining dry weight of the leaves was measured. The average specific leaf weight was calculated, and then the leaf area of the sample was calculated, and then corrected by a CI-203 laser leaf area meter.",
+      "char_offset": 23752
+    },
+    {
+      "type": "paragraph",
+      "text": "where F was the LAI, I 0 and I are the light intensities above the canopy and above the base, respectively, k is the canopy extinction coefficient, and I/I 0 is the light transmittance.",
+      "char_offset": 24086
+    },
+    {
+      "type": "paragraph",
+      "text": "The light distribution parameters and NDVI data were input into the computer. The variance and correlation analysis were performed with SAS 6.10 statistical software. Further, the root mean square error (RMSE) and relative error (RE) calculated by the following equation were used to validate the model. Higher the value of R 2 , lower would be RMSE and RE values and higher would be the accuracy of quantitatively monitoring LAI with the NDVI-based model. Equations ( 9 ) and ( 10 ) were used to calculate RMSE and RE, respectively:",
+      "char_offset": 24273
+    },
+    {
+      "type": "paragraph",
+      "text": "where \\({{\\rm{y}}}_{{\\rm{i}}}\\) and \\({\\hat{{\\rm{y}}}}_{{\\rm{i}}}\\) represent measured and predicted LAI, respectively, and n is the number of samples.",
+      "char_offset": 24808
+    },
+    {
+      "type": "paragraph",
+      "text": "Tan, C. et al . Analysis of different hyperspectral variables for diagnosing leaf nitrogen accumulation in wheat. Front. Plant Sci. 9 , 674\u2013685 (2018).",
+      "char_offset": 24961
+    },
+    {
+      "type": "paragraph",
+      "text": "Tan, C. et al . Remotely assessing fraction of photosynthetically active radiation (FPAR) for wheat canopies based on hyperspectral vegetation indexes. Front. Plant Sci. 9 , 776\u2013785 (2018).",
+      "char_offset": 25114
+    },
+    {
+      "type": "paragraph",
+      "text": "Jiao, Q., Zhang, B., Liu, J. & Liu, L. A novel two-step method for winter wheat-leaf chlorophyll content estimation using a hyperspectral vegetation index. Int. J. Remote Sens. 35 , 7363\u20137375 (2014).",
+      "char_offset": 25305
+    },
+    {
+      "type": "paragraph",
+      "text": "Pinter, P. & Moran, M. S. Remote sensing of soils and vegetation in the USSR. Remote Sens. Environ. 49 , 167\u2013168 (1994).",
+      "char_offset": 25506
+    },
+    {
+      "type": "paragraph",
+      "text": "Daughtry, C. et al . Remote sensing of crop residue cover and soil tillage intensity. Soil Tillage Res. 91 , 101\u2013108 (2006).",
+      "char_offset": 25628
+    },
+    {
+      "type": "paragraph",
+      "text": "Lobell, D. B., Ortiz-Monasterio, I., Gurrola, F. C. & Lorenzo, V. Identification of saline soils with multiyear remote sensing of crop yields. Soil Sci. Soc. Am. J. 71 , 777\u2013783 (2007).",
+      "char_offset": 25754
+    },
+    {
+      "type": "paragraph",
+      "text": "Curran, P. J., Dungan, J. L., Macler, B. A., Plummer, S. E. & Peterson, D. L. Reflectance spectroscopy of fresh whole leaves for the estimation of chemical concentration. Remote Sens. Environ. 39 , 153\u2013166 (1992).",
+      "char_offset": 25941
+    },
+    {
+      "type": "paragraph",
+      "text": "Frederic, B. & Fourty, T. On spectral estimates of fresh leaf biochemistry. Int. J. Remote Sens. 19 , 1283\u20131297 (1998).",
+      "char_offset": 26156
+    },
+    {
+      "type": "paragraph",
+      "text": "Ebbersa, M. J. H., Wallisa, I. R., Dury, S., Floydc, R. & Foley, W. J. Spectrometric prediction of secondary metabolites and nitrogen in fresh Eucalyptus foliage: Towards remote sensing of the nutritional quality of foliage for leaf-eating marsupials. Aust. J. Bot. 50 , 761\u2013768 (2002).",
+      "char_offset": 26277
+    },
+    {
+      "type": "paragraph",
+      "text": "Kuenzer, C. & Knauer, K. Remote sensing of rice crop areas. Int. J. Remote Sens. 34 , 2101\u20132139 (2013).",
+      "char_offset": 26565
+    },
+    {
+      "type": "paragraph",
+      "text": "Trout, T. J., Johnson, L. F. & Gartung, J. Remote sensing of canopy cover in horticultural crops. Hortscience. 43 , 333\u2013337 (2008).",
+      "char_offset": 26670
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayala, T. & Beyl, C. A. Changes in spectral reflectance of wheat leaves in response to specific macronutrient deficiency. Adv. Space Res. 35 , 305\u2013317 (2005).",
+      "char_offset": 26803
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao, C. et al . Predicting grain protein content of winter wheat using remote sensing data based on nitrogen status and water stress. Int. J. Appl. Earth Obs. 7 , 1\u20139 (2005).",
+      "char_offset": 26963
+    },
+    {
+      "type": "paragraph",
+      "text": "Tanaka, K. & Hashimoto, S. Plant canopy effects on soil thermal and hydrological properties and soil respiration. Ecol. Model. 196 , 32\u201344 (2006).",
+      "char_offset": 27140
+    },
+    {
+      "type": "paragraph",
+      "text": "Asner, G. P. Biophysical and biochemical sources of variability in canopy reflectance. Remote Sens. Environ. 64 , 234\u2013253 (1998).",
+      "char_offset": 27288
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang, W. M., Li, Z. L. & Su, H. B. Comparison of leaf angle distribution functions: Effects on extinction coefficient and fraction of sunlit foliage. Agric. For. Meteorol. 143 , 106\u2013122 (2007).",
+      "char_offset": 27419
+    },
+    {
+      "type": "paragraph",
+      "text": "Lang, A. R. G., Xiang, Y. & Norman, J. M. Crop structure and the penetration of direct sunlight. Agric. For. Meteorol. 35 , 83\u2013101 (1985).",
+      "char_offset": 27614
+    },
+    {
+      "type": "paragraph",
+      "text": "Monsi, M. & Saeki, T. On the factor light in plant communities and its importance for matter production. Ann. Bot. 95 , 549\u2013567 (2004).",
+      "char_offset": 27754
+    },
+    {
+      "type": "paragraph",
+      "text": "Saitoh, T. M., Nagai, S., Noda, H. M. & Muraoka, H. Examination of the extinction coefficient in the Beer\u2013Lambert law for an accurate estimation of the forest canopy leaf area index. Forest Sci. Tech. 8 , 67\u201376 (2012).",
+      "char_offset": 27891
+    },
+    {
+      "type": "paragraph",
+      "text": "Hirata, R. et al . Seasonal and interannual variations in carbon dioxide exchange of a temperate larch forest. Agric. For. Meteorol. 147 , 110\u2013124 (2007).",
+      "char_offset": 28111
+    },
+    {
+      "type": "paragraph",
+      "text": "Saigusa, N., Yamamoto, S., Murayama, S. & Kondo, H. Inter-annual variability of carbon budget components in an AsiaFlux forest site estimated by long-term flux measurements. Agric. For. Meteorol. 134 , 4\u201316 (2005).",
+      "char_offset": 28267
+    },
+    {
+      "type": "paragraph",
+      "text": "Goudriaan, J. The bare bones of leaf-angle distribution in radiation models for canopy photosynthesis and energy balance. Agric. For. Meteorol. 43 , 155\u2013169 (1988).",
+      "char_offset": 28483
+    },
+    {
+      "type": "paragraph",
+      "text": "Foroutan-Pour, K., Dutilleul, P. & Smith, D. L. Inclusion of the fractal dimension of leafless plant structure in the Beer-Lambert law. Agron. J. 93 , 333\u2013338 (2001).",
+      "char_offset": 28649
+    },
+    {
+      "type": "paragraph",
+      "text": "Inman, D., Khosla, R., Reich, R. M. & Westfall, D. G. Normalized difference vegetation index and soil color-based management zones in irriga maize. Agron. J. 100 , 60\u201366 (2008).",
+      "char_offset": 28817
+    },
+    {
+      "type": "paragraph",
+      "text": "Marti, J., Bort, J., Slafer, G. A. & Araus, J. L. Can wheat yield be assessed by early measurements of Normalized Difference Vegetation Index? Ann. Appl. Biol. 150 , 253\u2013257 (2007).",
+      "char_offset": 28996
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang, L. et al . Multi-temporal detection of rice phenological stages using canopy spectrum. Rice Sci. 21 , 108\u2013115 (2014).",
+      "char_offset": 29179
+    },
+    {
+      "type": "paragraph",
+      "text": "Suryanarayan, G. R., Rao, C. L. N., Venkataratnam, L. & Rao, P. V. K. Influence of plant pigments on spectral reflectance of maize, groundnut and soybean grown in semi-arid environments. Int. J. Remote Sens. 22 , 3373\u20133380 (2001).",
+      "char_offset": 29304
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang, Q. et al . Effect of canopy geometry on estimation of leaf area index in winter wheat using multi-angle spectrum. Int. J. Agric. Biol. 15 , 1187\u20131192 (2013).",
+      "char_offset": 29536
+    },
+    {
+      "type": "paragraph",
+      "text": "Clevers, J. G. P. W. & Leeuwen, H. J. C. V. Combined use of optical and microwave remote sensing data for crop growth monitoring. Remote Sens. Environ. 56 , 42\u201351 (1996).",
+      "char_offset": 29701
+    },
+    {
+      "type": "paragraph",
+      "text": "Law, B. E. & Waring, R. H. Remote sensing of leaf area index and radiation intercepted by understory vegetation. Ecol. Appl. 4 , 272\u2013279 (1994).",
+      "char_offset": 29873
+    },
+    {
+      "type": "paragraph",
+      "text": "Maas, S. J. Structure and reflectance of irrigated cotton leaf canopies. Agron. J. 89 , 54\u201359 (1997).",
+      "char_offset": 30019
+    },
+    {
+      "type": "paragraph",
+      "text": "Huang, W. et al . Identifying crop leaf angle distribution based on two-temporal and bidirectional canopy reflectance. IEEE Trans. Geosci. Remote Sensing. 44 , 3601\u20133609 (2006).",
+      "char_offset": 30122
+    },
+    {
+      "type": "paragraph",
+      "text": "Pepper, G. E., Pearce, R. B. & Mock, J. J. Leaf orientation and yield of maize. Crop Sci. 17 , 883\u2013886 (1977).",
+      "char_offset": 30301
+    },
+    {
+      "type": "paragraph",
+      "text": "This work was financially supported in part by the National Key Research and Development Program of China (2018YFD0300800), the National Natural Science Foundation of China (41271415, 31771711), the Project Funded by China Postdoctoral Science Foundation (2019M650125), the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD) and Top-notch academic programs project of Jiangsu higher education institutions (PPZY2015A060). Authors were thankful to the anonymous reviewers and editor for their valuable comments in improving the quality of the manuscript.",
+      "char_offset": 30413
+    },
+    {
+      "type": "paragraph",
+      "text": "These authors contributed equally: Chang-Wei Tan and Peng-Peng Zhang.",
+      "char_offset": 31003
+    },
+    {
+      "type": "paragraph",
+      "text": "Jiangsu Key Laboratory of Crop Genetics and Physiology/Jiangsu Co-Innovation Center for Modern Production Technology of Grain Crops/Joint International Research Laboratory of Agriculture and Agri-Product Safety of the Ministry of Education of China, Yangzhou University, Yangzhou, 225009, China",
+      "char_offset": 31074
+    },
+    {
+      "type": "paragraph",
+      "text": "Chang-Wei Tan, Peng-Peng Zhang, Xin-Xing Zhou, Zhi-Xiang Wang, Zi-Qiang Xu, Zhong-Yang Huo & Wen-Shan Guo",
+      "char_offset": 31370
+    },
+    {
+      "type": "paragraph",
+      "text": "Station of Land Protection of Yangzhou City, Yangzhou, 225009, China",
+      "char_offset": 31477
+    },
+    {
+      "type": "paragraph",
+      "text": "National Tobacco Cultivation and Physiology and Biochemistry Research Centre/Key Laboratory for Tobacco Cultivation of Tobacco Industry, Henan Agricultural University, Zhengzhou, 450002, China",
+      "char_offset": 31547
+    },
+    {
+      "type": "paragraph",
+      "text": "C.W.T., Z.Y.H. and W.S.G. conceived the research. C.W.T. and X.X.Z. designed and performed the experiments. C.W.T., P.P.Z., Z.X.W. and F.Y. prepared and revised the manuscript. Z.Q.X., W.M. and W.X.L. analyzed the data and provided technical. All the authors have reviewed the manuscript and agreed the submission and publication.",
+      "char_offset": 31741
+    },
+    {
+      "type": "paragraph",
+      "text": "Correspondence to Chang-Wei Tan , Zhong-Yang Huo or Fei Yun .",
+      "char_offset": 32073
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no competing interests.",
+      "char_offset": 32136
+    },
+    {
+      "type": "paragraph",
+      "text": "Publisher\u2019s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 32181
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article\u2019s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ .",
+      "char_offset": 32318
+    },
+    {
+      "type": "paragraph",
+      "text": "Tan, CW., Zhang, PP., Zhou, XX. et al. Quantitative monitoring of leaf area index in wheat of different plant types by integrating NDVI and Beer-Lambert law. Sci Rep 10 , 929 (2020). https://doi.org/10.1038/s41598-020-57750-z",
+      "char_offset": 33171
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1038/s41598-020-57750-z",
+      "char_offset": 33398
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 33448
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 33525
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 33595
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-d4671f318273c6de"
+}

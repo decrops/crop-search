@@ -1,0 +1,64 @@
+{"claims": [
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "numeric",
+    "numeric_value": 4,
+    "unit": "cm",
+    "qualifier": "optimum",
+    "evidence_text": "Optimum sowing depth is around 4 cm but depends on pest threats (e.g. slugs and rooks).",
+    "claim_summary": "Optimum wheat sowing depth is around 4 cm.",
+    "extraction_confidence": "high",
+    "bbch_min": 0,
+    "bbch_max": 9
+  },
+  {
+    "parameter_id": "thermal_time.emergence_gdd",
+    "value_type": "numeric",
+    "numeric_value": 150,
+    "unit": "gdd",
+    "qualifier": "typical",
+    "evidence_text": "While sowing to emergence takes longer in cold than in warm weather, the thermal time in each case is similar (150ºC days).",
+    "claim_summary": "Wheat requires about 150 °C days of thermal time from sowing to emergence.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.emergence_duration",
+    "value_type": "range",
+    "range_min": 11,
+    "range_max": 26,
+    "unit": "days",
+    "qualifier": "typical",
+    "evidence_text": "Benchmarks: sowing to emergence 150 ºC days 11 days in September 15 days in October 26 days in November",
+    "claim_summary": "Wheat sowing to emergence takes ~11 days (September) to ~26 days (November).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.emergence_rate",
+    "value_type": "numeric",
+    "numeric_value": 70,
+    "unit": "percent",
+    "qualifier": "typical",
+    "evidence_text": "Benchmark: 70% of seeds sown established",
+    "claim_summary": "Benchmark wheat establishment is 70% of seeds sown.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.target_plant_density",
+    "value_type": "numeric",
+    "numeric_value": 150,
+    "unit": "plants/m2",
+    "qualifier": "recommended",
+    "evidence_text": "the target should be about 150 plants/m 2 in the thinnest areas of the field and more if it is necessary to compete against weeds.",
+    "claim_summary": "Target wheat plant population is about 150 plants/m2 in thinnest field areas.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "soil.texture_suitability",
+    "value_type": "text",
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "average establishment for sandy soils is 90%, compared with 65% for loams and clays",
+    "claim_summary": "Wheat establishment averages 90% on sandy soils vs 65% on loams and clays.",
+    "extraction_confidence": "high"
+  }
+]}

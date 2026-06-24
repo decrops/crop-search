@@ -1,0 +1,81 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "numeric",
+      "numeric_value": 9.9,
+      "unit": "mm",
+      "qualifier": "maximum",
+      "evidence_text": "The maximum measured evapotranspiration rate for wheat was 9.9 mm day -1 and for maize was 10 mm day -1.",
+      "claim_summary": "Maximum measured daily crop evapotranspiration rate for wheat was 9.9 mm/day in a semi-arid region (Fars, Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry", "fao-56 penman-monteith"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.77,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The single crop coefficient ( K c ) values for the initial, mid-, and end-season growth stages ... of wheat were 0.77, 1.35, and 0.26, respectively.",
+      "claim_summary": "Single crop coefficient (Kc) for wheat at the initial growth stage was 0.77 (locally measured, semi-arid Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 1.35,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The single crop coefficient ( K c ) values for the initial, mid-, and end-season growth stages ... of wheat were 0.77, 1.35, and 0.26, respectively.",
+      "claim_summary": "Single crop coefficient (Kc) for wheat at the mid-season growth stage was 1.35 (locally measured, semi-arid Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.26,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The single crop coefficient ( K c ) values for the initial, mid-, and end-season growth stages ... of wheat were 0.77, 1.35, and 0.26, respectively.",
+      "claim_summary": "Single crop coefficient (Kc) for wheat at the end-season growth stage was 0.26 (locally measured, semi-arid Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.23,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The K cb values for the initial, mid-, and end-season growth stages were 0.23, 1.14, and 0.13 for wheat and 0.10, 1.07, and 0.06 for maize, respectively.",
+      "claim_summary": "Basal crop coefficient (Kcb) for wheat at the initial growth stage was 0.23 (locally measured, semi-arid Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry", "micro-lysimetry"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 1.14,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The K cb values for the initial, mid-, and end-season growth stages were 0.23, 1.14, and 0.13 for wheat and 0.10, 1.07, and 0.06 for maize, respectively.",
+      "claim_summary": "Basal crop coefficient (Kcb) for wheat at the mid-season growth stage was 1.14 (locally measured, semi-arid Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry", "micro-lysimetry"]
+    },
+    {
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "numeric",
+      "numeric_value": 0.13,
+      "unit": "dimensionless",
+      "qualifier": "observed",
+      "evidence_text": "The K cb values for the initial, mid-, and end-season growth stages were 0.23, 1.14, and 0.13 for wheat and 0.10, 1.07, and 0.06 for maize, respectively.",
+      "claim_summary": "Basal crop coefficient (Kcb) for wheat at the end-season growth stage was 0.13 (locally measured, semi-arid Iran).",
+      "extraction_confidence": "high",
+      "methods": ["lysimetry", "micro-lysimetry"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{"claims": [
+  {
+    "parameter_id": "water.evapotranspiration_requirement",
+    "value_type": "range",
+    "range_min": 154.7,
+    "range_max": 219.8,
+    "unit": "mm",
+    "qualifier": "observed",
+    "evidence_text": "Total 180.1 ... [MBD] ... Total 154.7 ... [TTS] ... Total 219.8 ... 179 mm/crop season [BWP]",
+    "claim_summary": "Seasonal wheat crop water requirement (ETc) ranged ~155-220 mm across Punjab agro-climatic zones (CROPWAT).",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "water.irrigation_trigger",
+    "value_type": "range",
+    "range_min": 44.7,
+    "range_max": 184.2,
+    "unit": "mm",
+    "qualifier": "observed",
+    "evidence_text": "The total irrigation water requirement of wheat in MBD, FSD, TTS, BWN, BWP, and KNP is 44.7, 102.2, 103.1, 119.1, 179, and 184.2 mm, respectively.",
+    "claim_summary": "Wheat net irrigation water requirement ranged 44.7-184.2 mm across six Punjab districts, highest in dry south.",
+    "extraction_confidence": "high",
+    "methods": ["irrigation"]
+  },
+  {
+    "parameter_id": "water.drought_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "the lowest water requirement is in the initial stage, and the highest water requirement is in the mid-stage during crop development ... the wheat crop requires more water during the growing stage than the other three stages",
+    "claim_summary": "Wheat water requirement is lowest at initial stage and highest at mid-season (development) stage.",
+    "extraction_confidence": "high"
+  }
+]}

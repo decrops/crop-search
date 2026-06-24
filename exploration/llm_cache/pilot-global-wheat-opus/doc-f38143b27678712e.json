@@ -1,0 +1,52 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.leaf_area_index",
+    "value_type": "numeric",
+    "numeric_value": 6.3,
+    "unit": "dimensionless",
+    "qualifier": "optimum",
+    "evidence_text": "The benchmark canopy size at flowering is GAI of 6.3 (fertile shoots 6.0, infertile shoots 0.3).",
+    "claim_summary": "Benchmark optimum green area index (GAI/LAI) for winter wheat at flowering is about 6.3.",
+    "extraction_confidence": "high",
+    "bbch_min": 61,
+    "bbch_max": 65
+  },
+  {
+    "parameter_id": "canopy.leaf_area_index",
+    "value_type": "text",
+    "unit": "dimensionless",
+    "qualifier": "threshold",
+    "evidence_text": "Small canopies (GAI <4), which can result from inadequate shoots or N deficiency, waste sunlight. Large canopies (GAI >7) ... cost more than is necessary to intercept all available sunlight.",
+    "claim_summary": "Target GAI window for winter wheat is roughly 4-7; below 4 wastes sunlight, above 7 is wasteful and raises disease/lodging risk.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "canopy.biomass_accumulation",
+    "value_type": "numeric",
+    "numeric_value": 0.1,
+    "unit": "GAI/day",
+    "qualifier": "typical",
+    "evidence_text": "The benchmark rate of canopy expansion is 0.1 GAI/day, hence crops expand by 3 GAI units during May.",
+    "claim_summary": "Benchmark winter wheat canopy expansion rate is 0.1 GAI units per day during May.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "nutrients.nitrogen_requirement",
+    "value_type": "numeric",
+    "numeric_value": 36,
+    "unit": "kg/ha",
+    "qualifier": "typical",
+    "evidence_text": "N availability controls canopy expansion quite closely because crop N for each unit of green area remains constant at 36 kg/ha – the canopy N requirement.",
+    "claim_summary": "Winter wheat canopy N requirement is constant at about 36 kg N/ha per unit of green area index.",
+    "extraction_confidence": "high",
+    "methods": ["nitrogen fertilization"]
+  },
+  {
+    "parameter_id": "canopy.canopy_cover",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Light interception is sufficient for rapid growth when GAI ≥3.",
+    "claim_summary": "Light interception is sufficient for rapid winter wheat growth once GAI reaches about 3.",
+    "extraction_confidence": "medium"
+  }
+]}

@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/parameter-coverage.schema.json",
+  "title": "ParameterCoverageReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "generated_at",
+    "parameter_manifest_path",
+    "crop_profile_path",
+    "summary",
+    "source_tier_summary",
+    "parameters"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "parameter_manifest_path": {
+      "type": "string"
+    },
+    "crop_profile_path": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "parameters_requested",
+        "parameters_with_normalized_claims",
+        "parameters_with_promoted_claims",
+        "parameters_missing",
+        "parameters_needing_review",
+        "parameters_with_peer_reviewed_claims",
+        "parameters_with_textbook_claims",
+        "parameters_with_peer_reviewed_or_textbook_claims"
+      ],
+      "properties": {
+        "parameters_requested": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_with_normalized_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_with_promoted_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_missing": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_needing_review": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_with_peer_reviewed_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_with_textbook_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters_with_peer_reviewed_or_textbook_claims": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "source_tier_summary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_tier_id",
+          "source_tier_label",
+          "query_count",
+          "search_result_count",
+          "total_result_count",
+          "captured_source_count",
+          "open_full_text_capture_count",
+          "metadata_only_capture_count",
+          "candidate_claim_count",
+          "normalized_claim_count",
+          "promoted_claim_count",
+          "needs_review_count",
+          "access_status_counts",
+          "discovery_method_counts"
+        ],
+        "properties": {
+          "source_tier_id": {
+            "type": "string"
+          },
+          "source_tier_label": {
+            "type": "string"
+          },
+          "query_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "search_result_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "total_result_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "captured_source_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "open_full_text_capture_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "metadata_only_capture_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "candidate_claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "normalized_claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "promoted_claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "needs_review_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "access_status_counts": {
+            "$ref": "#/$defs/counts"
+          },
+          "discovery_method_counts": {
+            "$ref": "#/$defs/counts"
+          }
+        }
+      }
+    },
+    "parameters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "parameter_id",
+          "label",
+          "family",
+          "category",
+          "status",
+          "normalized_claim_count",
+          "promoted_claim_count",
+          "needs_review_count",
+          "seasonal_observation_count",
+          "query_count",
+          "source_tier_counts",
+          "science_textbook_status"
+        ],
+        "properties": {
+          "parameter_id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["promoted", "candidate_only", "needs_review", "missing"]
+          },
+          "normalized_claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "promoted_claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "needs_review_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "seasonal_observation_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "query_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_tier_counts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source_tier_id",
+                "source_tier_label",
+                "query_count",
+                "normalized_claim_count",
+                "promoted_claim_count",
+                "needs_review_count"
+              ],
+              "properties": {
+                "source_tier_id": {
+                  "type": "string"
+                },
+                "source_tier_label": {
+                  "type": "string"
+                },
+                "query_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "normalized_claim_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "promoted_claim_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "needs_review_count": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          "science_textbook_status": {
+            "type": "string",
+            "enum": [
+              "promoted_science_or_textbook",
+              "candidate_science_or_textbook",
+              "extension_or_other_only",
+              "missing"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}

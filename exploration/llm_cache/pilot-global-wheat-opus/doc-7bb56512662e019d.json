@@ -1,0 +1,50 @@
+{
+  "claims": [
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "Water shortage affects all developmental stages by triggering a delay in germination, tillering, booting, heading, anthesis, grain filling and maturity. The flowering and the grain filling periods seem to be the most susceptible periods. Therefore, a drought stress occurring at one of these two developmental stages is called terminal drought and leads to substantial crop yield losses",
+      "claim_summary": "In wheat, flowering and grain filling are the most drought-susceptible stages (terminal drought), causing substantial yield loss; female meiosis is the most critical period at flowering.",
+      "extraction_confidence": "high",
+      "bbch_min": 51,
+      "bbch_max": 89
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "The flowering and the grain filling periods seem to be the most susceptible periods... At this stage, the drought inhibits the completion of meiosis in the ovule, leading to abnormal female reproductive cell",
+      "claim_summary": "Flowering (female meiosis) and grain filling are the wheat stages most sensitive to terminal abiotic stress; drought at flowering causes pollen/female sterility.",
+      "extraction_confidence": "medium",
+      "bbch_min": 51,
+      "bbch_max": 89
+    },
+    {
+      "parameter_id": "photosynthesis.stomatal_conductance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "One of the first effects of drought stress is the limitation in CO2 influx, thus decreasing the carbon assimilation by the photosynthetic apparatus. This is mainly due to the stomatal closure... a limitation of stomatal conductance (gs) and/or mesophyll conductance to CO2 (gm)",
+      "claim_summary": "Drought stress in wheat first limits CO2 influx via stomatal closure (reduced stomatal conductance), decreasing carbon assimilation and photosynthetic rate.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.water_productivity",
+      "value_type": "numeric",
+      "numeric_value": 63,
+      "unit": "percent",
+      "qualifier": "observed",
+      "evidence_text": "Two to three times more soil was aggregated around wheat roots under water stress, compared to non-inoculated plants, allowing an increase in water use efficiency by 63% in inoculated wheat.",
+      "claim_summary": "Inoculation with EPS-producing B. thuringiensis AZP2 increased wheat water use efficiency by 63% under water stress.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "stress.drought_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "On a global scale, a reduction of 21% in yields of wheat was recently reported due to drought... osmotic adjustment (OA) is allowed by the production and accumulation of soluble molecules, called osmolytes, such as proline, glycine betaine",
+      "claim_summary": "Drought reduces global wheat yields by about 21%; wheat tolerance relies on osmotic adjustment via osmolytes (proline, glycine betaine, soluble sugars), antioxidants, and root system architecture.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

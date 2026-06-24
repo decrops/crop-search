@@ -1,0 +1,14 @@
+{
+  "domain": "nutrients",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "document_id": "doc-0236d1d10a5b72fb",
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 39,
+      "unit": "kg/ha",
+      "evidence_contains": "39 kg n"
+    }
+  ]
+}

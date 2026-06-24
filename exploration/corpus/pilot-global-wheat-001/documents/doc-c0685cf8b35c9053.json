@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-c0685cf8b35c9053",
+  "canonical_url": "https://en.wikipedia.org/wiki/Wheat",
+  "source_url": "https://en.wikipedia.org/wiki/Wheat",
+  "doi": "",
+  "title": "Wheat - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "c0685cf8b35c9053bdb1e7cc83bceba86828ee56a887a745e33a27ce6f5eb016",
+  "content_hash": "7a5297c446c421ef7e03257a685d6077ed2aeb58c914608b773d1b4d89bc3623",
+  "text_length": 39676,
+  "publication_date_hint": "2024",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 36858
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/010-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

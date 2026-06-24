@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.heat_stress_threshold",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The rise in maximum and minimum temperatures had adverse effect on wheat yield. The increase in the maximum temperature by 5°C may cause reduction in yield by 24 to 29%.",
+      "claim_summary": "A 5 C increase in maximum temperature reduces wheat grain yield by 24-29% (WOFOST simulation of four cultivars).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Among the different stages, flowering to dough stage was found to be most sensitive stage.",
+      "claim_summary": "Flowering to dough stage is the most temperature-sensitive stage for wheat grain yield.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

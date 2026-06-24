@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-fda0d06df93eb90e",
+  "canonical_url": "https://en.wikipedia.org/wiki/Organic_farming",
+  "source_url": "https://en.wikipedia.org/wiki/Organic_farming",
+  "doi": "",
+  "title": "Organic farming - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "fda0d06df93eb90eecaafdae6f59e6ba33b21d81fe3199a5a1b80b5642fea724",
+  "content_hash": "2e8022994c18e37004b0c187c1980ffe07192c1d06fa6015febe91200d8410fa",
+  "text_length": 79403,
+  "publication_date_hint": "2019",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 72754
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/055-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

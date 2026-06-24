@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-ee08929e6f405e07",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s13593-015-0327-9.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s13593-015-0327-9.pdf",
+  "doi": "https://doi.org/10.1007/s13593-015-0327-9",
+  "title": "Eight principles of integrated pest management",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "ee08929e6f405e0733f157899b023d652307c1d0f25f80243eaf772ee0484be2",
+  "content_hash": "74c59e55f17899a5d34bd07faacf2a37facce43e61ad55d7d771cd34588a645f",
+  "text_length": 4885,
+  "publication_date_hint": "2015",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W1816638112",
+    "doi": "https://doi.org/10.1007/s13593-015-0327-9",
+    "publication_year": 2015,
+    "is_open_access": true,
+    "open_access_status": "bronze"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/185-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,1401 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Definition",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Aims",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Key principles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Technological approaches",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Environmental factors",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Nutrients",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 4,
+      "heading": "Nitrates",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 4,
+      "heading": "Phosphate",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 4,
+      "heading": "Potassium",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Soil",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Land",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Energy",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Water",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Social factors",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Rural economic development",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Women",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Growing your own food",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 2,
+      "heading": "Economic factors",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Challenges and debates",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Barriers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Different viewpoints about the definition",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Ethics",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 2,
+      "heading": "Methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Intensification",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Water",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Soil and nutrients",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Pests and weeds",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Location",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Plants",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Landscape management strategies",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Land sparing",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Land sharing",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Land blending",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 2,
+      "heading": "Related concepts",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Organic agriculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Ecological farming",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 4,
+      "heading": "Benefits",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 4,
+      "heading": "Challenges",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 4,
+      "heading": "Principles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "Traditional agriculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 4,
+      "heading": "Indigenous Agriculture in North America",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Regenerative agriculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 3,
+      "heading": "Alternative methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 4,
+      "heading": "Permaculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 4,
+      "heading": "Polyculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 4,
+      "heading": "Local small-scale agriculture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 4,
+      "heading": "Hydroponics or soil-less culture",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "Standards",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "Policy",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 3,
+      "heading": "At the global level",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 3,
+      "heading": "European Union",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 3,
+      "heading": "United States",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 3,
+      "heading": "Current movements in the U.S.",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-53",
+      "level": 3,
+      "heading": "Asia",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 4,
+      "heading": "China",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 4,
+      "heading": "India",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 3,
+      "heading": "Other countries",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 4,
+      "heading": "Israel",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-59",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-60",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-61",
+      "level": 2,
+      "heading": "Sources",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Agriculture"
+      ],
+      "rows": [
+        [
+          "History West Asia Ancient Egypt Ancient Greece Ancient Rome Austronesia Agricultural science Agricultural History Review Arab Agricultural Revolution Argentina Canada China Chile Columbian exchange Green Revolution Indian subcontinent Mesoamerica Middle Ages Neolithic Revolution Organic farming Palestine Peru United Kingdom British Agricultural Revolution Cheshire Scotland United States African-American California"
+        ],
+        [
+          "On land Agrivoltaic Animal husbandry cattle pigs poultry sheep Dairy Dryland Extensive Fertilizer Free-range Grazing Convertible husbandry Rotational grazing Hobby Intensive animals pigs crops Natural Monoculture Orchard Organic Paddy field Ranching Sharecropping Sowing Colonia Slash-and-burn Smallholding Terrace Steam sterilization"
+        ],
+        [
+          "Hydroculture Aquaculture Aquaponics Hydroponics Aeroponics"
+        ],
+        [
+          "Related Agribusiness Agricultural cooperative Agricultural supplies Agricultural science Agricultural engineering Agricultural technology Precision Biotechnology Agroforestry Agronomy Animal husbandry Animal-free agriculture Cash crop Cellular agriculture Cultural methods Contract farming Extensive farming Farm Farmhouse Feed ratio Free range Horticulture Intensive farming animals pigs crops Mechanised agriculture Organic farming Paludiculture Permaculture Plantation Polyculture Rice-duck farming Rice-fish system Sustainable agriculture Sustainable food system Universities and colleges Urban agriculture"
+        ],
+        [
+          "Lists Agriculturist profession Agricultural machinery Food origins Government ministries Universities and colleges"
+        ],
+        [
+          "Categories Agricultural machinery Agriculture by country Agriculture companies Biotechnology Cannabis cultivation History of agriculture Livestock Meat industry Poultry farming Agriculture and the environment"
+        ],
+        [
+          "Agriculture portal"
+        ],
+        [
+          "v t e"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-2",
+      "caption": "",
+      "headers": [
+        "v t e Agriculture"
+      ],
+      "rows": [
+        [
+          "Outline History Index"
+        ],
+        [
+          "Occupations",
+          "Agriculturist Agricultural Engineer Farmer Farm worker Herder",
+          ""
+        ],
+        [
+          "General",
+          "Agribusiness Agricultural cooperative Agricultural supplies Agricultural science Agricultural engineering Agricultural technology Precision Biotechnology Agroforestry Agronomy Animal husbandry Animal-free agriculture Cash crop Cellular agriculture Cultural methods Contract farming Extensive farming Farm Farmhouse Feed ratio Free range Horticulture Intensive farming animals pigs crops Mechanised agriculture Organic farming Paludiculture Permaculture Plantation Polyculture Rice-duck farming Rice-fish system Sustainable agriculture Sustainable food system Universities and colleges Urban agriculture"
+        ],
+        [
+          "History",
+          "West Asia Ancient Egypt Ancient Greece Ancient Rome Austronesia Agricultural science Agricultural History Review Arab Agricultural Revolution Argentina Canada China Chile Columbian exchange Green Revolution Indian subcontinent Mesoamerica Middle Ages Neolithic Revolution Organic farming Palestine Peru United Kingdom British Agricultural Revolution Cheshire Scotland United States African-American California"
+        ],
+        [
+          "Farming Types",
+          "Agrivoltaic Aquaculture Cattle Cannabis cultivation Dairy farming Desert farming Dryland farming Fur farming Goat farming Grazing Convertible husbandry Rotational grazing Transhumance Hydroponics Insect farming Livestock Pasture Mixed Monoculture Paddy field Pastoral Bocage Pig farming Poultry farming Ranch Rainfed agriculture Orchards Subsistence agriculture Sheep farming Terrace Wildlife farming"
+        ],
+        [
+          "Environmental impact",
+          "Agricultural expansion Agricultural pollution Agricultural wastewater Overgrazing Environmental impact of irrigation Overdrafting Climate change and agriculture Multiple breadbasket failure"
+        ],
+        [
+          "Categories",
+          "Agricultural machinery Agriculture by country Agriculture companies Biotechnology Cannabis cultivation History of agriculture Livestock Meat industry Poultry farming Agriculture and the environment"
+        ],
+        [
+          "Lists",
+          "Agriculturist profession Agricultural machinery Food origins Government ministries Universities and colleges"
+        ],
+        [
+          "Category Portal Commons Wikiproject"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "v t e Sustainability"
+      ],
+      "rows": [
+        [
+          "Outline Index"
+        ],
+        [
+          "Principles",
+          "Anthropocene Environmentalism Global governance Human impact on the environment Planetary boundaries Development"
+        ],
+        [
+          "Consumption",
+          "Anthropization Anti-consumerism Circular economy Durable good Earth Overshoot Day Ecological footprint Ethical Green consumption Micro-sustainability Over-consumption Product stewardship Simple living Social return on investment Steady-state economy Sustainability Advertising Brand Marketing myopia Sustainable Consumer behaviour Market Systemic change resistance Tragedy of the commons"
+        ],
+        [
+          "World population",
+          "Control Demographic transition Dependency ratio List Family planning Intergenerational equity Population ageing Sustainable population"
+        ],
+        [
+          "Technology",
+          "Appropriate Environmental technology Natural building Sustainable architecture Sustainable design Sustainable industries Sustainable packaging"
+        ],
+        [
+          "Biodiversity",
+          "Biosecurity Biosphere Conservation biology Endangered species Holocene extinction Invasive species"
+        ],
+        [
+          "Energy",
+          "Carbon footprint Renewable energy Sustainable energy"
+        ],
+        [
+          "Food",
+          "Civic agriculture Climate-smart agriculture Community-supported agriculture Cultured meat Sustainable agriculture Sustainable diet Sustainable fishery"
+        ],
+        [
+          "Water",
+          "Air well (condenser) Bioretention Bioswale Blue roof Catchwater Constructed wetland Detention basin Dew pond Footprint Hydroelectricity Hydropower Infiltration basin Irrigation tank Marine energy Micro hydro Ocean thermal energy conversion Pico hydro Rain garden Rainwater harvesting Rainwater tank Reclaimed water Retention basin Run-of-the-river hydroelectricity Scarcity Security Small hydro Sustainable drainage system Tidal power Tidal stream generator Tree box filter Water conservation Water heat recycling Water recycling shower Water-sensitive urban design"
+        ],
+        [
+          "Accountability",
+          "Corporate environmental responsibility Corporate social responsibility Environmental accounting Environmental full-cost accounting Environmental planning Generational accounting Sustainability Accounting Measurement Metrics and indices Reporting Standards and certification Sustainable yield"
+        ],
+        [
+          "Economic",
+          "Debt Sustainability Analysis Fiscal sustainability"
+        ],
+        [
+          "Applications",
+          "Advertising Art Business City Cultural sustainability Climate finance Community Disinvestment Eco-capitalism Eco-cities Eco-investing Eco-socialism Ecovillage Environmental finance Green economy Construction Fashion Finance Gardening Geopark Green Development Infrastructure Marketing Green roof Greening Impact investing Landscape Livelihood Living Market Organic movement Organizations Procurement Refurbishment Socially responsible business Socially responsible marketing Sanitation Sourcing Space Sustainability organization Tourism Transport Urban drainage systems Urban infrastructure"
+        ],
+        [
+          "Sustainable management",
+          "Environmental Fisheries Forest Humanistic capitalism Landscape Materials Natural resource Planetary Recycling Waste"
+        ],
+        [
+          "Agreements and conferences",
+          "UN Conference on the Human Environment (Stockholm 1972) Brundtlandt Commission Report (1983) Our Common Future (1987) Earth Summit (1992) Rio Declaration on Environment and Development (1992) Agenda 21 (1992) Convention on Biological Diversity (1992) Lisbon Principles (1997) Earth Charter (2000) UN Millennium Declaration (2000) Earth Summit 2002 (Rio+10, Johannesburg) UN Conference on Sustainable Development (Rio+20, 2012) Sustainable Development Goals (2015) UNESCO MONDIACULT conferences"
+        ],
+        [
+          "Category Lists Science Studies Degrees"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-4",
+      "caption": "",
+      "headers": [
+        "v t e Horticulture and gardening"
+      ],
+      "rows": [
+        [
+          "Gardening",
+          "Allotment Arboretum Butterfly Climate-friendly gardening Community Forest Foodscaping French intensive Garden Garden design computer-aided Groundskeeping Garden tool Green wall Guerrilla Historic conservation History Native Parterre Proplifting Raised bed Square foot Sustainable Xeriscaping"
+        ],
+        [
+          "Types of gardens",
+          "Alpine Ancient Egypt Australian Back Baroque Biblical Bog Botanical Bottle Butterfly Byzantine Cactus Colonial Color Communal Garden square Community Container Cottage Dutch East Asian Chinese Suzhou Cantonese Japanese Roji Zen Korean Vietnamese English Sharawadgi Fernery Floating Flower Formal French formal landscape Renaissance Front German Greek Greenhouse Hanging Industrial Islamic Italian Renaissance Keyhole Kitchen Knot Market Mary Medieval Monastic Mughal Orchard Indonesian home garden Persian B\u0101gh Charbagh Paradise Physic Pleasure Poison Pollinator Prairie Rain Rock Roman Roof Rose Sacred School Scottish Sculpture Sensory Shade Shakespeare Shrubbery Spanish Tea Therapeutic Trial Tropical Victory Walled Water Wildlife Winter Zoological"
+        ],
+        [
+          "Horticulture",
+          "Agriculture Permaculture stock-free sustainable urban Arboriculture Bonsai Saikei Botany Companion planting Crop most valuable Cutting Flora Floriculture Canada Taiwan H\u00fcgelkultur Fruticulture Genetically modified tree Hydroculture Indigenous Intercropping Landscape architecture Olericulture Plant breeding cuttings free-flowering propagation drought tolerance hardiness Pomology Postharvest physiology Roguing Tropical Urban agriculture horticulture forestry reforestation Viticulture Monoculture"
+        ],
+        [
+          "Organic",
+          "Biodynamic agriculture Grafting List of organic gardening and farming topics Vegan organic agriculture"
+        ],
+        [
+          "Plant protection",
+          "Fungicide Herbicide Index of pesticide articles List of fungicides List of insecticides Pesticide Plant disease forecasting Pruning Weed control Aquamog weed remover"
+        ],
+        [
+          "Related articles",
+          "Community orchard Features Floral design Floristry Ikebana Groundskeeping Garden centre Garden tourism List of gardens Lists of plants Perennial Plant collecting Turf management"
+        ],
+        [
+          "Gardening portal Category Commons WikiProject"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-5",
+      "caption": "",
+      "headers": [
+        "v t e Population"
+      ],
+      "rows": [
+        [
+          "Major topics",
+          "Demographics of the world Demographic transition Estimates of historical world population Population growth Population momentum Human population projections World population"
+        ],
+        [
+          "Population biology",
+          "Population decline Population density Physiological density Population dynamics Population model Population pyramid"
+        ],
+        [
+          "Population ecology",
+          "Biocapacity Carrying capacity I = P \u00d7 A \u00d7 T Kaya identity Malthusian growth model Overshoot (population) World3 model"
+        ],
+        [
+          "Society and population",
+          "Eugenics Dysgenics Human overpopulation Malthusian catastrophe Human population planning Compulsory sterilization Dependency ratio Family planning One-child policy Two-child policy Overconsumption Political demography Population ethics Antinatalism Intergenerational equity Mere addition paradox Natalism Nonidentity problem Reproductive rights Sustainable population Zero population growth"
+        ],
+        [
+          "Publications",
+          "Population and Environment Population and Development Review"
+        ],
+        [
+          "Lists",
+          "Population and housing censuses by country Dependency ratio Largest cities Number of births World population milestones 6 billion 7 8 Population concern organizations"
+        ],
+        [
+          "Events and organizations",
+          "7 Billion Actions Church of Euthanasia International Conference on Population and Development Population Action International Population Connection Population Matters United Nations Population Fund United Nations world population conferences Voluntary Human Extinction Movement World Population Conference World Population Day World Population Foundation"
+        ],
+        [
+          "Related topics",
+          "Bennett's law Green Revolution Human impact on the environment Migration Net migration rate Sustainability"
+        ],
+        [
+          "Category"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "v t e Environmental technology"
+      ],
+      "rows": [
+        [
+          "General",
+          "Appropriate technology Clean technology Climate smart agriculture Environmental design Environmental impact assessment Eco-innovation Ecotechnology Electric vehicle Energy recycling Environmental design Environmental impact assessment Environmental impact design Green building Green vehicle Environmentally healthy community design Public interest design Sustainability Sustainability science Sustainable ( agriculture architecture design development food systems industries procurement refurbishment technology transport )",
+          ""
+        ],
+        [
+          "Pollution",
+          "Air pollution ( control dispersion modeling ) Industrial ecology Solid waste treatment Waste management Water ( agricultural wastewater treatment industrial wastewater treatment sewage treatment waste-water treatment technologies water purification )"
+        ],
+        [
+          "Sustainable energy",
+          "Efficient energy use Electrification Energy development Energy recovery Fuel ( alternative fuel biofuel carbon-neutral fuel hydrogen technologies ) List of energy storage projects Renewable energy commercialization transition Sector coupling Power-to-X Power-to-heat Power-to-gas Sustainable lighting Transportation ( electric vehicle hybrid vehicle )"
+        ],
+        [
+          "Conservation",
+          "Building ( green insulation natural sustainable architecture New Urbanism New Classical ) Conservation biology Ecoforestry Efficient energy use Energy conservation Energy recovery Energy recycling Environmental movement Environmental remediation Glass in green buildings Green computing Heat recovery ventilation High-performance buildings Land rehabilitation Nature conservation Permaculture Recycling Water heat recycling"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-7",
+      "caption": "",
+      "headers": [
+        "Authority control databases"
+      ],
+      "rows": [
+        [
+          "International",
+          "FAST"
+        ],
+        [
+          "National",
+          "United States France BnF data Spain Israel"
+        ],
+        [
+          "Other",
+          "Yale LUX"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "People doing this are harnessed for productive purposes. [ 1 ] [ 2 ] It can be based on an understanding of ecosystem services . There are many methods to increase the sustainability of agriculture. When developing agriculture within the sustainable food systems , it is important to develop flexible business processes and farming practices. [ 3 ]",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Agriculture has an enormous environmental footprint , playing a significant role in causing climate change ( food systems are responsible for one third of the anthropogenic greenhouse gas emissions ), [ 4 ] [ 5 ] water scarcity , water pollution , land degradation , deforestation and other processes; [ 6 ] it is simultaneously causing environmental changes and being impacted by these changes. [ 7 ] Sustainable agriculture consists of environment friendly methods of farming that allow the production of crops or livestock without causing damage to human or natural systems. It involves preventing adverse effects on soil, water, biodiversity, and surrounding or downstream resources, as well as to those working or living on the farm or in neighboring areas. Elements of sustainable agriculture can include permaculture , agroforestry , mixed farming , multiple cropping , and crop rotation . [ 8 ] Land sparing, which combines conventional intensive agriculture with high yields and the protection of natural habitats from conversion to farmland, can also be considered a form of sustainable agriculture. [ 9 ]",
+      "char_offset": 350
+    },
+    {
+      "type": "paragraph",
+      "text": "Developing sustainable food systems contributes to the sustainability of the human population. For example, one of the best ways to mitigate climate change is to create sustainable food systems based on sustainable agriculture. Sustainable agriculture provides a potential solution to enable agricultural systems to feed a growing population within the changing environmental conditions. [ 7 ] Besides sustainable farming practices, dietary shifts to sustainable diets are an intertwined way to substantially reduce environmental impacts. [ 10 ] [ 11 ] [ 12 ] [ 13 ] Numerous sustainability standards and certification systems exist, including organic certification , Rainforest Alliance , Fair Trade , UTZ Certified , GlobalGAP , Bird Friendly, and the Common Code for the Coffee Community (4C). [ 14 ]",
+      "char_offset": 1467
+    },
+    {
+      "type": "paragraph",
+      "text": "The term \"sustainable agriculture\" was defined in 1977 by the USDA as an integrated system of plant and animal production practices having a site-specific application that will, over the long term: [ 15 ]",
+      "char_offset": 2272
+    },
+    {
+      "type": "paragraph",
+      "text": "Yet the idea of having a sustainable relationship with the land has been prevalent in indigenous communities for centuries before the term was formally added to the lexicon. [ 16 ]",
+      "char_offset": 2478
+    },
+    {
+      "type": "paragraph",
+      "text": "A common consensus is that sustainable farming is the most realistic way to feed growing populations. In order to successfully feed the population of the planet, farming practices must consider future costs\u2013to both the environment and the communities they fuel. [ 17 ] The risk of not being able to provide enough resources for everyone led to the adoption of technology within the sustainability field to increase farm productivity. The ideal result of this advancement is the ability to feed ever-growing populations across the world. The growing popularity of sustainable agriculture is connected to the wide-reaching fear that the planet's carrying capacity (or planetary boundaries ), in terms of the ability to feed humanity, has been reached or even exceeded. [ 18 ]",
+      "char_offset": 2660
+    },
+    {
+      "type": "paragraph",
+      "text": "There are several key principles associated with sustainability in agriculture: [ 19 ]",
+      "char_offset": 3435
+    },
+    {
+      "type": "paragraph",
+      "text": "It considers long-term as well as short-term economics because sustainability provides benefits that are indefinite, that is, agricultural environments that are designed to promote endless regeneration\". [ 20 ] It balances the need for resource conservation with the needs of farmers pursuing their livelihood . [ 21 ]",
+      "char_offset": 3523
+    },
+    {
+      "type": "paragraph",
+      "text": "It is considered to be reconciliation ecology , accommodating biodiversity within human landscapes. [ 22 ]",
+      "char_offset": 3843
+    },
+    {
+      "type": "paragraph",
+      "text": "Oftentimes, the execution of sustainable practices within farming comes through the adoption of technology and environmentally-focused appropriate technology .",
+      "char_offset": 3951
+    },
+    {
+      "type": "paragraph",
+      "text": "Sustainable agricultural systems are becoming an increasingly important field for AI research and development. By leveraging AI's skills in areas such as resource optimization, crop health monitoring, and yield prediction, farmers might greatly advance toward more environmentally friendly agricultural practices. AI-controlled irrigation systems optimize water consumption by using sensors to monitor soil moisture levels and weather conditions to distribute water accordingly. This water management technology can lower water consumption up to 30%. [ 23 ]",
+      "char_offset": 4112
+    },
+    {
+      "type": "paragraph",
+      "text": "Artificial intelligence (AI) mobile soil analysis enables farmers to enhance soil fertility while decreasing their ecological footprint. This technology permits on-site, real-time evaluations of soil nutrient levels. [ 24 ] Intelligent systems can detect weeds, pests, and plant disease to alert and develop strategies for increasing farming productivity. [ 25 ]",
+      "char_offset": 4671
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2023 review article found that agroecology, a study on the biodiversity and ecological practices of farming, can become a mainstream model for transforming agriculture only if it integrates farming practices with regional and global scales, ensures economic viability for producers, and uses ecological methods with technologies such as digitalization and precision breeding. [ 26 ] Agrivoltaics enhances sustainable agriculture by optimizing land use\u2014allowing crops to be grown alongside solar panels, which generate clean energy. This dual-use approach conserves land resources, improves microclimates, and can promote more resilient, eco-friendly farming practices. [ 27 ]",
+      "char_offset": 5035
+    },
+    {
+      "type": "paragraph",
+      "text": "Practices that can cause long-term damage to soil include excessive tilling of the soil (leading to erosion ) and irrigation without adequate drainage (leading to salinization ). [ 28 ] [ 29 ]",
+      "char_offset": 5714
+    },
+    {
+      "type": "paragraph",
+      "text": "The most important factors for a farming site are climate , soil, nutrients and water resources . Of the four, water and soil conservation are the most amenable to human intervention. When farmers grow and harvest crops, they remove some nutrients from the soil. Without replenishment, the land suffers from nutrient depletion and becomes either unusable or suffers from reduced yields . Sustainable agriculture depends on replenishing the soil while minimizing the use or need of non-renewable resources, such as natural gas or mineral ores.",
+      "char_offset": 5908
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent research has highlighted the importance of plant-associated microbiomes in sustainable agriculture. A study of wild and domesticated finger millet ( Eleusine coracana ) found that plant developmental stage, domestication, and root compartment significantly influence the assembly of root-associated microbial communities. The study showed that plants selectively recruit microbial taxa from surrounding soil communities according to their developmental needs, suggesting that microbiome-based approaches could contribute to sustainable crop production while reducing reliance on chemical fertilizers and pesticides. [ 30 ]",
+      "char_offset": 6452
+    },
+    {
+      "type": "paragraph",
+      "text": "A farm that can \"produce perpetually\", yet has negative effects on environmental quality elsewhere is not sustainable agriculture. An example of a case in which a global view may be warranted is the application of fertilizer or manure , which can improve the productivity of a farm but can pollute nearby rivers and coastal waters ( eutrophication ). [ 31 ] The other extreme can also be undesirable, as the problem of low crop yields due to exhaustion of nutrients in the soil has been related to rainforest destruction. [ 32 ] In Asia, the specific amount of land needed for sustainable farming is about 12.5 acres (5.1 ha) which include land for animal fodder, cereal production as a cash crop, and other food crops. In some cases, a small unit of aquaculture is included (AARI-1996).",
+      "char_offset": 7083
+    },
+    {
+      "type": "paragraph",
+      "text": "Nitrates are used widely in farming as fertilizer. Unfortunately, a major environmental problem associated with agriculture is the leaching of nitrates into the environment. [ 33 ] Possible sources of nitrates that would, in principle, be available indefinitely, include:",
+      "char_offset": 7872
+    },
+    {
+      "type": "paragraph",
+      "text": "The last option was proposed in the 1970s, but is only gradually becoming feasible. [ 37 ] [ 38 ] Sustainable options for replacing other nutrient inputs such as phosphorus and potassium are more limited.",
+      "char_offset": 8145
+    },
+    {
+      "type": "paragraph",
+      "text": "Other options include long-term crop rotations , returning to natural cycles that annually flood cultivated lands (returning lost nutrients) such as the flooding of the Nile , the long-term use of biochar , and use of crop and livestock landraces that are adapted to less than ideal conditions such as pests, drought, or lack of nutrients. Crops that require high levels of soil nutrients can be cultivated in a more sustainable manner with appropriate fertilizer management practices.",
+      "char_offset": 8351
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphate is a primary component in fertilizer . It is the second most important nutrient for plants after nitrogen, [ 39 ] and is often a limiting factor. [ 40 ] It is important for sustainable agriculture as it can improve soil fertility and crop yields. [ 41 ] Phosphorus is involved in all major metabolic processes including photosynthesis, energy transfer, signal transduction, macromolecular biosynthesis, and respiration. It is needed for root ramification and strength and seed formation, and can increase disease resistance. [ 42 ]",
+      "char_offset": 8838
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphorus is found in the soil in both inorganic and organic forms [ 39 ] and makes up approximately 0.05% of soil biomass. [ 42 ] Phosphorus fertilizers are the main input of inorganic phosphorus in agricultural soils and approximately 70%\u201380% of phosphorus in cultivated soils is inorganic. [ 43 ] Long-term use of phosphate-containing chemical fertilizers causes eutrophication and deplete soil microbial life, so people have looked to other sources. [ 42 ]",
+      "char_offset": 9381
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphorus fertilizers are manufactured from rock phosphate . [ 44 ] However, rock phosphate is a non-renewable resource and it is being depleted by mining for agricultural use: [ 41 ] [ 43 ] peak phosphorus will occur within the next few hundred years, [ 45 ] [ 46 ] [ 47 ] or perhaps earlier. [ 48 ] [ 49 ] [ 50 ]",
+      "char_offset": 9844
+    },
+    {
+      "type": "paragraph",
+      "text": "Potassium is a macronutrient very important for plant development and is commonly sought in fertilizers. [ 51 ] This nutrient is essential for agriculture because it improves water retention, nutrient value, yield, taste, color, texture and disease resistance of crops. It is often used in the cultivation of grains, fruits, vegetables, rice, wheat, millets, sugar, corn, soybeans, palm oil and coffee. [ 52 ]",
+      "char_offset": 10161
+    },
+    {
+      "type": "paragraph",
+      "text": "Potassium chloride (KCl) represents the most widely source of K used in agriculture, [ 53 ] accounting for 90% of all potassium produced for agricultural use. [ 54 ]",
+      "char_offset": 10572
+    },
+    {
+      "type": "paragraph",
+      "text": "The use of KCl leads to high concentrations of chloride (Cl\u02c9) in soil harming its health due to the increase in soil salinity, imbalance in nutrient availability and this ion's biocidal effect for soil organisms. [ 55 ] In consequences the development of plants and soil organisms is affected, putting at risk soil biodiversity and agricultural productivity. [ 56 ] [ 57 ] [ 58 ] [ 59 ] A sustainable option for replacing KCl are chloride-free fertilizers, its use should take into account plants' nutrition needs, and the promotion of soil health. [ 60 ] [ 61 ]",
+      "char_offset": 10739
+    },
+    {
+      "type": "paragraph",
+      "text": "Land degradation is becoming a severe global problem. According to the Intergovernmental Panel on Climate Change : \"About a quarter of the Earth's ice-free land area is subject to human-induced degradation (medium confidence). Soil erosion from agricultural fields is estimated to be currently 10 to 20 times (no tillage) to more than 100 times (conventional tillage) higher than the soil formation rate (medium confidence).\" [ 62 ] Almost half of the land on earth is covered with dry land, which is susceptible to degradation. [ 63 ] Over a billion tonnes of southern Africa's soil are being lost to erosion annually, which if continued will result in halving of crop yields within thirty to fifty years. [ 64 ] A comparative study of two adjacent wheat farms\u2014one using sustainable practices and the other conventional methods\u2014found that the sustainable farm had significantly better soil quality, including higher organic matter, microbial populations, and nutrient content, while also showing 22.4% higher net returns due to lower input costs, despite slightly lower yields. [ 65 ]",
+      "char_offset": 11303
+    },
+    {
+      "type": "paragraph",
+      "text": "Improper soil management is threatening the ability to grow sufficient food. Intensive agriculture reduces the carbon level in soil, impairing soil structure, crop growth and ecosystem functioning, and accelerating climate change . [ 66 ] Modification of agricultural practices is a recognized method of carbon sequestration as soil can act as an effective carbon sink . [ 67 ]",
+      "char_offset": 12390
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil management techniques include no-till farming , keyline design and windbreaks to reduce wind erosion, reincorporation of organic matter into the soil, reducing soil salinization , and preventing water run-off. [ 68 ] [ 69 ]",
+      "char_offset": 12769
+    },
+    {
+      "type": "paragraph",
+      "text": "As the global population increases and demand for food increases, there is pressure on land as a resource. In land-use planning and management, considering the impacts of land-use changes on factors such as soil erosion can support long-term agricultural sustainability, as shown by a study of Wadi Ziqlab, a dry area in the Middle East where farmers graze livestock and grow olives, vegetables, and grains. [ 70 ]",
+      "char_offset": 12999
+    },
+    {
+      "type": "paragraph",
+      "text": "Looking back over the 20th century shows that for people in poverty, following environmentally sound land practices has not always been a viable option due to many complex and challenging life circumstances. [ 71 ] Currently, increased land degradation in developing countries may be connected with rural poverty among smallholder farmers when forced into unsustainable agricultural practices out of necessity. [ 72 ]",
+      "char_offset": 13415
+    },
+    {
+      "type": "paragraph",
+      "text": "Converting big parts of the land surface to agriculture has severe environmental and health consequences. For example, it leads to rise in zoonotic disease (like the Coronavirus disease 2019 ) due to the degradation of natural buffers between humans and animals, reducing biodiversity and creating larger groups of genetically similar animals. [ 73 ] [ 74 ]",
+      "char_offset": 13834
+    },
+    {
+      "type": "paragraph",
+      "text": "Land is a finite resource on Earth. Although expansion of agricultural land can decrease biodiversity and contribute to deforestation , the picture is complex; for instance, a study examining the introduction of sheep by Norse settlers (Vikings) to the Faroe Islands of the North Atlantic concluded that, over time, the fine partitioning of land plots contributed more to soil erosion and degradation than grazing itself. [ 75 ]",
+      "char_offset": 14193
+    },
+    {
+      "type": "paragraph",
+      "text": "The Food and Agriculture Organization of the United Nations estimates that in coming decades, cropland will continue to be lost to industrial and urban development , along with reclamation of wetlands, and conversion of forest to cultivation, resulting in the loss of biodiversity and increased soil erosion. [ 76 ]",
+      "char_offset": 14623
+    },
+    {
+      "type": "paragraph",
+      "text": "In modern agriculture, energy is used in on-farm mechanisation, food processing, storage, and transportation processes. [ 77 ] It has therefore been found that energy prices are closely linked to food prices . [ 78 ] Oil is also used as an input in agricultural chemicals . The International Energy Agency projects higher prices of non-renewable energy resources as a result of fossil fuel resources being depleted. It may therefore decrease global food security unless action is taken to 'decouple' fossil fuel energy from food production, with a move towards 'energy-smart' agricultural systems including renewable energy . [ 78 ] [ 79 ] [ 80 ] The use of solar powered irrigation in Pakistan is said to be a closed system for agricultural water irrigation. [ 81 ]",
+      "char_offset": 14940
+    },
+    {
+      "type": "paragraph",
+      "text": "The environmental cost of transportation could be avoided if people use local products. [ 82 ]",
+      "char_offset": 15708
+    },
+    {
+      "type": "paragraph",
+      "text": "In some areas sufficient rainfall is available for crop growth, but many other areas require irrigation . For irrigation systems to be sustainable, they require proper management (to avoid salinization ) and must not use more water from their source than is naturally replenishable. Otherwise, the water source effectively becomes a non-renewable resource . Improvements in water well drilling technology and submersible pumps , combined with the development of drip irrigation and low-pressure pivots, have made it possible to regularly achieve high crop yields in areas where reliance on rainfall alone had previously made successful agriculture unpredictable. However, this progress has come at a price. In many areas, such as the Ogallala Aquifer , the water is being used faster than it can be replenished.",
+      "char_offset": 15804
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the UC Davis Agricultural Sustainability Institute, several steps must be taken to develop drought-resistant farming systems even in \"normal\" years with average rainfall. These measures include both policy and management actions: [ 83 ]",
+      "char_offset": 16617
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators for sustainable water resource development include the average annual flow of rivers from rainfall, flows from outside a country, the percentage of water coming from outside a country, and gross water withdrawal. [ 84 ] It is estimated that agricultural practices consume 69% of the world's fresh water. [ 85 ]",
+      "char_offset": 16868
+    },
+    {
+      "type": "paragraph",
+      "text": "Farmers discovered a way to save water using wool in Wyoming and other parts of the United States. [ 86 ]",
+      "char_offset": 17191
+    },
+    {
+      "type": "paragraph",
+      "text": "Sustainable agriculture attempts to solve multiple problems with one broad solution. The goal of sustainable agricultural practices is to decrease environmental degradation due to farming while increasing crop\u2013and thus food\u2013output. There are many varying strategies attempting to use sustainable farming practices in order to increase rural economic development within small-scale farming communities. Two of the most popular and opposing strategies within the modern discourse are allowing unrestricted markets to determine food production and deeming food a human right . Neither of these approaches have been proven to work without fail. A promising proposal to rural poverty reduction within agricultural communities is sustainable economic growth; the most important aspect of this policy is to regularly include the poorest farmers in the economy-wide development through the stabilization of small-scale agricultural economies. [ 87 ]",
+      "char_offset": 17298
+    },
+    {
+      "type": "paragraph",
+      "text": "In the early 1900's in rural America, Dr. George Washington Carver attempted to address rural poverty by teaching sustainable agricultural practices. He invented the Jesup Wagon, an agricultural school on wheels so Dr. Carver could reach the rural farmers and teach them sustainable farming at their own farms, giving the farmers hands-on practice and experience. [ 88 ] Some of the teachings Dr. Carver brought to rural areas were breaking monoculture farming practices, typically of cotton, and teaching the importance of crop rotation, composting, and nutrients in the soil like nitrogen. [ 89 ] Dr. Carver's teachings and impact lead to much of the modern day agricultural movements in the United States. His legacy continues as a part of the USDA 's Agricultural Research Service (ARS) headquarters, which was named after him. There, they continue to expand upon Dr. Carver's focus on soil health and conservation in order to mitigate the causes and impacts of climate change. [ 90 ]",
+      "char_offset": 18241
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2007, the United Nations reported on \" Organic Agriculture and Food Security in Africa\", stating that using sustainable agriculture could be a tool in reaching global food security without expanding land usage and reducing environmental impacts . [ 91 ] There has been evidence provided by developing nations from the early 2000s stating that when people in their communities are not factored into the agricultural process that serious harm is done. The social scientist Charles Kellogg has stated that, \"In a final effort, exploited people pass their suffering to the land.\" [ 91 ] Sustainable agriculture mean the ability to permanently and continuously \"feed its constituent populations\". [ 91 ]",
+      "char_offset": 19231
+    },
+    {
+      "type": "paragraph",
+      "text": "There are a lot of opportunities that can increase farmers' profits, improve communities, and continue sustainable practices. For example, in Uganda , Genetically Modified Organisms were originally illegal. However, with the stress of banana crisis in Uganda, where Banana Bacterial Wilt had the potential to wipe out 90% of yield, they decided to explore GMOs as a possible solution. [ 92 ] The government issued the National Biotechnology and Biosafety bill, which will allow scientists that are part of the National Banana Research Program to start experimenting with genetically modified organisms. [ 93 ] This effort has the potential to help local communities because a significant portion live off the food they grow themselves , and it will be profitable because the yield of their main produce will remain stable.",
+      "char_offset": 19934
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all regions are suitable for agriculture. [ 94 ] [ 95 ] The technological advancement of the past few decades has allowed agriculture to develop in some of these regions. For example, Nepal has built greenhouses to deal with its high altitude and mountainous regions. [ 39 ] Greenhouses allow for greater crop production and also use less water since they are closed systems. [ 96 ]",
+      "char_offset": 20758
+    },
+    {
+      "type": "paragraph",
+      "text": "Desalination techniques can turn salt water into fresh water which allows greater access to water for areas with a limited supply. [ 97 ] This allows the irrigation of crops without decreasing natural fresh water sources. [ 98 ] While desalination can be a tool to provide water to areas that need it to sustain agriculture, it requires money and resources. Regions of China have been considering large scale desalination in order to increase access to water, but the current cost of the desalination process makes it impractical. [ 99 ]",
+      "char_offset": 21146
+    },
+    {
+      "type": "paragraph",
+      "text": "Women working in sustainable agriculture come from numerous backgrounds, ranging from academia to labor. From 1978 to 2007, in the United States , the number of women farm operators has tripled. [ 94 ] In 2007, women operated 14 percent of farms, compared to five percent in 1978. Much of the growth is due to women farming outside of the \"male dominated field of conventional agriculture\". [ 94 ]",
+      "char_offset": 21685
+    },
+    {
+      "type": "paragraph",
+      "text": "The practice of growing food in the backyard of houses, schools, etc., by families or by communities became widespread in the US at the time of World War I , the Great Depression and World War II , so that in one point of time 40% of the vegetables of the USA was produced in this way. The practice became more popular again in the time of the COVID-19 pandemic . This method permits to grow food in a relatively sustainable way and at the same time can make it easier for poor people to obtain food. [ 100 ]",
+      "char_offset": 22084
+    },
+    {
+      "type": "paragraph",
+      "text": "Costs, such as environmental problems, not covered in traditional accounting systems (which take into account only the direct costs of production incurred by the farmer) are known as externalities . [ 19 ]",
+      "char_offset": 22594
+    },
+    {
+      "type": "paragraph",
+      "text": "Netting studied sustainability and intensive farming in smallholder systems through history. [ 101 ]",
+      "char_offset": 22801
+    },
+    {
+      "type": "paragraph",
+      "text": "There are several studies incorporating externalities such as ecosystem services, biodiversity, land degradation, and sustainable land management in economic analysis. These include The Economics of Ecosystems and Biodiversity study and the Economics of Land Degradation Initiative which seek to establish an economic cost-benefit analysis on the practice of sustainable land management and sustainable agriculture.",
+      "char_offset": 22903
+    },
+    {
+      "type": "paragraph",
+      "text": "Triple bottom line frameworks include social and environmental alongside a financial bottom line. A sustainable future can be feasible if growth in material consumption and population is slowed down and if there is a drastic increase in the efficiency of material and energy use. To make that transition, long- and short-term goals will need to be balanced enhancing equity and quality of life. [ 102 ]",
+      "char_offset": 23320
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the report of United Nations from 2025, hunger increases globally for 6 years in a row. As funding become scarce, a possible solution is \"investment in sustainable agriculture, which is four times more cost-effective than direct food assistance but only accounts for three percent of humanitarian funds.\" [ 103 ]",
+      "char_offset": 23724
+    },
+    {
+      "type": "paragraph",
+      "text": "The barriers to sustainable agriculture can be broken down and understood through three different dimensions. These three dimensions are seen as the core pillars to sustainability : social, environmental, and economic pillars. [ 104 ] The social pillar addresses issues related to the conditions in which societies are born into, growing in, and learning from. [ 104 ] It deals with shifting away from traditional practices of agricultural and moving into new sustainable practices that will create better societies and conditions. [ 104 ] The environmental pillar addresses climate change and focuses on agricultural practices that protect the environment for future generations. [ 104 ] The economic pillar discovers ways in which sustainable agriculture can be practiced while fostering economic growth and stability, with minimal disruptions to livelihoods. [ 104 ] All three pillars must be addressed to determine and overcome the barriers preventing sustainable agricultural practices. [ 104 ]",
+      "char_offset": 24051
+    },
+    {
+      "type": "paragraph",
+      "text": "Social barriers to sustainable agriculture include cultural shifts, the need for collaboration, incentives, and new legislation. [ 104 ] The move from conventional to sustainable agriculture will require significant behavioural changes from both farmers and consumers. [ 105 ] Cooperation and collaboration between farmers is necessary to successfully transition to sustainable practices with minimal complications. [ 105 ] This can be seen as a challenge for farmers who care about competition and profitability. [ 106 ] There must also be an incentive for farmers to change their methods of agriculture. [ 107 ] The use of public policy, advertisements, and laws that make sustainable agriculture mandatory or desirable can be utilized to overcome these social barriers. [ 108 ]",
+      "char_offset": 25052
+    },
+    {
+      "type": "paragraph",
+      "text": "Environmental barriers prevent the ability to protect and conserve the natural ecosystem. [ 104 ] Examples of these barriers include the use of pesticides and the effects of climate change. [ 104 ] Pesticides are widely used to combat pests that can devastate production and plays a significant role in keeping food prices and production costs low. [ 109 ] To move toward sustainable agriculture, farmers are encouraged to utilize green pesticides, which cause less harm to both human health and habitats, but would entail a higher production cost. [ 110 ] Climate change is also a rapidly growing barrier, one that farmers have little control over, which can be seen through place-based barriers. [ 111 ] These place-based barriers include factors such as weather conditions, topography , and soil quality which can cause losses in production, resulting in the reluctance to switch from conventional practices. [ 111 ] Many environmental benefits are also not visible or immediately evident. [ 112 ] Significant changes such as lower rates of soil and nutrient loss, improved soil structure , and higher levels of beneficial microorganisms take time. [ 112 ] In conventional agriculture , the benefits are easily visible with no weeds, pests, etc..., but the long term costs to the soil and surrounding ecosystems are hidden and \"externalized\". [ 112 ] Conventional agricultural practices since the evolution of technology have caused significant damage to the environment through biodiversity loss , disrupted ecosystems, poor water quality, among other harms. [ 107 ]",
+      "char_offset": 25834
+    },
+    {
+      "type": "paragraph",
+      "text": "The economic obstacles to implementing sustainable agricultural practices include low financial return/profitability, lack of financial incentives, and negligible capital investments. [ 113 ] Financial incentives and circumstances play a large role in whether sustainable practices will be adopted. [ 104 ] [ 113 ] The human and material capital required to shift to sustainable methods of agriculture requires training of the workforce and making investments in new technology and products, which comes at a high cost. [ 104 ] [ 113 ] In addition to this, farmers practicing conventional agriculture can mass-produce their crops, and therefore maximize their profitability. [ 104 ] This would be difficult to do in sustainable agriculture which encourages low production capacity. [ 104 ]",
+      "char_offset": 27406
+    },
+    {
+      "type": "paragraph",
+      "text": "The author James Howard Kunstler claims almost all modern technology is bad and that there cannot be sustainability unless agriculture is done in ancient traditional ways. [ 114 ] Efforts toward more sustainable agriculture are supported in the sustainability community, however, these are often viewed only as incremental steps and not as an end. [ 107 ] One promising method of encouraging sustainable agriculture is through local farming and community gardens . [ 107 ] Incorporating local produce and agricultural education into schools, communities, and institutions can promote the consumption of freshly grown produce which will drive consumer demand. [ 107 ]",
+      "char_offset": 28197
+    },
+    {
+      "type": "paragraph",
+      "text": "Some foresee a true sustainable steady state economy that may be very different from today's: greatly reduced energy usage, minimal ecological footprint , fewer consumer packaged goods , local purchasing with short food supply chains , little processed foods , more home and community gardens , etc. [ 115 ]",
+      "char_offset": 28865
+    },
+    {
+      "type": "paragraph",
+      "text": "There is a debate on the definition of sustainability regarding agriculture. The definition could be characterized by two different approaches: an ecocentric approach and a technocentric approach . [ 116 ] The ecocentric approach emphasizes no- or low-growth levels of human development, and focuses on organic and biodynamic farming techniques with the goal of changing consumption patterns, and resource allocation and usage. The technocentric approach argues that sustainability can be attained through a variety of strategies, from the view that state-led modification of the industrial system like conservation-oriented farming systems should be implemented, to the argument that biotechnology is the best way to meet the increasing demand for food. [ 116 ]",
+      "char_offset": 29174
+    },
+    {
+      "type": "paragraph",
+      "text": "One can look at the topic of sustainable agriculture through two different lenses: multifunctional agriculture and ecosystem services . [ 117 ] Both of these approaches are similar, but look at the function of agriculture differently. Those that employ the multifunctional agriculture philosophy focus on farm-centered approaches, and define function as being the outputs of agricultural activity. [ 117 ] The central argument of multifunctionality is that agriculture is a multifunctional enterprise with other functions aside from the production of food and fiber. These functions include renewable resource management, landscape conservation and biodiversity. [ 118 ] The ecosystem service-centered approach posits that individuals and society as a whole receive benefits from ecosystems , which are called \"ecosystem services\". [ 117 ] [ 119 ] In sustainable agriculture, the services that ecosystems provide include pollination , soil formation , and nutrient cycling , all of which are necessary functions for the production of food. [ 120 ]",
+      "char_offset": 29938
+    },
+    {
+      "type": "paragraph",
+      "text": "It is also claimed sustainable agriculture is best considered as an ecosystem approach to agriculture, called agroecology . [ 121 ]",
+      "char_offset": 30987
+    },
+    {
+      "type": "paragraph",
+      "text": "Most agricultural professionals agree that there is a \"moral obligation to pursue [the] goal [of] sustainability.\" [ 91 ] The major debate comes from what system will provide a path to that goal because if an unsustainable method is used on a large scale it will have a massive negative effect on the environment and human population.",
+      "char_offset": 31120
+    },
+    {
+      "type": "paragraph",
+      "text": "Other practices include polyculture , growing a diverse number of perennial crops in a single field, each of which would grow in separate seasons so as not to compete with each other for natural resources. [ 122 ] This system would result in increased resistance to diseases and decreased effects of erosion and loss of nutrients in the soil. Nitrogen fixation from legumes, for example, used in conjunction with plants that rely on nitrate from the soil for growth, helps to allow the land to be reused annually. Legumes will grow for a season and replenish the soil with ammonium and nitrate, and the next season other plants can be seeded and grown in the field in preparation for harvest.",
+      "char_offset": 31456
+    },
+    {
+      "type": "paragraph",
+      "text": "Sustainable methods of weed management may help reduce the development of herbicide-resistant weeds. [ 123 ] Crop rotation may also replenish nitrogen if legumes are used in the rotations and may also use resources more efficiently. [ 124 ]",
+      "char_offset": 32150
+    },
+    {
+      "type": "paragraph",
+      "text": "There are also many ways to practice sustainable animal husbandry . Some of the tools to grazing management include fencing off the grazing area into smaller areas called paddocks , lowering stock density, and moving the stock between paddocks frequently. [ 125 ]",
+      "char_offset": 32392
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the realm of sustainable agriculture methods, the integration of different farming practices is gaining recognition for its potential to enhance efficiency and reduce environmental impact. For example, research on integrated wheat-fish farming in Egypt has demonstrated increased overall productivity and potential for reduced reliance on external inputs. [ 126 ] This approach, aligning with principles seen in other integrated systems like rice-fish culture, underscores the value of diversifying the combing farming activities for greater sustainability.",
+      "char_offset": 32657
+    },
+    {
+      "type": "paragraph",
+      "text": "An increased production is a goal of intensification . Sustainable intensification encompasses specific agriculture methods that increase production and at the same time help improve environmental outcomes. The desired outcomes of the farm are achieved without the need for more land cultivation or destruction of natural habitat; the system performance is upgraded with no net environmental cost. Sustainable Intensification has become a priority for the United Nations. Sustainable intensification differs from prior intensification methods by specifically placing importance on broader environmental outcomes. By 2018; it was predicted in 100 nations a combined total of 163 million farms used sustainable intensification. The amount of agricultural land covered by this is 453 million ha of land. That amount of land is equal to 29% of farms worldwide. [ 127 ] In light of concerns about food security , human population growth and dwindling land suitable for agriculture, sustainable intensive farming practises are needed to maintain high crop yields , while maintaining soil health and ecosystem services . The capacity for ecosystem services to be strong enough to allow a reduction in use of non-renewable inputs whilst maintaining or boosting yields has been the subject of much debate. Recent work in irrigated rice production system of east Asia has suggested that \u2013 in relation to pest management at least \u2013 promoting the ecosystem service of biological control using nectar plants can reduce the need for insecticides by 70% whilst delivering a 5% yield advantage compared with standard practice. [ 128 ]",
+      "char_offset": 33223
+    },
+    {
+      "type": "paragraph",
+      "text": "Vertical farming is a concept with the potential advantages of year-round production, isolation from pests and diseases, controllable resource recycling and reduced transportation costs. [ 129 ]",
+      "char_offset": 34843
+    },
+    {
+      "type": "paragraph",
+      "text": "Water efficiency can be improved by reducing the need for irrigation and using alternative methods. Such methods include: researching on drought resistant crops, monitoring plant transpiration and reducing soil evaporation . [ 130 ]",
+      "char_offset": 35039
+    },
+    {
+      "type": "paragraph",
+      "text": "Drought resistant crops have been researched extensively as a means to overcome the issue of water shortage . They are modified genetically so they can adapt in an environment with little water. This is beneficial as it reduces the need for irrigation and helps conserve water. Although they have been extensively researched, significant results have not been achieved as most of the successful species will have no overall impact on water conservation. However, some grains like rice , for example, have been successfully genetically modified to be drought resistant. [ 131 ]",
+      "char_offset": 35273
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil amendments include using compost from recycling centers. Using compost from yard and kitchen waste uses available resources in the area.",
+      "char_offset": 35851
+    },
+    {
+      "type": "paragraph",
+      "text": "Abstinence from soil tillage before planting and leaving the plant residue after harvesting reduces soil water evaporation; It also serves to prevent soil erosion. [ 132 ]",
+      "char_offset": 35994
+    },
+    {
+      "type": "paragraph",
+      "text": "Crop residues left covering the surface of the soil may result in reduced evaporation of water, a lower surface soil temperature, and reduction of wind effects. [ 132 ]",
+      "char_offset": 36167
+    },
+    {
+      "type": "paragraph",
+      "text": "A way to make rock phosphate more effective is to add microbial inoculates such as phosphate-solubilizing microorganisms, known as PSMs, to the soil. [ 40 ] [ 95 ] These solubilize phosphorus already in the soil and use processes like organic acid production and ion exchange reactions to make that phosphorus available for plants. [ 95 ] Experimentally, these PSMs have been shown to increase crop growth in terms of shoot height, dry biomass and grain yield. [ 95 ]",
+      "char_offset": 36337
+    },
+    {
+      "type": "paragraph",
+      "text": "Phosphorus uptake is even more efficient with the presence of mycorrhizae in the soil. [ 133 ] Mycorrhiza is a type of mutualistic symbiotic association between plants and fungi, [ 133 ] which are well-equipped to absorb nutrients, including phosphorus, in soil. [ 134 ] These fungi can increase nutrient uptake in soil where phosphorus has been fixed by aluminum, calcium, and iron. [ 134 ] Mycorrhizae can also release organic acids that solubilize otherwise unavailable phosphorus. [ 134 ]",
+      "char_offset": 36806
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil steaming can be used as an alternative to chemicals for soil sterilization. Different methods are available to induce steam into the soil to kill pests and increase soil health.",
+      "char_offset": 37300
+    },
+    {
+      "type": "paragraph",
+      "text": "Solarizing is based on the same principle, used to increase the temperature of the soil to kill pathogens and pests. [ 135 ]",
+      "char_offset": 37484
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain plants can be cropped for use as biofumigants , \"natural\" fumigants , releasing pest suppressing compounds when crushed, ploughed into the soil, and covered in plastic for four weeks. Plants in the Brassicaceae family release large amounts of toxic compounds such as methyl isothiocyanates . [ 136 ] [ 137 ]",
+      "char_offset": 37610
+    },
+    {
+      "type": "paragraph",
+      "text": "Relocating current croplands to environmentally more optimal locations, whilst allowing ecosystems in then-abandoned areas to regenerate could substantially decrease the current carbon, biodiversity, and irrigation water footprint of global crop production, with relocation only within national borders also having substantial potential. [ 138 ] [ 139 ]",
+      "char_offset": 37927
+    },
+    {
+      "type": "paragraph",
+      "text": "Sustainability may also involve crop rotation . [ 140 ] Crop rotation and cover crops prevent soil erosion , by protecting topsoil from wind and water. [ 39 ] Effective crop rotation can reduce pest pressure on crops, provides weed control, reduces disease build up, and improves the efficiency of soil nutrients and nutrient cycling. [ 141 ] This reduces the need for fertilizers and pesticides . [ 140 ] Increasing the diversity of crops by introducing new genetic resources can increase yields by 10 to 15 percent compared to when they are grown in monoculture. [ 141 ] [ 142 ] Perennial crops reduce the need for tillage and thus help mitigate soil erosion, and may sometimes tolerate drought better, increase water quality and help increase soil organic matter. There are research programs attempting to develop perennial substitutes for existing annual crops, such as replacing wheat with the wild grass Thinopyrum intermedium , or possible experimental hybrids of it and wheat. [ 143 ] Being able to do all of this without the use of chemicals is one of the main goals of sustainability which is why crop rotation is a very central method of sustainable agriculture. [ 141 ]",
+      "char_offset": 38282
+    },
+    {
+      "type": "paragraph",
+      "text": "Sustainable agriculture is not limited to practices within individual plots but can also be considered at the landscape scale. This broader approach is particularly relevant for reconciling biodiversity conservation while maintaining sufficient agricultural production. In this context, two landscape management strategies are traditionally opposed: land sparing and land sharing. [ 144 ] [ 9 ] [ 145 ] These two strategies have generated intense debate within the scientific community for over a decade, with no clear consensus emerging on their relative effectiveness in balancing biodiversity conservation with food production and rural livelihoods. A literature review of empirical studies indicates that land sparing is generally favored for conserving tropical forest biodiversity (67% of relevant studies), whereas land sharing (58% of studies) is more often considered more beneficial for the food security and livelihoods of farmers in developing countries. [ 146 ] Recently, a third alternative has been introduced to the debate: the so-called land blending strategy, an intermediate approach between the two traditional ones, as the effectiveness of both strategies appears to vary depending on the landscape context. [ 147 ]",
+      "char_offset": 39465
+    },
+    {
+      "type": "paragraph",
+      "text": "Land sparing is a strategy that involves strictly separating land dedicated to agricultural production from land dedicated to conservation of natural habitats. [ 9 ] [ 148 ] This strategy promotes increasing the yield of agricultural land, particularly through intensive farming . This is done to preserve areas of major biodiversity interest from agricultural expansion. This has been the dominant strategy in developed countries for over 150 years.",
+      "char_offset": 40703
+    },
+    {
+      "type": "paragraph",
+      "text": "Land sharing, also known as \"wildlife-friendly agriculture\", involves integrating biodiversity into agricultural production areas. [ 9 ] [ 148 ] This approach focuses on the combination of agriculture and biodiversity by reducing the intensification of farming practices. This is illustrated notably by agroecological practices such as agroforestry and mixed crop-livestock systems.",
+      "char_offset": 41155
+    },
+    {
+      "type": "paragraph",
+      "text": "Previously described as a \"mixed strategy\", a term considered too ambiguous in ecology, land blending is an intermediate approach between land sparing and land sharing. [ 147 ] Unlike these two traditionally opposed strategies, land blending offers a flexible combination of the two approaches, adapted to the specific landscape features. This third strategy has only recently emerged as a credible and viable alternative to the traditional land sparing and land sharing. [ 149 ] [ 150 ] Recent research [ 147 ] has highlighted its potential for effectively reconciling biodiversity conservation and agricultural production, while enhancing resilience in the face of change and uncertainty.",
+      "char_offset": 41539
+    },
+    {
+      "type": "paragraph",
+      "text": "an integrated farming system that strives for sustainability, the enhancement of soil fertility and biological diversity whilst, with rare exceptions, prohibiting synthetic pesticides, antibiotics, synthetic fertilizers, genetically modified organisms, and growth hormones. [ 151 ] [ 152 ] [ 153 ] [ 154 ]",
+      "char_offset": 42231
+    },
+    {
+      "type": "paragraph",
+      "text": "Some claim organic agriculture may produce the most sustainable products available for consumers in the US, where no other alternatives exist, although the focus of the organics industry is not sustainability. [ 140 ]",
+      "char_offset": 42538
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2018 the sales of organic products in USA reach $52.5 billion. [ 155 ] According to a USDA survey, two-thirds of Americans consume organic products at least occasionally. [ 156 ] Recent syntheses estimate that carbon dioxide emissions from land-use change and forestry are about 3\u20134 GtCO2 per year, contributing roughly 10\u201312% of total anthropogenic CO2 emissions in recent years. [ 157 ] [ 158 ]",
+      "char_offset": 42757
+    },
+    {
+      "type": "paragraph",
+      "text": "Ecological farming is a concept that focused on the environmental aspects of sustainable agriculture. Ecological farming includes all methods, including organic, which regenerate ecosystem services like: prevention of soil erosion , water infiltration and retention, carbon sequestration in the form of humus, and increased biodiversity. [ 159 ] Many techniques are used including no-till farming , multispecies cover crops, strip cropping, terrace cultivation, shelter belts, pasture cropping etc.",
+      "char_offset": 43158
+    },
+    {
+      "type": "paragraph",
+      "text": "There are a plethora of methods and techniques that are employed when practicing ecological farming, all having their own unique benefits and implementations that lead to more sustainable agriculture. Crop genetic diversity is one method that is used to reduce the risks associated with monoculture crops, which can be susceptible to a changing climate. [ 160 ] This form of biodiversity causes crops to be more resilient, increasing food security and enhancing the productivity of the field on a long-term scale. [ 160 ] The use of biodigestors is another method which converts organic waste into a combustible gas, which can provide several benefits to an ecological farm: it can be used as a fuel source, fertilizer for crops and fish ponds, and serves as a method for removing wastes that are rich in organic matter. [ 161 ] Because biodigestors can be used as fertilizer, it reduces the amount of industrial fertilizers that are needed to sustain the yields of the farm. Another technique used is aquaculture integration, which combines fish farming with agricultural farming, using the wastes from animals and crops and diverting them towards the fish farms to be used up instead of being leeched into the environment. [ 162 ] Mud from the fish ponds can also be used to fertilize crops. [ 162 ]",
+      "char_offset": 43658
+    },
+    {
+      "type": "paragraph",
+      "text": "Organic fertilizers can also be employed in an ecological farm, such as animal and green manure. [ 163 ] This allows soil fertility to be improved and well-maintained, leads to reduced costs and increased yields, reduces the usage of non-renewable resources in industrial fertilizers (Nitrogen and Phosphorus), and reduces the environmental pressures that are posed by intensive agricultural systems. [ 163 ] Precision Agriculture can also be used, which focuses on efficient removal of pests using non-chemical techniques and minimizes the amount of tilling needed to sustain the farm. An example of a precision machine is the false seedbed tiller, which can remove a great majority of small weeds while only tilling one centimeter deep. [ 164 ] This minimized tilling reduces the amount of new weeds that germinate from soil disturbance. [ 164 ] Other methods that reduce soil erosion include contour farming, strip cropping, and terrace cultivation. [ 165 ]",
+      "char_offset": 44961
+    },
+    {
+      "type": "paragraph",
+      "text": "The challenge for ecological farming science is to be able to achieve a mainstream productive food system that is sustainable or even regenerative. To enter the field of ecological farming, location relative to the consumer, can reduce the food miles factor to help minimise damage to the biosphere by combustion engine emissions involved in current food transportation.",
+      "char_offset": 45923
+    },
+    {
+      "type": "paragraph",
+      "text": "Design of the ecological farm is initially constrained by the same limitations as conventional farming: local climate, the soil's physical properties, budget for beneficial soil supplements, manpower and available automatons; however long-term water management by ecological farming methods is likely to conserve and increase water availability for the location, and require far fewer inputs to maintain fertility.",
+      "char_offset": 46295
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain principles unique to ecological farming need to be considered.",
+      "char_offset": 46711
+    },
+    {
+      "type": "paragraph",
+      "text": "Often thought of as inherently destructive, slash-and-burn or slash-and-char shifting cultivation have been practiced in the Amazon for thousands of years. [ 174 ]",
+      "char_offset": 46783
+    },
+    {
+      "type": "paragraph",
+      "text": "Some traditional systems combine polyculture with sustainability. In South-East Asia, rice-fish systems on rice paddies have raised freshwater fish as well as rice, producing an additional product and reducing eutrophication of neighboring rivers. [ 175 ] A variant in Indonesia combines rice, fish, ducks and water fern; the ducks eat the weeds that would otherwise limit rice growth, saving labor and herbicides, while the duck and fish manure substitute for fertilizer. [ 176 ]",
+      "char_offset": 46948
+    },
+    {
+      "type": "paragraph",
+      "text": "Raised field agriculture has been recently revived in certain areas of the world, such as the Altiplano region in Bolivia and Peru . This has resurged in the form of traditional Waru Waru raised fields, which create nutrient-rich soil in regions where such soil is scarce. This method is extremely productive and has recently been utilized by indigenous groups in the area and the nearby Amazon Basin to make use of lands that have been historically hard to cultivate.",
+      "char_offset": 47430
+    },
+    {
+      "type": "paragraph",
+      "text": "Other forms of traditional agriculture include agro forestry, crop rotations, and water harvesting. Water harvesting is one of the largest and most common practices, particularly used in dry areas and seasons. In Ethiopia, over half of their GDP and over 80 percent of their exports are attributed to agriculture; yet, it is known for its intense droughts and dry periods. [ 177 ] Rain water harvesting is considered to be a low-cost alternative. This type of harvesting collects and stores water from roof tops during high-rain periods for use during droughts. [ 178 ] Rainwater harvesting has been a large practice to help the country survive by focusing on runoff irrigation, roof water harvesting, and flood spreading.",
+      "char_offset": 47900
+    },
+    {
+      "type": "paragraph",
+      "text": "Native Americans in the United States practiced sustainable agriculture through their subsistence farming techniques. Many tribes grew or harvested their own food from plants that thrived in their local ecosystems. Native American farming practices are specific to local environments and work with natural processes. [ 179 ] This is a practice called Permaculture , and it involves a deep understanding of the local environment. [ 180 ] Native American farming techniques also incorporate local biodiversity into many of their practices, which helps the land remain healthy. [ 181 ]",
+      "char_offset": 48624
+    },
+    {
+      "type": "paragraph",
+      "text": "Many indigenous tribes incorporated intercropping into their agriculture, which is a practice where multiple crops are planted together in the same area. This strategy allows crops to help one another grow through exchanged nutrients, maintained soil moisture, and physical supports for one another. The crops that are paired in intercropping often do not heavily compete for resources, which helps them to each be successful. For example, many tribes utilized intercropping in ways such as the Three Sisters Garden. This gardening technique consists of corn, beans, and squash. These crops grow in unity as the corn stalk supports the beans, the beans produce nitrogen, and the squash retain moisture. [ 182 ] Intercropping also provides a natural strategy for pest management and the prevention of weed growth. Intercropping is a natural agricultural practice that often improves the overall health of the soil and plants, increases crop yield, and is sustainable. [ 180 ]",
+      "char_offset": 49208
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most significant aspects of indigenous sustainable agriculture is their traditional ecological knowledge of harvesting. The Anishinaabe tribes follow an ideology known as \"the Honorable Harvest\". The Honorable Harvest is a set of practices that emphasize the idea that people should \"take only what you need and use everything you take.\" [ 183 ] Resources are conserved through this practice because several rules are followed when harvesting a plant. These rules are to never take the first plant, never take more than half of the plants, and never take the last plant. [ 184 ] This encourages future growth of the plant and therefore leads to a sustainable use of the plants in the area.",
+      "char_offset": 50184
+    },
+    {
+      "type": "paragraph",
+      "text": "Native Americans practiced agroforestry by managing the forest, animals, and crops together. They also helped promote tree growth through controlled burns and silviculture . Often, the remaining ash from these burns would be used to fertilize their crops. By improving the conditions of the forest, the local wildlife populations also increased. Native Americans allowed their livestock to graze in the forest, which provided natural fertilizer for the trees as well. [ 180 ]",
+      "char_offset": 50886
+    },
+    {
+      "type": "paragraph",
+      "text": "Regenerative agriculture is a conservation and rehabilitation approach to food and farming systems. It focuses on topsoil regeneration , increasing biodiversity , [ 185 ] improving the water cycle , [ 186 ] enhancing ecosystem services , supporting biosequestration , increasing resilience to climate change , and strengthening the health and vitality of farm soil. Practices include, recycling as much farm waste as possible, and adding composted material from sources outside the farm. [ 94 ] [ 187 ] [ 39 ] [ 188 ] [ 189 ] In recent years this regenerative approach to agriculture has been gaining momentum across food system actors such as farmers and industries. [ 190 ]",
+      "char_offset": 51363
+    },
+    {
+      "type": "paragraph",
+      "text": "Permaculture is an approach to land management and settlement design that adopts arrangements observed in flourishing natural ecosystems . It includes a set of design principles derived using whole-systems thinking . It applies these principles in fields such as regenerative agriculture , town planning, rewilding , and community resilience . The term was coined in 1978 by Bill Mollison and David Holmgren , who formulated the concept in opposition to modern industrialized methods, instead adopting a more traditional or \"natural\" approach to agriculture. [ 191 ] [ 192 ] [ 193 ]",
+      "char_offset": 52040
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiple thinkers in the early and mid-20th century explored no-dig gardening , no-till farming , and the concept of \"permanent agriculture\", which were early inspirations for the field of permaculture. [ 194 ] Mollison and Holmgren's work from the 1970s and 1980s led to several books, starting with Permaculture One in 1978, and to the development of the \"Permaculture Design Course\" which has been one of the main methods of diffusion of permacultural ideas. [ 195 ] Starting from a focus on land usage in Southern Australia , permaculture has since spread in scope to include other regions and other topics, such as appropriate technology and intentional community design. [ 196 ]",
+      "char_offset": 52624
+    },
+    {
+      "type": "paragraph",
+      "text": "Several concepts and practices unify the wide array of approaches labelled as permaculture. Mollison and Holmgren's three foundational ethics and Holmgren's twelve design principles are often cited and restated in permaculture literature. [ 195 ] Practices such as companion planting , extensive use of perennial crops, and designs such as the herb spiral have been used extensively by permaculturists.",
+      "char_offset": 53310
+    },
+    {
+      "type": "paragraph",
+      "text": "Permaculture as a popular movement has been largely isolated from scientific literature, and has been criticised for a lack of clear definition or rigorous methodology. [ 197 ] Despite a long divide, some 21st-century studies have supported the claims that permaculture improves soil quality and biodiversity, [ 198 ] and have identified it as a social movement capable of promoting agroecological transition away from conventional agriculture. [ 194 ] [ 198 ]",
+      "char_offset": 53714
+    },
+    {
+      "type": "paragraph",
+      "text": "There is limited evidence polyculture may contribute to sustainable agriculture. A meta-analysis of a number of polycrop studies found that predator insect biodiversity was higher at comparable yields than conventional in certain two-crop systems with a single cash crop combined with a cover crop. [ 199 ]",
+      "char_offset": 54176
+    },
+    {
+      "type": "paragraph",
+      "text": "One approach to sustainability is to develop polyculture systems using perennial crop varieties. Such varieties are being developed for rice, wheat, sorghum, barley, and sunflowers. If these can be combined in polyculture with a leguminous cover crop such as alfalfa, fixation of nitrogen will be added to the system, reducing the need for fertilizer and pesticides. [ 143 ]",
+      "char_offset": 54484
+    },
+    {
+      "type": "paragraph",
+      "text": "The use of available city space (e.g., rooftop gardens , community gardens , garden sharing , organop\u00f3nicos , and other forms of urban agriculture ) may be able to contribute to sustainability. [ 200 ] Some consider \" guerrilla gardening \" an example of sustainability in action [ 201 ] \u2013 in some cases seeds of edible plants have been sown in local rural areas. [ 202 ]",
+      "char_offset": 54860
+    },
+    {
+      "type": "paragraph",
+      "text": "Hydroponics is an alternative to agriculture that creates the ideal environment with water for optimal growth without using a dormant medium. This innovative farming technique produces higher crop yields without compromising soil health. The most significant drawback of this sustainable farming technique is the cost associated with development. [ 203 ]",
+      "char_offset": 55232
+    },
+    {
+      "type": "paragraph",
+      "text": "Certification systems are important to the agriculture community and to consumers as these standards determine the sustainability of produce. Numerous sustainability standards and certification systems exist, including organic certification , Rainforest Alliance , Fair Trade , UTZ Certified , GlobalGAP , Bird Friendly, and the Common Code for the Coffee Community (4C). [ 14 ] These standards specify rules that producers, manufacturers and traders need to follow so that the things they do, make, or grow do not hurt people and the environment. [ 204 ] These standards are also known as Voluntary Sustainability Standards (VSS) that are private standards that require products to meet specific economic, social or environmental sustainability metrics. The requirements can refer to product quality or attributes, but also to production and processing methods, as well as transportation.",
+      "char_offset": 55588
+    },
+    {
+      "type": "paragraph",
+      "text": "VSS are mostly designed and marketed by non-governmental organizations (NGOs) or private firms and they are adopted by actors up and down the value chain, from farmers to retailers. Certifications and labels are used to signal the successful implementation of a VSS. According to the ITC standards map the mostly covered products by standards are agricultural products. [ 205 ] Around 500 VSS today apply to key exports of many developing countries, such as coffee, tea, bananas, cocoa, palm oil, timber, cotton, and organic agri-foods. [ 206 ] VSS are found to reduce eutrophication, water use, greenhouse gas emissions, and natural ecosystem conversion. [ 207 ] And thus are considered as a potential tool for sustainable agriculture.",
+      "char_offset": 56479
+    },
+    {
+      "type": "paragraph",
+      "text": "The USDA produces an organic label that is supported by nationalized standards of farmers and facilities. The steps for certification consist of creating an organic system plan, which determines how produce will be tilled, grazed, harvested, stored, and transported. This plan also manages and monitors the substances used around the produce, the maintenance needed to protect the produce, and any nonorganic products that may come in contact with the produce. The organic system plan is then reviewed and inspected by the USDA certifying agent. Once the certification is granted, the produce receives an approval sticker from the USDA and the produce is distributed across the U.S. In order to hold farmers accountable and ensure that Americans are receiving organic produce, these inspections are done at least once a year. [ 208 ] This is just one example of sustainable certification systems through produce maintenance.",
+      "char_offset": 57217
+    },
+    {
+      "type": "paragraph",
+      "text": "Sustainable agriculture is a topic in international policy concerning its potential to reduce environmental risks. In 2011, the Commission on Sustainable Agriculture and Climate Change, as part of its recommendations for policymakers on achieving food security in the face of climate change, urged that sustainable agriculture must be integrated into national and international policy. [ 209 ]",
+      "char_offset": 58143
+    },
+    {
+      "type": "paragraph",
+      "text": "The Commission stressed that increasing weather variability and climate shocks will negatively affect agricultural yields, necessitating early action to drive change in agricultural production systems towards increasing resilience. [ 209 ] It also called for dramatically increased investments in sustainable agriculture in the next decade, including in national research and development budgets, land rehabilitation , economic incentives, and infrastructure improvement. [ 209 ]",
+      "char_offset": 58538
+    },
+    {
+      "type": "paragraph",
+      "text": "During 2021 United Nations Climate Change Conference , 45 countries pledged to give more than 4 billion dollars for transition to sustainable agriculture. The organization \"Slow Food\" expressed concern about the effectivity of the spendings, as they concentrate on technological solutions and reforestation en place of \"a holistic agroecology that transforms food from a mass-produced commodity into part of a sustainable system that works within natural boundaries.\" [ 210 ]",
+      "char_offset": 59019
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, the Summit consisted of negotiations that led to heavily reducing CO 2 emissions, becoming carbon neutral, ending deforestation and reliance on coal, and limiting methane emissions. [ 211 ] [ 212 ]",
+      "char_offset": 59496
+    },
+    {
+      "type": "paragraph",
+      "text": "In November, the Climate Action Tracker reported that global efforts are on track to for a 2.7 \u00b0C temperature increase with current policies, finding that the current targets will not meet global needs as coal and natural gas consumption are primarily responsible for the gap in progress. [ 213 ] [ 211 ] Since, like-minded developing countries, like those in Africa, [ 214 ] asked for an addendum to the agreement that removed the obligation for developing countries to meet the same requirements of wealthy nations. [ 215 ]",
+      "char_offset": 59709
+    },
+    {
+      "type": "paragraph",
+      "text": "In May 2020 the European Union published a program, named \"From Farm to Fork\" for making its agriculture more sustainable. In the official page of the program From Farm to Fork is cited Frans Timmermans the Executive Vice-President of the European Commission, saying that:",
+      "char_offset": 60236
+    },
+    {
+      "type": "paragraph",
+      "text": "The coronavirus crisis has shown how vulnerable we all are, and how important it is to restore the balance between human activity and nature. At the heart of the Green Deal the Biodiversity and Farm to Fork strategies point to a new and better balance of nature, food systems, and biodiversity; to protect our people's health and well-being, and at the same time to increase the EU's competitiveness and resilience. These strategies are a crucial part of the great transition we are embarking upon. [ 216 ]",
+      "char_offset": 60510
+    },
+    {
+      "type": "paragraph",
+      "text": "The New Deal implemented policies and programs that promoted sustainable agriculture. Under the Agriculture Adjustment Act of 1933, it provided farmers payments to create a supply management regime that capped production of important crops. [ 217 ] [ 218 ] [ 219 ] This allowed farmers to focus on growing food and not competing in the market based system. The New Deal also provided a monetary incentive for farmers that left some of their fields unsown or ungrazed to order to improve the soil conditions. [ 217 ] The Cooperative Extension Service was also established that set up sharing funding responsibilities amongst the USDA , land-grant universities, and local communities. [ 218 ]",
+      "char_offset": 61018
+    },
+    {
+      "type": "paragraph",
+      "text": "The 1950s to 1990s was when the government switched its stance on agriculture policy which halted sustainable agriculture. The Agricultural Act of 1954 passed which supported farmers with flexible price supports, but only to commodity programs. [ 220 ] The Food and Agricultural Act of 1965 had new income support payments and continued supply controls but reduced priced supports. [ 220 ] Agriculture and Consumer Protection Act of 1973 removed price supports and instead introduced target prices and deficiency payments. [ 220 ] It continued to promote commodity crops by lowering interest rates. Food Security Act of 1985 continued commodity loan programs. [ 219 ] [ 220 ] These policies incentivized profit over sustainability because the US government was promoting farms to maximize their production output instead of placing checks. [ 220 ] This meant that farms were being turned into food factories as they became bigger in size and grew more commodity crops like corn, wheat, and cotton. From 1900 to 2002, the number of farms in the US decreased significantly while the average size of a farm went up after 1950. [ 220 ] [ 219 ] The U.S was almost annually setting new records in crop-production and labor efficiency for 40 years after WWII. [ 221 ]",
+      "char_offset": 61710
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, the federal Natural Resources Conservation Service ( USDA ) provides technical and financial assistance for those interested in pursuing natural resource conservation along with production agriculture. With programs like SARE and China-UK SAIN to help promote research on sustainable agriculture practices and a framework for agriculture and climate change respectively.",
+      "char_offset": 62972
+    },
+    {
+      "type": "paragraph",
+      "text": "Currently, there are policies on the table that could move the US agriculture system into a more sustainable direction with the Green New Deal . This policy promotes decentralizing agrarian governance by breaking up large commodity farms that were created in the 1950s to 1980s. [ 217 ] Decentralized governance within the farming community would allow for more adaptive management at local levels to help focus on climate change mitigation , food security , and landscape-scale ecological stewardship. [ 217 ] The Green New Deal would invest in public infrastructure to support farmers transition from industrial food regime and acquire agroecological skills. [ 217 ] Just like in the New Deal , it would invest in cooperatives and commons to share and redistribute resources like land, food, equipment, research facilities, personnel, and training programs. [ 217 ] All of these policies and programs would break down barriers that have prevented sustainable farmers and agriculture from taking place in the United States. [ 219 ]",
+      "char_offset": 63366
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States there has been a movement with key advocates like Leah Penniman for sustainable agriculture. Leah Penniman has been a science teacher, farmer, writer, and Co-Founder of Soul Fire Farm. [ 222 ] Soul Fire Farm uses regenerative agriculture and many of the techniques invented by George Washington Carver. [ 223 ] Penniman wrote the book Farming While Black: Soul Fire Farm's Practical Guide to Liberation on the Land which guides African-heritage farmers on Afro-Indigenous sustainable farming practices while highlighting their historical contributions to sustainable agriculture as well. The community farm built by Penniman is also a training center whose goal is to end racism in agriculture. [ 222 ]",
+      "char_offset": 64400
+    },
+    {
+      "type": "paragraph",
+      "text": "Like Penniman, Dr. Monica M. White has been advocating for the use of more sustainable agriculture. Her focus has been on the expansion of urban agriculture and how it's more sustainable in a food desert , such as Detroit. Members of the community in Detroit, referred to as D-Town, offer workshops about healthy food choices, composting, and \"the importance of sustainable agriculture.\" [ 224 ]",
+      "char_offset": 65125
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2016, the Chinese government adopted a plan to reduce China's meat consumption by 50%, for achieving more sustainable and healthy food system. [ 225 ] [ 226 ]",
+      "char_offset": 65522
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2019, the National Basic Research Program or Program 973 funded research into Science and Technology Backyard (STB). STBs are hubs often created in rural areas with significant rates of small-scale farming that combine knowledge of traditional practices with new innovations and technology implementation. The purpose of this program was to invest in sustainable farming throughout the country and increase food production while achieving few negative environmental effects. The program was ultimately proven to be successful, and the study found that the merging of traditional practices and appropriate technology was instrumental in higher crop yields. [ 227 ]",
+      "char_offset": 65685
+    },
+    {
+      "type": "paragraph",
+      "text": "In collaboration with the Food and Land Use Coalition (FOLU), CEEW (council for energy, environment and water), has given an overview of the current state of sustainable agriculture practices and systems (SAPSs) in India. [ 228 ] India is aiming to scale-up SAPs, through policymakers, administrators, philanthropists, and other which represent a vital alternative to conventional, input-intensive agriculture. In idea these efforts identify 16 SAPSs \u2013 including agroforestry, crop rotation, rainwater harvesting, organic farming and natural farming \u2013 using agroecology as an investigative lens. In a conclusive understanding it is realised that sustainable agriculture is far from mainstream in India. Further proposals for several measures for promoting SAPSs, including restructured government support and rigorous evidence generation for benefits and implementation of sustainable farming are ongoing progress in Indian Agriculture.",
+      "char_offset": 66353
+    },
+    {
+      "type": "paragraph",
+      "text": "An example of initiatives in India towards exploring the world of sustainable farming has been set by the Sowgood foundation which is a nonprofit founded by educator Pragati Chaswal. [ 229 ] It started by teaching primary school children about sustainable farming by helping them farm on small farm strips in suburban farmhouses and gardens. Today many government and private schools in Delhi, India have adopted the sowgood foundation curriculum for sustainable farming for their students.",
+      "char_offset": 67291
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2012, the Israeli Ministry of Agriculture found itself at the height of the Israeli commitment to sustainable agriculture policy. A large factor of this policy was funding programs that made sustainable agriculture accessible to smaller Palestinian-Arab communities. The program was meant to create biodiversity, train farmers in sustainable agriculture methods, and hold regular meetings for agriculture stakeholders. [ 230 ]",
+      "char_offset": 67783
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1907, the American author Franklin H. King discussed in his book Farmers of Forty Centuries the advantages of sustainable agriculture and warned that such practices would be vital to farming in the future. [ 231 ] The phrase 'sustainable agriculture' was reportedly coined by the Australian agronomist Gordon McClymont . [ 232 ] The term became popular in the late 1980s. [ 182 ] There was an international symposium on sustainability in horticulture by the International Society of Horticultural Science at the International Horticultural Congress in Toronto in 2002. [ 233 ] At the following conference at Seoul in 2006, the principles were discussed further. [ 234 ]",
+      "char_offset": 68214
+    },
+    {
+      "type": "paragraph",
+      "text": "This potential future inability to feed the world's population has been a concern since the English political economist Thomas Malthus in the early 1800s, but has become increasingly important recently. [ 17 ] Starting at the very end of the twentieth and early twenty-first centuries, this issue became widely discussed in the U.S. because of growing anxieties of a rapidly increasing global population. Agriculture has long been the biggest industry worldwide and requires significant land, water, and labor inputs. At the turn of the twenty-first century, experts questioned the industry's ability to keep up with population growth. [ 18 ] This debate led to concerns over global food insecurity and \"solving hunger\". [ 87 ] [ 157 ] [ 158 ]",
+      "char_offset": 68888
+    },
+    {
+      "type": "paragraph",
+      "text": "This article incorporates text from a free content work. Licensed under CC BY-SA IGO 3.0 ( license statement/permission ). Text taken from The State of the World's Biodiversity for Food and Agriculture \u2212 In Brief\u200b , FAO, FAO.",
+      "char_offset": 69633
+    }
+  ],
+  "labels": [
+    "has_table",
+    "nutrient_table"
+  ],
+  "document_id": "doc-7e0388fdad184dca"
+}

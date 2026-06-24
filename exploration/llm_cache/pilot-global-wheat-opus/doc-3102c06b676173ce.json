@@ -1,0 +1,21 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.harvest_index",
+    "value_type": "range",
+    "range_min": 0.38,
+    "range_max": 0.46,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "On average, HI (fG) were 0.46 (0.42), 0.38 (0.17), and 0.41 (0.28) for the years 1987, 1988, and 1989, respectively [spring wheat, Pullman WA]",
+    "claim_summary": "Spring wheat harvest index averaged 0.38-0.46 across years; intercept HIo=0.34, slope=0.21 vs post-anthesis growth.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "phenology.grain_fill_duration",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "The rates of increase of HI were between 0.01 and 0.02 d-1, similar to those reported in wheat ... earlier flowering ... allows grain filling to occur before both temperature and the vapor pressure deficit increase",
+    "claim_summary": "Wheat harvest index increases at 0.01-0.02 per day during grain filling; earlier flowering raises HI.",
+    "extraction_confidence": "low"
+  }
+]}

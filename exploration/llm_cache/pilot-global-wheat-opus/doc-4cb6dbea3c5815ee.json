@@ -1,0 +1,164 @@
+{
+  "claims": [
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 2.8,
+      "unit": "g/MJ",
+      "qualifier": "typical",
+      "evidence_text": "In wheat crops, RUE is typically in the region of 2.8 g MJ −1 of photosynthetically active radiation (PAR, 400–700 nm)",
+      "claim_summary": "Wheat radiation-use efficiency is typically about 2.8 g/MJ of photosynthetically active radiation (PAR).",
+      "extraction_confidence": "high",
+      "organisms": ["wheat"]
+    },
+    {
+      "parameter_id": "canopy.radiation_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 1.4,
+      "unit": "g/MJ",
+      "qualifier": "typical",
+      "evidence_text": "In wheat crops, RUE is typically in the region of ... 1.4 g MJ −1 of solar radiation (Sinclair & Muchow, 1999 ).",
+      "claim_summary": "Wheat radiation-use efficiency is typically about 1.4 g/MJ of total solar radiation.",
+      "extraction_confidence": "high",
+      "organisms": ["wheat"]
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 35.2,
+      "range_max": 51.6,
+      "unit": "grams",
+      "qualifier": "observed",
+      "evidence_text": "TGW (g) ... B 35.2 F 35.2 (min) ... B 51.2 F 51.6 (max); mean B 45.2 F 44.8",
+      "claim_summary": "Thousand-grain weight of 12 CIMMYT spring wheat genotypes ranged from 35.2 to 51.6 g (means ~45 g) across raised-bed and flat-basin systems.",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 88.3,
+      "range_max": 121.3,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "HeightPM (cm) ... min B 90.1 F 88.3 ... max B 121.3 F 119.4 ; mean 105.7",
+      "claim_summary": "Plant height at physiological maturity of spring wheat genotypes ranged from 88.3 to 121.3 cm (mean ~105.7 cm).",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "range",
+      "range_min": 1192,
+      "range_max": 1512,
+      "unit": "g/m2",
+      "qualifier": "observed",
+      "evidence_text": "BMPM (g m −2 ) ... min B 1192 F 1204 ... max B 1512 F 1444 ; mean B 1420 F 1320",
+      "claim_summary": "Aboveground biomass at physiological maturity of spring wheat ranged from ~1192 to 1512 g/m2; ~7.6% higher in raised beds.",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "range",
+      "range_min": 102,
+      "range_max": 107,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "The seed rate was 102 kg ha −1 for the 3 years in beds and 107 kg ha −1 in 2017–2018 and 2018–2019 and 106 kg ha −1 in 2019–2020 in flats.",
+      "claim_summary": "Spring wheat seed rate was 102 kg/ha in raised beds and 106-107 kg/ha in flat basins.",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "planting.row_spacing",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 24,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "the wider row spacing in raised beds compared to flat basins (24 vs. 20 cm)",
+      "claim_summary": "Wheat row spacing was 24 cm in raised beds versus 20 cm in flat basins.",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "range",
+      "range_min": 139,
+      "range_max": 201,
+      "unit": "plants/m2",
+      "qualifier": "observed",
+      "evidence_text": "Plants (m −2 ) ... min B 139 F 152 ... max B 180 F 201 ; mean B 156 F 173 ... nonsignificant difference (153–176 plants m −2 )",
+      "claim_summary": "Established plant density of spring wheat ranged from 139 to 201 plants/m2 (means 156-173).",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "range",
+      "range_min": 110,
+      "range_max": 121,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "DTPM (DAE) mean B 117 F 114 ... min B 113 F 110 ... max B 121 F 118",
+      "claim_summary": "Days from emergence to physiological maturity of spring wheat ranged from 110 to 121 days (means 114-117 DAE).",
+      "extraction_confidence": "high",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "range",
+      "range_min": 72,
+      "range_max": 81,
+      "unit": "days",
+      "qualifier": "observed",
+      "evidence_text": "DTA (DAE) mean B 77 F 76 ... min B 72 F 72 ... max B 81 F 80",
+      "claim_summary": "Days from emergence to anthesis of spring wheat ranged from 72 to 81 days (means 76-77 DAE); grain-filling extended ~2 days in beds.",
+      "extraction_confidence": "medium",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 300,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "fertilized with 50 kg N ha −1 (urea) during land preparation ... A second and third N application (200 and 50 kg N ha −1 , respectively, as urea) was applied at the first and second irrigation",
+      "claim_summary": "Total nitrogen applied to irrigated spring wheat was about 300 kg N/ha (50 at land prep, 200 and 50 at first/second irrigation) in 2017-2018.",
+      "extraction_confidence": "medium",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "kg/ha",
+      "qualifier": "observed",
+      "evidence_text": "50 kg N ha −1 (urea) during land preparation followed by 50 kg P ha −1 at sowing",
+      "claim_summary": "Phosphorus applied to irrigated spring wheat was 50 kg P/ha at sowing.",
+      "extraction_confidence": "medium",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "fertilized with 50 kg N ha −1 (urea) during land preparation ... A second and third N application (200 and 50 kg N ha −1) was applied at the first and second irrigation, respectively.",
+      "claim_summary": "Nitrogen for irrigated wheat was split: at land preparation, at first irrigation (largest dose), and at second irrigation.",
+      "extraction_confidence": "medium",
+      "organisms": ["spring wheat (Triticum aestivum)"]
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "management advantages of raised beds compared with flat basins are as follows: reduced irrigation water requirements by 20%–40% ... reduced lodging",
+      "claim_summary": "Raised-bed planting of wheat is associated with reduced lodging compared with flat-basin planting.",
+      "extraction_confidence": "low",
+      "organisms": ["wheat"]
+    }
+  ]
+}

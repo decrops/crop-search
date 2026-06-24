@@ -1,0 +1,66 @@
+{"claims": [
+  {
+    "parameter_id": "quality.falling_number",
+    "value_type": "numeric",
+    "numeric_value": 300,
+    "unit": "seconds",
+    "qualifier": "threshold",
+    "evidence_text": "If the FN is below 300 s, then the farmer receives significantly less money for his/her grain.",
+    "claim_summary": "Hagberg-Perten Falling Number below 300 s indicates preharvest-sprouting/alpha-amylase damage and triggers grain price discounts.",
+    "extraction_confidence": "high",
+    "organisms": "wheat (Triticum aestivum)"
+  },
+  {
+    "parameter_id": "quality.falling_number",
+    "value_type": "numeric",
+    "numeric_value": 325,
+    "unit": "seconds",
+    "qualifier": "threshold",
+    "evidence_text": "Increasing α-amylase activity tends to correlate with decreasing FN below 325 s (Perten, 1964; Yu et al., 2015).",
+    "claim_summary": "Falling Number below ~325 s correlates with increasing alpha-amylase activity in wheat grain.",
+    "extraction_confidence": "medium",
+    "organisms": "wheat (Triticum aestivum)"
+  },
+  {
+    "parameter_id": "harvest.preharvest_sprouting_risk",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "Grain dormancy is higher when the mother plant is exposed to cooler conditions during the maturation phase of grain development... If rain and cold temperatures occur after physiological maturity, seed dormancy can be broken through cold stratification and grain is more likely to sprout.",
+    "claim_summary": "Cool temperatures during grain maturation increase wheat grain dormancy (lower PHS risk), whereas rain plus cold after physiological maturity break dormancy and raise preharvest-sprouting risk.",
+    "extraction_confidence": "high",
+    "organisms": "wheat (Triticum aestivum)"
+  },
+  {
+    "parameter_id": "harvest.preharvest_sprouting_risk",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "wheat also becomes more likely to sprout the longer unharvested mature grain stands dry in the field before it rains (Gerjets et al., 2010).",
+    "claim_summary": "Preharvest-sprouting risk increases the longer mature wheat grain after-ripens (stands dry) in the field before a rain event.",
+    "extraction_confidence": "medium",
+    "organisms": "wheat (Triticum aestivum)"
+  },
+  {
+    "parameter_id": "harvest.harvest_moisture",
+    "value_type": "numeric",
+    "numeric_value": 12,
+    "unit": "percent",
+    "qualifier": "maximum",
+    "evidence_text": "Grain was harvested from plots 2–3 weeks after physiological maturity for FN tests (see below) when grain moisture was <12%.",
+    "claim_summary": "Grain for Falling Number testing was harvested at grain moisture below 12%.",
+    "extraction_confidence": "medium",
+    "organisms": "wheat (Triticum aestivum)"
+  },
+  {
+    "parameter_id": "harvest.physiological_maturity",
+    "value_type": "numeric",
+    "numeric_value": 31,
+    "unit": "percent",
+    "qualifier": "observed",
+    "evidence_text": "A representative set of spikes were tested for moisture content at physiological maturity, following 5 d of after-ripening, and after storage at −15°C, and found to be an average of 31, 14, and 10%, respectively.",
+    "claim_summary": "Wheat grain moisture averaged ~31% at physiological maturity, dropping to 14% after 5 days of after-ripening and 10% after frozen storage.",
+    "extraction_confidence": "high",
+    "organisms": "wheat (Triticum aestivum)"
+  }
+]}

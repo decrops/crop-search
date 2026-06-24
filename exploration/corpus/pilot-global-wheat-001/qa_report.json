@@ -1,0 +1,53 @@
+{
+  "run_id": "pilot-global-wheat-001",
+  "capture_count": 825,
+  "all_document_count": 341,
+  "opus_input_document_count": 341,
+  "unique_document_count": 341,
+  "excluded_from_opus_count": 0,
+  "backfilled_full_text_count": 0,
+  "documents_with_text": 280,
+  "capture_redundancy_collapsed": 0.587,
+  "duplicate_text_ratio": 0.0,
+  "metadata_only_count": 61,
+  "metadata_only_share": 0.179,
+  "background_count": 30,
+  "background_share": 0.088,
+  "short_text_doc_count": 23,
+  "documents_with_tables": 79,
+  "raw_summary_failure_count": 300,
+  "source_tier_doc_counts": {
+    "textbook_reference": 77,
+    "international_institution": 91,
+    "extension_publication": 50,
+    "peer_reviewed_science": 70,
+    "industry_grower_guide": 53
+  },
+  "top_domains": {
+    "doi.org": 60,
+    "link.springer.com": 46,
+    "en.wikipedia.org": 30,
+    "www.frontiersin.org": 24,
+    "www.canr.msu.edu": 16,
+    "www.nature.com": 12,
+    "pmc.ncbi.nlm.nih.gov": 10,
+    "www.fao.org": 7,
+    "ahdb.org.uk": 6,
+    "agris.fao.org": 4,
+    "www.pubs.ext.vt.edu": 4,
+    "openknowledge.fao.org": 4,
+    "extension.sdstate.edu": 4,
+    "www.ncbi.nlm.nih.gov": 4,
+    "www.scribd.com": 4
+  },
+  "parameters_with_documents": 85,
+  "parameters_missing_documents": 0,
+  "high_value_retry_queue": [],
+  "gates": {
+    "duplicate_text_ratio_lt_0.10": true,
+    "metadata_only_share_lt_0.15": false,
+    "background_share_lt_0.15": true,
+    "has_tables": true
+  },
+  "gates_passed": false
+}

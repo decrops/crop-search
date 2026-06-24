@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Soil salinity is a major constraint to global wheat (Triticum aestivum L.) production... reducing Na+/K+ ratios have shown promise in enhancing wheat growth and production under salinity stress... key tolerance mechanisms such as osmoregulation, ion homeostasis, apoplastic acidification, and antioxidant defense systems",
+      "claim_summary": "Wheat salinity tolerance relies on Na+ exclusion, K+ selectivity over Na+, lowered Na+/K+ ratios, osmoregulation, ion homeostasis, and antioxidant defenses; PGPR and arbuscular mycorrhizal fungi improve tolerance.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

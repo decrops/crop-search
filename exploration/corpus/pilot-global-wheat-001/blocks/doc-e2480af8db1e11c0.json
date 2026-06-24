@@ -1,0 +1,39 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Winter Wheat Vernalization",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "This is the prefooter section",
+      "text": "1230 Albrecht Blvd, Fargo ND 58102 Mailing address: NDSU Dept. 7520, PO Box 6050, Fargo, ND 58108-6050 North Dakota State University is distinctive as a student-focused, land-grant, research university. NDSU Agriculture educates students with interests in agriculture, food systems and natural resources; fosters communities through partnerships that educate the public; provides creative, cost-effective solutions to current problems; and pursues fundamental and applied research to help shape a better world."
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Winter wheat covers a small fraction of acres in the state, however with the limited snow cover and drought conditions there are concerns about whether or not winter wheat vernalized. Vernalization is the process where plants need to sense exposure to cool temperatures in order to reach flowering. Winter wheat will not produce seed if not vernalized. If the seed did not germinate in the fall due to dry conditions, there is still an opportunity for the crop to vernalize. If the seed has imbibed water it can start the vernalization process and the process does not need to wait for the plant to be emerged. Wheat seed germination occurs with soil temps in the upper 30s and vernalization occurs with temps at or below those same temps. The unknown factor is length of time needed at these low temps for vernalization; the range has been reported to be 30 to 75 days. Based off of state NDAWN soil temperatures vernalization should not be an issue. Soil that looks dry will still not be completely void of moisture and the imbibition process has likely already started.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "There are many variables to consider for vernalization including cultivar, soil temp, and timing of germination and moisture. All of these factors included I would not be concerned about lack of vernalization across the state for winter wheat planted last fall and would be more concerned about potential for having varying growth stages within the field.",
+      "char_offset": 1074
+    },
+    {
+      "type": "paragraph",
+      "text": "This site is supported in part by the Crop Protection and Pest Management Program [grant no. 2017-70006-27144/accession 1013592] from the USDA National Institute of Food and Agriculture. Any opinions, findings, conclusions, or recommendations expressed are those of the website author(s) and do not necessarily reflect the view of the U.S. Department of Agriculture.",
+      "char_offset": 1431
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-e2480af8db1e11c0"
+}

@@ -1,0 +1,287 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 375,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "crops were sown in early October at 375 seeds/m2 and grown with ample nutrition",
+      "claim_summary": "Benchmark UK feed wheat sown in early October at 375 seeds/m2.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "numeric",
+      "numeric_value": 4,
+      "unit": "cm",
+      "qualifier": "optimum",
+      "evidence_text": "Sowing too deep or too shallow can delay or decrease establishment. Optimum sowing depth is about 4 cm.",
+      "claim_summary": "Optimum wheat sowing depth is about 4 cm.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "Sowing to emergence 150°C days – 11 days in September – 15 days in October – 26 days in November",
+      "claim_summary": "Wheat sowing to emergence requires ~150 C-days thermal time (11 days Sept, 15 days Oct, 26 days Nov).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.emergence_gdd",
+      "value_type": "numeric",
+      "numeric_value": 150,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Sowing to emergence 150°C days... While sowing to emergence takes longer in cold than in warm weather, the thermal time in each case is very similar.",
+      "claim_summary": "Wheat requires ~150 C-days (GDD above 0 C) from sowing to emergence.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.emergence_rate",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Establishment decreases from around 70% for sowings in September to less than 50% for sowings in November or later... average establishment for sandy soils is 90%, compared with 65% for loams and clays",
+      "claim_summary": "Wheat establishment ~70% for September sowing, <50% for November; 90% on sandy soils vs 65% on loams/clays.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "numeric",
+      "numeric_value": 122,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Leaf emergence 122°C days/leaf (14 main shoot leaves)... The phyllochron is the time between emergence of two successive leaves, measured in thermal time.",
+      "claim_summary": "Wheat phyllochron (leaf appearance interval) is ~122 C-days per leaf; 14 main-shoot leaves on benchmark crop.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.tillering_duration",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "Each main shoot produces 9 to 14 leaves... Well-spaced plants can produce fertile tillers until stem extension starts; tillers produced later are rarely fertile... Tillering normally ends when Green Area Index (GAI) reaches about 1",
+      "claim_summary": "Wheat tillering continues until stem extension/GAI~1; benchmark max ~1,020 shoots/m2 in early April with up to 35 shoots/plant.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 400,
+      "unit": "plants/m2",
+      "qualifier": "minimum",
+      "evidence_text": "At least 400 fertile shoots/m2 (400 ears/m2) are required for maximum yield",
+      "claim_summary": "At least 400 fertile shoots/ears per m2 required for maximum wheat yield.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "numeric",
+      "numeric_value": 460,
+      "unit": "plants/m2",
+      "qualifier": "typical",
+      "evidence_text": "Yield components 460 ears/m2 48 grains/ear 50 mg/grain",
+      "claim_summary": "Benchmark wheat crop has 460 ears/m2 at harvest.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.grains_per_spike",
+      "value_type": "numeric",
+      "numeric_value": 48,
+      "qualifier": "typical",
+      "evidence_text": "The benchmark for grain number per ear is 48. With 460 surviving fertile shoots/m2, this gives 22,000 grains/m2.",
+      "claim_summary": "Benchmark wheat grain number is 48 grains per ear (22,000 grains/m2).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The benchmark weight per grain is 43 mg dry matter, which equates to a 'thousand grain weight' of 50 g at 15% moisture.",
+      "claim_summary": "Benchmark wheat thousand grain weight is 50 g at 15% moisture (43 mg dry matter per grain).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "value_type": "range",
+      "range_min": 1.5,
+      "range_max": 2.0,
+      "unit": "m",
+      "qualifier": "maximum",
+      "evidence_text": "total root length reaches 31 km/m2 by anthesis and maximum rooting depth reaches 1.5–2.0 m.",
+      "claim_summary": "Wheat maximum rooting depth reaches 1.5-2.0 m by anthesis.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "root.root_length_density",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "High rates of uptake of less mobile nutrients, eg P, only occur when root length densities exceed 5 cm/cm3 of soil... about 1 cm/cm3 is needed for uptake of water and N.",
+      "claim_summary": "Wheat root length density of >5 cm/cm3 needed for P uptake; ~1 cm/cm3 sufficient for water and N uptake. Over 70% of root length in top 30 cm.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.leaf_area_index",
+      "value_type": "numeric",
+      "numeric_value": 6.3,
+      "qualifier": "maximum",
+      "evidence_text": "The benchmark maximum GAI is 6.9... GAI at GS61 = 6.3... There is an optimum canopy size at flowering for grain production of about 6.",
+      "claim_summary": "Benchmark wheat Green Area Index peaks ~6.3-6.9; optimum canopy size at flowering ~6.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 279,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "By harvest, a typical crop takes up 279 kg/ha: – 30% before first node emergence – 40% between first node and flag leaf",
+      "claim_summary": "Typical wheat crop takes up 279 kg N/ha by harvest; 30% before first node, 40% first node to flag leaf.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Most N is taken up during the four to six week Construction Phase around May... 81 kg/ha from sowing to first node (GS31) 167 kg/ha from first node to flowering",
+      "claim_summary": "Wheat N uptake concentrated in Construction Phase (~May); 81 kg/ha sowing to GS31, 167 kg/ha GS31 to flowering; late N for breadmaking protein.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 69,
+      "unit": "cm",
+      "qualifier": "typical",
+      "evidence_text": "The benchmark final height is 69 cm, with a full PGR programme. Without PGR applications, crops can be as much as 20 cm taller.",
+      "claim_summary": "Benchmark wheat final stem height 69 cm with full PGR programme (up to 20 cm taller without PGR); ear adds ~10 cm.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "High plant population density weakens plant anchorage. It also increases shoot height and decreases stem diameter and stem wall width. This weakens stem base strength... The earlier that lodging occurs during grain filling, the greater the yield loss.",
+      "claim_summary": "Wheat lodging risk increases with high plant density and crop height; earlier lodging during grain filling causes greater yield loss.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.grain_fill_duration",
+      "value_type": "numeric",
+      "numeric_value": 45,
+      "unit": "days",
+      "qualifier": "typical",
+      "evidence_text": "The benchmark period from flowering until maximum dry weight (the grain filling period) is 45 days but it varies considerably; it can be just 28 days in severe drought conditions.",
+      "claim_summary": "Wheat grain filling period is ~45 days (as short as 28 days under severe drought).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "numeric",
+      "numeric_value": 20,
+      "unit": "percent",
+      "qualifier": "threshold",
+      "evidence_text": "On average, grain takes about two weeks to dry from 45% to 20% moisture... Grain is considered 'ripe' when it is ready for harvest – at less than 20% moisture.",
+      "claim_summary": "Wheat grain is harvest-ripe at less than 20% moisture; dries from 45% to 20% in about two weeks.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.physiological_maturity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Grain filling normally depends on stem reserves and ongoing photosynthesis... Grain filling continues until grain reaches about 45% moisture... No further grain filling occurs once grain moisture is below 45%",
+      "claim_summary": "Wheat physiological maturity (end of grain filling/max dry weight) occurs at ~45% grain moisture.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "numeric",
+      "numeric_value": 51,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "18.4 t/ha dry matter with 51% Harvest Index... Harvest Index is the ratio between grain yield on a dry basis and the total crop dry weight at harvest.",
+      "claim_summary": "Benchmark wheat harvest index is 51% (9.4 t/ha grain of 18.4 t/ha total dry matter).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.test_weight",
+      "value_type": "numeric",
+      "numeric_value": 78,
+      "unit": "kg/hl",
+      "qualifier": "typical",
+      "evidence_text": "Specific weight 78 kg/hl... A typical requirement for milling or export is 76 kg/hl; samples below this standard are likely to incur price penalties",
+      "claim_summary": "Benchmark wheat specific (test) weight 78 kg/hl; milling/export requirement typically 76 kg/hl.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "numeric",
+      "numeric_value": 270,
+      "unit": "seconds",
+      "qualifier": "typical",
+      "evidence_text": "Hagberg falling number 270 seconds... The minimum value required for breadmaking is 250 s and for soft wheat for export is 220 s.",
+      "claim_summary": "Benchmark wheat Hagberg falling number 270 s; breadmaking minimum 250 s, soft wheat export 220 s.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 11.6,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "Grain protein concentration 11.6% on a dry basis... The weight of grain protein relates directly to the weight of N, with a ratio of 5.7 to 1.",
+      "claim_summary": "Benchmark wheat grain protein concentration 11.6% (dry basis), N x 5.7.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Vernalisation: A period of cool temperatures (0–12ºC) advances floral development. Vernalisation reduces the duration of the Foundation Phase. Winter wheat varieties respond strongly to vernalisation; spring wheats may have a slight response.",
+      "claim_summary": "Wheat vernalization occurs at cool temperatures (0-12 C); strong in winter wheat, slight in spring wheat.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Day length: Long days advance floral development in most varieties. Day length affects the duration of both Foundation and Construction Phases. Almost all commercial UK wheat varieties respond to day length.",
+      "claim_summary": "Long days advance wheat floral development; almost all commercial UK wheat varieties are photoperiod sensitive.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The apex is frost tolerant until reproductive development starts. Susceptibility to frost damage is highest when the ear is developing. Frost risk falls significantly from April... Radiation frosts can damage the ear, especially at flowering, which can significantly reduce yield.",
+      "claim_summary": "Wheat frost susceptibility highest during ear development/flowering (reproductive stage); apex frost tolerant before reproductive development.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.biomass_accumulation",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "The crop grows by 0.18 t/ha/day (1.3 t/ha/week) from May to July... 90% of final crop dry matter is formed after GS31",
+      "claim_summary": "Benchmark wheat crop growth rate ~0.18 t/ha/day from May to July; 90% of final dry matter formed after GS31, max ~19.6 t/ha.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.maturity_duration",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "Foundation Phase – six months – From sowing to the start of stem elongation... Construction Phase – two months... Production Phase – two months – Post-flowering",
+      "claim_summary": "Benchmark UK winter wheat: ~6-month Foundation Phase, ~2-month Construction Phase, ~2-month Production Phase from sowing to harvest.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "root.root_shoot_ratio",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "At GS61, root dry weight is 1.05 t/ha (9% of the shoot)... By GS31, maximum rooting depth can exceed 1 m and root dry weight is about 27% of that of the shoot.",
+      "claim_summary": "Wheat root dry weight ~27% of shoot at GS31, falling to ~9% of shoot at anthesis (GS61).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

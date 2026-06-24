@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-edd26bf1543bd528",
+  "canonical_url": "https://www.nature.com/articles/nbt.2196.pdf",
+  "source_url": "https://www.nature.com/articles/nbt.2196.pdf",
+  "doi": "https://doi.org/10.1038/nbt.2196",
+  "title": "Reference genome sequence of the model plant Setaria",
+  "source_domain": "www.nature.com",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "edd26bf1543bd528c3d3e6089697400fb59a26b0f12d2ed8e8196004c3b2a7cf",
+  "content_hash": "4a48d3b0bd1f532ec808aa568603ffeb5f8ff870d670f2871bc99a29d07e8889",
+  "text_length": 72872,
+  "publication_date_hint": "2012",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2134791174",
+    "doi": "https://doi.org/10.1038/nbt.2196",
+    "publication_year": 2012,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/211-www.nature.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

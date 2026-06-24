@@ -1,0 +1,59 @@
+{
+  "claims": [
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 65.54,
+      "range_max": 84.68,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "at harvest stage, it varied from 65.54 cm to 84.68 cm based on two years mean values",
+      "claim_summary": "Wheat plant height at harvest ranged 65.54-84.68 cm across irrigation treatments (two-year mean).",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 84.68,
+      "unit": "cm",
+      "qualifier": "maximum",
+      "evidence_text": "The maximum plant height at 30, 60, 90 DAS and harvest stages was 17.77, 66.41, 76.63 and 84.68 cm, respectively.",
+      "claim_summary": "Maximum wheat plant height at harvest (4 irrigations: CRI, tillering, jointing, milking) was 84.68 cm.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "numeric",
+      "numeric_value": 65.54,
+      "unit": "cm",
+      "qualifier": "minimum",
+      "evidence_text": "minimum plant height was notated when only one irrigation was provided at the CRI Stage, the height being 15.64, 54.11, 58.46, and 65.54 cm",
+      "claim_summary": "Minimum wheat plant height at harvest (single irrigation at CRI) was 65.54 cm.",
+      "extraction_confidence": "high",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "water.evapotranspiration_requirement",
+      "value_type": "range",
+      "range_min": 50,
+      "range_max": 125,
+      "unit": "mm",
+      "qualifier": "observed",
+      "evidence_text": "wheat was irrigated at cumulative pan evaporation (CPE) of 50, 75, 100 or 125 mm. Grain yield increased from 2.07 t ha-1 with irrigation at 125 mm CPE to 3.23 t ha-1 with irrigation at 50 mm CPE.",
+      "claim_summary": "Wheat irrigated by cumulative pan evaporation of 50-125 mm; highest grain yield at 50 mm CPE scheduling.",
+      "extraction_confidence": "low",
+      "methods": ["irrigation"]
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "four times irrigations given to wheat crop at CRI, tillering, jointing and milking stages resulted in almost significantly higher plant height at every stage of observations",
+      "claim_summary": "Critical wheat irrigation stages are CRI (crown root initiation), tillering, jointing, and milking; irrigating these maximizes growth.",
+      "extraction_confidence": "medium",
+      "methods": ["irrigation"]
+    }
+  ]
+}

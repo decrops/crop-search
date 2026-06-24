@@ -1,0 +1,76 @@
+{
+  "run_id": "pilot-us-wheat-001",
+  "version": "0.1.0",
+  "crop": "wheat",
+  "region_scope": {
+    "level": "country",
+    "name": "United States"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/wheat.json",
+  "parameter_families": [
+    "temperature",
+    "thermal_time",
+    "water",
+    "soil",
+    "phenology",
+    "planting"
+  ],
+  "queries_per_parameter": 1,
+  "max_parameters": 12,
+  "source_seeds": [
+    {
+      "source_url": "https://extensionpubs.unl.edu/publication/ec3005/winter-wheat-triticum-aestivum-l-evapotranspiration-crop-water-use-and-crop-coefficients-ec3005",
+      "title": "Winter Wheat Evapotranspiration and Crop Coefficients - Nebraska Extension",
+      "snippet": "Nebraska Extension winter wheat evapotranspiration and crop water use guidance.",
+      "document_type": "html",
+      "parameter_ids": ["water.evapotranspiration_requirement"]
+    },
+    {
+      "source_url": "https://extension.umn.edu/growing-small-grains/wheat-flooding-and-waterlogging",
+      "title": "Wheat Flooding and Waterlogging - University of Minnesota Extension",
+      "snippet": "University of Minnesota Extension guidance on wheat flooding and waterlogged soils.",
+      "document_type": "html",
+      "parameter_ids": ["water.waterlogging_sensitivity"]
+    },
+    {
+      "source_url": "https://extension.oregonstate.edu/catalog/pub/ec-1657-living-land-managing-soil-ph",
+      "title": "Managing Soil pH - Oregon State University Extension",
+      "snippet": "OSU Extension soil pH guide with crop pH ranges including wheat.",
+      "document_type": "html",
+      "parameter_ids": ["soil.ph_range"]
+    },
+    {
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf",
+      "title": "Wheat Production Handbook - Kansas State University",
+      "snippet": "Kansas State University wheat production handbook with growth, temperature, water, and management guidance.",
+      "document_type": "pdf",
+      "parameter_families": ["temperature", "thermal_time", "water", "soil"]
+    },
+    {
+      "source_url": "https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-04-Wheat.pdf",
+      "title": "Winter Wheat Planting Guide - SDSU Extension",
+      "snippet": "SDSU Extension winter wheat planting guide covering planting conditions and soil temperature.",
+      "document_type": "pdf",
+      "parameter_families": ["temperature", "planting", "soil"]
+    },
+    {
+      "source_url": "https://extensionpubs.unl.edu/publication/g2122/na/pdf/view",
+      "title": "Soil Temperature: A Guide for Planting Agronomic and Horticulture Crops",
+      "snippet": "Nebraska Extension guide to soil temperature thresholds for planting and emergence.",
+      "document_type": "pdf",
+      "parameter_families": ["temperature", "planting"]
+    }
+  ],
+  "max_results_per_query": 2,
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

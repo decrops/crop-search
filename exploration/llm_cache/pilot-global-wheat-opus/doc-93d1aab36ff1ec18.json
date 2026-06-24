@@ -1,0 +1,63 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 450,
+      "unit": "plants/m2",
+      "qualifier": "recommended",
+      "evidence_text": "Beres et al. (2011) reported a positive linear improvement to grain yield in durum at rates as high as 450 seeds m−2, which was more than double the rate of standard practices at the time.",
+      "claim_summary": "Durum wheat grain yield improved with seeding rates up to 450 seeds/m2, now the norm in western Canada (vs <200 seeds/m2 historically).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "increased harvest index (the ratio of grain weight to total plant biomass) has contributed to yield improvement in durum... Future increases in harvest index are unlikely because it is impractical to further shorten straw length.",
+      "claim_summary": "Increased harvest index (via semi-dwarf cultivars) raised durum/bread wheat yield, but is now near a practical ceiling.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "stress.frost_risk_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Frost events in spring are also common, which causes yield loss by directly reducing the number of grains via sterility induced by the combined effect of cold, desiccation and freezing damage to the floral organs and developing grain.",
+      "claim_summary": "Spring frost during reproductive stages causes wheat yield loss via floral sterility; durum is more frost-susceptible than bread wheat or barley.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "water.drought_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "lack of rainfall during spring, which causes a mild water deficit stress prior to anthesis, moderate stress at anthesis and becomes more severe during grain fill.",
+      "claim_summary": "Wheat water-deficit stress intensifies from pre-anthesis through anthesis and becomes most severe during grain fill.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "grain yield was not compromised and often maximized when seeding occurred at around 2oC soil temperature. A greater reduction in grain yield was observed when planting was delayed until soil reach 10oC.",
+      "claim_summary": "Ultra-early planting at ~2 C soil temperature maximized wheat yield; delay until 10 C soil reduced yield.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "quality.gluten_strength",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "The production of pasta requires grain with high protein content, gluten strength, and high yellow pigment content (resulting largely from lutein).",
+      "claim_summary": "Durum wheat for pasta requires high grain protein, gluten strength and yellow pigment content.",
+      "extraction_confidence": "low"
+    },
+    {
+      "parameter_id": "management.rotation_recommendation",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "When designing crop rotations, the \"1 in 4\" principle is particularly important for FHB mitigation... whereby a susceptible crop phase occurs only once in every 4 crop years.",
+      "claim_summary": "Grow a Fusarium-susceptible wheat crop only once in every 4 years; sequence durum after a broadleaf crop to reduce disease.",
+      "extraction_confidence": "medium",
+      "organisms": [{"name": "Fusarium graminearum", "role": "disease"}]
+    }
+  ]
+}

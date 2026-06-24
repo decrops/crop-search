@@ -1,0 +1,15 @@
+{
+  "domain": "temperature",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "document_id": "doc-0099ace4e2b13857",
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "range",
+      "range_min": 5,
+      "range_max": 15,
+      "unit": "celsius",
+      "evidence_contains": "5 and 15"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{"claims": [
+  {
+    "parameter_id": "phenology.photoperiod_sensitivity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "Ppd-D1a was the most potent known allele affecting the timing of flowering, requiring the least thermal time to flowering across all experiments... Ppd-D1a is the most potent photoperiod insensitive allele",
+    "claim_summary": "Photoperiod-insensitivity (Ppd-1a) alleles, especially Ppd-D1a, accelerate flowering and reduce thermal time to anthesis in wheat; Ppd-D1a is the most potent PI allele.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "thermal_time.anthesis_gdd",
+    "value_type": "numeric",
+    "numeric_value": 1281,
+    "unit": "gdd",
+    "qualifier": "minimum",
+    "evidence_text": "with Ppd-D1a the most potent allele to induce flowering at the lowest mean thermal time of 1281 degree days (S.E.D. = 15.51)",
+    "claim_summary": "Most photoperiod-insensitive line (Ppd-D1a) reached male flowering at ~1281 degree-days from sowing; photoperiod-sensitive Ppd-1b control required ~1426 degree-days.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "thermal_time.anthesis_gdd",
+    "value_type": "range",
+    "range_min": 1281,
+    "range_max": 1426,
+    "unit": "gdd",
+    "qualifier": "observed",
+    "evidence_text": "Thermal time to flowering (deg C days): Ppd-1b 1426, Ppd-A1a 1293, Ppd-B1a 1348, Ppd-D1a 1281, Triple1 1327, Triple2 1351",
+    "claim_summary": "Thermal time from sowing to male flowering in wheat (cv. Paragon NILs) ranged 1281-1426 degree-days depending on photoperiod allele.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "numeric",
+    "numeric_value": 2.5,
+    "unit": "cm",
+    "qualifier": "observed",
+    "evidence_text": "Pots filled with the planting medium were soaked with water for 24 h prior to sowing with single seeds to a depth of 2.5 cm.",
+    "claim_summary": "Wheat seeds sown to 2.5 cm depth in pot-based experiment.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 300,
+    "unit": "plants/m2",
+    "qualifier": "observed",
+    "evidence_text": "Plots (minimum 2x 5 m) were drilled (300 seeds/m2) into a free-draining sandy loam",
+    "claim_summary": "Field wheat plots drilled at 300 seeds/m2.",
+    "extraction_confidence": "medium"
+  }
+]}

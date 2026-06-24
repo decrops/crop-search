@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-aeebd85c3a79f15d",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s00122-014-2412-x.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s00122-014-2412-x.pdf",
+  "doi": "https://doi.org/10.1007/s00122-014-2412-x",
+  "title": "Factor analytic mixed models for the provision of grower information from national crop variety testing programs",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "aeebd85c3a79f15d741bec57d8e123f1c3aea85916f6b3bedcdf56774a535cb2",
+  "content_hash": "0b6e36535255e7519755cf63af86c640ceea33f94cb509cb45ecdeba7e05e051",
+  "text_length": 66694,
+  "publication_date_hint": "2014",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2116483583",
+    "doi": "https://doi.org/10.1007/s00122-014-2412-x",
+    "publication_year": 2014,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/216-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

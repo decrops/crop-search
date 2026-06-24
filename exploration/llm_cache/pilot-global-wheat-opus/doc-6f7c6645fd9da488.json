@@ -1,0 +1,45 @@
+{"claims": [
+  {
+    "parameter_id": "stress.heat_sensitive_stage",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Prevalence of water and heat stresses during the crop establishment and critical growing period (i.e., flowering, pollination, and grain filling) is detrimental for many crops ... there is a negative effect of both season-long and terminal heat stress on rice and wheat, though wheat is considerably more sensitive than rice",
+    "claim_summary": "Wheat is highly sensitive to terminal heat stress during flowering, pollination, and grain filling.",
+    "extraction_confidence": "high",
+    "bbch_min": 60,
+    "bbch_max": 89
+  },
+  {
+    "parameter_id": "temperature.heat_stress_threshold",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "almost half of the Indo-Gangetic Plains (IGP) ... may become inappropriate for wheat production by 2050 as a result of heat stress ... Winter crops are likely to be more affected due to the rise in temperature by 2 °C",
+    "claim_summary": "A ~2 C temperature rise threatens wheat production in the Indo-Gangetic Plains via heat stress.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "management.rotation_recommendation",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "the rice-wheat system in SA is water resource-intensive ... Replacing this cropping system with less water-intensive cropping systems (e.g., maize-wheat system) can enhance the adaptation of the production system to water stress",
+    "claim_summary": "Replacing rice-wheat with maize-wheat rotation reduces water use and adapts to water stress.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "qualifier": "recommended",
+    "evidence_text": "shifting planting date of wheat and transplanting date of rice to 15 days earlier than the usual date could minimize yield loss by more than 4%",
+    "claim_summary": "Shifting wheat planting ~15 days earlier reduces climate-driven yield loss by >4% (Ludhiana, India).",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "management.tillage_response",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "the change in tillage practices moderates the effect of high temperature (reduced canopy temperature by 1-4 °C) and increased irrigation water productivity by 66-100% compared to traditional production systems",
+    "claim_summary": "Zero/conservation tillage lowers wheat canopy temperature 1-4 C and raises water productivity 66-100%.",
+    "extraction_confidence": "medium",
+    "methods": ["zero tillage", "residue retention"]
+  }
+]}

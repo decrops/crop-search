@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-469d9a7e863c8aa3",
+  "canonical_url": "https://soil.copernicus.org/articles/5/15/2019/soil-5-15-2019.pdf",
+  "source_url": "https://soil.copernicus.org/articles/5/15/2019/soil-5-15-2019.pdf",
+  "doi": "https://doi.org/10.5194/soil-5-15-2019",
+  "title": "Global meta-analysis of the relationship between soil organic matter and crop yields",
+  "source_domain": "soil.copernicus.org",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "469d9a7e863c8aa35d579bece8ac0770fbd45ef3357bd2bffe5f022b8c269185",
+  "content_hash": "1f5e6acef44cb56530af81a5661befa218c6ed59a24e7821d4ecf28d3eadf82f",
+  "text_length": 52617,
+  "publication_date_hint": "2019",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W2885268053",
+    "doi": "https://doi.org/10.5194/soil-5-15-2019",
+    "publication_year": 2019,
+    "is_open_access": true,
+    "open_access_status": "gold"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/313-soil.copernicus.org.pdf",
+  "parser_version": "corpus-blocks-1"
+}

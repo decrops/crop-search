@@ -1,0 +1,2323 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 1,
+      "heading": "Interaction of planting system with radiation\u2010use efficiency in wheat lines",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Marcela A Moroyoqui\u2010Parra",
+      "text": "1 Division of Plant and Crop Science, School of Biosciences, University of Nottingham, Leicestershire, UK 2 Global Wheat Program, International Maize and Wheat Improvement Center (CIMMYT), Texcoco, Mexico Find articles by Marcela A Moroyoqui\u2010Parra"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Gemma Molero",
+      "text": "2 Global Wheat Program, International Maize and Wheat Improvement Center (CIMMYT), Texcoco, Mexico 3 KWS Momont Recherche, Mons\u2010en\u2010Pevele, France Find articles by Gemma Molero"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Matthew P Reynolds",
+      "text": "2 Global Wheat Program, International Maize and Wheat Improvement Center (CIMMYT), Texcoco, Mexico Find articles by Matthew P Reynolds"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Oorbessy Gaju",
+      "text": "4 Lincoln Institute for Agri\u2010Food and Technology, University of Lincoln, Lincoln, UK Find articles by Oorbessy Gaju"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Erik H Murchie",
+      "text": "1 Division of Plant and Crop Science, School of Biosciences, University of Nottingham, Leicestershire, UK Find articles by Erik H Murchie"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Michael John Foulkes",
+      "text": "1 Division of Plant and Crop Science, School of Biosciences, University of Nottingham, Leicestershire, UK Find articles by Michael John Foulkes"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Radiation\u2010use efficiency (RUE) is an important trait for raising biomass and yield potential in plant breeding. However, the effect of the planting system (PS) on genetic variation in RUE has not been previously investigated. Our objectives were to quantify genetic variation in RUE, biomass and grain yield in raised\u2010bed and flat\u2010basin planting systems, and associations with canopy\u2010architecture traits (flag\u2010leaf angle and curvature). Twelve spring wheat ( Triticum aestivum L.) cultivars were evaluated under irrigated conditions for 3 years in North West Mexico using raised\u2010bed and flat\u2010basin planting systems. Canopy architecture traits were measured at booting and anthesis + 7 days. Grain yield (10.6%), biomass (7.6%), and pre\u2010grain\u2010filling RUE (9.7%) were higher in raised beds than flat basins, while a significant planting system \u00d7 genotype interaction was found for grain yield. Genetic variation in pre\u2010grain\u2010filling RUE was associated with biomass and grain yield in beds and basins. In flat basins, higher pre\u2010grain\u2010filling RUE was correlated with a more upright flag\u2010leaf angle but not in raised beds. In raised beds, cultivars with less upright flag\u2010leaf angle had greater fractional light interception pre\u2010anthesis. Taller semi\u2010dwarf cultivars intercepted relatively more radiation in the beds than the flats before anthesis, consistent with the taller cultivars showing relatively greater increases in yield in beds compared to flats. Our results indicated that the evaluation of genotypes for RUE and biomass in wheat breeding should take into account planting systems to capture genotype \u00d7 PS effects. In addition, the results demonstrate how flag\u2010leaf angle has a different effect depending on the planting system."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 2,
+      "heading": "Core Ideas",
+      "text": "Yield, biomass, and radiation\u2010use efficiency (RUE) of wheat lines were higher on raised beds than flat basins. Yield showed a planting system \u00d7 genotype interaction; taller cultivars performed relatively better in beds than basins. In basins, higher RUE among cultivars was associated with a more upright flag\u2010leaf angle. In beds, higher fractional light interception among cultivars was associated with a less upright flag\u2010leaf angle. Evaluation of RUE, biomass, and other yield\u2010related traits in wheat breeding should take account of the effects of the planting system."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Abbreviations",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "1. INTRODUCTION",
+      "text": "Wheat ( Triticum aestivum L.) is the most widely grown crop with \u223c750 million tons produced every year (FAOSTAT, 2018 ) and contributes 20% of the calories of the global human diet (Braun et al., 2010 ). Wheat yields will need to be doubled by 2050 for food security (Ray et al., 2013 ). Van Dijk et al. ( 2021 ) predicted an increased food demand by 35%\u221256% between 2010 and 2050. In recent decades in irrigated wheat production in North West Mexico, growers have adopted a raised\u2010bed planting system (Figure 1 ) converting from the traditional flat\u2010basin planting system (Fahong et al., 2004 ). The raised\u2010bed planting system consists of defined rows planted on the top of the beds with flood irrigation supplied in furrows between the beds and has been associated with grain yield improvements (Fahong et al., 2004 ). In addition, management advantages of raised beds compared with flat basins are as follows: reduced irrigation water requirements by 20%\u201340%, reduced weeds/diseases associated with the wider row spacings facilitating weed control and reducing disease pressure, improved nitrogen (N) fertilizer\u2010use efficiency, reduced lodging, and improved plant establishment (Sayre et al., 2008 ). However, the results of investigations comparing raised beds versus flat basins are inconsistent in terms of grain yield effects, and there is a need for further studies. Better grain yield in raised beds than flat basins was reported in wheat by 4%\u201317% (Ahmad et al., 2010 ; Fahong et al., 2004 ; Jat et al., 2011 ; Kong et al., 2010 ; Majeed et al., 2015 ; Noorka & Tabasum, 2013; Wang et al., 2009 ). However, Tanveer et al. ( 2003 ) and L\u00f3pez\u2010Casta\u00f1eda et al. (2014) found greater grain yield in flat basins than raised beds. Some studies have reported a trend for taller cultivars in raised beds to perform relatively better than in flat basins, potentially associated with earlier canopy closure in the gap between the beds leading to higher radiation interception pre\u2010anthesis (Fischer, 2005) and/or to effects on radiation\u2010use efficiency (RUE). Therefore, the better performing cultivars in flat basins may not be better performing in raised beds. Yield potential (YP) can be expressed by simple Equation ( 1 ) (Reynolds et al., 2005 ): where LI is intercepted radiation, RUE is radiation\u2010use efficiency (ratio of aboveground biomass to radiation intercepted; (Monteith & Moss, 1977 ), and HI is harvest index (ratio of grain biomass to aboveground biomass). During the Green Revolution, many studies observed that grain yield increased due to a greater HI without improvements in aboveground biomass (Austin et al., 1980 ; Gifford et al., 1984; Reynolds et al., 1999 ; Sayre et al., 1997 ). Since then, HI has shown slower genetic progress and is approaching its theoretical maximum of ca. 0.65 in some countries (Austin, 1980 ; Foulkes et al., 2011 ). In the United Kingdom, genetic gains in grain yield from 1980 to 1995 were associated with aboveground biomass; and biomass gains, in turn, were associated with RUE (Shearman et al., 2005 ). Other studies (Aisawi et al., 2015; Donmez et al., 2001 ; Reynolds et al., 1999 ) also demonstrated genetic progress in aboveground biomass in wheat in the last decades. Wheat canopies in favorable conditions typically achieve >95% light interception from canopy closure at the onset of stem extension up to mid grain\u2010filling when flag\u2010leaf senescence begins (Reynolds et al., 2005 ). Therefore, to raise biomass, RUE must be improved in future breeding since light interception is close to approaching its upper limit (Foulkes & Murchie, 2011 ). In wheat crops, RUE is typically in the region of 2.8 g MJ \u22121 of photosynthetically active radiation (PAR, 400\u2013700 nm) (Molero et al., 2019 ; Yunusa et al., 1993 ) and 1.4 g MJ \u22121 of solar radiation (Sinclair & Muchow, 1999 ). Several recent investigations have demonstrated that RUE has been associated with genetic progress in biomass improvement in bread wheat (e.g. Molero et al., 2019 ). Rey"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "FIGURE 1.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Core Ideas",
+      "text": "Yield, biomass, and radiation\u2010use efficiency (RUE) of wheat lines were higher on raised beds than flat basins. Yield showed a planting system \u00d7 genotype interaction; taller cultivars performed relatively better in beds than basins. In basins, higher RUE among cultivars was associated with a more upright flag\u2010leaf angle. In beds, higher fractional light interception among cultivars was associated with a less upright flag\u2010leaf angle. Evaluation of RUE, biomass, and other yield\u2010related traits in wheat breeding should take account of the effects of the planting system."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "2. MATERIALS AND METHODS",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "2.1. Experiment site, design, and treatments",
+      "text": "Three field experiments were performed at the CIMMYT CENEB (Campo Experimental Norman E. Borlaug) research station in the Yaqui Valley near Ciudad Obregon, Sonora (27\u00b0395 N, 109\u00b0926 W, 38 masl), under irrigated conditions in 2017\u20132018, 2018\u20132019, and 2019\u20132020. The soil type was a sandy clay, mixed montmorillonitic typic caliciorthid, low in organic matter, and slightly alkaline (pH 7.7) (Sayre et al., 1997 ). In each year, for each of two planting systems (raised beds and flat basins), a randomized block design was implemented with three replicates per cultivar. The two planting systems were sown in adjacent areas in the field, with a 5\u2010m gap between the border plots of the planting systems. Ten genotypes were selected based on contrasting RUE, biomass, and canopy architecture from the HiBAP I (High Biomass Association Panel) from previous CIMMYT datasets (Table 1 ; Molero et al., 2019 ) and were grown in all three seasons. Two more erectophile cultivars were added in the experiments in 2018\u20132019 and 2019\u20132020 to increase canopy architecture variation, selected from the ESWYT (Elite Selection Wheat Yield Trial series) in the CIMMYT wheat breeding program. The genotype names are abbreviated in tables and figures; the full names are given in Table 1 along with information on canopy architecture. Of the 12 genotypes, six were elite CIMMYT cultivars (BACANORA T88, CHEWINK #1, SOKOLL, KUTZ, NELOKI, and BORLAUG100), and the others were elite advanced lines as indicated in Table 1 . For concision, the 12 genotypes are referred to as cultivars hereafter. The raised beds (B) planting system consisted of two beds per plot, whereas the flat basins (F) had one flat area per plot. In the raised beds planting system, the two beds per plot were each 0.8 m wide and 4 m long (=6.4 m 2 per plot) with two rows per bed (0.24 m between rows) and 0.56 m between the inner rows of the two adjacent beds. Therefore, the plot width in raised beds was 1.6 m (see Figure 1b ). For flat basins in 2017\u20132018 and 2018\u20132019, there were eight rows per basin (1.6 \u00d7 5 m = 8.0 m 2 per plot) with 0.20 m between rows. In 2019\u20132020, there were six rows per basin (1.44 \u00d7 5 m = 7.2 m 2 per plot) with 0.24 m between rows. The sowing dates were November 30, 2017, November 30, 2018, and December 21, 2019, for raised beds and December 1, 2017, December 1, 2018, and December 17, 2019, for flat basins. The emergence dates were December 7, 2017, December 7, 2018, and December 31, 2019, in beds and December 9, 2017, December 9, 2018, and December 26, 2020, in flats. The seed rate was 102 kg ha \u22121 for the 3 years in beds and 107 kg ha \u22121 in 2017\u20132018 and 2018\u20132019 and 106 kg ha \u22121 in 2019\u20132020 in flats. In 2017\u20132018, both planting systems were fertilized with 50 kg N ha \u22121 (urea) during land preparation followed by 50 kg P ha \u22121 at sowing. A second and third N application (200 and 50 kg N ha \u22121 , respectively, as urea) was applied at the first and second irrigation, respectively. In 2018\u20132019 and 2019\u20132020, both planting systems were fertilized with 50 kg N ha \u22121 (as urea) during land preparation followed by 50 kg P ha \u22121 at sowing. The second N application was added at the time of the first irrigation (200 kg N ha \u22121 ). In 2017\u20132018 and 2018\u20132019, the irrigation was applied every 3\u20134 weeks during the cycle as flood irrigation in both planting systems. In 2019\u20132020, raised beds were irrigated as for the first two years, and the flat basins were irrigated using drip irrigation every 3\u20134 weeks. Herbicides, fungicides, and pesticides were applied as necessary in order to minimize the effects of weeds, diseases, and pests. Plot management information for the two planting systems is summarized in Table S1 . In all experiments, there was no evidence for hypoxia in the plants at any stage during the season in any of the plots."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 4,
+      "heading": "TABLE 1.",
+      "text": "List of 12 CIMMYT elite spring bread wheat cultivars and advanced lines in the experiments in 2017\u20132018, 2018\u20132019, and 2019\u20132020. # Genotype Canopy architecture type 1 BACANORA T88 Erectophile 2 C80.1/3*QT4118//KAUZ/RAYON/3/2*TRCH/7/CMH79A.955/4/AGA/3/4*SN64/CNO67//INIA66/5/NAC/6/RIALTO Planophile 3 CHEWINK #1 Planophile 4 SOKOLL//PUB94.15.1.12/WBLL1 Planophile 5 NELOKI Erectophile 6 W15.92/4/PASTOR//HXL7573/2*BAU/3/WBLL1 Planophile 7 KUKRI Planophile 8 KUTZ Planophile 9 SOKOLL Planophile 10 BORLAUG100 F2014 Planophile 11 a ITP40/AKURI//FRNCLN*2/TECUE #1 Erectophile 12 a CHIPAK*2//SUP152/KENYA SUNBIRD Erectophile Open in a new tab a Two lines added in 2018\u20132019 and 2019\u20132020."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "2.2. Crop measurements",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 4,
+      "heading": "2.2.1. Phenology and growth analysis",
+      "text": "Dates of reaching initiation of booting (GS41), heading (GS55), anthesis (GS65), and physiological maturity (GS87) were recorded (Zadoks et al., 1974 ) as when 50% of the shoots in the plot reached the stage (Pask et al., 2012 ). Biomass samples were taken by cutting shoots at the ground level at 40 days after emergence, early booting (GS41), and anthesis (GS65) + 7 days in a 0.8\u2010m 2 area (0.50 \u00d7 1.6 m) in beds and a 0.8\u2010m 2 area (0.50 \u00d7 1.6 m) in flats, except for 40 days after emergence (0.40 m 2 : 0.25 \u00d7 1.6 m in beds; 0.40 m 2 : 0.25 \u00d7 1.6 m in flats). The biomass sample was taken leaving 25 cm (40 days after emergence) or 50 cm (GS41 and GS65 + 7 days) from the end of the plot to reduce border effects. At emergence + 40 days, GS41, and GS65 + 7 days, a subsample of the sampled material was taken on a fresh weight basis of 50 shoots and weighed after drying at 70\u00b0C for 48 h. For biomass at physiological maturity, 50 fertile shoots, that is those with a spike (2017\u20132018 and 2018\u20132019), or 30 fertile shoots (2019\u20132020) were sampled randomly by cutting at the ground level to estimate harvest index (HI) (ratio of grain dry matter to aboveground dry matter) and grain yield components as described by Pask et al. ( 2012 ). After physiological maturity, grain yield was measured in each plot by machine harvesting an average plot area of 3.2 and 4.0 m 2 per plot in beds and flats, respectively, and values were further adjusted to the moisture percentage measured in each plot. In each plot, 50 cm at each end of the plot was discarded in order to remove the border effect. For TGW, a subsample of ca. 20 g was taken, and the dry weight was recorded after drying at 70\u00b0C for 48 h. The grains were counted using the digital image system Seed Counter (SeedCount SC5000). Relative chlorophyll content of the flag leaf was measured using a hand\u2010held SPAD meter (SPAD 502 Minolta) in the middle of the leaf at 7 days after anthesis taking readings for six flag leaves per plot."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 4,
+      "heading": "2.2.2. Phenology and growth analysis",
+      "text": "Fractional interception (FI) of photosynthetically active radiation (PAR, 400\u2013700 nm) was measured using a 1\u2010m linear ceptometer (AccuPAR LP\u201080; Decagon Devices) at emergence + 40 days, GS41, and GS65 + 7 days in 2018\u20132019 and 2019\u20132020. The measurements were taken above the crop (incident radiation), inverting the ceptometer 10 cm above the canopy (reflected radiation) and below the canopy at the ground level (transmitted radiation) during sunny days from 11 a.m. to 1 p.m. when the sun was near its zenith and wind speed was low. In the raised beds, the ceptometer was positioned at a certain angle to the direction of the plant rows so that half of the central gap between the beds was included in the measurement to ensure that all variations across the plot were equally sampled, and measurements were representative of the whole plot. A single reading per bed was taken in beds and two readings per plot in flats. Fractional PAR interception was calculated as follows (Equation 2 ): where FI is the fractional PAR interception, PARi is the incident photosynthetically active radiation, PARr is the reflected PAR, and PARt is the transmitted PAR at the soil surface."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 4,
+      "heading": "2.2.3. Radiation\u2010use efficiency",
+      "text": "RUE was calculated in each plot as the increment in the aboveground dry matter divided by the increment in intercepted PAR (IPAR) for the phase (Monteith & Moss, 1977 ) in 2018\u20132019 and 2019\u20132020. PAR interception was measured at emergence + 40 days, initiation of booting, and anthesis + 7 days to calculate the accumulated PAR during the phenophases: IPARaccE40\u2013InB40 (IPAR accumulated from emergence + 40 days to the initiation of booting), IPARaccInB\u2013A7 (IPAR accumulated from initiation of booting to anthesis + 7 days), IPARaccE40\u2013A7 (IPAR accumulated from emergence + 40 days to anthesis + 7 days), and IPARaccA7\u2013PM (IPAR accumulated from anthesis + 7 days to physiological maturity). The accumulated PAR interception for the phenophases up to GS65 + 7 days was calculated from the cumulative incident PAR for the phase and then multiplied by the average FI from the start to the end of the phase. For PAR accumulated interception from GS65 + 7 days to physiological maturity (IPARaccA7\u2013PM), the FI at GS65 + 7 days was applied to the incident PAR for each day during the phase; the daily increments of PAR interception were then accumulated for the phase (a correction factor of 0.5 was applied to FI during the last 25% of the grain\u2010filling period to account for the interception by senesced canopy; Reynolds & Pfeiffer, 2000 ). A PAR interception from emergence + 40 days to physiological maturity was calculated as the sum of IPARaccE40\u2013A7 and IPARaccA7\u2013PM. RUE was measured over five different phases: RUE_E40InB (from 40 days after emergence [close to canopy closure] to the initiation of booting), RUE_InBA7 (from initiation of booting to 7 days after anthesis), RUE_preGF (RUE pre\u2010grain\u2010filling from 40 days after emergence to 7 days after anthesis), RUE_GF (RUE grain\u2010filling from 7 days after anthesis to physiological maturity) and RUET (from emergence + 40 days to physiological maturity). RUE was therefore calculated using Equations ( (3) , (4) , (5) , (6) , (7) ): where BM is the aboveground dry matter, IPARacc is the accumulated intercepted PAR, E40 is emergence + 40 days, InB is initiation of booting (GS41), A7 is the anthesis (GS65) + 7 days, and PM is the physiological maturity."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 4,
+      "heading": "2.2.4. Canopy architecture traits",
+      "text": "Canopy architecture was scored for each plot at the initiation of booting and 7 days after anthesis. A qualitative method (visual score) of overall canopy architecture based on the upper leaves (Flag\u2010leaf canopy visual score; FLcvs) was made for each plot using the scale of Richards et al. ( 2019 ). A score of 1 was given to plots when all leaves were visually erect, a score of 6 was given when 60% of the leaves in the upper canopy appeared planophile, and a score of 10 was given to plots when all visible leaves in the upper canopy appeared planophile. More detailed canopy architecture measurements using quantitative methods were taken on the flag leaf for six randomly selected fertile shoots per plot (Figure 2 ). The flag\u2010leaf angle (FLA; \u00b0) was measured from the vertical stem to the middle part of the flag\u2010leaf using a protractor. The flag\u2010leaf curvature (FLcv; cm) was measured as the distance from the point of inflection to the tip of the leaf. Total length and total width of the flag leaf were also measured using a ruler. Plant height was measured from the ground to the tip of the spike (awns were not considered) shortly before physiological maturity."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 4,
+      "heading": "2.2.5. Normalized difference vegetation index",
+      "text": "Normalized difference vegetation index (NDVI) was measured in raised beds and flat basins in each plot from canopy closure (close to onset of stem extension) to late grain filling using a Green Seeker spectroradiometer (Trimble Agriculture) approximately every 2 weeks (Pask et al., 2012 ). The NDVI measurements provided additional information on green canopy area and senescence profiles to help interpret treatment effects on radiation interception. The spectroradiometer sensor was held 60\u2013120 cm above the crop. NDVI was calculated from measurements of reflectance in the red (680 nm) and near infrared (800 nm) regions of the spectrum using Equation ( 8 ): where R680 and R800 are the reflectance at 680 and 800 nm, respectively."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 4,
+      "heading": "2.2.6. Statistical analysis",
+      "text": "Adjusted means for grain yield, yield components, and physiological traits were calculated using a general linear model analysis of variance procedure from META R 6.04 (Alvarado et al., 2020 ). Replications, years, and planting systems were considered random effects, and genotypes as a fixed effect. A covariate for anthesis date was used as a fixed effect and was included when significant. Phenotypic correlations between traits were Pearson's correlation coefficient calculated using either the 3\u2010year genotype means or the 2\u2010year genotype means. Linear regression analysis was applied to 2\u2010year or 3\u2010year genotype means for selected traits. Broad sense heritability ( H 2 ) was calculated using data across the 3 or 2 years using Equation ( 9 ): where \u03c3 2 is the error variance, \u03c3 g 2 is the genotypic variance, \u03c3 g y 2 is the G \u00d7 Y variance, \u03c3 g s 2 is the PS variance, s is the number of PS, y is the number of years, \u03c3 e 2 is the residual variance, and r is the number of replicates."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 2,
+      "heading": "3. RESULTS",
+      "text": "Meteorological data including mean monthly temperature, relative humidity, rainfall, and solar radiation were collected from a weather station within 1 km of the field experiments. The environmental conditions in the field experiments for the three crop cycles are shown in Figure S1 . The mean temperature from December to April was similar in 2018\u20132019 (18.0\u00b0C) and 2019\u20132020 (17.7\u00b0C), but in 2017\u20132018, it was ca. 1\u00b0C warmer (19.1\u00b0C). Low rainfall (<10 mm per month) was observed during each of the three crop cycles. Average radiation from December to April was higher during 2017\u20132018 than in 2018\u20132019 and 2019\u20132020."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "3.1. Gran yield, yield components, and developmental stages",
+      "text": "Plant establishment (plant counts in an area of 0.40 m 2 in beds and 0.40 m 2 in flats 28 days after emergence) was measured only in 2019\u20132020 when a nonsignificant difference (153\u2013176 plants m \u22122 ) was observed between the two planting systems (Table 2 ). Plant height differed among cultivars from 90.1 to 121.3 cm in beds and from 88.3 to 119.4 cm in flats ( p < 0.001) with a PS \u00d7 G interaction ( p < 0.05), but plant height did not differ between planting systems. The date of the initiation of booting, heading, and anthesis was 1 day later in beds than flats, and for physiological maturity, the date was 3 days later in beds than flats. Averaging across the 3 years, grain yield varied among the cultivars from 539 to 741 g m \u22122 in beds and from 525 to 693 g m \u22122 in flats ( p < 0.001; Table 2 ). On average, grain yield in beds was 10.6% higher than in flats ( p < 0.001). A significant PS \u00d7 G interaction was observed for yield ( p < 0.05) with the increase in beds compared to flats ranging from 0 to 120 g m \u22122 among the cultivars. There was a larger grain yield increase in beds compared to flats for taller than shorter cultivars (Table S2 ). HI was increased in beds (0.47) compared to flats (0.46) ( p < 0.05), but there was no significant PS \u00d7 G interaction. Overall, biomass at physiological maturity (BMPM) was 7.6% greater in beds (1420 g m \u22122 ) than in flats (1320 g m \u22122 ) ( p < 0.001). Cultivars ranged from 1192 to 1512 g m \u22122 in beds and from 1204 to 1444 in flats ( p < 0.001), and there was a significant PS \u00d7 G interaction. Genetic variation was found for spikes per m 2 , grains per spike (GPS), grains per m 2 (GM2), and TGW ( p < 0.001) with a significant planting system effect for all these traits ( p < 0.01, p < 0.001, p < 0.001, and p = 0.097, respectively). However, only GPS ( p < 0.001) and SM2 ( p = 0.068) showed a PS \u00d7 G interaction. Grain yield was strongly positively correlated with BMPM in beds ( r = 0.77, p < 0.01) and flats ( r = 0.78, p < 0.01; Table 3 ). A positive correlation was also found between grain yield and HI in flats ( r = 0.70, p < 0.01), but there was no correlation in beds. Results showed that shorter plants had higher HI (B: r = \u22120.53, p = 0.08 and F: r = \u22120.62, p < 0.05). A strong positive correlation was found between grain yield and GPS in beds ( r = 0.80, p < 0.01) and flats ( r = 0.61, p < 0.05). There was a trade\u2010off between GM2 and TGW in both planting systems (B: r = \u22120.74, p < 0.01, F: r = \u22120.79, p < 0.01). Additionally, there was a positive correlation between the anthesis date and BMPM in beds ( r = 0.58, p < 0.05) and flats ( r = 0.59, p < 0.05)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 4,
+      "heading": "TABLE 2.",
+      "text": "Mean, minimum, maximum, and analysis of variance (ANOVA) for yield, yield components, biomass at maturity, and phenology expressed in days after emergence (DAE) from the combined analysis across 2017\u20132018, 2018\u20132019, and 2019\u20132020 in raised beds (B) and flat basins (F). p value Mean Min Max Trait B F B F B F G Y PS PS \u00d7 G YLD (g m \u22122 ) 666 602 539 525 741 693 <0.001 <0.05 <0.001 <0.05 TGW (g) 45.2 44.8 35.2 35.2 51.2 51.6 <0.001 <0.001 0.097 ns GM2 (m \u22122 ) 14,883 13,581 11,584 10,611 18,067 16,785 <0.001 <0.01 <0.001 0.184 BMPM (g m \u22122 ) 1420 1320 1192 1204 1512 1444 <0.001 <0.01 <0.001 <0.05 HeightPM (cm) 105.7 105.7 90.1 88.3 121.3 119.4 <0.001 <0.001 ns <0.05 ShootsA7 (m \u22122 ) 451 483 396 395 496 483 <0.001 <0.001 <0.001 <0.05 DTA (DAE) 77 76 72 72 81 80 <0.001 <0.001 <0.001 0.084 DTPM (DAE) 117 114 113 110 121 118 <0.001 <0.001 <0.001 ns Plants (m \u22122 ) a 156 173 139 152 180 201 <0.001 \u2013 0.074 ns Open in a new tab Abbreviations: BMPM, biomass at physiological maturity; DTA (DAE), days to anthesis (GS65); DTPM (DAE), days to physiological maturity (GS87); GM2, grain number per square meter; HeightPM, plant height at physiological maturity; Min, minimum; Max, maximum; ns, not significant; Plants, number of plants per square meter; ShootsA7, fertile shoots at 7 days to anthesis; TGW, thousand\u2010grain weight; YLD, grain yield. a Only 1 year data (2019\u20132020)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 4,
+      "heading": "TABLE 3.",
+      "text": "Phenotypic correlations for grain yield, yield components, height at physiological maturity, number of shoots at anthesis + 7 days (m 2 ), and phenology in days after emergence (DAE) among the 12 spring CIMMYT wheat genotypes. 1 2 3 4 5 6 7 8 9 Raised beds (B) 1. YLD \u2013 2. TGW 0.42 \u2013 3. GM2 0.30 \u22120.74 ** \u2013 4. BMPM 0.77 ** 0.70 * \u22120.18 \u2013 5. SM2 \u22120.52 **** \u22120.87 *** 0.50 \u22120.71 * \u2013 6. HeightPM 0.34 0.80 ** \u22120.61 * 0.75 ** \u22120.81 ** \u2013 7. ShootsA7 0.12 \u22120.47 0.59 * \u22120.11 0.51 **** \u22120.55 **** 8. DTA 0.51 **** 0.16 0.17 0.58 * \u22120.40 0.61 * 0.96 *** \u2013 9. DTPM 0.31 0.03 0.15 0.31 \u22120.22 0.42 0.81 ** 0.83 *** \u2013 Flat basins (F) 1. YLD \u2013 2. TGW 0.08 \u2013 3. GM2 0.54 **** \u22120.79 ** \u2013 4. BMPM 0.78 ** 0.38 0.12 \u2013 5. SM2 \u22120.01 \u22120.84 *** 0.69 * \u22120.37 \u2013 6. HeightPM \u22120.08 0.81 ** \u22120.76 ** 0.44 \u22120.87 *** \u2013 7. ShootsA7 0.21 \u22120.80 ** 0.80 ** \u22120.17 0.85 *** \u22120.79 ** 8. DTA 0.25 0.07 0.04 0.59 * \u22120.47 0.56 **** 0.95 *** \u2013 9. DTPM 0.16 \u22120.03 0.08 0.49 \u22120.35 0.40 0.78 ** 0.81 *** \u2013 Open in a new tab Note : Values are based on means in 2017\u20132018, 2018\u20132019, and 2019\u20132020 in raised beds (B) and flat basins (F). Abbreviations: BMPM, biomass at physiological maturity; DTA (DAE), days to anthesis (GS65); DTPM (DAE), days to physiological maturity (GS87); GM2, grain number per square meter; HeightPM, plant height at physiological maturity; ShootsA7, fertile shoots at 7 days to anthesis; TGW, thousand\u2010grain weight; YLD, grain yield. * p < 0.05. ** p < 0.01. *** p < 0.001. **** p < 0.10."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "3.2. Canopy architecture traits",
+      "text": "Flag\u2010leaf angle was higher (i.e., less upright leaf) in flat basins (13\u00b0) than raised beds (6\u00b0) at the initiation of booting ( p < 0.001). However, at 7 days after anthesis, flag\u2010leaf angle was higher in raised beds (72\u00b0) than flat basins (68\u00b0; p < 0.05). At the initiation of booting, the flag\u2010leaf angle varied from 3\u00b0 (BACANORA T88) to 9\u00b0 (KUTZ) in raised beds and 4\u00b0 (BACANORA T88) to 26\u00b0 (KUTZ) in flat basins ( p < 0.001) (Table 4 ). At 7 days after anthesis, flag\u2010leaf angle varied from 35\u00b0 (BACANORA T88) to 103\u00b0 (KUTZ) in raised beds and from 28\u00b0 to 96\u00b0 (KUTZ and C80.1/3*QT4118) in flat basins ( p < 0.001). A PS \u00d7 G interaction was found for flag\u2010leaf angle at both stages ( p < 0.001). The range of the responses to PS (i.e., increase in beds versus flats) for the flag\u2010leaf angle was from \u221218\u00b0 to \u22121\u00b0 at GS41 and \u221215\u00b0 to 29\u00b0 at GS65 + 7 days. A planting system effect was observed only for flag\u2010leaf curvature (FLcv) at the initiation of booting ( p < 0.01) with higher values in raised beds (higher values, i.e., increased length from inflection point to leaf tip, representing more curved leaf). No planting system effect on the visual score for curvature (FLcvs) was found at either stage. For the quantitative measurement of FLcv, cultivars ranged from 16.4 to 21.8 cm in raised beds and from 6.0 to 17.4 cm in flat basins at the initiation of booting ( p < 0.001). At 7 days after anthesis, FLcv varied from 8.6 to 23.2 cm in raised beds and from 5.8 to 18.2 cm in flat basins ( p < 0.001). FLcvs showed genetic variation at GS41 ( p < 0.001) and GS65 + 7 days ( p < 0.001). The interaction for FLcv at GS41 ranged from 2.64 to 12.19 cm (increase in beds vs. flats). There was no PS \u00d7 G interaction for FLcv at GS65 + 7 days, or for FLcvs at either stage. A correlation among cultivars between FLcv and FLcvs was found only in raised beds at GS41 ( r = 0.51, p < 0.01). Flag\u2010leaf length was higher in flat basins than raised beds at the initiation of booting ( p < 0.001) but higher in raised beds at 7 days after anthesis ( p < 0.001) (Table S3 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 4,
+      "heading": "TABLE 4.",
+      "text": "Flag\u2010leaf angle (FLA), flag\u2010leaf curvature visual score (1\u201310, FLcvs), and distance from the point of inflection of the flag\u2010leaf to the tip (FLcv) at the initiation of booting (GS41, InB) and 7 days after anthesis (GS65, A7) for 12 CIMMYT spring wheat genotypes from the combined analysis across 2018\u20132019 and 2019\u20132020 in raised beds (B) and flat basins (F). Initiation of booting Anthesis + 7 days FLAInB (\u00b0) FLcvInB (cm) FLcvsInB FLAA7 (\u00b0) FLcvA7 (cm) FLcvsA7 Genotype B F B F B F B F B F B F BACANORA T88 3 4 22.08 13.86 1 2 35 28 23.64 17.79 3 2 C80.1/3*QT4118 7 20 17.53 12.18 8 6 97 96 17.11 11.33 7 7 CHEWINK#1 7 14 20.97 15.21 9 8 66 61 20.83 15.40 9 8 SOKOLL//PUB94 7 25 17.65 7.91 8 8 53 53 19.51 16.13 7 7 NELOKI 3 6 21.13 16.34 3 3 46 45 20.03 18.52 5 4 W15.92/4/PASTOR 7 12 16.71 7.06 8 7 76 73 18.22 13.37 7 7 KUKRI 8 11 16.38 15.75 8 8 86 98 16.71 6.76 7 7 KUTZ 9 26 18.22 6.03 8 8 103 96 8.59 5.82 7 6 SOKOLL 7 10 17.79 15.15 8 7 67 82 16.59 6.39 7 7 BOURLAG100 8 14 20.18 15.07 9 9 97 68 18.88 12.67 8 8 ITP40/AKURI 4 6 22.33 15.79 2 2 46 49 21.93 17.70 5 2 CHIPAK*2// 6 8 20.78 17.41 5 5 87 63 20.30 8.83 5 5 Mean 6 13 19.31 13.15 6 6 72 68 18.52 12.56 6 6 H 2 0.99 0.81 0.98 0.99 0.94 0.98 LSD (G) (5%) 2.129 4.026 1.610 10.140 3.829 1.088 CV% 13.53 15.29 16.11 8.98 15.18 10.97 G ( p \u2010value) *** *** *** *** *** *** PS ( p \u2010value) *** ** 0.165 * 0.144 0.08 Y ( p \u2010value) 0.110 *** ns * *** ns PS \u00d7 G ( p \u2010value) *** 0.116 ns *** ns *** Open in a new tab Abbreviations: CV, coefficient of variation; FLAInB, flag\u2010leaf angle at initiation of booting (\u00b0); FLcvInB, point of inflection of the flag leaf to the tip (cm); FLcvsInB, flag\u2010leaf curvature score at initiation of booting; FLAA7, flag\u2010leaf angle 7 days after anthesis (\u00b0); FLcvA7, flag\u2010leaf curvature at 7 days after anthesis (cm); FLcvsA7score, flag\u2010leaf curvature score at 7 days after anthesis; LSD, least signficant difference of the means, p = 0.05; ns, not significant; PS \u00d7 G, planting system \u00d7 genotype. * p < 0.05. ** p < 0.01. *** p < 0.001."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "3.3. Biomass, radiation interception, and NDVI during the season",
+      "text": "Averaging across the 3 years, biomass evaluated at the different growth stages during the season showed genetic variation ( p < 0.001) (Figure 3 ). Biomass at 40 days after emergence ranged among the 12 cultivars ( p < 0.001) from 171 to 218 g m \u22122 in beds and from 192 to 290 g m \u22122 in flats (Figure 3a ); and was overall 21.5% higher in flats than in beds ( p < 0.001). Biomass at initiation of booting was 10.7% higher in flats than beds ( p < 0.001) with genetic ranges from 376 to 635 g m \u22122 in beds and from 489 to 642 g m \u22122 in flats (Figure 3b ). However, biomass at anthesis + 7 days did not differ between planting systems ( p = 0.63) with cultivars ranging from 771 to 1124 g m \u22122 in beds and from 858 to 1143 g m \u22122 in flats ( p < 0.001; Figure 3c ). At physiological maturity, biomass was 7.6% higher in beds than flats ( p < 0.001), ranging from 1204 to 1444 g m \u22122 in beds and from 1192 to 1512 g m \u22122 in flats ( p < 0.001) among cultivars (Figure 3d ). The biomass at each stage showed a statistically significant PS \u00d7 G interaction. The cultivar SOKOLL showed the greatest biomass increase in beds compared to flats at physiological maturity where beds overall had 226 g m \u22122 more biomass than flats, and the cultivar NELOKI showed the smallest increase. Cultivar SOKOLL was intermediate in the range for plant height among the cultivars with a planophile canopy architecture, whereas cultivar NELOKI was the shortest among the 12 cultivars with an erectophile canopy architecture (Tables 1 and 4 ). Cultivars showed different temporal patterns of biomass accumulation in the beds and flats during the crop cycle (Figure S2 ). NDVI during the season in beds and flats is shown in Figure 4 . At emergence + 40 days and initiation of booting, both planting systems had similar NDVI values. However, canopy NDVI started to decrease earlier in the flats (at around spike emergence) than in the beds (no decrease from the peak until after anthesis). Radiation interception and RUE were measured only in 2018\u20132019 and 2019\u20132020. Averaging across the 2 years, fractional radiation interception showed genetic variation at GS41 and GS65 + 7 days ( p < 0.001 and p < 0.05, respectively) (Table S4 ) and was marginally higher in flats than beds at both stages (0.99 vs. 0.98 at GS41 and 0.98 vs. 0.97 at GS65 + 7 days; p < 0.001 and p < 0.01, respectively). FI at GS65 + 7 days showed a PS \u00d7 G interaction ( p < 0.001) with a trend for an interaction at GS41 also ( p = 0.06). The genetic variation in accumulated intercepted PAR for the phenophases during the crop cycle in both planting systems is shown in Figure 5 . In beds, the accumulated intercepted radiation (IPARacc) in the pre\u2010anthesis phenophases and the grain\u2010filling phase was slightly greater than in flats. Genetic variation in IPARacc was found for beds and flats for each phenophase (emergence + 40 days\u2013initiation booting, initiation of booting\u2013anthesis + 7 days, anthesis + 7 days\u2013physiological maturity and emergence + 40 days to physiological maturity; p < 0.001; Figure 5a\u2013d ) and a significant planting system effect ( p < 0.01, p < 0.01, p < 0.01, and p < 0.001, respectively). The small increases in beds compared to flats for accumulated intercepted radiation were associated with the slightly extended duration of the phenological phases in the beds compared to the flats. A significant PS \u00d7 G interaction was found for each phenophase ( p = 0.052, p < 0.01, p < 0.01, and p < 0.05, respectively). In beds, a strong positive correlation was found between genetic variation in IPARacc from emergence + 40 days to booting and biomass accumulated during this phenophase ( r = 0.91, p < 0.001; Table S5 ) and similarly for the phenophase from emergence + 40 days to physiological maturity ( r = 0.72, p < 0.01). There was no correlation in flats for these phenophases."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 4,
+      "heading": "FIGURE 3.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 4,
+      "heading": "FIGURE 4.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 4,
+      "heading": "FIGURE 5.",
+      "text": "Open in a new tab"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "3.4. RUE and correlations with biomass and grain yield",
+      "text": "For the combined analysis in 2018\u20132019 and 2019\u20132020, there were significant effects of planting systems: with RUE early in the season from emergence + 40 days to booting increasing in flats compared to beds ( p < 0.05) but increases in beds compared to flats from the onset of booting to anthesis + 7 days and over the whole crop cycle from emergence + 40 days to physiological maturity ( p < 0.05; Table 5 ). Genetic variation in RUE was statistically significant for each of the phenophases for which RUE was estimated for both beds and flats ( p < 0.001). For RUE_E40InB, there was a PS \u00d7 G interaction ( p < 0.001). The genotypes mainly responsible for the interaction were NELOKI (the highest increase in flats) and ITP40 (the lowest increase in flats). For RUE_InBA7, no PS \u00d7 G interaction was found. For RUE_preGF, there was a PS \u00d7 G interaction ( p < 0.01) for which the cultivars BORLAUG100 and KUKRI were mainly responsible for the highest and lowest increases in beds compared to flats, respectively. There was also an interaction for RUE_GF ( p < 0.001) with BORLAUG100 and KUKRI having the highest and lowest increases in beds compared to flats, respectively ( p < 0.001). For RUET, SOKOLL had the greatest increase in beds compared to flats among the cultivars, while NELOKI had the smallest increase ( p < 0.05). Genetic variation in grain yield was positively correlated with RUE _ preGF in beds ( r = 0.75, p < 0.01) and flats ( r = 0.70, p < 0.05) (Table 6 ). In addition, yield was positively correlated with RUET in beds ( r = 0.73, p < 0.01) and flats ( r = 0.67, p < 0.05). Grain yield was positively correlated with RUE_InBA7 but only in flats ( r = 0.87, p < 0.001). RUET was positively related with BMPM in beds ( r = 0.83, p < 0.001) and flats ( r = 0.77, p < 0.01). With regard to other traits, in beds, a strong correlation was found between RUE_InBA7 and GM2 ( r = 0.62, p < 0.05) and between RUE_preGF and GM2 ( r = 0.58, p < 0.05)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 4,
+      "heading": "TABLE 5.",
+      "text": "Radiation\u2010use efficiency (RUE; g MJ \u22121 ) calculated from 40 days after emergence to the initiation of booting (RUE_E40InB), from initiation of booting to 7 days after emergence (RUE_InBA7), during the grain\u2010filling period from 7 days after anthesis to physiological maturity (RUE_GF), pre grain\u2010filling from 40 days after emergence to 7 days after anthesis (RUE_preGF), and from 40 days after emergence to physiological maturity (RUET) for 12 CIMMYT spring wheat genotypes. RUE_E40InB (g MJ \u22121 ) RUE_InBA7 (g MJ \u22121 ) RUE_GF (g MJ \u22121 ) RUE_preGF (g MJ \u22121 ) RUET (g MJ \u22121 ) Genotype (G) B F B F B F B F B F BACANORA T88 2.03 2.63 3.05 2.76 1.44 1.70 2.20 2.59 1.62 1.61 C80.1/3*QT4118 2.56 2.42 2.78 2.33 1.29 1.17 2.40 2.16 1.71 1.52 CHEWINK#1 2.20 2.44 2.67 2.88 1.93 1.34 2.24 2.46 1.87 1.66 SOKOLL//PUB94 2.40 3.20 3.38 2.47 1.50 1.95 2.58 2.45 1.82 1.85 NELOKI 1.63 2.31 2.64 2.34 1.10 1.19 1.81 2.12 1.30 1.41 W15.92/4/PASTOR 1.99 2.37 3.04 2.32 1.48 1.41 2.23 2.16 1.64 1.56 KUKRI 2.41 2.35 2.47 3.06 1.53 0.67 2.31 2.72 1.78 1.63 KUTZ 2.67 2.77 2.84 2.67 1.32 0.81 2.57 2.45 1.71 1.46 SOKOLL 2.54 2.65 3.51 3.05 1.60 0.72 2.79 2.80 1.98 1.67 BORLAUG100 2.00 2.57 3.59 3.10 1.11 1.51 2.81 2.56 1.91 1.73 ITP40/AKURI 2.52 2.20 3.53 3.17 1.43 1.30 2.64 2.47 1.73 1.61 CHIPAK*2// 2.35 2.42 3.28 3.27 1.13 0.96 2.51 2.76 1.73 1.78 Mean 2.27 2.53 3.06 2.79 1.41 1.23 2.42 2.48 1.73 1.62 LSD (G) (5%) 0.524 0.847 0.740 0.378 0.244 G ( p value) *** ** ** *** *** PS ( p value) * * 0.145 ns * Y ( p value) 0.163 0.115 ns * ns PS \u00d7 G ( p value) *** 0.163 ** ** * Open in a new tab Note : Values represent means across 2018\u20132019 and 2019\u20132020 in raised beds (B) and flat basins (F) planting systems. Abbreviations: LSD, least sigfnificant difference of the means, p = 0.05; ns, not significant; PS \u00d7 G, planting system \u00d7 genotype. * p < 0.05. ** p < 0.01. *** p < 0.001."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 4,
+      "heading": "TABLE 6.",
+      "text": "Phenotypic correlations between yield, yield components, height, aboveground biomass at different growth stages, and shoot number with radiation\u2010use efficiency (RUE) (g MJ \u22121 ) for 12 spring CIMMYT wheat genotypes. Raised beds (B) Flat basins (F) RUE_E40InB RUE_InBA7 RUE_GF RUE_preGF RUET RUE_E40InB RUE_InBA7 RUE_GF RUE_preGF RUET YLD 0.68 * 0.37 0.21 0.75 ** 0.73 ** \u22120.03 0.87 ** \u22120.03 0.70 * 0.67 * GM2 0.01 0.08 \u22120.08 0.03 \u22120.02 \u22120.20 0.62 * \u22120.08 0.58 * 0.18 HeightPM 0.63 * \u22120.01 0.25 0.41 0.48 0.16 \u22120.22 \u22120.13 \u22120.24 0.06 BMA7 0.72 ** 0.63 * \u22120.07 0.96 *** 0.77 ** 0.01 0.82 *** \u22120.61 * 0.88 *** 0.39 BMPM 0.86 *** 0.37 0.42 0.80 ** 0.83 *** 0.24 0.59 * 0.05 0.50 **** 0.77 ** Open in a new tab Note : Values are based on means from the combined analysis in 2018\u20132019 and 2019\u20132020 in raised beds (B) and flat basins (F). Abbreviations: BMA7, biomass at anthesis + 7 days (g m \u22122 ); BMPM, biomass at physiological maturity (g m \u22122 ); GM2, grain number per square meter (m \u22122 ); HeightPM, plant height at physiological maturity (cm); RUE_E40InB, RUE calculated from 40 days after emergence to the initiation of booting (g MJ \u22121 ); RUE_InBA7, RUE calculated from initiation of booting to 7 days after emergence (g MJ \u22121 ); RUE_GF, RUE calculated during the grain\u2010filling period from 7 days after anthesis to physiological maturity (g MJ \u22121 ); RUE_preGF, RUE pre grain\u2010filling from40 days after emergence to 7 days after anthesis (g MJ \u22121 ); RUET, RUET total, from 40 days after emergence to physiological maturity (g MJ \u22121 ); YLD, grain yield (g m \u22122 ). * p < 0.05. ** p < 0.01. *** p < 0.001. **** p < 0.10."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "3.5. Canopy architecture traits and correlations with light interception, RUE, biomass, and grain yield",
+      "text": "Stronger correlations between canopy architecture traits and RUE were generally found in flat basins than raised beds. Additionally, stronger correlations were found using the quantitative methodology to measure flag\u2010leaf curvature rather than the qualitative visual score (Table 7 ). The correlations between flag\u2010leaf angle and RUE contrasted in the two planting systems. In flat basins, there was a negative correlation with more upright leaves at GS65 + 7 days correlated with higher RUE_GF ( p < 0.05), whereas in raised beds, there were positive correlations between flag\u2010leaf angle at the onset of booting and RUE_preGF ( p < 0.10) and RUET ( p < 0.05) (Table 7 ). For leaf curvature measurements, there was a positive correlation between the visual score of flag\u2010leaf curvature in beds at each of GS41 ( r = 0.65, p < 0.05) and GS65 + 7 days ( r = 0.59, p < 0.05) and RUET. There was also a positive correlation in beds between the quantitative measure of flag\u2010leaf curvature at GS65 + 7 days and RUE_GF ( r = 0.78, p < 0.0). A positive correlation was also found between flag\u2010leaf relative chlorophyll content in leaf 3 at GS65 + 7 days and RUE_preGF in raised beds ( R 2 = 0.54, p < 0.01) and flat basins ( R 2 = 0.43, p < 0.05) (Table 7 ). With regard to light interception, in raised beds, a positive correlation was found between flag\u2010leaf angle at the initiation of booting and fractional light interception at each of GS41 ( r = 0.67, p < 0.05) and GS65 + 7 days ( r = 0.58. p < 0.05). There were no correlations between flag\u2010leaf angle and fractional light interception in flat basins. A correlation was found between the quantitative flag\u2010leaf curvature measurements at GS41 and FI at GS41 ( r = 0.67, p < 0.05) and at G65 + 7 days ( r = 0.58, p < 0.05) in beds. Similarly, a positive correlation was found between the visual score of curvature at the initiation of booting and FI at GS65 + 7 days in raised beds (0.52, p = 0.08) and flat basins ( r = 0.63, p < 0.05). Fractional light interception at anthesis and booting was strongly correlated with biomass at anthesis + 7 in raised beds (r > 0.70; p < 0.01), but there were no correlations in flat basins (Table S6 ). The phenotypic correlations between canopy architecture traits and grain yield, biomass, and yield components in raised beds and flat basins are shown in Table 7 . A positive association between flag\u2010leaf angle at GS41 and biomass at physiological maturity was found in raised beds ( r = 0.60, p < 0.05); there was no correlation in raised beds."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 4,
+      "heading": "TABLE 7.",
+      "text": "Phenotypic correlations among 12 CIMMYT spring wheat genotypes evaluated across the years 2018\u20132019 and 2019\u20132020 in raised beds and flat basins between canopy architecture and physiological traits using different methodologies (quantitative flag\u2010leaf angle and curvature/qualitative visual score). Raised beds (B) Flat basins (F) Quantitative methods Qualitative visual score Quantitative methods Qualitative visual score FLAInB FLCInB FLAA7 FLCA7 FLvscInB FLvscA7 FLAInB FLCInB FLAA7 FLCA7 FLvscInB FLvscA7 YLD 0.45 0.07 0.36 \u22120.10 0.22 0.27 \u22120.16 0.41 \u22120.07 \u22120.19 0.12 \u22120.03 TGW \u22120.75 ** \u22120.55 **** 0.53 **** \u22120.37 0.74 ** 0.73 * 0.65 * \u22120.56 **** 0.46 \u22120.20 0.70 * 0.67 * GM2 \u22120.48 0.65 * \u22120.33 0.38 \u22120.63 * \u22120.61 * \u22120.64 * 0.66 * \u22120.46 \u22120.20 \u22120.54 **** \u22120.60 * BMPM 0.60 * \u22120.27 0.36 \u22120.34 0.53 **** 0.54 **** 0.30 0.14 0.10 \u22120.21 0.34 0.28 RUE_InBA7 \u22120.05 0.23 \u22120.13 0.23 \u22120.04 \u22120.08 \u22120.38 0.62 * \u22120.01 \u22120.31 \u22120.03 \u22120.09 RUE_GF 0.19 \u22120.17 \u22120.24 0.08 0.30 0.36 0.08 \u22120.25 \u22120.68 * 0.78 ** \u22120.11 \u22120.13 RUE_preGF 0.51 **** \u22120.15 0.38 \u22120.27 0.42 0.34 \u22120.21 0.40 0.06 \u22120.49 0.12 \u22120.00 RUET 0.64 * \u22120.27 0.35 \u22120.16 0.65 * 0.59 * 0.08 0.15 \u22120.18 \u22120.02 0.34 0.25 FLIInB 0.67 * \u22120.45 0.45 \u22120.39 0.52 **** 0.34 0.35 \u22120.23 0.43 \u22120.53 **** 0.63 * 0.57 **** FLIA7 0.58 * \u22120.25 0.34 \u22120.17 0.52 **** 0.48 \u22120.08 \u22120.11 \u22120.25 0.28 \u22120.17 \u22120.20 HeightPM 0.70 ** \u22120.64 * 0.59 * \u22120.52 **** 0.71 ** 0.67 * 0.74 ** \u22120.44 0.67 * \u22120.34 0.56 **** 0.60 * SPAD3 0.35 \u22120.14 0.12 \u22120.03 0.32 0.25 0.02 0.27 0.02 \u22120.30 0.07 \u22120.08 Open in a new tab Abbreviations: BMPM, biomass at physiological maturity (g m \u22122 ); FLAA7: flag\u2010leaf angle at 7 days after anthesis (\u00b0); FLAInB, flag\u2010leaf angle at initiation of booting (\u00b0); FLIA7, light interception at anthesis + 7 days; FLIInB, light interception at initiation of booting; FLcvInB, the distance from the point of inflexion of the flag\u2010leaf to the tip at the initiation of booting (cm); FLcvA7, the distance from the point of inflecion of the flag\u2010leaf to the tip at 7 days after anthesis (cm); FLvscInB, flag\u2010leaf curvature score at the initiation of booting; FLvscA7, flag\u2010leaf curvature score at anthesis + 7 days; GM2, grain number per square meter (m \u22122 ); HeightPM, plant height at physiological maturity (cm); RUE_GF, RUE calculated during the grain\u2010filling period from 7 days after anthesis to physiological maturity (g MJ \u22121 ); RUE_InBA7, RUE calculated from initiation of booting to 7 days after emergence (g MJ \u22121 ); RUE_preGF, RUE pre grain\u2010filling from40 days after emergence to 7 days after anthesis (g MJ \u22121 ); RUET, RUET total, from 40 days after emergence to physiological maturity (g MJ \u22121 ); SPAD3, SPAD in leaf 3; TGW, thousand\u2010grain weight; YLD, grain yield (g m \u22122 ). * p < 0.05. ** p < 0.01. *** p < 0.001. **** p < 0.10."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "4. DISCUSSION",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "4.1. Effects on planting system and cultivar",
+      "text": "The irrigated wheat production in North West Mexico has adopted a raised\u2010bed planting system over the last decades which has increased the efficiency of the use of irrigation water and fertilizer N and provided other management benefits over flat basins (Fahong et al., 2004 ; Fischer, 2005). Present results of higher grain yield in beds than flats (10.6%) were similar to several previous investigations reporting yield gains in beds compared to flat basins (Fahong et al., 2004 ; Hassan et al., 2005 ; Kakar et al., 2015 ; Majeed et al., 2015 ; Ram et al., 2005 ). Nevertheless, Tanveer et al. ( 2003 ) and L\u00f3pez\u2010Casta\u00f1eda et al. (2014) found greater grain yield in flats than beds. We identified several physiological reasons for the higher grain yield in beds than flats in our experiments. RUE from the initiation of booting to 7 days after anthesis was greater in beds by 9.7% as well as season\u2010long RUE by 6.8% contributing to greater aboveground biomass (7.6%) at physiological maturity in beds than flats. Higher RUE from booting to anthesis + 7 days allowed the beds to catch up with the flats in biomass at anthesis + 7 days. The higher RUE from booting to anthesis + 7 days may have been partly associated with an effect for more upright flag\u2010leaf angle in beds at 6\u00b0 compared to flats at 13\u00b0 at booting reducing light saturation of photosynthesis in the flag leaves. On the other hand, at GS65 + 7 days, there was a small increase for flag\u2010leaf angle in beds compared to flats (72\u00b0 for beds vs. 68\u00b0 for flats). The higher RUE in beds than flats may also have been associated with the wider row spacing in raised beds compared to flat basins (24 vs. 20 cm) allowing more light to penetrate to lower leaf layers and reducing light saturation of the flag leaf. The higher grain yield in beds was also, in part, related to an extended grain\u2010filling duration by 2 days in beds compared with flats, which contributed to higher post\u2010anthesis radiation interception in beds. It can be speculated that beds led to slightly cooler canopies hence delayed phenology, although canopy temperature was not measured in the present study. Higher post\u2010anthesis radiation interception and biomass accumulation in beds than flats were additionally associated with a delayed onset of NDVI senescence (Figure 4 ) in beds compared to flats. There was no apparent evidence that the higher biomass in beds than flats was associated with hypoxia in the flat plots; in all years, there were no visible symptoms of hypoxia in any of the plots in either the raised beds or flat basins throughout the life cycle. There was no planting system effect on flag\u2010leaf chlorophyll content (data not shown), in contrast with a previous study where leaf SPAD was higher in raised beds than flat basins associated with higher N uptake (Fahong et al., 2004 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "4.2. Genetic variation in radiation interception and RUE in planting systems and associations with canopy architecture traits",
+      "text": "RUE showed genetic variation in the different phenophases during the season with broadly similar ranges to previous field studies. For example, a study in winter wheat in the United Kingdom found genetic variation of RUE based on PAR in the range 2.33\u20132.63 g MJ \u22121 under rain\u2010fed conditions (Shearman et al., 2005 ), and a study in bread wheat in Spain reported values based on solar radiation from 0.85 to 1.54 g MJ \u22121 from anthesis to maturity under irrigated conditions (Acreche et al., 2009 ). Genetic variation in RUE_preGF showed an association with biomass at GS65 + 7 days and physiological maturity in both planting systems. In addition, our results showed that genetic variation in RUE_preGF was positively correlated with grain yield in beds and flats. Previous studies by Tao et al. ( 2018 ) and Molero et al. ( 2019 ) in wheat also demonstrated correlations between pre\u2010anthesis RUE and grain yield among genotypes. In our study, the correlation between RUE and biomass was stronger in flats than beds. There was a strong negative association between genetic variation in the flag\u2010leaf angle at GS65 + 7 days and RUE_GF in flat basins with more upright leaves leading to higher RUE, which agrees with Reynolds et al. ( 2000 ) and Murchie et al. ( 2009 ). Previous work has shown that irradiance incident on the top of the canopy saturates the flag\u2010leaf less in erectophiles compared to planophiles canopies in wheat (Araus et al., 1993 ; Hirose, 2005 ) and rice (Chang et al., 2019 ). In addition, there was a positive association between flag\u2010leaf curvature at GS65 + 7 days and RUE_GF in flat basins which could imply that more recurved flag\u2010leaves allowed more light to reach the lower leaf layers and hence increased RUE. However, no correlation was found between the fraction of light intercepted at the bottom of the canopy and flag\u2010leaf curvature for either planting system (data not shown). In flat basins, no correlations were found between flag\u2010leaf angle and fractional light interception. When effects in raised beds were considered, in the present study, there was no correlation between flag\u2010leaf angle and RUE in raised beds. It is likely that more upright leaves were relatively more advantageous for RUE in flats than beds due to the narrower row spacing in flats predisposing the flag leaves more to light saturation in upper leaf layers than in beds. There was, however, a positive correlation between flag\u2010leaf angle and fractional light interception at GS41 in raised beds (cultivars with less upright leaves had higher fractional light interception). Cultivars with less upright flag\u2010leaf angle at GS41 also had greater biomass at physiological maturity in raised beds likely related to the increased light interception pre\u2010anthesis. Therefore, results indicated that cultivars with less upright flag leaves were better at capturing light in raised beds translating to a greater biomass at harvest. Again, this planting system difference could be partly explained by row spacing effects, with the greater row spacing (and the gap between the beds in the raised beds) potentially favoring lax\u2010leaved genotypes in this planting system since they can intercept more light per unit leaf area (Fischer et al., 2019 ). No association between narrower flag\u2010leaves and increased SPAD at 7 days after anthesis was found for either planting system (data not shown). Interestingly, in both planting systems, chlorophyll content in leaf 3 (flag leaf = leaf 1) was positively associated among cultivars with RUE_preGF (Table 7 ). The vertical distribution of N in leaf layers may not be optimized in modern cultivars with insufficient N in lower layers to maximize RUE (Foulkes & Murchie, 2011 ). In addition, higher chlorophyll concentration may relate to more light\u2010harvesting complexes to improve light capture in lower leaves (Townsend et al., 2018 ). Further work is required on the relation between leaf N traits and RUE to understand the critical value of leaf N in the r"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 3,
+      "heading": "4.3. Cultivar responses to planting systems and implications for plant breeders",
+      "text": "A significant PS \u00d7 G interaction was found for grain yield; for example, the genotype C80.1/3*QT4118 had 18.2% higher grain yield in beds than flats, whereas the genotype ITP40 showed the same grain yield in both planting systems. The grain yield responses to the planting system were mainly driven by the aboveground biomass responses at physiological maturity rather than HI. Regarding yield components, grain yield responses to PS were determined by grains m \u22122 responses rather than TGW responses. Taller cultivars intercepted relatively more radiation in the beds than the flats before anthesis, consistent with the taller cultivars showing relatively greater increases in grain yield and biomass at physiological maturity in beds compared to flats. Aboveground biomass at each stage showed a PS \u00d7 G interaction. However, differences in radiation interception were not the only ones explaining differences in genotype responses to PS for biomass. The cultivar responses to planting system for biomass at 7 days after anthesis were associated with responses for RUE_InBA7 but more strongly with responses for RUE_preGF. Additionally, responses of cultivars to PS for biomass at physiological maturity were associated with responses to PS for RUET. In summary, the present results in flat basins indicate that breeders should focus on leaf angle to avoid light saturation of leaves, hence increase RUE and grain yield in plant breeding programs where this trait is not already optimized. In raised beds, however, the case for more upright leaves was not clearly demonstrated: on the contrary, cultivars with less upright leaves had higher fractional light interception in the pre\u2010anthesis phase and higher biomass at maturity. A study in sorghum proposed a \u201csmart canopy\u201d with upright leaves at the top combined with horizontal leaves at the bottom of the canopy to maximize light interception (Mantilla\u2010Perez et al., 2020 ), and it is feasible that such a canopy type would be beneficial in raised beds. Plant breeders have selected wheat canopies with smaller flag leaves and more upright leaves in recent years in some countries, for example, in winter wheat in the United Kingdom (Shearman et al., 2005 ). The present results indicated that the genotypes with upright leaves allowed a higher RUE during grain filling and biomass in flat basins, which is the most common wheat planting system globally. Additionally, the results suggested that more prostrate leaves in raised beds may be beneficial for increasing biomass through increased light interception. Furthermore, the results showed that it is important to measure canopy architecture traits at more than one phenological stage, since the effect of planting systems differed for some traits between development stages, for example, for flag\u2010leaf angle between booting and anthesis + 7 days. Future work will require more genetic studies to better understand the genes regulating the canopy architecture traits. The present results indicated that the future selection of cultivars with less upright but more recurved leaves may be more beneficial for raising light interception and RUE and biomass in raised beds, but selection for more upright leaves would be more beneficial in flat basins. There is a need for further studies on how the canopy architecture traits affect RUE in different planting systems and mega\u2010environments in a wider range of germplasm in order to reinforce and augment the present findings."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "5. CONCLUSIONS",
+      "text": "Planting systems play an important role in determining biomass, yield, and RUE in wheat. The results indicated that the raised beds were beneficial for wheat production in North West Mexico compared to the flat basins justifying its wide use by farmers in the region. In addition, planophile types were associated with higher fractional light interception in beds, while erect types were associated with higher RUE in flats\u2010basin. This explains why most of the spring bread wheat from CIMMYT have planophile architecture as the bed system has been predominantly used in the bread wheat breeding program. Yield was highly correlated with RUE_preGF in both planting systems suggesting that this can be a target trait to select for both planting systems. Based on the present results, the evaluation of genotypes for RUE, as well as other traits such as biomass, should take into account the different planting systems, and evaluations in the system of the target environment will be required. However, if selections are targeted for multiple planting systems, it will be necessary to capture genotype \u00d7 planting system effects and select genotypes that perform better in both systems (e.g., ITP40 in this study)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 2,
+      "heading": "AUTHOR CONTRIBUTIONS",
+      "text": "Marcela A. Moroyoqui\u2010Parra : Formal analysis; investigation; methodology; writing\u2014original draft; writing\u2014review and editing. Gemma Molero : Investigation; methodology; writing\u2014review and editing. Matthew P. Reynolds : Conceptualization; funding acquisition; writing\u2014review and editing. Oorbessy Gaju : Methodology; writing\u2014review and editing. Erik H. Murchie : Methodology; writing\u2014review and editing. Michael John Foulkes : Conceptualization; funding acquisition; methodology; writing\u2014original draft; writing\u2014review and editing."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 2,
+      "heading": "CONFLICT OF INTEREST STATEMENT",
+      "text": "The authors declare no conflicts of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 2,
+      "heading": "Supporting information",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 2,
+      "heading": "ACKNOWLEDGMENTS",
+      "text": "We thank the physiology team at CIMMYT for their technical support. We also acknowledge Prof Richard Richards of CSIRO, Canberra, for his invaluable support in the genotype selection and Angela Pacheco for her advice in the statistical analysis. This work was supported by the National Council of Science and Technology (CONACYT) (CVU 839945), the Sustainable Modernization of Traditional Agriculture (MasAgro) initiative from the Secretariat of Agriculture and Rural Development (SADER), and the International Wheat Yield Partnership (IWYP) project (IWYP 48) funded by the Biotechnology and Biological Research Council of the United Kingdom [BB/N021061/1]."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 2,
+      "heading": "REFERENCES",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 2,
+      "heading": "Associated Data",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 3,
+      "heading": "Supplementary Materials",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 2,
+      "heading": "ACTIONS",
+      "text": "View on publisher site PDF (1.6 MB) Cite Collections Permalink PERMALINK Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 2,
+      "heading": "PERMALINK",
+      "text": "Copy"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-53",
+      "level": 2,
+      "heading": "RESOURCES",
+      "text": "Similar articles Cited by other articles Links to NCBI Databases"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 3,
+      "heading": "Similar articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 3,
+      "heading": "Cited by other articles",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 3,
+      "heading": "Links to NCBI Databases",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 2,
+      "heading": "Cite",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "Add to Collections",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "#",
+        "Genotype",
+        "Canopy architecture type"
+      ],
+      "rows": [
+        [
+          "1",
+          "BACANORA T88",
+          "Erectophile"
+        ],
+        [
+          "2",
+          "C80.1/3*QT4118//KAUZ/RAYON/3/2*TRCH/7/CMH79A.955/4/AGA/3/4*SN64/CNO67//INIA66/5/NAC/6/RIALTO",
+          "Planophile"
+        ],
+        [
+          "3",
+          "CHEWINK #1",
+          "Planophile"
+        ],
+        [
+          "4",
+          "SOKOLL//PUB94.15.1.12/WBLL1",
+          "Planophile"
+        ],
+        [
+          "5",
+          "NELOKI",
+          "Erectophile"
+        ],
+        [
+          "6",
+          "W15.92/4/PASTOR//HXL7573/2*BAU/3/WBLL1",
+          "Planophile"
+        ],
+        [
+          "7",
+          "KUKRI",
+          "Planophile"
+        ],
+        [
+          "8",
+          "KUTZ",
+          "Planophile"
+        ],
+        [
+          "9",
+          "SOKOLL",
+          "Planophile"
+        ],
+        [
+          "10",
+          "BORLAUG100 F2014",
+          "Planophile"
+        ],
+        [
+          "11 a",
+          "ITP40/AKURI//FRNCLN*2/TECUE #1",
+          "Erectophile"
+        ],
+        [
+          "12 a",
+          "CHIPAK*2//SUP152/KENYA SUNBIRD",
+          "Erectophile"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-10",
+      "caption": "",
+      "headers": [
+        "",
+        "p value"
+      ],
+      "rows": [
+        [
+          "",
+          "Mean",
+          "Min",
+          "Max",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Trait",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F",
+          "G",
+          "Y",
+          "PS",
+          "PS \u00d7 G"
+        ],
+        [
+          "YLD (g m \u22122 )",
+          "666",
+          "602",
+          "539",
+          "525",
+          "741",
+          "693",
+          "<0.001",
+          "<0.05",
+          "<0.001",
+          "<0.05"
+        ],
+        [
+          "TGW (g)",
+          "45.2",
+          "44.8",
+          "35.2",
+          "35.2",
+          "51.2",
+          "51.6",
+          "<0.001",
+          "<0.001",
+          "0.097",
+          "ns"
+        ],
+        [
+          "GM2 (m \u22122 )",
+          "14,883",
+          "13,581",
+          "11,584",
+          "10,611",
+          "18,067",
+          "16,785",
+          "<0.001",
+          "<0.01",
+          "<0.001",
+          "0.184"
+        ],
+        [
+          "BMPM (g m \u22122 )",
+          "1420",
+          "1320",
+          "1192",
+          "1204",
+          "1512",
+          "1444",
+          "<0.001",
+          "<0.01",
+          "<0.001",
+          "<0.05"
+        ],
+        [
+          "HeightPM (cm)",
+          "105.7",
+          "105.7",
+          "90.1",
+          "88.3",
+          "121.3",
+          "119.4",
+          "<0.001",
+          "<0.001",
+          "ns",
+          "<0.05"
+        ],
+        [
+          "ShootsA7 (m \u22122 )",
+          "451",
+          "483",
+          "396",
+          "395",
+          "496",
+          "483",
+          "<0.001",
+          "<0.001",
+          "<0.001",
+          "<0.05"
+        ],
+        [
+          "DTA (DAE)",
+          "77",
+          "76",
+          "72",
+          "72",
+          "81",
+          "80",
+          "<0.001",
+          "<0.001",
+          "<0.001",
+          "0.084"
+        ],
+        [
+          "DTPM (DAE)",
+          "117",
+          "114",
+          "113",
+          "110",
+          "121",
+          "118",
+          "<0.001",
+          "<0.001",
+          "<0.001",
+          "ns"
+        ],
+        [
+          "Plants (m \u22122 ) a",
+          "156",
+          "173",
+          "139",
+          "152",
+          "180",
+          "201",
+          "<0.001",
+          "\u2013",
+          "0.074",
+          "ns"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-11",
+      "caption": "",
+      "headers": [
+        "",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          "Raised beds (B)"
+        ],
+        [
+          "1. YLD",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2. TGW",
+          "0.42",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3. GM2",
+          "0.30",
+          "\u22120.74 **",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4. BMPM",
+          "0.77 **",
+          "0.70 *",
+          "\u22120.18",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5. SM2",
+          "\u22120.52 ****",
+          "\u22120.87 ***",
+          "0.50",
+          "\u22120.71 *",
+          "\u2013",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6. HeightPM",
+          "0.34",
+          "0.80 **",
+          "\u22120.61 *",
+          "0.75 **",
+          "\u22120.81 **",
+          "\u2013",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7. ShootsA7",
+          "0.12",
+          "\u22120.47",
+          "0.59 *",
+          "\u22120.11",
+          "0.51 ****",
+          "\u22120.55 ****",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8. DTA",
+          "0.51 ****",
+          "0.16",
+          "0.17",
+          "0.58 *",
+          "\u22120.40",
+          "0.61 *",
+          "0.96 ***",
+          "\u2013",
+          ""
+        ],
+        [
+          "9. DTPM",
+          "0.31",
+          "0.03",
+          "0.15",
+          "0.31",
+          "\u22120.22",
+          "0.42",
+          "0.81 **",
+          "0.83 ***",
+          "\u2013"
+        ],
+        [
+          "Flat basins (F)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1. YLD",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2. TGW",
+          "0.08",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3. GM2",
+          "0.54 ****",
+          "\u22120.79 **",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4. BMPM",
+          "0.78 **",
+          "0.38",
+          "0.12",
+          "\u2013",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5. SM2",
+          "\u22120.01",
+          "\u22120.84 ***",
+          "0.69 *",
+          "\u22120.37",
+          "\u2013",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6. HeightPM",
+          "\u22120.08",
+          "0.81 **",
+          "\u22120.76 **",
+          "0.44",
+          "\u22120.87 ***",
+          "\u2013",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7. ShootsA7",
+          "0.21",
+          "\u22120.80 **",
+          "0.80 **",
+          "\u22120.17",
+          "0.85 ***",
+          "\u22120.79 **",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8. DTA",
+          "0.25",
+          "0.07",
+          "0.04",
+          "0.59 *",
+          "\u22120.47",
+          "0.56 ****",
+          "0.95 ***",
+          "\u2013",
+          ""
+        ],
+        [
+          "9. DTPM",
+          "0.16",
+          "\u22120.03",
+          "0.08",
+          "0.49",
+          "\u22120.35",
+          "0.40",
+          "0.78 **",
+          "0.81 ***",
+          "\u2013"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-12",
+      "caption": "",
+      "headers": [
+        "",
+        "Initiation of booting",
+        "Anthesis + 7 days"
+      ],
+      "rows": [
+        [
+          "",
+          "FLAInB (\u00b0)",
+          "FLcvInB (cm)",
+          "FLcvsInB",
+          "FLAA7 (\u00b0)",
+          "FLcvA7 (cm)",
+          "FLcvsA7"
+        ],
+        [
+          "Genotype",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F"
+        ],
+        [
+          "BACANORA T88",
+          "3",
+          "4",
+          "22.08",
+          "13.86",
+          "1",
+          "2",
+          "35",
+          "28",
+          "23.64",
+          "17.79",
+          "3",
+          "2"
+        ],
+        [
+          "C80.1/3*QT4118",
+          "7",
+          "20",
+          "17.53",
+          "12.18",
+          "8",
+          "6",
+          "97",
+          "96",
+          "17.11",
+          "11.33",
+          "7",
+          "7"
+        ],
+        [
+          "CHEWINK#1",
+          "7",
+          "14",
+          "20.97",
+          "15.21",
+          "9",
+          "8",
+          "66",
+          "61",
+          "20.83",
+          "15.40",
+          "9",
+          "8"
+        ],
+        [
+          "SOKOLL//PUB94",
+          "7",
+          "25",
+          "17.65",
+          "7.91",
+          "8",
+          "8",
+          "53",
+          "53",
+          "19.51",
+          "16.13",
+          "7",
+          "7"
+        ],
+        [
+          "NELOKI",
+          "3",
+          "6",
+          "21.13",
+          "16.34",
+          "3",
+          "3",
+          "46",
+          "45",
+          "20.03",
+          "18.52",
+          "5",
+          "4"
+        ],
+        [
+          "W15.92/4/PASTOR",
+          "7",
+          "12",
+          "16.71",
+          "7.06",
+          "8",
+          "7",
+          "76",
+          "73",
+          "18.22",
+          "13.37",
+          "7",
+          "7"
+        ],
+        [
+          "KUKRI",
+          "8",
+          "11",
+          "16.38",
+          "15.75",
+          "8",
+          "8",
+          "86",
+          "98",
+          "16.71",
+          "6.76",
+          "7",
+          "7"
+        ],
+        [
+          "KUTZ",
+          "9",
+          "26",
+          "18.22",
+          "6.03",
+          "8",
+          "8",
+          "103",
+          "96",
+          "8.59",
+          "5.82",
+          "7",
+          "6"
+        ],
+        [
+          "SOKOLL",
+          "7",
+          "10",
+          "17.79",
+          "15.15",
+          "8",
+          "7",
+          "67",
+          "82",
+          "16.59",
+          "6.39",
+          "7",
+          "7"
+        ],
+        [
+          "BOURLAG100",
+          "8",
+          "14",
+          "20.18",
+          "15.07",
+          "9",
+          "9",
+          "97",
+          "68",
+          "18.88",
+          "12.67",
+          "8",
+          "8"
+        ],
+        [
+          "ITP40/AKURI",
+          "4",
+          "6",
+          "22.33",
+          "15.79",
+          "2",
+          "2",
+          "46",
+          "49",
+          "21.93",
+          "17.70",
+          "5",
+          "2"
+        ],
+        [
+          "CHIPAK*2//",
+          "6",
+          "8",
+          "20.78",
+          "17.41",
+          "5",
+          "5",
+          "87",
+          "63",
+          "20.30",
+          "8.83",
+          "5",
+          "5"
+        ],
+        [
+          "Mean",
+          "6",
+          "13",
+          "19.31",
+          "13.15",
+          "6",
+          "6",
+          "72",
+          "68",
+          "18.52",
+          "12.56",
+          "6",
+          "6"
+        ],
+        [
+          "H 2",
+          "",
+          "0.99",
+          "",
+          "0.81",
+          "",
+          "0.98",
+          "",
+          "0.99",
+          "",
+          "0.94",
+          "",
+          "0.98"
+        ],
+        [
+          "LSD (G) (5%)",
+          "",
+          "2.129",
+          "",
+          "4.026",
+          "",
+          "1.610",
+          "",
+          "10.140",
+          "",
+          "3.829",
+          "",
+          "1.088"
+        ],
+        [
+          "CV%",
+          "",
+          "13.53",
+          "",
+          "15.29",
+          "",
+          "16.11",
+          "",
+          "8.98",
+          "",
+          "15.18",
+          "",
+          "10.97"
+        ],
+        [
+          "G ( p \u2010value)",
+          "",
+          "***",
+          "",
+          "***",
+          "",
+          "***",
+          "",
+          "***",
+          "",
+          "***",
+          "",
+          "***"
+        ],
+        [
+          "PS ( p \u2010value)",
+          "",
+          "***",
+          "",
+          "**",
+          "",
+          "0.165",
+          "",
+          "*",
+          "",
+          "0.144",
+          "",
+          "0.08"
+        ],
+        [
+          "Y ( p \u2010value)",
+          "",
+          "0.110",
+          "",
+          "***",
+          "",
+          "ns",
+          "",
+          "*",
+          "",
+          "***",
+          "",
+          "ns"
+        ],
+        [
+          "PS \u00d7 G ( p \u2010value)",
+          "",
+          "***",
+          "",
+          "0.116",
+          "",
+          "ns",
+          "",
+          "***",
+          "",
+          "ns",
+          "",
+          "***"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-13",
+      "caption": "",
+      "headers": [
+        "",
+        "RUE_E40InB (g MJ \u22121 )",
+        "RUE_InBA7 (g MJ \u22121 )",
+        "RUE_GF (g MJ \u22121 )",
+        "RUE_preGF (g MJ \u22121 )",
+        "RUET (g MJ \u22121 )"
+      ],
+      "rows": [
+        [
+          "Genotype (G)",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F",
+          "B",
+          "F"
+        ],
+        [
+          "BACANORA T88",
+          "2.03",
+          "2.63",
+          "3.05",
+          "2.76",
+          "1.44",
+          "1.70",
+          "2.20",
+          "2.59",
+          "1.62",
+          "1.61"
+        ],
+        [
+          "C80.1/3*QT4118",
+          "2.56",
+          "2.42",
+          "2.78",
+          "2.33",
+          "1.29",
+          "1.17",
+          "2.40",
+          "2.16",
+          "1.71",
+          "1.52"
+        ],
+        [
+          "CHEWINK#1",
+          "2.20",
+          "2.44",
+          "2.67",
+          "2.88",
+          "1.93",
+          "1.34",
+          "2.24",
+          "2.46",
+          "1.87",
+          "1.66"
+        ],
+        [
+          "SOKOLL//PUB94",
+          "2.40",
+          "3.20",
+          "3.38",
+          "2.47",
+          "1.50",
+          "1.95",
+          "2.58",
+          "2.45",
+          "1.82",
+          "1.85"
+        ],
+        [
+          "NELOKI",
+          "1.63",
+          "2.31",
+          "2.64",
+          "2.34",
+          "1.10",
+          "1.19",
+          "1.81",
+          "2.12",
+          "1.30",
+          "1.41"
+        ],
+        [
+          "W15.92/4/PASTOR",
+          "1.99",
+          "2.37",
+          "3.04",
+          "2.32",
+          "1.48",
+          "1.41",
+          "2.23",
+          "2.16",
+          "1.64",
+          "1.56"
+        ],
+        [
+          "KUKRI",
+          "2.41",
+          "2.35",
+          "2.47",
+          "3.06",
+          "1.53",
+          "0.67",
+          "2.31",
+          "2.72",
+          "1.78",
+          "1.63"
+        ],
+        [
+          "KUTZ",
+          "2.67",
+          "2.77",
+          "2.84",
+          "2.67",
+          "1.32",
+          "0.81",
+          "2.57",
+          "2.45",
+          "1.71",
+          "1.46"
+        ],
+        [
+          "SOKOLL",
+          "2.54",
+          "2.65",
+          "3.51",
+          "3.05",
+          "1.60",
+          "0.72",
+          "2.79",
+          "2.80",
+          "1.98",
+          "1.67"
+        ],
+        [
+          "BORLAUG100",
+          "2.00",
+          "2.57",
+          "3.59",
+          "3.10",
+          "1.11",
+          "1.51",
+          "2.81",
+          "2.56",
+          "1.91",
+          "1.73"
+        ],
+        [
+          "ITP40/AKURI",
+          "2.52",
+          "2.20",
+          "3.53",
+          "3.17",
+          "1.43",
+          "1.30",
+          "2.64",
+          "2.47",
+          "1.73",
+          "1.61"
+        ],
+        [
+          "CHIPAK*2//",
+          "2.35",
+          "2.42",
+          "3.28",
+          "3.27",
+          "1.13",
+          "0.96",
+          "2.51",
+          "2.76",
+          "1.73",
+          "1.78"
+        ],
+        [
+          "Mean",
+          "2.27",
+          "2.53",
+          "3.06",
+          "2.79",
+          "1.41",
+          "1.23",
+          "2.42",
+          "2.48",
+          "1.73",
+          "1.62"
+        ],
+        [
+          "LSD (G) (5%)",
+          "",
+          "0.524",
+          "",
+          "0.847",
+          "",
+          "0.740",
+          "",
+          "0.378",
+          "",
+          "0.244"
+        ],
+        [
+          "G ( p value)",
+          "",
+          "***",
+          "",
+          "**",
+          "",
+          "**",
+          "",
+          "***",
+          "",
+          "***"
+        ],
+        [
+          "PS ( p value)",
+          "",
+          "*",
+          "",
+          "*",
+          "",
+          "0.145",
+          "",
+          "ns",
+          "",
+          "*"
+        ],
+        [
+          "Y ( p value)",
+          "",
+          "0.163",
+          "",
+          "0.115",
+          "",
+          "ns",
+          "",
+          "*",
+          "",
+          "ns"
+        ],
+        [
+          "PS \u00d7 G ( p value)",
+          "",
+          "***",
+          "",
+          "0.163",
+          "",
+          "**",
+          "",
+          "**",
+          "",
+          "*"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-14",
+      "caption": "",
+      "headers": [
+        "",
+        "Raised beds (B)",
+        "Flat basins (F)"
+      ],
+      "rows": [
+        [
+          "",
+          "RUE_E40InB",
+          "RUE_InBA7",
+          "RUE_GF",
+          "RUE_preGF",
+          "RUET",
+          "RUE_E40InB",
+          "RUE_InBA7",
+          "RUE_GF",
+          "RUE_preGF",
+          "RUET"
+        ],
+        [
+          "YLD",
+          "0.68 *",
+          "0.37",
+          "0.21",
+          "0.75 **",
+          "0.73 **",
+          "\u22120.03",
+          "0.87 **",
+          "\u22120.03",
+          "0.70 *",
+          "0.67 *"
+        ],
+        [
+          "GM2",
+          "0.01",
+          "0.08",
+          "\u22120.08",
+          "0.03",
+          "\u22120.02",
+          "\u22120.20",
+          "0.62 *",
+          "\u22120.08",
+          "0.58 *",
+          "0.18"
+        ],
+        [
+          "HeightPM",
+          "0.63 *",
+          "\u22120.01",
+          "0.25",
+          "0.41",
+          "0.48",
+          "0.16",
+          "\u22120.22",
+          "\u22120.13",
+          "\u22120.24",
+          "0.06"
+        ],
+        [
+          "BMA7",
+          "0.72 **",
+          "0.63 *",
+          "\u22120.07",
+          "0.96 ***",
+          "0.77 **",
+          "0.01",
+          "0.82 ***",
+          "\u22120.61 *",
+          "0.88 ***",
+          "0.39"
+        ],
+        [
+          "BMPM",
+          "0.86 ***",
+          "0.37",
+          "0.42",
+          "0.80 **",
+          "0.83 ***",
+          "0.24",
+          "0.59 *",
+          "0.05",
+          "0.50 ****",
+          "0.77 **"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-15",
+      "caption": "",
+      "headers": [
+        "",
+        "Raised beds (B)",
+        "Flat basins (F)"
+      ],
+      "rows": [
+        [
+          "",
+          "Quantitative methods",
+          "Qualitative visual score",
+          "Quantitative methods",
+          "Qualitative visual score"
+        ],
+        [
+          "",
+          "FLAInB",
+          "FLCInB",
+          "FLAA7",
+          "FLCA7",
+          "FLvscInB",
+          "FLvscA7",
+          "FLAInB",
+          "FLCInB",
+          "FLAA7",
+          "FLCA7",
+          "FLvscInB",
+          "FLvscA7"
+        ],
+        [
+          "YLD",
+          "0.45",
+          "0.07",
+          "0.36",
+          "\u22120.10",
+          "0.22",
+          "0.27",
+          "\u22120.16",
+          "0.41",
+          "\u22120.07",
+          "\u22120.19",
+          "0.12",
+          "\u22120.03"
+        ],
+        [
+          "TGW",
+          "\u22120.75 **",
+          "\u22120.55 ****",
+          "0.53 ****",
+          "\u22120.37",
+          "0.74 **",
+          "0.73 *",
+          "0.65 *",
+          "\u22120.56 ****",
+          "0.46",
+          "\u22120.20",
+          "0.70 *",
+          "0.67 *"
+        ],
+        [
+          "GM2",
+          "\u22120.48",
+          "0.65 *",
+          "\u22120.33",
+          "0.38",
+          "\u22120.63 *",
+          "\u22120.61 *",
+          "\u22120.64 *",
+          "0.66 *",
+          "\u22120.46",
+          "\u22120.20",
+          "\u22120.54 ****",
+          "\u22120.60 *"
+        ],
+        [
+          "BMPM",
+          "0.60 *",
+          "\u22120.27",
+          "0.36",
+          "\u22120.34",
+          "0.53 ****",
+          "0.54 ****",
+          "0.30",
+          "0.14",
+          "0.10",
+          "\u22120.21",
+          "0.34",
+          "0.28"
+        ],
+        [
+          "RUE_InBA7",
+          "\u22120.05",
+          "0.23",
+          "\u22120.13",
+          "0.23",
+          "\u22120.04",
+          "\u22120.08",
+          "\u22120.38",
+          "0.62 *",
+          "\u22120.01",
+          "\u22120.31",
+          "\u22120.03",
+          "\u22120.09"
+        ],
+        [
+          "RUE_GF",
+          "0.19",
+          "\u22120.17",
+          "\u22120.24",
+          "0.08",
+          "0.30",
+          "0.36",
+          "0.08",
+          "\u22120.25",
+          "\u22120.68 *",
+          "0.78 **",
+          "\u22120.11",
+          "\u22120.13"
+        ],
+        [
+          "RUE_preGF",
+          "0.51 ****",
+          "\u22120.15",
+          "0.38",
+          "\u22120.27",
+          "0.42",
+          "0.34",
+          "\u22120.21",
+          "0.40",
+          "0.06",
+          "\u22120.49",
+          "0.12",
+          "\u22120.00"
+        ],
+        [
+          "RUET",
+          "0.64 *",
+          "\u22120.27",
+          "0.35",
+          "\u22120.16",
+          "0.65 *",
+          "0.59 *",
+          "0.08",
+          "0.15",
+          "\u22120.18",
+          "\u22120.02",
+          "0.34",
+          "0.25"
+        ],
+        [
+          "FLIInB",
+          "0.67 *",
+          "\u22120.45",
+          "0.45",
+          "\u22120.39",
+          "0.52 ****",
+          "0.34",
+          "0.35",
+          "\u22120.23",
+          "0.43",
+          "\u22120.53 ****",
+          "0.63 *",
+          "0.57 ****"
+        ],
+        [
+          "FLIA7",
+          "0.58 *",
+          "\u22120.25",
+          "0.34",
+          "\u22120.17",
+          "0.52 ****",
+          "0.48",
+          "\u22120.08",
+          "\u22120.11",
+          "\u22120.25",
+          "0.28",
+          "\u22120.17",
+          "\u22120.20"
+        ],
+        [
+          "HeightPM",
+          "0.70 **",
+          "\u22120.64 *",
+          "0.59 *",
+          "\u22120.52 ****",
+          "0.71 **",
+          "0.67 *",
+          "0.74 **",
+          "\u22120.44",
+          "0.67 *",
+          "\u22120.34",
+          "0.56 ****",
+          "0.60 *"
+        ],
+        [
+          "SPAD3",
+          "0.35",
+          "\u22120.14",
+          "0.12",
+          "\u22120.03",
+          "0.32",
+          "0.25",
+          "0.02",
+          "0.27",
+          "0.02",
+          "\u22120.30",
+          "0.07",
+          "\u22120.08"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Correspondence , Michael John Foulkes, Division of Plant and Crop Science, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Leicestershire LE12 5RD, UK. Email: John.Foulkes@nottingham.ac.uk",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Received 2023 Feb 24; Accepted 2023 Sep 22; Issue date 2024 Jan-Feb.",
+      "char_offset": 216
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.",
+      "char_offset": 286
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiation\u2010use efficiency (RUE) is an important trait for raising biomass and yield potential in plant breeding. However, the effect of the planting system (PS) on genetic variation in RUE has not been previously investigated. Our objectives were to quantify genetic variation in RUE, biomass and grain yield in raised\u2010bed and flat\u2010basin planting systems, and associations with canopy\u2010architecture traits (flag\u2010leaf angle and curvature). Twelve spring wheat ( Triticum aestivum L.) cultivars were evaluated under irrigated conditions for 3 years in North West Mexico using raised\u2010bed and flat\u2010basin planting systems. Canopy architecture traits were measured at booting and anthesis + 7 days. Grain yield (10.6%), biomass (7.6%), and pre\u2010grain\u2010filling RUE (9.7%) were higher in raised beds than flat basins, while a significant planting system \u00d7 genotype interaction was found for grain yield. Genetic variation in pre\u2010grain\u2010filling RUE was associated with biomass and grain yield in beds and basins. In flat basins, higher pre\u2010grain\u2010filling RUE was correlated with a more upright flag\u2010leaf angle but not in raised beds. In raised beds, cultivars with less upright flag\u2010leaf angle had greater fractional light interception pre\u2010anthesis. Taller semi\u2010dwarf cultivars intercepted relatively more radiation in the beds than the flats before anthesis, consistent with the taller cultivars showing relatively greater increases in yield in beds compared to flats. Our results indicated that the evaluation of genotypes for RUE and biomass in wheat breeding should take into account planting systems to capture genotype \u00d7 PS effects. In addition, the results demonstrate how flag\u2010leaf angle has a different effect depending on the planting system.",
+      "char_offset": 504
+    },
+    {
+      "type": "paragraph",
+      "text": "Yield, biomass, and radiation\u2010use efficiency (RUE) of wheat lines were higher on raised beds than flat basins.",
+      "char_offset": 2243
+    },
+    {
+      "type": "paragraph",
+      "text": "Yield showed a planting system \u00d7 genotype interaction; taller cultivars performed relatively better in beds than basins.",
+      "char_offset": 2355
+    },
+    {
+      "type": "paragraph",
+      "text": "In basins, higher RUE among cultivars was associated with a more upright flag\u2010leaf angle.",
+      "char_offset": 2477
+    },
+    {
+      "type": "paragraph",
+      "text": "In beds, higher fractional light interception among cultivars was associated with a less upright flag\u2010leaf angle.",
+      "char_offset": 2568
+    },
+    {
+      "type": "paragraph",
+      "text": "Evaluation of RUE, biomass, and other yield\u2010related traits in wheat breeding should take account of the effects of the planting system.",
+      "char_offset": 2683
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat ( Triticum aestivum L.) is the most widely grown crop with \u223c750 million tons produced every year (FAOSTAT, 2018 ) and contributes 20% of the calories of the global human diet (Braun et al., 2010 ). Wheat yields will need to be doubled by 2050 for food security (Ray et al., 2013 ). Van Dijk et al. ( 2021 ) predicted an increased food demand by 35%\u221256% between 2010 and 2050. In recent decades in irrigated wheat production in North West Mexico, growers have adopted a raised\u2010bed planting system (Figure 1 ) converting from the traditional flat\u2010basin planting system (Fahong et al., 2004 ). The raised\u2010bed planting system consists of defined rows planted on the top of the beds with flood irrigation supplied in furrows between the beds and has been associated with grain yield improvements (Fahong et al., 2004 ). In addition, management advantages of raised beds compared with flat basins are as follows: reduced irrigation water requirements by 20%\u201340%, reduced weeds/diseases associated with the wider row spacings facilitating weed control and reducing disease pressure, improved nitrogen (N) fertilizer\u2010use efficiency, reduced lodging, and improved plant establishment (Sayre et al., 2008 ). However, the results of investigations comparing raised beds versus flat basins are inconsistent in terms of grain yield effects, and there is a need for further studies. Better grain yield in raised beds than flat basins was reported in wheat by 4%\u201317% (Ahmad et al., 2010 ; Fahong et al., 2004 ; Jat et al., 2011 ; Kong et al., 2010 ; Majeed et al., 2015 ; Noorka & Tabasum, 2013; Wang et al., 2009 ). However, Tanveer et al. ( 2003 ) and L\u00f3pez\u2010Casta\u00f1eda et al. (2014) found greater grain yield in flat basins than raised beds. Some studies have reported a trend for taller cultivars in raised beds to perform relatively better than in flat basins, potentially associated with earlier canopy closure in the gap between the beds leading to higher radiation interception pre\u2010anthesis (Fischer, 2005) and/or to effects on radiation\u2010use efficiency (RUE). Therefore, the better performing cultivars in flat basins may not be better performing in raised beds. Yield potential (YP) can be expressed by simple Equation ( 1 ) (Reynolds et al., 2005 ):",
+      "char_offset": 2820
+    },
+    {
+      "type": "paragraph",
+      "text": "where LI is intercepted radiation, RUE is radiation\u2010use efficiency (ratio of aboveground biomass to radiation intercepted; (Monteith & Moss, 1977 ), and HI is harvest index (ratio of grain biomass to aboveground biomass).",
+      "char_offset": 5070
+    },
+    {
+      "type": "paragraph",
+      "text": "Dimensions for (a) flat basins: same distance between the 8 rows and (b) raised beds: two rows per bed with a wider furrow gap. Adapted from Fischer (2005). Created with Biorender.com.",
+      "char_offset": 5293
+    },
+    {
+      "type": "paragraph",
+      "text": "During the Green Revolution, many studies observed that grain yield increased due to a greater HI without improvements in aboveground biomass (Austin et al., 1980 ; Gifford et al., 1984; Reynolds et al., 1999 ; Sayre et al., 1997 ). Since then, HI has shown slower genetic progress and is approaching its theoretical maximum of ca. 0.65 in some countries (Austin, 1980 ; Foulkes et al., 2011 ). In the United Kingdom, genetic gains in grain yield from 1980 to 1995 were associated with aboveground biomass; and biomass gains, in turn, were associated with RUE (Shearman et al., 2005 ). Other studies (Aisawi et al., 2015; Donmez et al., 2001 ; Reynolds et al., 1999 ) also demonstrated genetic progress in aboveground biomass in wheat in the last decades. Wheat canopies in favorable conditions typically achieve >95% light interception from canopy closure at the onset of stem extension up to mid grain\u2010filling when flag\u2010leaf senescence begins (Reynolds et al., 2005 ). Therefore, to raise biomass, RUE must be improved in future breeding since light interception is close to approaching its upper limit (Foulkes & Murchie, 2011 ).",
+      "char_offset": 5479
+    },
+    {
+      "type": "paragraph",
+      "text": "Yield, biomass, and radiation\u2010use efficiency (RUE) of wheat lines were higher on raised beds than flat basins.",
+      "char_offset": 6613
+    },
+    {
+      "type": "paragraph",
+      "text": "Yield showed a planting system \u00d7 genotype interaction; taller cultivars performed relatively better in beds than basins.",
+      "char_offset": 6725
+    },
+    {
+      "type": "paragraph",
+      "text": "In basins, higher RUE among cultivars was associated with a more upright flag\u2010leaf angle.",
+      "char_offset": 6847
+    },
+    {
+      "type": "paragraph",
+      "text": "In beds, higher fractional light interception among cultivars was associated with a less upright flag\u2010leaf angle.",
+      "char_offset": 6938
+    },
+    {
+      "type": "paragraph",
+      "text": "Evaluation of RUE, biomass, and other yield\u2010related traits in wheat breeding should take account of the effects of the planting system.",
+      "char_offset": 7053
+    },
+    {
+      "type": "paragraph",
+      "text": "In wheat crops, RUE is typically in the region of 2.8 g MJ \u22121 of photosynthetically active radiation (PAR, 400\u2013700 nm) (Molero et al., 2019 ; Yunusa et al., 1993 ) and 1.4 g MJ \u22121 of solar radiation (Sinclair & Muchow, 1999 ). Several recent investigations have demonstrated that RUE has been associated with genetic progress in biomass improvement in bread wheat (e.g. Molero et al., 2019 ). Reynolds and Pfeiffer ( 2000 ) and Shearman et al. ( 2005 ) proposed that optimized source\u2010sink balance might be one feasible approach to enhance RUE. Indeed, crosses between high source lines and lines favoring sink variables such as HI, grain number, and thousand\u2010grain weight (TGW) in wheat have achieved gains in RUE in the progeny (Reynolds et al., 2017 ). Alternatively, differences in canopy architecture traits among genotypes may affect RUE. Recent studies in spring CIMMYT wheat cultivars have found a trade\u2010off between biomass HI and biomass at physiological maturity, so it will be also important to consider strategies to maintain HI in new cultivars with increased biomass (Aisawi et al., 2015 ; Rivera\u2010Amado et al., 2019 ).",
+      "char_offset": 7190
+    },
+    {
+      "type": "paragraph",
+      "text": "More upright leaves have been related with a greater RUE through reduced light saturation of photosynthesis of upper leaves (Duncan, 1971 ; Isidro et al., 2012 ). Excessive radiation intercepted by the upper leaf layers causes photooxidative damage to the photosynthesis apparatus (PSII reaction center) (Parry et al., 2011 ), which can be reduced by more erect leaves (Murchie et al., 1999 ). The concept of an ideal plant architecture \u201ca smart canopy\u201d in a cereal crop with an erect leaf angle at the top of the canopy, less upright leaves in the middle of the canopy, and more planophiles leaves in the lower canopy has also been proposed (Duncan, 1971 ; Ku et al., 2010 ; Mantilla\u2010Perez et al., 2020 ; Ort et al., 2015 ; Zhu et al., 2010 ). In a recent study in spring wheat lines in Australia, erect canopies yielded 13% more than canopies with lax leaves (Richards et al., 2019 ) associated with greater biomass. Several other studies reported the advantages of erectophile lines compared to planophile lines, for example in maize ( Zea mays L.) (Cabrera\u2010Bosquet et al., 2016 ; Duncan, 1971 ; Ku et al., 2010 ), rice ( Oryza sativa ) (Horton, 2000 ; Murchie et al., 1999 ; Peng et al., 2008 ), and wheat (Austin et al., 1976 ; Innes & Blackwell, 2009 ; Reynolds et al., 2012 ; Townsend et al., 2018 ; Yang et al., 2016 ). However, to date, there are no studies comparing the quantitative relationship between canopy architecture traits and RUE among genotypes in raised\u2010bed and flat\u2010basin planting systems and the associated effects on biomass and grain yield. It is important to highlight that bread spring wheat germplasm released by CIMMYT, mainly selected under raised\u2010bed systems, is typically planophile, and although cultivars have been released with a more erect canopy, these are exceptions (Richards et al., 2019 ). However, bread winter wheats in Europe, selected under flat\u2010basin systems, tend to be erectophiles. This indicates that canopy architecture could play an important role across planting systems.",
+      "char_offset": 8323
+    },
+    {
+      "type": "paragraph",
+      "text": "In the present study, 12 CIMMYT elite spring wheat cultivars were grown in the raised\u2010bed and flat\u2010basin planting systems for 3 years in North West Mexico under irrigated conditions. The aims of this study are (i) to quantify genetic variation in canopy architecture traits and RUE and associations with aboveground biomass and grain yield in the two planting systems and (ii) to understand the physiological basis of the planting system \u00d7 genotype interaction (PS \u00d7 G interaction) for grain yield and biomass in relation to the effects of RUE and canopy architecture traits.",
+      "char_offset": 10350
+    },
+    {
+      "type": "paragraph",
+      "text": "Three field experiments were performed at the CIMMYT CENEB (Campo Experimental Norman E. Borlaug) research station in the Yaqui Valley near Ciudad Obregon, Sonora (27\u00b0395 N, 109\u00b0926 W, 38 masl), under irrigated conditions in 2017\u20132018, 2018\u20132019, and 2019\u20132020. The soil type was a sandy clay, mixed montmorillonitic typic caliciorthid, low in organic matter, and slightly alkaline (pH 7.7) (Sayre et al., 1997 ). In each year, for each of two planting systems (raised beds and flat basins), a randomized block design was implemented with three replicates per cultivar. The two planting systems were sown in adjacent areas in the field, with a 5\u2010m gap between the border plots of the planting systems. Ten genotypes were selected based on contrasting RUE, biomass, and canopy architecture from the HiBAP I (High Biomass Association Panel) from previous CIMMYT datasets (Table 1 ; Molero et al., 2019 ) and were grown in all three seasons. Two more erectophile cultivars were added in the experiments in 2018\u20132019 and 2019\u20132020 to increase canopy architecture variation, selected from the ESWYT (Elite Selection Wheat Yield Trial series) in the CIMMYT wheat breeding program. The genotype names are abbreviated in tables and figures; the full names are given in Table 1 along with information on canopy architecture. Of the 12 genotypes, six were elite CIMMYT cultivars (BACANORA T88, CHEWINK #1, SOKOLL, KUTZ, NELOKI, and BORLAUG100), and the others were elite advanced lines as indicated in Table 1 . For concision, the 12 genotypes are referred to as cultivars hereafter.",
+      "char_offset": 10927
+    },
+    {
+      "type": "paragraph",
+      "text": "List of 12 CIMMYT elite spring bread wheat cultivars and advanced lines in the experiments in 2017\u20132018, 2018\u20132019, and 2019\u20132020.",
+      "char_offset": 12502
+    },
+    {
+      "type": "paragraph",
+      "text": "Two lines added in 2018\u20132019 and 2019\u20132020.",
+      "char_offset": 12634
+    },
+    {
+      "type": "paragraph",
+      "text": "The raised beds (B) planting system consisted of two beds per plot, whereas the flat basins (F) had one flat area per plot. In the raised beds planting system, the two beds per plot were each 0.8 m wide and 4 m long (=6.4 m 2 per plot) with two rows per bed (0.24 m between rows) and 0.56 m between the inner rows of the two adjacent beds. Therefore, the plot width in raised beds was 1.6 m (see Figure 1b ). For flat basins in 2017\u20132018 and 2018\u20132019, there were eight rows per basin (1.6 \u00d7 5 m = 8.0 m 2 per plot) with 0.20 m between rows. In 2019\u20132020, there were six rows per basin (1.44 \u00d7 5 m = 7.2 m 2 per plot) with 0.24 m between rows. The sowing dates were November 30, 2017, November 30, 2018, and December 21, 2019, for raised beds and December 1, 2017, December 1, 2018, and December 17, 2019, for flat basins. The emergence dates were December 7, 2017, December 7, 2018, and December 31, 2019, in beds and December 9, 2017, December 9, 2018, and December 26, 2020, in flats. The seed rate was 102 kg ha \u22121 for the 3 years in beds and 107 kg ha \u22121 in 2017\u20132018 and 2018\u20132019 and 106 kg ha \u22121 in 2019\u20132020 in flats. In 2017\u20132018, both planting systems were fertilized with 50 kg N ha \u22121 (urea) during land preparation followed by 50 kg P ha \u22121 at sowing. A second and third N application (200 and 50 kg N ha \u22121 , respectively, as urea) was applied at the first and second irrigation, respectively. In 2018\u20132019 and 2019\u20132020, both planting systems were fertilized with 50 kg N ha \u22121 (as urea) during land preparation followed by 50 kg P ha \u22121 at sowing. The second N application was added at the time of the first irrigation (200 kg N ha \u22121 ). In 2017\u20132018 and 2018\u20132019, the irrigation was applied every 3\u20134 weeks during the cycle as flood irrigation in both planting systems. In 2019\u20132020, raised beds were irrigated as for the first two years, and the flat basins were irrigated using drip irrigation every 3\u20134 weeks. Herbicides, fungicides, and pesticides were applied as necessary in order to minimize the effects of weeds, diseases, and pests. Plot management information for the two planting systems is summarized in Table S1 . In all experiments, there was no evidence for hypoxia in the plants at any stage during the season in any of the plots.",
+      "char_offset": 12679
+    },
+    {
+      "type": "paragraph",
+      "text": "Dates of reaching initiation of booting (GS41), heading (GS55), anthesis (GS65), and physiological maturity (GS87) were recorded (Zadoks et al., 1974 ) as when 50% of the shoots in the plot reached the stage (Pask et al., 2012 ). Biomass samples were taken by cutting shoots at the ground level at 40 days after emergence, early booting (GS41), and anthesis (GS65) + 7 days in a 0.8\u2010m 2 area (0.50 \u00d7 1.6 m) in beds and a 0.8\u2010m 2 area (0.50 \u00d7 1.6 m) in flats, except for 40 days after emergence (0.40 m 2 : 0.25 \u00d7 1.6 m in beds; 0.40 m 2 : 0.25 \u00d7 1.6 m in flats). The biomass sample was taken leaving 25 cm (40 days after emergence) or 50 cm (GS41 and GS65 + 7 days) from the end of the plot to reduce border effects. At emergence + 40 days, GS41, and GS65 + 7 days, a subsample of the sampled material was taken on a fresh weight basis of 50 shoots and weighed after drying at 70\u00b0C for 48 h. For biomass at physiological maturity, 50 fertile shoots, that is those with a spike (2017\u20132018 and 2018\u20132019), or 30 fertile shoots (2019\u20132020) were sampled randomly by cutting at the ground level to estimate harvest index (HI) (ratio of grain dry matter to aboveground dry matter) and grain yield components as described by Pask et al. ( 2012 ). After physiological maturity, grain yield was measured in each plot by machine harvesting an average plot area of 3.2 and 4.0 m 2 per plot in beds and flats, respectively, and values were further adjusted to the moisture percentage measured in each plot. In each plot, 50 cm at each end of the plot was discarded in order to remove the border effect. For TGW, a subsample of ca. 20 g was taken, and the dry weight was recorded after drying at 70\u00b0C for 48 h. The grains were counted using the digital image system Seed Counter (SeedCount SC5000).",
+      "char_offset": 14946
+    },
+    {
+      "type": "paragraph",
+      "text": "Relative chlorophyll content of the flag leaf was measured using a hand\u2010held SPAD meter (SPAD 502 Minolta) in the middle of the leaf at 7 days after anthesis taking readings for six flag leaves per plot.",
+      "char_offset": 16733
+    },
+    {
+      "type": "paragraph",
+      "text": "Fractional interception (FI) of photosynthetically active radiation (PAR, 400\u2013700 nm) was measured using a 1\u2010m linear ceptometer (AccuPAR LP\u201080; Decagon Devices) at emergence + 40 days, GS41, and GS65 + 7 days in 2018\u20132019 and 2019\u20132020. The measurements were taken above the crop (incident radiation), inverting the ceptometer 10 cm above the canopy (reflected radiation) and below the canopy at the ground level (transmitted radiation) during sunny days from 11 a.m. to 1 p.m. when the sun was near its zenith and wind speed was low. In the raised beds, the ceptometer was positioned at a certain angle to the direction of the plant rows so that half of the central gap between the beds was included in the measurement to ensure that all variations across the plot were equally sampled, and measurements were representative of the whole plot. A single reading per bed was taken in beds and two readings per plot in flats.",
+      "char_offset": 16938
+    },
+    {
+      "type": "paragraph",
+      "text": "Fractional PAR interception was calculated as follows (Equation 2 ):",
+      "char_offset": 17863
+    },
+    {
+      "type": "paragraph",
+      "text": "where FI is the fractional PAR interception, PARi is the incident photosynthetically active radiation, PARr is the reflected PAR, and PARt is the transmitted PAR at the soil surface.",
+      "char_offset": 17933
+    },
+    {
+      "type": "paragraph",
+      "text": "RUE was calculated in each plot as the increment in the aboveground dry matter divided by the increment in intercepted PAR (IPAR) for the phase (Monteith & Moss, 1977 ) in 2018\u20132019 and 2019\u20132020. PAR interception was measured at emergence + 40 days, initiation of booting, and anthesis + 7 days to calculate the accumulated PAR during the phenophases: IPARaccE40\u2013InB40 (IPAR accumulated from emergence + 40 days to the initiation of booting), IPARaccInB\u2013A7 (IPAR accumulated from initiation of booting to anthesis + 7 days), IPARaccE40\u2013A7 (IPAR accumulated from emergence + 40 days to anthesis + 7 days), and IPARaccA7\u2013PM (IPAR accumulated from anthesis + 7 days to physiological maturity). The accumulated PAR interception for the phenophases up to GS65 + 7 days was calculated from the cumulative incident PAR for the phase and then multiplied by the average FI from the start to the end of the phase. For PAR accumulated interception from GS65 + 7 days to physiological maturity (IPARaccA7\u2013PM), the FI at GS65 + 7 days was applied to the incident PAR for each day during the phase; the daily increments of PAR interception were then accumulated for the phase (a correction factor of 0.5 was applied to FI during the last 25% of the grain\u2010filling period to account for the interception by senesced canopy; Reynolds & Pfeiffer, 2000 ). A PAR interception from emergence + 40 days to physiological maturity was calculated as the sum of IPARaccE40\u2013A7 and IPARaccA7\u2013PM. RUE was measured over five different phases: RUE_E40InB (from 40 days after emergence [close to canopy closure] to the initiation of booting), RUE_InBA7 (from initiation of booting to 7 days after anthesis), RUE_preGF (RUE pre\u2010grain\u2010filling from 40 days after emergence to 7 days after anthesis), RUE_GF (RUE grain\u2010filling from 7 days after anthesis to physiological maturity) and RUET (from emergence + 40 days to physiological maturity). RUE was therefore calculated using Equations ( (3) , (4) , (5) , (6) , (7) ):",
+      "char_offset": 18117
+    },
+    {
+      "type": "paragraph",
+      "text": "where BM is the aboveground dry matter, IPARacc is the accumulated intercepted PAR, E40 is emergence + 40 days, InB is initiation of booting (GS41), A7 is the anthesis (GS65) + 7 days, and PM is the physiological maturity.",
+      "char_offset": 20105
+    },
+    {
+      "type": "paragraph",
+      "text": "Canopy architecture was scored for each plot at the initiation of booting and 7 days after anthesis. A qualitative method (visual score) of overall canopy architecture based on the upper leaves (Flag\u2010leaf canopy visual score; FLcvs) was made for each plot using the scale of Richards et al. ( 2019 ). A score of 1 was given to plots when all leaves were visually erect, a score of 6 was given when 60% of the leaves in the upper canopy appeared planophile, and a score of 10 was given to plots when all visible leaves in the upper canopy appeared planophile. More detailed canopy architecture measurements using quantitative methods were taken on the flag leaf for six randomly selected fertile shoots per plot (Figure 2 ). The flag\u2010leaf angle (FLA; \u00b0) was measured from the vertical stem to the middle part of the flag\u2010leaf using a protractor. The flag\u2010leaf curvature (FLcv; cm) was measured as the distance from the point of inflection to the tip of the leaf. Total length and total width of the flag leaf were also measured using a ruler. Plant height was measured from the ground to the tip of the spike (awns were not considered) shortly before physiological maturity.",
+      "char_offset": 20329
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagram of canopy architecture measurements on the flag leaf in wheat. Created with Biorender.com.",
+      "char_offset": 21504
+    },
+    {
+      "type": "paragraph",
+      "text": "Normalized difference vegetation index (NDVI) was measured in raised beds and flat basins in each plot from canopy closure (close to onset of stem extension) to late grain filling using a Green Seeker spectroradiometer (Trimble Agriculture) approximately every 2 weeks (Pask et al., 2012 ). The NDVI measurements provided additional information on green canopy area and senescence profiles to help interpret treatment effects on radiation interception. The spectroradiometer sensor was held 60\u2013120 cm above the crop. NDVI was calculated from measurements of reflectance in the red (680 nm) and near infrared (800 nm) regions of the spectrum using Equation ( 8 ):",
+      "char_offset": 21604
+    },
+    {
+      "type": "paragraph",
+      "text": "where R680 and R800 are the reflectance at 680 and 800 nm, respectively.",
+      "char_offset": 22268
+    },
+    {
+      "type": "paragraph",
+      "text": "Adjusted means for grain yield, yield components, and physiological traits were calculated using a general linear model analysis of variance procedure from META R 6.04 (Alvarado et al., 2020 ). Replications, years, and planting systems were considered random effects, and genotypes as a fixed effect. A covariate for anthesis date was used as a fixed effect and was included when significant. Phenotypic correlations between traits were Pearson's correlation coefficient calculated using either the 3\u2010year genotype means or the 2\u2010year genotype means. Linear regression analysis was applied to 2\u2010year or 3\u2010year genotype means for selected traits. Broad sense heritability ( H 2 ) was calculated using data across the 3 or 2 years using Equation ( 9 ):",
+      "char_offset": 22342
+    },
+    {
+      "type": "paragraph",
+      "text": "where \u03c3 2 is the error variance, \u03c3 g 2 is the genotypic variance, \u03c3 g y 2 is the G \u00d7 Y variance, \u03c3 g s 2 is the PS variance, s is the number of PS, y is the number of years, \u03c3 e 2 is the residual variance, and r is the number of replicates.",
+      "char_offset": 23094
+    },
+    {
+      "type": "paragraph",
+      "text": "Meteorological data including mean monthly temperature, relative humidity, rainfall, and solar radiation were collected from a weather station within 1 km of the field experiments. The environmental conditions in the field experiments for the three crop cycles are shown in Figure S1 . The mean temperature from December to April was similar in 2018\u20132019 (18.0\u00b0C) and 2019\u20132020 (17.7\u00b0C), but in 2017\u20132018, it was ca. 1\u00b0C warmer (19.1\u00b0C). Low rainfall (<10 mm per month) was observed during each of the three crop cycles. Average radiation from December to April was higher during 2017\u20132018 than in 2018\u20132019 and 2019\u20132020.",
+      "char_offset": 23336
+    },
+    {
+      "type": "paragraph",
+      "text": "Plant establishment (plant counts in an area of 0.40 m 2 in beds and 0.40 m 2 in flats 28 days after emergence) was measured only in 2019\u20132020 when a nonsignificant difference (153\u2013176 plants m \u22122 ) was observed between the two planting systems (Table 2 ).",
+      "char_offset": 23960
+    },
+    {
+      "type": "paragraph",
+      "text": "Mean, minimum, maximum, and analysis of variance (ANOVA) for yield, yield components, biomass at maturity, and phenology expressed in days after emergence (DAE) from the combined analysis across 2017\u20132018, 2018\u20132019, and 2019\u20132020 in raised beds (B) and flat basins (F).",
+      "char_offset": 24218
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbreviations: BMPM, biomass at physiological maturity; DTA (DAE), days to anthesis (GS65); DTPM (DAE), days to physiological maturity (GS87); GM2, grain number per square meter; HeightPM, plant height at physiological maturity; Min, minimum; Max, maximum; ns, not significant; Plants, number of plants per square meter; ShootsA7, fertile shoots at 7 days to anthesis; TGW, thousand\u2010grain weight; YLD, grain yield.",
+      "char_offset": 24490
+    },
+    {
+      "type": "paragraph",
+      "text": "Plant height differed among cultivars from 90.1 to 121.3 cm in beds and from 88.3 to 119.4 cm in flats ( p < 0.001) with a PS \u00d7 G interaction ( p < 0.05), but plant height did not differ between planting systems. The date of the initiation of booting, heading, and anthesis was 1 day later in beds than flats, and for physiological maturity, the date was 3 days later in beds than flats. Averaging across the 3 years, grain yield varied among the cultivars from 539 to 741 g m \u22122 in beds and from 525 to 693 g m \u22122 in flats ( p < 0.001; Table 2 ). On average, grain yield in beds was 10.6% higher than in flats ( p < 0.001). A significant PS \u00d7 G interaction was observed for yield ( p < 0.05) with the increase in beds compared to flats ranging from 0 to 120 g m \u22122 among the cultivars. There was a larger grain yield increase in beds compared to flats for taller than shorter cultivars (Table S2 ). HI was increased in beds (0.47) compared to flats (0.46) ( p < 0.05), but there was no significant PS \u00d7 G interaction. Overall, biomass at physiological maturity (BMPM) was 7.6% greater in beds (1420 g m \u22122 ) than in flats (1320 g m \u22122 ) ( p < 0.001). Cultivars ranged from 1192 to 1512 g m \u22122 in beds and from 1204 to 1444 in flats ( p < 0.001), and there was a significant PS \u00d7 G interaction. Genetic variation was found for spikes per m 2 , grains per spike (GPS), grains per m 2 (GM2), and TGW ( p < 0.001) with a significant planting system effect for all these traits ( p < 0.01, p < 0.001, p < 0.001, and p = 0.097, respectively). However, only GPS ( p < 0.001) and SM2 ( p = 0.068) showed a PS \u00d7 G interaction. Grain yield was strongly positively correlated with BMPM in beds ( r = 0.77, p < 0.01) and flats ( r = 0.78, p < 0.01; Table 3 ). A positive correlation was also found between grain yield and HI in flats ( r = 0.70, p < 0.01), but there was no correlation in beds. Results showed that shorter plants had higher HI (B: r = \u22120.53, p = 0.08 and F: r = \u22120.62, p < 0.05). A strong positive correlation was found between grain yield and GPS in beds ( r = 0.80, p < 0.01) and flats ( r = 0.61, p < 0.05). There was a trade\u2010off between GM2 and TGW in both planting systems (B: r = \u22120.74, p < 0.01, F: r = \u22120.79, p < 0.01). Additionally, there was a positive correlation between the anthesis date and BMPM in beds ( r = 0.58, p < 0.05) and flats ( r = 0.59, p < 0.05).",
+      "char_offset": 24906
+    },
+    {
+      "type": "paragraph",
+      "text": "Phenotypic correlations for grain yield, yield components, height at physiological maturity, number of shoots at anthesis + 7 days (m 2 ), and phenology in days after emergence (DAE) among the 12 spring CIMMYT wheat genotypes.",
+      "char_offset": 27286
+    },
+    {
+      "type": "paragraph",
+      "text": "Note : Values are based on means in 2017\u20132018, 2018\u20132019, and 2019\u20132020 in raised beds (B) and flat basins (F).",
+      "char_offset": 27514
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbreviations: BMPM, biomass at physiological maturity; DTA (DAE), days to anthesis (GS65); DTPM (DAE), days to physiological maturity (GS87); GM2, grain number per square meter; HeightPM, plant height at physiological maturity; ShootsA7, fertile shoots at 7 days to anthesis; TGW, thousand\u2010grain weight; YLD, grain yield.",
+      "char_offset": 27627
+    },
+    {
+      "type": "paragraph",
+      "text": "Flag\u2010leaf angle was higher (i.e., less upright leaf) in flat basins (13\u00b0) than raised beds (6\u00b0) at the initiation of booting ( p < 0.001). However, at 7 days after anthesis, flag\u2010leaf angle was higher in raised beds (72\u00b0) than flat basins (68\u00b0; p < 0.05). At the initiation of booting, the flag\u2010leaf angle varied from 3\u00b0 (BACANORA T88) to 9\u00b0 (KUTZ) in raised beds and 4\u00b0 (BACANORA T88) to 26\u00b0 (KUTZ) in flat basins ( p < 0.001) (Table 4 ). At 7 days after anthesis, flag\u2010leaf angle varied from 35\u00b0 (BACANORA T88) to 103\u00b0 (KUTZ) in raised beds and from 28\u00b0 to 96\u00b0 (KUTZ and C80.1/3*QT4118) in flat basins ( p < 0.001). A PS \u00d7 G interaction was found for flag\u2010leaf angle at both stages ( p < 0.001). The range of the responses to PS (i.e., increase in beds versus flats) for the flag\u2010leaf angle was from \u221218\u00b0 to \u22121\u00b0 at GS41 and \u221215\u00b0 to 29\u00b0 at GS65 + 7 days. A planting system effect was observed only for flag\u2010leaf curvature (FLcv) at the initiation of booting ( p < 0.01) with higher values in raised beds (higher values, i.e., increased length from inflection point to leaf tip, representing more curved leaf). No planting system effect on the visual score for curvature (FLcvs) was found at either stage. For the quantitative measurement of FLcv, cultivars ranged from 16.4 to 21.8 cm in raised beds and from 6.0 to 17.4 cm in flat basins at the initiation of booting ( p < 0.001). At 7 days after anthesis, FLcv varied from 8.6 to 23.2 cm in raised beds and from 5.8 to 18.2 cm in flat basins ( p < 0.001). FLcvs showed genetic variation at GS41 ( p < 0.001) and GS65 + 7 days ( p < 0.001). The interaction for FLcv at GS41 ranged from 2.64 to 12.19 cm (increase in beds vs. flats). There was no PS \u00d7 G interaction for FLcv at GS65 + 7 days, or for FLcvs at either stage. A correlation among cultivars between FLcv and FLcvs was found only in raised beds at GS41 ( r = 0.51, p < 0.01). Flag\u2010leaf length was higher in flat basins than raised beds at the initiation of booting ( p < 0.001) but higher in raised beds at 7 days after anthesis ( p < 0.001) (Table S3 ).",
+      "char_offset": 27951
+    },
+    {
+      "type": "paragraph",
+      "text": "Flag\u2010leaf angle (FLA), flag\u2010leaf curvature visual score (1\u201310, FLcvs), and distance from the point of inflection of the flag\u2010leaf to the tip (FLcv) at the initiation of booting (GS41, InB) and 7 days after anthesis (GS65, A7) for 12 CIMMYT spring wheat genotypes from the combined analysis across 2018\u20132019 and 2019\u20132020 in raised beds (B) and flat basins (F).",
+      "char_offset": 30019
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbreviations: CV, coefficient of variation; FLAInB, flag\u2010leaf angle at initiation of booting (\u00b0); FLcvInB, point of inflection of the flag leaf to the tip (cm); FLcvsInB, flag\u2010leaf curvature score at initiation of booting; FLAA7, flag\u2010leaf angle 7 days after anthesis (\u00b0); FLcvA7, flag\u2010leaf curvature at 7 days after anthesis (cm); FLcvsA7score, flag\u2010leaf curvature score at 7 days after anthesis; LSD, least signficant difference of the means, p = 0.05; ns, not significant; PS \u00d7 G, planting system \u00d7 genotype.",
+      "char_offset": 30381
+    },
+    {
+      "type": "paragraph",
+      "text": "Averaging across the 3 years, biomass evaluated at the different growth stages during the season showed genetic variation ( p < 0.001) (Figure 3 ). Biomass at 40 days after emergence ranged among the 12 cultivars ( p < 0.001) from 171 to 218 g m \u22122 in beds and from 192 to 290 g m \u22122 in flats (Figure 3a ); and was overall 21.5% higher in flats than in beds ( p < 0.001). Biomass at initiation of booting was 10.7% higher in flats than beds ( p < 0.001) with genetic ranges from 376 to 635 g m \u22122 in beds and from 489 to 642 g m \u22122 in flats (Figure 3b ). However, biomass at anthesis + 7 days did not differ between planting systems ( p = 0.63) with cultivars ranging from 771 to 1124 g m \u22122 in beds and from 858 to 1143 g m \u22122 in flats ( p < 0.001; Figure 3c ). At physiological maturity, biomass was 7.6% higher in beds than flats ( p < 0.001), ranging from 1204 to 1444 g m \u22122 in beds and from 1192 to 1512 g m \u22122 in flats ( p < 0.001) among cultivars (Figure 3d ).",
+      "char_offset": 30895
+    },
+    {
+      "type": "paragraph",
+      "text": "Boxplot of aboveground biomass at (a) emergence + 40 days, (b) initiation of booting, (c) anthesis + 7 days, and (d) physiological maturity in raised beds (B) and flat basins (F). Values represent means across 2017\u20132018, 2018\u20132019, and 2019\u20132020. The middle dotted line is the adjusted mean across lines. Statistical significances for genotype (G), planting systems (PS), and the interaction among them (PS \u00d7 G) are presented below each boxplot.",
+      "char_offset": 31865
+    },
+    {
+      "type": "paragraph",
+      "text": "The biomass at each stage showed a statistically significant PS \u00d7 G interaction. The cultivar SOKOLL showed the greatest biomass increase in beds compared to flats at physiological maturity where beds overall had 226 g m \u22122 more biomass than flats, and the cultivar NELOKI showed the smallest increase. Cultivar SOKOLL was intermediate in the range for plant height among the cultivars with a planophile canopy architecture, whereas cultivar NELOKI was the shortest among the 12 cultivars with an erectophile canopy architecture (Tables 1 and 4 ). Cultivars showed different temporal patterns of biomass accumulation in the beds and flats during the crop cycle (Figure S2 ).",
+      "char_offset": 32312
+    },
+    {
+      "type": "paragraph",
+      "text": "NDVI during the season in beds and flats is shown in Figure 4 . At emergence + 40 days and initiation of booting, both planting systems had similar NDVI values. However, canopy NDVI started to decrease earlier in the flats (at around spike emergence) than in the beds (no decrease from the peak until after anthesis).",
+      "char_offset": 32988
+    },
+    {
+      "type": "paragraph",
+      "text": "Mean, minimum (Min), and maximum (Max) values of normalized difference vegetation index (NDVI) across 12 CIMMYT spring wheat genotypes with thermal time (TT) from emergence + 40 days on (a) raised beds and (b) flat basins planting systems. Error bars represent the LSD (least significant difference of the means, p = 0.05) for each NDVI measurement. The black line represents the vegetative stage cross\u2010year mean 2017\u20132018, 2018\u20132019, and 2019\u20132020, and the blue line represents the grain\u2010filing stage cross\u2010year mean 2017\u20132018 and 2018\u20132019. Arrows show the anthesis date.",
+      "char_offset": 33307
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiation interception and RUE were measured only in 2018\u20132019 and 2019\u20132020. Averaging across the 2 years, fractional radiation interception showed genetic variation at GS41 and GS65 + 7 days ( p < 0.001 and p < 0.05, respectively) (Table S4 ) and was marginally higher in flats than beds at both stages (0.99 vs. 0.98 at GS41 and 0.98 vs. 0.97 at GS65 + 7 days; p < 0.001 and p < 0.01, respectively). FI at GS65 + 7 days showed a PS \u00d7 G interaction ( p < 0.001) with a trend for an interaction at GS41 also ( p = 0.06). The genetic variation in accumulated intercepted PAR for the phenophases during the crop cycle in both planting systems is shown in Figure 5 . In beds, the accumulated intercepted radiation (IPARacc) in the pre\u2010anthesis phenophases and the grain\u2010filling phase was slightly greater than in flats. Genetic variation in IPARacc was found for beds and flats for each phenophase (emergence + 40 days\u2013initiation booting, initiation of booting\u2013anthesis + 7 days, anthesis + 7 days\u2013physiological maturity and emergence + 40 days to physiological maturity; p < 0.001; Figure 5a\u2013d ) and a significant planting system effect ( p < 0.01, p < 0.01, p < 0.01, and p < 0.001, respectively). The small increases in beds compared to flats for accumulated intercepted radiation were associated with the slightly extended duration of the phenological phases in the beds compared to the flats. A significant PS \u00d7 G interaction was found for each phenophase ( p = 0.052, p < 0.01, p < 0.01, and p < 0.05, respectively).",
+      "char_offset": 33882
+    },
+    {
+      "type": "paragraph",
+      "text": "Boxplot of accumulated radiation interception (MJ m \u22122 ) at (a) emergence + 40 days to the initiation of booting, (b) initiation of booting to anthesis + 7 days, (c) anthesis + 7 days to physiological maturity, and (d) emergence + 40 days to physiological maturity in raised beds (B) and flat basins (F). Values represent means across 2018\u20132019 and 2019\u20132020. The middle dotted line is the adjusted mean across lines. Statistical significances for genotype (G), planting systems (PS), and the interaction among them (PS \u00d7 G) are presented below each boxplot.",
+      "char_offset": 35404
+    },
+    {
+      "type": "paragraph",
+      "text": "In beds, a strong positive correlation was found between genetic variation in IPARacc from emergence + 40 days to booting and biomass accumulated during this phenophase ( r = 0.91, p < 0.001; Table S5 ) and similarly for the phenophase from emergence + 40 days to physiological maturity ( r = 0.72, p < 0.01). There was no correlation in flats for these phenophases.",
+      "char_offset": 35964
+    },
+    {
+      "type": "paragraph",
+      "text": "For the combined analysis in 2018\u20132019 and 2019\u20132020, there were significant effects of planting systems: with RUE early in the season from emergence + 40 days to booting increasing in flats compared to beds ( p < 0.05) but increases in beds compared to flats from the onset of booting to anthesis + 7 days and over the whole crop cycle from emergence + 40 days to physiological maturity ( p < 0.05; Table 5 ). Genetic variation in RUE was statistically significant for each of the phenophases for which RUE was estimated for both beds and flats ( p < 0.001). For RUE_E40InB, there was a PS \u00d7 G interaction ( p < 0.001). The genotypes mainly responsible for the interaction were NELOKI (the highest increase in flats) and ITP40 (the lowest increase in flats). For RUE_InBA7, no PS \u00d7 G interaction was found. For RUE_preGF, there was a PS \u00d7 G interaction ( p < 0.01) for which the cultivars BORLAUG100 and KUKRI were mainly responsible for the highest and lowest increases in beds compared to flats, respectively. There was also an interaction for RUE_GF ( p < 0.001) with BORLAUG100 and KUKRI having the highest and lowest increases in beds compared to flats, respectively ( p < 0.001). For RUET, SOKOLL had the greatest increase in beds compared to flats among the cultivars, while NELOKI had the smallest increase ( p < 0.05).",
+      "char_offset": 36332
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiation\u2010use efficiency (RUE; g MJ \u22121 ) calculated from 40 days after emergence to the initiation of booting (RUE_E40InB), from initiation of booting to 7 days after emergence (RUE_InBA7), during the grain\u2010filling period from 7 days after anthesis to physiological maturity (RUE_GF), pre grain\u2010filling from 40 days after emergence to 7 days after anthesis (RUE_preGF), and from 40 days after emergence to physiological maturity (RUET) for 12 CIMMYT spring wheat genotypes.",
+      "char_offset": 37662
+    },
+    {
+      "type": "paragraph",
+      "text": "Note : Values represent means across 2018\u20132019 and 2019\u20132020 in raised beds (B) and flat basins (F) planting systems.",
+      "char_offset": 38137
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbreviations: LSD, least sigfnificant difference of the means, p = 0.05; ns, not significant; PS \u00d7 G, planting system \u00d7 genotype.",
+      "char_offset": 38256
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetic variation in grain yield was positively correlated with RUE _ preGF in beds ( r = 0.75, p < 0.01) and flats ( r = 0.70, p < 0.05) (Table 6 ). In addition, yield was positively correlated with RUET in beds ( r = 0.73, p < 0.01) and flats ( r = 0.67, p < 0.05). Grain yield was positively correlated with RUE_InBA7 but only in flats ( r = 0.87, p < 0.001). RUET was positively related with BMPM in beds ( r = 0.83, p < 0.001) and flats ( r = 0.77, p < 0.01). With regard to other traits, in beds, a strong correlation was found between RUE_InBA7 and GM2 ( r = 0.62, p < 0.05) and between RUE_preGF and GM2 ( r = 0.58, p < 0.05).",
+      "char_offset": 38388
+    },
+    {
+      "type": "paragraph",
+      "text": "Phenotypic correlations between yield, yield components, height, aboveground biomass at different growth stages, and shoot number with radiation\u2010use efficiency (RUE) (g MJ \u22121 ) for 12 spring CIMMYT wheat genotypes.",
+      "char_offset": 39024
+    },
+    {
+      "type": "paragraph",
+      "text": "Note : Values are based on means from the combined analysis in 2018\u20132019 and 2019\u20132020 in raised beds (B) and flat basins (F).",
+      "char_offset": 39240
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbreviations: BMA7, biomass at anthesis + 7 days (g m \u22122 ); BMPM, biomass at physiological maturity (g m \u22122 ); GM2, grain number per square meter (m \u22122 ); HeightPM, plant height at physiological maturity (cm); RUE_E40InB, RUE calculated from 40 days after emergence to the initiation of booting (g MJ \u22121 ); RUE_InBA7, RUE calculated from initiation of booting to 7 days after emergence (g MJ \u22121 ); RUE_GF, RUE calculated during the grain\u2010filling period from 7 days after anthesis to physiological maturity (g MJ \u22121 ); RUE_preGF, RUE pre grain\u2010filling from40 days after emergence to 7 days after anthesis (g MJ \u22121 ); RUET, RUET total, from 40 days after emergence to physiological maturity (g MJ \u22121 ); YLD, grain yield (g m \u22122 ).",
+      "char_offset": 39368
+    },
+    {
+      "type": "paragraph",
+      "text": "Stronger correlations between canopy architecture traits and RUE were generally found in flat basins than raised beds. Additionally, stronger correlations were found using the quantitative methodology to measure flag\u2010leaf curvature rather than the qualitative visual score (Table 7 ). The correlations between flag\u2010leaf angle and RUE contrasted in the two planting systems. In flat basins, there was a negative correlation with more upright leaves at GS65 + 7 days correlated with higher RUE_GF ( p < 0.05), whereas in raised beds, there were positive correlations between flag\u2010leaf angle at the onset of booting and RUE_preGF ( p < 0.10) and RUET ( p < 0.05) (Table 7 ). For leaf curvature measurements, there was a positive correlation between the visual score of flag\u2010leaf curvature in beds at each of GS41 ( r = 0.65, p < 0.05) and GS65 + 7 days ( r = 0.59, p < 0.05) and RUET. There was also a positive correlation in beds between the quantitative measure of flag\u2010leaf curvature at GS65 + 7 days and RUE_GF ( r = 0.78, p < 0.0). A positive correlation was also found between flag\u2010leaf relative chlorophyll content in leaf 3 at GS65 + 7 days and RUE_preGF in raised beds ( R 2 = 0.54, p < 0.01) and flat basins ( R 2 = 0.43, p < 0.05) (Table 7 ).",
+      "char_offset": 40099
+    },
+    {
+      "type": "paragraph",
+      "text": "Phenotypic correlations among 12 CIMMYT spring wheat genotypes evaluated across the years 2018\u20132019 and 2019\u20132020 in raised beds and flat basins between canopy architecture and physiological traits using different methodologies (quantitative flag\u2010leaf angle and curvature/qualitative visual score).",
+      "char_offset": 41351
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbreviations: BMPM, biomass at physiological maturity (g m \u22122 ); FLAA7: flag\u2010leaf angle at 7 days after anthesis (\u00b0); FLAInB, flag\u2010leaf angle at initiation of booting (\u00b0); FLIA7, light interception at anthesis + 7 days; FLIInB, light interception at initiation of booting; FLcvInB, the distance from the point of inflexion of the flag\u2010leaf to the tip at the initiation of booting (cm); FLcvA7, the distance from the point of inflecion of the flag\u2010leaf to the tip at 7 days after anthesis (cm); FLvscInB, flag\u2010leaf curvature score at the initiation of booting; FLvscA7, flag\u2010leaf curvature score at anthesis + 7 days; GM2, grain number per square meter (m \u22122 ); HeightPM, plant height at physiological maturity (cm); RUE_GF, RUE calculated during the grain\u2010filling period from 7 days after anthesis to physiological maturity (g MJ \u22121 ); RUE_InBA7, RUE calculated from initiation of booting to 7 days after emergence (g MJ \u22121 ); RUE_preGF, RUE pre grain\u2010filling from40 days after emergence to 7 days after anthesis (g MJ \u22121 ); RUET, RUET total, from 40 days after emergence to physiological maturity (g MJ \u22121 ); SPAD3, SPAD in leaf 3; TGW, thousand\u2010grain weight; YLD, grain yield (g m \u22122 ).",
+      "char_offset": 41651
+    },
+    {
+      "type": "paragraph",
+      "text": "With regard to light interception, in raised beds, a positive correlation was found between flag\u2010leaf angle at the initiation of booting and fractional light interception at each of GS41 ( r = 0.67, p < 0.05) and GS65 + 7 days ( r = 0.58. p < 0.05). There were no correlations between flag\u2010leaf angle and fractional light interception in flat basins. A correlation was found between the quantitative flag\u2010leaf curvature measurements at GS41 and FI at GS41 ( r = 0.67, p < 0.05) and at G65 + 7 days ( r = 0.58, p < 0.05) in beds. Similarly, a positive correlation was found between the visual score of curvature at the initiation of booting and FI at GS65 + 7 days in raised beds (0.52, p = 0.08) and flat basins ( r = 0.63, p < 0.05). Fractional light interception at anthesis and booting was strongly correlated with biomass at anthesis + 7 in raised beds (r > 0.70; p < 0.01), but there were no correlations in flat basins (Table S6 ).",
+      "char_offset": 42842
+    },
+    {
+      "type": "paragraph",
+      "text": "The phenotypic correlations between canopy architecture traits and grain yield, biomass, and yield components in raised beds and flat basins are shown in Table 7 . A positive association between flag\u2010leaf angle at GS41 and biomass at physiological maturity was found in raised beds ( r = 0.60, p < 0.05); there was no correlation in raised beds.",
+      "char_offset": 43781
+    },
+    {
+      "type": "paragraph",
+      "text": "The irrigated wheat production in North West Mexico has adopted a raised\u2010bed planting system over the last decades which has increased the efficiency of the use of irrigation water and fertilizer N and provided other management benefits over flat basins (Fahong et al., 2004 ; Fischer, 2005). Present results of higher grain yield in beds than flats (10.6%) were similar to several previous investigations reporting yield gains in beds compared to flat basins (Fahong et al., 2004 ; Hassan et al., 2005 ; Kakar et al., 2015 ; Majeed et al., 2015 ; Ram et al., 2005 ). Nevertheless, Tanveer et al. ( 2003 ) and L\u00f3pez\u2010Casta\u00f1eda et al. (2014) found greater grain yield in flats than beds.",
+      "char_offset": 44128
+    },
+    {
+      "type": "paragraph",
+      "text": "We identified several physiological reasons for the higher grain yield in beds than flats in our experiments. RUE from the initiation of booting to 7 days after anthesis was greater in beds by 9.7% as well as season\u2010long RUE by 6.8% contributing to greater aboveground biomass (7.6%) at physiological maturity in beds than flats. Higher RUE from booting to anthesis + 7 days allowed the beds to catch up with the flats in biomass at anthesis + 7 days. The higher RUE from booting to anthesis + 7 days may have been partly associated with an effect for more upright flag\u2010leaf angle in beds at 6\u00b0 compared to flats at 13\u00b0 at booting reducing light saturation of photosynthesis in the flag leaves. On the other hand, at GS65 + 7 days, there was a small increase for flag\u2010leaf angle in beds compared to flats (72\u00b0 for beds vs. 68\u00b0 for flats). The higher RUE in beds than flats may also have been associated with the wider row spacing in raised beds compared to flat basins (24 vs. 20 cm) allowing more light to penetrate to lower leaf layers and reducing light saturation of the flag leaf. The higher grain yield in beds was also, in part, related to an extended grain\u2010filling duration by 2 days in beds compared with flats, which contributed to higher post\u2010anthesis radiation interception in beds. It can be speculated that beds led to slightly cooler canopies hence delayed phenology, although canopy temperature was not measured in the present study. Higher post\u2010anthesis radiation interception and biomass accumulation in beds than flats were additionally associated with a delayed onset of NDVI senescence (Figure 4 ) in beds compared to flats. There was no apparent evidence that the higher biomass in beds than flats was associated with hypoxia in the flat plots; in all years, there were no visible symptoms of hypoxia in any of the plots in either the raised beds or flat basins throughout the life cycle. There was no planting system effect on flag\u2010leaf chlorophyll content (data not shown), in contrast with a previous study where leaf SPAD was higher in raised beds than flat basins associated with higher N uptake (Fahong et al., 2004 ).",
+      "char_offset": 44815
+    },
+    {
+      "type": "paragraph",
+      "text": "RUE showed genetic variation in the different phenophases during the season with broadly similar ranges to previous field studies. For example, a study in winter wheat in the United Kingdom found genetic variation of RUE based on PAR in the range 2.33\u20132.63 g MJ \u22121 under rain\u2010fed conditions (Shearman et al., 2005 ), and a study in bread wheat in Spain reported values based on solar radiation from 0.85 to 1.54 g MJ \u22121 from anthesis to maturity under irrigated conditions (Acreche et al., 2009 ). Genetic variation in RUE_preGF showed an association with biomass at GS65 + 7 days and physiological maturity in both planting systems. In addition, our results showed that genetic variation in RUE_preGF was positively correlated with grain yield in beds and flats. Previous studies by Tao et al. ( 2018 ) and Molero et al. ( 2019 ) in wheat also demonstrated correlations between pre\u2010anthesis RUE and grain yield among genotypes. In our study, the correlation between RUE and biomass was stronger in flats than beds.",
+      "char_offset": 46963
+    },
+    {
+      "type": "paragraph",
+      "text": "There was a strong negative association between genetic variation in the flag\u2010leaf angle at GS65 + 7 days and RUE_GF in flat basins with more upright leaves leading to higher RUE, which agrees with Reynolds et al. ( 2000 ) and Murchie et al. ( 2009 ). Previous work has shown that irradiance incident on the top of the canopy saturates the flag\u2010leaf less in erectophiles compared to planophiles canopies in wheat (Araus et al., 1993 ; Hirose, 2005 ) and rice (Chang et al., 2019 ). In addition, there was a positive association between flag\u2010leaf curvature at GS65 + 7 days and RUE_GF in flat basins which could imply that more recurved flag\u2010leaves allowed more light to reach the lower leaf layers and hence increased RUE. However, no correlation was found between the fraction of light intercepted at the bottom of the canopy and flag\u2010leaf curvature for either planting system (data not shown). In flat basins, no correlations were found between flag\u2010leaf angle and fractional light interception.",
+      "char_offset": 47980
+    },
+    {
+      "type": "paragraph",
+      "text": "When effects in raised beds were considered, in the present study, there was no correlation between flag\u2010leaf angle and RUE in raised beds. It is likely that more upright leaves were relatively more advantageous for RUE in flats than beds due to the narrower row spacing in flats predisposing the flag leaves more to light saturation in upper leaf layers than in beds. There was, however, a positive correlation between flag\u2010leaf angle and fractional light interception at GS41 in raised beds (cultivars with less upright leaves had higher fractional light interception). Cultivars with less upright flag\u2010leaf angle at GS41 also had greater biomass at physiological maturity in raised beds likely related to the increased light interception pre\u2010anthesis. Therefore, results indicated that cultivars with less upright flag leaves were better at capturing light in raised beds translating to a greater biomass at harvest. Again, this planting system difference could be partly explained by row spacing effects, with the greater row spacing (and the gap between the beds in the raised beds) potentially favoring lax\u2010leaved genotypes in this planting system since they can intercept more light per unit leaf area (Fischer et al., 2019 ). No association between narrower flag\u2010leaves and increased SPAD at 7 days after anthesis was found for either planting system (data not shown). Interestingly, in both planting systems, chlorophyll content in leaf 3 (flag leaf = leaf 1) was positively associated among cultivars with RUE_preGF (Table 7 ). The vertical distribution of N in leaf layers may not be optimized in modern cultivars with insufficient N in lower layers to maximize RUE (Foulkes & Murchie, 2011 ). In addition, higher chlorophyll concentration may relate to more light\u2010harvesting complexes to improve light capture in lower leaves (Townsend et al., 2018 ). Further work is required on the relation between leaf N traits and RUE to understand the critical value of leaf N in the respective leaf layers at which RUE is maximized in raised beds and flat basins.",
+      "char_offset": 48979
+    },
+    {
+      "type": "paragraph",
+      "text": "A significant PS \u00d7 G interaction was found for grain yield; for example, the genotype C80.1/3*QT4118 had 18.2% higher grain yield in beds than flats, whereas the genotype ITP40 showed the same grain yield in both planting systems. The grain yield responses to the planting system were mainly driven by the aboveground biomass responses at physiological maturity rather than HI. Regarding yield components, grain yield responses to PS were determined by grains m \u22122 responses rather than TGW responses. Taller cultivars intercepted relatively more radiation in the beds than the flats before anthesis, consistent with the taller cultivars showing relatively greater increases in grain yield and biomass at physiological maturity in beds compared to flats. Aboveground biomass at each stage showed a PS \u00d7 G interaction. However, differences in radiation interception were not the only ones explaining differences in genotype responses to PS for biomass.",
+      "char_offset": 51046
+    },
+    {
+      "type": "paragraph",
+      "text": "The cultivar responses to planting system for biomass at 7 days after anthesis were associated with responses for RUE_InBA7 but more strongly with responses for RUE_preGF. Additionally, responses of cultivars to PS for biomass at physiological maturity were associated with responses to PS for RUET. In summary, the present results in flat basins indicate that breeders should focus on leaf angle to avoid light saturation of leaves, hence increase RUE and grain yield in plant breeding programs where this trait is not already optimized. In raised beds, however, the case for more upright leaves was not clearly demonstrated: on the contrary, cultivars with less upright leaves had higher fractional light interception in the pre\u2010anthesis phase and higher biomass at maturity. A study in sorghum proposed a \u201csmart canopy\u201d with upright leaves at the top combined with horizontal leaves at the bottom of the canopy to maximize light interception (Mantilla\u2010Perez et al., 2020 ), and it is feasible that such a canopy type would be beneficial in raised beds.",
+      "char_offset": 51999
+    },
+    {
+      "type": "paragraph",
+      "text": "Plant breeders have selected wheat canopies with smaller flag leaves and more upright leaves in recent years in some countries, for example, in winter wheat in the United Kingdom (Shearman et al., 2005 ). The present results indicated that the genotypes with upright leaves allowed a higher RUE during grain filling and biomass in flat basins, which is the most common wheat planting system globally. Additionally, the results suggested that more prostrate leaves in raised beds may be beneficial for increasing biomass through increased light interception. Furthermore, the results showed that it is important to measure canopy architecture traits at more than one phenological stage, since the effect of planting systems differed for some traits between development stages, for example, for flag\u2010leaf angle between booting and anthesis + 7 days.",
+      "char_offset": 53056
+    },
+    {
+      "type": "paragraph",
+      "text": "Future work will require more genetic studies to better understand the genes regulating the canopy architecture traits. The present results indicated that the future selection of cultivars with less upright but more recurved leaves may be more beneficial for raising light interception and RUE and biomass in raised beds, but selection for more upright leaves would be more beneficial in flat basins. There is a need for further studies on how the canopy architecture traits affect RUE in different planting systems and mega\u2010environments in a wider range of germplasm in order to reinforce and augment the present findings.",
+      "char_offset": 53905
+    },
+    {
+      "type": "paragraph",
+      "text": "Planting systems play an important role in determining biomass, yield, and RUE in wheat. The results indicated that the raised beds were beneficial for wheat production in North West Mexico compared to the flat basins justifying its wide use by farmers in the region. In addition, planophile types were associated with higher fractional light interception in beds, while erect types were associated with higher RUE in flats\u2010basin. This explains why most of the spring bread wheat from CIMMYT have planophile architecture as the bed system has been predominantly used in the bread wheat breeding program. Yield was highly correlated with RUE_preGF in both planting systems suggesting that this can be a target trait to select for both planting systems. Based on the present results, the evaluation of genotypes for RUE, as well as other traits such as biomass, should take into account the different planting systems, and evaluations in the system of the target environment will be required. However, if selections are targeted for multiple planting systems, it will be necessary to capture genotype \u00d7 planting system effects and select genotypes that perform better in both systems (e.g., ITP40 in this study).",
+      "char_offset": 54530
+    },
+    {
+      "type": "paragraph",
+      "text": "Marcela A. Moroyoqui\u2010Parra : Formal analysis; investigation; methodology; writing\u2014original draft; writing\u2014review and editing. Gemma Molero : Investigation; methodology; writing\u2014review and editing. Matthew P. Reynolds : Conceptualization; funding acquisition; writing\u2014review and editing. Oorbessy Gaju : Methodology; writing\u2014review and editing. Erik H. Murchie : Methodology; writing\u2014review and editing. Michael John Foulkes : Conceptualization; funding acquisition; methodology; writing\u2014original draft; writing\u2014review and editing.",
+      "char_offset": 55742
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare no conflicts of interest.",
+      "char_offset": 56274
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 1 . Growing conditions for three seasons (2016\u201017, 2017\u201318 and 2018\u201319) for field experiments in the planting systems (PS), raised beds (B) and flat basins (F).",
+      "char_offset": 56321
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 2 . ANOVA for grain yield (YLD), 1,000 grain weight (TGW), harvest index (HI), grains m \u22122 (GM2) and above\u2010ground biomass at physiological maturity (BMPM), plant height at physiological maturity (HeightPM) and date of anthesis (GS65, DTA) from the combined analysis across 2017\u201318, 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F).",
+      "char_offset": 56503
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 3 . Flag\u2010leaf length and width at initiation of booting (GS41) and seven days after anthesis (GS65) and SPAD in the leaf 3 at seven days after anthesis for 12 CIMMYT spring wheat cultivars from the combined analysis across 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F).",
+      "char_offset": 56866
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 4 . Mean, minimum, maximum, and ANOVA for fractional light interception at emergence + 40 days (FLI.E40), initiation of booting (FLI.InB) and seven days after anthesis (FLI.A7) from the combined analysis across 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F). * p < 0.05, ** p < 0.01, *** p < 0.001, italics: P < 0.10 , ns: not significant.",
+      "char_offset": 57170
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 5 . Phenotypic correlations between IPARacc for each phenophase and above\u2010ground biomass at different growth stages and plant height at physiological maturity for 12 spring CIMMYT wheat genotypes. Values based on means from the combined analysis in 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F). *P < 0.05, **P < 0.01, ***P < 0.001, \u2020P < 0.10.",
+      "char_offset": 57543
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 6 . Phenotypic correlations between fractional light interception (FLI) and above\u2010ground biomass at different growth stages for 12 spring CIMMYT wheat genotypes. Values based on means from the combined analysis in 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F).",
+      "char_offset": 57921
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 7 . Broad\u2010sense heritability (H 2 ) for yield, yield components, biomass at maturity, phenology expressed in days after emergence (DAE), number of shoots from the three combined analysis across 2017\u201318, 2018\u201319 and 2019\u201320 and RUE from the two combined analysis (2018\u201019 and 2019\u201320). Plants (m \u22122 )\u2021 (data 2019\u201320).",
+      "char_offset": 58216
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Figure 1 . Environmental conditions in the field experiments (average daily mean temperature (\u00b0C), average daily minimum temperature (Tmin, \u00b0C), average daily maximum temperature (Tmax, \u00b0C), monthly rainfall (mm) and average daily radiation (MJ m \u22122 ) in the field experiments during (A) 2017\u201318, (B) 2018\u201319 and (C) 2019\u201320.",
+      "char_offset": 58554
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Figure 2 . Above\u2010ground biomass accumulation during the crop cycle for 12 CIMMYT spring wheat genotypes evaluated across\u2010years in 2017\u201318, 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F). TT = thermal time post\u2010emergence. *P < 0.05.",
+      "char_offset": 58895
+    },
+    {
+      "type": "paragraph",
+      "text": "We thank the physiology team at CIMMYT for their technical support. We also acknowledge Prof Richard Richards of CSIRO, Canberra, for his invaluable support in the genotype selection and Angela Pacheco for her advice in the statistical analysis. This work was supported by the National Council of Science and Technology (CONACYT) (CVU 839945), the Sustainable Modernization of Traditional Agriculture (MasAgro) initiative from the Secretariat of Agriculture and Rural Development (SADER), and the International Wheat Yield Partnership (IWYP) project (IWYP 48) funded by the Biotechnology and Biological Research Council of the United Kingdom [BB/N021061/1].",
+      "char_offset": 59154
+    },
+    {
+      "type": "paragraph",
+      "text": "Moroyoqui\u2010Parra, M. A. , Molero, G. , Reynolds, M. P. , Gaju, O. , Murchie, E. H. , & Foulkes, M. J. (2024). Interaction of planting system with radiation\u2010use efficiency in wheat lines. Crop Science, 64, 314\u2013332. 10.1002/csc2.21115",
+      "char_offset": 59813
+    },
+    {
+      "type": "paragraph",
+      "text": "Assigned to Associate Deborah Paola Rondanini.",
+      "char_offset": 60046
+    },
+    {
+      "type": "paragraph",
+      "text": "This section collects any data citations, data availability statements, or supplementary materials included in this article.",
+      "char_offset": 60094
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 1 . Growing conditions for three seasons (2016\u201017, 2017\u201318 and 2018\u201319) for field experiments in the planting systems (PS), raised beds (B) and flat basins (F).",
+      "char_offset": 60220
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 2 . ANOVA for grain yield (YLD), 1,000 grain weight (TGW), harvest index (HI), grains m \u22122 (GM2) and above\u2010ground biomass at physiological maturity (BMPM), plant height at physiological maturity (HeightPM) and date of anthesis (GS65, DTA) from the combined analysis across 2017\u201318, 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F).",
+      "char_offset": 60402
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 3 . Flag\u2010leaf length and width at initiation of booting (GS41) and seven days after anthesis (GS65) and SPAD in the leaf 3 at seven days after anthesis for 12 CIMMYT spring wheat cultivars from the combined analysis across 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F).",
+      "char_offset": 60765
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 4 . Mean, minimum, maximum, and ANOVA for fractional light interception at emergence + 40 days (FLI.E40), initiation of booting (FLI.InB) and seven days after anthesis (FLI.A7) from the combined analysis across 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F). * p < 0.05, ** p < 0.01, *** p < 0.001, italics: P < 0.10 , ns: not significant.",
+      "char_offset": 61069
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 5 . Phenotypic correlations between IPARacc for each phenophase and above\u2010ground biomass at different growth stages and plant height at physiological maturity for 12 spring CIMMYT wheat genotypes. Values based on means from the combined analysis in 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F). *P < 0.05, **P < 0.01, ***P < 0.001, \u2020P < 0.10.",
+      "char_offset": 61442
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 6 . Phenotypic correlations between fractional light interception (FLI) and above\u2010ground biomass at different growth stages for 12 spring CIMMYT wheat genotypes. Values based on means from the combined analysis in 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F).",
+      "char_offset": 61820
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Table 7 . Broad\u2010sense heritability (H 2 ) for yield, yield components, biomass at maturity, phenology expressed in days after emergence (DAE), number of shoots from the three combined analysis across 2017\u201318, 2018\u201319 and 2019\u201320 and RUE from the two combined analysis (2018\u201019 and 2019\u201320). Plants (m \u22122 )\u2021 (data 2019\u201320).",
+      "char_offset": 62115
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Figure 1 . Environmental conditions in the field experiments (average daily mean temperature (\u00b0C), average daily minimum temperature (Tmin, \u00b0C), average daily maximum temperature (Tmax, \u00b0C), monthly rainfall (mm) and average daily radiation (MJ m \u22122 ) in the field experiments during (A) 2017\u201318, (B) 2018\u201319 and (C) 2019\u201320.",
+      "char_offset": 62453
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementary Figure 2 . Above\u2010ground biomass accumulation during the crop cycle for 12 CIMMYT spring wheat genotypes evaluated across\u2010years in 2017\u201318, 2018\u201319 and 2019\u201320 in raised beds (B) and flat basins (F). TT = thermal time post\u2010emergence. *P < 0.05.",
+      "char_offset": 62794
+    }
+  ],
+  "labels": [
+    "growth_stage_table",
+    "has_table",
+    "yield_table"
+  ],
+  "document_id": "doc-4cb6dbea3c5815ee"
+}

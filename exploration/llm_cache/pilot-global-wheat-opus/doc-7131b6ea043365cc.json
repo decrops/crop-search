@@ -1,0 +1,84 @@
+{"claims": [
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "optimum",
+    "evidence_text": "Optimal seeding rates: Planting window Seed Rate (million/acre) Sept. ≤ 1.0 Early-mid Oct 1.2 – 1.4 After mid-Oct ≥ 1.6",
+    "claim_summary": "Optimal winter wheat seeding rate increases with later planting: <=1.0 million/acre in Sept, 1.2-1.4 in early-mid Oct, >=1.6 after mid-Oct (Mason, MI, tilled, 7.5-inch drill).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_rate",
+    "value_type": "numeric",
+    "numeric_value": 1.03,
+    "unit": "million plants/acre",
+    "qualifier": "optimum",
+    "evidence_text": "Optimal seeding rate was lower in planter (5” rows) than drill (7.5” rows). Optimal for planter (5” rows): 1.03 m plants/acre",
+    "claim_summary": "Optimal wheat seeding rate with a precision planter at 5-inch rows is about 1.03 million plants/acre, lower than for 7.5-inch drill.",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.planting_window",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "recommended",
+    "evidence_text": "Yield declined with later planting... ≤ 10% loss ≤ 20% loss > 20% loss... Crop insurance eligibility: by Oct 25... Start after hessian fly-free date. Sept to early-Oct plantings produced 2-4 tillers; Mid-Oct planting emerged but did NOT produce tillers; End-Oct onwards: not emerged.",
+    "claim_summary": "Plant winter wheat after the Hessian fly-free date; timely (Sept-early Oct) planting maximizes yield and fall tillering, with yield declining for later planting (Michigan).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "morphology.tiller_density",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "Fall tillering influenced by planting date. Sept to early-Oct plantings produced 2-4 tillers. Mid-Oct planting emerged but did NOT produce tillers. End-Oct onwards: not emerged.",
+    "claim_summary": "Winter wheat planted Sept to early Oct produced 2-4 fall tillers; mid-Oct emerged with no tillers; end-Oct onward did not emerge (Michigan).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.row_spacing",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "recommended",
+    "evidence_text": "Narrower rows resulted in yield improvements... Narrow row spacing and improved seed placement can lead to increased crop uniformity, grain yield, and quality. Erect varieties did well in 5” spacing, but NOT in wider (15”) rows; Droopy varieties did well in wider rows.",
+    "claim_summary": "Narrower wheat row spacing improves yield, uniformity, and quality; erect varieties favor 5-inch rows while droopy varieties favor wider rows (Michigan).",
+    "extraction_confidence": "high"
+  },
+  {
+    "parameter_id": "planting.seeding_depth",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "recommended",
+    "evidence_text": "Precision Planter... Accurate seeding depth... Planter resulted in lower variability in seeding depth... 46% lower depth variability; 30–98% higher emergence. BI: 103–133% higher depth variability... 28–30% lower emergence.",
+    "claim_summary": "Uniform/accurate wheat seeding depth (precision planter) gives lower depth variability and 30-98% higher emergence vs drill; broadcast incorporation gives variable depth and lower emergence.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "planting.emergence_rate",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "Precision planting... 30–98% higher emergence... 10–36% more heads per ac. Yield: Broadcast Incorporation... 28–30% lower emergence.",
+    "claim_summary": "Precision planting yielded 30-98% higher wheat emergence and 10-36% more heads/acre than drill; broadcast incorporation 28-30% lower emergence.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "canopy.canopy_cover",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "First two planting dates reached canopy closure more quickly. Later planting dates did not close canopy... Earlier and greater canopy cover with droopy (planophile) varieties compared to erect types.",
+    "claim_summary": "Earlier wheat planting reaches canopy closure faster; droopy (planophile) varieties give earlier/greater canopy cover than erect types.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "canopy.harvest_index",
+    "value_type": "text",
+    "unit": null,
+    "qualifier": "observed",
+    "evidence_text": "Goal: Design a canopy structure that optimizes: Radiation Interception, Radiation Use Efficiency, Harvest Index, Yield components (grain number, grain weight).",
+    "claim_summary": "Wheat canopy design targets optimizing radiation interception, radiation use efficiency, and harvest index for yield.",
+    "extraction_confidence": "low"
+  }
+]}

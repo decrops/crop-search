@@ -1,0 +1,28 @@
+{
+  "document_id": "doc-7f27a3f9b36206b7",
+  "canonical_url": "https://www.nature.com/articles/s41477-020-00783-z.pdf",
+  "source_url": "https://www.nature.com/articles/s41477-020-00783-z.pdf",
+  "doi": "https://doi.org/10.1038/s41477-020-00783-z",
+  "title": "A scoping review of adoption of climate-resilient crops by small-scale producers in low- and middle-income countries",
+  "source_domain": "www.nature.com",
+  "source_tier_id": "international_institution",
+  "discovery_method": "openalex",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "7f27a3f9b36206b7c73670aee239c8787f212900043582ff7998c545833792e0",
+  "content_hash": "ce4a4d4015e92d0e58382bbe931c06565824c32985d796db568eb223168bf88b",
+  "text_length": 50045,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "openalex",
+    "openalex_id": "https://openalex.org/W3091814244",
+    "doi": "https://doi.org/10.1038/s41477-020-00783-z",
+    "publication_year": 2020,
+    "is_open_access": true,
+    "open_access_status": "hybrid"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/300-www.nature.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

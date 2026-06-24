@@ -1,0 +1,43 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "numeric",
+      "numeric_value": 52,
+      "unit": "kg/ha",
+      "qualifier": "typical",
+      "evidence_text": "the nitrogen requirement for a wheat crop yielding 2 t ha-1 of grain at 11 percent protein. It uses a correction factor of 2.34 ... e.g. 2 t ha-1 x 11 percent x correction factor = 52 kg N ha-1 required.",
+      "claim_summary": "A 2 t/ha wheat crop at 11% protein requires ~52 kg N/ha (protein x yield x 2.34)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "recommended",
+      "evidence_text": "the later in crop growth that N is applied the greater is its impact on increasing protein and the less its proportional impact on biomass and yield. ... only part applied before or at sowing. ... A second tactical application to further increase protein can be made up to flowering.",
+      "claim_summary": "Split N timing in wheat: early N drives yield/biomass, later N (to flowering) drives grain protein",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "numeric",
+      "numeric_value": 11,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "you will be able to calculate N fertilizer requirements at sowing that will be accurate enough to meet targets of 70-80 percent of average yield assuming 11 percent grain protein.",
+      "claim_summary": "Wheat N budgeting commonly targets 11% grain protein",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "As only about 50 percent of applied fertilizer is available in the first season ... actual recovery of nitrogen from soil supplies is often closer to 50 percent than 100 percent",
+      "claim_summary": "About 50% of applied N fertilizer is recovered by wheat in the first season",
+      "extraction_confidence": "high"
+    }
+  ]
+}

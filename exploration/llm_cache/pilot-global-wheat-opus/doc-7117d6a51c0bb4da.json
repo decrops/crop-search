@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "numeric",
+      "numeric_value": 122,
+      "unit": "gdd",
+      "qualifier": "typical",
+      "evidence_text": "Benchmark: 122ºC days/leaf (14 main shoot leaves) ... A phyllochron is the time period – measured in thermal time (ºC days above a base temperature of 0ºC) – between the emergence of two successive leaves.",
+      "claim_summary": "Winter wheat phyllochron benchmark is 122 degree-days per leaf (base 0C), with up to 14 main shoot leaves.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"],
+      "bbch_min": 10,
+      "bbch_max": 19
+    },
+    {
+      "parameter_id": "temperature.base_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "typical",
+      "evidence_text": "measured in thermal time (ºC days above a base temperature of 0ºC) – between the emergence of two successive leaves.",
+      "claim_summary": "Base temperature used for thermal-time (phyllochron) calculations in winter wheat leaf emergence is 0 C.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "numeric",
+      "numeric_value": 35,
+      "unit": "shoots/plant",
+      "qualifier": "maximum",
+      "evidence_text": "Benchmark: Maximum 35 shoots/plant for October-drilled crop",
+      "claim_summary": "Maximum benchmark of 35 shoots per plant for an October-drilled winter wheat crop.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "morphology.tiller_density",
+      "value_type": "numeric",
+      "numeric_value": 1020,
+      "unit": "shoots/m2",
+      "qualifier": "typical",
+      "evidence_text": "Benchmark: 1,020 shoots/m 2 (8 April, GS30–31) for a late September to early October-sown crop with 260 plants/m 2",
+      "claim_summary": "Benchmark shoot density of 1,020 shoots/m2 at GS30-31 for a late Sept/early Oct-sown winter wheat crop with 260 plants/m2.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"],
+      "bbch_min": 30,
+      "bbch_max": 31
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "value_type": "numeric",
+      "numeric_value": 150,
+      "unit": "plants/m2",
+      "qualifier": "minimum",
+      "evidence_text": "It is usually necessary to establish at least 150 plants/m 2 to ensure 400 ears/m 2 from an October-sown crop.",
+      "claim_summary": "At least 150 plants/m2 must be established to ensure 400 ears/m2 from an October-sown winter wheat crop.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "morphology.spike_density",
+      "value_type": "numeric",
+      "numeric_value": 400,
+      "unit": "ears/m2",
+      "qualifier": "recommended",
+      "evidence_text": "It is usually necessary to establish at least 150 plants/m 2 to ensure 400 ears/m 2 from an October-sown crop.",
+      "claim_summary": "Target ear (spike) density of 400 ears/m2 for an October-sown winter wheat crop.",
+      "extraction_confidence": "high",
+      "organisms": ["winter wheat"]
+    },
+    {
+      "parameter_id": "phenology.tillering_duration",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Tillering normally ends when Green Area Index (GAI) reaches about 1. In dense crops, this usually occurs just before growth stage 31.",
+      "claim_summary": "Tillering in winter wheat normally ends when Green Area Index reaches about 1, typically just before GS31.",
+      "extraction_confidence": "medium",
+      "organisms": ["winter wheat"],
+      "bbch_max": 31
+    },
+    {
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "range",
+      "range_min": 9,
+      "range_max": 15,
+      "unit": "leaves",
+      "qualifier": "observed",
+      "evidence_text": "Late sowing decreases both phyllochron and total leaves emerged – e.g. early September drilling may give 15 leaves, while November drilling may give nine leaves.",
+      "claim_summary": "Total main-shoot leaves emerged in winter wheat range from ~15 (early September drilling) to nine (November drilling).",
+      "extraction_confidence": "medium",
+      "organisms": ["winter wheat"]
+    }
+  ]
+}

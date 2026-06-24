@@ -1,0 +1,227 @@
+You have full access to this open access article
+
+Plant height (PH), spike length (SL) and spike compactness (SCN) are important agronomic traits in wheat due to their strong correlations with lodging and yield. Thus, dissection of their genetic basis is essential for the improvement of plant architecture and yield potential in wheat breeding. The objective of this study was to map quantitative trait loci (QTL) for PH, SL and SCN in a recombinant inbred line (RIL) population derived from the cross ‘PuBing3228 × Gao8901’ (PG-RIL) and to evaluate the potential values of these QTL to improve yield.
+
+In the current study, Five, six and ten stable QTL for PH, SL, and SCN, respectively, were identified in at least two individual environments. Five major QTL QPh.cas-5A.3 , QPh.cas-6A , QSl.cas-6B.2 , QScn.cas-2B.2 and QScn.cas-6B explained 5.58–25.68% of the phenotypic variation. Notably, two, three and three novel stable QTL for PH, SL and SCN were identified in this study, which could provide further insights into the genetic factors that shape PH and spike morphology in wheat. Conditional QTL analysis revealed that QTL for SCN were mainly affected by SL. Moreover, a Kompetitive Allele Specific PCR (KASP) marker tightly linked to stable major QTL QPh.cas-5A.3 was developed and verified using the PG-RIL population and a natural population.
+
+Twenty-one stable QTL related to PH, SL, and SCN were identified. These stable QTL and the user-friendly marker KASP8750 will facilitate future studies involving positional cloning and marker-assisted selection in breeding.
+
+Common wheat ( Triticum aestivum L.) is one of the most important crop worldwide and provides approximately 20% of the calories in the humans diet [ 1 ]. As the world population is growing continuously, increasing wheat production is an ongoing major goal for wheat breeding [ 2 ]. Wheat yield is determined by the number of spikes, kernel number per spike (KNS) and thousand kernel weight (TKW) [ 3 ]. Also, plant height (PH), spike length (SL) and spike compactness (SCN) are closely related to KNS and TKW [ 4 , 5 ]. Thus, PH, SL, and SCN are important selection indicators used in high-yield breeding [ 6 ].
+
+PH is closely associated with lodging resistance and grain yield in wheat [ 7 ]. The application of green revolution genes ( Rht-B1b and Rht-D1b ) has result in several new cultivars that, were not prone to lodging under increased fertilizer application, thereby successfully achieving increased yield [ 8 ]. However, the green revolution genes Rht-B1b and Rht-D1b also decreased KNS and TKW while reduce PH [ 9 ]. To date, the number of major genes which affect PH in wheat and without causing substantial deleterious agronomic effects, is not large [ 10 ]. Therefore, the exploration and utilization of new dwarfing QTL/genes have been a major focus in wheat research.
+
+QTL mapping is an efficient strategy for detecting QTL and genes for PH [ 11 ]. Twenty-five Rht genes distributed on 11 wheat chromosomes have been identified and formally named [ 12 ]. Rht-B1b , Rht-D1b , Rht8 , Rht13 and Rht24 were widely used in modern cultivars [ 7 , 13 – 14 ]. Several Rht genes regulating PH have been cloned in wheat. Among them, Rht12 encodes a gibberellin (GA) 2-β-dioxygenase [ 15 ], Rht23 likely encodes an AP2 transcription factor [ 16 ], Rht24b encodes a GA 2-oxidase [ 17 ], and Rht8 encodes a ribonuclease H-like protein [ 18 , 19 ]. Additionally, several other genes regulating PH have been cloned using comparative genomics and genome wide association study approaches, including TaDEP1 [ 20 ], TaCOLD1 [ 21 ], TaTB1 [ 10 , 22 ], and TaARF12 [ 23 ].
+
+SL and SCN are important spike morphology traits closely related to KNS and TKW in wheat [ 5 ]. To date, only a few genes that regulate SL and SCN have been cloned in wheat. For instance, Q encodes AP2 domain transcription factor, which interact with miRNA172 to regulate brittle spike, SL, SCN, and grain shattering [ 2 , 24 ]. Rht24b , Rht8 , and TaARF12 have multiple functions and could regulate PH and SL [ 17 , 18 , 23 ]. Many QTL related to SL and SCN have been reported using linkage analysis and association analysis. The major stable QTL for SL and SCN were mainly distributed on wheat chromosomes 2D, 3A, 4A, 4B, 5A, 6A, 6B, 7A, 7B and 7D [ 2 , 25 , 26 , 27 , 28 , 29 ]. QSpl.nau-2D , a major QTL for SL on chromosome 2D, was found to affect SL, SCN, and TKW [ 4 ]. Low SCN can reduce the severity of fusarium head blight (FHB), which is a major disease that significantly impacts wheat production [ 30 , 31 ]. Since SL and SCN are closely related to important traits such as yield and FHB, markers tightly linked to these regions can be used in marker-assisted selection breeding and positional cloning. However, although many QTL for SL and SCN have been reported, the important QTL available for wheat breeding are still limited.
+
+The wheat germplasm PuBing 3228 (P3228), which has superior features such as large spikes, was widely used in the main growing areas of winter wheat of China. Gao 8901 (G8901) is a commercial cultivar in Yellow and Huai River valley winter wheat region of China with a shorter PH and medium size spike when comparing with P3228. Here, we aimed to (i) identify QTL for PH, SL, and SCN using a RIL population derived from ‘P3228 × G8901’ (PG-RIL); (ii) reveal the effect of SL to PH and to SCN, respectively, using conditional QTL analysis; (iii) detect QTL clusters or pleiotropic loci associated with those traits and (iv) develop a Kompetitive Allele Specific PCR (KASP) marker for stable QTL to be used in marker-assisted selection (MAS) in wheat breeding.
+
+The 176 RIL population and the two parents were planted in four environments. The two parents P3228 and G8901 had significant differences in PH, SL, and SCN. Compared with G8901, P3228 had a taller PH and longer SL but a lower SCN (Fig. 1 and Table 1 ). Transgressive segregation was common at both ends of the distribution for PH, SL, and SCN (Table 1 and Fig. 2 a-c). The variance showed highly significant effects of genotype, environment, and genotype × environment (G × E) interaction for PH, SL, and SCN (Additional file 1: Table S1). Genotype RIL046, RIL145, and RIL149 gave significantly highest PH, SL, and SCN in comparison to all other genotypes, respectively (Additional file 1 : Table S2-S4). Likewise, PH, SL, and SCN was significantly higher in environment E1, E2, and E2 as compared to other environments, respectively (Fig. 3 a-c). Moreover, their interactions were also significant where marked increased was recorded for genotype RIL046 for PH in environment E1, RIL145 for SL in environment E2, and RIL149 for SCN in environment E2, respectively (Fig. 3 and Additional file 1 : Table S1-S4). The PH, SL, and SCN showed high broad-sense heritability at 0.78, 0.87, and 0.89, respectively. (Table 1 ). The best linear unbiased predictors (BLUP) datasets for each trait showed a normal distribution based on the Shapiro–Wilk test and Pearson’s correlation coefficients, suggesting the polygenic inheritance of these traits (Table 2 ).
+
+Plant height a , spike length and spike compactness b of two parents P3228 and G8901, and some representative RIL
+
+Frequency distribution of plant height a , spike length b and spike compactness c in RIL population of P3228 and G8901 in BLUP datasets
+
+Phenotype of plant height a , spike length b and spike compactness c in four environments and BLUP datasets. Multiple comparative analyses of the three traits (LSD) were carried out in different environments
+
+A total of 68 putative QTL were detected for PH, SL, and SCN (Fig. 3 and Additional file 1 : Table S2). Among them, 27, 19, and 22 QTL were located on the A, B, and D subgenomes, respectively. The single QTL explained 1.05–30.19% of the phenotypic variance with threshold log-of-odds (LOD) values ranging from 2.74 to 27.28 (Additional file 1 : Table S2). Twenty-one stable QTL could be detected in at least two individual environments (Fig. 4 and Table 3 ).
+
+Genetic locations of QTL intervals associated with plant height, spike length and spike compactness. Uniform centimorgan (cM) scales are shown on the left. QTL are indicated on the right side of each chromosome. For QTL detected in different environments, a slash is inserted to distinguish the environments. The codes E1, E2, E3, E4 and B represent QTL detected in 2013LC, 2014LC, 2015LC, 2016LC environments and BLUP datasets, respectively
+
+A total of 21 QTL for PH were detected, of which 14 QTL carried alleles from G8901 that can increase PH, while the remaining seven alleles were from P3228 (Fig. 4 and Additional file 1 : Table S2). In addition, five stable QTL were detected in at least two environments, including QPh.cas-1A.1 , QPh.cas-5A.3 , QPh.cas-5A.4 , QPh.cas-6A and QPh.cas-7D (Table 3 ). Remarkably, QPh.cas-1A.1 was detected in all the environments and BLUP datasets and explained 3.73% to 10.23% of the phenotypic variation, which represents this QTL may be less affected by the environment (Table 3 ). QPh.cas-5A.3 was detected on the long arm of chromosome 5A in three environments and BLUP datasets, explaining 8.38% to 17.90% of the phenotypic variation (Table 3 ). QPh.cas-5A.4 was also detected on chromosome 5AL in three environments and BLUP datasets, explaining 3.60% to 4.60% of the phenotypic variation (Table 3 ). The largest effect QTL was QPh.cas-6A located on the long arm of chromosome 6A. This QTL was detected in the three environments as well as the BLUP datasets, and the phenotypic variance explained (PVE) ranged from 9.98% to 17.04% (Fig. 4 and Table 3 ). Among these QTL, increased PH was contributed by the G8901 alleles for QPh.cas-1A.1 and by the P3228 allele for QPh.cas-5A.3 , QPh.cas-5A.4 , QPh.cas-6A and QPh.cas-7D . The PVE value of stable QTL for PH indicated that the contribution of P3228 was greater than G8901.
+
+Twenty-eight QTL for SL were detected, of which six QTL were significant in at least two environments (Table 3 ). Among the six stable QTL, the high SL allele of QSl.cas-2B.2 and QSl.cas-6B.2 was contributed by P3228, while the high SL allele of QSl.cas-2D.2 , QSl.cas-4A.1 , QSl.cas-6D.2 and QSl.cas-6D.3 was contributed by G8901. The stable major QTL QSl.cas-6B.2 was detected on the long arm of chromosome 6B in all the environments and BLUP datasets and explained 5.58% to 25.68% of the phenotypic variation (Fig. 4 and Table 3 ). QSl.cas-2B.2 and QSl.cas-2D.2 were also detected in all the environments and BLUP datasets, with PVEs of 2.90–7.25% and 3.79–27.29%, respectively (Table 3 ).
+
+For SCN, a total of 19 QTL were identified, with the PVE of individual QTL ranging from 2.42% to 24.22% (Fig. 3 , Table 3 and Additional file 1 : Table S2). Nine stable QTL were found in at least two environments. Among these stable QTL, increased SCN was contributed by QScn.cas-2B.2 , QScn.cas-6A.1 , QScn.cas-6A.2 , QScn.cas-6B and QScn.cas-7A from G8901, and QScn.cas-3D.1 , QScn.cas-3D.2 , QScn.cas-4D.1 and QScn.cas-5D from P3228 (Fig. 4 and Table 3 ). The stable major QTL QScn.cas-6B on the long arm of chromosome 6B was detected in four environments and BLUP datasets, explaining 10.98–24.21% of the phenotypic variance (Fig. 4 and Table 3 ). Notably, based on the QTL interval and peak marker positions, the QTL QScn.cas-6B , QScn.cas-2B.2 , and QScn.cas-6D.2 were mapped to the flanking regions of the QTL identified for SL, and QScn.cas-6A.2 was colocalized with QTL QPh.cas-6A for PH (Fig. 4 and Table 3 ). These results suggested that these four regions contain either a single QTL with pleiotropic effects or more than one tightly linked QTL affecting pleiotropic effects.
+
+To dissect the genetic effects of PH on the expression of QTL for SL, conditional QTL analysis was conducted. Thirteen conditional QTL comprising 25 QTL × environments in total affecting PH were detected for PH|SL (Table 4 ). Among them, 11 QTL were detected by unconditional QTL mapping, and two novel QTL, QPh.cas-5B and QPh.cas-7D.1 , were detected (Table 4 ). When PH was conditioned on SL, two stable QTL QPh.cas-2B.2 and QPh.cas-5A.3 were detected, whereas the other ten QTL were not detected, including major QTL QPh.cas-5A.4 and QPh.cas-6A (Table 4 ). These results indicated that SL had a significant effect on PH in PG-RIL population.
+
+When SCN was conditioned on SL, a total of 13 conditional QTL comprising 19 QTL × environments were detected for SCN|SL (Table 5 ). Among them, five QTL were identified by unconditional analysis, while the other 14 QTL were newly detected (Table 5 ). When SCN was conditioned on SL, fourteen QTL were not detected, including seven stable QTL QScn.cas-2B.2 , QScn.cas-4D.1 , QScn.cas-5D , QScn.cas-6A.1 , QScn.cas-6A.2 , QScn.cas-6B , and QScn.cas-7A , while the QTL QScn.cas-3D.1 , QScn.cas-3D.2 and QScn.cas-6A.2 were detected (Table 5 ). These results suggested that SL also had a significant effect on SCN in PG-RIL population.
+
+A total of 11 QTL clusters were identified, and all of them were related to more than one trait (Fig. 4 and Table 6 ). Six intervals harboring various QTL can be identified in at least three environments (Fig. 4 , Tables 3 and 6 ). The interval AX-110929441 – AX-110103130 on chromosome 2B affected PH and SL, where increased PH was contributed by the G8901 alleles, and increased SL was contributed by the P3228 alleles (Fig. 4 , Tables 3 and 6 ). The interval AX-111236313 – AX-108763535 on chromosome 6B affected PH, SL, and SCN, increased PH and SL were contributed by the P3228 alleles, and increased SCN was contributed by the G8901 alleles (Fig. 4 , Tables 3 and 6 ). The interval AX-109320176 – AX-111547071 on chromosome 7D showed significant effects on PH across three environments and BLUP datasets and SL in one environment. In this interval, the P3228-derived alleles increased PH and SL (Table 3 ). PH, SL and SCN were correlated in the PG-RIL population, it was possible that those QTL clusters were influenced by one gene with pleiotropic effects.
+
+The KASP marker KASP8750 was developed based on the SNP locus AX-110418750 closely linked to the stable major QTL QPh.cas-5A.3 . Two allelic effects of QPh.cas-5A.3 were significant for the PG-RIL population and a natural population consisting of 141 cultivars/lines (Fig. 5 a). After screening the PG-RIL population and the natural population using KASP8750 , a two-tailed T test was performed between KASP8750 and PH, SL, KNS and TKW values collected from four environments. The results showed that KASP8750 was significantly correlated with PH but not SL, KNS or TKW for PG-RIL (Fig. 5 b-e). For the natural population consisting of 141 cultivars/lines, KASP8750 was associated with PH and TKW but not SL and KNS (Fig. 5 f-i).
+
+Allelic analysis with agronomic traits of KASP8750 in PG-RIL and the natural population. a The allelic segregation of KASP marker KASP8750 . Comparison analysis of KASP8750 alleles with the plant height b , spike length c , kernel number per spike d and thousand kernel weight e of PG-RIL in four environments. Comparison analysis of KASP8750 alleles with the plant height f , spike length g , kernel number per spike h and thousand kernel weight i of the natural population consisting of 141 cultivar/lines in four environments. ** P < 0.01 and * P < 0.05 (two-tailed t test) indicates a significant difference to the two allelic
+
+Increasing yield has been a challenging task for the breeders due to complex inheritance and quantitative nature of this trait [ 38 ]. Breeders prefer to increase the spike number per unit area by reducing PH, and increase the KNS and TKW by changing spike morphological traits such as SL and SCN, therefore, analyzing PH, SL, and SCN characters can provide specific information about genetic control and relationship between yield and its components. High diversity between parents of a population is the key point to study the genetics of a character [ 39 ]. In the current study, we used the PG-RIL population derived from the cross of P3228 and G8901, notably, those three traits were significantly different between the parents in four environments (Table 1 ). Transgressive segregation towards higher and lower ends of the frequency distribution for PH, SL, and SCN indicated the two parents contained different genes for the investigated traits (Table 1 ). The continuous distributions of the PH, SL, and SCN among PG-RIL lines and the presence of G × E interaction are certainly due to a quantitative inheritance of traits that is influenced by environment (Additional file 1 : Table S1). Some studies have revealed that PH, SL and SCN are significantly affected by the environment [ 40 , 41 32 ]. However, those three traits had high broad-sense heritability in PG-RIL population (Table 1 ), indicating adequate levels of genetic effect for these traits in the PG-RIL population. These results suggested that it was feasible and necessary to use the PG-RIL population to identify important QTL for PH, SL, and SCN.
+
+In the current study, we identified 21 QTL for PH that, five stable QTL were mainly distributed on chromosomes 1A, 5A, 6A and 7D (Table 3 ). Compared with the previously identified QTL, The QTL QPh.cas-7D for PH and QSl.cas-7D.1 for SL in the interval AX-109320176–AX-111547071 on chromosome 7D overlapped with QSpl.nau-7D ( HL2 ) in the Nanda2419 × Wangshuibai RIL population [ 5 ]. moreover, the phenotype of NIL population is validated that the effect of HL2 can increase the SL and KNS, and decrease SCN and, that is a favored morphological trait for Fusarium head blight resistance and beneficial to wheat breeding [ 5 ]. The confidence intervals of QPh.cas-2B.2 , QPh.cas-4B.1 and QPh.cas-6B.3 mapped only one environment coincided with the documented QPH.caas-2BL.1 , QPH.caas-4BL and QPH.caas-6BL in the Doumai × Shi 4185 RIL population, respectively, reflecting highly reliable QTL identification in our study. [ 34 ]. Due to the limited information of reported QTL for PH, QPh.cas-1A and QPh.cas-6A were likely novel stable QTL for PH identified in the present study.
+
+Six stable QTL for SL were identified and, located on chromosomes 2B, 2D, 4A, and 6B (Table 3 ). The stable major QTL QSl.cas-6B.2 and QScn.cas-6B were located in the interval AX-108874447 – AX-108763535 (Table 3 ), overlapping with QSL.caas-6BL.1 and QSL.saas-6B for SL in the four RIL populations from different backgrounds [ 6 , 34 ]. Notably, QSl.cas-6B.2 also coincided with QTKW.caas-6BL for TKW from the Doumai × Shi 4185 RIL population [ 34 ]. These results indicate that QSl.cas-6B.2 is a stable major QTL unaffected by genetic background that has important breeding value in wheat. QSl.cas-1B and QSl.cas-2D.1 overlapped with QSl-AxC.ipbb-1B and QSl-AxC.ipbb-2D.1 from the UK Avalon × Cadenza doubled haploid (DH) reference population, respectively [ 11 ]. The QTL QSl.cas-2D.2 in the interval AX-110462142 – AX-110168677 on chromosome 2D has also been reported in a previous study [ 33 ]. Notably, QSl.cas-2B.2 , QSl.cas-4A.1 and QSl.cas-6D.2 were likely novel QTL for SL.
+
+Ten stable QTL for SCN were identified on chromosomes 2B, 3D, 4D, 5D, 6B, 6D, and 7A (Table 3 ). The stable QTL QScn.cas-2B.2 overlapped with QSC.cib-CK1-2B and QSd.sicau-2B.2 [ 33 ]. QScn.cas-6A.1 overlapped with QSC.cib-CK1-6A from the Chuanmai42 × Kechengmai1 RIL population [ 32 ]. Interestingly, QScn.cas-6A.1 was located in the same QTL cluster as QTkw.cas-6A.1 and QKw.cas-6A in the PG-RIL population, which might be the major focus for breeding selection [ 32 ]. It was also reported that the stable QTL QScn.cas-5D coincided with QSC.cib-CC-5D from the Chuanmai42 × Chuannong16 RIL population [ 32 ]. Notably, QScn.cas-3D.1 , QScn.cas-6A.2 and QScn.cas-7A were likely novel stable QTL for SCN. Based on the above results, the stable QTL detected in multi-genetic background should be important selection locus in wheat breeding. Of course, the new QTL with accurate locations detected in our study need to be further verified for their genetic effects and further used in molecular assisted breeding.
+
+The release of the hexaploid wheat reference genome has significantly accelerated the cloning of important QTL candidate genes [ 42 , 43 , 44 ]. In the current study, the stable QTL QScn.cas-3D.2 , were located between the interval AX-110834607 – AX-89337262 . The gene TaLAX1 ( TraesCS3D02G344600 ), a basic helix–loop–helix transcription factor, was located in this interval. Several studies showed that loss-of-function Talax1 mutations confer compact spikes [ 35 ]. The stable QTL QScn.cas-4D.1 was mapped to the 466.62–476.32 Mb interval on chromosome 4DL according to the Chinese Spring reference genome v1.0 [ 42 ]. The gene SVP3-4D ( TraesCS4D02G301100 ) was located in 469.304–469.319 Mb on 4DL. SVP3-4D is an important gene regulating flowering as well as wheat spike, spikelet development, and PH [ 36 ]. The stable QTL QScn.cas-6D.2 in the interval AX-111694627 – AX-109997558 , was mapped to 291.14–301.71 Mb on chromosome 6D. A gene TaPRR1-D1 ( TraesCS6D02G207100 ) was located in this interval. TaPRR1-D1 is a circadian clock gene regulating heading date, PH and TKW [ 37 ]. Those known functional genes could facilitate future studies involving positional cloning and MAS.
+
+SL is an important factor and is highly correlated with PH. Many QTL for PH regulate SL. For instance, the important PH genes Rht8 and Rht25 both regulate PH and SL [ 7 , 19 ]. However, several studies showed that the inheritance of QTL for PH and SL was independent of each other [ 45 ]. Conditional and unconditional QTL analyses showed that the QTL qPH-6B for PH was not affected by SL [ 41 ]. In the current study, conditional QTL analysis showed that QPh.cas-5A.4 and QPh.cas-6A were mainly contributed by SL, while QPh.cas-5A.3 was independent of SL (Table 4 ) . Notably, several studies showed that many QTL for SL were independently inheritanted and were not affected by PH [ 33 , 45 ]. In this study, the QTL QSl.cas-2B.2 , QSl.cas-2D.2 , QSl.cas-4A.1 , QSl.cas-6D.2 and QSl.cas-6D.2 for SL were independent of PH (Table 4 ). These QTL for SL could be directly used for genetic improvement of wheat spikes.
+
+The SCN is a composite trait determined by spikelet number per spike and SL. Conditional QTL analysis efficiently identified new QTL for SCN and revealed relationships between SCN and SL. In the present study, we identified nine new QTL for SCN on chromosomes 1B (3), 1D (1), 2A (1), 2B (1), 6B (1) and 7D (2) using conditional QTL analysis (Table 5 ). Fourteen QTL for SCN were not detected when SCN was conditioned on SL, indicating that the effects of these QTL were entirely contributed by SL. The unconditional QTL analysis showed that the major QTL QScn.cas-6B on chromosome 6B was colocalized with the QTL QSl.cas-6B.2 for SL (Table 3 ). Using conditional QTL analysis, we found that QScn.cas-6B was entirely contributed by SL (Table 5 ). In conclusion, SL is the major factor affecting SCN in the PG-RIL population.
+
+The closely linked markers to important QTL are prerequisite in their critical for molecular-assisted selection in wheat breeding practice, which enables breeders to select favor cultivars to meet local breeding goals [ 46 47 ]. In this study, the KASP marker KASP8750 linked to the stable QTL QPh.cas-5A.3 was developed and verified in PG-RIL and a natural population. Recent studies show that Rht8 and Rht24b have no significant negative effect on yield while reducing PH, and these dwarf genotypes have been widely used by breeders in wheat breeding [ 17 – 19 ]. Notably, the KASP8750-T allele decreased PH but did not affect SL or KNS in either PG-RIL or a natural population (Fig. 5 b-i). Therefore, the KASP marker KASP8750 will facilitate future MAS for the genetic improvement of PH in wheat.
+
+In this study, we identified 21 stable QTL in at least two individual environments. Eleven QTL clusters were identified, and all were related to more than one trait. Unconditional and conditional QTL indicated that SL is the major factor affecting SCN in the PG-RIL population. The KASP8750-T allele decreased PH but did not affect SL or KNS in either PG-RIL or the natural population. The user-friendly KASP marker KASP8750 could facilitate further validation and precise introgression of potential genomic regions identified in this study through marker-assisted breeding.
+
+The ‘PuBing 3228 × Gao 8901’ mapping population was used in this study to analyse the genetics of PH, SL, and SCN. The wheat germplasm P3228 has a tall PH (mean 96.95 cm), long SL (mean 10.58 cm), and low SCN (mean 2.20), whereas G8901 is a commercial cultivar with a short PH (mean 83.66 cm), short SL (mean 8.22 cm), and high SCN (mean 2.68) (Fig. 1 a-b). During four growing seasons from 2013–2014 (E1), 2014–2015 (E2), 2015–2016 (E3), and 2016–2017 (E4), parents and 176 RILs were planted at the Luancheng Agroecosystem Station, Chinese Academy of Sciences (37°15″N, 114°40′47″E). In each environment, the mapping population was planted in a completely randomized block design with three replicates. Each plot consisted of a 1.5 m row with 0.25 m spacing between rows; 30 seeds were used, and 20 plants per row were retained after the emergence of seedlings through treatment. The monthly total rainfall and monthly mean temperature during the 2013–2017 in the wheat growing seasons were shown in Additional file 2 : Fig. S1. Each plot received 300 kg ha −1 NH 4 H 2 PO 4 , 225 kg ha −1 CH 4 N 2 O before sowing, and another 225 kg ha −1 CH 4 N 2 O was top-dressed at the jointing stage. Adequate irrigation was conducted three times during the overwinter, jointing, and anthesis stages of the wheat-growing season in accordance with local standard practices. Weeds, fungal diseases, and insect pests controlled with the application of appropriate herbicides, fungicides, and insecticides, correspondingly.
+
+For three phenotypic traits, 10 representative plants were measured from each plot to investigate PH, SL and SCN. At maturity, PH was determined as the distance between the stem base and the top of spikes (excluding awns) of the tallest culms for each plot. SL was measured from the first rachis node to the top of the uppermost spikelet excluding the awns. SCN was calculated by dividing the number of spikelets per spike by the SL.
+
+A combined analysis of variance, mean values, standard deviations, and covariance of variation (CVs) was performed over environments for three traits were computed with SPSS Statistics v20.0 software (SPSS, Chicago, USA). Transgressive segregants were identified using least significant difference test. For each trait, the best linear unbiased predictor mean (BLUP) was calculated using the mixed linear model with the fitting of both line and environment as random effects in the lme4 package [ 48 ]. Correlation analysis of BLUP value was computed with SPSS Statistics v20.0 software (SPSS, Chicago, USA). The normal distribution of BLUP value for seven traits was tested by the Shapiro–Wilk test (α = 0.05) with SPSS Statistics v20.0 software (SPSS, Chicago, USA). Genotypic variance, environmental variance, genotypic, and environmental interaction variance were calculated using the linear model:
+
+For the combined ANOVA for each trait, we assume the number of genotypes is equal to g , the number of environments is equal to e , and the number of blocks is equal to r . Assuming y ijk is the oberservation of the I th genotype in the k th block in the j th environment. Multiple comparison tests were conducted for genotypic means in each environment by the least significance difference (LSD). Broad-sense heritability ( H 2 ) was calculated using the following formula H 2 = VG/VP; where VG and VP are the genetic variance and phenotypic variance, respectively.
+
+A high-density bin map has been constructed in our previous study [ 46 ]. QTL analysis was conducted using individual and BLUP datasets for PH, SL and SCN by inclusive composite interval mapping of additive and dominant QTL (ICIM-ADD) in QTL IciMapping v4.1 [ 49 ]. Significant QTL were determined by the LOD score at a threshold of 2.5 [ 50 ]. MapChart 2.2 ( http://www.biometris.nl/uk/Software/MapChart/ ) was used to construct the genetic map. The QTLs were named based on McIntosh et al. [ 51 ], where ‘cas’ represents the Chinese Academy of Sciences. To identify the physical positions for the identified QTL interval, a BLAST search ( http://202.194.139.32/blast/viroblast.php ) was performed to align the QTL-associated flanking SNP marker sequences with the Chinese Spring reference genome v1.0 [ 42 ].
+
+Conditional genetic analysis was conducted based on the phenotypic values of PH conditioned on SL and SCN conditioned on SL, which were obtained by the method described by Zhu [ 52 ]. The conditional phenotypic values (y (PH|SL) ) of PH and (y (SCN|SL) ) of SCN in wheat were obtained by the mixed-model approach. The conditional phenotypic value can be divided into y (SCN|SL) = μ (SCN|SL) + G (SCN|SL) + E (SCN|SL) + e (SCN|SL) , Conditional phenotypic values y (SCN|SL) suggest the value of SCN without the influences of SL; μ (SCN|SL) is the conditional population mean; G (SCN|SL) is the conditional general genotypic effect; E (SCN|SL) is the conditional effect for the environment; and e (SCN|SL) is the conditional residual error. y (SCN|SL) and y (PH|SL) was obtained from each environment (E1, E2, E3, E4 and BLUP dataset). Conditional QTL analysis was performed to analyse the genetic contributions of SL to SCN in QTL IciMapping v4.1.
+
+The KASP markers were designed based on the identified SNPs obtained from the Affymetrix wheat 660 K SNP array [ 53 ], and were subsequently verified in the parents. The PG-RIL population was screened for polymorphic KASP markers. The KASP assays were performed on a BIORAD CFX96™ real-time PCR system (Bio-Rad, Hercules, CA). The reaction system employed the KASP v4.0 2 × Mastermix (LGC Genomics, Teddington, UK) and PCR conditions were based on the protocol from LGC Genomics.
+
+All the data generated or analyzed during the current study were included in the manuscript and its additional files. The raw data is available from the corresponding author on reasonable request.
+
+Isham K, Wang R, Zhao W, Wheeler J, Klassen N, Akhunov E, et al. QTL mapping for grain yield and three yield components in a population derived from two high-yielding spring wheat cultivars. Theor Appl Genet. 2021;134(7):2079–95.
+
+Liu K, Sun X, Ning T, Duan X, Wang Q, Liu T, et al. Genetic dissection of wheat panicle traits using linkage analysis and a genome-wide association study. Theor Appl Genet. 2018;131:1073–90.
+
+Ma F, Xu Y, Ma Z, Li L, An D. Genome-wide association and validation of key loci for yield-related traits in wheat founder parent Xiaoyan 6. Mol Breeding. 2018;38(7):91.
+
+Wu X, Cheng R, Xue S, Kong Z, Wan H, Li G, et al. Precise mapping of a quantitative trait locus interval for spike length and grain weight in bread wheat ( Triticum aestivum L.). Mol Breeding. 2014;33:129–38.
+
+Yao H, Xie Q, Xue S, Luo J, Lu J, Kong Z, et al. HL2 on chromosome 7D of wheat ( Triticum aestivum L.) regulates both head length and spikelet number. Theor Appl Genet. 2019;132(6):1789–97.
+
+Li Y, Gao J, Zhang R, Song G, Zhang S, Li W, et al. Identification of new QTL for yield-related traits in Chinese landrace and elite wheat varieties through a genome-wide linkage mapping. Euphytica. 2020;216(8):1–14.
+
+Mo Y, Vanzetti L, Hale I, Spagnolo E, Guidobaldi F, Al-Oboudi J, et al. Identification and characterization of Rht25 , a locus on chromosome arm 6AS affecting wheat plant height, heading time, and spike development. Theor Appl Genet. 2018;131(10):2021–35.
+
+Peng J, Richards D, Hartley N, Murphy G, Devos K, Flintham J, et al. ‘Green revolution’ genes encode mutant gibberellin response modulators. Nature. 1999;400:256–61.
+
+Zhang J, Dell B, Biddulph B, Drake-Brockman F, Walker E, Khan N, et al. Wild-type alleles of Rht-B1 and Rht-D1 as independent determinants of thousand-grain weight and kernel number per spike in wheat. Mol Breeding. 2013;32:771–83.
+
+Igartua E, Contreras-Moreira B, Casas AM. TB1 : from domestication gene to tool for many trades. J Exp Bot. 2020;71(16):4621–4.
+
+Bommert P, Nagasawa NS, Jackson D. Quantitative variation in maize kernel row number is controlled by the FASCIATED EAR2 locus. Nat Genet. 2013;45:334–7.
+
+Agarwal P, Balyan H, Gupta P. Identification of modifiers of the plant height in wheat using an induced dwarf mutant controlled by RhtB4c allele. Physiol Mol Biol Plants. 2020;26(11):2283–9.
+
+Gasperini D, Greenland A, Hedden P, Dreos R, Harwood W, Griffiths S. Genetic and physiological analysis of Rht8 in bread wheat: an alternative source of semi-dwarfism with a reduced sensitivity to brassinosteroids. J Exp Bot. 2012;63:4419–36.
+
+Tian X, Zhu Z, Xie L, Xu D, Li J, Fu C, et al. Preliminary exploration of the source, spread, and distribution of reducing height in bread wheat. Crop Sci. 2019;59(1):19–24.
+
+Sun L, Yang W, Li Y, Shan Q, Ye X, Wang D, et al. A wheat dominant dwarfing line with Rht12 , which reduces stem cell length and affects gibberellic acid synthesis, is a 5AL terminal deletion line. Plant J. 2019;97(5):887–900.
+
+Zhao D, Yang L, Liu D, Zeng J, Cao S, Xia X, et al. Fine mapping and validation of a major QTL for grain weight on chromosome 5B in bread wheat. Theor Appl Genet. 2021;134(11):3731–41.
+
+Tian X, Xia X, Xu D, Liu Y, Xie L, Hassan MA, et al. Rht24b , an ancient variation of TaGA2ox-A9 , reduces plant height without yield penalty in wheat. New Phytol. 2022;233(2):738–50.
+
+Chai L, Xin M, Dong C, Chen Z, Zhai H, Zhuang J, et al. A natural variation in Ribonuclease H-like gene underlies Rht8 to confer “Green Revolution” trait in wheat. Mol Plant. 2022;15:377–80.
+
+Xiong H, Zhou C, Fu M, Guo H, Xie Y, Zhao L, et al. Cloning and functional characterization of Rht8 , a “Green Revolution” replacement gene in wheat. Mol Plant. 2022;15(3):373–6.
+
+Zhang Y, Liang Z, Zong Y, Wang Y, Liu J, Chen K, et al. Efficient and transgene-free genome editing in wheat through transient expression of CRISPR/Cas9 DNA or RNA. Nat Commun. 2016;7:12617.
+
+Dong H, Yan S, Liu J, Liu P, Sun J. TaCOLD1 defines a new regulator of plant height in bread wheat. Plant Biotechnol J. 2019;17(3):687–99.
+
+Dixon L, Pasquariello M, Boden S. TEOSINTE BRANCHED1 regulates height and stem internode length in bread wheat. J Exp Bot. 2020;71(16):4742–50.
+
+Li A, Hao C, Wang Z, Geng S, Jia M, Wang F, et al. Wheat breeding history reveals synergistic selection of pleiotropic genomic sites for plant architecture and grain yield. Mol Plant. 2022;15(3):504–19.
+
+Simons K, Fellers J, Trick H, Zhang Z, Tai Y, Gill B, et al. Molecular characterization of the major wheat domestication gene Q . Genetics. 2006;172:547–55.
+
+Ma Z, Zhao D, Zhang C, Zhang Z, Xue S, Lin F, et al. Molecular genetic analysis of five spike-related traits in wheat using RIL and immortalized F 2 populations. Mol Genet Genomics. 2007;277:31–42.
+
+Cui F, Ding A, Li J, Zhao C, Wang L, Wang X, et al. QTL detection of seven spike-related traits and their genetic correlations in wheat using two related RIL populations. Euphytica. 2012;186:177–92.
+
+Zhai H, Feng Z, Li J, Liu X, Xiao S, Ni Z, et al. QTL analysis of spike morphological traits and plant height in winter wheat ( Triticum aestivum L.) using a high-density SNP and SSR-based linkage map. Front Plant Sci. 2016;7:1617.
+
+Deng Z, Cui Y, Han Q, Fang W, Li J, Tian J. Discovery of consistent QTLs of wheat spike-related traits under nitrogen treatment at different development stages. Front Plant Sci. 2017;8:2120.
+
+Xu Y, Li S, Li L, Ma F, Fu X, Shi Z, et al. QTL mapping for yield and photosynthetic related traits under different water regimes in wheat. Mol Breeding. 2017;37:4.
+
+Suzuki T, Sato M, Takeuchi T. Evaluation of the effects of five QTL regions on Fusarium head blight resistance and agronomic traits in spring wheat ( Triticum aestivum L.). Breed Sci. 2012;62:11–7.
+
+Jones S, Farooqi A, Foulkes J, Sparkes D, Linforth R, Ray R. Canopy and ear traits associated with avoidance of Fusarium head blight in wheat. Front Plant Sci. 2018;9:1021.
+
+Li T, Deng G, Su Y, Yang Z, Tang Y, Wang J, et al. Identification and validation of two major QTLs for spike compactness and length in bread wheat ( Triticum aestivum L.) showing pleiotropic effects on yield-related traits. Theor Appl Genet. 2021;134(11):3625–41.
+
+Zhang G, Wang Y, Guo Y, Zhao Y, Kong F, Li S. Characterization and mapping of QTLs on chromosome 2D for grain size and yield traits using a mutant line induced by EMS in wheat. Crop J. 2015;3(2):135–44.
+
+Li F, Wen W, He Z, Liu J, Jin H, Cao S, et al. Genome-wide linkage mapping of yield-related traits in three Chinese bread wheat populations using high-density SNP markers. Theor Appl Genet. 2018;131(9):1903–24.
+
+He G, Zhang Y, Liu P, Jing Y, Zhang L, Zhu Y, et al. The transcription factor TaLAX1 interacts with Q to antagonistically regulate grain threshability and spike morphogenesis in bread wheat. New Phytol. 2021;230(3):988–1002.
+
+Li K, Debernardi JM, Li C, Lin H, Zhang C, Jernstedt J, et al. Interactions between SQUAMOSA and SHORT VEGETATIVE PHASE MADS-box proteins regulate meristem transitions during wheat spike development. Plant Cell. 2021;33(12):3621–44.
+
+Sun H, Zhang W, Wu Y, Gao L, Cui F, Zhao C, et al. The circadian clock gene, TaPRR1 , is associated with yield-related traits in wheat ( Triticum aestivum L.). Front Plant Sci. 2020;11:285.
+
+Patil RM, Tamhankar SA, Oak MD, Raut AL, Honrao BK, Rao VS, et al. Mapping of QTL for agronomic traits and kernel characters in durum wheat ( Triticum durum Desf.). Euphytica. 2013;190:117–29.
+
+Fériani W, Rezgui S, Cherif M. Detection of QTL and QTL × environment interaction for scald resistance in a two-row × six-row cross of barley. Cereal Res Commun. 2020;48:187–93.
+
+Rebetzke GJ, Ellis MH, Bonnett DG, Condon AG, Falk D, Richards RA. The Rht13 dwarfing gene reduces peduncle length and plant height to increase grain number and yield of wheat. Field Crop Res. 2011;124(3):323–31.
+
+Zhang N, Fan X, Cui F, Zhao C, Zhang W, Zhao X, et al. Characterization of the temporal and spatial expression of wheat ( Triticum aestivum L.) plant height at the QTL level and their influence on yield-related traits. Theor Appl Genet. 2017;130(6):1235–52.
+
+International Wheat Genome Sequencing Consortium. Shifting the limits in wheat research and breeding using a fully annotated reference genome. Sci. 2018;361(6403):eaar7191.
+
+Walkowiak S, Gao L, Monat C, Haberer G, Kassa MT, Brinton J, et al. Multiple wheat genomes reveal global variation in modern breeding. Nature. 2020;588(7837):277–83.
+
+Shi X, Cui F, Han X, He Y, Zhao L, Zhang N, et al. Comparative genomic and transcriptomic analyses uncover the molecular basis of high nitrogen-use efficiency in the wheat cultivar Kenong 9204. Mol Plant. 2022;15(9):1440–56.
+
+Cui F, Li J, Ding A, Zhao C, Wang L, Wang X, et al. Conditional QTL mapping for plant height with respect to the length of the spike and internode in two mapping populations of wheat. Theor Appl Genet. 2011;122(8):1517–36.
+
+Liu H, Zhang X, Xu Y, Ma F, Zhang J, Cao Y, et al. Identification and validation of quantitative trait loci for kernel traits in common wheat ( Triticum aestivum L.). BMC Plant Biol. 2020;20(1):529.
+
+Zheng J, Liu H, Wang Y, Wang L, Chang X, Jing R, et al. TEF-7A, a transcript elongation factor gene, influences yield-related traits in bread wheat ( Triticum aestivum L.). J Exp Bot. 2014;65(18):5351–65.
+
+Bates D, Kliegl R, Vasishth S, Baayen H (2015) Parsimonious Mixed Models
+
+Meng L, Li H, Zhang L, Wang J. QTL IciMapping: integrated software for genetic linkage map construction and quantitative trait locus mapping in biparental populations. Crop J. 2015;3(3):269–83.
+
+Sun Z, Li H, Zhang L, Wang J. Properties of the test statistic under null hypothesis and the calculation of LOD threshold in quantitative trait loci (QTL) mapping. Acta Agron Sin. 2013;39:1–11.
+
+McIntosh R, Dubcovsky J, Rogers W, Xia X, Raupp W. Catalogue of gene symbols for wheat: 2018 supplement. Annu Wheat Newsl. 2018;64:73–93.
+
+Zhu J. Analysis of conditional genetic effects and variance components in developmental genetics. Genetics. 1995;14:1633.
+
+Sun C, Dong Z, Zhao L, Ren Y, Zhang N, Chen F. The wheat 660K SNP array demonstrates great potential for marker-assisted selection in polyploid wheat. Plant Biotechnol J. 2020;18(6):1354–60.
+
+We are grateful to Dr.Yamei Wang for constructive comments of the manuscript. We also think Dr Yucui Zhang for providing the climate data of the Luancheng Agroecosystem Station from 2013 to 2017.
+
+This research was financially supported by the National Key Research and Development Program of China (2021YFD1200600), and the National Natural Science Foundation of China (32101686), and the Hebei Province Key Research and Development Program (22326306D). The funding bodies were not involved in the design of the study, and collection, analysis, and interpretation of data, and manuscript writing.
+
+Hong Liu and Zhipeng Shi contributed equally to this work.
+
+Center for Agricultural Resources Research, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Shijiazhuang, Hebei, 050022, China
+
+Hong Liu, Zhipeng Shi, Feifei Ma, Yunfeng Xu, Guohao Han & Diaoguo An
+
+State Key Laboratory of North China Crop Improvement and Regulation, College of Agronomy, Hebei Agricultural University, Baoding, 071000, Hebei, China
+
+The National Key Facility for Crop Gene Resources and Genetic Improvement, Institute of Crop Science, Chinese Academy of Agricultural Sciences, Beijing, 100081, China
+
+The Innovative Academy for Seed Design, Chinese Academy of Sciences, Beijing, 100101, China
+
+University of Chinese Academy of Sciences, Beijing, 100049, China
+
+DA and DL conceived the study. HL, ZS, FM and YX evaluated the phenotype. HL and ZS carried out QTL mapping, and developed the KASP markers. JZ and YX constructed the RIL population. HL, ZS, and GH analyzed data and wrote the manuscript. DA and DL supervised and revised the writing of the article. All authors approved the final manuscript.
+
+Correspondence to Dongcheng Liu or Diaoguo An .
+
+All methods complied with relevant institutional, national, and international.
+
+The authors declare that they have no conflict of interest.
+
+The authors confirm that all methods were carried out in accordance with relevant guidelines and regulations.
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ . The Creative Commons Public Domain Dedication waiver ( http://creativecommons.org/publicdomain/zero/1.0/ ) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Liu, H., Shi, Z., Ma, F. et al. Identification and validation of plant height, spike length and spike compactness loci in common wheat ( Triticum aestivum L.). BMC Plant Biol 22 , 568 (2022). https://doi.org/10.1186/s12870-022-03968-0
+
+DOI : https://doi.org/10.1186/s12870-022-03968-0
+
+Anyone you share the following link with will be able to read this content:
+
+Sorry, a shareable link is not currently available for this article.
+
+Provided by the Springer Nature SharedIt content-sharing initiative

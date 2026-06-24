@@ -1,0 +1,61 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 4,
+      "heading": "ARS-wide",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "At this Location",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "",
+        "Paff, Kirsten"
+      ],
+      "rows": [
+        [
+          "",
+          "Timlin, Dennis"
+        ],
+        [
+          "",
+          "Fleisher, David"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Location: Adaptive Cropping Systems Laboratory",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Interpretive Summary: Wheat production is critical to global food security. Crop models are valuable tools for assessing crop growth and yields under a large range of management and environmental conditions, including climate change conditions. As plant development is linked leaf area, which in turn impacts light absorption and dry matter accumulation, it is important to accurately model plant development to simulate wheat biomass and grain yield. The number of emerged leaves is used to measure development in wheat, so most crop models simulate leaf number. The major driver of leaf appearance in wheat is temperature, though other factors such as day length and plant age also have an effect. The leaf number submodule used by the DSSAT CSCER wheat model is a linear temperature based function that does not take day length or plant age into account. The literature shows that nonlinear leaf number functions are more biologically representative than linear ones, especially under extreme temperatures. Therefore this study set out to compare the current linear leaf number function with four variations of nonlinear leaf number functions, using a wide range of observed wheat data from soil-plant-atmospheric research (SPAR) chamber experiments and free-air CO2 enrichment (FACE) field experiments. The study found that nonlinear leaf number functions that accounted for temperatures, day length, and plant age effects more accurately simulated leaf number than the current linear leaf number function. Breaking down the simulations by growing condition showed that model accuracy was not impacted by CO2 levels but varied with seasonal growing degree days, suggesting further evaluation of leaf appearance methods across a wider range of temperatures, especially high temperatures, is needed.",
+      "char_offset": 48
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical Abstract: Wheat leaf number is linked to plant development and biomass, making it important to accurately simulate in crop models. Leaf appearance is driven by temperature, photoperiod, and time. This study compared the original DSSAT CSCER temperature based linear leaf number submodule with four submodule variations that incorporated more biologically representative nonlinear functions for temperature, photoperiod, and time. The observed data came from soil-plant-atmosphere research (SPAR) and multi-year/treatment Free-Air CO2 enrichment (FACE) experiments which covered spring and winter wheat varieties and a broad range of thermal environments and CO2 levels. The nonlinear functions improved leaf number simulation accuracy as compared to the original version. However, leaf area index (LAI) accuracy declined, suggesting further research is needed on the relationship between these responses. Model accuracy was not impacted by CO2 levels but varied with seasonal growing degree days, suggesting further evaluation of leaf appearance methods across a wider temperature range is needed.",
+      "char_offset": 1851
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-9f34711f529a016a"
+}

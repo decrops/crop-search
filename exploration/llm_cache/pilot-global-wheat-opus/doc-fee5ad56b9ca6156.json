@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "parameter_id": "phenology.photoperiod_sensitivity",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Ppd-D1a is the most potent known PI allele and the dominant source of PI in European and Asian cultivars... Ppd-D1a was the most potent known allele affecting the timing of flowering, requiring the least thermal time to flowering",
+      "claim_summary": "Wheat flowering time is strongly controlled by photoperiod sensitivity; Ppd-D1a confers the strongest photoperiod insensitivity and earliest flowering.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "thermal_time.anthesis_gdd",
+      "value_type": "numeric",
+      "numeric_value": 1281,
+      "unit": "gdd",
+      "qualifier": "observed",
+      "evidence_text": "All PI lines flowered earlier than Ppd-1b , with Ppd-D1a the most potent allele to induce flowering at the lowest mean thermal time of 1281 degree days ( s.e.d. = 15.51",
+      "claim_summary": "Photoperiod-insensitive (Ppd-D1a) spring wheat reached flowering at ~1281 degree-days of thermal time from sowing.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "planting.seeding_depth",
+      "value_type": "numeric",
+      "numeric_value": 2.5,
+      "unit": "cm",
+      "qualifier": "observed",
+      "evidence_text": "Pots filled with the planting medium were soaked with water for 24 h prior to sowing with single seeds to a depth of 2.5 cm.",
+      "claim_summary": "Wheat seeds sown to a depth of 2.5 cm in pot experiments.",
+      "extraction_confidence": "medium",
+      "methods": ["sowing"]
+    },
+    {
+      "parameter_id": "planting.seeding_rate",
+      "value_type": "numeric",
+      "numeric_value": 300,
+      "unit": "plants/m2",
+      "qualifier": "observed",
+      "evidence_text": "Plots (minimum 2 x 5 m) were drilled (300 seeds/m 2 ) into a free-draining sandy loam",
+      "claim_summary": "Field wheat plots drilled at 300 seeds per m2.",
+      "extraction_confidence": "high",
+      "methods": ["sowing"]
+    }
+  ]
+}

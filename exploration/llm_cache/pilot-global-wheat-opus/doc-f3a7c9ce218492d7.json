@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "parameter_id": "planting.planting_window",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Kenya, Njoro environment enables year round planting Main season : June-October Off-season : Jan-April",
+      "claim_summary": "In the Njoro, Kenya wheat environment the main planting/growing season is June-October and the off-season is January-April.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

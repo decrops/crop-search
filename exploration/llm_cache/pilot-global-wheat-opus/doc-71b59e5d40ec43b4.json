@@ -1,0 +1,23 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "As wheat enters the tillering phase, nitrogen becomes crucial for promoting the development of multiple tillers... At this stage [stem elongation], wheat has higher nutrient demands, particularly nitrogen... During grain filling, wheat requires ample nitrogen, phosphorus, potassium, and sulfur.",
+      "claim_summary": "Nitrogen should be applied through tillering, stem elongation and grain filling stages; split applications recommended.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "soil.ph_range",
+      "value_type": "range",
+      "range_min": 5.5,
+      "range_max": 7.0,
+      "unit": "pH",
+      "qualifier": "optimum",
+      "evidence_text": "Most crops thrive in a pH range of 5.5–7.0, where [nutrients are most available].",
+      "claim_summary": "Most crops, including wheat, thrive in soil pH range 5.5-7.0 for nutrient availability.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Growing Degree Days Calculator",
+      "text": "Enter daily high and low temperatures to calculate growing degree days (GDD) and track crop development toward maturity."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 3,
+      "heading": "Crop & Temperature Inputs",
+      "text": "Crop Corn (Maize) Soybean Winter Wheat Cotton Sorghum Custom Units: \u00b0F \u00b0C Base temp: 50\u00b0F Upper cap: 86\u00b0F GDD to maturity: 2700 GDD Base Temp Upper Cap GDD to Maturity Daily High Daily Low"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Summary",
+      "text": "Enter daily high and low temperatures to calculate growing degree days (GDD) and track crop development toward maturity."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "How it works",
+      "text": "Select your crop type to load the correct base and upper temperature thresholds. Enter the daily maximum and minimum temperatures (Fahrenheit or Celsius). Click \"Add Day\" to accumulate GDD for that day into the running total. Add multiple days to build a seasonal GDD accumulation log. Compare your accumulated GDD against the crop maturity target shown on the results panel. Remove individual entries or reset the log to start a new season."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Use cases",
+      "text": "Predict corn silking and black-layer maturity dates from planting. Track soybean development stages (R1 flowering through R8 full maturity). Estimate soft red winter wheat heading and harvest timing. Plan irrigation and pest-scouting schedules around crop development stages. Compare GDD accumulation across fields or years to explain yield differences. Determine whether a late-planted crop will reach maturity before first frost. Log daily GDD for record-keeping and season-over-season benchmarking. Educate students on the relationship between temperature and plant physiology."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Frequently Asked Questions",
+      "text": "What is a growing degree day (GDD)? A growing degree day is a heat unit calculated as (Daily Max Temp + Daily Min Temp) / 2 minus a crop base temperature. It quantifies how much heat energy a crop accumulates each day, driving biological development independent of calendar time. Why does each crop have a different base temperature? Each crop species has a minimum temperature below which growth essentially stops. Corn uses 50\u00b0F (10\u00b0C), wheat uses 32\u00b0F (0\u00b0C), and soybeans use 50\u00b0F (10\u00b0C). Using the correct base makes GDD predictions crop-specific and accurate. What is the upper cap temperature? Many GDD models cap the maximum temperature used in the calculation (e.g., 86\u00b0F for corn). Above that threshold, additional heat does not speed crop development and may even slow it. Capping prevents overestimation of GDD on very hot days. How do I know my crop's GDD requirement to maturity? Seed companies publish maturity ratings in GDD (also called Comparative Relative Maturity or CRM for corn). The targets shown in this tool are widely used agronomic averages \u2014 check your seed tag or extension service for variety-specific values. What if the daily low temperature is below the base? When the minimum temperature is below the base, the base value replaces it in the calculation. Similarly, when the maximum exceeds the upper cap, the cap value is used. These adjustments keep GDD values non-negative and biologically meaningful. Can I use Celsius instead of Fahrenheit? Yes. Toggle the unit selector to Celsius and all thresholds, inputs, and results will switch automatically. Base and upper cap temperatures convert accordingly."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "What is a growing degree day (GDD)?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Why does each crop have a different base temperature?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "What is the upper cap temperature?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "How do I know my crop's GDD requirement to maturity?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "What if the daily low temperature is below the base?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Can I use Celsius instead of Fahrenheit?",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Day",
+        "High",
+        "Low",
+        "GDD",
+        "Cumulative",
+        ""
+      ],
+      "rows": [
+        [
+          "No days logged yet."
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Enter daily high and low temperatures to calculate growing degree days (GDD) and track crop development toward maturity.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Enter daily high and low temperatures to calculate growing degree days (GDD) and track crop development toward maturity.",
+      "char_offset": 122
+    }
+  ],
+  "labels": [
+    "has_table",
+    "temperature_table"
+  ],
+  "document_id": "doc-9fb91811d2816932"
+}

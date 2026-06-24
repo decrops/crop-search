@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.heat_sensitive_stage",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "The rise in maximum and minimum temperatures had adverse effect on wheat yield... losses to wheat and irrigated rice are projected to be around 20%... The average rise in temperature for the four GCMs ranged from 1.5 to 2.3 °C for between 2000 and 2050",
+      "claim_summary": "Climate warming (1.5-2.3 C rise by 2050) projected to reduce wheat yield by ~20% in West Africa, indicating heat sensitivity.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

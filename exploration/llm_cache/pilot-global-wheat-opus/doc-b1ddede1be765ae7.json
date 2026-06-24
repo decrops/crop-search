@@ -1,0 +1,54 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_timing",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "Feekes growth stage 2-3 is when early nitrogen applications should be applied to enhance tillering in thin stands. Fall nitrogen application of 20-30 lb/acre is sufficient for developing fall tillers. Spring tillering in thin stands can be encouraged by applying 30-50 lb/acre at dormancy break with the balance of spring topdress nitrogen applied at Feekes 5.",
+      "claim_summary": "Wheat nitrogen timing: early N at Feekes 2-3 (tillering), main spring topdress at Feekes 5 (green-up); cutoff at Feekes 6.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 20,
+      "range_max": 30,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Fall nitrogen application of 20-30 lb/acre is sufficient for developing fall tillers.",
+      "claim_summary": "Fall nitrogen of 20-30 lb/acre sufficient for developing wheat fall tillers.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "nutrients.nitrogen_requirement",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 50,
+      "unit": "lb/acre",
+      "qualifier": "recommended",
+      "evidence_text": "Spring tillering in thin stands can be encouraged by applying 30-50 lb/acre at dormancy break",
+      "claim_summary": "Spring nitrogen of 30-50 lb/acre at dormancy break encourages tillering in thin wheat stands.",
+      "extraction_confidence": "high",
+      "methods": ["fertilization"]
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Feekes 5 will not occur prior to vernalization (chilling), which occurs during the winter. After vernalization, wheat plants begin to differentiate.",
+      "claim_summary": "Winter wheat requires vernalization (winter chilling) before stem elongation and head differentiation (Feekes 5).",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Kernels will have a doughy or mealy consistency at 11.2, and by 11.3, kernels will be hardened. Harvest can occur once kernels are ripe at Feekes 11.4.",
+      "claim_summary": "Wheat harvest occurs at Feekes 11.4 when kernels are hardened and ripe.",
+      "extraction_confidence": "medium",
+      "methods": ["harvest"]
+    }
+  ]
+}

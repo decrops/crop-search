@@ -1,0 +1,107 @@
+{"claims": [
+  {
+    "parameter_id": "temperature.base_temperature",
+    "value_type": "numeric",
+    "numeric_value": 0,
+    "unit": "celsius",
+    "qualifier": "threshold",
+    "evidence_text": "Jamieson et al. (1998b) calculated HS in relation to Tt accumulated above a base temperature of 0 °C assuming it takes one phyllochron for emergence to occur.",
+    "claim_summary": "Thermal time for wheat leaf appearance and development is accumulated above a base temperature of 0 °C.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"],
+    "methods": "phenological model (SIRIUS) thermal-time accumulation"
+  },
+  {
+    "parameter_id": "phenology.leaf_appearance_rate",
+    "value_type": "numeric",
+    "numeric_value": 120,
+    "unit": "degree-days/leaf",
+    "qualifier": "typical",
+    "evidence_text": "The base phyllochron was increased to 120 °Cd, emergence took 0·9 phyllochron, and the break points for change in phyllochron were positioned at 2·5 and 7·0 HS.",
+    "claim_summary": "Base phyllochron (thermal-time interval between successive leaf appearances) for 'Batten' wheat was 120 °Cd per leaf.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "phenology.leaf_appearance_rate",
+    "value_type": "range",
+    "range_min": 0,
+    "range_max": 30,
+    "unit": "celsius",
+    "qualifier": "observed",
+    "evidence_text": "The appearance of leaves on the main stem is a linear function of temperature ( Kirby, 1995 ) from close to 0 °C to at least 30 °C ( Jamieson et al. , 2008 ), but may peak and then reduce with increasing temperatures above 30 °C.",
+    "claim_summary": "Wheat main-stem leaf appearance increases linearly with temperature from near 0 °C to at least 30 °C, peaking and declining above 30 °C.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "thermal_time.emergence_gdd",
+    "value_type": "numeric",
+    "numeric_value": 110,
+    "unit": "gdd",
+    "qualifier": "typical",
+    "evidence_text": "The value of –1·5 was calculated from the Tt from sowing to emergence (110 °Cd) and assuming ‘phyllochron’ was 60 % of the base phyllochron (120 °Cd) for negative HS.",
+    "claim_summary": "Thermal time from sowing to emergence in 'Batten' wheat was 110 °Cd (above 0 °C base).",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "thermal_time.vernalization_units",
+    "value_type": "range",
+    "range_min": 4,
+    "range_max": 10,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "Vt accumulates at 1 unit per day between 4 and 10 °C, but reduces linearly to zero at temperatures above 16 °C and below –4 °C in ARCWHEAT1.",
+    "claim_summary": "Vernalization time accumulates at 1 unit/day between 4 and 10 °C, declining to zero above 16 °C and below −4 °C (ARCWHEAT1).",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"],
+    "methods": "ARCWHEAT1 vernalization function"
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "numeric",
+    "numeric_value": 8,
+    "unit": "celsius",
+    "qualifier": "optimum",
+    "evidence_text": "The temperature that facilitates the fastest reduction in FLN is 8 °C and the rate decreases to have no effect at 0 and 15 °C.",
+    "claim_summary": "In SIRIUS, the vernalization temperature giving the fastest reduction in final leaf number for winter wheat is 8 °C, with no effect at 0 and 15 °C.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"],
+    "methods": "SIRIUS vernalization model"
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "numeric",
+    "numeric_value": 45,
+    "unit": "days",
+    "qualifier": "observed",
+    "evidence_text": "a number of datasets show a lag period of up to 45 d exposure to cold conditions before a reduction in FLN occurs ( Wang et al. , 1995 a , b ; Brooking, 1996 ; Brooking and Jamieson, 2002 ).",
+    "claim_summary": "Winter wheat can show a lag of up to 45 days of cold exposure before vernalization reduces final leaf number.",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum"]
+  },
+  {
+    "parameter_id": "phenology.photoperiod_sensitivity",
+    "value_type": "range",
+    "range_min": 8,
+    "range_max": 16,
+    "unit": "hours",
+    "qualifier": "threshold",
+    "evidence_text": "Shorter Pp facilitate an increase in the number of leaves that are added to FLN and this increases linearly from 0 at Pp above 16 h to a maximum at Pp below 8 h.",
+    "claim_summary": "Wheat photoperiod response saturates outside 8–16 h: leaves added to final leaf number increase linearly from zero above 16 h to a maximum below 8 h.",
+    "extraction_confidence": "high",
+    "organisms": ["Triticum aestivum"],
+    "methods": "SIRIUS photoperiod model"
+  },
+  {
+    "parameter_id": "phenology.photoperiod_sensitivity",
+    "value_type": "text",
+    "unit": "hours",
+    "qualifier": "observed",
+    "evidence_text": "short days may accelerate development during vernalization ... but delay development following vernalization ... apparent rates of Vrn3 expression increased from 0·15/HS at 8-h Pp to 0·33/HS at 16-h Pp.",
+    "claim_summary": "Wheat shows opposite photoperiod responses before and after vernalization saturation; post-VS, long days (16 h vs 8 h) accelerate reproductive (Vrn3) progress and reduce final leaf number.",
+    "extraction_confidence": "medium",
+    "organisms": ["Triticum aestivum"]
+  }
+]}

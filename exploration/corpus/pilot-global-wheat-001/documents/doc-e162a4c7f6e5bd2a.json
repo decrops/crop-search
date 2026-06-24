@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-e162a4c7f6e5bd2a",
+  "canonical_url": "https://en.wikipedia.org/wiki/Dairy_farming",
+  "source_url": "https://en.wikipedia.org/wiki/Dairy_farming",
+  "doi": "",
+  "title": "Dairy farming - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "e162a4c7f6e5bd2a13f2f489fd26efcd7535b547ceea6e35b16da297f86d99aa",
+  "content_hash": "81e32cce0c0a12ae91eb1802c43c8a6b20713c60b9545e6478bc6bddfaeb5cc1",
+  "text_length": 46489,
+  "publication_date_hint": "2017",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 449934
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/867-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

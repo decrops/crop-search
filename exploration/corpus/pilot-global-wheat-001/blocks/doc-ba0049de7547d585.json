@@ -1,0 +1,374 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Wheat Growth Stage Prediction Using Growing Degree Days (GDD)",
+      "text": "Growth stages of wheat can be determined by visual inspection any time, but an alternate method based on air temperature is available to estimate the current growth stage without going to the field. For most plants, phenological development from seeding to maturity is related to the accumulation of heat or temperature units above a threshold or base temperature below which no growth occurs. The lower threshold temperature varies with plant species. Bauer et al. (1984) showed that wheat development could be accurately predicted using this method."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Growing Degree Day Calculation",
+      "text": "Temperature or heat units are called growing degree days (GDD) and are calculated by subtracting the lower threshold temperature from the average daily air temperature. Although the lower growth limit for wheat is about 42 \u00b0F, Bauer found better correlation in the GDD predictions by defining the lower threshold temperature as 32 \u00b0F (0 \u00b0C). This also makes conversion to \u00b0Celsius GDD's much easier. Average daily air temperature is calculated by averaging the daily maximum and minimum air temperatures. Thus, Daily GDD (\u00b0F) = ((Daily Max Temp \u00b0F + Daily Min Temperature \u00b0F) / 2) - 32 \u00b0F. Several additional constraints on maximum and minimum temperature were introduced to eliminate very low and high temperatures that prevent or retard growth (Bauer et al., 1984). They are: If daily Max or Min Temp < 32 \u00b0F (0 \u00b0C) it's set equal to 32 \u00b0F (0 \u00b0C). Prior to Haun stage 2.0, (395 GDD accumulated since planting); If daily Max Temp > 70 \u00b0F (21 \u00b0C) then it's set equal to 70 \u00b0F (21 \u00b0C). After Haun stage 2.0; If daily Max Temp > 95 \u00b0F (35 \u00b0C) it's set equal to 95 \u00b0F (35 \u00b0C)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Calculating Growth Stage",
+      "text": "Daily GDD's calculated using the above conditions are accumulated for each day following planting to determine the current estimated Haun growth stage for wheat. The main uncertainty in this calculation occurs during the period from planting to emergence because of planting depth and varying seedbed conditions that affect soil temperature, especially soil water content, surface residue, and soil type. For the same planting depth and under the same climatic conditions, emergence in seedbeds with surface residue will be delayed by 1 to 2 days. Despite this uncertainty, growth stages on NDAWN are calculated based on planting date because it is more readily available in producers records. When planted at 1.5 inches depth in a bare (no surface residue) moist soil, it takes an accumulation of about 180 GDD (\u00b0F) beginning with the day after planting until emergence occurs. Emergence by this criteria means plants are visible in the row (you can see the rows), and the first leaf is equal to about one half of its eventual full length. By this criteria emergence is defined as Haun stage 0.5. Following emergence (stage 0.5) standard 8 leaf wheat varieties require the accumulation of 143 GDD (\u00b0F) for each growth stage through stage 12.0. Growth from stage 0.5 to stage 1.0 requires 72.5 additional GDD (\u00b0F), or a total of 252 GDD (\u00b0F) after planting. Then 143 additional GDD are required to reach stage 2.0. This continues through stage 12.0. Growing degree day requirements for stages above 12.0 do not follow a pattern because they are usually defined by seed water content, and are subject to considerable variation. Although these requirements have been calculated by Ed Vasey, NDSU professor emeritus, they will not be provided here. Accumulated GDD threshold values are shown through stage 12.0 in the accompanying table ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Fractional Growth Stages",
+      "text": "The Haun growth stage scale (Haun, 1973) is far more precise than other commonly used scales. The Haun scale assigns consecutive numbers to main stem leaves in the order in which they appear. When the first leaf is fully developed, the plant is at stage 1, and so on through stage 8. Each leaf is fully developed when the next leaf is visible in the rolled part of the leaf. For example, leaf 2 is fully developed when the third leaf is visible in the rolled par of leaf 1. The number assigned to each stage can be further subdivided into fractional sub-stages to provide more information. Fractional leaf stages are determined by comparing the length of the developing leaf to the preceding leaf. For example, if leaf 3 is one-third as long as leaf 2 then the Haun growth stage is 2.3, and if leaf 3 is one-half as long as leaf 2 it is designated stage 2.5. The same type of system is also used to designate sub-stages in the growth units following stage 8."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Drought Effects",
+      "text": "Dr. Jay Goos, NDSU Soil Scientist, has shown that when plants are around the 5-leaf stage and are stressed by hot or dry conditions, they may only develop 7 leaves on the main stem. Non-stressed wheat plants always develop 8 leaves on the main stem. There is no set rule. Under stressed conditions an individual plant may have either 7 or 8 leaves on the main stem. A stand may contain predominantly 8-leaf plants, predominantly 7-leaf plants, or a mixture of both. Thus, under drought conditions growth stages estimated using GDD's could be one full stage behind the plant, beginning with stage 8. For example, stressed plants may begin stage 9, flag leaf extension, immediately following stage 7."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Variable Definitions",
+      "text": "Wheat Growing Degree Days (\u00b0F or \u00b0C) Wheat Accumulated Growing Degree Days (\u00b0F or \u00b0C) Growing degree days GDD (\u00b0F or \u00b0C) for wheat accumulated daily from the planting date to the end date. Calculated from: ((Daily Max Temp + Daily Min Temp)/2) - 32 \u00b0F (or ((Daily Max Temp + Daily Min Temp)/2)). If daily Max or Min Temp < 32 \u00b0F (0 \u00b0C) it's set equal to 32 \u00b0F (0 \u00b0C). Prior to Haun growth stage 2.0 or the accumulation of 395 GDD from the planting date; If daily Max Temp > 70 \u00b0F (21 \u00b0C) then it's set equal to 70 \u00b0F (21 \u00b0C). After Haun stage 2.0; If daily Max Temp > 95 \u00b0F (35 \u00b0C ) it's set equal to 95 \u00b0F (35 \u00b0C). (After Bauer et al., 1984). Estimated Haun Stage All growth stages are defined by conditions on the main stem. Growth Stage Comment"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "References",
+      "text": "Vasey, Ed. 2002. Personal Communication and use of his Hard red spring - Durum Wheat Management Calendar Goos, R.J. 2002. Personal Communication Nelson, J.E., K.D.Kephart, A. Bauer, and J.F. Connor. 1988. Growth Staging of Wheat, Barley, and Wild Oat. Published by American Cyanamid Co., Reprinted by NDSU Extension Service with permission. Bauer, A., C. Fanning, J.W. Enz, and C.V. Eberlein. 1984. Use of growing-degree days to determine spring wheat growth stages. North Dakota Coop. Ext. Ser. EB-37. Fargo, ND. Jenny, R., E. Vasey, and L. Murphy (Compiler and Editors). 1992. A closer look at the spring wheat cropping system for more efficient yield and sustainability. North Dakota State University Extension Bulletin No. 58. Bauer, A. and A.L. Black. 1989. Effect of Windrowing spring wheat at different stages of maturity on agronomic characters. North Dakota State University Experiment Station Bulletin 522. Bauer, A., D. Smika, and A. Black. 1983. Correlation of five wheat growth stage scales used in the great plains. Advances in Agricultural Technology ATT-NC-7, Agricultural Research Service, USDA. Haun, J. R. 1973. Visual quantification of wheat development. Agron. J. 65: 116-119"
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Stage",
+        "Name",
+        "Description",
+        "GDD Required",
+        "Accumulated GDD"
+      ],
+      "rows": [
+        [
+          "",
+          "Planting Date",
+          "Date crop was planted. Entered by User.",
+          "0",
+          "0"
+        ],
+        [
+          "0.5",
+          "Emergence Date",
+          "Emergence is defined here as the date leaf 1 reaches half of its length (Stage 0.5). The GDD required from planting until emergence depends on planting depth, soil water, soil temperature, surface residue, and soil type. Predicting emergence is the most uncertain part of this model. Get more information on emergence dates",
+          "180",
+          "180"
+        ],
+        [
+          "1.0",
+          "Leaf 1 fully extended",
+          "Leaf 1 is fully developed when the second leaf is visible in the rolled part of leaf 1.",
+          "72",
+          "252"
+        ],
+        [
+          "2.0",
+          "Leaf 2 fully extended",
+          "Leaf 2 is fully developed when the third leaf is visible in the rolled part of leaf 2. This is the same concept for leaves 2 through 7. Get more information on fractional growth stages",
+          "143",
+          "395"
+        ],
+        [
+          "3.0",
+          "Leaf 3 (Tillers Begin To Emerge)",
+          "Tillering begins at a Haun stage of 2.0 to 2.5, but tillers are not visible until Haun stage of 3.0-3.5",
+          "143",
+          "538"
+        ],
+        [
+          "4.0",
+          "Leaf 4",
+          "Leaf 4 fully extended",
+          "143",
+          "681"
+        ],
+        [
+          "5.0",
+          "Leaf 5 (Tillering ends)",
+          "Cool, moist weather, and abundant N fertilizer will extend tillering period",
+          "143",
+          "824"
+        ],
+        [
+          "6.0",
+          "Leaf 6 (Tillering ends)",
+          "Cool, moist weather, and abundant N fertilizer will extend tillering period",
+          "143",
+          "967"
+        ],
+        [
+          "7.0",
+          "Leaf 7 fully extended.",
+          "Severe drought stessed plants may pass directly to stage 9. Get more information on drought stess",
+          "143",
+          "1110"
+        ],
+        [
+          "7.5",
+          "Flag Leaf Visible",
+          "",
+          "71",
+          "1181"
+        ],
+        [
+          "8.0",
+          "Flag Leaf Emerged",
+          "The flag leaf (Leaf 8) is fully developed when the flag leaf collar is visible",
+          "72",
+          "1255"
+        ],
+        [
+          "9.0",
+          "Boot Swelling Begins",
+          "Flag leaf stem elongates elevating the flag leaf above the previous leaf. This usually ends with the first signs of boot swelling.",
+          "143",
+          "1396"
+        ],
+        [
+          "10.0",
+          "Boot Completed",
+          "Complete when awns become visible at the flag leaf collar.",
+          "143",
+          "1539"
+        ],
+        [
+          "10.2",
+          "Heading Begins",
+          "Heading begins when the head begins to emerge through the flag leaf collar.",
+          "28",
+          "1567"
+        ],
+        [
+          "11.0",
+          "Headed (Head Extenstion Begins)",
+          "Heading is complete when the head has completely cleared the collar and head extension begins. Head extension refers to continued growth of the stem which raises the head about the flag leaf. Head extension is usually complete when flowering begins.",
+          "115",
+          "1682"
+        ],
+        [
+          "11.4",
+          "Flowering Begins",
+          "Flowering or anthesis begins about in the middle of the head, and simultaneously progresses toward the top and the bottom of the head.",
+          "57",
+          "1739"
+        ],
+        [
+          "11.6",
+          "Flowering Completed",
+          "Most tillers (T0, T1, T2 tillers) flower within a few days of the main stem. Later-emerging tillers flower later, and are the most common source of green \"nuisance\" heads at swathing time.",
+          "29",
+          "1768"
+        ],
+        [
+          "12.0",
+          "Kernel Watery Ripe",
+          "During watery ripe stage the kernel length and width are established, but little dry matter is accumulated.",
+          "57",
+          "1825"
+        ],
+        [
+          "13.0",
+          "Early Milk",
+          "A white, milk-like fluid can be squeezed from the kernel",
+          "",
+          ""
+        ],
+        [
+          "14.0",
+          "Early Dough",
+          "During the dough stages, kernel water content continues to decrease as more and more dry matter is accumulated.",
+          "",
+          ""
+        ],
+        [
+          "14.5",
+          "Soft Dough",
+          "",
+          "",
+          ""
+        ],
+        [
+          "15.0",
+          "Hard Dough",
+          "By the end of the hard dough stage, the kernel reaches physological maturity. Reductions in yield after this stage result from harvest losses and/or environmental injuries such as sprouting and hail.",
+          "",
+          ""
+        ],
+        [
+          "15.4",
+          "Swathing can begin",
+          "",
+          "",
+          ""
+        ],
+        [
+          "15.6",
+          "Physiological Maturity",
+          "The kernel is hard, but can still be dented with a thumbnail. The plant is completely yellow. Swathing is still necessary.",
+          "",
+          ""
+        ],
+        [
+          "16.0",
+          "Ripe (Kernel Hard)",
+          "Kernel is dry, brittle, and hard. It can no longer be dented with thumbnail and, if crushed, it splits into pieces.",
+          "",
+          ""
+        ],
+        [
+          "16.4",
+          "Direct Combining",
+          "Water content is low enough for direct (straight) combining",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Growth stages of wheat can be determined by visual inspection any time, but an alternate method based on air temperature is available to estimate the current growth stage without going to the field. For most plants, phenological development from seeding to maturity is related to the accumulation of heat or temperature units above a threshold or base temperature below which no growth occurs. The lower threshold temperature varies with plant species. Bauer et al. (1984) showed that wheat development could be accurately predicted using this method.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Temperature or heat units are called growing degree days (GDD) and are calculated by subtracting the lower threshold temperature from the average daily air temperature. Although the lower growth limit for wheat is about 42 \u00b0F, Bauer found better correlation in the GDD predictions by defining the lower threshold temperature as 32 \u00b0F (0 \u00b0C). This also makes conversion to \u00b0Celsius GDD's much easier. Average daily air temperature is calculated by averaging the daily maximum and minimum air temperatures. Thus, Daily GDD (\u00b0F) = ((Daily Max Temp \u00b0F + Daily Min Temperature \u00b0F) / 2) - 32 \u00b0F.",
+      "char_offset": 553
+    },
+    {
+      "type": "paragraph",
+      "text": "Several additional constraints on maximum and minimum temperature were introduced to eliminate very low and high temperatures that prevent or retard growth (Bauer et al., 1984). They are:",
+      "char_offset": 1144
+    },
+    {
+      "type": "paragraph",
+      "text": "Daily GDD's calculated using the above conditions are accumulated for each day following planting to determine the current estimated Haun growth stage for wheat. The main uncertainty in this calculation occurs during the period from planting to emergence because of planting depth and varying seedbed conditions that affect soil temperature, especially soil water content, surface residue, and soil type. For the same planting depth and under the same climatic conditions, emergence in seedbeds with surface residue will be delayed by 1 to 2 days. Despite this uncertainty, growth stages on NDAWN are calculated based on planting date because it is more readily available in producers records.",
+      "char_offset": 1333
+    },
+    {
+      "type": "paragraph",
+      "text": "When planted at 1.5 inches depth in a bare (no surface residue) moist soil, it takes an accumulation of about 180 GDD (\u00b0F) beginning with the day after planting until emergence occurs. Emergence by this criteria means plants are visible in the row (you can see the rows), and the first leaf is equal to about one half of its eventual full length. By this criteria emergence is defined as Haun stage 0.5.",
+      "char_offset": 2028
+    },
+    {
+      "type": "paragraph",
+      "text": "Following emergence (stage 0.5) standard 8 leaf wheat varieties require the accumulation of 143 GDD (\u00b0F) for each growth stage through stage 12.0. Growth from stage 0.5 to stage 1.0 requires 72.5 additional GDD (\u00b0F), or a total of 252 GDD (\u00b0F) after planting. Then 143 additional GDD are required to reach stage 2.0. This continues through stage 12.0. Growing degree day requirements for stages above 12.0 do not follow a pattern because they are usually defined by seed water content, and are subject to considerable variation. Although these requirements have been calculated by Ed Vasey, NDSU professor emeritus, they will not be provided here. Accumulated GDD threshold values are shown through stage 12.0 in the accompanying table .",
+      "char_offset": 2433
+    },
+    {
+      "type": "paragraph",
+      "text": "The Haun growth stage scale (Haun, 1973) is far more precise than other commonly used scales. The Haun scale assigns consecutive numbers to main stem leaves in the order in which they appear. When the first leaf is fully developed, the plant is at stage 1, and so on through stage 8. Each leaf is fully developed when the next leaf is visible in the rolled part of the leaf. For example, leaf 2 is fully developed when the third leaf is visible in the rolled par of leaf 1.",
+      "char_offset": 3172
+    },
+    {
+      "type": "paragraph",
+      "text": "The number assigned to each stage can be further subdivided into fractional sub-stages to provide more information. Fractional leaf stages are determined by comparing the length of the developing leaf to the preceding leaf. For example, if leaf 3 is one-third as long as leaf 2 then the Haun growth stage is 2.3, and if leaf 3 is one-half as long as leaf 2 it is designated stage 2.5. The same type of system is also used to designate sub-stages in the growth units following stage 8.",
+      "char_offset": 3647
+    },
+    {
+      "type": "paragraph",
+      "text": "Dr. Jay Goos, NDSU Soil Scientist, has shown that when plants are around the 5-leaf stage and are stressed by hot or dry conditions, they may only develop 7 leaves on the main stem. Non-stressed wheat plants always develop 8 leaves on the main stem. There is no set rule. Under stressed conditions an individual plant may have either 7 or 8 leaves on the main stem. A stand may contain predominantly 8-leaf plants, predominantly 7-leaf plants, or a mixture of both. Thus, under drought conditions growth stages estimated using GDD's could be one full stage behind the plant, beginning with stage 8. For example, stressed plants may begin stage 9, flag leaf extension, immediately following stage 7.",
+      "char_offset": 4133
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat Accumulated Growing Degree Days (\u00b0F or \u00b0C)",
+      "char_offset": 4833
+    },
+    {
+      "type": "paragraph",
+      "text": "Growing degree days GDD (\u00b0F or \u00b0C) for wheat accumulated daily from the planting date to the end date.",
+      "char_offset": 4883
+    },
+    {
+      "type": "paragraph",
+      "text": "Calculated from: ((Daily Max Temp + Daily Min Temp)/2) - 32 \u00b0F (or ((Daily Max Temp + Daily Min Temp)/2)).",
+      "char_offset": 4987
+    },
+    {
+      "type": "paragraph",
+      "text": "If daily Max or Min Temp < 32 \u00b0F (0 \u00b0C) it's set equal to 32 \u00b0F (0 \u00b0C). Prior to Haun growth stage 2.0 or the accumulation of 395 GDD from the planting date; If daily Max Temp > 70 \u00b0F (21 \u00b0C) then it's set equal to 70 \u00b0F (21 \u00b0C). After Haun stage 2.0; If daily Max Temp > 95 \u00b0F (35 \u00b0C ) it's set equal to 95 \u00b0F (35 \u00b0C). (After Bauer et al., 1984).",
+      "char_offset": 5095
+    },
+    {
+      "type": "paragraph",
+      "text": "All growth stages are defined by conditions on the main stem.",
+      "char_offset": 5444
+    },
+    {
+      "type": "paragraph",
+      "text": "Vasey, Ed. 2002. Personal Communication and use of his Hard red spring - Durum Wheat Management Calendar",
+      "char_offset": 5507
+    },
+    {
+      "type": "paragraph",
+      "text": "Nelson, J.E., K.D.Kephart, A. Bauer, and J.F. Connor. 1988. Growth Staging of Wheat, Barley, and Wild Oat. Published by American Cyanamid Co., Reprinted by NDSU Extension Service with permission.",
+      "char_offset": 5613
+    },
+    {
+      "type": "paragraph",
+      "text": "Bauer, A., C. Fanning, J.W. Enz, and C.V. Eberlein. 1984. Use of growing-degree days to determine spring wheat growth stages. North Dakota Coop. Ext. Ser. EB-37. Fargo, ND.",
+      "char_offset": 5810
+    },
+    {
+      "type": "paragraph",
+      "text": "Jenny, R., E. Vasey, and L. Murphy (Compiler and Editors). 1992. A closer look at the spring wheat cropping system for more efficient yield and sustainability. North Dakota State University Extension Bulletin No. 58.",
+      "char_offset": 5984
+    },
+    {
+      "type": "paragraph",
+      "text": "Bauer, A. and A.L. Black. 1989. Effect of Windrowing spring wheat at different stages of maturity on agronomic characters. North Dakota State University Experiment Station Bulletin 522.",
+      "char_offset": 6202
+    },
+    {
+      "type": "paragraph",
+      "text": "Bauer, A., D. Smika, and A. Black. 1983. Correlation of five wheat growth stage scales used in the great plains. Advances in Agricultural Technology ATT-NC-7, Agricultural Research Service, USDA.",
+      "char_offset": 6389
+    },
+    {
+      "type": "paragraph",
+      "text": "Haun, J. R. 1973. Visual quantification of wheat development. Agron. J. 65: 116-119",
+      "char_offset": 6586
+    },
+    {
+      "type": "paragraph",
+      "text": "About NDAWN \u2022 \u2022 \u2022 @NDAWNmesonet \u2022 \u2022 \u2022 Disclaimer",
+      "char_offset": 6671
+    },
+    {
+      "type": "paragraph",
+      "text": "Copyright \u00a9 2000-2026 North Dakota State University",
+      "char_offset": 6721
+    }
+  ],
+  "labels": [
+    "growth_stage_table",
+    "has_table"
+  ],
+  "document_id": "doc-ba0049de7547d585"
+}

@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-56ca4c5ce45f66e1",
+  "canonical_url": "https://en.wikipedia.org/wiki/Glossary_of_agriculture",
+  "source_url": "https://en.wikipedia.org/wiki/Glossary_of_agriculture",
+  "doi": "",
+  "title": "Glossary of agriculture - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "56ca4c5ce45f66e18128a32d850c6217d33f1432b3e44d1514b691fd52d66e2d",
+  "content_hash": "5ce014aa997e915b10cabe9d59cd615e1cd3c4b0083189cf5ef3669592034e22",
+  "text_length": 1973,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 62031142
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/125-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

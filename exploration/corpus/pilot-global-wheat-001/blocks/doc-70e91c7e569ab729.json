@@ -1,0 +1,1179 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Plant Sci. , 11 December 2023 Sec. Plant Abiotic Stress Volume 14 - 2023 | https://doi.org/10.3389/fpls.2023.1305381"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 4,
+      "heading": "Plant Abiotic Stress",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Editor & Reviewers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "ORIGINAL RESEARCH article",
+      "text": "Front. Plant Sci. , 11 December 2023 Sec. Plant Abiotic Stress Volume 14 - 2023 | https://doi.org/10.3389/fpls.2023.1305381"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 1,
+      "heading": "Proteomic exploration reveals a metabolic rerouting due to low oxygen during controlled germination of malting barley ( Hordeum vulgare L.)",
+      "text": "C E Clare E. O'Lone 1,2 A J Ang\u00e9la Juh\u00e1sz 1 M N Mitchell Nye-Wood 1 H D Hugh Dunn 3 D M David Moody 4 J R Jean-Philippe Ral 2 M L Michelle L. Colgrave 1,5 * 1. Australian Research Council Centre of Excellence for Innovations in Peptide and Protein Science, Edith Cowan University, School of Science, Joondalup, WA, Australia 2. Commonwealth Scientific and Industrial Research Organization, Agriculture and Food, ACT, Canberra, ACT, Australia 3. Pilot Malting Australia, Edith Cowan University, School of Science, Joondalup, WA, Australia 4. Barley Breeding, InterGrain Pty Ltd, Bibra Lake, WA, Australia 5. Commonwealth Scientific and Industrial Research Organization, Agriculture and Food, Brisbane, QLD, Australia See more Article metrics View details Abstract Barley ( Hordeum vulgare L.) is used in malt production for brewing applications. Barley malting involves a process of controlled germination that modifies the grain by activating enzymes to solubilize starch and proteins for brewing. Initially, the grain is submerged in water to raise grain moisture, requiring large volumes of water. Achieving grain modification at reduced moisture levels can contribute to the sustainability of malting practices. This study combined proteomics, bioinformatics, and biochemical phenotypic analysis of two malting barley genotypes with observed differences in water uptake and modification efficiency. We sought to reveal the molecular mechanisms at play during controlled germination and explore the roles of protein groups at 24 h intervals across the first 72 h. Overall, 3,485 protein groups were identified with 793 significant differentially abundant (DAP) within and between genotypes, involved in various biological processes, including protein synthesis, carbohydrate metabolism, and hydrolysis. Functional integration into metabolic pathways, such as glycolysis, pyruvate, starch and sucrose metabolism, revealed a metabolic rerouting due to low oxygen enforced by submergence during controlled germination. This SWATH-MS study provides a comprehensive proteome reference, delivering new insights into the molecular mechanisms underlying the impacts of low oxygen during controlled germination. It is concluded that continued efficient modification of malting barley subjected to submergence is largely due to the capacity to reroute energy to maintain vital processes, particularly protein synthesis. Introduction Barley ( Hordeum vulgare L.) is an economically important cereal crop in world malt production. Raw barley grain is converted to malt in a process of controlled germination called malting. Malting involves physical and biochemical changes to obtain fermentable products necessary for brewing. The quality attributes of malted barley are a critical factor in the brewing process, affecting the color, flavor, and overall beer quality. The Kolbach index (KI) is a key indicator of the level of enzymatic activity or protein hydrolysis during the malting process, with desirable levels around 35.0-49.9% ( Fox et al., 2003 ). Genomic diversity and breeding have contributed to producing quality malt from barley grown worldwide, where efficient water uptake and timely uniform germination are pivotal determinants of malt quality ( Chandra et al., 1999 ; Briggs, 2002 ; MacLeod and Evans, 2016 ). Controlled germination or malting is a three-stage process that begins with water uptake (imbibition) during steeping, where the raw grain is submerged in water, raising grain moisture to above 42%. Although there are periods of air rest, the immersed grain experiences phases of low-oxygen (hypoxia <21% O 2 ) resulting from reduced air diffusion ( Gibbs and Greenway, 2003 ). This oxygen deficiency leads to impaired mitochondrial activity. It triggers a switch from aerobic to anaerobic respiration, rapidly reducing cellular adenosine triphosphate (ATP) production ( Bailey-Serres and Voesenek, 2008 ; Magneschi and Perata, 2009 ). Aerobic respiration is returned in the second"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Barley ( Hordeum vulgare L.) is used in malt production for brewing applications. Barley malting involves a process of controlled germination that modifies the grain by activating enzymes to solubilize starch and proteins for brewing. Initially, the grain is submerged in water to raise grain moisture, requiring large volumes of water. Achieving grain modification at reduced moisture levels can contribute to the sustainability of malting practices. This study combined proteomics, bioinformatics, and biochemical phenotypic analysis of two malting barley genotypes with observed differences in water uptake and modification efficiency. We sought to reveal the molecular mechanisms at play during controlled germination and explore the roles of protein groups at 24 h intervals across the first 72 h. Overall, 3,485 protein groups were identified with 793 significant differentially abundant (DAP) within and between genotypes, involved in various biological processes, including protein synthesis, carbohydrate metabolism, and hydrolysis. Functional integration into metabolic pathways, such as glycolysis, pyruvate, starch and sucrose metabolism, revealed a metabolic rerouting due to low oxygen enforced by submergence during controlled germination. This SWATH-MS study provides a comprehensive proteome reference, delivering new insights into the molecular mechanisms underlying the impacts of low oxygen during controlled germination. It is concluded that continued efficient modification of malting barley subjected to submergence is largely due to the capacity to reroute energy to maintain vital processes, particularly protein synthesis."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Barley ( Hordeum vulgare L.) is an economically important cereal crop in world malt production. Raw barley grain is converted to malt in a process of controlled germination called malting. Malting involves physical and biochemical changes to obtain fermentable products necessary for brewing. The quality attributes of malted barley are a critical factor in the brewing process, affecting the color, flavor, and overall beer quality. The Kolbach index (KI) is a key indicator of the level of enzymatic activity or protein hydrolysis during the malting process, with desirable levels around 35.0-49.9% ( Fox et al., 2003 ). Genomic diversity and breeding have contributed to producing quality malt from barley grown worldwide, where efficient water uptake and timely uniform germination are pivotal determinants of malt quality ( Chandra et al., 1999 ; Briggs, 2002 ; MacLeod and Evans, 2016 ). Controlled germination or malting is a three-stage process that begins with water uptake (imbibition) during steeping, where the raw grain is submerged in water, raising grain moisture to above 42%. Although there are periods of air rest, the immersed grain experiences phases of low-oxygen (hypoxia <21% O 2 ) resulting from reduced air diffusion ( Gibbs and Greenway, 2003 ). This oxygen deficiency leads to impaired mitochondrial activity. It triggers a switch from aerobic to anaerobic respiration, rapidly reducing cellular adenosine triphosphate (ATP) production ( Bailey-Serres and Voesenek, 2008 ; Magneschi and Perata, 2009 ). Aerobic respiration is returned in the second stage, germination, where the imbibed grain is incubated for 4-5 days in an aerated (normoxic >21% O 2 ), moist atmosphere with rotation. This is the most metabolically active stage, and enzymes such as proteases, amylases, hemicellulases, and oxidases are involved in the continued embryo growth and formation of green malt. In the final stage, kilning, the green malt is heat treated, reducing the moisture to around 12% and decreasing enzymatic activity. Followed by a second drying step to stop all biological processes, reducing moisture contents to 4-5% and stabilizing the final characteristics of the malt ( Briggs et al., 2004 ; Daneri-Castro et al., 2016a ). Overall, malting is a resource-intensive process, and one critical area of concern is reducing water usage with efforts to maintain modification efficiency crucial for the industry\u2019s long-term sustainability ( Daneri-Castro et al., 2016b ; Izydorczyk and Edney, 2017 ). By exploring the molecular mechanisms of controlled germination, we can gain insights into implementing reduced water usage while maintaining malt quality, which is an attractive proposition in an internationally competitive market. Proteomics, the large-scale study of the protein complement of a cell, tissue, or organism under a specific, defined set of conditions, is a powerful approach for investigating the changes in protein abundance that occur during barley germination. The barley proteome and metabolome have been widely studied due to their importance in agriculture and the malting and brewing industry, recently reviewed by Bahmani, O\u2019Lone ( Bahmani et al., 2021 ), Fox and Watson-Fox (2021) , and Fox and Bettenhausen (2023) . In the present study, we used quantitative proteomics via the sequential window acquisition of all known theoretical spectra-mass spectrometry (SWATH-MS) ( Gillet et al., 2012 ) to quantify proteins across the malting time course in a newly developed breeding line, IGB1467, that demonstrated efficient proteolysis at a lower moisture content than a traditional malting barley cultivar, Flinders. In early stages of controlled germination, aerobic respiration is inhibited due to an O 2 deficiency caused by submergence, and despite the grain\u2019s sensitivity to low-O 2 conditions, the stress can be managed for a limited time by inducing an adaptive response in protein synthesis and changes to carbohydrate metabolism. Previous studies have r"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Materials and methods",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Plant material, malting conditions, and malt analysis",
+      "text": "Malt barley ( Hordeum vulgare L.) breeding line IGB1467 (IGB; experimental) and its\u2019 parental breeding line, cultivar Flinders (FLN; control), were grown at an InterGrain (Bibra Lake, Western Australia) experimental field site, Brookton, Western Australia (32\u00b018\u201905\u2019 S, 117\u00b014\u201932\u2019 E). Grain evaluation data is provided in Supplementary T able S1 . These two closely related barley genotypes were selected based on demonstrated phenotypic trait differences in water uptake, malting potential, and malt characteristics from a previous project carried out at Pilot Malting Australia (PMA, Edith Cowan University, Australia ( Supplementary Figure S1 ). Grains (100 kg) were pilot malted at PMA ( Supplementary Tables S2 , S3 ) and sampled at approximately 0, 24, 48, and 72 hours after imbibition (HAI). The four sampling times corresponded to key stages along the malting time course: (1) 0 HAI, raw barley grain; (2) 24 HAI, exit steep, following periods of grain submergence (with aeration) and air rest; (3) 48 HAI, germination, stage 1 and (4) 72 HAI germination, stage 2. Pilot malting at PMA closely aligns with industrial-scale malting sample sizes in comparison to micro- and benchtop-malting but was limited in that it did not allow for directly comparable malting run samples. Each genotype was malted to meet accepted malt quality parameters ( Supplementary T able S4 ), specifically a similar KI between 37-47%. The KI was calculated using Equation 1. For each time point, 20 g of grain with rootlet maintained (removed for malt quality analysis), was collected, snap-frozen, and stored at -80\u00b0C until processing. All grains were thawed and inspected to exclude contamination and freeze-dried for 72 h to remove all moisture. The grains were milled using a Retsch Mixer Mill MM 400 (Metrohm, NSW, AUS) and sieved using a 300 \u00b5m sieve (Endecotts Pty Ltd. Sieves, London, UK) to produce a fine grade wholemeal flour."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Protein extraction and digestion",
+      "text": "Protein was extracted from wholemeal flour without defatting (20 mg, n = 4) of malting barley grain at each time point using 400 \u00b5L (20 \u00b5L/mg) of 8 M urea and 2% (w/v) dithiothreitol (DTT) buffer. The suspension was vortexed and sonicated (Soniclean Ultrasonic Cleaner 25HD, 650W, 43 kHz) for 5 min at room temperature. The samples were incubated on a shaker block (Thermo-Scientific, AUS) at 400 rpm for 45 min at room temperature (RT). The solutions were centrifuged for 15 min at 20,800 x g, and the protein extracts (supernatant) were used for subsequent reduction, alkylation, and filter-aided (MWCO 10kDa) digestion using trypsin (Promega, NSW, AUS) as per established methods ( Colgrave et al., 2016 ). Protein concentrations were determined via a Varioscan plate reader (Thermo-Scientific, AUS) using Bradford protein assay (California, USA) following the manufacturer\u2019s protocol with dilutions and BSA standard curve. The tryptic peptides were re-suspended in ddH 2 O containing 1% formic acid with the addition of iRT reference peptide solution (1 pmol/\u03bcL; Biognosys, Zurich, CHE) for subsequent LC-MS/MS analysis."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Sequential window acquisition of theoretical mass spectra (SWATH-MS) data acquisition",
+      "text": "The peptide fractions (1 \u03bcL) were separated through reverse-phase chromatography Ekspert nanoLC415 (Eksigent, Dublin, CA, USA) and analyzed online in a TripleTOF 6600 mass spectrometer (SCIEX, Redwood City, CA, USA) as described previously ( Bose et al., 2020 ). In brief, peptides were desalted by loading on a ChromXP C18 (12 nm, 3 \u03bcm, 120 \u00c5, 10 \u00d7 0.3 mm) trap column at a flow rate of 10 \u03bcL/min and separated on a ChromXP C18 (12 nm, 3 \u03bcm, 120 \u00c5, 150 \u00d7 0.3 mm) column at a flow rate of 5 \u03bcL/min. The mobile phase A (0.1% formic acid with 5% dimethyl sulfoxide, DMSO in 94.9% ddH 2 O) and mobile phase B (0.1% formic acid with 5% DMSO in 90% acetonitrile and 4.9% ddH 2 O) were used to establish a linear gradient composed of 68 min of 3-25% B, 5 min 25-35% B with an increase to 80% B for 2 min, and a 2 min hold at 90% B, return to 3% B over 1 min, followed by re-equilibrating at 3% B for 8 min. The flow rate was 0.3 \u00b5L/min, and the elute from the HPLC was directly coupled to the DuoSpray source of the TripleTOF 6600 MS (SCIEX). The ion spray voltage was set to 5,500 V; the curtain gas was set to 138 kPa (20 psi), and the ion source gas 1 (GS1) and gas 2 (GS2) were set to 103 and 138 kPa (15 and 20 psi). The heater interface was set to 150\u00b0C. The TOF\u2013MS survey scan was collected over the mass range of m/z 360\u20132000 with a 250 ms accumulation time, and the product ion mass spectra were acquired over the mass range of m/z 150\u20131800 with a 30 ms accumulation time using rolling collision energy and a collision energy spread (CES) of 5. Variable window SWATH acquisition was employed using 30 SWATH windows (including 1 Da overlap) spanning the mass range of m/z 150\u20132000 with SWATH windows determined using the SWATH Variable Window Calculator 1.0 (SCIEX) for a total cycle time of 1.15 s."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Protein identification and quantitative data processing",
+      "text": "SWATH-MS files were processed in DIA-NN ver.1.8 using deep neural networks (DNNs) inference algorithm ( Demichev et al., 2020 ). The spectral output was searched against in silico tryptic digests of Hordeum vulgare subset of the UniProt-KB database (ver.2022/10; 54,629 sequences) appended, with Biognosys iRT pseudo-protein sequence and the common Repository of Advantageous Proteins database (cRAP) ( Frankenfield et al., 2022 ). DIA-NN quantitative analysis was performed using tryptic peptides of 7 to 30 amino acids in length, with up to one missed cleavage. As a fixed modification, carbamidomethylation of cysteine was selected, and no variable modifications were allowed. The precursor m/z range, 300-1800, was selected, and the fragment ion m/z range was 200-1800. The algorithm settings included the automatic modes for mass accuracy, MS1 accuracy, and scan window with and removing likely interferences the software predicted. The neural network classifier was run in single-pass mode with a high-accuracy quantification strategy, and cross-run normalization was performed in a retention time-dependent manner. Peptides were identified after applying a 1% False Discovery Rate (FDR). Identifications from the cRAP database were ignored."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Bioinformatics and statistical analysis",
+      "text": "Protein sequences of interest were BLAST searched against the Morex genome ver.2 1 using CLC Main Workbench (QIAGEN; ver.22.0.2). Protein Gene Ontology term annotations were predicted using eggNOG-mapper 2 , Gene Ontology (GO) database 3 , and UniProt mapping database 4 (all databases accessed 2023/03). Additional GO annotation was taken from the previously published barley genome annotation files ( Mascher et al., 2017 ) and cross-referenced with the Barley Reference Transcript dataset (BaRT) downloaded (2022/10) from the Barley Expression Database (EoRNA) 5 GO annotation for the BaRT gene IDs dataset was done using the available spreadsheet 6 . Functional pathway analysis was performed using the Kyoto Encyclopedia of Genes and Genomes (KEGG) mapper and reconstruct software tools 7 to annotate protein KEGG ortholog numbers and corresponding functional distributions ( Supplementary Data S1 ). Unsupervised principal component analysis (PCA) was conducted to identify possible outliers resulting from technical (processing and instrumental) procedures and to evaluate groupings within the data set. The identification of differentially abundant proteins (DAPs) within genotype over the time course was carried out using DESeq2 analysis ( Love et al., 2014 ) of the following pairwise comparisons 24/0, 48/24, and 72/48 HAI (log 2 Fold Change (log 2 FC) \u22651.5, p \u2264 0.05). Parametric Analysis of Gene Set Enrichment (PGSEA; p \u2264 0.05, Gene set size min. 5, max. 2000) ( Kim and Volsky, 2005 ; Furge et al., 2012 ) with GO enrichment analysis (biological process) was performed using iDEP.96 Shiny R platform 8 . Hierarchical Cluster Analysis (HCA; one minus Pearson correlation with complete linkage, cluster cut-off height 0.65) was performed on the 50 topmost significant pathways ( p =<1.0e-13) using the Morpheus 9 web tool. The mean relative abundance of log 2 transformed data (n=4) was visualized using Morpheus 9 and integrated into pathway diagrams using BioRender 10 . The compositional statistical analyses were carried out using R ver.3.6.1 11 in RStudio ver.2023.09.1+494 12 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Measurement of physiochemical parameters",
+      "text": "The physiochemical parameters of malting barley grain were measured at approximately 0, 24, 48, and 72 HAI, using 10 mg of wholemeal flour in triplicates for total starch, expressed as percentage dry weight; free glucose and ethanol-soluble carbohydrate expressed in milligrams per gram wholemeal; and total \u03b1-amylase activity expressed in ceralpha units (CU) per gram wholemeal. Total starch was measured using a Total Starch Assay Kit (Megazyme, Neogen Australasia, AUS) and modified as described by Zhang, Pritchard ( Zhang et al., 2022 ). Absorbance was read at 510 nm after a 20-minute incubation at 50\u00b0C using a SPECTROstar Nano Microplate Reader (BMG LABTECH, AUS). A standard curve was generated using kit-supplied glucose at 1 mg/ml concentration. Total soluble sugar and free glucose were extracted as described by Zhang, Pritchard ( Zhang et al., 2022 ), and all ethanol-soluble fractions were pooled. Total soluble sugar was measured using anthrone reagent (0.2% anthrone, in 70% H 2 SO 4 v/v) and glucose at 1 mg/mL concentration standard curve ( Whan et al., 2014 ). Free glucose was determined following the method described by Campbell, Hansen ( Campbell et al., 1999 ). Total \u03b1-amylase activity was measured using a \u03b1-Amylase Assay Kit (Megazyme) adapted for flat-bottom 96-well microplate, following the manufacturer\u2019s protocol using SPECTROstar Nano Microplate Reader (BMG LABTECH)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 2,
+      "heading": "Results",
+      "text": "In this study, a comprehensive proteome-wide approach was employed to explore differences between two malting barley genotypes, (i) IGB; experimental breeding line, and (ii) FLN; control cultivar, that malted to meet malt quality specification ( Supplementary T able S4 ). While the two genotypes took different treatment times in the steep to meet these specifications, they were malted to a similar KI, IGB, 45%, and FLN, 43%, a key parameter indicative of the level of grain proteolysis. The aim was to dissect the proteome of IGB and FLN to identify key protein groups and explore differences in abundance patterns in the complex metabolic processes affected by water uptake and modification efficiency differences in the two genotypes at each time point."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Protein identification and profiling of malting barley during controlled germination",
+      "text": "SWATH-MS processing identified, quantified, and annotated 3,485 protein groups ( Supplementary Data S1 ). Unsupervised preliminary data exploration via principal component analysis (PCA) was applied to characterize the samples. Along PC1, significant variation (33.6%) was seen due to the time point, while PC2 (13.0%) separated the samples based on the genotype ( Supplementary Figure S2 ). In IGB and FLN, 3,193 and 3,142, respectively, out of the 3,485 proteins detected were seen in all four time points. The results show that the proteomes were significantly altered after imbibition and during controlled germination, with clear separations between genotypes and the four-time points."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Differentially abundant protein (DAP) identification and exploration of malting barley during controlled germination",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 4,
+      "heading": "DAP identification and pairwise analysis",
+      "text": "In the six pairwise comparisons, 793 DAPs were identified and presented in multiple comparisons ( Supplementary Data S2 ). Of the DAPs, 620 and 645 were found in IGB and FLN, of which 472 were shared, and 148 or 173 were uniquely present in either IGB or FLN, respectively ( Figure 1A ). The DAPs of IGB and FLN and their overlapping relationships and abundance changes (increase/decrease) across the controlled germination time course are shown in the UpSet analyses ( Figure 1B ; Supplementary Data S3 ). The DAPs with decreased abundance shared a similar pattern across both genotypes and controlled germination time points. However, DAPs with increased abundance had varied patterns between genotypes. In IGB, the DAP increase was similar at 48/24 HAI (254) and 72/48 (280). However, in FLN, the greatest increase was observed at 72/48 HAI with 357 DAPs. Most DAPs shared between IGB and FLN were identified at 72/48 HAI for both increased (53) and decreased (24) DAPs ( Figure 2C ). The subsequent most significant alteration was noted in the comparison at 48/24 HAI (IGB) and 72/48 HAI (FLN) with 24 DAPs. ( Figure 1C ). Figure 1 Differentially abundant protein (DAP) groups (log 2 FC \u22651.5, p \u2264 0.05) in two malting barley genotypes comparing time points at 0, 24, 48, and 72 HAI. (A) Venn diagram of DAPs observed uniquely or commonly (overlap) in IGB1467 and Flinders. (B) UpSet Plot with bar graph and matrix representing the up-and down-regulation of the DAPs with comparisons across time points. (C) Column graph illustrating the shared intersections in the matrix of DAPs between genotype and time points. Figure 2 Parametric analysis of gene set enrichment (PGSEA, with all DAPs, min. gene set size, 5; p \u2264 0.05), with hierarchical clustering analysis (HCA; cut-off 0.65, Pearson correlation, complete linkage) of the top 50 significant gene ontology (GO) enriched biological process pathways for the identified differentially abundant protein groups (log 2 FC\u22651.5, p \u2264 0.05)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 4,
+      "heading": "Gene set enrichment analysis highlights DAPs involved in controlled germination of malting barley",
+      "text": "To illustrate the significant difference in the biological response to controlled germination, identified DAPs from IGB and FLN across all time points were analyzed via clustering of the PGSEA results.. The 50 topmost significant pathways ( p \u22641.0e-13) were clustered into six distinct accumulation patterns ( Figure 2 , cluster cut-off height = 0.65, Supplementary Data S3 ). The six clusters identified are explained here briefly with detailed data and discussion shown in the supplementary document ( Supplementary Table S5 ). Overall, cluster I ( Figure 2 ; light blue) highlighted increased protein abundance at 48 and 72 HAI. This cluster is primarily enriched in proteins involved in the \u2018Cellular macromolecule catabolic process\u2019 ( p =5.2e-19), \u2018Catabolic process\u2019 ( p =4.2e-15) and \u2018Proteolysis\u2019 ( p =3.8e-17). Although both genotypes shared a similar pattern, IGB demonstrated an earlier increase in abundance, with many changes occurring by 48 HAI seen in FLN at 72 HAI. Cluster II ( Figure 2 ; dark blue) demonstrated to be significantly greater abundance in FLN, across all time points. This cluster included GO terms related to \u2018Transmembrane transport\u2019 ( p =1.1e-12)\u2019, \u2018Response to oxidative stress\u2019 ( p =2.5e-14), and \u2018Hydrogen peroxide catabolic process\u2019 ( p =5.7e-13). Cluster III ( Figure 2 ; light green) highlighted greater protein abundance at 0 HAI in IGB, while in FLN, the greatest abundance is present at 48 HAI. The two GO terms in this cluster are related to \u2018Signaling\u2019 ( p =1.1e-12) and \u2018Cell communication\u2019 ( p =2.2e-14). Clusters IV ( Figure 2 ; dark green) were related to \u2018Response to stimulus\u2019 ( p =5.7e-18), with shared abundance patterns at 0 and 24 HAI between the genotypes. However, IGB abundance decreased earlier decrease at 48 HAI, as seen in FLN at 72 HAI. Cluster V ( Figure 2 ; pink) demonstrated significantly greater abundance in IGB and was related to GO terms, \u2018Translation\u2019 ( p =1.6e-16), \u2018Peptide biosynthetic process\u2019 ( p =2.5e-16), and \u2018RNA metabolic process\u2019 ( p =8.1e-15), all linked to protein synthesis. Finally, cluster VI ( Figure 2 ; red) terms highlighted the greatest abundance in both genotypes in the early stages at 0 and 24 HAI, decreasing over the time course. This cluster was enriched with proteins involved in \u2018Regulation of biological process\u2019 ( p =5.0e-13) and \u2018Protein modification\u2019 ( p =1.9e-16). DAP abundance varied significantly amongst Clusters I, II, and V, with the most significantly enriched GO term \u2018Carbohydrate metabolic process\u2019 ( p =3.5e-22). Functional proteome analysis reveals metabolic rerouting due to low oxygen during controlled germination Pathways-associated analysis found that of the 793 DAPs, 55.9% (443) were successfully mapped to 20 KEGG functional categories ( Supplementary Figure S4 ; Supplementary Data S1 ), with 20.0% (89) of proteins involved in carbohydrate metabolism, followed by genetic information processing, making up a further 14.4% (64) and biosynthesis of other secondary metabolites contributing 7.0% (31) to the protein classification. Similar to the findings in the PGSEA, the highest number of DAPs were found to be associated with carbohydrate metabolism. To further explore the impacts of low-O 2 on carbohydrate metabolism we carried out KEGG functional analysis. First, we visualized mitochondrial proteins known to be impacted by low-O 2 and their influence on energy and signaling proteins ( Supplementary Figure S3 ). This was followed by exploration of carbohydrate metabolic pathways, primarily glycolysis, starch and sucrose, and pyruvate metabolism ( Figure 3 ). The results of protein groups and abundance patterns involved in these pathways revealed a metabolic rerouting associated with oxygen deficiency, explained further in the discussion. Figure 3 Schematic revealing changes in abundance patterns of DAPs related to signaling, carbohydrate, and fermentation metabolism in malting barley germination: (A) Signaling; (B) Glycolysis; (C) PPi-linked glycolysis;"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Phenotypic compositional verification of malting barley during controlled germination",
+      "text": "Physiochemical analysis ( Figure 4 ; Supplementary Data S4 ) showed that the onset of germination significantly impacted the total starch content in IGB but not seen in FLN ( Figure 4A ). In IGB, the largest abundance of starch was seen at 0 and 72 HAI, with a significant drop in starch composition at 24 and 48 HAI, whereas FLN demonstrated no significant changes. There was a significant increase in compositional free glucose of both IGB and FLN across the germination time points ( Figure 4B ). IGB had an earlier onset increase at 0 to 24 HAI ( p =1.55e-06), not seen in FLN. However, FLN increased from 24 to 48 HAI ( p =3.17e-06), with no significant change observed in IGB. IGB and FLN had the greatest increase of free glucose from 48 to 72 HAI ( p =1.49e-09 and p =9.20e-11, respectively). Finally, \u03b1-amylase activity presented a similar trend for both genotypes, with a non-significant gradual increase from 0-24 HAI and an increase from 24-48 HAI in both IGB and FLN ( p =1.18e-06, and p =2.65e-04, respectively) ( Figure 4C ). Figure 4 Grain compositional analysis of two malt barley genotypes across four key germination stages (hours after imbibition, HAI). Total starch (A) is expressed as a percentage per gram of wholemeal. Free glucose (B) is expressed in milligrams per gram wholemeal. Total amylase activity (C) is expressed in ceralpha units (CU) per gram wholemeal. The data are presented as the mean \u00b1 SD (n = 3 independent technical replicates). Statistical significance was analyzed using one-way ANOVA multiple comparisons followed by a t-test. Asterisks indicate significant differences among the time point (*p<0.05; **p<0.01; ***p<0.001; ****p<0.0001)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "This study explored the proteome and composition of two malting barley genotypes, demonstrating differences in the proteome as measured across controlled germination. The IGB1467 barley genotype demonstrates a more rapid proteome alteration in response to controlled germination with earlier protein abundance changes seen from 24 to 48 HAI, whereas Flinders demonstrates greater changes from 48 to 72 HAI ( Figure 1 ; Supplementary Figure S2 ). These findings further contribute to the previously described malting phenotypes and support the hypothesis that IGB1467 demonstrates efficient protein hydrolysis requiring less moisture in contrast to Flinders with slower germination and greater water uptake. Proteome exploration uncovered several key protein groups responsible for metabolic advantage via alternate modulation between the genotypes in adaptive tolerance to low-O 2, where IGB1467 demonstrated less sensitivity than Flinders under low-O 2 conditions. The steep, during controlled germination, is known to enforce periods of O 2 deficiency due to submergence regardless of steeping conditions ( Wilhelmson et al., 2006 ). In addition, attempts to aerate the water are inefficient due to the poor solubility of oxygen in water ( Kelly and Briggs, 1992 ). Therefore, we hypothesize that observed differences in IGB1467 and Flinders ( Figures 2 ; 3 , Supplementary Figure S3 ) are related to varied metabolic adaptations (\u2018tolerance\u2019) during controlled germination to low-O 2 conditions with the regulation of previously reported submergence-responsive pathways ( Luan et al., 2018 ; Borrego-Benjumea et al., 2020 ; Luan et al., 2022 ). The observed difference in metabolic modulation of protein groups under low-O 2 enforced by submergence during controlled germination saw varied patterns between IGB1467 and Flinders related to signaling, protein synthesis, energy metabolism, including glycolysis, fermentation, and finally, the impacts of low-O 2 metabolic activity and generation of reactive oxygen species. Our results serve as a foundation revealing physiological changes related to water usage of the malting barley grain during the controlled germination process."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Sensing and signaling low-O 2 stress is a key adaptive response to controlled germination",
+      "text": "In plants, ethylene plays a central role in signaling and modifying responses to low-O 2 ( Bailey-Serres et al., 2012 ). We found GO terms related to signaling ( Figure 2 , cluster III) that include the ethylene response factor (ERF-VII; APETALA2/Ethylene Response Factor; AP2/ERF ) and the hypoxia induced protein (HIG1). Under submerged conditions, O 2 deficiency reduces pyruvate dehydrogenase (PDH) expression, limiting the entry of acetyl-CoA into the mitochondria required for aerobic oxidative phosphorylation ( Shingaki-Wells et al., 2014 ). This leads to an energy crisis and the expression of ERF-VII, known to enhance hypoxia survival in barley ( Mendiondo et al., 2016 ). ERF-VII is a transcription factor that functions as a master regulator of low-O 2 response, controlled by the cysteine branch of the N-degron pathway ( Licausi et al., 2011 ; van Dongen and Licausi, 2015 ). During normoxia conditions, ERF-VII is degraded via the ubiquitin-proteasome pathway. However, in hypoxic conditions, ERF-VII is stabilized and protected from proteolysis, allowing for the transcription of hypoxia genes ( Fukao et al., 2019 ; Loreti and Perata, 2020 ). The ERF-VII transcription factor subfamily is also a master activator of the hypoxia-responsive promotor element (HRPE), which up-regulates a core set of conserved hypoxia-responsive genes (HRG) ( Loreti, E., and Perata, 2020 ; Licausi et al., 2010 ; Gasch et al., 2015 ), such as pyruvate decarboxylase (PDC), and alcohol dehydrogenase (ADH) ( Mustroph et al., 2010 ; Gibbs et al., 2011 ; Giuntoli et al., 2017 ) discussed in further sections. Both genotypes were responsive to hypoxic conditions with an observed decrease in PDH and mitochondrial respiratory chain protein abundance and an increased abundance of HIG1 and ERF-VII ( Figure 3A ; Supplementary Figure S3 ). IGB1467 demonstrated a greater abundance of ERF-VII earlier than Flinders ( Figure 3 ; Supplementary Figure S3 ). This finding suggested that IGB1467 and Flinders both experienced hypoxic conditions enforced by submergence during steeping, sharing similar patterns of HIG1. However, IGB1467 demonstrates earlier low-O 2 sensing via ERF-VII, possibly contributing to a more responsive and adaptable metabolism. Further studies are required to explore the possible difference signaling cascades involved in the differential, adaptive response mechanism seen in IGB1467 and Flinders."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "IGB1467 demonstrates an earlier onset of reserve mobilization driven by increased protein synthesis",
+      "text": "During the controlled germination process, germinating grain lacks photosynthesis and mineral absorption, relying mainly on stored energy and nutrients to maintain normal seed germination. We found several protein GO terms related to storage reserve mobilization ( Figure 2 , cluster I), for example, \u2018Macromolecule metabolic process,\u2019 including \u2018Proteolysis.\u2019 These terms shared similar abundance patterns between the two genotypes, with low abundance at 0 HAI and increasing over time. However, IGB1467 demonstrates an earlier increase and greater overall abundance. Previous findings on enzymes that aid in the breakdown of these reserves were found to be activated, releasing energy and enzymes, for example, \u03b2-amylase, necessary for endosperm modification and embryo growth ( Shewry and Halford, 2002 ; Bewley et al., 2013 ; Cai et al., 2013 ; Wang et al., 2015 ). Our findings confirm an increased abundance of proteins related to storage reserve mobilization, such as proteases, after imbibition and reassumption of metabolism in both genotypes. However, IGB1467 demonstrates a greater abundance of related proteins that may contribute to increased storage reserve mobilization and modification efficiency. Protein synthesis is crucial to storage reserve mobilization, where enzyme activation and de novo synthesis of proteins are required for endosperm modification ( Sano et al., 2020 ). It has been previously reported that mature, dry grain can rapidly restart metabolic activity, including protein synthesis, after imbibition ( Bai et al., 2020 ) by utilizing \u2018Long-life mRNAs\u2019 that, upon imbibition, meet the de novo protein biosynthesis ( He et al., 2011 ). Our results demonstrated that IGB1467 showed a higher abundance of proteins involved in \u2018RNA biosynthesis processes\u2019 and \u2018Ribosomal activities\u2019 ( Figure 2 , cluster V), crucial for de novo protein synthesis during controlled germination. The significantly higher abundance of these proteins in IGB1467 may allow for a faster adaptive response to imbibition and stress response to low-O 2 conditions. This leads to elevated protein synthesis and enzyme production to readily mobilize storage reserve during controlled germination. Our findings are supported by earlier studies, suggesting that the synthesis of new proteins and continued gene expression are essential for the acclimation of rice ( Oryza sativa L.) coleoptiles to low-O 2 conditions ( Huang et al., 2005 ; Lasanthi-Kudahettige et al., 2007 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Differentially abundant proteins highlight contrasting adaptive responses to controlled germination",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 4,
+      "heading": "Starch and sucrose metabolism feeding glycolysis during controlled germination",
+      "text": "During controlled germination, the grain experiences a strong energy and carbon availability decline. Previous studies in rice found some accession can germinate under low-O 2 conditions but require large reserves of readily available sugars to do so ( Magneschi and Perata, 2009 ; Loreti et al., 2017 ; Cho et al., 2021 ). We found that IGB1467 had a greater amount of total starch in the grain, significantly decreasing over the early stages of controlled germination, in contrast to Flinders ( Figure 4A ). To help maintain supply with increased carbon demand under low-O 2 conditions requires an increase in the conversion of starch to glucose involving amylases, for example, \u03b1- and \u03b2-amylase, as seen in anoxia-tolerant rice ( Lasanthi-Kudahettige et al., 2007 ). We found greater amylase abundance in IGB1467 ( Figure 3E ), which may have contributed to the increased conversion of starch to glucose, resulting in the earlier increased abundance of free glucose also seen in IGB1467 ( Figure 4B ). However, we did not see a similar increase in compositional \u03b1-amylase activity ( Figure 4C ). This suggests that rather than \u03b1-amylase, \u03b2-amylase activity may contribute to starch degradation and increased free glucose content. Additionally, \u03b2-amylase is known to accumulate in the endosperm in both free and bound forms ( Ziegler, 1999 ). During seed germination, bound \u03b2-amylase is released in a soluble active form by proteolysis, resulting in a transient increase in total \u03b2-amylase activity ( Sopanen and Lauri\u00e8re, 1989 ). Therefore, we can further suggest that the increased proteolysis of IGB1467 contributed to a greater abundance of released \u03b2-amylase. Previous studies have shown that greater amylase abundance can be induced in response to low-O 2 during germination and that expression changes between 24 and 72 HAI positively correlate to embryo growth ( Ismail et al., 2009 ; Hsu and Tung, 2017 ). This finding suggests that IGB1467, in contrast to Flinders, had greater available free glucose content for glycolysis and energy production via ethanolic fermentation, contributing to the observed increase in modification efficiency. In addition to starch degradation, SUS is a key enzyme for channeling sucrose into the glycolysis pathway. Under hypoxic conditions, the conversion of sucrose to fructose switches from invertase to SUS, as seen in anoxia-tolerant rice ( Lasanthi-Kudahettige et al., 2007 ; Magneschi and Perata, 2009 ; Loreti et al., 2017 ), helping to maintain supply with increased carbon demand ( Stark et al., 1992 ; Kumutha et al., 2008 ). Both genotypes demonstrated an increased abundance of SUS in the earlier time points ( Figure 4E ). In IGB1467, SUS was present at 24 HAI and increased in abundance over time, whereas Flinders had an increased SUS in the grain (0 HAI) that decreased during controlled germination. In low-O 2 environments, over-expression of SUS genes in barley conferred tolerance to hypoxic stress ( Luan et al., 2022 ), suggesting the increase in IGB1467 supports greater tolerance to low-O 2 during controlled germination."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 4,
+      "heading": "Glycolysis and Pyrophosphate-linked glycolysis energy supply during controlled germination",
+      "text": "Under hypoxic conditions, the glycolysis pathway is upregulated. We found many proteins involved in catalyzing the conversion of glucose to pyruvate via glycolysis with shared abundance patterns ( Figure 3B ), suggesting both genotypes undertook glycolysis for energy production, reported previously in barley ( Borrego-Benjumea et al., 2020 ). Moreover, these results are similar to findings in canola ( Brassica napus L.) under waterlogging stress, with both tolerant and sensitive varieties showing high induction of glycolysis-related genes ( Zou et al., 2015 ). This suggests that glycolysis is a shared response irrespective of tolerance to submergence during controlled germination ( Zou et al., 2015 ). Therefore, the abundance of these proteins was not seen as a key contributor to low-O 2 tolerance between genotypes. In addition to glycolysis, pyrophosphate-dependent phosphofructokinase (PPi-PFK) and pyruvate orthophosphate dikinase (PPDK) proteins demonstrated varied abundance in IGB1467 and Flinders. In IGB1467, we saw a significant increase in PPi-PFK and PPDK ( Figure 3C ). Previous studies in rice found that low-O 2 conditions led to increased expression of PPi-PFK and PPDK and are involved in PPi-linked glycolysis as an alternative energy currency ( Huang et al., 2005 ; Lasanthi-Kudahettige et al., 2007 ; Atwell et al., 2015 ; Hsu and Tung, 2017 ). PPi-PFK plays a role in conserving ATP levels by utilizing PPi generated by PPDK instead of ATP-dependent 6-phosphofructokinase (ATP-PFK) in the glycolytic pathway, conserving ATP ( Gibbs and Greenway, 2003 ; Ferjani et al., 2011 ; Igamberdiev and Kleczkowski, 2021 ). Our findings suggest IGB1467 switched to PPi-linked glycolysis, substituting PPi-PFK for ATP-PFK during glycolysis and increasing ATP yield under low-O 2 conditions. In rice, PPi utilization alleviated the anoxia ATP deficiency to preserve cellular processes, including protein synthesis ( Huang et al., 2005 ). Therefore, we hypothesize this alternate energy source may provide IGB1467 flexibility not seen in Flinders to preserve energy, maintain cellular processes, and support previously discussed protein synthesis for continued grain modification under low-O 2 conditions during controlled germination. In Flinders, despite the observed increased abundance of PPDK, there was a low abundance of PPi-PFK and a higher abundance of ATP-PFK, suggesting the PPi is used in an alternate pathway to support sucrose (Suc) conversion of UDP-glucose to glucose-1-phosphate (Glc-1-P), which can then be directed toward glycolysis ( Atwell et al., 2015 ). Our results support this hypothesis with Flinders demonstrating an increased abundance of subsequent enzymes, phosphoglucomutase (PGM) and phosphoglucose isomerase (PGI), involved in feeding fructose into the glycolysis pathway ( Figure 3 ). Therefore, it has been demonstrated that PPi can generate equilibrium changes to bypass ATP-dependent metabolism, providing plasticity in the metabolism during the energy crisis of low-O 2 stress during controlled germination ( Igamberdiev and Kleczkowski, 2021 )."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 4,
+      "heading": "Rerouting of energy metabolism via pyruvate during controlled germination",
+      "text": "The final product of glycolysis is NADH and pyruvate, which are transferred to the TCA cycle via PDH under normoxic conditions to create more ATP. However, under controlled germination conditions, we saw a decrease in mitochondrial PDH in both IGB1467 and Flinders ( Figure 3D ; Supplementary Figure S3 ). As discussed earlier, PDH plays an important role in the conversion of pyruvate to acetyl-CoA for entry into the TCA, therefore limiting carbon entering the TCA cycle and re-routing energy metabolism ( Bailey-Serres and Voesenek, 2008 ; Zhang et al., 2023 ). This finding suggests that both genotypes experienced hypoxic conditions and that adaptive flexibility within the controlled germination pivots on the pyruvate metabolism. The pyruvate metabolism under low-O 2 involves three pathways: (1) alanine synthesis, (2) lactic acid fermentation, and (3) ethanol fermentation ( Figure 3F ). While these three pathways utilize pyruvate as a substrate, ethanolic and lactic acid fermentation regenerate NAD + via PDC and lactate dehydrogenase (LDH). Whereas alanine synthesis via alanine aminotransferase (AlaAT) stores carbon and nitrogen ( Ricoult et al., 2005 ). We found several proteins in the pyruvate metabolism. LDH was low in IGB1467 and Flinders in the early stages of controlled germination, with a greater abundance of PDC and AlaAT, respectively. This finding suggests that in both genotypes, pyruvate was diverted away from lactic acid fermentation, and different genotype-specific re-rerouting strategies were employed under low-O 2 stress of controlled germination. AlaAT is responsible for increased alanine synthesis detected in both genotypes at 24 HAI with greater abundance in IGB1467. However, abundance in IGB1467 decreased from 24 to 48 HAI, not seen in Flinders ( Figure 3F ). This suggests increased carbon/nitrogen storage in Flinders ( Diab and Limami, 2016 ). Ricoult, Cliquet ( Ricoult et al., 2005 ) found in Medicago ( Medicago truncatula ), AlaAT expression increased under anoxic conditions, competing with ethanolic fermentation for pyruvate to increase alanine synthesis. Alanine accumulation contributed to anoxia tolerance, saving carbon as stored nitrogen and limiting the accumulation of the toxic compound acetaldehyde ( Ricoult et al., 2005 ). In addition, during post-hypoxia recovery, stored carbon can be mobilized to produce pyruvate via the reverse reaction of AlaAT/glutamate dehydrogenase and funneled into the TCA cycle ( Diab and Limami, 2016 ). This finding suggests that in contrast to IGB1467, Flinders rerouted pyruvate to alanine instead of ethanolic fermentation. In addition, this strategy may aid in energy production upon the reassumption of aerobic respiration during germination. Overall, our data support the hypothesis that genotype-specific re-routing strategies in the pyruvate metabolism are key to sensing low-O 2 and facilitating adaptability in response to low-O 2 conditions during controlled germination. IGB1467 demonstrated ethanol fermentation with a greater abundance of PDC involved in turning pyruvate into acetaldehyde, which is then reduced to ethanol by ADH ( Ismond et al., 2003 ; Shingaki-Wells et al., 2014 ; Ventura et al., 2020 ). These enzymes are among the \u2018core hypoxia response\u2019 genes ( Lee et al., 2014 ; Mustroph et al., 2014 ) known to be essential for submergence tolerance in barley under hypoxic conditions caused by waterlogging stress ( Zhang et al., 2016 ; Zhang et al., 2017 ; Luan et al., 2018 ; Luan et al., 2022 ). Our study found that ADH had greater abundance in IGB1467 compared to Flinders ( Figure 3F ). The increased abundance of PDC at 24 HAI may have contributed to the increased abundance of ADH also seen at 24 and 48 HAI in IGB1467. The observation that IGB1467 had a greater abundance and earlier onset of essential anaerobic proteins PDC and ADH suggests switching to the fermentation metabolism to maintain energy via glycolysis. Additionally, we can hypothesize that this altern"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Impacts of rerouting for efficient modification under controlled germination",
+      "text": "Submergence and low-O 2 stress experienced during controlled germination leads to the accumulation of reactive oxygen species (ROS). Under oxygen deficiency, disruption of the electron transport chain in mitochondria results in excess hydrogen peroxide (H 2 O 2 ), and increased ROS generation causing cell oxidative damage ( Fukao and Bailey-Serres, 2004 ; Shabala et al., 2014 ; Jacoby et al., 2018 ). As seen in previous studies of barley under waterlogging conditions and in the early stages of malting ( Gill et al., 2019 ; Mahalingam et al., 2021 ). However, an effective antioxidant metabolism can alleviate the harmful impacts of ROS ( Apel and Hirt, 2004 ; Mittler, 2017 ) aided by several antioxidant enzymes, for example, superoxide dismutase (SOD), peroxidase (POD), ascorbate peroxide (APX) and catalase (CAT) ( Blokhina et al., 2003 ). In our study, 32 proteins involved in \u2018Cellular oxidant detoxification\u2019 activity were found with contrasting abundance patterns between the two genotypes ( Figure 2 , cluster II), IGB1467 having low abundance and Flinders having significantly greater abundance. The proteins involved in this cluster included APX and POD, most of which were related to peroxidases (24 proteins, 85% of 28). Luan, Guo ( Luan et al., 2020 ) found that over-expression of barley HvERF2.11 in Arabidopsis ( Arabidopsis thaliana ) triggered the increased expression level of antioxidant enzyme biosynthesis genes ( AtSOD1 , AtPOD1 ) and ethylene biosynthesis gene ( AtACO1 ). They conferred resistance to waterlogging stress (Luan et al., 2020). This suggests that although IGB1467 demonstrates greater tolerance to low-O 2 conditions, the grain may not have the protective functions that exist in Flinders for ROS detoxification, which may have an undesirable impact on malt quality. However, this will require further investigation to confirm the ROS production and specific effects of antioxidant enzyme activities and their influence on malt quality."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "In this study, we explored the proteomes of two malting barley genotypes with different malting phenotypes during controlled germination. In contrast to Flinders, we identified differences in protein abundance patterns that suggest IGB1467 has better adaptability or \u2018less sensitivity\u2019 to low-O 2 conditions experienced during submergence of controlled germination, contributing to more efficient endosperm protein hydrolysis at lower grain moisture. Although the treatments were varied, it was evident that both genotypes experienced low-O 2 conditions with an increase in ethylene and hypoxic response signaling. The stress induced by this O 2 deficiency led to various metabolic adaptations and rerouting carbohydrate metabolism, where the continued efficient proteolysis in IGB1467 may be attributed to increased protein synthesis (seen in the mature grain) and a switch to fermentation and PPi-linked energy pathways to support the boosted protein synthesis and overall modification. However, the greater low-O 2 tolerance seen in IGB1467 is likely a result of several interaction factors at the molecular, biochemical, and anatomical levels. Further studies are required to understand the ethylene signaling pathway and the potential impacts of reduced antioxidant activity seen in IGB1467 on malt quality. Our findings shed light on the consequence submergence during controlled germination, providing insight into mechanisms for low-O 2 sensing in barley grain, the underestimated role of the fermentative metabolism in efficient grain modification, highlighting possible adaptive metabolic traits as breeding targets for optimizing malting practices."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Statements",
+      "text": "Data availability statement The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: CSIRO Data Access Portal Accession id: https://doi.org/10.25919/ypsj-4d27 . Author contributions CO\u2019L: Conceptualization, Data curation, Formal Analysis, Investigation, Methodology, Validation, Visualization, Writing \u2013 original draft. AJ: Conceptualization, Methodology, Resources, Supervision, Writing \u2013 review & editing. MN-W: Methodology, Resources, Supervision, Validation, Writing \u2013 review & editing. HD: Conceptualization, Methodology, Resources, Supervision, Writing \u2013 review & editing. DM: Conceptualization, Funding acquisition, Resources, Supervision, Writing \u2013 review & editing. J-PR: Conceptualization, Funding acquisition, Methodology, Resources, Supervision, Writing \u2013 review & editing. MC: Conceptualization, Funding acquisition, Methodology, Project administration, Resources, Supervision, Writing \u2013 review & editing. Funding The author(s) declare financial support was received for the research, authorship, and/or publication of this article. The research is financially supported by an Industry Ph.D. Scholarship sponsored by Edith Cowan University (ECU), InterGrain Pty Ltd, and the Commonwealth Scientific and Industrial Research Organization (CSIRO), Agriculture and Food (G1004654) (C.E.O.). The research was supported by the Australian Research Council Centre of Excellence for Innovations in Peptide and Protein Science (CE200100012) (M.N. and A.J.). The authors declare that this study received funding from InterGrain Pty. Ltd. The funder had the following involvement in the study: provided malting barley samples. Acknowledgments The authors thank the editor and reviewers for their comments. We want to thank Mr. Jon Luff from Pilot Malting Australia for his advice and expertise in pilot malting. We would also like to thank Ms. Jeni Pritchard from CSIRO for her technical knowledge and assistance in the compositional analysis. The authors would like to acknowledge InterGrain Pty Ltd for providing the breeding lines and facilitating this research collaboration while understanding the need for unbiased scientific exploration. Conflict of interest Author DM was employed by the company InterGrain Pty. Ltd. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. The author(s) declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision. Publisher\u2019s note All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher. Supplementary material The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2023.1305381/full#supplementary-material Abbreviations ADH, alcohol dehydrogenase; AlaAT, alanine aminotransferase; ALDH, aldehyde dehydrogenase; AMY, \u03b1-amylase; APX, ascorbate peroxidase; BMY, \u03b2-amylase; CAM, crassulacean acid metabolism; CS, citrate synthase; DAP, differentially abundant protein; DDA, data-dependent acquisition; DIA, data-independent acquisition; ERF-VII, ethylene response factor; Fructose-1,6P2, fructose 1,6-bisphosphate; Fructose-6P, fructose-6-phosphate; FRK, fructokinase; Glucose-1P, glucose-1-phosphate; Glucose-6P, glucose-6-phosphate; HAI, hours after imbibition; HIG, hypoxia induced protein; HK, hexokinase; HRPE, hypoxia response promoter element; HRG, hypoxia response gene; KI, kolbach index; LC-MS/MS, liquid chromatography tandem mass spectrometry; LDH, lactate dehydroge"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Data availability statement",
+      "text": "The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: CSIRO Data Access Portal Accession id: https://doi.org/10.25919/ypsj-4d27 ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Author contributions",
+      "text": "CO\u2019L: Conceptualization, Data curation, Formal Analysis, Investigation, Methodology, Validation, Visualization, Writing \u2013 original draft. AJ: Conceptualization, Methodology, Resources, Supervision, Writing \u2013 review & editing. MN-W: Methodology, Resources, Supervision, Validation, Writing \u2013 review & editing. HD: Conceptualization, Methodology, Resources, Supervision, Writing \u2013 review & editing. DM: Conceptualization, Funding acquisition, Resources, Supervision, Writing \u2013 review & editing. J-PR: Conceptualization, Funding acquisition, Methodology, Resources, Supervision, Writing \u2013 review & editing. MC: Conceptualization, Funding acquisition, Methodology, Project administration, Resources, Supervision, Writing \u2013 review & editing."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Funding",
+      "text": "The author(s) declare financial support was received for the research, authorship, and/or publication of this article. The research is financially supported by an Industry Ph.D. Scholarship sponsored by Edith Cowan University (ECU), InterGrain Pty Ltd, and the Commonwealth Scientific and Industrial Research Organization (CSIRO), Agriculture and Food (G1004654) (C.E.O.). The research was supported by the Australian Research Council Centre of Excellence for Innovations in Peptide and Protein Science (CE200100012) (M.N. and A.J.). The authors declare that this study received funding from InterGrain Pty. Ltd. The funder had the following involvement in the study: provided malting barley samples."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Acknowledgments",
+      "text": "The authors thank the editor and reviewers for their comments. We want to thank Mr. Jon Luff from Pilot Malting Australia for his advice and expertise in pilot malting. We would also like to thank Ms. Jeni Pritchard from CSIRO for her technical knowledge and assistance in the compositional analysis. The authors would like to acknowledge InterGrain Pty Ltd for providing the breeding lines and facilitating this research collaboration while understanding the need for unbiased scientific exploration."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Conflict of interest",
+      "text": "Author DM was employed by the company InterGrain Pty. Ltd. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. The author(s) declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Publisher\u2019s note",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Supplementary material",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2023.1305381/full#supplementary-material"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Abbreviations",
+      "text": "ADH, alcohol dehydrogenase; AlaAT, alanine aminotransferase; ALDH, aldehyde dehydrogenase; AMY, \u03b1-amylase; APX, ascorbate peroxidase; BMY, \u03b2-amylase; CAM, crassulacean acid metabolism; CS, citrate synthase; DAP, differentially abundant protein; DDA, data-dependent acquisition; DIA, data-independent acquisition; ERF-VII, ethylene response factor; Fructose-1,6P2, fructose 1,6-bisphosphate; Fructose-6P, fructose-6-phosphate; FRK, fructokinase; Glucose-1P, glucose-1-phosphate; Glucose-6P, glucose-6-phosphate; HAI, hours after imbibition; HIG, hypoxia induced protein; HK, hexokinase; HRPE, hypoxia response promoter element; HRG, hypoxia response gene; KI, kolbach index; LC-MS/MS, liquid chromatography tandem mass spectrometry; LDH, lactate dehydrogenase; MS, mass spectrometry; PCK, phosphoenolpyruvate carboxykinase; PDC, pyruvate decarboxylase; PDH, pyruvate dehydrogenase; PEPC, phosphoenolpyruvate carboxylase; PEP, phosphoenolpyruvate; PGK, phosphoglycerate kinase; PGM, phosphoglucomutase; PFK, ATP-dependent phosphate dehydrogenase; PFP, PPi-dependent phosphofructokinase; PGI, phosphoglucose isomerase; PK, pyruvate kinase; PPDK, pyruvate phosphate dikinase; PYR, pyruvate; MDH, malate dehydrogenase; MS, mass spectrometry; OAA, oxaloacetate; SUS, sucrose synthase; SWATH, sequential window acquisition of all theoretical spectra; UGPase, UDP-glucose pyrophosphorylase."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Footnotes",
+      "text": "1.. ^ https://www.ipk-gatersleben.de/ 2.. ^ http://eggnog-mapper.embl.de/ ( Cantalapiedra et al., 2021 ) 3.. ^ http://geneontology.org/docs/go-enrichment-analysis/ ( GO-Consortium, 2021 ) 4.. ^ https://www.uniprot.org/id-mapping ( UniProt-Consortium, 2022 ) 5.. ^ https://ics.hutton.ac.uk/eorna/index.html ( Rapazote-Flores et al., 2019 ) 6.. ^ https://ics.hutton.ac.uk/eorna/download.html 7.. ^ https://www.kegg.jp/kegg/pathway.html ( Kanehisa et al., 2023 ) 8.. ^ http://bioinformatics.sdstate.edu/idep96/ ( Ge et al., 2018 ) 9.. ^ https://software.broadinstitute.org/morpheus/ 10.. ^ https://www.biorender.com/ 11.. ^ https://www.r-project.org/ 12.. ^ https://rstudio.com"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 2,
+      "heading": "References",
+      "text": "1 Apel K. Hirt H. ( 2004 ). Reactive oxygen species: metabolism, oxidative stress, and signaling transduction . Ann. Rev. Plant Biol. 55 , 373 . doi: 10.1146/annurev.arplant.55.031903.141701 CrossRef Google Scholar 2 Atwell B. J. Greenway H. Colmer T. D. ( 2015 ). Efficient use of energy in anoxia-tolerant plants with focus on germinating rice seedlings . New Phytol. 206 ( 1 ), 36 \u2013 56 . doi: 10.1111/nph.13173 CrossRef Google Scholar 3 Bahmani M. O\u2019Lone C. E. Juh\u00e1sz A. Nye-Wood M. Dunn H. Edwards I. B. et al . ( 2021 ). Application of mass spectrometry-based proteomics to barley research . J. Agric. Food Chem. 69 ( 31 ), 8591 \u2013 8609 . doi: 10.1021/acs.jafc.1c01871 CrossRef Google Scholar 4 Bai B. van der Horst S. Cordewener J. H. G. America T. Hanson J. Bentsink L. ( 2020 ). Seed-stored mRNAs that are specifically associated to monosomes are translationally regulated during germination . Plant Physiol. 182 ( 1 ), 378 \u2013 392 . doi: 10.1104/pp.19.00644 CrossRef Google Scholar 5 Bailey-Serres J. Fukao T. Gibbs D. J. Holdsworth M. J. Lee S. C. Licausi F. et al . ( 2012 ). Making sense of low oxygen sensing . Trends Plant Sci. 17 ( 3 ), 129 \u2013 138 . doi: 10.1016/j.tplants.2011.12.004 CrossRef Google Scholar 6 Bailey-Serres J. Voesenek L. A. C. J. ( 2008 ). Flooding stress: acclimations and genetic diversity . Annu. Rev. Plant Biol. 59 ( 1 ), 313 \u2013 339 . doi: 10.1146/annurev.arplant.59.032607.092752 CrossRef Google Scholar 7 Bewley J. D. Bradford K. J. Hilhorst H. W. M. Nonogaki H. ( 2013 ). \u201c Mobilization of Stored Reserves ,\u201d in Seeds: Physiology of Development, Germination and Dormancy , 3rd Edition ( New York, NY : Springer New York ), 183 \u2013 246 . Google Scholar 8 Blokhina O. Virolainen E. Fagerstedt K. V. ( 2003 ). Antioxidants, oxidative damage and oxygen deprivation stress: A review . Ann. Bot. 91 ( 2 ), 179 \u2013 194 . doi: 10.1093/aob/mcf118 CrossRef Google Scholar 9 Borrego-Benjumea A. Carter A. Tucker J. R. Yao Z. Xu W. Badea A. ( 2020 ). Genome-wide analysis of gene expression provides new insights into waterlogging responses in barley ( Hordeum vulgare L.) . Plants 9 ( 2 ), 240 . doi: 10.3390/plants9020240 CrossRef Google Scholar 10 Bose U. Broadbent J. A. Byrne K. Blundell M. J. Howitt C. A. Colgrave M. L. ( 2020 ). Proteome analysis of hordein-null barley lines reveals storage protein synthesis and compensation mechanisms . J. Agric. Food Chem. 68 ( 20 ), 5763 \u2013 5775 . doi: 10.1021/acs.jafc.0c01410 CrossRef Google Scholar 11 Briggs D. E. ( 2002 ). Malt modification\u2014a century of evolving views . J. Inst. Brew. 108 ( 4 ), 395 \u2013 405 . doi: 10.1002/j.2050-0416.2002.tb00567.x CrossRef Google Scholar 12 Briggs D. E. Brookes P. A. Stevens R. Boulton C. ( 2004 ). Brewing: Science and Practice 1st ed. ( Woodhead Publishing ). Vol. 108 . Google Scholar 13 Cai S. Yu G. Chen X. Huang Y. Jiang X. Zhang G. et al . ( 2013 ). Grain protein content variation and its association analysis in barley . BMC Plant Biol. 13 ( 1 ), 35 . doi: 10.1186/1471-2229-13-35 CrossRef Google Scholar 14 Campbell J. A. Hansen R. W. Wilson J. R. ( 1999 ). Cost-effective colorimetric microtitre plate enzymatic assays for sucrose, glucose and fructose in sugarcane tissue extracts . J. Sci. Food Agric. 79 ( 2 ), 232 \u2013 236 . doi: 10.1002/(SICI)1097-0010(199902)79:2<232::AID-JSFA176>3.0.CO;2-V CrossRef Google Scholar 15 Cantalapiedra C. P. Hern\u00e1ndez-Plaza A. Letunic I. Bork P. Huerta-Cepas J. ( 2021 ). Eggnog-mapper V2: functional annotation, orthology assignments, and domain prediction at the metagenomic scale . Mol. Biol. Evol. 38 ( 12 ), 5825 \u2013 5829 . doi: 10.1093/molbev/msab293 CrossRef Google Scholar 16 Chandra G. S. Proudlove M. O. Baxter E. D. ( 1999 ). The structure of barley endosperm \u2013 an important determinant of malt modification . J. Sci. Food Agric. 79 ( 1 ), 37 \u2013 46 . doi: 10.1002/(SICI)1097-0010(199901)79:1<37::AID-JSFA168>3.0.CO;2-X CrossRef Google Scholar 17 Cho H. Y. Loreti E. Shih M. C. Perata P. ( 2021 ). Energy and sugar signaling during hypoxia "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 2,
+      "heading": "Summary",
+      "text": "Keywords barley , malt , controlled germination , malting , low-oxygen , proteomics , mass spectrometry , plant breeding Citation O'Lone CE, Juh\u00e1sz A, Nye-Wood M, Dunn H, Moody D, Ral J-P and Colgrave ML (2023) Proteomic exploration reveals a metabolic rerouting due to low oxygen during controlled germination of malting barley ( Hordeum vulgare L.) . Front. Plant Sci. 14:1305381. doi: 10.3389/fpls.2023.1305381 Received 02 October 2023 Accepted 20 November 2023 Published 11 December 2023 Volume 14 - 2023 Edited by Jai Rohila, United States Department of Agriculture, United States Reviewed by Jason G. Walling, Agricultural Research Service (USDA), United States Heena Rani, Agricultural Research Service (USDA), United States Updates Copyright \u00a9 2023 O'Lone, Juh\u00e1sz, Nye-Wood, Dunn, Moody, Ral and Colgrave. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. *Correspondence: Michelle L. Colgrave, m.colgrave@ecu.edu.au ; Michelle.Colgrave@csiro.au Disclaimer All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 2,
+      "heading": "Your research is the real superpower",
+      "text": "Behind each article we publish stands a team of superheroes: authors, editors, and reviewers who chose to uphold quality standards and share knowledge openly. Read more about the impact your work achieves."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 2,
+      "heading": "Outline",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 2,
+      "heading": "Figures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 2,
+      "heading": "Cite article",
+      "text": "Copy to clipboard Copy citation Export citation file BibTex EndNote Reference Manager Simple Text file"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 2,
+      "heading": "Share article",
+      "text": "Facebook X LinkedIn Email WeChat Share on WeChat Scan with WeChat to share this article"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 2,
+      "heading": "Article metrics",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Volume 14 - 2023 | https://doi.org/10.3389/fpls.2023.1305381",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Australian Research Council Centre of Excellence for Innovations in Peptide and Protein Science, Edith Cowan University, School of Science, Joondalup, WA, Australia",
+      "char_offset": 62
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Commonwealth Scientific and Industrial Research Organization, Agriculture and Food, ACT, Canberra, ACT, Australia",
+      "char_offset": 231
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Pilot Malting Australia, Edith Cowan University, School of Science, Joondalup, WA, Australia",
+      "char_offset": 349
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Barley Breeding, InterGrain Pty Ltd, Bibra Lake, WA, Australia",
+      "char_offset": 446
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Commonwealth Scientific and Industrial Research Organization, Agriculture and Food, Brisbane, QLD, Australia",
+      "char_offset": 513
+    },
+    {
+      "type": "paragraph",
+      "text": "Barley ( Hordeum vulgare L.) is used in malt production for brewing applications. Barley malting involves a process of controlled germination that modifies the grain by activating enzymes to solubilize starch and proteins for brewing. Initially, the grain is submerged in water to raise grain moisture, requiring large volumes of water. Achieving grain modification at reduced moisture levels can contribute to the sustainability of malting practices. This study combined proteomics, bioinformatics, and biochemical phenotypic analysis of two malting barley genotypes with observed differences in water uptake and modification efficiency. We sought to reveal the molecular mechanisms at play during controlled germination and explore the roles of protein groups at 24 h intervals across the first 72 h. Overall, 3,485 protein groups were identified with 793 significant differentially abundant (DAP) within and between genotypes, involved in various biological processes, including protein synthesis, carbohydrate metabolism, and hydrolysis. Functional integration into metabolic pathways, such as glycolysis, pyruvate, starch and sucrose metabolism, revealed a metabolic rerouting due to low oxygen enforced by submergence during controlled germination. This SWATH-MS study provides a comprehensive proteome reference, delivering new insights into the molecular mechanisms underlying the impacts of low oxygen during controlled germination. It is concluded that continued efficient modification of malting barley subjected to submergence is largely due to the capacity to reroute energy to maintain vital processes, particularly protein synthesis.",
+      "char_offset": 626
+    },
+    {
+      "type": "paragraph",
+      "text": "Barley ( Hordeum vulgare L.) is an economically important cereal crop in world malt production. Raw barley grain is converted to malt in a process of controlled germination called malting. Malting involves physical and biochemical changes to obtain fermentable products necessary for brewing. The quality attributes of malted barley are a critical factor in the brewing process, affecting the color, flavor, and overall beer quality. The Kolbach index (KI) is a key indicator of the level of enzymatic activity or protein hydrolysis during the malting process, with desirable levels around 35.0-49.9% ( Fox et al., 2003 ). Genomic diversity and breeding have contributed to producing quality malt from barley grown worldwide, where efficient water uptake and timely uniform germination are pivotal determinants of malt quality ( Chandra et al., 1999 ; Briggs, 2002 ; MacLeod and Evans, 2016 ).",
+      "char_offset": 2276
+    },
+    {
+      "type": "paragraph",
+      "text": "Controlled germination or malting is a three-stage process that begins with water uptake (imbibition) during steeping, where the raw grain is submerged in water, raising grain moisture to above 42%. Although there are periods of air rest, the immersed grain experiences phases of low-oxygen (hypoxia <21% O 2 ) resulting from reduced air diffusion ( Gibbs and Greenway, 2003 ). This oxygen deficiency leads to impaired mitochondrial activity. It triggers a switch from aerobic to anaerobic respiration, rapidly reducing cellular adenosine triphosphate (ATP) production ( Bailey-Serres and Voesenek, 2008 ; Magneschi and Perata, 2009 ). Aerobic respiration is returned in the second stage, germination, where the imbibed grain is incubated for 4-5 days in an aerated (normoxic >21% O 2 ), moist atmosphere with rotation. This is the most metabolically active stage, and enzymes such as proteases, amylases, hemicellulases, and oxidases are involved in the continued embryo growth and formation of green malt. In the final stage, kilning, the green malt is heat treated, reducing the moisture to around 12% and decreasing enzymatic activity. Followed by a second drying step to stop all biological processes, reducing moisture contents to 4-5% and stabilizing the final characteristics of the malt ( Briggs et al., 2004 ; Daneri-Castro et al., 2016a ). Overall, malting is a resource-intensive process, and one critical area of concern is reducing water usage with efforts to maintain modification efficiency crucial for the industry\u2019s long-term sustainability ( Daneri-Castro et al., 2016b ; Izydorczyk and Edney, 2017 ). By exploring the molecular mechanisms of controlled germination, we can gain insights into implementing reduced water usage while maintaining malt quality, which is an attractive proposition in an internationally competitive market.",
+      "char_offset": 3171
+    },
+    {
+      "type": "paragraph",
+      "text": "Proteomics, the large-scale study of the protein complement of a cell, tissue, or organism under a specific, defined set of conditions, is a powerful approach for investigating the changes in protein abundance that occur during barley germination. The barley proteome and metabolome have been widely studied due to their importance in agriculture and the malting and brewing industry, recently reviewed by Bahmani, O\u2019Lone ( Bahmani et al., 2021 ), Fox and Watson-Fox (2021) , and Fox and Bettenhausen (2023) . In the present study, we used quantitative proteomics via the sequential window acquisition of all known theoretical spectra-mass spectrometry (SWATH-MS) ( Gillet et al., 2012 ) to quantify proteins across the malting time course in a newly developed breeding line, IGB1467, that demonstrated efficient proteolysis at a lower moisture content than a traditional malting barley cultivar, Flinders. In early stages of controlled germination, aerobic respiration is inhibited due to an O 2 deficiency caused by submergence, and despite the grain\u2019s sensitivity to low-O 2 conditions, the stress can be managed for a limited time by inducing an adaptive response in protein synthesis and changes to carbohydrate metabolism. Previous studies have revealed that in low-O 2 environments, a metabolic shift occurs to increase the anaerobic production of ATP via cytosolic glycolysis, influencing the mobilization of carbohydrates to promote substrate-level ATP production ( Lasanthi-Kudahettige et al., 2007 ; Bailey-Serres et al., 2012 ). The objective of this study was to evaluate the proteomic and physiochemical changes that occur at 24-hour intervals during the first 72 hours of malting, where the grain experiences submergence stress. We aimed to identify key protein groups responsible for the observed differences in malting phenotypes under low-O 2 stress to help improve our understanding of their molecular roles. Our study highlights metabolic patterns of proteins and enzymes involved in signaling and regulating mRNAs associated with core metabolic responses, including reconfiguring the carbohydrate metabolism to develop a more efficient grain modification while maintaining malt quality for sustainable malting practices.",
+      "char_offset": 5026
+    },
+    {
+      "type": "paragraph",
+      "text": "Malt barley ( Hordeum vulgare L.) breeding line IGB1467 (IGB; experimental) and its\u2019 parental breeding line, cultivar Flinders (FLN; control), were grown at an InterGrain (Bibra Lake, Western Australia) experimental field site, Brookton, Western Australia (32\u00b018\u201905\u2019 S, 117\u00b014\u201932\u2019 E). Grain evaluation data is provided in Supplementary T able S1 . These two closely related barley genotypes were selected based on demonstrated phenotypic trait differences in water uptake, malting potential, and malt characteristics from a previous project carried out at Pilot Malting Australia (PMA, Edith Cowan University, Australia ( Supplementary Figure S1 ).",
+      "char_offset": 7269
+    },
+    {
+      "type": "paragraph",
+      "text": "Grains (100 kg) were pilot malted at PMA ( Supplementary Tables S2 , S3 ) and sampled at approximately 0, 24, 48, and 72 hours after imbibition (HAI). The four sampling times corresponded to key stages along the malting time course: (1) 0 HAI, raw barley grain; (2) 24 HAI, exit steep, following periods of grain submergence (with aeration) and air rest; (3) 48 HAI, germination, stage 1 and (4) 72 HAI germination, stage 2. Pilot malting at PMA closely aligns with industrial-scale malting sample sizes in comparison to micro- and benchtop-malting but was limited in that it did not allow for directly comparable malting run samples. Each genotype was malted to meet accepted malt quality parameters ( Supplementary T able S4 ), specifically a similar KI between 37-47%. The KI was calculated using Equation 1.",
+      "char_offset": 7919
+    },
+    {
+      "type": "paragraph",
+      "text": "For each time point, 20 g of grain with rootlet maintained (removed for malt quality analysis), was collected, snap-frozen, and stored at -80\u00b0C until processing. All grains were thawed and inspected to exclude contamination and freeze-dried for 72 h to remove all moisture. The grains were milled using a Retsch Mixer Mill MM 400 (Metrohm, NSW, AUS) and sieved using a 300 \u00b5m sieve (Endecotts Pty Ltd. Sieves, London, UK) to produce a fine grade wholemeal flour.",
+      "char_offset": 8732
+    },
+    {
+      "type": "paragraph",
+      "text": "Protein was extracted from wholemeal flour without defatting (20 mg, n = 4) of malting barley grain at each time point using 400 \u00b5L (20 \u00b5L/mg) of 8 M urea and 2% (w/v) dithiothreitol (DTT) buffer. The suspension was vortexed and sonicated (Soniclean Ultrasonic Cleaner 25HD, 650W, 43 kHz) for 5 min at room temperature. The samples were incubated on a shaker block (Thermo-Scientific, AUS) at 400 rpm for 45 min at room temperature (RT). The solutions were centrifuged for 15 min at 20,800 x g, and the protein extracts (supernatant) were used for subsequent reduction, alkylation, and filter-aided (MWCO 10kDa) digestion using trypsin (Promega, NSW, AUS) as per established methods ( Colgrave et al., 2016 ). Protein concentrations were determined via a Varioscan plate reader (Thermo-Scientific, AUS) using Bradford protein assay (California, USA) following the manufacturer\u2019s protocol with dilutions and BSA standard curve. The tryptic peptides were re-suspended in ddH 2 O containing 1% formic acid with the addition of iRT reference peptide solution (1 pmol/\u03bcL; Biognosys, Zurich, CHE) for subsequent LC-MS/MS analysis.",
+      "char_offset": 9196
+    },
+    {
+      "type": "paragraph",
+      "text": "The peptide fractions (1 \u03bcL) were separated through reverse-phase chromatography Ekspert nanoLC415 (Eksigent, Dublin, CA, USA) and analyzed online in a TripleTOF 6600 mass spectrometer (SCIEX, Redwood City, CA, USA) as described previously ( Bose et al., 2020 ). In brief, peptides were desalted by loading on a ChromXP C18 (12 nm, 3 \u03bcm, 120 \u00c5, 10 \u00d7 0.3 mm) trap column at a flow rate of 10 \u03bcL/min and separated on a ChromXP C18 (12 nm, 3 \u03bcm, 120 \u00c5, 150 \u00d7 0.3 mm) column at a flow rate of 5 \u03bcL/min. The mobile phase A (0.1% formic acid with 5% dimethyl sulfoxide, DMSO in 94.9% ddH 2 O) and mobile phase B (0.1% formic acid with 5% DMSO in 90% acetonitrile and 4.9% ddH 2 O) were used to establish a linear gradient composed of 68 min of 3-25% B, 5 min 25-35% B with an increase to 80% B for 2 min, and a 2 min hold at 90% B, return to 3% B over 1 min, followed by re-equilibrating at 3% B for 8 min. The flow rate was 0.3 \u00b5L/min, and the elute from the HPLC was directly coupled to the DuoSpray source of the TripleTOF 6600 MS (SCIEX). The ion spray voltage was set to 5,500 V; the curtain gas was set to 138 kPa (20 psi), and the ion source gas 1 (GS1) and gas 2 (GS2) were set to 103 and 138 kPa (15 and 20 psi). The heater interface was set to 150\u00b0C. The TOF\u2013MS survey scan was collected over the mass range of m/z 360\u20132000 with a 250 ms accumulation time, and the product ion mass spectra were acquired over the mass range of m/z 150\u20131800 with a 30 ms accumulation time using rolling collision energy and a collision energy spread (CES) of 5. Variable window SWATH acquisition was employed using 30 SWATH windows (including 1 Da overlap) spanning the mass range of m/z 150\u20132000 with SWATH windows determined using the SWATH Variable Window Calculator 1.0 (SCIEX) for a total cycle time of 1.15 s.",
+      "char_offset": 10322
+    },
+    {
+      "type": "paragraph",
+      "text": "SWATH-MS files were processed in DIA-NN ver.1.8 using deep neural networks (DNNs) inference algorithm ( Demichev et al., 2020 ). The spectral output was searched against in silico tryptic digests of Hordeum vulgare subset of the UniProt-KB database (ver.2022/10; 54,629 sequences) appended, with Biognosys iRT pseudo-protein sequence and the common Repository of Advantageous Proteins database (cRAP) ( Frankenfield et al., 2022 ). DIA-NN quantitative analysis was performed using tryptic peptides of 7 to 30 amino acids in length, with up to one missed cleavage. As a fixed modification, carbamidomethylation of cysteine was selected, and no variable modifications were allowed. The precursor m/z range, 300-1800, was selected, and the fragment ion m/z range was 200-1800. The algorithm settings included the automatic modes for mass accuracy, MS1 accuracy, and scan window with and removing likely interferences the software predicted. The neural network classifier was run in single-pass mode with a high-accuracy quantification strategy, and cross-run normalization was performed in a retention time-dependent manner. Peptides were identified after applying a 1% False Discovery Rate (FDR). Identifications from the cRAP database were ignored.",
+      "char_offset": 12125
+    },
+    {
+      "type": "paragraph",
+      "text": "Protein sequences of interest were BLAST searched against the Morex genome ver.2 1 using CLC Main Workbench (QIAGEN; ver.22.0.2). Protein Gene Ontology term annotations were predicted using eggNOG-mapper 2 , Gene Ontology (GO) database 3 , and UniProt mapping database 4 (all databases accessed 2023/03). Additional GO annotation was taken from the previously published barley genome annotation files ( Mascher et al., 2017 ) and cross-referenced with the Barley Reference Transcript dataset (BaRT) downloaded (2022/10) from the Barley Expression Database (EoRNA) 5 GO annotation for the BaRT gene IDs dataset was done using the available spreadsheet 6 . Functional pathway analysis was performed using the Kyoto Encyclopedia of Genes and Genomes (KEGG) mapper and reconstruct software tools 7 to annotate protein KEGG ortholog numbers and corresponding functional distributions ( Supplementary Data S1 ).",
+      "char_offset": 13374
+    },
+    {
+      "type": "paragraph",
+      "text": "Unsupervised principal component analysis (PCA) was conducted to identify possible outliers resulting from technical (processing and instrumental) procedures and to evaluate groupings within the data set. The identification of differentially abundant proteins (DAPs) within genotype over the time course was carried out using DESeq2 analysis ( Love et al., 2014 ) of the following pairwise comparisons 24/0, 48/24, and 72/48 HAI (log 2 Fold Change (log 2 FC) \u22651.5, p \u2264 0.05). Parametric Analysis of Gene Set Enrichment (PGSEA; p \u2264 0.05, Gene set size min. 5, max. 2000) ( Kim and Volsky, 2005 ; Furge et al., 2012 ) with GO enrichment analysis (biological process) was performed using iDEP.96 Shiny R platform 8 . Hierarchical Cluster Analysis (HCA; one minus Pearson correlation with complete linkage, cluster cut-off height 0.65) was performed on the 50 topmost significant pathways ( p =<1.0e-13) using the Morpheus 9 web tool. The mean relative abundance of log 2 transformed data (n=4) was visualized using Morpheus 9 and integrated into pathway diagrams using BioRender 10 . The compositional statistical analyses were carried out using R ver.3.6.1 11 in RStudio ver.2023.09.1+494 12 .",
+      "char_offset": 14281
+    },
+    {
+      "type": "paragraph",
+      "text": "The physiochemical parameters of malting barley grain were measured at approximately 0, 24, 48, and 72 HAI, using 10 mg of wholemeal flour in triplicates for total starch, expressed as percentage dry weight; free glucose and ethanol-soluble carbohydrate expressed in milligrams per gram wholemeal; and total \u03b1-amylase activity expressed in ceralpha units (CU) per gram wholemeal. Total starch was measured using a Total Starch Assay Kit (Megazyme, Neogen Australasia, AUS) and modified as described by Zhang, Pritchard ( Zhang et al., 2022 ). Absorbance was read at 510 nm after a 20-minute incubation at 50\u00b0C using a SPECTROstar Nano Microplate Reader (BMG LABTECH, AUS). A standard curve was generated using kit-supplied glucose at 1 mg/ml concentration. Total soluble sugar and free glucose were extracted as described by Zhang, Pritchard ( Zhang et al., 2022 ), and all ethanol-soluble fractions were pooled. Total soluble sugar was measured using anthrone reagent (0.2% anthrone, in 70% H 2 SO 4 v/v) and glucose at 1 mg/mL concentration standard curve ( Whan et al., 2014 ). Free glucose was determined following the method described by Campbell, Hansen ( Campbell et al., 1999 ). Total \u03b1-amylase activity was measured using a \u03b1-Amylase Assay Kit (Megazyme) adapted for flat-bottom 96-well microplate, following the manufacturer\u2019s protocol using SPECTROstar Nano Microplate Reader (BMG LABTECH).",
+      "char_offset": 15474
+    },
+    {
+      "type": "paragraph",
+      "text": "In this study, a comprehensive proteome-wide approach was employed to explore differences between two malting barley genotypes, (i) IGB; experimental breeding line, and (ii) FLN; control cultivar, that malted to meet malt quality specification ( Supplementary T able S4 ). While the two genotypes took different treatment times in the steep to meet these specifications, they were malted to a similar KI, IGB, 45%, and FLN, 43%, a key parameter indicative of the level of grain proteolysis. The aim was to dissect the proteome of IGB and FLN to identify key protein groups and explore differences in abundance patterns in the complex metabolic processes affected by water uptake and modification efficiency differences in the two genotypes at each time point.",
+      "char_offset": 16877
+    },
+    {
+      "type": "paragraph",
+      "text": "SWATH-MS processing identified, quantified, and annotated 3,485 protein groups ( Supplementary Data S1 ). Unsupervised preliminary data exploration via principal component analysis (PCA) was applied to characterize the samples. Along PC1, significant variation (33.6%) was seen due to the time point, while PC2 (13.0%) separated the samples based on the genotype ( Supplementary Figure S2 ). In IGB and FLN, 3,193 and 3,142, respectively, out of the 3,485 proteins detected were seen in all four time points. The results show that the proteomes were significantly altered after imbibition and during controlled germination, with clear separations between genotypes and the four-time points.",
+      "char_offset": 17638
+    },
+    {
+      "type": "paragraph",
+      "text": "In the six pairwise comparisons, 793 DAPs were identified and presented in multiple comparisons ( Supplementary Data S2 ). Of the DAPs, 620 and 645 were found in IGB and FLN, of which 472 were shared, and 148 or 173 were uniquely present in either IGB or FLN, respectively ( Figure 1A ). The DAPs of IGB and FLN and their overlapping relationships and abundance changes (increase/decrease) across the controlled germination time course are shown in the UpSet analyses ( Figure 1B ; Supplementary Data S3 ). The DAPs with decreased abundance shared a similar pattern across both genotypes and controlled germination time points. However, DAPs with increased abundance had varied patterns between genotypes. In IGB, the DAP increase was similar at 48/24 HAI (254) and 72/48 (280). However, in FLN, the greatest increase was observed at 72/48 HAI with 357 DAPs. Most DAPs shared between IGB and FLN were identified at 72/48 HAI for both increased (53) and decreased (24) DAPs ( Figure 2C ). The subsequent most significant alteration was noted in the comparison at 48/24 HAI (IGB) and 72/48 HAI (FLN) with 24 DAPs. ( Figure 1C ).",
+      "char_offset": 18330
+    },
+    {
+      "type": "paragraph",
+      "text": "Differentially abundant protein (DAP) groups (log 2 FC \u22651.5, p \u2264 0.05) in two malting barley genotypes comparing time points at 0, 24, 48, and 72 HAI. (A) Venn diagram of DAPs observed uniquely or commonly (overlap) in IGB1467 and Flinders. (B) UpSet Plot with bar graph and matrix representing the up-and down-regulation of the DAPs with comparisons across time points. (C) Column graph illustrating the shared intersections in the matrix of DAPs between genotype and time points.",
+      "char_offset": 19458
+    },
+    {
+      "type": "paragraph",
+      "text": "Parametric analysis of gene set enrichment (PGSEA, with all DAPs, min. gene set size, 5; p \u2264 0.05), with hierarchical clustering analysis (HCA; cut-off 0.65, Pearson correlation, complete linkage) of the top 50 significant gene ontology (GO) enriched biological process pathways for the identified differentially abundant protein groups (log 2 FC\u22651.5, p \u2264 0.05).",
+      "char_offset": 19941
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the significant difference in the biological response to controlled germination, identified DAPs from IGB and FLN across all time points were analyzed via clustering of the PGSEA results.. The 50 topmost significant pathways ( p \u22641.0e-13) were clustered into six distinct accumulation patterns ( Figure 2 , cluster cut-off height = 0.65, Supplementary Data S3 ). The six clusters identified are explained here briefly with detailed data and discussion shown in the supplementary document ( Supplementary Table S5 ).",
+      "char_offset": 20305
+    },
+    {
+      "type": "paragraph",
+      "text": "Overall, cluster I ( Figure 2 ; light blue) highlighted increased protein abundance at 48 and 72 HAI. This cluster is primarily enriched in proteins involved in the \u2018Cellular macromolecule catabolic process\u2019 ( p =5.2e-19), \u2018Catabolic process\u2019 ( p =4.2e-15) and \u2018Proteolysis\u2019 ( p =3.8e-17). Although both genotypes shared a similar pattern, IGB demonstrated an earlier increase in abundance, with many changes occurring by 48 HAI seen in FLN at 72 HAI. Cluster II ( Figure 2 ; dark blue) demonstrated to be significantly greater abundance in FLN, across all time points. This cluster included GO terms related to \u2018Transmembrane transport\u2019 ( p =1.1e-12)\u2019, \u2018Response to oxidative stress\u2019 ( p =2.5e-14), and \u2018Hydrogen peroxide catabolic process\u2019 ( p =5.7e-13). Cluster III ( Figure 2 ; light green) highlighted greater protein abundance at 0 HAI in IGB, while in FLN, the greatest abundance is present at 48 HAI. The two GO terms in this cluster are related to \u2018Signaling\u2019 ( p =1.1e-12) and \u2018Cell communication\u2019 ( p =2.2e-14).",
+      "char_offset": 20836
+    },
+    {
+      "type": "paragraph",
+      "text": "Clusters IV ( Figure 2 ; dark green) were related to \u2018Response to stimulus\u2019 ( p =5.7e-18), with shared abundance patterns at 0 and 24 HAI between the genotypes. However, IGB abundance decreased earlier decrease at 48 HAI, as seen in FLN at 72 HAI. Cluster V ( Figure 2 ; pink) demonstrated significantly greater abundance in IGB and was related to GO terms, \u2018Translation\u2019 ( p =1.6e-16), \u2018Peptide biosynthetic process\u2019 ( p =2.5e-16), and \u2018RNA metabolic process\u2019 ( p =8.1e-15), all linked to protein synthesis. Finally, cluster VI ( Figure 2 ; red) terms highlighted the greatest abundance in both genotypes in the early stages at 0 and 24 HAI, decreasing over the time course. This cluster was enriched with proteins involved in \u2018Regulation of biological process\u2019 ( p =5.0e-13) and \u2018Protein modification\u2019 ( p =1.9e-16). DAP abundance varied significantly amongst Clusters I, II, and V, with the most significantly enriched GO term \u2018Carbohydrate metabolic process\u2019 ( p =3.5e-22).",
+      "char_offset": 21860
+    },
+    {
+      "type": "paragraph",
+      "text": "Functional proteome analysis reveals metabolic rerouting due to low oxygen during controlled germination Pathways-associated analysis found that of the 793 DAPs, 55.9% (443) were successfully mapped to 20 KEGG functional categories ( Supplementary Figure S4 ; Supplementary Data S1 ), with 20.0% (89) of proteins involved in carbohydrate metabolism, followed by genetic information processing, making up a further 14.4% (64) and biosynthesis of other secondary metabolites contributing 7.0% (31) to the protein classification. Similar to the findings in the PGSEA, the highest number of DAPs were found to be associated with carbohydrate metabolism.",
+      "char_offset": 22839
+    },
+    {
+      "type": "paragraph",
+      "text": "To further explore the impacts of low-O 2 on carbohydrate metabolism we carried out KEGG functional analysis. First, we visualized mitochondrial proteins known to be impacted by low-O 2 and their influence on energy and signaling proteins ( Supplementary Figure S3 ). This was followed by exploration of carbohydrate metabolic pathways, primarily glycolysis, starch and sucrose, and pyruvate metabolism ( Figure 3 ). The results of protein groups and abundance patterns involved in these pathways revealed a metabolic rerouting associated with oxygen deficiency, explained further in the discussion.",
+      "char_offset": 23490
+    },
+    {
+      "type": "paragraph",
+      "text": "Schematic revealing changes in abundance patterns of DAPs related to signaling, carbohydrate, and fermentation metabolism in malting barley germination: (A) Signaling; (B) Glycolysis; (C) PPi-linked glycolysis; (D) Pyruvate metabolism; (E) Starch and sucrose metabolism (F) Fermentation metabolism; and (G) Phosphoenolpyruvate (PEP) carboxylase metabolism. Differentially abundant proteins (DAPs, log 2 FC\u22651.5, FDR\u22640.05) were mapped onto the metabolic pathways. The log 2 protein abundance across the time course of IGB and FLN (n=4, see Materials and Methods) has been plotted into dots as shown in the Key; 1, 2, 3, and 4 represent IGB at 0, 24, 48, and 72 HAI, while dots; 5, 6, 7, 8 represent FLN at 0, 24, 48 and 72 HAI. Scale: Dark blue dots indicate decreased protein abundance, and red dots indicate increased protein abundance (created with BioRender.com ). (ADH, alcohol dehydrogenase; AlaAT, alanine aminotransferase; ALDH, aldehyde dehydrogenase; AMY, \u03b1-amylase; BMY, \u03b2-amylase; CS, citrate synthase; ERF-VII, ethylene response factor; Fructose-1,6P2, fructose 1,6-bisphosphate; Fructose-6P, fructose-6-phosphate; FRK, fructokinase; Glucose-1P, glucose-1-phosphate; Glucose-6P, glucose-6-phosphate; HK, hexokinase; HRPE, hypoxia-responsive promotor element; HRG, hypoxia response gene; LDH, lactate dehydrogenase; PCK, phosphoenolpyruvate carboxykinase; PDC, pyruvate decarboxylase; PDH, pyruvate dehydrogenase; PEPC, phosphoenolpyruvate carboxylase; PEP, phosphoenolpyruvate; PGK, phosphoglycerate kinase; PGM, phosphoglucomutase; PFK, ATP-dependent phosphate dehydrogenase; PFP, PPi-dependent phosphofructokinase; PGI, phosphoglucose isomerase; PK, pyruvate kinase; PPDK, Pyruvate phosphate dikinase; PYR, pyruvate; MDH, malate dehydrogenase; OAA, oxaloacetate; SUS, sucrose synthase; UGPase, UDP-glucose pyrophosphorylase).",
+      "char_offset": 24091
+    },
+    {
+      "type": "paragraph",
+      "text": "Physiochemical analysis ( Figure 4 ; Supplementary Data S4 ) showed that the onset of germination significantly impacted the total starch content in IGB but not seen in FLN ( Figure 4A ). In IGB, the largest abundance of starch was seen at 0 and 72 HAI, with a significant drop in starch composition at 24 and 48 HAI, whereas FLN demonstrated no significant changes. There was a significant increase in compositional free glucose of both IGB and FLN across the germination time points ( Figure 4B ). IGB had an earlier onset increase at 0 to 24 HAI ( p =1.55e-06), not seen in FLN. However, FLN increased from 24 to 48 HAI ( p =3.17e-06), with no significant change observed in IGB. IGB and FLN had the greatest increase of free glucose from 48 to 72 HAI ( p =1.49e-09 and p =9.20e-11, respectively). Finally, \u03b1-amylase activity presented a similar trend for both genotypes, with a non-significant gradual increase from 0-24 HAI and an increase from 24-48 HAI in both IGB and FLN ( p =1.18e-06, and p =2.65e-04, respectively) ( Figure 4C ).",
+      "char_offset": 25931
+    },
+    {
+      "type": "paragraph",
+      "text": "Grain compositional analysis of two malt barley genotypes across four key germination stages (hours after imbibition, HAI). Total starch (A) is expressed as a percentage per gram of wholemeal. Free glucose (B) is expressed in milligrams per gram wholemeal. Total amylase activity (C) is expressed in ceralpha units (CU) per gram wholemeal. The data are presented as the mean \u00b1 SD (n = 3 independent technical replicates). Statistical significance was analyzed using one-way ANOVA multiple comparisons followed by a t-test. Asterisks indicate significant differences among the time point (*p<0.05; **p<0.01; ***p<0.001; ****p<0.0001).",
+      "char_offset": 26973
+    },
+    {
+      "type": "paragraph",
+      "text": "This study explored the proteome and composition of two malting barley genotypes, demonstrating differences in the proteome as measured across controlled germination. The IGB1467 barley genotype demonstrates a more rapid proteome alteration in response to controlled germination with earlier protein abundance changes seen from 24 to 48 HAI, whereas Flinders demonstrates greater changes from 48 to 72 HAI ( Figure 1 ; Supplementary Figure S2 ). These findings further contribute to the previously described malting phenotypes and support the hypothesis that IGB1467 demonstrates efficient protein hydrolysis requiring less moisture in contrast to Flinders with slower germination and greater water uptake.",
+      "char_offset": 27608
+    },
+    {
+      "type": "paragraph",
+      "text": "Proteome exploration uncovered several key protein groups responsible for metabolic advantage via alternate modulation between the genotypes in adaptive tolerance to low-O 2, where IGB1467 demonstrated less sensitivity than Flinders under low-O 2 conditions. The steep, during controlled germination, is known to enforce periods of O 2 deficiency due to submergence regardless of steeping conditions ( Wilhelmson et al., 2006 ). In addition, attempts to aerate the water are inefficient due to the poor solubility of oxygen in water ( Kelly and Briggs, 1992 ). Therefore, we hypothesize that observed differences in IGB1467 and Flinders ( Figures 2 ; 3 , Supplementary Figure S3 ) are related to varied metabolic adaptations (\u2018tolerance\u2019) during controlled germination to low-O 2 conditions with the regulation of previously reported submergence-responsive pathways ( Luan et al., 2018 ; Borrego-Benjumea et al., 2020 ; Luan et al., 2022 ). The observed difference in metabolic modulation of protein groups under low-O 2 enforced by submergence during controlled germination saw varied patterns between IGB1467 and Flinders related to signaling, protein synthesis, energy metabolism, including glycolysis, fermentation, and finally, the impacts of low-O 2 metabolic activity and generation of reactive oxygen species. Our results serve as a foundation revealing physiological changes related to water usage of the malting barley grain during the controlled germination process.",
+      "char_offset": 28316
+    },
+    {
+      "type": "paragraph",
+      "text": "In plants, ethylene plays a central role in signaling and modifying responses to low-O 2 ( Bailey-Serres et al., 2012 ). We found GO terms related to signaling ( Figure 2 , cluster III) that include the ethylene response factor (ERF-VII; APETALA2/Ethylene Response Factor; AP2/ERF ) and the hypoxia induced protein (HIG1). Under submerged conditions, O 2 deficiency reduces pyruvate dehydrogenase (PDH) expression, limiting the entry of acetyl-CoA into the mitochondria required for aerobic oxidative phosphorylation ( Shingaki-Wells et al., 2014 ). This leads to an energy crisis and the expression of ERF-VII, known to enhance hypoxia survival in barley ( Mendiondo et al., 2016 ). ERF-VII is a transcription factor that functions as a master regulator of low-O 2 response, controlled by the cysteine branch of the N-degron pathway ( Licausi et al., 2011 ; van Dongen and Licausi, 2015 ). During normoxia conditions, ERF-VII is degraded via the ubiquitin-proteasome pathway. However, in hypoxic conditions, ERF-VII is stabilized and protected from proteolysis, allowing for the transcription of hypoxia genes ( Fukao et al., 2019 ; Loreti and Perata, 2020 ). The ERF-VII transcription factor subfamily is also a master activator of the hypoxia-responsive promotor element (HRPE), which up-regulates a core set of conserved hypoxia-responsive genes (HRG) ( Loreti, E., and Perata, 2020 ; Licausi et al., 2010 ; Gasch et al., 2015 ), such as pyruvate decarboxylase (PDC), and alcohol dehydrogenase (ADH) ( Mustroph et al., 2010 ; Gibbs et al., 2011 ; Giuntoli et al., 2017 ) discussed in further sections. Both genotypes were responsive to hypoxic conditions with an observed decrease in PDH and mitochondrial respiratory chain protein abundance and an increased abundance of HIG1 and ERF-VII ( Figure 3A ; Supplementary Figure S3 ). IGB1467 demonstrated a greater abundance of ERF-VII earlier than Flinders ( Figure 3 ; Supplementary Figure S3 ). This finding suggested that IGB1467 and Flinders both experienced hypoxic conditions enforced by submergence during steeping, sharing similar patterns of HIG1. However, IGB1467 demonstrates earlier low-O 2 sensing via ERF-VII, possibly contributing to a more responsive and adaptable metabolism. Further studies are required to explore the possible difference signaling cascades involved in the differential, adaptive response mechanism seen in IGB1467 and Flinders.",
+      "char_offset": 29795
+    },
+    {
+      "type": "paragraph",
+      "text": "During the controlled germination process, germinating grain lacks photosynthesis and mineral absorption, relying mainly on stored energy and nutrients to maintain normal seed germination. We found several protein GO terms related to storage reserve mobilization ( Figure 2 , cluster I), for example, \u2018Macromolecule metabolic process,\u2019 including \u2018Proteolysis.\u2019 These terms shared similar abundance patterns between the two genotypes, with low abundance at 0 HAI and increasing over time. However, IGB1467 demonstrates an earlier increase and greater overall abundance. Previous findings on enzymes that aid in the breakdown of these reserves were found to be activated, releasing energy and enzymes, for example, \u03b2-amylase, necessary for endosperm modification and embryo growth ( Shewry and Halford, 2002 ; Bewley et al., 2013 ; Cai et al., 2013 ; Wang et al., 2015 ). Our findings confirm an increased abundance of proteins related to storage reserve mobilization, such as proteases, after imbibition and reassumption of metabolism in both genotypes. However, IGB1467 demonstrates a greater abundance of related proteins that may contribute to increased storage reserve mobilization and modification efficiency.",
+      "char_offset": 32211
+    },
+    {
+      "type": "paragraph",
+      "text": "Protein synthesis is crucial to storage reserve mobilization, where enzyme activation and de novo synthesis of proteins are required for endosperm modification ( Sano et al., 2020 ). It has been previously reported that mature, dry grain can rapidly restart metabolic activity, including protein synthesis, after imbibition ( Bai et al., 2020 ) by utilizing \u2018Long-life mRNAs\u2019 that, upon imbibition, meet the de novo protein biosynthesis ( He et al., 2011 ). Our results demonstrated that IGB1467 showed a higher abundance of proteins involved in \u2018RNA biosynthesis processes\u2019 and \u2018Ribosomal activities\u2019 ( Figure 2 , cluster V), crucial for de novo protein synthesis during controlled germination. The significantly higher abundance of these proteins in IGB1467 may allow for a faster adaptive response to imbibition and stress response to low-O 2 conditions. This leads to elevated protein synthesis and enzyme production to readily mobilize storage reserve during controlled germination. Our findings are supported by earlier studies, suggesting that the synthesis of new proteins and continued gene expression are essential for the acclimation of rice ( Oryza sativa L.) coleoptiles to low-O 2 conditions ( Huang et al., 2005 ; Lasanthi-Kudahettige et al., 2007 ).",
+      "char_offset": 33426
+    },
+    {
+      "type": "paragraph",
+      "text": "During controlled germination, the grain experiences a strong energy and carbon availability decline. Previous studies in rice found some accession can germinate under low-O 2 conditions but require large reserves of readily available sugars to do so ( Magneschi and Perata, 2009 ; Loreti et al., 2017 ; Cho et al., 2021 ). We found that IGB1467 had a greater amount of total starch in the grain, significantly decreasing over the early stages of controlled germination, in contrast to Flinders ( Figure 4A ). To help maintain supply with increased carbon demand under low-O 2 conditions requires an increase in the conversion of starch to glucose involving amylases, for example, \u03b1- and \u03b2-amylase, as seen in anoxia-tolerant rice ( Lasanthi-Kudahettige et al., 2007 ). We found greater amylase abundance in IGB1467 ( Figure 3E ), which may have contributed to the increased conversion of starch to glucose, resulting in the earlier increased abundance of free glucose also seen in IGB1467 ( Figure 4B ). However, we did not see a similar increase in compositional \u03b1-amylase activity ( Figure 4C ). This suggests that rather than \u03b1-amylase, \u03b2-amylase activity may contribute to starch degradation and increased free glucose content. Additionally, \u03b2-amylase is known to accumulate in the endosperm in both free and bound forms ( Ziegler, 1999 ). During seed germination, bound \u03b2-amylase is released in a soluble active form by proteolysis, resulting in a transient increase in total \u03b2-amylase activity ( Sopanen and Lauri\u00e8re, 1989 ). Therefore, we can further suggest that the increased proteolysis of IGB1467 contributed to a greater abundance of released \u03b2-amylase. Previous studies have shown that greater amylase abundance can be induced in response to low-O 2 during germination and that expression changes between 24 and 72 HAI positively correlate to embryo growth ( Ismail et al., 2009 ; Hsu and Tung, 2017 ). This finding suggests that IGB1467, in contrast to Flinders, had greater available free glucose content for glycolysis and energy production via ethanolic fermentation, contributing to the observed increase in modification efficiency.",
+      "char_offset": 34693
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to starch degradation, SUS is a key enzyme for channeling sucrose into the glycolysis pathway. Under hypoxic conditions, the conversion of sucrose to fructose switches from invertase to SUS, as seen in anoxia-tolerant rice ( Lasanthi-Kudahettige et al., 2007 ; Magneschi and Perata, 2009 ; Loreti et al., 2017 ), helping to maintain supply with increased carbon demand ( Stark et al., 1992 ; Kumutha et al., 2008 ). Both genotypes demonstrated an increased abundance of SUS in the earlier time points ( Figure 4E ). In IGB1467, SUS was present at 24 HAI and increased in abundance over time, whereas Flinders had an increased SUS in the grain (0 HAI) that decreased during controlled germination. In low-O 2 environments, over-expression of SUS genes in barley conferred tolerance to hypoxic stress ( Luan et al., 2022 ), suggesting the increase in IGB1467 supports greater tolerance to low-O 2 during controlled germination.",
+      "char_offset": 36846
+    },
+    {
+      "type": "paragraph",
+      "text": "Under hypoxic conditions, the glycolysis pathway is upregulated. We found many proteins involved in catalyzing the conversion of glucose to pyruvate via glycolysis with shared abundance patterns ( Figure 3B ), suggesting both genotypes undertook glycolysis for energy production, reported previously in barley ( Borrego-Benjumea et al., 2020 ). Moreover, these results are similar to findings in canola ( Brassica napus L.) under waterlogging stress, with both tolerant and sensitive varieties showing high induction of glycolysis-related genes ( Zou et al., 2015 ). This suggests that glycolysis is a shared response irrespective of tolerance to submergence during controlled germination ( Zou et al., 2015 ). Therefore, the abundance of these proteins was not seen as a key contributor to low-O 2 tolerance between genotypes.",
+      "char_offset": 37785
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to glycolysis, pyrophosphate-dependent phosphofructokinase (PPi-PFK) and pyruvate orthophosphate dikinase (PPDK) proteins demonstrated varied abundance in IGB1467 and Flinders. In IGB1467, we saw a significant increase in PPi-PFK and PPDK ( Figure 3C ). Previous studies in rice found that low-O 2 conditions led to increased expression of PPi-PFK and PPDK and are involved in PPi-linked glycolysis as an alternative energy currency ( Huang et al., 2005 ; Lasanthi-Kudahettige et al., 2007 ; Atwell et al., 2015 ; Hsu and Tung, 2017 ). PPi-PFK plays a role in conserving ATP levels by utilizing PPi generated by PPDK instead of ATP-dependent 6-phosphofructokinase (ATP-PFK) in the glycolytic pathway, conserving ATP ( Gibbs and Greenway, 2003 ; Ferjani et al., 2011 ; Igamberdiev and Kleczkowski, 2021 ). Our findings suggest IGB1467 switched to PPi-linked glycolysis, substituting PPi-PFK for ATP-PFK during glycolysis and increasing ATP yield under low-O 2 conditions. In rice, PPi utilization alleviated the anoxia ATP deficiency to preserve cellular processes, including protein synthesis ( Huang et al., 2005 ). Therefore, we hypothesize this alternate energy source may provide IGB1467 flexibility not seen in Flinders to preserve energy, maintain cellular processes, and support previously discussed protein synthesis for continued grain modification under low-O 2 conditions during controlled germination.",
+      "char_offset": 38614
+    },
+    {
+      "type": "paragraph",
+      "text": "In Flinders, despite the observed increased abundance of PPDK, there was a low abundance of PPi-PFK and a higher abundance of ATP-PFK, suggesting the PPi is used in an alternate pathway to support sucrose (Suc) conversion of UDP-glucose to glucose-1-phosphate (Glc-1-P), which can then be directed toward glycolysis ( Atwell et al., 2015 ). Our results support this hypothesis with Flinders demonstrating an increased abundance of subsequent enzymes, phosphoglucomutase (PGM) and phosphoglucose isomerase (PGI), involved in feeding fructose into the glycolysis pathway ( Figure 3 ). Therefore, it has been demonstrated that PPi can generate equilibrium changes to bypass ATP-dependent metabolism, providing plasticity in the metabolism during the energy crisis of low-O 2 stress during controlled germination ( Igamberdiev and Kleczkowski, 2021 ).",
+      "char_offset": 40041
+    },
+    {
+      "type": "paragraph",
+      "text": "The final product of glycolysis is NADH and pyruvate, which are transferred to the TCA cycle via PDH under normoxic conditions to create more ATP. However, under controlled germination conditions, we saw a decrease in mitochondrial PDH in both IGB1467 and Flinders ( Figure 3D ; Supplementary Figure S3 ). As discussed earlier, PDH plays an important role in the conversion of pyruvate to acetyl-CoA for entry into the TCA, therefore limiting carbon entering the TCA cycle and re-routing energy metabolism ( Bailey-Serres and Voesenek, 2008 ; Zhang et al., 2023 ). This finding suggests that both genotypes experienced hypoxic conditions and that adaptive flexibility within the controlled germination pivots on the pyruvate metabolism.",
+      "char_offset": 40890
+    },
+    {
+      "type": "paragraph",
+      "text": "The pyruvate metabolism under low-O 2 involves three pathways: (1) alanine synthesis, (2) lactic acid fermentation, and (3) ethanol fermentation ( Figure 3F ). While these three pathways utilize pyruvate as a substrate, ethanolic and lactic acid fermentation regenerate NAD + via PDC and lactate dehydrogenase (LDH). Whereas alanine synthesis via alanine aminotransferase (AlaAT) stores carbon and nitrogen ( Ricoult et al., 2005 ). We found several proteins in the pyruvate metabolism. LDH was low in IGB1467 and Flinders in the early stages of controlled germination, with a greater abundance of PDC and AlaAT, respectively. This finding suggests that in both genotypes, pyruvate was diverted away from lactic acid fermentation, and different genotype-specific re-rerouting strategies were employed under low-O 2 stress of controlled germination.",
+      "char_offset": 41628
+    },
+    {
+      "type": "paragraph",
+      "text": "AlaAT is responsible for increased alanine synthesis detected in both genotypes at 24 HAI with greater abundance in IGB1467. However, abundance in IGB1467 decreased from 24 to 48 HAI, not seen in Flinders ( Figure 3F ). This suggests increased carbon/nitrogen storage in Flinders ( Diab and Limami, 2016 ). Ricoult, Cliquet ( Ricoult et al., 2005 ) found in Medicago ( Medicago truncatula ), AlaAT expression increased under anoxic conditions, competing with ethanolic fermentation for pyruvate to increase alanine synthesis. Alanine accumulation contributed to anoxia tolerance, saving carbon as stored nitrogen and limiting the accumulation of the toxic compound acetaldehyde ( Ricoult et al., 2005 ). In addition, during post-hypoxia recovery, stored carbon can be mobilized to produce pyruvate via the reverse reaction of AlaAT/glutamate dehydrogenase and funneled into the TCA cycle ( Diab and Limami, 2016 ). This finding suggests that in contrast to IGB1467, Flinders rerouted pyruvate to alanine instead of ethanolic fermentation. In addition, this strategy may aid in energy production upon the reassumption of aerobic respiration during germination. Overall, our data support the hypothesis that genotype-specific re-routing strategies in the pyruvate metabolism are key to sensing low-O 2 and facilitating adaptability in response to low-O 2 conditions during controlled germination.",
+      "char_offset": 42478
+    },
+    {
+      "type": "paragraph",
+      "text": "IGB1467 demonstrated ethanol fermentation with a greater abundance of PDC involved in turning pyruvate into acetaldehyde, which is then reduced to ethanol by ADH ( Ismond et al., 2003 ; Shingaki-Wells et al., 2014 ; Ventura et al., 2020 ). These enzymes are among the \u2018core hypoxia response\u2019 genes ( Lee et al., 2014 ; Mustroph et al., 2014 ) known to be essential for submergence tolerance in barley under hypoxic conditions caused by waterlogging stress ( Zhang et al., 2016 ; Zhang et al., 2017 ; Luan et al., 2018 ; Luan et al., 2022 ). Our study found that ADH had greater abundance in IGB1467 compared to Flinders ( Figure 3F ). The increased abundance of PDC at 24 HAI may have contributed to the increased abundance of ADH also seen at 24 and 48 HAI in IGB1467. The observation that IGB1467 had a greater abundance and earlier onset of essential anaerobic proteins PDC and ADH suggests switching to the fermentation metabolism to maintain energy via glycolysis. Additionally, we can hypothesize that this alternative energy supply could further support greater protein synthesis and increased protein hydrolysis observed in IGB1467 seen to a lesser extent in Flinders.",
+      "char_offset": 43874
+    },
+    {
+      "type": "paragraph",
+      "text": "In contrast to fermentation, Flinders demonstrated differential modulation of pyruvate metabolism, as seen in the significantly increased abundance of phosphoenolpyruvate carboxylase (PEPC) not seen in IGB1467 ( Figure 3G ). PEPC is at the core of plant carbon fixation, assimilating CO 2 during crassulacean acid metabolism (CAM) photosynthesis ( O'Leary et al., 2011 ). However, PEPC also plays a role in several non-photosynthetic functions. For example, when coupled with malate dehydrogenase (MDH) and NAD + -dependent malic enzyme (NAD-ME), it forms an alternative flux that can function in place of pyruvate kinase (PK) to generate pyruvate ( Sweetlove et al., 2010 ; O'Leary et al., 2011 ) as seen in Flinders. However, previous findings in rice have found a strong suppression of PEPC in hypoxic-tolerant lines compared to a low-level reduction in hypoxia-sensitive lines ( Lasanthi-Kudahettige et al., 2007 ; Hsu and Tung, 2017 ). Hsu and Tung (2017) hypothesized that because PEPC converts PEP into oxaloacetate rather than pyruvate, there is insufficient pyruvate for ethanol production, bypassing alcohol fermentation and contributing to increased sensitivity to low-O 2 conditions ( Hsu and Tung, 2017 ). This redirection of pyruvate was evident in Flinders, where we saw a significantly lower abundance of fermentation-related proteins than IGB1467. This finding further supports Flinders\u2019s sensitivity to low-O 2, where previous studies have demonstrated that the abundance of enzymes participating in fermentative ethanol production involving PDC and ADH are significantly higher in \u2018hypoxia tolerant\u2019 germinating rice seeds compared to \u2018hypoxia sensitive\u2019 lines ( Ismail et al., 2009 ; Miro et al., 2017 ). Therefore, this suggests impaired ethanol production in Flinders leads to hypoxic sensitivity due to insufficient energy generation for embryo growth via transcriptional regulation ( Hsu and Tung, 2017 ).",
+      "char_offset": 45052
+    },
+    {
+      "type": "paragraph",
+      "text": "Submergence and low-O 2 stress experienced during controlled germination leads to the accumulation of reactive oxygen species (ROS). Under oxygen deficiency, disruption of the electron transport chain in mitochondria results in excess hydrogen peroxide (H 2 O 2 ), and increased ROS generation causing cell oxidative damage ( Fukao and Bailey-Serres, 2004 ; Shabala et al., 2014 ; Jacoby et al., 2018 ). As seen in previous studies of barley under waterlogging conditions and in the early stages of malting ( Gill et al., 2019 ; Mahalingam et al., 2021 ). However, an effective antioxidant metabolism can alleviate the harmful impacts of ROS ( Apel and Hirt, 2004 ; Mittler, 2017 ) aided by several antioxidant enzymes, for example, superoxide dismutase (SOD), peroxidase (POD), ascorbate peroxide (APX) and catalase (CAT) ( Blokhina et al., 2003 ). In our study, 32 proteins involved in \u2018Cellular oxidant detoxification\u2019 activity were found with contrasting abundance patterns between the two genotypes ( Figure 2 , cluster II), IGB1467 having low abundance and Flinders having significantly greater abundance. The proteins involved in this cluster included APX and POD, most of which were related to peroxidases (24 proteins, 85% of 28). Luan, Guo ( Luan et al., 2020 ) found that over-expression of barley HvERF2.11 in Arabidopsis ( Arabidopsis thaliana ) triggered the increased expression level of antioxidant enzyme biosynthesis genes ( AtSOD1 , AtPOD1 ) and ethylene biosynthesis gene ( AtACO1 ). They conferred resistance to waterlogging stress (Luan et al., 2020). This suggests that although IGB1467 demonstrates greater tolerance to low-O 2 conditions, the grain may not have the protective functions that exist in Flinders for ROS detoxification, which may have an undesirable impact on malt quality. However, this will require further investigation to confirm the ROS production and specific effects of antioxidant enzyme activities and their influence on malt quality.",
+      "char_offset": 46983
+    },
+    {
+      "type": "paragraph",
+      "text": "In this study, we explored the proteomes of two malting barley genotypes with different malting phenotypes during controlled germination. In contrast to Flinders, we identified differences in protein abundance patterns that suggest IGB1467 has better adaptability or \u2018less sensitivity\u2019 to low-O 2 conditions experienced during submergence of controlled germination, contributing to more efficient endosperm protein hydrolysis at lower grain moisture. Although the treatments were varied, it was evident that both genotypes experienced low-O 2 conditions with an increase in ethylene and hypoxic response signaling. The stress induced by this O 2 deficiency led to various metabolic adaptations and rerouting carbohydrate metabolism, where the continued efficient proteolysis in IGB1467 may be attributed to increased protein synthesis (seen in the mature grain) and a switch to fermentation and PPi-linked energy pathways to support the boosted protein synthesis and overall modification. However, the greater low-O 2 tolerance seen in IGB1467 is likely a result of several interaction factors at the molecular, biochemical, and anatomical levels. Further studies are required to understand the ethylene signaling pathway and the potential impacts of reduced antioxidant activity seen in IGB1467 on malt quality. Our findings shed light on the consequence submergence during controlled germination, providing insight into mechanisms for low-O 2 sensing in barley grain, the underestimated role of the fermentative metabolism in efficient grain modification, highlighting possible adaptive metabolic traits as breeding targets for optimizing malting practices.",
+      "char_offset": 48967
+    },
+    {
+      "type": "paragraph",
+      "text": "The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: CSIRO Data Access Portal Accession id: https://doi.org/10.25919/ypsj-4d27 .",
+      "char_offset": 50628
+    },
+    {
+      "type": "paragraph",
+      "text": "CO\u2019L: Conceptualization, Data curation, Formal Analysis, Investigation, Methodology, Validation, Visualization, Writing \u2013 original draft. AJ: Conceptualization, Methodology, Resources, Supervision, Writing \u2013 review & editing. MN-W: Methodology, Resources, Supervision, Validation, Writing \u2013 review & editing. HD: Conceptualization, Methodology, Resources, Supervision, Writing \u2013 review & editing. DM: Conceptualization, Funding acquisition, Resources, Supervision, Writing \u2013 review & editing. J-PR: Conceptualization, Funding acquisition, Methodology, Resources, Supervision, Writing \u2013 review & editing. MC: Conceptualization, Funding acquisition, Methodology, Project administration, Resources, Supervision, Writing \u2013 review & editing.",
+      "char_offset": 50864
+    },
+    {
+      "type": "paragraph",
+      "text": "The author(s) declare financial support was received for the research, authorship, and/or publication of this article. The research is financially supported by an Industry Ph.D. Scholarship sponsored by Edith Cowan University (ECU), InterGrain Pty Ltd, and the Commonwealth Scientific and Industrial Research Organization (CSIRO), Agriculture and Food (G1004654) (C.E.O.). The research was supported by the Australian Research Council Centre of Excellence for Innovations in Peptide and Protein Science (CE200100012) (M.N. and A.J.). The authors declare that this study received funding from InterGrain Pty. Ltd. The funder had the following involvement in the study: provided malting barley samples.",
+      "char_offset": 51602
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors thank the editor and reviewers for their comments. We want to thank Mr. Jon Luff from Pilot Malting Australia for his advice and expertise in pilot malting. We would also like to thank Ms. Jeni Pritchard from CSIRO for her technical knowledge and assistance in the compositional analysis. The authors would like to acknowledge InterGrain Pty Ltd for providing the breeding lines and facilitating this research collaboration while understanding the need for unbiased scientific exploration.",
+      "char_offset": 52304
+    },
+    {
+      "type": "paragraph",
+      "text": "Author DM was employed by the company InterGrain Pty. Ltd.",
+      "char_offset": 52807
+    },
+    {
+      "type": "paragraph",
+      "text": "The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+      "char_offset": 52867
+    },
+    {
+      "type": "paragraph",
+      "text": "The author(s) declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision.",
+      "char_offset": 53051
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+      "char_offset": 53227
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpls.2023.1305381/full#supplementary-material",
+      "char_offset": 53575
+    },
+    {
+      "type": "paragraph",
+      "text": "ADH, alcohol dehydrogenase; AlaAT, alanine aminotransferase; ALDH, aldehyde dehydrogenase; AMY, \u03b1-amylase; APX, ascorbate peroxidase; BMY, \u03b2-amylase; CAM, crassulacean acid metabolism; CS, citrate synthase; DAP, differentially abundant protein; DDA, data-dependent acquisition; DIA, data-independent acquisition; ERF-VII, ethylene response factor; Fructose-1,6P2, fructose 1,6-bisphosphate; Fructose-6P, fructose-6-phosphate; FRK, fructokinase; Glucose-1P, glucose-1-phosphate; Glucose-6P, glucose-6-phosphate; HAI, hours after imbibition; HIG, hypoxia induced protein; HK, hexokinase; HRPE, hypoxia response promoter element; HRG, hypoxia response gene; KI, kolbach index; LC-MS/MS, liquid chromatography tandem mass spectrometry; LDH, lactate dehydrogenase; MS, mass spectrometry; PCK, phosphoenolpyruvate carboxykinase; PDC, pyruvate decarboxylase; PDH, pyruvate dehydrogenase; PEPC, phosphoenolpyruvate carboxylase; PEP, phosphoenolpyruvate; PGK, phosphoglycerate kinase; PGM, phosphoglucomutase; PFK, ATP-dependent phosphate dehydrogenase; PFP, PPi-dependent phosphofructokinase; PGI, phosphoglucose isomerase; PK, pyruvate kinase; PPDK, pyruvate phosphate dikinase; PYR, pyruvate; MDH, malate dehydrogenase; MS, mass spectrometry; OAA, oxaloacetate; SUS, sucrose synthase; SWATH, sequential window acquisition of all theoretical spectra; UGPase, UDP-glucose pyrophosphorylase.",
+      "char_offset": 53735
+    },
+    {
+      "type": "paragraph",
+      "text": "2.. ^ http://eggnog-mapper.embl.de/ ( Cantalapiedra et al., 2021 )",
+      "char_offset": 55119
+    },
+    {
+      "type": "paragraph",
+      "text": "3.. ^ http://geneontology.org/docs/go-enrichment-analysis/ ( GO-Consortium, 2021 )",
+      "char_offset": 55187
+    },
+    {
+      "type": "paragraph",
+      "text": "4.. ^ https://www.uniprot.org/id-mapping ( UniProt-Consortium, 2022 )",
+      "char_offset": 55271
+    },
+    {
+      "type": "paragraph",
+      "text": "5.. ^ https://ics.hutton.ac.uk/eorna/index.html ( Rapazote-Flores et al., 2019 )",
+      "char_offset": 55342
+    },
+    {
+      "type": "paragraph",
+      "text": "6.. ^ https://ics.hutton.ac.uk/eorna/download.html",
+      "char_offset": 55424
+    },
+    {
+      "type": "paragraph",
+      "text": "7.. ^ https://www.kegg.jp/kegg/pathway.html ( Kanehisa et al., 2023 )",
+      "char_offset": 55476
+    },
+    {
+      "type": "paragraph",
+      "text": "8.. ^ http://bioinformatics.sdstate.edu/idep96/ ( Ge et al., 2018 )",
+      "char_offset": 55547
+    },
+    {
+      "type": "paragraph",
+      "text": "9.. ^ https://software.broadinstitute.org/morpheus/",
+      "char_offset": 55616
+    },
+    {
+      "type": "paragraph",
+      "text": "Apel K. Hirt H. ( 2004 ). Reactive oxygen species: metabolism, oxidative stress, and signaling transduction . Ann. Rev. Plant Biol. 55 , 373 . doi: 10.1146/annurev.arplant.55.031903.141701",
+      "char_offset": 55669
+    },
+    {
+      "type": "paragraph",
+      "text": "Atwell B. J. Greenway H. Colmer T. D. ( 2015 ). Efficient use of energy in anoxia-tolerant plants with focus on germinating rice seedlings . New Phytol. 206 ( 1 ), 36 \u2013 56 . doi: 10.1111/nph.13173",
+      "char_offset": 55859
+    },
+    {
+      "type": "paragraph",
+      "text": "Bahmani M. O\u2019Lone C. E. Juh\u00e1sz A. Nye-Wood M. Dunn H. Edwards I. B. et al . ( 2021 ). Application of mass spectrometry-based proteomics to barley research . J. Agric. Food Chem. 69 ( 31 ), 8591 \u2013 8609 . doi: 10.1021/acs.jafc.1c01871",
+      "char_offset": 56057
+    },
+    {
+      "type": "paragraph",
+      "text": "Bai B. van der Horst S. Cordewener J. H. G. America T. Hanson J. Bentsink L. ( 2020 ). Seed-stored mRNAs that are specifically associated to monosomes are translationally regulated during germination . Plant Physiol. 182 ( 1 ), 378 \u2013 392 . doi: 10.1104/pp.19.00644",
+      "char_offset": 56291
+    },
+    {
+      "type": "paragraph",
+      "text": "Bailey-Serres J. Fukao T. Gibbs D. J. Holdsworth M. J. Lee S. C. Licausi F. et al . ( 2012 ). Making sense of low oxygen sensing . Trends Plant Sci. 17 ( 3 ), 129 \u2013 138 . doi: 10.1016/j.tplants.2011.12.004",
+      "char_offset": 56557
+    },
+    {
+      "type": "paragraph",
+      "text": "Bailey-Serres J. Voesenek L. A. C. J. ( 2008 ). Flooding stress: acclimations and genetic diversity . Annu. Rev. Plant Biol. 59 ( 1 ), 313 \u2013 339 . doi: 10.1146/annurev.arplant.59.032607.092752",
+      "char_offset": 56764
+    },
+    {
+      "type": "paragraph",
+      "text": "Bewley J. D. Bradford K. J. Hilhorst H. W. M. Nonogaki H. ( 2013 ). \u201c Mobilization of Stored Reserves ,\u201d in Seeds: Physiology of Development, Germination and Dormancy , 3rd Edition ( New York, NY : Springer New York ), 183 \u2013 246 .",
+      "char_offset": 56958
+    },
+    {
+      "type": "paragraph",
+      "text": "Blokhina O. Virolainen E. Fagerstedt K. V. ( 2003 ). Antioxidants, oxidative damage and oxygen deprivation stress: A review . Ann. Bot. 91 ( 2 ), 179 \u2013 194 . doi: 10.1093/aob/mcf118",
+      "char_offset": 57190
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrego-Benjumea A. Carter A. Tucker J. R. Yao Z. Xu W. Badea A. ( 2020 ). Genome-wide analysis of gene expression provides new insights into waterlogging responses in barley ( Hordeum vulgare L.) . Plants 9 ( 2 ), 240 . doi: 10.3390/plants9020240",
+      "char_offset": 57373
+    },
+    {
+      "type": "paragraph",
+      "text": "Bose U. Broadbent J. A. Byrne K. Blundell M. J. Howitt C. A. Colgrave M. L. ( 2020 ). Proteome analysis of hordein-null barley lines reveals storage protein synthesis and compensation mechanisms . J. Agric. Food Chem. 68 ( 20 ), 5763 \u2013 5775 . doi: 10.1021/acs.jafc.0c01410",
+      "char_offset": 57622
+    },
+    {
+      "type": "paragraph",
+      "text": "Briggs D. E. ( 2002 ). Malt modification\u2014a century of evolving views . J. Inst. Brew. 108 ( 4 ), 395 \u2013 405 . doi: 10.1002/j.2050-0416.2002.tb00567.x",
+      "char_offset": 57896
+    },
+    {
+      "type": "paragraph",
+      "text": "Briggs D. E. Brookes P. A. Stevens R. Boulton C. ( 2004 ). Brewing: Science and Practice 1st ed. ( Woodhead Publishing ). Vol. 108 .",
+      "char_offset": 58046
+    },
+    {
+      "type": "paragraph",
+      "text": "Cai S. Yu G. Chen X. Huang Y. Jiang X. Zhang G. et al . ( 2013 ). Grain protein content variation and its association analysis in barley . BMC Plant Biol. 13 ( 1 ), 35 . doi: 10.1186/1471-2229-13-35",
+      "char_offset": 58180
+    },
+    {
+      "type": "paragraph",
+      "text": "Campbell J. A. Hansen R. W. Wilson J. R. ( 1999 ). Cost-effective colorimetric microtitre plate enzymatic assays for sucrose, glucose and fructose in sugarcane tissue extracts . J. Sci. Food Agric. 79 ( 2 ), 232 \u2013 236 . doi: 10.1002/(SICI)1097-0010(199902)79:2<232::AID-JSFA176>3.0.CO;2-V",
+      "char_offset": 58380
+    },
+    {
+      "type": "paragraph",
+      "text": "Cantalapiedra C. P. Hern\u00e1ndez-Plaza A. Letunic I. Bork P. Huerta-Cepas J. ( 2021 ). Eggnog-mapper V2: functional annotation, orthology assignments, and domain prediction at the metagenomic scale . Mol. Biol. Evol. 38 ( 12 ), 5825 \u2013 5829 . doi: 10.1093/molbev/msab293",
+      "char_offset": 58670
+    },
+    {
+      "type": "paragraph",
+      "text": "Chandra G. S. Proudlove M. O. Baxter E. D. ( 1999 ). The structure of barley endosperm \u2013 an important determinant of malt modification . J. Sci. Food Agric. 79 ( 1 ), 37 \u2013 46 . doi: 10.1002/(SICI)1097-0010(199901)79:1<37::AID-JSFA168>3.0.CO;2-X",
+      "char_offset": 58938
+    },
+    {
+      "type": "paragraph",
+      "text": "Cho H. Y. Loreti E. Shih M. C. Perata P. ( 2021 ). Energy and sugar signaling during hypoxia . New Phytol. 229 ( 1 ), 57 \u2013 63 . doi: 10.1111/nph.16326",
+      "char_offset": 59184
+    },
+    {
+      "type": "paragraph",
+      "text": "Colgrave M. L. Byrne K. Blundell M. Howitt C. A. ( 2016 ). Identification of barley-specific peptide markers that persist in processed foods and are capable of detecting barley contamination by LC-MS/MS . J. Proteomics 147 , 169 \u2013 176 . doi: 10.1016/j.jprot.2016.03.045",
+      "char_offset": 59336
+    },
+    {
+      "type": "paragraph",
+      "text": "Daneri-Castro S. N. Chandrasekar B. Grosse-Holz F. M. van der Hoorn R. A. Roberts T. H. ( 2016 a). Activity-based protein profiling of hydrolytic enzymes induced by gibberellic acid in isolated aleurone layers of malting barley . FEBS Lett. 590 ( 17 ), 2956 \u2013 2962 . doi: 10.1002/1873-3468.12320",
+      "char_offset": 59607
+    },
+    {
+      "type": "paragraph",
+      "text": "Daneri-Castro S. N. Svensson B. Roberts T. H. ( 2016 b). Barley germination: spatio-temporal considerations for designing and interpreting \u2018Omics\u2019 Experiments . J. Cereal Sci. 70 , 29 \u2013 37 . doi: 10.1016/j.jcs.2016.05.012",
+      "char_offset": 59904
+    },
+    {
+      "type": "paragraph",
+      "text": "Demichev V. Messner C. B. Vernardis S. I. Lilley K. S. Ralser M. ( 2020 ). DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput . Nat. Methods 17 ( 1 ), 41 \u2013 44 . doi: 10.1038/s41592-019-0638-x",
+      "char_offset": 60127
+    },
+    {
+      "type": "paragraph",
+      "text": "Diab H. Limami A. M. ( 2016 ). Reconfiguration of N metabolism upon hypoxia stress and recovery: roles of alanine aminotransferase (AlaAT) and glutamate dehydrogenase (GDH) . Plants 5 ( 2 ), 25 . doi: 10.3390/plants5020025",
+      "char_offset": 60370
+    },
+    {
+      "type": "paragraph",
+      "text": "Ferjani A. Segami S. Horiguchi G. Muto Y. Maeshima M. Tsukaya H. ( 2011 ). Keep an eye on PPi: the vacuolar-type H+-pyrophosphatase regulates postgerminative development in arabidopsis . Plant Cell 23 ( 8 ), 2895 \u2013 2908 . doi: 10.1105/tpc.111.085415",
+      "char_offset": 60594
+    },
+    {
+      "type": "paragraph",
+      "text": "Fox G. Panozzo J. Li C. D. Lance C. M. Inkerman P. A. Henry R. ( 2003 ). Molecular basis of barley quality . Aust. J. Agric. Res. 54 , 1081 \u2013 1101 . doi: 10.1071/AR02237",
+      "char_offset": 60845
+    },
+    {
+      "type": "paragraph",
+      "text": "Fox G. P. Bettenhausen H. M. ( 2023 ). Variation in quality of grains used in malting and brewing . Front. Plant Sci. 14 , 1172028 . doi: 10.3389/fpls.2023.1172028",
+      "char_offset": 61016
+    },
+    {
+      "type": "paragraph",
+      "text": "Fox G. P. Watson-Fox L. ( 2021 ). \"1.36 - Barley: Current Understanding of \u2018Omics Data on Quality,\" in Comprehensive Foodomics . Ed. A. Cifuentes (Elsevier), 513 \u2013 527 .",
+      "char_offset": 61181
+    },
+    {
+      "type": "paragraph",
+      "text": "Frankenfield A. M. Ni J. Ahmed M. Hao L. ( 2022 ). Protein contaminants matter: building universal protein contaminant libraries for DDA and DIA proteomics . J. Proteome Res. 21 ( 9 ), 2104 \u2013 2113 . doi: 10.1021/acs.jproteome.2c00145",
+      "char_offset": 61352
+    },
+    {
+      "type": "paragraph",
+      "text": "Fukao T. Bailey-Serres J. ( 2004 ). Plant responses to hypoxia \u2013 is survival a balancing act ? Trends Plant Sci. 9 ( 9 ), 449 \u2013 456 . doi: 10.1016/j.tplants.2004.07.005",
+      "char_offset": 61587
+    },
+    {
+      "type": "paragraph",
+      "text": "Fukao T. Barrera-Figueroa B. E. Juntawong P. Pe\u00f1a-Castro J. M. ( 2019 ). Submergence and waterlogging stress in plants: A review highlighting research opportunities and understudied aspects . Front. Plant Sci. 10 , 340 . doi: 10.3389/fpls.2019.00340",
+      "char_offset": 61757
+    },
+    {
+      "type": "paragraph",
+      "text": "Furge K. Dykema K. Dykema M. K. ( 2012 ) GSEABase S. Package \u2018PGSEA\u2019 . Available at: https://bioconductor.riken.jp/packages/3.0/bioc/html/PGSEA.html .",
+      "char_offset": 62008
+    },
+    {
+      "type": "paragraph",
+      "text": "Gasch P. Fundinger M. M\u00fcller J. T. Lee T. Bailey-Serres J. Mustroph A. ( 2015 ). Redundant ERF-VII transcription factors bind to an evolutionarily conserved cis-Motif to regulate hypoxia-responsive gene expression in Arabidopsis . Plant Cell 28 ( 1 ), 160 \u2013 180 . doi: 10.1105/tpc.15.00866",
+      "char_offset": 62160
+    },
+    {
+      "type": "paragraph",
+      "text": "Ge S. X. Son E. W. Yao R. ( 2018 ). iDEP: an integrated web application for differential expression and pathway analysis of RNA-seq data . BMC Bioinf. 19 ( 1 ), 534 . doi: 10.1186/s12859-018-2486-6",
+      "char_offset": 62451
+    },
+    {
+      "type": "paragraph",
+      "text": "Gibbs J. Greenway H. ( 2003 ). Mechanisms of anoxia tolerance in plants. I. Growth, survival and anaerobic catabolism . Funct. Plant Biol. 30 ( 3 ), 353 . doi: 10.1071/pp98095_er",
+      "char_offset": 62650
+    },
+    {
+      "type": "paragraph",
+      "text": "Gibbs D. J. Lee S. C. Md Isa N. Gramuglia S. Fukao T. Bassel G. W. et al . ( 2011 ). Homeostatic response to hypoxia is regulated by the N-end rule pathway in plants . Nature 479 ( 7373 ), 415 \u2013 418 . doi: 10.1038/nature10534",
+      "char_offset": 62830
+    },
+    {
+      "type": "paragraph",
+      "text": "Gill M. B. Zeng F. Shabala L. Zhang G. Yu M. Demidchik V. et al . ( 2019 ). Identification of QTL related to ROS formation under hypoxia and their association with waterlogging and salt tolerance in barley . Int. J. Mol. Sci. 20 ( 3 ), 699 . doi: 10.3390/ijms20030699",
+      "char_offset": 63057
+    },
+    {
+      "type": "paragraph",
+      "text": "Gillet L. C. Navarro P. Tate S. R\u00f6st H. Selevsek N. Reiter L. et al . ( 2012 ). Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: A new concept for consistent and accurate proteome analysis . Mol. Cell. Proteom. 11 ( 6 ), O111.016717 . doi: 10.1074/mcp.O111.016717",
+      "char_offset": 63326
+    },
+    {
+      "type": "paragraph",
+      "text": "Giuntoli B. Licausi F. van Veen H. Perata P. ( 2017 ). Functional balancing of the hypoxia regulators RAP2.12 and HRA1 takes place in vivo in arabidopsis thaliana plants . Front. Plant Sci. 8 , 591 . doi: 10.3389/fpls.2017.00591",
+      "char_offset": 63631
+    },
+    {
+      "type": "paragraph",
+      "text": "GO-Consortium ( 2021 ). The gene ontology resource: enriching a gold mine . Nucleic Acids Res. 49 ( D1 ), D325 \u2013 D334 . doi: 10.1093/nar/gkaa1113",
+      "char_offset": 63861
+    },
+    {
+      "type": "paragraph",
+      "text": "He D. Han C. Yao J. Shen S. Yang P. ( 2011 ). Constructing the metabolic and regulatory pathways in germinating rice seeds through proteomic approach . Proteomics 11 ( 13 ), 2693 \u2013 2713 . doi: 10.1002/pmic.201000598",
+      "char_offset": 64008
+    },
+    {
+      "type": "paragraph",
+      "text": "Hsu S.-K. Tung C.-W. ( 2017 ). Rna-seq analysis of diverse rice genotypes to identify the genes controlling coleoptile growth during submerged germination . Front. Plant Sci. 8 , 762 . doi: 10.3389/fpls.2017.00762",
+      "char_offset": 64225
+    },
+    {
+      "type": "paragraph",
+      "text": "Huang S. Greenway H. Colmer T. D. Millar H. A. ( 2005 ). Protein synthesis by rice coleoptiles during prolonged anoxia: implications for glycolysis, growth and energy utilization . Ann. Bot. 96 ( 4 ), 703 \u2013 715 . doi: 10.1093/aob/mci222",
+      "char_offset": 64440
+    },
+    {
+      "type": "paragraph",
+      "text": "Igamberdiev A. U. Kleczkowski L. A. ( 2021 ). Pyrophosphate as an alternative energy currency in plants . Biochem. J. 478 ( 8 ), 1515 \u2013 1524 . doi: 10.1042/BCJ20200940",
+      "char_offset": 64678
+    },
+    {
+      "type": "paragraph",
+      "text": "Ismail A. M. Ella E. S. Vergara G. V. Mackill D. J. ( 2009 ). Mechanisms associated with tolerance to flooding during germination and early seedling growth in rice ( Oryza sativa ) . Ann. Bot. 103 ( 2 ), 197 \u2013 209 . doi: 10.1093/aob/mcn211",
+      "char_offset": 64847
+    },
+    {
+      "type": "paragraph",
+      "text": "Ismond K. P. Dolferus R. De Pauw M. Dennis E. S. Good A. G. ( 2003 ). Enhanced low oxygen survival in arabidopsis through increased metabolic flux in the fermentative pathway . Plant Physiol. 132 ( 3 ), 1292 \u2013 1302 . doi: 10.1104/pp.103.022244",
+      "char_offset": 65088
+    },
+    {
+      "type": "paragraph",
+      "text": "Izydorczyk M. S. Edney M. ( 2017 ). \"Chapter 9 - Barley: Grain-Quality Characteristics and Management of Quality Requirements,\" in Cereal Grains (Second Edition). Eds. Wrigley C. Batey I. Miskelly D. ( Woodhead Publishing ), 195 \u2013 234 . doi: 10.1016/B978-0-08-100719-8.00009-7",
+      "char_offset": 65333
+    },
+    {
+      "type": "paragraph",
+      "text": "Jacoby R. P. Millar A. H. Taylor N. L. ( 2018 ). \"Mitochondrial Biochemistry: Stress Responses and Roles in Stress Alleviation,\" in Annual Plant Reviews online. Ed Roberts J. A. ( John Wiley & Sons, Ltd. ), 227 \u2013 268 . doi: 10.1002/9781119312994.apr0550",
+      "char_offset": 65611
+    },
+    {
+      "type": "paragraph",
+      "text": "Kanehisa M. Furumichi M. Sato Y. Kawashima M. Ishiguro-Watanabe M. ( 2023 ). KEGG for taxonomy-based analysis of pathways and genomes . Nucleic Acids Res. 51 ( D1 ), D587 \u2013 D592 . doi: 10.1093/nar/gkac963",
+      "char_offset": 65866
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelly L. Briggs D. E. ( 1992 ). Barley maturity and the effects of steep aeration on malting . J. Inst. Brew. 98 ( 4 ), 329 \u2013 334 . doi: 10.1002/j.2050-0416.1992.tb01117.x",
+      "char_offset": 66072
+    },
+    {
+      "type": "paragraph",
+      "text": "Kim S.-Y. Volsky D. J. ( 2005 ). PAGE: parametric analysis of gene set enrichment . BMC Bioinf. 6 ( 1 ), 144 . doi: 10.1186/1471-2105-6-144",
+      "char_offset": 66245
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumutha D. Sairam R. K. Ezhilmathi K. Chinnusamy V. Meena R. C. ( 2008 ). Effect of waterlogging on carbohydrate metabolism in pigeon pea ( Cajanus cajan L.): upregulation of sucrose synthase and alcohol dehydrogenase . Plant Sci. 175 ( 5 ), 706 \u2013 716 . doi: 10.1016/j.plantsci.2008.07.013",
+      "char_offset": 66386
+    },
+    {
+      "type": "paragraph",
+      "text": "Lasanthi-Kudahettige R. Magneschi L. Loreti E. Gonzali S. Licausi F. Novi G. et al . ( 2007 ). Transcript profiling of the anoxic rice coleoptile . Plant Physiol. 144 ( 1 ), 218 \u2013 231 . doi: 10.1104/pp.106.093997",
+      "char_offset": 66677
+    },
+    {
+      "type": "paragraph",
+      "text": "Lee K. W. Chen P. W. Yu S. M. ( 2014 ). Metabolic adaptation to sugar/O2 deficiency for anaerobic germination and seedling growth in rice . Plant Cell Environ. 37 ( 10 ), 2234 \u2013 2244 . doi: 10.1111/pce.12311",
+      "char_offset": 66891
+    },
+    {
+      "type": "paragraph",
+      "text": "Licausi F. Kosmacz M. Weits D. A. Giuntoli B. Giorgi F. M. Voesenek L. A. C. J. et al . ( 2011 ). Oxygen sensing in plants is mediated by an N-end rule pathway for protein destabilization . Nature 479 ( 7373 ), 419 \u2013 422 . doi: 10.1038/nature10536",
+      "char_offset": 67100
+    },
+    {
+      "type": "paragraph",
+      "text": "Licausi F. Van Dongen J. T. Giuntoli B. Novi G. Santaniello A. Geigenberger P. ( 2010 ). HRE1 and HRE2, two hypoxia-inducible ethylene response factors, affect anaerobic responses in Arabidopsis thaliana . Plant J. 62 ( 2 ), 302 \u2013 315 . doi: 10.1111/j.1365-313X.2010.04149.x",
+      "char_offset": 67349
+    },
+    {
+      "type": "paragraph",
+      "text": "Loreti E. Perata P. ( 2020 ). The many facets of hypoxia in plants . Plants 9 ( 6 ), 745 . doi: 10.3390/plants9060745",
+      "char_offset": 67625
+    },
+    {
+      "type": "paragraph",
+      "text": "Loreti E. Valeri M. C. Novi G. Perata P. ( 2017 ). Gene regulation and survival under hypoxia requires starch availability and metabolism . Plant Physiol. 176 ( 2 ), 1286 \u2013 1298 . doi: 10.1104/pp.17.01002",
+      "char_offset": 67744
+    },
+    {
+      "type": "paragraph",
+      "text": "Love M. I. Huber W. Anders S. ( 2014 ). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2 . Genome Biol. 15 ( 12 ), 550 . doi: 10.1186/s13059-014-0550-8",
+      "char_offset": 67950
+    },
+    {
+      "type": "paragraph",
+      "text": "Luan H. Chen C. Yang J. Qiao H. Li H. Li S. et al . ( 2022 ). Genome-wide association scan and transcriptome analysis reveal candidate genes for waterlogging tolerance in cultivated barley . Front. Plant Sci. 13 , 1048939 . doi: 10.3389/fpls.2022.1048939",
+      "char_offset": 68134
+    },
+    {
+      "type": "paragraph",
+      "text": "Luan H. Guo B. Shen H. Pan Y. Hong Y. Lv C. et al . ( 2020 ). Overexpression of barley transcription factor hv ERF2.11 in arabidopsis enhances plant waterlogging tolerance . Int. J. Mol. Sci. 21 ( 6 ), 1982 . doi: 10.3390/ijms21061982",
+      "char_offset": 68390
+    },
+    {
+      "type": "paragraph",
+      "text": "Luan H. Shen H. Pan Y. Guo B. Lv C. Xu R. ( 2018 ). Elucidating the hypoxic stress response in barley ( Hordeum vulgare L.) during waterlogging: A proteomics approach . Sci. Rep. 8 ( 1 ), 9655 . doi: 10.1038/s41598-018-27726-1",
+      "char_offset": 68626
+    },
+    {
+      "type": "paragraph",
+      "text": "MacLeod L. Evans E. ( 2016 ). \"Barley: Malting,\" in Encyclopedia of Food Grains (Second Edition). Eds. Wrigley C. Corke H. Seetharaman K. Faubion J. ( Academic Press ), doi: 10.1016/B978-0-12-394437-5.00153-4",
+      "char_offset": 68854
+    },
+    {
+      "type": "paragraph",
+      "text": "Magneschi L. Perata P. ( 2009 ). Rice germination and seedling growth in the absence of oxygen . Ann. Bot. 103 ( 2 ), 181 \u2013 196 . doi: 10.1093/aob/mcn121",
+      "char_offset": 69064
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahalingam R. Graham D. Walling J. G. ( 2021 ). The barley (Hordeum vulgare ssp. vulgare) respiratory burst oxidase homolog (HvRBOH) gene family and their plausible role on malting quality . Front Plant Sci 12 , 608541 . doi: 10.3389/fpls.2021.608541",
+      "char_offset": 69219
+    },
+    {
+      "type": "paragraph",
+      "text": "Mascher M. ( 2019 ). Pseudomolecules and annotation of the second version of the reference genome sequence assembly of barley cv. Morex [Morex V2] . In: e!DAL - Plant Genomics and Phenomics Research Data Repository (PGP) , IPK Gatersleben, Seeland OT Gatersleben , Corrensstra\u00dfe 3, 06466, Germany . doi: 10.5447/ipk/2019/8",
+      "char_offset": 69471
+    },
+    {
+      "type": "paragraph",
+      "text": "Mascher M. Gundlach H. Himmelbach A. Beier S. Twardziok S. O. Wicker T. et al . ( 2017 ). A chromosome conformation capture ordered sequence of the barley genome . Nature 544 ( 7651 ), 427 \u2013 433 . doi: 10.1038/nature22043",
+      "char_offset": 69795
+    },
+    {
+      "type": "paragraph",
+      "text": "Mendiondo G. M. Gibbs D. J. Szurman-Zubrzycka M. Korn A. Marquez J. Szarejko I. et al . ( 2016 ). Enhanced waterlogging tolerance in barley by manipulation of expression of the N-end rule pathway E3 ligase proteolysis6 . Plant Biotechnol. J. 14 ( 1 ), 40 \u2013 50 . doi: 10.1111/pbi.12334",
+      "char_offset": 70018
+    },
+    {
+      "type": "paragraph",
+      "text": "Miro B. Longkumer T. Entila F. D. Kohli A. Ismail A. M. ( 2017 ). Rice seed germination underwater: morpho-physiological responses and the bases of differential expression of alcoholic fermentation enzymes . Front. Plant Sci. 8 , 1857 . doi: 10.3389/fpls.2017.01857",
+      "char_offset": 70304
+    },
+    {
+      "type": "paragraph",
+      "text": "Mittler R. ( 2017 ). ROS are good . Trends Plant Sci. 22 ( 1 ), 11 \u2013 19 . doi: 10.1016/j.tplants.2016.08.002",
+      "char_offset": 70571
+    },
+    {
+      "type": "paragraph",
+      "text": "Mustroph A. Hess N. Sasidharan R. ( 2014 ). \u201c Hypoxic Energy Metabolism and PPi as an Alternative Energy Currency ,\u201d in Low-Oxygen Stress in Plants: Oxygen Sensing and Adaptive Responses to Hypoxia . Eds. van Dongen J. T. Licausi F. ( Vienna : Springer Vienna ), 165 \u2013 184 .",
+      "char_offset": 70681
+    },
+    {
+      "type": "paragraph",
+      "text": "Mustroph A. Lee S. C. Oosumi T. Zanetti M. E. Yang H. Ma K. et al . ( 2010 ). Cross-kingdom comparison of transcriptomic adjustments to low-oxygen stress highlights conserved and plant-specific responses . Plant Physiol. 152 ( 3 ), 1484 \u2013 1500 . doi: 10.1104/pp.109.151845",
+      "char_offset": 70957
+    },
+    {
+      "type": "paragraph",
+      "text": "O'Leary B. Park J. Plaxton W. C. ( 2011 ). The remarkable diversity of plant PEPC (Phosphoenolpyruvate carboxylase): recent insights into the physiological functions and post-translational controls of non-photosynthetic PEPCs . Biochem. J. 436 ( 1 ), 15 \u2013 34 . doi: 10.1042/BJ20110078",
+      "char_offset": 71231
+    },
+    {
+      "type": "paragraph",
+      "text": "Rapazote-Flores P. Bayer M. Milne L. Mayer C.-D. Fuller J. Guo W. et al . ( 2019 ). BaRTv1.0: an improved barley reference transcript dataset to determine accurate changes in the barley transcriptome using RNA-seq . BMC Genom 20 ( 1 ), 968 . doi: 10.1186/s12864-019-6243-7",
+      "char_offset": 71517
+    },
+    {
+      "type": "paragraph",
+      "text": "Ricoult C. Cliquet J. B. Limami A. M. ( 2005 ). Stimulation of alanine amino transferase (AlaAT) gene expression and alanine accumulation in embryo axis of the model legume medicago truncatula contribute to anoxia stress tolerance . Physiol. Plant 123 ( 1 ), 30 \u2013 39 . doi: 10.1111/j.1399-3054.2005.00449.x",
+      "char_offset": 71791
+    },
+    {
+      "type": "paragraph",
+      "text": "Sano N. Rajjou L. North H. M. ( 2020 ). Lost in translation: physiological roles of stored mRNAs in seed germination . Plants 9 ( 3 ), 347 . doi: 10.3390/plants9030347",
+      "char_offset": 72099
+    },
+    {
+      "type": "paragraph",
+      "text": "Shabala S. Shabala L. Barcelo J. Poschenrieder C. ( 2014 ). Membrane transporters mediating root signalling and adaptive responses to oxygen deprivation and soil flooding . Plant Cell Environ. 37 ( 10 ), 2216 \u2013 2233 . doi: 10.1111/pce.12339",
+      "char_offset": 72268
+    },
+    {
+      "type": "paragraph",
+      "text": "Shewry P. R. Halford N. G. ( 2002 ). Cereal seed storage proteins: structures, properties and role in grain utilization . J. Exp. Bot. 53 ( 370 ), 947 \u2013 958 . doi: 10.1093/jexbot/53.370.947",
+      "char_offset": 72510
+    },
+    {
+      "type": "paragraph",
+      "text": "Shingaki-Wells R. Millar A. H. Whelan J. Narsai R. ( 2014 ). What happens to plant mitochondria under low oxygen? An omics review of the responses to low oxygen and reoxygenation . Plant Cell Environ. 37 ( 10 ), 2260 \u2013 2277 . doi: 10.1111/pce.12312",
+      "char_offset": 72701
+    },
+    {
+      "type": "paragraph",
+      "text": "Sopanen T. Lauri\u00e8re C. ( 1989 ). Release and activity of bound \u03b2-amylase in a germinating barley grain 1 . Plant Physiol. 89 ( 1 ), 244 \u2013 249 . doi: 10.1104/pp.89.1.244",
+      "char_offset": 72951
+    },
+    {
+      "type": "paragraph",
+      "text": "Stark D. M. Timmerman K. P. Barry G. F. Preiss J. Kishore G. M. ( 1992 ). Regulation of the amount of starch in plant tissues by ADP glucose pyrophosphorylase . Science 258 ( 5080 ), 287 \u2013 292 . doi: 10.1126/science.258.5080.287",
+      "char_offset": 73121
+    },
+    {
+      "type": "paragraph",
+      "text": "Sweetlove L. J. Beard K. F. Nunes-Nesi A. Fernie A. R. Ratcliffe R. G. ( 2010 ). Not just a circle: flux modes in the plant TCA cycle . Trends Plant Sci. 15 ( 8 ), 462 \u2013 470 . doi: 10.1016/j.tplants.2010.05.006",
+      "char_offset": 73351
+    },
+    {
+      "type": "paragraph",
+      "text": "UniProt-Consortium ( 2022 ). UniProt: the universal protein knowledgebase in 2023 . Nucleic Acids Res. 51 ( D1 ), D523 \u2013 D531 . doi: 10.1093/nar/gkac1052",
+      "char_offset": 73563
+    },
+    {
+      "type": "paragraph",
+      "text": "van Dongen J. T. Licausi F. ( 2015 ). Oxygen sensing and signaling . Annu. Rev. Plant Biol. 66 ( 1 ), 345 \u2013 367 . doi: 10.1146/annurev-arplant-043014-114813",
+      "char_offset": 73718
+    },
+    {
+      "type": "paragraph",
+      "text": "Ventura I. Brunello L. Iacopino S. Valeri M. C. Novi G. Dornbusch T. et al . ( 2020 ). Arabidopsis phenotyping reveals the importance of alcohol dehydrogenase and pyruvate decarboxylase for aerobic plant growth . Sci. Rep. 10 ( 1 ), 16669 . doi: 10.1038/s41598-020-73704-x",
+      "char_offset": 73876
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang W.-Q. Liu S.-J. Song S.-Q. M\u00f8ller I. M. ( 2015 ). Proteomics of seed development, desiccation tolerance, germination and vigor . Plant Physiol. Biochem. 86 , 1 \u2013 15 . doi: 10.1016/j.plaphy.2014.11.003",
+      "char_offset": 74150
+    },
+    {
+      "type": "paragraph",
+      "text": "Whan A. Dielen A.-S. Mieog J. Bowerman A. F. Robinson H. M. Byrne K. et al . ( 2014 ). Engineering \u03b1-amylase levels in wheat grain suggests a highly sophisticated level of carbohydrate regulation during development . J. Exp. Bot. 65 ( 18 ), 5443 \u2013 5457 . doi: 10.1093/jxb/eru299",
+      "char_offset": 74357
+    },
+    {
+      "type": "paragraph",
+      "text": "Wilhelmson A. Laitila A. Vilpola A. Olkku J. Kotaviita E. Fagerstedt K. et al . ( 2006 ). Oxygen deficiency in barley ( Hordeum vulgare ) grain during malting . J. Agric. Food Chem. 54 ( 2 ), 409 \u2013 416 . doi: 10.1021/jf0521505",
+      "char_offset": 74637
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang X. Fan Y. Shabala S. Koutoulis A. Shabala L. Johnson P. et al . ( 2017 ). A new major-effect QTL for waterlogging tolerance in wild barley ( H. Spontaneum ) . Theor. Appl. Genet. 130 , 1559 \u2013 1568 . doi: 10.1007/s00122-017-2910-8",
+      "char_offset": 74865
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang T. Peng J. T. Klair A. Dickinson A. J. ( 2023 ). Non-canonical and developmental roles of the TCA cycle in plants . Curr. Opin. Plant Biol. 74 , 102382 . doi: 10.1016/j.pbi.2023.102382",
+      "char_offset": 75102
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang Q. Pritchard J. Mieog J. Byrne K. Colgrave M. L. Wang J.-R. et al . ( 2022 ). Over-expression of a wheat late maturity alpha-amylase type 1 impact on starch properties during grain development and germination . Front. Plant Sci. 13 , 811728 . doi: 10.3389/fpls.2022.811728",
+      "char_offset": 75294
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang X. Zhou G. Shabala S. Koutoulis A. Shabala L. Johnson P. et al . ( 2016 ). Identification of aerenchyma formation-related QTL in barley that can be effective in breeding for waterlogging tolerance . Theor. Appl. Genet. 129 , 1167 \u2013 1177 . doi: 10.1007/s00122-016-2693-3",
+      "char_offset": 75574
+    },
+    {
+      "type": "paragraph",
+      "text": "Ziegler P. ( 1999 ). Cereal beta-amylases . J. Cereal Sci. 29 ( 3 ), 195 \u2013 204 . doi: 10.1006/jcrs.1998.0238",
+      "char_offset": 75851
+    },
+    {
+      "type": "paragraph",
+      "text": "Zou X.-l. Zeng L. Lu G.-y. Cheng Y. Xu J.-s. Zhang X.-K. ( 2015 ). Comparison of transcriptomes undergoing waterlogging at the seedling stage between tolerant and sensitive varieties of Brassica napus L . J. Integr. Agric. 14 ( 9 ), 1723 \u2013 1734 . doi: 10.1016/S2095-3119(15)61138-8",
+      "char_offset": 75961
+    },
+    {
+      "type": "paragraph",
+      "text": "barley , malt , controlled germination , malting , low-oxygen , proteomics , mass spectrometry , plant breeding",
+      "char_offset": 76244
+    },
+    {
+      "type": "paragraph",
+      "text": "O'Lone CE, Juh\u00e1sz A, Nye-Wood M, Dunn H, Moody D, Ral J-P and Colgrave ML (2023) Proteomic exploration reveals a metabolic rerouting due to low oxygen during controlled germination of malting barley ( Hordeum vulgare L.) . Front. Plant Sci. 14:1305381. doi: 10.3389/fpls.2023.1305381",
+      "char_offset": 76357
+    },
+    {
+      "type": "paragraph",
+      "text": "Jai Rohila, United States Department of Agriculture, United States",
+      "char_offset": 76642
+    },
+    {
+      "type": "paragraph",
+      "text": "Jason G. Walling, Agricultural Research Service (USDA), United States",
+      "char_offset": 76710
+    },
+    {
+      "type": "paragraph",
+      "text": "Heena Rani, Agricultural Research Service (USDA), United States",
+      "char_offset": 76781
+    },
+    {
+      "type": "paragraph",
+      "text": "\u00a9 2023 O'Lone, Juh\u00e1sz, Nye-Wood, Dunn, Moody, Ral and Colgrave.",
+      "char_offset": 76846
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY) . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "char_offset": 76911
+    },
+    {
+      "type": "paragraph",
+      "text": "*Correspondence: Michelle L. Colgrave, m.colgrave@ecu.edu.au ; Michelle.Colgrave@csiro.au",
+      "char_offset": 77362
+    },
+    {
+      "type": "paragraph",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.",
+      "char_offset": 77453
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-70e91c7e569ab729"
+}

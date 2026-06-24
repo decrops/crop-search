@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.minimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 0,
+      "unit": "celsius",
+      "qualifier": "minimum",
+      "evidence_text": "Temperature imparts a significant effect on the emergence of leaves and expansion. The lowest temperature withstood for the expansion of leaves is approximately 0°C, the optimal temperature is 28°C, and the maximum is 38°C",
+      "claim_summary": "Minimum temperature for wheat leaf expansion is approximately 0 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.optimum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 28,
+      "unit": "celsius",
+      "qualifier": "optimum",
+      "evidence_text": "The lowest temperature withstood for the expansion of leaves is approximately 0°C, the optimal temperature is 28°C, and the maximum is 38°C",
+      "claim_summary": "Optimal temperature for wheat leaf expansion is 28 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.maximum_growth_temperature",
+      "value_type": "numeric",
+      "numeric_value": 38,
+      "unit": "celsius",
+      "qualifier": "maximum",
+      "evidence_text": "the optimal temperature is 28°C, and the maximum is 38°C",
+      "claim_summary": "Maximum temperature for wheat leaf expansion is 38 C.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "typical",
+      "evidence_text": "winter wheat variety maturation was found to be accelerated due to the flowering process in plants, i.e., with low-temperature exposure, usually 3–10°C, for 6 to 8 weeks.",
+      "claim_summary": "Winter wheat vernalization requires low-temperature exposure of usually 3-10 C for 6 to 8 weeks.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Wheat seeds require moisture levels of 35–45% for germination",
+      "claim_summary": "Wheat seeds require moisture levels of 35-45% for germination.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "morphology.plant_height",
+      "value_type": "range",
+      "range_min": 30,
+      "range_max": 150,
+      "unit": "cm",
+      "qualifier": "typical",
+      "evidence_text": "The height of the wheat plant extends from 30 to 150cm depending on the variety and the propagating state.",
+      "claim_summary": "Wheat plant height ranges from 30 to 150 cm depending on variety and growing conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "morphology.thousand_kernel_weight",
+      "value_type": "range",
+      "range_min": 35,
+      "range_max": 50,
+      "unit": "mg",
+      "qualifier": "typical",
+      "evidence_text": "The length and mass of the kernel are typically around 5–9mm and 35–50mg.",
+      "claim_summary": "Wheat kernel mass is typically 35-50 mg (single grain).",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "quality.grain_protein",
+      "value_type": "range",
+      "range_min": 10,
+      "range_max": 18,
+      "unit": "percent",
+      "qualifier": "typical",
+      "evidence_text": "The protein content varies from 10–18% of the entire dry mass of the wheat grain... Mature wheat grains contain 8–20% protein.",
+      "claim_summary": "Wheat grain protein content varies from 10-18% (range 8-20%) of grain dry mass.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.gluten_strength",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "More than 50% of the difference in the baking potential and viscoelastic attributes of dough depends on the wheat's composition of high-molecular weight subunits of glutenin",
+      "claim_summary": "Gluten strength/dough viscoelasticity is governed by HMW glutenin subunit composition (Glu-A1, Glu-B1, Glu-D1); over 50% of baking quality variation depends on HMW-GS.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "phenology.vernalization_requirement",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "These varieties are diverse in their need for a frozen phase to allow normal development and reproductive growth. This need for vernalization has been vigorously affected by changes at the Vrn-1 position",
+      "claim_summary": "Spring vs winter wheat differ in vernalization requirement, controlled by Vrn-1 alleles (Vrn-A1, Vrn-B1, Vrn-D1).",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

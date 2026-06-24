@@ -1,0 +1,86 @@
+{
+  "crop_id": "rice",
+  "label": "Rice",
+  "crop_group": "cereal",
+  "aliases": [
+    "rice",
+    "paddy rice"
+  ],
+  "scientific_names": [
+    "Oryza sativa"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "seedling",
+    "tillering",
+    "panicle initiation",
+    "heading",
+    "flowering",
+    "grain fill",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "paddy",
+    "flooded rice",
+    "upland rice",
+    "irrigated rice"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ],
+  "bbch_stage_map": [
+    {
+      "local_term": "germination",
+      "bbch_min": 0,
+      "bbch_max": 9,
+      "confidence": "high"
+    },
+    {
+      "local_term": "seedling",
+      "bbch_min": 10,
+      "bbch_max": 19,
+      "confidence": "high"
+    },
+    {
+      "local_term": "tillering",
+      "bbch_min": 20,
+      "bbch_max": 29,
+      "confidence": "high"
+    },
+    {
+      "local_term": "panicle initiation",
+      "bbch_min": 30,
+      "bbch_max": 39,
+      "confidence": "medium",
+      "source_note": "stem elongation / panicle development"
+    },
+    {
+      "local_term": "heading",
+      "bbch_min": 50,
+      "bbch_max": 59,
+      "confidence": "high"
+    },
+    {
+      "local_term": "flowering",
+      "bbch_min": 60,
+      "bbch_max": 69,
+      "confidence": "high",
+      "source_note": "anthesis"
+    },
+    {
+      "local_term": "grain fill",
+      "bbch_min": 70,
+      "bbch_max": 79,
+      "confidence": "high"
+    },
+    {
+      "local_term": "maturity",
+      "bbch_min": 80,
+      "bbch_max": 99,
+      "confidence": "medium"
+    }
+  ]
+}

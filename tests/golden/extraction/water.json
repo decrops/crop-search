@@ -1,0 +1,24 @@
+{
+  "domain": "water",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "document_id": "doc-04fe8a0ea0f21cae",
+      "parameter_id": "water.allowable_depletion",
+      "value_type": "numeric",
+      "numeric_value": 50,
+      "unit": "percent",
+      "evidence_contains": "50%"
+    },
+    {
+      "document_id": "doc-0a40d56fad8d50bd",
+      "parameter_id": "water.crop_coefficient",
+      "value_type": "range",
+      "range_min": 1.0,
+      "range_max": 1.15,
+      "unit": "dimensionless",
+      "evidence_contains": "1.00-1.15",
+      "note": "Spring-wheat Kc. The wheat-opus run mislabeled this as stress.drought_tolerance; this gold record exists to catch that mapping error (expected recall miss until WS-9 fixes mapping)."
+    }
+  ]
+}

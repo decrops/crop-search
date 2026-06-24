@@ -1,0 +1,24 @@
+{
+  "claims": [
+    {
+      "parameter_id": "temperature.soil_emergence_temperature",
+      "value_type": "numeric",
+      "numeric_value": 37,
+      "unit": "fahrenheit",
+      "qualifier": "minimum",
+      "evidence_text": "Table I. Recommended minimum temperatures needed for germination of selected agricultural crops. Agronomic Crops Minimum Soil Temperature at Planting (°F) ... Spring wheat ... 37",
+      "claim_summary": "Recommended minimum soil temperature at planting for spring wheat germination is 37°F.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "temperature.germination_temperature",
+      "value_type": "numeric",
+      "numeric_value": 37,
+      "unit": "fahrenheit",
+      "qualifier": "minimum",
+      "evidence_text": "Minimum Soil Temperature for Crop Germination ... Spring wheat ... 37 (°F) ... seeds require optimum soil temperatures to germinate",
+      "claim_summary": "Spring wheat requires a minimum soil temperature of 37°F to germinate.",
+      "extraction_confidence": "high"
+    }
+  ]
+}

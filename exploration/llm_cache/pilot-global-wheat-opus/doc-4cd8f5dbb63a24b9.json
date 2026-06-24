@@ -1,0 +1,23 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "numeric",
+      "numeric_value": 15,
+      "unit": "lb/acre",
+      "qualifier": "typical",
+      "evidence_text": "A healthy wheat crop takes up 15 lbs/ac of phosphorus (P205 equivalent) in the first 30 days of growth, compared with soybeans that require only 1 lb/ac of phosphorus in the first 40 days of growth.",
+      "claim_summary": "Wheat takes up 15 lb/ac P2O5 in the first 30 days of growth (high early P demand)",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "nutrients.phosphorus_requirement",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Phosphorus is less available in cool soils than in warm soils, with soil available phosphorus 5 times greater in 25 C soil than in 5 C. Cool soils result in less root growth, which further limits phosphorus uptake.",
+      "claim_summary": "Phosphorus availability for wheat is ~5x greater at 25 C soil than 5 C; cool fall soils limit uptake",
+      "extraction_confidence": "high"
+    }
+  ]
+}

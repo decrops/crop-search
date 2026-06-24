@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.lodging_susceptibility",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Crop lodging reduces yield quantity and grain quality of cereal crops... a safety factor against root lodging (SFA) in wheat... Field measurements confirmed that SFA decreased progressively through the season and was consistent with the observed lodging.",
+      "claim_summary": "Wheat root-lodging susceptibility (inverse of safety factor SFA) increases progressively through the season as plants grow heavier.",
+      "extraction_confidence": "medium",
+      "organisms": []
+    }
+  ]
+}

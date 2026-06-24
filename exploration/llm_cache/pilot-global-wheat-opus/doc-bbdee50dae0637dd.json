@@ -1,0 +1,22 @@
+{"claims": [
+  {
+    "parameter_id": "stress.salinity_tolerance",
+    "value_type": "numeric",
+    "numeric_value": 200,
+    "unit": "mM",
+    "qualifier": "observed",
+    "evidence_text": "in saline conditions, artificial seawater with a molality of 200 mM was used. The genotype used in this study is Sakha-93, an Egyptian bread wheat variety (Triticum aestivum L.) known for its tolerance to saline conditions",
+    "claim_summary": "Salt-tolerant bread wheat cv. Sakha-93 was grown under saline irrigation of 200 mM artificial seawater.",
+    "extraction_confidence": "medium",
+    "methods": ["greenhouse pot trial", "saline irrigation", "16s rrna sequencing"]
+  },
+  {
+    "parameter_id": "phenology.photoperiod_sensitivity",
+    "value_type": "text",
+    "qualifier": "observed",
+    "unit": "hours",
+    "evidence_text": "The temperature was regulated to simulate wheat growing season, and a photo period of 16 h of light and 8 h of darkness was maintained.",
+    "claim_summary": "Wheat grown under a 16 h light / 8 h dark photoperiod to simulate the growing season.",
+    "extraction_confidence": "low"
+  }
+]}

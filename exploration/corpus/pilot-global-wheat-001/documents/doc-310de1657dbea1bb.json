@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-310de1657dbea1bb",
+  "canonical_url": "https://en.wikipedia.org/wiki/Spot_blotch_%28wheat%29",
+  "source_url": "https://en.wikipedia.org/wiki/Spot_blotch_%28wheat%29",
+  "doi": "",
+  "title": "Spot blotch (wheat) - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "310de1657dbea1bb1f3ded9595d2da1ca9a55b2d49d44fe2736a86c79f419579",
+  "content_hash": "2d4ba411427ecae1a82ac6da1706517cebdafb5751f32b9a813dee60ff9e6b0b",
+  "text_length": 10944,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 9423276
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/1003-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

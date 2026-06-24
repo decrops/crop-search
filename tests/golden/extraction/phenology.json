@@ -1,0 +1,15 @@
+{
+  "domain": "phenology",
+  "run_id": "pilot-global-wheat-opus",
+  "records": [
+    {
+      "document_id": "doc-0236d1d10a5b72fb",
+      "parameter_id": "phenology.leaf_appearance_rate",
+      "value_type": "range",
+      "range_min": 68,
+      "range_max": 77,
+      "unit": "gdd",
+      "evidence_contains": "68"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+name: Validate Foundation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e .
+      - run: crop-framework validate schemas/context-pack.schema.json templates/context/mission.json
+      - run: crop-framework validate schemas/memory-entry.schema.json templates/memory/durable-rule.json
+      - run: crop-framework validate schemas/parameter-manifest.schema.json config/parameters/core-crop-parameters.json
+      - run: crop-framework validate schemas/crop-profile.schema.json config/crops/corn.json
+      - run: crop-framework validate schemas/crop-profile.schema.json config/crops/soybean.json
+      - run: crop-framework validate schemas/crop-profile.schema.json config/crops/wheat.json
+      - run: crop-framework validate schemas/crop-profile.schema.json config/crops/rice.json
+      - run: crop-framework validate schemas/crop-profile.schema.json config/crops/cotton.json
+      - run: crop-framework validate schemas/exploration-run.schema.json config/runs/pilot-us-corn-iowa.json
+      - run: crop-framework validate-mcp
+      - run: crop-framework validate-mcp --manifest config/mcp/servers.local.json
+      - run: crop-framework validate-mcp --manifest config/mcp/servers.fixtures.json
+      - run: crop-framework emit-hook pre-search --payload templates/runs/pre-search-event.json
+      - run: python -m unittest discover -s tests
+      - run: crop-framework plan-queries --run-config config/runs/pilot-us-corn-iowa.json
+      - run: crop-framework run-exploration --run-config config/runs/pilot-us-corn-iowa.json --manifest config/mcp/servers.fixtures.json
+      - run: crop-framework normalize-run pilot-us-corn-iowa-001
+      - run: crop-framework review-run pilot-us-corn-iowa-001
+      - run: crop-framework promote-run pilot-us-corn-iowa-001
+      - run: crop-framework coverage-run pilot-us-corn-iowa-001
+      - run: crop-framework validate durable-claims.schema.json memory/durable/pilot-us-corn-iowa-001/claims.json
+      - run: crop-framework validate parameter-coverage.schema.json exploration/coverage/pilot-us-corn-iowa-001/coverage.json

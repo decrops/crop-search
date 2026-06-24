@@ -1,0 +1,87 @@
+{
+  "run_id": "pilot-us-tomato-001",
+  "version": "0.1.0",
+  "crop": "tomato",
+  "region_scope": {
+    "level": "country",
+    "name": "United States"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/tomato.json",
+  "parameter_families": [
+    "temperature",
+    "thermal_time",
+    "water",
+    "soil",
+    "phenology",
+    "planting"
+  ],
+  "queries_per_parameter": 1,
+  "max_parameters": 12,
+  "source_seeds": [
+    {
+      "source_url": "https://extension.uga.edu/publications/detail.html?number=B1312",
+      "title": "Commercial Tomato Production Handbook - UGA Cooperative Extension",
+      "snippet": "UGA tomato handbook with optimum germination temperature and production guidance.",
+      "document_type": "html",
+      "parameter_ids": ["temperature.germination_temperature", "temperature.soil_emergence_temperature"]
+    },
+    {
+      "source_url": "https://extension.psu.edu/tomato-production/",
+      "title": "Tomato Production - Penn State Extension",
+      "snippet": "Penn State Extension tomato guide with growing-season temperature range and irrigation guidance.",
+      "document_type": "html",
+      "parameter_ids": [
+        "temperature.optimum_growth_temperature",
+        "temperature.heat_stress_threshold",
+        "water.evapotranspiration_requirement"
+      ]
+    },
+    {
+      "source_url": "https://gardening.cals.cornell.edu/garden-guidance/foodgarden/vegetable-growing-guides/tomato-growing-guide/",
+      "title": "Tomato Growing Guide - Cornell",
+      "snippet": "Cornell tomato guide with germination temperatures and transplanting guidance.",
+      "document_type": "html",
+      "parameter_ids": ["temperature.germination_temperature", "temperature.soil_emergence_temperature"]
+    },
+    {
+      "source_url": "https://extension.uga.edu/publications/detail.html?number=B1312",
+      "title": "Commercial Tomato Production Handbook - UGA Cooperative Extension",
+      "snippet": "UGA Cooperative Extension tomato production handbook with germination, temperature, soil, irrigation, and management recommendations.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "thermal_time", "water", "soil"]
+    },
+    {
+      "source_url": "https://extension.psu.edu/tomato-production/",
+      "title": "Tomato Production - Penn State Extension",
+      "snippet": "Penn State Extension tomato production guide with growing-season temperature, soil, irrigation, and production management guidance.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "water", "soil"]
+    },
+    {
+      "source_url": "https://www.pubs.ext.vt.edu/426/426-418/426-418.html",
+      "title": "Tomatoes - Virginia Cooperative Extension",
+      "snippet": "Virginia Cooperative Extension tomatoes guide with temperature, soil, planting, and management recommendations.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "soil", "planting"]
+    },
+    {
+      "source_url": "https://gardening.cals.cornell.edu/garden-guidance/foodgarden/vegetable-growing-guides/tomato-growing-guide/",
+      "title": "Tomato Growing Guide - Cornell",
+      "snippet": "Cornell tomato growing guide with germination temperature, transplanting, and management recommendations.",
+      "document_type": "html",
+      "parameter_families": ["temperature", "planting", "soil"]
+    }
+  ],
+  "max_results_per_query": 2,
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

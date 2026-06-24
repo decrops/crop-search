@@ -1,0 +1,22 @@
+{"claims": [
+  {
+    "parameter_id": "thermal_time.vernalization_units",
+    "value_type": "range",
+    "range_min": 30,
+    "range_max": 75,
+    "unit": "days",
+    "qualifier": "typical",
+    "evidence_text": "The unknown factor is length of time needed at these low temps for vernalization; the range has been reported to be 30 to 75 days.",
+    "claim_summary": "Winter wheat vernalization requires roughly 30 to 75 days at low temperatures.",
+    "extraction_confidence": "medium",
+    "methods": ["vernalization"]
+  },
+  {
+    "parameter_id": "phenology.vernalization_requirement",
+    "value_type": "text",
+    "qualifier": "threshold",
+    "evidence_text": "Wheat seed germination occurs with soil temps in the upper 30s and vernalization occurs with temps at or below those same temps.",
+    "claim_summary": "Winter wheat vernalization occurs at soil temps at or below the upper 30s F; winter wheat will not produce seed if not vernalized.",
+    "extraction_confidence": "medium"
+  }
+]}

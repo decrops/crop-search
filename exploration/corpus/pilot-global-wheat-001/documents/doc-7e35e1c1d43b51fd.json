@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-7e35e1c1d43b51fd",
+  "canonical_url": "https://en.wikipedia.org/wiki/Alfalfa",
+  "source_url": "https://en.wikipedia.org/wiki/Alfalfa",
+  "doi": "",
+  "title": "Alfalfa - Wikipedia",
+  "source_domain": "en.wikipedia.org",
+  "source_tier_id": "industry_grower_guide",
+  "discovery_method": "wikipedia",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "7e35e1c1d43b51fd6ae4718d78d6eeb95905b31fa30630ba51bc9cface6a3f47",
+  "content_hash": "edcb5ca3a2247413b82b54156becf9fdfbb26b7504241221fe1d387a3393cfe1",
+  "text_length": 28716,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "provider": "wikipedia",
+    "pageid": 66159
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-001/fetched/198-en.wikipedia.org.html",
+  "parser_version": "corpus-blocks-1"
+}

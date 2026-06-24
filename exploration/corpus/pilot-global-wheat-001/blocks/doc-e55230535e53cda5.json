@@ -1,0 +1,1448 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Salt Stress in Wheat: Effects, Tolerance Mechanisms, and Management",
+      "text": "Review Published: 06 November 2024 Volume 24 , pages 8151\u20138173 ( 2024 ) Cite this article Save article View saved research"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Soil salinity is a major constraint to global wheat ( Triticum aestivum L.) production, adversely affecting crop growth and development. Despite this challenge, traditional breeding methods and management practices have struggled to keep pace with the increasing demand for grain crops. Key obstacles include insufficient understanding of sodium (Na + ) storage mechanisms in wheat plants, limited exploration of the available gene pool, ineffective crop management techniques, a lack of effective screening methods, and overemphasis on excluding Na + strategies. However, enhancing carbon metabolism efficiency, increasing accumulation of osmotic substances, improving antioxidant system efficiency, hormonal regulation, and reducing Na + /K + ratios have shown promise in enhancing wheat growth and production under salinity stress. Effective salt stress management strategies also involve modulating root architecture, promoting plant growth through mechanisms such as (i) improved control over Na + movement, (ii) K + selectivity over Na + , (iii) stable osmotic potential, (iv) ionic homeostasis, and (v) increased energy provision for root growth compared to shoot growth. Additionally, plant growth-promoting rhizobacteria and arbuscular mycorrhizal fungi can further enhance the salinity tolerance by improving plant nutrition and soil fertility. This review comprehensively examines the impact of salt stress on wheat physiology including germination, root development, growth, nutrient uptake, light harvesting, carbon metabolism, and the amino acid profile. It also explores key tolerance mechanisms such as osmoregulation, ion homeostasis, apoplastic acidification, and antioxidant defense systems, offering valuable insights into effective management strategies to improve salt tolerance in wheat."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Similar content being viewed by others",
+      "text": "Molecular basis of salinity stress tolerance in wheat: implications for crop resilience Article 22 October 2025 Evaluation of Physio-Morphological and Biochemical Responses for Salt Tolerance in Wheat ( Triticum aestivum L.) Cultivars Article 28 January 2023 Integrated physiological and transcriptional dissection reveals the core genes involving nutrient transport and osmoregulatory substance biosynthesis in allohexaploid wheat seedlings under salt stress Article Open access 27 October 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Molecular basis of salinity stress tolerance in wheat: implications for crop resilience",
+      "text": "Article 22 October 2025"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Evaluation of Physio-Morphological and Biochemical Responses for Salt Tolerance in Wheat ( Triticum aestivum L.) Cultivars",
+      "text": "Article 28 January 2023"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Integrated physiological and transcriptional dissection reveals the core genes involving nutrient transport and osmoregulatory substance biosynthesis in allohexaploid wheat seedlings under salt stress",
+      "text": "Article Open access 27 October 2022"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Explore related subjects",
+      "text": "Plant Biochemistry Plant Science Plant Biotechnology Plant Genetics Plant Physiology Plant Stress Responses Salt Stress Tolerance in Crop Genetics"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Data Availability",
+      "text": "Data sharing is not applicable to this article as no new data were generated or analyzed in this study."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "References",
+      "text": "Abbas G, Saqib M, Rafique Q, Rahman A, Akhtar J, Haq M, Nasim MJPJB (2013) Effect of salinity on grain yield and grain quality of wheat ( Triticum aestivum L). Pak J Agric Res 50:185\u2013189 Google Scholar Abbas G, Rehman S, Siddiqui MH, Ali HM, Farooq MA, Chen Y (2022) Potassium and humic acid synergistically increase salt tolerance and nutrient uptake in contrasting wheat genotypes through ionic homeostasis and activation of antioxidant enzymes. Plants 11:263. https://doi.org/10.3390/plants11030263 Article PubMed PubMed Central Google Scholar Abdel-Fattah GM, Asrar A-WA (2012) Arbuscular mycorrhizal fungal application to improve growth and tolerance of wheat ( Triticum aestivum L.) plants grown in saline soil. Acta Physiol Plant 34: 267\u2013277. https://link.springer.com/article/10.1007/s11738-011-0825-6 Ahanger MA, Qin C, Begum N, Maodong Q, Dong XX, El-Esawi M, El-Sheikh MA, Alatar AA, Zhang L (2019) Nitrogen availability prevents oxidative effects of salinity on wheat growth and photosynthesis by up-regulating the antioxidants and osmolytes metabolism, and secondary metabolite accumulation. BMC Plant Biol 19:1\u201312. https://doi.org/10.1186/s12870-019-2085-3 Article Google Scholar Al Hinai MS, Ullah A, Al-Rajhi RS, Farooq M (2022) Proline accumulation, ion homeostasis and antioxidant defence system alleviate salt stress and protect carbon assimilation in bread wheat genotypes of Omani origin. Environ Exp Bot 193:104687. https://doi.org/10.1016/j.envexpbot.2021.104687 Article Google Scholar Al Hinai MS, Ullah A, Al-Toubi AM, Al Harrasi IR, Alamri AA, Farooq M (2023) Co-application of biochar and seed priming with nano-sized chitosan-proline improves salt tolerance in differentially responding bread wheat genotypes. J Soil Sci Plant Nutr 23:3058\u20133073. https://doi.org/10.1007/s42729-023-01276-6 Article Google Scholar Al Masruri MHK, Ullah A, Farooq M (2023) Application of nano chitosan-glycinebetaine for improving bread wheat performance under combined drought and heat stresses. J Soil Sci Plant Nutr 23:3482\u20133499. https://doi.org/10.1007/s42729-023-01265-9 Al-Ashkar I, Alderfasi A, Ben Romdhane W, Seleiman MF, El-Said RA, Al-Doss A (2020) Morphological and genetic diversity within salt tolerance detection in eighteen wheat genotypes. Plants 9:287. https://doi.org/10.3390/plants9030287 Article PubMed PubMed Central Google Scholar Ali Q, Daud M, Haider MZ, Ali S, Rizwan M, Aslam N, Noman A, Iqbal N, Shahzad F, Deeba F (2017) Seed priming by sodium nitroprusside improves salt tolerance in wheat ( Triticum aestivum L.) by enhancing physiological and biochemical parameters. Plant Physiol Biochem 119:50\u201358. https://doi.org/10.1016/j.plaphy.2017.08.010 Article PubMed Google Scholar Ambreen S, Athar H-u-R, Khan A, Zafar ZU, Ayyaz A, Kalaji HM (2021) Seed priming with proline improved photosystem II efficiency and growth of wheat ( Triticum aestivum L). BMC Plant Biol 21:1\u201312. https://doi.org/10.1186/s12870-021-03273-2 Article Google Scholar Ami K, Planchais S, Cabassa C, Guivarc\u2019h A, V\u00e9ry A-A, Khelifi M, Djebbar R, Abrous-Belbachir O, Carol P (2020) Different proline responses of two Algerian durum wheat cultivars to in vitro salt stress. Acta Physiol Plant 42:1\u201316. https://doi.org/10.1007/s11738-019-3004-9 Article Google Scholar Anzooman M, Christopher J, Dang YP, Taylor J, Menzies NW, Kopittke PM (2019) Chemical and physical influence of sodic soils on the coleoptile length and root growth angle of wheat genotypes. Ann Bot 124(6):1043\u20131052 Arif Y, Singh P, Siddiqui H, Bajguz A, Hayat S (2020) Salinity induced physiological and biochemical changes in plants: an omic approach towards salt stress tolerance. Plant Physiol Biochem 156:64\u201377. https://doi.org/10.1016/j.plaphy.2020.08.042 Article PubMed Google Scholar Ashraf M, Athar H, Harris P, Kwon T (2008) Some prospective strategies for improving crop salt tolerance. Adv Agron 97:45\u2013110. https://doi.org/10.1016/S0065-2113(07)00002-8 Article Google Scholar Ashraf M, Akram N, Foolad M (2012) Mark"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 2,
+      "heading": "Funding",
+      "text": "This study was funded by Sultan Qaboos University through His Majesty Trust Fund (SR/AGR/CROP/19/01) and Internal grant (IG/AGR/CROP/23/03)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 2,
+      "heading": "Author information",
+      "text": "Authors and Affiliations Department of Plant Sciences, College of Agricultural and Marine Sciences, Sultan Qaboos University, Al-Khoud 123, Muscat, Oman Muhammad Farooq, Aman Ullah & Mawra S. Al-Hinani Department of Botany, University of Agriculture, Faisalabad, Pakistan Noreen Zahra Department of Botany, Government College Women University, Faisalabad, 38000, Pakistan Noreen Zahra Department of Agronomy, The University of Agriculture, Dera Ismail Khan, Pakistan Faisal Nadeem Department of Agronomy, Faculty of Agriculture and Environment, The Islamia University of Bahawalpur, Bahawalpur, 63100, Pakistan Abdul Rehman Amity Institute of Biotechnology, Amity University Uttar Pradesh, Noida, 201 313, India Riti Kapoor The UWA Institute of Agriculture and School of Agriculture and Environment, The University of Western Australia, Perth, WA, 6001, Australia Muhammad Farooq & Kadambot H.M. Siddique Authors Muhammad Farooq View author publications Search author on: PubMed Google Scholar Noreen Zahra View author publications Search author on: PubMed Google Scholar Aman Ullah View author publications Search author on: PubMed Google Scholar Faisal Nadeem View author publications Search author on: PubMed Google Scholar Abdul Rehman View author publications Search author on: PubMed Google Scholar Riti Kapoor View author publications Search author on: PubMed Google Scholar Mawra S. Al-Hinani View author publications Search author on: PubMed Google Scholar Kadambot H.M. Siddique View author publications Search author on: PubMed Google Scholar Corresponding author Correspondence to Muhammad Farooq ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Authors and Affiliations",
+      "text": "Department of Plant Sciences, College of Agricultural and Marine Sciences, Sultan Qaboos University, Al-Khoud 123, Muscat, Oman Muhammad Farooq, Aman Ullah & Mawra S. Al-Hinani Department of Botany, University of Agriculture, Faisalabad, Pakistan Noreen Zahra Department of Botany, Government College Women University, Faisalabad, 38000, Pakistan Noreen Zahra Department of Agronomy, The University of Agriculture, Dera Ismail Khan, Pakistan Faisal Nadeem Department of Agronomy, Faculty of Agriculture and Environment, The Islamia University of Bahawalpur, Bahawalpur, 63100, Pakistan Abdul Rehman Amity Institute of Biotechnology, Amity University Uttar Pradesh, Noida, 201 313, India Riti Kapoor The UWA Institute of Agriculture and School of Agriculture and Environment, The University of Western Australia, Perth, WA, 6001, Australia Muhammad Farooq & Kadambot H.M. Siddique Authors Muhammad Farooq View author publications Search author on: PubMed Google Scholar Noreen Zahra View author publications Search author on: PubMed Google Scholar Aman Ullah View author publications Search author on: PubMed Google Scholar Faisal Nadeem View author publications Search author on: PubMed Google Scholar Abdul Rehman View author publications Search author on: PubMed Google Scholar Riti Kapoor View author publications Search author on: PubMed Google Scholar Mawra S. Al-Hinani View author publications Search author on: PubMed Google Scholar Kadambot H.M. Siddique View author publications Search author on: PubMed Google Scholar"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Corresponding author",
+      "text": "Correspondence to Muhammad Farooq ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 2,
+      "heading": "Ethics declarations",
+      "text": "Conflict of Interest The authors declare that they have no conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Conflict of Interest",
+      "text": "The authors declare that they have no conflict of interest."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Additional information",
+      "text": "Publisher\u2019s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Publisher\u2019s Note",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 2,
+      "heading": "Rights and permissions",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law. Reprints and permissions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 2,
+      "heading": "About this article",
+      "text": "Cite this article Farooq, M., Zahra, N., Ullah, A. et al. Salt Stress in Wheat: Effects, Tolerance Mechanisms, and Management. J Soil Sci Plant Nutr 24 , 8151\u20138173 (2024). https://doi.org/10.1007/s42729-024-02104-1 Download citation Received : 03 March 2024 Accepted : 23 October 2024 Published : 06 November 2024 Version of record : 06 November 2024 Issue date : December 2024 DOI : https://doi.org/10.1007/s42729-024-02104-1 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative Keywords Salinity stress Tolerance mechanisms Management strategies Wheat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Cite this article",
+      "text": "Farooq, M., Zahra, N., Ullah, A. et al. Salt Stress in Wheat: Effects, Tolerance Mechanisms, and Management. J Soil Sci Plant Nutr 24 , 8151\u20138173 (2024). https://doi.org/10.1007/s42729-024-02104-1 Download citation Received : 03 March 2024 Accepted : 23 October 2024 Published : 06 November 2024 Version of record : 06 November 2024 Issue date : December 2024 DOI : https://doi.org/10.1007/s42729-024-02104-1 Share this article Anyone you share the following link with will be able to read this content: Get shareable link Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Share this article",
+      "text": "Anyone you share the following link with will be able to read this content: Sorry, a shareable link is not currently available for this article. Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Keywords",
+      "text": "Salinity stress Tolerance mechanisms Management strategies Wheat"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Profiles",
+      "text": "Muhammad Farooq View author profile Abdul Rehman View author profile Mawra S. Al-Hinani View author profile Kadambot H.M. Siddique View author profile"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 2,
+      "heading": "Access this article",
+      "text": "Log in via an institution Subscribe and save Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans Buy Now Buy article PDF 39,95 \u20ac Price includes VAT (Germany) Instant access to the full article PDF. Institutional subscriptions"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 2,
+      "heading": "Subscribe and save",
+      "text": "Springer+ from \u20ac39.99 /Month Starting from 10 chapters or articles per month Access and download chapters and articles from more than 300k books and 2,500 journals Cancel anytime View plans"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 2,
+      "heading": "Buy Now",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Soil salinity is a major constraint to global wheat ( Triticum aestivum L.) production, adversely affecting crop growth and development. Despite this challenge, traditional breeding methods and management practices have struggled to keep pace with the increasing demand for grain crops. Key obstacles include insufficient understanding of sodium (Na + ) storage mechanisms in wheat plants, limited exploration of the available gene pool, ineffective crop management techniques, a lack of effective screening methods, and overemphasis on excluding Na + strategies. However, enhancing carbon metabolism efficiency, increasing accumulation of osmotic substances, improving antioxidant system efficiency, hormonal regulation, and reducing Na + /K + ratios have shown promise in enhancing wheat growth and production under salinity stress. Effective salt stress management strategies also involve modulating root architecture, promoting plant growth through mechanisms such as (i) improved control over Na + movement, (ii) K + selectivity over Na + , (iii) stable osmotic potential, (iv) ionic homeostasis, and (v) increased energy provision for root growth compared to shoot growth. Additionally, plant growth-promoting rhizobacteria and arbuscular mycorrhizal fungi can further enhance the salinity tolerance by improving plant nutrition and soil fertility. This review comprehensively examines the impact of salt stress on wheat physiology including germination, root development, growth, nutrient uptake, light harvesting, carbon metabolism, and the amino acid profile. It also explores key tolerance mechanisms such as osmoregulation, ion homeostasis, apoplastic acidification, and antioxidant defense systems, offering valuable insights into effective management strategies to improve salt tolerance in wheat.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a preview of subscription content, log in via an institution to check access.",
+      "char_offset": 1812
+    },
+    {
+      "type": "paragraph",
+      "text": "Data sharing is not applicable to this article as no new data were generated or analyzed in this study.",
+      "char_offset": 1899
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbas G, Saqib M, Rafique Q, Rahman A, Akhtar J, Haq M, Nasim MJPJB (2013) Effect of salinity on grain yield and grain quality of wheat ( Triticum aestivum L). Pak J Agric Res 50:185\u2013189",
+      "char_offset": 2004
+    },
+    {
+      "type": "paragraph",
+      "text": "Abbas G, Rehman S, Siddiqui MH, Ali HM, Farooq MA, Chen Y (2022) Potassium and humic acid synergistically increase salt tolerance and nutrient uptake in contrasting wheat genotypes through ionic homeostasis and activation of antioxidant enzymes. Plants 11:263. https://doi.org/10.3390/plants11030263",
+      "char_offset": 2192
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 2493
+    },
+    {
+      "type": "paragraph",
+      "text": "Abdel-Fattah GM, Asrar A-WA (2012) Arbuscular mycorrhizal fungal application to improve growth and tolerance of wheat ( Triticum aestivum L.) plants grown in saline soil. Acta Physiol Plant 34: 267\u2013277. https://link.springer.com/article/10.1007/s11738-011-0825-6",
+      "char_offset": 2539
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahanger MA, Qin C, Begum N, Maodong Q, Dong XX, El-Esawi M, El-Sheikh MA, Alatar AA, Zhang L (2019) Nitrogen availability prevents oxidative effects of salinity on wheat growth and photosynthesis by up-regulating the antioxidants and osmolytes metabolism, and secondary metabolite accumulation. BMC Plant Biol 19:1\u201312. https://doi.org/10.1186/s12870-019-2085-3",
+      "char_offset": 2803
+    },
+    {
+      "type": "paragraph",
+      "text": "Al Hinai MS, Ullah A, Al-Rajhi RS, Farooq M (2022) Proline accumulation, ion homeostasis and antioxidant defence system alleviate salt stress and protect carbon assimilation in bread wheat genotypes of Omani origin. Environ Exp Bot 193:104687. https://doi.org/10.1016/j.envexpbot.2021.104687",
+      "char_offset": 3165
+    },
+    {
+      "type": "paragraph",
+      "text": "Al Hinai MS, Ullah A, Al-Toubi AM, Al Harrasi IR, Alamri AA, Farooq M (2023) Co-application of biochar and seed priming with nano-sized chitosan-proline improves salt tolerance in differentially responding bread wheat genotypes. J Soil Sci Plant Nutr 23:3058\u20133073. https://doi.org/10.1007/s42729-023-01276-6",
+      "char_offset": 3458
+    },
+    {
+      "type": "paragraph",
+      "text": "Al Masruri MHK, Ullah A, Farooq M (2023) Application of nano chitosan-glycinebetaine for improving bread wheat performance under combined drought and heat stresses. J Soil Sci Plant Nutr 23:3482\u20133499. https://doi.org/10.1007/s42729-023-01265-9",
+      "char_offset": 3767
+    },
+    {
+      "type": "paragraph",
+      "text": "Al-Ashkar I, Alderfasi A, Ben Romdhane W, Seleiman MF, El-Said RA, Al-Doss A (2020) Morphological and genetic diversity within salt tolerance detection in eighteen wheat genotypes. Plants 9:287. https://doi.org/10.3390/plants9030287",
+      "char_offset": 4012
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 4246
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali Q, Daud M, Haider MZ, Ali S, Rizwan M, Aslam N, Noman A, Iqbal N, Shahzad F, Deeba F (2017) Seed priming by sodium nitroprusside improves salt tolerance in wheat ( Triticum aestivum L.) by enhancing physiological and biochemical parameters. Plant Physiol Biochem 119:50\u201358. https://doi.org/10.1016/j.plaphy.2017.08.010",
+      "char_offset": 4292
+    },
+    {
+      "type": "paragraph",
+      "text": "Ambreen S, Athar H-u-R, Khan A, Zafar ZU, Ayyaz A, Kalaji HM (2021) Seed priming with proline improved photosystem II efficiency and growth of wheat ( Triticum aestivum L). BMC Plant Biol 21:1\u201312. https://doi.org/10.1186/s12870-021-03273-2",
+      "char_offset": 4616
+    },
+    {
+      "type": "paragraph",
+      "text": "Ami K, Planchais S, Cabassa C, Guivarc\u2019h A, V\u00e9ry A-A, Khelifi M, Djebbar R, Abrous-Belbachir O, Carol P (2020) Different proline responses of two Algerian durum wheat cultivars to in vitro salt stress. Acta Physiol Plant 42:1\u201316. https://doi.org/10.1007/s11738-019-3004-9",
+      "char_offset": 4857
+    },
+    {
+      "type": "paragraph",
+      "text": "Anzooman M, Christopher J, Dang YP, Taylor J, Menzies NW, Kopittke PM (2019) Chemical and physical influence of sodic soils on the coleoptile length and root growth angle of wheat genotypes. Ann Bot 124(6):1043\u20131052",
+      "char_offset": 5130
+    },
+    {
+      "type": "paragraph",
+      "text": "Arif Y, Singh P, Siddiqui H, Bajguz A, Hayat S (2020) Salinity induced physiological and biochemical changes in plants: an omic approach towards salt stress tolerance. Plant Physiol Biochem 156:64\u201377. https://doi.org/10.1016/j.plaphy.2020.08.042",
+      "char_offset": 5347
+    },
+    {
+      "type": "paragraph",
+      "text": "Ashraf M, Athar H, Harris P, Kwon T (2008) Some prospective strategies for improving crop salt tolerance. Adv Agron 97:45\u2013110. https://doi.org/10.1016/S0065-2113(07)00002-8",
+      "char_offset": 5594
+    },
+    {
+      "type": "paragraph",
+      "text": "Ashraf M, Akram N, Foolad M (2012) Marker-assisted selection in plant breeding for salinity tolerance. In: Shabala S, Cuin T (eds) Plant Salt Tolerance. Methods in Molecular Biology, vol 913. Humana, Totowa, NJ. https://doi.org/10.1007/978-1-61779-986-0_21",
+      "char_offset": 5768
+    },
+    {
+      "type": "paragraph",
+      "text": "Avalbaev A, Allagulova C, Maslennikova D, Fedorova K, Shakirova F (2021) Methyl jasmonate and cytokinin mitigate the salinity-induced oxidative injury in wheat seedlings. J Plant Growth Regul 40:1741\u20131752. https://doi.org/10.1007/s00344-020-10221-1",
+      "char_offset": 6026
+    },
+    {
+      "type": "paragraph",
+      "text": "Baig Z, Khan N, Sahar S, Sattar S, Zehra R (2021) Effects of seed priming with ascorbic acid to mitigate salinity stress on three wheat ( Triticum aestivum L.) cultivars. Acta Ecol Sinica 41:491\u2013498. https://doi.org/10.1016/j.chnaes.2021.08.010",
+      "char_offset": 6276
+    },
+    {
+      "type": "paragraph",
+      "text": "Bailey-Serres J, Parker JE, Ainsworth EA, Oldroyd GE, Schroeder JI (2019) Genetic strategies for improving crop yields. Nature 575:109\u2013118. https://doi.org/10.1038/s41586-019-1679-0",
+      "char_offset": 6522
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 6705
+    },
+    {
+      "type": "paragraph",
+      "text": "Bajwa AA, Farooq M, Nawaz A (2018) Seed priming with sorghum extracts and benzyl aminopurine improves the tolerance against salt stress in wheat ( Triticum aestivum L). Physiol Mol Biol Plants 24:239\u2013249. https://doi.org/10.1007/s12298-018-0512-9",
+      "char_offset": 6751
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 6999
+    },
+    {
+      "type": "paragraph",
+      "text": "Barnawal D, Bharti N, Pandey SS, Pandey A, Chanotiya CS, Kalra A (2017) Plant growth-promoting rhizobacteria enhance wheat salt and drought stress tolerance by altering endogenous phytohormone levels and TaCTR1/TaDREB2 expression. Physiol Plant 161:502\u2013514. https://doi.org/10.1111/ppl.12614",
+      "char_offset": 7045
+    },
+    {
+      "type": "paragraph",
+      "text": "Basu S, Kumar A, Benazir I, Kumar G (2021) Reassessing the role of ion homeostasis for improving salinity tolerance in crop plants. Physiol Plant 171:502\u2013519. https://doi.org/10.1111/ppl.13112",
+      "char_offset": 7338
+    },
+    {
+      "type": "paragraph",
+      "text": "Begum N, Qin C, Ahanger MA, Raza S, Khan MI, Ashraf M, Ahmed N, Zhang L (2019) Role of arbuscular mycorrhizal fungi in plant growth regulation: implications in abiotic stress tolerance. Front Plant Sci 10:1068. https://doi.org/10.3389/fpls.2019.01068",
+      "char_offset": 7532
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 7784
+    },
+    {
+      "type": "paragraph",
+      "text": "Bharti N, Pandey SS, Barnawal D, Patel VK, Kalra A (2016) Plant growth promoting rhizobacteria Dietzia natronolimnaea modulates the expression of stress responsive genes providing protection of wheat from salinity stress. Sci Rep 6:1\u201316. https://doi.org/10.1038/srep34768",
+      "char_offset": 7830
+    },
+    {
+      "type": "paragraph",
+      "text": "Bi C, Yu Y, Dong C, Yang Y, Zhai Y, Du F, Xia C, Ni Z, Kong X, Zhang L (2021) The bZIP transcription factor TabZIP15 improves salt stress tolerance in wheat. Plant Biotechnol J 19:209. https://doi.org/10.1111/pbi.13453",
+      "char_offset": 8103
+    },
+    {
+      "type": "paragraph",
+      "text": "Birhane E, Sterck FJ, Fetene M, Bongers F, Kuyper TW (2012) Arbuscular mycorrhizal fungi enhance photosynthesis, water use efficiency, and growth of frankincense seedlings under pulsed water availability conditions. Oecologia 169:895\u2013904. https://doi.org/10.1007/s00442-012-2258-3",
+      "char_offset": 8323
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 8605
+    },
+    {
+      "type": "paragraph",
+      "text": "Blumwald E, Aharon GS, Apse MP (2000) Sodium transport in plant cells. Biochim Biophys Acta Biomembr 1465:140\u2013151. https://doi.org/10.1016/S0005-2736(00)00135-8",
+      "char_offset": 8651
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrelli GM, Fragasso M, Nigro F, Platani C, Papa R, Beleggia R, Trono D (2018) Analysis of metabolic and mineral changes in response to salt stress in durum wheat ( Triticum turgidum ssp . durum) genotypes, which differ in salinity tolerance. Plant Physiol Biochem 133:57\u201370. https://doi.org/10.1016/j.plaphy.2018.10.025",
+      "char_offset": 8813
+    },
+    {
+      "type": "paragraph",
+      "text": "Bose J, Rodrigo-Moreno A, Shabala S (2014) ROS homeostasis in halophytes in the context of salinity stress tolerance. J Exp Bot 65:1241\u20131257. https://doi.org/10.1093/jxb/ert430",
+      "char_offset": 9136
+    },
+    {
+      "type": "paragraph",
+      "text": "Bouthour D, Kalai T, Chaffei HC, Gouia H, Corpas FJ (2015) Differential response of NADP-dehydrogenases and carbon metabolism in leaves and roots of two durum wheat ( Triticum durum Desf.) Cultivars (Karim and Azizi) with different sensitivities to salt stress. J Plant Physiol 179:56\u201363. https://doi.org/10.1016/j.jplph.2015.02.009",
+      "char_offset": 9314
+    },
+    {
+      "type": "paragraph",
+      "text": "Brini F, Gaxiola RA, Berkowitz GA, Masmoudi K (2005) Cloning and characterization of a wheat vacuolar cation/proton antiporter and pyrophosphatase proton pump. Plant Physiol Biochem 43:347\u2013354. https://doi.org/10.1016/j.plaphy.2005.02.010",
+      "char_offset": 9648
+    },
+    {
+      "type": "paragraph",
+      "text": "Byrt CS, Xu B, Krishnan M, Lightfoot DJ, Athman A, Jacobs AK, Watson-Haigh NS, Plett D, Munns R, Tester M (2014) The Na + transporter, TaHKT1;5-D , limits shoot Na + accumulation in bread wheat. Plant J 80:516\u2013526. https://doi.org/10.1111/tpj.12651",
+      "char_offset": 9888
+    },
+    {
+      "type": "paragraph",
+      "text": "Carillo P, Mastrolonardo G, Nacca F, Parisi D, Verlotta A, Fuggi A (2008) Nitrogen metabolism in durum wheat under salinity: accumulation of proline and glycine betaine. Funct Plant Biol 35:412\u2013426. https://doi.org/10.1071/FP08108",
+      "char_offset": 10138
+    },
+    {
+      "type": "paragraph",
+      "text": "Carp\u00fdc\u00fd E, Cel\u00fdk N, Bayram G (2009) Effects of salt stress on germination of some maize ( Zea mays L.) cultivars. Afr J Biotechnol 8:4918\u20134922",
+      "char_offset": 10370
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaves MS, Martinelli JA, Wesp-Guterres C, Graichen FAS, Brammer SP, Scagliusi SM, da Silva PR, Wieth\u00f6lter P, Torres GAM, Lau EY (2013) The importance for food security of maintaining rust resistance in wheat. Food Secur 5:157\u2013176. https://doi.org/10.1007/s12571-013-0248-x",
+      "char_offset": 10514
+    },
+    {
+      "type": "paragraph",
+      "text": "Chen L, Meng Y, Yang W, Qian LV, Zhou L, Liu S, Tang C, Xie Y, Li X (2023) Genome-wide analysis and identification of TaRING-H2 gene family and TaSDIR1 positively regulates salt stress tolerance in wheat. Int J Biol Macromol 242:125162. https://doi.org/10.1016/j.ijbiomac.2023.125162",
+      "char_offset": 10789
+    },
+    {
+      "type": "paragraph",
+      "text": "Colombi T, Herrmann AM, Vallenback P, Keller T (2019) Cortical cell diameter is key to energy costs of root growth in wheat. Plant Physiol 180(4):2049\u20132060",
+      "char_offset": 11074
+    },
+    {
+      "type": "paragraph",
+      "text": "Colmer T, Munns R, Flowers T (2005) Improving salt tolerance of wheat and barley: future prospects. Aust J Exp Agric 45:1425\u20131443. https://doi.org/10.1071/EA04162",
+      "char_offset": 11231
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuong DM, Kwon S-J, Nguyen BV, Chun SW, Kim JK, Park SU (2020) Effect of salinity stress on phenylpropanoid genes expression and related gene expression in wheat sprout. Agronomy 10:390. https://doi.org/10.3390/agronomy10030390",
+      "char_offset": 11395
+    },
+    {
+      "type": "paragraph",
+      "text": "Dadshani S, Sharma RC, Baum M, Ogbonnaya FC, Leon J, Ballvora A (2019) Multi-dimensional evaluation of response to salt stress in wheat. PLoS ONE 14:e0222659. https://doi.org/10.1371/journal.pone.0222659",
+      "char_offset": 11624
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 11829
+    },
+    {
+      "type": "paragraph",
+      "text": "Daei G, Ardekani M, Rejali F, Teimuri S, Miransari M (2009) Alleviation of salinity stress on wheat yield, yield components, and nutrient uptake using arbuscular mycorrhizal fungi under field conditions. J Plant Physiol 166:617\u2013625. https://doi.org/10.1016/j.jplph.2008.09.013",
+      "char_offset": 11875
+    },
+    {
+      "type": "paragraph",
+      "text": "Datir S, Singh N, Joshi I (2020) Effect of NaCl-induced salinity stress on growth, osmolytes and enzyme activities in wheat genotypes. Bull Environ Contam Toxicol 104:351\u2013357. https://doi.org/10.1007/s00128-020-02795-z",
+      "char_offset": 12153
+    },
+    {
+      "type": "paragraph",
+      "text": "Davenport RJ, Tester MA (2000) Weakly voltage-dependent, nonselective cation channel mediates toxic sodium influx in wheat. Plant Physiol 12:823\u2013834. https://doi.org/10.1104/pp.122.3.823",
+      "char_offset": 12373
+    },
+    {
+      "type": "paragraph",
+      "text": "Desoky E-SM, Merwad AMA, Abo El-Maati MF, Mansour E, Arnaout SM, Awad MF, Ramadan MF, Ibrahim SAJA (2021) Physiological and biochemical mechanisms of exogenously applied selenium for alleviating destructive impacts induced by salinity stress in bread wheat. Agronomy 11:926. https://doi.org/10.3390/agronomy11050926",
+      "char_offset": 12561
+    },
+    {
+      "type": "paragraph",
+      "text": "Dissanayake BM, Staudinger C, Munns R, Taylor NL, Millar AH (2022) Distinct salinity-induced changes in wheat metabolic machinery in different root tissue types. J Proteom 256:104502. https://doi.org/10.1016/j.jprot.2022.104502",
+      "char_offset": 12878
+    },
+    {
+      "type": "paragraph",
+      "text": "Dong Y, Wang W, Hu G, Chen W, Zhuge Y, Wang Z, He MR (2017) Role of exogenous 24-epibrassinolide in enhancing the salt tolerance of wheat seedlings. J Soil Sci Plant Nutr 17:554\u2013569. https://doi.org/10.4067/S0718-95162017000300001",
+      "char_offset": 13107
+    },
+    {
+      "type": "paragraph",
+      "text": "Dubcovsky J, Mar\u00eda GS, Epstein E, Luo M-C, Dvo\u0159\u00e1k J (1996) Mapping of the K + /Na + discrimination locus Kna1 in wheat. Theor Appl Genet 92:448\u2013454. https://doi.org/10.1007/BF00223692",
+      "char_offset": 13339
+    },
+    {
+      "type": "paragraph",
+      "text": "Egamberdieva D, Wirth S, Bellingrath-Kimura SD, Mishra J, Arora NK (2019) Salt-tolerant plant growth promoting rhizobacteria for enhancing crop productivity of saline soils. Front Microbiol 10:2791. https://doi.org/10.3389/fmicb.2019.02791",
+      "char_offset": 13524
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 13765
+    },
+    {
+      "type": "paragraph",
+      "text": "El Mahi H, P\u00e9rez-Hormaeche J, De Luca A, Villalta I, Espartero J, G\u00e1mez-Arjona F, Fern\u00e1ndez JL, Bund\u00f3 M, Mendoza I, Mieulet D, Lalanne E (2019) A critical role of sodium flux via the plasma membrane Na + /H + exchanger SOS1 in the salt tolerance of rice. Plant Physiol 180:1046\u20131065. https://doi.org/10.1104/pp.19.00324",
+      "char_offset": 13811
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 14132
+    },
+    {
+      "type": "paragraph",
+      "text": "El-Hendawy S, Elshafei A, Al-Suhaibani N, Alotabi M, Hassan W, Dewir YH, Abdella K (2019) Assessment of the salt tolerance of wheat genotypes during the germination stage based on germination ability parameters and associated SSR markers. J Plant Interact 14:151\u2013163. https://doi.org/10.1080/17429145.2019.1603406",
+      "char_offset": 14178
+    },
+    {
+      "type": "paragraph",
+      "text": "El-Lethy SR, Abdelhamid MT, Reda F (2013) Effect of potassium application on wheat ( Triticum aestivum L.) cultivars grown under salinity stress. World Appl Sci J 26:840\u2013850. https://doi.org/10.5829/idosi.wasj.2013.26.07.13527",
+      "char_offset": 14493
+    },
+    {
+      "type": "paragraph",
+      "text": "El-Nasharty AB, El-Nwehy SS, Rezk AI, Abou El-Nour E-ZA, Aly E-M (2017) Role of kinetin in improving salt tolerance of two wheat cultivars. Biosci Res 14:193\u2013200",
+      "char_offset": 14721
+    },
+    {
+      "type": "paragraph",
+      "text": "El-Soud WA, Hegab MM, AbdElgawad H, Zinta G, Asard H (2013) Ability of ellagic acid to alleviate osmotic stress on chickpea seedlings. Plant Physiol Biochem 71:173\u2013183. https://doi.org/10.1016/j.plaphy.2013.07.007",
+      "char_offset": 14884
+    },
+    {
+      "type": "paragraph",
+      "text": "Elkelish AA, Soliman MH, Alhaithloul HA, El-Esawi MA (2019) Selenium protects wheat seedlings against salt stress-mediated oxidative damage by up-regulating antioxidants and osmolytes metabolism. Plant Physiol Biochem 137:144\u2013153. https://doi.org/10.1016/j.plaphy.2019.02.004",
+      "char_offset": 15099
+    },
+    {
+      "type": "paragraph",
+      "text": "Elrys AS, Abdo AI, Abdel-Hamed EM, Desoky E-SM (2020) Integrative application of licorice root extract or lipoic acid with fulvic acid improves wheat production and defenses under salt stress conditions. Ecotoxicol Environ Saf 190:110144. https://doi.org/10.1016/j.ecoenv.2019.110144",
+      "char_offset": 15376
+    },
+    {
+      "type": "paragraph",
+      "text": "Ero\u011flu \u00c7, Cabral C, Ravnskov S, Bak Topbjerg H, Wollenweber BJPB (2020) Arbuscular mycorrhiza influences carbon-use efficiency and grain yield of wheat grown under pre\u2010and post\u2010anthesis salinity stress. Plant Biol 22:863\u2013871. https://doi.org/10.1111/plb.13123",
+      "char_offset": 15661
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO (2022) Global Map of Salt-affected Soils (GSASmap). Food and Agriculture Organization of the United Nations, Rome, Italy. https://www.fao.org/global-soil-partnership/gsasmap/en (Last accessed on 17 October 2024)",
+      "char_offset": 15922
+    },
+    {
+      "type": "paragraph",
+      "text": "FAO, IFAD, UNICEF, WFP and WHO (2021) The State of Food Security and Nutrition in the World 2021: transforming food systems for food security, improved nutrition and affordable healthy diets for all. Food Agric Organ. Rome, Italy https://doi.org/10.4060/cb4474en . https://www.fao.org/3/cb4474en/cb4474en.pdf available at",
+      "char_offset": 16139
+    },
+    {
+      "type": "paragraph",
+      "text": "Fariduddin Q, Mir BA, Yusuf M, Ahmad A (2013) Comparative roles of brassinosteroids and polyamines in salt stress tolerance. Acta Physiol Plant 35:2037\u20132053. https://doi.org/10.1007/s11738-013-1263-4",
+      "char_offset": 16462
+    },
+    {
+      "type": "paragraph",
+      "text": "Farooq M, Usman M, Nadeem F, ur Rehman H, Wahid A, Basra SM, Siddique KH (2019) Seed priming in field crops: potential benefits, adoption and challenges. Crop Pasture Sci 70:731\u2013771. https://doi.org/10.1071/CP18604",
+      "char_offset": 16663
+    },
+    {
+      "type": "paragraph",
+      "text": "Farooq M, Rafique S, Zahra N, Rehman A, Siddique KHM (2024) Root system architecture and salt stress responses in cereal crops. J Agron Crop Sci 210:e12776. https://doi.org/10.1111/jac.12776",
+      "char_offset": 16879
+    },
+    {
+      "type": "paragraph",
+      "text": "Farouk S (2011) Ascorbic acid and \u03b1-tocopherol minimize salt-induced wheat leaf senescence. J Stress Physiol Biochem 7:58\u201379",
+      "char_offset": 17071
+    },
+    {
+      "type": "paragraph",
+      "text": "Feghhenabi F, Hadi H, Khodaverdiloo H, Van Genuchten MT (2020) Seed priming alleviated salinity stress during germination and emergence of wheat ( Triticum aestivum L). Agric Water Manage 231:106022. https://doi.org/10.1016/j.agwat.2020.106022",
+      "char_offset": 17197
+    },
+    {
+      "type": "paragraph",
+      "text": "Fernandez-Figares I, Marinetto J, Royo C, Ramos JM, Del Moral LG (2000) Amino-acid composition and protein and carbohydrate accumulation in the grain of triticale grown under terminal water stress simulated by a senescing agent. J Cereal Sci 32:249\u2013258. https://doi.org/10.1006/jcrs.2000.0329",
+      "char_offset": 17442
+    },
+    {
+      "type": "paragraph",
+      "text": "Forster B, Russell J, Ellis R, Handley L, Robinson D, Hackett C, Nevo E, Waugh R, Gordon D, Keith R (1997) Locating genotypes and genes for abiotic stress tolerance in barley: a strategy using maps, markers and the wild species. New Phytol 137:141\u2013147. https://doi.org/10.1046/j.1469-8137.1997.00816.x",
+      "char_offset": 17736
+    },
+    {
+      "type": "paragraph",
+      "text": "Foster KJ, Miklavcic SJ (2019) A comprehensive biophysical model of ion and water transport in plant roots. II. Clarifying the roles of SOS1 in the salt-stress response in Arabidopsis. Front Plant Sci 10:1121",
+      "char_offset": 18039
+    },
+    {
+      "type": "paragraph",
+      "text": "Genc Y, Oldach K, Verbyla AP, Lott G, Hassan M, Tester M, Wallwork H, McDonald GK (2010) Sodium exclusion QTL associated with improved seedling growth in bread wheat under salinity stress. Theor Appl Genet 121:877\u2013894. https://doi.org/10.1007/s00122-010-1357-y",
+      "char_offset": 18249
+    },
+    {
+      "type": "paragraph",
+      "text": "Genc Y, Oldach K, Gogel B, Wallwork H, McDonald GK, Smith AB (2013) Quantitative trait loci for agronomic and physiological traits for a bread wheat population grown in environments with a range of salinity levels. Mol Breed 32:39\u201359. https://doi.org/10.1007/s11032-013-9851-y",
+      "char_offset": 18511
+    },
+    {
+      "type": "paragraph",
+      "text": "Gholizadeh F, Mirzaghaderi G, Danish S, Farsi M, Marashi SH (2021) Evaluation of morphological traits of wheat varieties at germination stage under salinity stress. PLoS ONE 16:e0258703. https://doi.org/10.1371/journal.pone.0258703",
+      "char_offset": 18789
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 19022
+    },
+    {
+      "type": "paragraph",
+      "text": "Golldack D, Li C, Mohan H, Probst N (2014) Tolerance to drought and salt stress in plants: unraveling the signaling networks. Front Plant Sci 5:151. https://doi.org/10.3389/fpls.2014.00151",
+      "char_offset": 19068
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 19258
+    },
+    {
+      "type": "paragraph",
+      "text": "Guo X, Wu C, Wang D, Wang G, Jin K, Zhao Y, Tian J, Deng Z (2022) Conditional QTL mapping for seed germination and seedling traits under salt stress and candidate gene prediction in wheat. Sci Rep 12(1):21010",
+      "char_offset": 19304
+    },
+    {
+      "type": "paragraph",
+      "text": "Guo R, Yang Z, Li F, Yan C, Zhong X, Liu Q, Xia X, Li H, Zhao L (2015) Comparative metabolic responses and adaptive strategies of wheat ( Triticum aestivum ) to salt and alkali stress. BMC Plant Biol 15:1\u201313. https://doi.org/10.1186/s12870-015-0546-x",
+      "char_offset": 19514
+    },
+    {
+      "type": "paragraph",
+      "text": "Hafeez MB, Zahra N, Zahra K, Raza A, Khan A, Shaukat K, Khan S (2021) Brassinosteroids: Molecular and physiological responses in plant growth and abiotic stresses. Plant Stress 2:100029. https://doi.org/10.1016/j.stress.2021.100029",
+      "char_offset": 19766
+    },
+    {
+      "type": "paragraph",
+      "text": "Hajiabadi AA, Arani AM, Ghasemi S, Rad MH, Etesami H, Manshadi SS, Dolati AJPP, Biochemistry (2021) Mining the rhizosphere of halophytic rangeland plants for halotolerant bacteria to improve growth and yield of salinity-stressed wheat. Plant Physiol Biochem 163:139\u2013153. https://doi.org/10.1016/j.plaphy.2021.03.059",
+      "char_offset": 19999
+    },
+    {
+      "type": "paragraph",
+      "text": "Haq RFU, Saeed NA, Ahmed M, Arshad Z, Mansoor S, Habib I, Tester M (2019) Barley vacuolar pyrophosphatase ( HVP1 ) gene confers salinity tolerance in locally adapted wheat ( Triticum aestivum L). Int J Agric Biol 22:1338\u20131346. https://doi.org/10.17957/IJAB/15.1206",
+      "char_offset": 20316
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasan A, Hafiz HR, Siddiqui N, Khatun M, Islam R, Mamun A-A (2015) Evaluation of wheat genotypes for salt tolerance based on some physiological traits. J Crop Sci Biotechnol 18:333\u2013340. https://doi.org/10.1007/s12892-015-0064-2",
+      "char_offset": 20582
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasanuzzaman M, Hossain MA, Fujita M (2011) Nitric oxide modulates antioxidant defense and the methylglyoxal detoxification system and reduces salinity-induced damage of wheat seedlings. Plant Biotechnol Rep 5:353\u2013365. https://doi.org/10.1007/s11816-011-0189-9",
+      "char_offset": 20811
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasanuzzaman M, Nahar K, Fujita M (2013) Plant responses to salt stress and role of exogenous protectants to mitigate salt-induced damages. In: Ahmad P, Azooz MM, Prasad MNV (eds) Ecophysiology and responses of plants under salt stress. Springer, New York, NY, pp 25\u201387. doi: https://doi.org/10.1007/978-1-4614-4747-4_2",
+      "char_offset": 21073
+    },
+    {
+      "type": "paragraph",
+      "text": "Hayat S, Hayat Q, Alyemeni MN, Wani AS, Pichtel J, Ahmad A (2012) Role of proline under changing environments: a review. Plant Signal Behav 7:1456\u20131466. https://doi.org/10.4161/psb.21949",
+      "char_offset": 21394
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 21582
+    },
+    {
+      "type": "paragraph",
+      "text": "Hayat K, Bundschuh J, Jan F, Menhas S, Hayat S, Haq F, Shah MA, Chaudhary HJ, Ullah A, Zhang D (2020) Combating soil salinity with combining saline agriculture and phytomanagement with salt-accumulating plants. Crit Rev Environ Sci Technol 50:1085\u20131115. https://doi.org/10.1080/10643389.2019.1646087",
+      "char_offset": 21628
+    },
+    {
+      "type": "paragraph",
+      "text": "He C, Yang A, Zhang W, Gao Q, Zhang J (2010) Improved salt tolerance of transgenic wheat by introducing betA gene for glycine betaine synthesis. Plant Cell Tissue Organ Cult 101:65\u201378. https://doi.org/10.1007/s11240-009-9665-0",
+      "char_offset": 21929
+    },
+    {
+      "type": "paragraph",
+      "text": "Hill CB, Taylor JD, Edwards J, Mather D, Bacic A, Langridge P, Roessner U (2013) Whole-genome mapping of agronomic and metabolic traits to identify novel quantitative trait loci in bread wheat grown in a water-limited environment. Plant Physiol 162:1266\u20131281. https://doi.org/10.1104/pp.113.217851",
+      "char_offset": 22157
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 22456
+    },
+    {
+      "type": "paragraph",
+      "text": "Horchani F, Bouallegue A, Namsi A, Abbes Z (2024) Simultaneous application of ascorbic acid and proline as a smart approach to mitigate the adverse effects of salt stress in wheat ( Triticum aestivum ). Biol Bull Russ Acad Sci 51:1346\u20131363. https://doi.org/10.1134/S1062359024607171",
+      "char_offset": 22502
+    },
+    {
+      "type": "paragraph",
+      "text": "Houshmand S, Arzani A, Mirmohammadi-Maibody S (2014) Effects of salinity and drought stress on grain quality of durum wheat. Commun Soil Sci Plant Anal 45:297\u2013308. https://doi.org/10.1080/00103624.2013.861911",
+      "char_offset": 22786
+    },
+    {
+      "type": "paragraph",
+      "text": "Hu DG, Ma QJ, Sun CH, Sun MH, You CX, Hao YJ (2016) Overexpression of MdSOS2L1 , a CIPK protein kinase, increases the antioxidant metabolites to enhance salt tolerance in apple and tomato. Physiol Plant 156:201\u2013214. https://doi.org/10.1111/ppl.12354",
+      "char_offset": 22996
+    },
+    {
+      "type": "paragraph",
+      "text": "Hua-long L, Han-jing S, Jing-guo W, Yang L, De-tang Z, Hong-wei Z (2014) Effect of seed soaking with exogenous proline on seed germination of rice under salt stress. J Northeast Agric Uni 21:1\u20136",
+      "char_offset": 23247
+    },
+    {
+      "type": "paragraph",
+      "text": "Husain S, von Caemmerer S, Munns R (2004) Control of salt transport from roots to shoots of wheat in saline soil. Funct Plant Biol 31:1115\u20131126. https://doi.org/10.1071/FP04078",
+      "char_offset": 23443
+    },
+    {
+      "type": "paragraph",
+      "text": "Ilangumaran G, Smith DL (2017) Plant growth promoting rhizobacteria in amelioration of salinity stress: a systems biology perspective. Front Plant Sci 8:1768. https://doi.org/10.3389/fpls.2017.01768",
+      "char_offset": 23621
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 23821
+    },
+    {
+      "type": "paragraph",
+      "text": "Iqbal M, Ashraf M (2006) Wheat seed priming in relation to salt tolerance: growth, yield and levels of free salicylic acid and polyamines. Ann Bot Fenn 43:250\u2013259",
+      "char_offset": 23867
+    },
+    {
+      "type": "paragraph",
+      "text": "Iqbal M, Ashraf M (2013) Gibberellic acid mediated induction of salt tolerance in wheat plants: growth, ionic partitioning, photosynthesis, yield and hormonal homeostasis. Environ Exp Bot 86:76\u201385. https://doi.org/10.1016/j.envexpbot.2010.06.002",
+      "char_offset": 24031
+    },
+    {
+      "type": "paragraph",
+      "text": "Jafar MZ, Farooq M, Cheema MA, Afzal I, Basra SM, Wahid MA, Aziz T, Shahid M (2012) Improving the performance of wheat by seed priming under saline conditions. J Agron Crop Sci 198:38\u201345. https://doi.org/10.1111/j.1439-037X.2011.00485.x",
+      "char_offset": 24278
+    },
+    {
+      "type": "paragraph",
+      "text": "James RA, Davenport RJ, Munns R (2006) Physiological characterization of two genes for Na + exclusion in durum wheat, Nax1 and Nax2 . Plant Physiol 142:1537\u20131547. https://doi.org/10.1104/pp.106.086538",
+      "char_offset": 24516
+    },
+    {
+      "type": "paragraph",
+      "text": "James RA, Blake C, Byrt CS, Munns R (2011) Major genes for Na + exclusion, Nax1 and Nax2 (wheat HKT1;4 and HKT1;5 ), decrease Na + accumulation in bread wheat leaves under saline and waterlogged conditions. J Exp Bot 62:2939\u20132947. https://doi.org/10.1093/jxb/err003",
+      "char_offset": 24718
+    },
+    {
+      "type": "paragraph",
+      "text": "Jiang Q, Hu Z, Zhang H, Ma Y (2014) Overexpression of GmDREB1 improves salt tolerance in transgenic wheat and leaf protein response to high salinity. Crop J 2:120\u2013131. https://doi.org/10.1016/j.cj.2014.02.003",
+      "char_offset": 24985
+    },
+    {
+      "type": "paragraph",
+      "text": "Jiang W, Pan R, Buitrago S, Wu C, Abou-Elwafa SF, Xu Y, Zhang W (2021) Conservation and divergence of the TaSOS1 gene family in salt stress response in wheat ( Triticum aestivum L). Physiol Mol Biol Plants 27:1245\u20131260. https://doi.org/10.1007/s12298-021-01009-y",
+      "char_offset": 25195
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 25459
+    },
+    {
+      "type": "paragraph",
+      "text": "Kausar A, Gull M (2014) Effect of potassium sulphate on the growth and uptake of nutrients in wheat ( Triticum aestivum L.) under salt stressed conditions. J Agric Sci 6:101\u2013112. https://doi.org/10.5539/jas.v6n8p101",
+      "char_offset": 25505
+    },
+    {
+      "type": "paragraph",
+      "text": "Khaliq A, Zia-ul\u2010Haq M, Ali F, Aslam F, Matloob A, Navab A, Hussain S (2015) Salinity tolerance in wheat cultivars is related to enhanced activities of enzymatic antioxidants and reduced lipid peroxidation. CLEAN\u2013Soil Air Water 43:1248\u20131258. https://doi.org/10.1002/clen.201400854",
+      "char_offset": 25722
+    },
+    {
+      "type": "paragraph",
+      "text": "Khan A, Ahmad I, Shah A, Ahmad F, Ghani A, Nawaz M, Shaheen F, Fatima H, Pervaiz F, Javed S (2013) Amelioration of salinity stress in wheat ( Triticum aestivum L) by foliar application of phosphorus. Phyton-Int J Exp Bot 82:281\u2013287. https://doi.org/10.32604/phyton.2013.82.281",
+      "char_offset": 26004
+    },
+    {
+      "type": "paragraph",
+      "text": "Khan W, Khan A, Ullah A, Haq SIU, Hassan N, Iqbal B, Ahmad N, Mahmoud EA, Elansary HO (2023) Insights concerning advancing the agroecological sustainability of salinity tolerance through proteomics profiling of hexaploid wheat ( Triticum aestivum L). South Afr J Bot 158:142\u2013148. https://doi.org/10.1016/j.sajb.2023.05.013",
+      "char_offset": 26282
+    },
+    {
+      "type": "paragraph",
+      "text": "Khanna RR, Jahan B, Iqbal N, Khan NA, AlAjmi MF, Rehman MT, Khan MIR (2021) GABA reverses salt-inhibited photosynthetic and growth responses through its influence on NO-mediated nitrogen-sulfur assimilation and antioxidant system in wheat. J Biotechnol 325:73\u201382. https://doi.org/10.1016/j.jbiotec.2020.11.015",
+      "char_offset": 26606
+    },
+    {
+      "type": "paragraph",
+      "text": "Kinoshita T, Seki M (2014) Epigenetic memory for stress response and adaptation in plants. Plant Cell Physiol 55:1859\u20131863. https://doi.org/10.1093/pcp/pcu125",
+      "char_offset": 26917
+    },
+    {
+      "type": "paragraph",
+      "text": "Kotula L, Zahra N, Farooq M, Shabala S, Siddique KHM (2024) Making wheat salt tolerant: what is missing? Crop J. https://doi.org/10.1016/j.cj.2024.01.005",
+      "char_offset": 27077
+    },
+    {
+      "type": "paragraph",
+      "text": "Kronzucker HJ, Britto DT (2011) Sodium transport in plants: a critical review. New Phytol 189:54\u201381. https://doi.org/10.1111/j.1469-8137.2010.03540.x",
+      "char_offset": 27232
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumar G, Purty RS, Singla-Pareek SL, Pareek A (2009) Maintenance of stress related transcripts in tolerant cultivar at a level higher than sensitive one appears to be a conserved salinity response among plants. Plant Signal Behav 4:431\u2013434. https://doi.org/10.4161/psb.4.5.8298",
+      "char_offset": 27383
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 27662
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumar S, Beena AS, Awana M, Singh A (2017) Salt-induced tissue-specific cytosine methylation downregulates expression of HKT genes in contrasting wheat ( Triticum aestivum L.) genotypes. DNA Cell Biol 36:283\u2013294. https://doi.org/10.1089/dna.2016.3505",
+      "char_offset": 27708
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 27960
+    },
+    {
+      "type": "paragraph",
+      "text": "Li P, Cai J, Luo X, Chang T, Li J, Zhao Y, Xu Y (2019) Transformation of wheat Triticum aestivum with the HvBADH1 transgene from hulless barley improves salinity-stress tolerance. Acta Physiol Plant 41:1\u201314. https://doi.org/10.1007/s11738-019-2940-8",
+      "char_offset": 28006
+    },
+    {
+      "type": "paragraph",
+      "text": "Li S, Zhang C, Li J, Yan L, Wang N, Xia L (2021) Present and future prospects for wheat improvement through genome editing and advanced technologies. Plant Commun 2:100211. https://doi.org/10.1016/j.xplc.2021.100211",
+      "char_offset": 28257
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 28474
+    },
+    {
+      "type": "paragraph",
+      "text": "Lindberg S, Premkumar A (2023) Ion changes and signaling under salt stress in wheat and other important crops. Plants, 13(1):46",
+      "char_offset": 28520
+    },
+    {
+      "type": "paragraph",
+      "text": "Lindsay MP, Lagudah ES, Hare RA, Munns R (2004) A locus for sodium exclusion (Nax1), a trait for salt tolerance, mapped in durum wheat. Funct Plant Biol 31:1105\u20131114. https://doi.org/10.1071/FP04111",
+      "char_offset": 28649
+    },
+    {
+      "type": "paragraph",
+      "text": "Loudari A, Mayane A, Naciri R, Zeroual Y, Colinet G, Oukarroum A (2022) Root morphological and anatomical responses to increasing phosphorus concentration of wheat plants grown under salinity. Plant Stress 6:100121",
+      "char_offset": 28849
+    },
+    {
+      "type": "paragraph",
+      "text": "Lu Y, Fricke W (2023) Changes in root hydraulic conductivity in wheat ( Triticum aestivum L.) in response to salt stress and day/night can best be explained through altered activity of aquaporins. Plant Cell Environ 46:747\u2013763. https://doi.org/10.1111/pce.14535",
+      "char_offset": 29065
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 29328
+    },
+    {
+      "type": "paragraph",
+      "text": "Maathuis FJM (2014) Sodium in plants: perception, signaling and regulation of sodium fluxes. J Exp Bot 65:849\u2013858. https://doi.org/10.1093/jxb/ert326",
+      "char_offset": 29374
+    },
+    {
+      "type": "paragraph",
+      "text": "Maksimovi\u0107 JD, Zhang J, Zeng F, \u017divanovi\u0107 BD, Shabala L, Zhou M, Shabala S (2013) Linking oxidative and salinity stress tolerance in barley: can root antioxidant enzyme activity be used as a measure of stress tolerance? Plant Soil 365:141\u2013155. https://doi.org/10.1007/s11104-012-1366-5",
+      "char_offset": 29525
+    },
+    {
+      "type": "paragraph",
+      "text": "Mandhania S, Madan S, Sawhney V (2006) Antioxidant defense mechanism under salt stress in wheat seedlings. Biol Plant 50:227\u2013231. https://link.springer.com/article/10.1007/s10535-006-0011-7",
+      "char_offset": 29812
+    },
+    {
+      "type": "paragraph",
+      "text": "Maqsood T, Akhtar J, Farooq MR, Haq MA, Saqib ZA (2008) Biochemical attributes of salt tolerant and salt sensitive maize cultivars to salinity and potassium nutrition. Pak J Agric Sci 45:1\u20135",
+      "char_offset": 30003
+    },
+    {
+      "type": "paragraph",
+      "text": "Mardukhi B, Rejali F, Daei G, Ardakani M, Malakouti M, Miransari M (2015) Mineral uptake of mycorrhizal wheat ( Triticum aestivum L.) under salinity stress. Commun Soil Sci Plant Anal 46:343\u2013357. https://doi.org/10.1080/00103624.2014.981271",
+      "char_offset": 30195
+    },
+    {
+      "type": "paragraph",
+      "text": "Mattioli R, Costantino P, Trovato M (2009) Proline accumulation in plants: not only stress. Plant Signal Behav 4:1016\u20131018. https://doi.org/10.4161/psb.4.11.9797",
+      "char_offset": 30437
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 30600
+    },
+    {
+      "type": "paragraph",
+      "text": "Maurel C, Boursiac Y, Luu D-T, Santoni V, Shahzad Z, Verdoucq L (2015) Aquaporins in plants. Physiol Rev 95:1321\u20131358. https://doi.org/10.1152/physrev.00008.2015",
+      "char_offset": 30646
+    },
+    {
+      "type": "paragraph",
+      "text": "Merwad AMA (2020) Mitigation of salinity stress effects on growth, yield and nutrient uptake of wheat by application of organic extracts. Commun Soil Sci Plant Anal 51:1150\u20131160. https://doi.org/10.1080/00103624.2020.1751188",
+      "char_offset": 30809
+    },
+    {
+      "type": "paragraph",
+      "text": "Mohamed HI, Akladious SA, El-Beltagi HS (2018) Mitigation the harmful effect of salt stress on physiological, biochemical and anatomical traits by foliar spray with trehalose on wheat cultivars. Fresenius Environ Bull 27(10):7054\u20137065",
+      "char_offset": 31035
+    },
+    {
+      "type": "paragraph",
+      "text": "Mohsin SM, Hasanuzzaman M, Parvin K, Fujita M (2020) Pretreatment of wheat ( Triticum aestivum L.) seedlings with 2, 4-D improves tolerance to salinity-induced oxidative stress and methylglyoxal toxicity by modulating ion homeostasis, antioxidant defenses, and glyoxalase systems. Plant Physiol Biochem 152:221\u2013231. https://doi.org/10.1016/j.plaphy.2020.04.035",
+      "char_offset": 31271
+    },
+    {
+      "type": "paragraph",
+      "text": "Munns R, Day DA, Fricke W, Watt M, Arsova B, Barkla BJ, Bose J, Byrt CS, Chen ZH, Foster KJ, Gilliham M (2020) Energy costs of salt tolerance in crop plants. New Phytol 225(3):1072\u20131090",
+      "char_offset": 31633
+    },
+    {
+      "type": "paragraph",
+      "text": "Munns R, Gilliham M (2015) Salinity tolerance of crops\u2014what is the cost? New Phytol 208:668\u2013673. https://doi.org/10.1111/nph.13519",
+      "char_offset": 31820
+    },
+    {
+      "type": "paragraph",
+      "text": "Munns R, James RA, L\u00e4uchli A (2006) Approaches to increasing the salt tolerance of wheat and other cereals. J Exp Bot 57:1025\u20131043. https://doi.org/10.1093/jxb/erj100",
+      "char_offset": 31952
+    },
+    {
+      "type": "paragraph",
+      "text": "Munns R, Tester M (2008) Mechanisms of salinity tolerance. Annu Rev Plant Biol 59(1):651\u2013681",
+      "char_offset": 32120
+    },
+    {
+      "type": "paragraph",
+      "text": "Nadeem M, Tariq MN, Amjad M, Sajjad M, Akram M, Imran M, Shariati MA, Gondal T, Kenijz N, Kulikov D (2020) Salinity-induced changes in the nutritional quality of bread wheat ( Triticum aestivum L.) genotypes. AGRIVITA J Agric Sci 42(1):1\u201312. https://doi.org/10.17503/agrivita.v42i1.2273",
+      "char_offset": 32214
+    },
+    {
+      "type": "paragraph",
+      "text": "Noor S, Ali S, Ali GM (2018) Comparative study of transgenic ( DREB1A ) and non-transgenic wheat lines on relative water content, sugar, proline and chlorophyll under drought and salt stresses. Sarhad J Agric 34:986\u2013993",
+      "char_offset": 32502
+    },
+    {
+      "type": "paragraph",
+      "text": "Omrani S, Arzani A, Esmailzadeh M, Najafi Mirak T, Mahloji M (2022) Effect of salinity stress on grain yield and grain quality in wheat ( Triticum aestivum L.) lines. J Crop Prod Process 12:35\u201347. https://doi.org/10.47176/jcpp.12.2.20056",
+      "char_offset": 32723
+    },
+    {
+      "type": "paragraph",
+      "text": "Pal N, Saini DK, Kumar S (2021) Meta-QTLs, ortho-MQTLs and candidate genes for the traits contributing to salinity stress tolerance in common wheat ( Triticum aestivum L). Physiol Mol Biol Plants 27:2767\u20132786. https://doi.org/10.1007/s12298-021-01112-0",
+      "char_offset": 32962
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 33216
+    },
+    {
+      "type": "paragraph",
+      "text": "Peng Z, Wang M, Li F, Lv H, Li C, Xia G (2009) A proteomic study of the response to salinity and drought stress in an introgression strain of bread wheat. Mol Cell Proteom 8:2676\u20132686. https://doi.org/10.1074/mcp.M900052-MCP200",
+      "char_offset": 33262
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour-Aboughadareh A, Mehrvar MR, Sanjani S, Amini A, Nikkhah-Chamanabad H, Asadi AJAPP (2021) Effects of salinity stress on seedling biomass, physiochemical properties, and grain yield in different breeding wheat genotypes. Acta Physiol Plant 43:1\u201314. https://doi.org/10.1007/s11738-021-03265-7",
+      "char_offset": 33491
+    },
+    {
+      "type": "paragraph",
+      "text": "Rady M, Mohamed G (2018) Improving salt tolerance in Triticum aestivum (L.) plants irrigated with saline water by exogenously applied proline or potassium. Adv Plant Agric Res 8:193\u2013199",
+      "char_offset": 33787
+    },
+    {
+      "type": "paragraph",
+      "text": "Rahnama A, Munns R, Poustini K, Watt M (2011) A screening method to identify genetic variation in root growth response to a salinity gradient. J Exp Bot 62:69\u201377. https://doi.org/10.1093/jxb/erq359",
+      "char_offset": 33974
+    },
+    {
+      "type": "paragraph",
+      "text": "Rahnama A, Fakhri S, Meskarbashee M (2019) Root growth and architecture responses of bread wheat cultivars to salinity stress. J Agron 111(6):2991\u20132998",
+      "char_offset": 34173
+    },
+    {
+      "type": "paragraph",
+      "text": "Rana V, Ram S, Nehra K, Sharma I (2016) Expression of genes related to Na + exclusion and proline accumulation in tolerant and susceptible wheat genotypes under salt stress. Cereal Res Commun 44:404\u2013413. https://doi.org/10.1556/0806.44.2016.009",
+      "char_offset": 34326
+    },
+    {
+      "type": "paragraph",
+      "text": "Raza SH, Athar H-U-R, Ashraf M (2006) Influence of exogenously applied glycinebetaine on the photosynthetic capacity of two differently adapted wheat cultivars under salt stress. Pak J Bot 38(2):341\u2013351",
+      "char_offset": 34572
+    },
+    {
+      "type": "paragraph",
+      "text": "Raza SH, Athar HR, Ashraf M, Hameed A (2007) Glycinebetaine-induced modulation of antioxidant enzymes activities and ion accumulation in two wheat cultivars differing in salt tolerance. Environ Exp Bot 60(3):368\u2013376. https://doi.org/10.1016/j.envexpbot.2006.12.009",
+      "char_offset": 34776
+    },
+    {
+      "type": "paragraph",
+      "text": "Rehman A, Farooq M, Ozturk L, Asif M, Siddique KHM (2018) Zinc nutrition in wheat-based cropping systems. Plant Soil 422:283\u2013315. https://doi.org/10.1007/s11104-017-3507-3",
+      "char_offset": 35042
+    },
+    {
+      "type": "paragraph",
+      "text": "Rehman H, Alharby HF, Bamagoos AA, Abdelhamid MT, Rady MM (2021) Sequenced application of glutathione as an antioxidant with an organic biostimulant improves physiological and metabolic adaptation to salinity in wheat. Plant Physiol Biochem 158:43\u201352. https://doi.org/10.1016/j.plaphy.2020.11.041",
+      "char_offset": 35215
+    },
+    {
+      "type": "paragraph",
+      "text": "Rich SM, Watt M (2013) Soil conditions and cereal root system architecture: review and considerations for linking Darwin and Weaver. J Exp Bot 64(5):1193\u20131208",
+      "char_offset": 35513
+    },
+    {
+      "type": "paragraph",
+      "text": "Rich SM, Wasson AP, Richards RA, Katore T, Prashar R, Chowdhary R, Saxena DC, Mamrutha HM, Zwart A, Misra SC, Prasad SS (2016) Wheats developed for high yield on stored soil moisture have deep vigorous root systems. Funct Plant Biol 43(2):173\u2013188",
+      "char_offset": 35673
+    },
+    {
+      "type": "paragraph",
+      "text": "Robin AHK, Ghosh S, Shahed MA (2021) PEG-induced osmotic stress alters root morphology and root hair traits in wheat genotypes. Plants 10(6):1042",
+      "char_offset": 35921
+    },
+    {
+      "type": "paragraph",
+      "text": "Robin AHK, Matthew C, Uddin MJ, Bayazid KN (2016) Salinity-induced reduction in root surface area and changes in major root and shoot traits at the phytomer level in wheat. J Exp Bot 67:3719\u20133729. https://doi.org/10.1093/jxb/erw064",
+      "char_offset": 36068
+    },
+    {
+      "type": "paragraph",
+      "text": "Saad ASI, Li X, Li HP, Huang T, Gao CS, Guo MW, Cheng W, Zhao GY, Liao YC (2013) A rice stress-responsive NAC gene enhances tolerance of transgenic wheat to drought and salt stresses. Plant Sci 203:33\u201340. https://doi.org/10.1016/j.plantsci.2012.12.016",
+      "char_offset": 36301
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadak MS (2019) Physiological role of trehalose on enhancing salinity tolerance of wheat plant. Bull Natl Res Cent 43:1\u201310. https://doi.org/10.1186/s42269-019-0098-6",
+      "char_offset": 36554
+    },
+    {
+      "type": "paragraph",
+      "text": "Saddiq MS, Iqbal S, Afzal I, Ibrahim AM, Bakhtavar MA, Hafeez MB, Jahanzaib Maqbool MM (2019) Mitigation of salinity stress in wheat ( Triticum aestivum L.) seedlings through physiological seed enhancements. J Plant Nutr 42:1192\u20131204. https://doi.org/10.1080/01904167.2019.1609509",
+      "char_offset": 36721
+    },
+    {
+      "type": "paragraph",
+      "text": "Saddiq MS, Iqbal S, Hafeez MB, Ibrahim AM, Raza A, Fatima EM, Baloch H, Woodrow P, Ciarmiello LF (2021) Effect of salinity stress on physiological changes in winter and spring wheat. Agronomy 11:1193. https://doi.org/10.3390/agronomy11061193",
+      "char_offset": 37003
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadeghi A, Karimi E, Dahaji PA, Javid MG, Dalvand Y, Askari H (2012) Plant growth promoting activity of an auxin and siderophore producing isolate of Streptomyces under saline soil conditions. World J Microbiol Biotechnol 28:1503\u20131509. https://doi.org/10.1007/s11274-011-0952-7",
+      "char_offset": 37246
+    },
+    {
+      "type": "paragraph",
+      "text": "Sairam R, Srivastava G, Agarwal S, Meena R (2005) Differences in antioxidant activity in response to salinity stress in tolerant and susceptible wheat genotypes. Biol Plant 49:85\u201391. https://doi.org/10.1007/s10535-005-5091-2",
+      "char_offset": 37525
+    },
+    {
+      "type": "paragraph",
+      "text": "Sarkar A, Ghosh PK, Pramanik K, Mitra S, Soren T, Pandey S, Mondal MH, Maiti TK (2018) A halotolerant Enterobacter sp. displaying ACC deaminase activity promotes rice seedling growth under salt stress. Res Microbiol 169:20\u201332. https://doi.org/10.1016/j.resmic.2017.08.005",
+      "char_offset": 37751
+    },
+    {
+      "type": "paragraph",
+      "text": "Sathee L, Sairam RK, Chinnusamy V, Jha SK (2015) Differential transcript abundance of salt overly sensitive (SOS) pathway genes is a determinant of salinity stress tolerance of wheat. Acta Physiol Plant 37:1\u201310. https://doi.org/10.1007/s11738-015-1910-z",
+      "char_offset": 38024
+    },
+    {
+      "type": "paragraph",
+      "text": "Sathee L, Sairam RK, Chinnusamy V, Jha SK, Singh D (2022) Upregulation of genes encoding plastidic isoforms of antioxidant enzymes and osmolyte synthesis impart tissue tolerance to salinity stress in bread wheat. Physiol Mol Biol Plants 28:1639\u20131655. https://doi.org/10.1007/s12298-022-01237-w",
+      "char_offset": 38279
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 38574
+    },
+    {
+      "type": "paragraph",
+      "text": "Seleiman MF, Aslam MT, Alhammad BA, Hassan MU, Maqbool R, Chattha MU, Battaglia ML (2022) Salinity stress in wheat: effects, mechanisms and management strategies. Phyton- Int J Exp Bot 91:667\u2013694. https://doi.org/10.32604/phyton.2022.017365",
+      "char_offset": 38620
+    },
+    {
+      "type": "paragraph",
+      "text": "Sen A (2021) Integrative expressional regulation of TaHKT2;1 , Ta Na + /H + vacuolar antiporter, and TaSOS1 genes improve salt tolerance in gamma-ray induced bread wheat mutants. Cereal Res Commun 49:599\u2013606. https://doi.org/10.1007/s42976-020-00128-8",
+      "char_offset": 38862
+    },
+    {
+      "type": "paragraph",
+      "text": "Shafi M, Zhang G, Bakht J, Khan MA, Islam UE, Khan MD, Raziuddin GZ (2010) Effect of cadmium and salinity stresses on root morphology of wheat. Pak J Bot 42:2747\u20132754",
+      "char_offset": 39115
+    },
+    {
+      "type": "paragraph",
+      "text": "Shahzad B, Rehman A, Tanveer M, Wang L, Park SK, Ali A (2022) Salt stress in brassica: effects, tolerance mechanisms, and management. J Plant Growth Regul 41:781\u2013795. https://doi.org/10.1007/s00344-021-10338-x",
+      "char_offset": 39283
+    },
+    {
+      "type": "paragraph",
+      "text": "Shamloo-Dashtpagerdi R, Sisakht JN, Tahmasebi A (2022) MicroRNA miR1118 contributes to wheat ( Triticum aestivum L.) salinity tolerance by regulating the plasma membrane intrinsic Proteins1;5 ( PIP1;5 ) gene. J Plant Physiol 278:153827. https://doi.org/10.1016/j.jplph.2022.153827",
+      "char_offset": 39494
+    },
+    {
+      "type": "paragraph",
+      "text": "Shao Y, Feng X, Nakahara H, Irshad M, Eneji AE, Zheng Y, Fujimaki H, An P (2021) Apical-root apoplastic acidification affects cell wall extensibility in wheat under salinity stress. Physiol Plant 173:1850\u20131861. https://doi.org/10.1111/ppl.13527",
+      "char_offset": 39776
+    },
+    {
+      "type": "paragraph",
+      "text": "Sharma S, Kulkarni J, Jha B (2016) Halotolerant Rhizobacteria promote growth and enhance salinity tolerance in peanut. Front Microbiol 7:1600. https://doi.org/10.3389/fmicb.2016.01600",
+      "char_offset": 40022
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 40207
+    },
+    {
+      "type": "paragraph",
+      "text": "Shelden MC, Dias DA, Jayasinghe NS, Bacic A, Roessner U (2016) Root spatial metabolite profiling of two genotypes of barley (Hordeum vulgare L.) reveals differences in response to short-term salt stress. J Exp Bot 67(12):3731\u20133745",
+      "char_offset": 40253
+    },
+    {
+      "type": "paragraph",
+      "text": "Shelden MC, Munns R (2023) Crop root system plasticity for improved yields in saline soils. Front Plant Sci 14:1120583. https://doi.org/10.3389/fpls.2023.1120583",
+      "char_offset": 40485
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 40648
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh A (2021) Soil salinization management for sustainable development: a review. J Environ Manage 277:111383. https://doi.org/10.1016/j.jenvman.2020.111383",
+      "char_offset": 40694
+    },
+    {
+      "type": "paragraph",
+      "text": "Singh RP, Jha PN (2016) The multifarious PGPR Serratia marcescens CDP-13 augments induced systemic resistance and enhanced salinity tolerance of wheat ( Triticum aestivum L). PLoS ONE 11:e0155026. https://doi.org/10.1371/journal.pone.0155026",
+      "char_offset": 40853
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 41096
+    },
+    {
+      "type": "paragraph",
+      "text": "Song S-Y, Chen Y, Chen J, Dai X-Y, Zhang W-H (2011) Physiological mechanisms underlying OsNAC5 -dependent tolerance of rice plants to abiotic stress. Planta 234:331\u2013345. https://doi.org/10.1007/s00425-011-1403-2",
+      "char_offset": 41142
+    },
+    {
+      "type": "paragraph",
+      "text": "Song Y, Yang W, Fan H, Zhang X, Sui N (2020) TaMYB86B encodes a R2R3-type MYB transcription factor and enhances salt tolerance in wheat. Plant Sci 300:110624. https://doi.org/10.1016/j.plantsci.2020.110624",
+      "char_offset": 41355
+    },
+    {
+      "type": "paragraph",
+      "text": "Statista (2022) Global wheat production from 1990/1991 to 2022/2023 (in million metric tons). https://www.statista.com/statistics/267268/production-of-wheat-worldwide-since-1990/",
+      "char_offset": 41562
+    },
+    {
+      "type": "paragraph",
+      "text": "Su P, Yan J, Li W, Wang L, Zhao J, Ma X, Li A, Wang H, Kong L (2020) A member of wheat class III peroxidase gene family, TaPRX-2A , enhanced the tolerance of salt stress. BMC Plant Biol 20:1\u201315. https://doi.org/10.1186/s12870-020-02602-1",
+      "char_offset": 41742
+    },
+    {
+      "type": "paragraph",
+      "text": "Takehisa H, Shimodate T, Fukuta Y, Ueda T, Yano M, Yamaya T, Kameya T, Sato T (2004) Identification of quantitative trait loci for plant growth of rice in paddy field flooded with salt water. Field Crops Res 89:85\u201395. https://doi.org/10.1016/j.fcr.2004.01.026",
+      "char_offset": 41981
+    },
+    {
+      "type": "paragraph",
+      "text": "Talaat NB, Shawky BT (2014) Protective effects of arbuscular mycorrhizal fungi on wheat ( Triticum aestivum L.) plants exposed to salinity. Environ Exp Bot 98:20\u201331. https://doi.org/10.1016/j.envexpbot.2013.10.005",
+      "char_offset": 42242
+    },
+    {
+      "type": "paragraph",
+      "text": "Talaat NB, Shawky BT (2022) Synergistic effects of salicylic acid and melatonin on modulating ion homeostasis in salt-stressed wheat ( Triticum aestivum L.) plants by enhancing root H + -pump activity. Plants 11:416. https://doi.org/10.3390/plants11030416",
+      "char_offset": 42457
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 42714
+    },
+    {
+      "type": "paragraph",
+      "text": "Tian X, He M, Wang Z, Zhang J, Song Y, He Z, Dong Y (2015) Application of nitric oxide and calcium nitrate enhances tolerance of wheat seedlings to salt stress. Plant Growth Regul 77:343\u2013356. https://doi.org/10.1007/s10725-015-0069-3",
+      "char_offset": 42760
+    },
+    {
+      "type": "paragraph",
+      "text": "Tian F, Wang W, Liang C, Wang X, Wang G, Wang W (2017) Overaccumulation of glycine betaine makes the function of the thylakoid membrane better in wheat under salt stress. Crop J 5:73\u201382. https://doi.org/10.1016/j.cj.2016.05.008",
+      "char_offset": 42995
+    },
+    {
+      "type": "paragraph",
+      "text": "Upadhyay S, Singh D (2015) Effect of salt-tolerant plant growth\u2010promoting rhizobacteria on wheat plants and soil health in a saline environment. Plant Biol 17:288\u2013293. https://doi.org/10.1111/plb.12173",
+      "char_offset": 43224
+    },
+    {
+      "type": "paragraph",
+      "text": "Upadhyay SK, Singh JS, Saxena AK, Singh DP (2012) Impact of PGPR inoculation on growth and antioxidant status of wheat under saline conditions. Plant Biol 14:605\u2013611. https://doi.org/10.1111/j.1438-8677.2011.00533.x",
+      "char_offset": 43427
+    },
+    {
+      "type": "paragraph",
+      "text": "Wakeel A, Farooq M, Qadir M, Schubert S (2011) Potassium substitution by sodium in plants. Crit Rev Plant Sci 30:401\u2013413. https://doi.org/10.1080/07352689.2011.587728",
+      "char_offset": 43644
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang M, Xia G (2018) The landscape of molecular mechanisms for salt tolerance in wheat. Crop J 6:42\u201347. https://doi.org/10.1016/j.cj.2017.09.002",
+      "char_offset": 43812
+    },
+    {
+      "type": "paragraph",
+      "text": "Wang M, Qin L, Xie C, Li W, Yuan J, Kong L, Yu W, Xia G, Liu S (2014) Induced and constitutive DNA methylation in a salinity-tolerant wheat introgression line. Plant Cell Physiol 55:1354\u20131365. https://doi.org/10.1093/pcp/pcu059",
+      "char_offset": 43958
+    },
+    {
+      "type": "paragraph",
+      "text": "Wu H, Shabala L, Liu X, Azzarello E, Zhou M, Pandolfi C, Chen Z-H, Bose J, Mancuso S, Shabala S (2015) Linking salinity stress tolerance with tissue-specific Na + sequestration in wheat roots. Front Plant Sci 6:71. https://doi.org/10.3389/fpls.2015.00071",
+      "char_offset": 44187
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 44443
+    },
+    {
+      "type": "paragraph",
+      "text": "Xue ZY, Zhi DY, Xue GP, Zhang H, Zhao YX, Xia GM (2004) Enhanced salt tolerance of transgenic wheat ( Tritivum Aestivum L.) expressing a vacuolar Na + /H + antiporter gene with improved grain yields in saline soils in the field and a reduced level of leaf Na + . Plant Sci 167:849\u2013859. https://doi.org/10.1016/j.plantsci.2004.05.034",
+      "char_offset": 44489
+    },
+    {
+      "type": "paragraph",
+      "text": "Yacoubi I, Gadaleta A, Nourhen M, Hamdi K, Giancaspro A (2022) Abscisic acid-stress-ripening genes involved in plant response to high salinity and water deficit in durum and common wheat. Front Plant Sci 13:789701. https://doi.org/10.3389/fpls.2022.789701",
+      "char_offset": 44823
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 45080
+    },
+    {
+      "type": "paragraph",
+      "text": "Yadav T, Kumar A, Yadav R, Yadav G, Kumar R, Kushwaha M (2020) Salicylic acid and thiourea mitigate the salinity and drought stress on physiological traits governing yield in pearl millet-wheat. Saudi J Biol Sci 27:2010\u20132017. https://doi.org/10.1016/j.sjbs.2020.06.030",
+      "char_offset": 45126
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 45396
+    },
+    {
+      "type": "paragraph",
+      "text": "Yan M, Zheng L, Li B, Shen R, Lan P (2021) Comparative proteomics reveals new insights into the endosperm responses to drought, salinity and submergence in germinating wheat seeds. Plant Mol Biol 105:287\u2013302. https://doi.org/10.1007/s11103-020-01087-8",
+      "char_offset": 45442
+    },
+    {
+      "type": "paragraph",
+      "text": "Yang Y, Guo Y (2018) Unraveling salt stress signaling in plants. J Integ Plant Biol 60:796\u2013804. https://doi.org/10.1111/jipb.12689",
+      "char_offset": 45695
+    },
+    {
+      "type": "paragraph",
+      "text": "Yarra R (2019) The wheat NHX gene family: potential role in improving salinity stress tolerance of plants. Plant Gene 18:100178. https://doi.org/10.1016/j.plgene.2019.100178",
+      "char_offset": 45827
+    },
+    {
+      "type": "paragraph",
+      "text": "Yusuf M, Fariduddin Q, Khan T, Hayat S (2017) Epibrassinolide reverses the stress generated by combination of excess aluminum and salt in two wheat cultivars through altered proline metabolism and antioxidants. South Afr J Bot 112:391\u2013398. https://doi.org/10.1016/j.sajb.2017.06.034",
+      "char_offset": 46002
+    },
+    {
+      "type": "paragraph",
+      "text": "Zafar S, Hasnain Z, Anwar S, Perveen S, Iqbal N, Noman A, Ali M (2019) Influence of melatonin on antioxidant defense system and yield of wheat ( Triticum aestivum L.) genotypes under saline condition. Pak J Bot 51:1987\u20131994. https://doi.org/10.30848/PJB2019-6(5",
+      "char_offset": 46286
+    },
+    {
+      "type": "paragraph",
+      "text": "Zahra N, Wahid A, Hafeez MB, Ullah A, Siddique KH, Farooq M (2021) Grain development in wheat under combined heat and drought stress: plant responses and management. Environ Exp Bot 188:104517. https://doi.org/10.1016/j.envexpbot.2021.104517",
+      "char_offset": 46549
+    },
+    {
+      "type": "paragraph",
+      "text": "Zahra N, Al Hinai MS, Hafeez MB, Rehman A, Wahid A, Siddique KH, Farooq M (2022) Regulation of photosynthesis under salt stress and associated tolerance mechanisms. Plant Physiol Biochem 178:55\u201369. https://doi.org/10.1016/j.plaphy.2022.03.003",
+      "char_offset": 46792
+    },
+    {
+      "type": "paragraph",
+      "text": "Zahra N, Hafeez MB, Wahid A, Al Masruri MH, Ullah A, Siddique KHM, Farooq M (2023) Impact of climate change on wheat grain composition and quality. J Sci Food Agric 103:2745\u20132751. https://doi.org/10.1002/jsfa.12289",
+      "char_offset": 47036
+    },
+    {
+      "type": "paragraph",
+      "text": "Zaman B, Niazi B, Athar M, Ahmad M (2005) Response of wheat plants to sodium and calcium ion interaction under saline environment. Int J Environ Sci Techno 2(1):7\u201312. https://doi.org/10.1007/BF03325852",
+      "char_offset": 47252
+    },
+    {
+      "type": "paragraph",
+      "text": "Zamani Babgohari M, Niazi A, Moghadam AA, Deihimi T, Ebrahimie E (2013) Genome-wide analysis of key salinity-tolerance transporter ( HKT1;5 ) in wheat and wild wheat relatives (A and D genomes). Vitro Cell Dev Biol Plant 49:97\u2013106. https://doi.org/10.1007/s11627-012-9478-4",
+      "char_offset": 47455
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang JZ, Creelman RA, Zhu JK (2004) From laboratory to field using information from Arabidopsis to engineer salt, cold, and drought tolerance in crops. Plant Physiol 135:615\u2013621. https://doi.org/10.1104/pp.104.040295",
+      "char_offset": 47730
+    },
+    {
+      "type": "paragraph",
+      "text": "Article PubMed PubMed Central Google Scholar",
+      "char_offset": 47949
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhang X, Shi Z, Tian Y, Zhou Q, Cai J, Dai T, Cao W, Pu H, Jiang D (2016) Salt stress increases content and size of glutenin macropolymers in wheat grain. Food Chem 197:516\u2013521. https://doi.org/10.1016/j.foodchem.2015.11.008",
+      "char_offset": 47995
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao Y, Dong W, Zhang N, Ai X, Wang M, Huang Z, Xiao L, Xia G (2014) A wheat allene oxide cyclase gene enhances salinity tolerance via jasmonate signaling. Plant Physiol 164:1068\u20131076. https://doi.org/10.1104/pp.113.227595",
+      "char_offset": 48221
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhao D, Gao S, Zhang X, Zhang Z, Zheng H, Rong K, Zhao W, Khan SA (2021) Impact of saline stress on the uptake of various macro and micronutrients and their associations with plant biomass and root traits in wheat. Plant Soil Environ 67:61\u201370. https://doi.org/10.17221/467/2020-PSE",
+      "char_offset": 48445
+    },
+    {
+      "type": "paragraph",
+      "text": "Zhou X, Zhao Y, Ni P, Ni Z, Sun Q, Zong Y (2023) CRISPR-mediated acceleration of wheat improvement: advances and perspectives. J Genet Genome Res 50:815\u2013834. https://doi.org/10.1016/j.jgg.2023.09.007",
+      "char_offset": 48728
+    },
+    {
+      "type": "paragraph",
+      "text": "Zongshuai W, Xiangnan L, Xiancan Z, Shengqun L, Fengbin S, Fulai L, Yang W, Xiaoning Q, Fahong W, Zhiyu Z (2017) Salt acclimation induced salt tolerance is enhanced by abscisic acid priming in wheat. Plant Soil Environ 63:307\u2013314. https://doi.org/10.17221/287/2017-PSE",
+      "char_offset": 48929
+    },
+    {
+      "type": "paragraph",
+      "text": "This study was funded by Sultan Qaboos University through His Majesty Trust Fund (SR/AGR/CROP/19/01) and Internal grant (IG/AGR/CROP/23/03).",
+      "char_offset": 49199
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Plant Sciences, College of Agricultural and Marine Sciences, Sultan Qaboos University, Al-Khoud 123, Muscat, Oman",
+      "char_offset": 49341
+    },
+    {
+      "type": "paragraph",
+      "text": "Muhammad Farooq, Aman Ullah & Mawra S. Al-Hinani",
+      "char_offset": 49470
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Botany, University of Agriculture, Faisalabad, Pakistan",
+      "char_offset": 49520
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Botany, Government College Women University, Faisalabad, 38000, Pakistan",
+      "char_offset": 49591
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Agronomy, The University of Agriculture, Dera Ismail Khan, Pakistan",
+      "char_offset": 49679
+    },
+    {
+      "type": "paragraph",
+      "text": "Department of Agronomy, Faculty of Agriculture and Environment, The Islamia University of Bahawalpur, Bahawalpur, 63100, Pakistan",
+      "char_offset": 49762
+    },
+    {
+      "type": "paragraph",
+      "text": "Amity Institute of Biotechnology, Amity University Uttar Pradesh, Noida, 201 313, India",
+      "char_offset": 49893
+    },
+    {
+      "type": "paragraph",
+      "text": "The UWA Institute of Agriculture and School of Agriculture and Environment, The University of Western Australia, Perth, WA, 6001, Australia",
+      "char_offset": 49982
+    },
+    {
+      "type": "paragraph",
+      "text": "Muhammad Farooq & Kadambot H.M. Siddique",
+      "char_offset": 50123
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors declare that they have no conflict of interest.",
+      "char_offset": 50165
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "char_offset": 50226
+    },
+    {
+      "type": "paragraph",
+      "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+      "char_offset": 50346
+    },
+    {
+      "type": "paragraph",
+      "text": "Farooq, M., Zahra, N., Ullah, A. et al. Salt Stress in Wheat: Effects, Tolerance Mechanisms, and Management. J Soil Sci Plant Nutr 24 , 8151\u20138173 (2024). https://doi.org/10.1007/s42729-024-02104-1",
+      "char_offset": 50680
+    },
+    {
+      "type": "paragraph",
+      "text": "DOI : https://doi.org/10.1007/s42729-024-02104-1",
+      "char_offset": 50878
+    },
+    {
+      "type": "paragraph",
+      "text": "Anyone you share the following link with will be able to read this content:",
+      "char_offset": 50928
+    },
+    {
+      "type": "paragraph",
+      "text": "Sorry, a shareable link is not currently available for this article.",
+      "char_offset": 51005
+    },
+    {
+      "type": "paragraph",
+      "text": "Provided by the Springer Nature SharedIt content-sharing initiative",
+      "char_offset": 51075
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-e55230535e53cda5"
+}

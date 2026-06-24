@@ -1,0 +1,22 @@
+{
+  "claims": [
+    {
+      "parameter_id": "stress.salinity_tolerance",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Among cereal crops, wheat exhibits a moderate level of salt tolerance, being less tolerant than barley ( Hordeum vulgare ) but more tolerant than rice",
+      "claim_summary": "Wheat has moderate salt tolerance among cereals: less tolerant than barley, more tolerant than rice.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "soil.salinity_threshold",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "threshold",
+      "evidence_text": "for every unit increase in salinity, seeds, spike, 1000-grain weight and economic yield are significantly reduced in both salt-sensitive and salt-tolerant wheat varieties",
+      "claim_summary": "Each unit increase in salinity significantly reduces wheat seed set, spike number, 1000-grain weight and economic yield.",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

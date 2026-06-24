@@ -1,0 +1,363 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 1,
+      "heading": "Sulphur management for yield and quality in wheat",
+      "text": "Sulphur (S) is an essential nutrient to build yield and achieve grain quality in wheat. Learn about sulphur deficiency risks and how to correct them with fertilisers and organic materials. Why is sulphur important? Sulphur is an important crop nutrient. When sulphur is deficient: Nitrogen (N) may not be fully utilised Yields can reduce (even when there are no obvious deficiency symptoms) Grain quality can be impacted Grain quality and sulphur Acrylamide (a processing contaminant) can form during high-temperature cooking and processing of wheat-based products. Acrylamide formation is linked to free asparagine (an amino acid) levels, which can increase in sulphur-deficient wheat. Although processors have modified their methods to minimise acrylamide formation, growers can also play their part by applying sulphur where deficiency is likely. Baking experiments also show that loaf volume can increase significantly if milling wheat is correctly fertilised with sulphur. Sulphur deficiency risks Decreasing sulphur deposition Historically, sulphur dioxide (SO 2 ) emissions from power stations and industry provided sulphur depositions that adequately supplied farmland. However, over the past 50 years, emissions have decreased markedly (Figure 1). Figure 1. UK sulphur dioxide emissions have reduced significantly over the past 50 years Source: Defra statistical data set \u2013 Emissions of air pollutants (ENV01) in the UK Sulphur deficiency risk Because the risk of sulphur deficiency is increasing, farmers are advised to monitor risk and ensure that the sulphur requirements of their crops are met. The AHDB Nutrient Management Guide (RB209) provides information on sulphur deficiency risks, which are linked to soil texture and winter rainfall (Table 1). Table 1. Estimating the risk of sulphur deficiency for cereal crops Soil texture Winter rainfall (Nov\u2013Feb) Low (<175 mm) Medium (175\u2013375 mm) High (>375 mm) Sandy High High High Loamy and coarse silty Low High High Clay, fine silty or peaty Low Low High Land drainage also influences nutrient deficiency risks, which is illustrated in the winter wheat crop image (harvest 2024) at Strategic Cereal Farm North (Figure 2). Figure 2. A winter wheat crop showing signs of nutrient deficiency and stunted growth between the field drains As soil tends to be drier above field drains, roots develop deeper to locate water and nutrients. Between the drains, roots reach saturated soils at a shallower depth. Crops directly above the drains are better placed to access water and nutrients (including leachy nutrients, such as sulphur and nitrogen), especially when the soil starts to dry in the spring. Diagnosing sulphur deficiency Yellowing of the youngest leaves is often the first sign of a deficiency in cereals. By the time symptoms appear, it can be too late to fully correct the deficiency. Even in the absence of visible symptoms, crops may not reach their full yield potential when grown on a deficient soil. Acrylamide formation risks also increase. Because sulphur deficiency symptoms are similar to other symptoms (including nitrogen deficiency), leaf tissue and grain nutrient analyses provide the most robust way to obtain an accurate diagnosis. Leaf tissue tests provide an in-season assessment. Although several laboratory analyses can detect sulphur deficiency in leaf tissue, AHDB trials show that the malate:sulphate test is the most reliable. A malate:sulphate ratio of more than 1.5:1 means that the plant is deficient at the time of sampling. It is recommended to take two tissue samples about two weeks apart to help distinguish between permanent and transient sulphur deficiency. Further guidance on how to collect leaf tissue samples for analysis is provided in Section 4 of RB209 (Page 20). Information on grain nutrient analyses is also available. Although soil analyses can indicate sulphur levels, its mobility means the nutrient can fluctuate significantly within a field and over time. Sulphur fertilisation Sulph"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Why is sulphur important?",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Grain quality and sulphur",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Sulphur deficiency risks",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Decreasing sulphur deposition",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Sulphur deficiency risk",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Diagnosing sulphur deficiency",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 2,
+      "heading": "Sulphur fertilisation",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Sulphur from mineral fertilisers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 2,
+      "heading": "Sulphur from organic manures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 2,
+      "heading": "Further information",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "Soil texture",
+        "Winter rainfall (Nov\u2013Feb)"
+      ],
+      "rows": [
+        [
+          "Low (<175 mm)",
+          "Medium (175\u2013375 mm)",
+          "High (>375 mm)"
+        ],
+        [
+          "Sandy",
+          "High",
+          "High",
+          "High"
+        ],
+        [
+          "Loamy and coarse silty",
+          "Low",
+          "High",
+          "High"
+        ],
+        [
+          "Clay, fine silty or peaty",
+          "Low",
+          "Low",
+          "High"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-1",
+      "caption": "",
+      "headers": [
+        "Application",
+        "Organic material",
+        "Proportion of total SO 3 available (%)"
+      ],
+      "rows": [
+        [
+          "Autumn-applied",
+          "Livestock manures",
+          "5\u201310"
+        ],
+        [
+          "Biosolids",
+          "10\u201320"
+        ],
+        [
+          "Spring-applied",
+          "Cattle manure",
+          "15"
+        ],
+        [
+          "Pig manure",
+          "25"
+        ],
+        [
+          "Poultry manure",
+          "60"
+        ],
+        [
+          "Cattle/pig slurry",
+          "45"
+        ],
+        [
+          "Biosolids",
+          "35"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Sulphur is an important crop nutrient. When sulphur is deficient:",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Acrylamide (a processing contaminant) can form during high-temperature cooking and processing of wheat-based products.",
+      "char_offset": 67
+    },
+    {
+      "type": "paragraph",
+      "text": "Acrylamide formation is linked to free asparagine (an amino acid) levels, which can increase in sulphur-deficient wheat.",
+      "char_offset": 187
+    },
+    {
+      "type": "paragraph",
+      "text": "Although processors have modified their methods to minimise acrylamide formation, growers can also play their part by applying sulphur where deficiency is likely.",
+      "char_offset": 309
+    },
+    {
+      "type": "paragraph",
+      "text": "Baking experiments also show that loaf volume can increase significantly if milling wheat is correctly fertilised with sulphur.",
+      "char_offset": 473
+    },
+    {
+      "type": "paragraph",
+      "text": "Historically, sulphur dioxide (SO 2 ) emissions from power stations and industry provided sulphur depositions that adequately supplied farmland. However, over the past 50 years, emissions have decreased markedly (Figure 1).",
+      "char_offset": 602
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 1. UK sulphur dioxide emissions have reduced significantly over the past 50 years",
+      "char_offset": 827
+    },
+    {
+      "type": "paragraph",
+      "text": "Source: Defra statistical data set \u2013 Emissions of air pollutants (ENV01) in the UK",
+      "char_offset": 917
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the risk of sulphur deficiency is increasing, farmers are advised to monitor risk and ensure that the sulphur requirements of their crops are met.",
+      "char_offset": 1001
+    },
+    {
+      "type": "paragraph",
+      "text": "The AHDB Nutrient Management Guide (RB209) provides information on sulphur deficiency risks, which are linked to soil texture and winter rainfall (Table 1).",
+      "char_offset": 1157
+    },
+    {
+      "type": "paragraph",
+      "text": "Table 1. Estimating the risk of sulphur deficiency for cereal crops",
+      "char_offset": 1315
+    },
+    {
+      "type": "paragraph",
+      "text": "Land drainage also influences nutrient deficiency risks, which is illustrated in the winter wheat crop image (harvest 2024) at Strategic Cereal Farm North (Figure 2).",
+      "char_offset": 1384
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 2. A winter wheat crop showing signs of nutrient deficiency and stunted growth between the field drains",
+      "char_offset": 1552
+    },
+    {
+      "type": "paragraph",
+      "text": "As soil tends to be drier above field drains, roots develop deeper to locate water and nutrients. Between the drains, roots reach saturated soils at a shallower depth.",
+      "char_offset": 1664
+    },
+    {
+      "type": "paragraph",
+      "text": "Crops directly above the drains are better placed to access water and nutrients (including leachy nutrients, such as sulphur and nitrogen), especially when the soil starts to dry in the spring.",
+      "char_offset": 1833
+    },
+    {
+      "type": "paragraph",
+      "text": "Yellowing of the youngest leaves is often the first sign of a deficiency in cereals.",
+      "char_offset": 2028
+    },
+    {
+      "type": "paragraph",
+      "text": "By the time symptoms appear, it can be too late to fully correct the deficiency. Even in the absence of visible symptoms, crops may not reach their full yield potential when grown on a deficient soil. Acrylamide formation risks also increase.",
+      "char_offset": 2114
+    },
+    {
+      "type": "paragraph",
+      "text": "Because sulphur deficiency symptoms are similar to other symptoms (including nitrogen deficiency), leaf tissue and grain nutrient analyses provide the most robust way to obtain an accurate diagnosis.",
+      "char_offset": 2358
+    },
+    {
+      "type": "paragraph",
+      "text": "Leaf tissue tests provide an in-season assessment. Although several laboratory analyses can detect sulphur deficiency in leaf tissue, AHDB trials show that the malate:sulphate test is the most reliable. A malate:sulphate ratio of more than 1.5:1 means that the plant is deficient at the time of sampling.",
+      "char_offset": 2559
+    },
+    {
+      "type": "paragraph",
+      "text": "It is recommended to take two tissue samples about two weeks apart to help distinguish between permanent and transient sulphur deficiency.",
+      "char_offset": 2865
+    },
+    {
+      "type": "paragraph",
+      "text": "Further guidance on how to collect leaf tissue samples for analysis is provided in Section 4 of RB209 (Page 20). Information on grain nutrient analyses is also available.",
+      "char_offset": 3005
+    },
+    {
+      "type": "paragraph",
+      "text": "Although soil analyses can indicate sulphur levels, its mobility means the nutrient can fluctuate significantly within a field and over time.",
+      "char_offset": 3177
+    },
+    {
+      "type": "paragraph",
+      "text": "Sulphur applications can be very cost effective when a risk of sulphur deficiency has been identified.",
+      "char_offset": 3320
+    },
+    {
+      "type": "paragraph",
+      "text": "Although roots take up sulphur as sulphate (SO 4 ), the amount in fertilisers and organic material, as well as recommended rates, are expressed as either SO 3 (sulphur trioxide) or S (sulphur).",
+      "char_offset": 3424
+    },
+    {
+      "type": "paragraph",
+      "text": "As sulphate is water soluble and easily leached, most soils, especially chalky or sandy soils, store very little sulphate from one year to the next. This means that sulphur applications will be necessary year after year in soils at risk of deficiency.",
+      "char_offset": 3619
+    },
+    {
+      "type": "paragraph",
+      "text": "Sulphate from fertilisers can reach plant roots quickly and be taken up rapidly, especially when the crop is growing quickly.",
+      "char_offset": 3872
+    },
+    {
+      "type": "paragraph",
+      "text": "In winter-sown or spring-sown cereals, where deficiency exists or is expected, apply 25\u201350 kg/ha SO 3 as a sulphate-containing fertiliser between early March to the end of April.",
+      "char_offset": 3999
+    },
+    {
+      "type": "paragraph",
+      "text": "AHDB trials show that acrylamide formation can be minimised by applying 50 kg SO 3 /ha to sulphur-deficient milling wheat.",
+      "char_offset": 4179
+    },
+    {
+      "type": "paragraph",
+      "text": "It is important to account for the drilling date and to note that spring crops are less likely to respond to sulphur applications.",
+      "char_offset": 4303
+    },
+    {
+      "type": "paragraph",
+      "text": "*As elemental sulphur needs to be oxidised to sulphate, it is not immediately available to the crop.",
+      "char_offset": 4435
+    },
+    {
+      "type": "paragraph",
+      "text": "Organic materials contain valuable amounts of sulphur, with estimates for crop-available sulphur provided in RB209 (reproduced in Table 2).",
+      "char_offset": 4537
+    },
+    {
+      "type": "paragraph",
+      "text": "The most accurate values of nutrient content can be obtained via laboratory analysis of representative samples of organic material.",
+      "char_offset": 4678
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all organic sources of sulphur are immediately available for crop uptake and may be mineralised to crop-available sulphate over many months and years.",
+      "char_offset": 4811
+    },
+    {
+      "type": "paragraph",
+      "text": "Table 2. Crop-available sulphur supply from organic materials (cereals)",
+      "char_offset": 4967
+    },
+    {
+      "type": "paragraph",
+      "text": "As readily available sulphur from organic materials applied in the autumn may be leached over the winter and because sulphate is utilised fastest in rapidly growing crop, the proportion of crop-available sulphur supply from organic materials is highest when applied in the spring.",
+      "char_offset": 5040
+    },
+    {
+      "type": "paragraph",
+      "text": "The degree of loss associated with autumn applications is dependent on soil type and overwinter rainfall. Highest losses are associated with sandy soils and high levels of overwinter rainfall (Table 1).",
+      "char_offset": 5322
+    },
+    {
+      "type": "paragraph",
+      "text": "If applying liquid fertilisers, manufacturers can supply tables to convert kg/ha of nutrient to litres/ha of product.",
+      "char_offset": 5526
+    },
+    {
+      "type": "paragraph",
+      "text": "Access the AHDB Nutrient Management Guide (RB209)",
+      "char_offset": 5645
+    },
+    {
+      "type": "paragraph",
+      "text": "Visit the UK Flour Millers (UKFM) acrylamide page",
+      "char_offset": 5696
+    }
+  ],
+  "labels": [
+    "has_table",
+    "nutrient_table",
+    "yield_table"
+  ],
+  "document_id": "doc-d87b03969e05e35b"
+}

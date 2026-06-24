@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "numeric",
+      "numeric_value": 300,
+      "unit": "seconds",
+      "qualifier": "threshold",
+      "evidence_text": "Interpretation of falling numbers: FN>300 No sprout damage; 300>FN>200 Some sprouting; 200>FN Severe sprout damage",
+      "claim_summary": "Wheat falling number above 300 s indicates no sprout damage",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "range",
+      "range_min": 200,
+      "range_max": 300,
+      "unit": "seconds",
+      "qualifier": "threshold",
+      "evidence_text": "300>FN>200 Some sprouting",
+      "claim_summary": "Wheat falling number between 200 and 300 s indicates some sprouting",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "numeric",
+      "numeric_value": 200,
+      "unit": "seconds",
+      "qualifier": "threshold",
+      "evidence_text": "200>FN Severe sprout damage",
+      "claim_summary": "Wheat falling number below 200 s indicates severe sprout damage",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Pre-harvest sprouting (PHS): Wheat germinates within the grain head prior to harvest. Occurs when wet conditions delay harvest. White varieties are more susceptible to PHS than red ones. Higher PHS risks for genotypes with a short dormancy period.",
+      "claim_summary": "Preharvest sprouting risk increases with wet conditions delaying harvest, in white vs red varieties, and short-dormancy genotypes",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "unit": "text",
+      "qualifier": "observed",
+      "evidence_text": "Effect of moisture and temperature during grain filling: Drier/cooler conditions generally produce seed with lower sprouting tendency. (Thomason et al. 2009)",
+      "claim_summary": "Drier and cooler conditions during grain filling reduce preharvest sprouting tendency in wheat",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "quality.test_weight",
+      "value_type": "range",
+      "range_min": 50.3,
+      "range_max": 61.9,
+      "unit": "lb/bu",
+      "qualifier": "observed",
+      "evidence_text": "Chelsea (SWW) Test weight (lb/bu) 58.8 54.1 50.3 ... Pat (SRW) Test weight (lb/bu) 61.9 57.1 54.9",
+      "claim_summary": "Test weight of soft wheat ranged 50.3-61.9 lb/bu, declining with later sprout-damaged harvests",
+      "extraction_confidence": "medium"
+    }
+  ]
+}

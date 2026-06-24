@@ -1,0 +1,28 @@
+{
+  "claims": [
+    {
+      "parameter_id": "harvest.preharvest_sprouting_risk",
+      "value_type": "text",
+      "qualifier": "recommended",
+      "evidence_text": "At harvest, there is little that can be done to limit PHS besides harvesting as soon as possible, although PHS can occur prior to harvest maturity... Pre-emptive strategies at seeding can help avoid maturation under conducive conditions and mitigate risk.",
+      "claim_summary": "Pre-harvest sprouting risk is mitigated by harvesting as soon as possible and by pre-emptive seeding strategies that avoid maturation under conducive (wet) conditions.",
+      "extraction_confidence": "high"
+    },
+    {
+      "parameter_id": "quality.falling_number",
+      "value_type": "text",
+      "qualifier": "threshold",
+      "evidence_text": "The Falling Number test is used to determine whether the levels of α-amylase are acceptable... Low FN indicates elevated a-amylase. Falling Number Index 2-3 Susceptible 5-6 Mod. Resistant",
+      "claim_summary": "Falling Number test measures alpha-amylase; low Falling Number indicates pre-harvest sprouting damage and elevated alpha-amylase.",
+      "extraction_confidence": "medium"
+    },
+    {
+      "parameter_id": "harvest.harvest_moisture",
+      "value_type": "text",
+      "qualifier": "observed",
+      "evidence_text": "Maximum grain weight Harvestable grain moisture Changes during maturationdrying",
+      "claim_summary": "Grain moisture declines during maturation drying; maximum grain weight is reached around the point grain becomes harvestable.",
+      "extraction_confidence": "low"
+    }
+  ]
+}

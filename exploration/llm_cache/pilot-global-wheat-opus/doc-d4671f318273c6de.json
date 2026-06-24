@@ -1,0 +1,18 @@
+{"claims": [
+  {
+    "parameter_id": "canopy.leaf_area_index",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "the LAI exhibited single peak curves along the growth process. From about 90 to 120 DAS ... LAI values were increasing ... reaching the maximum at 130 DAS. Then the LAI differences gradually decreased",
+    "claim_summary": "Wheat LAI follows a single-peak curve over the season, peaking around 130 days after sowing then declining with senescence.",
+    "extraction_confidence": "medium"
+  },
+  {
+    "parameter_id": "canopy.light_extinction_coefficient",
+    "value_type": "text",
+    "qualifier": "observed",
+    "evidence_text": "the smaller the LOV value, the larger the k value. The k value demonstrated a concave curve along with the growth process, first decreasing and then increasing ... with the lowest k value for the planophile type",
+    "claim_summary": "Wheat canopy light extinction coefficient (k) is higher for planophile (flatter-leaf) plant types; follows a concave curve over the season.",
+    "extraction_confidence": "medium"
+  }
+]}
