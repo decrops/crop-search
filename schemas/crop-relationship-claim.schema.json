@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/crop-relationship-claim.schema.json",
+  "title": "CropRelationshipClaim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relationship_claim_id",
+    "run_id",
+    "subject_crop_id",
+    "object_crop_id",
+    "subject_crop_group",
+    "object_crop_group",
+    "relationship_mode",
+    "relationship_subtype",
+    "direction",
+    "ordered_pair_key",
+    "canonical_relationship_key",
+    "effect",
+    "claim_text",
+    "evidence_text",
+    "value",
+    "context",
+    "provenance",
+    "confidence",
+    "status"
+  ],
+  "properties": {
+    "relationship_claim_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "subject_crop_id": {
+      "type": "string"
+    },
+    "object_crop_id": {
+      "type": "string"
+    },
+    "subject_crop_group": {
+      "type": "string"
+    },
+    "object_crop_group": {
+      "type": "string"
+    },
+    "relationship_mode": {
+      "type": "string"
+    },
+    "relationship_subtype": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "string",
+      "enum": ["object_precedes_subject", "subject_precedes_object", "simultaneous", "bidirectional", "same_crop", "not_directional", "unknown"]
+    },
+    "ordered_pair_key": {
+      "type": "string"
+    },
+    "canonical_relationship_key": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "string",
+      "enum": ["beneficial", "compatible", "conditional", "neutral", "incompatible", "avoid", "unknown"]
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 5
+    },
+    "evidence_text": {
+      "type": "string",
+      "minLength": 5
+    },
+    "value": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value_type": {
+          "type": "string",
+          "enum": ["numeric", "text", "boolean", "range"]
+        },
+        "raw_value_text": {
+          "type": "string"
+        },
+        "numeric_value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "range_min": {
+          "type": "number"
+        },
+        "range_max": {
+          "type": "number"
+        },
+        "qualifier": {
+          "type": "string"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "location_scope": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "source_geo_scope": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "time_scope": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "season": {
+          "type": "string"
+        },
+        "growth_stage": {
+          "type": "string"
+        },
+        "management_system": {
+          "type": "string"
+        },
+        "cultivar": {
+          "type": "string"
+        },
+        "arrangement": {
+          "type": "string"
+        },
+        "row_ratio": {
+          "type": "string"
+        },
+        "plant_density_adjustment": {
+          "type": "string"
+        },
+        "temporal_offset": {
+          "type": "string"
+        },
+        "disease_pressure": {
+          "type": "string"
+        },
+        "water_regime": {
+          "type": "string"
+        },
+        "input_system": {
+          "type": "string"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_urls", "source_title", "source_domain", "document_type", "accessed_at", "extraction_method"],
+      "properties": {
+        "source_urls": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "source_title": {
+          "type": "string"
+        },
+        "source_domain": {
+          "type": "string"
+        },
+        "document_type": {
+          "type": "string"
+        },
+        "source_tier_id": {
+          "type": "string"
+        },
+        "source_tier_label": {
+          "type": "string"
+        },
+        "accessed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "extraction_method": {
+          "type": "string"
+        },
+        "document_id": {
+          "type": "string"
+        },
+        "block_anchor": {
+          "type": "string"
+        },
+        "block_type": {
+          "type": "string",
+          "enum": ["paragraph", "table", "heading", "section"]
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "table_label": {
+          "type": "string"
+        }
+      }
+    },
+    "mechanisms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "method": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["needs_review", "accepted", "rejected", "conflict"]
+    }
+  }
+}

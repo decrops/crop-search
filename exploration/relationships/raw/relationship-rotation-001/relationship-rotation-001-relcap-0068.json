@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0068",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "soybean",
+  "object_crop_id": "wheat",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "soybean|wheat",
+  "canonical_relationship_key": "rotation|soybean|wheat",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.1017/s0043174500094959"
+  },
+  "source_url": "https://doi.org/10.1017/s0043174500094959",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:32:21Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://www.cambridge.org/core/journals/weed-science/article/abs/surface-wheat-triticum-aestivum-residues-giant-foxtail-setaria-faberi-and-soybean-glycine-max-yield/609275147844FBDAB376EB1591C7E1AA",
+  "source_title": "Surface Wheat (Triticum aestivum) Residues, Giant Foxtail (Setaria faberi), and Soybean (Glycine max) Yield | Weed Science | Cambridge Core",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-www.cambridge.org.html",
+  "snippet": "Published online by Cambridge University Press: 12 June 2017\n\nExperiments were conducted from 1992 through 1994 to determine the effect of 0 to 12 Mg ha \u22121 of surface wheat residues (SWR) on giant foxtail density and crown node length, and soybean yield. Giant foxtail density dec",
+  "raw_text": "Published online by Cambridge University Press: 12 June 2017\n\nExperiments were conducted from 1992 through 1994 to determine the effect of 0 to 12 Mg ha \u22121 of surface wheat residues (SWR) on giant foxtail density and crown node length, and soybean yield. Giant foxtail density decreased as SWR increased from 0 to 12 Mg ha \u22121 . SWR of 6 to 12 Mg ha \u22121 reduced giant foxtail density by 2 to 50 % compared to bare soil. The crown node of giant foxtail was 2 cm above the soil surface with 12 Mg ha \u22121 of SWR. Frost in 1992 injured soybean more than weeds in plots with SWR while soybean in soil with no SWR was not injured. In absence of frost in 1993 and 1994, yield of weedy soybean increased 20 to 29%, respectively, with the increase of SWR from 0 to 6 Mg ha \u22121 . In weed-free plots, soybean yield was similar across all SWR levels. These results confirm the hypothesis that high levels of SWR increased soybean yield in weedy plots because of decreased giant foxtail infestation.\n\nView all Google Scholar citations for this article.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

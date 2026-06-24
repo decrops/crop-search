@@ -20,6 +20,7 @@ The starting principle comes from [SEARCH_EXPLORATION_SUMMARY.md](/Users/admin/d
 - `schemas/`: JSON schemas for core contracts
 - `config/parameters/core-crop-parameters.json`: generic crop physiology and management parameter manifest
 - `config/crops/`: crop profiles that adapt generic parameters to a target crop
+- `config/relationships/relationship-vocabulary.json`: crop-to-crop relationship modes, query templates, effect labels, and mechanism tags
 - `config/hooks/default.json`: built-in hook pipeline
 - `config/mcp/servers.example.json`: MCP server manifest template
 - `config/mcp/servers.local.json`: live web-backed tool bindings for the pilot run
@@ -51,6 +52,9 @@ source .venv/bin/activate
 pip install -e .
 crop-framework validate schemas/context-pack.schema.json templates/context/mission.json
 crop-framework plan-queries --run-config config/runs/pilot-us-corn-iowa.json
+crop-framework write-relationship-matrix
+crop-framework plan-relationship-queries --mode rotation --queries-per-pair 1 --output exploration/relationships/query_plans/rotation-current.json
+crop-framework discover-relationships relationship-rotation-smoke --mode rotation --queries-per-pair 1 --limit-queries 5
 crop-framework run-exploration --run-config config/runs/pilot-us-corn-iowa.json --manifest config/mcp/servers.local.json
 # Durable raw layer: dedupe captures into a content-addressed document/block store,
 # then a QA report that gates the (expensive) Opus extraction pass.
@@ -96,6 +100,8 @@ When a scope can be geocoded, the readout includes `geo_id`, centroid `lat`/`lon
 `promote-run` writes schema-validated durable claim records under `memory/durable/<run_id>/claims.json`. Only reviewed canonical, regional, and merge candidates without unresolved conflicts are promoted.
 
 `plan-queries` renders manifest-driven search queries before a run. The generic parameter manifest defines crop physiology and management parameters once; crop profiles such as `config/crops/corn.json`, `config/crops/soybean.json`, and `config/crops/wheat.json` provide crop-specific aliases and growth-stage vocabulary.
+
+`write-relationship-matrix` writes the crop-to-crop relationship skeleton under `exploration/relationships/matrix/`. The dense matrix is strictly `crop_id x crop_id`: with the current 7 crop profiles it has 49 ordered cells, including self-pairs for continuous cropping. `plan-relationship-queries` renders source-tier-aware pair queries for relationship modes such as rotation without fetching sources. `discover-relationships` executes those pair-aware searches into `exploration/relationships/discovery/<run_id>/results.jsonl`, preserving `subject_crop_id`, `object_crop_id`, `relationship_mode`, `ordered_pair_key`, and `canonical_relationship_key` on every ledger row. Relationship search/extraction is intentionally separate from single-crop parameter extraction; the current implementation creates the matrix, query plans, and relationship discovery ledgers, while evidence-backed extraction/review/promotion and matrix population remain later stages.
 
 Run configs can include `source_seeds` for trusted live source URLs (each optionally scoped to a `source_tier_id` and specific `parameter_ids`). The `seed_mode` field controls when they are used:
 

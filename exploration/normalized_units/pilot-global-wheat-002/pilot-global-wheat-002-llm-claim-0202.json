@@ -1,0 +1,85 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0202",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "temperature.survival_temperature",
+  "attribute": "temperature_requirement",
+  "attribute_subtype": "survival_temperature",
+  "claim_text": "Fully hardened winter wheat can suffer winterkill if crown temperature drops below -50\u00b0F (stated as 50\u00b0F, likely -50\u00b0F)",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "Even fully hardened wheat plants can suffer winterkill, if temperatures drop below a crown temperature of 50\u00b0 F.",
+    "numeric_value": 10.0,
+    "qualifier": "threshold",
+    "unit": "celsius"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "South Dakota",
+    "geo_id": "census:0400000US46",
+    "centroid": {
+      "lat": 44.446796,
+      "lon": -100.238176
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "4-35 extension.sdstate.edu | \u00a9 2019, South Dakota Board of Regents Winter wheat planting in South Dakota begins in mid September with the aim of establishing a healthy a",
+    "matched_locations": [
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "South Dakota",
+        "evidence_text": "4-35 extension.sdstate.edu | \u00a9 2019, South Dakota Board of Regents Winter wheat planting in South Dakota begins in mid September with the aim of establishing a healthy a"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-04-Wheat.pdf"
+    ],
+    "source_title": "https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-04-Wheat.pdf",
+    "source_domain": "extension.sdstate.edu",
+    "document_type": "pdf",
+    "source_tier_id": "extension_publication",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Even fully hardened wheat plants can suffer winterkill, if temperatures drop below a crown temperature of 50\u00b0 F.",
+    "manifest_version": "0.4.0",
+    "notes": "2019",
+    "source_publication_year": 2019,
+    "document_id": "doc-d2a2acac0e8658eb",
+    "block_type": "paragraph"
+  },
+  "observation_type": "threshold",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "winter wheat"
+  }
+}

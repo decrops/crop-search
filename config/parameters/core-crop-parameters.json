@@ -1,5 +1,5 @@
 {
-  "manifest_version": "0.4.0",
+  "manifest_version": "0.4.1",
   "scope": "major crop physiology, management, and farmer decision domains",
   "description": "Expanded generic parameter catalog for web-searching physiological traits, environmental responses, phenology, crop establishment, soil-water-nutrient requirements, yield components, quality traits, and management recommendations across major field crops.",
   "parameters": [
@@ -4883,7 +4883,13 @@
       "concept_scope": "crop_group",
       "decision": "Informs variety selection, disease management",
       "requires_stage_context": false,
-      "implementation_status": "stub"
+      "query_terms": [
+        "disease resistance rating",
+        "resistance package",
+        "Septoria rating",
+        "rust resistance"
+      ],
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.key_disease_pressure",
@@ -4922,7 +4928,13 @@
       "concept_scope": "crop_group",
       "decision": "Informs fungicide timing, disease management",
       "requires_stage_context": true,
-      "implementation_status": "stub"
+      "query_terms": [
+        "disease pressure",
+        "epidemic risk",
+        "inoculum",
+        "regional disease survey"
+      ],
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.key_pest_threshold",
@@ -4961,7 +4973,13 @@
       "concept_scope": "crop_group",
       "decision": "Informs insecticide timing, pest management",
       "requires_stage_context": true,
-      "implementation_status": "stub"
+      "query_terms": [
+        "pest threshold",
+        "economic threshold",
+        "action threshold",
+        "scouting"
+      ],
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.weed_management",
@@ -5008,7 +5026,13 @@
       "concept_scope": "universal",
       "decision": "Informs herbicide program, weed management",
       "requires_stage_context": false,
-      "implementation_status": "stub"
+      "query_terms": [
+        "weed control",
+        "herbicide program",
+        "integrated weed management",
+        "resistance"
+      ],
+      "implementation_status": "active"
     },
     {
       "parameter_id": "post_harvest_quality.storage_conditions",
@@ -5205,7 +5229,7 @@
       "query_terms": ["trait package", "herbicide tolerant", "technology trait"],
       "expected_value_shape": "category",
       "expected_scope": ["crop", "cultivar", "management_system"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.disease_sensitive_stage",
@@ -5230,7 +5254,7 @@
       "query_terms": ["disease risk", "growth stage", "fungicide timing"],
       "expected_value_shape": "stage",
       "expected_scope": ["crop", "region", "growth_stage", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.fungicide_application_timing",
@@ -5255,7 +5279,7 @@
       "query_terms": ["fungicide timing", "application window", "growth stage"],
       "expected_value_shape": "stage",
       "expected_scope": ["crop", "region", "growth_stage", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.insect_action_threshold",
@@ -5280,7 +5304,7 @@
       "query_terms": ["economic threshold", "scouting threshold", "insecticide threshold"],
       "expected_value_shape": "numeric_range",
       "expected_scope": ["crop", "region", "growth_stage", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.pest_sensitive_stage",
@@ -5305,7 +5329,7 @@
       "query_terms": ["pest stage", "injury timing", "scouting"],
       "expected_value_shape": "stage",
       "expected_scope": ["crop", "region", "growth_stage", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.critical_weed_free_period",
@@ -5331,7 +5355,7 @@
       "query_terms": ["critical period weed control", "weed-free period", "crop-weed competition"],
       "expected_value_shape": "range",
       "expected_scope": ["crop", "region", "growth_stage", "management_system"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.herbicide_application_window",
@@ -5356,7 +5380,7 @@
       "query_terms": ["postemergence", "crop stage", "application window"],
       "expected_value_shape": "stage",
       "expected_scope": ["crop", "growth_stage", "management_system", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.seed_treatment_recommendation",
@@ -5381,7 +5405,7 @@
       "query_terms": ["seed treatment", "seedling disease", "treated seed"],
       "expected_value_shape": "text",
       "expected_scope": ["crop", "region", "management_system", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.nematode_pressure",
@@ -5406,7 +5430,7 @@
       "query_terms": ["nematode threshold", "root-knot", "soil assay"],
       "expected_value_shape": "numeric_range",
       "expected_scope": ["crop", "region", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "crop_protection.disease_severity_threshold",
@@ -5432,7 +5456,7 @@
       "query_terms": ["severity threshold", "action threshold", "fungicide decision"],
       "expected_value_shape": "numeric_range",
       "expected_scope": ["crop", "region", "growth_stage", "organism"],
-      "implementation_status": "stub"
+      "implementation_status": "active"
     },
     {
       "parameter_id": "post_harvest_quality.safe_storage_moisture",

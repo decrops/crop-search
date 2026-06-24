@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0157",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "morphology.grains_per_spike",
+  "attribute": "yield_component",
+  "attribute_subtype": "grains_per_spike",
+  "claim_text": "Mean number of grains per spike of bread wheat genotypes was 50.1.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "The results showed a higher mean of 97.3 TPM, 50.1 GPS and 37.0g",
+    "numeric_value": 50.1,
+    "qualifier": "descriptive",
+    "unit": "grains spike-1"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0294755&type=printable"
+    ],
+    "source_title": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0294755&type=printable",
+    "source_domain": "journals.plos.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The results showed a higher mean of 97.3 TPM, 50.1 GPS and 37.0g",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-9c79dad373b41080",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "field, India"
+  }
+}

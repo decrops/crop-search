@@ -1,0 +1,71 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0070",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "temperature.heat_stress_threshold",
+  "attribute": "temperature_requirement",
+  "attribute_subtype": "stress_temperature",
+  "claim_text": "Wheat seeds were heat-stressed (heat priming) at 42\u00b0C for 2 hours.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "heat-primed(HP)with60-65seeds soaked in 25ml water overnight at 22o C, heat-stressed at 42o C for 2hours",
+    "numeric_value": 42.0,
+    "qualifier": "threshold",
+    "unit": "celsius"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.61475/jfs.2024.v37i1.02"
+    ],
+    "source_title": "https://doi.org/10.61475/jfs.2024.v37i1.02",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "heat-primed(HP)with60-65seeds soaked in 25ml water overnight at 22o C, heat-stressed at 42o C for 2hours",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-29a5ed6af5030a88",
+    "block_type": "paragraph"
+  },
+  "observation_type": "threshold",
+  "confidence": "medium",
+  "conflict_status": "potential",
+  "status": "load_ready",
+  "conflict_reason": "multiple incompatible quantitative claims for the same attribute subtype and scope"
+}

@@ -1,0 +1,90 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0254",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "harvest.preharvest_sprouting_risk",
+  "attribute": "harvest_risk",
+  "attribute_subtype": "preharvest_sprouting_risk",
+  "claim_text": "Preharvest sprouting risk when harvest delayed by wet conditions",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "Preharvest sprouting of ripened grain occurs occasionally in eastern and central Kansas when harvest is delayed by wet conditions. Frequent rains, high humidity, and heavy dews cause kernels in the spike to absorb moisture and start germinating.",
+    "text_value": "Preharvest sprouting risk when harvest delayed by wet conditions",
+    "qualifier": "risk"
+  },
+  "location_scope": {
+    "level": "state",
+    "name": "Kansas",
+    "geo_id": "census:0400000US20",
+    "centroid": {
+      "lat": 38.498546,
+      "lon": -98.38343
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "Kansas",
+    "geo_id": "census:0400000US20",
+    "centroid": {
+      "lat": 38.498546,
+      "lon": -98.38343
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "explicit_state",
+    "claim_location_confidence": "high",
+    "claim_location_text": "Preharvest sprouting of ripened grain occurs occasionally in eastern and central Kansas when harvest is delayed by wet conditions. Frequent rains, high humidity, and heavy dews cause kernels in the spike to",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "Wheat Production Handbook K-State Research & Extension Manhattan, Kansas1\n\nGrowth and Development Gary M. Paulsen, Crop Research Physiologist, Agronomy 2 Varieties Rollin G. Sears, Wheat Breed",
+    "matched_locations": [
+      {
+        "field": "claim_location:claim_text",
+        "level": "state",
+        "name": "Kansas",
+        "evidence_text": "Preharvest sprouting of ripened grain occurs occasionally in eastern and central Kansas when harvest is delayed by wet conditions. Frequent rains, high humidity, and heavy dews cause kernels in the spike to"
+      },
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "Kansas",
+        "evidence_text": "Wheat Production Handbook K-State Research & Extension Manhattan, Kansas1\n\nGrowth and Development Gary M. Paulsen, Crop Research Physiologist, Agronomy 2 Varieties Rollin G. Sears, Wheat Breed"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf"
+    ],
+    "source_title": "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf",
+    "source_domain": "bookstore.ksre.ksu.edu",
+    "document_type": "pdf",
+    "source_tier_id": "extension_publication",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Preharvest sprouting of ripened grain occurs occasionally in eastern and central Kansas when harvest is delayed by wet conditions. Frequent rains, high humidity, and heavy dews cause kernels in the spike to absorb moisture and start germinating.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-fa3c9643f58e9cfe",
+    "block_type": "paragraph"
+  },
+  "observation_type": "risk",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0015",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "corn",
+  "object_crop_id": "rice",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "corn|rice",
+  "canonical_relationship_key": "rotation|corn|rice",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": ""
+  },
+  "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7424594/?tool=EBI",
+  "source_domain": "www.ncbi.nlm.nih.gov",
+  "accessed_at": "2026-06-24T14:32:13Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7424594/?tool=EBI",
+  "source_title": "Abstracts of the XXII World Allergy Congress, 4-8 December, 2011 Canc\u00fan, M\u00e9xico - PMC",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pmc.ncbi.nlm.nih.gov.html",
+  "snippet": "Keywords: Allergic Rhinitis, Allergic Rhinitis, Omalizumab, Chronic Urticaria, World Allergy Organization\n\nThis article is made available via the PMC Open Access Subset for unrestricted research re-use and secondary analysis in any form or by any means with acknowledgement of the",
+  "raw_text": "Keywords: Allergic Rhinitis, Allergic Rhinitis, Omalizumab, Chronic Urticaria, World Allergy Organization\n\nThis article is made available via the PMC Open Access Subset for unrestricted research re-use and secondary analysis in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the World Health Organization (WHO) declaration of COVID-19 as a global pandemic.\n\nThe content is available as a PDF (2.3 MB).",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

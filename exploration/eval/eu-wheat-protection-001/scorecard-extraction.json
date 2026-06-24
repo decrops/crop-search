@@ -1,0 +1,22 @@
+{
+  "run_id": "eu-wheat-protection-001",
+  "eval_type": "extraction",
+  "generated_at": "2026-06-24T13:36:26Z",
+  "gold_dir": "tests/golden/extraction",
+  "gold_records": 3,
+  "adjudicable_predictions": 4,
+  "metrics": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "parameter_mapping_accuracy": 1.0,
+    "unit_normalization_correctness": 1.0,
+    "evidence_faithfulness": 1.0
+  },
+  "per_domain": {
+    "crop_protection": {
+      "gold": 3,
+      "recall": 1.0,
+      "parameter_mapping_accuracy": 1.0
+    }
+  }
+}

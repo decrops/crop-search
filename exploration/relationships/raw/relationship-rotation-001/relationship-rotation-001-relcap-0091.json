@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0091",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "corn",
+  "object_crop_id": "sunflower",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "corn|sunflower",
+  "canonical_relationship_key": "rotation|corn|sunflower",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.3923/jbs.2008.954.957"
+  },
+  "source_url": "https://doi.org/10.3923/jbs.2008.954.957",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:48Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://scialert.net/abstract/?doi=jbs.2008.954.957",
+  "source_title": "Row Spacing Effects on Light Extinction Coefficients, Leaf Area Index, Leaf Area Index Affecting in Photosynthesis and Grain Yield of Corn (Zea mays L.) and Sunflower (Helianthus annuus L.)",
+  "content_type": "text/html; charset=UTF-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-scialert.net.html",
+  "snippet": "Your email address will not be published. Required fields are marked *",
+  "raw_text": "Your email address will not be published. Required fields are marked *",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

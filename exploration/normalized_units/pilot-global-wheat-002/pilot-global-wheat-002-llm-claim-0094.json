@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0094",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "planting.planting_window",
+  "attribute": "planting_window",
+  "attribute_subtype": "planting_date_window",
+  "claim_text": "Winter wheat sown in the third decade of September in Lublin, Poland",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "was sown at a rate of 270 kg ha\u20131 in the third decade of September (2022/2023 and 2023/2024 growing seasons)",
+    "text_value": "Winter wheat sown in the third decade of September in Lublin, Poland",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "planting season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.24326/as.2024.5442"
+    ],
+    "source_title": "https://doi.org/10.24326/as.2024.5442",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "was sown at a rate of 270 kg ha\u20131 in the third decade of September (2022/2023 and 2023/2024 growing seasons)",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-3326606c2ecf3614",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "Venecja",
+    "management_system": "winter wheat, field experiment, Poland"
+  }
+}

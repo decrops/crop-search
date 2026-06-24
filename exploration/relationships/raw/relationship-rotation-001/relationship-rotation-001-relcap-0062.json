@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0062",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "rice",
+  "object_crop_id": "wheat",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "rice|wheat",
+  "canonical_relationship_key": "rotation|rice|wheat",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.59797/ija.v53i2.4843"
+  },
+  "source_url": "https://doi.org/10.59797/ija.v53i2.4843",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:32:16Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pub.isa-india.in/index.php/ija/article/view/4843",
+  "source_title": "Effect of rice (Oryza sativa) straw management on growth and yield of wheat (Triticum aestivum)\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pub.isa-india.in.html",
+  "snippet": "Ali, A., Medhi, D.N., and Baroova, S.R. 1995. Effect of rice straw\n\nin combination with different levels of nitrogen, phosphorus\n\nand potash on transplanted rice. Journal ofAgricultura1 Sci-\n\nence Society of North East India 8 (2): 248-250. Becker, M., Ladha, J.K. and Ottow, J.C.",
+  "raw_text": "Ali, A., Medhi, D.N., and Baroova, S.R. 1995. Effect of rice straw\n\nin combination with different levels of nitrogen, phosphorus\n\nand potash on transplanted rice. Journal ofAgricultura1 Sci-\n\nence Society of North East India 8 (2): 248-250. Becker, M., Ladha, J.K. and Ottow, J.C.G 1994. Nitrogen losses and low land rice yield as affected by residue N released. Soil Science Society of American Journal 58: 1660-1665.\n\n-2004-2005-cfdgsoil) 2004-2005-06 05 06 2004-2005-05\n\nDobermann,A. and Fairhurst, T.H. 2002. Rice straw management. Better Crops International (special supplement) 16: 7-9.\n\nKachroo, Dileep., Dixit, hoop Kumar and Bhat, A.K. 2006. De- composition of various residues and their nutrient release pattern under Alfisols of Jammu region. Journal of the In- dian Society of Soil Science 54(3): 342-344.\n\nKavimandan, S.K., Gupta, J.P. and Mahapatra, I.C. 1987. Studies on residue management and biofertilizers in rice-wheat se-quence. Indian Journal ofAgronomy 32: 278-279.\n\nSidhu, B.S. and Ben, V.1989. Effect of crop residue management on yields of different crops and soil properties. Biological Wastes 27: 15-27.\n\nSingh, A.B. and Ganguly, T.K. 2005. Quality comparison of conven- tional compost, vermicompost and chemically enriched com- post. Journal of the Indian Society of Soil Science 53(3): 352-353.\n\nSingh, Rajeev and Yadav, D.S. 2006. Effect of rice (Oryza sativa) residue and nitrogen on performance of wheat (Triticum aestivum) under rice-wheat cropping system. Indian Journal of Agronomy 51(4): 247-250.\n\nSingh, Ygeshwar, Singh, C.S., Singh, T.K. and Singh, J.P. 2006. Effect of fortified and unfortified rice-straw compost with NPK fertilizers on productivity, nutrient uptake and econom- ics of rice (Oryza sativa). Indian Journal of Agronomy 51(4): 297-300.\n\nSubehia, S.K., Verma, Sudhir and Sharrna, S.P.2005. Effect of long term use of chemical fertilizers with or without organics on forms of soil acidity, phosphorus adsorption and crop yields in an acid soil. Journal of the Indian Society of Soil Science 53(3): 308-3 14.\n\nSurekha, K., Reddy, M. Narayana, Rao, K.V. and Cruz, PC. STA. 2004. Evaluation of crop residue management practices for improving yields, nutrient balance and soil health under in- tensive rice-rice system. Journal Indian Society of Soil Sci- ence 52 (4): 448453\n\nVerma, T.S and Bhagat, R.M. 1992. Impact of rice straw manage- fient practices on yield, nutrient uptake and soil properties in a wheat-rice rotation in northern India. Fertilizer Research",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

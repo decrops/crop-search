@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0089",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "corn",
+  "object_crop_id": "sunflower",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "corn|sunflower",
+  "canonical_relationship_key": "rotation|corn|sunflower",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.70099/bj/2025.02.04.6"
+  },
+  "source_url": "https://doi.org/10.70099/bj/2025.02.04.6",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:46Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://bionaturajournal.com/repositorio/index.php/bionatura/article/view/210",
+  "source_title": "Application of microbial communities as an experimental model for improving the yield of sunflower (Helianthus annuus) and corn (Zea mays)\n\t\t\t\t\t\t\t| BioNatura Journal: Ibero-American Journal of Biotechnology and Life Sciences",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-bionaturajournal.com.html",
+  "snippet": "Soils degraded by poor agricultural practices represent a persistent problem in Panama and worldwide. This study evaluated the effect of plant growth-promoting bacterial strains on sunflower ( Helianthus annuus ) and corn ( Zea mays ) seedlings under controlled conditions, aiming",
+  "raw_text": "Soils degraded by poor agricultural practices represent a persistent problem in Panama and worldwide. This study evaluated the effect of plant growth-promoting bacterial strains on sunflower ( Helianthus annuus ) and corn ( Zea mays ) seedlings under controlled conditions, aiming to improve their vegetative development. Bacterial strains were isolated from various environmental samples, and eight isolates were confirmed through phenotypic and biochemical tests. These isolates were applied in ten treatments by spraying the crops, using three replicates per treatment. The evaluation was based on parameters such as plant height, root length, and biomass. The strains of Rhizobium , Azospirillum , and Pseudomonas showed the most pronounced positive effects on plant growth. Overall, the use of specific beneficial bacterial strains applied to degraded soils represents a sustainable alternative that enhances vegetative development by approximately 50%, reduces the need for agrochemicals, and promotes environmentally friendly agricultural practices.\n\n1. Consejo Internacional de Cereales. Informaci\u00f3n sobre mercados mundiales de granos [Internet]. Londres: International Grains Council; 2022 [citado 2025 ago 1]. Disponible en: https://www.igc.int/es/\n\n2. Al-Tammar FK, Khalifa AYZ. Las bacterias promotoras de crecimiento vegetal impulsan la seguridad alimentaria. Braz J Biol. 2022;82:e267257. doi:10.1590/1519-6984.267257\n\n3. Tarekegn-Makiso L, Chandra-Sekhar SB, Bulcha W. Evaluation of sunflower (Helianthus annuus L.) genotypes for quantitative association traits and character of seed yield and yield components at Oromia region, Ethiopia. Euphytica. 2021;217(1):27. doi:10.1007/s10681-021-02801-8\n\n4. Escalante-Estrada JAS, Aguilar-Carpio C, Escalante-Estrada YI. Rendimiento, acumulaci\u00f3n y distribuci\u00f3n de biomasa en girasol en funci\u00f3n de la salinidad y nitr\u00f3geno. Ecosistemas Recur Agropec. 2022;9(1):1\u20138. doi:10.19136/era.a9n1.2821\n\n5. De la Vega-Camarillo E, Sotelo-Aguilar J, R\u00edos-Galicia B, Mercado-Flores Y, Arteaga-Garibay R, Villa-Tanaca L, et al. Promotion of the growth and yield of Zea mays by synthetic microbial communities from Jala maize. Front Microbiol. 2023;14:1167839. doi:10.3389/fmicb.2023.1167839\n\n6. Manjunath M, Khokhar A, Chary GR, Singh M, Yadav SK, Gopinath KA, et al. Microbial consortia enhance the yield of maize under sub-humid rainfed production system of India. Front Sustain Food Syst. 2023;7:1108492. doi:10.3389/fsufs.2023.1108492\n\n7. M\u00e1rquez-Cruz S, Mart\u00ednez-Cruz M, Acosta-Roca R. Efecto de rizobios en el crecimiento y rendimiento del cultivar de ma\u00edz (Zea mays L.) P-79-28. Cult Trop. 2022;43(4):1\u20135.\n\n8. Sangoquiza-Caiza C, Zambrano-Mendoza J, Borgues-Garc\u00eda M, Cho KJ. Respuesta del ma\u00edz harinoso (Zea mays L. var. Amylacea) a la inoculaci\u00f3n de Azospirillum y Pseudomonas [Internet]. Redalyc; 2024 [citado 2025 ago 1]. Disponible en: https://www.redalyc.org/journal/4760/476077146010\n\n9. Barb\u00e9 S, Fig\u00e0s-Segura \u00c0, Benada M, Navarro-Herrero I, Sampaio TM, Biosca EG, Marco-Noales E. Plant-associated microbiota as a source of antagonistic bacteria against the phytopathogen Erwinia amylovora. Environ Microbiol Rep. 2022;14(4):559\u201369. doi:10.1111/1758-2229.13064\n\n10. Garc\u00eda-Castro JD. Efecto de bacterias diaz\u00f3trofas y su importancia para el rendimiento de los cultivos de ciclo corto [tesis de licenciatura]. Babahoyo (Ecuador): Universidad T\u00e9cnica de Babahoyo; 2021.\n\n11. Li Z, Chi Y, Su X, Ye Z, Ren X. Rhizobium seed soaking promoted maize growth by altering rhizosphere microbiomes and associated functional genes. Microorganisms. 2023;11(7):1654. doi:10.3390/microorganisms11071654\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License .\n\nAuthors who publish with BioNatura Journal agree to the following terms: Authors retain copyright and grant the BioNatura Institutional Publishing Consortium (BIPC) right of first publication with the work simultaneously licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). This allows others to share the work with an acknowledgment of the work's authorship and initial publication in this journal.This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

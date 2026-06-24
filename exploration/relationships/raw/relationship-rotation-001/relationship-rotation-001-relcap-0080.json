@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0080",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "sunflower",
+  "object_crop_id": "rice",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "sunflower|rice",
+  "canonical_relationship_key": "rotation|sunflower|rice",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.59797/ija.v40i4.3840"
+  },
+  "source_url": "https://doi.org/10.59797/ija.v40i4.3840",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:27Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pub.isa-india.in/index.php/ija/article/view/3840",
+  "source_title": "Influence of pre-season crops on productivity of rice (Oryza sativa)-sunflower (Helianthus annuus) sequences and soil- fertility status\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pub.isa-india.in.html",
+  "snippet": "Beri, V,, Meelu, 0,P. and Khind, C. S. 1989. Biomass production, Naccumulation, symbiodc effective- ness and rnirreralization of green manures in rela- tion to yield of wetiand rice. Tropical Agricul- ture, Trinidad 66 :1 1-16.\n\nJackson, M. L. 1973. Soil Chemical Analysis. Prenti",
+  "raw_text": "Beri, V,, Meelu, 0,P. and Khind, C. S. 1989. Biomass production, Naccumulation, symbiodc effective- ness and rnirreralization of green manures in rela- tion to yield of wetiand rice. Tropical Agricul- ture, Trinidad 66 :1 1-16.\n\nJackson, M. L. 1973. Soil Chemical Analysis. Prentice\n\nDecember 19951 EFFECT OF PRE-SEASON CROPS ON SEQUENCE CROPPING\n\nRinaudo, G. Alazard, D. and Moudiongui, A. 1988. Stern-nodulating legumes as green-manure for rice in west Africa. (In) Proceedings of'the Sym- posium ,on Sustainable Agriculture : Green manure in Rice Farming, held at International Rice Research Institute, Los Banos, Philippines.\n\nSalem, M. A., Hameed, S. M. S., Sivaprasad, P., Tajuddin, E. and Thomas, Y. 1989. Performance of Sesbnnia rostrata in acid soils. International Rice Research Institute Newsletter 14 (4) : 33-34.\n\nSharma, A. R. and Mittra, B. N. 1988. Effect of green manuring and mineral fertilizer on growth and yield of crops in rice-based cropping on acid lat- erite soil. Journal uf Agricultural Science, Cam-bridge 110 :605-608.\n\nSingh, Ranvir, Singh, B. P., Kumar, B. and Chand,\n\nD. 1988. Sesbania rostrata-a promising sources of biofertilizer. Seeds and Farms 14 (4): 9-10.\n\nSwamp, A. 1987. Effect of pre-submergence and green manuring (Sesbania aculeata) on nutrition and yield of wetland rice on a-sodic soil. Biology and Fertiliry of Soils 5 (3) :203-208.Beri, V,, Meelu, 0,P. and Khind, C. S. 1989. Biomass production, Naccumulation, symbiodc effective- ness and rnirreralization of green manures in rela- tion to yield of wetiand rice. Tropical Agricul- ture, Trinidad 66 :1 1-16.\n\nJackson, M. L. 1973. Soil Chemical Analysis. Prentice\n\nDecember 19951 EFFECT OF PRE-SEASON CROPS ON SEQUENCE CROPPING\n\nRinaudo, G. Alazard, D. and Moudiongui, A. 1988. Stern-nodulating legumes as green-manure for rice in west Africa. (In) Proceedings of'the Sym- posium ,on Sustainable Agriculture : Green manure in Rice Farming, held at International Rice Research Institute, Los Banos, Philippines.\n\nSalem, M. A., Hameed, S. M. S., Sivaprasad, P., Tajuddin, E. and Thomas, Y. 1989. Performance of Sesbnnia rostrata in acid soils. International Rice Research Institute Newsletter 14 (4) : 33-34.\n\nSharma, A. R. and Mittra, B. N. 1988. Effect of green manuring and mineral fertilizer on growth and yield of crops in rice-based cropping on acid lat- erite soil. Journal uf Agricultural Science, Cam-bridge 110 :605-608.\n\nSingh, Ranvir, Singh, B. P., Kumar, B. and Chand,\n\nD. 1988. Sesbania rostrata-a promising sources of biofertilizer. Seeds and Farms 14 (4): 9-10.\n\nSwamp, A. 1987. Effect of pre-submergence and green manuring (Sesbania aculeata) on nutrition and yield of wetland rice on a-sodic soil. Biology and Fertiliry of Soils 5 (3) :203-208.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

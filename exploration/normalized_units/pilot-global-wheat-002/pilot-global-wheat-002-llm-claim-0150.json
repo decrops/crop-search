@@ -1,0 +1,76 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0150",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.nitrogen_timing",
+  "attribute": "nutrient_management",
+  "attribute_subtype": "nitrogen_timing",
+  "claim_text": "Foliar NPK application to winter wheat efficient at BBCH 31",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "The results of the conducted research indicate the high efficiency of the complex application of nitrogen-phosphorus-potassium fertilisers for foliar spraying of winter wheat plants at the stage of BBCH 31 both on the background of pre-sowing potassium fertilizers and without it",
+    "text_value": "Foliar NPK application to winter wheat efficient at BBCH 31",
+    "qualifier": "recommended"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://agriculturalscience.com.ua/en/journals/download/tom-12-3-2021"
+    ],
+    "source_title": "https://agriculturalscience.com.ua/en/journals/download/tom-12-3-2021",
+    "source_domain": "agriculturalscience.com.ua",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The results of the conducted research indicate the high efficiency of the complex application of nitrogen-phosphorus-potassium fertilisers for foliar spraying of winter wheat plants at the stage of BBCH 31 both on the background of pre-sowing potassium fertilizers and without it",
+    "manifest_version": "0.4.0",
+    "notes": "2010",
+    "source_publication_year": 2010,
+    "document_id": "doc-d8930569d7ba2f2d",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "bbch_applicability": {
+    "bbch_min": 31,
+    "bbch_max": 31,
+    "evidence_text": "The results of the conducted research indicate the high efficiency of the complex application of nitrogen-phosphorus-potassium fertilisers for foliar spraying of winter wheat plants at the stage of BBCH 31 both on the background of pre-sowing potassium fertilizers and without it",
+    "confidence": "high"
+  }
+}

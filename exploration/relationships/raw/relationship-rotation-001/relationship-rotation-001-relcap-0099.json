@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0099",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "wheat",
+  "object_crop_id": "wheat",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "continuous_cropping_risk",
+  "ordered_pair_key": "wheat|wheat",
+  "canonical_relationship_key": "rotation|wheat|wheat",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.59797/ija.v55i4.4756"
+  },
+  "source_url": "https://doi.org/10.59797/ija.v55i4.4756",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:52Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pub.isa-india.in/index.php/ija/article/view/4756",
+  "source_title": "Evaluation of tillage system and herbicides on wheat (Triticum aestivum) performance under rice (Oryza sativa)-wheat (Triticum aestivum) cropping system\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pub.isa-india.in.html",
+  "snippet": "Chopra, Nisha and Chopra, N.K. 2005. Bioefficacy of Fenoxaprop, Clodinafop, and Metribuzin alone and in combination against Weeds in Wheat and their residual effect on succeeding crops. Indian Journal of Weed Science 37(3-4): 163\n\nDhiman, S.D., Kumar, S. and Om, Hari. 2003. Shall",
+  "raw_text": "Chopra, Nisha and Chopra, N.K. 2005. Bioefficacy of Fenoxaprop, Clodinafop, and Metribuzin alone and in combination against Weeds in Wheat and their residual effect on succeeding crops. Indian Journal of Weed Science 37(3-4): 163\n\nDhiman, S.D., Kumar, S. and Om, Hari. 2003. Shallow tillage and\n\ndrill technology for wheat. Indian Farming 53: 1013. Hari, Om., Nandal, D.P., Dhiman, S.D. and Ram, Mangat. 2006.\n\nWeed control in wheat (Triticum aestivum) sown by zero tillage. Indian Journal of Agronomy 51(3): 202205.\n\nMalik, R. S., Balyan R.S., Malik, R.K. and Pahwa, S.K. 2004. Grass weed control in wheat by clodinafop applied with and without surfactants. Indian Journal of Weed Science 36(1&2): 811.\n\nSingh, D.K. and Singh, K.N. 2006. Weed control in sunflower (Helianthus annuus) under temperate conditions of Kashmir valley. Indian Journal of Agronomy 51(3): 225227.\n\nSingh, Ravigopal, Singh, V.P., Singh, Govindra and Yadav, S.K. 2001. Weed management in zero till wheat in rice- wheat cropping system. Indian Journal of Weed Science 33(3 and 4): 9599.\n\nYadav, A., Malik, R.K., Chauhan, B.S. and Gill, G. 2002. Present status of herbicide resistance in Haryana. In: Proceedings of International workshop on Herbicide resistance management and zero tillage in ricewheat cropping system, 46 March 2002, held at CCS Haryana Agricultural University, Hisar, India. pp. 1522.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

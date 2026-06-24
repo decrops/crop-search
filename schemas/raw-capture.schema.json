@@ -25,6 +25,10 @@
       "type": "string",
       "minLength": 3
     },
+    "query_kind": {
+      "type": "string",
+      "enum": ["crop_parameter", "crop_relationship"]
+    },
     "parameter_id": {
       "type": "string"
     },
@@ -38,6 +42,34 @@
       "type": "string"
     },
     "source_tier_label": {
+      "type": "string"
+    },
+    "subject_crop_id": {
+      "type": "string"
+    },
+    "object_crop_id": {
+      "type": "string"
+    },
+    "subject_crop_label": {
+      "type": "string"
+    },
+    "object_crop_label": {
+      "type": "string"
+    },
+    "relationship_mode": {
+      "type": "string"
+    },
+    "relationship_subtype": {
+      "type": "string"
+    },
+    "directionality": {
+      "type": "string",
+      "enum": ["directional", "symmetric"]
+    },
+    "ordered_pair_key": {
+      "type": "string"
+    },
+    "canonical_relationship_key": {
       "type": "string"
     },
     "discovery_method": {

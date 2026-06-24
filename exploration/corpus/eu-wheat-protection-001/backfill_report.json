@@ -1,0 +1,202 @@
+{
+  "run_id": "eu-wheat-protection-001",
+  "metadata_only_candidates": 34,
+  "excluded_junk": 2,
+  "excluded_no_oa": 20,
+  "resolved": 12,
+  "fetched_full_text": 9,
+  "fetch_failed": 3,
+  "details": [
+    {
+      "document_id": "doc-0398028b1c780866",
+      "doi": "10.28941/24-1(2018)-3",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-17f4053ddc25a275",
+      "doi": "",
+      "outcome": "no_doi"
+    },
+    {
+      "document_id": "doc-182eed3dc9d67bbf",
+      "doi": "10.21236/ad0263260",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-21a903e2bc3119f4",
+      "doi": "",
+      "outcome": "no_doi"
+    },
+    {
+      "document_id": "doc-2e65f09ec2b7bb45",
+      "doi": "10.31080/asag.2023.07.1302",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 24948
+    },
+    {
+      "document_id": "doc-309e04b6b17a503e",
+      "doi": "10.24246/agric.2021.v33.i1.p23-28",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 14192
+    },
+    {
+      "document_id": "doc-33f0f322005b7ea1",
+      "doi": "10.1007/0-306-48380-7_37",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-3a8545eb8f3920d9",
+      "doi": "10.59852/tpe-a225v6i6",
+      "outcome": "fetch_failed",
+      "oa_url": "http://thephilippineentomologist.org/wp-content/uploads/2022/04/Hasan-and-Cervancia.pdf"
+    },
+    {
+      "document_id": "doc-3d9cfad7ab057bee",
+      "doi": "10.1007/bf00292574",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-5ecb4b96179a87ed",
+      "doi": "10.1002/ndr2.12291",
+      "outcome": "fetch_failed",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ndr2.12291"
+    },
+    {
+      "document_id": "doc-6485e4c57a9b9a0b",
+      "doi": "10.1017/wsc.2019.60",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-74daa1ec302331aa",
+      "doi": "10.55218/jasr.s1202112402",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 38964
+    },
+    {
+      "document_id": "doc-791c846d90ddb4f6",
+      "doi": "10.1007/978-94-011-1158-4_57",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-7c03a38b544e85dd",
+      "doi": "10.1002/ps.70039",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-7d68a5bc23a58434",
+      "doi": "10.52763/pjsir.biol.sci.63.3.2020.214.225",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-825d6d0053247690",
+      "doi": "10.1002/ps.619",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-88f5d0ba48bbeef6",
+      "doi": "10.1016/0261-2194(95)00010-j",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-9b43b8891f2685d8",
+      "doi": "10.1614/ws-09-098.1",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-b0e9c77ba099f3d9",
+      "doi": "10.1007/s11738-021-03322-1",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-b1c0ea5c6a7c1e6e",
+      "doi": "10.1371/journal.pone.0275943",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 1387
+    },
+    {
+      "document_id": "doc-b34dad9956689c11",
+      "doi": "10.5580/21a7",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-bb006be7424367ed",
+      "doi": "10.54498/etbd.2022.6",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-bb7bc4927012cdfa",
+      "doi": "10.1017/s0890037x00028396",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-beace843e7509b0f",
+      "doi": "10.1614/wt02-089",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-c33ec1e4482ef8dc",
+      "doi": "10.1094/pd-73-0025",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-cce5b1e5983c836a",
+      "doi": "10.59797/ija.v52i1.4888",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 10891
+    },
+    {
+      "document_id": "doc-dd068f39b77c3ca5",
+      "doi": "10.31830/2454-1761.2020.015",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 1680
+    },
+    {
+      "document_id": "doc-e56af9fd21a8c45e",
+      "doi": "10.21203/rs.3.rs-773587/v1",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 54281
+    },
+    {
+      "document_id": "doc-ea5085ad564494ce",
+      "doi": "10.3920/wmj2014.1814",
+      "outcome": "fetch_failed",
+      "oa_url": "http://hdl.handle.net/2318/1528907"
+    },
+    {
+      "document_id": "doc-edab265dadabb3b7",
+      "doi": "10.1017/s0043174500075548",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-ee7303d1302111ed",
+      "doi": "10.21271/zjpas.35.2.18",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 18801
+    },
+    {
+      "document_id": "doc-eeb0bf8efdff29c7",
+      "doi": "10.3126/bdpr.v22i1.68289",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 19349
+    },
+    {
+      "document_id": "doc-f3d7c6fbd226c389",
+      "doi": "10.1016/j.cropro.2010.04.009",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-fc9375e6b4e28ee5",
+      "doi": "10.15258/sst.2007.35.3.08",
+      "outcome": "no_oa"
+    }
+  ]
+}

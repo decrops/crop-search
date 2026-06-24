@@ -1,0 +1,27 @@
+{
+  "run_id": "eu-wheat-protection-001",
+  "stage": "fetch_selection",
+  "generated_at": "2026-06-24T13:19:02Z",
+  "ledger_rows": 276,
+  "unique_candidates": 176,
+  "selected": 52,
+  "skipped": 124,
+  "skip_reason_counts": {
+    "domain_cap": 3,
+    "junk_doi": 20,
+    "non_article_type": 21,
+    "param_saturated": 70,
+    "relevance_gated": 10
+  },
+  "selected_tier_counts": {
+    "extension_publication": 7,
+    "industry_grower_guide": 1,
+    "international_institution": 5,
+    "peer_reviewed_science": 39
+  },
+  "selected_access_counts": {
+    "metadata_only": 32,
+    "open_full_text": 20
+  },
+  "fetch_queue_path": "exploration/discovery/eu-wheat-protection-001/fetch_queue.jsonl"
+}

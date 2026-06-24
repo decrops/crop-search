@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0082",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "tomato",
+  "object_crop_id": "rice",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "tomato|rice",
+  "canonical_relationship_key": "rotation|tomato|rice",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.59797/ija.v44i4.3569"
+  },
+  "source_url": "https://doi.org/10.59797/ija.v44i4.3569",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:28Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pub.isa-india.in/index.php/ija/article/view/3569",
+  "source_title": "Impact of seedling age and planting time on yield performance of tomato (Lycopersicon lycopersicum) in upland rice (Oryza sativa)-based cropping system\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pub.isa-india.in.html",
+  "snippet": "Impact of seedling age and planting time on yield performance of tomato (Lycopersicon lycopersicum) in upland rice (Oryza sativa)-based cropping system\n\nDivision of Agronomy, Central Rlce Research Institute, Cuttack,Orissa 753 006\n\nA study was conducted during the winter season o",
+  "raw_text": "Impact of seedling age and planting time on yield performance of tomato (Lycopersicon lycopersicum) in upland rice (Oryza sativa)-based cropping system\n\nDivision of Agronomy, Central Rlce Research Institute, Cuttack,Orissa 753 006\n\nA study was conducted during the winter season of 1994-95 and 1995-96 in upland rice (Ofyza sativa L.) fallows to evaluate the impact of seedling age and planting time on the fruit yield performance of different varieties ('BT la', 'BT 12', 'BT 1 O', 'BT 2' and 'MIX ENT') of tomato (Lycopersicon lycopersicum Mill.). All the varieties performed well when planted early, i.e. 16 November, with 15-day- old seedlings and showed a declining trend in fruit yield and other yield- attributing characters when planted late with aged seedlings. Among the tomato varieties, a remarkably good fruit yield of 60.7 and 47.0 tonnestha was recorded\n\n'with 'BT 18' during 1994-95 and 1995-96 respectively when planted on 16\n\nNovember with 15 day-old-seedlings, followed by 'BT 12' (59.7.and 41.9 tonnest",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

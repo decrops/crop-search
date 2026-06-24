@@ -200,13 +200,24 @@ def _load_captures(raw_dir: Path) -> List[Dict[str, Any]]:
     return captures
 
 
-def build_corpus(repo_root: Path, run_id: str, source_run: Optional[str] = None) -> Dict[str, Any]:
+def build_corpus(
+    repo_root: Path,
+    run_id: str,
+    source_run: Optional[str] = None,
+    raw_dir: Optional[Path] = None,
+    out_dir: Optional[Path] = None,
+) -> Dict[str, Any]:
+    """Build the content-addressed corpus from raw captures.
+
+    ``raw_dir``/``out_dir`` default to the parameter-lane locations but can be
+    overridden so the relationship lane reuses the same builder (A2.5).
+    """
     source_run = source_run or run_id
-    raw_dir = repo_root / "exploration" / "raw" / source_run
+    raw_dir = raw_dir or (repo_root / "exploration" / "raw" / source_run)
     if not raw_dir.exists():
         raise FileNotFoundError("no raw captures at {0}".format(raw_dir))
 
-    out_dir = repo_root / "exploration" / "corpus" / run_id
+    out_dir = out_dir or (repo_root / "exploration" / "corpus" / run_id)
     docs_dir = out_dir / "documents"
     blocks_dir = out_dir / "blocks"
     blobs_dir = docs_dir / "blobs"

@@ -1,0 +1,75 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0215",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "phenology.grain_fill_duration",
+  "attribute": "phenology_timing",
+  "attribute_subtype": "grain_fill_duration",
+  "claim_text": "A longer grain-filling period (BBCH 70-80) results in higher average wheat grain weight.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "In general, the longer the grain \ufb01lling period during the stages of grain development and ripening (BBCH 70 and 80), the higher the average grain weight is",
+    "text_value": "A longer grain-filling period (BBCH 70-80) results in higher average wheat grain weight.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf"
+    ],
+    "source_title": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf",
+    "source_domain": "www.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "In general, the longer the grain \ufb01lling period during the stages of grain development and ripening (BBCH 70 and 80), the higher the average grain weight is",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-d9b7385669230d47",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "bbch_applicability": {
+    "bbch_min": 70,
+    "bbch_max": 89,
+    "evidence_text": "In general, the longer the grain \ufb01lling period during the stages of grain development and ripening (BBCH 70 and 80), the higher the average grain weight is",
+    "confidence": "medium"
+  }
+}

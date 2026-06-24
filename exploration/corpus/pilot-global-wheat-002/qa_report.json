@@ -1,0 +1,63 @@
+{
+  "run_id": "pilot-global-wheat-002",
+  "capture_count": 368,
+  "all_document_count": 103,
+  "opus_input_document_count": 80,
+  "unique_document_count": 80,
+  "excluded_from_opus_count": 23,
+  "backfilled_full_text_count": 16,
+  "documents_with_text": 61,
+  "capture_redundancy_collapsed": 0.72,
+  "duplicate_text_ratio": 0.0,
+  "metadata_only_count": 19,
+  "metadata_only_share": 0.237,
+  "background_count": 3,
+  "background_share": 0.037,
+  "short_text_doc_count": 7,
+  "documents_with_tables": 7,
+  "raw_summary_failure_count": 11,
+  "source_tier_doc_counts": {
+    "peer_reviewed_science": 69,
+    "international_institution": 4,
+    "extension_publication": 6,
+    "industry_grower_guide": 1
+  },
+  "top_domains": {
+    "doi.org": 28,
+    "www.mdpi.com": 3,
+    "www.frontiersin.org": 3,
+    "www.ncbi.nlm.nih.gov": 3,
+    "www.preprints.org": 3,
+    "en.wikipedia.org": 3,
+    "public-pages-files-2025.frontiersin.org": 3,
+    "onlinelibrary.wiley.com": 2,
+    "edepot.wur.nl": 2,
+    "agricultureandfoodsecurity.biomedcentral.com": 2,
+    "agriculturalscience.com.ua": 2,
+    "hdl.handle.net": 2,
+    "nbn-resolving.org": 2,
+    "link.springer.com": 2,
+    "journals.plos.org": 2
+  },
+  "parameters_with_documents": 75,
+  "parameters_missing_documents": 10,
+  "high_value_retry_queue": [
+    "canopy.light_extinction_coefficient",
+    "harvest.drydown_rate",
+    "morphology.thousand_kernel_weight",
+    "phenology.photoperiod_sensitivity",
+    "phenology.tillering_duration",
+    "photosynthesis.photosynthetic_rate",
+    "photosynthesis.transpiration_efficiency",
+    "photosynthesis.vapor_pressure_deficit_threshold",
+    "temperature.grain_fill_temperature",
+    "thermal_time.vernalization_units"
+  ],
+  "gates": {
+    "duplicate_text_ratio_lt_0.10": true,
+    "metadata_only_share_lt_0.15": false,
+    "background_share_lt_0.15": true,
+    "has_tables": true
+  },
+  "gates_passed": false
+}

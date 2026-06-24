@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0084",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "soybean",
+  "object_crop_id": "corn",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "soybean|corn",
+  "canonical_relationship_key": "rotation|soybean|corn",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.31274/cc-20240624-564"
+  },
+  "source_url": "https://doi.org/10.31274/cc-20240624-564",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:42Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://dr.lib.iastate.edu/entities/publication/31e13be7-31b8-4453-872b-b4255d82e535",
+  "source_title": "Does applying humic acids with fall fertilizer increase yield and/or affect soil and crop nutrient contents in a corn (Zea Mays L.) and soybean (Glycine Max L. Merr) rotation?",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-dr.lib.iastate.edu.html",
+  "snippet": "The application of the humic product Hydra-Hume DG A \"Coated\" at 10 lb A-1 with fall fertilizer in a corn and soybean rotation did not have significant effects on yield of corn and soybean, or significantly increase soil nutrient availability or crop nutrient uptake in this field",
+  "raw_text": "The application of the humic product Hydra-Hume DG A \"Coated\" at 10 lb A-1 with fall fertilizer in a corn and soybean rotation did not have significant effects on yield of corn and soybean, or significantly increase soil nutrient availability or crop nutrient uptake in this field study conducted in West Bend, WI. This study was conducted using commercial equipment in a commercial field. This study was composed of six replicated, strip trials consisting of a control which was the normal fall fertilizer practice, and and humic treatment which was the normal fall fertilizer practice plus 10 lb A-1 of Hydra Hume DG A \"Coated\". The data collected consisted of yield data, soil test data, and tissue nutrient concentration data. The study was conducted over four years of a corn-soybean rotation beginning in 2017 and ending in 2020.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

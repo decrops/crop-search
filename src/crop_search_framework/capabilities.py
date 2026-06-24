@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from .parameters import query_plan_for_run
+from .relationships import build_relationship_matrix
 from .schema_registry import SchemaRegistry
 
 
@@ -29,7 +30,14 @@ class CapabilityMapWriter:
         artifact_totals = self.artifact_totals()
         global_artifact_totals = self.global_artifact_totals()
         parameter_catalog = self.parameter_catalog_summary()
-        capabilities = self.capabilities(global_query_counts, artifact_totals, global_artifact_totals, parameter_catalog)
+        relationship_matrix = self.relationship_matrix_summary()
+        capabilities = self.capabilities(
+            global_query_counts,
+            artifact_totals,
+            global_artifact_totals,
+            parameter_catalog,
+            relationship_matrix,
+        )
 
         lines = [
             "# Capability Map",
@@ -116,6 +124,7 @@ class CapabilityMapWriter:
         artifact_totals: Dict[str, int],
         global_artifact_totals: Dict[str, int],
         parameter_catalog: Dict[str, Any],
+        relationship_matrix: Dict[str, Any],
     ) -> List[Dict[str, str]]:
         return [
             capability(
@@ -138,6 +147,16 @@ class CapabilityMapWriter:
                 "Supports corn, soybean, wheat, rice, cotton, sunflower, and tomato profiles.",
                 "More crops require new profile JSON files and source-bias terms.",
                 "`config/crops/`",
+            ),
+            capability(
+                "Crop relationship matrix",
+                "configured",
+                "Generates a dense `crop_id x crop_id` relationship matrix skeleton, source-tier-aware relationship query plans, and opt-in relationship discovery ledgers; the current {0}-crop universe produces {1} ordered cells and preserves symmetric evidence with canonical relationship keys.".format(
+                    relationship_matrix["crop_count"],
+                    relationship_matrix["cell_count"],
+                ),
+                "Relationship fetch execution, relationship extraction, review, promotion, and matrix population from evidence are not implemented yet.",
+                "`src/crop_search_framework/relationships.py`, `config/relationships/relationship-vocabulary.json`, `schemas/crop-relationship-*.schema.json`",
             ),
             capability(
                 "Global tier-aware query planning",
@@ -240,6 +259,15 @@ class CapabilityMapWriter:
             "count": len(manifest.get("parameters", [])),
             "family_count": len(families),
             "families": families,
+        }
+
+    def relationship_matrix_summary(self) -> Dict[str, Any]:
+        matrix = build_relationship_matrix(self.repo_root)
+        self.registry.validate("crop-relationship-matrix.schema.json", matrix)
+        return {
+            "crop_count": matrix["crop_count"],
+            "cell_count": matrix["cell_count"],
+            "mode_count": len(matrix["relationship_modes"]),
         }
 
     def artifact_totals(self) -> Dict[str, int]:

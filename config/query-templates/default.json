@@ -51,7 +51,7 @@
     },
     "crop_protection": {
       "units": ["%", "threshold"],
-      "terms": ["action threshold", "scouting", "growth stage", "management guide"]
+      "terms": ["Septoria", "Fusarium head blight", "yellow rust", "brown rust", "fungicide T1 T2 T3", "BBCH", "action threshold", "economic threshold", "pre-emergence herbicide", "resistance group", "scouting"]
     },
     "economics": {
       "units": ["$/acre", "$/ha"],

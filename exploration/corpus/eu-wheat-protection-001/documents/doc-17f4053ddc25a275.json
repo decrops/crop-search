@@ -1,0 +1,26 @@
+{
+  "document_id": "doc-17f4053ddc25a275",
+  "canonical_url": "https://www.canr.msu.edu/wheat/",
+  "source_url": "https://www.canr.msu.edu/wheat/",
+  "doi": "",
+  "title": "https://www.canr.msu.edu/wheat/",
+  "source_domain": "www.canr.msu.edu",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "discover_pipeline",
+  "access_status": "metadata_only",
+  "document_type": "other",
+  "content_type": "",
+  "is_metadata_only": true,
+  "text_hash": "",
+  "content_hash": "",
+  "text_length": 0,
+  "publication_date_hint": "",
+  "source_metadata": {
+    "doi": "",
+    "canonical_key": "url:canr.msu.edu/wheat"
+  },
+  "artifact_path": "",
+  "parser_version": "corpus-blocks-1",
+  "excluded_from_opus": true,
+  "exclusion_reason": "no_doi"
+}

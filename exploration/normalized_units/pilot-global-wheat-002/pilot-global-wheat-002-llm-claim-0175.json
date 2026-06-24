@@ -1,0 +1,74 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0175",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "water.allowable_depletion",
+  "attribute": "irrigation_management",
+  "attribute_subtype": "allowable_depletion",
+  "claim_text": "Well-watered wheat pots were allowed to dry to ~60% field capacity then re-watered to 80% field capacity.",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "By the next watering the minimum field capacity of the pots was around 60%. Based on the amount of moisture lost, each pot was watered to bring it up to 80% field capacity.",
+    "range_min": 60.0,
+    "range_max": 80.0,
+    "qualifier": "recommended",
+    "unit": "percent"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.1371/journal.pone.0194075"
+    ],
+    "source_title": "https://doi.org/10.1371/journal.pone.0194075",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "By the next watering the minimum field capacity of the pots was around 60%. Based on the amount of moisture lost, each pot was watered to bring it up to 80% field capacity.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-c010ba560f285375",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "irrigated"
+  }
+}

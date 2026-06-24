@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0011",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "tomato",
+  "object_crop_id": "wheat",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "tomato|wheat",
+  "canonical_relationship_key": "rotation|tomato|wheat",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.1371/journal.pone.0339753"
+  },
+  "source_url": "https://europepmc.org/articles/PMC13170962",
+  "source_domain": "europepmc.org",
+  "accessed_at": "2026-06-24T14:32:12Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://europepmc.org/article/PMC/13170962",
+  "source_title": "Europe PMC",
+  "content_type": "text/html;charset=UTF-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-europepmc.org.html",
+  "snippet": "1",
+  "raw_text": "1",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

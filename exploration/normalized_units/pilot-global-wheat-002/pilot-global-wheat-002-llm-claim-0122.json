@@ -1,0 +1,76 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0122",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "phenology.maturity_duration",
+  "attribute": "phenology_timing",
+  "attribute_subtype": "maturity_duration",
+  "claim_text": "Winter wheat development follows the BBCH scale: germination 0-9, leaf development 10-19, tillering 20-29, stem elongation 30-39, booting/heading 40-59, anthesis 60-69, grain filling/ripening 70-99.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "The main developmental stages of winter wheat from germination to ripening are depicted... Germination 0-9; Leaf development 10-19; Tillering 20-29; Stem elongation 30-39; Booting & heading 40-59; Anthesis 60-69; Grain filling & ripening 70-99",
+    "text_value": "Winter wheat development follows the BBCH scale: germination 0-9, leaf development 10-19, tillering 20-29, stem elongation 30-39, booting/heading 40-59, anthesis 60-69, grain filling/ripening 70-99.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf"
+    ],
+    "source_title": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf",
+    "source_domain": "www.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The main developmental stages of winter wheat from germination to ripening are depicted... Germination 0-9; Leaf development 10-19; Tillering 20-29; Stem elongation 30-39; Booting & heading 40-59; Anthesis 60-69; Grain filling & ripening 70-99",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-d9b7385669230d47",
+    "block_type": "table",
+    "table_label": "Figure 3 BBCH classification of winter wheat developmental stages"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "bbch_applicability": {
+    "bbch_min": 0,
+    "bbch_max": 99,
+    "evidence_text": "The main developmental stages of winter wheat from germination to ripening are depicted... Germination 0-9; Leaf development 10-19; Tillering 20-29; Stem elongation 30-39; Booting & heading 40-59; Anthesis 60-69; Grain filling & ripening 70-99",
+    "confidence": "high"
+  }
+}

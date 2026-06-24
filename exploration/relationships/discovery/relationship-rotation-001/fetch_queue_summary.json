@@ -1,0 +1,17 @@
+{
+  "run_id": "relationship-rotation-001",
+  "stage": "relationship_fetch_selection",
+  "generated_at": "2026-06-24T14:31:41Z",
+  "ledger_rows": 916,
+  "unique_source_pairs": 780,
+  "selected": 102,
+  "skipped": 678,
+  "skip_reason_counts": {
+    "domain_cap": 399,
+    "junk_doi": 47,
+    "non_article_type": 28,
+    "pair_mode_saturated": 10,
+    "relevance_gated": 194
+  },
+  "distinct_pairs_selected": 45
+}

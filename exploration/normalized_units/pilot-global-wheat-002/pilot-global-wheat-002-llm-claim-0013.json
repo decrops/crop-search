@@ -1,0 +1,74 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0013",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.nitrogen_timing",
+  "attribute": "nutrient_management",
+  "attribute_subtype": "nitrogen_timing",
+  "claim_text": "Nitrogen for wheat supplied in two splits.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "For wheat recommended NP was applied in all plots except control which only received P 2 O 5 to see the residual effect of dry bio-slurry in the next crop and nitrogen was supplied, in two splits.",
+    "text_value": "Nitrogen for wheat supplied in two splits.",
+    "qualifier": "recommended"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306625"
+    ],
+    "source_title": "Effects of dry bio-slurry and nitrogen fertilizer on potato and wheat yields under rotation cropping system | PLOS One",
+    "source_domain": "doi.org",
+    "document_type": "html",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "For wheat recommended NP was applied in all plots except control which only received P 2 O 5 to see the residual effect of dry bio-slurry in the next crop and nitrogen was supplied, in two splits.",
+    "manifest_version": "0.4.0",
+    "notes": "2024",
+    "source_publication_year": 2024,
+    "document_id": "doc-1165c26a0a7ab581",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "TAY",
+    "management_system": "potato-wheat rotation, rain-fed"
+  }
+}

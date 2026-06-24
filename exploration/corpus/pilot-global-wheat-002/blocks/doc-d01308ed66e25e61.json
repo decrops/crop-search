@@ -1,0 +1,499 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "1 Multi-site, multi-crop measurements in the soil-vegetation atmosphere continuum: A comprehensive dataset from two climatically contrasting regions in South West Germany for the period 2009-2018 Scott Demyan3,4,b , Kristina Bohm1,c , Ravshan Eshonkulov1,d , Sebastian Gayler1 , Pascal Kremer1 , Moritz Laub3 , Yvonne Funkuin Nkwain2 , Christian Troost5 , Irene Witte1 , Georg Cadisch4 , Torsten M\u00fcller6 , Andreas Fangmeier2 , Volker Wulfmeyer3 , Thilo Streck1 1 Institute of Soil Science and Land Evaluation, University of Hohenheim, Stuttgart, Germany. 10 2 Institute of Landscape and Plant Ecology, University of Hohenheim, Stuttgart, Germany 3 Institute of Physics and Meteorology, University of Hohenheim, Stuttgart, Germany 4 Institute of Agricultural Sciences in the Tropics, University of Hohenheim, Stuttgart, Germany 5 Institute of Agricultural Sciences in the Tropics, University of Hohenheim, Stuttgart, Germany 6 Institute of Crop Science, University of Hohenheim, Stuttgart, Germany 15 a current address: Institute of Crop Science and Plant Breeding, Grass and Forage Science / Organic Agriculture, Kiel University, Germany b current address: School of Environment and Natural Resources, The Ohio State University, Columbus, Ohio, USA. c previously published under the name Kristina Imukova d current address: Karshi Engoneering-Economic Institute, Karshi, Uzbekistan Correspondence to: Tobias KD Weber (tobias.weber@uni-hohenheim.de), Joachim Ingwersen (joachim.ingwersen@uni- 20 hohenheim.de) Keywords: crop modelling, SVAT, eddy covariance, soil carbon, long-term observation, regional climate change, model calibration, crop 25 phenology, Green Vegetation Fraction, GVF, LAI, Noah-MP; Land Surface Model, winter wheat, silage maize, winter rape, latent heat flux, sensible heat flux, ground heat flux, land-surface exchange, evapotranspiration 30 5 Tobias K.D. Weber1,* , Joachim Ingwersen1 , Petra H\u00f6gy2 , Arne Poyda1,a , Hans-Dieter Wizemann3 , Michael",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.2 Abstract We present a comprehensive, high-quality dataset characterising soil-vegetation and land-surface processes from continuous measurements conducted in two climatically contrasting study regions in South West Germany: the warmer and drier Kraichgau region with a mean temperature of 9.7\u00b0C and annual precipitation of 890 mm, and the cooler and wetter Swabian Alp with mean temperature 7.5\u00b0C and annual precipitation 1042 mm. In each region, measurements were conducted over a 5 time period of nine cropping seasons from2009 to 2018. The backbone ofthe investigation was formed bysixeddy-covariance stations (EC) which measured fluxes of water, energy and carbon dioxide between the land surface and the atmosphere at half hourly resolution. This resulted in a dataset containing measurements from a total of 54 site*years containing observations with a multitude of crops, as well as considerable variation in local growing season climates. The presented multi-site, multi-year data set is composed of crop-related data on phenological development stages, canopy 10 height, leaf area index, vegetative and generative biomass and their respective carbon and nitrogen content. Time series of soil temperature and soil water content were monitored with30-minresolution at various points in the soil profile,includingground heat fluxes. Moreover, more than 1,200 soil samples were taken to study changes of carbon and nitrogen contents. The data set was uploaded to the Pangaea database and can be accessed at https://doi.org/10.20387/bonares-a0qc-46jc (for the review process, pleaserefertothedata availabilitysection).Onestationineachregionhas nowbeensetupascontinuousobservatories 15 of state variables and fluxes in intensively managed agricultural fields.",
+      "char_offset": 1974
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.3 1 Introduction It is well acknowledged that interactions between the soil-vegetation system and the atmosphere will have major impacts on regional climate and that our knowledge of processes and feedbacks is insufficient (Pielke et al., 2007, Thornton et al., 2014). Process models enable testing of hypotheses concerning the governing processes, identifying epistemic and aleatory uncertainties and highlight the need for further investigations (Porter and Semenov, 2005, Godfray et al., 2010, Challinor et 5 al., 2014, Tao et al., 2017, Schalge et al., 2020). Predicting the impacts of climate change on agroecosystems and land-surface exchange of water, energy, and momentum and, vice versa, requires process models to understand and study land-atmosphere feedbacks (Ingwersen et al., 2018, Monier et al., 2018). There is consensus that fully coupled climate, land surface, crop and hydrological models facilitate the prediction of climate change impacts on agricultural productivity as well as its feedbacks on climate change projections themselves (Marland et al., 2003; Hansen, 2005; Perarnaud et al., 2005, Levis, 2010). This implies 10 continuous improvement of models and process understanding. In relation to the water balance this includes, in particular, the partitioning of evaporation and transpiration (Kool et al., 2014, Stoy et al., 2019), modelling of crop transpiration (Heinlein et al., 2017), impacts on groundwater resources (Riedel and Weber, 2020), improving the representation of the Green Vegetation Fraction dynamics of croplands in Noah-MP Land Surface Model (Imukova et al., 2015, Bohm et al., 2019), dynamic root growth of crops (Gayler et al., 2014) and assessing the relevance of subsurface processes (Gayler et al., 2013), evaluating the 15 energybalanceclosureproblemineddycovariance measurements(Ingwersenetal., 2015,Imukova etal.,2016)andassociated minor storage terms (Eshonkulov et al., 2019), as well as incorporating crop growth in land-surface models (Ingwersen et al., 2011, Ingwersen et al., 2018), investigating the carbon balance and turnover of agro-ecosystems (Demyan et al., 2016, Poyda et al., 2019), evaluating crop model performances (Bassu et al., 2014, Kimball et al., 2019), and response to changes in environmental drivers (Biernath et al., 2011, Biernath et al., 2013) quantifying the effect of different intensities of free air 20 carbon dioxide and temperatures on grain yield and grain quality (H\u00f6gy et al., 2010, H\u00f6gy et al., 2019), evaluating the worth of observed data (W\u00f6hling et al., 2013b), and developing data-model integration techniques (W\u00f6hling et al., 2013a). However, the effects are further reaching than to biophysical environment. Regional climate projections typically neglect changes and adaptation of the agents of land use, namely the farmers, meaning that the concomitant projections of future crop yields are based on crude simplifications (Hermans et al., 2010). Multi-agent system modelling has reached a level of maturity 25 such that empirical bio-economic simulators can be run on high-performance computer clusters (Schreinemachers and Berger, 2011, Kelly et al., 2013). As a result, integrated model systems (Figure 1) can now be built that simulate both biophysical and socioeconomic processes with comparable process detail, accounting for the complex reality of local/regional human adaptation and feedback to global changes (Troost and Berger, 2015). To enable an understanding of feedbacks within bioeconomic modelling systems, the models employed for the representation 30 of processes of different complexity in the soil-vegetation-atmosphere continuum require calibration and validation against observed state variables or fluxes at the field level (Kersebaum et al., 2015). For this, high quality observed data on the state variables or fluxes of interest are required, which should encompass grain and biomass yields, soil organic carbon and nitrogen stocks and turnover in soils, as well as the water, carbon dioxide and energy fluxes between land surface and atmosphere. Still very few model intercomparison studies include, in addition to crop growth, also soil water flux relevant variables to calibrate 35 their agro-ecosystem models (Seidel et al., 2018), because data sets that include all these variables and fluxes are rare (Kersebaum et al., 2015). The dataset presented here is intended to help close this data gap, leading to better process representation on the one hand, while, on the other hand, facilitating model selection (W\u00f6hling et al., 2015) and tackling the question of required and sufficient model complexity in the light of available data (Guthke, 2017).",
+      "char_offset": 3869
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.4 Figure 1 Diagram of the cardinal land modelling system compartments and relations. The presented dataset contains time series of quantified land surface, crops and soil processes and properties. This serves as a unique backbone for model validation and model development in soil-vegetation-atmosphere and robust land systems modelling. To study the effects of regional climate change and to facilitate parameterisation and validation with the aim of continuous 5 improvement of model components, extensive collaborative field measurements and controlled exposure experiments were carried out in two study areas in South West Germany. Both were intensively used agricultural landscape; 1) Kraichgau; mild climate, moderate precipitation, dominated by intensive row-crop agriculture, and 2) The Central Swabian Alb \u2013 Mittlere Schw\u00e4bischeAlb;harshclimate,higherprecipitation. Animal fattening,rowcropagriculture,andheathlandareasareimportant features to the Central Swabian Alb agro-economic setting. Within the scope of this publication we present a high-quality 10 dataset spanning a time period of nine cropping seasons from 2009 to 2018 intensely characterising the two respective agroecosystems. The backbone of the investigation was formed by six eddy-covariance stations which measured fluxes of water, energy and carbon dioxide between the land surface and the atmosphere at half-hourly resolution. This resulted in a dataset containing measurements from a total of 54 site*years (i.e. 2 regions * 3 fields * 9 cropping seasons) containing observations with a multitude of crops, as well as considerable variation in local growing season climates. The data set 15 comprises i) management and cultivation data (sowing date, harvest date, crop type and variety, fertilisation and pesticide application including amount and type (1-4 times per year), soil tillage, ii) plant performance (phenology, height, and leaf area index, with an average frequency of 7 observation times per year, yield (once per year-1 ), above ground biomass (3-5 times per year), carbon and nitrogen in vegetative (sometimes separated in different plant compartments) and generative biomass, iii) soil/biosphere-atmosphere fluxes using fully equipped eddy covariance stations for carbon, energy, and water vapor flux 20 measurements as well as wind speed and wind direction aggregated to 30 min resolution (from 2009 to 2016 fluxes were not measured during the winter months), iv) soil characteristics, v) soil state measurements including water content, temperature, and matric potential (30 min), the soil profile permitting, at 5 cm, 15 cm, 45 cm, 75 cm, 90 cm, 130 cm soil depth, and vi) carbon and nitrogen measurements integrated over depths of 0-30 cm, 30-60 cm, 60-90 cm (4-6 times per year). In addition, in selected years and at selected sites, green vegetation fraction measurements were performed, microbial carbon and nitrogen 25 contents and CO2 fluxes between the soil and the atmosphere were determined on vegetated and bare soil plots by means of the chamber method.",
+      "char_offset": 8678
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.5 Figure 2: (a) Geographical overview and locations of the study sites and EC stations in (b) Kraichgau, KR and (c) Swabian Alb, SA (modified from Eshonkulov et al. (2019); \u00a9 GoogleEarth Image: KR on 31 March 2017 and SA on 26 August 2016). 2 Material and Methods Inthis section, the full dataset, whichis composed of manyindividual datasets spanning diverse types of data sources, temporal 5 and spatial measurement resolution, and origins, is individually described. 2.1 Site description Measurements were performed in two research areas in two study regions, Kraichgau (48.92\u00b0N and 8.70\u00b0E, 319 m a.s.l.) and Central Swabian Alb (48.5\u00b0N and 9.8\u00b0E, 690 m a.s.l.). Each research area comprised three arable fields (in the following research sites) managed by local farmers. Field research was part of the two wider integrated research projects PAK 346 10 Structure and Function of Agricultural Landscapes under Global Climate Change \u2013 Processes and Projections on a Regional Scale and RU 1695 Agricultural Landscapes under Global Climate Change \u2013 Processes and Feedbacks on a Regional Scale, funded by the German Research Foundation (DFG). While two research sites in both study regions (cf details below) were dismantled with completion of the research project in 2018, one research site in each region is still fully operational. In the following, we give a detailed description of the study regions at large, and the research sites in particular. The study regions, 15 research areas and study sites are shown in Figure 2.",
+      "char_offset": 11872
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.6 Table 1 Soil characteristics at the three research sites EC1 to EC6. EC Ht Hl Hor bd por fc wp stc s u t class som lc pH cm cm g cm-3 - - - - w-% w-% w-% w-% w-% 1",
+      "char_offset": 13528
+    },
+    {
+      "type": "paragraph",
+      "text": "21 NA NA NA NA NA NA NA NA NA NA NA NA NA NA EC: eddycovariancestation,i.e. research site, Ht: top depth ofsoilhorizon,Hl: lower depth ofsoilhorizon,bd:bulk density, por:porosity, fc: field capacity, wp: wilting point, stc: stone content, S: sand, u: silts, t: clay, class: soil texture class, soil organic matter at the beginning of the research period in 2009, lc: lime content, w-%: weight percentage. The soil texture and texture classes are in reference to the German soil classification (Sponagel, 2005). Model parameters for the van Genuchten-Mualem soil hydraulic functions can be derived with a new pedotransfer function (Szab\u00f3 et al., 2020), which includes uncertainties and the description of soil hydraulic properties over the full moisture range can be achieved using the Brunswick model (Weber et al., 2019, Streck and Weber, 2020) in conjunction with the pedotransfer function by Weber et al. (2020). 2.1.1 Kraichgau sites The Kraichgau is a hilly region with fertile soils in the northwest of the state of Baden-W\u00fcrttemberg, SW Germany. It is part of the Neckar catchment and borders on the Odenwald low mountains in the north, the Neckar Valley in the northeast, the Stromberg and Heuchelberg downlands in the Southeast, the Black Forest in the southwest and the Rhine Valley in the west. 5 The natural geographic region of Kraichgau is located at an altitude of 100\u2013400 m above sea level (a.s.l.) and covers approximately 1,600 km\u00b2. Due to its location in a basin surrounded by low mountain ranges, the Kraichgau is characterised by a mild climate with an annual mean temperature of more than 9\u00b0C making it one of the warmest regions in Germany. Mean annual precipitation ranges from 720 to 830 mm, with a prevailing south-westerly wind direction. The central research area Katharinenthalerhof 10 contains one ongoing research site. The researcharea is located close to the cityof Pforzheim,SW Germany(48.92\u25e6N,8.70\u25e6E). The area (385 m a.s.l.) is open and flat, and the prevailing wind direction is southwesterly. The parent soil material genesis is loess with a thickness of several metres. Because of temporally stagnant water conditions, particularly during spring, a Stagnic Regosol developed (World Reference Base for Soil Resources, WRB; Mich\u00e9li et al., 2006). The underlying rock material is shell limestone. The groundwater table is located more than 25 m below the surface. Three EC stations (EC1, EC2, and EC3) 15 were installed at adjacent fields with the respective areas of 14.9, 23.6, and 15.8 ha (Figure 2): EC1 (48\u00b055'42.60\"N,",
+      "char_offset": 13824
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.7 2018-10-29,and EC3(48\u00b055'38.05\"N,8\u00b042'57.37\"E)from2009-05-08to 2018-09-17, dates indicate the time span of included measurements. Details on soil are provided in Table 1. 2.1.2 Swabian Alb sites The low mountain range of Swabian Alb is a region with an approximate width of up to 40 km that stretches in a southwest northeast direction over approximately 220 km, from the Black Forest in the Southwest to the Franconian Alb in the Northeast, 5 covering an area of c. 5,700 km\u00b2 in the state of Baden-W\u00fcrttemberg. To the northwest, the Swabian Alb is separated from the foothills by a 300\u2013400 m high escarpment (Albtrauf). To the southeast, the Danube Valley forms the border to the geographic region of Oberschwaben. The Swabian Alb is structured in several geographic regions. Its central part is subdivided in the Mittlere Kuppenalb and the Mittlere Fl\u00e4chenalb. The Mittlere Kuppenalb in the northwest is characterised by mountains forming a hilly plateau which reaches elevations of 800\u2013850 m a.s.l. The Mittlere Fl\u00e4chenalb in the south eastern part has a 10 more levelled relief descending from about 650\u2013750 m a.s.l. to the Danube Valley at about 520 m a.s.l. Due to its altitude, the climate of the Kuppenalb is much colder and harsher than that of the foothills. The mean temperature is 6-7 \u00b0C, i.e., lower by about 2 \u00b0C than in Kraichgau. Basins of cold air are typical for this cliffy karst region where night frost may occur even during summer months. Mean annual precipitation, which falls mostlyduring summer, ranges from 800 to 1,000 mm. Prevailing wind direction is westerly to southwesterly. Due to its lower elevation \u2018Fl\u00e4chenalb\u2019 is slightly warmer and drier (Troost and Berger, 15 2015). The Swabian Alb is the largest contiguous karst region in Germany. The foothills are mostly formed by Black Jurassic and the escarpment by Brown Jurassic, whereas the plateau consists of White Jurassic. The in-situ unlayered reef limestones (Massenkalke) and dolomites are the reason for the deep karstification and the development of the hilly plateau crossed by widely ramified dry valleys. Depending on the bedrock, soils are clayey loams (tonige Lehme) and calcareous rendzinae 20 (Kalkscherbenb\u00f6den) or shallow calcareous black soils (Kalkstein-Schwarzerden), in the dry valleys decalcified loams. The intensive agricultural land use in this area (W\u00f6hling et al., 2013a) is characterized by a relatively balanced mix of crop production, dairy farming, bull fattening, pig production, and biogas production. Most farm holdings simultaneously produce three to five different crops, with spring barley, winter wheat, winter barley, and winter rapeseed being the dominant crops, while dairy and cattle farmers tend to also grow silage maize, clover, and field grass (Troost and Berger, 2015). The three 25 research sites on Swabian Alb (Fl\u00e4chenalb) (Figure 2) have the coordinates: EC4 (48\u00b031'38.95\"N, 9\u00b046'9.73\"E, 685 m a.s.l.)",
+      "char_offset": 16385
+    },
+    {
+      "type": "paragraph",
+      "text": "Table 2: Research sites EC1-6 and land use from 2010 to 2018. Kraichgau Swabian Alb EC1 14.9 ha EC2 23.6 ha EC3 15.8 ha EC4 8.7 ha EC5 16.7 ha EC6 13.4 ha Crop Freq. Year of Harvest",
+      "char_offset": 19452
+    },
+    {
+      "type": "paragraph",
+      "text": "SM: silage maize, GM: grain maize, CC: cover crop, WW: winter wheat, WR: winter rapeseed, SP: spelt, WB: winter barley, SB: spring barley, Freq.: frequency",
+      "char_offset": 19635
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.8 2.2 Field management and description Basicfield management information was providedbythe farmersdirectlyas fieldcardindexdata.Thesecontainedinformation on crop rotations (Table 2), fertilization, soil management, and pesticide usage (Table 3). Crop yield is reported as total generative biomass at harvest by the farmers. Separately, vegetative and generative biomass was also determined by plot sampling as part of the biomass characterization (c.f. 0). Under the assumption that no silage maize was used as fodder, that 5 the water content of the harvested maize was 70% by mass, that the amount of carbon in the biogas digestate was 17.4% of the carbon exported from the field (Lindorfer and Frauz, 2015), and that the organic carbon content was 58% of Maize organic matter, we note the following: harvest and fertilization data provided by the farmers and included in the dataset, indicate that between the silage maize carbon exported and returned to the field with the biogas digestate, referenced to the 15 silage maize cultivation periods, on average, approximately 900 kg ha-1 carbon were unaccounted for, indicating they may have been used 10 as fertilisers, elsewhere. It is worth noting that the cover crops are not accounted for in the carbon balance. From Table 3 it can be seen that the yields reported by the farmers are commonly lower than those reported by the scientists, which were determined at the experimental plots (cf. section 0). Very strong discrepancies of yields are found in the data of 2018 at EC2, EC4, and EC6, with inexplicably low yields reported for the plot replicates. In 2013, EC4 had a winter rapeseed yield of 1.2 t ha-1 , which was attributed to hail damage. 15 Crop management was fairly typical for conventional intensive crop production in the areas. Noteworthy is the importance of biogas production, both as a motive for silage maize production and as a supplier of organic fertilizer. Choice of maize and wheat varieties in the sample reflects the climatic differences between the two locations. Due to the shorter growing season, early-maturing silage maize varieties (S220-S240) were preferred at the Swabian Alb sites, while the Kraichgau sites are dominated by medium- to late-maturing varieties (S240-S310). With respect to winter wheat, the full spectrum of varieties 20 ranging from hard (high protein/gluten, German classification group E) to soft (low protein, group C) varieties can be found. Wheat variety choice tends towards the higher quality end of the spectrum (groups E, A) in Kraichgau, and more towards the lower quality spectrum (groups B, C) in the Swabian Alb locations. Production of marketable quality wheat requires reliably favourable production conditions. Wheat yields are slightly higher (0.5 t) on average in the Swabian Alb, which may be a consequence of the higher prevalence of the low protein wheat varieties (group B, C), which tend to have higher yields. The 25 two spring barley yields reported by farmers are much higher (20-40%) than district averages for the respective years and considerably higher than typical spring barley yields in Germany. Similarly, winter barley yields on Swabian Alb research sites are about 20% higher than district averages. Silage maize and winter rapeseed yields at the Kraichgau research sites are in line with district averages. Silage maize yields on Swabian Alb are difficult to compare to district averages, as farmers reported dry matter yields. Since the Central Swabian Alb lies at the margin of the maize suitability area, silage maize cannot 30 always be harvested at a stage of ideal maturity and remaining water content cannot be assumed to always have reached literature values (this was not explicitly reported bythe farmers). Hence any comparison with wet matter biomass observations reported atdistrict levels is subject to considerable uncertaintyand potential bias. InTableB-1 toTable B-3 we present average district yields for the crops of this study. Table 3 indicates the number of pest and plant control operations between the harvest date of the previous crop and the harvest 35 of the current crop. The number before the colon indicates the number of application, the upper case letters indicate the type of agent and the numbers in brackets the number applied agents applied. For example, at EC1 in 2010 herbicides were applied once, with three different agents. In the file plant_protection.csv, active substances of agent and application rates are further specified (cf. Table 3). 40",
+      "char_offset": 19792
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.9 Table 3: Summary of field management and nutrient balance. Site Year Crop1 Fertilization total N2 and OM3 input Pest and plant control4 Yield5 field | plot code cultivar group kg-N ha-1 kg-C ha-1 times and type Mg ha-1 Mg ha-1 EC1",
+      "char_offset": 24453
+    },
+    {
+      "type": "paragraph",
+      "text": "EC 6 2010 CC-SM Fernandez, PR 39 A 98 S250, S240",
+      "char_offset": 24816
+    },
+    {
+      "type": "paragraph",
+      "text": "2013 CC-SM SY Kairo Agro-Yoko S240, S210",
+      "char_offset": 24866
+    },
+    {
+      "type": "paragraph",
+      "text": "1 SM: silage maize, GM: grain maize, CC: cover crop, WW: winter wheat, WR: winter rapeseed, SP: spelt, WB: winter barley, SB: spring barley, E, A, B, C, 2 applied N fertilizer amounts were reported as commercial products by the farmers. Subsequently, \ud835\udc41 , \ud835\udc41\ud835\udc3b \u2212 \ud835\udc41, \ud835\udc41\ud835\udc42 \u2212 \ud835\udc41, and \ud835\udc41 were calculated based on knowledge/estimates of respective \ud835\udc41 content in solid and liquid fertilizers. Numbers before brackets: Fertilised",
+      "char_offset": 24908
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.10 amount between sowing and harvest and numbers in brackets fertilised amount between harvest of previous crop and harvest. The same was done for OM. 3 The total applied slurry (PS: pig slurry, CS: cow slurry, BS: biogas slurry) was reported by the farmer. The organic matter content was subsequently calculated based on a) laboratory analyses in 2015 and 2016 for KR, and 2014, 2015, and 2016 for research site EC6. Else, average values were assumed based on expert knowledge. More details can be found in the management metadata file. 4 H: herbicide, F: fungicide, I: Insecticide, GR: growth regulator. The number before \u201c:\u201d indicates the number of times plant control measures were undertaken on the field between the harvest date of the previous crop and the harvest date of the current crop. The numbers in brackets show the total number of product groups applied, where several may have been used at one application time. 5 Yield is reported as fresh mass of the generative biomass for all crops, except for SM where it relates to fresh mass of the total aboveground biomass reported by the farmer. 6 The low WR yield in 2013 was probably a consequence of damage due to hail. 7 Value is about three times lower than expected. 8 Last measured value before harvest was on 25 June (c.f. biomass.csv), NA: not available, *The silage maize yield at EC4-6 was reported as dry mass. 2.3 Field Measurements All six EC stations were installed with the same instrumentation (Table 4, Table 5) for turbulent exchange (CSAT3, LI 7500), radiation (NR01), meteorological (HMP45, ARG 100) and soil measurements. CSAT3 and LI 7500 were installed 2\u20133 m above the crop canopy and oriented in southern (KR) and south-western (SA) direction (specific details are given in the 5 configuration histories, available in the data set). The stations were supplied by four 20 W solar panels. For the high-power consumption of the LI 7500 gas sensor, it had to be shut down during winter time, mainly from late November until March. In order to obtain results in winter time, EC2 and EC6 were each equipped with a fuel cell in autumn 2015. The HMP45 sensors were replaced by HC2S3 Hygroclip2 (Rotronic GmbH, Ettlingen, Germany) sensors at EC1 in December 2016, at EC2 in September 2016, and at EC5 in 2017. At EC4 the HMP45 sensor was replaced by a new one end of August 2013. EC5 was 10 shut down due to damage from August 2009 to May 2010 and from November 2011 to May 2012. The complete configuration histories of the EC stations are included in the datasets. Table 4: Instrumentation of the eddy-covariance stations (Wizemann et al., 2015), occasional changes to the general layout are detailed in the text. Sensor Manufacturer Model Measurement Error (as given by the manufacturer) Above-ground sensors 3D Sonic Anemometer, Open path infrared H2O/CO2 Gas Analyzer (IRGA) Campbell Scientific Inc., UK LI-COR Biosciences Inc., USA CSAT3 LI7500 Horiz.: 1mm s-1, vert.: 0.5mm s-1 H2O (rms): \u00b13.3 mg m-3 at 10 Hz CO2 (rms): \u00b10.19 mg m-3 at 10 Hz Pressure: \u00b117 hPa Radiation, 4-component* Hukseflux Thermal Sensors, NL NR01 SW: < 15 Wm\u22122 at 1000 Wm\u22122 LW: < 8 Wm\u22122 at \u2212100 Wm\u22122 LWnet Temperature, Relative Humidity Vaisala Inc., Finland HMP45 Temp.: \u00b10.3 \u00b0C, Hum.: \u00b12% RH Rainfall Environmental Measurements LTD, UK ARG100 \u00b12% Soil sensors Temperature (up to 5) Campbell Scientific Inc., UK Model107 < \u00b10.3 \u00b0C, typ. \u00b10.1 \u00b0C TDR probes (up to 5) Campbell Scientific Inc., UK CS616 < 1.5% volumetric water content Matric potential (up to 5) Campbell Scientific Inc., UK Model253 Heat flux plates (3) Hukseflux Thermal Sensors, Netherlands HFP01 \u00b120 %, typ. \u00b110% Logger Data logger Campbell Scientific Inc., UK CR3000, CR1000 *SW: short wave, LW: long wave 15",
+      "char_offset": 25324
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.11 Table 5: Installation depths (in cm) of the soil sensors. During selected periods, additional sensors were installed in greater depths, particularly at EC1-3. Sensor EC1-3 EC4, EC5 EC6",
+      "char_offset": 29188
+    },
+    {
+      "type": "paragraph",
+      "text": "Soil Heat Flux 8, three plates 8, three plates 8, three plates 2.3.1 Meteorological data Meteorological data were measured at all eddy covariance stations and recorded on CR3000 data loggers (Campbell Scientific Inc., Logan, UT, USA) in 30 min intervals. Global radiation (Rg) and net radiation were measured with 4-component net 5 radiometers (NR01, Hukseflux Thermal Sensors B.V., Delft, The Netherlands) that were installed about 1.5 m above the canopy. Air temperature (Ta) and humidity were measured in 2 m height (HMP45, Vaisala Inc., Helsinki, Finland; EC2 from September 2016 and EC1 from December 2016: HC2S3 Hygroclip2, Rotronic GmbH, Ettlingen, Germany) and precipitation in 1 m height (ARG100, EML, North Shields, UK). During the period 11 April \u2013 2 November 2017, different sensors were used at EC1. During this time, long- and shortwave radiation was measured with a 4-component CNR4 net radiometer (Kipp 10 & Zonen B.V., Delft, The Netherlands) and a HMP155 probe (Vaisala Inc., Helsinki, Finland) was used to measure air temperature and humidity. Data were stored on an XLite 9210 data logger (Sutron Corporation, Sterling, VA, USA). The convention used in this dataset is that all energy components directed away from the surface, are negative. April to June mean temperature and precipitation sum is presented in , which highlights the mean differences between the two regions. The inter annual variability of precipitation is high, whereas that of temperature is low. Mean air June temperatures gradually increased 15 over the reported 10 years. Rain and soil water content as well as soil temperature are shown as an example in Figure 5. Figure 3: Selected meteorological variables at EC1 and EC4. Mean cumulative April-June precipitation, lines indicate the respective means. The years 2014, 2015 and 2018 show very dry growing season precipitation in KR (EC1) and in 2011, 2014 in SJ (EC 4). The difference in mean precipitation is 60 mm. (bottom) April and June mean air temperatures for 2009 to 2018. SJ is 2.2 (.5) \u00b0C cooler than KR. 2011, 2014, and 2018 showed very warm April months. The June temperature increases gradually from 2009 to 2018.",
+      "char_offset": 29506
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.12 2.3.2 Surface-atmosphere fluxes Surface-atmosphere fluxes (net CO2 flux, sensible and latent heat flux) were measured with the eddy covariance (EC) technique. Each EC station was installed in the centre of a field (Figure 2) and equipped with a LI-7500 open path infrared",
+      "char_offset": 31678
+    },
+    {
+      "type": "paragraph",
+      "text": "The measuring height was adjusted relative to the canopy height. The EC data were logged in 10 Hz resolution on a CR3000 5 data logger (Campbell Scientific Inc., Logan, UT, USA). All other sensor data were stored in 30 min intervals. At EC1, a different system was used during the period 11 April \u2013 2 November 2017. During this time, this EC station was equipped with",
+      "char_offset": 32083
+    },
+    {
+      "type": "paragraph",
+      "text": "anemometer (Gill Instruments Ltd., Hampshire, UK). Power supply for all EC stations was ensured by two solar-power batteries with capacities of 12 V and 250 Ah each (Keckeisen Akkumulatoren e.K., Memmingen, Germany). The batteries 10 were charged by four 20 W solar panels (SP20, Campbell Scientific Inc., Logan, UT, USA) at each station. During periods with low solar altitude, however, the power supply was generally insufficient to ensure the operation of the LI-7500. For this reason, direct methanol fuel cell systems with 45 W maximum power supply (Efoy Pro 800 Duo, FSC Energy AG, Brunnthal Nord, Germany) were installed at EC2 and EC6 in autumn 2015, enabling measurements of the surface-atmosphere fluxes at these locations also in winter. 15 The EC data from April 2009 to December 2012 were processed using the EC software package TK2, and after January 2013, version TK3.1 (Mauder and Foken, 2015). Fluxes were computed from 30 min covariances between vertical wind velocity and the corresponding scalar (CO2 concentration, air temperature or humidity). In the TK software, we used the following settings: Spike detection (i.e., values exceeding 3.5 times the standard deviation of the last 10 values were labelled as spike), planar fit method for coordinate rotation with time periods between 7 to 12 days, Moore (1986) correction except for the 20 longitudinal separation, which was taken into account by maximizing the covariances, Schotanus et al. (1983) procedure for converting the sonic into actual temperature, and density correction as suggested by Webb et al. (1980). For data quality analysis we usedthe nine-flagsystemofFoken(2006). Half-hourlyfluxes withflag7\u20139(poorqualitydata)forfrictionvelocity, sensible heat flux, or latent heat flux were excluded. For additional despiking of half-hourly fluxes, we applied a median filter using the median of absolute fluxes of the previous four days; fluxes that were > 5-times this median were discarded. For this, 25 we used the R package REddyProc (Wutzler et al., 2020). Data gaps occurred in times of sensor excavation for harvest and sowing, and due to browsing by animals. The stony ground at the SA sites made it necessary to install soil sensors at EC4 and EC5 at maximum in 45 cm depth and at EC6 in 15 cm depth. Time series of CO2 fluxes are presented in Figure 4, by way of example, for EC1, and the data coverage for EC2-6 in the supporting information. On selected sites in some measurement campaigns, soil surface CO2 chamber measurements were 30",
+      "char_offset": 32452
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.13 Figure 4: CO2 fluxes measured by the eddy covariance method at EC1 for 2010-2018. Unfiltered measurements are depicted in grey and gap-filled data in black.",
+      "char_offset": 34981
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.14 Figure 5: Soil water content (black dots), precipitation (grey bars), and soil temperature (orange line) at research site EC1 in 2010 at 5 cm soil depth. The dashed orange line indicates zero degree Celsius. 2.3.3 Soil water content, soil heat fluxes, and soil temperature and matric potential measurements 5 Adjacent to the EC stations, but in the tilled soil, temperature sensors (Model 107, Campbell Scientific Inc., UK) were installed in 2, 6, 15, 30 and 45 cm soil depth. To measure the volumetric soil water content and soil matric potential we installed FDR probes (CS616, Campbell Scientific Inc. UK) and matric potential sensors (Model 253, Campbell Scientific Inc., UK) in 5, 15, 30, 45 and 75 cm depth. Three soil heat flux plates (HFP01, Huskeflux Thermal Sensors, The Netherlands) were installed 8 cm below ground surface. At EC1, self-calibrating heat flux plates (HFP01SC, Campbell Scientific Inc., Logan, UT, USA) at 10 8 cm depth and HydraProbe II sensors (Stevens Water Monitoring Systems Inc., Portland, OR, USA) for soil volumetric water content and soil temperature at 5, 10 and 15 cm depth were used during the period 11 April \u2013 2 November 2017. Soil water content and temperature at 5 cm depth and precipitation are presented in Figure 5 for EC1 in 2010, and Table 3where the strong drop in soil water contents around DOY 75 and DOY 350 are both attributed to soil freezing. We did not exclude these data from our dataset intentionally. The remaining sites and years are presented in the 15 2.3.4 Phenological Development and Leaf Area Index At each field, five plots of 4 m2 were randomly selected and permanently marked to track phenological stage, reported on BBCH scale (Meier, 2018), total leaf area index, plant height, and plant biomass. Phenological stages were assessed at least in four-weekly intervals during winter and biweekly during the main growth period starting in autumn (winter crops) or early spring (spring crops) until maturity. In 2017 and 2018, these measurements were carried out less frequently. During the main 20 growthperiod starting in earlyspring, total leafarea indexand plant height were determined about biweekly until crop maturity at the central square meter of every plot. A LAI-2000 Plant Canopy Analyzer (LI-COR Biosciences Inc., USA) was used to measure total leaf area index. Intermediate harvests of total aboveground biomass took place at stem elongation (decimal code (DC) 31 on BBCH scale) and full flowering (DC 65) using five extra plants per plot. At crop harvest (maturity), the biomass of the central square meter of each subplot was cut at ground level and separated into vegetative and generative fractions. From 25 2017 on, also intermediate harvests were conducted on an areal basis. Biomass was sampled from 0.5 x 0.5 m2 subplots for all crops except for maize, where plants were sampled from 1.5 m sections of the seeded rows and multiplied by row spaces for areal extrapolation.",
+      "char_offset": 35271
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.15 2.3.5 Green Vegetation Fraction For ground truth, Green Vegetation Fraction (GVF) was measured at EC1, EC2 and EC3 fields in 2012 and 2013 (Imukova et al., 2015). In 2012, winter rape (Brassica napus L. ssp. napus; cv. Artoga), silage maize (Zea mays L., cv. Cannavaro), and winter wheat (Triticum aestivum L. cv. Akteur) were cropped at EC1, EC2 and EC3, respectively. In 2013, at EC1 and EC2 winter wheat (T. aestivum L. cv. Akteur) and at EC3 winter rape (B. napus L. ssp. napus cv. Alabaster and Fregat) were grown. 5 Within each study field, five plots (1 x 1 m2 ) were permanently marked. During the growing season (April-October), canopy photos were taken from these plots in a weekly resolution. For the photos, a Nikon COOLPIX P7000 digital camera (Nikon Corporation, Tokyo, Japan) was used. Photos were taken from one meter above the canopy (nadir sampling) using the automatic mode of the camera, with and without flash. The photos are available as part of the dataset. This measurement campaign was extended by using RapidEye satellite images were used to derive high-resolution gridded GVF data (cell grid 10 size of 5 \u00d7 5 m2 ). Satellite images were provided by the German Aerospace Center (DLR) as a part of the RapidEye Science Archive (proposal 505). Obtained high-resolution GVF grid data revealed a bimodal distribution of GVF at the regional scale during the growing seasons (Imukova et al. 2015). This bimodal behaviour is explained by phenological differences between early covering (ECC: ex., winter wheat, winter rape etc.) and late covering crops (LCC: ex., maize, sugar beet). Our results imply splittingthe generic cropland class ofNoah-MP into ECC and LCC has the potential to improve the simulationof energy 15 and water fluxes at the land surface, particularly during the second part of the growing season (Bohm et al. 2020). 2.4 Field Sampling Soil sampling To determine total and mineral nitrogen (NH4 + , NO3 ) and organic carbon, soil samples were taken at least in spring (March/April) and autumn (October/November) from the depths 0-30, 30-60 and 60-90 cm at all six research sites during 20 almost all years. Two replicate samples were taken at five permanent locations at every site. In November 2017, soil bulk density was determined at the six research sites (EC1-6) using cylinders with 4 cm height and 100 cm\u00b3 volume. Undisturbed cores were taken from depths 0-4, 13-17, 26-30, 36-40 and 46-50 cm if this was possible, depending on soil thickness and stone content. Prior to gravimetric measurement of the water content, soil cores were stored air-tight. For the determination of dry weight, samples were dried at 105\u00b0C until constant weight. 25 Additional bare-fallow plots were established in 2009, 2010 and 2012 (bare09, bare10, bare12, respectively, presented in separate files), at each research site (EC1-6). Plots were kept clear of vegetation during the experiment by manual weeding and periodic spot spraying of glyphosate (Monsanto Agrar, GmbH, Germany). Vegetated plots were tilled by hand in a way as to mimic mechanized tillage. In addition to plant residues, the vegetated plots received manure/slurry and mineral fertilizer as organic inputs. Samples were collected from 0 \u2013 30 and 30 \u2013 60 cm in bare fallow and vegetated plots in addition from 60 30 \u2013 90 cm depth on vegetated plots. Due to the shallow soil at EC6, samples were collected at 30 cm depth. Composite soil samples were prepared by mixing five soil cores taken within a specific area in each plot into one homogenous sample. Total organic C (TOC) and N, soil microbial biomass, and soil respiration were monitored four times per year. Plant sampling To track phenological development, at each research site crop samples were taken at the five permanent locations mentioned 35 above. Intermediate harvests were performed at stem elongation (DC 31 according to BBCH scale) and full flowering (DC 65) using five extra plants per plot. At crop maturity, the aboveground biomass of the central square meter of each plot was harvested (final harvest).",
+      "char_offset": 38363
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.16 2.5 Laboratory measurements 2.5.1 Soil organic carbon and nitrogen Soil microbial biomass C and N (Cmic and Nmic) analyses were conducted on wet samples using the chloroform-fumigation extraction (CFE) method (Joergensen, 1996). Briefly, approximately 20 g non-sieved soil samples were fumigated with ethanol-free chloroform for 24 hours. Fumigated and non-fumigated samples were extracted with 0.5M K2SO4 solution. Cmic 5 and Nmic in extracts were analysed with a Multi N/C analyser (Analytik Jena AG, Jena, Germany). Mineral N (ammonium and nitrate) was measured in the non-fumigated 0.5 M K2SO4 extracts using a flow-injection analyser (FIAstar 5000, FOSS, Denmark). Cmic and Nmic were calculated from the difference in C and N contents of fumigated and non-fumigated samples using a kEC value of 0.45 and a kEN value of 0.54 (Joergensen, 1996) after correcting for gravimetric moisture content. Total",
+      "char_offset": 42563
+    },
+    {
+      "type": "paragraph",
+      "text": "elemental analyser (Elementar, Hanau, Germany).The soil samples from vegetated plots were analyzed for organic carbon and total nitrogen content (vario MACRO cube, Elementar Analysensysteme GmbH) as well as for ammonium and nitrate concentrations. Ammonium was determined photometrically in a Nitroprussid-Salicylat solution. Nitrate was measured by ion chromatography (861 Advanced Compact IC, Metrohm) equipped with an anion separation column (Metrosen A supp5, Metrohm). Gravimetric moisture content was determined by drying approximately 0.1 kg of wet soil at 105 \u00b0C for 24 hours. 15 2.5.2 Plant carbon and nitrogen content Plant material was separated into vegetative and generative fractions. Vegetative parts were dried to constant weight at 60 \u00b0C, generative parts at 28 \u00b0C. After determining dry weights generative parts were manually threshed to determine crop yield whereas the vegetative parts were cut using a chaff cutter and homogeneously mixed. Randomly picked material of vegetative parts and of harvestable products was milled using a laboratory mixer mill (MM 301, Retsch, Haan, Germany). Fine powder 20 of vegetative parts and of harvestable products were analysed for carbon and nitrogen using an elemental analyser (Vario EL, Elementar Analysensysteme, Hanau, Germany) as described in H\u00f6gyet al. (2009). In 2017 and 2018 the residual water content was determined, too. This was achieved by further oven drying of the samples at 105 \u00b0C until a constant weight had been reached. 3 Scope and structure of the dataset 25 We provide figures and tables alluding to the scope and nature of the data sets. The data set is structured as described in Figure 6. The intent is to provide an overview of the quantified system variables and properties, without needless repetition of previously peer-reviewed analyses. In view of the fact that the dataset contains 17 sub-datasets, the structure is presented here explicitly. All data files were ensured to be machine-readable using the software R, and the library data.table and function fread. The column names, units, data types and descriptors are listed in Table 7 - Table 19 (for the review process, Table 7 - 30 Table 19 are found in section 12). Numerous figures with time series of the flux and soil measurements are presented in the Supplementary Information. 35",
+      "char_offset": 43601
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.17 4 Data availability The combined digital database is available freely for download from https://doi.org/10.20387/bonares-a0qc-46jc. For the review process, the datasets can be downloaded https://b-web.bonares.de/smartEditor/rest/upload/for1695_data.zip (full dataset without the photos of the green vegetation fraction approx. 150 Mb), and the images are available under",
+      "char_offset": 45933
+    },
+    {
+      "type": "paragraph",
+      "text": "2750 Mb). These links are replaced by the doi, after the publication process. 5 Summary and conclusion We provide a comprehensive data set on agricultural crop growth and land surface exchange on arable soils in Germany. The continuous eddycovariance measurements onadjacent fields and the longdurationofour measurements (2009-2018) is unique and allows for new insights into the role of crop rotations for land surface exchange processes. According to a recent report by 10 the Alliance of Science Organisations in Germany our installations have been the only ones on agricultural land throughout South Germany that fulfil the criteria for becoming part of the intended national observatory network for terrestrial ecosystem research (K\u00f6gel-Knabner et al., 2018). We recognized that the interannual variability within locations exceeds the effect of regional climate. In other words, a direct comparison of fluxes measured in the two study regions are only possible if the measurements are performed in the same year 15 under comparable large scale weather conditions (Wizemann et al., 2015). Although some dryer growing seasons were identified with sometimes low soil volumetric water contents in the upper soil layers, it became apparent that the deep loess soil profiles in the Kraichgau region and the soils in the cooler and wetter Swabian Alb region were generally not severely water-deficient. An exception to that was the very early ripening and subsequently harvest of maize in the Kraichgau region in 2018. 20 The dataset was used extensively to calibrate soil-crop models and land-surface models. In spite of the high data quality and the extensive coverage of crops and years, we would like to draw the attention on some possible improvements to future campaigns like the one presented. First, it became apparent that it would be beneficial to include measurements to infer information on the partitioning between evaporation and transpiration of the crops. Also, we notice that, due to solar power shortage in winter, we have some data gaps in the EC measurements. We think it would be worthwhile to extend the research 25 by extending the measurements on soil (hydraulic) properties (transience, hydrophobicity, structure \u2026). In the future, it would be beneficial to properly quantify the contribution of the cover crops to the overall fluxes and budgets, as well as to include Figure 6: Folder structure of the dataset.",
+      "char_offset": 46437
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.18 sensors that capture the N2O emission. Extending the monitoring of root growth as well as of root water uptake and root decay by more detailed, continuous measurements would very valuable for model improvement. Finally, we note that the measurements will be continued at the two research sites EC2 and EC4, that is, at one site in each region. 6 Appendix A 5 Table A-1: Further information on the quantification rules to calculate the amount and type of mineral N from the reported applied mineral fertilizers on the 54 site*years and the organic matter (OM) content. Fertiliser type Density \ud835\udc41 \ud835\udc41\ud835\udc42 \u2212 \ud835\udc41 \ud835\udc41\ud835\udc3b \u2212 \ud835\udc41 \ud835\udc41 type kg L-1 % % % %",
+      "char_offset": 48874
+    },
+    {
+      "type": "paragraph",
+      "text": "Calcium ammonium nitrate na 27 13.5 13.5 na solid NPK na rv 0.5 \u2217 \ud835\udc41 0.5 \u2217 \ud835\udc41 na solid Urea/Alzon na rv or 46 na na rv or 46 solid Ammonium Sulphate Nitrate na 21 15.5 5.5 na solid Piamon 33 S na 33 na 10.4 22.6 solid InnoFert na 24 7.8 16.2 na solid na: not applicable, rv: reported value Table A-2: Further information on the quantification rules to calculate the amount and type of mineral N from the reported applied mineral fertilizers on the 54 site*years and the organic matter (OM) content. 10 Fertiliser type TS OM \ud835\udc41 \ud835\udc41\ud835\udc3b \u2212 \ud835\udc41 % % % % Biogas slurry 6 73 0.43 0.26 Cow slurry 8 71 0.39 0.21 Pig slurry 5 71 0.56 0.42 TS: total solids, OM: organic matter Nutrient contents determined in the laboratory in 2015 and 2016 for Kraichgau and 2014, 2015, and 2016 for research site EC6 (SA). Otherwise, average values were assumed based on expert knowledge, as given below 7 Appendix B Table B-1: Average yields of the Kraichgau district Enzkreis for the years 2010-2018. Non available values are indicated by NA. Kraichgau - Enzkreis",
+      "char_offset": 49637
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.19 Sugar beat 0 NA NA NA NA NA NA NA NA NA",
+      "char_offset": 50669
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.20 Table B-2: Average yields of the Swabian Jura district Alb-Donau for the years 2010-2018. Non available values are indicated by NA. Swabian Jura Alb-Donau-Kreis",
+      "char_offset": 50842
+    },
+    {
+      "type": "paragraph",
+      "text": "Table B-3: Average yields of the Swabian Jura district Reutlingen for the years 2010-2018. Non available values are indicated by 5 NA. Swabian Jura Reutlingen",
+      "char_offset": 51136
+    },
+    {
+      "type": "paragraph",
+      "text": "Grain maize NA NA NA NA NA NA NA NA NA NA",
+      "char_offset": 51296
+    },
+    {
+      "type": "paragraph",
+      "text": "Sugar beat NA NA NA NA NA NA NA NA NA NA",
+      "char_offset": 51339
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.21 8 Author Contribution TW: Tobias Weber, JI: Joachim Ingwersen, PH: Petra H\u00f6gy: AP: Arne Poyda, HDW: Hans-Dieter Wizemann, PK: Pascal Kremer, IW: Irene Witte, RE: Ravshan Eshonkulov, KB: Kristina Bohm, ML: Moritz Laub, MSD: Scott Demyan, GC: Georg Cadisch, TM: Torsten M\u00fcller,AF: Andreas Fangmeier, VW: Volker Wulfmeyer, TS:ThiloStreck, CT: Christian Troost,YFN: Yvonne Funkuin Nkwain 5 Table 6: Author contributions. codeTopic Details Contributors (Initials) 1 Conceptualization Ideas; formulation or evolution of overarching research goals and aims. GC, PH, TS 2 Data curation Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use. TW, CT, HDW, PH, ML, YFN, MSD, AP, PK, JI 3 Formal analysis Application of statistical, mathematical, computational, or other formal techniques to analyse or synthesize study data. TW, HDW, PH, AP, PK 4 Funding acquisition Acquisition of the financial support for the project leading to this publication. TM, AF, GC, PH, JI, VW, TS 5 Investigation Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection. KB, HDW, TW, RE, PH, YFN, ML, MSD, AP, PK, TS 6 Methodology Development or design of methodology; creation of models. TM, PH, TS, JI 7 Project administration Management and coordination responsibility for the research activity planning and execution. PH, VW, TS, JI 8 Resources Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools. TM, GC, PH, AF, JI, TS 9 Software Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components. TW, GC, HDW, JI 10 Supervision Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team. TM, GC, PH, AP, JI, VW, TS 11 Validation Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs. TW, CT, KB, PH, AP, PK, JI 12 Visualization Preparation, creation and/or presentation of the published work, specifically visualization/data presentation. TW, PH, JI 13 Writing \u2013originaldraft Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation). TW, PH, YFN, ML, AP, JI 14 Writing \u2013 review & editing Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision \u2013 including pre- or post-publication stages. TW, TM, CT, AP, JI,PH, TS, MSD 9 Competing interests None of the authors declare a conflict in interest.",
+      "char_offset": 51381
+    },
+    {
+      "type": "paragraph",
+      "text": "This data set is the result of the DFG (German Research Foundation) Integrated Project PAK 346 Structure and Functions of 10 Agricultural Landscapes under Global Climate Change - Processes and Projections on a Regional Scale, and the DFG funded Research Unit 1695 Agricultural Landscapes under Global Climate Change - Processes and Feedbacks on a Regional Scale. TW was funded by the Collaborative Research Center 1253 CAMPOS (Project 7: Stochastic Modelling Framework), funded by the German Research Foundation (DFG, Grant Agreement SFB 1253/1 2017). We specifically acknowledge the distinguished farmers who enabled this research, namely Mr. Bosch senior (\u2020) and Mr Bosch junior (EC1-EC3), Mr Fink 15 (EC4), Mr Hermann (EC5), and Mr. Reichert (EC6), further, the technical staff team members B. Prechter and T. Schreiber, and studenthelpers:F.BaurandC.Schade.KB was financed byascholarshipintheframeoftheErasmusMundusIAMONET RU program. The authors are grateful to Dr. W. Damsohn, G. Gensheimer, Dr. Z. Kauf, Mr Strohm, and the students for",
+      "char_offset": 54458
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.22 assistance at the field experiments. Parts of this study were funded by the Federal Ministry of Education and Research (01PL11003), Humboldt Reloaded Projects at the University of Hohenheim, Germany. Lastly, we thank Dr. A. Klumpp and Prof. Dr. J. Auerbacher for their support. 11 References Bassu, S., Brisson, N., Durand, J.-L., Boote, K., Lizaso, J., Jones, J. W., Rosenzweig, C., Ruane, A. C., Adam, M., Baron, 5 C., Basso, B., Biernath, C., Boogaard, H., Conijn, S., Corbeels, M., Deryng, D., Sanctis, G. de, Gayler, S., Grassini, P., Hatfield, J., Hoek, S., Izaurralde, C., Jongschaap, R., Kemanian, A. R., Kersebaum, K. C., Kim, S.-H., Kumar, N. S., Makowski, D., M\u00fcller, C., Nendel, C., Priesack, E., Pravia, M. V., Sau, F., Shcherbak, I., Tao, F., Teixeira, E., Timlin, D., and Waha, K.: How do various maize crop models vary in their responses to climate change factors?, Global Change",
+      "char_offset": 55502
+    },
+    {
+      "type": "paragraph",
+      "text": "Biernath, C., Bittner, S., Klein, C., Gayler, S., Hentschel, R., Hoffmann, P., H\u00f6gy, P., Fangmeier, A., and Priesack, E.:",
+      "char_offset": 56531
+    },
+    {
+      "type": "paragraph",
+      "text": "Biernath, C., Gayler, S., Bittner, S., Klein, C., H\u00f6gy, P., Fangmeier, A., and Priesack, E.: Evaluating the ability of four crop models to predict different environmental impacts on spring wheat grown in open-top chambers, European Journal of 15",
+      "char_offset": 56654
+    },
+    {
+      "type": "paragraph",
+      "text": "Bohm, K., Ingwersen, J., Milovac, J., and Streck, T.: Distinguishing between early and late covering crops in the land surface model Noah-MP: Impact on simulated surface energy fluxes and temperature, 2019. Challinor, A. J., Watson, J., Lobell, D. B., Howden, S. M., Smith, D. R., and Chhetri, N.: A meta-analysis of crop yield",
+      "char_offset": 56901
+    },
+    {
+      "type": "paragraph",
+      "text": "de Vries, D. A.: Thermal properties of soils, in: Physics of Plant Environment, van Wijk, W. R. (Ed.), North-Holland Publishing Company, Amsterdam, 210\u2013235, 1963. Demyan, M. S., Ingwersen, J., Funkuin, Y. N., Ali, R. S., Mirzaeitalarposhti, R., Rasche, F., Poll, C., M\u00fcller, T., Streck, T., Kandeler, E., and Cadisch, G.: Partitioning of ecosystem respiration in winter wheat and silage maize\u2014modeling",
+      "char_offset": 57230
+    },
+    {
+      "type": "paragraph",
+      "text": "2016. Eshonkulov, R., Poyda, A., Ingwersen, J., Wizemann, H.-D., Weber, T. K. D., Kremer, P., H\u00f6gy, P., Pulatov, A., and Streck, T.: Evaluating multi-year, multi-site data on the energy balance closure of eddy-covariance flux measurements at",
+      "char_offset": 57633
+    },
+    {
+      "type": "paragraph",
+      "text": "Foken, T.: Angewandte Meteorologie: Mikrometeorologische Methoden, Zweite, \u00fcberarbeitete und erweiterte Auflage, 30 Springer-Verlag Berlin Heidelberg, Berlin, Heidelberg, 2006. Gayler, S., Ingwersen, J., Priesack, E., W\u00f6hling, T., Wulfmeyer, V., and Streck, T.: Assessing the relevance of subsurface processes for the simulation of evapotranspiration and soil moisture dynamics with CLM3.5: comparison with field data",
+      "char_offset": 57876
+    },
+    {
+      "type": "paragraph",
+      "text": "Gayler, S., W\u00f6hling, T., Grzeschik, M., Ingwersen, J., Wizemann, H.-D., Warrach-Sagi, K., H\u00f6gy, P., Attinger, S., Streck, 35 T., and Wulfmeyer, V.: Incorporating dynamic root growth enhances the performance of Noah-MP at two contrasting",
+      "char_offset": 58295
+    },
+    {
+      "type": "paragraph",
+      "text": "Godfray, H. C. J., Beddington, J. R., Crute, I. R., Haddad, L., Lawrence, D., Muir, J. F., Pretty, J., Robinson, S., Thomas, S. M., and Toulmin, C.: Food security: the challenge of feeding 9 billion people, Science (New York, N.Y.), 327, 812\u2013818,",
+      "char_offset": 58533
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.23 Guthke, A.: Defensible Model Complexity: A Call for Data-Based and Goal-Oriented Model Choice, Ground Water, 55,",
+      "char_offset": 58781
+    },
+    {
+      "type": "paragraph",
+      "text": "Hansen, J. W.: Integrating seasonal climate prediction and agricultural models for insights into agricultural practice,",
+      "char_offset": 59027
+    },
+    {
+      "type": "paragraph",
+      "text": "2005. 5 Heinlein, F., Biernath, C., Klein, C., Thieme, C., and Priesack, E.: Evaluation of Simulated Transpiration from Maize Plants",
+      "char_offset": 59148
+    },
+    {
+      "type": "paragraph",
+      "text": "Hermans, C., Geijzendorffer, I. R., Ewert, F., Metzger, M. J., Vereijken, P. H., Woltjer, G. B., and Verhagen, A.: Exploring the future of European crop production in a liberalised market, with specific consideration of climate change and the",
+      "char_offset": 59282
+    },
+    {
+      "type": "paragraph",
+      "text": "H\u00f6gy, P., Franzaring, J., Schwadorf, K., Breuer, J., Sch\u00fctze, W., and Fangmeier, A.: Effects of free-air CO2 enrichment on",
+      "char_offset": 59526
+    },
+    {
+      "type": "paragraph",
+      "text": "H\u00f6gy, P., Kottmann, L., Schmid, I., and Fangmeier, A.: Heat, wheat and CO 2 The relevance of timing and the mode of",
+      "char_offset": 59650
+    },
+    {
+      "type": "paragraph",
+      "text": "H\u00f6gy, P., Wieser, H., K\u00f6hler, P., Schwadorf, K., Breuer, J., Franzaring, J., Muntifering, R., and Fangmeier, A.: Effects of elevated CO2 on grain yield and quality of wheat: results from a 3-year free-air CO2 enrichment experiment, Plant",
+      "char_offset": 59767
+    },
+    {
+      "type": "paragraph",
+      "text": "Imukova, K., Ingwersen, J., Hevart, M., and Streck, T.: Energy balance closure on a winter wheat stand: comparing the eddy",
+      "char_offset": 60006
+    },
+    {
+      "type": "paragraph",
+      "text": "Imukova, K., Ingwersen, J., and Streck, T.: Determining the spatial and temporal dynamics of the green vegetation fraction",
+      "char_offset": 60130
+    },
+    {
+      "type": "paragraph",
+      "text": "Ingwersen, J., H\u00f6gy, P., Wizemann, H. D., Warrach-Sagi, K., and Streck, T.: Coupling the land surface model Noah-MP with the generic crop growth model Gecros: Model description, calibration and validation, Agricultural and Forest 25",
+      "char_offset": 60254
+    },
+    {
+      "type": "paragraph",
+      "text": "Ingwersen, J., Imukova, K., H\u00f6gy, P., and Streck, T.: On the use of the post-closure methods uncertainty band to evaluate the",
+      "char_offset": 60488
+    },
+    {
+      "type": "paragraph",
+      "text": "12-2311-2015, 2015. Ingwersen, J., Steffens, K., H\u00f6gy, P., Warrach-Sagi, K., Zhunusbayeva, D., Poltoradnev, M., G\u00e4bler, R., Wizemann, H.-D., 30 Fangmeier, A., Wulfmeyer, V., and Streck, T.: Comparison of Noah simulations with eddy covariance and soil water",
+      "char_offset": 60615
+    },
+    {
+      "type": "paragraph",
+      "text": "Joergensen, R. G.: The fumigation-extraction method to estimate soil microbial biomass: Calibration of the kEC value, Soil",
+      "char_offset": 60873
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelly, R. A., Jakeman, A. J., Barreteau, O., Borsuk, M. E., ElSawah, S., Hamilton, S. H., Henriksen, H. J., Kuikka, S., Maier, H. R., Rizzoli, A. E., van Delden, H., and Voinov, A. A.: Selecting among five common modelling approaches",
+      "char_offset": 60997
+    },
+    {
+      "type": "paragraph",
+      "text": "Kersebaum, K. C., Boote, K. J., Jorgenson, J. S., Nendel, C., Bindi, M., Fr\u00fchauf, C., Gaiser, T., Hoogenboom, G., Kollas, C., 40 Olesen, J. E., R\u00f6tter, R. P., Ruget, F., Thorburn, P. J., Trnka, M., and Wegehenkel, M.: Analysis and classification of",
+      "char_offset": 61232
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.24",
+      "char_offset": 61482
+    },
+    {
+      "type": "paragraph",
+      "text": "Kimball, B. A., Boote, K. J., Hatfield, J. L., Ahuja, L. R., Stockle, C., Archontoulis, S., Baron, C., Basso, B., Bertuzzi, P., Constantin, J., Deryng, D., Dumont, B., Durand, J.-L., Ewert, F., Gaiser, T., Gayler, S., Hoffmann, M. P., Jiang, Q., Kim, S.-H., Lizaso, J., Moulin, S., Nendel, C., Parker, P., Palosuo, T., Priesack, E., Qi, Z., Srivastava, A., Stella, T., Tao, 5 F., Thorp, K. R., Timlin, D., Twine, T. E., Webber, H., Willaume, M., and Williams, K.: Simulation of maize",
+      "char_offset": 61615
+    },
+    {
+      "type": "paragraph",
+      "text": "K\u00f6gel-Knabner, I., Teutsch, G., Adrian, R., Blanckenburg, F., Fl\u00fcgge, U.-I., Kolle, O., Kleinn, C., K\u00fcsel, K., Lischeid, G., L\u00f6w, A., Sch\u00e4fers, C., Schmid, H., Simmer, C., Vereecken, H., Walz, R., Haase, P., L\u00fctkemeier, E., Weymann, D., 10 Br\u00fcchmann, C., and Ute, W.: Empfehlung zur Einrichtung eines nationalen Observatorien-Netzes f\u00fcr die terrestrische \u00d6kosystemforschung: Abschlussbericht der Arbeitsgruppe \u201eInfrastrukturen in der terrestrischen Forschung\u201c der Allianz der Wissenschaftsorganisationen, 2018. Kool, D., Agam, N., Lazarovitch, N., Heitman, J. L., Sauer, T. J., and Ben-Gal, A.: A review of approaches for",
+      "char_offset": 62100
+    },
+    {
+      "type": "paragraph",
+      "text": "2014. Lasslop, G., Reichstein, M., Papale, D., Richardson, A. D., ARNETH, A., BARR, A., Stoy, P., and WOHLFAHRT, G.: Separation of net ecosystem exchange into assimilation and respiration using a light response curve approach: critical",
+      "char_offset": 62723
+    },
+    {
+      "type": "paragraph",
+      "text": "Levis, S.: Modeling vegetation and land use in models of the Earth System, WIREs Clim Change, 1, 840\u2013856, 20",
+      "char_offset": 62960
+    },
+    {
+      "type": "paragraph",
+      "text": "Lindorfer, H. and Frauz, B.: Biogas Biorefineries, in: Industrial Biorefineries & White Biotechnology, Elsevier, 271\u2013294, 2015. Marland, G., Pielke, R. A., Apps, M., Avissar, R., Betts, R. A., Davis, K. J., Frumhoff, P. C., Jackson, S. T., Joyce, L. A., Kauppi, P., Katzenberger, J., MacDicken, K. G., Neilson, R. P., Niles, J. O., Niyogi, D. d. S., Norby, R. J., Pena, N., 25 Sampson, N., and Xue, Y.: The climatic impacts of land surface change and carbon management, and the implications",
+      "char_offset": 63070
+    },
+    {
+      "type": "paragraph",
+      "text": "Mauder, M. and Foken, T.: Documentation and Instruction Manual of the Eddy-Covariance Software Package TK3 (update),",
+      "char_offset": 63562
+    },
+    {
+      "type": "paragraph",
+      "text": "Meier, U.: Growth stages of mono- and dicotyledonous plants: BBCH Monograph, Open Agrar Repositorium, 2018. 30 Mich\u00e9li, E., Schad, P., and Spaargaren, O.: World reference base for soil resources 2006: A framework for international classification, correlation and communication, World soil resources reports, 103, Food and agriculture organization of the United nations (FAO), Rome, 128 pp., 2006. Monier, E., Paltsev, S., Sokolov, A., Chen, Y.-H. H., Gao, X., Ejaz, Q., Couzo, E., Schlosser, C. A., Dutkiewicz, S., Fant, C., Scott, J., Kicklighter, D., Morris, J., Jacoby, H., Prinn, R., and Haigh, M.: Toward a consistent modeling framework to 35",
+      "char_offset": 63680
+    },
+    {
+      "type": "paragraph",
+      "text": "Perarnaud, V., Seguin, B., Malezieux, E., Deque, M., and Loustau, D.: Agrometeorological Research and Applications",
+      "char_offset": 64329
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.25 Pielke, R. A., Adegoke, J., Beltra\u00e1N-Przekurat, A., Hiemstra, C. A., Lin, J., Nair, U. S., Niyogi, D., and Nobis, T. E.: An overview of regional land-use and land-cover impacts on rainfall, Tellus B: Chemical and Physical Meteorology, 59,",
+      "char_offset": 64445
+    },
+    {
+      "type": "paragraph",
+      "text": "Porter, J. R. and Semenov, M. A.: Crop responses to climatic variation, Philosophical Transactions of the Royal Society B:",
+      "char_offset": 64817
+    },
+    {
+      "type": "paragraph",
+      "text": "Poyda, A., Wizemann, H.-D., Ingwersen, J., Eshonkulov, R., H\u00f6gy, P., Demyan, M. S., Kremer, P., Wulfmeyer, V., and Streck, T.: Carbon fluxes and budgets of intensive crop rotations in two regional climates of southwest Germany,",
+      "char_offset": 64941
+    },
+    {
+      "type": "paragraph",
+      "text": "Reichstein, M., Falge, E., Baldocchi, D., Papale, D., Aubinet, M., Berbigier, P., Bernhofer, C., Buchmann, N., Gilmanov, T., Granier, A., Grunwald, T., Havrankova, K., Ilvesniemi, H., Janous, D., Knohl, A., Laurila, T., Lohila, A., Loustau, D., 10 Matteucci, G., Meyers, T., Miglietta, F., Ourcival, J.-M., Pumpanen, J., Rambal, S., Rotenberg, E., Sanz, M., Tenhunen, J., Seufert, G., Vaccari, F., Vesala, T., Yakir, D., and Valentini, R.: On the separation of net ecosystem exchange into",
+      "char_offset": 65170
+    },
+    {
+      "type": "paragraph",
+      "text": "Riedel, T. and Weber, T. K. D.: The influence of global change on Europe\u00b4s water cycle and groundwater recharge, 15 Hydrogeology Journal, accepted, 2020. Schalge, B., Baroni, G., Haese, B., Erdal, D., Geppert, G., Saavedra, P., Haefliger, V., Vereecken, H., Attinger, S., Kunstmann, H., Cirpka, O. A., Ament, F., Kollet, S., Neuweiler, I., Hendricks Franssen, H.-J., and Simmer, C.: Presentation and discussion of the high resolution atmosphere-land surface subsurface simulation dataset of the virtual Neckar catchment for the period 2007&#8211;2015, 2020. 20 Schotanus, P., Nieuwstadt, F., and Bruin, H. de: Temperature measurement with a sonic anemometer and its application to",
+      "char_offset": 65660
+    },
+    {
+      "type": "paragraph",
+      "text": "Schreinemachers, P. and Berger, T.: An agent-based simulation model of human\u2013environment interactions in agricultural",
+      "char_offset": 66342
+    },
+    {
+      "type": "paragraph",
+      "text": "Seidel, S. J., Palosuo, T., Thorburn, P., and Wallach, D.: Towards improved calibration of crop models \u2013 Where are we now 25",
+      "char_offset": 66461
+    },
+    {
+      "type": "paragraph",
+      "text": "Sponagel, H.: Bodenkundliche Kartieranleitung: Mit 103 Tabellen, 5., verb. und erw. Aufl., Schweizerbart, Stuttgart, 438 S., 2005. Stoy, P. C., El-Madany, T. S., Fisher, J. B., Gentine, P., Gerken, T., Good, S. P., Klosterhalfen, A., Liu, S., Miralles, D. G., Perez-Priego, O., Rigden, A. J., Skaggs, T. H., WOHLFAHRT, G., Anderson, R. G., Coenders-Gerrits, A. M. J., Jung, 30 M., Maes, W. H., Mammarella, I., Mauder, M., Migliavacca, M., Nelson, J. A., Poyatos, R., Reichstein, M., Scott, R. L., and Wolf, S.: Reviews and syntheses: Turning the challenges of partitioning ecosystem evaporation and transpiration",
+      "char_offset": 66587
+    },
+    {
+      "type": "paragraph",
+      "text": "Streck, T. and Weber, T. K. D.: Analytical expressions for noncapillary soil water retention based on popular capillary retention models, Vadose Zone J., 2020. 35 Szab\u00f3, B., Weynants, M., and Weber, T. K. D.: Updated European hydraulic pedotransfer functions with communicated",
+      "char_offset": 67201
+    },
+    {
+      "type": "paragraph",
+      "text": "Tao, F., R\u00f6tter, R. P., Palosuo, T., Gregorio Hern\u00e1ndez D\u00edaz-Ambrona, C., M\u00ednguez, M. I., Semenov, M. A., Kersebaum, K. C., Nendel, C., Specka, X., Hoffmann, H., Ewert, F., Dambreville, A., Martre, P., Rodr\u00edguez, L., Ruiz-Ramos, M., Gaiser, T., H\u00f6hn, J. G., Salo, T., Ferrise, R., Bindi, M., Cammarano, D., and Schulman, A. H.: Contribution of crop 40 model structure, parameters and climate projections to uncertainty in climate change impact assessments, Global Change",
+      "char_offset": 67479
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.26 Thornton, P. K., Ericksen, P. J., Herrero, M., and Challinor, A. J.: Climate variability and vulnerability to climate change: a",
+      "char_offset": 67951
+    },
+    {
+      "type": "paragraph",
+      "text": "Troost, C. and Berger, T.: Dealing with Uncertainty in Agent-Based Simulation: Farm-Level Modeling of Adaptation to",
+      "char_offset": 68212
+    },
+    {
+      "type": "paragraph",
+      "text": "Webb, E. K., Pearman, G. I., and Leuning, R.: Correction of flux measurements for density effects due to heat and water",
+      "char_offset": 68329
+    },
+    {
+      "type": "paragraph",
+      "text": "Weber, T. K., Durner, W., Streck, T., and Diamantopoulos, E.: A modular framework for modelling unsaturated soil",
+      "char_offset": 68450
+    },
+    {
+      "type": "paragraph",
+      "text": "Weber, T. K. D., Finkel, M., Concei\u00e7\u00e3o Gon\u00e7alves, M., Vereecken, H., and Diamantopoulos, E.: Pedotransfer function for 10 the Brunswick soil hydraulic property model and comparison to the van Genuchten\u2010Mualem model, Water Resour Res,",
+      "char_offset": 68564
+    },
+    {
+      "type": "paragraph",
+      "text": "Weber, T. K. D., Ingwersen, J., H\u00f6gy, P., Poyda, A., Wizemann, H-D, Demyan, M. S. Bohm, K., Eshonkulov, R., Gayler, S., Kremer, P., Laub, M., Nkwain, Y. F., Troost, C., Witte, I., Cadisch, G., M\u00fcller, T., Fangmeier, A., Wulfmeyer, V., and Streck, T., Multi-site, multi-crop measurements in the soil-vegetation-atmosphere continuum: A comprehensive dataset 15",
+      "char_offset": 68799
+    },
+    {
+      "type": "paragraph",
+      "text": "a0qc-46jc, 2021 (under internal review, please refer to data availability section for the discussion). Wizemann, H.-D., Ingwersen, J., H\u00f6gy, P., Warrach-Sagi, K., Streck, T., and Wulfmeyer, V.: Three year observations of",
+      "char_offset": 69159
+    },
+    {
+      "type": "paragraph",
+      "text": "W\u00f6hling, T., Gayler, S., Priesack, E., Ingwersen, J., Wizemann, H.-D., H\u00f6gy, P., Cuntz, M., Attinger, S., Wulfmeyer, V., and Streck, T.: Multiresponse, multiobjective calibration as a diagnostic tool to compare accuracy and structural limitations of five coupled soil-plant models and CLM3.5, Water Resour. Res., 49, 8200\u20138221,",
+      "char_offset": 69381
+    },
+    {
+      "type": "paragraph",
+      "text": "W\u00f6hling, T., Geiges, A., Nowak, W., Gayler, S., H\u00f6gy, P., and Wizemann, H. D.: Towards Optimizing Experiments for 25 Maximum-confidence Model Selection between Different Soil-plant Models, Procedia Environmental Sciences, 19,",
+      "char_offset": 69710
+    },
+    {
+      "type": "paragraph",
+      "text": "W\u00f6hling, T., Sch\u00f6niger, A., Gayler, S., and Nowak, W.: Bayesian model averaging to explore the worth of data for soil-plant",
+      "char_offset": 69937
+    },
+    {
+      "type": "paragraph",
+      "text": "Wutzler, T., Reichstein, M., Moffat, A. M., and Migliavacca, M.: REddyProc: Post Processing of (Half-)Hourly Eddy- 30 Covariance Measurements: https://CRAN.R-project.org/package=REddyProc, 2020.",
+      "char_offset": 70062
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.27 12 Tables of Section 3 Table 7: Variables and description of the field cultivation data files (cultivation.csv) including farmer reported yield. Column Name Unit Description site - field name sdate YYYY-MM-DDThh:mm sowing date hdate YYYY-MM-DDThh:mm harvest date crop - cultivated crop var - crop variety code - crop code (used throughout the database) sdens - seed density of sown crop unit seed m-2; kg ha-1 unit of seed density, sdens yield t ha-1 yield as reported by the farmer ref DM o. FM reference mass of the yield (referenced to dry matter weight of fresh matter weight) residue % percent of residues left after harvest Table 8: Variables and description of the soil management data files (soil_management.csv). 5 Column Name Unit Description site - field name date YYYY-MM-DDThh:mm date of soil management Depth m depth of soil management Type - type of soil management Code - abbreviation for Expert-N (Priesack, 2006) Table 9: Determined variables and description of the soil carbon and nitrogen measurement files (soil_cn.csv). Column Name Unit Description site - field name date YYYY-MM-DDThh:mm measurement date plot - plot number depth cm indicator of soil layer depth: 30 | soil layer 0-30 cm depth, 60 | soil layer 30-60 cm depth, 90 | soil layer 60-90 cm depth bd g cm-3 bulk density of the soil sample no3N mg kg-1 nitrate-N (no3N) nh4N mg kg-1 ammonium-N (nh4N) soc mg kg-1 total soil organic carbon son mg kg-1 total soil organic nitrogen cmic mg kg-1 soil microbial carbon nmic mg kg-1 soil microbial nitrogen sub_plot_type - \"veg\" - vegetated, and \"b09\", \"b10\", \"b12\" - bare plots in the years 2009, 2010, 2012",
+      "char_offset": 70258
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.28 Table 10: Determined variables and description of the fertilizer data files (fertilization.csv). Column Name Unit Description site - field name date YYYY-MM-DDThh:mm application date FE_farm - fertilizer as reported by the farmer FE_com - common name of fertilizer (full name) FE_type min; org mineral (min) or organic (org) fertilizer FE_code ssiii fertilizer code (as used by Expert-N (Priesack, 2006)) quantity - quantity of applied fertilizer unit kg ha-1; m3 ha-1; L ha-1; t ha 1 unit of the applied fertilizer DM kg ha-1 calculated dry matter in the applied organic fertilizer OM kg ha-1 calculated organic matter in the applied organic fertilizer N kg ha-1 total quantity of N in the applied fertilizer nh4N kg ha-1 quantity of ammonium-N in applied fertilizer no3N kg ha-1 quantity of nitrate-N in applied fertilizer amidN kg ha-1 quantity of amidN in applied fertilizer The farmers reported type and total amount of applied fertilizer type. Based on information provided from the fertiliser suppliers, analyses on the organic matter content of the organic fertilizers (slurry) and selected gap filling by expert knowledge, the data set can be considered complete. However, it has to be acknowledged that the data on the organic fertilizers contains a non-quantified uncertainty. Further details on assumptions and calculations are given in Appendix A Table 11: Determined variables and description of the farmer reported plant protection measures. The active substances and respective units were added based on expert knowledge (plant_protection.csv). Column Name Unit Description site - field name date YYYY-MM-DDThh:mm application date product - name of product type - type of product: herbicide | fungicide | insecticide | growth control dosage - amount applied in units specified in units unit_dos g ha-1; L ha-1 unit of dosage act_subst_1 - names of active substance in the product unit_subst_1 g L-1; g kg-1 unit of act_subst1 in g kg-1 or g L-1 act_subst_2 - names of active substance in the product unit_subst_2 g L-1; g kg-1 unit of act_subst2 in g kg-1 or g L-1 act_subst_3 - names of active substance in the product unit_subst_3 g L-1; g kg-1 unit of act_subst2 in g kg-1 or g L-1 comment - due to inconsistencies in units reported by the farmer, comments to the interpretations of the reports were added 5",
+      "char_offset": 72027
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.29 Table 12: Determined variables and description of the weather data files (weather.csv). Column Name Unit Description site - field name date YYYY-MM-DDThh:mm date of measurement ws m s-1 wind speed measured by a CSAT3 3D anomemeter ws_flag - flag wind speed wd \u00b0 wind direction measured by a CSAT3 3D anomemeter (degrees against north) wd_flag - flag wind direction at \u00b0C air temperature measured 2 m above ground at_flag - flag air temperature rh % relative humidity measured 2 m above ground rh_flag - flag relative humidity ap hPa atmospheric pressure ap_flag - flag atmospheric pressure rs_down W m-2 downwelling shortwave radiation (global radiation) rs_down - flag downwelling shortwave radiation rl_down W m-2 downwelling longwave radiation rl_down - flag downwelling longwave radiation rs_up W m-2 upwelling shortwave radiation (reflective radiation) rs_up_f - flag upwelling shortwave radiation rl_up W m-2 upwelling longwave radiation rl_up_f - flag upwelling longwave radiation pr mm precipitation measured 1 m above ground pr_flag - flag precipitation",
+      "char_offset": 74487
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.30 Table 13: Determined variables and description of the eddy covariance measurement data files (flux_data.csv). For the variables nee_filtered, le_filtered, and h_filtered data points were removed according to the following rule: for the respective quality flag > 6 and those measured values which were > 5 times the median of the previous 4 days were discarded. The MPI REddyProc R tool was used to gap-fill and for partitioning net ecosystem exchange (nee) into ecosystem respiration and gross primary productivity Column Name Unit Description site - field name date YYYY-MM-DDThh:mm date and time at the end of the 30-min averaging interval nee mmol m-2 s-1 net ecosystem exchange of CO2 h W m-2 sensible heat flux le W m-2 latent heat flux rn W m-2 net radiation shf1 W m-2 soil heat flux in the 8 cm depth (heat flux plate 1) shf2 W m-2 soil heat flux in the 8 cm depth (heat flux plate 2) shf3 W m-2 soil heat flux in the 8 cm depth (heat flux plate 3) ghf W m-2 ground heat flux: mean of shf1-3 plus change in soil heat storage (dS) dS W m-2 change in soil heat storage in the 0 - 8 cm layer and between \ud835\udc61 and \ud835\udc61 (calorimetric method) qf_ustar - 1quality flag friction velocity (ustar), 1 - 9 qf_h - 1quality flag sensible heat flux, 1 - 9 qf_le - 1quality flag latent heat flux, 1 - 9 qf_nee - 1quality flag net ecosystem exchange, 1 - 9 r_err_ustar % random error friction velocity r_err_h % random error sensible heat flux r_err_le % random error latent heat flux r_err_nee % random error net ecosystem exchange noise_ustar % instrumental noise friction velocity noise_h % instrumental noise sensible heat flux noise_le % instrumental noise latent heat flux noise_nee % instrumental noise net ecosystem exchange z_l - stability parameter dir \u00b0 wind direction (degrees against north) ustar m s-1 friction velocity nee_filtered mmol m-2 s-1 filtered net ecosystem exchange of CO2 le_filtered W m-2 filtered latent heat flux h_filtered W m-2 filtered sensible heat flux tair_gf \u00b0C 2gap-filled air temperature using REddyProc 1.2.2 vpd_gf hPa 2gap-filled vapour pressure deficit using REddyProc 1.2.2 rn_gf W m-2 2gap-filled net radiation using REddyProc 1.2.2 nee_gf mmol m-2 s-1 2gap-filled net ecosystem exchange of CO2 h_gf W m-2 2gap-filled sensible heat flux le_gf W m-2 2gap-filled latent heat flux reco mmol m-2 s-1 3ecosystem respiration partitioned from measured nee gpp_f mmol m-2 s-1 3gross primary production partitioned from measured nee and simulated reco reco_dt mmol m-2 s-1 4ecosystem respiration partitioned from measured nee gpp_dt mmol m-2 s-1 4gross primary production partitioned from measured nee 1gap-filling algorithm and 2partitioning algorithm both from Reichstein et al. (2005), 3partitioning algorithm of Lasslop et al. (2010), 4Foken (2006) 5",
+      "char_offset": 75683
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.31 Table 14: Determined variables and description of the soil water content, temperature, heat storage and matric potential measurements. Partially, the research sites had different numbers of sensors of a given type. All had temperature sensors installed at 2, 6, 15, 30, and 45 cm soil depth, and matric potential and volumetric water content sensors installed at 5, 15, 30, 45, and 75 cm depth which are given separately in the individual files. For this reason, each data file (ec*_soil_data.csv) has its own metadata file. Column Name Unit Description site - field name date YYYY-MM-DDThh:mm date of measurement st \u00b0C soil temperature measurements mp kPa matrix potential measurements res kOhms resistance of the matrix potential sensors vwc m3 m-3 volumetric water content wtt \u00b5Sec wave travel time of the vwc sensor vwc_cal m3 m-3 site-specific calibrated volumetric water content Cv J cm-3 K-1 soil volumetric heat capacity, calculated from the vwc in 5 cm dry bulk density dT K change in near surface soil temperature, calculated from the arithmetic mean of the 2 cm and 6 cm soil temperature recordings of two successive half-hourly time steps, and computed differences of the mean. dS W m-2 change in soil heat storage in the 0 - 8 cm layer between two half-hourly time steps, calculated calorimetrically from Cv and dT (de Vries, 1963) 1 only reported for research sites EC1-3 5 Table 15: Variables and description of plant biomass file (biomass.csv). Column Name Unit Description site - field name date YYYY-MM DDThh:mm measurement date plot - plot number of measurement crop - growing crop plant_no m-2 number of plants per square meter tot_abv_bm g m-2 total above ground biomass: all plant tissues (stem + leaves) including generative biomass (grains) and glume or cob kernel and it's leaves veg_bm g m-2 only vegetative, aboveground plant tissues: stem and leaves gen_bm g m-2 grains; cob kernels; seeds ear g m-2 ear weight ear_no m-2 ear number glume g m-2 glume weight cob g m-2 cob weight cob_no m-2 cob number per square meter cob_leaves g m-2 cob leaves weight tsw g 1000-1 thousand seed weight res_wc_tot % residual water content (weight-%) of total biomass samples dried at 60 deg C res_wc_veg % residual water content (weight-%) of vegetative biomass samples dried at 60 deg C res_wc_glume % residual water content (weight-%) of glume biomass samples dried at 60 deg C res_wc_gen_bm % residual water content (weight-%) of generative biomass samples dried at 60 deg C",
+      "char_offset": 78593
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.32 Table 16: Variables and description of carbon and nitrogen content of the crop biomass (cn.csv). Column Name Unit Description site - field name date YYYY-MM DDThh:mm measurement date plot - plot number crop - growing crop fraction - fraction of the crop the C and N percentages are related to : (straw = leaves and stem; generative = grains; total = (grains)+leaves+stem ) C % nitrogen content in the respective fraction's biomass N % carbon content in the respective fraction's biomass Table 17: Leaf area index measurement data and description of the LAI file (lai.csv). Column Name Unit Description site - field name date YYYY-MM DDThh:mm measurement date plot - measurement plot number crop - growing crop lai_mean m2 m-2 arithmetic mean of the measurement plot's leaf area index lai_sd m2 m-2 standard deviation of the measurement plot's leaf area index Table 18: Plant development stage and height measurement, and description of the phenology data file (phenology.csv). 5 Column Name Unit Description site - field name date YYYY-MM DDThh:mm measurement date plot - plot number crop - growing crop replicate - number of measurement within the plot bbch bbch bbch stage of the plant plant_h m height of the plant Table 19: Chamber flux measurements, the suffixes are identical to the ones in Table 9, as are the plot references, herein. Column Name Unit Description site - field name date YYYY-MM DDThh:mm measurement date plot - plot number co2 kg C ha-1 hr-1 soil CO2 evolution instrument - instrument type soil_temp \u00b0C soil temperature at measurement ambient_temp \u00b0C ambient temperature at measurement atmp hPa atmospheric pressure at measurement sub_plot_type - \"veg\" - vegetated, and \"b09\", \"b10\", \"b12\" - bare plots in the years 2009, 2010, 2012",
+      "char_offset": 81216
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Access Earth System Science Data Discussions Preprint. Discussion started: 3 March 2021 c Author(s) 2021. CC BY 4.0 License.",
+      "char_offset": 83106
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-d01308ed66e25e61"
+}

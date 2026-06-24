@@ -1,0 +1,94 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0211",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "management.residue_cover_response",
+  "attribute": "residue_management",
+  "attribute_subtype": "residue_cover_response",
+  "claim_text": "Soil temperature at crown depth under stubble is 5-7 degrees warmer than conventional fallow, improving winter survival",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "Research conducted in western South Dakota has shown that soil temperature at crown depth under stubble can be 5 to 7 degrees warmer than under conventional fallow; these differences in temperature can influence winter survival of wheat seedlings.",
+    "text_value": "Soil temperature at crown depth under stubble is 5-7 degrees warmer than conventional fallow, improving winter survival",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "state",
+    "name": "South Dakota",
+    "geo_id": "census:0400000US46",
+    "centroid": {
+      "lat": 44.446796,
+      "lon": -100.238176
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "South Dakota",
+    "geo_id": "census:0400000US46",
+    "centroid": {
+      "lat": 44.446796,
+      "lon": -100.238176
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "explicit_state",
+    "claim_location_confidence": "high",
+    "claim_location_text": "Research conducted in western South Dakota has shown that soil temperature at crown depth under stubble can be 5 to 7 degrees warmer than under conventional fallo",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "4-35 extension.sdstate.edu | \u00a9 2019, South Dakota Board of Regents Winter wheat planting in South Dakota begins in mid September with the aim of establishing a healthy a",
+    "matched_locations": [
+      {
+        "field": "claim_location:claim_text",
+        "level": "state",
+        "name": "South Dakota",
+        "evidence_text": "Research conducted in western South Dakota has shown that soil temperature at crown depth under stubble can be 5 to 7 degrees warmer than under conventional fallo"
+      },
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "South Dakota",
+        "evidence_text": "4-35 extension.sdstate.edu | \u00a9 2019, South Dakota Board of Regents Winter wheat planting in South Dakota begins in mid September with the aim of establishing a healthy a"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-04-Wheat.pdf"
+    ],
+    "source_title": "https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-04-Wheat.pdf",
+    "source_domain": "extension.sdstate.edu",
+    "document_type": "pdf",
+    "source_tier_id": "extension_publication",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Research conducted in western South Dakota has shown that soil temperature at crown depth under stubble can be 5 to 7 degrees warmer than under conventional fallow; these differences in temperature can influence winter survival of wheat seedlings.",
+    "manifest_version": "0.4.0",
+    "notes": "2019",
+    "source_publication_year": 2019,
+    "document_id": "doc-d2a2acac0e8658eb",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "winter wheat, western South Dakota"
+  }
+}

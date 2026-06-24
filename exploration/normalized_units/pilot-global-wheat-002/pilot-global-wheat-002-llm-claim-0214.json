@@ -1,0 +1,75 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0214",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "phenology.tillering_duration",
+  "attribute": "phenology_timing",
+  "attribute_subtype": "tillering_duration",
+  "claim_text": "Maximum wheat tiller number is established at BBCH 20 (tillering); reduction to productive tillers occurs from BBCH 20 to BBCH 30.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "During the tiller differentiation process (BBCH 20, tillering stage, cf. Figure 3), the maximum number of tillers is established. Transitioning from BBCH 20 to BBCH 30 (stem elongation stage, cf. Figure 3), the number of established tillers is reduced to productive, spike-bearing tillers.",
+    "text_value": "Maximum wheat tiller number is established at BBCH 20 (tillering); reduction to productive tillers occurs from BBCH 20 to BBCH 30.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf"
+    ],
+    "source_title": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf",
+    "source_domain": "www.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "During the tiller differentiation process (BBCH 20, tillering stage, cf. Figure 3), the maximum number of tillers is established. Transitioning from BBCH 20 to BBCH 30 (stem elongation stage, cf. Figure 3), the number of established tillers is reduced to productive, spike-bearing tillers.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-d9b7385669230d47",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "bbch_applicability": {
+    "bbch_min": 20,
+    "bbch_max": 30,
+    "evidence_text": "During the tiller differentiation process (BBCH 20, tillering stage, cf. Figure 3), the maximum number of tillers is established. Transitioning from BBCH 20 to BBCH 30 (stem elongation stage, cf. Figure 3), the number of established tillers is reduced to productive, spike-bearing tillers.",
+    "confidence": "high"
+  }
+}

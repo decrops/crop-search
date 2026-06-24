@@ -136,6 +136,7 @@ class DiscoveryRunner:
                     }
                 )
 
+        self._inject_seeds(run_id, ledger_rows)
         self._stamp_drop_reasons(ledger_rows)
         self._write_jsonl(out_dir / "results.jsonl", ledger_rows)
         self._write_jsonl(out_dir / "retry_queue.jsonl", retry_queue)
@@ -143,6 +144,49 @@ class DiscoveryRunner:
         summary = self._summary(run_id, query_plan, ledger_rows, retry_queue, out_dir, resume)
         (out_dir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
         return summary
+
+    def _inject_seeds(self, run_id: str, ledger_rows: List[Dict[str, Any]]) -> None:
+        """Add curated registry seeds to the ledger as first-class candidates.
+
+        The connectors only surface API-discovered sources; the authoritative
+        curated seeds (FAO/AHDB/CIMMYT/extension) must also enter discovery so
+        fetch selection can pick them and retrieval-eval can score them. Seeds
+        get a strong fixed score and open-full-text status; canonical_key dedup
+        merges a seed with the same source found by a connector.
+        """
+        from .seeds import seeds_for_run
+
+        try:
+            seeds = seeds_for_run(self.repo_root, self.run_config)
+        except FileNotFoundError:
+            return  # no registry configured/available -> connectors only
+
+        for seed in seeds:
+            source_url = seed.get("source_url", "")
+            if not source_url:
+                continue
+            tier = seed.get("source_tier_id", "")
+            for parameter_id in seed.get("parameter_ids", []) or [""]:
+                ledger_rows.append(
+                    {
+                        "ledger_id": _ledger_id(run_id, len(ledger_rows) + 1),
+                        "query": "curated_seed",
+                        "parameter_id": parameter_id,
+                        "source_tier": tier,
+                        "provider": "source_seed",
+                        "discovery_rank": 1,
+                        "score": 15,
+                        "score_components": {"curated_seed": 15},
+                        "source_url": source_url,
+                        "canonical_key": canonical_key(source_url, ""),
+                        "doi": "",
+                        "result_type": "",
+                        "access_status": "open_full_text",
+                        "source_domain": urlparse(source_url).netloc.lower(),
+                        "title": seed.get("title", source_url),
+                        "discovery_drop_reason": "",
+                    }
+                )
 
     def _stamp_drop_reasons(self, rows: List[Dict[str, Any]]) -> None:
         """Non-destructive: stamp a reason, never remove a row (ledger stays complete)."""

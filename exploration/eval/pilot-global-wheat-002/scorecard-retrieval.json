@@ -1,0 +1,35 @@
+{
+  "run_id": "pilot-global-wheat-002",
+  "eval_type": "retrieval",
+  "generated_at": "2026-06-24T10:44:18Z",
+  "ledger_available": true,
+  "ledger_rows": 2022,
+  "gold_records": 5,
+  "metrics": {
+    "source_recall": 1.0,
+    "fetch_selection_recall": 1.0,
+    "mean_rank": 1.0
+  },
+  "per_domain": {
+    "nutrients": {
+      "gold": 2,
+      "source_recall": 1.0,
+      "fetch_selection_recall": 1.0
+    },
+    "phenology": {
+      "gold": 1,
+      "source_recall": 1.0,
+      "fetch_selection_recall": 1.0
+    },
+    "stress": {
+      "gold": 1,
+      "source_recall": 1.0,
+      "fetch_selection_recall": 1.0
+    },
+    "water": {
+      "gold": 1,
+      "source_recall": 1.0,
+      "fetch_selection_recall": 1.0
+    }
+  }
+}

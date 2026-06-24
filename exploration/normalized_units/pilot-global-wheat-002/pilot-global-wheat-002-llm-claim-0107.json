@@ -1,0 +1,83 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0107",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "temperature.soil_emergence_temperature",
+  "attribute": "temperature_requirement",
+  "attribute_subtype": "soil_emergence_temperature",
+  "claim_text": "Recommended minimum soil temperature at planting for spring wheat germination is 37\u00b0F.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "Recommended minimum temperatures needed for germination of selected agricultural crops. Agronomic Crops Minimum Soil Temperature at Planting (\u00b0F) ... Spring wheat ... 37",
+    "numeric_value": 2.78,
+    "qualifier": "threshold",
+    "unit": "celsius"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "Nebraska",
+    "geo_id": "census:0400000US31",
+    "centroid": {
+      "lat": 41.543305,
+      "lon": -99.811864
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "\u00ae \u00ae Know how. Know now. University of Nebraska\u2013Lincoln Extension, Institute of Agriculture and Natural Resources G2122 Soil Temperature:AGuide for Planting Agronomic",
+    "matched_locations": [
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "Nebraska",
+        "evidence_text": "\u00ae \u00ae Know how. Know now. University of Nebraska\u2013Lincoln Extension, Institute of Agriculture and Natural Resources G2122 Soil Temperature:AGuide for Planting Agronomic"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://extensionpubs.unl.edu/publication/g2122/2012/pdf/view/g2122-2012.pdf"
+    ],
+    "source_title": "https://extensionpubs.unl.edu/publication/g2122/na/pdf/view",
+    "source_domain": "extensionpubs.unl.edu",
+    "document_type": "pdf",
+    "source_tier_id": "extension_publication",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Recommended minimum temperatures needed for germination of selected agricultural crops. Agronomic Crops Minimum Soil Temperature at Planting (\u00b0F) ... Spring wheat ... 37",
+    "manifest_version": "0.4.0",
+    "notes": "1998",
+    "source_publication_year": 1998,
+    "document_id": "doc-6013251821bc416b",
+    "block_type": "table",
+    "table_label": "Table I. Recommended minimum temperatures needed for germination of selected agricultural crops"
+  },
+  "observation_type": "threshold",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready"
+}

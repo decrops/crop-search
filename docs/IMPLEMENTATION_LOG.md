@@ -633,3 +633,52 @@ The plan keeps the existing crop-rotation approach as the high-level temporal im
 - Pair-specific rotation evidence is modeled with subject crop, object crop, direction, relationship mode, effect, mechanisms, context, and provenance.
 
 Compatibility posture: non-breaking if relationship work is implemented as a separate staged path with schema-first artifacts, disabled-by-default pair-aware query planning, separate relationship extraction outputs, and unchanged existing normalized claim/entity semantics.
+
+Reviewed and tightened the relationship matrix plan after design feedback while preserving the full `N * N` matrix:
+
+- Reframed the current crop universe as 7 configured crop profiles, so the full ordered matrix is 49 crop-id cells and complete rotation coverage is practical now.
+- Made the dense matrix strictly `crop_id x crop_id`; crop-group relationship evidence now belongs in a separate rollup layer rather than extra matrix cells.
+- Added mode directionality and keying rules: every matrix cell keeps an `ordered_pair_key`, while symmetric modes deduplicate evidence under a sorted `canonical_relationship_key` and mirror summaries into both ordered cells.
+- Added a routing boundary so named-pair rotation evidence goes to the relationship extractor, broad unnamed rotation advice stays in `management.rotation_recommendation`, and the same evidence span is not emitted into both paths.
+- Specified that the future relationship validator must treat optional fields as genuinely optional from day one.
+
+## 2026-06-24: Crop relationship matrix foundation
+
+Implemented the non-breaking foundation of `.planning/crop-relationship-matrix-plan.md`.
+
+Config/schema:
+
+- Added `config/relationships/relationship-vocabulary.json` with nine relationship modes: rotation, continuous cropping, double cropping, intercropping, relay cropping, strip cropping, mixed cropping, companion cropping, and cover-crop fit.
+- Added closed JSON schemas for relationship vocabulary, dense matrix skeletons, relationship query plans, and future relationship claims.
+- Relationship claim schema keeps optional fields genuinely optional from day one, so future validators should not inherit the old exact-key extraction-contract problem.
+
+Code/CLI:
+
+- Added `src/crop_search_framework/relationships.py` for crop-universe loading, ordered `crop_id x crop_id` pair generation, full matrix skeleton creation, mode directionality, canonical relationship keys, and source-tier-aware relationship query rendering.
+- Added `crop-framework write-relationship-matrix`.
+- Added `crop-framework plan-relationship-queries`.
+- Added `crop-framework discover-relationships`, which executes pair-aware searches into `exploration/relationships/discovery/<run_id>/results.jsonl`.
+- Relationship discovery rows preserve `subject_crop_id`, `object_crop_id`, `relationship_mode`, `relationship_subtype`, `ordered_pair_key`, `canonical_relationship_key`, and `relationship_source_key`.
+- Extended `schemas/raw-capture.schema.json` with optional relationship context fields so future relationship fetch captures can carry pair metadata without breaking existing single-crop captures.
+- Updated the capability map generator and README to expose the relationship subsystem.
+
+Generated artifacts:
+
+- `exploration/relationships/matrix/current.json`: 7 crops, 49 ordered cells, all initialized to `not_searched`; all nine relationship modes are present under each cell.
+- `exploration/relationships/query_plans/rotation-current.json`: complete current-universe rotation query plan with 49 ordered pairs × 1 query per pair × 5 source tiers = 245 queries.
+- Symmetric mode keys are canonicalized without shrinking the matrix: for example, soybean/corn intercropping stores evidence under `intercrop|corn|soybean` while the ordered cell remains `soybean|corn`.
+
+Validation:
+
+- `validate crop-relationship-vocabulary.schema.json config/relationships/relationship-vocabulary.json`
+- `validate crop-relationship-matrix.schema.json exploration/relationships/matrix/current.json`
+- `validate crop-relationship-query-plan.schema.json exploration/relationships/query_plans/rotation-current.json`
+- `validate raw-capture.schema.json exploration/raw/pilot-global-wheat-001/pilot-global-wheat-001-capture-451.json`
+- `tests/test_relationships.py` covers the 49-cell matrix, crop-group rollup exclusion, symmetric canonical keys, rotation query planning, optional claim fields, and relationship discovery ledger context.
+
+Still pending:
+
+- Relationship fetch execution.
+- Relationship extraction from documents.
+- Relationship claim normalization/review/promotion.
+- Populating matrix cells from evidence and rendering farmer-facing relationship views.

@@ -1,0 +1,25 @@
+{
+  "claims": [
+    {
+      "parameter_id": "nutrients.nitrogen_use_efficiency",
+      "value_type": "numeric",
+      "numeric_value": 40,
+      "range_min": null,
+      "range_max": null,
+      "unit": "% reduction in nitrogen required",
+      "qualifier": "descriptive",
+      "evidence_text": "This nanoU-NPK was tested on durum wheat where it resulted in a 40% reduction in the amount of nitrogen required as compared to the conventional urea treatment.",
+      "claim_summary": "A urea-doped calcium phosphate nanofertilizer (nanoU-NPK) reduced the nitrogen required by durum wheat by 40% versus conventional urea.",
+      "extraction_confidence": "low",
+      "cultivar": "durum wheat (Triticum durum)",
+      "management_system": "nanofertilizer (nanoU-NPK)",
+      "bbch_min": null,
+      "bbch_max": null,
+      "document_id": "doc-0e3afd37a3848cd7",
+      "block_anchor": null,
+      "block_type": "paragraph",
+      "page": null,
+      "table_label": null
+    }
+  ]
+}

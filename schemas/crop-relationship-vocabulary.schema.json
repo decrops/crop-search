@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/crop-relationship-vocabulary.schema.json",
+  "title": "CropRelationshipVocabulary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "default_modes", "modes", "effect_labels", "mechanism_tags"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "default_modes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "modes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["mode_id", "label", "directionality", "query_templates"],
+        "properties": {
+          "mode_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 3
+          },
+          "directionality": {
+            "type": "string",
+            "enum": ["directional", "symmetric"]
+          },
+          "query_templates": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/query_template"
+            }
+          },
+          "self_query_templates": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/query_template"
+            }
+          }
+        }
+      }
+    },
+    "effect_labels": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": ["beneficial", "compatible", "conditional", "neutral", "incompatible", "avoid", "unknown"]
+      }
+    },
+    "mechanism_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    }
+  },
+  "$defs": {
+    "query_template": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subtype", "template"],
+      "properties": {
+        "subtype": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "template": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    }
+  }
+}

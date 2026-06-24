@@ -1,0 +1,206 @@
+{
+  "version": "0.1.0",
+  "default_modes": [
+    "rotation"
+  ],
+  "modes": [
+    {
+      "mode_id": "rotation",
+      "label": "Crop rotation",
+      "directionality": "directional",
+      "query_templates": [
+        {
+          "subtype": "previous_crop_effect",
+          "template": "{subject_crop} after {object_crop} rotation yield disease"
+        },
+        {
+          "subtype": "previous_crop_effect",
+          "template": "{subject_crop} following {object_crop} previous crop effect"
+        },
+        {
+          "subtype": "rotation_interval",
+          "template": "{subject_crop} {object_crop} crop sequence rotation interval"
+        },
+        {
+          "subtype": "nutrient_interaction",
+          "template": "{subject_crop} rotation with {object_crop} nitrogen credit"
+        }
+      ],
+      "self_query_templates": [
+        {
+          "subtype": "continuous_cropping_risk",
+          "template": "{subject_crop} continuous cropping disease break"
+        },
+        {
+          "subtype": "minimum_rotation_interval",
+          "template": "{subject_crop} monoculture rotation interval"
+        },
+        {
+          "subtype": "continuous_cropping_risk",
+          "template": "{subject_crop} continuous {subject_crop} management"
+        }
+      ]
+    },
+    {
+      "mode_id": "continuous_cropping",
+      "label": "Continuous cropping",
+      "directionality": "directional",
+      "query_templates": [
+        {
+          "subtype": "continuous_cropping_risk",
+          "template": "{subject_crop} continuous cropping yield disease"
+        },
+        {
+          "subtype": "minimum_rotation_interval",
+          "template": "{subject_crop} years between crops disease break"
+        }
+      ],
+      "self_query_templates": [
+        {
+          "subtype": "continuous_cropping_risk",
+          "template": "{subject_crop} continuous cropping disease break"
+        },
+        {
+          "subtype": "minimum_rotation_interval",
+          "template": "{subject_crop} monoculture rotation interval"
+        }
+      ]
+    },
+    {
+      "mode_id": "double_crop",
+      "label": "Double cropping",
+      "directionality": "directional",
+      "query_templates": [
+        {
+          "subtype": "double_crop_window",
+          "template": "{subject_crop} after {object_crop} double crop planting window"
+        },
+        {
+          "subtype": "harvest_planting_window",
+          "template": "{subject_crop} planting after {object_crop} harvest"
+        }
+      ]
+    },
+    {
+      "mode_id": "intercrop",
+      "label": "Intercropping",
+      "directionality": "symmetric",
+      "query_templates": [
+        {
+          "subtype": "intercrop_compatibility",
+          "template": "{subject_crop} {object_crop} intercropping compatibility"
+        },
+        {
+          "subtype": "land_equivalent_ratio",
+          "template": "{subject_crop} {object_crop} land equivalent ratio"
+        },
+        {
+          "subtype": "row_arrangement",
+          "template": "{subject_crop} {object_crop} row ratio intercrop"
+        }
+      ]
+    },
+    {
+      "mode_id": "relay_crop",
+      "label": "Relay cropping",
+      "directionality": "directional",
+      "query_templates": [
+        {
+          "subtype": "relay_crop_window",
+          "template": "{subject_crop} {object_crop} relay cropping window"
+        },
+        {
+          "subtype": "temporal_arrangement",
+          "template": "{subject_crop} relay planted into {object_crop}"
+        }
+      ]
+    },
+    {
+      "mode_id": "strip_crop",
+      "label": "Strip cropping",
+      "directionality": "symmetric",
+      "query_templates": [
+        {
+          "subtype": "strip_crop_arrangement",
+          "template": "{subject_crop} {object_crop} strip cropping arrangement"
+        },
+        {
+          "subtype": "pair_yield_effect",
+          "template": "{subject_crop} {object_crop} strip intercropping yield"
+        }
+      ]
+    },
+    {
+      "mode_id": "mixed_crop",
+      "label": "Mixed cropping",
+      "directionality": "symmetric",
+      "query_templates": [
+        {
+          "subtype": "mixed_crop_compatibility",
+          "template": "{subject_crop} {object_crop} mixed cropping yield"
+        },
+        {
+          "subtype": "plant_density_adjustment",
+          "template": "{subject_crop} {object_crop} crop mixture seeding rate"
+        }
+      ]
+    },
+    {
+      "mode_id": "companion_crop",
+      "label": "Companion cropping",
+      "directionality": "symmetric",
+      "query_templates": [
+        {
+          "subtype": "companion_crop_recommendation",
+          "template": "{subject_crop} {object_crop} companion planting disease"
+        },
+        {
+          "subtype": "companion_crop_recommendation",
+          "template": "{subject_crop} {object_crop} companion crop compatibility"
+        }
+      ]
+    },
+    {
+      "mode_id": "cover_crop",
+      "label": "Cover crop fit",
+      "directionality": "directional",
+      "query_templates": [
+        {
+          "subtype": "cover_crop_compatibility",
+          "template": "{subject_crop} cover crop before {object_crop}"
+        },
+        {
+          "subtype": "cover_crop_termination",
+          "template": "{subject_crop} {object_crop} cover crop termination timing"
+        }
+      ]
+    }
+  ],
+  "effect_labels": [
+    "beneficial",
+    "compatible",
+    "conditional",
+    "neutral",
+    "incompatible",
+    "avoid",
+    "unknown"
+  ],
+  "mechanism_tags": [
+    "nitrogen",
+    "nutrient_competition",
+    "water_competition",
+    "light_competition",
+    "canopy_structure",
+    "weed_suppression",
+    "pest_suppression",
+    "pest_carryover",
+    "disease_break",
+    "disease_carryover",
+    "allelopathy",
+    "residue",
+    "soil_structure",
+    "harvest_logistics",
+    "planting_timing",
+    "market_or_equipment_fit"
+  ]
+}

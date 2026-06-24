@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "parameter_id": "crop_protection.weed_management",
+      "value_type": "text",
+      "numeric_value": null,
+      "range_min": null,
+      "range_max": null,
+      "unit": null,
+      "qualifier": "recommended",
+      "evidence_text": "herbicide dose of “mesosulfuron methyl + iodosulfuron methyl sodium + diflufenican + mefenpyr-diethyl” Branded (Othello OD) in 6 doses of 0, 0.32, 0.64, 0.96, 1.28 and 1.6 L/ha (recommended dose 1.6 L/ha)",
+      "claim_summary": "Wheat weeds Sinapis arvensis and Avena were controlled with the herbicide Othello OD (mesosulfuron-methyl + iodosulfuron-methyl-sodium + diflufenican + mefenpyr-diethyl) at a recommended dose of 1.6 L/ha.",
+      "extraction_confidence": "high",
+      "cultivar": null,
+      "management_system": null,
+      "bbch_min": null,
+      "bbch_max": null,
+      "document_id": "doc-dd068f39b77c3ca5",
+      "block_type": "paragraph",
+      "page": null,
+      "table_label": null
+    },
+    {
+      "parameter_id": "crop_protection.weed_management",
+      "value_type": "text",
+      "numeric_value": null,
+      "range_min": null,
+      "range_max": null,
+      "unit": null,
+      "qualifier": "recommended",
+      "evidence_text": "the dosage required for reducing the weed biomass to less than 150 g/m 2 with consuming of 0, 45, 90, 180, 250 and 330 kg/ha of urea fertilizer was predicted to be 0.64, 1.04, 1.12, 0.96, 0.88, and 0.80L/ha of herbicide, respectively",
+      "claim_summary": "In wheat, the Othello OD herbicide dose needed to reduce weed biomass below 150 g/m2 varied with urea fertilizer level (0.64 to 1.12 L/ha across 0-330 kg/ha urea).",
+      "extraction_confidence": "high",
+      "cultivar": null,
+      "management_system": null,
+      "bbch_min": null,
+      "bbch_max": null,
+      "document_id": "doc-dd068f39b77c3ca5",
+      "block_type": "paragraph",
+      "page": null,
+      "table_label": null
+    }
+  ]
+}

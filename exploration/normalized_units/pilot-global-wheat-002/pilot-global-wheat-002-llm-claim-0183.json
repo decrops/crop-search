@@ -1,0 +1,72 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0183",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "stress.drought_tolerance",
+  "attribute": "stress_sensitivity",
+  "attribute_subtype": "drought_tolerance",
+  "claim_text": "The synthetic hexaploid wheat line SH349 is drought tolerant.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "The SH 349 (D genome based drought tolerant syntheticFatima et al., 26 hexaploid wheat) has the cross number CIGM92.1727. This is the pollen parent and it is drought tolerant.",
+    "text_value": "The synthetic hexaploid wheat line SH349 is drought tolerant.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.19045/bspab.2014.31004"
+    ],
+    "source_title": "https://doi.org/10.19045/bspab.2014.31004",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The SH 349 (D genome based drought tolerant syntheticFatima et al., 26 hexaploid wheat) has the cross number CIGM92.1727. This is the pollen parent and it is drought tolerant.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-c234bac1d16e1e40",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "SH349"
+  }
+}

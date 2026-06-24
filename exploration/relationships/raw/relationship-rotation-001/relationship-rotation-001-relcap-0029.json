@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0029",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "rice",
+  "object_crop_id": "cotton",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "rice|cotton",
+  "canonical_relationship_key": "rotation|rice|cotton",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.3114/sim.2024.108.01"
+  },
+  "source_url": "https://europepmc.org/articles/PMC11293126",
+  "source_domain": "europepmc.org",
+  "accessed_at": "2026-06-24T14:32:14Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://europepmc.org/article/PMC/11293126",
+  "source_title": "Europe PMC",
+  "content_type": "text/html;charset=UTF-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-europepmc.org.html",
+  "snippet": "1",
+  "raw_text": "1",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

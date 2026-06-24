@@ -1,0 +1,75 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0068",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "stress.heat_sensitive_stage",
+  "attribute": "stress_sensitivity",
+  "attribute_subtype": "heat_sensitive_stage",
+  "claim_text": "High temperature during grain filling shortens the grain-fill period and reduces grain weight in wheat.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "High temperature and insuf\ufb01cient water supply lead to shorter grain \ufb01lling periods and thus a low average grain weight and even shrivelled grains",
+    "text_value": "High temperature during grain filling shortens the grain-fill period and reduces grain weight in wheat.",
+    "qualifier": "risk"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf"
+    ],
+    "source_title": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1319938/pdf",
+    "source_domain": "www.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "High temperature and insuf\ufb01cient water supply lead to shorter grain \ufb01lling periods and thus a low average grain weight and even shrivelled grains",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-d9b7385669230d47",
+    "block_type": "paragraph"
+  },
+  "observation_type": "risk",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "bbch_applicability": {
+    "bbch_min": 70,
+    "bbch_max": 99,
+    "evidence_text": "High temperature and insuf\ufb01cient water supply lead to shorter grain \ufb01lling periods and thus a low average grain weight and even shrivelled grains",
+    "confidence": "high"
+  }
+}

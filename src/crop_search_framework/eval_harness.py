@@ -34,17 +34,26 @@ def capture_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def load_gold_records(gold_dir: Path) -> List[Dict[str, Any]]:
-    """Load and flatten gold records from every ``<domain>.json`` in a dir."""
+def load_gold_records(gold_dir: Path, run_id: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Load and flatten gold records from every ``<domain>.json`` in a dir.
+
+    Gold files/records may carry a ``run_id``; when ``run_id`` is given, only
+    records for that run (or with no run_id) are returned, so cross-run gold
+    sets in one directory don't pollute a single run's score.
+    """
     records: List[Dict[str, Any]] = []
     if not gold_dir.exists():
         return records
     for path in sorted(gold_dir.glob("*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
         domain = payload.get("domain", path.stem)
+        file_run = payload.get("run_id")
         for record in payload.get("records", []):
             record = dict(record)
             record.setdefault("domain", domain)
+            rec_run = record.get("run_id", file_run)
+            if run_id is not None and rec_run is not None and rec_run != run_id:
+                continue
             records.append(record)
     return records
 
@@ -173,7 +182,7 @@ def load_extractions(llm_cache_dir: Path) -> Dict[str, List[Dict[str, Any]]]:
 
 def eval_extraction(repo_root: Path, run_id: str, gold_dir: Optional[Path] = None) -> Dict[str, Any]:
     gold_dir = gold_dir or repo_root / "tests" / "golden" / "extraction"
-    gold = load_gold_records(gold_dir)
+    gold = load_gold_records(gold_dir, run_id=run_id)
     extractions = load_extractions(repo_root / "exploration" / "llm_cache" / run_id)
 
     # Group gold by the (document_id, parameter_id) cell it adjudicates.
@@ -275,7 +284,7 @@ def _ledger_matches_gold(row: Dict[str, Any], record: Dict[str, Any]) -> bool:
 
 def eval_retrieval(repo_root: Path, run_id: str, gold_dir: Optional[Path] = None) -> Dict[str, Any]:
     gold_dir = gold_dir or repo_root / "tests" / "golden" / "retrieval"
-    gold = load_gold_records(gold_dir)
+    gold = load_gold_records(gold_dir, run_id=run_id)
     ledger_path = repo_root / "exploration" / "discovery" / run_id / "results.jsonl"
     queue_path = repo_root / "exploration" / "discovery" / run_id / "fetch_queue.jsonl"
     ledger = load_ledger(ledger_path)

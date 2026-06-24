@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0065",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "wheat",
+  "object_crop_id": "corn",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "wheat|corn",
+  "canonical_relationship_key": "rotation|wheat|corn",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.1017/s0043174500084307"
+  },
+  "source_url": "https://doi.org/10.1017/s0043174500084307",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:32:18Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://www.cambridge.org/core/journals/weed-science/article/abs/influence-of-wheat-triticum-aestivum-straw-mulch-and-metolachlor-on-corn-zea-mays-growth-and-yield/787F8357146247A9931D516600051F8D",
+  "source_title": "Influence of Wheat (Triticum aestivum) Straw Mulch and Metolachlor on Corn (Zea mays) Growth and Yield | Weed Science | Cambridge Core",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-www.cambridge.org.html",
+  "snippet": "Published online by Cambridge University Press: 12 June 2017\n\nThe presence of wheat straw mulch in no-tillage systems can increase corn yields in the central Great Plains, but information is needed on the optimal mulch level and the toxicity of metolachlor on corn growth. Researc",
+  "raw_text": "Published online by Cambridge University Press: 12 June 2017\n\nThe presence of wheat straw mulch in no-tillage systems can increase corn yields in the central Great Plains, but information is needed on the optimal mulch level and the toxicity of metolachlor on corn growth. Research was conducted to determine the effect of winter wheat straw mulch levels of 0, 1.7, 3.4, 5.1, and 6.8 t ha \u20131 and metolachlor rates of 0, 0.5, 1.0, and 1.5X-rates on corn growth and yield in a winter wheat-ecofallow-corn-fallow rotation at three locations across Nebraska. Response of corn to different mulch levels and metolachlor rates varied with climate and location. In general, early corn growth was retarded by increasing amounts of mulch due to reduced soil temperatures, but after tasseling corn grew taller under increasing mulch levels because of increased soil moisture. Soil water content, kernel moisture at harvest, stover dry matter, total dry matter, ears per plant, and kernel weight increased with increasing mulch level. Corn grain yield reached a maximum at a mulch level of 5.1 t ha \u20131 . Kernel weight, kernel number, and grain yield increased with higher mulch levels and 0.5 and 1.0X metolachlor rates as weed competition was reduced, but decreased at the 1.5X-rate of metolachlor due to corn injury. Lack of sufficient growing degree-days to compensate for lower soil temperatures or corn injury reduced corn yields at the higher mulch levels and 1.5X-rate of metolachlor in west-central and western Nebraska. From a practical standpoint, a mulch level of 3.4 to 5.1 t ha \u20131 and a metolachlor rate near the X-rate should increase corn yield (14 to 15%) over unmulched corn in the central Great Plains.\n\nView all Google Scholar citations for this article.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

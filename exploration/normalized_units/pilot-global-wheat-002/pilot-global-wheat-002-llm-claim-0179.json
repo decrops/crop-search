@@ -1,0 +1,76 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0179",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "harvest.physiological_maturity",
+  "attribute": "phenology_timing",
+  "attribute_subtype": "physiological_maturity",
+  "claim_text": "Early-maturing doubled-haploid wheat lines reached physiological maturity in 113 to 144 days.",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "Days to Physiological Maturity (Early) ... 84 113 ... 15 144",
+    "range_min": 113.0,
+    "range_max": 144.0,
+    "qualifier": "descriptive",
+    "unit": "days"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.19045/bspab.2014.31004"
+    ],
+    "source_title": "https://doi.org/10.19045/bspab.2014.31004",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Days to Physiological Maturity (Early) ... 84 113 ... 15 144",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-c234bac1d16e1e40",
+    "block_type": "paragraph",
+    "page": 28,
+    "table_label": "Table 3"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "Opata x SH349 doubled haploids (early lines)"
+  }
+}

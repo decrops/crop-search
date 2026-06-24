@@ -24,8 +24,30 @@ from .postgres_loader import PostgresLoader
 from .eval_harness import eval_extraction, eval_retrieval
 from .promote import PromotionRunner
 from .parameters import query_plan_for_run
+from .relationships import (
+    DEFAULT_CROP_DIR,
+    DEFAULT_SOURCE_TIER_POLICY_PATH,
+    DEFAULT_VOCABULARY_PATH,
+    build_relationship_query_plan,
+    discover_relationships,
+    write_relationship_matrix,
+    write_relationship_query_plan,
+)
+from .relationship_pipeline import (
+    build_relationship_corpus,
+    eval_relationships,
+    fetch_relationships,
+    populate_relationship_matrix,
+    select_relationship_fetch,
+    validate_relationship_claims,
+)
 from .review import ClaimReviewRunner
 from .schema_registry import SchemaRegistry
+
+
+DEFAULT_VAULT = (
+    "/Users/admin/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tino_deCrops"
+)
 
 
 def repo_root() -> Path:
@@ -143,6 +165,113 @@ def plan_queries_command(args: argparse.Namespace) -> int:
             indent=2,
         )
     )
+    return 0
+
+
+def write_relationship_matrix_command(args: argparse.Namespace) -> int:
+    summary = write_relationship_matrix(
+        repo_root(),
+        resolve_path(args.output),
+        crop_dir=args.crop_dir,
+        vocabulary_path=args.vocabulary,
+        mode_ids=args.mode,
+        include_self_pairs=not args.exclude_self_pairs,
+    )
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def plan_relationship_queries_command(args: argparse.Namespace) -> int:
+    kwargs = {
+        "crop_dir": args.crop_dir,
+        "vocabulary_path": args.vocabulary,
+        "mode_ids": args.mode,
+        "source_tier_policy_path": args.source_tier_policy_path,
+        "source_tier_policy_id": args.source_tier_policy_id,
+        "source_tier_ids": args.source_tier_id,
+        "queries_per_pair": args.queries_per_pair,
+        "query_terms_per_source_tier": args.query_terms_per_source_tier,
+        "max_pairs": args.max_pairs,
+        "region_name": args.region,
+        "include_self_pairs": not args.exclude_self_pairs,
+    }
+    if args.output:
+        summary = write_relationship_query_plan(repo_root(), resolve_path(args.output), **kwargs)
+        print(json.dumps(summary, indent=2))
+        return 0
+    plan = build_relationship_query_plan(repo_root(), **kwargs)
+    print(json.dumps(plan, indent=2))
+    return 0
+
+
+def discover_relationships_command(args: argparse.Namespace) -> int:
+    summary = discover_relationships(
+        repo_root(),
+        args.run_id,
+        crop_dir=args.crop_dir,
+        vocabulary_path=args.vocabulary,
+        mode_ids=args.mode,
+        source_tier_policy_path=args.source_tier_policy_path,
+        source_tier_policy_id=args.source_tier_policy_id,
+        source_tier_ids=args.source_tier_id,
+        queries_per_pair=args.queries_per_pair,
+        query_terms_per_source_tier=args.query_terms_per_source_tier,
+        max_pairs=args.max_pairs,
+        max_results_per_query=args.max_results_per_query,
+        region_name=args.region,
+        include_self_pairs=not args.exclude_self_pairs,
+        limit_queries=args.limit_queries,
+    )
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def normalize_units_command(args: argparse.Namespace) -> int:
+    from .unit_normalize import normalize_units_run
+    print(json.dumps(normalize_units_run(repo_root(), args.run_id, claims_subdir=args.claims_subdir, output_subdir=args.output_subdir), indent=2))
+    return 0
+
+
+def render_calibration_command(args: argparse.Namespace) -> int:
+    from .calibration import render_local_calibration
+    summary = render_local_calibration(
+        repo_root(), args.run_id, crop=args.crop, region=args.region,
+        vault_path=Path(args.vault).expanduser(), claims_subdir=args.claims_subdir, dry_run=args.dry_run,
+    )
+    if args.dry_run:
+        print(summary.pop("preview", ""))
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def select_relationship_fetch_command(args: argparse.Namespace) -> int:
+    print(json.dumps(select_relationship_fetch(repo_root(), args.run_id, policy_path=args.policy), indent=2))
+    return 0
+
+
+def fetch_relationships_command(args: argparse.Namespace) -> int:
+    print(json.dumps(fetch_relationships(repo_root(), args.run_id, resume=args.resume, limit=args.limit, crop=args.crop), indent=2))
+    return 0
+
+
+def build_relationship_corpus_command(args: argparse.Namespace) -> int:
+    print(json.dumps(build_relationship_corpus(repo_root(), args.run_id), indent=2))
+    return 0
+
+
+def populate_relationship_matrix_command(args: argparse.Namespace) -> int:
+    print(json.dumps(populate_relationship_matrix(repo_root(), args.run_id, mode_ids=args.mode), indent=2))
+    return 0
+
+
+def validate_relationship_claims_command(args: argparse.Namespace) -> int:
+    report = validate_relationship_claims(repo_root(), args.run_id)
+    print(json.dumps({k: v for k, v in report.items() if k != "claims"}, indent=2))
+    return 0 if not report["invalid"] else 1
+
+
+def eval_relationships_command(args: argparse.Namespace) -> int:
+    print(json.dumps(eval_relationships(repo_root(), args.run_id), indent=2))
     return 0
 
 
@@ -385,6 +514,256 @@ def parser() -> argparse.ArgumentParser:
     )
     plan_queries.set_defaults(func=plan_queries_command)
 
+    relationship_matrix = subparsers.add_parser(
+        "write-relationship-matrix",
+        help="Write the dense crop_id x crop_id relationship matrix skeleton",
+    )
+    relationship_matrix.add_argument(
+        "--output",
+        default="exploration/relationships/matrix/current.json",
+        help="Relationship matrix output path",
+    )
+    relationship_matrix.add_argument(
+        "--crop-dir",
+        default=DEFAULT_CROP_DIR,
+        help="Crop profile directory",
+    )
+    relationship_matrix.add_argument(
+        "--vocabulary",
+        default=DEFAULT_VOCABULARY_PATH,
+        help="Relationship vocabulary path",
+    )
+    relationship_matrix.add_argument(
+        "--mode",
+        action="append",
+        default=None,
+        help="Relationship mode to include; repeatable. Defaults to all vocabulary modes.",
+    )
+    relationship_matrix.add_argument(
+        "--exclude-self-pairs",
+        action="store_true",
+        help="Omit same-crop cells; default keeps them for continuous cropping.",
+    )
+    relationship_matrix.set_defaults(func=write_relationship_matrix_command)
+
+    relationship_queries = subparsers.add_parser(
+        "plan-relationship-queries",
+        help="Render source-tier-aware crop relationship queries without fetching sources",
+    )
+    relationship_queries.add_argument(
+        "--output",
+        default="",
+        help="Optional query-plan output path. If omitted, prints the full plan.",
+    )
+    relationship_queries.add_argument(
+        "--crop-dir",
+        default=DEFAULT_CROP_DIR,
+        help="Crop profile directory",
+    )
+    relationship_queries.add_argument(
+        "--vocabulary",
+        default=DEFAULT_VOCABULARY_PATH,
+        help="Relationship vocabulary path",
+    )
+    relationship_queries.add_argument(
+        "--mode",
+        action="append",
+        default=None,
+        help="Relationship mode to query; repeatable. Defaults to the vocabulary default modes.",
+    )
+    relationship_queries.add_argument(
+        "--source-tier-policy-path",
+        default=DEFAULT_SOURCE_TIER_POLICY_PATH,
+        help="Source-tier policy path",
+    )
+    relationship_queries.add_argument(
+        "--source-tier-policy-id",
+        default="",
+        help="Source-tier policy id; defaults to the policy manifest default.",
+    )
+    relationship_queries.add_argument(
+        "--source-tier-id",
+        action="append",
+        default=None,
+        help="Specific source tier id to use; repeatable.",
+    )
+    relationship_queries.add_argument(
+        "--queries-per-pair",
+        type=int,
+        default=3,
+        help="Max templates per crop pair and relationship mode.",
+    )
+    relationship_queries.add_argument(
+        "--query-terms-per-source-tier",
+        type=int,
+        default=3,
+        help="Source-tier vocabulary terms appended to each query.",
+    )
+    relationship_queries.add_argument(
+        "--max-pairs",
+        type=int,
+        default=None,
+        help="Optional deterministic cap for future larger crop universes.",
+    )
+    relationship_queries.add_argument(
+        "--region",
+        default="global",
+        help="Region term to append; 'global' appends no region.",
+    )
+    relationship_queries.add_argument(
+        "--exclude-self-pairs",
+        action="store_true",
+        help="Omit same-crop queries; default keeps them for continuous cropping.",
+    )
+    relationship_queries.set_defaults(func=plan_relationship_queries_command)
+
+    relationship_discover = subparsers.add_parser(
+        "discover-relationships",
+        help="Execute relationship query discovery into exploration/relationships/discovery/<run_id>",
+    )
+    relationship_discover.add_argument("run_id", help="Relationship discovery run identifier")
+    relationship_discover.add_argument(
+        "--crop-dir",
+        default=DEFAULT_CROP_DIR,
+        help="Crop profile directory",
+    )
+    relationship_discover.add_argument(
+        "--vocabulary",
+        default=DEFAULT_VOCABULARY_PATH,
+        help="Relationship vocabulary path",
+    )
+    relationship_discover.add_argument(
+        "--mode",
+        action="append",
+        default=None,
+        help="Relationship mode to discover; repeatable. Defaults to vocabulary default modes.",
+    )
+    relationship_discover.add_argument(
+        "--source-tier-policy-path",
+        default=DEFAULT_SOURCE_TIER_POLICY_PATH,
+        help="Source-tier policy path",
+    )
+    relationship_discover.add_argument(
+        "--source-tier-policy-id",
+        default="",
+        help="Source-tier policy id; defaults to the policy manifest default.",
+    )
+    relationship_discover.add_argument(
+        "--source-tier-id",
+        action="append",
+        default=None,
+        help="Specific source tier id to use; repeatable.",
+    )
+    relationship_discover.add_argument(
+        "--queries-per-pair",
+        type=int,
+        default=1,
+        help="Max templates per crop pair and relationship mode.",
+    )
+    relationship_discover.add_argument(
+        "--query-terms-per-source-tier",
+        type=int,
+        default=3,
+        help="Source-tier vocabulary terms appended to each query.",
+    )
+    relationship_discover.add_argument(
+        "--max-pairs",
+        type=int,
+        default=None,
+        help="Optional deterministic pair cap for smoke runs or larger crop universes.",
+    )
+    relationship_discover.add_argument(
+        "--max-results-per-query",
+        type=int,
+        default=5,
+        help="Provider results requested per query.",
+    )
+    relationship_discover.add_argument(
+        "--limit-queries",
+        type=int,
+        default=None,
+        help="Optional deterministic query cap for smoke runs.",
+    )
+    relationship_discover.add_argument(
+        "--region",
+        default="global",
+        help="Region term to append; 'global' appends no region.",
+    )
+    relationship_discover.add_argument(
+        "--exclude-self-pairs",
+        action="store_true",
+        help="Omit same-crop queries; default keeps them for continuous cropping.",
+    )
+    relationship_discover.set_defaults(func=discover_relationships_command)
+
+    rel_select = subparsers.add_parser(
+        "select-relationship-fetch",
+        help="Balance the relationship discovery ledger into a fetch queue (dedup by relationship_source_key)",
+    )
+    rel_select.add_argument("run_id", help="Relationship discovery run id")
+    rel_select.add_argument("--policy", default="config/fetch-policy/default.json", help="Fetch policy path")
+    rel_select.set_defaults(func=select_relationship_fetch_command)
+
+    rel_fetch = subparsers.add_parser(
+        "fetch-relationships",
+        help="Fetch+parse the selected relationship queue into pair-tagged raw captures",
+    )
+    rel_fetch.add_argument("run_id", help="Relationship discovery run id")
+    rel_fetch.add_argument("--crop", default="", help="Crop (for claim-relevance during parsing)")
+    rel_fetch.add_argument("--resume", action="store_true", help="Reuse HTTP cache; skip existing captures")
+    rel_fetch.add_argument("--limit", type=int, default=None, help="Cap selected rows fetched")
+    rel_fetch.set_defaults(func=fetch_relationships_command)
+
+    rel_corpus = subparsers.add_parser(
+        "build-relationship-corpus",
+        help="Build the relationship corpus (documents/blocks/blobs + relationship_hits.jsonl)",
+    )
+    rel_corpus.add_argument("run_id", help="Relationship run id")
+    rel_corpus.set_defaults(func=build_relationship_corpus_command)
+
+    rel_validate = subparsers.add_parser(
+        "validate-relationship-claims",
+        help="Validate extracted relationship claims against crop-relationship-claim.schema.json",
+    )
+    rel_validate.add_argument("run_id", help="Relationship run id")
+    rel_validate.set_defaults(func=validate_relationship_claims_command)
+
+    rel_populate = subparsers.add_parser(
+        "populate-relationship-matrix",
+        help="Populate the crop×crop matrix cells (mode_statuses) from claims + discovery ledger",
+    )
+    rel_populate.add_argument("run_id", help="Relationship run id")
+    rel_populate.add_argument("--mode", action="append", default=None, help="Restrict to mode id(s)")
+    rel_populate.set_defaults(func=populate_relationship_matrix_command)
+
+    rel_eval = subparsers.add_parser(
+        "eval-relationships",
+        help="Score the populated matrix against the relationship gold set",
+    )
+    rel_eval.add_argument("run_id", help="Relationship run id")
+    rel_eval.set_defaults(func=eval_relationships_command)
+
+    units = subparsers.add_parser(
+        "normalize-units",
+        help="Unit-normalization cleanup (°F→°C convert; flag unit-mixed params) on a normalized run",
+    )
+    units.add_argument("run_id", help="Run id")
+    units.add_argument("--claims-subdir", default="normalized", help="Input claims subdir")
+    units.add_argument("--output-subdir", default="normalized_units", help="Output subdir")
+    units.set_defaults(func=normalize_units_command)
+
+    calibration = subparsers.add_parser(
+        "render-calibration",
+        help="Render a per-crop local-calibration vault note (soil-test/season gaps)",
+    )
+    calibration.add_argument("run_id", help="Run id")
+    calibration.add_argument("--crop", required=True, help="Crop (e.g. wheat)")
+    calibration.add_argument("--region", required=True, help="Region label (e.g. Freiburg)")
+    calibration.add_argument("--vault", default=DEFAULT_VAULT, help="Obsidian vault root path")
+    calibration.add_argument("--claims-subdir", default="normalized", help="Claims subdir")
+    calibration.add_argument("--dry-run", action="store_true", help="Print the note; write nothing")
+    calibration.set_defaults(func=render_calibration_command)
+
     extract = subparsers.add_parser(
         "extract-run",
         help="Extract claims from a run's raw captures via the LLM extractor (fixture backend by default)",
@@ -485,9 +864,6 @@ def parser() -> argparse.ArgumentParser:
     )
     backfill_parser.set_defaults(func=backfill_corpus_command)
 
-    DEFAULT_VAULT = (
-        "/Users/admin/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tino_deCrops"
-    )
     render_vault_parser = subparsers.add_parser(
         "render-vault",
         help="Render normalized claims into tagged, interlinked Obsidian notes",

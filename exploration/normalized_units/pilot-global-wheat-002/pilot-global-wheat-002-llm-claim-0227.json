@@ -1,0 +1,87 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0227",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "quality.grain_protein",
+  "attribute": "crop_quality",
+  "attribute_subtype": "grain_protein",
+  "claim_text": "Organic durum wheat grain protein concentration ranged from about 10.1% to 11.7% across varieties, seasons and Selenium treatments.",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "GPC (xSe0=10.2% with SD=0.49%; xSe60=10.1% with SD=0.41%) ... (xSe0=11.7% with SD=1.08%; xSe60=11.3% with SD=0.57%)",
+    "range_min": 10.1,
+    "range_max": 11.7,
+    "qualifier": "descriptive",
+    "unit": "%"
+  },
+  "location_scope": {
+    "level": "state",
+    "name": "South Dakota",
+    "geo_id": "census:0400000US46",
+    "centroid": {
+      "lat": 44.446796,
+      "lon": -100.238176
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "explicit_state",
+    "claim_location_confidence": "high",
+    "claim_location_text": "GPC (xSe0=10.2% with SD=0.49%; xSe60=10.1% with SD=0.41%) ... (xSe0=11.7% with SD=1.08%; xSe60=11.3% with SD=0.57%)",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": [
+      {
+        "field": "claim_location:claim_text",
+        "level": "state",
+        "name": "South Dakota",
+        "evidence_text": "GPC (xSe0=10.2% with SD=0.49%; xSe60=10.1% with SD=0.41%) ... (xSe0=11.7% with SD=1.08%; xSe60=11.3% with SD=0.57%)"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://link.springer.com/content/pdf/10.1186/s40066-023-00417-5.pdf"
+    ],
+    "source_title": "https://agricultureandfoodsecurity.biomedcentral.com/counter/pdf/10.1186/s40066-023-00417-5",
+    "source_domain": "agricultureandfoodsecurity.biomedcentral.com",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "GPC (xSe0=10.2% with SD=0.49%; xSe60=10.1% with SD=0.41%) ... (xSe0=11.7% with SD=1.08%; xSe60=11.3% with SD=0.57%)",
+    "manifest_version": "0.4.0",
+    "notes": "2023",
+    "source_publication_year": 2023,
+    "document_id": "doc-eaa3a9100bd91067",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "Cappelli, Marco Aurelio, Old Saragolla, Nadif",
+    "management_system": "organic farming, Mediterranean"
+  }
+}

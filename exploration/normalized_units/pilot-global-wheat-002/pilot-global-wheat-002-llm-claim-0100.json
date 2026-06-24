@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0100",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "canopy.harvest_index",
+  "attribute": "biomass_partitioning",
+  "attribute_subtype": "harvest_index",
+  "claim_text": "Wheat harvest index ranged 0.50-0.53 across control and water-stress treatments (0.52 control).",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "Harvest index 0.52 0.50 0.53 0.53",
+    "range_min": 0.5,
+    "range_max": 0.53,
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://link.springer.com/content/pdf/10.1186/s40066-023-00428-2.pdf"
+    ],
+    "source_title": "https://agricultureandfoodsecurity.biomedcentral.com/counter/pdf/10.1186/s40066-023-00428-2",
+    "source_domain": "agricultureandfoodsecurity.biomedcentral.com",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Harvest index 0.52 0.50 0.53 0.53",
+    "manifest_version": "0.4.0",
+    "notes": "2023",
+    "source_publication_year": 2023,
+    "document_id": "doc-a910db2a31d8d8ea",
+    "block_type": "table",
+    "table_label": "Table 3 Effect of water stress on wheat leaf area index (LAI), yield components, and water use efficiency (WUE) at various growth stages"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "potential",
+  "status": "load_ready",
+  "conflict_reason": "multiple incompatible quantitative claims for the same attribute subtype and scope"
+}

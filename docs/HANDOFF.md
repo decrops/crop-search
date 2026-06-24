@@ -1,6 +1,6 @@
 # Project Handoff
 
-Generated at: `2026-06-24T09:49:28Z`
+Generated at: `2026-06-24T12:15:44Z`
 
 This is the canonical start-here file for future sessions. Read this first, then use the referenced files only as needed.
 
@@ -54,7 +54,7 @@ PYTHONPATH=src python3 -m crop_search_framework.cli write-handoff
 | `config/runs/pilot-global-rice.json` | `pilot-global-rice-001` | 425 | global scope, source-tier policy, no seed fallback |
 | `config/runs/pilot-global-sunflower.json` | `pilot-global-sunflower-001` | 390 | global scope, source-tier policy, no seed fallback |
 | `config/runs/pilot-global-tomato.json` | `pilot-global-tomato-001` | 355 | global scope, source-tier policy, no seed fallback |
-| `config/runs/pilot-global-wheat-002.json` | `pilot-global-wheat-002` | 425 | global scope, source-tier policy |
+| `config/runs/pilot-global-wheat-002.json` | `pilot-global-wheat-002` | 425 | global scope, source-tier policy, executed live |
 | `config/runs/pilot-global-wheat.json` | `pilot-global-wheat-001` | 425 | global scope, source-tier policy, executed live |
 
 ## Existing Artifact Snapshot
@@ -92,7 +92,7 @@ PYTHONPATH=src python3 -m crop_search_framework.cli write-handoff
 - Paywalled scientific papers and books may be used for metadata discovery only unless accessible full text is available.
 - County extraction is implemented and test-covered, but current pilot artifacts do not yet contain state-qualified county claims after cleanup.
 - SQL export exists and local/disposable PostgreSQL has been tested earlier, but a persistent staging database workflow is still not established.
-- This workspace git status is `not initialized in this workspace`; docs and generated artifacts are the continuity source unless a repo is initialized.
+- This workspace git status is `available`; docs and generated artifacts are the continuity source unless a repo is initialized.
 
 ## Validation Baseline
 
@@ -105,7 +105,7 @@ PYTHONPATH=src python3 -m crop_search_framework.cli write-capability-map
 PYTHONPATH=src python3 -m crop_search_framework.cli write-handoff
 ```
 
-Last implementation-log section detected: `2026-06-24: Planning — crop relationship matrix`.
+Last implementation-log section detected: `2026-06-24: Crop relationship matrix foundation`.
 
 ## Automatic Session Rule
 

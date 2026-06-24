@@ -1,0 +1,12 @@
+{
+  "run_id": "relationship-rotation-001",
+  "stage": "fetch_relationships",
+  "generated_at": "2026-06-24T14:33:55Z",
+  "crop": "wheat",
+  "selected_rows": 102,
+  "unique_urls": 34,
+  "captures_written": 102,
+  "fetch_successes": 33,
+  "fetch_failures": 1,
+  "failure_count": 1
+}

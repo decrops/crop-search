@@ -1,0 +1,569 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Figures",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Abstract",
+      "text": "Brachypodium distachyon is a useful model organism for studying interaction of cereals with phytopathogenic fungi. The present study tested the possibility of a compatible interaction of B . distachyon with the endophytic fungus Microdochium bolleyi originated from wheat roots. There was evaluated the effect of this endophytic fungus on the intensity of the attack by pathogen Fusarium culmorum in B . distachyon and wheat, and also changes in expression of genes (in B . distachyon : BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , and BdAOS; and in wheat: TaB2H2(chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) involved in defence against pathogens. Using light microscopy and newly developed specific primers was found to be root colonization of B . distachyon by the endophyte M . bolleyi . B . distachyon plants, as well as wheat inoculated with M . bolleyi showed significantly weaker symptoms on leaves from infection by fungus F . culmorum than did plants without the endophyte. Expression of genes BdPR1-5 , BdChitinase1 , and BdLOX3 in B . distachyon and of TaPR1 . 1 and TaB2H2 in wheat was upregulated after infection with F . culmorum . M . bolleyi -mediated resistance in B . distachyon was independent of the expression of the most tested genes. Taken together, the results of the present study show that B . distachyon can be used as a model host system for endophytic fungus M . bolleyi ."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Brachypodium distachyon (L.) P. Beauv (Bd) was proposed two decades ago as a model system for cereals [ 1 ], and research since that time has confirmed this to be a proper choice. Like Arabidopsis , Brachypodium has small stature, short generation time, the ability to self-pollinate, and it is easily grown under simple conditions [ 1 ]. In addition, Bd has one of the smallest genomes found in grasses [ 2 ], comprising just 5 chromosomes spanning 272 Mbp and within which about 25,000 protein-coding sequences are predicted [ 3 ]. Host-pathogen interactions between B . distachyon and plant pathogens have previously been described for a number of important cereal diseases [ 4 ]. Phytopathogenic fungi with compatible interaction have been described between B . distachyon and Rhizoctonia solani , Claviceps purpurea , Ramularia collo-cygni , Oculimacula spp., Magnaporthe grisea , Cochliobolus sativus , Gaeumannomyces graminis , Pyrenophora teres , Fusarium spp., Stagonospora nodorum , and Colletotrichum cereale [ 5 \u2013 10 ]. Multiple studies have confirmed interactions among Bd and such rust pathogens as Puccinia graminis , Puccinia triticina , Puccinia hordei , and Puccinia striiformis [ 11 \u2013 13 ]. Bd is also susceptible to some oomycota [ 5 ], bacteria [ 4 ], and viruses [ 14 , 15 ] previously described as cereal pathogens. A study by Peraldi et al . confirmed positive interaction between the species most prevalently causing Fusarium head blight (FHB) and Bd [ 9 ]. As documented in that study, Fusarium graminearum and Fusarium culmorum successfully infected tissue of Bd. F . culmorum is a soil-, air- and seed-borne fungal pathogen of small-grain cereals causing foot and root rot, fusarium seedling blight, and especially FHB, a disease leading to decreased yield and mycotoxin contamination of grain [ 16 ]. Fusarium culmorum is observed in colder regions of Europe, America, Australia, Asia, and North Africa [ 17 \u2013 20 ] and is regarded globally as one of the main pathogens of cereals [ 21 , 22 ]. Because no fully resistant cultivars exist, control of diseases caused by Fusarium spp. must be achieved by such agricultural management practices as crop rotation and postharvest debris removal to diminish inoculum pressure [ 23 ]. Fungicide treatments at anthesis can reduce disease levels by only 15\u201330% [ 24 ], and, together with rising environmental concerns, new disease control alternatives, including biological controls, need to be developed. Several organisms have been tested both in vitro and in plant assays for their efficacy to control FHB in wheat [ 25 \u2013 27 ]. Endophytic biological control agents may offer such potential [ 28 ]. Microdochium . bolleyi (Sprague) de Hoog and Hermanides-Nijhof, (Ascomycota , Xylariales) (Mb) is a fungus endophytically growing within plant roots, especially in cereals and other graminaceous species [ 29 ]. It has been documented on wheat [ 30 ], barley [ 31 , 32 ], and other plants, such as Agrostis stolonifera L. [ 33 ], Agrostis palustris [ 34 ], and Phragmites australis [ 35 ]. Mb is characterized as a dark septate endophyte due to its melanised cell walls and intra- and intercellular growth within the roots of healthy plants [ 36 ]. In culture, Mb produces one-celled, crescent-shaped conidia and dark brown hyphae, and it may release an orange pigment [ 37 ]. Mb has been shown to exhibit suppression of various plant pathogens of cereals, such as Oculimacula yallundae [ 30 ], G . graminis var. tritici [ 32 , 38 ], Septoria nodorum [ 39 ], and Bipolaris sorokiniana [ 40 ]. Mb inhibited the growth of F . culmorum by 24.5\u201333% in dual culture in vitro , and symptoms on detached spikelets caused by F . graminearum were lower to 54% in treatment by Mb [ 41 ]. The present research aims to investigate the interaction between M . bolleyi and B . distachyon and evaluate Bd as a model for examining potential of endophyte-mediated resistance to F . culmorum (Fc). A second aim was to develop a method for molecular i"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Materials and methods",
+      "text": "Biological materials Seeds of the B . distachyon line Bd21 were obtained from the Joint Genome Institute ( https://jgi.doe.gov ). All plants were maintained in a cooled greenhouse (20/18\u00b0C, day/night) within pots 8 cm in diameter filled with a 50:50 planting substrate\u2013sand (vol/vol) mixture, the substrate being FLORCOM SV (BB Com, Letohrad, Czech Republic). Ten seeds were placed into each pot. After germination, the number of plants in every pot was reduced to six. The Mb isolates originated from wheat roots. There were used six isolates (UPOC-FUN-253\u2013258) from the Collection of Phytopathogenic Microorganisms UPOC (Czech Republic). All isolates come from the Czech Republic and were collected during the years 2018 and 2019. Inocula of Mb isolates were cultivated on millet grains for three weeks at 20\u00b0C in the dark. Before cultivation, 200 g of millet seeds and 50 ml of distilled water in each plastic bag were steam sterilized twice at 120\u00b0C for 20 min. Each isolate was cultivated separately, and then, prior to use, all six isolates were mixed all together from equal parts. The Fc isolate 19FcBd was obtained from symptomatic leaves of Bd in a greenhouse during 2019. The isolate was checked for colony morphology, conidial morphology, and sequencing of the internal transcribed spacer (ITS), large subunit (LSU), and elongation factor (EF-1). Sequences were checked using the online Basic Local Alignment Search Tool (BLAST). Best hits were examined to attribute species names (\u226597% of sequence similarities). Species-specific primers OPT18F/R [ 42 ] were also used to confirm Fc determination. Cultures were maintained in darkness at 18 \u00b1 2 \u00b0C on potato dextrose agar (PDA) plates and transferred regularly to fresh medium. The Fc inoculum was cultured on PDA plates under UV-B light at 18 \u00b0C for 2 weeks. Macroconidia were obtained by scraping the agar surface with a sterile spatula and transferring the conidia to sterile distilled water. A final solution of Fc macroconidia was prepared at a concentration of 5 \u00d7 10 5 conidia mL \u22121 . Isolates of other fungi used for testing of diagnostic primers were obtained from four different collections of microorganisms ( Table 1 ). Download: PNG larger image TIFF original image Table 1. Fungal species used in the analysis with MbPOLIIF/R primers designed in the current study. A positive reaction result distinguished by a visible band on the gel is indicated by a + sign, a negative response by a\u2013sign. To confirm the presence of DNA, a control polymerase chain reaction (PCR) reaction with universal primers ITS1/ITS4 was performed on all samples. Reactions were always repeated three times. https://doi.org/10.1371/journal.pone.0265357.t001 Inoculations Plants were inoculated with Mb during sowing. Millet containing Mb (2.5 g per pot) was spread evenly directly on the seed placed on the substrate. Treatments inoculated with Mb are indicated within this article as Mb1. Only sterile millet without endophyte was added to the control treatments. Treatments non-inoculated with Mb are indicated within this article as Mb0. Seed and inoculum were overlaid with a 0.5 cm layer of the substrate. In the phase of the second offshoot in Bd and the third leaf of wheat was carried out infection using Fc on the second upper leaf, adapting and modifying the method of Peraldi et al. [ 9 ]. Treatments infected with Fc are indicated within this article as F1. Leaves were wounded in two positions by gentle compression with a Pasteur pipette on the adaxial surface [ 9 ]. A droplet (5 \u03bcL) of conidial suspension (containing 5 \u00d7 10 5 conidia mL \u22121 ), amended with 0.05% Tween 20, was deposited onto each wound site. Mock inoculation was performed similarly using sterile distilled water with 0.05% Tween 20 (5 \u03bcL). Treatments non-infected with Fc are indicated within this article as F0. All plants were placed under a plastic cover to increase relative humidity until 2 days post inoculation (dpi), at which time the covers were removed. S"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Biological materials",
+      "text": "Seeds of the B . distachyon line Bd21 were obtained from the Joint Genome Institute ( https://jgi.doe.gov ). All plants were maintained in a cooled greenhouse (20/18\u00b0C, day/night) within pots 8 cm in diameter filled with a 50:50 planting substrate\u2013sand (vol/vol) mixture, the substrate being FLORCOM SV (BB Com, Letohrad, Czech Republic). Ten seeds were placed into each pot. After germination, the number of plants in every pot was reduced to six. The Mb isolates originated from wheat roots. There were used six isolates (UPOC-FUN-253\u2013258) from the Collection of Phytopathogenic Microorganisms UPOC (Czech Republic). All isolates come from the Czech Republic and were collected during the years 2018 and 2019. Inocula of Mb isolates were cultivated on millet grains for three weeks at 20\u00b0C in the dark. Before cultivation, 200 g of millet seeds and 50 ml of distilled water in each plastic bag were steam sterilized twice at 120\u00b0C for 20 min. Each isolate was cultivated separately, and then, prior to use, all six isolates were mixed all together from equal parts. The Fc isolate 19FcBd was obtained from symptomatic leaves of Bd in a greenhouse during 2019. The isolate was checked for colony morphology, conidial morphology, and sequencing of the internal transcribed spacer (ITS), large subunit (LSU), and elongation factor (EF-1). Sequences were checked using the online Basic Local Alignment Search Tool (BLAST). Best hits were examined to attribute species names (\u226597% of sequence similarities). Species-specific primers OPT18F/R [ 42 ] were also used to confirm Fc determination. Cultures were maintained in darkness at 18 \u00b1 2 \u00b0C on potato dextrose agar (PDA) plates and transferred regularly to fresh medium. The Fc inoculum was cultured on PDA plates under UV-B light at 18 \u00b0C for 2 weeks. Macroconidia were obtained by scraping the agar surface with a sterile spatula and transferring the conidia to sterile distilled water. A final solution of Fc macroconidia was prepared at a concentration of 5 \u00d7 10 5 conidia mL \u22121 . Isolates of other fungi used for testing of diagnostic primers were obtained from four different collections of microorganisms ( Table 1 ). Download: PNG larger image TIFF original image Table 1. Fungal species used in the analysis with MbPOLIIF/R primers designed in the current study. A positive reaction result distinguished by a visible band on the gel is indicated by a + sign, a negative response by a\u2013sign. To confirm the presence of DNA, a control polymerase chain reaction (PCR) reaction with universal primers ITS1/ITS4 was performed on all samples. Reactions were always repeated three times. https://doi.org/10.1371/journal.pone.0265357.t001"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Inoculations",
+      "text": "Plants were inoculated with Mb during sowing. Millet containing Mb (2.5 g per pot) was spread evenly directly on the seed placed on the substrate. Treatments inoculated with Mb are indicated within this article as Mb1. Only sterile millet without endophyte was added to the control treatments. Treatments non-inoculated with Mb are indicated within this article as Mb0. Seed and inoculum were overlaid with a 0.5 cm layer of the substrate. In the phase of the second offshoot in Bd and the third leaf of wheat was carried out infection using Fc on the second upper leaf, adapting and modifying the method of Peraldi et al. [ 9 ]. Treatments infected with Fc are indicated within this article as F1. Leaves were wounded in two positions by gentle compression with a Pasteur pipette on the adaxial surface [ 9 ]. A droplet (5 \u03bcL) of conidial suspension (containing 5 \u00d7 10 5 conidia mL \u22121 ), amended with 0.05% Tween 20, was deposited onto each wound site. Mock inoculation was performed similarly using sterile distilled water with 0.05% Tween 20 (5 \u03bcL). Treatments non-infected with Fc are indicated within this article as F0. All plants were placed under a plastic cover to increase relative humidity until 2 days post inoculation (dpi), at which time the covers were removed."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Sampling and assessment",
+      "text": "Disease symptoms on the leaves were recorded at 8 dpi in Bd and wheat. Leaves for light microscopy were collected at 8 dpi and fixed in 70% ethanol. The percentage of necrotic tissue was evaluated on the adaxial surface of infected leaves ( S1 Fig ). Leaves for RNA extraction were sampled at 1, 2, and 8 dpi and immediately transferred to liquid nitrogen. Subsequently, were transferred to a freezer and held at \u221280 \u00b0C. For the purpose of evaluating endophyte colonization by DNA extraction, roots were collected 90 days after sowing, surface sterilized for 3 min in 1% NaOCl and thoroughly rinsed in sterilized distilled water to remove all superficial hyphae and then dried. Roots for the purpose of evaluating endophyte colonization by light microscopy were collected 90 days after sowing, then fixed in 70% ethanol. Leaves and roots fixed in 70% ethanol were subsequently cleared in 2.5% KOH for 3 days, acidified in 1% HCl, then stained with 0.05% aniline blue in lactoglycerol [ 43 ]. Colonization of roots by the endophytic fungus was assessed by microscopic examination (200\u00d7 magnifications). Results were evaluated as positive when visible presence of Mb chlamydospores was observed."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "DNA isolation, primers design, and PCR",
+      "text": "Fungal mycelia (approximately 50\u2013100 mg of biomass) of all tested species and strains ( Table 1 ) were harvested from Petri dishes, ground to a fine powder in a cooled mortar using liquid nitrogen, then homogenized. Total genomic DNA was extracted using the DNeasy Plant Mini Kit (Qiagen, Germany). Plant material (roots of Bd and wheat, approximately 50 mg of dried biomass per sample) was also ground to powder and extracted as described above. DNA concentration was measured using Qubit fluorometric quantification (ThermoFisher Scientific, Waltham, MA, USA) and DNA was diluted to concentration 5 ng \u03bcL \u22121 . Based upon sequences ITS (KP859018), LSU (large subunit of ribosomal gene; KP858954), Tub2 (\u03b2-tubulin gene; KP859081), and RPB2 gene (RNA 40 polymerase II second-largest subunit (KP859127)) [ 44 ] selected from the GenBank database, four primer pairs (MbITSF/R, MbLSUF/R, MbBETF/R, and MbPOLIIF/R) were designed using Primer3Plus software [ 45 ]. PCR reactions were carried out in 20 \u03bcL volumes containing 10 ng of DNA from fungal and/or plant material. The reaction mixture consisted of 0.2 mM of dNTP, 0.2 \u03bcM each of forward and reverse oligonucleotide primer (the best final primers MbPOLIIF/R were selected from a preliminary screen of the designed primers (see S1 Table )) and 1 U of Taq polymerase. Reaction buffer consisted of 75 mM Tris-HCl, 20 mM (NH 4 ) 2 SO 4 , and 2.5 mM MgCl 2 . DNA extracted from fungal cultures and from infected and non-infected plant material was amplified using PCR with initial denaturation 94 \u00b0C (5 min). The temperature cycle (35\u00d7) consisted of denaturation (95 \u00b0C) for 30 s, annealing 66.7 \u00b0C (20 s), and extension at 72 \u00b0C (45 s). A final extension step at 72 \u00b0C for 5 minutes was followed by cooling to 10 \u00b0C until removing samples. PCR products (10 \u03bcL) were analysed using agarose gel electrophoresis."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Test of primers sensitivity, specificity, and diagnostic potential in plant tissues",
+      "text": "The primers were tested on the six Mb isolates as described above. The sensitivity was tested using different amounts of Mb DNA (1.0, 0.1, 0.01, 0.001, and 0.0001 ng.). The designed primer pairs were also tested for their specificity towards the DNA of fungi associated with diseases of wheat and other cereals. Fungal cultures were obtained from four microorganism collections ( Table 1 ) and cultured on PDA. The quality of fungal DNA was checked by ITS1/ITS4 primers [ 46 ]. Furthermore, the potential for detection was tested in Bd and wheat roots inoculated with the Mb compared with non-inoculated roots (inoculation and sampling as described above). All reactions were repeated at least three times."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "RNA isolation and quantitative PCR",
+      "text": "Leaves were homogenized in a TissueLyser II (Qiagen, Hilden, Germany) for 2 minutes at 27 Hz. Caution was taken during homogenization to avoid sample melting. The homogenized samples were immediately placed into liquid nitrogen. The RNA was isolated using RNeasy Plant Mini Kit (Qiagen) while following the manufacturer\u2019s instructions. DNA was removed during the RNA purification using the RNase-Free DNase Set (Qiagen). The isolated RNA was stored at \u221280 \u00b0C. cDNA was synthesized using the Transcriptor High Fidelity cDNA Synthesis Kit (Roche Diagnostics, Mannheim, Germany) according to the manufacturer\u2019s instructions with 1 \u03bcg of total RNA and anchored-oligo (dT) primers. The concentration of cDNA was measured using Qubit (ThermoFisher Scientific) and cDNA was diluted to concentration 5 ng \u03bcL \u22121 . Expression analysis of the chosen plant defence genes ( BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , BdAOS , TaB2H2 (chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) was performed using the CFX96TM Real-Time PCR Detection System (Bio-Rad, Hercules, CA, USA). The quantitative PCR mix consisted of 1\u00d7 SYBR Green (Top-Bio, Vestec, Czech Republic), 0.2 \u03bcM forward and reverse primers ( S1 Table ), 10 ng cDNA (2 \u03bcL), and water to final volume 15 \u03bcL. The reference gene for the wheat was glyceraldehyde-3-phosphate dehydrogenase (GAPDH) according to Travella et al. [ 47 ] and Sun et al. [ 48 ], and for Bd, it was S-adenosylmethionine decarboxylase gene BdSamDC [ 49 ]. The control sample consisted of equal amounts of cDNA from all three replications of Bd and wheat plants not inoculated with fungi (with neither Mb nor Fc present). The primers\u2019 specificity and presence of primer dimers were verified by melting analysis. The data were analysed using the 2 \u2013\u0394\u0394Cq method with CFX Manager 3.0 software (Bio-Rad). Three biological as well as three technical replicates were run."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Statistical analysis",
+      "text": "Percentage of necrotic tissue after infection with Fc in the treatments pre-inoculated with the endophyte and non-inoculated were statistically analysed by ANOVA in conjunction with Tukey\u2019s post hoc test ( P < 0.05) using Statistica 12 software. Differences in expression levels of the analysed genes were evaluated by Tukey\u2019s test ( P < 0.05; Maestro software, BioRad)."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 2,
+      "heading": "Results",
+      "text": "Demonstrated root colonization by Mb of Bd and wheat Using microscopic and molecular methods, presence of Mb was detected in both Bd and wheat root samples. Using light microscopy and aniline blue staining, chlamydospores were observed in the roots of Bd ( Fig 1 ) and wheat ( S2 Fig ). No presence of chlamydospores was confirmed in plants without inoculation. Download: PNG larger image TIFF original image Fig 1. Chlamydospores of M . bolleyi in root of B . distachyon . Scale bar = 10 \u00b5m. https://doi.org/10.1371/journal.pone.0265357.g001 Of the four designed primer pairs, a set MbPOLIIF/R best met the requirements. The primers amplified one sharp band (600 bp) in all six tested isolates of Mb. In sensitivity testing, the method showed a positive response even at 0.001 ng (1 picogram) of Mb DNA ( S3 Fig ). In the specificity test, the primers amplified DNA only from Mb and not from any of the other fungal pathogens screened ( Table 1 ). The primer set was therefore used to examine Mb-inoculated and non-inoculated plant material (Bd and wheat). Inoculated plants (Mb1) with chlamydospores present in roots of both Bd and wheat showed positive results after PCR with primers MbPOLIIF/R and, on the contrary, non-inoculated plants (Mb0) without chlamydospores in roots showed negative PCR results ( S2 Table ). Analysis confirmed the primers to be specific and powerful in detecting Mb within plant tissues. No false positive results and no artefacts were detected after visualization on the electrophoresis. Other primer pairs tested (MbITSF/R, MbLSUF/R, and MbBETF/R) failed in the specificity test and were excluded from other parts of this study. Demonstration of successful Fusarium culmorum infection Infection with Fc on leaves of Bd and wheat was successful. This was verified by light microscopy after staining in aniline blue. Germinating macroconidia and hyphae were observed penetrating pipette-damaged tissues ( S4 and S5 Figs). Darkening of tissues and incipient necrotization were observed around the penetration of hyphae into the tissues. The intensity of necrotization was assessed visually according to the scheme presented in S1 Fig , and percentage damage was recorded. On plants without Fc infection, darkening of tissues did not occur and areas damaged by pipette remained light coloured. Upon evaluating the data, it was found that plants without endophyte Mb were significantly more severely infected than were plants with Mb ( Table 2 ; S3 and S4 Tables). Download: PNG larger image TIFF original image Table 2. Tukey\u2019s post hoc test for each species and treatment examining damage to leaves of B . distachyon and wheat by pathogen F . culmorum . The main experimental factor is previous inoculation with the endophytic fungus M . bolleyi . CI\u2013 95% confidence intervals. \u03b1 = 0.05, statistically significant difference marked with asterisk (*). https://doi.org/10.1371/journal.pone.0265357.t002 Expression levels of genes involved in plant\u2013pathogen interaction in Bd and wheat Expression levels of the selected essential plant defence genes ( BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , BdAOS , TaB2H2 (chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) were measured in plants inoculated with endophyte Mb and pathogen Fc. The fold differences (FDs) in their expression levels were first compared among the mock (plants inoculated with neither Mb nor Fc) and other experimental treatments with combinations of single (only Mb or only Fc) and double (both Mb and Fc) inoculations ( Fig 2 ). Significant changes were detected only in some genes ( BdPR1-5 , BdChitinase1 , BdLOX3 , TaPR1 . 1 , and TaB2H2 ) for treatments infected with pathogenic fungus Fc. Other genes ( BdPAL , BdAOS , BdEIN3 , TaLOX , TaEIN2 , and TaAOS ) were not influenced by Fc infection. BdPR1-5 expression was upregulated by infection of plants with pathogen Fc at 1 dpi and 2 dpi ( Fig 2 ). The average FD across all treatments was 30.94 in the F1 group compared to F0 ( "
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Demonstrated root colonization by Mb of Bd and wheat",
+      "text": "Using microscopic and molecular methods, presence of Mb was detected in both Bd and wheat root samples. Using light microscopy and aniline blue staining, chlamydospores were observed in the roots of Bd ( Fig 1 ) and wheat ( S2 Fig ). No presence of chlamydospores was confirmed in plants without inoculation. Download: PNG larger image TIFF original image Fig 1. Chlamydospores of M . bolleyi in root of B . distachyon . Scale bar = 10 \u00b5m. https://doi.org/10.1371/journal.pone.0265357.g001 Of the four designed primer pairs, a set MbPOLIIF/R best met the requirements. The primers amplified one sharp band (600 bp) in all six tested isolates of Mb. In sensitivity testing, the method showed a positive response even at 0.001 ng (1 picogram) of Mb DNA ( S3 Fig ). In the specificity test, the primers amplified DNA only from Mb and not from any of the other fungal pathogens screened ( Table 1 ). The primer set was therefore used to examine Mb-inoculated and non-inoculated plant material (Bd and wheat). Inoculated plants (Mb1) with chlamydospores present in roots of both Bd and wheat showed positive results after PCR with primers MbPOLIIF/R and, on the contrary, non-inoculated plants (Mb0) without chlamydospores in roots showed negative PCR results ( S2 Table ). Analysis confirmed the primers to be specific and powerful in detecting Mb within plant tissues. No false positive results and no artefacts were detected after visualization on the electrophoresis. Other primer pairs tested (MbITSF/R, MbLSUF/R, and MbBETF/R) failed in the specificity test and were excluded from other parts of this study."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Demonstration of successful Fusarium culmorum infection",
+      "text": "Infection with Fc on leaves of Bd and wheat was successful. This was verified by light microscopy after staining in aniline blue. Germinating macroconidia and hyphae were observed penetrating pipette-damaged tissues ( S4 and S5 Figs). Darkening of tissues and incipient necrotization were observed around the penetration of hyphae into the tissues. The intensity of necrotization was assessed visually according to the scheme presented in S1 Fig , and percentage damage was recorded. On plants without Fc infection, darkening of tissues did not occur and areas damaged by pipette remained light coloured. Upon evaluating the data, it was found that plants without endophyte Mb were significantly more severely infected than were plants with Mb ( Table 2 ; S3 and S4 Tables). Download: PNG larger image TIFF original image Table 2. Tukey\u2019s post hoc test for each species and treatment examining damage to leaves of B . distachyon and wheat by pathogen F . culmorum . The main experimental factor is previous inoculation with the endophytic fungus M . bolleyi . CI\u2013 95% confidence intervals. \u03b1 = 0.05, statistically significant difference marked with asterisk (*). https://doi.org/10.1371/journal.pone.0265357.t002"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Expression levels of genes involved in plant\u2013pathogen interaction in Bd and wheat",
+      "text": "Expression levels of the selected essential plant defence genes ( BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , BdAOS , TaB2H2 (chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) were measured in plants inoculated with endophyte Mb and pathogen Fc. The fold differences (FDs) in their expression levels were first compared among the mock (plants inoculated with neither Mb nor Fc) and other experimental treatments with combinations of single (only Mb or only Fc) and double (both Mb and Fc) inoculations ( Fig 2 ). Significant changes were detected only in some genes ( BdPR1-5 , BdChitinase1 , BdLOX3 , TaPR1 . 1 , and TaB2H2 ) for treatments infected with pathogenic fungus Fc. Other genes ( BdPAL , BdAOS , BdEIN3 , TaLOX , TaEIN2 , and TaAOS ) were not influenced by Fc infection. BdPR1-5 expression was upregulated by infection of plants with pathogen Fc at 1 dpi and 2 dpi ( Fig 2 ). The average FD across all treatments was 30.94 in the F1 group compared to F0 ( Table 3 ). In the last term, 8 dpi, no significant differences were detected between treatments F0 and F1. In the case of BdChitinase1 , the expression increase after infection with the Fc pathogen was FD = 4.12. Other increases were FD = 14.26 for TaPR1 . 1 and FD = 39.66 for TaB2H2 . In these genes, the changes were clear at 1 dpi and 2 dpi, but there were no conclusive differences at the last sampling date of 8 dpi. In the case of BdLOX3 , the difference due to pathogen infection was also apparent at 1 dpi and 2 dpi (FD = 8.8), and no difference was noted later. Nevertheless, a statistically significant difference was observed only at 2 dpi ( Fig 2 ). Download: PNG larger image TIFF original image Fig 2. Expression profiles of genes BdPR1-5 (A), BdChitinase1 (B) and BdLOX3 (C) in Brachypodium distachyon (Bd) and TaPR1 . 1 (D) and TaB2H2 (E) in wheat inoculated with Microdochium bolleyi (Mb1) or not so inoculated (Mb0) and with leaves infected with Fusarium culmorum (F1) or not so infected (F0) at three time periods 1, 2, and 8 days post inoculation (dpi). Expression levels are relative to M . bolleyi non-inoculated and Fc non-infected leaves of plants at 1 dpi and were normalized with the reference genes BdSamDC and TaGADPH . Expression levels shown are mean values and standard deviations (whiskers) for three replications. Statistically significant differences are indicated by letters above columns (post hoc Tukey\u2019s test, P < 0.05). https://doi.org/10.1371/journal.pone.0265357.g002 Download: PNG larger image TIFF original image Table 3. Expression-level differences for chosen genes in leaves of Brachypodium distachyon (Bd) and wheat plants. Gene expression was detected as fold difference (FD) between inoculated (by pathogen or endophyte) and non-inoculated plants (mock). https://doi.org/10.1371/journal.pone.0265357.t003 Inoculation of plants with the endophytic fungus Mb did not affect the expression of tested marker genes ( Table 3 ). There were no differences in the expression of the genes studied when Mb and Fc treatments were compared with treatment with a single pathogen infection ( Table 4 ), except in two cases. Mb affected the expression of BdChitinase1 and TaPR1 . 1 genes at 1 dpi ( Fig 2B and 2D ). While BdChitinase1 was upregulated in Mb1 treatment (with endophyte) at 1dpi, TaPR1 . 1 expression was downregulated at the same term. The expression of the other genes tested was not affected by Mb inoculation. Download: PNG larger image TIFF original image Table 4. Expression-level differences for chosen genes in leaves of Brachypodium distachyon (Bd) and wheat plants. Gene expression was detected as fold difference (FD) between plants inoculated only by pathogen and plants inoculated both by endophyte and pathogen to evaluate the effect potentially caused by endophyte on subsequent pathogen infection. https://doi.org/10.1371/journal.pone.0265357.t004"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 2,
+      "heading": "Discussion",
+      "text": "Root endophytes can confer resistance against plant pathogens by direct antagonism through mycoparasitism, antibiosis, and/or competition for nutrients and niches, or indirectly by triggering induced resistance in the host [ 50 , 51 ]. Indirect antagonism takes into account an effect of the endophyte on the pathogen mediated via the host plant by triggering induced systemic resistance (ISR). Endophytes trigger ISR by two phytohormones, jasmonic acid (JA) and ethylene (ET), thereby resulting in a faster and stronger immune response following pathogen attack. Some endophytes are able to trigger a systemic acquired resistance response (SAR) that is salicylic acid (SA) dependent and also results in primed host defences [ 50 , 52 , 53 ]. Most previous research with monocotyledonous plants has been focused on agronomically important grasses, such as tall fescue ( Festuca arundinacea ), perennial ryegrass ( Lolium perenne ), and meadow fescue ( Festuca pratensis ), and their interactions with herbivores and pathogens [ 54 , 55 ]. Endophytic fungi of the genus Epichlo\u00eb and their asexual Neotyphodium forms are thought to interact mutualistically with their host grasses, providing protection for the host against herbivores and pathogens mediated by fungal alkaloids [ 56 ]. There are many other examples of endophytes that decrease disease susceptibility of their host upon pathogen infection [ 50 , 57 , 58 ], thus making endophytes useful agents for disease control [ 50 ]. Endophytic fungus Harpophora oryzae in rice roots protected rice from Magnoporte oryzea root invasion by the accumulation of H 2 O 2 and elevated antioxidative capacity. H . oryzae also induced systemic resistance against rice blast by upregulation expression of transcription factor OsWRKY45 [ 59 ]. Inoculation of Theobroma cacao leaves with endophytic fungus Colletotrichum tropicale leads to higher resistance to damage by the pathogen Phytophthora palmivora [ 60 ], lower incidence of black pod disease caused by Phytophthora spp. [ 61 ] moreover, it induces changes in the expression of host genes with defense responses functions. Inoculations of T . cacao by endophyte C . tropicale produced changes in the expression of genes associated with the synthesis, modification, and degradation of the cell wall; peroxidases and components of the jasmonic acid defense pathway; pathogenesis-related proteins; redox state proteins; genes coding beta glucanases, heat shock proteins, transcription factors, proteins involved in secondary metabolism and proteolysis; and other genes relevant to plant-microbe interactions such as NPR3, nodulin, and endochitinases [ 62 ]. In our work, plants colonized by Mb showed significantly lower levels of Fc infection. Fc infection induced expression of BdPR1-5 , BdChitinase1 , BdLOX3 , TaB2H2 , and TaPR1 . 1 , but this expression was not affected by previous inoculation with the Mb endophyte. In cases of indirect endophyte-mediated resistance, a typical SAR/ISR response is based upon initial exposure to an endophyte that primes plant defence and subsequent infection with the pathogen [ 50 ]. The phenotypic resistance observed in this study, together with the gene expression findings in Bd and wheat, suggests that other genes are involved in the putative endophyte-mediated resistance. However, further research is needed to demonstrate which genes are responsible for this endophyte-mediated resistance. Since Mb is a root endophyte, mechanisms such as direct antimicrobial activity or competition for niches or resources cannot be assumed to be involved in the increased host resistance observed on leaves. Similarly, a study by Constantin et al . on tomato demonstrated that fungal endophyte Fusarium oxysporum strain Fo47 can confer endophyte-mediated resistance independently of SA, ET, or JA [ 50 ]. Their findings imply that endophyte-mediated resistance is mechanistically distinct from ISR and SAR. Expression of marker genes Striving to elucidate the possi"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Expression of marker genes",
+      "text": "Striving to elucidate the possible factors involved in endophyte-mediated resistance in Bd, the activity of genes known to be involved in the activation of defence-related pathways in response to pathogen attack were measured. In model plants, genes considered to be involved in phytohormone biosynthesis or signalling are also used as markers of plant responses to pathogen attack [ 63 ]. Many defence genes are involved in SA, JA, and ET signalling pathways and are known to be associated with plant defence generally and with such model plants as Arabidopsis [ 64 ] and Bd [ 65 ]. JA- and ET-mediated signalling pathways are mainly linked to plant responses to necrotrophic pathogens and herbivores, while the SA-dependent pathway is mainly involved in responses to biotrophic pathogens, and these pathways can act antagonistically [ 66 ]. Hormone-responsive genes are thus used to evaluate disease resistance responses during pathogen infection. Defence-related phytohormone marker genes expressed at time points suitable for defence-response monitoring were studied for Bd by Kouzai et al. [ 65 ] and by Sandoya et al. (1). Some of the recommended marker genes from the two studies just cited were used in the current study to evaluate response of Bd to endophyte fungus Mb and also pathogenic Fc infection. To confirm the hypothesis, the influence of the endophyte Mb on wheat was investigated in parallel. Pathogenesis-related (PR) genes generally encode small antimicrobial proteins, their expression levels increase quickly when stimulated by biotic or abiotic stress, and therefore they serve as markers for plant immune signalling. PR proteins\u2019 biochemical activity and mode of action have nevertheless remained elusive [ 67 ]. PR-1 proteins constitute a large family of 23 proteins in wheat that are upregulated early in the defence response [ 68 ]. Findings from a recent study provided genetic and biochemical evidence indicating that PR1 binds to sterols and inhibits pathogen growth [ 69 ]. Increased expression of the PR1 , PR2 , and PR5 genes represents activation of the SA signalling pathway [ 70 ], but, in rice, for example, the expression level of OsPR1 is increased by both SA and JA [ 71 ]. Although expression of PR1 . 1 and PR1 . 2 genes of wheat has been induced upon infection with either compatible or incompatible isolates of the fungal pathogen Blumeria graminis , these genes did not respond to such activators of systemic acquired resistance (SAR) as SA, benzothiadiazole, or isonicotinic acid [ 72 ]. Similarly in the present study, PR1 was induced by Fc but not by endophyte-mediated resistance provided by pre-inoculation of Bd and wheat with Mb. In a study by Zhang et al ., two PR protein-encoding genes ( PR1\u201317 and PR10 ) showed progressive increase in expression over time that peaked after the appearance of symptoms in G . graminis var. tritici -infected roots of wheat [ 73 ]. In our study, the gene PR1 . 1 in wheat was highly expressed at 1 dpi and 2 dpi after Fc infection. In retrospect, in our study, it would have been better to measure the expression of genes earlier, within a matter of hours (1, 2, 3 h, etc.), after infection. After 24 h, the expression of some genes may already have passed its peak. There were no longer any statistically significant differences in the level of PR1 gene expression between the Fc infected and non-infected treatments in either Bd or wheat hosts at 8 dpi. Jasmonic acid is an oxylipin hormone derived from linolenic acid that is crucial for plants to regulate growth and development, as well as to respond to biotic and abiotic stresses [ 74 ]. Allene oxide synthase ( AOS ) and lipoxygenase ( LOX ) are required for JA biosynthesis [ 75 ], and they are used as JA markers in various plant species [ 65 ]. In a study by Zhang et al . [ 73 ], G . graminis var. tritici -infected roots showed changes in genes expression profile after pathogen infection. LOX2 had a unique expression pattern in that it progressi"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Endophyte diagnosis by PCR",
+      "text": "Endophyte presence is usually determined by methods other than PCR, especially microscopic [ 43 ] and by culture [ 91 , 92 ]. In recent years, molecular methods have also been introduced [ 93 ]. Ernst et al . [ 94 ] used nested PCR to distinguish two endophytic species of Mb and Microdochium phragmitis in Phragmites australis . In the present study, primers for end-point PCR to determine the Mb endophytic fungus in plant tissues were developed. Although endophytes had previously been determined by PCR in grass tissues, such as in cases of Epichlo\u00eb [ 95 ], Neotyphodium [ 96 ], and Acremonium [ 97 ], no method has been available heretofore for standard end-point PCR determination of Mb. The method was tested in wheat and Bd. In both host species, the presence of Mb could be unequivocally demonstrated in the inoculated plants by the presence of a band on the electrophoretic gel. In plants without previous Mb inoculation, the results of PCR test using the MbPOLII primer were negative. Therefore, the molecular method is a suitable complement to, or might completely replace, other tests for detecting Mb in plant tissues. The results from studies of endophytic fungi to date are in many aspects still fragmentary, and nobody has yet managed, for instance, to cover the entire spectrum within different parts of a plant simultaneously, let alone across several seasons. This is mainly due to methodological limitations of the endophyte studies. This PCR-based method of endophyte determination facilitates such research in many respects."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 2,
+      "heading": "Conclusion",
+      "text": "Bd is a suitable model for studying interactions with the endophytic fungus Mb, and it is possible to study the influence of endophyte-mediated resistance at the phenotypic level as well as in terms of gene expression. Bd and Mb showed positive interaction. In plants colonized by Mb, less severe symptoms of damage created by the fungus Fc were detected. Chitinase , PR1 , and LOX in Bd as well as B2H2 and PR1 . 1 in wheat, reacted to Fc by their upregulation. In terms of endophyte-mediated resistance, these genes were in most cases independent of Mb \u2019s presence. There were developed primers for the end-point PCR to diagnose the endophyte Mb in plant tissues and tested it in Bd and wheat. The method is suitable for confirming presence of the endophyte in plants."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 2,
+      "heading": "Supporting information",
+      "text": "S1 Fig. Schema for evaluating percentage necrotization on plant leaves wounded by Pasteur pipette and infected by F . culmorum or wounded and mock inoculated. https://doi.org/10.1371/journal.pone.0265357.s001 (TIF) S2 Fig. Wheat roots with rhizodermal cells filled by chlamydospores of Microdochium bolleyi . Cross-section by wheat root with cells filled by chlamydospores (arrowed), bar 100\u00b5m (A). Wheat rhizodermis with root cells filled by chlamydospores, bar 100\u00b5m (B). https://doi.org/10.1371/journal.pone.0265357.s002 (PDF) S3 Fig. Sensitivity test of PCR with primers MbPOLIIF/R on five amounts of Mb DNA (ng). Three different Mb isolates were tested: A) UPOC-FUN-253, B) UPOC-FUN-254, and C) UPOC-FUN-255. https://doi.org/10.1371/journal.pone.0265357.s003 (TIF) S4 Fig. Macroconidia of F . culmorum germinating and dark-coloured necrotization of wheat tissue. Asterisks indicate light-coloured areas originating from wounding by Pasteur pipette prior to infection. Arrows indicate some germinated macroconidia. (bar = 50 \u00b5m). https://doi.org/10.1371/journal.pone.0265357.s004 (TIF) S5 Fig. Leaves of Brachypodium distachyon after bleaching for 3 days in 2.5% KOH. A) Non-inoculated plants with endophyte and without infection by Fc (Mb0F0), B) Non-inoculated plants with endophyte and with infection by Fc (Mb0F1). C) Leaves of plants inoculated with endophyte and infected with Fc (Mb1F1), and D) leaves of plants inoculated with endophyte and without Fc infection (Mb1F0). https://doi.org/10.1371/journal.pone.0265357.s005 (TIF) S1 Table. Primer pairs used in the study. Names, sequences of forward and reverse primers, publication sources of primer pairs, and gene functions are listed. https://doi.org/10.1371/journal.pone.0265357.s006 (DOCX) S2 Table. Microscopic and molecular detection of Mb in Bd and wheat roots. The microscopic method was based on the presence of chlamydospores in roots after staining with aniline blue. PCR methods were performed using MbITSRTF/R primers. https://doi.org/10.1371/journal.pone.0265357.s007 (DOCX) S3 Table. ANOVA statistical evaluation for damage to leaves of Brachypodium distachyon by pathogen Fusarium culmorum when the main experimental factor is previous inoculation with the endophytic fungus Microdochium bolleyi . https://doi.org/10.1371/journal.pone.0265357.s008 (DOCX) S4 Table. ANOVA statistical evaluation for damage to leaves of wheat by pathogen Fusarium culmorum when the main experimental factor is previous inoculation with the endophytic fungus Microdochium bolleyi . https://doi.org/10.1371/journal.pone.0265357.s009 (DOCX)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "S1 Fig. Schema for evaluating percentage necrotization on plant leaves wounded by Pasteur pipette and infected by F . culmorum or wounded and mock inoculated.",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s001 (TIF)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "S2 Fig. Wheat roots with rhizodermal cells filled by chlamydospores of Microdochium bolleyi .",
+      "text": "Cross-section by wheat root with cells filled by chlamydospores (arrowed), bar 100\u00b5m (A). Wheat rhizodermis with root cells filled by chlamydospores, bar 100\u00b5m (B). https://doi.org/10.1371/journal.pone.0265357.s002 (PDF)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "S3 Fig. Sensitivity test of PCR with primers MbPOLIIF/R on five amounts of Mb DNA (ng).",
+      "text": "Three different Mb isolates were tested: A) UPOC-FUN-253, B) UPOC-FUN-254, and C) UPOC-FUN-255. https://doi.org/10.1371/journal.pone.0265357.s003 (TIF)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "S4 Fig. Macroconidia of F . culmorum germinating and dark-coloured necrotization of wheat tissue.",
+      "text": "Asterisks indicate light-coloured areas originating from wounding by Pasteur pipette prior to infection. Arrows indicate some germinated macroconidia. (bar = 50 \u00b5m). https://doi.org/10.1371/journal.pone.0265357.s004 (TIF)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "S5 Fig. Leaves of Brachypodium distachyon after bleaching for 3 days in 2.5% KOH.",
+      "text": "A) Non-inoculated plants with endophyte and without infection by Fc (Mb0F0), B) Non-inoculated plants with endophyte and with infection by Fc (Mb0F1). C) Leaves of plants inoculated with endophyte and infected with Fc (Mb1F1), and D) leaves of plants inoculated with endophyte and without Fc infection (Mb1F0). https://doi.org/10.1371/journal.pone.0265357.s005 (TIF)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "S1 Table. Primer pairs used in the study.",
+      "text": "Names, sequences of forward and reverse primers, publication sources of primer pairs, and gene functions are listed. https://doi.org/10.1371/journal.pone.0265357.s006 (DOCX)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "S2 Table. Microscopic and molecular detection of Mb in Bd and wheat roots.",
+      "text": "The microscopic method was based on the presence of chlamydospores in roots after staining with aniline blue. PCR methods were performed using MbITSRTF/R primers. https://doi.org/10.1371/journal.pone.0265357.s007 (DOCX)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "S3 Table. ANOVA statistical evaluation for damage to leaves of Brachypodium distachyon by pathogen Fusarium culmorum when the main experimental factor is previous inoculation with the endophytic fungus Microdochium bolleyi .",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s008 (DOCX)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "S4 Table. ANOVA statistical evaluation for damage to leaves of wheat by pathogen Fusarium culmorum when the main experimental factor is previous inoculation with the endophytic fungus Microdochium bolleyi .",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s009 (DOCX)"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 2,
+      "heading": "Acknowledgments",
+      "text": "We thank the Collection of Phytopathogenic Microorganisms UPOC for providing fungal isolates."
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 2,
+      "heading": "References",
+      "text": "1. Draper J, Mur LA, Jenkins G, Ghosh-Biswas GC, Bablak P, Hasterok R, et al. Brachypodium distachyon . A new model system for functional genomics in grasses. Plant Physiol. 2001; 127(4):1539\u20131555. https://doi.org/10.1104/pp.010196 pmid:11743099 View Article PubMed/NCBI Google Scholar 2. Huo N, Vogel JP, Lazo GR, You FM, Ma Y, McMahon S, et al. Structural characterization of Brachypodium genome and its syntenic relationship with rice and wheat. Plant Mol Biol. 2009; 70:47\u201361. https://doi.org/10.1007/s11103-009-9456-3 pmid:19184460 View Article PubMed/NCBI Google Scholar 3. International Brachypodium Initiative. Genome sequencing and analysis of the model grass Brachypodium distachyon . Nature. 2010; 463:763\u2013768. https://doi.org/10.1038/nature08747 pmid:20148030 View Article PubMed/NCBI Google Scholar 4. Fitzgerald TL, Powell JJ, Schneebeli K, Hsia MM, Gardiner DM, Bragg JN, et al. Brachypodium as an emerging model for cereal-pathogen interactions. Ann Bot. 2015; 115(5):717\u2013731. https://doi.org/10.1093/aob/mcv010 pmid:25808446 View Article PubMed/NCBI Google Scholar 5. Sandoya GV, Buanafina de Oliveira MM. Differential responses of Brachypodium distachyon genotypes to insect and fungal pathogens. Physiol Mol Plant Pathol. 2014; 85:53\u201364. https://doi.org/10.1016/j.pmpp.2014.01.001 View Article Google Scholar 6. Routledge APM, Shelley G, Smith JV, Talbot NJ, Draper J, Mur LAJ. Magnaporthe grisea interactions with the model grass Brachypodium distachyon closely resemble those with rice ( Oryza sativa ). Mol Plant Pathol. 2004; 5:253\u2013265. https://doi.org/10.1111/j.1364-3703.2004.00224.x pmid:20565594 View Article PubMed/NCBI Google Scholar 7. Peraldi A, Griffe LL, Burt C, McGrann GRD, Nicholson P. Brachypodium distachyon exhibits compatible interactions with Oculimacula spp. and Ramularia collo-cygni , providing the first pathosystem model to study eyespot and ramularia leaf spot diseases. Plant Path. 2014; 63:554\u2013562. https://doi.org/10.1111/ppa.12114 pmid:26146412 View Article PubMed/NCBI Google Scholar 8. Schneebeli K, Mathesius U, Zwart AB, Bragg JN, Vogel JP, Watt M. Brachypodium distachyon genotypes vary in resistance to Rhizoctonia solani AG8. Funct Plant Biol. 2016; 43(2):189\u2013198. https://doi.org/10.1071/FP15244 pmid:32480452 View Article PubMed/NCBI Google Scholar 9. Peraldi A, Beccari G, Steed A, Nicholson P. Brachypodium distachyon : a new pathosystem to study Fusarium head blight and other Fusarium diseases of wheat. BMC Plant Biol. 2011; 11:100. https://doi.org/10.1186/1471-2229-11-100 pmid:21639892 View Article PubMed/NCBI Google Scholar 10. Dinolfo MI, Mart\u00ednez M, Nogueira MS, Nicholson P, Stenglein SA. Evaluation of interaction between Brachypodium distachyon roots and Fusarium species. Eur J Plant Pathol. 2021; 159:269\u2013278. https://doi.org/10.1007/s10658-020-02159-7 View Article Google Scholar 11. Ayliffe M, Singh D, Park R, Moscou M, Pryor T. Infection of Brachypodium distachyon with selected grass rust pathogens. Mol Plant Microbe Interact. 2013; 26(8):946\u2013957. https://doi.org/10.1094/MPMI-01-13-0017-R pmid:23594350 View Article PubMed/NCBI Google Scholar 12. Barbieri M, Marcel TC, Niks RE, Francia E, Pasquariello M, Mazzamurro V, et al. QTLs for resistance to the false brome rust Puccinia brachypodii in the model grass Brachypodium distachyon L. Genome. 2012; 55:152\u2013163. https://doi.org/10.1139/g2012-001 pmid:22321152 View Article PubMed/NCBI Google Scholar 13. Figueroa M, Alderman S, Garvin DF, Pfender WF. Infection of Brachypodium distachyon by formae speciales of Puccinia graminis : early infection events and host\u2013pathogen incompatibility. PLoS One. 2013; 8:e56857. https://doi.org/10.1371/journal.pone.0056857 pmid:23441218 View Article PubMed/NCBI Google Scholar 14. Cui Y, Lee MY, Huo N, Bragg J, Yan L, Yuan C, et al. Fine mapping of the Bsr1 barley stripe mosaic virus resistance gene in the model grass Brachypodium distachyon . PLoS One. 2012; 7(6):e38333. https://doi.org/10.1371/journal.pone.0038333 pmid:22"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Subject Areas ? For more information about PLOS Subject Areas, click here . We want your feedback. Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!",
+      "text": "Wheat Is the Subject Area \"Wheat\" applicable to this article? Yes No Thanks for your feedback. Fungi Is the Subject Area \"Fungi\" applicable to this article? Yes No Thanks for your feedback. Plant fungal pathogens Is the Subject Area \"Plant fungal pathogens\" applicable to this article? Yes No Thanks for your feedback. Leaves Is the Subject Area \"Leaves\" applicable to this article? Yes No Thanks for your feedback. Gene expression Is the Subject Area \"Gene expression\" applicable to this article? Yes No Thanks for your feedback. Polymerase chain reaction Is the Subject Area \"Polymerase chain reaction\" applicable to this article? Yes No Thanks for your feedback. Fusarium Is the Subject Area \"Fusarium\" applicable to this article? Yes No Thanks for your feedback. Pathogens Is the Subject Area \"Pathogens\" applicable to this article? Yes No Thanks for your feedback."
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "Brachypodium distachyon is a useful model organism for studying interaction of cereals with phytopathogenic fungi. The present study tested the possibility of a compatible interaction of B . distachyon with the endophytic fungus Microdochium bolleyi originated from wheat roots. There was evaluated the effect of this endophytic fungus on the intensity of the attack by pathogen Fusarium culmorum in B . distachyon and wheat, and also changes in expression of genes (in B . distachyon : BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , and BdAOS; and in wheat: TaB2H2(chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) involved in defence against pathogens. Using light microscopy and newly developed specific primers was found to be root colonization of B . distachyon by the endophyte M . bolleyi . B . distachyon plants, as well as wheat inoculated with M . bolleyi showed significantly weaker symptoms on leaves from infection by fungus F . culmorum than did plants without the endophyte. Expression of genes BdPR1-5 , BdChitinase1 , and BdLOX3 in B . distachyon and of TaPR1 . 1 and TaB2H2 in wheat was upregulated after infection with F . culmorum . M . bolleyi -mediated resistance in B . distachyon was independent of the expression of the most tested genes. Taken together, the results of the present study show that B . distachyon can be used as a model host system for endophytic fungus M . bolleyi .",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Citation: Matu\u0161insky P, Sedl\u00e1kov\u00e1 B, Ble\u0161a D (2022) Compatible interaction of Brachypodium distachyon and endophytic fungus Microdochium bolleyi . PLoS ONE 17(3): e0265357. https://doi.org/10.1371/journal.pone.0265357",
+      "char_offset": 1426
+    },
+    {
+      "type": "paragraph",
+      "text": "Editor: Sabrina Sarrocco, Universita degli Studi di Pisa, ITALY",
+      "char_offset": 1645
+    },
+    {
+      "type": "paragraph",
+      "text": "Received: September 24, 2021; Accepted: March 1, 2022; Published: March 14, 2022",
+      "char_offset": 1710
+    },
+    {
+      "type": "paragraph",
+      "text": "Copyright: \u00a9 2022 Matu\u0161insky et al. This is an open access article distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "char_offset": 1792
+    },
+    {
+      "type": "paragraph",
+      "text": "Data Availability: All relevant data are within the paper and its Supporting information files.",
+      "char_offset": 2066
+    },
+    {
+      "type": "paragraph",
+      "text": "Funding: Authors of this study were supported by the Ministry of Agriculture of the Czech Republic, projects numbers QK1910197, QK21010064, MZE-RO1118 and Internal Grant of Palacky University project number IGA_PrF_2022_002. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+      "char_offset": 2163
+    },
+    {
+      "type": "paragraph",
+      "text": "Competing interests: The authors have declared that no competing interests exist.",
+      "char_offset": 2515
+    },
+    {
+      "type": "paragraph",
+      "text": "Brachypodium distachyon (L.) P. Beauv (Bd) was proposed two decades ago as a model system for cereals [ 1 ], and research since that time has confirmed this to be a proper choice. Like Arabidopsis , Brachypodium has small stature, short generation time, the ability to self-pollinate, and it is easily grown under simple conditions [ 1 ]. In addition, Bd has one of the smallest genomes found in grasses [ 2 ], comprising just 5 chromosomes spanning 272 Mbp and within which about 25,000 protein-coding sequences are predicted [ 3 ]. Host-pathogen interactions between B . distachyon and plant pathogens have previously been described for a number of important cereal diseases [ 4 ]. Phytopathogenic fungi with compatible interaction have been described between B . distachyon and Rhizoctonia solani , Claviceps purpurea , Ramularia collo-cygni , Oculimacula spp., Magnaporthe grisea , Cochliobolus sativus , Gaeumannomyces graminis , Pyrenophora teres , Fusarium spp., Stagonospora nodorum , and Colletotrichum cereale [ 5 \u2013 10 ]. Multiple studies have confirmed interactions among Bd and such rust pathogens as Puccinia graminis , Puccinia triticina , Puccinia hordei , and Puccinia striiformis [ 11 \u2013 13 ]. Bd is also susceptible to some oomycota [ 5 ], bacteria [ 4 ], and viruses [ 14 , 15 ] previously described as cereal pathogens.",
+      "char_offset": 2598
+    },
+    {
+      "type": "paragraph",
+      "text": "A study by Peraldi et al . confirmed positive interaction between the species most prevalently causing Fusarium head blight (FHB) and Bd [ 9 ]. As documented in that study, Fusarium graminearum and Fusarium culmorum successfully infected tissue of Bd. F . culmorum is a soil-, air- and seed-borne fungal pathogen of small-grain cereals causing foot and root rot, fusarium seedling blight, and especially FHB, a disease leading to decreased yield and mycotoxin contamination of grain [ 16 ]. Fusarium culmorum is observed in colder regions of Europe, America, Australia, Asia, and North Africa [ 17 \u2013 20 ] and is regarded globally as one of the main pathogens of cereals [ 21 , 22 ]. Because no fully resistant cultivars exist, control of diseases caused by Fusarium spp. must be achieved by such agricultural management practices as crop rotation and postharvest debris removal to diminish inoculum pressure [ 23 ]. Fungicide treatments at anthesis can reduce disease levels by only 15\u201330% [ 24 ], and, together with rising environmental concerns, new disease control alternatives, including biological controls, need to be developed. Several organisms have been tested both in vitro and in plant assays for their efficacy to control FHB in wheat [ 25 \u2013 27 ]. Endophytic biological control agents may offer such potential [ 28 ].",
+      "char_offset": 3938
+    },
+    {
+      "type": "paragraph",
+      "text": "Microdochium . bolleyi (Sprague) de Hoog and Hermanides-Nijhof, (Ascomycota , Xylariales) (Mb) is a fungus endophytically growing within plant roots, especially in cereals and other graminaceous species [ 29 ]. It has been documented on wheat [ 30 ], barley [ 31 , 32 ], and other plants, such as Agrostis stolonifera L. [ 33 ], Agrostis palustris [ 34 ], and Phragmites australis [ 35 ]. Mb is characterized as a dark septate endophyte due to its melanised cell walls and intra- and intercellular growth within the roots of healthy plants [ 36 ]. In culture, Mb produces one-celled, crescent-shaped conidia and dark brown hyphae, and it may release an orange pigment [ 37 ]. Mb has been shown to exhibit suppression of various plant pathogens of cereals, such as Oculimacula yallundae [ 30 ], G . graminis var. tritici [ 32 , 38 ], Septoria nodorum [ 39 ], and Bipolaris sorokiniana [ 40 ]. Mb inhibited the growth of F . culmorum by 24.5\u201333% in dual culture in vitro , and symptoms on detached spikelets caused by F . graminearum were lower to 54% in treatment by Mb [ 41 ].",
+      "char_offset": 5269
+    },
+    {
+      "type": "paragraph",
+      "text": "The present research aims to investigate the interaction between M . bolleyi and B . distachyon and evaluate Bd as a model for examining potential of endophyte-mediated resistance to F . culmorum (Fc). A second aim was to develop a method for molecular identifying Mb in plant tissues.",
+      "char_offset": 6347
+    },
+    {
+      "type": "paragraph",
+      "text": "Seeds of the B . distachyon line Bd21 were obtained from the Joint Genome Institute ( https://jgi.doe.gov ). All plants were maintained in a cooled greenhouse (20/18\u00b0C, day/night) within pots 8 cm in diameter filled with a 50:50 planting substrate\u2013sand (vol/vol) mixture, the substrate being FLORCOM SV (BB Com, Letohrad, Czech Republic). Ten seeds were placed into each pot. After germination, the number of plants in every pot was reduced to six.",
+      "char_offset": 6634
+    },
+    {
+      "type": "paragraph",
+      "text": "The Mb isolates originated from wheat roots. There were used six isolates (UPOC-FUN-253\u2013258) from the Collection of Phytopathogenic Microorganisms UPOC (Czech Republic). All isolates come from the Czech Republic and were collected during the years 2018 and 2019. Inocula of Mb isolates were cultivated on millet grains for three weeks at 20\u00b0C in the dark. Before cultivation, 200 g of millet seeds and 50 ml of distilled water in each plastic bag were steam sterilized twice at 120\u00b0C for 20 min. Each isolate was cultivated separately, and then, prior to use, all six isolates were mixed all together from equal parts. The Fc isolate 19FcBd was obtained from symptomatic leaves of Bd in a greenhouse during 2019. The isolate was checked for colony morphology, conidial morphology, and sequencing of the internal transcribed spacer (ITS), large subunit (LSU), and elongation factor (EF-1). Sequences were checked using the online Basic Local Alignment Search Tool (BLAST). Best hits were examined to attribute species names (\u226597% of sequence similarities). Species-specific primers OPT18F/R [ 42 ] were also used to confirm Fc determination. Cultures were maintained in darkness at 18 \u00b1 2 \u00b0C on potato dextrose agar (PDA) plates and transferred regularly to fresh medium. The Fc inoculum was cultured on PDA plates under UV-B light at 18 \u00b0C for 2 weeks. Macroconidia were obtained by scraping the agar surface with a sterile spatula and transferring the conidia to sterile distilled water. A final solution of Fc macroconidia was prepared at a concentration of 5 \u00d7 10 5 conidia mL \u22121 .",
+      "char_offset": 7084
+    },
+    {
+      "type": "paragraph",
+      "text": "Isolates of other fungi used for testing of diagnostic primers were obtained from four different collections of microorganisms ( Table 1 ).",
+      "char_offset": 8670
+    },
+    {
+      "type": "paragraph",
+      "text": "A positive reaction result distinguished by a visible band on the gel is indicated by a + sign, a negative response by a\u2013sign. To confirm the presence of DNA, a control polymerase chain reaction (PCR) reaction with universal primers ITS1/ITS4 was performed on all samples. Reactions were always repeated three times.",
+      "char_offset": 8811
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.t001",
+      "char_offset": 9129
+    },
+    {
+      "type": "paragraph",
+      "text": "Plants were inoculated with Mb during sowing. Millet containing Mb (2.5 g per pot) was spread evenly directly on the seed placed on the substrate. Treatments inoculated with Mb are indicated within this article as Mb1. Only sterile millet without endophyte was added to the control treatments. Treatments non-inoculated with Mb are indicated within this article as Mb0. Seed and inoculum were overlaid with a 0.5 cm layer of the substrate.",
+      "char_offset": 9180
+    },
+    {
+      "type": "paragraph",
+      "text": "In the phase of the second offshoot in Bd and the third leaf of wheat was carried out infection using Fc on the second upper leaf, adapting and modifying the method of Peraldi et al. [ 9 ]. Treatments infected with Fc are indicated within this article as F1. Leaves were wounded in two positions by gentle compression with a Pasteur pipette on the adaxial surface [ 9 ]. A droplet (5 \u03bcL) of conidial suspension (containing 5 \u00d7 10 5 conidia mL \u22121 ), amended with 0.05% Tween 20, was deposited onto each wound site. Mock inoculation was performed similarly using sterile distilled water with 0.05% Tween 20 (5 \u03bcL). Treatments non-infected with Fc are indicated within this article as F0. All plants were placed under a plastic cover to increase relative humidity until 2 days post inoculation (dpi), at which time the covers were removed.",
+      "char_offset": 9621
+    },
+    {
+      "type": "paragraph",
+      "text": "Disease symptoms on the leaves were recorded at 8 dpi in Bd and wheat. Leaves for light microscopy were collected at 8 dpi and fixed in 70% ethanol. The percentage of necrotic tissue was evaluated on the adaxial surface of infected leaves ( S1 Fig ). Leaves for RNA extraction were sampled at 1, 2, and 8 dpi and immediately transferred to liquid nitrogen. Subsequently, were transferred to a freezer and held at \u221280 \u00b0C.",
+      "char_offset": 10459
+    },
+    {
+      "type": "paragraph",
+      "text": "For the purpose of evaluating endophyte colonization by DNA extraction, roots were collected 90 days after sowing, surface sterilized for 3 min in 1% NaOCl and thoroughly rinsed in sterilized distilled water to remove all superficial hyphae and then dried. Roots for the purpose of evaluating endophyte colonization by light microscopy were collected 90 days after sowing, then fixed in 70% ethanol. Leaves and roots fixed in 70% ethanol were subsequently cleared in 2.5% KOH for 3 days, acidified in 1% HCl, then stained with 0.05% aniline blue in lactoglycerol [ 43 ]. Colonization of roots by the endophytic fungus was assessed by microscopic examination (200\u00d7 magnifications). Results were evaluated as positive when visible presence of Mb chlamydospores was observed.",
+      "char_offset": 10881
+    },
+    {
+      "type": "paragraph",
+      "text": "Fungal mycelia (approximately 50\u2013100 mg of biomass) of all tested species and strains ( Table 1 ) were harvested from Petri dishes, ground to a fine powder in a cooled mortar using liquid nitrogen, then homogenized. Total genomic DNA was extracted using the DNeasy Plant Mini Kit (Qiagen, Germany). Plant material (roots of Bd and wheat, approximately 50 mg of dried biomass per sample) was also ground to powder and extracted as described above. DNA concentration was measured using Qubit fluorometric quantification (ThermoFisher Scientific, Waltham, MA, USA) and DNA was diluted to concentration 5 ng \u03bcL \u22121 .",
+      "char_offset": 11655
+    },
+    {
+      "type": "paragraph",
+      "text": "Based upon sequences ITS (KP859018), LSU (large subunit of ribosomal gene; KP858954), Tub2 (\u03b2-tubulin gene; KP859081), and RPB2 gene (RNA 40 polymerase II second-largest subunit (KP859127)) [ 44 ] selected from the GenBank database, four primer pairs (MbITSF/R, MbLSUF/R, MbBETF/R, and MbPOLIIF/R) were designed using Primer3Plus software [ 45 ]. PCR reactions were carried out in 20 \u03bcL volumes containing 10 ng of DNA from fungal and/or plant material. The reaction mixture consisted of 0.2 mM of dNTP, 0.2 \u03bcM each of forward and reverse oligonucleotide primer (the best final primers MbPOLIIF/R were selected from a preliminary screen of the designed primers (see S1 Table )) and 1 U of Taq polymerase. Reaction buffer consisted of 75 mM Tris-HCl, 20 mM (NH 4 ) 2 SO 4 , and 2.5 mM MgCl 2 .",
+      "char_offset": 12268
+    },
+    {
+      "type": "paragraph",
+      "text": "DNA extracted from fungal cultures and from infected and non-infected plant material was amplified using PCR with initial denaturation 94 \u00b0C (5 min). The temperature cycle (35\u00d7) consisted of denaturation (95 \u00b0C) for 30 s, annealing 66.7 \u00b0C (20 s), and extension at 72 \u00b0C (45 s). A final extension step at 72 \u00b0C for 5 minutes was followed by cooling to 10 \u00b0C until removing samples. PCR products (10 \u03bcL) were analysed using agarose gel electrophoresis.",
+      "char_offset": 13062
+    },
+    {
+      "type": "paragraph",
+      "text": "The primers were tested on the six Mb isolates as described above. The sensitivity was tested using different amounts of Mb DNA (1.0, 0.1, 0.01, 0.001, and 0.0001 ng.). The designed primer pairs were also tested for their specificity towards the DNA of fungi associated with diseases of wheat and other cereals. Fungal cultures were obtained from four microorganism collections ( Table 1 ) and cultured on PDA. The quality of fungal DNA was checked by ITS1/ITS4 primers [ 46 ]. Furthermore, the potential for detection was tested in Bd and wheat roots inoculated with the Mb compared with non-inoculated roots (inoculation and sampling as described above). All reactions were repeated at least three times.",
+      "char_offset": 13515
+    },
+    {
+      "type": "paragraph",
+      "text": "Leaves were homogenized in a TissueLyser II (Qiagen, Hilden, Germany) for 2 minutes at 27 Hz. Caution was taken during homogenization to avoid sample melting. The homogenized samples were immediately placed into liquid nitrogen. The RNA was isolated using RNeasy Plant Mini Kit (Qiagen) while following the manufacturer\u2019s instructions. DNA was removed during the RNA purification using the RNase-Free DNase Set (Qiagen). The isolated RNA was stored at \u221280 \u00b0C. cDNA was synthesized using the Transcriptor High Fidelity cDNA Synthesis Kit (Roche Diagnostics, Mannheim, Germany) according to the manufacturer\u2019s instructions with 1 \u03bcg of total RNA and anchored-oligo (dT) primers. The concentration of cDNA was measured using Qubit (ThermoFisher Scientific) and cDNA was diluted to concentration 5 ng \u03bcL \u22121 . Expression analysis of the chosen plant defence genes ( BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , BdAOS , TaB2H2 (chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) was performed using the CFX96TM Real-Time PCR Detection System (Bio-Rad, Hercules, CA, USA). The quantitative PCR mix consisted of 1\u00d7 SYBR Green (Top-Bio, Vestec, Czech Republic), 0.2 \u03bcM forward and reverse primers ( S1 Table ), 10 ng cDNA (2 \u03bcL), and water to final volume 15 \u03bcL. The reference gene for the wheat was glyceraldehyde-3-phosphate dehydrogenase (GAPDH) according to Travella et al. [ 47 ] and Sun et al. [ 48 ], and for Bd, it was S-adenosylmethionine decarboxylase gene BdSamDC [ 49 ]. The control sample consisted of equal amounts of cDNA from all three replications of Bd and wheat plants not inoculated with fungi (with neither Mb nor Fc present). The primers\u2019 specificity and presence of primer dimers were verified by melting analysis. The data were analysed using the 2 \u2013\u0394\u0394Cq method with CFX Manager 3.0 software (Bio-Rad). Three biological as well as three technical replicates were run.",
+      "char_offset": 14223
+    },
+    {
+      "type": "paragraph",
+      "text": "Percentage of necrotic tissue after infection with Fc in the treatments pre-inoculated with the endophyte and non-inoculated were statistically analysed by ANOVA in conjunction with Tukey\u2019s post hoc test ( P < 0.05) using Statistica 12 software. Differences in expression levels of the analysed genes were evaluated by Tukey\u2019s test ( P < 0.05; Maestro software, BioRad).",
+      "char_offset": 16124
+    },
+    {
+      "type": "paragraph",
+      "text": "Using microscopic and molecular methods, presence of Mb was detected in both Bd and wheat root samples. Using light microscopy and aniline blue staining, chlamydospores were observed in the roots of Bd ( Fig 1 ) and wheat ( S2 Fig ). No presence of chlamydospores was confirmed in plants without inoculation.",
+      "char_offset": 16496
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.g001",
+      "char_offset": 16806
+    },
+    {
+      "type": "paragraph",
+      "text": "Of the four designed primer pairs, a set MbPOLIIF/R best met the requirements. The primers amplified one sharp band (600 bp) in all six tested isolates of Mb. In sensitivity testing, the method showed a positive response even at 0.001 ng (1 picogram) of Mb DNA ( S3 Fig ). In the specificity test, the primers amplified DNA only from Mb and not from any of the other fungal pathogens screened ( Table 1 ). The primer set was therefore used to examine Mb-inoculated and non-inoculated plant material (Bd and wheat). Inoculated plants (Mb1) with chlamydospores present in roots of both Bd and wheat showed positive results after PCR with primers MbPOLIIF/R and, on the contrary, non-inoculated plants (Mb0) without chlamydospores in roots showed negative PCR results ( S2 Table ). Analysis confirmed the primers to be specific and powerful in detecting Mb within plant tissues. No false positive results and no artefacts were detected after visualization on the electrophoresis. Other primer pairs tested (MbITSF/R, MbLSUF/R, and MbBETF/R) failed in the specificity test and were excluded from other parts of this study.",
+      "char_offset": 16857
+    },
+    {
+      "type": "paragraph",
+      "text": "Infection with Fc on leaves of Bd and wheat was successful. This was verified by light microscopy after staining in aniline blue. Germinating macroconidia and hyphae were observed penetrating pipette-damaged tissues ( S4 and S5 Figs). Darkening of tissues and incipient necrotization were observed around the penetration of hyphae into the tissues. The intensity of necrotization was assessed visually according to the scheme presented in S1 Fig , and percentage damage was recorded. On plants without Fc infection, darkening of tissues did not occur and areas damaged by pipette remained light coloured. Upon evaluating the data, it was found that plants without endophyte Mb were significantly more severely infected than were plants with Mb ( Table 2 ; S3 and S4 Tables).",
+      "char_offset": 17977
+    },
+    {
+      "type": "paragraph",
+      "text": "The main experimental factor is previous inoculation with the endophytic fungus M . bolleyi . CI\u2013 95% confidence intervals. \u03b1 = 0.05, statistically significant difference marked with asterisk (*).",
+      "char_offset": 18753
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.t002",
+      "char_offset": 18951
+    },
+    {
+      "type": "paragraph",
+      "text": "Expression levels of the selected essential plant defence genes ( BdChitinase1 , BdPR1-5 , BdLOX3 , BdPAL , BdEIN3 , BdAOS , TaB2H2 (chitinase) , TaPR1 . 1 , TaLOX , TaPAL , TaEIN2 , and TaAOS ) were measured in plants inoculated with endophyte Mb and pathogen Fc. The fold differences (FDs) in their expression levels were first compared among the mock (plants inoculated with neither Mb nor Fc) and other experimental treatments with combinations of single (only Mb or only Fc) and double (both Mb and Fc) inoculations ( Fig 2 ). Significant changes were detected only in some genes ( BdPR1-5 , BdChitinase1 , BdLOX3 , TaPR1 . 1 , and TaB2H2 ) for treatments infected with pathogenic fungus Fc. Other genes ( BdPAL , BdAOS , BdEIN3 , TaLOX , TaEIN2 , and TaAOS ) were not influenced by Fc infection. BdPR1-5 expression was upregulated by infection of plants with pathogen Fc at 1 dpi and 2 dpi ( Fig 2 ). The average FD across all treatments was 30.94 in the F1 group compared to F0 ( Table 3 ). In the last term, 8 dpi, no significant differences were detected between treatments F0 and F1. In the case of BdChitinase1 , the expression increase after infection with the Fc pathogen was FD = 4.12. Other increases were FD = 14.26 for TaPR1 . 1 and FD = 39.66 for TaB2H2 . In these genes, the changes were clear at 1 dpi and 2 dpi, but there were no conclusive differences at the last sampling date of 8 dpi. In the case of BdLOX3 , the difference due to pathogen infection was also apparent at 1 dpi and 2 dpi (FD = 8.8), and no difference was noted later. Nevertheless, a statistically significant difference was observed only at 2 dpi ( Fig 2 ).",
+      "char_offset": 19002
+    },
+    {
+      "type": "paragraph",
+      "text": "Expression levels are relative to M . bolleyi non-inoculated and Fc non-infected leaves of plants at 1 dpi and were normalized with the reference genes BdSamDC and TaGADPH . Expression levels shown are mean values and standard deviations (whiskers) for three replications. Statistically significant differences are indicated by letters above columns (post hoc Tukey\u2019s test, P < 0.05).",
+      "char_offset": 20653
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.g002",
+      "char_offset": 21039
+    },
+    {
+      "type": "paragraph",
+      "text": "Gene expression was detected as fold difference (FD) between inoculated (by pathogen or endophyte) and non-inoculated plants (mock).",
+      "char_offset": 21090
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.t003",
+      "char_offset": 21224
+    },
+    {
+      "type": "paragraph",
+      "text": "Inoculation of plants with the endophytic fungus Mb did not affect the expression of tested marker genes ( Table 3 ). There were no differences in the expression of the genes studied when Mb and Fc treatments were compared with treatment with a single pathogen infection ( Table 4 ), except in two cases. Mb affected the expression of BdChitinase1 and TaPR1 . 1 genes at 1 dpi ( Fig 2B and 2D ). While BdChitinase1 was upregulated in Mb1 treatment (with endophyte) at 1dpi, TaPR1 . 1 expression was downregulated at the same term. The expression of the other genes tested was not affected by Mb inoculation.",
+      "char_offset": 21275
+    },
+    {
+      "type": "paragraph",
+      "text": "Gene expression was detected as fold difference (FD) between plants inoculated only by pathogen and plants inoculated both by endophyte and pathogen to evaluate the effect potentially caused by endophyte on subsequent pathogen infection.",
+      "char_offset": 21884
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.t004",
+      "char_offset": 22123
+    },
+    {
+      "type": "paragraph",
+      "text": "Root endophytes can confer resistance against plant pathogens by direct antagonism through mycoparasitism, antibiosis, and/or competition for nutrients and niches, or indirectly by triggering induced resistance in the host [ 50 , 51 ]. Indirect antagonism takes into account an effect of the endophyte on the pathogen mediated via the host plant by triggering induced systemic resistance (ISR). Endophytes trigger ISR by two phytohormones, jasmonic acid (JA) and ethylene (ET), thereby resulting in a faster and stronger immune response following pathogen attack. Some endophytes are able to trigger a systemic acquired resistance response (SAR) that is salicylic acid (SA) dependent and also results in primed host defences [ 50 , 52 , 53 ].",
+      "char_offset": 22174
+    },
+    {
+      "type": "paragraph",
+      "text": "Most previous research with monocotyledonous plants has been focused on agronomically important grasses, such as tall fescue ( Festuca arundinacea ), perennial ryegrass ( Lolium perenne ), and meadow fescue ( Festuca pratensis ), and their interactions with herbivores and pathogens [ 54 , 55 ]. Endophytic fungi of the genus Epichlo\u00eb and their asexual Neotyphodium forms are thought to interact mutualistically with their host grasses, providing protection for the host against herbivores and pathogens mediated by fungal alkaloids [ 56 ]. There are many other examples of endophytes that decrease disease susceptibility of their host upon pathogen infection [ 50 , 57 , 58 ], thus making endophytes useful agents for disease control [ 50 ]. Endophytic fungus Harpophora oryzae in rice roots protected rice from Magnoporte oryzea root invasion by the accumulation of H 2 O 2 and elevated antioxidative capacity. H . oryzae also induced systemic resistance against rice blast by upregulation expression of transcription factor OsWRKY45 [ 59 ]. Inoculation of Theobroma cacao leaves with endophytic fungus Colletotrichum tropicale leads to higher resistance to damage by the pathogen Phytophthora palmivora [ 60 ], lower incidence of black pod disease caused by Phytophthora spp. [ 61 ] moreover, it induces changes in the expression of host genes with defense responses functions. Inoculations of T . cacao by endophyte C . tropicale produced changes in the expression of genes associated with the synthesis, modification, and degradation of the cell wall; peroxidases and components of the jasmonic acid defense pathway; pathogenesis-related proteins; redox state proteins; genes coding beta glucanases, heat shock proteins, transcription factors, proteins involved in secondary metabolism and proteolysis; and other genes relevant to plant-microbe interactions such as NPR3, nodulin, and endochitinases [ 62 ].",
+      "char_offset": 22918
+    },
+    {
+      "type": "paragraph",
+      "text": "In our work, plants colonized by Mb showed significantly lower levels of Fc infection. Fc infection induced expression of BdPR1-5 , BdChitinase1 , BdLOX3 , TaB2H2 , and TaPR1 . 1 , but this expression was not affected by previous inoculation with the Mb endophyte. In cases of indirect endophyte-mediated resistance, a typical SAR/ISR response is based upon initial exposure to an endophyte that primes plant defence and subsequent infection with the pathogen [ 50 ]. The phenotypic resistance observed in this study, together with the gene expression findings in Bd and wheat, suggests that other genes are involved in the putative endophyte-mediated resistance. However, further research is needed to demonstrate which genes are responsible for this endophyte-mediated resistance. Since Mb is a root endophyte, mechanisms such as direct antimicrobial activity or competition for niches or resources cannot be assumed to be involved in the increased host resistance observed on leaves. Similarly, a study by Constantin et al . on tomato demonstrated that fungal endophyte Fusarium oxysporum strain Fo47 can confer endophyte-mediated resistance independently of SA, ET, or JA [ 50 ]. Their findings imply that endophyte-mediated resistance is mechanistically distinct from ISR and SAR.",
+      "char_offset": 24832
+    },
+    {
+      "type": "paragraph",
+      "text": "Striving to elucidate the possible factors involved in endophyte-mediated resistance in Bd, the activity of genes known to be involved in the activation of defence-related pathways in response to pathogen attack were measured. In model plants, genes considered to be involved in phytohormone biosynthesis or signalling are also used as markers of plant responses to pathogen attack [ 63 ]. Many defence genes are involved in SA, JA, and ET signalling pathways and are known to be associated with plant defence generally and with such model plants as Arabidopsis [ 64 ] and Bd [ 65 ]. JA- and ET-mediated signalling pathways are mainly linked to plant responses to necrotrophic pathogens and herbivores, while the SA-dependent pathway is mainly involved in responses to biotrophic pathogens, and these pathways can act antagonistically [ 66 ]. Hormone-responsive genes are thus used to evaluate disease resistance responses during pathogen infection. Defence-related phytohormone marker genes expressed at time points suitable for defence-response monitoring were studied for Bd by Kouzai et al. [ 65 ] and by Sandoya et al. (1). Some of the recommended marker genes from the two studies just cited were used in the current study to evaluate response of Bd to endophyte fungus Mb and also pathogenic Fc infection. To confirm the hypothesis, the influence of the endophyte Mb on wheat was investigated in parallel.",
+      "char_offset": 26119
+    },
+    {
+      "type": "paragraph",
+      "text": "Pathogenesis-related (PR) genes generally encode small antimicrobial proteins, their expression levels increase quickly when stimulated by biotic or abiotic stress, and therefore they serve as markers for plant immune signalling. PR proteins\u2019 biochemical activity and mode of action have nevertheless remained elusive [ 67 ]. PR-1 proteins constitute a large family of 23 proteins in wheat that are upregulated early in the defence response [ 68 ]. Findings from a recent study provided genetic and biochemical evidence indicating that PR1 binds to sterols and inhibits pathogen growth [ 69 ]. Increased expression of the PR1 , PR2 , and PR5 genes represents activation of the SA signalling pathway [ 70 ], but, in rice, for example, the expression level of OsPR1 is increased by both SA and JA [ 71 ]. Although expression of PR1 . 1 and PR1 . 2 genes of wheat has been induced upon infection with either compatible or incompatible isolates of the fungal pathogen Blumeria graminis , these genes did not respond to such activators of systemic acquired resistance (SAR) as SA, benzothiadiazole, or isonicotinic acid [ 72 ]. Similarly in the present study, PR1 was induced by Fc but not by endophyte-mediated resistance provided by pre-inoculation of Bd and wheat with Mb. In a study by Zhang et al ., two PR protein-encoding genes ( PR1\u201317 and PR10 ) showed progressive increase in expression over time that peaked after the appearance of symptoms in G . graminis var. tritici -infected roots of wheat [ 73 ]. In our study, the gene PR1 . 1 in wheat was highly expressed at 1 dpi and 2 dpi after Fc infection. In retrospect, in our study, it would have been better to measure the expression of genes earlier, within a matter of hours (1, 2, 3 h, etc.), after infection. After 24 h, the expression of some genes may already have passed its peak. There were no longer any statistically significant differences in the level of PR1 gene expression between the Fc infected and non-infected treatments in either Bd or wheat hosts at 8 dpi.",
+      "char_offset": 27533
+    },
+    {
+      "type": "paragraph",
+      "text": "Jasmonic acid is an oxylipin hormone derived from linolenic acid that is crucial for plants to regulate growth and development, as well as to respond to biotic and abiotic stresses [ 74 ]. Allene oxide synthase ( AOS ) and lipoxygenase ( LOX ) are required for JA biosynthesis [ 75 ], and they are used as JA markers in various plant species [ 65 ]. In a study by Zhang et al . [ 73 ], G . graminis var. tritici -infected roots showed changes in genes expression profile after pathogen infection. LOX2 had a unique expression pattern in that it progressively declined after infection. Similarly, in our study LOX3 expression in Bd after Fc infection was significantly elevated at 1 and 2 dpi. AOS usually reacts to wounding of plant organs, as described, for example, in Arabidopsis or flax [ 76 , 77 ] or to feeding damage by herbivores in rice [ 78 ]. Plants also react through a change in AOS expression to the effect of attack by pathogenic fungi. Various wheat cultivars infected with the fungal pathogen Zymoseptoria tritici have shown significant changes in AOS and LOX expression levels in comparison with non-infected controls [ 79 ]. In our study, neither inoculation with the endophyte nor with Fc demonstrated any effect on AOS expression either in Bd or in wheat. In a study by Gottwald et al ., defence-related genes of wheat encoding jasmonate-regulated proteins were upregulated in response to FHB [ 80 ]. The transcription levels of the LOX3 gene in the JA pathway of Bd studied by Sandoya et al . (1) were upregulated in the resistant genotype at 24 h post infection, with a decrease observed at 48 h following infection with fungal pathogen Sclerotinia homoeocarpa isolate.",
+      "char_offset": 29567
+    },
+    {
+      "type": "paragraph",
+      "text": "Phenylalanine ammonia lyase ( PAL ) is a key enzyme in the phenylpropanoid pathway of higher plants, and transcriptional upregulation of PAL after pathogen infection has been reported in Arabidopsis , wheat, rice, and Brachypodium [ 5 , 81 ]. From a plant defence viewpoint, PAL is responsible for synthesizing such compounds as flavonoids and chlorogenic acid [ 82 ]. A study by Cass et al . [ 83 ] showed that PAL in Bd plays an important role in lignin biosynthesis, with more than 40% reduction in cell wall lignin content associated with PAL knockdown. Reduced-lignin plants exhibited significantly increased susceptibility to the hemibiotrophic fungal pathogens Fc and Magnaporthe oryzae [ 83 ]. There were no changes in expression of the PAL gene after Fc and Mb inoculation in either Bd or wheat in the current study.",
+      "char_offset": 31261
+    },
+    {
+      "type": "paragraph",
+      "text": "Ethylene regulates many diverse metabolic and developmental processes in plants, ranging from seed germination to senescence, and it is considered to play an important role as a signal molecule during abiotic and biotic stress [ 84 , 85 ]. There was measured gene expression of EIN2 (ethylene-insensitive 2) in wheat and EIN3 (ethylene-insensitive 3) in Bd, which encode EIN , a small nuclear-localized protein that is considered a transcription factor acting as a positive regulator in the ethylene response pathway. It is required for ethylene responsiveness in adult plant tissues and binds a primary ethylene response element present in the ethylene-response-factor 1 ( ERF1 ) promoter with the consequence of activating transcription of this gene [ 86 , 87 ]. EIN3 is also involved in a regulatory cascade for the modulation of PR genes expression [ 88 ]. In the interaction of Arabidopsis thaliana and bacterial pathogen Erwinia amylovora , the elicitor HrpNEa activates ethylene-mediated expression of the Arabidopsis transcription factor MYB44 , which in turn enhances the expression of ethylene-insensitive 2 ( EIN2 ) [ 89 ]. No changes in EIN gene expression after Fc and Mb inoculation were observed in either Bd or wheat in the current study. JA and ET are two major plant hormones that synergistically regulate plant development and tolerance to necrotrophic fungi. EIN3 and EIL1 are positive regulators of a subset of JA responses, including PR gene expression, plant resistance to necrotrophic fungi, and root development [ 90 ]. The endophyte must use enzymes to overcome obstacles while growing through the plant tissues and the plant duly responds to these signals by its defence mechanisms, much as it would react to a pathogen and its virulence factors. How this delicate balance is regulated remains a question, however.",
+      "char_offset": 32088
+    },
+    {
+      "type": "paragraph",
+      "text": "Endophyte presence is usually determined by methods other than PCR, especially microscopic [ 43 ] and by culture [ 91 , 92 ]. In recent years, molecular methods have also been introduced [ 93 ]. Ernst et al . [ 94 ] used nested PCR to distinguish two endophytic species of Mb and Microdochium phragmitis in Phragmites australis . In the present study, primers for end-point PCR to determine the Mb endophytic fungus in plant tissues were developed. Although endophytes had previously been determined by PCR in grass tissues, such as in cases of Epichlo\u00eb [ 95 ], Neotyphodium [ 96 ], and Acremonium [ 97 ], no method has been available heretofore for standard end-point PCR determination of Mb. The method was tested in wheat and Bd. In both host species, the presence of Mb could be unequivocally demonstrated in the inoculated plants by the presence of a band on the electrophoretic gel. In plants without previous Mb inoculation, the results of PCR test using the MbPOLII primer were negative. Therefore, the molecular method is a suitable complement to, or might completely replace, other tests for detecting Mb in plant tissues. The results from studies of endophytic fungi to date are in many aspects still fragmentary, and nobody has yet managed, for instance, to cover the entire spectrum within different parts of a plant simultaneously, let alone across several seasons. This is mainly due to methodological limitations of the endophyte studies. This PCR-based method of endophyte determination facilitates such research in many respects.",
+      "char_offset": 33931
+    },
+    {
+      "type": "paragraph",
+      "text": "Bd is a suitable model for studying interactions with the endophytic fungus Mb, and it is possible to study the influence of endophyte-mediated resistance at the phenotypic level as well as in terms of gene expression. Bd and Mb showed positive interaction. In plants colonized by Mb, less severe symptoms of damage created by the fungus Fc were detected. Chitinase , PR1 , and LOX in Bd as well as B2H2 and PR1 . 1 in wheat, reacted to Fc by their upregulation. In terms of endophyte-mediated resistance, these genes were in most cases independent of Mb \u2019s presence. There were developed primers for the end-point PCR to diagnose the endophyte Mb in plant tissues and tested it in Bd and wheat. The method is suitable for confirming presence of the endophyte in plants.",
+      "char_offset": 35480
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s001",
+      "char_offset": 36252
+    },
+    {
+      "type": "paragraph",
+      "text": "Cross-section by wheat root with cells filled by chlamydospores (arrowed), bar 100\u00b5m (A). Wheat rhizodermis with root cells filled by chlamydospores, bar 100\u00b5m (B).",
+      "char_offset": 36303
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s002",
+      "char_offset": 36469
+    },
+    {
+      "type": "paragraph",
+      "text": "Three different Mb isolates were tested: A) UPOC-FUN-253, B) UPOC-FUN-254, and C) UPOC-FUN-255.",
+      "char_offset": 36520
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s003",
+      "char_offset": 36617
+    },
+    {
+      "type": "paragraph",
+      "text": "Asterisks indicate light-coloured areas originating from wounding by Pasteur pipette prior to infection. Arrows indicate some germinated macroconidia. (bar = 50 \u00b5m).",
+      "char_offset": 36668
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s004",
+      "char_offset": 36835
+    },
+    {
+      "type": "paragraph",
+      "text": "A) Non-inoculated plants with endophyte and without infection by Fc (Mb0F0), B) Non-inoculated plants with endophyte and with infection by Fc (Mb0F1). C) Leaves of plants inoculated with endophyte and infected with Fc (Mb1F1), and D) leaves of plants inoculated with endophyte and without Fc infection (Mb1F0).",
+      "char_offset": 36886
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s005",
+      "char_offset": 37198
+    },
+    {
+      "type": "paragraph",
+      "text": "Names, sequences of forward and reverse primers, publication sources of primer pairs, and gene functions are listed.",
+      "char_offset": 37249
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s006",
+      "char_offset": 37367
+    },
+    {
+      "type": "paragraph",
+      "text": "The microscopic method was based on the presence of chlamydospores in roots after staining with aniline blue. PCR methods were performed using MbITSRTF/R primers.",
+      "char_offset": 37418
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s007",
+      "char_offset": 37582
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s008",
+      "char_offset": 37633
+    },
+    {
+      "type": "paragraph",
+      "text": "https://doi.org/10.1371/journal.pone.0265357.s009",
+      "char_offset": 37684
+    },
+    {
+      "type": "paragraph",
+      "text": "We thank the Collection of Phytopathogenic Microorganisms UPOC for providing fungal isolates.",
+      "char_offset": 37735
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-bd806c5e3c455df9"
+}

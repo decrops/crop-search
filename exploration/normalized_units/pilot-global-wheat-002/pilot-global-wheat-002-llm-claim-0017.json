@@ -1,0 +1,74 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0017",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "management.tillage_response",
+  "attribute": "tillage_management",
+  "attribute_subtype": "tillage_response",
+  "claim_text": "Over a 9-year study, wheat yield under no-till (NT) was equivalent to or better than under conventional tillage.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "A 9-year study found that the yield of wheat under NT was equivalent to or better than that under conventional tillage (Mrabet, 2011), while El Mzouri et al. (2023) showed similar results in contrasting climatic contexts.",
+    "text_value": "Over a 9-year study, wheat yield under no-till (NT) was equivalent to or better than under conventional tillage.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://public-pages-files-2025.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1662153/pdf"
+    ],
+    "source_title": "https://public-pages-files-2025.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1662153/pdf",
+    "source_domain": "public-pages-files-2025.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "A 9-year study found that the yield of wheat under NT was equivalent to or better than that under conventional tillage (Mrabet, 2011), while El Mzouri et al. (2023) showed similar results in contrasting climatic contexts.",
+    "manifest_version": "0.4.0",
+    "notes": "2025",
+    "source_publication_year": 2025,
+    "document_id": "doc-15dd5051f882a56f",
+    "block_type": "paragraph",
+    "page": 8
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "no-till (NT) vs conventional tillage"
+  }
+}

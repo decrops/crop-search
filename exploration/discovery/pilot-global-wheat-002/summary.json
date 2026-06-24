@@ -1,0 +1,21 @@
+{
+  "run_id": "pilot-global-wheat-002",
+  "stage": "discovery",
+  "generated_at": "2026-06-24T10:44:06Z",
+  "ledger_rows": 2022,
+  "unique_sources": 772,
+  "seed_rows_injected": 35,
+  "provider_counts": {
+    "crossref": 1020,
+    "europe_pmc": 160,
+    "openalex": 719,
+    "source_seed": 35,
+    "wikipedia": 88
+  },
+  "drop_reason_counts": {
+    "duplicate": 1210,
+    "kept": 763,
+    "relevance_gate": 49
+  },
+  "retry_queue_size": 328
+}

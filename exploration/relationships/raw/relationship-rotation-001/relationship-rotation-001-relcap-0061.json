@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0061",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "wheat",
+  "object_crop_id": "rice",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "wheat|rice",
+  "canonical_relationship_key": "rotation|wheat|rice",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.59797/ija.v44i3.3536"
+  },
+  "source_url": "https://doi.org/10.59797/ija.v44i3.3536",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:32:15Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pub.isa-india.in/index.php/ija/article/view/3536",
+  "source_title": "Effect of frequency of zinc application on yield of rice (Oryza sativa) and wheat (Triticum aestivum) in rice-wheat sequence\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pub.isa-india.in.html",
+  "snippet": "Agarwal, S.K. andBhan, Suraj. 1997.Effect of lev-els of zinc sulphate application on the yield and net return in rice-wheat cropping sequence. Indian Jounual of Agricultural Research 31\n\nKatyal, J.C. and Agarwal. S.C. 1982 Micronutrient research in India. Fertiliser News 27 (2):6",
+  "raw_text": "Agarwal, S.K. andBhan, Suraj. 1997.Effect of lev-els of zinc sulphate application on the yield and net return in rice-wheat cropping sequence. Indian Jounual of Agricultural Research 31\n\nKatyal, J.C. and Agarwal. S.C. 1982 Micronutrient research in India. Fertiliser News 27 (2):66-\n\nNambiar, K.K.M. 1992. Annual Report (1987-88 and 1988-89) of All India Coordinated Research Project on Long Term Fertilizer Experiments (ICAR), Indian Agricultural Research Institute, New Delhi.\n\nTakkar, P.N., Chibba, I.M. and Mehta, S.K. 1989.\n\nTwenty years of Co-ordinated Research on Micronutrients in soils and Plants. Bulletin I,",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

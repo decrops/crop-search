@@ -1,0 +1,11 @@
+{
+  "run_id": "relationship-rotation-001",
+  "eval_type": "relationships",
+  "generated_at": "2026-06-24T14:41:00Z",
+  "matrix_available": true,
+  "gold_records": 2,
+  "metrics": {
+    "pair_recall": 1.0,
+    "effect_accuracy": 0.5
+  }
+}

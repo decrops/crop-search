@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0102",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "management.tillage_response",
+  "attribute": "tillage_management",
+  "attribute_subtype": "tillage_response",
+  "claim_text": "Conservation/minimum tillage with crop residue mulching reduces soil evaporation, increases infiltration and boosts wheat yields versus conventional tillage.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "Conventional tillage practices have been linked to decreased water in\ufb01ltration, increased soil evaporation and reductions in crop yield (Esser, 2017). Adopting conservation tillage practices together with the use of crop residues as mulching material can reduce soil evaporation, increase infiltration, and boost yields",
+    "text_value": "Conservation/minimum tillage with crop residue mulching reduces soil evaporation, increases infiltration and boosts wheat yields versus conventional tillage.",
+    "qualifier": "recommended"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.watersa.net/index.php/watersa/en/article/download/6748/8047"
+    ],
+    "source_title": "https://www.watersa.net/article/download/6748/8047",
+    "source_domain": "www.watersa.net",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Conventional tillage practices have been linked to decreased water in\ufb01ltration, increased soil evaporation and reductions in crop yield (Esser, 2017). Adopting conservation tillage practices together with the use of crop residues as mulching material can reduce soil evaporation, increase infiltration, and boost yields",
+    "manifest_version": "0.4.0",
+    "notes": "2019",
+    "source_publication_year": 2019,
+    "document_id": "doc-36840c071fb734b6",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "irrigated"
+  }
+}

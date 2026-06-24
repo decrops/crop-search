@@ -37,7 +37,16 @@ class SourceTierTests(unittest.TestCase):
         parameter_ids = {item.parameter_id for item in plan}
         parameter_families = {item.parameter_family for item in plan}
 
-        self.assertEqual(len(parameter_ids), 85)
+        # Distinct params in the plan = active params applicable to this crop group
+        # (computed, so activating new params doesn't require editing a magic number).
+        from crop_search_framework.parameters import (
+            load_parameter_manifest, load_crop_profile, selected_parameters,
+        )
+        manifest = load_parameter_manifest(REPO_ROOT, run_config["parameter_manifest_path"])
+        crop_profile = load_crop_profile(REPO_ROOT, run_config["crop_profile_path"])
+        expected = {p["parameter_id"] for p in selected_parameters(run_config, manifest, crop_profile)}
+        self.assertEqual(parameter_ids, expected)
+        self.assertGreaterEqual(len(parameter_ids), 85)  # >=85 after crop-protection activation
         self.assertEqual(len(plan), len(parameter_ids) * len(tier_ids))
         self.assertEqual(
             tier_ids,

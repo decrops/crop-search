@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0173",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "morphology.grains_per_spike",
+  "attribute": "yield_component",
+  "attribute_subtype": "grains_per_spike",
+  "claim_text": "Mean wheat grain number per spike was 39.7 under normal watering.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "The mean grain number per spike was 39.7 under control and 26.5 under water stress during meiosis.",
+    "numeric_value": 39.7,
+    "qualifier": "descriptive",
+    "unit": "grains/spike"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.1371/journal.pone.0194075"
+    ],
+    "source_title": "https://doi.org/10.1371/journal.pone.0194075",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The mean grain number per spike was 39.7 under control and 26.5 under water stress during meiosis.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-c010ba560f285375",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "irrigated"
+  }
+}

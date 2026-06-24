@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0071",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "sunflower",
+  "object_crop_id": "rice",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "sunflower|rice",
+  "canonical_relationship_key": "rotation|sunflower|rice",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.59797/ija.v50i4.5123"
+  },
+  "source_url": "https://doi.org/10.59797/ija.v50i4.5123",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:32:21Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pub.isa-india.in/index.php/ija/article/view/5123",
+  "source_title": "Influence of conjuctive use of organic and inorganic source of nutrients in rice (Oryza sativa) on crop growth, yield components, yield and soil fertility in rice- sunflower (Helianthus annuus) sequence\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pub.isa-india.in.html",
+  "snippet": "were severely mined by the nutrient exhaustive rice crop.\n\nAli, C.H.K., Nadeem, M.A. and Javid, M.A. 1997. Effect of nitro-\n\nThe application of 120 kg N /ha to rice recouped its re-\n\ngen levels and P application strategy on sunflower. Fertiliser\n\nmoval by the crop from the soil. ",
+  "raw_text": "were severely mined by the nutrient exhaustive rice crop.\n\nAli, C.H.K., Nadeem, M.A. and Javid, M.A. 1997. Effect of nitro-\n\nThe application of 120 kg N /ha to rice recouped its re-\n\ngen levels and P application strategy on sunflower. Fertiliser\n\nmoval by the crop from the soil. Therefore, the succeed-\n\ning sunflower was not severely deprived of the nutrient\n\nBhandari, A.L., Sood, A., Sharma, K.N. and Rama, D.S. 1997. Inte- absorption. It could also be possible that the application of grated nutrient management in rice-wheat system. Journal of Nto rice had synergistic effects with P and K. Although Indian Society of Soil Science 40 :742-747.\n\nMahavishnan, K. 2001. Integrated nutrient management in rice. M Pradesh. Sc (Agric.) thesis, Acharya N G Ranga Agricultural Univer- Reddy, R.M. 2001. Conjunctive use of organic and inorganic sources sity, Hyderabad, Andhra Pradesh. of nitrogen in rice based cropping system. Ph.D. thesis,\n\nPathak, A.K. and Ghosh, T.S. 1996. Nutrient management in rice -Acharya N.G. Ranga Agricultural University, Hyderabad, rice cropping system. Fertiliser News 41: 55-58. Andhra Pradesh. Prasad, P.V.M. 2000. Nitrogen management for rice based cropping Sujathamma, P. 2000. Sustainable nitrogen management in rice systems of coastal Andhra Pradesh. Ph.D thesis, Acharya -based cropping system. Ph.D. Thesis, Acharya N.G. Ranga\n\nN.G. Ranga Agriculturral University, Hyderabad, Andhra Agricultural University, Hyderabad, Andhra Pradesh.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

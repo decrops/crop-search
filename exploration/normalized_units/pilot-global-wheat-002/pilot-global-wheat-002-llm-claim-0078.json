@@ -1,0 +1,85 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0078",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "water.evapotranspiration_requirement",
+  "attribute": "water_requirement",
+  "attribute_subtype": "evapotranspiration_requirement",
+  "claim_text": "Wheat ETc at the mid-season stage was 191.5 mm, the maximum stage water use.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "The maximum water use was 191.5mm at the mid-season stage followed by development stage was 97.1mm.",
+    "numeric_value": 191.5,
+    "qualifier": "descriptive",
+    "unit": "mm"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "Idaho",
+    "geo_id": "census:0400000US16",
+    "centroid": {
+      "lat": 44.348422,
+      "lon": -114.558854
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "Int J Environ Sci Nat Res 21(1): IJESNR.MS.ID.556054 (2019) 0030 Introduction Waterisafiniteresourceusedindifferentsectorslikeagricul ture, domestic and industry. The competition for both quality and",
+    "matched_locations": [
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "Idaho",
+        "evidence_text": "Int J Environ Sci Nat Res 21(1): IJESNR.MS.ID.556054 (2019) 0030 Introduction Waterisafiniteresourceusedindifferentsectorslikeagricul ture, domestic and industry. The competition for both quality and"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.19080/ijesnr.2019.21.556054"
+    ],
+    "source_title": "https://doi.org/10.19080/ijesnr.2019.21.556054",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The maximum water use was 191.5mm at the mid-season stage followed by development stage was 97.1mm.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-2b0f9eabe1e131b6",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "Kekeba",
+    "management_system": "irrigated lysimeter"
+  }
+}

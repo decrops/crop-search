@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0105",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "harvest.harvest_moisture",
+  "attribute": "harvest_management",
+  "attribute_subtype": "harvest_moisture",
+  "claim_text": "Safe storage of wheat grain requires moisture content below 12.5% and temperatures below 10\u00b0C.",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "Dry (moisture content <12.5%), cool (<10\u25e6C), and pest-free storage of wheat grains protects against crop failure by providing a buffer to ensure nutrition security worldwide.",
+    "qualifier": "recommended",
+    "unit": "percent",
+    "range_min": 12.0,
+    "range_max": 13.0
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.517313/pdf",
+      "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf"
+    ],
+    "source_title": "https://www.frontiersin.org/articles/10.3389/fnut.2020.517313/pdf",
+    "source_domain": "www.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Dry (moisture content <12.5%), cool (<10\u25e6C), and pest-free storage of wheat grains protects against crop failure by providing a buffer to ensure nutrition security worldwide.",
+    "manifest_version": "0.4.0",
+    "notes": "2020",
+    "source_publication_year": 2020,
+    "document_id": "doc-490863f7a106e256",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready"
+}

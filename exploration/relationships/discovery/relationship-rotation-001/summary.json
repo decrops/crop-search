@@ -1,0 +1,33 @@
+{
+  "run_id": "relationship-rotation-001",
+  "stage": "relationship_discovery",
+  "generated_at": "2026-06-24T14:30:50Z",
+  "query_kind": "crop_relationship",
+  "relationship_modes": [
+    "rotation"
+  ],
+  "crop_count": 7,
+  "matrix_cell_count": 49,
+  "planned_pair_count": 49,
+  "queries_executed": 245,
+  "ledger_rows": 916,
+  "unique_relationship_sources": 780,
+  "unique_sources": 170,
+  "provider_counts": {
+    "crossref": 245,
+    "europe_pmc": 151,
+    "wikipedia": 520
+  },
+  "drop_reason_counts": {
+    "duplicate": 55,
+    "kept": 586,
+    "relevance_gate": 275
+  },
+  "access_status_counts": {
+    "metadata_only": 245,
+    "open_full_text": 671
+  },
+  "retry_queue_size": 245,
+  "ledger_path": "exploration/relationships/discovery/relationship-rotation-001/results.jsonl",
+  "query_plan_path": "exploration/relationships/discovery/relationship-rotation-001/query_plan.json"
+}

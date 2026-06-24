@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/crop-relationship-matrix.schema.json",
+  "title": "CropRelationshipMatrix",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "generated_at",
+    "crop_universe_source",
+    "relationship_vocabulary_version",
+    "relationship_modes",
+    "crop_count",
+    "cell_count",
+    "crops",
+    "cells",
+    "rollups"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "crop_universe_source": {
+      "type": "string"
+    },
+    "relationship_vocabulary_version": {
+      "type": "string"
+    },
+    "relationship_modes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "crop_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "cell_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "crops": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/crop"
+      }
+    },
+    "cells": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/matrix_cell"
+      }
+    },
+    "rollups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rollup"
+      }
+    }
+  },
+  "$defs": {
+    "crop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["crop_id", "label", "crop_group", "aliases", "scientific_names"],
+      "properties": {
+        "crop_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "crop_group": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scientific_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "matrix_cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subject_crop_id",
+        "object_crop_id",
+        "subject_crop_group",
+        "object_crop_group",
+        "ordered_pair_key",
+        "mode_statuses"
+      ],
+      "properties": {
+        "subject_crop_id": {
+          "type": "string"
+        },
+        "object_crop_id": {
+          "type": "string"
+        },
+        "subject_crop_group": {
+          "type": "string"
+        },
+        "object_crop_group": {
+          "type": "string"
+        },
+        "ordered_pair_key": {
+          "type": "string"
+        },
+        "mode_statuses": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "$ref": "#/$defs/mode_status"
+          }
+        }
+      }
+    },
+    "mode_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "summary_effect", "canonical_relationship_key", "evidence_count", "conflict_count"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["not_searched", "searched_no_evidence", "evidence_found", "conflicting_evidence", "not_applicable", "out_of_scope"]
+        },
+        "summary_effect": {
+          "type": "string",
+          "enum": ["beneficial", "compatible", "conditional", "neutral", "incompatible", "avoid", "unknown"]
+        },
+        "canonical_relationship_key": {
+          "type": "string"
+        },
+        "evidence_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "conflict_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "rollup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rollup_key", "status"],
+      "properties": {
+        "rollup_key": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["not_searched", "searched_no_evidence", "evidence_found", "conflicting_evidence", "not_applicable", "out_of_scope"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

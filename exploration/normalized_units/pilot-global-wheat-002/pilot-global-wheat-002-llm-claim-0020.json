@@ -1,0 +1,76 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0020",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "management.tillage_response",
+  "attribute": "tillage_management",
+  "attribute_subtype": "tillage_response",
+  "claim_text": "Tillage system choice influences soil water availability and thereby winter wheat yield under rainfed conditions in northwest coastal Egypt.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "It was suggested that tillage systems could e\ufb00ectively in\ufb02uence soil water availability, thereby impacting wheat yield.",
+    "text_value": "Tillage system choice influences soil water availability and thereby winter wheat yield under rainfed conditions in northwest coastal Egypt.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://public-pages-files-2025.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1662153/pdf"
+    ],
+    "source_title": "https://public-pages-files-2025.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1662153/pdf",
+    "source_domain": "public-pages-files-2025.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "It was suggested that tillage systems could e\ufb00ectively in\ufb02uence soil water availability, thereby impacting wheat yield.",
+    "manifest_version": "0.4.0",
+    "notes": "2025",
+    "source_publication_year": 2025,
+    "document_id": "doc-15dd5051f882a56f",
+    "block_type": "table",
+    "page": 9,
+    "table_label": "TABLE 2"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "winter wheat",
+    "management_system": "ridge/furrow, tank, conventional, and no-till tillage systems"
+  }
+}

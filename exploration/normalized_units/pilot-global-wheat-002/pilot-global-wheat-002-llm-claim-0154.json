@@ -1,0 +1,74 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0154",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.critical_tissue_nitrogen",
+  "attribute": "nutrient_diagnosis",
+  "attribute_subtype": "critical_tissue_nitrogen",
+  "claim_text": "Total nitrogen uptake of bread wheat ranged 71.9-113.1 kg N/ha at 50% N (avg 94.6) and 89.0-134.8 kg N/ha at 100% N (avg 116.2).",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "It ranged from 71.9 to 113.1 kg N/ha (Avg: 94.6 kg grain/kg N) in T1 and decreased by 18.6% as compared with T2 (N100) where it ranged from 89.0 to 134.8 kg N/ha (Avg: 116.2 kg N/ha).",
+    "range_min": 71.9,
+    "range_max": 134.8,
+    "qualifier": "descriptive",
+    "unit": "kg N ha-1"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0294755&type=printable"
+    ],
+    "source_title": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0294755&type=printable",
+    "source_domain": "journals.plos.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "It ranged from 71.9 to 113.1 kg N/ha (Avg: 94.6 kg grain/kg N) in T1 and decreased by 18.6% as compared with T2 (N100) where it ranged from 89.0 to 134.8 kg N/ha (Avg: 116.2 kg N/ha).",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-9c79dad373b41080",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "field, two N levels"
+  }
+}

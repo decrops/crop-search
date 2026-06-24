@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "parameter_id": "crop_protection.key_disease_pressure",
+      "value_type": "text",
+      "numeric_value": null,
+      "range_min": null,
+      "range_max": null,
+      "unit": null,
+      "qualifier": "risk",
+      "evidence_text": "Several plant pathogens are known to be of major threat to wheat crops, and many problems still remaining to be solved in order to improve management and control of the main diseases. New aggressive strains of important pathogens are emerging and we still need early warning tools, which can help us to assess the risk – when we assess if sprayings are needed or not.",
+      "claim_summary": "Several plant pathogens are major threats to European wheat, with new aggressive strains emerging that require early-warning tools to assess fungicide spraying risk.",
+      "extraction_confidence": "medium",
+      "cultivar": null,
+      "management_system": null,
+      "bbch_min": null,
+      "bbch_max": null,
+      "document_id": "doc-ca550db6f08fb701",
+      "block_type": "paragraph",
+      "page": null,
+      "table_label": null
+    },
+    {
+      "parameter_id": "crop_protection.key_disease_pressure",
+      "value_type": "text",
+      "numeric_value": null,
+      "range_min": null,
+      "range_max": null,
+      "unit": null,
+      "qualifier": "risk",
+      "evidence_text": "Limited access to different fungicide groups and problems with fungicide resistance is known for particularly Septoria tritici blotch and is widespread in Europe. This makes it very important to monitor this resistance situation and propose anti-resistance strategies.",
+      "claim_summary": "Septoria tritici blotch shows widespread fungicide resistance across Europe, making resistance monitoring and anti-resistance strategies important for wheat.",
+      "extraction_confidence": "medium",
+      "cultivar": null,
+      "management_system": "IPM",
+      "bbch_min": null,
+      "bbch_max": null,
+      "document_id": "doc-ca550db6f08fb701",
+      "block_type": "paragraph",
+      "page": null,
+      "table_label": null
+    }
+  ]
+}

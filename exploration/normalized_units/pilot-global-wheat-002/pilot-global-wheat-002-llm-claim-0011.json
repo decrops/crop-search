@@ -1,0 +1,75 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0011",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "morphology.plant_height",
+  "attribute": "plant_morphology",
+  "attribute_subtype": "plant_height",
+  "claim_text": "Maximum wheat plant height of 93.2 cm achieved with 100% dry bio-slurry application (residual effect) in potato-wheat rotation.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "The highest values of plant height and spike length (93.2 and 9.3 cm) were achieved by the application of 100% DBS as compared to untreated plots ( Table 5 ).",
+    "numeric_value": 93.2,
+    "qualifier": "descriptive",
+    "unit": "cm"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306625"
+    ],
+    "source_title": "Effects of dry bio-slurry and nitrogen fertilizer on potato and wheat yields under rotation cropping system | PLOS One",
+    "source_domain": "doi.org",
+    "document_type": "html",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "The highest values of plant height and spike length (93.2 and 9.3 cm) were achieved by the application of 100% DBS as compared to untreated plots ( Table 5 ).",
+    "manifest_version": "0.4.0",
+    "notes": "2024",
+    "source_publication_year": 2024,
+    "document_id": "doc-1165c26a0a7ab581",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "TAY",
+    "management_system": "organic dry bio-slurry, rain-fed, potato-wheat rotation"
+  }
+}

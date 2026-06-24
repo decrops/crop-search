@@ -1,0 +1,85 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0015",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "stress.cold_tolerance",
+  "attribute": "stress_sensitivity",
+  "attribute_subtype": "cold_tolerance",
+  "claim_text": "Winter wheat survives fewer extreme cold events around -15 \u00b0C compared with rye.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "Winter wheat and triticale can also survive, but only if seeded early by mid-late August, and they generally produce less biomass and survive fewer extreme cold events of -15o C (Martens & Entz,30 2011; Blackshaw 2008).",
+    "numeric_value": -15.0,
+    "qualifier": "threshold",
+    "unit": "\u00b0C"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "Indiana",
+    "geo_id": "census:0400000US18",
+    "centroid": {
+      "lat": 39.901314,
+      "lon": -86.291913
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "i EVALUATING THE EFFECTIVENESS OF OVERWINTERING COVER CROPS IN SUPPORTING SPRING SOIL TRAFFICABILITY IN MANITOBA By Emmanuel Agyapong A Thesis Submitted to the Faculty of Graduate Studies of The Unive",
+    "matched_locations": [
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "Indiana",
+        "evidence_text": "i EVALUATING THE EFFECTIVENESS OF OVERWINTERING COVER CROPS IN SUPPORTING SPRING SOIL TRAFFICABILITY IN MANITOBA By Emmanuel Agyapong A Thesis Submitted to the Faculty of Graduate Studies of The Unive"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/a381211a-1c5c-4201-b8bd-ec5740a3fb80/content"
+    ],
+    "source_title": "https://mspace.lib.umanitoba.ca/bitstreams/a381211a-1c5c-4201-b8bd-ec5740a3fb80/download",
+    "source_domain": "mspace.lib.umanitoba.ca",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Winter wheat and triticale can also survive, but only if seeded early by mid-late August, and they generally produce less biomass and survive fewer extreme cold events of -15o C (Martens & Entz,30 2011; Blackshaw 2008).",
+    "manifest_version": "0.4.0",
+    "notes": "2025",
+    "source_publication_year": 2025,
+    "document_id": "doc-11b7451745937fc7",
+    "block_type": "paragraph"
+  },
+  "observation_type": "threshold",
+  "confidence": "low",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "overwintering"
+  }
+}

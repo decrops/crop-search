@@ -1,0 +1,50 @@
+{
+  "run_id": "eu-wheat-protection-001",
+  "version": "0.1.0",
+  "crop": "wheat",
+  "region_scope": {
+    "level": "region",
+    "name": "Germany"
+  },
+  "parameter_manifest_path": "config/parameters/core-crop-parameters.json",
+  "crop_profile_path": "config/crops/wheat.json",
+  "source_tier_policy_path": "config/source-tiers/default.json",
+  "source_tier_policy_id": "comprehensive_accessible",
+  "query_terms_per_source_tier": 3,
+  "queries_per_parameter": 1,
+  "use_source_seeds": true,
+  "seed_mode": "augment",
+  "max_results_per_query": 3,
+  "discovery_max_results": 12,
+  "query_template_path": "config/query-templates/default.json",
+  "seed_registry_path": "config/seeds/wheat.json",
+  "seed_selector": {
+    "crop": "wheat"
+  },
+  "parameter_ids": [
+    "crop_protection.key_disease_pressure",
+    "crop_protection.key_pest_threshold",
+    "crop_protection.weed_management",
+    "crop_protection.disease_sensitive_stage",
+    "crop_protection.fungicide_application_timing",
+    "crop_protection.insect_action_threshold",
+    "crop_protection.pest_sensitive_stage",
+    "crop_protection.critical_weed_free_period",
+    "crop_protection.herbicide_application_window",
+    "crop_protection.seed_treatment_recommendation",
+    "crop_protection.nematode_pressure",
+    "crop_protection.disease_severity_threshold",
+    "variety_cultivar.disease_resistance_package",
+    "variety_cultivar.herbicide_tolerance_trait"
+  ],
+  "tool_bindings": {
+    "search": "search-web",
+    "fetch": "fetch-web",
+    "parse": "parse-document"
+  },
+  "context_refs": [
+    "templates/context/mission.json",
+    "templates/context/source-policy.json",
+    "templates/context/run-brief.json"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "run_id": "pilot-global-wheat-002",
+  "claims_written": 255,
+  "fahrenheit_converted": 7,
+  "flagged_count": 10,
+  "flags": [
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "kind": "flag",
+      "unit": "cm",
+      "value": 19.84,
+      "message": "rooting depth >5 m is almost certainly cm recorded as m",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0009"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "kind": "flag",
+      "unit": "plants/ha",
+      "value": 700000.0,
+      "message": "value >100000 mixes plants/m\u00b2 with plants/ha",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0043"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "kind": "flag",
+      "unit": "%",
+      "value": 55.0,
+      "message": "depletion mixes fraction (0\u20131) with percent",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0081"
+    },
+    {
+      "parameter_id": "soil.soil_water_holding_capacity",
+      "kind": "flag",
+      "unit": "mm",
+      "value": 111.9,
+      "message": "value >100 mixes % with mm or mm/m TAW",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0088"
+    },
+    {
+      "parameter_id": "root.maximum_rooting_depth",
+      "kind": "flag",
+      "unit": "cm",
+      "value": 60.0,
+      "message": "rooting depth >5 m is almost certainly cm recorded as m",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0089"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "kind": "flag",
+      "unit": "%",
+      "value": 60.0,
+      "message": "harvest index mixes fraction (0\u20131) with percent",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0099"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "kind": "flag",
+      "unit": "% of total available water capacity",
+      "value": 30.0,
+      "message": "depletion mixes fraction (0\u20131) with percent",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0118"
+    },
+    {
+      "parameter_id": "canopy.harvest_index",
+      "kind": "flag",
+      "unit": "%",
+      "value": 31.9,
+      "message": "harvest index mixes fraction (0\u20131) with percent",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0159"
+    },
+    {
+      "parameter_id": "water.allowable_depletion",
+      "kind": "flag",
+      "unit": "percent",
+      "value": 80.0,
+      "message": "depletion mixes fraction (0\u20131) with percent",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0175"
+    },
+    {
+      "parameter_id": "planting.target_plant_density",
+      "kind": "flag",
+      "unit": "plants/acre",
+      "value": 750000.0,
+      "message": "value >100000 mixes plants/m\u00b2 with plants/ha",
+      "claim_id": "pilot-global-wheat-002-llm-claim-0246"
+    }
+  ],
+  "output_dir": "exploration/normalized_units/pilot-global-wheat-002"
+}

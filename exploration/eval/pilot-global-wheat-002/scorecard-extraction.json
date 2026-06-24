@@ -1,0 +1,16 @@
+{
+  "run_id": "pilot-global-wheat-002",
+  "eval_type": "extraction",
+  "generated_at": "2026-06-24T13:36:27Z",
+  "gold_dir": "tests/golden/extraction",
+  "gold_records": 0,
+  "adjudicable_predictions": 0,
+  "metrics": {
+    "recall": 0.0,
+    "precision": 0.0,
+    "parameter_mapping_accuracy": 0.0,
+    "unit_normalization_correctness": 0.0,
+    "evidence_faithfulness": 0.0
+  },
+  "per_domain": {}
+}

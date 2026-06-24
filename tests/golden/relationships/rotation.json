@@ -1,0 +1,7 @@
+{
+  "mode": "rotation",
+  "records": [
+    {"ordered_pair_key": "wheat|soybean", "subject_crop_id": "wheat", "object_crop_id": "soybean", "expected_effect": "beneficial", "rationale": "Wheat after a legume (soybean) benefits from residual N and disease break."},
+    {"ordered_pair_key": "corn|soybean", "subject_crop_id": "corn", "object_crop_id": "soybean", "expected_effect": "beneficial", "rationale": "Corn after soybean is a well-documented beneficial rotation."}
+  ]
+}

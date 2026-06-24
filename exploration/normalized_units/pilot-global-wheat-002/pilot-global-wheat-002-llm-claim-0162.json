@@ -1,0 +1,79 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0162",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.nitrogen_timing",
+  "attribute": "nutrient_management",
+  "attribute_subtype": "nitrogen_timing",
+  "claim_text": "Conventional wheat N timing: three applications - at sowing (deep), at tillering (Z20-Z25), and start of heading (Z50) as N-recovery.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "while P application is automatically added at sowing (P applied as deep fertilizer), N application is prescribed before sowing, with three conventional applications: at sowing as deep fertilizer, at tillering stage (Z20 to Z25), and the start of the heading stage (Z50) as N-recovery fertilizer",
+    "text_value": "Conventional wheat N timing: three applications - at sowing (deep), at tillering (Z20-Z25), and start of heading (Z50) as N-recovery.",
+    "qualifier": "recommended"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://link.springer.com/content/pdf/10.1186/s40066-023-00428-2.pdf"
+    ],
+    "source_title": "https://agricultureandfoodsecurity.biomedcentral.com/counter/pdf/10.1186/s40066-023-00428-2",
+    "source_domain": "agricultureandfoodsecurity.biomedcentral.com",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "while P application is automatically added at sowing (P applied as deep fertilizer), N application is prescribed before sowing, with three conventional applications: at sowing as deep fertilizer, at tillering stage (Z20 to Z25), and the start of the heading stage (Z50) as N-recovery fertilizer",
+    "manifest_version": "0.4.0",
+    "notes": "2023",
+    "source_publication_year": 2023,
+    "document_id": "doc-a910db2a31d8d8ea",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "rainfed"
+  },
+  "bbch_applicability": {
+    "bbch_min": 20,
+    "bbch_max": 50,
+    "evidence_text": "while P application is automatically added at sowing (P applied as deep fertilizer), N application is prescribed before sowing, with three conventional applications: at sowing as deep fertilizer, at tillering stage (Z20 to Z25), and the start of the heading stage (Z50) as N-recovery fertilizer",
+    "confidence": "high"
+  }
+}

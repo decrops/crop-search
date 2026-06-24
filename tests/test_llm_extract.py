@@ -24,8 +24,10 @@ class OutputSchemaTests(unittest.TestCase):
         pid_enum = schema["properties"]["claims"]["items"]["properties"]["parameter_id"]["enum"]
         self.assertIn("temperature.base_temperature", pid_enum)
         self.assertIn("none", pid_enum)
-        # stubs must NOT be valid extraction targets
-        self.assertNotIn("crop_protection.key_pest_threshold", pid_enum)
+        # active crop-protection params ARE valid targets (activated in 0.4.1)
+        self.assertIn("crop_protection.fungicide_application_timing", pid_enum)
+        # remaining stubs must NOT be valid extraction targets
+        self.assertNotIn("variety_cultivar.maturity_class", pid_enum)
 
     def test_schema_is_strict(self):
         schema = lx.build_output_schema(["temperature.base_temperature"])

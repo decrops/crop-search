@@ -1,0 +1,83 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0248",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "water.drought_sensitive_stage",
+  "attribute": "moisture_requirement",
+  "attribute_subtype": "drought_sensitive_stage",
+  "claim_text": "Boot to heading is the critical stage for water stress",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "Boot to heading may be the critical stage of growth for wheat, although wheat is tolerant of water stress throughout its life cycles.",
+    "text_value": "Boot to heading is the critical stage for water stress",
+    "qualifier": "risk"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "state",
+    "name": "Kansas",
+    "geo_id": "census:0400000US20",
+    "centroid": {
+      "lat": 38.498546,
+      "lon": -98.38343
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "raw_snippet",
+    "source_location_confidence": "medium",
+    "source_location_text": "Wheat Production Handbook K-State Research & Extension Manhattan, Kansas1\n\nGrowth and Development Gary M. Paulsen, Crop Research Physiologist, Agronomy 2 Varieties Rollin G. Sears, Wheat Breed",
+    "matched_locations": [
+      {
+        "field": "source_location:raw_snippet",
+        "level": "state",
+        "name": "Kansas",
+        "evidence_text": "Wheat Production Handbook K-State Research & Extension Manhattan, Kansas1\n\nGrowth and Development Gary M. Paulsen, Crop Research Physiologist, Agronomy 2 Varieties Rollin G. Sears, Wheat Breed"
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf"
+    ],
+    "source_title": "https://bookstore.ksre.ksu.edu/pubs/wheat-production-handbook_C529.pdf",
+    "source_domain": "bookstore.ksre.ksu.edu",
+    "document_type": "pdf",
+    "source_tier_id": "extension_publication",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Boot to heading may be the critical stage of growth for wheat, although wheat is tolerant of water stress throughout its life cycles.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-fa3c9643f58e9cfe",
+    "block_type": "paragraph"
+  },
+  "observation_type": "risk",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "winter wheat"
+  }
+}

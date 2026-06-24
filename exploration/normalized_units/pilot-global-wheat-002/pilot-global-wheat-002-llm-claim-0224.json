@@ -1,0 +1,80 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0224",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.sulfur_requirement",
+  "attribute": "nutrient_management",
+  "attribute_subtype": "sulfur_requirement",
+  "claim_text": "Foliar sulfur applied at 45 kg/ha at flag leaf stage (BBCH 47) in organic durum wheat.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "CTR, plus 45 kg \u00adha\u22121 of foliar S applied at flag leaf stage (BBCH 47, CTR+S)",
+    "numeric_value": 45.0,
+    "qualifier": "recommended",
+    "unit": "kg ha-1"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://link.springer.com/content/pdf/10.1186/s40066-023-00417-5.pdf"
+    ],
+    "source_title": "https://agricultureandfoodsecurity.biomedcentral.com/counter/pdf/10.1186/s40066-023-00417-5",
+    "source_domain": "agricultureandfoodsecurity.biomedcentral.com",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "CTR, plus 45 kg \u00adha\u22121 of foliar S applied at flag leaf stage (BBCH 47, CTR+S)",
+    "manifest_version": "0.4.0",
+    "notes": "2023",
+    "source_publication_year": 2023,
+    "document_id": "doc-eaa3a9100bd91067",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "organic farming, foliar fertilization"
+  },
+  "bbch_applicability": {
+    "bbch_min": 47,
+    "bbch_max": 47,
+    "evidence_text": "CTR, plus 45 kg \u00adha\u22121 of foliar S applied at flag leaf stage (BBCH 47, CTR+S)",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "domain": "crop_protection",
+  "run_id": "eu-wheat-protection-001",
+  "note": "Gold facts keyed to real document_ids from the eu-wheat-protection-001 Opus run. Scored by eval-extraction.",
+  "records": [
+    {
+      "document_id": "doc-309e04b6b17a503e",
+      "parameter_id": "crop_protection.critical_weed_free_period",
+      "value_type": "range",
+      "range_min": 14,
+      "range_max": 42,
+      "unit": "days after sowing",
+      "evidence_contains": "14 days",
+      "rationale": "Critical weed-free period 14–42 days after sowing (wheat genotype-10 study)."
+    },
+    {
+      "document_id": "doc-bd806c5e3c455df9",
+      "parameter_id": "crop_protection.fungicide_application_timing",
+      "value_type": "text",
+      "text_value": "anthesis",
+      "evidence_contains": "anthesis",
+      "rationale": "Anthesis fungicide timing for Fusarium head blight (reduces disease 15–30%)."
+    },
+    {
+      "document_id": "doc-fa3c9643f58e9cfe",
+      "parameter_id": "crop_protection.disease_sensitive_stage",
+      "value_type": "text",
+      "text_value": "flowering",
+      "evidence_contains": "flowering",
+      "rationale": "Scab (Fusarium) attacks when rain coincides with flowering — the disease-sensitive stage."
+    }
+  ]
+}

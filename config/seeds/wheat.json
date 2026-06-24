@@ -25,7 +25,9 @@
       "verified_scope": "Comprehensive production handbook; broad but US Great Plains-centric agronomy.",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["Rates and dates are calibrated to Kansas/Great Plains conditions."]
+      "caveats": [
+        "Rates and dates are calibrated to Kansas/Great Plains conditions."
+      ]
     },
     {
       "seed_id": "wheat-sdsu-production-guide",
@@ -66,7 +68,9 @@
       "verified_scope": "Winter wheat macronutrient fertility (N, P, S) only.",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["Covers N/P/S fertility ONLY — do NOT map to seeding rate or planting date (the original run-config seed mismatch)."]
+      "caveats": [
+        "Covers N/P/S fertility ONLY \u2014 do NOT map to seeding rate or planting date (the original run-config seed mismatch)."
+      ]
     },
     {
       "seed_id": "wheat-osu-soil-ph",
@@ -78,11 +82,16 @@
       "region": "us-pacific-northwest",
       "source_tier_id": "extension_publication",
       "source_quality": "medium",
-      "covered_parameters": ["soil.ph_range", "soil.salinity_threshold"],
+      "covered_parameters": [
+        "soil.ph_range",
+        "soil.salinity_threshold"
+      ],
       "verified_scope": "General soil pH/acidity management; not wheat-specific but applicable to wheat soil suitability.",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["Not wheat-specific; soil pH guidance is general."]
+      "caveats": [
+        "Not wheat-specific; soil pH guidance is general."
+      ]
     },
     {
       "seed_id": "wheat-msu-extension",
@@ -94,11 +103,16 @@
       "region": "us-great-lakes",
       "source_tier_id": "extension_publication",
       "source_quality": "medium",
-      "covered_parameters": ["planting.planting_window", "nutrients.nitrogen_timing"],
+      "covered_parameters": [
+        "planting.planting_window",
+        "nutrients.nitrogen_timing"
+      ],
       "verified_scope": "Landing hub for MSU wheat resources; some content behind further links.",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["Landing page — primary values may live on linked sub-pages."]
+      "caveats": [
+        "Landing page \u2014 primary values may live on linked sub-pages."
+      ]
     },
     {
       "seed_id": "wheat-unl-cropwatch",
@@ -118,7 +132,9 @@
       "verified_scope": "Nebraska wheat agronomy hub.",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["Landing page — primary values may live on linked sub-pages."]
+      "caveats": [
+        "Landing page \u2014 primary values may live on linked sub-pages."
+      ]
     },
     {
       "seed_id": "wheat-fao-land-water",
@@ -178,7 +194,9 @@
       "verified_scope": "CIMMYT wheat stress physiology research hub.",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["Research landing page — links out to specific studies."]
+      "caveats": [
+        "Research landing page \u2014 links out to specific studies."
+      ]
     },
     {
       "seed_id": "wheat-ahdb-growth-guide",
@@ -199,7 +217,156 @@
       "verified_scope": "Authoritative UK wheat growth-stage and thermal-time benchmarks (Zadoks).",
       "last_verified": "2026-06-24",
       "access_status": "open_full_text",
-      "caveats": ["UK cultivars/conditions; thermal-time benchmarks are region-calibrated."]
+      "caveats": [
+        "UK cultivars/conditions; thermal-time benchmarks are region-calibrated."
+      ]
+    },
+    {
+      "seed_id": "wheat-ahdb-fungicide-performance",
+      "source_url": "https://ahdb.org.uk/knowledge-library/fungicide-performance-results-for-wheat-barley-and-oilseed-rape",
+      "title": "AHDB Wheat Fungicide Performance & Disease Management",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "uk",
+      "source_tier_id": "industry_grower_guide",
+      "source_quality": "high",
+      "covered_parameters": [
+        "crop_protection.fungicide_application_timing",
+        "crop_protection.disease_sensitive_stage",
+        "crop_protection.disease_severity_threshold",
+        "crop_protection.key_disease_pressure"
+      ],
+      "verified_scope": "AHDB fungicide timing (T0\u2013T3) and disease management for Septoria, rusts, Fusarium.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "UK cultivars/pressure; timings are BBCH-anchored, adapt to local disease onset."
+      ]
+    },
+    {
+      "seed_id": "wheat-ahdb-recommended-list",
+      "source_url": "https://ahdb.org.uk/knowledge-library/recommended-lists-for-cereals-and-oilseeds-rl",
+      "title": "AHDB Recommended Lists \u2014 wheat variety disease ratings",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "uk",
+      "source_tier_id": "industry_grower_guide",
+      "source_quality": "high",
+      "covered_parameters": [
+        "variety_cultivar.disease_resistance_package",
+        "variety_cultivar.herbicide_tolerance_trait"
+      ],
+      "verified_scope": "Variety disease-resistance ratings (Septoria, yellow/brown rust, mildew) and agronomic traits.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "Ratings are UK-list specific."
+      ]
+    },
+    {
+      "seed_id": "wheat-jki-pflanzenschutz",
+      "source_url": "https://www.julius-kuehn.de/en/plant-protection-in-field-crops-and-grassland/",
+      "title": "Julius K\u00fchn-Institut \u2014 plant protection in field crops",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "germany",
+      "source_tier_id": "international_institution",
+      "source_quality": "high",
+      "covered_parameters": [
+        "crop_protection.key_disease_pressure",
+        "crop_protection.key_pest_threshold",
+        "crop_protection.fungicide_application_timing"
+      ],
+      "verified_scope": "German federal plant-protection guidance relevant to Upper-Rhine wheat disease/pest pressure.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "German conditions \u2014 closest regional fit to Freiburg."
+      ]
+    },
+    {
+      "seed_id": "wheat-eurowheat-rustwatch",
+      "source_url": "https://agro.au.dk/forskning/internationale-platforme/eurowheat",
+      "title": "EuroWheat / RustWatch \u2014 wheat disease & resistance",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "europe",
+      "source_tier_id": "international_institution",
+      "source_quality": "high",
+      "covered_parameters": [
+        "crop_protection.key_disease_pressure",
+        "crop_protection.disease_severity_threshold"
+      ],
+      "verified_scope": "European wheat rust/Septoria monitoring and resistance status.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "Continental monitoring; not field-prescriptive."
+      ]
+    },
+    {
+      "seed_id": "wheat-ksu-fungicide-timing",
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/MF3057.pdf",
+      "title": "Wheat Fungicide & Disease Management \u2014 K-State Extension",
+      "document_type": "pdf",
+      "crop": "wheat",
+      "region": "us-great-plains",
+      "source_tier_id": "extension_publication",
+      "source_quality": "high",
+      "covered_parameters": [
+        "crop_protection.fungicide_application_timing",
+        "crop_protection.disease_sensitive_stage",
+        "crop_protection.seed_treatment_recommendation"
+      ],
+      "verified_scope": "Extension fungicide timing by growth stage, seed treatment, disease scouting.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "US Great Plains disease spectrum differs from Upper Rhine."
+      ]
+    },
+    {
+      "seed_id": "wheat-ahdb-weed-control",
+      "source_url": "https://ahdb.org.uk/knowledge-library/weed-management-in-cereals",
+      "title": "AHDB Weed Management in Cereals",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "uk",
+      "source_tier_id": "industry_grower_guide",
+      "source_quality": "high",
+      "covered_parameters": [
+        "crop_protection.weed_management",
+        "crop_protection.critical_weed_free_period",
+        "crop_protection.herbicide_application_window"
+      ],
+      "verified_scope": "Cereal weed control: herbicide timing windows, black-grass/resistance, critical period.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "UK weed spectrum; herbicide approvals differ by country."
+      ]
+    },
+    {
+      "seed_id": "wheat-extension-insect-thresholds",
+      "source_url": "https://cropwatch.unl.edu/wheat/insects",
+      "title": "Wheat Insect Management & Action Thresholds \u2014 Nebraska CropWatch",
+      "document_type": "html",
+      "crop": "wheat",
+      "region": "us-nebraska",
+      "source_tier_id": "extension_publication",
+      "source_quality": "medium",
+      "covered_parameters": [
+        "crop_protection.key_pest_threshold",
+        "crop_protection.insect_action_threshold",
+        "crop_protection.pest_sensitive_stage",
+        "crop_protection.nematode_pressure"
+      ],
+      "verified_scope": "Insect action thresholds and pest-sensitive stages for wheat.",
+      "last_verified": "2026-06-24",
+      "access_status": "open_full_text",
+      "caveats": [
+        "US pest spectrum; thresholds indicative."
+      ]
     }
   ]
 }

@@ -1,0 +1,72 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Browse",
+      "text": "All of UA Campus Repository Communities Title Authors Issue Date Submit Date Subjects Publisher Journal This Collection Title Authors Issue Date Submit Date Subjects Publisher Journal"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "My Account",
+      "text": "Login Register"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 2,
+      "heading": "About",
+      "text": "About UA Faculty Publications UA Dissertations UA Master's Theses UA Honors Theses UA Press UA Yearbooks UA Catalogs UA Libraries"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 2,
+      "heading": "Statistics",
+      "text": "Most Popular Items Statistics by Country Most Popular Authors"
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 2,
+      "heading": "Physiology and Rooting Characteristics of Drought Tolerance in Barley",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 4,
+      "heading": "Export search results",
+      "text": ""
+    }
+  ],
+  "tables": [],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "The export option will allow you to export the current search results of the entered query to a file. Different formats are available for download. To export the items, click on the button corresponding with the preferred download format.",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "By default, clicking on the export buttons will result in a download of the allowed maximum amount of items.",
+      "char_offset": 240
+    },
+    {
+      "type": "paragraph",
+      "text": "To select a subset of the search results, click \"Selective Export\" button and make a selection of the items you want to export. The amount of items that can be exported at once is similarly restricted as the full export.",
+      "char_offset": 350
+    },
+    {
+      "type": "paragraph",
+      "text": "After making a selection, click one of the export format buttons. The amount of items that will be exported is indicated in the bubble next to export format.",
+      "char_offset": 572
+    }
+  ],
+  "labels": [],
+  "document_id": "doc-fb778a96da415d71"
+}

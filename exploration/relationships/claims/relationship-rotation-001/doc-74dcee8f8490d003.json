@@ -1,0 +1,33 @@
+{"claims":[
+  {
+    "relationship_claim_id": "doc-74dcee8f8490d003-sunflower-rice",
+    "run_id": "relationship-rotation-001",
+    "subject_crop_id": "sunflower",
+    "object_crop_id": "rice",
+    "subject_crop_group": "oilseed",
+    "object_crop_group": "cereal",
+    "relationship_mode": "rotation",
+    "relationship_subtype": "previous_crop_effect",
+    "ordered_pair_key": "sunflower|rice",
+    "canonical_relationship_key": "rotation|sunflower|rice",
+    "direction": "object_precedes_subject",
+    "effect": "conditional",
+    "claim_text": "Sunflower grown after a nutrient-exhaustive rice crop risked nutrient depletion, but adequate nitrogen applied to the preceding rice prevented the succeeding sunflower from being severely deprived.",
+    "evidence_text": "The application of 120 kg N /ha to rice recouped its removal by the crop from the soil. Therefore, the succeeding sunflower was not severely deprived of the nutrient absorption.",
+    "value": {"value_type":"numeric","numeric_value":120,"unit":"kg N/ha","raw_value_text":"The application of 120 kg N /ha to rice recouped its removal by the crop from the soil"},
+    "context": {"input_system":"rice-sunflower sequence with N applied to rice"},
+    "mechanisms": ["residual soil nitrogen","nutrient depletion by preceding rice"],
+    "provenance": {
+      "source_urls": ["https://doi.org/10.59797/ija.v50i4.5123"],
+      "source_title": "Influence of conjuctive use of organic and inorganic source of nutrients in rice (Oryza sativa) on crop growth, yield components, yield and soil fertility in rice- sunflower (Helianthus annuus) sequence\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+      "source_domain": "doi.org",
+      "document_type": "html",
+      "accessed_at": "2026-06-24T00:00:00Z",
+      "extraction_method": "opus",
+      "document_id": "doc-74dcee8f8490d003",
+      "source_tier_id": "peer_reviewed_science"
+    },
+    "confidence": "low",
+    "status": "needs_review"
+  }
+]}

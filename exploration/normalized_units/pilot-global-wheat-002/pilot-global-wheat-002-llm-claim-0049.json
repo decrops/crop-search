@@ -1,0 +1,72 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0049",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "water.evapotranspiration_requirement",
+  "attribute": "water_requirement",
+  "attribute_subtype": "evapotranspiration_requirement",
+  "claim_text": "Seasonal water requirement (ETm) 450-650 mm for high yields",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "For high yields water requirements (ETm) are 450 to 650 mm depending on climate and length of growing period.",
+    "range_min": 450.0,
+    "range_max": 650.0,
+    "qualifier": "recommended",
+    "unit": "mm"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.fao.org/land-water/databases-and-software/crop-information/wheat/en/"
+    ],
+    "source_title": "Tobacco\u00a0|\u00a0Land & Water\u00a0|\u00a0Food and Agriculture Organization of the United Nations\u00a0| Land & Water | Food and Agriculture Organization of the United Nations",
+    "source_domain": "www.fao.org",
+    "document_type": "html",
+    "source_tier_id": "international_institution",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "For high yields water requirements (ETm) are 450 to 650 mm depending on climate and length of growing period.",
+    "manifest_version": "0.4.0",
+    "notes": "2001",
+    "source_publication_year": 2001,
+    "document_id": "doc-1fcc8c407aa60d5e",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready"
+}

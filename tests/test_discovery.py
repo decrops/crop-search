@@ -87,5 +87,64 @@ class DiscoveryExecuteTests(unittest.TestCase):
         self.assertEqual(summary["retry_queue_size"], 1)
 
 
+class SeedInjectionTests(unittest.TestCase):
+    def test_seeds_enter_ledger_when_registry_present(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            shutil.copytree(REPO / "schemas", tmp / "schemas")
+            (tmp / "config/seeds").mkdir(parents=True)
+            (tmp / "config/seeds/wheat.json").write_text(json.dumps({
+                "registry_version": "0.1.0",
+                "seeds": [{
+                    "seed_id": "fao", "source_url": "https://www.fao.org/wheat", "crop": "wheat",
+                    "source_tier_id": "international_institution",
+                    "covered_parameters": ["water.crop_coefficient", "water.allowable_depletion"],
+                }],
+            }), encoding="utf-8")
+            cfg = {
+                "run_id": "seed-run-001", "version": "0.1.0", "crop": "wheat",
+                "region_scope": {"level": "global", "name": "global"},
+                "queries": ["wheat agronomy query"], "max_results_per_query": 3,
+                "tool_bindings": {"search": "s", "fetch": "f", "parse": "p"},
+                "seed_registry_path": "config/seeds/wheat.json",
+                "seed_selector": {"crop": "wheat"},
+            }
+            (tmp / "run.json").write_text(json.dumps(cfg), encoding="utf-8")
+            plan = [QueryPlanItem(query="q", parameter_id="water.crop_coefficient",
+                                  parameter_family="water", parameter_label="Kc",
+                                  source_tier_id="peer_reviewed_science", source_tier_label="Peer")]
+            with mock.patch.object(discovery, "query_plan_for_run", return_value=plan), \
+                 mock.patch.object(discovery, "connector_results_for_tier", return_value=([], [])), \
+                 mock.patch.object(discovery, "configure_client"):
+                summary = discovery.discover(tmp, tmp / "run.json")
+            ledger = [json.loads(l) for l in (tmp / "exploration/discovery/seed-run-001/results.jsonl").read_text().splitlines()]
+        seed_rows = [r for r in ledger if r["provider"] == "source_seed"]
+        self.assertEqual(len(seed_rows), 2)  # one per covered parameter
+        self.assertEqual({r["parameter_id"] for r in seed_rows},
+                         {"water.crop_coefficient", "water.allowable_depletion"})
+        self.assertTrue(all(r["access_status"] == "open_full_text" for r in seed_rows))
+
+    def test_missing_registry_is_tolerated(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            shutil.copytree(REPO / "schemas", tmp / "schemas")
+            cfg = {
+                "run_id": "seed-run-001", "version": "0.1.0", "crop": "wheat",
+                "region_scope": {"level": "global", "name": "global"},
+                "queries": ["wheat agronomy query"], "max_results_per_query": 3,
+                "tool_bindings": {"search": "s", "fetch": "f", "parse": "p"},
+                "seed_registry_path": "config/seeds/does-not-exist.json",
+            }
+            (tmp / "run.json").write_text(json.dumps(cfg), encoding="utf-8")
+            plan = [QueryPlanItem(query="q", parameter_id="p", parameter_family="f",
+                                  parameter_label="l", source_tier_id="peer_reviewed_science",
+                                  source_tier_label="Peer")]
+            with mock.patch.object(discovery, "query_plan_for_run", return_value=plan), \
+                 mock.patch.object(discovery, "connector_results_for_tier", return_value=([], [])), \
+                 mock.patch.object(discovery, "configure_client"):
+                summary = discovery.discover(tmp, tmp / "run.json")  # must not raise
+        self.assertEqual(summary["ledger_rows"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()

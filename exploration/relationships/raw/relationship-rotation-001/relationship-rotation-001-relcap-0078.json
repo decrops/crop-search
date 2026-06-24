@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0078",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "corn",
+  "object_crop_id": "wheat",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "corn|wheat",
+  "canonical_relationship_key": "rotation|corn|wheat",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.31274/cc-20250502-57"
+  },
+  "source_url": "https://doi.org/10.31274/cc-20250502-57",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:26Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://dr.lib.iastate.edu/entities/publication/d860a5a1-8cd8-4546-b396-efd7919dbdb7",
+  "source_title": "Corn header residue processing influence on emergence and grain yield in a no-till corn-on-corn (Zea mays L.) rotation",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-dr.lib.iastate.edu.html",
+  "snippet": "Corn producers in the U.S. are looking for methods to manage an increasing amount of corn residue left after harvest due to a continual increase in both plant populations and harvested yield. Relative to the establishment and yield potential of subsequent crops, this increasing c",
+  "raw_text": "Corn producers in the U.S. are looking for methods to manage an increasing amount of corn residue left after harvest due to a continual increase in both plant populations and harvested yield. Relative to the establishment and yield potential of subsequent crops, this increasing crop residue quantity can present challenges in the form of elevated nutrient tie up. Concurrently, higher volumes of corn residue remaining on the soil surface can present performance challenges for both the management practices historically utilized as well as the equipment. To evaluate different residue management approaches at harvest, CNH and 360 Yield Center stalk rolls were operated with and without stalk chopper engagement in two corn following corn fields in southeast Iowa. Corn emergence and grain yield were evaluated. Corn emergence and grain yield observations varied from site to site and year to year. In conclusion, neither the main effects of stalk roll brand or stalk chopping status, or their interaction, provided undeniable evidence of a significantly positive effect on plant emergence or grain yield. However, from a practicality and a larger economic viewpoint of the costs incurred by corn grain producers today relative to equipment investments, there are a few observations worth noting. The highest priced residue management option evaluated in this study was unable to clearly separate itself from the lower initial cost options. Furthermore, one must consider the additional maintenance and operating costs incurred while operating this equipment to determine what residue processing methods provide the best return on investment for the producer.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

@@ -1,0 +1,1029 @@
+{
+  "parser_version": "corpus-blocks-1",
+  "sections": [
+    {
+      "type": "section",
+      "anchor": "sec-0",
+      "level": 2,
+      "heading": "Value",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-1",
+      "level": 2,
+      "heading": "Specific crops",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-2",
+      "level": 3,
+      "heading": "Alfalfa",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-3",
+      "level": 3,
+      "heading": "Almonds",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-4",
+      "level": 3,
+      "heading": "Apple",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-5",
+      "level": 3,
+      "heading": "Apricot",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-6",
+      "level": 3,
+      "heading": "Avocados",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-7",
+      "level": 3,
+      "heading": "Barley",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-8",
+      "level": 3,
+      "heading": "Blueberry",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-9",
+      "level": 3,
+      "heading": "Broccoli",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-10",
+      "level": 3,
+      "heading": "Caneberry",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-11",
+      "level": 3,
+      "heading": "Cannabis",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-12",
+      "level": 3,
+      "heading": "Cherries",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-13",
+      "level": 3,
+      "heading": "Citrus",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-14",
+      "level": 3,
+      "heading": "Cotton",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-15",
+      "level": 3,
+      "heading": "Cucumbers",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-16",
+      "level": 3,
+      "heading": "Dairy",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-17",
+      "level": 3,
+      "heading": "Dates",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-18",
+      "level": 3,
+      "heading": "Figs",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-19",
+      "level": 3,
+      "heading": "Fish and shellfish",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-20",
+      "level": 3,
+      "heading": "Grapes",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-21",
+      "level": 3,
+      "heading": "Lettuce",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-22",
+      "level": 3,
+      "heading": "Melons",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-23",
+      "level": 3,
+      "heading": "Nectarines",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-24",
+      "level": 3,
+      "heading": "Oak",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-25",
+      "level": 3,
+      "heading": "Okra",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-26",
+      "level": 3,
+      "heading": "Oleander",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-27",
+      "level": 3,
+      "heading": "Olives",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-28",
+      "level": 3,
+      "heading": "Parsley",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-29",
+      "level": 3,
+      "heading": "Peaches",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-30",
+      "level": 3,
+      "heading": "Pear",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-31",
+      "level": 3,
+      "heading": "Persimmon",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-32",
+      "level": 3,
+      "heading": "Pistachios",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-33",
+      "level": 3,
+      "heading": "Plums",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-34",
+      "level": 3,
+      "heading": "Pome",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-35",
+      "level": 3,
+      "heading": "Pomegranates",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-36",
+      "level": 3,
+      "heading": "Raspberry",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-37",
+      "level": 3,
+      "heading": "Rice",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-38",
+      "level": 3,
+      "heading": "Small grains",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-39",
+      "level": 3,
+      "heading": "Stonefruit",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-40",
+      "level": 3,
+      "heading": "Strawberries",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-41",
+      "level": 3,
+      "heading": "Timber",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-42",
+      "level": 3,
+      "heading": "Tomatoes",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-43",
+      "level": 3,
+      "heading": "Walnuts",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-44",
+      "level": 3,
+      "heading": "Wheat",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-45",
+      "level": 3,
+      "heading": "Wine",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-46",
+      "level": 2,
+      "heading": "Livestock",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-47",
+      "level": 3,
+      "heading": "Red meat",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-48",
+      "level": 3,
+      "heading": "Fowl",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-49",
+      "level": 2,
+      "heading": "Regions",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-50",
+      "level": 3,
+      "heading": "Central Valley",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-51",
+      "level": 3,
+      "heading": "Salinas Valley",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-52",
+      "level": 2,
+      "heading": "Organic farming",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-53",
+      "level": 2,
+      "heading": "Environmental and natural resources",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-54",
+      "level": 3,
+      "heading": "Water use",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-55",
+      "level": 3,
+      "heading": "Water quality",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-56",
+      "level": 3,
+      "heading": "Water supply",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-57",
+      "level": 3,
+      "heading": "Air pollution",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-58",
+      "level": 2,
+      "heading": "History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-59",
+      "level": 3,
+      "heading": "Pre-1850",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-60",
+      "level": 3,
+      "heading": "1850\u20131900",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-61",
+      "level": 3,
+      "heading": "1900\u20131950",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-62",
+      "level": 3,
+      "heading": "1950\u20132000",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-63",
+      "level": 3,
+      "heading": "2001\u2013present",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-64",
+      "level": 2,
+      "heading": "Agricultural crime",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-65",
+      "level": 2,
+      "heading": "Pests",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-66",
+      "level": 2,
+      "heading": "Weeds",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-67",
+      "level": 2,
+      "heading": "Pathogens",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-68",
+      "level": 3,
+      "heading": "Xylella fastidiosa",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-69",
+      "level": 4,
+      "heading": "Pierce's Disease",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-70",
+      "level": 4,
+      "heading": "Xf in stonefruit",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-71",
+      "level": 4,
+      "heading": "Xf of citrus",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-72",
+      "level": 4,
+      "heading": "Other Xf infections",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-73",
+      "level": 3,
+      "heading": "Botrytis cinerea",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-74",
+      "level": 3,
+      "heading": "Other pathogens of grape",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-75",
+      "level": 3,
+      "heading": "Fusarium spp.",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-76",
+      "level": 3,
+      "heading": "Alternaria spp.",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-77",
+      "level": 3,
+      "heading": "Candidatus Phytoplasma",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-78",
+      "level": 3,
+      "heading": "Other pathogens",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-79",
+      "level": 2,
+      "heading": "Insurance",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-80",
+      "level": 2,
+      "heading": "Research, testing, and propagation material",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-81",
+      "level": 2,
+      "heading": "Labor",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-82",
+      "level": 3,
+      "heading": "Academic study, Data, and Training",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-83",
+      "level": 3,
+      "heading": "Regulatory Oversight",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-84",
+      "level": 3,
+      "heading": "Labor History",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-85",
+      "level": 3,
+      "heading": "Unions",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-86",
+      "level": 3,
+      "heading": "Protests",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-87",
+      "level": 3,
+      "heading": "Immigrant Labor",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-88",
+      "level": 2,
+      "heading": "See also",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-89",
+      "level": 2,
+      "heading": "References",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-90",
+      "level": 2,
+      "heading": "Further reading",
+      "text": ""
+    },
+    {
+      "type": "section",
+      "anchor": "sec-91",
+      "level": 2,
+      "heading": "External links",
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "anchor": "tbl-0",
+      "caption": "",
+      "headers": [
+        "",
+        "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may be too long to read and navigate comfortably . Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( July 2025 ) This article's use of red links may need cleanup . Please help improve this article . ( November 2025 ) ( Learn how and when to remove this message )",
+        "",
+        "This article may be too long to read and navigate comfortably . Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( July 2025 )",
+        "",
+        "This article's use of red links may need cleanup . Please help improve this article . ( November 2025 )"
+      ],
+      "rows": [
+        [
+          "",
+          "This article may be too long to read and navigate comfortably . Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( July 2025 )"
+        ],
+        [
+          "",
+          "This article's use of red links may need cleanup . Please help improve this article . ( November 2025 )"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-3",
+      "caption": "",
+      "headers": [
+        "Crop",
+        "Annual value (billions of USD)"
+      ],
+      "rows": [
+        [
+          "Dairy (milk and cream)",
+          "$6.56"
+        ],
+        [
+          "\u00a7 Grapes",
+          "$5.79"
+        ],
+        [
+          "\u00a7 Almonds",
+          "$5.60"
+        ],
+        [
+          "\u00a7 Cannabis (legal sales)",
+          "$3.1"
+        ],
+        [
+          "\u00a7 Strawberries",
+          "$3.1"
+        ],
+        [
+          "Cattle and Calves",
+          "$2.63"
+        ],
+        [
+          "\u00a7 Lettuce",
+          "$2.51"
+        ],
+        [
+          "Walnuts",
+          "$1.59"
+        ],
+        [
+          "\u00a7 Tomatoes",
+          "$1.05"
+        ],
+        [
+          "Pistachios",
+          "$1.01"
+        ],
+        [
+          "Broilers (poultry)",
+          "$0.94"
+        ],
+        [
+          "Oranges",
+          "$0.93"
+        ],
+        [
+          "\u00a7 Broccoli",
+          "$0.85"
+        ],
+        [
+          "Hay",
+          "$0.76"
+        ],
+        [
+          "Rice",
+          "$0.68"
+        ],
+        [
+          "Carrots",
+          "$0.62"
+        ],
+        [
+          "Lemons",
+          "$0.61"
+        ],
+        [
+          "Tangerines",
+          "$0.54"
+        ],
+        [
+          "Cotton",
+          "$0.48"
+        ],
+        [
+          "\u00a7 Raspberries",
+          "$0.45"
+        ],
+        [
+          "Garlic",
+          "$0.39"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-5",
+      "caption": "",
+      "headers": [
+        "v t e Agriculture in the United States"
+      ],
+      "rows": [
+        [
+          "History",
+          "Rural American history African-American Black land loss Ancient Hawaiian aquaculture Cattle drives Columbian exchange Commercial tobacco Colonial Eastern Agricultural Complex Three Sisters Early history of food regulation in the United States Indentured servitude in British America Virginia Pennsylvania New World crops List of food plants native to the Americas Native American in Virginia Prehistoric agriculture on the Great Plains Prehistoric agriculture in the Southwestern United States Wine Plantation complexes in the Southern United States Range war Sheep wars Slavery Native American Colonial",
+          ""
+        ],
+        [
+          "Industries",
+          "Banana Bee Blackcurrant Cannabis Hemp Cherry Christmas tree Corn Cotton Cider Dairy Hop Poultry Rice Spinach Sugar Tea Tobacco Wheat Wine"
+        ],
+        [
+          "State, commonwealth, or territory-specific",
+          "Alabama tobacco wine Alaska aquaculture cannabis wine Arizona wine cannabis Arkansas rice wine California almonds cannabis peaches strawberry walnuts wine Colorado wine cannabis Connecticut cannabis wine Delaware cannabis wine Florida wine tomato mango Georgia wine Hawaii coffee sugar wine genetically modified food Idaho wine Illinois cannabis wine Indiana wine Iowa wine Kansas wine Kentucky hemp wine Louisiana tobacco wine Maine aquaculture cannabis wine Maryland cannabis wine Massachusetts cannabis wine Michigan cannabis cherries wine Minnesota wine Mississippi wine Missouri cannabis wine Montana cannabis wine Nebraska wine Nevada cannabis wine New Hampshire wine New Jersey cannabis wine New Mexico cannabis chile wine New York cannabis wine North Carolina hemp wine North Dakota wine Ohio wine Oklahoma wine Oregon wine cannabis Pennsylvania wine Rhode Island cannabis wine South Carolina wine South Dakota wine Tennessee wine Texas rice wine Utah wine Vermont cannabis wine Virginia cannabis wine Washington apples cannabis hemp wine West Virginia wine Wisconsin dairy wine Wyoming wine Guam cannabis Northern Mariana Islands cannabis Puerto Rico cannabis coffee Virgin Islands cannabis"
+        ],
+        [
+          "By region",
+          "Southwestern United States Black Dirt Region Corn Belt Cotton Belt Connecticut shade tobacco Fruit Belt Rice Belt Pacific Northwest oyster industry"
+        ],
+        [
+          "Government organizations",
+          "United States Department of Agriculture National Institute of Food and Agriculture 4-H National Agricultural Statistics Service United States Census of Agriculture Agricultural Research Service National FFA Organization"
+        ],
+        [
+          "Non-governmental organizations",
+          "American Farm Bureau Federation Alpha Gamma Rho Alpha Gamma Sigma (fraternity) Alpha Tau Alpha Alpha Zeta (professional) Delta Theta Sigma National Grange National Society Descendants of American Farmers"
+        ],
+        [
+          "Law and politics",
+          "Agricultural policy Agricultural Trade Development and Assistance Act of 1954 Agriculture Risk Protection Act of 2000 California Agricultural Labor Relations Act of 1975 Capper\u2013Volstead Act Children's Act for Responsible Employment Farm bill Food Security Act of 1985 Food, Agriculture, Conservation, and Trade Act of 1990 Federal Agriculture Improvement and Reform Act of 1996 Grain Futures Act Packers and Stockyards Act Pure Food and Drug Act Taylor Grazing Act of 1934 Marihuana Tax Act of 1937"
+        ],
+        [
+          "Health and environment",
+          "Agricultural workers mental health Climate change Farmer suicide Genetically modified food Water supply Ogallala Aquifer"
+        ],
+        [
+          "Crime",
+          "Adulterated food California nut crimes Cattle raiding"
+        ],
+        [
+          "Labor",
+          "Bracero Program Convict leasing Farm Labor Organizing Committee H-2A visa Operation Blooming Onion United Farm Workers United Food and Commercial Workers Woman's Land Army of America Labor disputes 1903 Oxnard strike 1933 El Monte berry strike 1933 Funsten Nut strike 1933 Wisconsin milk strike 1933 Yakima Valley strike 1936 Venice celery strike 1938 San Antonio pecan shellers strike California agricultural strikes of 1933 Cantaloupe strike of 1928 Citrus Strike of 1936 Cotton pickers' strike of 1891 Delano grape strike Hanapepe massacre Hardin County onion pickers strike Hawaiian sugar strike of 1946 Imperial Valley lettuce strike of 1930 Oahu sugar strike of 1920 Salad Bowl strike Santa Clara cherry strike of 1933 Thibodaux massacre Tulare labor camps rent strike Vacaville tree pruners' strike Wheatland hop riot",
+          "Bracero Program Convict leasing Farm Labor Organizing Committee H-2A visa Operation Blooming Onion United Farm Workers United Food and Commercial Workers Woman's Land Army of America",
+          "Labor disputes",
+          "1903 Oxnard strike 1933 El Monte berry strike 1933 Funsten Nut strike 1933 Wisconsin milk strike 1933 Yakima Valley strike 1936 Venice celery strike 1938 San Antonio pecan shellers strike California agricultural strikes of 1933 Cantaloupe strike of 1928 Citrus Strike of 1936 Cotton pickers' strike of 1891 Delano grape strike Hanapepe massacre Hardin County onion pickers strike Hawaiian sugar strike of 1946 Imperial Valley lettuce strike of 1930 Oahu sugar strike of 1920 Salad Bowl strike Santa Clara cherry strike of 1933 Thibodaux massacre Tulare labor camps rent strike Vacaville tree pruners' strike Wheatland hop riot"
+        ],
+        [
+          "Bracero Program Convict leasing Farm Labor Organizing Committee H-2A visa Operation Blooming Onion United Farm Workers United Food and Commercial Workers Woman's Land Army of America"
+        ],
+        [
+          "Labor disputes",
+          "1903 Oxnard strike 1933 El Monte berry strike 1933 Funsten Nut strike 1933 Wisconsin milk strike 1933 Yakima Valley strike 1936 Venice celery strike 1938 San Antonio pecan shellers strike California agricultural strikes of 1933 Cantaloupe strike of 1928 Citrus Strike of 1936 Cotton pickers' strike of 1891 Delano grape strike Hanapepe massacre Hardin County onion pickers strike Hawaiian sugar strike of 1946 Imperial Valley lettuce strike of 1930 Oahu sugar strike of 1920 Salad Bowl strike Santa Clara cherry strike of 1933 Thibodaux massacre Tulare labor camps rent strike Vacaville tree pruners' strike Wheatland hop riot"
+        ],
+        [
+          "Other",
+          "Corn maze Ranch Cowboy Dude ranch"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "anchor": "tbl-6",
+      "caption": "",
+      "headers": [
+        "Bracero Program Convict leasing Farm Labor Organizing Committee H-2A visa Operation Blooming Onion United Farm Workers United Food and Commercial Workers Woman's Land Army of America"
+      ],
+      "rows": [
+        [
+          "Labor disputes",
+          "1903 Oxnard strike 1933 El Monte berry strike 1933 Funsten Nut strike 1933 Wisconsin milk strike 1933 Yakima Valley strike 1936 Venice celery strike 1938 San Antonio pecan shellers strike California agricultural strikes of 1933 Cantaloupe strike of 1928 Citrus Strike of 1936 Cotton pickers' strike of 1891 Delano grape strike Hanapepe massacre Hardin County onion pickers strike Hawaiian sugar strike of 1946 Imperial Valley lettuce strike of 1930 Oahu sugar strike of 1920 Salad Bowl strike Santa Clara cherry strike of 1933 Thibodaux massacre Tulare labor camps rent strike Vacaville tree pruners' strike Wheatland hop riot"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "text": "A cereal is a grass (family Poaceae ) cultivated for its edible grain . Cereals are the world's largest crops , and are therefore staple foods . They include rice , wheat (UK: corn), rye , oats , barley , millet , and maize (US: corn). Edible grains from other plant families, such as amaranth , buckwheat and quinoa , are pseudocereals . Most cereals are annuals , producing one crop from each planting, though rice is sometimes grown as a perennial . Winter varieties are hardy enough to be planted in the autumn, becoming dormant in the winter, and harvested in spring or early summer; spring varieties are planted in spring and harvested in late summer. The term cereal is derived from the name of the Roman goddess of grain crops and fertility, Ceres .",
+      "char_offset": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals were domesticated in the Neolithic around 8,000 years ago. Wheat and barley were domesticated in the Fertile Crescent . Rice and some millets were domesticated in East Asia , while sorghum and other millets were domesticated in Sudan . [ 1 ] Maize was domesticated by Indigenous peoples of the Americas in Mexico about 9,000 years ago. In the 20th century, cereal productivity was greatly increased by the Green Revolution . This increase in production has accompanied a growing international trade , with some countries producing large portions of the cereal supply for other countries.",
+      "char_offset": 759
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals provide food eaten directly as whole grains , usually cooked, or they are ground to flour and made into bread , porridge , and other products. Cereals have a high starch content, enabling them to be fermented into alcoholic drinks such as beer . Cereal farming has a substantial environmental impact , and is often produced in high-intensity monocultures . The environmental harms can be mitigated by sustainable practices which reduce the impact on soil and improve biodiversity, such as no-till farming and intercropping .",
+      "char_offset": 1356
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat , barley , rye , and oats were gathered and eaten in the Fertile Crescent during the early Neolithic . Cereal grains 19,000 years old have been found at the Ohalo II site in Israel , with charred remnants of wild wheat and barley. [ 2 ]",
+      "char_offset": 1890
+    },
+    {
+      "type": "paragraph",
+      "text": "During the same period, farmers in China began to farm rice and millet, using human-made floods and fires as part of their cultivation regimen. [ 3 ] [ 4 ] The use of soil conditioners , including manure , fish, compost and ashes , appears to have begun early, and developed independently in areas of the world including Mesopotamia , the Nile Valley , and Eastern Asia. [ 5 ]",
+      "char_offset": 2134
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals that became modern barley and wheat were domesticated some 8,000 years ago in the Fertile Crescent. [ 6 ] Millets and rice were domesticated in East Asia, while sorghum was domesticated in Sudan . [ 1 ] Maize arose from a single domestication in Mesoamerica about 9,000 years ago. [ 7 ]",
+      "char_offset": 2512
+    },
+    {
+      "type": "paragraph",
+      "text": "In these agricultural regions, religion was often shaped by the divinity associated with the grain and harvests. In the Mesopotamian creation myth , an era of civilization is inaugurated by the grain goddess Ashnan . [ 8 ] The Roman goddess Ceres presided over agriculture, grain crops, fertility, and motherhood; [ 9 ] the term cereal is derived from Latin cerealis , \"of grain\", originally meaning \"of [the goddess] Ceres\". [ 10 ] Several gods of antiquity combined agriculture and war: the Hittite Sun goddess of Arinna , the Canaanite Lahmu and the Roman Janus . [ 11 ]",
+      "char_offset": 2808
+    },
+    {
+      "type": "paragraph",
+      "text": "Complex civilizations arose where cereal agriculture created a surplus, allowing for part of the harvest to be appropriated from farmers, allowing power to be concentrated in cities. [ 12 ]",
+      "char_offset": 3383
+    },
+    {
+      "type": "paragraph",
+      "text": "Between 1964 and 2023, cereal production increased by 213%, mostly through higher yields: harvested area rose only by 10%. [ 15 ] Yields of wheat and rice rose in the Green Revolution , a technological change funded by development organizations. [ 16 ] The strategies included mechanized tilling, monoculture , nitrogen fertilizers, and breeding of new strains of seeds. These innovations fended off starvation and increased yield-per-plant, but paid less attention to nutritional quality. [ 17 ] The high-yield cereal crops tend to have low-quality proteins , with essential amino acid deficiencies, are high in carbohydrates , and lack balanced essential fatty acids , vitamins , and minerals . [ 17 ] So-called ancient grains and heirloom varieties grew in popularity with the \"organic\" movements of the early 21st century, but there is a tradeoff in yield-per-plant, putting pressure on resource-poor areas as food crops are replaced with cash crops . [ 18 ]",
+      "char_offset": 3574
+    },
+    {
+      "type": "paragraph",
+      "text": "Grain-based foods are fundamental dietary staples in many regions worldwide, serving as primary sources of energy and essential nutrients. Consequently, reductions in cereal production are the most significant contributors to losses in energy and essential micronutrients such as iron, zinc, magnesium, phosphorus, thiamin and riboflavin. [ 19 ]",
+      "char_offset": 4538
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals are grasses, in the Poaceae family, that produce edible grains . A cereal grain is botanically a caryopsis , a fruit where the seed coat is fused with the pericarp . [ 20 ] [ 21 ] Grasses have stems that are hollow except at the nodes and narrow alternate leaves borne in two ranks. [ 22 ] The lower part of each leaf encloses the stem, forming a leaf-sheath. The leaf grows from the base of the blade, an adaptation that protects the growing meristem from grazing animals. [ 22 ] [ 23 ] The flowers are usually hermaphroditic , with the exception of maize , and mainly anemophilous or wind-pollinated, although insects occasionally play a role. [ 22 ] [ 24 ]",
+      "char_offset": 4885
+    },
+    {
+      "type": "paragraph",
+      "text": "Among the best-known cereals are maize, rice , wheat, barley, sorghum , millet , oat, rye and triticale . [ 25 ] Some other grains are colloquially called cereals, even though they are not grasses; these pseudocereals include buckwheat , quinoa , and amaranth . [ 26 ]",
+      "char_offset": 5554
+    },
+    {
+      "type": "paragraph",
+      "text": "All cereal crops are cultivated in a similar way. Most are annual , so after sowing they are harvested just once. [ 27 ] An exception is rice, which although usually treated as an annual can survive as a perennial , producing a ratoon crop. [ 28 ] Cereals adapted to a temperate climate , such as barley , oats , rye , spelt , triticale , and wheat , are called cool-season cereals. Those preferring a tropical climate , such as millet and sorghum , are called warm-season cereals. [ 27 ] [ 29 ] [ 30 ] Cool-season cereals, especially rye, followed by barley, are hardy; they grow best in fairly cool weather, and stop growing, depending on variety, when the temperature goes above around 30 \u00b0C or 85 \u00b0F. Warm-season cereals, in contrast, require hot weather and cannot tolerate frost. [ 27 ] Cool-season cereals can be grown in highlands in the tropics, where they sometimes deliver several crops in a single year. [ 27 ]",
+      "char_offset": 5824
+    },
+    {
+      "type": "paragraph",
+      "text": "In the tropics, warm-season cereals can be grown at any time of the year. In temperate zones, these cereals can only be grown when there is no frost. Most cereals are planted in tilled soils , which reduces weeds and breaks up the surface of a field. Most cereals need regular water in the early part of their life cycle. Rice is commonly grown in flooded fields, [ 31 ] though some strains are grown on dry land. [ 32 ] Other warm climate cereals, such as sorghum, are adapted to arid conditions. [ 33 ]",
+      "char_offset": 6748
+    },
+    {
+      "type": "paragraph",
+      "text": "Cool-season cereals are grown mainly in temperate zones. These cereals often have both winter varieties for autumn sowing, winter dormancy, and early summer harvesting, and spring varieties planted in spring and harvested in late summer. Winter varieties have the advantage of using water when it is plentiful, and permitting a second crop after the early harvest. They flower only in spring as they require vernalization , exposure to cold for a specific period, fixed genetically. Spring crops grow when it is warmer but less rainy, so they may need irrigation. [ 27 ]",
+      "char_offset": 7254
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereal strains are bred for consistency and resilience to the local environmental conditions. The greatest constraint on yield are plant diseases , especially rusts (mostly the Puccinia spp.) and powdery mildews . [ 34 ] Fusarium head blight, caused by Fusarium graminearum , is a significant limitation on a wide variety of cereals. [ 35 ] Other pressures include pest insects and wildlife like rodents and deer. [ 36 ] [ 37 ] In conventional agriculture, some farmers apply fungicides or pesticides.",
+      "char_offset": 7826
+    },
+    {
+      "type": "paragraph",
+      "text": "Annual cereals die when they have come to seed, and dry up. Harvesting begins once the plants and seeds are dry enough. Harvesting in mechanized agricultural systems is by combine harvester , a machine which drives across the field in a single pass in which it cuts the stalks and then threshes and winnows the grain. [ 27 ] [ 38 ] In traditional agricultural systems, mostly in the Global South , harvesting may be by hand, using tools such as scythes and grain cradles . [ 27 ] Leftover parts of the plant can be allowed to decompose, or collected as straw ; this can be used for animal bedding, mulch, and a growing medium for mushrooms. [ 39 ] It is used in crafts such as building with cob or straw-bale construction . [ 40 ]",
+      "char_offset": 8329
+    },
+    {
+      "type": "paragraph",
+      "text": "If cereals are not completely dry when harvested, such as when the weather is rainy, the stored grain will be spoilt by mould fungi such as Aspergillus and Penicillium . [ 27 ] [ 41 ] This can be prevented by drying it artificially. It may then be stored in a grain elevator or silo , to be sold later. Grain stores need to be constructed to protect the grain from damage by pests such as seed-eating birds and rodents . [ 27 ]",
+      "char_offset": 9061
+    },
+    {
+      "type": "paragraph",
+      "text": "When the cereal is ready to be distributed, it is sold to a manufacturing facility that first removes the outer layers of the grain for subsequent milling for flour or other processing steps, to produce foods such as flour, oatmeal , or pearl barley . [ 42 ] In developing countries, processing may be traditional, in artisanal workshops, as with tortilla production in Central America. [ 43 ]",
+      "char_offset": 9490
+    },
+    {
+      "type": "paragraph",
+      "text": "Most cereals can be processed in a variety of ways. Rice processing , for instance, can create whole-grain or polished rice, or rice flour. Removal of the germ increases the longevity of grain in storage. [ 44 ] Some grains can be malted , a process of activating enzymes in the seed to cause sprouting that turns the complex starches into sugars before drying. [ 45 ] These sugars can be extracted for industrial uses and further processing, such as for making industrial alcohol , [ 46 ] beer , [ 47 ] whisky , [ 48 ] or rice wine , [ 49 ] or sold directly as a sugar . [ 50 ] In the 20th century, industrial processes developed around chemically altering the grain, to be used for other processes. In particular, maize can be altered to produce food additives, such as corn starch [ 51 ] and high-fructose corn syrup . [ 52 ]",
+      "char_offset": 9885
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereal production has a substantial impact on the environment. Tillage can lead to soil erosion and increased runoff. [ 53 ] Irrigation consumes large quantities of water; its extraction from lakes, rivers, or aquifers may have multiple environmental effects , such as lowering the water table and cause salination of aquifers. [ 54 ] Fertilizer production contributes to global warming , [ 55 ] and its use can lead to pollution and eutrophication of waterways. [ 56 ] Arable farming uses large amounts of fossil fuel , releasing greenhouse gases which contribute to global warming. [ 57 ] Pesticide usage can cause harm to wildlife, such as to bees . [ 58 ]",
+      "char_offset": 10715
+    },
+    {
+      "type": "paragraph",
+      "text": "Some of the impacts of growing cereals can be mitigated by changing production practices. Tillage can be reduced by no-till farming , such as by direct drilling of cereal seeds, or by developing and planting perennial crop varieties so that annual tilling is not required. Rice can be grown as a ratoon crop; [ 28 ] and other researchers are exploring perennial cool-season cereals, such as kernza , being developed in the US. [ 59 ]",
+      "char_offset": 11376
+    },
+    {
+      "type": "paragraph",
+      "text": "Fertilizer and pesticide usage may be reduced in some polycultures , growing several crops in a single field at the same time. [ 60 ] Fossil fuel-based nitrogen fertilizer usage can be reduced by intercropping cereals with legumes which fix nitrogen . [ 61 ] Greenhouse gas emissions may be cut further by more efficient irrigation or by water harvesting methods like contour trenching that reduce the need for irrigation, and by breeding new crop varieties. [ 62 ]",
+      "char_offset": 11811
+    },
+    {
+      "type": "paragraph",
+      "text": "Some cereals such as rice require little preparation before human consumption. For example, to make plain cooked rice , raw milled rice is washed and boiled. [ 63 ] Foods such as porridge [ 64 ] and muesli may be made largely of whole cereals, especially oats, whereas commercial breakfast cereals such as granola may be highly processed and combined with sugars, oils , and other products. [ 65 ]",
+      "char_offset": 12278
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals can be ground to make flour. Wheat flour is the main ingredient of bread and pasta . [ 66 ] [ 67 ] [ 68 ] Maize flour has been important in Mesoamerica since ancient times, with foods such as Mexican tortillas and tamales . [ 69 ] Rye flour is a constituent of bread in central and northern Europe, [ 70 ] while rice flour is common in Asia. [ 71 ]",
+      "char_offset": 12677
+    },
+    {
+      "type": "paragraph",
+      "text": "A cereal grain consists of starchy endosperm , germ , and bran . Wholemeal flour contains all of these; white flour is without some or all of the germ or bran. [ 72 ] [ 73 ]",
+      "char_offset": 13035
+    },
+    {
+      "type": "paragraph",
+      "text": "Because cereals have a high starch content, they are often used to make industrial alcohol [ 46 ] and alcoholic drinks by fermentation . For instance, beer is produced by brewing and fermenting starch , mainly from cereal grains\u2014most commonly malted barley. [ 47 ] Rice wines such as Japanese sake are brewed in Asia; [ 74 ] a fermented rice and honey wine was made in China some 9,000 years ago. [ 49 ]",
+      "char_offset": 13210
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals and their related byproducts such as hay are routinely fed to farm animals . Common cereals as animal food include maize, barley, wheat, and oats. Moist grains may be treated chemically or made into silage ; mechanically flattened or crimped, and kept in airtight storage until used; or stored dry with a moisture content of less than 14%. [ 76 ] Commercially, grains are often combined with other materials and formed into feed pellets. [ 77 ]",
+      "char_offset": 13615
+    },
+    {
+      "type": "paragraph",
+      "text": "As whole grains , cereals provide carbohydrates , polyunsaturated fats , protein , vitamins , and minerals . When processed by the removal of the bran and germ, all that remains is the starchy endosperm. [ 72 ] Nutrients added to cereal during nutritional fortification include iron, calcium, zinc, and folate. [ 79 ] In some developing countries , cereals constitute a majority of daily sustenance. In developed countries , cereal consumption is moderate and varied but still substantial, primarily in the form of refined and processed grains. [ 80 ]",
+      "char_offset": 14069
+    },
+    {
+      "type": "paragraph",
+      "text": "Some cereals are deficient in the essential amino acid lysine , obliging vegetarian cultures to combine their diet of cereal grains with legumes to obtain a balanced diet. Many legumes, however, are deficient in the essential amino acid methionine , which grains contain. Thus, a combination of legumes with grains forms a well-balanced diet for vegetarians. Such combinations include dal (lentils) with rice by South Indians and Bengalis , beans with maize tortillas , tofu with rice, and peanut butter with wholegrain wheat bread (as sandwiches) in several other cultures, including the Americas. [ 81 ] For feeding animals , the amount of crude protein measured in grains is expressed as grain crude protein concentration. [ 82 ]",
+      "char_offset": 14622
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals constitute the world's largest commodities by tonnage, whether measured by production [ 84 ] or by international trade. Several major producers of cereals dominate the market. [ 85 ] Because of the scale of the trade, some countries have become reliant on imports, thus cereals pricing or availability can have outsized impacts on countries with a food trade imbalance and thus food security . [ 86 ] Speculation , as well as other compounding production and supply factors leading up to the 2008 financial crisis , created rapid inflation of grain prices during the 2007\u20132008 world food price crisis . [ 87 ] Other disruptions, such as climate change or war related changes to supply or transportation can create further food insecurity; for example the Russian invasion of Ukraine in 2022 disrupted Ukrainian and Russian wheat supplies causing a global food price crisis in 2022 that affected countries heavily dependent on wheat flour. [ 88 ] [ 89 ] [ 90 ] [ 91 ]",
+      "char_offset": 15356
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals are the world's largest crops by tonnage of grain produced. [ 84 ] Three cereals, maize, wheat, and rice, together accounted for 91% of all cereal production worldwide in 2024, and 40% of the global availability of food energy in 2023, [ 92 ] while the production of oats and rye has drastically fallen from their 1960s levels. [ 93 ]",
+      "char_offset": 16332
+    },
+    {
+      "type": "paragraph",
+      "text": "Other cereals not included in the U.N.'s Food and Agriculture Organization statistics include wild rice , which is grown in small amounts in North America, and teff , an ancient grain that is a staple in Ethiopia . [ 94 ] Teff is grown in sub-Saharan Africa as a grass primarily for feeding horses. It is high in fiber and protein. Its flour is often used to make injera . It can be eaten as a warm breakfast cereal like farina with a chocolate or nutty flavor. [ 94 ]",
+      "char_offset": 16676
+    },
+    {
+      "type": "paragraph",
+      "text": "The table shows the annual production of cereals in 1961, 1980, 2000, 2010, and 2024. [ a ] [ 95 ] [ 93 ] [ 96 ]",
+      "char_offset": 17146
+    },
+    {
+      "type": "paragraph",
+      "text": "Cereals are the most traded commodities by quantity in 2023, with wheat, maize, and rice the main cereals involved. The Americas and Europe are the largest exporters, and Asia is the largest importer. [ 85 ] In 2023 Brazil was the largest exporter of maize, while India was the largest exporter of rice and China the largest importer of maize and of rice. Many other countries trade cereals, both as exporters and as importers. [ 98 ] Cereals are traded as futures on world commodity markets , helping to mitigate the risks of changes in price for example, if harvests fail. [ 99 ]",
+      "char_offset": 17260
+    }
+  ],
+  "labels": [
+    "has_table"
+  ],
+  "document_id": "doc-874cce94d4fe6d51"
+}

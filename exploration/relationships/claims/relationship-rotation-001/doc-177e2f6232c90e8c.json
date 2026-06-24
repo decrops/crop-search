@@ -1,0 +1,70 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-177e2f6232c90e8c-cotton-soybean",
+      "run_id": "relationship-rotation-001",
+      "subject_crop_id": "cotton",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "ordered_pair_key": "cotton|soybean",
+      "canonical_relationship_key": "rotation|cotton|soybean",
+      "direction": "object_precedes_subject",
+      "effect": "beneficial",
+      "claim_text": "Cotton grown after soybean showed a yield (lint) increase, with plants significantly taller and higher in chlorophyll than continuous cotton, attributed to residual nitrogen fixed by the preceding soybean crop or favorable changes in soil microbial populations.",
+      "evidence_text": "Pettigrew et al. (2016) recently concluded that cotton demonstrated a yield increase following soybean that was likely due to increased levels of soil N through fixation from the previous soybean crop or an alteration of soil microbial pop ulations favorable to the succeeding cotton crop.",
+      "value": {"value_type": "text"},
+      "context": {"location": "Elizabeth, Mississippi, USA", "system": "irrigated cotton-soybean rotation", "years": "2012-2015"},
+      "mechanisms": ["residual nitrogen from soybean N fixation", "alteration of soil microbial populations favorable to succeeding cotton"],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.26832/24566632.2018.0301013"
+        ],
+        "source_title": "https://doi.org/10.26832/24566632.2018.0301013",
+        "source_domain": "doi.org",
+        "document_type": "pdf",
+        "accessed_at": "2026-06-24T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-177e2f6232c90e8c",
+        "source_tier_id": "peer_reviewed_science"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "doc-177e2f6232c90e8c-soybean-cotton",
+      "run_id": "relationship-rotation-001",
+      "subject_crop_id": "soybean",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "legume",
+      "object_crop_group": "fiber",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "ordered_pair_key": "soybean|cotton",
+      "canonical_relationship_key": "rotation|soybean|cotton",
+      "direction": "object_precedes_subject",
+      "effect": "neutral",
+      "claim_text": "Soybean grown following cotton in rotation showed no positive or negative differences relative to other treatments; no rotational effect was observed in any of the soybean crops in the experiment.",
+      "evidence_text": "No such differences wereobservedin any of the soybean crops produced in the experiment (data not shown, in review).",
+      "value": {"value_type": "text"},
+      "context": {"location": "Elizabeth, Mississippi, USA", "system": "irrigated cotton-soybean rotation", "years": "2012-2015"},
+      "mechanisms": [],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.26832/24566632.2018.0301013"
+        ],
+        "source_title": "https://doi.org/10.26832/24566632.2018.0301013",
+        "source_domain": "doi.org",
+        "document_type": "pdf",
+        "accessed_at": "2026-06-24T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-177e2f6232c90e8c",
+        "source_tier_id": "peer_reviewed_science"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    }
+  ]
+}

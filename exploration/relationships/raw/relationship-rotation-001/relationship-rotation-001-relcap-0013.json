@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0013",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "corn",
+  "object_crop_id": "rice",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "corn|rice",
+  "canonical_relationship_key": "rotation|corn|rice",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": ""
+  },
+  "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7163953/?tool=EBI",
+  "source_domain": "www.ncbi.nlm.nih.gov",
+  "accessed_at": "2026-06-24T14:32:12Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7163953/?tool=EBI",
+  "source_title": "Posters - PMC",
+  "content_type": "text/html; charset=utf-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-pmc.ncbi.nlm.nih.gov.html",
+  "snippet": "This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of t",
+  "raw_text": "This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.\n\nThe content is available as a PDF (2.5 MB).",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-f92238b63ad1e94e",
+  "canonical_url": "https://link.springer.com/content/pdf/10.1007/s00299-024-03153-7.pdf",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s00299-024-03153-7.pdf",
+  "doi": "10.1007/s00299-024-03153-7",
+  "title": "https://link.springer.com/content/pdf/10.1007/s00299-024-03153-7.pdf",
+  "source_domain": "link.springer.com",
+  "source_tier_id": "peer_reviewed_science",
+  "discovery_method": "discover_pipeline",
+  "access_status": "open_full_text",
+  "document_type": "pdf",
+  "content_type": "application/pdf",
+  "is_metadata_only": false,
+  "text_hash": "f92238b63ad1e94eeede1eacc741444ad43b43584edc02601b314dceb5256850",
+  "content_hash": "8b99cbfab60194b15228c40f614acaf9781ae5ada10d9d54b9211081c75ceb8c",
+  "text_length": 95777,
+  "publication_date_hint": "2024",
+  "source_metadata": {
+    "doi": "10.1007/s00299-024-03153-7",
+    "canonical_key": "doi:10.1007/s00299-024-03153-7"
+  },
+  "artifact_path": "exploration/raw/pilot-global-wheat-002/fetched/045-link.springer.com.pdf",
+  "parser_version": "corpus-blocks-1"
+}

@@ -1,0 +1,69 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0121",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "phenology.maturity_duration",
+  "attribute": "phenology_timing",
+  "attribute_subtype": "maturity_duration",
+  "claim_text": "Days to anthesis and days to maturity were negatively associated with grain yield under stress, indicating an advantage of early maturity in wheat under drought/heat stress.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "daystoanthesis (DTA)anddaystomaturity(DTM)werenegativelyassociatedwithgrainyieldunderstressshowing advantageofearlymaturityduringstress",
+    "text_value": "Days to anthesis and days to maturity were negatively associated with grain yield under stress, indicating an advantage of early maturity in wheat under drought/heat stress.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-019-43477-z"
+    ],
+    "source_title": "https://doi.org/10.1038/s41598-019-43477-z",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "daystoanthesis (DTA)anddaystomaturity(DTM)werenegativelyassociatedwithgrainyieldunderstressshowing advantageofearlymaturityduringstress",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-6eb44534d34e404f",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready"
+}

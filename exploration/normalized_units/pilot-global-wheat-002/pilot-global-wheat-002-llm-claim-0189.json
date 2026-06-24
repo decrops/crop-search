@@ -1,0 +1,75 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0189",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "morphology.spike_density",
+  "attribute": "yield_component",
+  "attribute_subtype": "spike_density",
+  "claim_text": "Farmers target 550-600 wheat ears (spikes) per m2.",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "They aim at 250\u2010300 wheat plants per m2 , 550 to 600 ears per m2 , and a grain yield of \u226510 Mg ha\u20101 yr\u20101 .",
+    "range_min": 550.0,
+    "range_max": 600.0,
+    "qualifier": "recommended",
+    "unit": "ears m-2"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://edepot.wur.nl/577735"
+    ],
+    "source_title": "https://edepot.wur.nl/577735",
+    "source_domain": "edepot.wur.nl",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "They aim at 250\u2010300 wheat plants per m2 , 550 to 600 ears per m2 , and a grain yield of \u226510 Mg ha\u20101 yr\u20101 .",
+    "manifest_version": "0.4.0",
+    "notes": "2022",
+    "source_publication_year": 2022,
+    "document_id": "doc-c5fb186dde37d64a",
+    "block_type": "paragraph"
+  },
+  "observation_type": "recommendation",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "management_system": "arable rotation, Netherlands"
+  }
+}

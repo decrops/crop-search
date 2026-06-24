@@ -1,0 +1,75 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0010",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.nitrogen_use_efficiency",
+  "attribute": "nutrient_use_efficiency",
+  "attribute_subtype": "nitrogen_use_efficiency",
+  "claim_text": "A urea-doped calcium phosphate nanofertilizer (nanoU-NPK) reduced the nitrogen required by durum wheat by 40% versus conventional urea.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "This nanoU-NPK was tested on durum wheat where it resulted in a 40% reduction in the amount of nitrogen required as compared to the conventional urea treatment.",
+    "numeric_value": 40.0,
+    "qualifier": "descriptive",
+    "unit": "% reduction in nitrogen required"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://link.springer.com/content/pdf/10.1186/s12951-021-01177-9.pdf"
+    ],
+    "source_title": "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12951-021-01177-9",
+    "source_domain": "jnanobiotechnology.biomedcentral.com",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "This nanoU-NPK was tested on durum wheat where it resulted in a 40% reduction in the amount of nitrogen required as compared to the conventional urea treatment.",
+    "manifest_version": "0.4.0",
+    "notes": "2022",
+    "source_publication_year": 2022,
+    "document_id": "doc-0e3afd37a3848cd7",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "low",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "durum wheat (Triticum durum)",
+    "management_system": "nanofertilizer (nanoU-NPK)"
+  }
+}

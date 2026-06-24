@@ -1,0 +1,70 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0031",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "nutrients.nitrogen_requirement",
+  "attribute": "nutrient_management",
+  "attribute_subtype": "nitrogen_requirement",
+  "claim_text": "Nitrogen fertilization is the most prominent determinant of wheat grain protein content and composition.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "Among environmental factors, nitrogen fertilization is the most prominent determinant linked to protein content and composition, but other factors such as soil fertility, precipitation, temperature, and altitude also play a role",
+    "text_value": "Nitrogen fertilization is the most prominent determinant of wheat grain protein content and composition.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.517313/pdf"
+    ],
+    "source_title": "https://www.frontiersin.org/articles/10.3389/fnut.2020.517313/pdf",
+    "source_domain": "www.frontiersin.org",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Among environmental factors, nitrogen fertilization is the most prominent determinant linked to protein content and composition, but other factors such as soil fertility, precipitation, temperature, and altitude also play a role",
+    "manifest_version": "0.4.0",
+    "notes": "2020",
+    "source_publication_year": 2020,
+    "document_id": "doc-490863f7a106e256",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready"
+}

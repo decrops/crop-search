@@ -1,0 +1,352 @@
+{
+  "run_id": "pilot-global-wheat-002",
+  "metadata_only_candidates": 58,
+  "excluded_junk": 1,
+  "excluded_no_oa": 22,
+  "resolved": 35,
+  "fetched_full_text": 16,
+  "fetch_failed": 19,
+  "details": [
+    {
+      "document_id": "doc-0c44ada1a890e48e",
+      "doi": "10.19080/artoaj.2016.01.555559",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 14572
+    },
+    {
+      "document_id": "doc-15c3cb0aeeaafa59",
+      "doi": "10.1002/csc2.20973",
+      "outcome": "fetch_failed",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/csc2.20973"
+    },
+    {
+      "document_id": "doc-1b9e66c538b9a117",
+      "doi": "10.3923/ja.2006.626.633",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-1dfe693669843e04",
+      "doi": "10.1016/j.eja.2021.126443",
+      "outcome": "fetch_failed",
+      "oa_url": "https://doi.org/10.1016/j.eja.2021.126443"
+    },
+    {
+      "document_id": "doc-1e3e207875165476",
+      "doi": "10.30955/gnj.08266",
+      "outcome": "fetch_failed",
+      "oa_url": "https://journal.gnest.org/system/files/2026-04/gnest_08266_accepted%20manuscript.pdf"
+    },
+    {
+      "document_id": "doc-2185c6120f294e4b",
+      "doi": "",
+      "outcome": "no_doi"
+    },
+    {
+      "document_id": "doc-21eb4c290a02ee0a",
+      "doi": "10.20944/preprints202408.1071.v1",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.preprints.org/frontend/manuscript/da441ce660b1caf893a4bad74b382b74/download_pub"
+    },
+    {
+      "document_id": "doc-29a5ed6af5030a88",
+      "doi": "10.61475/jfs.2024.v37i1.02",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 13169
+    },
+    {
+      "document_id": "doc-2b0f9eabe1e131b6",
+      "doi": "10.19080/ijesnr.2019.21.556054",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 24173
+    },
+    {
+      "document_id": "doc-30ece79d6a38c4a9",
+      "doi": "10.1016/s0378-3774(02)00112-9",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-31e36e8a3c6cd091",
+      "doi": "10.29329/ijiaar.2020.238.14",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 2598
+    },
+    {
+      "document_id": "doc-3326606c2ecf3614",
+      "doi": "10.24326/as.2024.5442",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 37882
+    },
+    {
+      "document_id": "doc-352a9f95175ad055",
+      "doi": "10.1016/s0065-2113(08)60053-x",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-35922aa0b30f8f08",
+      "doi": "10.1007/s10725-012-9679-1",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 772
+    },
+    {
+      "document_id": "doc-36829a126b53f7bb",
+      "doi": "10.1007/bf02139648",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-36db5c7a24a04f55",
+      "doi": "10.3923/pjbs.2014.122.125",
+      "outcome": "fetch_failed",
+      "oa_url": "https://scialert.net/qredirect.php?doi=pjbs.2014.122.125&linkid=pdf"
+    },
+    {
+      "document_id": "doc-3a58b3017f257f9b",
+      "doi": "10.24214/jcbps.b.9.4.60316",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 2419389
+    },
+    {
+      "document_id": "doc-42ae43c6a1457e2a",
+      "doi": "10.1111/jac.70088",
+      "outcome": "fetch_failed",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jac.70088"
+    },
+    {
+      "document_id": "doc-49d9ffee04d5c9e3",
+      "doi": "10.1093/ee/35.6.1702",
+      "outcome": "fetch_failed",
+      "oa_url": "https://academic.oup.com/ee/article-pdf/35/6/1702/18302331/ee35-1702.pdf"
+    },
+    {
+      "document_id": "doc-639cd7d988f69f0c",
+      "doi": "10.53846/goediss-8230",
+      "outcome": "fetch_failed",
+      "oa_url": "https://ediss.uni-goettingen.de/bitstream/21.11130/00-1735-0000-0005-14AA-5/2/Nelson_thesis_20200928_eDiss.pdf"
+    },
+    {
+      "document_id": "doc-676fc98e6a9776da",
+      "doi": "10.55362/ije/2023/4069",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 14424
+    },
+    {
+      "document_id": "doc-6eb44534d34e404f",
+      "doi": "10.1038/s41598-019-43477-z",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 34653
+    },
+    {
+      "document_id": "doc-715ff741a2a7145a",
+      "doi": "10.59797/ija.v65i2.5589",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-7881b61c758645f6",
+      "doi": "10.1007/978-94-011-3438-5_95",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-7adf96e6c80e5638",
+      "doi": "10.1016/0167-8809(94)90087-6",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-7d68a5bc23a58434",
+      "doi": "10.52763/pjsir.biol.sci.63.3.2020.214.225",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-7d6a7eebb49244fb",
+      "doi": "10.31563/2308-9644-2025-58-4-171-179",
+      "outcome": "fetch_failed",
+      "oa_url": "https://doi.org/10.31563/2308-9644-2025-58-4-171-179"
+    },
+    {
+      "document_id": "doc-8038e7009468febd",
+      "doi": "10.59797/ija.v58i2.4184",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 5723
+    },
+    {
+      "document_id": "doc-884a4d6358927cd5",
+      "doi": "10.19045/bspab.2015.44009",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 23769
+    },
+    {
+      "document_id": "doc-889452b781fbf52b",
+      "doi": "10.54386/jam.v19i4.605",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 15518
+    },
+    {
+      "document_id": "doc-89d2a1e8226d3cf1",
+      "doi": "10.20944/preprints202502.1558.v1",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.preprints.org/frontend/manuscript/22567f6123d2c7f46a13b7b4c2179f83/download_pub"
+    },
+    {
+      "document_id": "doc-8ab2580bc283776e",
+      "doi": "10.1007/978-981-92-0902-6_14",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-912afb06eada726f",
+      "doi": "10.5897/ajb12.583",
+      "outcome": "fetch_failed",
+      "oa_url": "https://doi.org/10.5897/ajb12.583"
+    },
+    {
+      "document_id": "doc-93f02e00774f3992",
+      "doi": "10.3390/horticulturae10040418",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.mdpi.com/2311-7524/10/4/418/pdf?version=1713607746"
+    },
+    {
+      "document_id": "doc-94119f5b6d493b82",
+      "doi": "10.1023/b:grow.0000007500.90240.7d",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-94198322751ec2de",
+      "doi": "10.3390/biom10091212",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.mdpi.com/2218-273X/10/9/1212/pdf?version=1597921092"
+    },
+    {
+      "document_id": "doc-a0336d2107ca7f81",
+      "doi": "10.1007/bf00476933",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-acc94efcff5532be",
+      "doi": "10.1007/s00484-023-02486-4",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-add4179a186de37b",
+      "doi": "10.59797/ija.v46i2.3249",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 12116
+    },
+    {
+      "document_id": "doc-af0a88ba5ebea7ca",
+      "doi": "10.52113/mjas04/8.4/21",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-b335a6c210a98b06",
+      "doi": "10.1080/03650340.2015.1026263",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-b34dad9956689c11",
+      "doi": "10.5580/21a7",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-b46be768aee6df76",
+      "doi": "10.1007/bf02185480",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-bcdf9531593918ca",
+      "doi": "10.20944/preprints202310.1141.v1",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.preprints.org/manuscript/202310.1141/v1/download"
+    },
+    {
+      "document_id": "doc-be3d7af24167aa37",
+      "doi": "10.2134/agronj1973.00021962006500010002x",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-be65f24a0d70ddfb",
+      "doi": "10.1007/s11269-009-9505-3",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-befa9b9e231ba4c5",
+      "doi": "10.1093/oxfordjournals.aob.a087777",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-c010ba560f285375",
+      "doi": "10.1371/journal.pone.0194075",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 35292
+    },
+    {
+      "document_id": "doc-c234bac1d16e1e40",
+      "doi": "10.19045/bspab.2014.31004",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 15145
+    },
+    {
+      "document_id": "doc-c55e35b79c0c830a",
+      "doi": "10.1093/oxfordjournals.aob.a086428",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-d43bcb94a5f45bb8",
+      "doi": "10.3390/agronomy10020194",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.mdpi.com/2073-4395/10/2/194/pdf?version=1581992715"
+    },
+    {
+      "document_id": "doc-d974513b80c101a2",
+      "doi": "10.1101/2021.08.16.456456",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2021/08/17/2021.08.16.456456.full.pdf"
+    },
+    {
+      "document_id": "doc-daf230c4f3a59602",
+      "doi": "10.2134/agronj1974.00021962006600010009x",
+      "outcome": "no_oa"
+    },
+    {
+      "document_id": "doc-dc6e252d686f83f7",
+      "doi": "10.1002/csc2.21409",
+      "outcome": "fetch_failed",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/csc2.21409"
+    },
+    {
+      "document_id": "doc-dceef3c2b00c5df1",
+      "doi": "10.22541/essoar.169766205.55985039/v1",
+      "outcome": "fetch_failed",
+      "oa_url": "https://www.authorea.com/doi/pdf/10.22541/essoar.169766205.55985039"
+    },
+    {
+      "document_id": "doc-dda48b68b7604096",
+      "doi": "10.1023/b:phot.0000040578.93542.61",
+      "outcome": "full_text",
+      "resolver": "unpaywall",
+      "chars": 21869
+    },
+    {
+      "document_id": "doc-e495649d5de1018e",
+      "doi": "10.5586/aa.1655",
+      "outcome": "fetch_failed",
+      "oa_url": "https://pbsociety.org.pl/journals/index.php/aa/article/download/aa.1655/5821"
+    },
+    {
+      "document_id": "doc-ebded94c1f5c0378",
+      "doi": "10.1016/j.plantsci.2010.06.004",
+      "outcome": "no_oa"
+    }
+  ]
+}

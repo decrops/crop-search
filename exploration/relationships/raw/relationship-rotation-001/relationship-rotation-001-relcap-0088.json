@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0088",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "cotton",
+  "object_crop_id": "corn",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "cotton|corn",
+  "canonical_relationship_key": "rotation|cotton|corn",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.1016/j.agwat.2005.05.006"
+  },
+  "source_url": "https://doi.org/10.1016/j.agwat.2005.05.006",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:45Z",
+  "search_title": "",
+  "access_status": "metadata_only",
+  "final_url": "https://doi.org/10.1016/j.agwat.2005.05.006",
+  "source_title": "https://doi.org/10.1016/j.agwat.2005.05.006",
+  "content_type": "",
+  "document_type": "other",
+  "artifact_path": "",
+  "snippet": "",
+  "raw_text": "",
+  "parser_used": "metadata-only",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "captured"
+}

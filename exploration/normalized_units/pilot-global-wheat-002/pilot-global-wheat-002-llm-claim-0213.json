@@ -1,0 +1,73 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0213",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "stress.drought_tolerance",
+  "attribute": "stress_sensitivity",
+  "attribute_subtype": "drought_tolerance",
+  "claim_text": "Among tetraploid wheat genotypes, wild emmer TR39477 shows the highest drought tolerance, durum cv. Kiziltan moderate tolerance, and TTD-22 the lowest tolerance under drought stress.",
+  "value": {
+    "value_type": "text",
+    "raw_value_text": "Ergen and colleagues surveyed drought response of several genotypes of wild and domesticated tetraploid wheat varieties; they were able to show that wild emmer wheat, genotype TR39477, exhibits the highest drought tolerance while TTD-22 genotype has the lowest tolerance underdrought stress. Ontheother hand, durum wheat varietyKiziltanshoweda moderate tolerance in response to slow drought imposition",
+    "text_value": "Among tetraploid wheat genotypes, wild emmer TR39477 shows the highest drought tolerance, durum cv. Kiziltan moderate tolerance, and TTD-22 the lowest tolerance under drought stress.",
+    "qualifier": "descriptive"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://research.sabanciuniv.edu/id/eprint/39269/1/10278390_HaliseBusra_Cagirici.pdf"
+    ],
+    "source_title": "http://research.sabanciuniv.edu/39269/1/10278390_HaliseBusra_Cagirici.pdf",
+    "source_domain": "research.sabanciuniv.edu",
+    "document_type": "pdf",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Ergen and colleagues surveyed drought response of several genotypes of wild and domesticated tetraploid wheat varieties; they were able to show that wild emmer wheat, genotype TR39477, exhibits the highest drought tolerance while TTD-22 genotype has the lowest tolerance underdrought stress. Ontheother hand, durum wheat varietyKiziltanshoweda moderate tolerance in response to slow drought imposition",
+    "manifest_version": "0.4.0",
+    "notes": "2019",
+    "source_publication_year": 2019,
+    "document_id": "doc-d7b800aa6914636a",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "TR39477 / Kiziltan / TTD-22"
+  }
+}

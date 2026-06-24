@@ -1,0 +1,84 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0008",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "morphology.plant_height",
+  "attribute": "plant_morphology",
+  "attribute_subtype": "plant_height",
+  "claim_text": "Wheat genotype SD-621 reached a maximum seedling shoot length of 13.38 cm under -0.5 MPa osmotic stress.",
+  "value": {
+    "value_type": "numeric",
+    "raw_value_text": "SD-621 had maximum shoot length (13.38cm) followed by SD-222 (13.33cm) with 21.62% and 20.80% reduction as compare to control at -0.5MPa PEG stress.",
+    "numeric_value": 13.38,
+    "qualifier": "descriptive",
+    "unit": "cm"
+  },
+  "location_scope": {
+    "level": "state",
+    "name": "South Dakota",
+    "geo_id": "census:0400000US46",
+    "centroid": {
+      "lat": 44.446796,
+      "lon": -100.238176
+    },
+    "geocode_source": "us_census_gazetteer_2025:state",
+    "geocode_confidence": "approximate",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "explicit_state",
+    "claim_location_confidence": "high",
+    "claim_location_text": "SD-621 had maximum shoot length (13.38cm) followed by SD-222 (13.33cm) with 21.62% and 20.80% reduction as compare to control at -0.5MPa PEG stress.",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": [
+      {
+        "field": "claim_location:claim_text",
+        "level": "state",
+        "name": "South Dakota",
+        "evidence_text": "SD-621 had maximum shoot length (13.38cm) followed by SD-222 (13.33cm) with 21.62% and 20.80% reduction as compare to control at -0.5MPa PEG stress."
+      }
+    ]
+  },
+  "time_scope": {
+    "label": "growing season"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.19080/artoaj.2016.01.555559"
+    ],
+    "source_title": "https://doi.org/10.19080/artoaj.2016.01.555559",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "SD-621 had maximum shoot length (13.38cm) followed by SD-222 (13.33cm) with 21.62% and 20.80% reduction as compare to control at -0.5MPa PEG stress.",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-0c44ada1a890e48e",
+    "block_type": "paragraph"
+  },
+  "observation_type": "condition",
+  "confidence": "medium",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "SD-621"
+  }
+}

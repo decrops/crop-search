@@ -1,0 +1,82 @@
+{
+  "claim_id": "pilot-global-wheat-002-llm-claim-0096",
+  "run_id": "pilot-global-wheat-002",
+  "entity": {
+    "entity_type": "crop",
+    "name": "wheat"
+  },
+  "parameter_id": "morphology.thousand_kernel_weight",
+  "attribute": "yield_component",
+  "attribute_subtype": "thousand_kernel_weight",
+  "claim_text": "Winter wheat (cv. Venecja) thousand-grain weight ranged 41.16-44.13 g across treatments in 2023/2024 season",
+  "value": {
+    "value_type": "range",
+    "raw_value_text": "Absolute control 9.64 \u00b10.95c 9.89 \u00b11.12c 39.83 \u00b10.59ab 42.44 \u00b10.98bc Spraying with fungicide 9.75 \u00b11.02bc 10.24 \u00b10.72bc 39.32 \u00b10.47b 43.98 \u00b10.60ab Spraying with hemp flower extract 10.32 \u00b10.88a 10.92 \u00b10.97a 40.16 \u00b10.51ab 41.16 \u00b10.53c Spraying with a mixture of plant extracts 10.16 \u00b10.84ab 10.40 \u00b10.88ab 40.45 \u00b10.36a 44.13 \u00b11.19a",
+    "range_min": 41.16,
+    "range_max": 44.13,
+    "qualifier": "descriptive",
+    "unit": "g"
+  },
+  "location_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "source_geo_scope": {
+    "level": "global",
+    "name": "global",
+    "geo_id": "global",
+    "geocode_source": "not_applicable",
+    "geocode_confidence": "none",
+    "coordinate_system": "EPSG:4326"
+  },
+  "geo_evidence": {
+    "claim_location_source": "default_global",
+    "claim_location_confidence": "none",
+    "claim_location_text": "",
+    "source_location_source": "default_global",
+    "source_location_confidence": "none",
+    "source_location_text": "",
+    "matched_locations": []
+  },
+  "time_scope": {
+    "label": "observed study period"
+  },
+  "provenance": {
+    "source_urls": [
+      "https://doi.org/10.24326/as.2024.5442"
+    ],
+    "source_title": "https://doi.org/10.24326/as.2024.5442",
+    "source_domain": "doi.org",
+    "document_type": "other",
+    "source_tier_id": "peer_reviewed_science",
+    "source_tier_label": "",
+    "discovery_method": "discover_pipeline",
+    "access_status": "open_full_text",
+    "accessed_at": "2026-06-24T12:00:16Z",
+    "extraction_method": "llm:fixture",
+    "evidence_text": "Absolute control 9.64 \u00b10.95c 9.89 \u00b11.12c 39.83 \u00b10.59ab 42.44 \u00b10.98bc Spraying with fungicide 9.75 \u00b11.02bc 10.24 \u00b10.72bc 39.32 \u00b10.47b 43.98 \u00b10.60ab Spraying with hemp flower extract 10.32 \u00b10.88a 10.92 \u00b10.97a 40.16 \u00b10.51ab 41.16 \u00b10.53c Spraying with a mixture of plant extracts 10.16 \u00b10.84ab 10.40 \u00b10.88ab 40.45 \u00b10.36a 44.13 \u00b11.19a",
+    "manifest_version": "0.4.0",
+    "notes": "",
+    "document_id": "doc-3326606c2ecf3614",
+    "block_type": "table",
+    "table_label": "Table 5"
+  },
+  "observation_type": "condition",
+  "confidence": "high",
+  "conflict_status": "none",
+  "status": "load_ready",
+  "agronomic_scope": {
+    "cultivar": "Venecja",
+    "management_system": "winter wheat, field experiment, Poland"
+  },
+  "bbch_applicability": {
+    "bbch_min": 89,
+    "bbch_max": 91,
+    "evidence_text": "Absolute control 9.64 \u00b10.95c 9.89 \u00b11.12c 39.83 \u00b10.59ab 42.44 \u00b10.98bc Spraying with fungicide 9.75 \u00b11.02bc 10.24 \u00b10.72bc 39.32 \u00b10.47b 43.98 \u00b10.60ab Spraying with hemp flower extract 10.32 \u00b10.88a 10.92 \u00b10.97a 40.16 \u00b10.51ab 41.16 \u00b10.53c Spraying with a mixture of plant extracts 10.16 \u00b10.84ab 10.40 \u00b10.88ab 40.45 \u00b10.36a 44.13 \u00b11.19a",
+    "confidence": "high"
+  }
+}

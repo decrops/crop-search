@@ -1,0 +1,32 @@
+{
+  "id": "relationship-rotation-001-relcap-0086",
+  "run_id": "relationship-rotation-001",
+  "query": "crop_relationship",
+  "query_kind": "crop_relationship",
+  "subject_crop_id": "cotton",
+  "object_crop_id": "corn",
+  "relationship_mode": "rotation",
+  "relationship_subtype": "previous_crop_effect",
+  "ordered_pair_key": "cotton|corn",
+  "canonical_relationship_key": "rotation|cotton|corn",
+  "source_tier_id": "peer_reviewed_science",
+  "source_metadata": {
+    "doi": "10.56454/pwae5740"
+  },
+  "source_url": "https://doi.org/10.56454/pwae5740",
+  "source_domain": "doi.org",
+  "accessed_at": "2026-06-24T14:33:44Z",
+  "search_title": "",
+  "access_status": "open_full_text",
+  "final_url": "https://journal.cotton.org/article/23-1-141/",
+  "source_title": "The Effect of Duration of Corn (Zea mays) Interference on Cotton (Gossypium hirsutum) Growth and Yield - Journal of Cotton Science",
+  "content_type": "text/html; charset=UTF-8",
+  "document_type": "html",
+  "artifact_path": "exploration/relationships/raw/relationship-rotation-001/fetched/001-journal.cotton.org.html",
+  "snippet": "Widespread use of glyphosate-resistant (GR) corn in rotation with cotton increases the incidence of volunteer GR corn in subsequent cotton stands. Experiments were conducted in Mississippi in 2011 and 2012 to determine cotton response to volunteer corn present at 0.3, 1.6, or 3.2",
+  "raw_text": "Widespread use of glyphosate-resistant (GR) corn in rotation with cotton increases the incidence of volunteer GR corn in subsequent cotton stands. Experiments were conducted in Mississippi in 2011 and 2012 to determine cotton response to volunteer corn present at 0.3, 1.6, or 3.2 plants per m of crop row allowed to persist for zero, one, two, six, eight, 10 and 12 weeks after emergence or until cotton harvest. Cotton maturity was accelerated at a density of 3.2 plants per m of crop row. Neither cotton height nor yield was affected by corn removal timing at the low corn density. Cotton height and yield decreased as the time of corn removal was delayed at the medium and high corn densities. No differences in cotton height were observed from increasing corn density at removal timings up to two weeks after cotton emergence (WACE). At each corn removal timing four WACE and beyond, increasing corn density led to reductions in cotton height. No differences in cotton yield were observed from increasing density at corn removal timings zero or one WACE; increases in corn density at removal timings beyond one WACE generally led to reductions in cotton yield. These data indicate medium to high populations of volunteer corn generally should be removed by four to six WACE to prevent height reductions and yield loss.",
+  "parser_used": "parse-document",
+  "candidate_claims": [],
+  "failures": [],
+  "status": "parsed"
+}

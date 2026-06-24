@@ -1,0 +1,24 @@
+{
+  "document_id": "doc-93849aa65acb5425",
+  "canonical_url": "https://cropwatch.unl.edu/wheat/",
+  "source_url": "https://cropwatch.unl.edu/wheat/",
+  "doi": "",
+  "title": "Wheat | CropWatch | Nebraska",
+  "source_domain": "cropwatch.unl.edu",
+  "source_tier_id": "extension_publication",
+  "discovery_method": "discover_pipeline",
+  "access_status": "open_full_text",
+  "document_type": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "is_metadata_only": false,
+  "text_hash": "93849aa65acb5425e339f9b46f781304fa1542ab127ed809f83d1308ce425e53",
+  "content_hash": "c845f04a468f7e2569b2017f778d703a8eabb75abdae472c3819fc33d28ac2c5",
+  "text_length": 2034,
+  "publication_date_hint": "2023",
+  "source_metadata": {
+    "doi": "",
+    "canonical_key": "url:cropwatch.unl.edu/wheat"
+  },
+  "artifact_path": "exploration/raw/eu-wheat-protection-001/fetched/086-cropwatch.unl.edu.html",
+  "parser_version": "corpus-blocks-1"
+}
