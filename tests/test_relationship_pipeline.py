@@ -128,14 +128,20 @@ class MatrixTests(unittest.TestCase):
         self.assertEqual(cells["tomato|cotton"]["status"], "not_searched")
 
     def test_eval_against_gold(self):
-        claims = [self._claim("wheat", "soybean", "beneficial"), self._claim("corn", "soybean", "beneficial")]
+        # Gold set covers rotation (2 records) + intercrop (2 mirrored records).
+        # One symmetric intercrop claim fills both ordered intercrop cells.
+        claims = [
+            self._claim("wheat", "soybean", "beneficial"),
+            self._claim("corn", "soybean", "beneficial"),
+            self._claim("corn", "soybean", "beneficial", mode="intercrop"),
+        ]
         searched = [("wheat", "soybean"), ("corn", "soybean")]
         with tempfile.TemporaryDirectory() as t:
             tmp = Path(t); self._setup(tmp, claims, searched)
             shutil.copytree(REPO / "tests/golden/relationships", tmp / "tests/golden/relationships")
-            rp.populate_relationship_matrix(tmp, "rel-1", mode_ids=["rotation"])
+            rp.populate_relationship_matrix(tmp, "rel-1", mode_ids=["rotation", "intercrop"])
             report = rp.eval_relationships(tmp, "rel-1")
-        self.assertEqual(report["gold_records"], 2)
+        self.assertEqual(report["gold_records"], 4)
         self.assertEqual(report["metrics"]["pair_recall"], 1.0)
         self.assertEqual(report["metrics"]["effect_accuracy"], 1.0)
 

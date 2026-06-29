@@ -682,3 +682,214 @@ Still pending:
 - Relationship extraction from documents.
 - Relationship claim normalization/review/promotion.
 - Populating matrix cells from evidence and rendering farmer-facing relationship views.
+
+## 2026-06-29: Hybrid relationship evidence graph
+
+Implemented the hybrid relationship lane from `.planning/hybrid-relationship-evidence-graph-plan.md`
+and `.planning/hybrid-graph-implementation-plan.md`: a coarser evidence graph
+for minor crops and aggregate nodes layered on top of the existing dense
+crop-pair matrix, plus a request-time resolver. The dense `crop_id x crop_id`
+matrix lane is unchanged; old-style crop-only claims stay valid.
+
+Schema:
+
+- `schemas/crop-relationship-claim.schema.json`: added optional
+  `subject_node_type/id` and `object_node_type/id` (node types: crop, genus,
+  botanical_family, functional_group, host_group). Replaced the unconditional
+  crop-field requirement with `allOf` of two per-side `anyOf` blocks, so each
+  side must carry *either* crop fields *or* node type+id — aggregate (family /
+  host-group) claims validate, but an identity-less claim is still rejected.
+- `schemas/crop-relationship-query-plan.schema.json`: added top-level
+  `pair_mode` plus item-level `pair_mode`, `search_pair_key`, and
+  `candidate_ordered_pair_keys` (the query item is `additionalProperties:false`,
+  so these had to be declared).
+
+Planner (`relationships.py`):
+
+- Added `unordered_crop_pairs` (n(n+1)/2 with self-pairs) and a `pair_mode`
+  option to `build_relationship_query_plan` / `discover_relationships`.
+- Unordered planning over directional modes (e.g. rotation) renders a
+  *direction-neutral* template and carries `search_pair_key` (`mode|min|max`)
+  plus `candidate_ordered_pair_keys` (both orderings), so one neutral search can
+  feed both ordered cells without losing reverse-direction intent. Discovery
+  rows, dedup keys, and the discovery summary all thread `pair_mode`.
+
+Graph + resolver (`relationship_pipeline.py`):
+
+- `load_node_catalog` loads `config/relationships/node-catalog.json` (crop,
+  genus, botanical_family, functional_group, host_group nodes).
+- `build_relationship_graph` indexes evidence-bearing claims keyed by
+  `(relationship_mode, subject_tuple, object_tuple)` so modes never bleed into
+  each other. A normalization adapter synthesizes `("crop", crop_id)` tuples for
+  legacy crop-only claims, and a status filter keeps only `accepted` /
+  `needs_review` (never `rejected` / `conflict`). Persisted to
+  `exploration/relationships/graph/<run_id>.json`.
+- `resolve_crop_relationship(run_id, subject, object, mode="rotation")` resolves
+  aliases via the catalog, then: exact crop evidence → cross-aggregate group
+  inference (botanical_family → functional_group → genus, in relationship
+  direction; catches both same-family avoidance and cereal-after-legume) →
+  host-risk overlay for host groups shared by both crops. Unknown aliases return
+  `no_evidence` with `unknown_nodes`.
+- `relationship_parameter_span_conflicts` flags any evidence span emitted as both
+  a relationship claim and a `management.rotation_recommendation` parameter
+  claim (the cross-lane routing guard).
+
+CLI (`cli.py`):
+
+- Added `--pair-mode {ordered,unordered}` to the existing
+  `plan-relationship-queries` and `discover-relationships` (not duplicated).
+- Added `build-relationship-graph <run_id>` and `resolve-crop-relationship
+  <run_id> --subject <crop_or_alias> --object <crop_or_alias> [--mode rotation]`.
+
+Tests (`tests/test_hybrid_relationship_graph.py`, 11 tests):
+
+- Node catalog validity; crop claims valid with and without node fields; ordered
+  matrix population from unordered search context; unordered pair counts
+  (7→28, 25→325, 120→7260); host-risk caveat overlay on direct evidence; family
+  inference; cross-group functional-group inference (cereal-after-legume) and
+  family-over-functional-group priority; unknown-pair `no_evidence`; rejected
+  claims excluded from the resolver; cross-lane span-conflict detection.
+
+Still pending (unchanged manual gates):
+
+- Live relationship fetch + in-session Opus extraction, review, and human
+  acceptance.
+- Directional-evidence assignment from neutral unordered sources is exercised by
+  counts only; add an extraction-level test when the Opus extraction lane lands.
+- Per-mode resolver output (resolve across all nine vocabulary modes at once).
+
+## 2026-06-29: Aggregate relationship discovery (production side)
+
+Implemented `.planning/aggregate-relationship-discovery-plan.md`. The hybrid
+graph could *consume* aggregate (family/functional-group/host-group) evidence
+but the live pipeline only ever *searched crop pairs*, so the inference lane was
+structurally unfeedable — proven by a live run whose graph held a real
+`rotation|corn|soybean` direct claim but an empty aggregate index. This adds the
+missing production side: group-level discovery that can actually surface and
+extract aggregate evidence.
+
+Schema:
+
+- `crop-relationship-query-plan.schema.json`: added top-level `node_mode` and,
+  on `query_item`, optional node fields + `subject_search_label`/
+  `object_search_label`, with per-side `anyOf` (crop fields OR node type+id) so
+  node-only aggregate items validate.
+- `crop-relationship-vocabulary.schema.json`: added optional
+  `aggregate_query_templates` per mode.
+- `raw-capture.schema.json`: added node fields so aggregate identity survives
+  into fetch captures.
+
+Vocabulary:
+
+- Added `aggregate_query_templates` (group-level `{subject_group}`/
+  `{object_group}` placeholders) to rotation, continuous_cropping, intercrop,
+  companion_crop, and cover_crop, including a host-risk template.
+
+Planner / discovery (`relationships.py`):
+
+- `AggregateNode` + `load_aggregate_nodes` (family/functional-group/host-group),
+  `aggregate_node_pairs` (host groups pair only with themselves), node-aware
+  canonical/search keys, and group-template rendering.
+- `build_relationship_query_plan` / `discover_relationships` gained
+  `node_mode="crop"|"aggregate"`. Aggregate runs default to principle-bearing
+  tiers (textbook/institution/extension) and emit node identity +
+  mode-agnostic `subject_search_label`/`object_search_label` on every item/row.
+- Plumbing cautions fixed: the connector call now uses the mode-agnostic search
+  label (not `subject_crop_label`), and crop-id readers were made `.get()`-safe.
+
+Fetch queue (`relationship_pipeline.py`):
+
+- `select_relationship_fetch` no longer assumes crop ids; it reads them via
+  `.get()` and carries `subject_node_type/id` + `object_node_type/id` +
+  `node_mode` onto candidate and queue rows. Captures and corpus
+  `relationship_hits` carry the node fields too.
+
+Prompt:
+
+- `prompts/relationships/extract-opus.md` gained an explicit level-of-evidence
+  rule: crop-specific sentence → direct crop claim; group-level sentence →
+  aggregate claim; never generalize or narrow; extract both from one document
+  when both are genuinely present.
+
+CLI:
+
+- `--node-mode {crop,aggregate}` added to `plan-relationship-queries` and
+  `discover-relationships` (threaded through summaries and saved plans).
+
+Tests (`tests/test_relationship_aggregate_discovery.py`, 5 tests):
+
+- Aggregate pair counts (ordered 74 / unordered 44); group-term rendering with
+  no crop id; crop-mode items still carry crop labels; **fetch-queue survival**
+  (aggregate ledger with no crop ids selects without `KeyError`, node ids
+  retained); and end-to-end production→consumption (a `cereal ← legume`
+  functional-group claim makes `resolve("wheat","soybean")` return
+  `inferred_from_group` / `functional_group`).
+
+Verified live: `discover-relationships --node-mode aggregate` ran real
+group-level searches (rows carry `botanical_family`/`functional_group` identity,
+no crop ids), and `select-relationship-fetch` queued them without error. The full
+suite is 153 tests, green.
+
+Still pending (unchanged manual gates):
+
+- Live aggregate fetch + in-session Opus extraction of aggregate claims, then
+  human acceptance.
+- Genus-level aggregate queries; rolling up direct crop claims into aggregate
+  summaries (inference-over-evidence, separate provenance rules).
+
+## 2026-06-29: Intercropping / symmetric relationship capture
+
+Implemented `.planning/intercropping-relationship-plan.md`. Intercropping had a
+labeled drawer (vocabulary modes + matrix cells) but no contents, plus two
+correctness gaps that would make symmetric evidence unreliable even once filled.
+`intercrop`, `strip_crop`, `mixed_crop`, and `companion_crop` are symmetric;
+`relay_crop` is directional and is **not** mirrored.
+
+Two gaps closed:
+
+- **Gap A (graph/resolver used a directed key):** an `intercrop corn|soybean`
+  claim was invisible to `resolve("soybean","corn")`.
+- **Gap B (matrix trusted the claim's key string):** a reverse-emitted
+  `intercrop|soybean|corn` missed both sorted matrix cells.
+
+Both are fixed in code, not just the prompt:
+
+- `relationships.py`: `canonicalize_endpoints(directionality, a, b)` (sorted for
+  symmetric) + `mode_directionality_map`.
+- `relationship_pipeline.py`: `normalize_symmetric_claims` runs inside
+  `validate_relationship_claims`, so both matrix population and the graph read
+  claims with canonical (sorted) endpoints regardless of extractor output. The
+  graph persists a `mode_directionality` map; `resolve_crop_relationship` sorts
+  symmetric `(subject,object)` (direct and aggregate) before lookup. Directional
+  modes are untouched.
+
+Other changes:
+
+- `--pair-mode auto` (new default on both relationship CLI commands) resolves to
+  `unordered` when every selected mode is symmetric, else `ordered`.
+- Added `aggregate_query_templates` to `strip_crop` and `mixed_crop` so the whole
+  symmetric family supports `--node-mode aggregate` (it previously covered only
+  `intercrop`/`companion_crop`).
+- `prompts/relationships/extract-opus.md`: intercrop section — subtypes,
+  single-`effect` decision rule (e.g. `beneficial` for measured LER > 1,
+  `compatible` for non-quantified), context fields (arrangement/row_ratio/
+  density), and the explicit-crop-pair routing rule.
+- `relationship_parameter_span_conflicts` now accepts a single id or a set of
+  parameter ids (forward-looking for an intercropping parameter; none exists in
+  the manifest today).
+- Added `tests/golden/relationships/intercrop.json` (both ordered cells) so
+  `eval_relationships` scores the intercrop lane; updated the existing eval test
+  to populate both modes (4 gold records, full recall).
+
+Tests (`tests/test_relationship_intercrop.py`, 7 tests): symmetric resolve both
+orderings (direct + aggregate); rotation and relay_crop NOT mirrored; **matrix
+mirroring from a reverse-keyed claim** (Gap B guard); `--pair-mode auto`
+resolution; span-guard with a supplied parameter id. Full suite 160 tests, green;
+intercrop discovery live-smoked (auto → unordered, symmetric rows).
+
+Still pending (unchanged manual gates):
+
+- Live intercrop fetch + in-session Opus extraction of intercrop claims, then
+  human acceptance.
+- Deeper relay/strip/mixed extraction nuance; quantitative LER synthesis across
+  sources.

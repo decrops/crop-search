@@ -39,6 +39,20 @@
           "subtype": "continuous_cropping_risk",
           "template": "{subject_crop} continuous {subject_crop} management"
         }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_previous_crop_effect",
+          "template": "{subject_group} after {object_group} rotation nitrogen disease break"
+        },
+        {
+          "subtype": "group_nutrient_interaction",
+          "template": "{subject_group} crops following {object_group} crops residual nitrogen credit"
+        },
+        {
+          "subtype": "host_risk",
+          "template": "{subject_group} {object_group} shared host disease carryover rotation risk"
+        }
       ]
     },
     {
@@ -63,6 +77,12 @@
         {
           "subtype": "minimum_rotation_interval",
           "template": "{subject_crop} monoculture rotation interval"
+        }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_continuous_cropping_risk",
+          "template": "{subject_group} {object_group} same crop group continuous cropping disease"
         }
       ]
     },
@@ -98,6 +118,12 @@
           "subtype": "row_arrangement",
           "template": "{subject_crop} {object_crop} row ratio intercrop"
         }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_intercrop_compatibility",
+          "template": "{subject_group} {object_group} intercropping compatibility crop groups"
+        }
       ]
     },
     {
@@ -128,6 +154,12 @@
           "subtype": "pair_yield_effect",
           "template": "{subject_crop} {object_crop} strip intercropping yield"
         }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_strip_crop_arrangement",
+          "template": "{subject_group} {object_group} strip cropping crop groups yield"
+        }
       ]
     },
     {
@@ -142,6 +174,12 @@
         {
           "subtype": "plant_density_adjustment",
           "template": "{subject_crop} {object_crop} crop mixture seeding rate"
+        }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_mixed_crop_compatibility",
+          "template": "{subject_group} {object_group} mixed cropping crop groups compatibility"
         }
       ]
     },
@@ -158,6 +196,12 @@
           "subtype": "companion_crop_recommendation",
           "template": "{subject_crop} {object_crop} companion crop compatibility"
         }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_companion_crop_recommendation",
+          "template": "{subject_group} {object_group} companion planting crop groups"
+        }
       ]
     },
     {
@@ -172,6 +216,12 @@
         {
           "subtype": "cover_crop_termination",
           "template": "{subject_crop} {object_crop} cover crop termination timing"
+        }
+      ],
+      "aggregate_query_templates": [
+        {
+          "subtype": "group_cover_crop_compatibility",
+          "template": "{subject_group} cover crop before {object_group} crops nitrogen contribution"
         }
       ]
     }

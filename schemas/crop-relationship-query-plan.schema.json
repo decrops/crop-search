@@ -43,6 +43,14 @@
       "type": "integer",
       "minimum": 1
     },
+    "node_mode": {
+      "type": "string",
+      "enum": ["crop", "aggregate"]
+    },
+    "pair_mode": {
+      "type": "string",
+      "enum": ["ordered", "unordered"]
+    },
     "planned_pair_count": {
       "type": "integer",
       "minimum": 1
@@ -85,10 +93,6 @@
       "required": [
         "query_kind",
         "query",
-        "subject_crop_id",
-        "object_crop_id",
-        "subject_crop_label",
-        "object_crop_label",
         "relationship_mode",
         "relationship_subtype",
         "directionality",
@@ -96,6 +100,20 @@
         "canonical_relationship_key",
         "source_tier_id",
         "source_tier_label"
+      ],
+      "allOf": [
+        {
+          "anyOf": [
+            { "required": ["subject_crop_id", "subject_crop_label"] },
+            { "required": ["subject_node_type", "subject_node_id"] }
+          ]
+        },
+        {
+          "anyOf": [
+            { "required": ["object_crop_id", "object_crop_label"] },
+            { "required": ["object_node_type", "object_node_id"] }
+          ]
+        }
       ],
       "properties": {
         "query_kind": {
@@ -105,6 +123,10 @@
         "query": {
           "type": "string",
           "minLength": 3
+        },
+        "node_mode": {
+          "type": "string",
+          "enum": ["crop", "aggregate"]
         },
         "subject_crop_id": {
           "type": "string"
@@ -116,6 +138,26 @@
           "type": "string"
         },
         "object_crop_label": {
+          "type": "string"
+        },
+        "subject_node_type": {
+          "type": "string",
+          "enum": ["crop", "genus", "botanical_family", "functional_group", "host_group"]
+        },
+        "subject_node_id": {
+          "type": "string"
+        },
+        "object_node_type": {
+          "type": "string",
+          "enum": ["crop", "genus", "botanical_family", "functional_group", "host_group"]
+        },
+        "object_node_id": {
+          "type": "string"
+        },
+        "subject_search_label": {
+          "type": "string"
+        },
+        "object_search_label": {
           "type": "string"
         },
         "relationship_mode": {
@@ -139,6 +181,20 @@
         },
         "source_tier_label": {
           "type": "string"
+        },
+        "pair_mode": {
+          "type": "string",
+          "enum": ["ordered", "unordered"]
+        },
+        "search_pair_key": {
+          "type": "string"
+        },
+        "candidate_ordered_pair_keys": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
         }
       }
     }

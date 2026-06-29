@@ -1,0 +1,278 @@
+{
+  "version": "0.1.0",
+  "description": "Hybrid relationship node catalog. Major crop nodes mirror the current crop profiles; aggregate nodes support minor-crop inference tests without changing crop profiles.",
+  "nodes": [
+    {
+      "node_id": "corn",
+      "node_type": "crop",
+      "label": "Corn",
+      "matrix_tier": "major_direct",
+      "aliases": ["corn", "maize", "field corn"],
+      "crop_group": "cereal",
+      "botanical_family": "poaceae",
+      "genus": "zea",
+      "scientific_names": ["Zea mays"],
+      "functional_groups": ["cereal"],
+      "host_groups": []
+    },
+    {
+      "node_id": "cotton",
+      "node_type": "crop",
+      "label": "Cotton",
+      "matrix_tier": "major_direct",
+      "aliases": ["cotton", "upland cotton"],
+      "crop_group": "fiber",
+      "botanical_family": "malvaceae",
+      "genus": "gossypium",
+      "scientific_names": ["Gossypium hirsutum"],
+      "functional_groups": ["fiber"],
+      "host_groups": []
+    },
+    {
+      "node_id": "rice",
+      "node_type": "crop",
+      "label": "Rice",
+      "matrix_tier": "major_direct",
+      "aliases": ["rice", "paddy rice"],
+      "crop_group": "cereal",
+      "botanical_family": "poaceae",
+      "genus": "oryza",
+      "scientific_names": ["Oryza sativa"],
+      "functional_groups": ["cereal"],
+      "host_groups": []
+    },
+    {
+      "node_id": "soybean",
+      "node_type": "crop",
+      "label": "Soybean",
+      "matrix_tier": "major_direct",
+      "aliases": ["soybean", "soybeans", "soya bean"],
+      "crop_group": "legume",
+      "botanical_family": "fabaceae",
+      "genus": "glycine",
+      "scientific_names": ["Glycine max"],
+      "functional_groups": ["legume"],
+      "host_groups": []
+    },
+    {
+      "node_id": "sunflower",
+      "node_type": "crop",
+      "label": "Sunflower",
+      "matrix_tier": "major_direct",
+      "aliases": ["sunflower", "oilseed sunflower", "confection sunflower"],
+      "crop_group": "oilseed",
+      "botanical_family": "asteraceae",
+      "genus": "helianthus",
+      "scientific_names": ["Helianthus annuus"],
+      "functional_groups": ["oilseed"],
+      "host_groups": []
+    },
+    {
+      "node_id": "tomato",
+      "node_type": "crop",
+      "label": "Tomato",
+      "matrix_tier": "major_direct",
+      "aliases": ["tomato", "tomatoes", "processing tomato", "fresh market tomato"],
+      "crop_group": "vegetable",
+      "botanical_family": "solanaceae",
+      "genus": "solanum",
+      "scientific_names": ["Solanum lycopersicum"],
+      "functional_groups": ["fruiting_vegetable"],
+      "host_groups": ["solanaceae_host"]
+    },
+    {
+      "node_id": "wheat",
+      "node_type": "crop",
+      "label": "Wheat",
+      "matrix_tier": "major_direct",
+      "aliases": ["wheat", "winter wheat", "spring wheat"],
+      "crop_group": "cereal",
+      "botanical_family": "poaceae",
+      "genus": "triticum",
+      "scientific_names": ["Triticum aestivum"],
+      "functional_groups": ["cereal"],
+      "host_groups": []
+    },
+    {
+      "node_id": "pak_choi",
+      "node_type": "crop",
+      "label": "Pak choi",
+      "matrix_tier": "minor_aggregated",
+      "aliases": ["pak choi", "bok choy", "pakchoi"],
+      "crop_group": "vegetable",
+      "botanical_family": "brassicaceae",
+      "genus": "brassica",
+      "scientific_names": ["Brassica rapa subsp. chinensis"],
+      "functional_groups": ["leafy_brassica"],
+      "host_groups": ["clubroot_host"]
+    },
+    {
+      "node_id": "cabbage",
+      "node_type": "crop",
+      "label": "Cabbage",
+      "matrix_tier": "minor_aggregated",
+      "aliases": ["cabbage", "head cabbage"],
+      "crop_group": "vegetable",
+      "botanical_family": "brassicaceae",
+      "genus": "brassica",
+      "scientific_names": ["Brassica oleracea var. capitata"],
+      "functional_groups": ["leafy_brassica"],
+      "host_groups": ["clubroot_host"]
+    },
+    {
+      "node_id": "zea",
+      "node_type": "genus",
+      "label": "Zea",
+      "matrix_tier": "group_only",
+      "aliases": ["zea"]
+    },
+    {
+      "node_id": "gossypium",
+      "node_type": "genus",
+      "label": "Gossypium",
+      "matrix_tier": "group_only",
+      "aliases": ["gossypium"]
+    },
+    {
+      "node_id": "oryza",
+      "node_type": "genus",
+      "label": "Oryza",
+      "matrix_tier": "group_only",
+      "aliases": ["oryza"]
+    },
+    {
+      "node_id": "glycine",
+      "node_type": "genus",
+      "label": "Glycine",
+      "matrix_tier": "group_only",
+      "aliases": ["glycine"]
+    },
+    {
+      "node_id": "helianthus",
+      "node_type": "genus",
+      "label": "Helianthus",
+      "matrix_tier": "group_only",
+      "aliases": ["helianthus"]
+    },
+    {
+      "node_id": "solanum",
+      "node_type": "genus",
+      "label": "Solanum",
+      "matrix_tier": "group_only",
+      "aliases": ["solanum"]
+    },
+    {
+      "node_id": "triticum",
+      "node_type": "genus",
+      "label": "Triticum",
+      "matrix_tier": "group_only",
+      "aliases": ["triticum"]
+    },
+    {
+      "node_id": "brassica",
+      "node_type": "genus",
+      "label": "Brassica",
+      "matrix_tier": "group_only",
+      "aliases": ["brassica"]
+    },
+    {
+      "node_id": "poaceae",
+      "node_type": "botanical_family",
+      "label": "Poaceae",
+      "matrix_tier": "group_only",
+      "aliases": ["poaceae", "grass family", "grasses"]
+    },
+    {
+      "node_id": "fabaceae",
+      "node_type": "botanical_family",
+      "label": "Fabaceae",
+      "matrix_tier": "group_only",
+      "aliases": ["fabaceae", "legume family", "legumes"]
+    },
+    {
+      "node_id": "asteraceae",
+      "node_type": "botanical_family",
+      "label": "Asteraceae",
+      "matrix_tier": "group_only",
+      "aliases": ["asteraceae", "sunflower family"]
+    },
+    {
+      "node_id": "malvaceae",
+      "node_type": "botanical_family",
+      "label": "Malvaceae",
+      "matrix_tier": "group_only",
+      "aliases": ["malvaceae", "mallow family"]
+    },
+    {
+      "node_id": "solanaceae",
+      "node_type": "botanical_family",
+      "label": "Solanaceae",
+      "matrix_tier": "group_only",
+      "aliases": ["solanaceae", "nightshade family"]
+    },
+    {
+      "node_id": "brassicaceae",
+      "node_type": "botanical_family",
+      "label": "Brassicaceae",
+      "matrix_tier": "group_only",
+      "aliases": ["brassicaceae", "brassica family", "crucifers"]
+    },
+    {
+      "node_id": "cereal",
+      "node_type": "functional_group",
+      "label": "Cereals",
+      "matrix_tier": "group_only",
+      "aliases": ["cereal", "cereals", "grain crops"]
+    },
+    {
+      "node_id": "legume",
+      "node_type": "functional_group",
+      "label": "Legumes",
+      "matrix_tier": "group_only",
+      "aliases": ["legume", "legumes", "pulse crops"]
+    },
+    {
+      "node_id": "oilseed",
+      "node_type": "functional_group",
+      "label": "Oilseeds",
+      "matrix_tier": "group_only",
+      "aliases": ["oilseed", "oilseeds"]
+    },
+    {
+      "node_id": "fiber",
+      "node_type": "functional_group",
+      "label": "Fiber crops",
+      "matrix_tier": "group_only",
+      "aliases": ["fiber", "fiber crops"]
+    },
+    {
+      "node_id": "fruiting_vegetable",
+      "node_type": "functional_group",
+      "label": "Fruiting vegetables",
+      "matrix_tier": "group_only",
+      "aliases": ["fruiting vegetable", "fruiting vegetables"]
+    },
+    {
+      "node_id": "leafy_brassica",
+      "node_type": "functional_group",
+      "label": "Leafy brassicas",
+      "matrix_tier": "group_only",
+      "aliases": ["leafy brassica", "leafy brassicas", "brassica greens"]
+    },
+    {
+      "node_id": "clubroot_host",
+      "node_type": "host_group",
+      "label": "Clubroot host crops",
+      "matrix_tier": "group_only",
+      "aliases": ["clubroot host", "clubroot susceptible brassicas"],
+      "rationale": "Used as a host-risk overlay for Brassicaceae rotation caveats."
+    },
+    {
+      "node_id": "solanaceae_host",
+      "node_type": "host_group",
+      "label": "Solanaceae host crops",
+      "matrix_tier": "group_only",
+      "aliases": ["solanaceae host", "nightshade disease host"]
+    }
+  ]
+}

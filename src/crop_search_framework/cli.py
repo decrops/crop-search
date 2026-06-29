@@ -35,9 +35,11 @@ from .relationships import (
 )
 from .relationship_pipeline import (
     build_relationship_corpus,
+    build_relationship_graph,
     eval_relationships,
     fetch_relationships,
     populate_relationship_matrix,
+    resolve_crop_relationship,
     select_relationship_fetch,
     validate_relationship_claims,
 )
@@ -194,6 +196,8 @@ def plan_relationship_queries_command(args: argparse.Namespace) -> int:
         "max_pairs": args.max_pairs,
         "region_name": args.region,
         "include_self_pairs": not args.exclude_self_pairs,
+        "pair_mode": args.pair_mode,
+        "node_mode": args.node_mode,
     }
     if args.output:
         summary = write_relationship_query_plan(repo_root(), resolve_path(args.output), **kwargs)
@@ -221,8 +225,32 @@ def discover_relationships_command(args: argparse.Namespace) -> int:
         region_name=args.region,
         include_self_pairs=not args.exclude_self_pairs,
         limit_queries=args.limit_queries,
+        pair_mode=args.pair_mode,
+        node_mode=args.node_mode,
     )
     print(json.dumps(summary, indent=2))
+    return 0
+
+
+def build_relationship_graph_command(args: argparse.Namespace) -> int:
+    graph = build_relationship_graph(repo_root(), args.run_id)
+    summary = {
+        "run_id": graph["run_id"],
+        "generated_at": graph["generated_at"],
+        "claim_count": graph["claim_count"],
+        "direct_keys": len(graph["direct"]),
+        "aggregate_keys": len(graph["aggregate"]),
+        "host_overlay_keys": len(graph["host_overlays"]),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def resolve_crop_relationship_command(args: argparse.Namespace) -> int:
+    resolved = resolve_crop_relationship(
+        repo_root(), args.run_id, args.subject, args.object, mode=args.mode,
+    )
+    print(json.dumps(resolved, indent=2))
     return 0
 
 
@@ -615,6 +643,21 @@ def parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Omit same-crop queries; default keeps them for continuous cropping.",
     )
+    relationship_queries.add_argument(
+        "--pair-mode",
+        choices=["auto", "ordered", "unordered"],
+        default="auto",
+        help="'auto' (default) plans unordered when every selected mode is "
+             "symmetric, else ordered; 'ordered' plans n*n directed cells; "
+             "'unordered' plans n(n+1)/2 neutral pair searches.",
+    )
+    relationship_queries.add_argument(
+        "--node-mode",
+        choices=["crop", "aggregate"],
+        default="crop",
+        help="'crop' plans crop-pair queries; 'aggregate' plans group-level "
+             "(family/functional-group/host-group) queries from the node catalog.",
+    )
     relationship_queries.set_defaults(func=plan_relationship_queries_command)
 
     relationship_discover = subparsers.add_parser(
@@ -694,7 +737,44 @@ def parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Omit same-crop queries; default keeps them for continuous cropping.",
     )
+    relationship_discover.add_argument(
+        "--pair-mode",
+        choices=["auto", "ordered", "unordered"],
+        default="auto",
+        help="'auto' (default) searches unordered when every selected mode is "
+             "symmetric, else ordered; 'ordered' searches n*n directed cells; "
+             "'unordered' searches n(n+1)/2 neutral pairs.",
+    )
+    relationship_discover.add_argument(
+        "--node-mode",
+        choices=["crop", "aggregate"],
+        default="crop",
+        help="'crop' searches crop pairs; 'aggregate' searches group-level "
+             "(family/functional-group/host-group) pairs and defaults to "
+             "textbook/institution/extension tiers.",
+    )
     relationship_discover.set_defaults(func=discover_relationships_command)
+
+    relationship_graph = subparsers.add_parser(
+        "build-relationship-graph",
+        help="Build the hybrid relationship evidence graph from validated claims",
+    )
+    relationship_graph.add_argument("run_id", help="Relationship claims run identifier")
+    relationship_graph.set_defaults(func=build_relationship_graph_command)
+
+    resolve_relationship = subparsers.add_parser(
+        "resolve-crop-relationship",
+        help="Resolve a crop pair from exact, group, and host-risk evidence",
+    )
+    resolve_relationship.add_argument("run_id", help="Relationship graph run identifier")
+    resolve_relationship.add_argument("--subject", required=True, help="Subject crop or alias")
+    resolve_relationship.add_argument("--object", required=True, help="Object crop or alias")
+    resolve_relationship.add_argument(
+        "--mode",
+        default="rotation",
+        help="Relationship mode to resolve; defaults to rotation.",
+    )
+    resolve_relationship.set_defaults(func=resolve_crop_relationship_command)
 
     rel_select = subparsers.add_parser(
         "select-relationship-fetch",

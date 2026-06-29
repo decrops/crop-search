@@ -151,12 +151,19 @@ class CapabilityMapWriter:
             capability(
                 "Crop relationship matrix",
                 "configured",
-                "Generates a dense `crop_id x crop_id` relationship matrix skeleton, source-tier-aware relationship query plans, and opt-in relationship discovery ledgers; the current {0}-crop universe produces {1} ordered cells and preserves symmetric evidence with canonical relationship keys.".format(
+                "Generates a dense `crop_id x crop_id` relationship matrix skeleton, source-tier-aware relationship query plans, and opt-in relationship discovery ledgers; the current {0}-crop universe produces {1} ordered cells and preserves symmetric evidence with canonical relationship keys. Matrix cells are populated from validated relationship claims.".format(
                     relationship_matrix["crop_count"],
                     relationship_matrix["cell_count"],
                 ),
-                "Relationship fetch execution, relationship extraction, review, promotion, and matrix population from evidence are not implemented yet.",
+                "Live relationship fetch execution, in-session Opus extraction, review, and human acceptance remain manual gates.",
                 "`src/crop_search_framework/relationships.py`, `config/relationships/relationship-vocabulary.json`, `schemas/crop-relationship-*.schema.json`",
+            ),
+            capability(
+                "Hybrid relationship evidence graph",
+                "configured",
+                "Layers a request-time evidence graph over the dense matrix for minor crops and aggregate nodes: `--pair-mode auto` plans unordered for symmetric modes / ordered otherwise (override with ordered|unordered); `--node-mode aggregate` plans group-level (family/functional-group/host-group) searches from the node catalog, steered to textbook/institution/extension tiers, so aggregate evidence can actually be discovered and extracted (not just consumed); symmetric modes (intercrop/strip_crop/mixed_crop/companion_crop) are canonicalized on load so one claim mirrors both ordered cells and resolves either ordering, while directional modes (rotation/relay_crop/…) stay one-directional; `build-relationship-graph` indexes evidence-bearing claims by (mode, subject_node, object_node); `resolve-crop-relationship` answers a pair from exact crop evidence, then cross-group inference (family > functional_group > genus, in direction), with host-risk caveat overlays. A routing guard blocks the same span from both the relationship and management-parameter lanes.",
+                "Directional-evidence assignment from neutral unordered sources is exercised by counts only until the Opus extraction lane lands; the resolver answers one mode per call (no per-mode aggregation yet); genus-level aggregate queries and quantitative LER synthesis are out of scope.",
+                "`src/crop_search_framework/relationships.py`, `src/crop_search_framework/relationship_pipeline.py`, `config/relationships/node-catalog.json`, `config/relationships/relationship-vocabulary.json`",
             ),
             capability(
                 "Global tier-aware query planning",

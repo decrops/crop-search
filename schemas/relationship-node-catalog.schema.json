@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crop-search.local/schemas/relationship-node-catalog.schema.json",
+  "title": "RelationshipNodeCatalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "nodes"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node_id", "node_type", "label", "matrix_tier", "aliases"],
+      "properties": {
+        "node_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_\\-]+$"
+        },
+        "node_type": {
+          "type": "string",
+          "enum": ["crop", "genus", "botanical_family", "functional_group", "host_group"]
+        },
+        "label": {
+          "type": "string"
+        },
+        "matrix_tier": {
+          "type": "string",
+          "enum": ["major_direct", "minor_aggregated", "perennial_or_nursery", "group_only"]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "crop_group": {
+          "type": "string"
+        },
+        "botanical_family": {
+          "type": "string"
+        },
+        "genus": {
+          "type": "string"
+        },
+        "scientific_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "functional_groups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "host_groups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "production_systems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source": {
+          "type": "string"
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "intercrop",
+  "records": [
+    {"ordered_pair_key": "corn|soybean", "subject_crop_id": "corn", "object_crop_id": "soybean", "expected_effect": "beneficial", "rationale": "Maize-soybean intercropping commonly reports a land-equivalent ratio above 1."},
+    {"ordered_pair_key": "soybean|corn", "subject_crop_id": "soybean", "object_crop_id": "corn", "expected_effect": "beneficial", "rationale": "Intercropping is symmetric: the soybean|corn cell must mirror the corn|soybean evidence."}
+  ]
+}

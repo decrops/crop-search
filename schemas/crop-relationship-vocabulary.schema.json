@@ -49,6 +49,12 @@
             "items": {
               "$ref": "#/$defs/query_template"
             }
+          },
+          "aggregate_query_templates": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/query_template"
+            }
           }
         }
       }

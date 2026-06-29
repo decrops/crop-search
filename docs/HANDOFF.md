@@ -1,6 +1,6 @@
 # Project Handoff
 
-Generated at: `2026-06-24T12:15:44Z`
+Generated at: `2026-06-29T14:26:38Z`
 
 This is the canonical start-here file for future sessions. Read this first, then use the referenced files only as needed.
 
@@ -18,7 +18,7 @@ Build a provenance-aware crop search runner that discovers crop physiological pa
 - U.S. state/county geocoding uses 2025 Census Gazetteer records; named production regions remain explicit custom approximate records.
 - Existing U.S. pilot artifacts are retained as fixture-like evidence for parser, normalization, review, promotion, coverage, geolocation, and SQL export behavior.
 - `pilot-global-wheat-001` has been run end to end: 425 live queries, 825 captured sources, 4386 candidate claims, 3622 normalized claims, 19 promoted claims, and SQL export generated.
-- Existing `pilot-global-wheat-001` artifacts match the current comprehensive wheat config: 425 planned queries and 425 executed queries.
+- Existing `pilot-global-wheat-001` artifacts do not match the current wheat config: 490 planned queries and 425 executed queries.
 - The global wheat tier metrics moved beyond extension-heavy evidence by normalized-claim count: textbook/reference 819, international institutions 1091, industry/grower 538, extension 1015, peer-reviewed 159.
 - Peer-reviewed discovery is still metadata-heavy: 255 peer-reviewed captures produced 159 normalized claims, so scholarly full-text retrieval and query precision remain the main evidence gap.
 
@@ -51,11 +51,11 @@ PYTHONPATH=src python3 -m crop_search_framework.cli write-handoff
 
 | Run config | Run ID | Query count | Notes |
 | --- | --- | ---: | --- |
-| `config/runs/pilot-global-rice.json` | `pilot-global-rice-001` | 425 | global scope, source-tier policy, no seed fallback |
-| `config/runs/pilot-global-sunflower.json` | `pilot-global-sunflower-001` | 390 | global scope, source-tier policy, no seed fallback |
-| `config/runs/pilot-global-tomato.json` | `pilot-global-tomato-001` | 355 | global scope, source-tier policy, no seed fallback |
-| `config/runs/pilot-global-wheat-002.json` | `pilot-global-wheat-002` | 425 | global scope, source-tier policy, executed live |
-| `config/runs/pilot-global-wheat.json` | `pilot-global-wheat-001` | 425 | global scope, source-tier policy, executed live |
+| `config/runs/pilot-global-rice.json` | `pilot-global-rice-001` | 490 | global scope, source-tier policy, no seed fallback |
+| `config/runs/pilot-global-sunflower.json` | `pilot-global-sunflower-001` | 455 | global scope, source-tier policy, no seed fallback |
+| `config/runs/pilot-global-tomato.json` | `pilot-global-tomato-001` | 420 | global scope, source-tier policy, no seed fallback |
+| `config/runs/pilot-global-wheat-002.json` | `pilot-global-wheat-002` | 490 | global scope, source-tier policy, executed live |
+| `config/runs/pilot-global-wheat.json` | `pilot-global-wheat-001` | 490 | global scope, source-tier policy, executed live |
 
 ## Existing Artifact Snapshot
 
@@ -105,7 +105,7 @@ PYTHONPATH=src python3 -m crop_search_framework.cli write-capability-map
 PYTHONPATH=src python3 -m crop_search_framework.cli write-handoff
 ```
 
-Last implementation-log section detected: `2026-06-24: Crop relationship matrix foundation`.
+Last implementation-log section detected: `2026-06-29: Intercropping / symmetric relationship capture`.
 
 ## Automatic Session Rule
 

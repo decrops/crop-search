@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import hashlib
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,19 @@ from .source_tiers import selected_source_tiers
 DEFAULT_VOCABULARY_PATH = "config/relationships/relationship-vocabulary.json"
 DEFAULT_CROP_DIR = "config/crops"
 DEFAULT_SOURCE_TIER_POLICY_PATH = "config/source-tiers/default.json"
+DEFAULT_NODE_CATALOG_PATH = "config/relationships/node-catalog.json"
+
+# Aggregate node types the aggregate planner generates group-level queries for,
+# in priority order. Genus is intentionally out of scope for now.
+DEFAULT_AGGREGATE_NODE_TYPES = ("botanical_family", "functional_group", "host_group")
+
+# Aggregate discovery defaults to principle-bearing tiers; crop-specific primary
+# research (peer_reviewed_science) rarely states group-level generalizations.
+DEFAULT_AGGREGATE_SOURCE_TIER_IDS = (
+    "textbook_reference",
+    "international_institution",
+    "extension_publication",
+)
 GATED_PROVIDERS = {"internet_archive", "wikipedia", "duckduckgo_html"}
 
 
@@ -50,6 +64,20 @@ class CropNode:
 
 
 @dataclass(frozen=True)
+class AggregateNode:
+    """A non-crop relationship node (family / functional group / host group)
+    used to plan group-level relationship searches."""
+    node_id: str
+    node_type: str
+    label: str
+    aliases: Tuple[str, ...]
+
+    @property
+    def search_term(self) -> str:
+        return self.aliases[0] if self.aliases else self.label
+
+
+@dataclass(frozen=True)
 class RelationshipQueryPlanItem:
     query: str
     subject_crop_id: str
@@ -63,9 +91,19 @@ class RelationshipQueryPlanItem:
     canonical_relationship_key: str
     source_tier_id: str
     source_tier_label: str
+    pair_mode: str = "ordered"
+    search_pair_key: str = ""
+    candidate_ordered_pair_keys: Tuple[str, ...] = ()
+    node_mode: str = "crop"
+    subject_node_type: str = ""
+    subject_node_id: str = ""
+    object_node_type: str = ""
+    object_node_id: str = ""
+    subject_search_label: str = ""
+    object_search_label: str = ""
 
     def to_json(self) -> Dict[str, Any]:
-        return {
+        payload = {
             "query_kind": "crop_relationship",
             "query": self.query,
             "subject_crop_id": self.subject_crop_id,
@@ -79,7 +117,18 @@ class RelationshipQueryPlanItem:
             "canonical_relationship_key": self.canonical_relationship_key,
             "source_tier_id": self.source_tier_id,
             "source_tier_label": self.source_tier_label,
+            "pair_mode": self.pair_mode,
+            "search_pair_key": self.search_pair_key,
+            "candidate_ordered_pair_keys": list(self.candidate_ordered_pair_keys),
+            "node_mode": self.node_mode,
+            "subject_node_type": self.subject_node_type,
+            "subject_node_id": self.subject_node_id,
+            "object_node_type": self.object_node_type,
+            "object_node_id": self.object_node_id,
+            "subject_search_label": self.subject_search_label,
+            "object_search_label": self.object_search_label,
         }
+        return payload
 
 
 def resolve_repo_path(repo_root: Path, path_value: str) -> Path:
@@ -176,6 +225,22 @@ def canonical_relationship_key(mode: Dict[str, Any], subject_crop_id: str, objec
     return "{0}|{1}|{2}".format(mode["mode_id"], subject_crop_id, object_crop_id)
 
 
+def canonicalize_endpoints(directionality: str, subject: str, object: str) -> Tuple[str, str]:
+    """Return the canonical endpoint order for a relationship pair: sorted for
+    symmetric modes (subject/object are interchangeable), as-is for directional
+    modes. Used to make matrix population and graph lookup order-independent for
+    symmetric modes regardless of which order an extractor emitted."""
+    if directionality == "symmetric":
+        left, right = sorted([subject, object])
+        return left, right
+    return subject, object
+
+
+def mode_directionality_map(vocabulary: Dict[str, Any]) -> Dict[str, str]:
+    """mode_id -> directionality, from the relationship vocabulary."""
+    return {mode["mode_id"]: mode["directionality"] for mode in vocabulary.get("modes", [])}
+
+
 def ordered_crop_pairs(crops: Sequence[CropNode], include_self_pairs: bool = True) -> List[Tuple[CropNode, CropNode]]:
     pairs: List[Tuple[CropNode, CropNode]] = []
     for subject in crops:
@@ -184,6 +249,169 @@ def ordered_crop_pairs(crops: Sequence[CropNode], include_self_pairs: bool = Tru
                 continue
             pairs.append((subject, obj))
     return pairs
+
+
+def unordered_crop_pairs(crops: Sequence[CropNode], include_self_pairs: bool = True) -> List[Tuple[CropNode, CropNode]]:
+    """Emit each crop pair once. With self-pairs this yields n(n+1)/2 pairs.
+
+    Crops arrive sorted by crop_id (see load_crop_universe), so the first member
+    of every pair is the lexicographically smaller crop id; that canonical
+    ordering is what search_pair_key relies on.
+    """
+    items = list(crops)
+    pairs: List[Tuple[CropNode, CropNode]] = []
+    for i, subject in enumerate(items):
+        start = i if include_self_pairs else i + 1
+        for obj in items[start:]:
+            pairs.append((subject, obj))
+    return pairs
+
+
+def search_pair_key(mode: Dict[str, Any], subject_crop_id: str, object_crop_id: str) -> str:
+    """Direction-neutral key for an unordered pair: mode|min|max."""
+    left, right = sorted([subject_crop_id, object_crop_id])
+    return "{0}|{1}|{2}".format(mode["mode_id"], left, right)
+
+
+def candidate_ordered_pair_keys(subject_crop_id: str, object_crop_id: str) -> List[str]:
+    keys = [ordered_pair_key(subject_crop_id, object_crop_id)]
+    reverse = ordered_pair_key(object_crop_id, subject_crop_id)
+    if reverse not in keys:
+        keys.append(reverse)
+    return keys
+
+
+_DIRECTIONAL_TEMPLATE_HINTS = ("after", "following", "precede", "preceding", "before", "prior")
+
+
+def _is_neutral_template(template: Dict[str, str]) -> bool:
+    text = template.get("template", "").lower()
+    return not any(hint in text for hint in _DIRECTIONAL_TEMPLATE_HINTS)
+
+
+def templates_for_pair_in_mode(
+    mode: Dict[str, Any],
+    subject: CropNode,
+    obj: CropNode,
+    pair_mode: str,
+) -> List[Dict[str, str]]:
+    """Template ordering for a pair. For unordered searches over directional
+    modes, prefer direction-neutral templates so one query covers both ordered
+    cells without biasing toward 'subject after object'."""
+    templates = relationship_templates_for_pair(mode, subject, obj)
+    if pair_mode == "unordered" and mode.get("directionality") == "directional":
+        neutral = [t for t in templates if _is_neutral_template(t)]
+        directional = [t for t in templates if not _is_neutral_template(t)]
+        return neutral + directional
+    return templates
+
+
+# --------------------------------------------------------------------------- #
+# Aggregate (group-level) discovery — family / functional-group / host-group
+# --------------------------------------------------------------------------- #
+def load_aggregate_nodes(
+    repo_root: Path,
+    node_types: Sequence[str] = DEFAULT_AGGREGATE_NODE_TYPES,
+    node_catalog_path: str = DEFAULT_NODE_CATALOG_PATH,
+) -> List[AggregateNode]:
+    """Load the non-crop relationship nodes the aggregate planner searches over."""
+    catalog = load_json(resolve_repo_path(repo_root, node_catalog_path))
+    SchemaRegistry(repo_root).validate("relationship-node-catalog.schema.json", catalog)
+    wanted = set(node_types)
+    nodes = [
+        AggregateNode(
+            node_id=node["node_id"],
+            node_type=node["node_type"],
+            label=node.get("label", node["node_id"]),
+            aliases=tuple(node.get("aliases", [])),
+        )
+        for node in catalog.get("nodes", [])
+        if node.get("node_type") in wanted
+    ]
+    if not nodes:
+        raise ValueError("No aggregate nodes found for types: {0}".format(", ".join(sorted(wanted))))
+    return sorted(nodes, key=lambda n: (n.node_type, n.node_id))
+
+
+def aggregate_node_pairs(
+    nodes: Sequence[AggregateNode],
+    pair_mode: str = "ordered",
+    include_self_pairs: bool = True,
+) -> List[Tuple[AggregateNode, AggregateNode]]:
+    """Pair aggregate nodes within each node type. host_group nodes only pair
+    with themselves (a shared-host overlay is about one host group)."""
+    by_type: Dict[str, List[AggregateNode]] = defaultdict(list)
+    for node in nodes:
+        by_type[node.node_type].append(node)
+    pairs: List[Tuple[AggregateNode, AggregateNode]] = []
+    for node_type in sorted(by_type):
+        group = sorted(by_type[node_type], key=lambda n: n.node_id)
+        if node_type == "host_group":
+            pairs.extend((node, node) for node in group)
+            continue
+        if pair_mode == "unordered":
+            for i, subject in enumerate(group):
+                start = i if include_self_pairs else i + 1
+                for obj in group[start:]:
+                    pairs.append((subject, obj))
+        else:
+            for subject in group:
+                for obj in group:
+                    if not include_self_pairs and subject.node_id == obj.node_id:
+                        continue
+                    pairs.append((subject, obj))
+    return pairs
+
+
+def _node_token(node: AggregateNode) -> str:
+    return "{0}:{1}".format(node.node_type, node.node_id)
+
+
+def aggregate_canonical_key(mode: Dict[str, Any], subject: AggregateNode, obj: AggregateNode) -> str:
+    left, right = _node_token(subject), _node_token(obj)
+    if mode.get("directionality") == "symmetric":
+        left, right = sorted([left, right])
+    return "{0}|{1}|{2}".format(mode["mode_id"], left, right)
+
+
+def aggregate_search_pair_key(mode: Dict[str, Any], subject: AggregateNode, obj: AggregateNode) -> str:
+    left, right = sorted([_node_token(subject), _node_token(obj)])
+    return "{0}|{1}|{2}".format(mode["mode_id"], left, right)
+
+
+def aggregate_ordered_pair_key(subject: AggregateNode, obj: AggregateNode) -> str:
+    return "{0}|{1}".format(subject.node_id, obj.node_id)
+
+
+def aggregate_candidate_keys(subject: AggregateNode, obj: AggregateNode) -> List[str]:
+    keys = [aggregate_ordered_pair_key(subject, obj)]
+    reverse = aggregate_ordered_pair_key(obj, subject)
+    if reverse not in keys:
+        keys.append(reverse)
+    return keys
+
+
+def render_aggregate_template(template: str, subject: AggregateNode, obj: AggregateNode) -> str:
+    return (
+        template.replace("{subject_group}", subject.search_term)
+        .replace("{object_group}", obj.search_term)
+        .replace("{subject_label}", subject.label)
+        .replace("{object_label}", obj.label)
+    )
+
+
+def build_aggregate_query(
+    rendered_pattern: str,
+    source_tier: Dict[str, Any],
+    *,
+    region_name: str,
+    query_terms_per_source_tier: int,
+) -> str:
+    parts = [rendered_pattern]
+    if region_name.lower() != "global":
+        parts.append(region_name)
+    parts.extend((source_tier.get("query_terms") or [])[:query_terms_per_source_tier])
+    return dedupe_words(" ".join(part for part in parts if part))
 
 
 def build_relationship_matrix(
@@ -261,6 +489,101 @@ def write_relationship_matrix(
     }
 
 
+def _build_crop_items(
+    pairs, modes, source_tiers, queries_per_pair, pair_mode,
+    region_name, query_terms_per_source_tier,
+) -> List[RelationshipQueryPlanItem]:
+    items: List[RelationshipQueryPlanItem] = []
+    for subject, obj in pairs:
+        for mode in modes:
+            templates = templates_for_pair_in_mode(mode, subject, obj, pair_mode)[:queries_per_pair]
+            pair_search_key = search_pair_key(mode, subject.crop_id, obj.crop_id)
+            ordered_candidates = candidate_ordered_pair_keys(subject.crop_id, obj.crop_id)
+            for template in templates:
+                rendered = render_relationship_template(template["template"], subject, obj)
+                for source_tier in source_tiers:
+                    items.append(
+                        RelationshipQueryPlanItem(
+                            query=build_relationship_query(
+                                rendered, subject, obj, source_tier,
+                                region_name=region_name,
+                                query_terms_per_source_tier=query_terms_per_source_tier,
+                            ),
+                            subject_crop_id=subject.crop_id,
+                            object_crop_id=obj.crop_id,
+                            subject_crop_label=subject.label,
+                            object_crop_label=obj.label,
+                            relationship_mode=mode["mode_id"],
+                            relationship_subtype=template["subtype"],
+                            directionality=mode["directionality"],
+                            ordered_pair_key=ordered_pair_key(subject.crop_id, obj.crop_id),
+                            canonical_relationship_key=canonical_relationship_key(mode, subject.crop_id, obj.crop_id),
+                            source_tier_id=source_tier.get("tier_id", ""),
+                            source_tier_label=source_tier.get("label", ""),
+                            pair_mode=pair_mode,
+                            search_pair_key=pair_search_key,
+                            candidate_ordered_pair_keys=tuple(ordered_candidates),
+                            node_mode="crop",
+                            subject_node_type="crop",
+                            subject_node_id=subject.crop_id,
+                            object_node_type="crop",
+                            object_node_id=obj.crop_id,
+                            subject_search_label=subject.search_term,
+                            object_search_label=obj.search_term,
+                        )
+                    )
+    return items
+
+
+def _build_aggregate_items(
+    pairs, modes, source_tiers, queries_per_pair, pair_mode,
+    region_name, query_terms_per_source_tier,
+) -> List[RelationshipQueryPlanItem]:
+    items: List[RelationshipQueryPlanItem] = []
+    for subject, obj in pairs:
+        for mode in modes:
+            templates = list(mode.get("aggregate_query_templates", []))[:queries_per_pair]
+            if not templates:
+                continue
+            canonical = aggregate_canonical_key(mode, subject, obj)
+            pair_search_key = aggregate_search_pair_key(mode, subject, obj)
+            ordered_candidates = aggregate_candidate_keys(subject, obj)
+            for template in templates:
+                rendered = render_aggregate_template(template["template"], subject, obj)
+                for source_tier in source_tiers:
+                    items.append(
+                        RelationshipQueryPlanItem(
+                            query=build_aggregate_query(
+                                rendered, source_tier,
+                                region_name=region_name,
+                                query_terms_per_source_tier=query_terms_per_source_tier,
+                            ),
+                            subject_crop_id="",
+                            object_crop_id="",
+                            subject_crop_label="",
+                            object_crop_label="",
+                            relationship_mode=mode["mode_id"],
+                            relationship_subtype=template["subtype"],
+                            directionality=mode["directionality"],
+                            ordered_pair_key=aggregate_ordered_pair_key(subject, obj),
+                            canonical_relationship_key=canonical,
+                            source_tier_id=source_tier.get("tier_id", ""),
+                            source_tier_label=source_tier.get("label", ""),
+                            pair_mode=pair_mode,
+                            search_pair_key=pair_search_key,
+                            candidate_ordered_pair_keys=tuple(ordered_candidates),
+                            node_mode="aggregate",
+                            subject_node_type=subject.node_type,
+                            subject_node_id=subject.node_id,
+                            object_node_type=obj.node_type,
+                            object_node_id=obj.node_id,
+                            subject_search_label=subject.search_term,
+                            object_search_label=obj.search_term,
+                        )
+                    )
+    return items
+
+
 def build_relationship_query_plan(
     repo_root: Path,
     *,
@@ -275,13 +598,34 @@ def build_relationship_query_plan(
     max_pairs: Optional[int] = None,
     region_name: str = "global",
     include_self_pairs: bool = True,
+    pair_mode: str = "ordered",
+    node_mode: str = "crop",
+    aggregate_node_types: Sequence[str] = DEFAULT_AGGREGATE_NODE_TYPES,
+    node_catalog_path: str = DEFAULT_NODE_CATALOG_PATH,
 ) -> Dict[str, Any]:
     if queries_per_pair < 1:
         raise ValueError("queries_per_pair must be >= 1")
+    if pair_mode not in ("auto", "ordered", "unordered"):
+        raise ValueError("pair_mode must be 'auto', 'ordered', or 'unordered'")
+    if node_mode not in ("crop", "aggregate"):
+        raise ValueError("node_mode must be 'crop' or 'aggregate'")
     crops = load_crop_universe(repo_root, crop_dir)
     vocabulary = load_relationship_vocabulary(repo_root, vocabulary_path)
     modes = selected_modes(vocabulary, mode_ids, all_when_unspecified=False)
-    pairs = ordered_crop_pairs(crops, include_self_pairs=include_self_pairs)
+    if pair_mode == "auto":
+        # Symmetric modes have no reverse direction to preserve, so the natural
+        # (cheaper) plan is unordered. Mixed/any-directional selections stay ordered.
+        pair_mode = "unordered" if modes and all(m["directionality"] == "symmetric" for m in modes) else "ordered"
+    if node_mode == "aggregate":
+        pairs = aggregate_node_pairs(
+            load_aggregate_nodes(repo_root, aggregate_node_types, node_catalog_path),
+            pair_mode=pair_mode,
+            include_self_pairs=include_self_pairs,
+        )
+    elif pair_mode == "unordered":
+        pairs = unordered_crop_pairs(crops, include_self_pairs=include_self_pairs)
+    else:
+        pairs = ordered_crop_pairs(crops, include_self_pairs=include_self_pairs)
     truncated = False
     if max_pairs is not None:
         if max_pairs < 1:
@@ -299,35 +643,16 @@ def build_relationship_query_plan(
     if not source_tiers:
         source_tiers = [{"tier_id": "", "label": "", "query_terms": ["extension", "agronomy"]}]
     items: List[RelationshipQueryPlanItem] = []
-    for subject, obj in pairs:
-        for mode in modes:
-            templates = relationship_templates_for_pair(mode, subject, obj)[:queries_per_pair]
-            for template in templates:
-                rendered = render_relationship_template(template["template"], subject, obj)
-                for source_tier in source_tiers:
-                    items.append(
-                        RelationshipQueryPlanItem(
-                            query=build_relationship_query(
-                                rendered,
-                                subject,
-                                obj,
-                                source_tier,
-                                region_name=region_name,
-                                query_terms_per_source_tier=query_terms_per_source_tier,
-                            ),
-                            subject_crop_id=subject.crop_id,
-                            object_crop_id=obj.crop_id,
-                            subject_crop_label=subject.label,
-                            object_crop_label=obj.label,
-                            relationship_mode=mode["mode_id"],
-                            relationship_subtype=template["subtype"],
-                            directionality=mode["directionality"],
-                            ordered_pair_key=ordered_pair_key(subject.crop_id, obj.crop_id),
-                            canonical_relationship_key=canonical_relationship_key(mode, subject.crop_id, obj.crop_id),
-                            source_tier_id=source_tier.get("tier_id", ""),
-                            source_tier_label=source_tier.get("label", ""),
-                        )
-                    )
+    if node_mode == "aggregate":
+        items = _build_aggregate_items(
+            pairs, modes, source_tiers, queries_per_pair, pair_mode,
+            region_name, query_terms_per_source_tier,
+        )
+    else:
+        items = _build_crop_items(
+            pairs, modes, source_tiers, queries_per_pair, pair_mode,
+            region_name, query_terms_per_source_tier,
+        )
     payload = {
         "version": "0.1.0",
         "generated_at": current_time(),
@@ -335,6 +660,8 @@ def build_relationship_query_plan(
         "relationship_vocabulary_version": vocabulary["version"],
         "crop_count": len(crops),
         "matrix_cell_count": len(ordered_crop_pairs(crops, include_self_pairs=include_self_pairs)),
+        "node_mode": node_mode,
+        "pair_mode": pair_mode,
         "planned_pair_count": len(pairs),
         "relationship_modes": [mode["mode_id"] for mode in modes],
         "source_tier_ids": [source_tier.get("tier_id", "") for source_tier in source_tiers],
@@ -381,13 +708,22 @@ def discover_relationships(
     region_name: str = "global",
     include_self_pairs: bool = True,
     limit_queries: Optional[int] = None,
+    pair_mode: str = "ordered",
+    node_mode: str = "crop",
+    aggregate_node_types: Sequence[str] = DEFAULT_AGGREGATE_NODE_TYPES,
+    node_catalog_path: str = DEFAULT_NODE_CATALOG_PATH,
 ) -> Dict[str, Any]:
     """Execute relationship query planning into a durable discovery ledger.
 
     This is intentionally separate from parameter discovery. It preserves pair
     metadata on every row and deduplicates per (relationship key, source) so one
-    source can support multiple crop-pair cells.
+    source can support multiple crop-pair cells. In aggregate node_mode it plans
+    group-level (family / functional-group / host-group) searches instead.
     """
+    # Aggregate discovery defaults to principle-bearing tiers (textbook /
+    # institution / extension) unless the caller pins specific tiers.
+    if node_mode == "aggregate" and not source_tier_ids:
+        source_tier_ids = list(DEFAULT_AGGREGATE_SOURCE_TIER_IDS)
     plan = build_relationship_query_plan(
         repo_root,
         crop_dir=crop_dir,
@@ -401,6 +737,10 @@ def discover_relationships(
         max_pairs=max_pairs,
         region_name=region_name,
         include_self_pairs=include_self_pairs,
+        pair_mode=pair_mode,
+        node_mode=node_mode,
+        aggregate_node_types=aggregate_node_types,
+        node_catalog_path=node_catalog_path,
     )
     queries = list(plan["queries"])
     truncated_by_limit = False
@@ -418,9 +758,12 @@ def discover_relationships(
     retry_queue: List[Dict[str, Any]] = []
     ua = user_agent()
     for item in queries:
+        # Mode-agnostic label: crop search term in crop mode, group term in
+        # aggregate mode. Never assumes a crop label is present.
+        subject_label = (item.get("subject_search_label") or item.get("subject_crop_label", "")).lower()
         results, errors = connector_results_for_tier(
             query=item["query"],
-            crop=item["subject_crop_label"].lower(),
+            crop=subject_label,
             source_tier_id=item["source_tier_id"],
             max_results=max_results_per_query,
             user_agent=ua,
@@ -430,8 +773,8 @@ def discover_relationships(
                 {
                     "query_kind": "crop_relationship",
                     "query": item["query"],
-                    "subject_crop_id": item["subject_crop_id"],
-                    "object_crop_id": item["object_crop_id"],
+                    "subject_crop_id": item.get("subject_crop_id", ""),
+                    "object_crop_id": item.get("object_crop_id", ""),
                     "relationship_mode": item["relationship_mode"],
                     "ordered_pair_key": item["ordered_pair_key"],
                     "canonical_relationship_key": item["canonical_relationship_key"],
@@ -452,15 +795,25 @@ def discover_relationships(
                     "ledger_id": relationship_ledger_id(run_id, len(rows) + 1),
                     "query_kind": "crop_relationship",
                     "query": item["query"],
-                    "subject_crop_id": item["subject_crop_id"],
-                    "object_crop_id": item["object_crop_id"],
-                    "subject_crop_label": item["subject_crop_label"],
-                    "object_crop_label": item["object_crop_label"],
+                    "subject_crop_id": item.get("subject_crop_id", ""),
+                    "object_crop_id": item.get("object_crop_id", ""),
+                    "subject_crop_label": item.get("subject_crop_label", ""),
+                    "object_crop_label": item.get("object_crop_label", ""),
+                    "node_mode": item.get("node_mode", "crop"),
+                    "subject_node_type": item.get("subject_node_type", ""),
+                    "subject_node_id": item.get("subject_node_id", ""),
+                    "object_node_type": item.get("object_node_type", ""),
+                    "object_node_id": item.get("object_node_id", ""),
+                    "subject_search_label": item.get("subject_search_label", ""),
+                    "object_search_label": item.get("object_search_label", ""),
                     "relationship_mode": item["relationship_mode"],
                     "relationship_subtype": item["relationship_subtype"],
                     "directionality": item["directionality"],
                     "ordered_pair_key": item["ordered_pair_key"],
                     "canonical_relationship_key": item["canonical_relationship_key"],
+                    "pair_mode": item.get("pair_mode", "ordered"),
+                    "search_pair_key": item.get("search_pair_key", "") or item["canonical_relationship_key"],
+                    "candidate_ordered_pair_keys": item.get("candidate_ordered_pair_keys", [item["ordered_pair_key"]]),
                     "source_tier": item["source_tier_id"],
                     "source_tier_label": item["source_tier_label"],
                     "provider": provider,
@@ -469,7 +822,9 @@ def discover_relationships(
                     "score_components": result.get("score_components", {}),
                     "source_url": source_url,
                     "source_key": source_key,
-                    "relationship_source_key": "{0}|{1}".format(item["canonical_relationship_key"], source_key),
+                    "relationship_source_key": "{0}|{1}".format(
+                        item.get("search_pair_key") or item["canonical_relationship_key"], source_key
+                    ),
                     "doi": normalize_doi(doi),
                     "result_type": metadata.get("type", ""),
                     "access_status": result.get("access_status", "unknown"),
@@ -587,6 +942,8 @@ def relationship_discovery_summary(
         "relationship_modes": plan["relationship_modes"],
         "crop_count": plan["crop_count"],
         "matrix_cell_count": plan["matrix_cell_count"],
+        "node_mode": plan.get("node_mode", "crop"),
+        "pair_mode": plan.get("pair_mode", "ordered"),
         "planned_pair_count": plan["planned_pair_count"],
         "queries_executed": plan["query_count"],
         "ledger_rows": len(rows),

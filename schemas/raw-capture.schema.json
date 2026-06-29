@@ -72,6 +72,28 @@
     "canonical_relationship_key": {
       "type": "string"
     },
+    "node_mode": {
+      "type": "string",
+      "enum": ["crop", "aggregate"]
+    },
+    "subject_node_type": {
+      "type": "string"
+    },
+    "subject_node_id": {
+      "type": "string"
+    },
+    "object_node_type": {
+      "type": "string"
+    },
+    "object_node_id": {
+      "type": "string"
+    },
+    "subject_search_label": {
+      "type": "string"
+    },
+    "object_search_label": {
+      "type": "string"
+    },
     "discovery_method": {
       "type": "string"
     },
