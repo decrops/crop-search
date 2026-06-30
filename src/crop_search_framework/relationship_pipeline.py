@@ -28,17 +28,20 @@ import json
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
-from urllib.parse import urlparse
+from typing import Any, Dict, List, Optional, Sequence
+from urllib.parse import quote, urlparse
 
 from .backfill import is_junk_doi
 from . import corpus
 from .relationships import (
     build_relationship_matrix,
     current_time,
+    load_crop_universe,
     load_relationship_vocabulary,
     mode_directionality_map,
+    unordered_crop_pairs,
 )
+from .source_tiers import tier_band, tier_rank, tier_rank_index
 
 ACCESS_RANK = {"open_full_text": 2, "metadata_only": 1, "unknown": 0}
 
@@ -281,6 +284,114 @@ def fetch_relationships(
     return summary
 
 
+def crop_reference_url(crop) -> str:
+    """The crop's main encyclopedia reference article. Wikipedia redirects
+    synonyms (Corn -> Maize, Oilseed rape -> Rapeseed), so the label works as the
+    lookup term and the fetcher follows the redirect to the canonical article."""
+    term = (getattr(crop, "label", "") or crop.crop_id).strip().replace(" ", "_")
+    return "https://en.wikipedia.org/wiki/{0}".format(quote(term))
+
+
+def fetch_crop_references(
+    repo_root: Path,
+    run_id: str,
+    crop_dir: str = "config/crops",
+    limit: Optional[int] = None,
+    crop_ids: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    """Fetch each crop's main reference article (Wikipedia) into the relationship
+    raw layer, bypassing pair-template discovery. These parse cleanly as HTML and
+    carry rotation/relationship prose for the well-known crops that hostile
+    publisher PDFs and noisy searches fail to deliver. The downstream
+    build-relationship-corpus -> extraction flow is unchanged."""
+    from .dev_tools.common import user_agent
+    from .dev_tools.fetch_web import infer_document_type, pick_suffix, safe_name, extract_title_hint
+    from .dev_tools.http_client import HttpClient
+    from .dev_tools.parse_document import parse_html, parse_pdf
+    from .schema_registry import SchemaRegistry
+    from .relationships import load_crop_universe
+
+    registry = SchemaRegistry(repo_root)
+    crops = load_crop_universe(repo_root, crop_dir)
+    if crop_ids:
+        wanted = set(crop_ids)
+        crops = [c for c in crops if c.crop_id in wanted]
+    if limit:
+        crops = crops[:limit]
+
+    raw_dir = repo_root / "exploration" / "relationships" / "raw" / run_id
+    (raw_dir / "fetched").mkdir(parents=True, exist_ok=True)
+    client = HttpClient(cache_dir=repo_root / "exploration" / "cache" / "fetch")
+    ua = user_agent()
+
+    captures = ok = fail = 0
+    resolved: List[Dict[str, str]] = []
+    for idx, crop in enumerate(crops, 1):
+        url = crop_reference_url(crop)
+        parsed, meta, good = _fetch_one(client, url, idx, ua, raw_dir, repo_root,
+                                        infer_document_type, pick_suffix, safe_name,
+                                        extract_title_hint, parse_html, parse_pdf)
+        ok += 1 if good else 0
+        fail += 0 if good else 1
+        final_url = (meta or {}).get("final_url", url)
+        row = {
+            "subject_crop_id": crop.crop_id, "object_crop_id": crop.crop_id,
+            "subject_crop_label": crop.label, "object_crop_label": crop.label,
+            "node_mode": "crop", "subject_node_type": "crop", "subject_node_id": crop.crop_id,
+            "object_node_type": "crop", "object_node_id": crop.crop_id,
+            "subject_search_label": crop.search_term, "object_search_label": crop.search_term,
+            "relationship_mode": "reference", "relationship_subtype": "crop_reference",
+            "ordered_pair_key": "{0}|{0}".format(crop.crop_id),
+            "canonical_relationship_key": "reference|{0}|{0}".format(crop.crop_id),
+            "source_tier": "reference_encyclopedia", "doi": "",
+            "source_url": final_url,
+            "source_domain": urlparse(final_url).netloc.lower(),
+        }
+        cap = _relationship_capture(run_id, idx, row, parsed, meta, good, crop.search_term)
+        registry.validate("raw-capture.schema.json", cap)
+        (raw_dir / "{0}.json".format(cap["id"])).write_text(json.dumps(cap, indent=2) + "\n", encoding="utf-8")
+        captures += 1
+        resolved.append({"crop_id": crop.crop_id, "reference_url": final_url,
+                         "access_status": cap["access_status"]})
+
+    summary = {
+        "run_id": run_id,
+        "stage": "fetch_crop_references",
+        "generated_at": _now_iso(),
+        "crops": len(crops),
+        "captures_written": captures,
+        "fetch_successes": ok,
+        "fetch_failures": fail,
+        "references": resolved,
+    }
+    (raw_dir / "reference_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+    return summary
+
+
+# Markers of bot-challenge / access-denied pages that publishers (MDPI, Cloudflare,
+# reCAPTCHA, etc.) return with HTTP 200; these carry no extractable evidence.
+_CHALLENGE_MARKERS = (
+    "checking your browser", "enable javascript", "captcha", "recaptcha",
+    "just a moment", "access denied", "403 forbidden", "cloudflare",
+    "request unsuccessful", "are you a robot", "verifying you are human",
+)
+# Below this, a parsed "document" has no usable rotation/relationship evidence.
+_MIN_USABLE_TEXT = 200
+
+
+def _is_low_value_text(text: str) -> bool:
+    stripped = (text or "").strip()
+    if len(stripped) < _MIN_USABLE_TEXT:
+        return True
+    if len(stripped) < 1500 and any(m in stripped.lower() for m in _CHALLENGE_MARKERS):
+        return True
+    return False
+
+
+def _looks_like_html(content: bytes) -> bool:
+    return content[:512].lstrip()[:15].lower().startswith((b"<!doctype", b"<html"))
+
+
 def _fetch_one(client, url, index, ua, raw_dir, repo_root, infer_document_type, pick_suffix,
                safe_name, extract_title_hint, parse_html, parse_pdf):
     from .dev_tools.http_client import HttpError
@@ -291,6 +402,10 @@ def _fetch_one(client, url, index, ua, raw_dir, repo_root, infer_document_type, 
     final_url = resp.url or url
     ctype = resp.headers.get("content-type") or resp.headers.get("Content-Type") or ""
     dtype = infer_document_type(final_url, ctype)
+    # Salvage: a /pdf endpoint or `application/pdf` header that actually returned an
+    # HTML challenge/error page must be parsed as HTML, not fed to pdftotext.
+    if dtype == "pdf" and _looks_like_html(resp.content):
+        dtype = "html"
     domain = urlparse(final_url).netloc.lower()
     artifact = raw_dir / "fetched" / "{0:03d}-{1}{2}".format(index, safe_name(domain or "source"), pick_suffix(final_url, dtype))
     artifact.write_bytes(resp.content)
@@ -301,7 +416,8 @@ def _fetch_one(client, url, index, ua, raw_dir, repo_root, infer_document_type, 
         parsed = parse_pdf(artifact) if dtype == "pdf" else parse_html(artifact)
     except Exception:
         return meta, meta, False
-    if not parsed.get("raw_text"):
+    # Empty parses and bot-challenge pages are failures, not full-text documents.
+    if _is_low_value_text(parsed.get("raw_text", "")):
         return meta, meta, False
     return parsed, meta, True
 
@@ -441,20 +557,169 @@ def validate_relationship_claims(repo_root: Path, run_id: str) -> Dict[str, Any]
     claims_dir = repo_root / "exploration" / "relationships" / "claims" / run_id
     claims: List[Dict[str, Any]] = []
     invalid: List[str] = []
+    known_tiers = set(tier_rank_index(repo_root).keys())
     for f in sorted(claims_dir.glob("*.json")):
         payload = json.loads(f.read_text(encoding="utf-8"))
         for claim in payload.get("claims", []):
             try:
                 registry.validate("crop-relationship-claim.schema.json", claim)
-                claims.append(claim)
             except Exception as exc:
                 invalid.append("{0}: {1}".format(f.name, str(exc)[:120]))
+                continue
+            # Tier enforcement: source_tier_id is schema-required, but a value not
+            # in the manifest (typo / retired tier) must not silently rank as
+            # worst — drop it with a clear reason so tier-aware resolution is safe.
+            tier = (claim.get("provenance") or {}).get("source_tier_id", "")
+            if tier not in known_tiers:
+                invalid.append("{0}: unknown source_tier_id '{1}'".format(f.name, tier))
+                continue
+            claims.append(claim)
     # Code-enforced canonicalization for symmetric modes (intercrop, strip_crop,
     # mixed_crop, companion_crop): never trust the extractor's emitted endpoint
     # order. Both matrix population and the graph read claims through here.
     directionality = mode_directionality_map(load_relationship_vocabulary(repo_root))
     normalize_symmetric_claims(claims, directionality)
     return {"run_id": run_id, "claims": claims, "valid_count": len(claims), "invalid": invalid}
+
+
+# --------------------------------------------------------------------------- #
+# Tier-weighted effect resolution (shared by matrix population and the resolver)
+# --------------------------------------------------------------------------- #
+# Polarity classes over the relationship `effect` enum. Positive and negative
+# are the decisive poles; `conditional` means context-dependent ("it depends");
+# `neutral` is a weak non-conflicting signal; `unknown` is ignored entirely.
+_EFFECT_POLARITY = {
+    "beneficial": "positive",
+    "compatible": "positive",
+    "incompatible": "negative",
+    "avoid": "negative",
+    "conditional": "conditional",
+    "neutral": "neutral",
+    "unknown": "ignore",
+}
+
+
+def _claim_tier(claim: Dict[str, Any]) -> str:
+    return (claim.get("provenance") or {}).get("source_tier_id", "") or ""
+
+
+def _effect_polarity(effect: Optional[str]) -> str:
+    return _EFFECT_POLARITY.get(effect or "", "ignore")
+
+
+def tiered_effect(claims: List[Dict[str, Any]], rank_index: Dict[str, int]) -> Dict[str, Any]:
+    """Resolve a set of claims for one (pair, mode) cell into a tier-weighted
+    summary.
+
+    The DECIDING tier is the most-trusted tier (lowest priority number) that
+    actually carries a usable effect — a higher tier whose claims are all
+    ``unknown`` does not mask a lower tier's real signal, nor set the grade. The
+    deciding tier's effect/grade win; any other-tier claim whose decisive polarity
+    is overridden (including when the summary is a non-committal
+    ``conditional``/``neutral``/``unknown``) raises ``tier_superseded_conflict``
+    so the disagreement is always reviewable.
+
+    Returns: summary_effect, status, best_source_tier, evidence_grade,
+    tier_histogram, ambiguous_effect, tier_superseded_conflict, evidence_count,
+    conflict_count.
+    """
+    base = {
+        "summary_effect": "unknown",
+        "status": "searched_no_evidence",
+        "best_source_tier": "",
+        "evidence_grade": "none",
+        "tier_histogram": {},
+        "ambiguous_effect": False,
+        "tier_superseded_conflict": False,
+        "evidence_count": 0,
+        "conflict_count": 0,
+    }
+    if not claims:
+        return base
+
+    by_rank: Dict[int, List[Dict[str, Any]]] = defaultdict(list)
+    for c in claims:
+        by_rank[tier_rank(_claim_tier(c), rank_index)].append(c)
+
+    deciding_rank = next(
+        (r for r in sorted(by_rank)
+         if any(_effect_polarity(c.get("effect")) != "ignore" for c in by_rank[r])),
+        None,
+    )
+    if deciding_rank is None:
+        # No claim anywhere carries a usable effect: report the best tier present
+        # with an unknown effect.
+        deciding_rank = min(by_rank)
+        deciding = by_rank[deciding_rank]
+        summary, status, ambiguous, conflict_count = "unknown", "evidence_found", False, 0
+    else:
+        deciding = by_rank[deciding_rank]
+        effects = [c.get("effect") for c in deciding if _effect_polarity(c.get("effect")) != "ignore"]
+        polarities = [_effect_polarity(e) for e in effects]
+        decisive_effects = [e for e in effects if _effect_polarity(e) in ("positive", "negative")]
+        positives = polarities.count("positive")
+        negatives = polarities.count("negative")
+        conditionals = polarities.count("conditional")
+        if positives > 0 and negatives > 0:
+            summary = Counter(decisive_effects).most_common(1)[0][0]
+            status = "conflicting_evidence"
+            summary_pol = _effect_polarity(summary)
+            # Dissenting CLAIMS (opposite decisive polarity), not distinct labels.
+            conflict_count = sum(1 for p in polarities if p in ("positive", "negative") and p != summary_pol)
+            ambiguous = False
+        elif conditionals > 0 and (positives > 0 or negatives > 0):
+            # Decisive evidence coexists with "it depends" — surface the ambiguity
+            # rather than letting a plurality bury the conditional caveat.
+            summary = "conditional"
+            status = "evidence_found"
+            conflict_count = 0
+            ambiguous = True
+        elif decisive_effects:
+            # One decisive polarity present: prefer it so a weak `neutral` never
+            # ties out a `beneficial`/`avoid` on claim order.
+            summary = Counter(decisive_effects).most_common(1)[0][0]
+            status = "evidence_found"
+            conflict_count = 0
+            ambiguous = False
+        else:
+            # Only conditional/neutral at the deciding tier.
+            summary = Counter(effects).most_common(1)[0][0]
+            status = "evidence_found"
+            conflict_count = 0
+            ambiguous = False
+
+    # Grade and best tier follow the DECIDING tier (the one that set the effect),
+    # not merely the numerically best tier present.
+    best_source_tier = sorted({_claim_tier(c) for c in deciding})[0]
+    grade = "peer_reviewed" if tier_band(best_source_tier) == "evidence" else "reference_backbone"
+
+    # Raise the supersede flag whenever a non-deciding claim's decisive polarity
+    # is overridden — including under a non-committal summary.
+    summary_pol = _effect_polarity(summary)
+    others = [c for r, group in by_rank.items() if r != deciding_rank for c in group]
+    other_decisive = {
+        _effect_polarity(c.get("effect"))
+        for c in others
+        if _effect_polarity(c.get("effect")) in ("positive", "negative")
+    }
+    if summary_pol == "positive":
+        tier_superseded_conflict = "negative" in other_decisive
+    elif summary_pol == "negative":
+        tier_superseded_conflict = "positive" in other_decisive
+    else:
+        tier_superseded_conflict = bool(other_decisive)
+
+    return {
+        "summary_effect": summary,
+        "status": status,
+        "best_source_tier": best_source_tier,
+        "evidence_grade": grade,
+        "tier_histogram": dict(Counter(_claim_tier(c) for c in claims)),
+        "ambiguous_effect": ambiguous,
+        "tier_superseded_conflict": tier_superseded_conflict,
+        "evidence_count": len(claims),
+        "conflict_count": conflict_count,
+    }
 
 
 # --------------------------------------------------------------------------- #
@@ -471,31 +736,44 @@ def populate_relationship_matrix(
     searched_keys = {r["canonical_relationship_key"] for r in ledger}
 
     loaded = validate_relationship_claims(repo_root, run_id)
-    accepted = [c for c in loaded["claims"] if c.get("status") in ("accepted", "needs_review")]
+    accepted = _dedupe_claims_by_id(
+        [c for c in loaded["claims"] if c.get("status") in _EVIDENCE_STATUSES]
+    )
     by_key: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for c in accepted:
         by_key[c["canonical_relationship_key"]].append(c)
+    rank_index = tier_rank_index(repo_root)
 
     populated = 0
     for cell in matrix["cells"]:
         for mode_id, st in cell["mode_statuses"].items():
+            # Tier-aware defaults on every cell so populated matrices are uniform.
+            st.setdefault("best_source_tier", "")
+            st.setdefault("tier_histogram", {})
+            st.setdefault("evidence_grade", "none")
+            st.setdefault("ambiguous_effect", False)
+            st.setdefault("tier_superseded_conflict", False)
             ckey = st["canonical_relationship_key"]
             claims = by_key.get(ckey, [])
             if claims:
-                effects = [c["effect"] for c in claims if c.get("effect") not in (None, "unknown")]
-                distinct = set(effects)
-                st["evidence_count"] = len(claims)
-                if len({e for e in distinct if e in ("beneficial", "compatible")}) and \
-                   len({e for e in distinct if e in ("incompatible", "avoid")}):
-                    st["status"] = "conflicting_evidence"
-                    st["conflict_count"] = len(distinct)
-                else:
-                    st["status"] = "evidence_found"
-                st["summary_effect"] = Counter(effects).most_common(1)[0][0] if effects else "unknown"
+                resolved = tiered_effect(claims, rank_index)
+                st["status"] = resolved["status"]
+                st["summary_effect"] = resolved["summary_effect"]
+                st["evidence_count"] = resolved["evidence_count"]
+                st["conflict_count"] = resolved["conflict_count"]
+                st["best_source_tier"] = resolved["best_source_tier"]
+                st["tier_histogram"] = resolved["tier_histogram"]
+                st["evidence_grade"] = resolved["evidence_grade"]
+                st["ambiguous_effect"] = resolved["ambiguous_effect"]
+                st["tier_superseded_conflict"] = resolved["tier_superseded_conflict"]
                 populated += 1
             elif ckey in searched_keys:
                 st["status"] = "searched_no_evidence"
 
+    # Guard against future field/enum drift: the populated matrix carries the
+    # tier-aware cell fields tiered_effect writes, so validate before persisting.
+    from .schema_registry import SchemaRegistry
+    SchemaRegistry(repo_root).validate("crop-relationship-matrix.schema.json", matrix)
     out_dir = repo_root / "exploration" / "relationships" / "matrix"
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "populated-{0}.json".format(run_id)).write_text(json.dumps(matrix, indent=2) + "\n", encoding="utf-8")
@@ -621,20 +899,28 @@ def _claim_node_tuple(claim: Dict[str, Any], side: str):
     return None
 
 
-def _summary_effect(claims: List[Dict[str, Any]]) -> str:
-    effects = [c.get("effect") for c in claims if c.get("effect") not in (None, "unknown")]
-    if not effects:
-        return "unknown"
-    return Counter(effects).most_common(1)[0][0]
+def _dedupe_claims_by_id(claims: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Drop duplicate claims sharing a ``relationship_claim_id`` (first wins).
+    Claims without an id are kept (they cannot collide). Centralized so the
+    single-run graph, merged graph, and matrix paths all see the same evidence
+    set and a duplicated id can never manufacture a phantom conflict."""
+    seen: set = set()
+    out: List[Dict[str, Any]] = []
+    for claim in claims:
+        cid = claim.get("relationship_claim_id")
+        if cid:
+            if cid in seen:
+                continue
+            seen.add(cid)
+        out.append(claim)
+    return out
 
 
-def build_relationship_graph(repo_root: Path, run_id: str) -> Dict[str, Any]:
-    """Build an evidence graph from validated, evidence-bearing relationship
-    claims. Indexes are keyed by (relationship_mode, subject_tuple, object_tuple)
-    so evidence for one mode never bleeds into another."""
-    loaded = validate_relationship_claims(repo_root, run_id)
-    claims = [c for c in loaded["claims"] if c.get("status") in _EVIDENCE_STATUSES]
-
+def _graph_from_claims(repo_root: Path, claims: List[Dict[str, Any]], run_label: str) -> Dict[str, Any]:
+    """Index evidence-bearing claims into a resolver graph keyed by
+    (relationship_mode, subject_tuple, object_tuple) so evidence for one mode
+    never bleeds into another. Shared by the single-run and merged-run builders."""
+    claims = _dedupe_claims_by_id(claims)
     direct: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     aggregate: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     host_overlays: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
@@ -656,8 +942,8 @@ def build_relationship_graph(repo_root: Path, run_id: str) -> Dict[str, Any]:
         elif s_type in _AGGREGATE_BASES and o_type in _AGGREGATE_BASES:
             aggregate["{0}|{1}|{2}".format(mode, s_id, o_id)].append(claim)
 
-    graph = {
-        "run_id": run_id,
+    return {
+        "run_id": run_label,
         "generated_at": current_time(),
         "claim_count": len(claims),
         # Persisted so the resolver can sort symmetric-mode queries without
@@ -669,9 +955,41 @@ def build_relationship_graph(repo_root: Path, run_id: str) -> Dict[str, Any]:
         "aggregate": dict(aggregate),
         "host_overlays": dict(host_overlays),
     }
+
+
+def build_relationship_graph(repo_root: Path, run_id: str) -> Dict[str, Any]:
+    """Build and persist an evidence graph from one run's validated claims."""
+    loaded = validate_relationship_claims(repo_root, run_id)
+    claims = [c for c in loaded["claims"] if c.get("status") in _EVIDENCE_STATUSES]
+    graph = _graph_from_claims(repo_root, claims, run_id)
     out_dir = repo_root / "exploration" / "relationships" / "graph"
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "{0}.json".format(run_id)).write_text(json.dumps(graph, indent=2) + "\n", encoding="utf-8")
+    return graph
+
+
+def build_merged_relationship_graph(
+    repo_root: Path,
+    run_ids: List[str],
+    status_filter: Sequence[str] = _EVIDENCE_STATUSES,
+    persist_label: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Union evidence-bearing claims across runs into one resolver graph, so a
+    peer-reviewed upgrade in run B can supersede a backbone claim in run A.
+    Claims are deduped by ``relationship_claim_id`` in ``_graph_from_claims``
+    (claims without one are kept, since they cannot collide identity-wise).
+    ``status_filter`` lets callers build an accepted-only graph (A9) vs accepting
+    provisional ``needs_review`` too."""
+    merged: List[Dict[str, Any]] = []
+    for run_id in run_ids:
+        loaded = validate_relationship_claims(repo_root, run_id)
+        merged.extend(c for c in loaded["claims"] if c.get("status") in status_filter)
+    label = persist_label or "merged-{0}".format("+".join(run_ids))
+    graph = _graph_from_claims(repo_root, merged, label)
+    if persist_label is not None:
+        out_dir = repo_root / "exploration" / "relationships" / "graph"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / "{0}.json".format(label)).write_text(json.dumps(graph, indent=2) + "\n", encoding="utf-8")
     return graph
 
 
@@ -694,28 +1012,42 @@ def _host_caveats(claims: List[Dict[str, Any]], host_group: str) -> List[Dict[st
     return caveats
 
 
-def resolve_crop_relationship(
-    repo_root: Path,
-    run_id: str,
+def _apply_tiered(result: Dict[str, Any], resolved: Dict[str, Any]) -> None:
+    """Copy a tiered_effect() summary onto a resolver result, surfacing a
+    hard conflict as a status flag (the provenance path stays direct/inferred)."""
+    result["primary_effect"] = resolved["summary_effect"]
+    result["best_source_tier"] = resolved["best_source_tier"]
+    result["evidence_grade"] = resolved["evidence_grade"]
+    result["ambiguous_effect"] = resolved["ambiguous_effect"]
+    result["tier_superseded_conflict"] = resolved["tier_superseded_conflict"]
+    if resolved["status"] == "conflicting_evidence" and "conflicting_evidence" not in result["status_flags"]:
+        result["status_flags"].append("conflicting_evidence")
+
+
+def _resolve(
+    graph: Dict[str, Any],
+    catalog: Dict[str, Any],
+    rank_index: Dict[str, int],
     subject: str,
     object: str,
     mode: str = "rotation",
 ) -> Dict[str, Any]:
-    """Resolve a (subject, object) crop relationship for one mode. Checks exact
-    crop evidence first, then group inference, and always overlays host-risk
-    caveats shared by both crops."""
-    catalog = load_node_catalog(repo_root)
-    graph = _load_relationship_graph(repo_root, run_id)
+    """Resolve a (subject, object) relationship for one mode against an already
+    loaded graph. Checks exact crop evidence first, then group inference, always
+    overlaying shared host-risk caveats. Effects are tier-weighted."""
     alias_index = _node_alias_index(catalog)
-
     result: Dict[str, Any] = {
-        "run_id": run_id,
+        "run_id": graph.get("run_id", ""),
         "mode": mode,
         "subject": subject,
         "object": object,
         "status": "no_evidence",
         "primary_effect": "unknown",
         "inference_basis": "",
+        "best_source_tier": "",
+        "evidence_grade": "none",
+        "ambiguous_effect": False,
+        "tier_superseded_conflict": False,
         "status_flags": [],
         "caveats": [],
         "unknown_nodes": [],
@@ -743,7 +1075,7 @@ def resolve_crop_relationship(
     direct_claims = graph.get("direct", {}).get("{0}|{1}|{2}".format(mode, ds, do), [])
     if direct_claims:
         result["status"] = "direct_evidence"
-        result["primary_effect"] = _summary_effect(direct_claims)
+        _apply_tiered(result, tiered_effect(direct_claims, rank_index))
     else:
         for base in _AGGREGATE_BASES:
             subject_aggs = _aggregate_ids(subject_node, base)
@@ -761,7 +1093,7 @@ def resolve_crop_relationship(
             if matched:
                 result["status"] = "inferred_from_group"
                 result["inference_basis"] = base
-                result["primary_effect"] = _summary_effect(matched)
+                _apply_tiered(result, tiered_effect(matched, rank_index))
                 break
 
     # Host-risk overlay: any host group shared by both crops with overlay claims.
@@ -775,6 +1107,147 @@ def resolve_crop_relationship(
                 result["status_flags"].append("host_risk_caveat")
 
     return result
+
+
+def resolve_crop_relationship(
+    repo_root: Path,
+    run_id: str,
+    subject: str,
+    object: str,
+    mode: str = "rotation",
+) -> Dict[str, Any]:
+    """Resolve a (subject, object) crop relationship for one mode from one run's
+    persisted graph. (See ``relationship_coverage_report`` for the cross-run,
+    tier-aware merged view.)"""
+    catalog = load_node_catalog(repo_root)
+    graph = _load_relationship_graph(repo_root, run_id)
+    rank_index = tier_rank_index(repo_root)
+    return _resolve(graph, catalog, rank_index, subject, object, mode)
+
+
+# --------------------------------------------------------------------------- #
+# Coverage report — cross-run, tier-aware answerability + evidence grade
+# --------------------------------------------------------------------------- #
+_ANSWERABLE_STATUSES = ("direct_evidence", "inferred_from_group")
+_GRADE_RANK = {"none": 0, "reference_backbone": 1, "peer_reviewed": 2}
+
+
+def _best_pair_resolution(graph, catalog, rank_index, s_id, o_id, mode, directional):
+    """Resolve a crop pair for one mode, taking the better-graded direction for
+    directional modes (the coverage denominator is unordered pairs, so a pair is
+    answerable if either direction has evidence)."""
+    cands = [_resolve(graph, catalog, rank_index, s_id, o_id, mode)]
+    if directional:
+        cands.append(_resolve(graph, catalog, rank_index, o_id, s_id, mode))
+    answerable = [c for c in cands if c["status"] in _ANSWERABLE_STATUSES]
+    if not answerable:
+        return cands[0]
+    return max(answerable, key=lambda c: _GRADE_RANK.get(c["evidence_grade"], 0))
+
+
+def _directed_resolutions(graph, catalog, rank_index, s_id, o_id, mode, directional):
+    """Yield (directed_key, result) per relevant direction. Directional modes get
+    both orders so a pair that is peer-reviewed one way but backbone-only the other
+    surfaces the backbone direction as its own upgrade target."""
+    yield ("{0}|{1}".format(s_id, o_id), _resolve(graph, catalog, rank_index, s_id, o_id, mode))
+    if directional:
+        yield ("{0}|{1}".format(o_id, s_id), _resolve(graph, catalog, rank_index, o_id, s_id, mode))
+
+
+def relationship_coverage_report(
+    repo_root: Path,
+    run_ids: List[str],
+    modes: Sequence[str] = ("rotation", "intercrop"),
+    crop_dir: str = "config/crops",
+    persist_label: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Cross-run, tier-aware coverage. Builds a merged claim graph across all
+    ``run_ids`` and resolves every distinct (no-self) crop pair × mode against it.
+
+    Headline coverage is **accepted-backed**; ``needs_review`` evidence is
+    reported separately as ``provisional`` (A9) — it inflates answerability but is
+    not yet reviewed. Per mode it reports the evidence-grade split
+    (peer_reviewed / reference_backbone / none), the **upgrade candidates**
+    (answerable at backbone grade), and any tier-superseded / ambiguous cells."""
+    catalog = load_node_catalog(repo_root)
+    rank_index = tier_rank_index(repo_root)
+    directionality = mode_directionality_map(load_relationship_vocabulary(repo_root))
+
+    graph_accepted = build_merged_relationship_graph(repo_root, run_ids, status_filter=("accepted",))
+    graph_provisional = build_merged_relationship_graph(repo_root, run_ids, status_filter=_EVIDENCE_STATUSES)
+
+    crops = load_crop_universe(repo_root, crop_dir)
+    pairs = unordered_crop_pairs(crops, include_self_pairs=False)
+    total = len(pairs)
+
+    # Crops in the universe that have no node in the catalog resolve to
+    # `unknown_nodes` and would otherwise be silently bucketed as `none`. Surface
+    # them so a crop-config / node-catalog drift is visible, not invisible.
+    alias_index = _node_alias_index(catalog)
+    unknown_crops = sorted(c.crop_id for c in crops if c.crop_id.strip().lower() not in alias_index)
+
+    modes_detail: Dict[str, Any] = {}
+    for mode in modes:
+        directional = directionality.get(mode) != "symmetric"
+
+        def _split(graph):
+            grades = Counter()
+            for subject, obj in pairs:
+                res = _best_pair_resolution(
+                    graph, catalog, rank_index, subject.crop_id, obj.crop_id, mode, directional
+                )
+                grade = res["evidence_grade"] if res["status"] in _ANSWERABLE_STATUSES else "none"
+                grades[grade] += 1
+            answerable = grades["peer_reviewed"] + grades["reference_backbone"]
+            return {
+                "answerable": answerable,
+                "peer_reviewed": grades["peer_reviewed"],
+                "reference_backbone": grades["reference_backbone"],
+                "none": grades["none"],
+            }
+
+        # Upgrade candidates and flags are reported per DIRECTION for directional
+        # modes (keys are directed), so a backbone-only direction is never hidden
+        # behind a peer-reviewed reverse direction.
+        upgrade_candidates: List[str] = []
+        superseded: List[str] = []
+        ambiguous: List[str] = []
+        for subject, obj in pairs:
+            for key, res in _directed_resolutions(
+                graph_accepted, catalog, rank_index, subject.crop_id, obj.crop_id, mode, directional
+            ):
+                if res["status"] in _ANSWERABLE_STATUSES and res["evidence_grade"] == "reference_backbone":
+                    upgrade_candidates.append(key)
+                if res.get("tier_superseded_conflict"):
+                    superseded.append(key)
+                if res.get("ambiguous_effect"):
+                    ambiguous.append(key)
+
+        modes_detail[mode] = {
+            "directional": directional,
+            "accepted": _split(graph_accepted),
+            "provisional": _split(graph_provisional),
+            "upgrade_candidates": sorted(upgrade_candidates),
+            "tier_superseded_conflicts": sorted(superseded),
+            "ambiguous_effects": sorted(ambiguous),
+        }
+
+    report = {
+        "run_ids": list(run_ids),
+        "modes": list(modes),
+        "generated_at": current_time(),
+        "crop_count": len(crops),
+        "total_pairs": total,
+        "unknown_crops": unknown_crops,
+        "merged_claim_count": graph_provisional["claim_count"],
+        "accepted_claim_count": graph_accepted["claim_count"],
+        "modes_detail": modes_detail,
+    }
+    label = persist_label or "+".join(run_ids)
+    out_dir = repo_root / "exploration" / "relationships" / "coverage"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "coverage-{0}.json".format(label)).write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    return report
 
 
 # --------------------------------------------------------------------------- #

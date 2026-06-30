@@ -1,0 +1,35 @@
+{
+  "run_id": "backbone-rotation-001",
+  "stage": "relationship_discovery",
+  "generated_at": "2026-06-30T07:13:29Z",
+  "query_kind": "crop_relationship",
+  "relationship_modes": [
+    "rotation"
+  ],
+  "crop_count": 11,
+  "matrix_cell_count": 121,
+  "node_mode": "aggregate",
+  "pair_mode": "ordered",
+  "planned_pair_count": 36,
+  "queries_executed": 144,
+  "ledger_rows": 642,
+  "unique_relationship_sources": 350,
+  "unique_sources": 108,
+  "provider_counts": {
+    "internet_archive": 1,
+    "openalex": 420,
+    "wikipedia": 221
+  },
+  "drop_reason_counts": {
+    "duplicate": 191,
+    "kept": 262,
+    "relevance_gate": 189
+  },
+  "access_status_counts": {
+    "metadata_only": 1,
+    "open_full_text": 641
+  },
+  "retry_queue_size": 36,
+  "ledger_path": "exploration/relationships/discovery/backbone-rotation-001/results.jsonl",
+  "query_plan_path": "exploration/relationships/discovery/backbone-rotation-001/query_plan.json"
+}

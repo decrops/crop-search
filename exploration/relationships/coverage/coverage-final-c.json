@@ -1,0 +1,94 @@
+{
+  "run_ids": [
+    "relationship-rotation-001",
+    "rel-breadth-001",
+    "europe-rotation-001",
+    "backbone-rotation-001",
+    "backbone-intercrop-001",
+    "upgrade-rotation-001"
+  ],
+  "modes": [
+    "rotation",
+    "intercrop"
+  ],
+  "generated_at": "2026-06-30T07:59:19Z",
+  "crop_count": 11,
+  "total_pairs": 55,
+  "unknown_crops": [],
+  "merged_claim_count": 38,
+  "accepted_claim_count": 38,
+  "modes_detail": {
+    "rotation": {
+      "directional": true,
+      "accepted": {
+        "answerable": 34,
+        "peer_reviewed": 21,
+        "reference_backbone": 13,
+        "none": 21
+      },
+      "provisional": {
+        "answerable": 34,
+        "peer_reviewed": 21,
+        "reference_backbone": 13,
+        "none": 21
+      },
+      "upgrade_candidates": [
+        "barley|potato",
+        "barley|soybean",
+        "barley|sugar_beet",
+        "corn|potato",
+        "corn|sugar_beet",
+        "potato|barley",
+        "potato|corn",
+        "potato|rice",
+        "potato|soybean",
+        "potato|sugar_beet",
+        "potato|tomato",
+        "potato|wheat",
+        "rapeseed|barley",
+        "rapeseed|corn",
+        "rapeseed|rice",
+        "rapeseed|wheat",
+        "rice|potato",
+        "rice|soybean",
+        "rice|sugar_beet",
+        "soybean|barley",
+        "soybean|potato",
+        "soybean|rice",
+        "soybean|sugar_beet",
+        "sugar_beet|barley",
+        "sugar_beet|corn",
+        "sugar_beet|potato",
+        "sugar_beet|rice",
+        "sugar_beet|soybean",
+        "sugar_beet|wheat",
+        "sunflower|barley",
+        "sunflower|corn",
+        "sunflower|rapeseed",
+        "sunflower|wheat",
+        "tomato|potato",
+        "wheat|sugar_beet"
+      ],
+      "tier_superseded_conflicts": [],
+      "ambiguous_effects": []
+    },
+    "intercrop": {
+      "directional": false,
+      "accepted": {
+        "answerable": 4,
+        "peer_reviewed": 4,
+        "reference_backbone": 0,
+        "none": 51
+      },
+      "provisional": {
+        "answerable": 4,
+        "peer_reviewed": 4,
+        "reference_backbone": 0,
+        "none": 51
+      },
+      "upgrade_candidates": [],
+      "tier_superseded_conflicts": [],
+      "ambiguous_effects": []
+    }
+  }
+}

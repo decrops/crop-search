@@ -1,0 +1,40 @@
+{
+  "corpus_version": "0.1.0",
+  "run_id": "rel-breadth-001",
+  "source_run": "rel-breadth-001",
+  "crop": "",
+  "manifest_version": "0.4.1",
+  "parser_version": "corpus-blocks-1",
+  "hashing": "sha256",
+  "created_at": "2026-06-29T14:42:35Z",
+  "manifest_revision": 1,
+  "corpus_content_hash": "b6edc21bc30843b75e54b78d1261ed0fef3fce4d4abc0584c043a93ce29c1cca",
+  "previous_corpus_content_hash": "",
+  "policy_hashes": {
+    "source_tier_policy": "abc6ea6a9df76b3212d342bb6d1befd7ac87906937b13144e9a5ed0c93a372f8",
+    "fetch_policy": "76385744d2d046ee80abdadd7bf1bf369106ed20a76ffebee3cd2edac74efa28",
+    "query_templates": "5d4bde1fa41f3d3c193468791b34ac5327441579c076f20ddafe12b3b4f50db1",
+    "parameter_manifest": "7aefd2be069b2606ed6738885ae2afaff8295e6e1cb3b35db0522ffe3c9bf26f"
+  },
+  "capture_count": 24,
+  "document_count": 15,
+  "query_hit_count": 24,
+  "raw_summary_failure_count": 7,
+  "document_index": [
+    "doc-061377a40ea10199",
+    "doc-091a0da3a1c24955",
+    "doc-25c4b4d41e53e92b",
+    "doc-4788cae6155e02d5",
+    "doc-48ed41b0059ce89f",
+    "doc-5f22a02dcd36a51b",
+    "doc-68aee6af265711f9",
+    "doc-6b86b273ff34fce1",
+    "doc-7c954c2943bb39d8",
+    "doc-7cd544f8efa1bee6",
+    "doc-9775f43edebed033",
+    "doc-a13c8cc59379511b",
+    "doc-bc6bdf73b9f6acf1",
+    "doc-e52d5952332cff82",
+    "doc-f6b47b9bcd634c09"
+  ]
+}

@@ -33,7 +33,8 @@ def _claim(cid, mode, subj, obj, *, effect="compatible", subtype="intercrop_comp
         "evidence_text": "{0} {1} intercropping land equivalent ratio 1.3".format(subj, obj),
         "value": {}, "context": {},
         "provenance": {"source_urls": ["https://e.org"], "source_title": "t", "source_domain": "e.org",
-                       "document_type": "html", "accessed_at": "2026-06-29T00:00:00Z", "extraction_method": "opus"},
+                       "document_type": "html", "source_tier_id": "extension_publication",
+                       "accessed_at": "2026-06-29T00:00:00Z", "extraction_method": "opus"},
         "confidence": "medium", "status": "accepted",
     }
     if crop_fields and node_type == "crop":

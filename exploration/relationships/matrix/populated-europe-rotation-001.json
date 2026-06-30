@@ -1,0 +1,2097 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-06-30T05:38:16Z",
+  "crop_universe_source": "config/crops",
+  "relationship_vocabulary_version": "0.1.0",
+  "relationship_modes": [
+    "rotation"
+  ],
+  "crop_count": 11,
+  "cell_count": 121,
+  "crops": [
+    {
+      "crop_id": "barley",
+      "label": "Barley",
+      "crop_group": "cereal",
+      "aliases": [
+        "barley",
+        "spring barley",
+        "winter barley",
+        "malting barley"
+      ],
+      "scientific_names": [
+        "Hordeum vulgare"
+      ]
+    },
+    {
+      "crop_id": "corn",
+      "label": "Corn",
+      "crop_group": "cereal",
+      "aliases": [
+        "corn",
+        "maize",
+        "field corn"
+      ],
+      "scientific_names": [
+        "Zea mays"
+      ]
+    },
+    {
+      "crop_id": "cotton",
+      "label": "Cotton",
+      "crop_group": "fiber",
+      "aliases": [
+        "cotton",
+        "upland cotton"
+      ],
+      "scientific_names": [
+        "Gossypium hirsutum"
+      ]
+    },
+    {
+      "crop_id": "potato",
+      "label": "Potato",
+      "crop_group": "root_crop",
+      "aliases": [
+        "potato",
+        "potatoes",
+        "ware potato",
+        "seed potato"
+      ],
+      "scientific_names": [
+        "Solanum tuberosum"
+      ]
+    },
+    {
+      "crop_id": "rapeseed",
+      "label": "Oilseed rape",
+      "crop_group": "oilseed",
+      "aliases": [
+        "oilseed rape",
+        "rapeseed",
+        "winter oilseed rape",
+        "canola"
+      ],
+      "scientific_names": [
+        "Brassica napus"
+      ]
+    },
+    {
+      "crop_id": "rice",
+      "label": "Rice",
+      "crop_group": "cereal",
+      "aliases": [
+        "rice",
+        "paddy rice"
+      ],
+      "scientific_names": [
+        "Oryza sativa"
+      ]
+    },
+    {
+      "crop_id": "soybean",
+      "label": "Soybean",
+      "crop_group": "legume",
+      "aliases": [
+        "soybean",
+        "soybeans",
+        "soya bean"
+      ],
+      "scientific_names": [
+        "Glycine max"
+      ]
+    },
+    {
+      "crop_id": "sugar_beet",
+      "label": "Sugar beet",
+      "crop_group": "root_crop",
+      "aliases": [
+        "sugar beet",
+        "sugarbeet",
+        "beet"
+      ],
+      "scientific_names": [
+        "Beta vulgaris"
+      ]
+    },
+    {
+      "crop_id": "sunflower",
+      "label": "Sunflower",
+      "crop_group": "oilseed",
+      "aliases": [
+        "sunflower",
+        "oilseed sunflower",
+        "confection sunflower"
+      ],
+      "scientific_names": [
+        "Helianthus annuus"
+      ]
+    },
+    {
+      "crop_id": "tomato",
+      "label": "Tomato",
+      "crop_group": "vegetable",
+      "aliases": [
+        "tomato",
+        "tomatoes",
+        "processing tomato",
+        "fresh market tomato"
+      ],
+      "scientific_names": [
+        "Solanum lycopersicum"
+      ]
+    },
+    {
+      "crop_id": "wheat",
+      "label": "Wheat",
+      "crop_group": "cereal",
+      "aliases": [
+        "wheat",
+        "winter wheat",
+        "spring wheat"
+      ],
+      "scientific_names": [
+        "Triticum aestivum"
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "barley",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "barley|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "corn",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "barley|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "barley|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "potato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "barley|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "barley|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "beneficial",
+          "canonical_relationship_key": "rotation|barley|rapeseed",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "rice",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "barley|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "barley|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "barley|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "barley|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "barley|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|barley|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "barley",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "barley|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "conditional",
+          "canonical_relationship_key": "rotation|barley|wheat",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "barley",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "corn|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "corn",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "corn|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "corn|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "potato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "corn|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "corn|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "rice",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "corn|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "corn|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "corn|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "corn|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "corn|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "corn",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "corn|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|corn|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "barley",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "cotton|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "corn",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "cotton|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "cotton|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "potato",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "cotton|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "cotton|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "rice",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "cotton|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "cotton|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "cotton|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "cotton|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "cotton|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "cotton",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "cotton|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|cotton|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "barley",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "potato|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "corn",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "potato|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "potato|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "potato",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "potato|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "potato|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "rice",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "potato|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "potato|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "potato|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "potato|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "potato|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "potato",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "potato|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|potato|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "barley",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rapeseed|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "corn",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rapeseed|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "rapeseed|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "potato",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "rapeseed|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "rapeseed|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "rice",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rapeseed|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "rapeseed|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "rapeseed|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "rapeseed|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "rapeseed|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rapeseed",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rapeseed|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rapeseed|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "barley",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rice|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "corn",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rice|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "rice|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "potato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "rice|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "rice|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "rice",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rice|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "rice|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "rice|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "rice|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "rice|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "rice",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "rice|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|rice|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "barley",
+      "subject_crop_group": "legume",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "soybean|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "corn",
+      "subject_crop_group": "legume",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "soybean|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "legume",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "soybean|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "potato",
+      "subject_crop_group": "legume",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "soybean|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "legume",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "soybean|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "rice",
+      "subject_crop_group": "legume",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "soybean|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "legume",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "soybean|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "legume",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "soybean|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "legume",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "soybean|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "legume",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "soybean|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "soybean",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "legume",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "soybean|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|soybean|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "barley",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sugar_beet|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "corn",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sugar_beet|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "searched_no_evidence",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "sugar_beet|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "potato",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "sugar_beet|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "sugar_beet|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "rice",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sugar_beet|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "sugar_beet|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "sugar_beet|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "sugar_beet|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "sugar_beet|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sugar_beet|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sugar_beet|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "compatible",
+          "canonical_relationship_key": "rotation|sugar_beet|wheat",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "barley",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sunflower|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "corn",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sunflower|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "sunflower|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "potato",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "sunflower|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "sunflower|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "compatible",
+          "canonical_relationship_key": "rotation|sunflower|rapeseed",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "rice",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sunflower|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "sunflower|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "sunflower|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "sunflower|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "sunflower|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|sunflower|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "sunflower|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "compatible",
+          "canonical_relationship_key": "rotation|sunflower|wheat",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "barley",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "tomato|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "corn",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "tomato|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "tomato|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "potato",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "tomato|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|potato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "tomato|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|rapeseed",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "rice",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "tomato|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "tomato|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "tomato|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "tomato|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "tomato|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "tomato",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "vegetable",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "tomato|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|tomato|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "barley",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "wheat|barley",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|barley",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "corn",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "wheat|corn",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|corn",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "fiber",
+      "ordered_pair_key": "wheat|cotton",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|cotton",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "potato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "wheat|potato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "compatible",
+          "canonical_relationship_key": "rotation|wheat|potato",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "wheat|rapeseed",
+      "mode_statuses": {
+        "rotation": {
+          "status": "evidence_found",
+          "summary_effect": "beneficial",
+          "canonical_relationship_key": "rotation|wheat|rapeseed",
+          "evidence_count": 1,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "rice",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "wheat|rice",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|rice",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "legume",
+      "ordered_pair_key": "wheat|soybean",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|soybean",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "sugar_beet",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "ordered_pair_key": "wheat|sugar_beet",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|sugar_beet",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "sunflower",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "ordered_pair_key": "wheat|sunflower",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|sunflower",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "tomato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "vegetable",
+      "ordered_pair_key": "wheat|tomato",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|tomato",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    },
+    {
+      "subject_crop_id": "wheat",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "ordered_pair_key": "wheat|wheat",
+      "mode_statuses": {
+        "rotation": {
+          "status": "not_searched",
+          "summary_effect": "unknown",
+          "canonical_relationship_key": "rotation|wheat|wheat",
+          "evidence_count": 0,
+          "conflict_count": 0
+        }
+      }
+    }
+  ],
+  "rollups": []
+}

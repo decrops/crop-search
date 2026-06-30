@@ -1,0 +1,14 @@
+{
+  "run_id": "backbone-intercrop-001",
+  "stage": "relationship_fetch_selection",
+  "generated_at": "2026-06-30T07:21:28Z",
+  "ledger_rows": 147,
+  "unique_source_pairs": 142,
+  "selected": 48,
+  "skipped": 94,
+  "skip_reason_counts": {
+    "domain_cap": 80,
+    "pair_mode_saturated": 14
+  },
+  "distinct_pairs_selected": 14
+}

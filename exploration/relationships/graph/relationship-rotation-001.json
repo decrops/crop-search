@@ -1,0 +1,415 @@
+{
+  "run_id": "relationship-rotation-001",
+  "generated_at": "2026-06-30T06:35:46Z",
+  "claim_count": 9,
+  "mode_directionality": {
+    "rotation": "directional",
+    "continuous_cropping": "directional",
+    "double_crop": "directional",
+    "intercrop": "symmetric",
+    "relay_crop": "directional",
+    "strip_crop": "symmetric",
+    "mixed_crop": "symmetric",
+    "companion_crop": "symmetric",
+    "cover_crop": "directional"
+  },
+  "direct": {
+    "rotation|cotton|soybean": [
+      {
+        "relationship_claim_id": "doc-177e2f6232c90e8c-cotton-soybean",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "cotton",
+        "object_crop_id": "soybean",
+        "subject_crop_group": "fiber",
+        "object_crop_group": "legume",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "cotton|soybean",
+        "canonical_relationship_key": "rotation|cotton|soybean",
+        "direction": "object_precedes_subject",
+        "effect": "beneficial",
+        "claim_text": "Cotton grown after soybean showed a yield (lint) increase, with plants significantly taller and higher in chlorophyll than continuous cotton, attributed to residual nitrogen fixed by the preceding soybean crop or favorable changes in soil microbial populations.",
+        "evidence_text": "Pettigrew et al. (2016) recently concluded that cotton demonstrated a yield increase following soybean that was likely due to increased levels of soil N through fixation from the previous soybean crop or an alteration of soil microbial pop ulations favorable to the succeeding cotton crop.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "location": "Elizabeth, Mississippi, USA",
+          "system": "irrigated cotton-soybean rotation",
+          "years": "2012-2015"
+        },
+        "mechanisms": [
+          "residual nitrogen from soybean N fixation",
+          "alteration of soil microbial populations favorable to succeeding cotton"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.26832/24566632.2018.0301013"
+          ],
+          "source_title": "https://doi.org/10.26832/24566632.2018.0301013",
+          "source_domain": "doi.org",
+          "document_type": "pdf",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-177e2f6232c90e8c",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "medium",
+        "status": "accepted"
+      }
+    ],
+    "rotation|soybean|cotton": [
+      {
+        "relationship_claim_id": "doc-177e2f6232c90e8c-soybean-cotton",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "soybean",
+        "object_crop_id": "cotton",
+        "subject_crop_group": "legume",
+        "object_crop_group": "fiber",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "soybean|cotton",
+        "canonical_relationship_key": "rotation|soybean|cotton",
+        "direction": "object_precedes_subject",
+        "effect": "neutral",
+        "claim_text": "Soybean grown following cotton in rotation showed no positive or negative differences relative to other treatments; no rotational effect was observed in any of the soybean crops in the experiment.",
+        "evidence_text": "No such differences wereobservedin any of the soybean crops produced in the experiment (data not shown, in review).",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "location": "Elizabeth, Mississippi, USA",
+          "system": "irrigated cotton-soybean rotation",
+          "years": "2012-2015"
+        },
+        "mechanisms": [],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.26832/24566632.2018.0301013"
+          ],
+          "source_title": "https://doi.org/10.26832/24566632.2018.0301013",
+          "source_domain": "doi.org",
+          "document_type": "pdf",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-177e2f6232c90e8c",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "medium",
+        "status": "accepted"
+      }
+    ],
+    "rotation|corn|wheat": [
+      {
+        "relationship_claim_id": "doc-56559b38bb744bb0-corn-wheat",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "corn",
+        "object_crop_id": "wheat",
+        "subject_crop_group": "cereal",
+        "object_crop_group": "cereal",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "corn|wheat",
+        "canonical_relationship_key": "rotation|corn|wheat",
+        "direction": "object_precedes_subject",
+        "effect": "beneficial",
+        "claim_text": "In a winter wheat-ecofallow-corn-fallow rotation across Nebraska, surface mulch from the preceding winter wheat crop increased corn growth and yield; a mulch level of 3.4 to 5.1 t/ha increased corn yield by 14 to 15% over unmulched corn.",
+        "evidence_text": "Research was conducted to determine the effect of winter wheat straw mulch levels of 0, 1.7, 3.4, 5.1, and 6.8 t ha \u20131 and metolachlor rates of 0, 0.5, 1.0, and 1.5X-rates on corn growth and yield in a winter wheat-ecofallow-corn-fallow rotation at three locations across Nebraska.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "region": "central Great Plains / Nebraska",
+          "system": "winter wheat-ecofallow-corn-fallow rotation, no-tillage",
+          "yield_increase": "14 to 15% at 3.4-5.1 t/ha mulch over unmulched corn"
+        },
+        "mechanisms": [
+          "increased soil moisture from wheat residue mulch after tasseling",
+          "reduced weed competition"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.1017/s0043174500084307"
+          ],
+          "source_title": "Influence of Wheat (Triticum aestivum) Straw Mulch and Metolachlor on Corn (Zea mays) Growth and Yield | Weed Science | Cambridge Core",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-56559b38bb744bb0",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "high",
+        "status": "accepted"
+      }
+    ],
+    "rotation|corn|soybean": [
+      {
+        "relationship_claim_id": "doc-5f22a02dcd36a51b-corn-soybean",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "corn",
+        "object_crop_id": "soybean",
+        "subject_crop_group": "cereal",
+        "object_crop_group": "legume",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "corn|soybean",
+        "canonical_relationship_key": "rotation|corn|soybean",
+        "direction": "object_precedes_subject",
+        "effect": "beneficial",
+        "claim_text": "Corn grown in a corn-soybean rotation (vs continuous soybean) increased soil organic carbon and labile carbon pools, driven by the C-enriched corn biomass added in the corn phase.",
+        "evidence_text": "An increase in SOC across the sites, except Ohio-Hoytville, under CS-C compared to SS was due to increased deposition of C inputs that consists of larger amounts of C-enriched corn biomass followed by lesser amounts of highly decomposable N-rich soybean biomass.",
+        "value": {
+          "value_type": "range",
+          "range_min": 49,
+          "range_max": 60,
+          "unit": "percent",
+          "raw_value_text": "The SOC values were higher by 49 to 60% under both CS phases than under SS in Alabama"
+        },
+        "context": {
+          "management_system": "no-till",
+          "water_regime": "rainfed",
+          "input_system": "corn-soybean rotation vs continuous soybean"
+        },
+        "mechanisms": [
+          "C-enriched corn residue inputs",
+          "increased soil organic carbon",
+          "increased labile carbon pools"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.1371/journal.pone.0275198"
+          ],
+          "source_title": "Gypsum, crop rotation, and cover crop impacts on soil organic carbon and biological dynamics in rainfed transitional no-till corn-soybean systems | PLOS One",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-5f22a02dcd36a51b",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "medium",
+        "status": "accepted"
+      }
+    ],
+    "rotation|soybean|corn": [
+      {
+        "relationship_claim_id": "doc-5f22a02dcd36a51b-soybean-corn",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "soybean",
+        "object_crop_id": "corn",
+        "subject_crop_group": "legume",
+        "object_crop_group": "cereal",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "soybean|corn",
+        "canonical_relationship_key": "rotation|soybean|corn",
+        "direction": "object_precedes_subject",
+        "effect": "beneficial",
+        "claim_text": "Both phases of the corn-soybean rotation (including soybean following corn) increased soil organic carbon, active C, and the carbon management index relative to continuous soybean.",
+        "evidence_text": "CS rotation increased SOC, active C, CPI, and CMI compared to SS, but decreased SMBC and SMBC:SOC within and across sites.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "management_system": "no-till",
+          "water_regime": "rainfed",
+          "input_system": "corn-soybean rotation vs continuous soybean"
+        },
+        "mechanisms": [
+          "crop residue diversity",
+          "increased soil organic carbon",
+          "increased active carbon"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.1371/journal.pone.0275198"
+          ],
+          "source_title": "Gypsum, crop rotation, and cover crop impacts on soil organic carbon and biological dynamics in rainfed transitional no-till corn-soybean systems | PLOS One",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-5f22a02dcd36a51b",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "medium",
+        "status": "accepted"
+      }
+    ],
+    "rotation|tomato|rice": [
+      {
+        "relationship_claim_id": "doc-66d4ef43b918279c-tomato-rice",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "tomato",
+        "object_crop_id": "rice",
+        "subject_crop_group": "vegetable",
+        "object_crop_group": "cereal",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "tomato|rice",
+        "canonical_relationship_key": "rotation|tomato|rice",
+        "direction": "object_precedes_subject",
+        "effect": "compatible",
+        "claim_text": "Tomato was successfully grown after rice in upland rice fallows within an upland rice-based cropping system; tomato varieties performed well when planted early (16 November) with 15-day-old seedlings, with fruit yields up to 60.7 t/ha.",
+        "evidence_text": "A study was conducted during the winter season of 1994-95 and 1995-96 in upland rice (Ofyza sativa L.) fallows to evaluate the impact of seedling age and planting time on the fruit yield performance of different varieties ('BT la', 'BT 12', 'BT 1 O', 'BT 2' and 'MIX ENT') of tomato (Lycopersicon lycopersicum Mill.).",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "system": "upland rice-based cropping system / rice fallows",
+          "season": "winter 1994-95 and 1995-96",
+          "best_practice": "early planting (16 November) with 15-day-old seedlings"
+        },
+        "mechanisms": [],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.59797/ija.v44i4.3569"
+          ],
+          "source_title": "Impact of seedling age and planting time on yield performance of tomato (Lycopersicon lycopersicum) in upland rice (Oryza sativa)-based cropping system\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-66d4ef43b918279c",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "medium",
+        "status": "accepted"
+      }
+    ],
+    "rotation|sunflower|rice": [
+      {
+        "relationship_claim_id": "doc-74dcee8f8490d003-sunflower-rice",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "sunflower",
+        "object_crop_id": "rice",
+        "subject_crop_group": "oilseed",
+        "object_crop_group": "cereal",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "sunflower|rice",
+        "canonical_relationship_key": "rotation|sunflower|rice",
+        "direction": "object_precedes_subject",
+        "effect": "conditional",
+        "claim_text": "Sunflower grown after a nutrient-exhaustive rice crop risked nutrient depletion, but adequate nitrogen applied to the preceding rice prevented the succeeding sunflower from being severely deprived.",
+        "evidence_text": "The application of 120 kg N /ha to rice recouped its removal by the crop from the soil. Therefore, the succeeding sunflower was not severely deprived of the nutrient absorption.",
+        "value": {
+          "value_type": "numeric",
+          "numeric_value": 120,
+          "unit": "kg N/ha",
+          "raw_value_text": "The application of 120 kg N /ha to rice recouped its removal by the crop from the soil"
+        },
+        "context": {
+          "input_system": "rice-sunflower sequence with N applied to rice"
+        },
+        "mechanisms": [
+          "residual soil nitrogen",
+          "nutrient depletion by preceding rice"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.59797/ija.v50i4.5123"
+          ],
+          "source_title": "Influence of conjuctive use of organic and inorganic source of nutrients in rice (Oryza sativa) on crop growth, yield components, yield and soil fertility in rice- sunflower (Helianthus annuus) sequence\n\t\t\t\t\t\t\t| Indian Journal of Agronomy",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-74dcee8f8490d003",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "low",
+        "status": "needs_review"
+      }
+    ],
+    "rotation|soybean|wheat": [
+      {
+        "relationship_claim_id": "doc-b2abbe1c82372db7-soybean-wheat",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "soybean",
+        "object_crop_id": "wheat",
+        "subject_crop_group": "legume",
+        "object_crop_group": "cereal",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "soybean|wheat",
+        "canonical_relationship_key": "rotation|soybean|wheat",
+        "direction": "object_precedes_subject",
+        "effect": "conditional",
+        "claim_text": "High levels of surface wheat residue increased the yield of soybean grown after wheat in weedy plots (20 to 29% increase as residue rose from 0 to 6 Mg/ha) by reducing giant foxtail infestation, but soybean yield was similar across residue levels in weed-free plots.",
+        "evidence_text": "In absence of frost in 1993 and 1994, yield of weedy soybean increased 20 to 29%, respectively, with the increase of SWR from 0 to 6 Mg ha \u22121 . In weed-free plots, soybean yield was similar across all SWR levels. These results confirm the hypothesis that high levels of SWR increased soybean yield in weedy plots because of decreased giant foxtail infestation.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "residue_range": "0 to 12 Mg/ha surface wheat residues",
+          "condition": "benefit observed in weedy plots; no effect in weed-free plots",
+          "note": "frost in 1992 injured soybean more in plots with residue"
+        },
+        "mechanisms": [
+          "surface wheat residue suppressed giant foxtail (weed) infestation"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.1017/s0043174500094959"
+          ],
+          "source_title": "Surface Wheat (Triticum aestivum) Residues, Giant Foxtail (Setaria faberi), and Soybean (Glycine max) Yield | Weed Science | Cambridge Core",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-b2abbe1c82372db7",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "medium",
+        "status": "accepted"
+      }
+    ],
+    "rotation|wheat|soybean": [
+      {
+        "relationship_claim_id": "doc-d433cc021cfa4aeb-wheat-soybean",
+        "run_id": "relationship-rotation-001",
+        "subject_crop_id": "wheat",
+        "object_crop_id": "soybean",
+        "subject_crop_group": "cereal",
+        "object_crop_group": "legume",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "ordered_pair_key": "wheat|soybean",
+        "canonical_relationship_key": "rotation|wheat|soybean",
+        "direction": "object_precedes_subject",
+        "effect": "conditional",
+        "claim_text": "Wheat grown where the previous crop was soybean still showed abundant Fusarium graminearum head-blight infection, since the pathogen also infects soybean and so soybean does not break the disease cycle.",
+        "evidence_text": "In this study, FGSC was sometimes found to be the dominant species at localities where the previous crop was not maize, and where conventional tillage was practiced. These included all localities in the Bushveld, where the FGSC was abundant and the previous crops at the respective sites were sunflower, peppers, soybean and cabbage.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "management_system": "conventional tillage",
+          "input_system": "wheat rotated with soybean in South Africa"
+        },
+        "mechanisms": [
+          "Fusarium head blight inoculum carryover",
+          "shared host pathogen"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.1371/journal.pone.0275084"
+          ],
+          "source_title": "The distribution and type B trichothecene chemotype of Fusarium species associated with head blight of wheat in South Africa during 2008 and 2009 | PLOS One",
+          "source_domain": "doi.org",
+          "document_type": "html",
+          "accessed_at": "2026-06-24T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-d433cc021cfa4aeb",
+          "source_tier_id": "peer_reviewed_science"
+        },
+        "confidence": "low",
+        "status": "needs_review"
+      }
+    ]
+  },
+  "aggregate": {},
+  "host_overlays": {}
+}

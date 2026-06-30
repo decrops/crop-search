@@ -1,0 +1,15 @@
+{
+  "run_id": "backbone-rotation-001",
+  "stage": "relationship_fetch_selection",
+  "generated_at": "2026-06-30T07:21:28Z",
+  "ledger_rows": 642,
+  "unique_source_pairs": 350,
+  "selected": 81,
+  "skipped": 269,
+  "skip_reason_counts": {
+    "domain_cap": 120,
+    "pair_mode_saturated": 61,
+    "relevance_gated": 88
+  },
+  "distinct_pairs_selected": 21
+}

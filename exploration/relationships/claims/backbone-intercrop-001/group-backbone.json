@@ -1,0 +1,41 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "bb-int-cereal-legume",
+      "run_id": "backbone-intercrop-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "legume",
+      "relationship_mode": "intercrop",
+      "relationship_subtype": "intercrop_compatibility",
+      "direction": "simultaneous",
+      "ordered_pair_key": "cereal|legume",
+      "canonical_relationship_key": "intercrop|cereal|legume",
+      "effect": "beneficial",
+      "claim_text": "Intercropping cereals with nitrogen-fixing legumes reduces the need for nitrogen fertilizer, a recognized benefit of cereal-legume mixtures.",
+      "evidence_text": "Fossil fuel-based nitrogen fertilizer usage can be reduced by intercropping cereals with legumes which fix nitrogen.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "nitrogen"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Cereal"
+        ],
+        "source_title": "Cereal - Wikipedia",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-c3795e7ea0f10c8d"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    }
+  ]
+}

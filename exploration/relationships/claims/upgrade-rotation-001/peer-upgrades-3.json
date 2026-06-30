@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "up-rot-cereal-after-legume-lukavec",
+      "run_id": "upgrade-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|legume",
+      "canonical_relationship_key": "rotation|cereal|legume",
+      "effect": "beneficial",
+      "claim_text": "A 40-year field experiment found winter wheat grain yield was highest after legume preceding crops (5.4 t/ha), intermediate after oil plants (4.7 t/ha), and lowest after cereals (4.1 t/ha), quantifying the yield advantage of a legume before a cereal.",
+      "evidence_text": "The influence of the preceding crop on wheat grain yield was found to be significant between 1979 and 2018, with grain yields of 5.4 \u00b1 1.8 t/ha after legumes, 4.7 \u00b1 2.0 t/ha after oil plants, and 4.1 \u00b1 1.8 t/ha after cereals.",
+      "value": {
+        "value_type": "text",
+        "raw_value_text": "wheat after legumes 5.4 vs after cereals 4.1 t/ha"
+      },
+      "context": {
+        "location": "Lukavec, Czech Republic",
+        "temporal_offset": "1979-2018"
+      },
+      "mechanisms": [
+        "nitrogen"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10974760/"
+        ],
+        "source_title": "The Evaluation of a Long-Term Experiment on the Relationships between Weather, Nitrogen Fertilization, Preceding Crop, and Winter Wheat Grain Yield on Cambisol",
+        "source_domain": "ncbi.nlm.nih.gov",
+        "document_type": "html",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "high",
+      "status": "accepted"
+    }
+  ]
+}

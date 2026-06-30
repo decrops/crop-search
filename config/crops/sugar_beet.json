@@ -1,0 +1,34 @@
+{
+  "crop_id": "sugar_beet",
+  "label": "Sugar beet",
+  "crop_group": "root_crop",
+  "aliases": [
+    "sugar beet",
+    "sugarbeet",
+    "beet"
+  ],
+  "scientific_names": [
+    "Beta vulgaris"
+  ],
+  "growth_stage_terms": [
+    "emergence",
+    "leaf development",
+    "rosette",
+    "canopy closure",
+    "root growth",
+    "sugar accumulation",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "root crop",
+    "sugar crop",
+    "row crop",
+    "industrial crop"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "europe-rotation-001",
+  "stage": "relationship_discovery",
+  "generated_at": "2026-06-29T15:27:33Z",
+  "query_kind": "crop_relationship",
+  "relationship_modes": [
+    "rotation"
+  ],
+  "crop_count": 7,
+  "matrix_cell_count": 49,
+  "node_mode": "crop",
+  "pair_mode": "ordered",
+  "planned_pair_count": 49,
+  "queries_executed": 60,
+  "ledger_rows": 380,
+  "unique_relationship_sources": 296,
+  "unique_sources": 167,
+  "provider_counts": {
+    "crossref": 118,
+    "europe_pmc": 79,
+    "openalex": 92,
+    "wikipedia": 91
+  },
+  "drop_reason_counts": {
+    "duplicate": 67,
+    "kept": 257,
+    "relevance_gate": 56
+  },
+  "access_status_counts": {
+    "metadata_only": 118,
+    "open_full_text": 262
+  },
+  "retry_queue_size": 42,
+  "ledger_path": "exploration/relationships/discovery/europe-rotation-001/results.jsonl",
+  "query_plan_path": "exploration/relationships/discovery/europe-rotation-001/query_plan.json"
+}

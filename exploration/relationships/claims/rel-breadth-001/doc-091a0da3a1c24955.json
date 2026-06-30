@@ -1,0 +1,89 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-091a-cotton-soybean-rotation",
+      "run_id": "rel-breadth-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "cotton",
+      "object_node_type": "crop",
+      "object_node_id": "soybean",
+      "subject_crop_id": "cotton",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "fiber",
+      "object_crop_group": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "rotation_interval",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cotton|soybean",
+      "canonical_relationship_key": "rotation|cotton|soybean",
+      "effect": "compatible",
+      "claim_text": "Cotton and soybean are grown together in an established cotton-soybean-wheat two-year rotation evaluated across biodynamic, organic, and conventional systems in India.",
+      "evidence_text": "A cotton-soybean-wheat crop rotation under biodynamic, organic and conventional (with and without Bt cotton) management was investigated.",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "India",
+        "management_system": "biodynamic / organic / conventional",
+        "temporal_offset": "two-year rotation"
+      },
+      "mechanisms": [],
+      "provenance": {
+        "source_urls": [
+          "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0081039&type=printable"
+        ],
+        "source_title": "Yield and economic performance of organic and conventional cotton-based farming systems",
+        "source_domain": "journals.plos.org",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-091a0da3a1c24955"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "doc-091a-cotton-wheat-rotation",
+      "run_id": "rel-breadth-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "wheat",
+      "object_node_type": "crop",
+      "object_node_id": "cotton",
+      "subject_crop_id": "wheat",
+      "object_crop_id": "cotton",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "fiber",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "rotation_interval",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "wheat|cotton",
+      "canonical_relationship_key": "rotation|wheat|cotton",
+      "effect": "compatible",
+      "claim_text": "Wheat follows cotton and soybean within an established cotton-soybean-wheat two-year rotation in India.",
+      "evidence_text": "The two-year crop rotation consisted of cotton (Gossypium hirsutum L.) ... soybean ... and wheat in an established cotton-soybean-wheat crop rotation.",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "India",
+        "temporal_offset": "two-year rotation"
+      },
+      "mechanisms": [],
+      "provenance": {
+        "source_urls": [
+          "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0081039&type=printable"
+        ],
+        "source_title": "Yield and economic performance of organic and conventional cotton-based farming systems",
+        "source_domain": "journals.plos.org",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-091a0da3a1c24955"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    }
+  ]
+}

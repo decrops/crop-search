@@ -74,6 +74,7 @@ def _claim(
             "source_title": "Relationship fixture",
             "source_domain": "example.org",
             "document_type": "html",
+            "source_tier_id": "extension_publication",
             "accessed_at": "2026-06-24T00:00:00Z",
             "extraction_method": "fixture",
         },
@@ -125,7 +126,10 @@ class HybridRelationshipGraphTests(unittest.TestCase):
         catalog = rp.load_node_catalog(REPO)
         SchemaRegistry(REPO).validate("relationship-node-catalog.schema.json", catalog)
         major = {node["node_id"] for node in catalog["nodes"] if node["matrix_tier"] == "major_direct"}
-        self.assertEqual(major, {"corn", "cotton", "rice", "soybean", "sunflower", "tomato", "wheat"})
+        self.assertEqual(major, {
+            "corn", "cotton", "rice", "soybean", "sunflower", "tomato", "wheat",
+            "barley", "rapeseed", "sugar_beet", "potato",
+        })
 
     def test_crop_claims_remain_valid_with_and_without_node_fields(self) -> None:
         registry = SchemaRegistry(REPO)

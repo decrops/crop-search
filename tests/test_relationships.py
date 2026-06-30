@@ -11,6 +11,7 @@ from crop_search_framework.relationships import (
     build_relationship_query_plan,
     canonical_relationship_key,
     discover_relationships,
+    load_crop_universe,
     load_relationship_vocabulary,
     modes_by_id,
     ordered_pair_key,
@@ -38,9 +39,11 @@ class RelationshipMatrixTests(unittest.TestCase):
         crop_ids = {crop["crop_id"] for crop in matrix["crops"]}
         ordered_keys = {cell["ordered_pair_key"] for cell in matrix["cells"]}
 
-        self.assertEqual(matrix["crop_count"], 7)
-        self.assertEqual(matrix["cell_count"], 49)
-        self.assertEqual(crop_ids, {"corn", "cotton", "rice", "soybean", "sunflower", "tomato", "wheat"})
+        # Universe size is data-driven (config/crops), so derive expectations.
+        n = len(list((REPO_ROOT / "config" / "crops").glob("*.json")))
+        self.assertEqual(matrix["crop_count"], n)
+        self.assertEqual(matrix["cell_count"], n * n)
+        self.assertTrue({"corn", "cotton", "rice", "soybean", "sunflower", "tomato", "wheat"} <= crop_ids)
         self.assertIn("corn|soybean", ordered_keys)
         self.assertIn("corn|corn", ordered_keys)
         self.assertNotIn("corn|legumes", ordered_keys)
@@ -80,11 +83,12 @@ class RelationshipMatrixTests(unittest.TestCase):
         registry = SchemaRegistry(REPO_ROOT)
         registry.validate("crop-relationship-query-plan.schema.json", plan)
 
-        self.assertEqual(plan["crop_count"], 7)
-        self.assertEqual(plan["matrix_cell_count"], 49)
-        self.assertEqual(plan["planned_pair_count"], 49)
+        n = len(list((REPO_ROOT / "config" / "crops").glob("*.json")))
+        self.assertEqual(plan["crop_count"], n)
+        self.assertEqual(plan["matrix_cell_count"], n * n)
+        self.assertEqual(plan["planned_pair_count"], n * n)
         self.assertEqual(len(plan["source_tier_ids"]), 5)
-        self.assertEqual(plan["query_count"], 49 * 5)
+        self.assertEqual(plan["query_count"], n * n * 5)
         self.assertFalse(plan["truncated"])
 
         queries = plan["queries"]
@@ -117,6 +121,7 @@ class RelationshipMatrixTests(unittest.TestCase):
                 "source_title": "Rotation guide",
                 "source_domain": "example.org",
                 "document_type": "html",
+                "source_tier_id": "extension_publication",
                 "accessed_at": "2026-06-24T00:00:00Z",
                 "extraction_method": "fixture",
             },
@@ -167,12 +172,14 @@ class RelationshipMatrixTests(unittest.TestCase):
             self.assertEqual(summary["queries_executed"], 1)
             self.assertEqual(summary["ledger_rows"], 1)
             self.assertEqual(summary["stage"], "relationship_discovery")
+            # max_pairs=1 picks the first self-pair in the (crop_id-sorted) universe.
+            first = load_crop_universe(REPO_ROOT)[0].crop_id
             self.assertEqual(rows[0]["query_kind"], "crop_relationship")
-            self.assertEqual(rows[0]["ordered_pair_key"], "corn|corn")
-            self.assertEqual(rows[0]["canonical_relationship_key"], "rotation|corn|corn")
+            self.assertEqual(rows[0]["ordered_pair_key"], "{0}|{0}".format(first))
+            self.assertEqual(rows[0]["canonical_relationship_key"], "rotation|{0}|{0}".format(first))
             self.assertEqual(rows[0]["relationship_mode"], "rotation")
             self.assertEqual(rows[0]["source_tier"], "extension_publication")
-            self.assertEqual(rows[0]["relationship_source_key"], "rotation|corn|corn|doi:10.1234/corn-rotation")
+            self.assertEqual(rows[0]["relationship_source_key"], "rotation|{0}|{0}|doi:10.1234/corn-rotation".format(first))
         finally:
             if out_dir.exists():
                 shutil.rmtree(out_dir)

@@ -1,6 +1,6 @@
 # Project Handoff
 
-Generated at: `2026-06-29T14:26:38Z`
+Generated at: `2026-06-30T05:39:35Z`
 
 This is the canonical start-here file for future sessions. Read this first, then use the referenced files only as needed.
 
@@ -105,7 +105,7 @@ PYTHONPATH=src python3 -m crop_search_framework.cli write-capability-map
 PYTHONPATH=src python3 -m crop_search_framework.cli write-handoff
 ```
 
-Last implementation-log section detected: `2026-06-29: Intercropping / symmetric relationship capture`.
+Last implementation-log section detected: `2026-06-30: EU crops + fetch robustness + crop reference articles`.
 
 ## Automatic Session Rule
 

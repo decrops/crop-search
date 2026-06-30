@@ -1,0 +1,259 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "bb-rot-cereal-after-legume",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|legume",
+      "canonical_relationship_key": "rotation|cereal|legume",
+      "effect": "beneficial",
+      "claim_text": "A cereal grown after a nitrogen-fixing legume benefits from the residual nitrogen the legume contributes to the soil.",
+      "evidence_text": "A great advantage of crop rotation comes from the interrelationship of nitrogen-fixing crops with nitrogen-demanding crops. With green manure use, the amount of nitrogen that is available to the succeeding crop is usually in the range of 40-60% of the total amount of nitrogen that is contained within the green manure crop.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "nitrogen"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Crop_rotation",
+          "https://en.wikipedia.org/wiki/Green_manure"
+        ],
+        "source_title": "Crop rotation; Green manure (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-legume-after-cereal",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "legume",
+      "object_node_type": "functional_group",
+      "object_node_id": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "legume|cereal",
+      "canonical_relationship_key": "rotation|legume|cereal",
+      "effect": "compatible",
+      "claim_text": "Legumes are standard rotational partners for cereals, alternating with them to break pest and disease cycles.",
+      "evidence_text": "In Europe, winter rapeseed is grown as an annual break crop in three to four-year rotations with cereals such as wheat and barley, and break crops such as peas and beans. This is done to reduce the possibility of pests and diseases being carried over from one crop to another.",
+      "value": {},
+      "context": {
+        "location": "Europe"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Rapeseed"
+        ],
+        "source_title": "Rapeseed (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-cereal-after-oilseed",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|oilseed",
+      "canonical_relationship_key": "rotation|cereal|oilseed",
+      "effect": "compatible",
+      "claim_text": "Cereals such as wheat and barley are grown in rotation after oilseed rape, which serves as a break crop between cereal crops.",
+      "evidence_text": "In Europe, winter rapeseed is grown as an annual break crop in three to four-year rotations with cereals such as wheat and barley, and break crops such as peas and beans.",
+      "value": {},
+      "context": {
+        "location": "Europe"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Rapeseed"
+        ],
+        "source_title": "Rapeseed (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-oilseed-after-cereal",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "oilseed",
+      "object_node_type": "functional_group",
+      "object_node_id": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "oilseed|cereal",
+      "canonical_relationship_key": "rotation|oilseed|cereal",
+      "effect": "compatible",
+      "claim_text": "Oilseed rape is grown as a break crop in rotation with cereals such as wheat and barley.",
+      "evidence_text": "In Europe, winter rapeseed is grown as an annual break crop in three to four-year rotations with cereals such as wheat and barley, and break crops such as peas and beans.",
+      "value": {},
+      "context": {
+        "location": "Europe"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Rapeseed"
+        ],
+        "source_title": "Rapeseed (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-cereal-after-cereal",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "continuous_cropping_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|cereal",
+      "canonical_relationship_key": "rotation|cereal|cereal",
+      "effect": "conditional",
+      "claim_text": "Growing a cereal after another cereal (same plant family, Poaceae) raises pest and disease pressure and is discouraged when the same crop is repeated continuously.",
+      "evidence_text": "Plants within the same taxonomic family tend to have similar pests and pathogens. Repeated cultivation of a single crop exhausts soil nutrients and reduces microbial diversity, thereby diminishing soil fertility.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "pest_suppression",
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Crop_rotation",
+          "https://en.wikipedia.org/wiki/Monoculture"
+        ],
+        "source_title": "Crop rotation; Monoculture (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-oilseed-after-oilseed",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "oilseed",
+      "object_node_type": "functional_group",
+      "object_node_id": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "continuous_cropping_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "oilseed|oilseed",
+      "canonical_relationship_key": "rotation|oilseed|oilseed",
+      "effect": "avoid",
+      "claim_text": "Oilseed crops should not be grown in close rotation with each other because of shared soil-borne diseases such as sclerotinia.",
+      "evidence_text": "Oilseed rape cannot be planted in close rotation with itself due to soil-borne diseases such as sclerotinia, verticillium wilt and clubroot.",
+      "value": {},
+      "context": {
+        "location": "Europe"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Rapeseed"
+        ],
+        "source_title": "Rapeseed (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-solanaceae-after-solanaceae",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "botanical_family",
+      "subject_node_id": "solanaceae",
+      "object_node_type": "botanical_family",
+      "object_node_id": "solanaceae",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "continuous_cropping_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "solanaceae|solanaceae",
+      "canonical_relationship_key": "rotation|solanaceae|solanaceae",
+      "effect": "conditional",
+      "claim_text": "Crops of the same botanical family Solanaceae (e.g. potato and tomato) share pests and pathogens, so rotating one after another raises disease risk.",
+      "evidence_text": "Plants within the same taxonomic family tend to have similar pests and pathogens.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Crop_rotation"
+        ],
+        "source_title": "Crop rotation (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    }
+  ]
+}

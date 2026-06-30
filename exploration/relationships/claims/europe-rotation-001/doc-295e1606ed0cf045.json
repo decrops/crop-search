@@ -1,0 +1,135 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-295e-rapeseed-before-barley-breakcrop",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "barley",
+      "object_node_type": "crop",
+      "object_node_id": "rapeseed",
+      "subject_crop_id": "barley",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "barley|rapeseed",
+      "canonical_relationship_key": "rotation|barley|rapeseed",
+      "effect": "beneficial",
+      "claim_text": "Planting oilseed rape before a cereal such as barley is a widely reported beneficial break-crop rotation, improving the subsequent cereal crop.",
+      "evidence_text": "Oilseed rape is a highly profitable crop when managed correctly, and the benefits of planting OSR before a cereal in crop rotation schemes are widely reported [8-10].",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Europe / Sweden",
+        "management_system": "arable crop rotation"
+      },
+      "mechanisms": [
+        "disease_break",
+        "soil_structure"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1186/s13750-022-00277-9"
+        ],
+        "source_title": "Plant disease protection measures and strategies for oilseed rape: a systematic map",
+        "source_domain": "environmentalevidencejournal.biomedcentral.com",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-295e1606ed0cf045"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "doc-295e-rapeseed-before-wheat-breakcrop",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "wheat",
+      "object_node_type": "crop",
+      "object_node_id": "rapeseed",
+      "subject_crop_id": "wheat",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "wheat|rapeseed",
+      "canonical_relationship_key": "rotation|wheat|rapeseed",
+      "effect": "beneficial",
+      "claim_text": "Planting oilseed rape before a cereal such as wheat is a widely reported beneficial break-crop rotation.",
+      "evidence_text": "Oilseed rape is a highly profitable crop when managed correctly, and the benefits of planting OSR before a cereal in crop rotation schemes are widely reported [8-10].",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Europe / Sweden",
+        "management_system": "arable crop rotation"
+      },
+      "mechanisms": [
+        "disease_break",
+        "soil_structure"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1186/s13750-022-00277-9"
+        ],
+        "source_title": "Plant disease protection measures and strategies for oilseed rape: a systematic map",
+        "source_domain": "environmentalevidencejournal.biomedcentral.com",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-295e1606ed0cf045"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "doc-295e-clubroot-narrow-rotation-hostrisk",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "host_group",
+      "subject_node_id": "clubroot_host",
+      "object_node_type": "host_group",
+      "object_node_id": "clubroot_host",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "host_risk",
+      "direction": "not_directional",
+      "ordered_pair_key": "clubroot_host|clubroot_host",
+      "canonical_relationship_key": "rotation|clubroot_host|clubroot_host",
+      "effect": "avoid",
+      "claim_text": "Narrow crop rotations driven by demand for rapeseed (a clubroot host) have spread clubroot across major European production regions; clubroot hosts should not be grown in tight rotation.",
+      "evidence_text": "The increasing spread of clubroot in the major production regions of Canada, the UK, Germany, Poland, the Czech Republic, China and other countries is a consequence of the practice of narrow crop rotations due to the increasing demand for rapeseed oil [11, 15-21].",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "host_group": "clubroot_host",
+        "risk_factor": "clubroot",
+        "location": "Europe / global"
+      },
+      "mechanisms": [
+        "disease_carryover"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1186/s13750-022-00277-9"
+        ],
+        "source_title": "Plant disease protection measures and strategies for oilseed rape: a systematic map",
+        "source_domain": "environmentalevidencejournal.biomedcentral.com",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-295e1606ed0cf045"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "run_ids": [
+    "relationship-rotation-001",
+    "rel-breadth-001",
+    "europe-rotation-001",
+    "backbone-rotation-001",
+    "backbone-intercrop-001"
+  ],
+  "modes": [
+    "rotation",
+    "intercrop"
+  ],
+  "generated_at": "2026-06-30T07:41:37Z",
+  "crop_count": 11,
+  "total_pairs": 55,
+  "unknown_crops": [],
+  "merged_claim_count": 30,
+  "accepted_claim_count": 30,
+  "modes_detail": {
+    "rotation": {
+      "directional": true,
+      "accepted": {
+        "answerable": 25,
+        "peer_reviewed": 11,
+        "reference_backbone": 14,
+        "none": 30
+      },
+      "provisional": {
+        "answerable": 25,
+        "peer_reviewed": 11,
+        "reference_backbone": 14,
+        "none": 30
+      },
+      "upgrade_candidates": [
+        "barley|corn",
+        "barley|rice",
+        "barley|soybean",
+        "barley|sunflower",
+        "corn|barley",
+        "corn|rapeseed",
+        "corn|rice",
+        "corn|sunflower",
+        "potato|tomato",
+        "rapeseed|barley",
+        "rapeseed|corn",
+        "rapeseed|rice",
+        "rapeseed|sunflower",
+        "rapeseed|wheat",
+        "rice|barley",
+        "rice|corn",
+        "rice|rapeseed",
+        "rice|soybean",
+        "rice|sunflower",
+        "rice|wheat",
+        "soybean|barley",
+        "soybean|rice",
+        "sugar_beet|wheat",
+        "sunflower|barley",
+        "sunflower|corn",
+        "sunflower|rapeseed",
+        "sunflower|wheat",
+        "tomato|potato",
+        "wheat|barley",
+        "wheat|corn",
+        "wheat|rice",
+        "wheat|sunflower"
+      ],
+      "tier_superseded_conflicts": [],
+      "ambiguous_effects": []
+    },
+    "intercrop": {
+      "directional": false,
+      "accepted": {
+        "answerable": 4,
+        "peer_reviewed": 4,
+        "reference_backbone": 0,
+        "none": 51
+      },
+      "provisional": {
+        "answerable": 4,
+        "peer_reviewed": 4,
+        "reference_backbone": 0,
+        "none": 51
+      },
+      "upgrade_candidates": [],
+      "tier_superseded_conflicts": [],
+      "ambiguous_effects": []
+    }
+  }
+}

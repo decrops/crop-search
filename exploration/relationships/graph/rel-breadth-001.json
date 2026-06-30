@@ -1,0 +1,247 @@
+{
+  "run_id": "rel-breadth-001",
+  "generated_at": "2026-06-29T14:45:54Z",
+  "claim_count": 5,
+  "mode_directionality": {
+    "rotation": "directional",
+    "continuous_cropping": "directional",
+    "double_crop": "directional",
+    "intercrop": "symmetric",
+    "relay_crop": "directional",
+    "strip_crop": "symmetric",
+    "mixed_crop": "symmetric",
+    "companion_crop": "symmetric",
+    "cover_crop": "directional"
+  },
+  "direct": {
+    "rotation|cotton|soybean": [
+      {
+        "relationship_claim_id": "doc-091a-cotton-soybean-rotation",
+        "run_id": "rel-breadth-001",
+        "subject_node_type": "crop",
+        "subject_node_id": "cotton",
+        "object_node_type": "crop",
+        "object_node_id": "soybean",
+        "subject_crop_id": "cotton",
+        "object_crop_id": "soybean",
+        "subject_crop_group": "fiber",
+        "object_crop_group": "legume",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "rotation_interval",
+        "direction": "object_precedes_subject",
+        "ordered_pair_key": "cotton|soybean",
+        "canonical_relationship_key": "rotation|cotton|soybean",
+        "effect": "compatible",
+        "claim_text": "Cotton and soybean are grown together in an established cotton-soybean-wheat two-year rotation evaluated across biodynamic, organic, and conventional systems in India.",
+        "evidence_text": "A cotton-soybean-wheat crop rotation under biodynamic, organic and conventional (with and without Bt cotton) management was investigated.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "location": "India",
+          "management_system": "biodynamic / organic / conventional",
+          "temporal_offset": "two-year rotation"
+        },
+        "mechanisms": [],
+        "provenance": {
+          "source_urls": [
+            "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0081039&type=printable"
+          ],
+          "source_title": "Yield and economic performance of organic and conventional cotton-based farming systems",
+          "source_domain": "journals.plos.org",
+          "document_type": "pdf",
+          "source_tier_id": "peer_reviewed_science",
+          "accessed_at": "2026-06-29T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-091a0da3a1c24955"
+        },
+        "confidence": "low",
+        "status": "needs_review"
+      }
+    ],
+    "rotation|wheat|cotton": [
+      {
+        "relationship_claim_id": "doc-091a-cotton-wheat-rotation",
+        "run_id": "rel-breadth-001",
+        "subject_node_type": "crop",
+        "subject_node_id": "wheat",
+        "object_node_type": "crop",
+        "object_node_id": "cotton",
+        "subject_crop_id": "wheat",
+        "object_crop_id": "cotton",
+        "subject_crop_group": "cereal",
+        "object_crop_group": "fiber",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "rotation_interval",
+        "direction": "object_precedes_subject",
+        "ordered_pair_key": "wheat|cotton",
+        "canonical_relationship_key": "rotation|wheat|cotton",
+        "effect": "compatible",
+        "claim_text": "Wheat follows cotton and soybean within an established cotton-soybean-wheat two-year rotation in India.",
+        "evidence_text": "The two-year crop rotation consisted of cotton (Gossypium hirsutum L.) ... soybean ... and wheat in an established cotton-soybean-wheat crop rotation.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "location": "India",
+          "temporal_offset": "two-year rotation"
+        },
+        "mechanisms": [],
+        "provenance": {
+          "source_urls": [
+            "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0081039&type=printable"
+          ],
+          "source_title": "Yield and economic performance of organic and conventional cotton-based farming systems",
+          "source_domain": "journals.plos.org",
+          "document_type": "pdf",
+          "source_tier_id": "peer_reviewed_science",
+          "accessed_at": "2026-06-29T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-091a0da3a1c24955"
+        },
+        "confidence": "low",
+        "status": "needs_review"
+      }
+    ],
+    "rotation|corn|soybean": [
+      {
+        "relationship_claim_id": "doc-5f22-corn-soybean-rotation-soc",
+        "run_id": "rel-breadth-001",
+        "subject_node_type": "crop",
+        "subject_node_id": "corn",
+        "object_node_type": "crop",
+        "object_node_id": "soybean",
+        "subject_crop_id": "corn",
+        "object_crop_id": "soybean",
+        "subject_crop_group": "cereal",
+        "object_crop_group": "legume",
+        "relationship_mode": "rotation",
+        "relationship_subtype": "previous_crop_effect",
+        "direction": "object_precedes_subject",
+        "ordered_pair_key": "corn|soybean",
+        "canonical_relationship_key": "rotation|corn|soybean",
+        "effect": "beneficial",
+        "claim_text": "Under no-till in the US Midwest, the corn-soybean rotation increased soil organic carbon and labile carbon pools relative to continuous soybean, driven by C-enriched corn residue followed by N-rich soybean residue.",
+        "evidence_text": "An increase in SOC across the sites, except Ohio-Hoytville, under CS-C compared to SS was due to increased deposition of C inputs that consists of larger amounts of C-enriched corn biomass followed by lesser amounts of highly decomposable N-rich soybean biomass.",
+        "value": {
+          "value_type": "text"
+        },
+        "context": {
+          "location": "Alabama, Indiana, and Ohio, USA",
+          "management_system": "rainfed transitional no-till corn-soybean"
+        },
+        "mechanisms": [
+          "nitrogen",
+          "residue",
+          "soil_structure"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://doi.org/10.1371/journal.pone.0275198"
+          ],
+          "source_title": "Gypsum, crop rotation, and cover crop impacts on soil organic carbon and biological dynamics in rainfed transitional no-till corn-soybean systems",
+          "source_domain": "journals.plos.org",
+          "document_type": "html",
+          "source_tier_id": "peer_reviewed_science",
+          "accessed_at": "2026-06-29T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-5f22a02dcd36a51b"
+        },
+        "confidence": "medium",
+        "status": "needs_review"
+      }
+    ],
+    "intercrop|corn|soybean": [
+      {
+        "relationship_claim_id": "doc-7c954-maize-soybean-intercrop-ler",
+        "run_id": "rel-breadth-001",
+        "subject_node_type": "crop",
+        "subject_node_id": "corn",
+        "object_node_type": "crop",
+        "object_node_id": "soybean",
+        "subject_crop_id": "corn",
+        "object_crop_id": "soybean",
+        "subject_crop_group": "cereal",
+        "object_crop_group": "legume",
+        "relationship_mode": "intercrop",
+        "relationship_subtype": "land_equivalent_ratio",
+        "direction": "simultaneous",
+        "ordered_pair_key": "corn|soybean",
+        "canonical_relationship_key": "intercrop|corn|soybean",
+        "effect": "beneficial",
+        "claim_text": "Maize-soybean intercropping (one row of soybean between maize rows at 75 x 30 cm) under conservation agriculture produced a land-equivalent ratio above 1.2, indicating a yield advantage over sole cropping.",
+        "evidence_text": "The LER for both intercropping partterns were above 1.2. We recommend farmers to adopt the intercropping pattern of one row of soybean in between maize row spaced at 75 x 30 cm for better LER, and crop performance.",
+        "value": {
+          "value_type": "range",
+          "raw_value_text": "land equivalent ratio above 1.2",
+          "range_min": 1.2,
+          "qualifier": "land equivalent ratio"
+        },
+        "context": {
+          "arrangement": "one row of soybean between one row of maize",
+          "row_ratio": "1:1",
+          "management_system": "conservation agriculture, minimum tillage",
+          "location": "Uganda"
+        },
+        "mechanisms": [
+          "nitrogen"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://ccsenet.org/journal/index.php/jas/article/download/0/0/49614/53601"
+          ],
+          "source_title": "Effects of Intercropping on Maize and Soybean Yield Performance, Land Equivalent Ratio, and Maize Leaf Area in Conservation Agriculture",
+          "source_domain": "ccsenet.org",
+          "document_type": "pdf",
+          "source_tier_id": "peer_reviewed_science",
+          "accessed_at": "2026-06-29T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-7c954c2943bb39d8"
+        },
+        "confidence": "medium",
+        "status": "needs_review"
+      }
+    ]
+  },
+  "aggregate": {
+    "intercrop|cereal|legume": [
+      {
+        "relationship_claim_id": "doc-7c954-cereal-legume-intercrop",
+        "run_id": "rel-breadth-001",
+        "subject_node_type": "functional_group",
+        "subject_node_id": "cereal",
+        "object_node_type": "functional_group",
+        "object_node_id": "legume",
+        "relationship_mode": "intercrop",
+        "relationship_subtype": "group_intercrop_compatibility",
+        "direction": "simultaneous",
+        "ordered_pair_key": "cereal|legume",
+        "canonical_relationship_key": "intercrop|cereal|legume",
+        "effect": "beneficial",
+        "claim_text": "Cereal-legume intercropping confers nutrient benefits through cereal-legume interactions, a recognized advantage of intercropping systems.",
+        "evidence_text": "This is because of the advantages of intercropping, especially nutrient benefits through cereal-legume interactions, alternative sustainable methods to manage biotic stress (pests, diseases, weeds), and crop failure risk management due to erratic weather.",
+        "value": {},
+        "context": {},
+        "mechanisms": [
+          "nitrogen",
+          "pest_suppression"
+        ],
+        "provenance": {
+          "source_urls": [
+            "https://ccsenet.org/journal/index.php/jas/article/download/0/0/49614/53601"
+          ],
+          "source_title": "Effects of Intercropping on Maize and Soybean Yield Performance, Land Equivalent Ratio, and Maize Leaf Area in Conservation Agriculture",
+          "source_domain": "ccsenet.org",
+          "document_type": "pdf",
+          "source_tier_id": "peer_reviewed_science",
+          "accessed_at": "2026-06-29T00:00:00Z",
+          "extraction_method": "opus",
+          "document_id": "doc-7c954c2943bb39d8"
+        },
+        "confidence": "medium",
+        "status": "needs_review"
+      }
+    ]
+  },
+  "host_overlays": {}
+}

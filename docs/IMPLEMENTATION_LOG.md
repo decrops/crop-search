@@ -893,3 +893,155 @@ Still pending (unchanged manual gates):
   human acceptance.
 - Deeper relay/strip/mixed extraction nuance; quantitative LER synthesis across
   sources.
+
+## 2026-06-30: EU crops + fetch robustness + crop reference articles
+
+Ran the relationship pipeline on Europe's most important annual crops and, where
+a bounded crawl failed to capture some, fixed the two real pipeline gaps that
+caused it.
+
+Crops / catalog:
+
+- Added EU crop profiles `config/crops/{barley,rapeseed,sugar_beet,potato}.json`
+  and matching `major_direct` node-catalog entries, with real host links
+  (rapeseed -> clubroot_host, potato -> solanaceae_host). Universe is now 11
+  crops; the universe-count tests were made data-driven (derive n from
+  config/crops) so they don't re-break as crops are added.
+- Ran `europe-rotation-001` (rotation, Europe-scoped, bounded): 380 discovery
+  rows -> 14 docs -> 8 in-session claims. Captures barley, rapeseed, wheat,
+  potato, sugar_beet, sunflower (6/7) plus a working clubroot host-risk overlay
+  (rapeseed x brassica). Corn's evidence lives in the earlier breadth run.
+
+Fetch robustness (`dev_tools/fetch_web.py`, `relationship_pipeline.py`):
+
+- `infer_document_type` now recognizes `/pdf` endpoints with query strings
+  (e.g. MDPI `.../pdf?version=...`), not just `.pdf` suffixes.
+- `_fetch_one` salvages PDFs that are actually HTML challenge/error pages
+  (parses them as HTML), and rejects low-value parses — empty text or
+  bot-challenge pages ("checking your browser", "reCAPTCHA", "just a moment",
+  etc., under a length threshold) — so they are recorded as failures, not
+  silently counted as full-text documents. A real long article that merely
+  mentions "captcha" is not dropped.
+
+Crop reference articles (`relationship_pipeline.py`, `cli.py`):
+
+- New `fetch-crop-references <run_id> [--crop ...] [--crop-dir]`:
+  `crop_reference_url` + `fetch_crop_references` fetch each crop's main Wikipedia
+  article (redirects resolve synonyms: Corn -> Maize, Oilseed rape -> Rapeseed)
+  into the relationship raw layer, bypassing hostile-publisher PDFs and noisy
+  pair-template search. These parse cleanly as HTML and carry rotation prose. The
+  reference path is what captured sugar beet (3-year rotation with grain) and
+  sunflower (rotation with cereals / soybean / rapeseed) after three discovery
+  attempts failed on those crops.
+
+Tests (`tests/test_relationship_fetch_robustness.py`, 7 tests): `/pdf`-endpoint
+detection; challenge/empty vs real-article low-value classification; HTML sniff;
+`crop_reference_url` (incl. synonym labels). Full suite 167 tests, green.
+
+Pipeline lesson recorded: crop-pair template search over science tiers yields
+crop-specific or off-topic primary research; rotation-role knowledge for
+well-known crops lives in encyclopedia/extension references, so the reference
+path is the reliable way to seed it.
+
+## 2026-06-30: Tier-aware evidence layer (Part A)
+
+Made the relationship evidence layer source-tier aware so the methodology "use
+textbook references as the basis, replace with peer-reviewed wherever possible"
+is expressible and measurable. The fetch side was already tier-aware; matrix
+population and the resolver were tier-blind (plain effect majority vote).
+
+- `config/source-tiers/default.json`: defined `reference_encyclopedia` (priority
+  6) for ranking only; kept it OUT of the default discovery `tier_order` so it is
+  never silently planned. Added a Wikipedia-only `reference_encyclopedia` branch
+  to `connector_results_for_tier` so the opt-in tier is not a dead lane.
+- `source_tiers.py`: `tier_rank_index` / `tier_rank` / `tier_band` + an
+  `EVIDENCE_BAND_TIERS` (peer-reviewed) vs reference-backbone split.
+- `relationship_pipeline.tiered_effect`: the DECIDING tier (best tier carrying a
+  usable effect) sets `summary_effect`, `best_source_tier`, and `evidence_grade`;
+  an all-`unknown` top tier no longer masks a lower tier's real effect; a
+  non-deciding claim whose decisive polarity is overridden raises
+  `tier_superseded_conflict` (even under a `conditional`/`unknown` summary). Full
+  effect-polarity table (positive/negative/conditional/neutral/ignore).
+- Applied in `populate_relationship_matrix` (new cell fields + schema) and the
+  resolver. `source_tier_id` is now schema-required and validated against the
+  manifest (unknown tier dropped). Centralized claim dedup by
+  `relationship_claim_id` in `_graph_from_claims`.
+- Cross-run merged graph (`build_merged_relationship_graph`) + new
+  `relationship-coverage-report` CLI: reports answerable pairs/55 per mode,
+  evidence-grade split, accepted-vs-provisional (review status), directed
+  upgrade-candidate keys, and `unknown_crops`. `--aggregate-node-type` filter
+  added so aggregate runs can scope to `functional_group` (the lean backbone).
+
+Two adversarial review rounds (independent agent + probes) found and fixed real
+bugs in the first cut: effect-masking under an unknown top tier, the supersede
+flag not firing under a non-committal summary, grade decoupled from the deciding
+tier, directional upgrade candidates collapsing to one direction, and a
+duplicate-id phantom conflict. Tests: `tests/test_relationship_tiered_evidence.py`
+(+ fixtures in the existing relationship suites). Full suite 192 tests, green.
+
+## 2026-06-30: Functional-group reference backbone (Part B)
+
+Built a grounded group-level rotation/intercrop backbone so the resolver answers
+many crop pairs from a few cited group claims (never inventing facts — every
+claim cites a verbatim passage).
+
+- Runs `backbone-rotation-001` / `backbone-intercrop-001`: aggregate discovery
+  scoped to `functional_group` + backbone tiers -> select-fetch -> fetch ->
+  corpus. Free-web aggregate discovery proved noisy (off-target tropical/climate
+  papers); the solid grounding came from authoritative overview articles
+  (Crop rotation, Rapeseed, Green manure, Monoculture, Cereal).
+- 8 grounded group/family claims: cereal-after-legume (beneficial, N), cereal<->
+  oilseed (compatible, rapeseed break crop), legume<->cereal (compatible),
+  cereal-after-cereal (conditional, same-family/monoculture), oilseed-after-
+  oilseed (avoid, sclerotinia self-rotation), solanaceae-after-solanaceae
+  (conditional, family inference -> potato/tomato), cereal x legume intercrop
+  (beneficial, N fixation).
+- Human/AI review pass: promoted 23 sound `needs_review` claims (8 backbone + 15
+  prior peer-reviewed/reference) to `accepted`.
+
+Coverage after review (across all 5 relationship runs):
+
+| Mode | Accepted answerable / 55 | peer_reviewed | reference_backbone |
+| --- | ---: | ---: | ---: |
+| rotation | 25 | 11 | 14 |
+| intercrop | 4 | 4 | 0 |
+
+32 directed rotation upgrade-candidate keys identified for Part C (peer-reviewed
+replacement of reference-grade pairs). Honest remaining gaps: root-crop, cotton,
+and fruiting-vegetable group pairs (rotation) and all intercrop beyond
+cereal-legume — left as `none`, not fabricated, pending better sources.
+
+## 2026-06-30: Peer-reviewed upgrades (Part C, first pass)
+
+Started the peer-reviewed upgrade lane against the reference-backbone upgrade
+candidates. Targeted search (not the noisy aggregate pipeline) found open-access
+field studies; claims cite verbatim quantitative results.
+
+- `upgrade-rotation-001`: 2 peer-reviewed group claims from one Frontiers field
+  trial (10.3389/fpls.2023.1265994, Central Germany 2020-2022) -- cereal-after-
+  cereal yield penalty (continuous/2nd wheat ~5.4-6.1 vs ~7.1 Mg/ha after a break
+  crop) and cereal-after-oilseed break-crop benefit (~1.7 Mg/ha higher wheat after
+  oilseed rape). Reviewed and accepted.
+- Effect: rotation accepted grade split moved 11->20 peer-reviewed / 23->14
+  reference-backbone (9 pairs upgraded, mainly the 6-pair cereal-cereal cluster).
+  Total answerable unchanged (upgrades raise grade, not coverage). The tier layer
+  superseded the reference claims with no conflict (same polarity).
+- Sugar-beet-before-wheat and the rotation meta-analysis were paywalled
+  (tandfonline 403, Nature redirect), so root-crop and broader cereal-legume
+  upgrades remain pending an open-access source. 36 directed upgrade candidates
+  remain.
+
+### Part C continuation (same day)
+
+Added two more open-access peer-reviewed upgrades: oilseed-after-oilseed
+(PLOS ONE PMC3613410 -- up to 25% yield decline in continuous OSR) and
+cereal-after-legume (Lukavec long-term trial 1979-2018, PMC10974760 -- winter
+wheat 5.4 t/ha after legumes vs 4.1 t/ha after cereals). Four peer-reviewed
+upgrade claims total.
+
+Net Part C effect: rotation accepted grade split moved 11->23 peer-reviewed /
+23->11 reference-backbone (12 pairs upgraded); total answerable unchanged at
+34/55. The remaining 11 reference-backbone pairs are almost all root-crop
+(potato / sugar_beet); the wheat-after-beet yield numbers sit behind paywalls
+(tandfonline 403, MDPI blocks WebFetch), so they stay at reference grade pending
+an accessible source.

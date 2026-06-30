@@ -17,7 +17,11 @@ def safe_name(value: str) -> str:
 
 def infer_document_type(final_url: str, content_type: str) -> str:
     lowered = content_type.lower()
-    if "pdf" in lowered or final_url.lower().endswith(".pdf"):
+    # Many publishers serve PDFs from a `/pdf` endpoint with a query string
+    # (e.g. `.../2834/pdf?version=...`), so the URL never ends in `.pdf`.
+    url_path = urlparse(final_url).path.lower()
+    pdf_path = url_path.endswith(".pdf") or url_path.endswith("/pdf") or "/pdf/" in url_path
+    if "pdf" in lowered or pdf_path:
         return "pdf"
     if "html" in lowered:
         return "html"

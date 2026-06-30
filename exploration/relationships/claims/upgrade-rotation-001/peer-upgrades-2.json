@@ -1,0 +1,43 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "up-rot-oilseed-after-oilseed-osr",
+      "run_id": "upgrade-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "oilseed",
+      "object_node_type": "functional_group",
+      "object_node_id": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "continuous_cropping_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "oilseed|oilseed",
+      "canonical_relationship_key": "rotation|oilseed|oilseed",
+      "effect": "avoid",
+      "claim_text": "A field trial measured up to a 25% yield decline when oilseed rape is grown in continuous or short rotation versus first-time (virgin) oilseed rape, quantifying why oilseeds should not be grown in close rotation with themselves.",
+      "evidence_text": "This field trial showed a yield reduction in the continuous OSR (grown for four consecutive years) of 25% compared with virgin OSR. Reported yield decline vary from 3\u201312% in short rotation to 25% in continuous cropping.",
+      "value": {
+        "value_type": "text",
+        "raw_value_text": "up to 25% yield decline (continuous), 3-12% (short rotation)"
+      },
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3613410/"
+        ],
+        "source_title": "Impact of Shortened Crop Rotation of Oilseed Rape on Soil and Rhizosphere Microbial Diversity in Relation to Yield Decline (PLOS ONE)",
+        "source_domain": "ncbi.nlm.nih.gov",
+        "document_type": "html",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "high",
+      "status": "accepted"
+    }
+  ]
+}

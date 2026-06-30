@@ -1,0 +1,185 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "bb-rot-cereal-after-rootcrop",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "root_crop",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|root_crop",
+      "canonical_relationship_key": "rotation|cereal|root_crop",
+      "effect": "compatible",
+      "claim_text": "Cereals (grain) are a standard rotation crop grown in the years between root crops such as sugar beet.",
+      "evidence_text": "Normally, beets are grown in the same ground every third year, peas, beans or grain being raised the other two years.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sugar_beet"
+        ],
+        "source_title": "Sugar beet (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-rootcrop-after-cereal",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "root_crop",
+      "object_node_type": "functional_group",
+      "object_node_id": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "root_crop|cereal",
+      "canonical_relationship_key": "rotation|root_crop|cereal",
+      "effect": "compatible",
+      "claim_text": "Root crops such as sugar beet are grown in rotation with grain (cereal) crops, alternating across years.",
+      "evidence_text": "Normally, beets are grown in the same ground every third year, peas, beans or grain being raised the other two years.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sugar_beet"
+        ],
+        "source_title": "Sugar beet (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-legume-after-rootcrop",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "legume",
+      "object_node_type": "functional_group",
+      "object_node_id": "root_crop",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "legume|root_crop",
+      "canonical_relationship_key": "rotation|legume|root_crop",
+      "effect": "compatible",
+      "claim_text": "Legumes (peas, beans) are grown in rotation in the years between root crops such as sugar beet.",
+      "evidence_text": "Normally, beets are grown in the same ground every third year, peas, beans or grain being raised the other two years.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sugar_beet"
+        ],
+        "source_title": "Sugar beet (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-rootcrop-after-legume",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "root_crop",
+      "object_node_type": "functional_group",
+      "object_node_id": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "root_crop|legume",
+      "canonical_relationship_key": "rotation|root_crop|legume",
+      "effect": "compatible",
+      "claim_text": "Root crops such as sugar beet are grown in rotation with legumes (peas, beans).",
+      "evidence_text": "Normally, beets are grown in the same ground every third year, peas, beans or grain being raised the other two years.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sugar_beet"
+        ],
+        "source_title": "Sugar beet (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "bb-rot-rootcrop-after-rootcrop",
+      "run_id": "backbone-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "root_crop",
+      "object_node_type": "functional_group",
+      "object_node_id": "root_crop",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "continuous_cropping_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "root_crop|root_crop",
+      "canonical_relationship_key": "rotation|root_crop|root_crop",
+      "effect": "conditional",
+      "claim_text": "Root crops exhaust the soil and host persistent soil pests, so they should not be grown too frequently in the same ground (e.g. sugar beet only every third year; potato cyst nematode persists for years).",
+      "evidence_text": "Sugar beet crops exhaust the soil rapidly. Crop rotation is recommended and necessary. Since its eggs can survive in the soil for several years, crop rotation is recommended.",
+      "value": {},
+      "context": {
+        "location": "general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sugar_beet",
+          "https://en.wikipedia.org/wiki/Potato"
+        ],
+        "source_title": "Sugar beet; Potato (Wikipedia)",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "crop_id": "barley",
+  "label": "Barley",
+  "crop_group": "cereal",
+  "aliases": [
+    "barley",
+    "spring barley",
+    "winter barley",
+    "malting barley"
+  ],
+  "scientific_names": [
+    "Hordeum vulgare"
+  ],
+  "growth_stage_terms": [
+    "germination",
+    "emergence",
+    "tillering",
+    "stem elongation",
+    "heading",
+    "flowering",
+    "grain fill",
+    "maturity"
+  ],
+  "production_context_terms": [
+    "small grain",
+    "winter cereal",
+    "spring cereal",
+    "feed barley",
+    "malting barley"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ]
+}

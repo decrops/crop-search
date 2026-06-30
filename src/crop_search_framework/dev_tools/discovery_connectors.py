@@ -93,6 +93,15 @@ def connector_results_for_tier(
                 lambda: wikipedia_results(query, crop, max_results, user_agent),
             )
         )
+    if source_tier_id == "reference_encyclopedia":
+        # Encyclopedia-only routing. This tier is opt-in (not in the default
+        # tier_order); without this branch it would resolve to no provider and
+        # silently return nothing.
+        return gather_provider_results(
+            (
+                lambda: wikipedia_results(query, crop, max_results, user_agent),
+            )
+        )
     return [], []
 
 

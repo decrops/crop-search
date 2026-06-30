@@ -1,0 +1,131 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "ref-sugarbeet-grain-rotation",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "sugar_beet",
+      "object_node_type": "crop",
+      "object_node_id": "wheat",
+      "subject_crop_id": "sugar_beet",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "root_crop",
+      "object_crop_group": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "rotation_interval",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "sugar_beet|wheat",
+      "canonical_relationship_key": "rotation|sugar_beet|wheat",
+      "effect": "compatible",
+      "claim_text": "Sugar beet is grown on the same ground only every third year, with grain (cereals such as wheat) raised in the intervening years, making cereals standard rotation partners.",
+      "evidence_text": "Normally, beets are grown in the same ground every third year, peas, beans or grain being raised the other two years.",
+      "value": {
+        "value_type": "text",
+        "raw_value_text": "same ground every third year"
+      },
+      "context": {
+        "temporal_offset": "three-year rotation interval",
+        "location": "Europe / general"
+      },
+      "mechanisms": [
+        "disease_break"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sugar_beet"
+        ],
+        "source_title": "Sugar beet - Wikipedia",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-3a43daecc0ab7548"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "ref-sunflower-cereal-rotation",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "sunflower",
+      "object_node_type": "crop",
+      "object_node_id": "wheat",
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "sunflower|wheat",
+      "canonical_relationship_key": "rotation|sunflower|wheat",
+      "effect": "compatible",
+      "claim_text": "Sunflower is typically grown in rotation with cereals such as wheat.",
+      "evidence_text": "Sunflower cultivation typically uses crop rotation, often with cereals, soybean, or rapeseed.",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Europe / general"
+      },
+      "mechanisms": [],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sunflower"
+        ],
+        "source_title": "Common sunflower - Wikipedia",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-a6440c97b07bea0b"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "ref-sunflower-rapeseed-rotation",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "sunflower",
+      "object_node_type": "crop",
+      "object_node_id": "rapeseed",
+      "subject_crop_id": "sunflower",
+      "object_crop_id": "rapeseed",
+      "subject_crop_group": "oilseed",
+      "object_crop_group": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "sunflower|rapeseed",
+      "canonical_relationship_key": "rotation|sunflower|rapeseed",
+      "effect": "compatible",
+      "claim_text": "Sunflower is grown in rotation with rapeseed (oilseed rape).",
+      "evidence_text": "Sunflower cultivation typically uses crop rotation, often with cereals, soybean, or rapeseed.",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Europe / general"
+      },
+      "mechanisms": [],
+      "provenance": {
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Sunflower"
+        ],
+        "source_title": "Common sunflower - Wikipedia",
+        "source_domain": "en.wikipedia.org",
+        "document_type": "html",
+        "source_tier_id": "reference_encyclopedia",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-a6440c97b07bea0b"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    }
+  ]
+}

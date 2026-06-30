@@ -1,0 +1,86 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "up-rot-cereal-after-cereal-harste",
+      "run_id": "upgrade-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "continuous_cropping_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|cereal",
+      "canonical_relationship_key": "rotation|cereal|cereal",
+      "effect": "conditional",
+      "claim_text": "A field experiment measured a substantial winter-wheat grain-yield penalty for wheat grown after wheat (and in monoculture) compared with wheat grown after a break crop, confirming that cereal-after-cereal rotation reduces yield.",
+      "evidence_text": "Wheat grain yield varied significantly with W1 (7.1 \u00b1 2.2 Mg dm ha\u22121) > WM (6.1 \u00b1 1.8 Mg dm ha\u22121) > W2 (5.4 \u00b1 2.1 Mg dm ha\u22121), where W1 is the first wheat after oilseed rape, W2 the second wheat, and WM continuous wheat monoculture.",
+      "value": {
+        "value_type": "text",
+        "raw_value_text": "wheat after wheat ~5.4-6.1 vs ~7.1 Mg/ha after a break crop"
+      },
+      "context": {
+        "location": "Central Germany (Harste)",
+        "temporal_offset": "2020-2022"
+      },
+      "mechanisms": [
+        "disease_break",
+        "pest_suppression"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1265994/full"
+        ],
+        "source_title": "Effect of crop rotational position and nitrogen supply on root development and yield formation of winter wheat",
+        "source_domain": "frontiersin.org",
+        "document_type": "html",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "high",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "up-rot-cereal-after-oilseed-harste",
+      "run_id": "upgrade-rotation-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "oilseed",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "cereal|oilseed",
+      "canonical_relationship_key": "rotation|cereal|oilseed",
+      "effect": "beneficial",
+      "claim_text": "A field experiment measured winter-wheat grain yield roughly 1.7 Mg/ha higher after oilseed rape than after wheat, quantifying the break-crop benefit of an oilseed before a cereal.",
+      "evidence_text": "grain yield across all years was approximately 1.7 Mg ha\u22121 higher for wheat grown after oilseed rape than for wheat grown after wheat.",
+      "value": {
+        "value_type": "text",
+        "raw_value_text": "~1.7 Mg/ha higher than wheat after wheat"
+      },
+      "context": {
+        "location": "Central Germany (Harste)",
+        "temporal_offset": "2020-2022"
+      },
+      "mechanisms": [
+        "disease_break",
+        "nitrogen"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1265994/full"
+        ],
+        "source_title": "Effect of crop rotational position and nitrogen supply on root development and yield formation of winter wheat",
+        "source_domain": "frontiersin.org",
+        "document_type": "html",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-30T00:00:00Z",
+        "extraction_method": "opus"
+      },
+      "confidence": "high",
+      "status": "accepted"
+    }
+  ]
+}

@@ -1,33 +1,45 @@
-{"claims":[
-  {
-    "relationship_claim_id": "doc-d433cc021cfa4aeb-wheat-soybean",
-    "run_id": "relationship-rotation-001",
-    "subject_crop_id": "wheat",
-    "object_crop_id": "soybean",
-    "subject_crop_group": "cereal",
-    "object_crop_group": "legume",
-    "relationship_mode": "rotation",
-    "relationship_subtype": "previous_crop_effect",
-    "ordered_pair_key": "wheat|soybean",
-    "canonical_relationship_key": "rotation|wheat|soybean",
-    "direction": "object_precedes_subject",
-    "effect": "conditional",
-    "claim_text": "Wheat grown where the previous crop was soybean still showed abundant Fusarium graminearum head-blight infection, since the pathogen also infects soybean and so soybean does not break the disease cycle.",
-    "evidence_text": "In this study, FGSC was sometimes found to be the dominant species at localities where the previous crop was not maize, and where conventional tillage was practiced. These included all localities in the Bushveld, where the FGSC was abundant and the previous crops at the respective sites were sunflower, peppers, soybean and cabbage.",
-    "value": {"value_type":"text"},
-    "context": {"management_system":"conventional tillage","input_system":"wheat rotated with soybean in South Africa"},
-    "mechanisms": ["Fusarium head blight inoculum carryover","shared host pathogen"],
-    "provenance": {
-      "source_urls": ["https://doi.org/10.1371/journal.pone.0275084"],
-      "source_title": "The distribution and type B trichothecene chemotype of Fusarium species associated with head blight of wheat in South Africa during 2008 and 2009 | PLOS One",
-      "source_domain": "doi.org",
-      "document_type": "html",
-      "accessed_at": "2026-06-24T00:00:00Z",
-      "extraction_method": "opus",
-      "document_id": "doc-d433cc021cfa4aeb",
-      "source_tier_id": "peer_reviewed_science"
-    },
-    "confidence": "low",
-    "status": "needs_review"
-  }
-]}
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-d433cc021cfa4aeb-wheat-soybean",
+      "run_id": "relationship-rotation-001",
+      "subject_crop_id": "wheat",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "ordered_pair_key": "wheat|soybean",
+      "canonical_relationship_key": "rotation|wheat|soybean",
+      "direction": "object_precedes_subject",
+      "effect": "conditional",
+      "claim_text": "Wheat grown where the previous crop was soybean still showed abundant Fusarium graminearum head-blight infection, since the pathogen also infects soybean and so soybean does not break the disease cycle.",
+      "evidence_text": "In this study, FGSC was sometimes found to be the dominant species at localities where the previous crop was not maize, and where conventional tillage was practiced. These included all localities in the Bushveld, where the FGSC was abundant and the previous crops at the respective sites were sunflower, peppers, soybean and cabbage.",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "management_system": "conventional tillage",
+        "input_system": "wheat rotated with soybean in South Africa"
+      },
+      "mechanisms": [
+        "Fusarium head blight inoculum carryover",
+        "shared host pathogen"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1371/journal.pone.0275084"
+        ],
+        "source_title": "The distribution and type B trichothecene chemotype of Fusarium species associated with head blight of wheat in South Africa during 2008 and 2009 | PLOS One",
+        "source_domain": "doi.org",
+        "document_type": "html",
+        "accessed_at": "2026-06-24T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-d433cc021cfa4aeb",
+        "source_tier_id": "peer_reviewed_science"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    }
+  ]
+}

@@ -197,6 +197,29 @@
       ],
       "access_policy": "public_web_only",
       "notes": "Useful for discovery and management practice; review should account for commercial bias."
+    },
+    {
+      "tier_id": "reference_encyclopedia",
+      "label": "Reference Encyclopedias",
+      "priority": 6,
+      "evidence_role": "Encyclopedic overview; broad coverage, lowest credibility.",
+      "trust_weight": 0.4,
+      "query_terms": [
+        "overview",
+        "encyclopedia"
+      ],
+      "domain_fragments": [
+        "wikipedia.org",
+        "en.wikipedia.org",
+        "britannica.com"
+      ],
+      "title_terms": [
+        "wikipedia",
+        "encyclopedia",
+        "overview"
+      ],
+      "access_policy": "public_web_only",
+      "notes": "Broad orientation and reference-backbone fallback; not authoritative for quantitative effects. Opt in for discovery with --source-tier-id reference_encyclopedia; intentionally NOT part of the default tier_order so it is never silently planned."
     }
   ]
 }

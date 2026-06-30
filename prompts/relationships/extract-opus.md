@@ -69,5 +69,24 @@ relayed into B is not the same as B relayed into A.)
   the land-equivalent ratio to 1.3") is a relationship claim; generic "consider
   intercropping" advice with no named partner stays parameter/management text.
 
+## Source tier and the textbook → peer-reviewed upgrade
+
+- **Every claim must set `provenance.source_tier_id`** — it is schema-required and
+  must be one of the manifest tiers (`peer_reviewed_science`, `textbook_reference`,
+  `international_institution`, `extension_publication`, `industry_grower_guide`,
+  `reference_encyclopedia`). A missing or unknown tier drops the claim in
+  validation. Tag it honestly from where the text actually came.
+- **Backbone vs upgrade.** A `peer_reviewed_science` claim **supersedes** — does
+  not duplicate — a backbone (textbook/institution/extension/encyclopedia) claim
+  for the same pair + mode + direction. The best tier present decides the cell's
+  effect; lower tiers only corroborate or flag a disagreement. So when you find a
+  paper for a pair the backbone already covers, add the peer-reviewed claim (with
+  its quantitative value/DOI) rather than editing the backbone one.
+- **`conditional` is not a tie-breaker dodge.** If decisive evidence
+  (`beneficial`/`compatible` vs `incompatible`/`avoid`) and a `conditional` claim
+  coexist at the same tier, the resolver reports `conditional` and flags the
+  ambiguity — so only use `conditional` when the source genuinely says "it
+  depends," not to hedge a clear result.
+
 Never mark a claim accepted because of model confidence. Use `needs_review`
 unless a human review pass explicitly accepts it.

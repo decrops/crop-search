@@ -1,0 +1,32 @@
+{
+  "run_id": "backbone-intercrop-001",
+  "stage": "relationship_discovery",
+  "generated_at": "2026-06-30T07:20:50Z",
+  "query_kind": "crop_relationship",
+  "relationship_modes": [
+    "intercrop"
+  ],
+  "crop_count": 11,
+  "matrix_cell_count": 121,
+  "node_mode": "aggregate",
+  "pair_mode": "unordered",
+  "planned_pair_count": 21,
+  "queries_executed": 84,
+  "ledger_rows": 147,
+  "unique_relationship_sources": 142,
+  "unique_sources": 59,
+  "provider_counts": {
+    "openalex": 147
+  },
+  "drop_reason_counts": {
+    "duplicate": 5,
+    "kept": 142
+  },
+  "access_status_counts": {
+    "metadata_only": 5,
+    "open_full_text": 142
+  },
+  "retry_queue_size": 35,
+  "ledger_path": "exploration/relationships/discovery/backbone-intercrop-001/results.jsonl",
+  "query_plan_path": "exploration/relationships/discovery/backbone-intercrop-001/query_plan.json"
+}

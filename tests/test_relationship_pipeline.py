@@ -15,6 +15,7 @@ def _tmp_repo(tmp: Path) -> None:
     shutil.copytree(REPO / "schemas", tmp / "schemas")
     shutil.copytree(REPO / "config/crops", tmp / "config/crops")
     shutil.copytree(REPO / "config/relationships", tmp / "config/relationships")
+    shutil.copytree(REPO / "config/source-tiers", tmp / "config/source-tiers")
     (tmp / "config/fetch-policy").mkdir(parents=True)
     (tmp / "config/fetch-policy/default.json").write_text(json.dumps({
         "tier_trust": {"peer_reviewed_science": 1.0, "extension_publication": 0.8, "": 0.4},
@@ -89,7 +90,7 @@ class SelectTests(unittest.TestCase):
 class MatrixTests(unittest.TestCase):
     def _claim(self, subj, obj, effect, mode="rotation", status="accepted"):
         return {
-            "relationship_claim_id": "rc-{0}-{1}".format(subj, obj), "run_id": "rel-1",
+            "relationship_claim_id": "rc-{0}-{1}-{2}-{3}".format(mode, subj, obj, effect), "run_id": "rel-1",
             "subject_crop_id": subj, "object_crop_id": obj,
             "subject_crop_group": "cereal", "object_crop_group": "legume",
             "relationship_mode": mode, "relationship_subtype": mode, "direction": "object_precedes_subject",
@@ -98,7 +99,8 @@ class MatrixTests(unittest.TestCase):
             "effect": effect, "claim_text": "rotation effect text", "evidence_text": "evidence text here",
             "value": {"value_type": "text"}, "context": {}, "confidence": "high", "status": status,
             "provenance": {"source_urls": ["https://j.org/a"], "source_title": "T", "source_domain": "j.org",
-                           "document_type": "html", "accessed_at": "2026-01-01T00:00:00Z", "extraction_method": "opus"},
+                           "document_type": "html", "source_tier_id": "peer_reviewed_science",
+                           "accessed_at": "2026-01-01T00:00:00Z", "extraction_method": "opus"},
         }
 
     def _setup(self, tmp, claims, searched):

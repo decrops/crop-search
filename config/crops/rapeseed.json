@@ -1,0 +1,36 @@
+{
+  "crop_id": "rapeseed",
+  "label": "Oilseed rape",
+  "crop_group": "oilseed",
+  "aliases": [
+    "oilseed rape",
+    "rapeseed",
+    "winter oilseed rape",
+    "canola"
+  ],
+  "scientific_names": [
+    "Brassica napus"
+  ],
+  "growth_stage_terms": [
+    "emergence",
+    "leaf development",
+    "rosette",
+    "stem elongation",
+    "green bud",
+    "flowering",
+    "pod development",
+    "ripening"
+  ],
+  "production_context_terms": [
+    "oilseed",
+    "winter oilseed rape",
+    "brassica break crop",
+    "double-low rapeseed"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ]
+}

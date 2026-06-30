@@ -1,0 +1,39 @@
+{
+  "corpus_version": "0.1.0",
+  "run_id": "europe-rotation-001",
+  "source_run": "europe-rotation-001",
+  "crop": "",
+  "manifest_version": "0.4.1",
+  "parser_version": "corpus-blocks-1",
+  "hashing": "sha256",
+  "created_at": "2026-06-29T15:28:26Z",
+  "manifest_revision": 1,
+  "corpus_content_hash": "5ea48fd873cb9533a694a663db4c8d87553cf64b1e93c75e75e84d98c344104b",
+  "previous_corpus_content_hash": "",
+  "policy_hashes": {
+    "source_tier_policy": "abc6ea6a9df76b3212d342bb6d1befd7ac87906937b13144e9a5ed0c93a372f8",
+    "fetch_policy": "76385744d2d046ee80abdadd7bf1bf369106ed20a76ffebee3cd2edac74efa28",
+    "query_templates": "5d4bde1fa41f3d3c193468791b34ac5327441579c076f20ddafe12b3b4f50db1",
+    "parameter_manifest": "7aefd2be069b2606ed6738885ae2afaff8295e6e1cb3b35db0522ffe3c9bf26f"
+  },
+  "capture_count": 24,
+  "document_count": 14,
+  "query_hit_count": 24,
+  "raw_summary_failure_count": 6,
+  "document_index": [
+    "doc-1dfe693669843e04",
+    "doc-295e1606ed0cf045",
+    "doc-38ba9eb28e9e3f00",
+    "doc-66a636e66fe7a989",
+    "doc-68733c9bd0eaa83a",
+    "doc-6b86b273ff34fce1",
+    "doc-70311f5cd6a499cc",
+    "doc-8752bd215c3f8c65",
+    "doc-94b7a43e034ae11f",
+    "doc-9766eed2e03da41f",
+    "doc-98a5acf1521b7101",
+    "doc-b07b5f2518744319",
+    "doc-d433cc021cfa4aeb",
+    "doc-ffcc01c42fd7d904"
+  ]
+}

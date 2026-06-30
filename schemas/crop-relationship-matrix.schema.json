@@ -156,6 +156,26 @@
         "conflict_count": {
           "type": "integer",
           "minimum": 0
+        },
+        "best_source_tier": {
+          "type": "string"
+        },
+        "tier_histogram": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "evidence_grade": {
+          "type": "string",
+          "enum": ["none", "reference_backbone", "peer_reviewed"]
+        },
+        "ambiguous_effect": {
+          "type": "boolean"
+        },
+        "tier_superseded_conflict": {
+          "type": "boolean"
         }
       }
     },

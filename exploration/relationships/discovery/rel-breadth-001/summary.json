@@ -1,0 +1,38 @@
+{
+  "run_id": "rel-breadth-001",
+  "stage": "relationship_discovery",
+  "generated_at": "2026-06-29T14:41:50Z",
+  "query_kind": "crop_relationship",
+  "relationship_modes": [
+    "rotation",
+    "intercrop"
+  ],
+  "crop_count": 7,
+  "matrix_cell_count": 49,
+  "node_mode": "crop",
+  "pair_mode": "ordered",
+  "planned_pair_count": 49,
+  "queries_executed": 60,
+  "ledger_rows": 466,
+  "unique_relationship_sources": 401,
+  "unique_sources": 201,
+  "provider_counts": {
+    "crossref": 120,
+    "europe_pmc": 51,
+    "internet_archive": 2,
+    "openalex": 233,
+    "wikipedia": 60
+  },
+  "drop_reason_counts": {
+    "duplicate": 58,
+    "kept": 378,
+    "relevance_gate": 30
+  },
+  "access_status_counts": {
+    "metadata_only": 120,
+    "open_full_text": 346
+  },
+  "retry_queue_size": 0,
+  "ledger_path": "exploration/relationships/discovery/rel-breadth-001/results.jsonl",
+  "query_plan_path": "exploration/relationships/discovery/rel-breadth-001/query_plan.json"
+}

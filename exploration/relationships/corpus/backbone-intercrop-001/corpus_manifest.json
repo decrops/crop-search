@@ -1,0 +1,42 @@
+{
+  "corpus_version": "0.1.0",
+  "run_id": "backbone-intercrop-001",
+  "source_run": "backbone-intercrop-001",
+  "crop": "",
+  "manifest_version": "0.4.1",
+  "parser_version": "corpus-blocks-1",
+  "hashing": "sha256",
+  "created_at": "2026-06-30T07:26:18Z",
+  "manifest_revision": 1,
+  "corpus_content_hash": "25381f9887466abc66b9d13d079f59473da3e95ef8be4c857c96d0501edb1033",
+  "previous_corpus_content_hash": "",
+  "policy_hashes": {
+    "source_tier_policy": "ab19f832772248a144dd14ad215b64cff54bb3ae0e1ff7a36eaec2ca1105cc3d",
+    "fetch_policy": "76385744d2d046ee80abdadd7bf1bf369106ed20a76ffebee3cd2edac74efa28",
+    "query_templates": "5d4bde1fa41f3d3c193468791b34ac5327441579c076f20ddafe12b3b4f50db1",
+    "parameter_manifest": "7aefd2be069b2606ed6738885ae2afaff8295e6e1cb3b35db0522ffe3c9bf26f"
+  },
+  "capture_count": 35,
+  "document_count": 17,
+  "query_hit_count": 35,
+  "raw_summary_failure_count": 4,
+  "document_index": [
+    "doc-0439daadc6c46751",
+    "doc-0c82e5a44d2413c6",
+    "doc-19d1921cb67c2150",
+    "doc-1c968b1bad06eec4",
+    "doc-42572c81fa51db68",
+    "doc-52cef65b362fefc3",
+    "doc-6f7fa551bab3a96b",
+    "doc-8824d81fdd9be2d2",
+    "doc-8c467629c10bbdfc",
+    "doc-9960055540839e46",
+    "doc-a13c8cc59379511b",
+    "doc-a9c40580083d743b",
+    "doc-b7fac4ffc16c5e8f",
+    "doc-bfb88af1b6386c2c",
+    "doc-d3a0439cd03cbb9b",
+    "doc-d668a1ec5a244b2d",
+    "doc-f60a495da69933ae"
+  ]
+}

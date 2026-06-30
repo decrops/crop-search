@@ -1,0 +1,89 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-7c954-maize-soybean-intercrop-ler",
+      "run_id": "rel-breadth-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "soybean",
+      "object_node_type": "crop",
+      "object_node_id": "corn",
+      "subject_crop_id": "soybean",
+      "object_crop_id": "corn",
+      "subject_crop_group": "legume",
+      "object_crop_group": "cereal",
+      "relationship_mode": "intercrop",
+      "relationship_subtype": "land_equivalent_ratio",
+      "direction": "simultaneous",
+      "ordered_pair_key": "soybean|corn",
+      "canonical_relationship_key": "intercrop|soybean|corn",
+      "effect": "beneficial",
+      "claim_text": "Maize-soybean intercropping (one row of soybean between maize rows at 75 x 30 cm) under conservation agriculture produced a land-equivalent ratio above 1.2, indicating a yield advantage over sole cropping.",
+      "evidence_text": "The LER for both intercropping partterns were above 1.2. We recommend farmers to adopt the intercropping pattern of one row of soybean in between maize row spaced at 75 x 30 cm for better LER, and crop performance.",
+      "value": {
+        "value_type": "range",
+        "raw_value_text": "land equivalent ratio above 1.2",
+        "range_min": 1.2,
+        "qualifier": "land equivalent ratio"
+      },
+      "context": {
+        "arrangement": "one row of soybean between one row of maize",
+        "row_ratio": "1:1",
+        "management_system": "conservation agriculture, minimum tillage",
+        "location": "Uganda"
+      },
+      "mechanisms": [
+        "nitrogen"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://ccsenet.org/journal/index.php/jas/article/download/0/0/49614/53601"
+        ],
+        "source_title": "Effects of Intercropping on Maize and Soybean Yield Performance, Land Equivalent Ratio, and Maize Leaf Area in Conservation Agriculture",
+        "source_domain": "ccsenet.org",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-7c954c2943bb39d8"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "doc-7c954-cereal-legume-intercrop",
+      "run_id": "rel-breadth-001",
+      "subject_node_type": "functional_group",
+      "subject_node_id": "cereal",
+      "object_node_type": "functional_group",
+      "object_node_id": "legume",
+      "relationship_mode": "intercrop",
+      "relationship_subtype": "group_intercrop_compatibility",
+      "direction": "simultaneous",
+      "ordered_pair_key": "cereal|legume",
+      "canonical_relationship_key": "intercrop|cereal|legume",
+      "effect": "beneficial",
+      "claim_text": "Cereal-legume intercropping confers nutrient benefits through cereal-legume interactions, a recognized advantage of intercropping systems.",
+      "evidence_text": "This is because of the advantages of intercropping, especially nutrient benefits through cereal-legume interactions, alternative sustainable methods to manage biotic stress (pests, diseases, weeds), and crop failure risk management due to erratic weather.",
+      "value": {},
+      "context": {},
+      "mechanisms": [
+        "nitrogen",
+        "pest_suppression"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://ccsenet.org/journal/index.php/jas/article/download/0/0/49614/53601"
+        ],
+        "source_title": "Effects of Intercropping on Maize and Soybean Yield Performance, Land Equivalent Ratio, and Maize Leaf Area in Conservation Agriculture",
+        "source_domain": "ccsenet.org",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-7c954c2943bb39d8"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    }
+  ]
+}

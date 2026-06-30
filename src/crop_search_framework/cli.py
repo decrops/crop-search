@@ -25,6 +25,7 @@ from .eval_harness import eval_extraction, eval_retrieval
 from .promote import PromotionRunner
 from .parameters import query_plan_for_run
 from .relationships import (
+    DEFAULT_AGGREGATE_NODE_TYPES,
     DEFAULT_CROP_DIR,
     DEFAULT_SOURCE_TIER_POLICY_PATH,
     DEFAULT_VOCABULARY_PATH,
@@ -34,11 +35,14 @@ from .relationships import (
     write_relationship_query_plan,
 )
 from .relationship_pipeline import (
+    build_merged_relationship_graph,
     build_relationship_corpus,
     build_relationship_graph,
     eval_relationships,
+    fetch_crop_references,
     fetch_relationships,
     populate_relationship_matrix,
+    relationship_coverage_report,
     resolve_crop_relationship,
     select_relationship_fetch,
     validate_relationship_claims,
@@ -198,6 +202,7 @@ def plan_relationship_queries_command(args: argparse.Namespace) -> int:
         "include_self_pairs": not args.exclude_self_pairs,
         "pair_mode": args.pair_mode,
         "node_mode": args.node_mode,
+        "aggregate_node_types": args.aggregate_node_type or DEFAULT_AGGREGATE_NODE_TYPES,
     }
     if args.output:
         summary = write_relationship_query_plan(repo_root(), resolve_path(args.output), **kwargs)
@@ -227,6 +232,7 @@ def discover_relationships_command(args: argparse.Namespace) -> int:
         limit_queries=args.limit_queries,
         pair_mode=args.pair_mode,
         node_mode=args.node_mode,
+        aggregate_node_types=args.aggregate_node_type or DEFAULT_AGGREGATE_NODE_TYPES,
     )
     print(json.dumps(summary, indent=2))
     return 0
@@ -251,6 +257,18 @@ def resolve_crop_relationship_command(args: argparse.Namespace) -> int:
         repo_root(), args.run_id, args.subject, args.object, mode=args.mode,
     )
     print(json.dumps(resolved, indent=2))
+    return 0
+
+
+def relationship_coverage_report_command(args: argparse.Namespace) -> int:
+    report = relationship_coverage_report(
+        repo_root(),
+        args.run_id,
+        modes=tuple(args.mode) if args.mode else ("rotation", "intercrop"),
+        crop_dir=args.crop_dir,
+        persist_label=args.label,
+    )
+    print(json.dumps(report, indent=2))
     return 0
 
 
@@ -284,6 +302,13 @@ def fetch_relationships_command(args: argparse.Namespace) -> int:
 
 def build_relationship_corpus_command(args: argparse.Namespace) -> int:
     print(json.dumps(build_relationship_corpus(repo_root(), args.run_id), indent=2))
+    return 0
+
+
+def fetch_crop_references_command(args: argparse.Namespace) -> int:
+    print(json.dumps(fetch_crop_references(
+        repo_root(), args.run_id, crop_dir=args.crop_dir, limit=args.limit, crop_ids=args.crop,
+    ), indent=2))
     return 0
 
 
@@ -658,6 +683,14 @@ def parser() -> argparse.ArgumentParser:
         help="'crop' plans crop-pair queries; 'aggregate' plans group-level "
              "(family/functional-group/host-group) queries from the node catalog.",
     )
+    relationship_queries.add_argument(
+        "--aggregate-node-type",
+        action="append",
+        choices=["botanical_family", "functional_group", "host_group"],
+        default=None,
+        help="Restrict aggregate node_mode to these node types (repeatable). "
+             "Default: all three. Use 'functional_group' for the lean backbone.",
+    )
     relationship_queries.set_defaults(func=plan_relationship_queries_command)
 
     relationship_discover = subparsers.add_parser(
@@ -753,6 +786,14 @@ def parser() -> argparse.ArgumentParser:
              "(family/functional-group/host-group) pairs and defaults to "
              "textbook/institution/extension tiers.",
     )
+    relationship_discover.add_argument(
+        "--aggregate-node-type",
+        action="append",
+        choices=["botanical_family", "functional_group", "host_group"],
+        default=None,
+        help="Restrict aggregate node_mode to these node types (repeatable). "
+             "Default: all three. Use 'functional_group' for the lean backbone.",
+    )
     relationship_discover.set_defaults(func=discover_relationships_command)
 
     relationship_graph = subparsers.add_parser(
@@ -775,6 +816,26 @@ def parser() -> argparse.ArgumentParser:
         help="Relationship mode to resolve; defaults to rotation.",
     )
     resolve_relationship.set_defaults(func=resolve_crop_relationship_command)
+
+    rel_coverage = subparsers.add_parser(
+        "relationship-coverage-report",
+        help="Cross-run, tier-aware coverage: answerable pairs + peer-reviewed vs backbone grade",
+    )
+    rel_coverage.add_argument(
+        "--run-id",
+        action="append",
+        required=True,
+        help="Relationship run id to include (repeatable; claims are merged across runs).",
+    )
+    rel_coverage.add_argument(
+        "--mode",
+        action="append",
+        default=None,
+        help="Relationship mode(s) to report (repeatable). Default: rotation + intercrop.",
+    )
+    rel_coverage.add_argument("--crop-dir", default=DEFAULT_CROP_DIR, help="Crop profile directory")
+    rel_coverage.add_argument("--label", default=None, help="Output label for coverage-<label>.json")
+    rel_coverage.set_defaults(func=relationship_coverage_report_command)
 
     rel_select = subparsers.add_parser(
         "select-relationship-fetch",
@@ -800,6 +861,16 @@ def parser() -> argparse.ArgumentParser:
     )
     rel_corpus.add_argument("run_id", help="Relationship run id")
     rel_corpus.set_defaults(func=build_relationship_corpus_command)
+
+    rel_refs = subparsers.add_parser(
+        "fetch-crop-references",
+        help="Fetch each crop's main reference article (Wikipedia) into the relationship raw layer, bypassing pair-template discovery",
+    )
+    rel_refs.add_argument("run_id", help="Relationship run id")
+    rel_refs.add_argument("--crop-dir", default=DEFAULT_CROP_DIR, help="Crop profile directory")
+    rel_refs.add_argument("--crop", action="append", default=None, help="Restrict to specific crop id(s); repeatable.")
+    rel_refs.add_argument("--limit", type=int, default=None, help="Cap number of crops fetched")
+    rel_refs.set_defaults(func=fetch_crop_references_command)
 
     rel_validate = subparsers.add_parser(
         "validate-relationship-claims",

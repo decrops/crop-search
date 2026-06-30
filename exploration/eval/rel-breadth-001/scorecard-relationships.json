@@ -1,0 +1,11 @@
+{
+  "run_id": "rel-breadth-001",
+  "eval_type": "relationships",
+  "generated_at": "2026-06-29T14:46:13Z",
+  "matrix_available": true,
+  "gold_records": 4,
+  "metrics": {
+    "pair_recall": 0.75,
+    "effect_accuracy": 1.0
+  }
+}

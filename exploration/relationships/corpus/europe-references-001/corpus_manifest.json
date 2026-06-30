@@ -1,0 +1,29 @@
+{
+  "corpus_version": "0.1.0",
+  "run_id": "europe-references-001",
+  "source_run": "europe-references-001",
+  "crop": "",
+  "manifest_version": "0.4.1",
+  "parser_version": "corpus-blocks-1",
+  "hashing": "sha256",
+  "created_at": "2026-06-30T05:34:14Z",
+  "manifest_revision": 1,
+  "corpus_content_hash": "d3ae3b806dda23c95accc1ce3e060cdcb5a63cc13df83b5d4d7c2e5ffe29dc02",
+  "previous_corpus_content_hash": "",
+  "policy_hashes": {
+    "source_tier_policy": "abc6ea6a9df76b3212d342bb6d1befd7ac87906937b13144e9a5ed0c93a372f8",
+    "fetch_policy": "76385744d2d046ee80abdadd7bf1bf369106ed20a76ffebee3cd2edac74efa28",
+    "query_templates": "5d4bde1fa41f3d3c193468791b34ac5327441579c076f20ddafe12b3b4f50db1",
+    "parameter_manifest": "7aefd2be069b2606ed6738885ae2afaff8295e6e1cb3b35db0522ffe3c9bf26f"
+  },
+  "capture_count": 4,
+  "document_count": 4,
+  "query_hit_count": 4,
+  "raw_summary_failure_count": 0,
+  "document_index": [
+    "doc-0cf1a1999a2b82b5",
+    "doc-3a43daecc0ab7548",
+    "doc-a6440c97b07bea0b",
+    "doc-cbe5cfdf7c2118a9"
+  ]
+}

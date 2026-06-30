@@ -1,0 +1,50 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-5f22-corn-soybean-rotation-soc",
+      "run_id": "rel-breadth-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "corn",
+      "object_node_type": "crop",
+      "object_node_id": "soybean",
+      "subject_crop_id": "corn",
+      "object_crop_id": "soybean",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "legume",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "previous_crop_effect",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "corn|soybean",
+      "canonical_relationship_key": "rotation|corn|soybean",
+      "effect": "beneficial",
+      "claim_text": "Under no-till in the US Midwest, the corn-soybean rotation increased soil organic carbon and labile carbon pools relative to continuous soybean, driven by C-enriched corn residue followed by N-rich soybean residue.",
+      "evidence_text": "An increase in SOC across the sites, except Ohio-Hoytville, under CS-C compared to SS was due to increased deposition of C inputs that consists of larger amounts of C-enriched corn biomass followed by lesser amounts of highly decomposable N-rich soybean biomass.",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Alabama, Indiana, and Ohio, USA",
+        "management_system": "rainfed transitional no-till corn-soybean"
+      },
+      "mechanisms": [
+        "nitrogen",
+        "residue",
+        "soil_structure"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1371/journal.pone.0275198"
+        ],
+        "source_title": "Gypsum, crop rotation, and cover crop impacts on soil organic carbon and biological dynamics in rainfed transitional no-till corn-soybean systems",
+        "source_domain": "journals.plos.org",
+        "document_type": "html",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-5f22a02dcd36a51b"
+      },
+      "confidence": "medium",
+      "status": "accepted"
+    }
+  ]
+}

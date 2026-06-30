@@ -1,0 +1,26 @@
+{
+  "run_id": "europe-references-001",
+  "stage": "fetch_crop_references",
+  "generated_at": "2026-06-30T05:34:13Z",
+  "crops": 3,
+  "captures_written": 3,
+  "fetch_successes": 3,
+  "fetch_failures": 0,
+  "references": [
+    {
+      "crop_id": "corn",
+      "reference_url": "https://en.wikipedia.org/wiki/Corn",
+      "access_status": "open_full_text"
+    },
+    {
+      "crop_id": "sugar_beet",
+      "reference_url": "https://en.wikipedia.org/wiki/Sugar_beet",
+      "access_status": "open_full_text"
+    },
+    {
+      "crop_id": "sunflower",
+      "reference_url": "https://en.wikipedia.org/wiki/Sunflower",
+      "access_status": "open_full_text"
+    }
+  ]
+}

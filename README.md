@@ -64,6 +64,10 @@ crop-framework resolve-crop-relationship relationship-rotation-smoke --subject "
 # evidence is canonicalized so one claim answers both crop orderings.
 crop-framework discover-relationships intercrop-smoke --mode intercrop --queries-per-pair 1 --limit-queries 5
 crop-framework resolve-crop-relationship intercrop-smoke --subject soybean --object corn --mode intercrop
+# Reference articles: fetch each crop's main encyclopedia page (rotation prose)
+# directly, bypassing hostile-publisher PDFs and noisy pair-template search.
+crop-framework fetch-crop-references crop-refs --crop sugar_beet --crop sunflower
+crop-framework build-relationship-corpus crop-refs
 crop-framework run-exploration --run-config config/runs/pilot-us-corn-iowa.json --manifest config/mcp/servers.local.json
 # Durable raw layer: dedupe captures into a content-addressed document/block store,
 # then a QA report that gates the (expensive) Opus extraction pass.

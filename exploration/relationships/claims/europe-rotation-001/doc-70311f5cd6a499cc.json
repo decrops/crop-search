@@ -1,0 +1,92 @@
+{
+  "claims": [
+    {
+      "relationship_claim_id": "doc-70311-wheat-after-potato-rotation",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "wheat",
+      "object_node_type": "crop",
+      "object_node_id": "potato",
+      "subject_crop_id": "wheat",
+      "object_crop_id": "potato",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "root_crop",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "rotation_interval",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "wheat|potato",
+      "canonical_relationship_key": "rotation|wheat|potato",
+      "effect": "compatible",
+      "claim_text": "Wheat follows potato within an established potato-wheat-barley three-year crop rotation in a long-term European field experiment.",
+      "evidence_text": "In each of the three sections of experimental fields, potato (Solanum tuberosum L.) ... were rotated in that order every 3 years ... Section A (samples were collected after potato harvesting), Section B (field vegetated with wheat), Section C (after barley harvesting).",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Europe",
+        "temporal_offset": "three-year rotation",
+        "management_system": "long-term fertilization field trial"
+      },
+      "mechanisms": [],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1186/s40793-022-00406-4"
+        ],
+        "source_title": "Soil microbial community response to crop rotation and fertilization in a long-term field experiment",
+        "source_domain": "environmentalmicrobiome.biomedcentral.com",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-70311f5cd6a499cc"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    },
+    {
+      "relationship_claim_id": "doc-70311-barley-after-wheat-rotation",
+      "run_id": "europe-rotation-001",
+      "subject_node_type": "crop",
+      "subject_node_id": "barley",
+      "object_node_type": "crop",
+      "object_node_id": "wheat",
+      "subject_crop_id": "barley",
+      "object_crop_id": "wheat",
+      "subject_crop_group": "cereal",
+      "object_crop_group": "cereal",
+      "relationship_mode": "rotation",
+      "relationship_subtype": "rotation_interval",
+      "direction": "object_precedes_subject",
+      "ordered_pair_key": "barley|wheat",
+      "canonical_relationship_key": "rotation|barley|wheat",
+      "effect": "conditional",
+      "claim_text": "Barley follows wheat within an established potato-wheat-barley three-year rotation; cereal-after-cereal sequences carry shared cereal disease pressure that conditions the benefit.",
+      "evidence_text": "potato (Solanum tuberosum L.) ... were rotated in that order every 3 years ... Section B (field vegetated with wheat), Section C (samples were collected after barley harvesting).",
+      "value": {
+        "value_type": "text"
+      },
+      "context": {
+        "location": "Europe",
+        "temporal_offset": "three-year rotation",
+        "disease_pressure": "shared cereal pathogens"
+      },
+      "mechanisms": [
+        "disease_carryover"
+      ],
+      "provenance": {
+        "source_urls": [
+          "https://doi.org/10.1186/s40793-022-00406-4"
+        ],
+        "source_title": "Soil microbial community response to crop rotation and fertilization in a long-term field experiment",
+        "source_domain": "environmentalmicrobiome.biomedcentral.com",
+        "document_type": "pdf",
+        "source_tier_id": "peer_reviewed_science",
+        "accessed_at": "2026-06-29T00:00:00Z",
+        "extraction_method": "opus",
+        "document_id": "doc-70311f5cd6a499cc"
+      },
+      "confidence": "low",
+      "status": "accepted"
+    }
+  ]
+}

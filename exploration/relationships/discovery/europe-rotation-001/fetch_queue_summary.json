@@ -1,0 +1,17 @@
+{
+  "run_id": "europe-rotation-001",
+  "stage": "relationship_fetch_selection",
+  "generated_at": "2026-06-29T15:27:50Z",
+  "ledger_rows": 380,
+  "unique_source_pairs": 296,
+  "selected": 90,
+  "skipped": 206,
+  "skip_reason_counts": {
+    "domain_cap": 41,
+    "junk_doi": 7,
+    "non_article_type": 14,
+    "pair_mode_saturated": 105,
+    "relevance_gated": 39
+  },
+  "distinct_pairs_selected": 23
+}

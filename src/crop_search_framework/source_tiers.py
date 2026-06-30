@@ -39,6 +39,35 @@ def selected_source_tiers(repo_root: Path, run_config: Dict[str, Any]) -> List[D
     return [tiers_by_id[tier_id] for tier_id in requested_ids]
 
 
+DEFAULT_SOURCE_TIER_MANIFEST_PATH = "config/source-tiers/default.json"
+
+# The "evidence" band is the peer-reviewed upgrade target; every other tier is
+# part of the reference "backbone" that the upgrade is meant to replace.
+EVIDENCE_BAND_TIERS = frozenset({"peer_reviewed_science"})
+
+
+def tier_rank_index(
+    repo_root: Path, manifest_path: str = DEFAULT_SOURCE_TIER_MANIFEST_PATH
+) -> Dict[str, int]:
+    """Map ``tier_id -> priority`` (lower = more trusted) from the manifest."""
+    manifest = load_source_tier_manifest(repo_root, manifest_path)
+    return {tier["tier_id"]: int(tier["priority"]) for tier in manifest["tiers"]}
+
+
+def tier_rank(tier_id: str, rank_index: Dict[str, int]) -> int:
+    """Resolve a tier's rank. Unknown / missing tiers rank worst (max defined
+    priority + 1) so a typo'd tier never silently outranks a real one."""
+    if tier_id in rank_index:
+        return rank_index[tier_id]
+    return (max(rank_index.values()) + 1) if rank_index else 1
+
+
+def tier_band(tier_id: str) -> str:
+    """Classify a tier as the peer-reviewed ``evidence`` band or the reference
+    ``backbone`` band."""
+    return "evidence" if tier_id in EVIDENCE_BAND_TIERS else "backbone"
+
+
 def source_tier_score_bonus(title: str, snippet: str, domain: str, url: str) -> int:
     lowered = " ".join([title, snippet, domain, url]).lower()
     best_bonus = 0

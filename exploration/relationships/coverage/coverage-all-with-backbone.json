@@ -1,0 +1,57 @@
+{
+  "run_ids": [
+    "relationship-rotation-001",
+    "rel-breadth-001",
+    "europe-rotation-001",
+    "backbone-rotation-001",
+    "backbone-intercrop-001"
+  ],
+  "modes": [
+    "rotation",
+    "intercrop"
+  ],
+  "generated_at": "2026-06-30T07:32:31Z",
+  "crop_count": 11,
+  "total_pairs": 55,
+  "unknown_crops": [],
+  "merged_claim_count": 30,
+  "accepted_claim_count": 7,
+  "modes_detail": {
+    "rotation": {
+      "directional": true,
+      "accepted": {
+        "answerable": 5,
+        "peer_reviewed": 5,
+        "reference_backbone": 0,
+        "none": 50
+      },
+      "provisional": {
+        "answerable": 25,
+        "peer_reviewed": 11,
+        "reference_backbone": 14,
+        "none": 30
+      },
+      "upgrade_candidates": [],
+      "tier_superseded_conflicts": [],
+      "ambiguous_effects": []
+    },
+    "intercrop": {
+      "directional": false,
+      "accepted": {
+        "answerable": 0,
+        "peer_reviewed": 0,
+        "reference_backbone": 0,
+        "none": 55
+      },
+      "provisional": {
+        "answerable": 4,
+        "peer_reviewed": 4,
+        "reference_backbone": 0,
+        "none": 51
+      },
+      "upgrade_candidates": [],
+      "tier_superseded_conflicts": [],
+      "ambiguous_effects": []
+    }
+  }
+}

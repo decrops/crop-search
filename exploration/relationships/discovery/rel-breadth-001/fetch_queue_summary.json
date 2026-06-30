@@ -1,0 +1,17 @@
+{
+  "run_id": "rel-breadth-001",
+  "stage": "relationship_fetch_selection",
+  "generated_at": "2026-06-29T14:42:04Z",
+  "ledger_rows": 466,
+  "unique_source_pairs": 401,
+  "selected": 103,
+  "skipped": 298,
+  "skip_reason_counts": {
+    "domain_cap": 126,
+    "junk_doi": 20,
+    "non_article_type": 11,
+    "pair_mode_saturated": 118,
+    "relevance_gated": 23
+  },
+  "distinct_pairs_selected": 26
+}

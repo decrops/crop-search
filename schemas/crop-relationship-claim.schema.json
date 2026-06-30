@@ -178,7 +178,7 @@
     "provenance": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["source_urls", "source_title", "source_domain", "document_type", "accessed_at", "extraction_method"],
+      "required": ["source_urls", "source_title", "source_domain", "document_type", "source_tier_id", "accessed_at", "extraction_method"],
       "properties": {
         "source_urls": {
           "type": "array",

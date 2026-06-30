@@ -25,7 +25,12 @@ class SourceTierTests(unittest.TestCase):
     def test_source_tier_manifest_is_valid(self) -> None:
         manifest = load_source_tier_manifest(REPO_ROOT, "config/source-tiers/default.json")
         self.assertEqual(manifest["default_policy_id"], "comprehensive_accessible")
-        self.assertEqual(len(manifest["tiers"]), 5)
+        # 6 tiers are defined (for ranking), but reference_encyclopedia is kept
+        # out of the default discovery tier_order so it is never silently planned.
+        self.assertEqual(len(manifest["tiers"]), 6)
+        default_policy = next(p for p in manifest["policies"] if p["policy_id"] == "comprehensive_accessible")
+        self.assertNotIn("reference_encyclopedia", default_policy["tier_order"])
+        self.assertEqual(len(default_policy["tier_order"]), 5)
 
     def test_global_query_plan_targets_all_accessible_tiers_without_us_scope(self) -> None:
         run_config_path = REPO_ROOT / "config" / "runs" / "pilot-global-wheat.json"

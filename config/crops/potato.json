@@ -1,0 +1,36 @@
+{
+  "crop_id": "potato",
+  "label": "Potato",
+  "crop_group": "root_crop",
+  "aliases": [
+    "potato",
+    "potatoes",
+    "ware potato",
+    "seed potato"
+  ],
+  "scientific_names": [
+    "Solanum tuberosum"
+  ],
+  "growth_stage_terms": [
+    "sprouting",
+    "emergence",
+    "vegetative growth",
+    "tuber initiation",
+    "tuber bulking",
+    "maturation",
+    "senescence"
+  ],
+  "production_context_terms": [
+    "root crop",
+    "tuber crop",
+    "row crop",
+    "ware potato",
+    "seed potato"
+  ],
+  "source_bias_terms": [
+    "extension",
+    "agronomy",
+    "crop guide",
+    "production guide"
+  ]
+}
